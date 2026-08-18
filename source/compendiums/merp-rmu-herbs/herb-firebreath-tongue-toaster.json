@@ -1,0 +1,79 @@
+{
+  "key": "herb-firebreath-tongue-toaster",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Souffle-de-Feu (Firebreath / Grille-Langue / Tongue-toaster)",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-firebreath-tongue-toaster",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-S-4-SE",
+        "sourceCost": "4gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "S",
+        "regionCode": "SE",
+        "sourceVariants": [],
+        "sourceName": "Firebreath (Tongue-toaster)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Medium",
+      "form": "Fruit",
+      "prep": "apply",
+      "season": "",
+      "cost": "4gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Grille-Langue (Tongue-toaster)</strong>.</p><p>Ce fruit se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La pulpe fraîche arrête immédiatement le saignement et permet de récupérer 1 à 10 points de vie. Le fruit doit être utilisé peu après la cueillette.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Souffle-de-Feu (Firebreath / Grille-Langue / Tongue-toaster)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Grille-Langue (Tongue-toaster)</strong>.</p><p>Ce fruit se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La pulpe fraîche arrête immédiatement le saignement et permet de récupérer 1 à 10 points de vie. Le fruit doit être utilisé peu après la cueillette.</p>"
+      }
+    },
+    "en": {
+      "name": "Firebreath (Tongue-toaster)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Tongue-toaster</strong>.</p><p>This fruit is found chiefly in mild temperate climates, especially in short-grass plains, and is best known in south-eastern Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The fresh pulp stops bleeding immediately and restores 1–10 concussion hits. The fruit must be used soon after picking.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

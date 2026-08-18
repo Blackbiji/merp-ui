@@ -1,0 +1,79 @@
+{
+  "key": "herb-aloe-heat-heal",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Aloe (Guérit-Brûlure / Heat-heal)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-aloe-heat-heal",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-H-4-U",
+        "sourceCost": "5bp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "H",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Aloe (Heat-heal)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Medium",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "5bp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Guérit-Brûlure (Heat-heal)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La pulpe des feuilles double la vitesse de guérison des brûlures et des petites coupures ; sur des lésions dues à la chaleur, elle restitue également environ cinq points de vie.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Aloe (Guérit-Brûlure / Heat-heal)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Guérit-Brûlure (Heat-heal)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La pulpe des feuilles double la vitesse de guérison des brûlures et des petites coupures ; sur des lésions dues à la chaleur, elle restitue également environ cinq points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Aloe (Heat-heal)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Heat-heal</strong>.</p><p>This leaf is found chiefly in cool temperate climates, especially in heaths, scrublands, and moors, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The pulp of the leaves doubles the healing rate of burns and minor cuts; on heat injuries it also restores about 5 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

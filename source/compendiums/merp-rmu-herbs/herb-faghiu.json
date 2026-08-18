@@ -1,0 +1,78 @@
+{
+  "key": "herb-faghiu",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Faghiu",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-faghiu",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-M-9-NW",
+        "sourceCost": "330gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "M",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Faghiu"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Absurd",
+      "form": "Flower",
+      "prep": "brew",
+      "season": "",
+      "cost": "330gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les montagnes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La potion pousse sa victime à servir ou aimer celui qui la lui a donnée pendant 1 à 100 jours, sans pour autant l’amener à se faire volontairement du mal.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Faghiu",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les montagnes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La potion pousse sa victime à servir ou aimer celui qui la lui a donnée pendant 1 à 100 jours, sans pour autant l’amener à se faire volontairement du mal.</p>"
+      }
+    },
+    "en": {
+      "name": "Faghiu",
+      "system": {
+        "notes": "<p>This flower is found chiefly in frigid climates, especially in mountains, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains of legendary rarity.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The potion compels its victim to serve or love the person who gave it to them for 1–100 days, though it will not make the victim willingly harm themself.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

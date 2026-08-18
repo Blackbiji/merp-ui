@@ -1,0 +1,2126 @@
+{
+  "key": "culture-house-bavor",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Maison de Bávor — Barbes-Raides",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-house-bavor",
+        "canonicalKey": "culture-house-bavor",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-khazad",
+        "availability": {
+          "ages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-house-bavor-age-1",
+            "folderKey": "cultures-age-1-khazad",
+            "document": {
+              "name": "Maison de Bávor — Barbes-Raides",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-bavor-age-1",
+                  "canonicalKey": "culture-house-bavor",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-1",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Bávor — Barbes-Raides",
+                "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Bávor — Barbes-Raides",
+                "system": {
+                  "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                  "culture": "Maison de Bávor — Barbes-Raides"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Bávor) — Stiffbeards",
+                "system": {
+                  "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+                  "culture": "Khazâd (House of Bávor) — Stiffbeards"
+                }
+              }
+            }
+          },
+          "2": {
+            "sourceKey": "culture-house-bavor-age-2",
+            "folderKey": "cultures-age-2-khazad",
+            "document": {
+              "name": "Maison de Bávor — Barbes-Raides",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-bavor-age-2",
+                  "canonicalKey": "culture-house-bavor",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-2",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Bávor — Barbes-Raides",
+                "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Bávor — Barbes-Raides",
+                "system": {
+                  "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                  "culture": "Maison de Bávor — Barbes-Raides"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Bávor) — Stiffbeards",
+                "system": {
+                  "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+                  "culture": "Khazâd (House of Bávor) — Stiffbeards"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-house-bavor-age-3",
+            "folderKey": "cultures-age-3-khazad",
+            "document": {
+              "name": "Maison de Bávor — Barbes-Raides",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-bavor-age-3",
+                  "canonicalKey": "culture-house-bavor",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-3",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Bávor — Barbes-Raides",
+                "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Bávor — Barbes-Raides",
+                "system": {
+                  "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                  "culture": "Maison de Bávor — Barbes-Raides"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Bávor) — Stiffbeards",
+                "system": {
+                  "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+                  "culture": "Khazâd (House of Bávor) — Stiffbeards"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-house-bavor-age-4",
+            "folderKey": "cultures-age-4-khazad",
+            "document": {
+              "name": "Maison de Bávor — Barbes-Raides",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-bavor-age-4",
+                  "canonicalKey": "culture-house-bavor",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-4",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Bávor — Barbes-Raides",
+                "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Bávor — Barbes-Raides",
+                "system": {
+                  "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+                  "culture": "Maison de Bávor — Barbes-Raides"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Bávor) — Stiffbeards",
+                "system": {
+                  "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+                  "culture": "Khazâd (House of Bávor) — Stiffbeards"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Maison de Bávor — Barbes-Raides",
+      "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Underground",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 10,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 0
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Maison de Bávor — Barbes-Raides",
+      "system": {
+        "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+        "culture": "Maison de Bávor — Barbes-Raides"
+      }
+    },
+    "en": {
+      "name": "Khazâd (House of Bávor) — Stiffbeards",
+      "system": {
+        "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+        "culture": "Khazâd (House of Bávor) — Stiffbeards"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-house-bavor-age-1",
+      "folderKey": "cultures-age-1-khazad",
+      "document": {
+        "name": "Maison de Bávor — Barbes-Raides",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-bavor-age-1",
+            "canonicalKey": "culture-house-bavor",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-1",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Bávor — Barbes-Raides",
+          "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Bávor — Barbes-Raides",
+          "system": {
+            "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+            "culture": "Maison de Bávor — Barbes-Raides"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Bávor) — Stiffbeards",
+          "system": {
+            "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+            "culture": "Khazâd (House of Bávor) — Stiffbeards"
+          }
+        }
+      }
+    },
+    "2": {
+      "sourceKey": "culture-house-bavor-age-2",
+      "folderKey": "cultures-age-2-khazad",
+      "document": {
+        "name": "Maison de Bávor — Barbes-Raides",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-bavor-age-2",
+            "canonicalKey": "culture-house-bavor",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-2",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Bávor — Barbes-Raides",
+          "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Bávor — Barbes-Raides",
+          "system": {
+            "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+            "culture": "Maison de Bávor — Barbes-Raides"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Bávor) — Stiffbeards",
+          "system": {
+            "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+            "culture": "Khazâd (House of Bávor) — Stiffbeards"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-house-bavor-age-3",
+      "folderKey": "cultures-age-3-khazad",
+      "document": {
+        "name": "Maison de Bávor — Barbes-Raides",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-bavor-age-3",
+            "canonicalKey": "culture-house-bavor",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-3",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Bávor — Barbes-Raides",
+          "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Bávor — Barbes-Raides",
+          "system": {
+            "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+            "culture": "Maison de Bávor — Barbes-Raides"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Bávor) — Stiffbeards",
+          "system": {
+            "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+            "culture": "Khazâd (House of Bávor) — Stiffbeards"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-house-bavor-age-4",
+      "folderKey": "cultures-age-4-khazad",
+      "document": {
+        "name": "Maison de Bávor — Barbes-Raides",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-bavor-age-4",
+            "canonicalKey": "culture-house-bavor",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-4",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Bávor — Barbes-Raides",
+          "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Bávor — Barbes-Raides",
+          "system": {
+            "description": "<h1>Maison de Bávor — Barbes-Raides</h1>\n<p>Les <strong>Khazâd de la Maison de Bávor</strong>, ou <strong>Barbes-Raides</strong>, descendent du Père Bávor, éveillé sous les Montagnes de Fer aux côtés de Thelór. Leur histoire est une succession de migrations et de fondations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — qui a fait de cette Maison l’une des plus dispersées du monde nain sans jamais dissoudre son identité.</p>\n<h2>Bávor et les premières demeures</h2>\n<p>Bávor conduisit son peuple vers les Ered Angûrath. Une branche menée par Runin le Têtu fonda Kablik-madur dans l’Échine d’Uldona. Après sa destruction à la fin du Premier Âge, les survivants creusèrent Falek-dim, la Demeure des Eaux Mouvantes.</p>\n<h2>Sauron et la migration au Sud</h2>\n<p>Au Deuxième Âge, les seigneurs de Bávor furent d’abord séduits par Annatar. L’essor du Mordor et l’installation de populations destinées à Barad-dûr rendirent la région de plus en plus dangereuse. Les Barbes-Raides partirent alors vers les Ered Harmal et fondèrent Námagalûz.</p>\n<h2>Les Montagnes Jaunes</h2>\n<p>La recherche du mithril conduisit ensuite une partie de la Maison vers les Ered Laranor. Mablâd-dûm fut fondée en 1211 D.A., Narad-dûm en 777 T.A. et Baruzimabûl, « Flamme-Noire », en 1111 T.A. D’autres colonies apparurent autour de la baie d’Ormal, dans les montagnes de Treddas et de Pontym.</p>\n<h2>Apparence</h2>\n<p>Les Barbes-Raides sont compacts et puissants, avec un teint souvent rougeaud et des cheveux noirs, roux ou brun foncé. Leur barbe est généralement taillée plus courte que chez d’autres Maisons, tandis que leurs cheveux sont portés très longs et tressés.</p>\n<h2>Artisanat et mines</h2>\n<p>Mine, Spéléologie, Travail de la pierre et du métal structurent leur Culture. La fondation répétée de nouvelles cités a développé une forte tradition de prospection et d’exploration souterraine. Les objets solides, utiles et précisément fabriqués expriment autant le prestige que la richesse brute.</p>\n<h2>Relations</h2>\n<p>La Maison conserve des liens anciens avec les Poings-de-Fer de Thelór. Les relations avec les Kuorind sont amicales, tandis que certaines communautés pêdi se montrent beaucoup plus méfiantes. La mémoire de Sauron et des Orcs nourrit une profonde prudence envers les puissances cherchant à obtenir l’accès aux secrets khazâd.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le lieu d’origine est essentiel : Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl ou les colonies d’Ormal produisent des expériences différentes. La Maison de Bávor se définit moins par une seule montagne que par sa capacité à reconstruire ailleurs sans perdre ses lignées, ses métiers et sa mémoire.</p>",
+            "culture": "Maison de Bávor — Barbes-Raides"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Bávor) — Stiffbeards",
+          "system": {
+            "description": "<h1>Khazâd (House of Bávor) — Stiffbeards</h1>\n<p>The <strong>Khazâd of the House of Bávor</strong>, or <strong>Stiffbeards</strong>, descend from Father Bávor, who awoke beneath the Iron Mountains alongside Thelór. Their history is a succession of migrations and foundations — Ered Angûrath, Kablik-madur, Falek-dim, Námagalûz, Ered Laranor — that made this House one of the most widely scattered in the Dwarven world without ever dissolving its identity.</p>\n<h2>Bávor and the first dwellings</h2>\n<p>Bávor led his people toward the Ered Angûrath. A branch led by Runin the Stubborn founded Kablik-madur in the Spine of Uldona. After its destruction at the end of the First Age, the survivors excavated Falek-dim, the Mansion of Moving Waters.</p>\n<h2>Sauron and the migration south</h2>\n<p>During the Second Age, the lords of Bávor were initially seduced by Annatar. The rise of Mordor and the settlement of populations intended for Barad-dûr made the region increasingly dangerous. The Stiffbeards then moved toward the Ered Harmal and founded Námagalûz.</p>\n<h2>The Yellow Mountains</h2>\n<p>The search for mithril later led part of the House toward the Ered Laranor. Mablâd-dûm was founded in S.A. 1211, Narad-dûm in T.A. 777 and Baruzimabûl, “Black Flame”, in T.A. 1111. Other colonies appeared around the Bay of Ormal and in the mountains of Treddas and Pontym.</p>\n<h2>Appearance</h2>\n<p>Stiffbeards are compact and powerful, often ruddy in complexion with black, red or dark-brown hair. Their beards are generally cut shorter than those of other Houses, while their hair is worn very long and braided.</p>\n<h2>Craft and mining</h2>\n<p>Mining, Caving, Stonecraft and Metalcraft structure their Culture. Repeatedly founding new cities has developed a strong tradition of prospecting and underground exploration. Solid, useful and precisely made objects express prestige as much as raw wealth does.</p>\n<h2>Relations</h2>\n<p>The House maintains ancient ties with the Ironfists of Thelór. Relations with the Kuorind are friendly, while some Pêdi communities are far more suspicious. The memory of Sauron and the Orcs feeds deep caution toward powers seeking access to Khazâd secrets.</p>\n<h2>Place in character creation</h2>\n<p>Place of origin is essential: Námagalûz, Mablâd-dûm, Narad-dûm, Baruzimabûl or the colonies of Ormal produce different experiences. The House of Bávor is defined less by a single mountain than by its ability to rebuild elsewhere without losing its lineages, crafts or memory.</p>",
+            "culture": "Khazâd (House of Bávor) — Stiffbeards"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Khazâd"
+    ],
+    "en": [
+      "Khazâd"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-khazad"
+  ]
+}

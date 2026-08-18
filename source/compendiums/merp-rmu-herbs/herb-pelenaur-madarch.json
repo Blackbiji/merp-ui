@@ -1,0 +1,79 @@
+{
+  "key": "herb-pelenaur-madarch",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-circulatoires",
+  "document": {
+    "name": "Pelenaur (Madarch)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-pelenaur-madarch",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-U-6-NW",
+        "sourceCost": "80gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Circulatoire"
+        ],
+        "poisonType": "Circulatoire",
+        "climateCode": "m",
+        "localeCode": "U",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Pelenaur (Madarch)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Very Hard",
+      "form": "Mushroom",
+      "prep": "paste",
+      "season": "",
+      "cost": "80gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 2 obtenu à partir de Madarch non dilué. Les blessures non guéries peuvent se rouvrir et saigner deux fois plus vite ; un échec sévère peut faire éclater les vaisseaux sanguins et tuer.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pelenaur (Madarch)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 2 obtenu à partir de Madarch non dilué. Les blessures non guéries peuvent se rouvrir et saigner deux fois plus vite ; un échec sévère peut faire éclater les vaisseaux sanguins et tuer.</p>"
+      }
+    },
+    "en": {
+      "name": "Pelenaur (Madarch)",
+      "system": {
+        "notes": "<p>This mushroom is found chiefly in mild temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 2 circulatory poison made from undiluted Madarch. Unhealed wounds may reopen and bleed at twice the normal rate; a severe failure can rupture the blood vessels and kill.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Circulatoires"
+    ],
+    "en": [
+      "Circulatory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-circulatoires"
+  ]
+}

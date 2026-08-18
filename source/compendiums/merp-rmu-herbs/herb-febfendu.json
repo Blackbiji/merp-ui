@@ -1,0 +1,79 @@
+{
+  "key": "herb-febfendu",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Febfendu",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-febfendu",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-F-4-W",
+        "sourceCost": "90gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "F",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Febfendu"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Medium",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "90gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction est utilisée pour restaurer l’ouïe perdue à la suite d’une lésion organique.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 24,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Febfendu",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction est utilisée pour restaurer l’ouïe perdue à la suite d’une lésion organique.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Febfendu",
+      "system": {
+        "notes": "<p>This root is found chiefly in cold climates, especially in freshwater banks and shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction is used to restore hearing lost through organic injury.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-vinuk-vasha",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Vinuk (Vasha)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-vinuk-vasha",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-S-5-U",
+        "sourceCost": "2gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Étourdissement"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "S",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Vinuk (Vasha)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Hard",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "2gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction dissipe 1 à 10 rounds d’étourdissement. La racine se conserve environ une semaine.</p>",
+      "addictionFactor": 4,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Vinuk (Vasha)",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction dissipe 1 à 10 rounds d’étourdissement. La racine se conserve environ une semaine.</p>"
+      }
+    },
+    "en": {
+      "name": "Vinuk (Vasha)",
+      "system": {
+        "notes": "<p>This root is found chiefly in semi-arid climates, especially in short-grass plains, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction relieves 1–10 rounds of stun. The root keeps for about one week.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

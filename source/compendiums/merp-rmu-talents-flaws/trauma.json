@@ -1,0 +1,64 @@
+{
+  "key": "trauma",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-mental",
+  "document": {
+    "name": "Traumatisme (Trauma)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "trauma",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Discipline",
+      "name": "Trauma",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Traumatisme (Trauma)</h1><h2>Description</h2><p>Un événement passé vous a laissé une blessure psychologique durable. Un type de situation, de lieu, de personne ou d’expérience agit comme déclencheur et peut provoquer peur, sidération, fuite, colère ou autre réaction adaptée au traumatisme défini.</p><h2>Tiers</h2><p>Plus le Tier est élevé, plus le déclencheur est fréquent, la réaction difficile à maîtriser ou les conséquences importantes.</p><h2>Adaptation MERP-RMU</h2><p>Le déclencheur et la réaction doivent être déterminés avec le MJ. Lorsqu’ils surviennent, un Jet de Résistance ou une Manœuvre de Discipline peut être exigé ; l’échec entraîne une conséquence cohérente avec le traumatisme.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_trauma.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Traumatisme (Trauma)",
+      "system": {
+        "description": "<h1>Traumatisme (Trauma)</h1><h2>Description</h2><p>Un événement passé vous a laissé une blessure psychologique durable. Un type de situation, de lieu, de personne ou d’expérience agit comme déclencheur et peut provoquer peur, sidération, fuite, colère ou autre réaction adaptée au traumatisme défini.</p><h2>Tiers</h2><p>Plus le Tier est élevé, plus le déclencheur est fréquent, la réaction difficile à maîtriser ou les conséquences importantes.</p><h2>Adaptation MERP-RMU</h2><p>Le déclencheur et la réaction doivent être déterminés avec le MJ. Lorsqu’ils surviennent, un Jet de Résistance ou une Manœuvre de Discipline peut être exigé ; l’échec entraîne une conséquence cohérente avec le traumatisme.</p>"
+      }
+    },
+    "en": {
+      "name": "Trauma",
+      "system": {
+        "description": "<h1>Trauma</h1><h2>Description</h2><p>A past event has left you with a lasting psychological wound. A type of situation, place, person, or experience acts as a trigger and may provoke fear, freezing, flight, anger, or another reaction appropriate to the defined trauma.</p><h2>Tiers</h2><p>The higher the Tier, the more common the trigger, the harder the reaction is to control, or the greater its consequences.</p><h2>MERP-RMU Adaptation</h2><p>The trigger and reaction must be defined with the GM. When they occur, a Resistance Roll or Discipline Maneuver may be required; failure causes a consequence appropriate to the trauma.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Mentaux"
+    ],
+    "en": [
+      "Flaws — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-mental"
+  ]
+}

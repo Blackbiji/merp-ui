@@ -1,0 +1,69 @@
+{
+  "key": "gourmand",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Gourmand (Gourmand)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "gourmand",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Hobbits",
+            "Periannath"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Gourmand",
+      "cost": "3",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Gourmand (Gourmand)</h1><h2>Description</h2><p>Vous aimez manger, souvent et bien, et cette passion vous a rendu particulièrement habile en cuisine. Votre talent améliore la cuisine en général et vous excellez particulièrement dans un plat précis choisi lors de l’acquisition.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+10</strong> aux Manœuvres de cuisine et <strong>+15 supplémentaire</strong> lorsqu’il s’agit de votre plat de prédilection, choisi à l’acquisition du Talent.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_gourmand.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gourmand (Gourmand)",
+      "system": {
+        "description": "<h1>Gourmand (Gourmand)</h1><h2>Description</h2><p>Vous aimez manger, souvent et bien, et cette passion vous a rendu particulièrement habile en cuisine. Votre talent améliore la cuisine en général et vous excellez particulièrement dans un plat précis choisi lors de l’acquisition.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+10</strong> aux Manœuvres de cuisine et <strong>+15 supplémentaire</strong> lorsqu’il s’agit de votre plat de prédilection, choisi à l’acquisition du Talent.</p>"
+      }
+    },
+    "en": {
+      "name": "Gourmand",
+      "system": {
+        "description": "<h1>Gourmand</h1><h2>Description</h2><p>You love to eat, often and well, and this passion has made you particularly skilled at cooking. Your talent improves cooking in general, and you excel especially at one specific dish chosen when the Talent is acquired.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+10</strong> to Cooking Maneuvers and an <strong>additional +15</strong> when preparing your signature dish, chosen when you acquire the Talent.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

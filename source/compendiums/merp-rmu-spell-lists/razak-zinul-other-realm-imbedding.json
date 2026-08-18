@@ -1,0 +1,513 @@
+{
+  "key": "razak-zinul-other-realm-imbedding",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-razak-zinul",
+  "document": {
+    "name": "Other Realm Imbedding",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul-other-realm-imbedding",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Other Realm Imbedding",
+        "sourcePage": 121,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "alchemy-companion-list-adaptation",
+          "reference": "Alchemy Companion pp.120–121; adapted for Razak-zinul Channeling tradition"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Other Realm Imbedding",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Razak-zinul",
+      "notes": "<h2>Other Realm Imbedding</h2><p>Liste d’imprégnation du Razak-Zinul adaptée depuis les listes d’Alchimiste du <em>Alchemy Companion</em>. Elle est convertie au Royaume de Canalisation et utilise les inscriptions/runes khazâdes comme clef d’activation.</p>",
+      "label": "Other Realm Imbedding",
+      "notesLabel": "Other Realm Imbedding notes",
+      "spells": [
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Research",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.Research.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.Research.description",
+          "level": 1,
+          "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Mentalism or Essence imbedding.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Recherche",
+              "description": "Recherche des sorts d’imprégnation spéciaux destinés à la création d’objets ; peut également conférer +50 aux jets appropriés de Recherche de Sorts et/ou de Création d’Objets concernant l’imprégnation du Mentalisme ou de l’Essence."
+            },
+            "en": {
+              "name": "Research",
+              "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Mentalism or Essence imbedding."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Imbed I",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedI.description",
+          "level": 3,
+          "description": "Imbeds one 1st-level Mentalism or Essence spell in an item or potion. The caster must have access to the spell being imbedded.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation I",
+              "description": "Imprègne dans un objet ou une potion un sort de Mentalisme ou d’Essence de niveau 1. Le lanceur doit avoir accès au sort à imprégner."
+            },
+            "en": {
+              "name": "Imbed I",
+              "description": "Imbeds one 1st-level Mentalism or Essence spell in an item or potion. The caster must have access to the spell being imbedded."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Charge Wand",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ChargeWand.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ChargeWand.description",
+          "level": 5,
+          "description": "Charges a Mentalism or Essence wand when the caster has access to the appropriate spell.",
+          "aoe": "1 wand",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger une Baguette",
+              "description": "Charge une baguette de Mentalisme ou d’Essence lorsque le lanceur a accès au sort approprié."
+            },
+            "en": {
+              "name": "Charge Wand",
+              "description": "Charges a Mentalism or Essence wand when the caster has access to the appropriate spell."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Imbed II",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedII.description",
+          "level": 6,
+          "description": "As Imbed I, but may imbed spells through 2nd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation II",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 2."
+            },
+            "en": {
+              "name": "Imbed II",
+              "description": "As Imbed I, but may imbed spells through 2nd level."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Daily I",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyI.description",
+          "level": 7,
+          "description": "An imbedded 1st-level spell may be used once per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien I",
+              "description": "Un sort imprégné de niveau 1 peut être utilisé une fois par jour."
+            },
+            "en": {
+              "name": "Daily I",
+              "description": "An imbedded 1st-level spell may be used once per day."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Imbed III",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedIII.description",
+          "level": 9,
+          "description": "As Imbed I, but may imbed spells through 3rd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation III",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 3."
+            },
+            "en": {
+              "name": "Imbed III",
+              "description": "As Imbed I, but may imbed spells through 3rd level."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Charge Rod",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ChargeRod.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ChargeRod.description",
+          "level": 10,
+          "description": "As Charge Wand, but charges a rod.",
+          "aoe": "1 rod",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Sceptre",
+              "description": "Comme Charger une Baguette, mais charge un sceptre."
+            },
+            "en": {
+              "name": "Charge Rod",
+              "description": "As Charge Wand, but charges a rod."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Daily III",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyIII.description",
+          "level": 11,
+          "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien III",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 3 ; les sorts de niveau inférieur peuvent bénéficier d’un plus grand nombre d’utilisations par jour."
+            },
+            "en": {
+              "name": "Daily III",
+              "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Imbed IV",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedIV.description",
+          "level": 12,
+          "description": "As Imbed I, but may imbed spells through 4th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation IV",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 4."
+            },
+            "en": {
+              "name": "Imbed IV",
+              "description": "As Imbed I, but may imbed spells through 4th level."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Imbed V",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedV.description",
+          "level": 14,
+          "description": "As Imbed I, but may imbed spells through 5th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation V",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Imbed V",
+              "description": "As Imbed I, but may imbed spells through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Daily V",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyV.description",
+          "level": 15,
+          "description": "Creates a daily item using spells through 5th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien V",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Daily V",
+              "description": "Creates a daily item using spells through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Charge Staff",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ChargeStaff.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ChargeStaff.description",
+          "level": 20,
+          "description": "As Charge Wand, but charges a staff.",
+          "aoe": "1 staff",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Bâton",
+              "description": "Comme Charger une Baguette, mais charge un bâton."
+            },
+            "en": {
+              "name": "Charge Staff",
+              "description": "As Charge Wand, but charges a staff."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Imbed X",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedX.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedX.description",
+          "level": 25,
+          "description": "As Imbed I, but may imbed spells through 10th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation X",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Imbed X",
+              "description": "As Imbed I, but may imbed spells through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Daily X",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyX.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.DailyX.description",
+          "level": 30,
+          "description": "Creates a daily item using spells through 10th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien X",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Daily X",
+              "description": "Creates a daily item using spells through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Constant",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.Constant.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.Constant.description",
+          "level": 50,
+          "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant",
+              "description": "Comme Quotidien X, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Constant",
+              "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Imbed True",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.ImbedTrue.description",
+          "level": 60,
+          "description": "Imbeds one Mentalism or Essence spell of any level in an item; it is normally usable once.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation Véritable",
+              "description": "Imprègne dans un objet un sort de Mentalisme ou d’Essence de n’importe quel niveau ; il est normalement utilisable une seule fois."
+            },
+            "en": {
+              "name": "Imbed True",
+              "description": "Imbeds one Mentalism or Essence spell of any level in an item; it is normally usable once."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Lord Daily",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.LordDaily.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.LordDaily.description",
+          "level": 75,
+          "description": "Creates exceptionally powerful daily-use items with spells through 20th level; artifact-scale and GM-controlled.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien Seigneur",
+              "description": "Crée des objets à usage quotidien exceptionnellement puissants, contenant des sorts jusqu’au niveau 20 ; il s’agit d’une magie de niveau artefact placée sous le contrôle du MJ."
+            },
+            "en": {
+              "name": "Lord Daily",
+              "description": "Creates exceptionally powerful daily-use items with spells through 20th level; artifact-scale and GM-controlled."
+            }
+          }
+        },
+        {
+          "spellList": "Other Realm Imbedding",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Lord Constant",
+          "label": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.LordConstant.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.otherrealmimbedding.spells.LordConstant.description",
+          "level": 90,
+          "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant Seigneur",
+              "description": "Comme Quotidien Seigneur, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Lord Constant",
+              "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Imprégnation d'un Autre Royaume",
+      "system": {
+        "name": "Imprégnation d'un Autre Royaume",
+        "label": "Imprégnation d'un Autre Royaume",
+        "notesLabel": "Imprégnation d'un Autre Royaume — notes",
+        "notes": "<h2>Imprégnation d'un Autre Royaume</h2><p>Liste d’imprégnation du Razak-Zinul adaptée depuis les listes d’Alchimiste du <em>Alchemy Companion</em>. Elle est convertie au Royaume de Canalisation et utilise les inscriptions/runes khazâdes comme clef d’activation.</p>"
+      }
+    },
+    "en": {
+      "name": "Other Realm Imbedding",
+      "system": {
+        "name": "Other Realm Imbedding",
+        "label": "Other Realm Imbedding",
+        "notesLabel": "Other Realm Imbedding — notes",
+        "notes": "<h2>Other Realm Imbedding</h2><p>Razak-Zinul Imbedding List adapted from the Alchemist Lists in the <em>Alchemy Companion</em>. It is converted to the Channeling Realm and uses Khazâd inscriptions/runes as its activation key.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Razak-Zinul (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Razak-Zinul (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-razak-zinul"
+  ]
+}

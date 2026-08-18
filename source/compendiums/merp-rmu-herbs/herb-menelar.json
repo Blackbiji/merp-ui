@@ -1,0 +1,88 @@
+{
+  "key": "herb-menelar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Menelar",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-menelar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-C-5-N",
+        "sourceCost": "65gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "C",
+        "regionCode": "N",
+        "sourceVariants": [
+          {
+            "group": "Remèdes & Antidotes",
+            "code": "c-C-5-N",
+            "form": "Cone",
+            "prep": "brew",
+            "cost": "65gp",
+            "af": "?",
+            "effect": "La décoction des cônes est traditionnellement employée pour combattre les infections."
+          }
+        ],
+        "sourceName": "Menelar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Hard",
+      "form": "Cone",
+      "prep": "brew",
+      "season": "",
+      "cost": "65gp",
+      "notes": "<p>Ce cône se rencontre surtout dans les régions au climat glacial, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Antidote de niveau 7 contre les poisons circulatoires. La décoction des cônes est traditionnellement employée pour combattre les infections.</p>",
+      "addictionFactor": 4,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Menelar",
+      "system": {
+        "notes": "<p>Ce cône se rencontre surtout dans les régions au climat glacial, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Antidote de niveau 7 contre les poisons circulatoires. La décoction des cônes est traditionnellement employée pour combattre les infections.</p>"
+      }
+    },
+    "en": {
+      "name": "Menelar",
+      "system": {
+        "notes": "<p>This cone is found chiefly in frigid climates, especially in coniferous forests, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>Level 7 antidote for circulatory poisons. A decoction of the cones is traditionally used to combat infection.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

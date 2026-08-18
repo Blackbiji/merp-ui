@@ -1,0 +1,79 @@
+{
+  "key": "herb-sum-kutia",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-nerveux",
+  "document": {
+    "name": "Sûm-Kutia",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-sum-kutia",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "Honnin-SW",
+        "sourceCost": "0",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Nerveux"
+        ],
+        "poisonType": "Nerveux",
+        "climateCode": null,
+        "localeCode": null,
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Sûm-Kutia"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "",
+      "findDifficulty": "",
+      "form": "Mixture",
+      "prep": "paste",
+      "season": "",
+      "cost": "0",
+      "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 4. Toute victime qui échoue à résister est paralysée pendant environ deux rounds par point d’échec.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 4
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sûm-Kutia",
+      "system": {
+        "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 4. Toute victime qui échoue à résister est paralysée pendant environ deux rounds par point d’échec.</p>"
+      }
+    },
+    "en": {
+      "name": "Sûm-Kutia",
+      "system": {
+        "notes": "<p>To obtain its properties, it is prepared as a paste.</p><p>Level 4 nerve poison. Any victim who fails to resist is paralyzed for about two rounds per point of failure.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nerveux"
+    ],
+    "en": [
+      "Nerve"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-nerveux"
+  ]
+}

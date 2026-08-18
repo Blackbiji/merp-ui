@@ -1,0 +1,78 @@
+{
+  "key": "herb-ecasse",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "intoxicants",
+  "document": {
+    "name": "Ecásse",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ecasse",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-H-6-N",
+        "sourceCost": "20gp",
+        "sourceCategory": "Intoxicants",
+        "utilityGroups": [
+          "Intoxicants"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "H",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Ecásse"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Very Hard",
+      "form": "Clove",
+      "prep": "brew",
+      "season": "",
+      "cost": "20gp",
+      "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Ce puissant stimulant hallucinogène protège temporairement contre certaines attaques et maladies mentales, mais plonge l’utilisateur dans une confiance délirante envers tous ceux qu’il voit, suivie d’un long contrecoup douloureux.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 25,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ecásse",
+      "system": {
+        "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Ce puissant stimulant hallucinogène protège temporairement contre certaines attaques et maladies mentales, mais plonge l’utilisateur dans une confiance délirante envers tous ceux qu’il voit, suivie d’un long contrecoup douloureux.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Ecásse",
+      "system": {
+        "notes": "<p>This clove is found chiefly in mild temperate climates, especially in heaths, scrublands, and moors, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>This powerful hallucinogenic stimulant temporarily protects against certain mental attacks and illnesses, but plunges the user into delusional trust of everyone they see, followed by a long and painful after-effect.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Intoxicants"
+    ],
+    "en": [
+      "Intoxicants"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "intoxicants"
+  ]
+}

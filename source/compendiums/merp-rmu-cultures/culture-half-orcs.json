@@ -1,0 +1,1267 @@
+{
+  "key": "culture-half-orcs",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Demi-Orcs — Perorch / Piryrch",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-half-orcs",
+        "collection": "merp-rmu",
+        "contentVersion": 4,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "recommendedSpecializations": {},
+        "exclusiveTalents": [],
+        "canonicalKey": "culture-half-orcs",
+        "availability": {
+          "ages": [
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "3": true,
+            "4": true
+          }
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-half-orcs",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "3": {
+            "sourceKey": "culture-half-orcs-age-3",
+            "folderKey": "cultures-age-3-restricted",
+            "document": {
+              "name": "Demi-Orcs — Perorch / Piryrch",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-half-orcs-age-3",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-half-orcs-age-3",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Orkish",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Orc"
+                      },
+                      {
+                        "name": "Black Speech",
+                        "spoken": 4,
+                        "written": 3,
+                        "nameFr": "Parler Noir"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-half-orcs",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-half-orcs"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Demi-Orcs — Perorch / Piryrch",
+                "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Homeland",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 5
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Demi-Orcs — Perorch / Piryrch",
+                "system": {
+                  "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+                  "culture": "Demi-Orcs — Perorch / Piryrch"
+                }
+              },
+              "en": {
+                "name": "Half-orcs — Perorch / Piryrch",
+                "system": {
+                  "description": "<h1>Half-orcs — Perorch / Piryrch</h1>\n<p><strong>Half-orcs</strong>, called <strong>Perorch</strong> in the singular and <strong>Piryrch</strong> in the plural, descend from the mixing of Humans and Orcs. Their Culture is particularly associated with Saruman's agents: spies, lieutenants, guards, and intermediaries able to function among Orcs as well as human populations. Their cultural strength is neither brute force alone nor warfare alone: it is the ability to cross the boundary between several societies.</p>\n<h2>An intermediary Culture</h2>\n<p>A Half-orc can live among Orcs and learn their methods, language, and brutal relationship with authority while also moving among Men. His way of life therefore depends heavily on the group to which he is attached. Clothing, customs, and everyday practices may change with the environment.</p>\n<h2>Saruman and his agents</h2>\n<p>In the period for which they are best documented, Half-orcs are linked to Saruman. He employs them precisely where a Common Orc would immediately attract attention: surveillance, discreet escort, transmission of information, command of agents, and infiltration. Their Culture should therefore be less exclusively martial than that of the Uruk-hai.</p>\n<h2>Dunlending blood and concealed identity</h2>\n<p>Half-orcs associated with Saruman notably possess Dunlending blood. This origin makes it easier for them to blend into certain populations of Eriador and regions near Isengard. A Half-orc can present himself as a particularly hard or unsettling Man; clothing, accent, and behavior become tools of cover.</p>\n<h2>Clothing and armor</h2>\n<p>Leather and metal protection are common, but clothing often reflects the society in which the character operates. All armor categories are possible. A spy may wear no visible protection; a lieutenant may instead possess a complete suit of armor. Function determines equipment.</p>\n<h2>Weapons</h2>\n<p>The arsenal is very broad: swords, clubs, daggers, axes, bows, maces, scimitars, spears, hammers, whips, and other weapons suited to human or Orcish environments. This variety confirms the absence of a single emblematic weapon. The character chooses a weapon consistent with mission and cover.</p>\n<h2>Observation, Acting, and Deception</h2>\n<p>Observation is essential for recognizing danger, suspicious behavior, and details that might reveal an identity. Acting allows the character to adopt expected reactions. Deception becomes one of the central skills: concealing one's origin, lying about a mission, maintaining a false identity, and manipulating an interlocutor can all be the result of long training.</p>\n<h2>Seduction, Bribery, Gaming, and Appraisal</h2>\n<p>Depending on the role, Seduction and Bribery can obtain access or information without combat. Gaming provides a natural cover in taverns and camps, while Appraisal helps recognize the value of an object, equipment, or a bribe. These skills underline the operational nature of the Culture.</p>\n<h2>Leadership and Tactics</h2>\n<p>Saruman employs Half-orcs as lieutenants. Leadership and Military Organization therefore have a genuine place: assigning tasks, maintaining cooperation between Orcs and Men, preparing a patrol, or running a post. Tactics allows them to choose a position, prepare an ambush, and understand an opponent.</p>\n<h2>Technical infiltration</h2>\n<p>Stalking, Hiding, Lockpicking, Disarming and Making Traps, Climbing, and rappelling form a second family of training. A Half-orc can become a saboteur, scout, or technical infiltrator rather than merely a social spy.</p>\n<h2>Mobility</h2>\n<p>Riding and Swimming can be learned, making integration into human societies easier. Caving remains useful for working in Orcish fortresses and communities. This double adaptation — the human surface world and the Orcish underground — is one of the Culture's important traits.</p>\n<h2>Craft and Body Development</h2>\n<p>Leatherworking, Metalworking, Fletching, and Woodworking make it possible to maintain equipment or adopt a credible trade. Body Development supports endurance and training without reproducing physical advantages already carried by the Race.</p>\n<h2>Sunlight and everyday life</h2>\n<p>Half-orcs may retain nocturnal habits inherited from Orcish surroundings, but they can operate by day far more easily than a Common Orc. Their way of life varies with the group to which they are attached: Orcish fortress, Dunlending community, mixed garrison, or network of agents.</p>\n<h2>Religion, power, and ambition</h2>\n<p>Most respect the Shadow and power above all. Power is often perceived as the fundamental reality: whoever can impose his will must be served, feared, or surpassed. Jealousy, ambition, and suspicion are common in an intermediary social position where status depends on one's master and usefulness.</p>\n<h2>Relations with Orcs and Uruk-hai</h2>\n<p>Half-orcs can command Orcs thanks to their intelligence and ability to act in sunlight, but they often have to enforce their position. Uruk-hai may regard them as rivals: the Uruk draws prestige from military power, the Half-orc from versatility and the ability to act in the human world.</p>\n<h2>Humans, Dunlendings, Elves, and Dúnedain</h2>\n<p>Relations with Humans are complex because a Half-orc can genuinely live among them. Dunlendings are especially important in Saruman's networks. Elves provoke strong hostility and are difficult to deceive; the Dúnedain are particularly important opponents in the North-west and can become targets of surveillance or sabotage.</p>\n<h2>Languages</h2>\n<p>Westron and Orcish are the two fundamental languages. The Black Speech links the character to the great organizations of the Shadow, while Dunael is especially relevant to agents connected with Dunlendings. This genuine bilingual or multilingual ability is one of the Culture's most important traits.</p>\n<h2>Cultural skills</h2>\n<p>The profile emphasizes <strong>Deception, Acting, Observation, Languages, Hiding, Stalking, Leadership, Tactics, and Weapons</strong>. Caving, Bribery, Lockpicking, Trap Disarming, Military Organization, Ambush, Riding, Tracking, and crafts support specialized roles.</p>\n<h2>Race and Culture</h2>\n<p>The Half-orc Race carries intermediate appearance, night vision, longevity, resistances, and other innate traits. The Half-orc Culture carries languages, infiltration, Deception, Observation, weapons, armor, Leadership, Tactics, and adaptation to human or Orcish societies.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. A character should above all specify in which world he was raised, which identity he used, and which master or network trained him. After Saruman's fall, some seek a new master while others may disappear among Men. Their principal cultural weapon remains ambiguity.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 4</li><li><strong>Orkish</strong> — Spoken 8 / Written 4</li><li><strong>Black Speech</strong> — Spoken 4 / Written 3</li></ul></section>",
+                  "culture": "Half-orcs — Perorch / Piryrch"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-half-orcs-age-4",
+            "folderKey": "cultures-age-4-restricted",
+            "document": {
+              "name": "Demi-Orcs — Perorch / Piryrch",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-half-orcs-age-4",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-half-orcs-age-4",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Orkish",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Orc"
+                      },
+                      {
+                        "name": "Black Speech",
+                        "spoken": 4,
+                        "written": 3,
+                        "nameFr": "Parler Noir"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-half-orcs",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-half-orcs"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Demi-Orcs — Perorch / Piryrch",
+                "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Homeland",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 5
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Demi-Orcs — Perorch / Piryrch",
+                "system": {
+                  "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+                  "culture": "Demi-Orcs — Perorch / Piryrch"
+                }
+              },
+              "en": {
+                "name": "Half-orcs — Perorch / Piryrch",
+                "system": {
+                  "description": "<h1>Half-orcs — Perorch / Piryrch</h1>\n<p><strong>Half-orcs</strong>, called <strong>Perorch</strong> in the singular and <strong>Piryrch</strong> in the plural, descend from the mixing of Humans and Orcs. Their Culture is particularly associated with Saruman's agents: spies, lieutenants, guards, and intermediaries able to function among Orcs as well as human populations. Their cultural strength is neither brute force alone nor warfare alone: it is the ability to cross the boundary between several societies.</p>\n<h2>An intermediary Culture</h2>\n<p>A Half-orc can live among Orcs and learn their methods, language, and brutal relationship with authority while also moving among Men. His way of life therefore depends heavily on the group to which he is attached. Clothing, customs, and everyday practices may change with the environment.</p>\n<h2>Saruman and his agents</h2>\n<p>In the period for which they are best documented, Half-orcs are linked to Saruman. He employs them precisely where a Common Orc would immediately attract attention: surveillance, discreet escort, transmission of information, command of agents, and infiltration. Their Culture should therefore be less exclusively martial than that of the Uruk-hai.</p>\n<h2>Dunlending blood and concealed identity</h2>\n<p>Half-orcs associated with Saruman notably possess Dunlending blood. This origin makes it easier for them to blend into certain populations of Eriador and regions near Isengard. A Half-orc can present himself as a particularly hard or unsettling Man; clothing, accent, and behavior become tools of cover.</p>\n<h2>Clothing and armor</h2>\n<p>Leather and metal protection are common, but clothing often reflects the society in which the character operates. All armor categories are possible. A spy may wear no visible protection; a lieutenant may instead possess a complete suit of armor. Function determines equipment.</p>\n<h2>Weapons</h2>\n<p>The arsenal is very broad: swords, clubs, daggers, axes, bows, maces, scimitars, spears, hammers, whips, and other weapons suited to human or Orcish environments. This variety confirms the absence of a single emblematic weapon. The character chooses a weapon consistent with mission and cover.</p>\n<h2>Observation, Acting, and Deception</h2>\n<p>Observation is essential for recognizing danger, suspicious behavior, and details that might reveal an identity. Acting allows the character to adopt expected reactions. Deception becomes one of the central skills: concealing one's origin, lying about a mission, maintaining a false identity, and manipulating an interlocutor can all be the result of long training.</p>\n<h2>Seduction, Bribery, Gaming, and Appraisal</h2>\n<p>Depending on the role, Seduction and Bribery can obtain access or information without combat. Gaming provides a natural cover in taverns and camps, while Appraisal helps recognize the value of an object, equipment, or a bribe. These skills underline the operational nature of the Culture.</p>\n<h2>Leadership and Tactics</h2>\n<p>Saruman employs Half-orcs as lieutenants. Leadership and Military Organization therefore have a genuine place: assigning tasks, maintaining cooperation between Orcs and Men, preparing a patrol, or running a post. Tactics allows them to choose a position, prepare an ambush, and understand an opponent.</p>\n<h2>Technical infiltration</h2>\n<p>Stalking, Hiding, Lockpicking, Disarming and Making Traps, Climbing, and rappelling form a second family of training. A Half-orc can become a saboteur, scout, or technical infiltrator rather than merely a social spy.</p>\n<h2>Mobility</h2>\n<p>Riding and Swimming can be learned, making integration into human societies easier. Caving remains useful for working in Orcish fortresses and communities. This double adaptation — the human surface world and the Orcish underground — is one of the Culture's important traits.</p>\n<h2>Craft and Body Development</h2>\n<p>Leatherworking, Metalworking, Fletching, and Woodworking make it possible to maintain equipment or adopt a credible trade. Body Development supports endurance and training without reproducing physical advantages already carried by the Race.</p>\n<h2>Sunlight and everyday life</h2>\n<p>Half-orcs may retain nocturnal habits inherited from Orcish surroundings, but they can operate by day far more easily than a Common Orc. Their way of life varies with the group to which they are attached: Orcish fortress, Dunlending community, mixed garrison, or network of agents.</p>\n<h2>Religion, power, and ambition</h2>\n<p>Most respect the Shadow and power above all. Power is often perceived as the fundamental reality: whoever can impose his will must be served, feared, or surpassed. Jealousy, ambition, and suspicion are common in an intermediary social position where status depends on one's master and usefulness.</p>\n<h2>Relations with Orcs and Uruk-hai</h2>\n<p>Half-orcs can command Orcs thanks to their intelligence and ability to act in sunlight, but they often have to enforce their position. Uruk-hai may regard them as rivals: the Uruk draws prestige from military power, the Half-orc from versatility and the ability to act in the human world.</p>\n<h2>Humans, Dunlendings, Elves, and Dúnedain</h2>\n<p>Relations with Humans are complex because a Half-orc can genuinely live among them. Dunlendings are especially important in Saruman's networks. Elves provoke strong hostility and are difficult to deceive; the Dúnedain are particularly important opponents in the North-west and can become targets of surveillance or sabotage.</p>\n<h2>Languages</h2>\n<p>Westron and Orcish are the two fundamental languages. The Black Speech links the character to the great organizations of the Shadow, while Dunael is especially relevant to agents connected with Dunlendings. This genuine bilingual or multilingual ability is one of the Culture's most important traits.</p>\n<h2>Cultural skills</h2>\n<p>The profile emphasizes <strong>Deception, Acting, Observation, Languages, Hiding, Stalking, Leadership, Tactics, and Weapons</strong>. Caving, Bribery, Lockpicking, Trap Disarming, Military Organization, Ambush, Riding, Tracking, and crafts support specialized roles.</p>\n<h2>Race and Culture</h2>\n<p>The Half-orc Race carries intermediate appearance, night vision, longevity, resistances, and other innate traits. The Half-orc Culture carries languages, infiltration, Deception, Observation, weapons, armor, Leadership, Tactics, and adaptation to human or Orcish societies.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. A character should above all specify in which world he was raised, which identity he used, and which master or network trained him. After Saruman's fall, some seek a new master while others may disappear among Men. Their principal cultural weapon remains ambiguity.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 4</li><li><strong>Orkish</strong> — Spoken 8 / Written 4</li><li><strong>Black Speech</strong> — Spoken 4 / Written 3</li></ul></section>",
+                  "culture": "Half-orcs — Perorch / Piryrch"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Demi-Orcs — Perorch / Piryrch",
+      "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 6
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Homeland",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 10,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 6
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 5
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Demi-Orcs — Perorch / Piryrch",
+      "system": {
+        "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+        "culture": "Demi-Orcs — Perorch / Piryrch"
+      }
+    },
+    "en": {
+      "name": "Half-orcs — Perorch / Piryrch",
+      "system": {
+        "description": "<h1>Half-orcs — Perorch / Piryrch</h1>\n<p><strong>Half-orcs</strong>, called <strong>Perorch</strong> in the singular and <strong>Piryrch</strong> in the plural, descend from the mixing of Humans and Orcs. Their Culture is particularly associated with Saruman's agents: spies, lieutenants, guards, and intermediaries able to function among Orcs as well as human populations. Their cultural strength is neither brute force alone nor warfare alone: it is the ability to cross the boundary between several societies.</p>\n<h2>An intermediary Culture</h2>\n<p>A Half-orc can live among Orcs and learn their methods, language, and brutal relationship with authority while also moving among Men. His way of life therefore depends heavily on the group to which he is attached. Clothing, customs, and everyday practices may change with the environment.</p>\n<h2>Saruman and his agents</h2>\n<p>In the period for which they are best documented, Half-orcs are linked to Saruman. He employs them precisely where a Common Orc would immediately attract attention: surveillance, discreet escort, transmission of information, command of agents, and infiltration. Their Culture should therefore be less exclusively martial than that of the Uruk-hai.</p>\n<h2>Dunlending blood and concealed identity</h2>\n<p>Half-orcs associated with Saruman notably possess Dunlending blood. This origin makes it easier for them to blend into certain populations of Eriador and regions near Isengard. A Half-orc can present himself as a particularly hard or unsettling Man; clothing, accent, and behavior become tools of cover.</p>\n<h2>Clothing and armor</h2>\n<p>Leather and metal protection are common, but clothing often reflects the society in which the character operates. All armor categories are possible. A spy may wear no visible protection; a lieutenant may instead possess a complete suit of armor. Function determines equipment.</p>\n<h2>Weapons</h2>\n<p>The arsenal is very broad: swords, clubs, daggers, axes, bows, maces, scimitars, spears, hammers, whips, and other weapons suited to human or Orcish environments. This variety confirms the absence of a single emblematic weapon. The character chooses a weapon consistent with mission and cover.</p>\n<h2>Observation, Acting, and Deception</h2>\n<p>Observation is essential for recognizing danger, suspicious behavior, and details that might reveal an identity. Acting allows the character to adopt expected reactions. Deception becomes one of the central skills: concealing one's origin, lying about a mission, maintaining a false identity, and manipulating an interlocutor can all be the result of long training.</p>\n<h2>Seduction, Bribery, Gaming, and Appraisal</h2>\n<p>Depending on the role, Seduction and Bribery can obtain access or information without combat. Gaming provides a natural cover in taverns and camps, while Appraisal helps recognize the value of an object, equipment, or a bribe. These skills underline the operational nature of the Culture.</p>\n<h2>Leadership and Tactics</h2>\n<p>Saruman employs Half-orcs as lieutenants. Leadership and Military Organization therefore have a genuine place: assigning tasks, maintaining cooperation between Orcs and Men, preparing a patrol, or running a post. Tactics allows them to choose a position, prepare an ambush, and understand an opponent.</p>\n<h2>Technical infiltration</h2>\n<p>Stalking, Hiding, Lockpicking, Disarming and Making Traps, Climbing, and rappelling form a second family of training. A Half-orc can become a saboteur, scout, or technical infiltrator rather than merely a social spy.</p>\n<h2>Mobility</h2>\n<p>Riding and Swimming can be learned, making integration into human societies easier. Caving remains useful for working in Orcish fortresses and communities. This double adaptation — the human surface world and the Orcish underground — is one of the Culture's important traits.</p>\n<h2>Craft and Body Development</h2>\n<p>Leatherworking, Metalworking, Fletching, and Woodworking make it possible to maintain equipment or adopt a credible trade. Body Development supports endurance and training without reproducing physical advantages already carried by the Race.</p>\n<h2>Sunlight and everyday life</h2>\n<p>Half-orcs may retain nocturnal habits inherited from Orcish surroundings, but they can operate by day far more easily than a Common Orc. Their way of life varies with the group to which they are attached: Orcish fortress, Dunlending community, mixed garrison, or network of agents.</p>\n<h2>Religion, power, and ambition</h2>\n<p>Most respect the Shadow and power above all. Power is often perceived as the fundamental reality: whoever can impose his will must be served, feared, or surpassed. Jealousy, ambition, and suspicion are common in an intermediary social position where status depends on one's master and usefulness.</p>\n<h2>Relations with Orcs and Uruk-hai</h2>\n<p>Half-orcs can command Orcs thanks to their intelligence and ability to act in sunlight, but they often have to enforce their position. Uruk-hai may regard them as rivals: the Uruk draws prestige from military power, the Half-orc from versatility and the ability to act in the human world.</p>\n<h2>Humans, Dunlendings, Elves, and Dúnedain</h2>\n<p>Relations with Humans are complex because a Half-orc can genuinely live among them. Dunlendings are especially important in Saruman's networks. Elves provoke strong hostility and are difficult to deceive; the Dúnedain are particularly important opponents in the North-west and can become targets of surveillance or sabotage.</p>\n<h2>Languages</h2>\n<p>Westron and Orcish are the two fundamental languages. The Black Speech links the character to the great organizations of the Shadow, while Dunael is especially relevant to agents connected with Dunlendings. This genuine bilingual or multilingual ability is one of the Culture's most important traits.</p>\n<h2>Cultural skills</h2>\n<p>The profile emphasizes <strong>Deception, Acting, Observation, Languages, Hiding, Stalking, Leadership, Tactics, and Weapons</strong>. Caving, Bribery, Lockpicking, Trap Disarming, Military Organization, Ambush, Riding, Tracking, and crafts support specialized roles.</p>\n<h2>Race and Culture</h2>\n<p>The Half-orc Race carries intermediate appearance, night vision, longevity, resistances, and other innate traits. The Half-orc Culture carries languages, infiltration, Deception, Observation, weapons, armor, Leadership, Tactics, and adaptation to human or Orcish societies.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. A character should above all specify in which world he was raised, which identity he used, and which master or network trained him. After Saruman's fall, some seek a new master while others may disappear among Men. Their principal cultural weapon remains ambiguity.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 4</li><li><strong>Orkish</strong> — Spoken 8 / Written 4</li><li><strong>Black Speech</strong> — Spoken 4 / Written 3</li></ul></section>",
+        "culture": "Half-orcs — Perorch / Piryrch"
+      }
+    }
+  },
+  "ageVariants": {
+    "3": {
+      "sourceKey": "culture-half-orcs-age-3",
+      "folderKey": "cultures-age-3-restricted",
+      "document": {
+        "name": "Demi-Orcs — Perorch / Piryrch",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-half-orcs-age-3",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-half-orcs-age-3",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Orkish",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Orc"
+                },
+                {
+                  "name": "Black Speech",
+                  "spoken": 4,
+                  "written": 3,
+                  "nameFr": "Parler Noir"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-half-orcs",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-half-orcs"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Demi-Orcs — Perorch / Piryrch",
+          "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Homeland",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 5
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Demi-Orcs — Perorch / Piryrch",
+          "system": {
+            "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+            "culture": "Demi-Orcs — Perorch / Piryrch"
+          }
+        },
+        "en": {
+          "name": "Half-orcs — Perorch / Piryrch",
+          "system": {
+            "description": "<h1>Half-orcs — Perorch / Piryrch</h1>\n<p><strong>Half-orcs</strong>, called <strong>Perorch</strong> in the singular and <strong>Piryrch</strong> in the plural, descend from the mixing of Humans and Orcs. Their Culture is particularly associated with Saruman's agents: spies, lieutenants, guards, and intermediaries able to function among Orcs as well as human populations. Their cultural strength is neither brute force alone nor warfare alone: it is the ability to cross the boundary between several societies.</p>\n<h2>An intermediary Culture</h2>\n<p>A Half-orc can live among Orcs and learn their methods, language, and brutal relationship with authority while also moving among Men. His way of life therefore depends heavily on the group to which he is attached. Clothing, customs, and everyday practices may change with the environment.</p>\n<h2>Saruman and his agents</h2>\n<p>In the period for which they are best documented, Half-orcs are linked to Saruman. He employs them precisely where a Common Orc would immediately attract attention: surveillance, discreet escort, transmission of information, command of agents, and infiltration. Their Culture should therefore be less exclusively martial than that of the Uruk-hai.</p>\n<h2>Dunlending blood and concealed identity</h2>\n<p>Half-orcs associated with Saruman notably possess Dunlending blood. This origin makes it easier for them to blend into certain populations of Eriador and regions near Isengard. A Half-orc can present himself as a particularly hard or unsettling Man; clothing, accent, and behavior become tools of cover.</p>\n<h2>Clothing and armor</h2>\n<p>Leather and metal protection are common, but clothing often reflects the society in which the character operates. All armor categories are possible. A spy may wear no visible protection; a lieutenant may instead possess a complete suit of armor. Function determines equipment.</p>\n<h2>Weapons</h2>\n<p>The arsenal is very broad: swords, clubs, daggers, axes, bows, maces, scimitars, spears, hammers, whips, and other weapons suited to human or Orcish environments. This variety confirms the absence of a single emblematic weapon. The character chooses a weapon consistent with mission and cover.</p>\n<h2>Observation, Acting, and Deception</h2>\n<p>Observation is essential for recognizing danger, suspicious behavior, and details that might reveal an identity. Acting allows the character to adopt expected reactions. Deception becomes one of the central skills: concealing one's origin, lying about a mission, maintaining a false identity, and manipulating an interlocutor can all be the result of long training.</p>\n<h2>Seduction, Bribery, Gaming, and Appraisal</h2>\n<p>Depending on the role, Seduction and Bribery can obtain access or information without combat. Gaming provides a natural cover in taverns and camps, while Appraisal helps recognize the value of an object, equipment, or a bribe. These skills underline the operational nature of the Culture.</p>\n<h2>Leadership and Tactics</h2>\n<p>Saruman employs Half-orcs as lieutenants. Leadership and Military Organization therefore have a genuine place: assigning tasks, maintaining cooperation between Orcs and Men, preparing a patrol, or running a post. Tactics allows them to choose a position, prepare an ambush, and understand an opponent.</p>\n<h2>Technical infiltration</h2>\n<p>Stalking, Hiding, Lockpicking, Disarming and Making Traps, Climbing, and rappelling form a second family of training. A Half-orc can become a saboteur, scout, or technical infiltrator rather than merely a social spy.</p>\n<h2>Mobility</h2>\n<p>Riding and Swimming can be learned, making integration into human societies easier. Caving remains useful for working in Orcish fortresses and communities. This double adaptation — the human surface world and the Orcish underground — is one of the Culture's important traits.</p>\n<h2>Craft and Body Development</h2>\n<p>Leatherworking, Metalworking, Fletching, and Woodworking make it possible to maintain equipment or adopt a credible trade. Body Development supports endurance and training without reproducing physical advantages already carried by the Race.</p>\n<h2>Sunlight and everyday life</h2>\n<p>Half-orcs may retain nocturnal habits inherited from Orcish surroundings, but they can operate by day far more easily than a Common Orc. Their way of life varies with the group to which they are attached: Orcish fortress, Dunlending community, mixed garrison, or network of agents.</p>\n<h2>Religion, power, and ambition</h2>\n<p>Most respect the Shadow and power above all. Power is often perceived as the fundamental reality: whoever can impose his will must be served, feared, or surpassed. Jealousy, ambition, and suspicion are common in an intermediary social position where status depends on one's master and usefulness.</p>\n<h2>Relations with Orcs and Uruk-hai</h2>\n<p>Half-orcs can command Orcs thanks to their intelligence and ability to act in sunlight, but they often have to enforce their position. Uruk-hai may regard them as rivals: the Uruk draws prestige from military power, the Half-orc from versatility and the ability to act in the human world.</p>\n<h2>Humans, Dunlendings, Elves, and Dúnedain</h2>\n<p>Relations with Humans are complex because a Half-orc can genuinely live among them. Dunlendings are especially important in Saruman's networks. Elves provoke strong hostility and are difficult to deceive; the Dúnedain are particularly important opponents in the North-west and can become targets of surveillance or sabotage.</p>\n<h2>Languages</h2>\n<p>Westron and Orcish are the two fundamental languages. The Black Speech links the character to the great organizations of the Shadow, while Dunael is especially relevant to agents connected with Dunlendings. This genuine bilingual or multilingual ability is one of the Culture's most important traits.</p>\n<h2>Cultural skills</h2>\n<p>The profile emphasizes <strong>Deception, Acting, Observation, Languages, Hiding, Stalking, Leadership, Tactics, and Weapons</strong>. Caving, Bribery, Lockpicking, Trap Disarming, Military Organization, Ambush, Riding, Tracking, and crafts support specialized roles.</p>\n<h2>Race and Culture</h2>\n<p>The Half-orc Race carries intermediate appearance, night vision, longevity, resistances, and other innate traits. The Half-orc Culture carries languages, infiltration, Deception, Observation, weapons, armor, Leadership, Tactics, and adaptation to human or Orcish societies.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. A character should above all specify in which world he was raised, which identity he used, and which master or network trained him. After Saruman's fall, some seek a new master while others may disappear among Men. Their principal cultural weapon remains ambiguity.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 4</li><li><strong>Orkish</strong> — Spoken 8 / Written 4</li><li><strong>Black Speech</strong> — Spoken 4 / Written 3</li></ul></section>",
+            "culture": "Half-orcs — Perorch / Piryrch"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-half-orcs-age-4",
+      "folderKey": "cultures-age-4-restricted",
+      "document": {
+        "name": "Demi-Orcs — Perorch / Piryrch",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-half-orcs-age-4",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-half-orcs-age-4",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Orkish",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Orc"
+                },
+                {
+                  "name": "Black Speech",
+                  "spoken": 4,
+                  "written": 3,
+                  "nameFr": "Parler Noir"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-half-orcs",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-half-orcs"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Demi-Orcs — Perorch / Piryrch",
+          "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Homeland",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 5
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Demi-Orcs — Perorch / Piryrch",
+          "system": {
+            "description": "<h1>Demi-Orcs — Perorch / Piryrch</h1>\n<p>Les <strong>Demi-Orcs</strong>, appelés <strong>Perorch</strong> au singulier et <strong>Piryrch</strong> au pluriel, sont issus du mélange entre Humains et Orcs. Leur Culture est particulièrement associée aux agents de Saruman : espions, lieutenants, gardes et intermédiaires capables de fonctionner aussi bien parmi les Orcs que parmi les populations humaines. Leur force culturelle n’est ni la seule brutalité ni la seule guerre : c’est la capacité à franchir la frontière entre plusieurs sociétés.</p>\n<h2>Une Culture intermédiaire</h2>\n<p>Un Demi-Orc peut vivre parmi les Orcs et apprendre leurs méthodes, leur langage et leur rapport brutal à l’autorité, tout en évoluant aussi parmi les Hommes. Son mode de vie dépend donc fortement du groupe auquel il est rattaché. Vêtements, coutumes et usages quotidiens peuvent changer selon l’environnement.</p>\n<h2>Saruman et les agents</h2>\n<p>Dans la période où ils sont le mieux documentés, les Demi-Orcs sont liés à Saruman. Il les emploie précisément là où un Orc commun attirerait immédiatement l’attention : surveillance, escorte discrète, transmission d’informations, commandement d’agents et infiltration. Leur Culture doit donc être moins exclusivement martiale que celle des Uruk-hai.</p>\n<h2>Sang dunlending et identité dissimulée</h2>\n<p>Les Demi-Orcs associés à Saruman possèdent notamment du sang dunlending. Cette origine facilite leur insertion dans certaines populations d’Eriador et des régions proches de l’Isengard. Un Demi-Orc peut se présenter comme un Homme particulièrement dur ou inquiétant ; tenue, accent et comportement deviennent des outils de couverture.</p>\n<h2>Vêtements et armures</h2>\n<p>Le cuir et les protections métalliques sont fréquents, mais le vêtement reflète souvent la société parmi laquelle le personnage opère. Toutes les catégories d’armure sont possibles. Un espion peut ne porter aucune protection visible ; un lieutenant peut au contraire disposer d’une armure complète. La fonction détermine l’équipement.</p>\n<h2>Armes</h2>\n<p>L’arsenal est très large : épées, gourdins, dagues, haches, arcs, masses, cimeterres, lances, marteaux, fouets et autres armes adaptées aux milieux humains ou orcs. Cette variété confirme l’absence d’une arme emblématique unique. Le personnage choisit une arme cohérente avec sa mission et sa couverture.</p>\n<h2>Observation, Jeu d’acteur et Tromperie</h2>\n<p>L’Observation est essentielle pour reconnaître danger, comportement suspect et détail risquant de révéler une identité. Le Jeu d’acteur permet d’adopter les réactions attendues. La Tromperie devient l’un des savoir-faire centraux : cacher son origine, mentir sur une mission, maintenir une fausse identité et manipuler un interlocuteur peuvent être des apprentissages de longue durée.</p>\n<h2>Séduction, Corruption, Jeu et Estimation</h2>\n<p>Selon le rôle, la Séduction et la Corruption peuvent obtenir accès ou informations sans combat. Le Jeu offre une couverture naturelle dans les tavernes et camps, tandis que l’Estimation permet de reconnaître la valeur d’un objet, d’un équipement ou d’un pot-de-vin. Ces compétences soulignent la nature opérationnelle de la Culture.</p>\n<h2>Commandement et Tactique</h2>\n<p>Saruman emploie les Demi-Orcs comme lieutenants. Le Commandement et l’Organisation militaire ont donc une vraie place : répartir des tâches, maintenir la coopération entre Orcs et Hommes, préparer une patrouille ou gérer un poste. La Tactique permet de choisir une position, préparer une embuscade et comprendre un adversaire.</p>\n<h2>Infiltration technique</h2>\n<p>Approche furtive, Dissimulation, Crochetage, Désamorçage et Fabrication de pièges, Escalade et descente en rappel forment une seconde famille d’apprentissages. Le Demi-Orc peut devenir saboteur, éclaireur ou infiltrateur technique plutôt qu’un simple espion social.</p>\n<h2>Mobilité</h2>\n<p>Équitation et Natation peuvent être apprises, ce qui facilite l’intégration dans les sociétés humaines. La Spéléologie reste utile pour travailler dans les forteresses et communautés orcs. Cette double adaptation — surface humaine et souterrain orc — est l’un des traits importants de la Culture.</p>\n<h2>Artisanat et Développement corporel</h2>\n<p>Travail du cuir, Travail du métal, Empennage et Travail du bois permettent d’entretenir l’équipement ou d’adopter une profession crédible. Le Développement corporel soutient l’endurance et l’entraînement, sans reproduire les avantages physiques déjà portés par la Race.</p>\n<h2>Soleil et vie quotidienne</h2>\n<p>Les Demi-Orcs peuvent conserver des habitudes nocturnes héritées des milieux orcs, mais peuvent agir au jour beaucoup plus facilement qu’un Orc commun. Leur mode de vie varie selon le groupe auquel ils sont associés : forteresse orc, communauté dunlendinge, garnison mixte ou réseau d’agents.</p>\n<h2>Religion, puissance et ambition</h2>\n<p>La plupart respectent avant tout l’Ombre et la puissance. Le pouvoir est souvent perçu comme la réalité fondamentale : celui qui peut imposer sa volonté doit être servi, craint ou dépassé. Jalousie, ambition et suspicion sont fréquentes dans une position sociale intermédiaire où le statut dépend du maître et de l’utilité.</p>\n<h2>Relations avec Orcs et Uruk-hai</h2>\n<p>Les Demi-Orcs peuvent commander des Orcs grâce à leur intelligence et à leur capacité d’agir au Soleil, mais doivent souvent imposer leur position. Les Uruk-hai peuvent les considérer comme des rivaux : l’Uruk tire son prestige de sa puissance militaire, le Demi-Orc de sa polyvalence et de son aptitude à agir dans le monde humain.</p>\n<h2>Humains, Dunlendings, Elfes et Dúnedain</h2>\n<p>Les relations avec les Humains sont complexes parce qu’un Demi-Orc peut réellement vivre parmi eux. Les Dunlendings possèdent une importance particulière dans les réseaux de Saruman. Les Elfes suscitent une hostilité forte et sont difficiles à tromper ; les Dúnedain sont des adversaires particulièrement importants dans le Nord-Ouest et peuvent devenir des cibles de surveillance ou de sabotage.</p>\n<h2>Langues</h2>\n<p>Le westron et l’orcien sont les deux langues fondamentales. Le Parler Noir relie le personnage aux grandes organisations de l’Ombre, tandis que le dunael est particulièrement pertinent pour les agents liés aux Dunlendings. Cette véritable capacité bilingue ou multilingue constitue l’un des traits les plus importants de la Culture.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil privilégie <strong>Tromperie, Jeu d’acteur, Observation, Langues, Dissimulation, Approche furtive, Commandement, Tactique et Armes</strong>. Spéléologie, Corruption, Crochetage, Désamorçage de pièges, Organisation militaire, Embuscade, Équitation, Pistage et artisanat soutiennent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Demi-Orcs porte apparence intermédiaire, vision nocturne, longévité, résistances et autres traits innés. La Culture Demi-Orcs porte langues, infiltration, Tromperie, Observation, armes, armures, Commandement, Tactique et adaptation aux sociétés humaines ou orcs.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Un personnage doit surtout préciser dans quel monde il a été élevé, quelle identité il a utilisée et quel maître ou réseau l’a formé. Après la chute de Saruman, certains cherchent un nouveau maître tandis que d’autres peuvent disparaître parmi les Hommes. Leur principale arme culturelle demeure l’ambiguïté.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 4</li><li><strong>Black Speech</strong> — Parlée 4 / Écrite 3</li></ul></section>",
+            "culture": "Demi-Orcs — Perorch / Piryrch"
+          }
+        },
+        "en": {
+          "name": "Half-orcs — Perorch / Piryrch",
+          "system": {
+            "description": "<h1>Half-orcs — Perorch / Piryrch</h1>\n<p><strong>Half-orcs</strong>, called <strong>Perorch</strong> in the singular and <strong>Piryrch</strong> in the plural, descend from the mixing of Humans and Orcs. Their Culture is particularly associated with Saruman's agents: spies, lieutenants, guards, and intermediaries able to function among Orcs as well as human populations. Their cultural strength is neither brute force alone nor warfare alone: it is the ability to cross the boundary between several societies.</p>\n<h2>An intermediary Culture</h2>\n<p>A Half-orc can live among Orcs and learn their methods, language, and brutal relationship with authority while also moving among Men. His way of life therefore depends heavily on the group to which he is attached. Clothing, customs, and everyday practices may change with the environment.</p>\n<h2>Saruman and his agents</h2>\n<p>In the period for which they are best documented, Half-orcs are linked to Saruman. He employs them precisely where a Common Orc would immediately attract attention: surveillance, discreet escort, transmission of information, command of agents, and infiltration. Their Culture should therefore be less exclusively martial than that of the Uruk-hai.</p>\n<h2>Dunlending blood and concealed identity</h2>\n<p>Half-orcs associated with Saruman notably possess Dunlending blood. This origin makes it easier for them to blend into certain populations of Eriador and regions near Isengard. A Half-orc can present himself as a particularly hard or unsettling Man; clothing, accent, and behavior become tools of cover.</p>\n<h2>Clothing and armor</h2>\n<p>Leather and metal protection are common, but clothing often reflects the society in which the character operates. All armor categories are possible. A spy may wear no visible protection; a lieutenant may instead possess a complete suit of armor. Function determines equipment.</p>\n<h2>Weapons</h2>\n<p>The arsenal is very broad: swords, clubs, daggers, axes, bows, maces, scimitars, spears, hammers, whips, and other weapons suited to human or Orcish environments. This variety confirms the absence of a single emblematic weapon. The character chooses a weapon consistent with mission and cover.</p>\n<h2>Observation, Acting, and Deception</h2>\n<p>Observation is essential for recognizing danger, suspicious behavior, and details that might reveal an identity. Acting allows the character to adopt expected reactions. Deception becomes one of the central skills: concealing one's origin, lying about a mission, maintaining a false identity, and manipulating an interlocutor can all be the result of long training.</p>\n<h2>Seduction, Bribery, Gaming, and Appraisal</h2>\n<p>Depending on the role, Seduction and Bribery can obtain access or information without combat. Gaming provides a natural cover in taverns and camps, while Appraisal helps recognize the value of an object, equipment, or a bribe. These skills underline the operational nature of the Culture.</p>\n<h2>Leadership and Tactics</h2>\n<p>Saruman employs Half-orcs as lieutenants. Leadership and Military Organization therefore have a genuine place: assigning tasks, maintaining cooperation between Orcs and Men, preparing a patrol, or running a post. Tactics allows them to choose a position, prepare an ambush, and understand an opponent.</p>\n<h2>Technical infiltration</h2>\n<p>Stalking, Hiding, Lockpicking, Disarming and Making Traps, Climbing, and rappelling form a second family of training. A Half-orc can become a saboteur, scout, or technical infiltrator rather than merely a social spy.</p>\n<h2>Mobility</h2>\n<p>Riding and Swimming can be learned, making integration into human societies easier. Caving remains useful for working in Orcish fortresses and communities. This double adaptation — the human surface world and the Orcish underground — is one of the Culture's important traits.</p>\n<h2>Craft and Body Development</h2>\n<p>Leatherworking, Metalworking, Fletching, and Woodworking make it possible to maintain equipment or adopt a credible trade. Body Development supports endurance and training without reproducing physical advantages already carried by the Race.</p>\n<h2>Sunlight and everyday life</h2>\n<p>Half-orcs may retain nocturnal habits inherited from Orcish surroundings, but they can operate by day far more easily than a Common Orc. Their way of life varies with the group to which they are attached: Orcish fortress, Dunlending community, mixed garrison, or network of agents.</p>\n<h2>Religion, power, and ambition</h2>\n<p>Most respect the Shadow and power above all. Power is often perceived as the fundamental reality: whoever can impose his will must be served, feared, or surpassed. Jealousy, ambition, and suspicion are common in an intermediary social position where status depends on one's master and usefulness.</p>\n<h2>Relations with Orcs and Uruk-hai</h2>\n<p>Half-orcs can command Orcs thanks to their intelligence and ability to act in sunlight, but they often have to enforce their position. Uruk-hai may regard them as rivals: the Uruk draws prestige from military power, the Half-orc from versatility and the ability to act in the human world.</p>\n<h2>Humans, Dunlendings, Elves, and Dúnedain</h2>\n<p>Relations with Humans are complex because a Half-orc can genuinely live among them. Dunlendings are especially important in Saruman's networks. Elves provoke strong hostility and are difficult to deceive; the Dúnedain are particularly important opponents in the North-west and can become targets of surveillance or sabotage.</p>\n<h2>Languages</h2>\n<p>Westron and Orcish are the two fundamental languages. The Black Speech links the character to the great organizations of the Shadow, while Dunael is especially relevant to agents connected with Dunlendings. This genuine bilingual or multilingual ability is one of the Culture's most important traits.</p>\n<h2>Cultural skills</h2>\n<p>The profile emphasizes <strong>Deception, Acting, Observation, Languages, Hiding, Stalking, Leadership, Tactics, and Weapons</strong>. Caving, Bribery, Lockpicking, Trap Disarming, Military Organization, Ambush, Riding, Tracking, and crafts support specialized roles.</p>\n<h2>Race and Culture</h2>\n<p>The Half-orc Race carries intermediate appearance, night vision, longevity, resistances, and other innate traits. The Half-orc Culture carries languages, infiltration, Deception, Observation, weapons, armor, Leadership, Tactics, and adaptation to human or Orcish societies.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. A character should above all specify in which world he was raised, which identity he used, and which master or network trained him. After Saruman's fall, some seek a new master while others may disappear among Men. Their principal cultural weapon remains ambiguity.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 4</li><li><strong>Orkish</strong> — Spoken 8 / Written 4</li><li><strong>Black Speech</strong> — Spoken 4 / Written 3</li></ul></section>",
+            "culture": "Half-orcs — Perorch / Piryrch"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Restreint"
+    ],
+    "en": [
+      "Restricted"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-restricted"
+  ]
+}

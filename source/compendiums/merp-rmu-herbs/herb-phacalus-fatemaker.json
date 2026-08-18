@@ -1,0 +1,90 @@
+{
+  "key": "herb-phacalus-fatemaker",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Phacalus (Faiseur-de-Destin / Fatemaker)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-phacalus-fatemaker",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-3-W",
+        "sourceCost": "35gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation",
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": "W",
+        "sourceVariants": [
+          {
+            "group": "Renforts & Altérations",
+            "code": "m-F-3-W",
+            "form": "Root",
+            "prep": "ingest",
+            "cost": "35gp",
+            "af": 0,
+            "effect": "Cette racine des marais du bassin du Gwathló, avalée entière, peut augmenter définitivement de 1 plusieurs caractéristiques mentales, jusqu’à 102. Le traitement reste extrêmement dangereux : coma, pertes durables de caractéristiques ou réaction allergique mortelle peuvent survenir."
+          }
+        ],
+        "sourceName": "Phacalus (Fatemaker)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Light",
+      "form": "Root",
+      "prep": "ingest",
+      "season": "",
+      "cost": "35gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Faiseur de Destin (Fatemaker)</strong>.</p><p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une racine séchée au moins une semaine puis réduite en poudre peut être répandue sur une blessure pour en arrêter le saignement en cinq minutes. Avalée entière, elle possède des propriétés bien plus dangereuses et extraordinaires. Cette racine des marais du bassin du Gwathló, avalée entière, peut augmenter définitivement de 1 plusieurs caractéristiques mentales, jusqu’à 102. Le traitement reste extrêmement dangereux : coma, pertes durables de caractéristiques ou réaction allergique mortelle peuvent survenir.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Phacalus (Faiseur-de-Destin / Fatemaker)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Faiseur de Destin (Fatemaker)</strong>.</p><p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une racine séchée au moins une semaine puis réduite en poudre peut être répandue sur une blessure pour en arrêter le saignement en cinq minutes. Avalée entière, elle possède des propriétés bien plus dangereuses et extraordinaires. Cette racine des marais du bassin du Gwathló, avalée entière, peut augmenter définitivement de 1 plusieurs caractéristiques mentales, jusqu’à 102. Le traitement reste extrêmement dangereux : coma, pertes durables de caractéristiques ou réaction allergique mortelle peuvent survenir.</p>"
+      }
+    },
+    "en": {
+      "name": "Phacalus (Fatemaker)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Fatemaker</strong>.</p><p>This root is found chiefly in mild temperate climates, especially in freshwater banks and shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>A root dried for at least a week and then powdered can be sprinkled on a wound to stop bleeding within five minutes. Swallowed whole, it has far more dangerous and extraordinary properties. This marsh root of the Gwathló Basin, swallowed whole, can permanently increase several mental stats by 1, up to 102. The treatment is extremely dangerous: coma, lasting stat loss, or a fatal allergic reaction may occur.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

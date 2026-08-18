@@ -1,0 +1,70 @@
+{
+  "key": "bred-for-war",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Élevé pour la Guerre (Bred for War)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "bred-for-war",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Uruk-hai",
+            "Uruk Hai",
+            "Uruk"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Bred for War",
+      "cost": "15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Élevé pour la Guerre (Bred for War)</h1><h2>Description</h2><p>Vous avez été élevé — et peut-être sélectionné — pour la guerre. La source décrit un Uruk-hai massif, brutalement robuste, dont la Force, la Constitution et le Développement Corporel dépassent ceux de ses semblables.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, les bonus sont ramenés à l’échelle de RMU : <strong>+1 au bonus de Force</strong>, <strong>+1 au bonus de Constitution</strong> et <strong>+5 à Développement Corporel (Body Development)</strong>. Ce Talent est réservé aux origines pour lesquelles un tel élevage guerrier est cohérent.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_bred-for-war.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Élevé pour la Guerre (Bred for War)",
+      "system": {
+        "description": "<h1>Élevé pour la Guerre (Bred for War)</h1><h2>Description</h2><p>Vous avez été élevé — et peut-être sélectionné — pour la guerre. La source décrit un Uruk-hai massif, brutalement robuste, dont la Force, la Constitution et le Développement Corporel dépassent ceux de ses semblables.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, les bonus sont ramenés à l’échelle de RMU : <strong>+1 au bonus de Force</strong>, <strong>+1 au bonus de Constitution</strong> et <strong>+5 à Développement Corporel (Body Development)</strong>. Ce Talent est réservé aux origines pour lesquelles un tel élevage guerrier est cohérent.</p>"
+      }
+    },
+    "en": {
+      "name": "Bred for War",
+      "system": {
+        "description": "<h1>Bred for War</h1><h2>Description</h2><p>You were raised—and perhaps selected—for war. The source describes a massive, brutally robust Uruk-hai whose Strength, Constitution, and Body Development exceed those of its fellows.</p><h2>MERP-RMU Adaptation</h2><p>In MERP-RMU, the bonuses are reduced to the RMU scale: <strong>+1 to the Strength bonus</strong>, <strong>+1 to the Constitution bonus</strong>, and <strong>+5 to Body Development</strong>. This Talent is restricted to origins for which such martial breeding is appropriate.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

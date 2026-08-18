@@ -1,0 +1,79 @@
+{
+  "key": "herb-ancalthur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-musculaires",
+  "document": {
+    "name": "Ancalthur",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ancalthur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-F-6",
+        "sourceCost": "45gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Musculaire"
+        ],
+        "poisonType": "Musculaire",
+        "climateCode": "c",
+        "localeCode": "F",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Ancalthur"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Very Hard",
+      "form": "Grass",
+      "prep": "liquid",
+      "season": "",
+      "cost": "45gp",
+      "notes": "<p>Cette herbe se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison musculaire de niveau 4. Il déforme la perception du temps et laisse la victime lourdement désordonnée pendant 2 à 4 heures, avec des pénalités pouvant atteindre −100.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 4
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ancalthur",
+      "system": {
+        "notes": "<p>Cette herbe se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison musculaire de niveau 4. Il déforme la perception du temps et laisse la victime lourdement désordonnée pendant 2 à 4 heures, avec des pénalités pouvant atteindre −100.</p>"
+      }
+    },
+    "en": {
+      "name": "Ancalthur",
+      "system": {
+        "notes": "<p>This grass is found chiefly in cold climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 4 muscle poison. It distorts the victim’s sense of time and leaves them severely uncoordinated for 2–4 hours, with penalties reaching −100.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Musculaires"
+    ],
+    "en": [
+      "Muscle"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-musculaires"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-belan-blood-nut-scass",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Belan (Noix-de-Sang / Blood-nut, Scass)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-belan-blood-nut-scass",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-O-5-SE",
+        "sourceCost": "40gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "O",
+        "regionCode": "SE",
+        "sourceVariants": [],
+        "sourceName": "Belan (Blood-nut, Scass)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Hard",
+      "form": "Nut",
+      "prep": "ingest",
+      "season": "",
+      "cost": "40gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Noix-de-Sang (Blood-nut)</strong>.</p><p>Cette noix se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La noix arrête toute hémorragie en 1 à 10 rounds. Le patient doit ensuite éviter tout effort pendant environ une heure ; la préparation se conserve trois mois.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 5,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Belan (Noix-de-Sang / Blood-nut, Scass)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Noix-de-Sang (Blood-nut)</strong>.</p><p>Cette noix se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La noix arrête toute hémorragie en 1 à 10 rounds. Le patient doit ensuite éviter tout effort pendant environ une heure ; la préparation se conserve trois mois.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Belan (Blood-nut, Scass)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Blood-nut</strong>.</p><p>This nut is found chiefly in hot and humid climates, especially in sea coasts and saltwater shores, and is best known in south-eastern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The nut stops all bleeding in 1–10 rounds. The patient must then avoid exertion for about one hour; the preparation keeps for three months.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

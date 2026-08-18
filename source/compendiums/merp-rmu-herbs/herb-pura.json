@@ -1,0 +1,79 @@
+{
+  "key": "herb-pura",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-conversion",
+  "document": {
+    "name": "Pûra",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-pura",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "Woses-NW",
+        "sourceCost": "28gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Conversion"
+        ],
+        "poisonType": "Conversion",
+        "climateCode": null,
+        "localeCode": null,
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Pûra"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "",
+      "findDifficulty": "",
+      "form": "Mixture",
+      "prep": "paste",
+      "season": "",
+      "cost": "28gp",
+      "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 2, traditionnellement associé aux Woses du Nord-Ouest.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pûra",
+      "system": {
+        "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 2, traditionnellement associé aux Woses du Nord-Ouest.</p>"
+      }
+    },
+    "en": {
+      "name": "Pûra",
+      "system": {
+        "notes": "<p>To obtain its properties, it is prepared as a paste.</p><p>Level 2 conversion poison traditionally associated with the Woses of the North-West.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Conversion"
+    ],
+    "en": [
+      "Conversion"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-conversion"
+  ]
+}

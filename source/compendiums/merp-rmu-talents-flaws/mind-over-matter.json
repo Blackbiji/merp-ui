@@ -1,0 +1,64 @@
+{
+  "key": "mind-over-matter",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mental",
+  "document": {
+    "name": "Esprit sur la matière (Mind Over Matter)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "mind-over-matter",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Discipline",
+      "name": "Mind Over Matter",
+      "cost": "5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Esprit sur la matière (Mind Over Matter)</h1><h2>Description</h2><p>Vous avez appris à imposer votre volonté à vos réactions corporelles et mentales. Cette maîtrise renforce les Compétences qui reposent sur le contrôle conscient de soi.</p><h2>Adaptation MERP-RMU</h2><p>Lors de l’acquisition, choisissez une Compétence de <strong>Discipline Mentale (Mental Discipline)</strong>. Vous gagnez <strong>+5 par Tier</strong> avec cette Compétence lorsque la maîtrise consciente de soi constitue bien l’objet de la Manœuvre.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_mind-over-matter.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Esprit sur la matière (Mind Over Matter)",
+      "system": {
+        "description": "<h1>Esprit sur la matière (Mind Over Matter)</h1><h2>Description</h2><p>Vous avez appris à imposer votre volonté à vos réactions corporelles et mentales. Cette maîtrise renforce les Compétences qui reposent sur le contrôle conscient de soi.</p><h2>Adaptation MERP-RMU</h2><p>Lors de l’acquisition, choisissez une Compétence de <strong>Discipline Mentale (Mental Discipline)</strong>. Vous gagnez <strong>+5 par Tier</strong> avec cette Compétence lorsque la maîtrise consciente de soi constitue bien l’objet de la Manœuvre.</p>"
+      }
+    },
+    "en": {
+      "name": "Mind Over Matter",
+      "system": {
+        "description": "<h1>Mind Over Matter</h1><h2>Description</h2><p>You have learned to impose your will upon your bodily and mental reactions. This mastery strengthens Skills based on conscious self-control.</p><h2>MERP-RMU Adaptation</h2><p>When acquiring this Talent, choose one <strong>Mental Discipline</strong> Skill. You gain <strong>+5 per Tier</strong> with that Skill when conscious self-mastery is genuinely the purpose of the Maneuver.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mentaux"
+    ],
+    "en": [
+      "Talents — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mental"
+  ]
+}

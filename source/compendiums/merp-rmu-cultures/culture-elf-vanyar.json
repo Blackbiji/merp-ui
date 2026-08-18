@@ -1,0 +1,764 @@
+{
+  "key": "culture-elf-vanyar",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Vanyar",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-elf-vanyar",
+        "canonicalKey": "culture-elf-vanyar",
+        "collection": "merp-rmu",
+        "contentVersion": 4,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-elves",
+        "availability": {
+          "ages": [
+            1
+          ],
+          "restrictedByAge": {
+            "1": true
+          }
+        },
+        "recommendedSpecializations": {
+          "Composition & Performance Art": [
+            "Singing",
+            "Poetry",
+            "Harp"
+          ],
+          "Lore — Religion/Philosophy": [
+            "Valar",
+            "Eru",
+            "Philosophy"
+          ],
+          "Social — Influence": [
+            "Inspiration",
+            "Diplomacy"
+          ]
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-elf-vanyar-age-1",
+            "folderKey": "cultures-age-1-elves",
+            "document": {
+              "name": "Vanyar",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-elf-vanyar-age-1",
+                  "canonicalKey": "culture-elf-vanyar",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-elves-age-1",
+                  "raceCanonicalKey": "race-elves",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": true
+                  },
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  },
+                  "recommendedSpecializations": {
+                    "Composition & Performance Art": [
+                      "Singing",
+                      "Poetry",
+                      "Harp"
+                    ],
+                    "Lore — Religion/Philosophy": [
+                      "Valar",
+                      "Eru",
+                      "Philosophy"
+                    ],
+                    "Social — Influence": [
+                      "Inspiration",
+                      "Diplomacy"
+                    ]
+                  },
+                  "descriptionFormat": "html"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Vanyar",
+                "description": "<p>Les Vanyar, les « Blonds » ou les « Beaux », constituent la première et la moins nombreuse des trois grandes lignées des Eldar. Ils furent les premiers des Elfes à entreprendre la Grande Marche vers l’Ouest sous la conduite d’Ingwë, leur roi, et ceux qui demeurèrent le plus fidèlement attachés à l’appel des Valar. Après avoir atteint Aman, ils s’établirent d’abord à Tirion avec les Noldor, puis quittèrent progressivement la cité pour vivre au plus près des puissances de l’Ouest, sur les pentes du Taniquetil et dans les terres baignées par la lumière de Valinor.</p><p>Parmi tous les Quendi, les Vanyar sont ceux qui connurent le moins les guerres, les exils et les divisions ayant marqué l’histoire de la Terre du Milieu. Ils ne participèrent ni à la rébellion de Fëanor ni au départ des Noldor. Leur histoire est donc moins celle de royaumes fondés et détruits que celle d’une fidélité préservée, d’une proximité exceptionnelle avec les Valar et d’un amour presque absolu pour la lumière, le chant et la contemplation.</p><h2>Apparence</h2><p>Les Vanyar sont grands, gracieux et d’une beauté remarquable, même selon les critères des Eldar. Leur silhouette est élancée sans être fragile, et leurs mouvements possèdent une légèreté qui peut donner l’impression qu’ils se déplacent sans effort.</p><p>Leur trait le plus caractéristique est leur chevelure, généralement blonde, dorée, couleur de miel ou parfois presque blanche sous une lumière intense. Leurs yeux sont souvent bleus, gris clair, verts ou dorés. Leur peau est claire et semble parfois refléter la lumière d’Aman avec une douceur particulière.</p><p>Comme tous les Elfes, ils ne sont normalement affectés ni par les maladies ordinaires ni par les cicatrices durables. Leur apparence délicate dissimule une grande force, une endurance exceptionnelle et une résistance naturelle au froid. Ils voient sous la lumière des étoiles ou de la lune presque aussi clairement qu’en plein jour, possèdent une ouïe remarquable et se déplacent en laissant très peu de traces.</p><h2>Ingwë et la première lignée</h2><p>Le roi des Vanyar est Ingwë, considéré comme le Haut Roi de tous les Elfes. Son autorité ne repose pas sur la conquête ou la richesse, mais sur son ancienneté, sa sagesse et sa proximité avec Manwë.</p><p>Ingwë conduisit son peuple vers l’Ouest et ne revint jamais vivre en Terre du Milieu. Sous son règne, les Vanyar formèrent une communauté unie, rarement traversée par les rivalités dynastiques qui marquèrent les Noldor. La fidélité à Ingwë est presque indissociable de leur fidélité aux Valar.</p><h2>Vie en Aman</h2><p>Les Vanyar vivent principalement sur les pentes du Taniquetil, dans les terres proches de Valimar et des demeures de Manwë et Varda. Ils préfèrent les hauteurs lumineuses, les vastes horizons, les jardins d’Aman et les lieux depuis lesquels les étoiles peuvent être contemplées sans obstacle.</p><p>Leurs demeures sont ouvertes, lumineuses et harmonieusement intégrées aux collines. Les matériaux clairs, les terrasses, les jardins, les colonnes élancées et les espaces consacrés au chant y occupent une place importante. Leur société possède peu de fortifications, d’arsenaux ou d’ouvrages défensifs.</p><h2>Un peuple de lumière</h2><p>La lumière occupe une place centrale dans leur identité. Les Vanyar connurent les Deux Arbres dans toute leur splendeur et gardent la mémoire de leur éclat avec une précision propre aux Elfes.</p><p>Ils ne considèrent pas nécessairement l’obscurité comme mauvaise en elle-même. La nuit étoilée est sacrée, car elle révèle l’œuvre de Varda. Ils distinguent cependant la nuit naturelle des ténèbres imposées par Morgoth, qui cherchent à étouffer la lumière plutôt qu’à la compléter.</p><ul><li><p>la vérité</p></li><li><p>la beauté</p></li><li><p>la connaissance</p></li><li><p>la présence des Valar</p></li><li><p>l’harmonie du monde</p></li><li><p>l’espérance</p></li></ul><h2>Chant et poésie</h2><p>Les Vanyar sont souvent considérés comme les plus grands chanteurs parmi les Eldar. Leur musique est moins tournée vers le récit historique détaillé que celle des Sindar ou vers l’expression dramatique et passionnée des Noldor. Elle recherche plutôt l’harmonie, la pureté et l’élévation de l’esprit.</p><p>Leurs chants célèbrent les étoiles, les Valar, les Deux Arbres, les montagnes d’Aman, les eaux et les vents, l’éveil des Elfes et la beauté de la Création. Leur voix possède une clarté exceptionnelle ; plusieurs Vanyar peuvent chanter ensemble sans qu’aucune voix ne domine les autres.</p><h2>Elemmírë et les maîtres du chant</h2><p>Parmi leurs plus célèbres artistes figure Elemmírë, auteur de l’Aldudénië, la lamentation consacrée à la mort des Deux Arbres. Cette œuvre fut connue de tous les Eldar et témoigne de la capacité des Vanyar à transformer le deuil en une expression artistique d’une beauté durable.</p><p>Le prestige d’un chanteur vanya ne dépend pas de sa renommée personnelle autant que de sa capacité à exprimer une vérité dépassant son individualité. L’œuvre parfaite est celle qui permet à l’auditeur de percevoir plus clairement la beauté du monde ou la volonté d’Eru.</p><h2>Tempérament</h2><p>Les Vanyar sont généralement sereins, patients et peu enclins aux querelles. Ils maîtrisent leurs émotions avec davantage d’aisance que les Noldor, sans pour autant être froids ou indifférents.</p><p>Ils s’expriment rarement avec précipitation. Avant de répondre, un Vanya peut prendre le temps de considérer les conséquences de ses paroles et la manière dont elles seront reçues. Cette sérénité peut être interprétée comme de la distance ou de la passivité par les peuples plus impulsifs.</p><ul><li><p>la sagesse</p></li><li><p>l’harmonie</p></li><li><p>la fidélité</p></li><li><p>la beauté</p></li><li><p>l’humilité</p></li><li><p>la maîtrise de soi</p></li><li><p>la contemplation</p></li><li><p>la parole juste</p></li></ul><h2>Fidélité aux Valar</h2><p>Les Vanyar sont les Eldar les plus proches des Valar. Ils vivent auprès d’eux, apprennent directement de leur sagesse et assistent à leurs célébrations. Ils honorent tout particulièrement Manwë, Varda, Yavanna, Nienna et Oromë.</p><p>Cette proximité n’est pas une adoration servile. Les Vanyar savent que les Valar ne sont pas des dieux créateurs, mais les puissants serviteurs d’Eru chargés d’ordonner le monde. Leur foi ne repose pas sur un clergé organisé : le chant, la contemplation, la gratitude et la participation aux œuvres des Valar constituent leurs principales formes de dévotion.</p><h2>Manwë et les hauteurs</h2><p>Manwë occupe une place particulière dans leur culture. Les Vanyar vivent près de ses demeures et associent les vents, les aigles, les sommets et les grands espaces ouverts à sa présence.</p><p>Ils aiment les hauteurs depuis lesquelles le regard peut porter au loin. Cette préférence exprime leur désir de considérer les événements dans leur ensemble plutôt que de se laisser enfermer dans une perspective étroite. Les oiseaux, particulièrement les grands aigles, sont traités avec respect.</p><h2>Varda et les étoiles</h2><p>Varda est peut-être la plus aimée des Valar parmi les Vanyar. Les étoiles existaient avant leur éveil et furent la première lumière que les Quendi contemplèrent.</p><p>Les Vanyar célèbrent Varda par des hymnes, des veillées sous les étoiles, des œuvres d’argent et de cristal, des vêtements brodés de motifs célestes et des observances liées aux mouvements du ciel. Leur connaissance des étoiles est à la fois poétique et précise.</p><h2>Relation au savoir</h2><p>Les Vanyar ne recherchent pas le savoir avec la même avidité créatrice que les Noldor. Ils cherchent moins à transformer le monde qu’à le comprendre et à percevoir l’harmonie déjà présente en lui.</p><p>Leurs domaines privilégiés comprennent la poésie, la musique, les langues, la philosophie, l’astronomie, l’histoire des Valar, la connaissance des chants anciens, la contemplation de la nature et la compréhension des émotions et des intentions.</p><h2>Guerre de la Colère</h2><p>Les Vanyar restèrent en Aman durant les guerres du Beleriand. À la fin du Premier Âge, ils répondirent cependant à l’appel des Valar et prirent part à la Guerre de la Colère sous la conduite d’Eönwë.</p><p>Cette guerre constitue la principale expérience militaire collective de leur peuple. Ils y démontrèrent que leur caractère paisible ne provenait pas d’une incapacité à combattre. Lorsqu’une cause juste et une autorité légitime l’exigent, ils peuvent devenir des guerriers d’une puissance redoutable. Après la victoire, la grande majorité retourna en Aman.</p><h2>Armes et armures</h2><p>Les Vanyar ne sont pas une culture guerrière, mais ceux qui se préparent au combat reçoivent une formation digne des Eldar d’Aman. Ils utilisent notamment la lance, l’épée longue, l’arc, le bouclier, la dague et les armures de maille légère.</p><p>Leurs armes sont élégantes, claires et équilibrées. L’or pâle, l’argent, les motifs de plumes, d’étoiles ou de rayons lumineux y sont fréquents. Ils privilégient les formations ordonnées, la discipline et la coordination.</p><h2>Magie et pouvoir</h2><p>Les Vanyar possèdent une relation naturelle avec les forces spirituelles d’Arda. Leur puissance s’exprime surtout par la voix, la présence, la lumière et l’harmonie.</p><p>Leurs pratiques peuvent concerner les chants de pouvoir, la lumière, la protection, la guérison, la résistance à la peur, la communication, la perception spirituelle, l’inspiration, la maîtrise des vents légers et la dissipation des ténèbres. Ils se tournent plus naturellement vers la Canalisation et le Mentalisme que vers les formes d’Essence fondées sur la transformation matérielle.</p><h2>Langues</h2><p>Le quenya est leur langue principale et demeure employé dans tous les aspects de leur existence. Leur parler est réputé particulièrement pur, musical et proche des formes anciennes développées en Aman.</p><p>Ils peuvent également connaître le valarin, le telerin, le sindarin et les langues anciennes des Eldar. Ils accordent une grande importance au choix des noms, à la précision du vocabulaire et à l’harmonie sonore d’une phrase.</p><h2>Vêtements et apparat</h2><p>Les Vanyar portent des vêtements légers, fluides et lumineux. Ils apprécient les étoffes fines, les drapés simples et les ornements qui reflètent la lumière sans paraître ostentatoires.</p><p>Le blanc, l’or pâle, le bleu céleste, l’argent, le jaune clair et le vert tendre dominent. Les motifs représentent souvent les étoiles, les rayons du soleil, les plumes, les fleurs d’Aman ou les sommets du Taniquetil. Leurs bijoux sont fins et discrets.</p><h2>Famille et société</h2><p>La société vanya est stable, unie et peu hiérarchisée en dehors de la royauté d’Ingwë et du respect accordé aux anciens, aux sages et aux maîtres des arts.</p><p>Le mariage est monogame et profondément lié à l’union des fëar. Les enfants grandissent au sein de communautés où l’éducation, la musique et la contemplation occupent une place centrale. Le prestige personnel vient principalement de la sagesse, de la maîtrise du chant, de la qualité du conseil et du service rendu à la communauté.</p><h2>Relations avec les Noldor</h2><p>Les Vanyar sont étroitement apparentés aux Noldor. Plusieurs unions eurent lieu entre leurs grandes maisons, notamment celle de Finwë avec Indis, parente d’Ingwë.</p><p>Ils admirent le génie, la passion et la créativité des Noldor, mais se méfient de leur orgueil, de leur possessivité et de leur désir de dépasser les limites imposées. La rébellion des Noldor fut pour eux une profonde douleur. Leur participation à la Guerre de la Colère montre qu’ils étaient prêts à combattre pour libérer la Terre du Milieu et sauver ceux qui pouvaient encore l’être.</p><h2>Relations avec les Teleri</h2><p>Les Vanyar entretiennent généralement des relations harmonieuses avec les Teleri d’Aman. Ils apprécient leur musique, leur lien avec la mer et leur sensibilité à la beauté naturelle.</p><p>Leurs tempéraments diffèrent : les Vanyar recherchent les hauteurs, les étoiles et la proximité des Valar, tandis que les Teleri sont davantage tournés vers les rivages, l’eau et le voyage. Le Massacre d’Alqualondë les bouleversa profondément.</p><h2>Relations avec les Hommes et les Nains</h2><p>Les Vanyar ont peu de contacts directs avec les Hommes et les Nains. Ils considèrent les Hommes avec compassion et curiosité et savent que leur mortalité appartient à un destin voulu par Eru.</p><p>Ils respectent les Nains en tant qu’œuvre d’Aulë, sans partager l’intérêt des Noldor pour leurs techniques ou leurs métaux. Leur attachement aux biens matériels et aux profondeurs de la terre leur paraît souvent difficile à comprendre.</p><h2>Professions et formation</h2><p>La Culture vanya favorise particulièrement Bardes, Mystiques, Voyants, guérisseurs, diplomates, érudits, poètes, musiciens, conseillers, gardiens spirituels et Combattants disciplinés.</p><p>Leur formation met l’accent sur le Chant, la Musique, la Poésie, les Langues, l’Influence, la Perception, l’Intuition, la Philosophie, l’Astronomie, la Connaissance des Valar, la Méditation et les pouvoirs de lumière et de protection. Les métiers fondés sur l’intrigue, le vol ou la tromperie sont exceptionnellement rares.</p><h2>Place dans la création de personnage</h2><p>La Culture Vanyar convient principalement à un Elfe né ou élevé en Aman, membre de la maison d’Ingwë, vivant sur les pentes du Taniquetil, ayant participé à la Guerre de la Colère ou envoyé exceptionnellement en mission par les Valar.</p><p>Elle est normalement limitée au Premier Âge et surtout aux campagnes se déroulant en Aman ou durant la Guerre de la Colère. Après la fin du Premier Âge, la présence d’un Vanya en Terre du Milieu doit rester extrêmement rare.</p><p>Les Vanyar incarnent la part la plus lumineuse et la plus fidèle des Eldar : un peuple de chanteurs, de sages et de contemplatifs qui choisit de demeurer auprès des Valar, mais dont la paix n’exclut pas la puissance lorsque l’harmonie du monde est menacée.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Own Region",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 15,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": -1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 2
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Vanyar",
+                "system": {
+                  "description": "<p>Les Vanyar, les « Blonds » ou les « Beaux », constituent la première et la moins nombreuse des trois grandes lignées des Eldar. Ils furent les premiers des Elfes à entreprendre la Grande Marche vers l’Ouest sous la conduite d’Ingwë, leur roi, et ceux qui demeurèrent le plus fidèlement attachés à l’appel des Valar. Après avoir atteint Aman, ils s’établirent d’abord à Tirion avec les Noldor, puis quittèrent progressivement la cité pour vivre au plus près des puissances de l’Ouest, sur les pentes du Taniquetil et dans les terres baignées par la lumière de Valinor.</p><p>Parmi tous les Quendi, les Vanyar sont ceux qui connurent le moins les guerres, les exils et les divisions ayant marqué l’histoire de la Terre du Milieu. Ils ne participèrent ni à la rébellion de Fëanor ni au départ des Noldor. Leur histoire est donc moins celle de royaumes fondés et détruits que celle d’une fidélité préservée, d’une proximité exceptionnelle avec les Valar et d’un amour presque absolu pour la lumière, le chant et la contemplation.</p><h2>Apparence</h2><p>Les Vanyar sont grands, gracieux et d’une beauté remarquable, même selon les critères des Eldar. Leur silhouette est élancée sans être fragile, et leurs mouvements possèdent une légèreté qui peut donner l’impression qu’ils se déplacent sans effort.</p><p>Leur trait le plus caractéristique est leur chevelure, généralement blonde, dorée, couleur de miel ou parfois presque blanche sous une lumière intense. Leurs yeux sont souvent bleus, gris clair, verts ou dorés. Leur peau est claire et semble parfois refléter la lumière d’Aman avec une douceur particulière.</p><p>Comme tous les Elfes, ils ne sont normalement affectés ni par les maladies ordinaires ni par les cicatrices durables. Leur apparence délicate dissimule une grande force, une endurance exceptionnelle et une résistance naturelle au froid. Ils voient sous la lumière des étoiles ou de la lune presque aussi clairement qu’en plein jour, possèdent une ouïe remarquable et se déplacent en laissant très peu de traces.</p><h2>Ingwë et la première lignée</h2><p>Le roi des Vanyar est Ingwë, considéré comme le Haut Roi de tous les Elfes. Son autorité ne repose pas sur la conquête ou la richesse, mais sur son ancienneté, sa sagesse et sa proximité avec Manwë.</p><p>Ingwë conduisit son peuple vers l’Ouest et ne revint jamais vivre en Terre du Milieu. Sous son règne, les Vanyar formèrent une communauté unie, rarement traversée par les rivalités dynastiques qui marquèrent les Noldor. La fidélité à Ingwë est presque indissociable de leur fidélité aux Valar.</p><h2>Vie en Aman</h2><p>Les Vanyar vivent principalement sur les pentes du Taniquetil, dans les terres proches de Valimar et des demeures de Manwë et Varda. Ils préfèrent les hauteurs lumineuses, les vastes horizons, les jardins d’Aman et les lieux depuis lesquels les étoiles peuvent être contemplées sans obstacle.</p><p>Leurs demeures sont ouvertes, lumineuses et harmonieusement intégrées aux collines. Les matériaux clairs, les terrasses, les jardins, les colonnes élancées et les espaces consacrés au chant y occupent une place importante. Leur société possède peu de fortifications, d’arsenaux ou d’ouvrages défensifs.</p><h2>Un peuple de lumière</h2><p>La lumière occupe une place centrale dans leur identité. Les Vanyar connurent les Deux Arbres dans toute leur splendeur et gardent la mémoire de leur éclat avec une précision propre aux Elfes.</p><p>Ils ne considèrent pas nécessairement l’obscurité comme mauvaise en elle-même. La nuit étoilée est sacrée, car elle révèle l’œuvre de Varda. Ils distinguent cependant la nuit naturelle des ténèbres imposées par Morgoth, qui cherchent à étouffer la lumière plutôt qu’à la compléter.</p><ul><li><p>la vérité</p></li><li><p>la beauté</p></li><li><p>la connaissance</p></li><li><p>la présence des Valar</p></li><li><p>l’harmonie du monde</p></li><li><p>l’espérance</p></li></ul><h2>Chant et poésie</h2><p>Les Vanyar sont souvent considérés comme les plus grands chanteurs parmi les Eldar. Leur musique est moins tournée vers le récit historique détaillé que celle des Sindar ou vers l’expression dramatique et passionnée des Noldor. Elle recherche plutôt l’harmonie, la pureté et l’élévation de l’esprit.</p><p>Leurs chants célèbrent les étoiles, les Valar, les Deux Arbres, les montagnes d’Aman, les eaux et les vents, l’éveil des Elfes et la beauté de la Création. Leur voix possède une clarté exceptionnelle ; plusieurs Vanyar peuvent chanter ensemble sans qu’aucune voix ne domine les autres.</p><h2>Elemmírë et les maîtres du chant</h2><p>Parmi leurs plus célèbres artistes figure Elemmírë, auteur de l’Aldudénië, la lamentation consacrée à la mort des Deux Arbres. Cette œuvre fut connue de tous les Eldar et témoigne de la capacité des Vanyar à transformer le deuil en une expression artistique d’une beauté durable.</p><p>Le prestige d’un chanteur vanya ne dépend pas de sa renommée personnelle autant que de sa capacité à exprimer une vérité dépassant son individualité. L’œuvre parfaite est celle qui permet à l’auditeur de percevoir plus clairement la beauté du monde ou la volonté d’Eru.</p><h2>Tempérament</h2><p>Les Vanyar sont généralement sereins, patients et peu enclins aux querelles. Ils maîtrisent leurs émotions avec davantage d’aisance que les Noldor, sans pour autant être froids ou indifférents.</p><p>Ils s’expriment rarement avec précipitation. Avant de répondre, un Vanya peut prendre le temps de considérer les conséquences de ses paroles et la manière dont elles seront reçues. Cette sérénité peut être interprétée comme de la distance ou de la passivité par les peuples plus impulsifs.</p><ul><li><p>la sagesse</p></li><li><p>l’harmonie</p></li><li><p>la fidélité</p></li><li><p>la beauté</p></li><li><p>l’humilité</p></li><li><p>la maîtrise de soi</p></li><li><p>la contemplation</p></li><li><p>la parole juste</p></li></ul><h2>Fidélité aux Valar</h2><p>Les Vanyar sont les Eldar les plus proches des Valar. Ils vivent auprès d’eux, apprennent directement de leur sagesse et assistent à leurs célébrations. Ils honorent tout particulièrement Manwë, Varda, Yavanna, Nienna et Oromë.</p><p>Cette proximité n’est pas une adoration servile. Les Vanyar savent que les Valar ne sont pas des dieux créateurs, mais les puissants serviteurs d’Eru chargés d’ordonner le monde. Leur foi ne repose pas sur un clergé organisé : le chant, la contemplation, la gratitude et la participation aux œuvres des Valar constituent leurs principales formes de dévotion.</p><h2>Manwë et les hauteurs</h2><p>Manwë occupe une place particulière dans leur culture. Les Vanyar vivent près de ses demeures et associent les vents, les aigles, les sommets et les grands espaces ouverts à sa présence.</p><p>Ils aiment les hauteurs depuis lesquelles le regard peut porter au loin. Cette préférence exprime leur désir de considérer les événements dans leur ensemble plutôt que de se laisser enfermer dans une perspective étroite. Les oiseaux, particulièrement les grands aigles, sont traités avec respect.</p><h2>Varda et les étoiles</h2><p>Varda est peut-être la plus aimée des Valar parmi les Vanyar. Les étoiles existaient avant leur éveil et furent la première lumière que les Quendi contemplèrent.</p><p>Les Vanyar célèbrent Varda par des hymnes, des veillées sous les étoiles, des œuvres d’argent et de cristal, des vêtements brodés de motifs célestes et des observances liées aux mouvements du ciel. Leur connaissance des étoiles est à la fois poétique et précise.</p><h2>Relation au savoir</h2><p>Les Vanyar ne recherchent pas le savoir avec la même avidité créatrice que les Noldor. Ils cherchent moins à transformer le monde qu’à le comprendre et à percevoir l’harmonie déjà présente en lui.</p><p>Leurs domaines privilégiés comprennent la poésie, la musique, les langues, la philosophie, l’astronomie, l’histoire des Valar, la connaissance des chants anciens, la contemplation de la nature et la compréhension des émotions et des intentions.</p><h2>Guerre de la Colère</h2><p>Les Vanyar restèrent en Aman durant les guerres du Beleriand. À la fin du Premier Âge, ils répondirent cependant à l’appel des Valar et prirent part à la Guerre de la Colère sous la conduite d’Eönwë.</p><p>Cette guerre constitue la principale expérience militaire collective de leur peuple. Ils y démontrèrent que leur caractère paisible ne provenait pas d’une incapacité à combattre. Lorsqu’une cause juste et une autorité légitime l’exigent, ils peuvent devenir des guerriers d’une puissance redoutable. Après la victoire, la grande majorité retourna en Aman.</p><h2>Armes et armures</h2><p>Les Vanyar ne sont pas une culture guerrière, mais ceux qui se préparent au combat reçoivent une formation digne des Eldar d’Aman. Ils utilisent notamment la lance, l’épée longue, l’arc, le bouclier, la dague et les armures de maille légère.</p><p>Leurs armes sont élégantes, claires et équilibrées. L’or pâle, l’argent, les motifs de plumes, d’étoiles ou de rayons lumineux y sont fréquents. Ils privilégient les formations ordonnées, la discipline et la coordination.</p><h2>Magie et pouvoir</h2><p>Les Vanyar possèdent une relation naturelle avec les forces spirituelles d’Arda. Leur puissance s’exprime surtout par la voix, la présence, la lumière et l’harmonie.</p><p>Leurs pratiques peuvent concerner les chants de pouvoir, la lumière, la protection, la guérison, la résistance à la peur, la communication, la perception spirituelle, l’inspiration, la maîtrise des vents légers et la dissipation des ténèbres. Ils se tournent plus naturellement vers la Canalisation et le Mentalisme que vers les formes d’Essence fondées sur la transformation matérielle.</p><h2>Langues</h2><p>Le quenya est leur langue principale et demeure employé dans tous les aspects de leur existence. Leur parler est réputé particulièrement pur, musical et proche des formes anciennes développées en Aman.</p><p>Ils peuvent également connaître le valarin, le telerin, le sindarin et les langues anciennes des Eldar. Ils accordent une grande importance au choix des noms, à la précision du vocabulaire et à l’harmonie sonore d’une phrase.</p><h2>Vêtements et apparat</h2><p>Les Vanyar portent des vêtements légers, fluides et lumineux. Ils apprécient les étoffes fines, les drapés simples et les ornements qui reflètent la lumière sans paraître ostentatoires.</p><p>Le blanc, l’or pâle, le bleu céleste, l’argent, le jaune clair et le vert tendre dominent. Les motifs représentent souvent les étoiles, les rayons du soleil, les plumes, les fleurs d’Aman ou les sommets du Taniquetil. Leurs bijoux sont fins et discrets.</p><h2>Famille et société</h2><p>La société vanya est stable, unie et peu hiérarchisée en dehors de la royauté d’Ingwë et du respect accordé aux anciens, aux sages et aux maîtres des arts.</p><p>Le mariage est monogame et profondément lié à l’union des fëar. Les enfants grandissent au sein de communautés où l’éducation, la musique et la contemplation occupent une place centrale. Le prestige personnel vient principalement de la sagesse, de la maîtrise du chant, de la qualité du conseil et du service rendu à la communauté.</p><h2>Relations avec les Noldor</h2><p>Les Vanyar sont étroitement apparentés aux Noldor. Plusieurs unions eurent lieu entre leurs grandes maisons, notamment celle de Finwë avec Indis, parente d’Ingwë.</p><p>Ils admirent le génie, la passion et la créativité des Noldor, mais se méfient de leur orgueil, de leur possessivité et de leur désir de dépasser les limites imposées. La rébellion des Noldor fut pour eux une profonde douleur. Leur participation à la Guerre de la Colère montre qu’ils étaient prêts à combattre pour libérer la Terre du Milieu et sauver ceux qui pouvaient encore l’être.</p><h2>Relations avec les Teleri</h2><p>Les Vanyar entretiennent généralement des relations harmonieuses avec les Teleri d’Aman. Ils apprécient leur musique, leur lien avec la mer et leur sensibilité à la beauté naturelle.</p><p>Leurs tempéraments diffèrent : les Vanyar recherchent les hauteurs, les étoiles et la proximité des Valar, tandis que les Teleri sont davantage tournés vers les rivages, l’eau et le voyage. Le Massacre d’Alqualondë les bouleversa profondément.</p><h2>Relations avec les Hommes et les Nains</h2><p>Les Vanyar ont peu de contacts directs avec les Hommes et les Nains. Ils considèrent les Hommes avec compassion et curiosité et savent que leur mortalité appartient à un destin voulu par Eru.</p><p>Ils respectent les Nains en tant qu’œuvre d’Aulë, sans partager l’intérêt des Noldor pour leurs techniques ou leurs métaux. Leur attachement aux biens matériels et aux profondeurs de la terre leur paraît souvent difficile à comprendre.</p><h2>Professions et formation</h2><p>La Culture vanya favorise particulièrement Bardes, Mystiques, Voyants, guérisseurs, diplomates, érudits, poètes, musiciens, conseillers, gardiens spirituels et Combattants disciplinés.</p><p>Leur formation met l’accent sur le Chant, la Musique, la Poésie, les Langues, l’Influence, la Perception, l’Intuition, la Philosophie, l’Astronomie, la Connaissance des Valar, la Méditation et les pouvoirs de lumière et de protection. Les métiers fondés sur l’intrigue, le vol ou la tromperie sont exceptionnellement rares.</p><h2>Place dans la création de personnage</h2><p>La Culture Vanyar convient principalement à un Elfe né ou élevé en Aman, membre de la maison d’Ingwë, vivant sur les pentes du Taniquetil, ayant participé à la Guerre de la Colère ou envoyé exceptionnellement en mission par les Valar.</p><p>Elle est normalement limitée au Premier Âge et surtout aux campagnes se déroulant en Aman ou durant la Guerre de la Colère. Après la fin du Premier Âge, la présence d’un Vanya en Terre du Milieu doit rester extrêmement rare.</p><p>Les Vanyar incarnent la part la plus lumineuse et la plus fidèle des Eldar : un peuple de chanteurs, de sages et de contemplatifs qui choisit de demeurer auprès des Valar, mais dont la paix n’exclut pas la puissance lorsque l’harmonie du monde est menacée.</p>",
+                  "culture": "Vanyar"
+                }
+              },
+              "en": {
+                "name": "Vanyar",
+                "system": {
+                  "description": "<p>The Vanyar, the “Fair” or the “Blond,” are the first and least numerous of the three great kindreds of the Eldar. They were the first of the Elves to undertake the Great Journey westward under the leadership of Ingwë, their king, and those who remained most faithfully attached to the summons of the Valar. After reaching Aman, they first settled in Tirion with the Noldor, then gradually left the city to live closer to the Powers of the West, on the slopes of Taniquetil and in the lands bathed in the light of Valinor.</p><p>Of all the Quendi, the Vanyar are those who knew least of the wars, exiles, and divisions that marked the history of Middle-earth. They took part neither in Fëanor's rebellion nor in the departure of the Noldor. Their history is therefore less one of kingdoms founded and destroyed than one of fidelity preserved, exceptional closeness to the Valar, and an almost absolute love of light, song, and contemplation.</p><h2>Appearance</h2><p>The Vanyar are tall, graceful, and remarkably beautiful, even by the standards of the Eldar. Their figures are slender without being fragile, and their movements possess a lightness that can make them appear to move without effort.</p><p>Their most characteristic feature is their hair, generally blond, golden, honey-colored, or sometimes almost white under intense light. Their eyes are often blue, pale grey, green, or golden. Their skin is fair and sometimes seems to reflect the light of Aman with a particular softness.</p><p>Like all Elves, they are normally affected neither by ordinary disease nor by lasting scars. Their delicate appearance conceals great strength, exceptional endurance, and natural resistance to cold. They see beneath starlight or moonlight almost as clearly as by day, possess remarkable hearing, and move while leaving very little trace.</p><h2>Ingwë and the first kindred</h2><p>The king of the Vanyar is Ingwë, regarded as the High King of all Elves. His authority rests not on conquest or wealth, but on his antiquity, wisdom, and closeness to Manwë.</p><p>Ingwë led his people westward and never returned to live in Middle-earth. Under his rule, the Vanyar formed a united community rarely troubled by the dynastic rivalries that marked the Noldor. Loyalty to Ingwë is almost inseparable from their loyalty to the Valar.</p><h2>Life in Aman</h2><p>The Vanyar live chiefly on the slopes of Taniquetil, in the lands near Valimar and the dwellings of Manwë and Varda. They prefer luminous heights, broad horizons, the gardens of Aman, and places from which the stars can be contemplated without obstruction.</p><p>Their dwellings are open, bright, and harmoniously integrated into the hills. Pale materials, terraces, gardens, slender columns, and spaces devoted to song hold an important place. Their society has little need for fortifications, arsenals, or defensive works.</p><h2>A people of light</h2><p>Light holds a central place in their identity. The Vanyar knew the Two Trees in all their splendor and retain the memory of their radiance with the precision characteristic of Elves.</p><p>They do not necessarily regard darkness as evil in itself. The starry night is sacred because it reveals Varda's work. They nevertheless distinguish natural night from the darkness imposed by Morgoth, which seeks to smother light rather than complement it.</p><ul><li><p>truth</p></li><li><p>beauty</p></li><li><p>knowledge</p></li><li><p>the presence of the Valar</p></li><li><p>the harmony of the world</p></li><li><p>hope</p></li></ul><h2>Song and poetry</h2><p>The Vanyar are often regarded as the greatest singers among the Eldar. Their music is less directed toward detailed historical narrative than that of the Sindar, or toward the dramatic and passionate expression of the Noldor. Instead it seeks harmony, purity, and elevation of the spirit.</p><p>Their songs celebrate the stars, the Valar, the Two Trees, the mountains of Aman, waters and winds, the awakening of the Elves, and the beauty of Creation. Their voices possess exceptional clarity; several Vanyar can sing together without any one voice dominating the others.</p><h2>Elemmírë and the masters of song</h2><p>Among their most famous artists is Elemmírë, author of the Aldudénië, the lament for the death of the Two Trees. This work became known to all the Eldar and bears witness to the Vanyar's ability to transform grief into artistic expression of enduring beauty.</p><p>The prestige of a Vanyarin singer depends less on personal fame than on the ability to express a truth beyond individuality. The perfect work is one that allows the listener to perceive more clearly the beauty of the world or the will of Eru.</p><h2>Temperament</h2><p>The Vanyar are generally serene, patient, and little inclined toward quarrels. They master their emotions more easily than the Noldor without being cold or indifferent.</p><p>They rarely speak in haste. Before answering, a Vanya may take time to consider the consequences of his words and the way they will be received. This serenity can be interpreted as distance or passivity by more impulsive peoples.</p><ul><li><p>wisdom</p></li><li><p>harmony</p></li><li><p>fidelity</p></li><li><p>beauty</p></li><li><p>humility</p></li><li><p>self-mastery</p></li><li><p>contemplation</p></li><li><p>the right word</p></li></ul><h2>Fidelity to the Valar</h2><p>The Vanyar are the Eldar closest to the Valar. They live near them, learn directly from their wisdom, and attend their celebrations. They especially honor Manwë, Varda, Yavanna, Nienna, and Oromë.</p><p>This closeness is not servile worship. The Vanyar know that the Valar are not creator gods, but the mighty servants of Eru charged with ordering the world. Their faith does not rest on an organized clergy: song, contemplation, gratitude, and participation in the works of the Valar are their principal forms of devotion.</p><h2>Manwë and the heights</h2><p>Manwë holds a special place in their culture. The Vanyar live near his dwellings and associate winds, eagles, peaks, and great open spaces with his presence.</p><p>They love heights from which the eye can range far. This preference expresses their desire to consider events as a whole rather than become trapped in a narrow perspective. Birds, especially the great Eagles, are treated with respect.</p><h2>Varda and the stars</h2><p>Varda may be the most beloved of the Valar among the Vanyar. The stars existed before their awakening and were the first light the Quendi ever beheld.</p><p>The Vanyar celebrate Varda through hymns, vigils beneath the stars, works of silver and crystal, clothing embroidered with celestial patterns, and observances tied to the movements of the heavens. Their knowledge of the stars is both poetic and precise.</p><h2>Relationship with knowledge</h2><p>The Vanyar do not seek knowledge with the same creative hunger as the Noldor. They seek less to transform the world than to understand it and perceive the harmony already present within it.</p><p>Their favored fields include poetry, music, languages, philosophy, astronomy, the history of the Valar, knowledge of ancient songs, contemplation of nature, and understanding emotions and intentions.</p><h2>War of Wrath</h2><p>The Vanyar remained in Aman during the wars of Beleriand. At the end of the First Age, however, they answered the summons of the Valar and took part in the War of Wrath under the leadership of Eönwë.</p><p>This war is the principal collective military experience of their people. They demonstrated that their peaceful character did not spring from inability to fight. When a just cause and legitimate authority require it, they can become warriors of formidable power. After the victory, the great majority returned to Aman.</p><h2>Weapons and armor</h2><p>The Vanyar are not a warrior culture, but those who prepare for battle receive training worthy of the Eldar of Aman. They use, among other weapons, spear, longsword, bow, shield, dagger, and light mail armor.</p><p>Their weapons are elegant, bright, and well balanced. Pale gold, silver, and motifs of feathers, stars, or rays of light are common. They favor ordered formations, discipline, and coordination.</p><h2>Magic and power</h2><p>The Vanyar possess a natural relationship with the spiritual forces of Arda. Their power is expressed chiefly through voice, presence, light, and harmony.</p><p>Their practices may concern songs of power, light, protection, healing, resistance to fear, communication, spiritual perception, inspiration, mastery of gentle winds, and the dispersal of darkness. They turn more naturally toward Channeling and Mentalism than toward forms of Essence based on material transformation.</p><h2>Languages</h2><p>Quenya is their principal language and remains in use in every aspect of their existence. Their speech is considered especially pure, musical, and close to the ancient forms developed in Aman.</p><p>They may also know Valarin, Telerin, Sindarin, and ancient languages of the Eldar. They attach great importance to the choice of names, precision of vocabulary, and the harmony of sound within a sentence.</p><h2>Clothing and display</h2><p>The Vanyar wear light, flowing, luminous garments. They appreciate fine fabrics, simple drapery, and ornaments that reflect light without seeming ostentatious.</p><p>White, pale gold, sky blue, silver, light yellow, and soft green predominate. Patterns often depict stars, rays of sunlight, feathers, flowers of Aman, or the peaks of Taniquetil. Their jewelry is fine and discreet.</p><h2>Family and society</h2><p>Vanyarin society is stable, united, and only lightly hierarchical outside the kingship of Ingwë and the respect accorded to elders, sages, and masters of the arts.</p><p>Marriage is monogamous and deeply connected with the union of the fëar. Children grow within communities where education, music, and contemplation hold a central place. Personal prestige comes chiefly from wisdom, mastery of song, quality of counsel, and service to the community.</p><h2>Relations with the Noldor</h2><p>The Vanyar are closely related to the Noldor. Several unions took place between their great houses, notably that of Finwë with Indis, a kinswoman of Ingwë.</p><p>They admire the genius, passion, and creativity of the Noldor, but distrust their pride, possessiveness, and desire to exceed imposed limits. The rebellion of the Noldor was a profound sorrow to them. Their participation in the War of Wrath shows that they were willing to fight to liberate Middle-earth and save those who could still be saved.</p><h2>Relations with the Teleri</h2><p>The Vanyar generally maintain harmonious relations with the Teleri of Aman. They appreciate their music, their bond with the sea, and their sensitivity to natural beauty.</p><p>Their temperaments differ: the Vanyar seek heights, stars, and closeness to the Valar, while the Teleri turn more toward shores, water, and travel. The Kinslaying at Alqualondë shocked them profoundly.</p><h2>Relations with Men and Dwarves</h2><p>The Vanyar have little direct contact with Men and Dwarves. They regard Men with compassion and curiosity and know that their mortality belongs to a destiny intended by Eru.</p><p>They respect Dwarves as the work of Aulë without sharing the Noldor's interest in their techniques or metals. The Dwarves' attachment to material possessions and the depths of the earth often seems difficult for them to understand.</p><h2>Professions and training</h2><p>Vanyarin Culture particularly favors Bards, Mystics, Seers, healers, diplomats, scholars, poets, musicians, counselors, spiritual guardians, and disciplined Fighters.</p><p>Their training emphasizes Singing, Music, Poetry, Languages, Influence, Perception, Intuition, Philosophy, Astronomy, Lore of the Valar, Meditation, and powers of light and protection. Professions based on intrigue, theft, or deception are exceptionally rare.</p><h2>Place in character creation</h2><p>Vanyarin Culture is principally suitable for an Elf born or raised in Aman, a member of Ingwë's house, living on the slopes of Taniquetil, one who took part in the War of Wrath, or one exceptionally sent on a mission by the Valar.</p><p>It is normally limited to the First Age and especially to campaigns set in Aman or during the War of Wrath. After the end of the First Age, the presence of a Vanya in Middle-earth should remain extremely rare.</p><p>The Vanyar embody the brightest and most faithful part of the Eldar: a people of singers, sages, and contemplatives who chose to remain with the Valar, yet whose peace does not exclude power when the harmony of the world is threatened.</p>",
+                  "culture": "Vanyar"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Vanyar",
+      "description": "<p>Les Vanyar, les « Blonds » ou les « Beaux », constituent la première et la moins nombreuse des trois grandes lignées des Eldar. Ils furent les premiers des Elfes à entreprendre la Grande Marche vers l’Ouest sous la conduite d’Ingwë, leur roi, et ceux qui demeurèrent le plus fidèlement attachés à l’appel des Valar. Après avoir atteint Aman, ils s’établirent d’abord à Tirion avec les Noldor, puis quittèrent progressivement la cité pour vivre au plus près des puissances de l’Ouest, sur les pentes du Taniquetil et dans les terres baignées par la lumière de Valinor.</p><p>Parmi tous les Quendi, les Vanyar sont ceux qui connurent le moins les guerres, les exils et les divisions ayant marqué l’histoire de la Terre du Milieu. Ils ne participèrent ni à la rébellion de Fëanor ni au départ des Noldor. Leur histoire est donc moins celle de royaumes fondés et détruits que celle d’une fidélité préservée, d’une proximité exceptionnelle avec les Valar et d’un amour presque absolu pour la lumière, le chant et la contemplation.</p><h2>Apparence</h2><p>Les Vanyar sont grands, gracieux et d’une beauté remarquable, même selon les critères des Eldar. Leur silhouette est élancée sans être fragile, et leurs mouvements possèdent une légèreté qui peut donner l’impression qu’ils se déplacent sans effort.</p><p>Leur trait le plus caractéristique est leur chevelure, généralement blonde, dorée, couleur de miel ou parfois presque blanche sous une lumière intense. Leurs yeux sont souvent bleus, gris clair, verts ou dorés. Leur peau est claire et semble parfois refléter la lumière d’Aman avec une douceur particulière.</p><p>Comme tous les Elfes, ils ne sont normalement affectés ni par les maladies ordinaires ni par les cicatrices durables. Leur apparence délicate dissimule une grande force, une endurance exceptionnelle et une résistance naturelle au froid. Ils voient sous la lumière des étoiles ou de la lune presque aussi clairement qu’en plein jour, possèdent une ouïe remarquable et se déplacent en laissant très peu de traces.</p><h2>Ingwë et la première lignée</h2><p>Le roi des Vanyar est Ingwë, considéré comme le Haut Roi de tous les Elfes. Son autorité ne repose pas sur la conquête ou la richesse, mais sur son ancienneté, sa sagesse et sa proximité avec Manwë.</p><p>Ingwë conduisit son peuple vers l’Ouest et ne revint jamais vivre en Terre du Milieu. Sous son règne, les Vanyar formèrent une communauté unie, rarement traversée par les rivalités dynastiques qui marquèrent les Noldor. La fidélité à Ingwë est presque indissociable de leur fidélité aux Valar.</p><h2>Vie en Aman</h2><p>Les Vanyar vivent principalement sur les pentes du Taniquetil, dans les terres proches de Valimar et des demeures de Manwë et Varda. Ils préfèrent les hauteurs lumineuses, les vastes horizons, les jardins d’Aman et les lieux depuis lesquels les étoiles peuvent être contemplées sans obstacle.</p><p>Leurs demeures sont ouvertes, lumineuses et harmonieusement intégrées aux collines. Les matériaux clairs, les terrasses, les jardins, les colonnes élancées et les espaces consacrés au chant y occupent une place importante. Leur société possède peu de fortifications, d’arsenaux ou d’ouvrages défensifs.</p><h2>Un peuple de lumière</h2><p>La lumière occupe une place centrale dans leur identité. Les Vanyar connurent les Deux Arbres dans toute leur splendeur et gardent la mémoire de leur éclat avec une précision propre aux Elfes.</p><p>Ils ne considèrent pas nécessairement l’obscurité comme mauvaise en elle-même. La nuit étoilée est sacrée, car elle révèle l’œuvre de Varda. Ils distinguent cependant la nuit naturelle des ténèbres imposées par Morgoth, qui cherchent à étouffer la lumière plutôt qu’à la compléter.</p><ul><li><p>la vérité</p></li><li><p>la beauté</p></li><li><p>la connaissance</p></li><li><p>la présence des Valar</p></li><li><p>l’harmonie du monde</p></li><li><p>l’espérance</p></li></ul><h2>Chant et poésie</h2><p>Les Vanyar sont souvent considérés comme les plus grands chanteurs parmi les Eldar. Leur musique est moins tournée vers le récit historique détaillé que celle des Sindar ou vers l’expression dramatique et passionnée des Noldor. Elle recherche plutôt l’harmonie, la pureté et l’élévation de l’esprit.</p><p>Leurs chants célèbrent les étoiles, les Valar, les Deux Arbres, les montagnes d’Aman, les eaux et les vents, l’éveil des Elfes et la beauté de la Création. Leur voix possède une clarté exceptionnelle ; plusieurs Vanyar peuvent chanter ensemble sans qu’aucune voix ne domine les autres.</p><h2>Elemmírë et les maîtres du chant</h2><p>Parmi leurs plus célèbres artistes figure Elemmírë, auteur de l’Aldudénië, la lamentation consacrée à la mort des Deux Arbres. Cette œuvre fut connue de tous les Eldar et témoigne de la capacité des Vanyar à transformer le deuil en une expression artistique d’une beauté durable.</p><p>Le prestige d’un chanteur vanya ne dépend pas de sa renommée personnelle autant que de sa capacité à exprimer une vérité dépassant son individualité. L’œuvre parfaite est celle qui permet à l’auditeur de percevoir plus clairement la beauté du monde ou la volonté d’Eru.</p><h2>Tempérament</h2><p>Les Vanyar sont généralement sereins, patients et peu enclins aux querelles. Ils maîtrisent leurs émotions avec davantage d’aisance que les Noldor, sans pour autant être froids ou indifférents.</p><p>Ils s’expriment rarement avec précipitation. Avant de répondre, un Vanya peut prendre le temps de considérer les conséquences de ses paroles et la manière dont elles seront reçues. Cette sérénité peut être interprétée comme de la distance ou de la passivité par les peuples plus impulsifs.</p><ul><li><p>la sagesse</p></li><li><p>l’harmonie</p></li><li><p>la fidélité</p></li><li><p>la beauté</p></li><li><p>l’humilité</p></li><li><p>la maîtrise de soi</p></li><li><p>la contemplation</p></li><li><p>la parole juste</p></li></ul><h2>Fidélité aux Valar</h2><p>Les Vanyar sont les Eldar les plus proches des Valar. Ils vivent auprès d’eux, apprennent directement de leur sagesse et assistent à leurs célébrations. Ils honorent tout particulièrement Manwë, Varda, Yavanna, Nienna et Oromë.</p><p>Cette proximité n’est pas une adoration servile. Les Vanyar savent que les Valar ne sont pas des dieux créateurs, mais les puissants serviteurs d’Eru chargés d’ordonner le monde. Leur foi ne repose pas sur un clergé organisé : le chant, la contemplation, la gratitude et la participation aux œuvres des Valar constituent leurs principales formes de dévotion.</p><h2>Manwë et les hauteurs</h2><p>Manwë occupe une place particulière dans leur culture. Les Vanyar vivent près de ses demeures et associent les vents, les aigles, les sommets et les grands espaces ouverts à sa présence.</p><p>Ils aiment les hauteurs depuis lesquelles le regard peut porter au loin. Cette préférence exprime leur désir de considérer les événements dans leur ensemble plutôt que de se laisser enfermer dans une perspective étroite. Les oiseaux, particulièrement les grands aigles, sont traités avec respect.</p><h2>Varda et les étoiles</h2><p>Varda est peut-être la plus aimée des Valar parmi les Vanyar. Les étoiles existaient avant leur éveil et furent la première lumière que les Quendi contemplèrent.</p><p>Les Vanyar célèbrent Varda par des hymnes, des veillées sous les étoiles, des œuvres d’argent et de cristal, des vêtements brodés de motifs célestes et des observances liées aux mouvements du ciel. Leur connaissance des étoiles est à la fois poétique et précise.</p><h2>Relation au savoir</h2><p>Les Vanyar ne recherchent pas le savoir avec la même avidité créatrice que les Noldor. Ils cherchent moins à transformer le monde qu’à le comprendre et à percevoir l’harmonie déjà présente en lui.</p><p>Leurs domaines privilégiés comprennent la poésie, la musique, les langues, la philosophie, l’astronomie, l’histoire des Valar, la connaissance des chants anciens, la contemplation de la nature et la compréhension des émotions et des intentions.</p><h2>Guerre de la Colère</h2><p>Les Vanyar restèrent en Aman durant les guerres du Beleriand. À la fin du Premier Âge, ils répondirent cependant à l’appel des Valar et prirent part à la Guerre de la Colère sous la conduite d’Eönwë.</p><p>Cette guerre constitue la principale expérience militaire collective de leur peuple. Ils y démontrèrent que leur caractère paisible ne provenait pas d’une incapacité à combattre. Lorsqu’une cause juste et une autorité légitime l’exigent, ils peuvent devenir des guerriers d’une puissance redoutable. Après la victoire, la grande majorité retourna en Aman.</p><h2>Armes et armures</h2><p>Les Vanyar ne sont pas une culture guerrière, mais ceux qui se préparent au combat reçoivent une formation digne des Eldar d’Aman. Ils utilisent notamment la lance, l’épée longue, l’arc, le bouclier, la dague et les armures de maille légère.</p><p>Leurs armes sont élégantes, claires et équilibrées. L’or pâle, l’argent, les motifs de plumes, d’étoiles ou de rayons lumineux y sont fréquents. Ils privilégient les formations ordonnées, la discipline et la coordination.</p><h2>Magie et pouvoir</h2><p>Les Vanyar possèdent une relation naturelle avec les forces spirituelles d’Arda. Leur puissance s’exprime surtout par la voix, la présence, la lumière et l’harmonie.</p><p>Leurs pratiques peuvent concerner les chants de pouvoir, la lumière, la protection, la guérison, la résistance à la peur, la communication, la perception spirituelle, l’inspiration, la maîtrise des vents légers et la dissipation des ténèbres. Ils se tournent plus naturellement vers la Canalisation et le Mentalisme que vers les formes d’Essence fondées sur la transformation matérielle.</p><h2>Langues</h2><p>Le quenya est leur langue principale et demeure employé dans tous les aspects de leur existence. Leur parler est réputé particulièrement pur, musical et proche des formes anciennes développées en Aman.</p><p>Ils peuvent également connaître le valarin, le telerin, le sindarin et les langues anciennes des Eldar. Ils accordent une grande importance au choix des noms, à la précision du vocabulaire et à l’harmonie sonore d’une phrase.</p><h2>Vêtements et apparat</h2><p>Les Vanyar portent des vêtements légers, fluides et lumineux. Ils apprécient les étoffes fines, les drapés simples et les ornements qui reflètent la lumière sans paraître ostentatoires.</p><p>Le blanc, l’or pâle, le bleu céleste, l’argent, le jaune clair et le vert tendre dominent. Les motifs représentent souvent les étoiles, les rayons du soleil, les plumes, les fleurs d’Aman ou les sommets du Taniquetil. Leurs bijoux sont fins et discrets.</p><h2>Famille et société</h2><p>La société vanya est stable, unie et peu hiérarchisée en dehors de la royauté d’Ingwë et du respect accordé aux anciens, aux sages et aux maîtres des arts.</p><p>Le mariage est monogame et profondément lié à l’union des fëar. Les enfants grandissent au sein de communautés où l’éducation, la musique et la contemplation occupent une place centrale. Le prestige personnel vient principalement de la sagesse, de la maîtrise du chant, de la qualité du conseil et du service rendu à la communauté.</p><h2>Relations avec les Noldor</h2><p>Les Vanyar sont étroitement apparentés aux Noldor. Plusieurs unions eurent lieu entre leurs grandes maisons, notamment celle de Finwë avec Indis, parente d’Ingwë.</p><p>Ils admirent le génie, la passion et la créativité des Noldor, mais se méfient de leur orgueil, de leur possessivité et de leur désir de dépasser les limites imposées. La rébellion des Noldor fut pour eux une profonde douleur. Leur participation à la Guerre de la Colère montre qu’ils étaient prêts à combattre pour libérer la Terre du Milieu et sauver ceux qui pouvaient encore l’être.</p><h2>Relations avec les Teleri</h2><p>Les Vanyar entretiennent généralement des relations harmonieuses avec les Teleri d’Aman. Ils apprécient leur musique, leur lien avec la mer et leur sensibilité à la beauté naturelle.</p><p>Leurs tempéraments diffèrent : les Vanyar recherchent les hauteurs, les étoiles et la proximité des Valar, tandis que les Teleri sont davantage tournés vers les rivages, l’eau et le voyage. Le Massacre d’Alqualondë les bouleversa profondément.</p><h2>Relations avec les Hommes et les Nains</h2><p>Les Vanyar ont peu de contacts directs avec les Hommes et les Nains. Ils considèrent les Hommes avec compassion et curiosité et savent que leur mortalité appartient à un destin voulu par Eru.</p><p>Ils respectent les Nains en tant qu’œuvre d’Aulë, sans partager l’intérêt des Noldor pour leurs techniques ou leurs métaux. Leur attachement aux biens matériels et aux profondeurs de la terre leur paraît souvent difficile à comprendre.</p><h2>Professions et formation</h2><p>La Culture vanya favorise particulièrement Bardes, Mystiques, Voyants, guérisseurs, diplomates, érudits, poètes, musiciens, conseillers, gardiens spirituels et Combattants disciplinés.</p><p>Leur formation met l’accent sur le Chant, la Musique, la Poésie, les Langues, l’Influence, la Perception, l’Intuition, la Philosophie, l’Astronomie, la Connaissance des Valar, la Méditation et les pouvoirs de lumière et de protection. Les métiers fondés sur l’intrigue, le vol ou la tromperie sont exceptionnellement rares.</p><h2>Place dans la création de personnage</h2><p>La Culture Vanyar convient principalement à un Elfe né ou élevé en Aman, membre de la maison d’Ingwë, vivant sur les pentes du Taniquetil, ayant participé à la Guerre de la Colère ou envoyé exceptionnellement en mission par les Valar.</p><p>Elle est normalement limitée au Premier Âge et surtout aux campagnes se déroulant en Aman ou durant la Guerre de la Colère. Après la fin du Premier Âge, la présence d’un Vanya en Terre du Milieu doit rester extrêmement rare.</p><p>Les Vanyar incarnent la part la plus lumineuse et la plus fidèle des Eldar : un peuple de chanteurs, de sages et de contemplatifs qui choisit de demeurer auprès des Valar, mais dont la paix n’exclut pas la puissance lorsque l’harmonie du monde est menacée.</p>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Own Region",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 15,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": -1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 2
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Vanyar",
+      "system": {
+        "description": "<p>Les Vanyar, les « Blonds » ou les « Beaux », constituent la première et la moins nombreuse des trois grandes lignées des Eldar. Ils furent les premiers des Elfes à entreprendre la Grande Marche vers l’Ouest sous la conduite d’Ingwë, leur roi, et ceux qui demeurèrent le plus fidèlement attachés à l’appel des Valar. Après avoir atteint Aman, ils s’établirent d’abord à Tirion avec les Noldor, puis quittèrent progressivement la cité pour vivre au plus près des puissances de l’Ouest, sur les pentes du Taniquetil et dans les terres baignées par la lumière de Valinor.</p><p>Parmi tous les Quendi, les Vanyar sont ceux qui connurent le moins les guerres, les exils et les divisions ayant marqué l’histoire de la Terre du Milieu. Ils ne participèrent ni à la rébellion de Fëanor ni au départ des Noldor. Leur histoire est donc moins celle de royaumes fondés et détruits que celle d’une fidélité préservée, d’une proximité exceptionnelle avec les Valar et d’un amour presque absolu pour la lumière, le chant et la contemplation.</p><h2>Apparence</h2><p>Les Vanyar sont grands, gracieux et d’une beauté remarquable, même selon les critères des Eldar. Leur silhouette est élancée sans être fragile, et leurs mouvements possèdent une légèreté qui peut donner l’impression qu’ils se déplacent sans effort.</p><p>Leur trait le plus caractéristique est leur chevelure, généralement blonde, dorée, couleur de miel ou parfois presque blanche sous une lumière intense. Leurs yeux sont souvent bleus, gris clair, verts ou dorés. Leur peau est claire et semble parfois refléter la lumière d’Aman avec une douceur particulière.</p><p>Comme tous les Elfes, ils ne sont normalement affectés ni par les maladies ordinaires ni par les cicatrices durables. Leur apparence délicate dissimule une grande force, une endurance exceptionnelle et une résistance naturelle au froid. Ils voient sous la lumière des étoiles ou de la lune presque aussi clairement qu’en plein jour, possèdent une ouïe remarquable et se déplacent en laissant très peu de traces.</p><h2>Ingwë et la première lignée</h2><p>Le roi des Vanyar est Ingwë, considéré comme le Haut Roi de tous les Elfes. Son autorité ne repose pas sur la conquête ou la richesse, mais sur son ancienneté, sa sagesse et sa proximité avec Manwë.</p><p>Ingwë conduisit son peuple vers l’Ouest et ne revint jamais vivre en Terre du Milieu. Sous son règne, les Vanyar formèrent une communauté unie, rarement traversée par les rivalités dynastiques qui marquèrent les Noldor. La fidélité à Ingwë est presque indissociable de leur fidélité aux Valar.</p><h2>Vie en Aman</h2><p>Les Vanyar vivent principalement sur les pentes du Taniquetil, dans les terres proches de Valimar et des demeures de Manwë et Varda. Ils préfèrent les hauteurs lumineuses, les vastes horizons, les jardins d’Aman et les lieux depuis lesquels les étoiles peuvent être contemplées sans obstacle.</p><p>Leurs demeures sont ouvertes, lumineuses et harmonieusement intégrées aux collines. Les matériaux clairs, les terrasses, les jardins, les colonnes élancées et les espaces consacrés au chant y occupent une place importante. Leur société possède peu de fortifications, d’arsenaux ou d’ouvrages défensifs.</p><h2>Un peuple de lumière</h2><p>La lumière occupe une place centrale dans leur identité. Les Vanyar connurent les Deux Arbres dans toute leur splendeur et gardent la mémoire de leur éclat avec une précision propre aux Elfes.</p><p>Ils ne considèrent pas nécessairement l’obscurité comme mauvaise en elle-même. La nuit étoilée est sacrée, car elle révèle l’œuvre de Varda. Ils distinguent cependant la nuit naturelle des ténèbres imposées par Morgoth, qui cherchent à étouffer la lumière plutôt qu’à la compléter.</p><ul><li><p>la vérité</p></li><li><p>la beauté</p></li><li><p>la connaissance</p></li><li><p>la présence des Valar</p></li><li><p>l’harmonie du monde</p></li><li><p>l’espérance</p></li></ul><h2>Chant et poésie</h2><p>Les Vanyar sont souvent considérés comme les plus grands chanteurs parmi les Eldar. Leur musique est moins tournée vers le récit historique détaillé que celle des Sindar ou vers l’expression dramatique et passionnée des Noldor. Elle recherche plutôt l’harmonie, la pureté et l’élévation de l’esprit.</p><p>Leurs chants célèbrent les étoiles, les Valar, les Deux Arbres, les montagnes d’Aman, les eaux et les vents, l’éveil des Elfes et la beauté de la Création. Leur voix possède une clarté exceptionnelle ; plusieurs Vanyar peuvent chanter ensemble sans qu’aucune voix ne domine les autres.</p><h2>Elemmírë et les maîtres du chant</h2><p>Parmi leurs plus célèbres artistes figure Elemmírë, auteur de l’Aldudénië, la lamentation consacrée à la mort des Deux Arbres. Cette œuvre fut connue de tous les Eldar et témoigne de la capacité des Vanyar à transformer le deuil en une expression artistique d’une beauté durable.</p><p>Le prestige d’un chanteur vanya ne dépend pas de sa renommée personnelle autant que de sa capacité à exprimer une vérité dépassant son individualité. L’œuvre parfaite est celle qui permet à l’auditeur de percevoir plus clairement la beauté du monde ou la volonté d’Eru.</p><h2>Tempérament</h2><p>Les Vanyar sont généralement sereins, patients et peu enclins aux querelles. Ils maîtrisent leurs émotions avec davantage d’aisance que les Noldor, sans pour autant être froids ou indifférents.</p><p>Ils s’expriment rarement avec précipitation. Avant de répondre, un Vanya peut prendre le temps de considérer les conséquences de ses paroles et la manière dont elles seront reçues. Cette sérénité peut être interprétée comme de la distance ou de la passivité par les peuples plus impulsifs.</p><ul><li><p>la sagesse</p></li><li><p>l’harmonie</p></li><li><p>la fidélité</p></li><li><p>la beauté</p></li><li><p>l’humilité</p></li><li><p>la maîtrise de soi</p></li><li><p>la contemplation</p></li><li><p>la parole juste</p></li></ul><h2>Fidélité aux Valar</h2><p>Les Vanyar sont les Eldar les plus proches des Valar. Ils vivent auprès d’eux, apprennent directement de leur sagesse et assistent à leurs célébrations. Ils honorent tout particulièrement Manwë, Varda, Yavanna, Nienna et Oromë.</p><p>Cette proximité n’est pas une adoration servile. Les Vanyar savent que les Valar ne sont pas des dieux créateurs, mais les puissants serviteurs d’Eru chargés d’ordonner le monde. Leur foi ne repose pas sur un clergé organisé : le chant, la contemplation, la gratitude et la participation aux œuvres des Valar constituent leurs principales formes de dévotion.</p><h2>Manwë et les hauteurs</h2><p>Manwë occupe une place particulière dans leur culture. Les Vanyar vivent près de ses demeures et associent les vents, les aigles, les sommets et les grands espaces ouverts à sa présence.</p><p>Ils aiment les hauteurs depuis lesquelles le regard peut porter au loin. Cette préférence exprime leur désir de considérer les événements dans leur ensemble plutôt que de se laisser enfermer dans une perspective étroite. Les oiseaux, particulièrement les grands aigles, sont traités avec respect.</p><h2>Varda et les étoiles</h2><p>Varda est peut-être la plus aimée des Valar parmi les Vanyar. Les étoiles existaient avant leur éveil et furent la première lumière que les Quendi contemplèrent.</p><p>Les Vanyar célèbrent Varda par des hymnes, des veillées sous les étoiles, des œuvres d’argent et de cristal, des vêtements brodés de motifs célestes et des observances liées aux mouvements du ciel. Leur connaissance des étoiles est à la fois poétique et précise.</p><h2>Relation au savoir</h2><p>Les Vanyar ne recherchent pas le savoir avec la même avidité créatrice que les Noldor. Ils cherchent moins à transformer le monde qu’à le comprendre et à percevoir l’harmonie déjà présente en lui.</p><p>Leurs domaines privilégiés comprennent la poésie, la musique, les langues, la philosophie, l’astronomie, l’histoire des Valar, la connaissance des chants anciens, la contemplation de la nature et la compréhension des émotions et des intentions.</p><h2>Guerre de la Colère</h2><p>Les Vanyar restèrent en Aman durant les guerres du Beleriand. À la fin du Premier Âge, ils répondirent cependant à l’appel des Valar et prirent part à la Guerre de la Colère sous la conduite d’Eönwë.</p><p>Cette guerre constitue la principale expérience militaire collective de leur peuple. Ils y démontrèrent que leur caractère paisible ne provenait pas d’une incapacité à combattre. Lorsqu’une cause juste et une autorité légitime l’exigent, ils peuvent devenir des guerriers d’une puissance redoutable. Après la victoire, la grande majorité retourna en Aman.</p><h2>Armes et armures</h2><p>Les Vanyar ne sont pas une culture guerrière, mais ceux qui se préparent au combat reçoivent une formation digne des Eldar d’Aman. Ils utilisent notamment la lance, l’épée longue, l’arc, le bouclier, la dague et les armures de maille légère.</p><p>Leurs armes sont élégantes, claires et équilibrées. L’or pâle, l’argent, les motifs de plumes, d’étoiles ou de rayons lumineux y sont fréquents. Ils privilégient les formations ordonnées, la discipline et la coordination.</p><h2>Magie et pouvoir</h2><p>Les Vanyar possèdent une relation naturelle avec les forces spirituelles d’Arda. Leur puissance s’exprime surtout par la voix, la présence, la lumière et l’harmonie.</p><p>Leurs pratiques peuvent concerner les chants de pouvoir, la lumière, la protection, la guérison, la résistance à la peur, la communication, la perception spirituelle, l’inspiration, la maîtrise des vents légers et la dissipation des ténèbres. Ils se tournent plus naturellement vers la Canalisation et le Mentalisme que vers les formes d’Essence fondées sur la transformation matérielle.</p><h2>Langues</h2><p>Le quenya est leur langue principale et demeure employé dans tous les aspects de leur existence. Leur parler est réputé particulièrement pur, musical et proche des formes anciennes développées en Aman.</p><p>Ils peuvent également connaître le valarin, le telerin, le sindarin et les langues anciennes des Eldar. Ils accordent une grande importance au choix des noms, à la précision du vocabulaire et à l’harmonie sonore d’une phrase.</p><h2>Vêtements et apparat</h2><p>Les Vanyar portent des vêtements légers, fluides et lumineux. Ils apprécient les étoffes fines, les drapés simples et les ornements qui reflètent la lumière sans paraître ostentatoires.</p><p>Le blanc, l’or pâle, le bleu céleste, l’argent, le jaune clair et le vert tendre dominent. Les motifs représentent souvent les étoiles, les rayons du soleil, les plumes, les fleurs d’Aman ou les sommets du Taniquetil. Leurs bijoux sont fins et discrets.</p><h2>Famille et société</h2><p>La société vanya est stable, unie et peu hiérarchisée en dehors de la royauté d’Ingwë et du respect accordé aux anciens, aux sages et aux maîtres des arts.</p><p>Le mariage est monogame et profondément lié à l’union des fëar. Les enfants grandissent au sein de communautés où l’éducation, la musique et la contemplation occupent une place centrale. Le prestige personnel vient principalement de la sagesse, de la maîtrise du chant, de la qualité du conseil et du service rendu à la communauté.</p><h2>Relations avec les Noldor</h2><p>Les Vanyar sont étroitement apparentés aux Noldor. Plusieurs unions eurent lieu entre leurs grandes maisons, notamment celle de Finwë avec Indis, parente d’Ingwë.</p><p>Ils admirent le génie, la passion et la créativité des Noldor, mais se méfient de leur orgueil, de leur possessivité et de leur désir de dépasser les limites imposées. La rébellion des Noldor fut pour eux une profonde douleur. Leur participation à la Guerre de la Colère montre qu’ils étaient prêts à combattre pour libérer la Terre du Milieu et sauver ceux qui pouvaient encore l’être.</p><h2>Relations avec les Teleri</h2><p>Les Vanyar entretiennent généralement des relations harmonieuses avec les Teleri d’Aman. Ils apprécient leur musique, leur lien avec la mer et leur sensibilité à la beauté naturelle.</p><p>Leurs tempéraments diffèrent : les Vanyar recherchent les hauteurs, les étoiles et la proximité des Valar, tandis que les Teleri sont davantage tournés vers les rivages, l’eau et le voyage. Le Massacre d’Alqualondë les bouleversa profondément.</p><h2>Relations avec les Hommes et les Nains</h2><p>Les Vanyar ont peu de contacts directs avec les Hommes et les Nains. Ils considèrent les Hommes avec compassion et curiosité et savent que leur mortalité appartient à un destin voulu par Eru.</p><p>Ils respectent les Nains en tant qu’œuvre d’Aulë, sans partager l’intérêt des Noldor pour leurs techniques ou leurs métaux. Leur attachement aux biens matériels et aux profondeurs de la terre leur paraît souvent difficile à comprendre.</p><h2>Professions et formation</h2><p>La Culture vanya favorise particulièrement Bardes, Mystiques, Voyants, guérisseurs, diplomates, érudits, poètes, musiciens, conseillers, gardiens spirituels et Combattants disciplinés.</p><p>Leur formation met l’accent sur le Chant, la Musique, la Poésie, les Langues, l’Influence, la Perception, l’Intuition, la Philosophie, l’Astronomie, la Connaissance des Valar, la Méditation et les pouvoirs de lumière et de protection. Les métiers fondés sur l’intrigue, le vol ou la tromperie sont exceptionnellement rares.</p><h2>Place dans la création de personnage</h2><p>La Culture Vanyar convient principalement à un Elfe né ou élevé en Aman, membre de la maison d’Ingwë, vivant sur les pentes du Taniquetil, ayant participé à la Guerre de la Colère ou envoyé exceptionnellement en mission par les Valar.</p><p>Elle est normalement limitée au Premier Âge et surtout aux campagnes se déroulant en Aman ou durant la Guerre de la Colère. Après la fin du Premier Âge, la présence d’un Vanya en Terre du Milieu doit rester extrêmement rare.</p><p>Les Vanyar incarnent la part la plus lumineuse et la plus fidèle des Eldar : un peuple de chanteurs, de sages et de contemplatifs qui choisit de demeurer auprès des Valar, mais dont la paix n’exclut pas la puissance lorsque l’harmonie du monde est menacée.</p>",
+        "culture": "Vanyar"
+      }
+    },
+    "en": {
+      "name": "Vanyar",
+      "system": {
+        "description": "<p>The Vanyar, the “Fair” or the “Blond,” are the first and least numerous of the three great kindreds of the Eldar. They were the first of the Elves to undertake the Great Journey westward under the leadership of Ingwë, their king, and those who remained most faithfully attached to the summons of the Valar. After reaching Aman, they first settled in Tirion with the Noldor, then gradually left the city to live closer to the Powers of the West, on the slopes of Taniquetil and in the lands bathed in the light of Valinor.</p><p>Of all the Quendi, the Vanyar are those who knew least of the wars, exiles, and divisions that marked the history of Middle-earth. They took part neither in Fëanor's rebellion nor in the departure of the Noldor. Their history is therefore less one of kingdoms founded and destroyed than one of fidelity preserved, exceptional closeness to the Valar, and an almost absolute love of light, song, and contemplation.</p><h2>Appearance</h2><p>The Vanyar are tall, graceful, and remarkably beautiful, even by the standards of the Eldar. Their figures are slender without being fragile, and their movements possess a lightness that can make them appear to move without effort.</p><p>Their most characteristic feature is their hair, generally blond, golden, honey-colored, or sometimes almost white under intense light. Their eyes are often blue, pale grey, green, or golden. Their skin is fair and sometimes seems to reflect the light of Aman with a particular softness.</p><p>Like all Elves, they are normally affected neither by ordinary disease nor by lasting scars. Their delicate appearance conceals great strength, exceptional endurance, and natural resistance to cold. They see beneath starlight or moonlight almost as clearly as by day, possess remarkable hearing, and move while leaving very little trace.</p><h2>Ingwë and the first kindred</h2><p>The king of the Vanyar is Ingwë, regarded as the High King of all Elves. His authority rests not on conquest or wealth, but on his antiquity, wisdom, and closeness to Manwë.</p><p>Ingwë led his people westward and never returned to live in Middle-earth. Under his rule, the Vanyar formed a united community rarely troubled by the dynastic rivalries that marked the Noldor. Loyalty to Ingwë is almost inseparable from their loyalty to the Valar.</p><h2>Life in Aman</h2><p>The Vanyar live chiefly on the slopes of Taniquetil, in the lands near Valimar and the dwellings of Manwë and Varda. They prefer luminous heights, broad horizons, the gardens of Aman, and places from which the stars can be contemplated without obstruction.</p><p>Their dwellings are open, bright, and harmoniously integrated into the hills. Pale materials, terraces, gardens, slender columns, and spaces devoted to song hold an important place. Their society has little need for fortifications, arsenals, or defensive works.</p><h2>A people of light</h2><p>Light holds a central place in their identity. The Vanyar knew the Two Trees in all their splendor and retain the memory of their radiance with the precision characteristic of Elves.</p><p>They do not necessarily regard darkness as evil in itself. The starry night is sacred because it reveals Varda's work. They nevertheless distinguish natural night from the darkness imposed by Morgoth, which seeks to smother light rather than complement it.</p><ul><li><p>truth</p></li><li><p>beauty</p></li><li><p>knowledge</p></li><li><p>the presence of the Valar</p></li><li><p>the harmony of the world</p></li><li><p>hope</p></li></ul><h2>Song and poetry</h2><p>The Vanyar are often regarded as the greatest singers among the Eldar. Their music is less directed toward detailed historical narrative than that of the Sindar, or toward the dramatic and passionate expression of the Noldor. Instead it seeks harmony, purity, and elevation of the spirit.</p><p>Their songs celebrate the stars, the Valar, the Two Trees, the mountains of Aman, waters and winds, the awakening of the Elves, and the beauty of Creation. Their voices possess exceptional clarity; several Vanyar can sing together without any one voice dominating the others.</p><h2>Elemmírë and the masters of song</h2><p>Among their most famous artists is Elemmírë, author of the Aldudénië, the lament for the death of the Two Trees. This work became known to all the Eldar and bears witness to the Vanyar's ability to transform grief into artistic expression of enduring beauty.</p><p>The prestige of a Vanyarin singer depends less on personal fame than on the ability to express a truth beyond individuality. The perfect work is one that allows the listener to perceive more clearly the beauty of the world or the will of Eru.</p><h2>Temperament</h2><p>The Vanyar are generally serene, patient, and little inclined toward quarrels. They master their emotions more easily than the Noldor without being cold or indifferent.</p><p>They rarely speak in haste. Before answering, a Vanya may take time to consider the consequences of his words and the way they will be received. This serenity can be interpreted as distance or passivity by more impulsive peoples.</p><ul><li><p>wisdom</p></li><li><p>harmony</p></li><li><p>fidelity</p></li><li><p>beauty</p></li><li><p>humility</p></li><li><p>self-mastery</p></li><li><p>contemplation</p></li><li><p>the right word</p></li></ul><h2>Fidelity to the Valar</h2><p>The Vanyar are the Eldar closest to the Valar. They live near them, learn directly from their wisdom, and attend their celebrations. They especially honor Manwë, Varda, Yavanna, Nienna, and Oromë.</p><p>This closeness is not servile worship. The Vanyar know that the Valar are not creator gods, but the mighty servants of Eru charged with ordering the world. Their faith does not rest on an organized clergy: song, contemplation, gratitude, and participation in the works of the Valar are their principal forms of devotion.</p><h2>Manwë and the heights</h2><p>Manwë holds a special place in their culture. The Vanyar live near his dwellings and associate winds, eagles, peaks, and great open spaces with his presence.</p><p>They love heights from which the eye can range far. This preference expresses their desire to consider events as a whole rather than become trapped in a narrow perspective. Birds, especially the great Eagles, are treated with respect.</p><h2>Varda and the stars</h2><p>Varda may be the most beloved of the Valar among the Vanyar. The stars existed before their awakening and were the first light the Quendi ever beheld.</p><p>The Vanyar celebrate Varda through hymns, vigils beneath the stars, works of silver and crystal, clothing embroidered with celestial patterns, and observances tied to the movements of the heavens. Their knowledge of the stars is both poetic and precise.</p><h2>Relationship with knowledge</h2><p>The Vanyar do not seek knowledge with the same creative hunger as the Noldor. They seek less to transform the world than to understand it and perceive the harmony already present within it.</p><p>Their favored fields include poetry, music, languages, philosophy, astronomy, the history of the Valar, knowledge of ancient songs, contemplation of nature, and understanding emotions and intentions.</p><h2>War of Wrath</h2><p>The Vanyar remained in Aman during the wars of Beleriand. At the end of the First Age, however, they answered the summons of the Valar and took part in the War of Wrath under the leadership of Eönwë.</p><p>This war is the principal collective military experience of their people. They demonstrated that their peaceful character did not spring from inability to fight. When a just cause and legitimate authority require it, they can become warriors of formidable power. After the victory, the great majority returned to Aman.</p><h2>Weapons and armor</h2><p>The Vanyar are not a warrior culture, but those who prepare for battle receive training worthy of the Eldar of Aman. They use, among other weapons, spear, longsword, bow, shield, dagger, and light mail armor.</p><p>Their weapons are elegant, bright, and well balanced. Pale gold, silver, and motifs of feathers, stars, or rays of light are common. They favor ordered formations, discipline, and coordination.</p><h2>Magic and power</h2><p>The Vanyar possess a natural relationship with the spiritual forces of Arda. Their power is expressed chiefly through voice, presence, light, and harmony.</p><p>Their practices may concern songs of power, light, protection, healing, resistance to fear, communication, spiritual perception, inspiration, mastery of gentle winds, and the dispersal of darkness. They turn more naturally toward Channeling and Mentalism than toward forms of Essence based on material transformation.</p><h2>Languages</h2><p>Quenya is their principal language and remains in use in every aspect of their existence. Their speech is considered especially pure, musical, and close to the ancient forms developed in Aman.</p><p>They may also know Valarin, Telerin, Sindarin, and ancient languages of the Eldar. They attach great importance to the choice of names, precision of vocabulary, and the harmony of sound within a sentence.</p><h2>Clothing and display</h2><p>The Vanyar wear light, flowing, luminous garments. They appreciate fine fabrics, simple drapery, and ornaments that reflect light without seeming ostentatious.</p><p>White, pale gold, sky blue, silver, light yellow, and soft green predominate. Patterns often depict stars, rays of sunlight, feathers, flowers of Aman, or the peaks of Taniquetil. Their jewelry is fine and discreet.</p><h2>Family and society</h2><p>Vanyarin society is stable, united, and only lightly hierarchical outside the kingship of Ingwë and the respect accorded to elders, sages, and masters of the arts.</p><p>Marriage is monogamous and deeply connected with the union of the fëar. Children grow within communities where education, music, and contemplation hold a central place. Personal prestige comes chiefly from wisdom, mastery of song, quality of counsel, and service to the community.</p><h2>Relations with the Noldor</h2><p>The Vanyar are closely related to the Noldor. Several unions took place between their great houses, notably that of Finwë with Indis, a kinswoman of Ingwë.</p><p>They admire the genius, passion, and creativity of the Noldor, but distrust their pride, possessiveness, and desire to exceed imposed limits. The rebellion of the Noldor was a profound sorrow to them. Their participation in the War of Wrath shows that they were willing to fight to liberate Middle-earth and save those who could still be saved.</p><h2>Relations with the Teleri</h2><p>The Vanyar generally maintain harmonious relations with the Teleri of Aman. They appreciate their music, their bond with the sea, and their sensitivity to natural beauty.</p><p>Their temperaments differ: the Vanyar seek heights, stars, and closeness to the Valar, while the Teleri turn more toward shores, water, and travel. The Kinslaying at Alqualondë shocked them profoundly.</p><h2>Relations with Men and Dwarves</h2><p>The Vanyar have little direct contact with Men and Dwarves. They regard Men with compassion and curiosity and know that their mortality belongs to a destiny intended by Eru.</p><p>They respect Dwarves as the work of Aulë without sharing the Noldor's interest in their techniques or metals. The Dwarves' attachment to material possessions and the depths of the earth often seems difficult for them to understand.</p><h2>Professions and training</h2><p>Vanyarin Culture particularly favors Bards, Mystics, Seers, healers, diplomats, scholars, poets, musicians, counselors, spiritual guardians, and disciplined Fighters.</p><p>Their training emphasizes Singing, Music, Poetry, Languages, Influence, Perception, Intuition, Philosophy, Astronomy, Lore of the Valar, Meditation, and powers of light and protection. Professions based on intrigue, theft, or deception are exceptionally rare.</p><h2>Place in character creation</h2><p>Vanyarin Culture is principally suitable for an Elf born or raised in Aman, a member of Ingwë's house, living on the slopes of Taniquetil, one who took part in the War of Wrath, or one exceptionally sent on a mission by the Valar.</p><p>It is normally limited to the First Age and especially to campaigns set in Aman or during the War of Wrath. After the end of the First Age, the presence of a Vanya in Middle-earth should remain extremely rare.</p><p>The Vanyar embody the brightest and most faithful part of the Eldar: a people of singers, sages, and contemplatives who chose to remain with the Valar, yet whose peace does not exclude power when the harmony of the world is threatened.</p>",
+        "culture": "Vanyar"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-elf-vanyar-age-1",
+      "folderKey": "cultures-age-1-elves",
+      "document": {
+        "name": "Vanyar",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-elf-vanyar-age-1",
+            "canonicalKey": "culture-elf-vanyar",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-elves-age-1",
+            "raceCanonicalKey": "race-elves",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": true
+            },
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            },
+            "recommendedSpecializations": {
+              "Composition & Performance Art": [
+                "Singing",
+                "Poetry",
+                "Harp"
+              ],
+              "Lore — Religion/Philosophy": [
+                "Valar",
+                "Eru",
+                "Philosophy"
+              ],
+              "Social — Influence": [
+                "Inspiration",
+                "Diplomacy"
+              ]
+            },
+            "descriptionFormat": "html"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Vanyar",
+          "description": "<p>Les Vanyar, les « Blonds » ou les « Beaux », constituent la première et la moins nombreuse des trois grandes lignées des Eldar. Ils furent les premiers des Elfes à entreprendre la Grande Marche vers l’Ouest sous la conduite d’Ingwë, leur roi, et ceux qui demeurèrent le plus fidèlement attachés à l’appel des Valar. Après avoir atteint Aman, ils s’établirent d’abord à Tirion avec les Noldor, puis quittèrent progressivement la cité pour vivre au plus près des puissances de l’Ouest, sur les pentes du Taniquetil et dans les terres baignées par la lumière de Valinor.</p><p>Parmi tous les Quendi, les Vanyar sont ceux qui connurent le moins les guerres, les exils et les divisions ayant marqué l’histoire de la Terre du Milieu. Ils ne participèrent ni à la rébellion de Fëanor ni au départ des Noldor. Leur histoire est donc moins celle de royaumes fondés et détruits que celle d’une fidélité préservée, d’une proximité exceptionnelle avec les Valar et d’un amour presque absolu pour la lumière, le chant et la contemplation.</p><h2>Apparence</h2><p>Les Vanyar sont grands, gracieux et d’une beauté remarquable, même selon les critères des Eldar. Leur silhouette est élancée sans être fragile, et leurs mouvements possèdent une légèreté qui peut donner l’impression qu’ils se déplacent sans effort.</p><p>Leur trait le plus caractéristique est leur chevelure, généralement blonde, dorée, couleur de miel ou parfois presque blanche sous une lumière intense. Leurs yeux sont souvent bleus, gris clair, verts ou dorés. Leur peau est claire et semble parfois refléter la lumière d’Aman avec une douceur particulière.</p><p>Comme tous les Elfes, ils ne sont normalement affectés ni par les maladies ordinaires ni par les cicatrices durables. Leur apparence délicate dissimule une grande force, une endurance exceptionnelle et une résistance naturelle au froid. Ils voient sous la lumière des étoiles ou de la lune presque aussi clairement qu’en plein jour, possèdent une ouïe remarquable et se déplacent en laissant très peu de traces.</p><h2>Ingwë et la première lignée</h2><p>Le roi des Vanyar est Ingwë, considéré comme le Haut Roi de tous les Elfes. Son autorité ne repose pas sur la conquête ou la richesse, mais sur son ancienneté, sa sagesse et sa proximité avec Manwë.</p><p>Ingwë conduisit son peuple vers l’Ouest et ne revint jamais vivre en Terre du Milieu. Sous son règne, les Vanyar formèrent une communauté unie, rarement traversée par les rivalités dynastiques qui marquèrent les Noldor. La fidélité à Ingwë est presque indissociable de leur fidélité aux Valar.</p><h2>Vie en Aman</h2><p>Les Vanyar vivent principalement sur les pentes du Taniquetil, dans les terres proches de Valimar et des demeures de Manwë et Varda. Ils préfèrent les hauteurs lumineuses, les vastes horizons, les jardins d’Aman et les lieux depuis lesquels les étoiles peuvent être contemplées sans obstacle.</p><p>Leurs demeures sont ouvertes, lumineuses et harmonieusement intégrées aux collines. Les matériaux clairs, les terrasses, les jardins, les colonnes élancées et les espaces consacrés au chant y occupent une place importante. Leur société possède peu de fortifications, d’arsenaux ou d’ouvrages défensifs.</p><h2>Un peuple de lumière</h2><p>La lumière occupe une place centrale dans leur identité. Les Vanyar connurent les Deux Arbres dans toute leur splendeur et gardent la mémoire de leur éclat avec une précision propre aux Elfes.</p><p>Ils ne considèrent pas nécessairement l’obscurité comme mauvaise en elle-même. La nuit étoilée est sacrée, car elle révèle l’œuvre de Varda. Ils distinguent cependant la nuit naturelle des ténèbres imposées par Morgoth, qui cherchent à étouffer la lumière plutôt qu’à la compléter.</p><ul><li><p>la vérité</p></li><li><p>la beauté</p></li><li><p>la connaissance</p></li><li><p>la présence des Valar</p></li><li><p>l’harmonie du monde</p></li><li><p>l’espérance</p></li></ul><h2>Chant et poésie</h2><p>Les Vanyar sont souvent considérés comme les plus grands chanteurs parmi les Eldar. Leur musique est moins tournée vers le récit historique détaillé que celle des Sindar ou vers l’expression dramatique et passionnée des Noldor. Elle recherche plutôt l’harmonie, la pureté et l’élévation de l’esprit.</p><p>Leurs chants célèbrent les étoiles, les Valar, les Deux Arbres, les montagnes d’Aman, les eaux et les vents, l’éveil des Elfes et la beauté de la Création. Leur voix possède une clarté exceptionnelle ; plusieurs Vanyar peuvent chanter ensemble sans qu’aucune voix ne domine les autres.</p><h2>Elemmírë et les maîtres du chant</h2><p>Parmi leurs plus célèbres artistes figure Elemmírë, auteur de l’Aldudénië, la lamentation consacrée à la mort des Deux Arbres. Cette œuvre fut connue de tous les Eldar et témoigne de la capacité des Vanyar à transformer le deuil en une expression artistique d’une beauté durable.</p><p>Le prestige d’un chanteur vanya ne dépend pas de sa renommée personnelle autant que de sa capacité à exprimer une vérité dépassant son individualité. L’œuvre parfaite est celle qui permet à l’auditeur de percevoir plus clairement la beauté du monde ou la volonté d’Eru.</p><h2>Tempérament</h2><p>Les Vanyar sont généralement sereins, patients et peu enclins aux querelles. Ils maîtrisent leurs émotions avec davantage d’aisance que les Noldor, sans pour autant être froids ou indifférents.</p><p>Ils s’expriment rarement avec précipitation. Avant de répondre, un Vanya peut prendre le temps de considérer les conséquences de ses paroles et la manière dont elles seront reçues. Cette sérénité peut être interprétée comme de la distance ou de la passivité par les peuples plus impulsifs.</p><ul><li><p>la sagesse</p></li><li><p>l’harmonie</p></li><li><p>la fidélité</p></li><li><p>la beauté</p></li><li><p>l’humilité</p></li><li><p>la maîtrise de soi</p></li><li><p>la contemplation</p></li><li><p>la parole juste</p></li></ul><h2>Fidélité aux Valar</h2><p>Les Vanyar sont les Eldar les plus proches des Valar. Ils vivent auprès d’eux, apprennent directement de leur sagesse et assistent à leurs célébrations. Ils honorent tout particulièrement Manwë, Varda, Yavanna, Nienna et Oromë.</p><p>Cette proximité n’est pas une adoration servile. Les Vanyar savent que les Valar ne sont pas des dieux créateurs, mais les puissants serviteurs d’Eru chargés d’ordonner le monde. Leur foi ne repose pas sur un clergé organisé : le chant, la contemplation, la gratitude et la participation aux œuvres des Valar constituent leurs principales formes de dévotion.</p><h2>Manwë et les hauteurs</h2><p>Manwë occupe une place particulière dans leur culture. Les Vanyar vivent près de ses demeures et associent les vents, les aigles, les sommets et les grands espaces ouverts à sa présence.</p><p>Ils aiment les hauteurs depuis lesquelles le regard peut porter au loin. Cette préférence exprime leur désir de considérer les événements dans leur ensemble plutôt que de se laisser enfermer dans une perspective étroite. Les oiseaux, particulièrement les grands aigles, sont traités avec respect.</p><h2>Varda et les étoiles</h2><p>Varda est peut-être la plus aimée des Valar parmi les Vanyar. Les étoiles existaient avant leur éveil et furent la première lumière que les Quendi contemplèrent.</p><p>Les Vanyar célèbrent Varda par des hymnes, des veillées sous les étoiles, des œuvres d’argent et de cristal, des vêtements brodés de motifs célestes et des observances liées aux mouvements du ciel. Leur connaissance des étoiles est à la fois poétique et précise.</p><h2>Relation au savoir</h2><p>Les Vanyar ne recherchent pas le savoir avec la même avidité créatrice que les Noldor. Ils cherchent moins à transformer le monde qu’à le comprendre et à percevoir l’harmonie déjà présente en lui.</p><p>Leurs domaines privilégiés comprennent la poésie, la musique, les langues, la philosophie, l’astronomie, l’histoire des Valar, la connaissance des chants anciens, la contemplation de la nature et la compréhension des émotions et des intentions.</p><h2>Guerre de la Colère</h2><p>Les Vanyar restèrent en Aman durant les guerres du Beleriand. À la fin du Premier Âge, ils répondirent cependant à l’appel des Valar et prirent part à la Guerre de la Colère sous la conduite d’Eönwë.</p><p>Cette guerre constitue la principale expérience militaire collective de leur peuple. Ils y démontrèrent que leur caractère paisible ne provenait pas d’une incapacité à combattre. Lorsqu’une cause juste et une autorité légitime l’exigent, ils peuvent devenir des guerriers d’une puissance redoutable. Après la victoire, la grande majorité retourna en Aman.</p><h2>Armes et armures</h2><p>Les Vanyar ne sont pas une culture guerrière, mais ceux qui se préparent au combat reçoivent une formation digne des Eldar d’Aman. Ils utilisent notamment la lance, l’épée longue, l’arc, le bouclier, la dague et les armures de maille légère.</p><p>Leurs armes sont élégantes, claires et équilibrées. L’or pâle, l’argent, les motifs de plumes, d’étoiles ou de rayons lumineux y sont fréquents. Ils privilégient les formations ordonnées, la discipline et la coordination.</p><h2>Magie et pouvoir</h2><p>Les Vanyar possèdent une relation naturelle avec les forces spirituelles d’Arda. Leur puissance s’exprime surtout par la voix, la présence, la lumière et l’harmonie.</p><p>Leurs pratiques peuvent concerner les chants de pouvoir, la lumière, la protection, la guérison, la résistance à la peur, la communication, la perception spirituelle, l’inspiration, la maîtrise des vents légers et la dissipation des ténèbres. Ils se tournent plus naturellement vers la Canalisation et le Mentalisme que vers les formes d’Essence fondées sur la transformation matérielle.</p><h2>Langues</h2><p>Le quenya est leur langue principale et demeure employé dans tous les aspects de leur existence. Leur parler est réputé particulièrement pur, musical et proche des formes anciennes développées en Aman.</p><p>Ils peuvent également connaître le valarin, le telerin, le sindarin et les langues anciennes des Eldar. Ils accordent une grande importance au choix des noms, à la précision du vocabulaire et à l’harmonie sonore d’une phrase.</p><h2>Vêtements et apparat</h2><p>Les Vanyar portent des vêtements légers, fluides et lumineux. Ils apprécient les étoffes fines, les drapés simples et les ornements qui reflètent la lumière sans paraître ostentatoires.</p><p>Le blanc, l’or pâle, le bleu céleste, l’argent, le jaune clair et le vert tendre dominent. Les motifs représentent souvent les étoiles, les rayons du soleil, les plumes, les fleurs d’Aman ou les sommets du Taniquetil. Leurs bijoux sont fins et discrets.</p><h2>Famille et société</h2><p>La société vanya est stable, unie et peu hiérarchisée en dehors de la royauté d’Ingwë et du respect accordé aux anciens, aux sages et aux maîtres des arts.</p><p>Le mariage est monogame et profondément lié à l’union des fëar. Les enfants grandissent au sein de communautés où l’éducation, la musique et la contemplation occupent une place centrale. Le prestige personnel vient principalement de la sagesse, de la maîtrise du chant, de la qualité du conseil et du service rendu à la communauté.</p><h2>Relations avec les Noldor</h2><p>Les Vanyar sont étroitement apparentés aux Noldor. Plusieurs unions eurent lieu entre leurs grandes maisons, notamment celle de Finwë avec Indis, parente d’Ingwë.</p><p>Ils admirent le génie, la passion et la créativité des Noldor, mais se méfient de leur orgueil, de leur possessivité et de leur désir de dépasser les limites imposées. La rébellion des Noldor fut pour eux une profonde douleur. Leur participation à la Guerre de la Colère montre qu’ils étaient prêts à combattre pour libérer la Terre du Milieu et sauver ceux qui pouvaient encore l’être.</p><h2>Relations avec les Teleri</h2><p>Les Vanyar entretiennent généralement des relations harmonieuses avec les Teleri d’Aman. Ils apprécient leur musique, leur lien avec la mer et leur sensibilité à la beauté naturelle.</p><p>Leurs tempéraments diffèrent : les Vanyar recherchent les hauteurs, les étoiles et la proximité des Valar, tandis que les Teleri sont davantage tournés vers les rivages, l’eau et le voyage. Le Massacre d’Alqualondë les bouleversa profondément.</p><h2>Relations avec les Hommes et les Nains</h2><p>Les Vanyar ont peu de contacts directs avec les Hommes et les Nains. Ils considèrent les Hommes avec compassion et curiosité et savent que leur mortalité appartient à un destin voulu par Eru.</p><p>Ils respectent les Nains en tant qu’œuvre d’Aulë, sans partager l’intérêt des Noldor pour leurs techniques ou leurs métaux. Leur attachement aux biens matériels et aux profondeurs de la terre leur paraît souvent difficile à comprendre.</p><h2>Professions et formation</h2><p>La Culture vanya favorise particulièrement Bardes, Mystiques, Voyants, guérisseurs, diplomates, érudits, poètes, musiciens, conseillers, gardiens spirituels et Combattants disciplinés.</p><p>Leur formation met l’accent sur le Chant, la Musique, la Poésie, les Langues, l’Influence, la Perception, l’Intuition, la Philosophie, l’Astronomie, la Connaissance des Valar, la Méditation et les pouvoirs de lumière et de protection. Les métiers fondés sur l’intrigue, le vol ou la tromperie sont exceptionnellement rares.</p><h2>Place dans la création de personnage</h2><p>La Culture Vanyar convient principalement à un Elfe né ou élevé en Aman, membre de la maison d’Ingwë, vivant sur les pentes du Taniquetil, ayant participé à la Guerre de la Colère ou envoyé exceptionnellement en mission par les Valar.</p><p>Elle est normalement limitée au Premier Âge et surtout aux campagnes se déroulant en Aman ou durant la Guerre de la Colère. Après la fin du Premier Âge, la présence d’un Vanya en Terre du Milieu doit rester extrêmement rare.</p><p>Les Vanyar incarnent la part la plus lumineuse et la plus fidèle des Eldar : un peuple de chanteurs, de sages et de contemplatifs qui choisit de demeurer auprès des Valar, mais dont la paix n’exclut pas la puissance lorsque l’harmonie du monde est menacée.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Own Region",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 15,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": -1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 2
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Vanyar",
+          "system": {
+            "description": "<p>Les Vanyar, les « Blonds » ou les « Beaux », constituent la première et la moins nombreuse des trois grandes lignées des Eldar. Ils furent les premiers des Elfes à entreprendre la Grande Marche vers l’Ouest sous la conduite d’Ingwë, leur roi, et ceux qui demeurèrent le plus fidèlement attachés à l’appel des Valar. Après avoir atteint Aman, ils s’établirent d’abord à Tirion avec les Noldor, puis quittèrent progressivement la cité pour vivre au plus près des puissances de l’Ouest, sur les pentes du Taniquetil et dans les terres baignées par la lumière de Valinor.</p><p>Parmi tous les Quendi, les Vanyar sont ceux qui connurent le moins les guerres, les exils et les divisions ayant marqué l’histoire de la Terre du Milieu. Ils ne participèrent ni à la rébellion de Fëanor ni au départ des Noldor. Leur histoire est donc moins celle de royaumes fondés et détruits que celle d’une fidélité préservée, d’une proximité exceptionnelle avec les Valar et d’un amour presque absolu pour la lumière, le chant et la contemplation.</p><h2>Apparence</h2><p>Les Vanyar sont grands, gracieux et d’une beauté remarquable, même selon les critères des Eldar. Leur silhouette est élancée sans être fragile, et leurs mouvements possèdent une légèreté qui peut donner l’impression qu’ils se déplacent sans effort.</p><p>Leur trait le plus caractéristique est leur chevelure, généralement blonde, dorée, couleur de miel ou parfois presque blanche sous une lumière intense. Leurs yeux sont souvent bleus, gris clair, verts ou dorés. Leur peau est claire et semble parfois refléter la lumière d’Aman avec une douceur particulière.</p><p>Comme tous les Elfes, ils ne sont normalement affectés ni par les maladies ordinaires ni par les cicatrices durables. Leur apparence délicate dissimule une grande force, une endurance exceptionnelle et une résistance naturelle au froid. Ils voient sous la lumière des étoiles ou de la lune presque aussi clairement qu’en plein jour, possèdent une ouïe remarquable et se déplacent en laissant très peu de traces.</p><h2>Ingwë et la première lignée</h2><p>Le roi des Vanyar est Ingwë, considéré comme le Haut Roi de tous les Elfes. Son autorité ne repose pas sur la conquête ou la richesse, mais sur son ancienneté, sa sagesse et sa proximité avec Manwë.</p><p>Ingwë conduisit son peuple vers l’Ouest et ne revint jamais vivre en Terre du Milieu. Sous son règne, les Vanyar formèrent une communauté unie, rarement traversée par les rivalités dynastiques qui marquèrent les Noldor. La fidélité à Ingwë est presque indissociable de leur fidélité aux Valar.</p><h2>Vie en Aman</h2><p>Les Vanyar vivent principalement sur les pentes du Taniquetil, dans les terres proches de Valimar et des demeures de Manwë et Varda. Ils préfèrent les hauteurs lumineuses, les vastes horizons, les jardins d’Aman et les lieux depuis lesquels les étoiles peuvent être contemplées sans obstacle.</p><p>Leurs demeures sont ouvertes, lumineuses et harmonieusement intégrées aux collines. Les matériaux clairs, les terrasses, les jardins, les colonnes élancées et les espaces consacrés au chant y occupent une place importante. Leur société possède peu de fortifications, d’arsenaux ou d’ouvrages défensifs.</p><h2>Un peuple de lumière</h2><p>La lumière occupe une place centrale dans leur identité. Les Vanyar connurent les Deux Arbres dans toute leur splendeur et gardent la mémoire de leur éclat avec une précision propre aux Elfes.</p><p>Ils ne considèrent pas nécessairement l’obscurité comme mauvaise en elle-même. La nuit étoilée est sacrée, car elle révèle l’œuvre de Varda. Ils distinguent cependant la nuit naturelle des ténèbres imposées par Morgoth, qui cherchent à étouffer la lumière plutôt qu’à la compléter.</p><ul><li><p>la vérité</p></li><li><p>la beauté</p></li><li><p>la connaissance</p></li><li><p>la présence des Valar</p></li><li><p>l’harmonie du monde</p></li><li><p>l’espérance</p></li></ul><h2>Chant et poésie</h2><p>Les Vanyar sont souvent considérés comme les plus grands chanteurs parmi les Eldar. Leur musique est moins tournée vers le récit historique détaillé que celle des Sindar ou vers l’expression dramatique et passionnée des Noldor. Elle recherche plutôt l’harmonie, la pureté et l’élévation de l’esprit.</p><p>Leurs chants célèbrent les étoiles, les Valar, les Deux Arbres, les montagnes d’Aman, les eaux et les vents, l’éveil des Elfes et la beauté de la Création. Leur voix possède une clarté exceptionnelle ; plusieurs Vanyar peuvent chanter ensemble sans qu’aucune voix ne domine les autres.</p><h2>Elemmírë et les maîtres du chant</h2><p>Parmi leurs plus célèbres artistes figure Elemmírë, auteur de l’Aldudénië, la lamentation consacrée à la mort des Deux Arbres. Cette œuvre fut connue de tous les Eldar et témoigne de la capacité des Vanyar à transformer le deuil en une expression artistique d’une beauté durable.</p><p>Le prestige d’un chanteur vanya ne dépend pas de sa renommée personnelle autant que de sa capacité à exprimer une vérité dépassant son individualité. L’œuvre parfaite est celle qui permet à l’auditeur de percevoir plus clairement la beauté du monde ou la volonté d’Eru.</p><h2>Tempérament</h2><p>Les Vanyar sont généralement sereins, patients et peu enclins aux querelles. Ils maîtrisent leurs émotions avec davantage d’aisance que les Noldor, sans pour autant être froids ou indifférents.</p><p>Ils s’expriment rarement avec précipitation. Avant de répondre, un Vanya peut prendre le temps de considérer les conséquences de ses paroles et la manière dont elles seront reçues. Cette sérénité peut être interprétée comme de la distance ou de la passivité par les peuples plus impulsifs.</p><ul><li><p>la sagesse</p></li><li><p>l’harmonie</p></li><li><p>la fidélité</p></li><li><p>la beauté</p></li><li><p>l’humilité</p></li><li><p>la maîtrise de soi</p></li><li><p>la contemplation</p></li><li><p>la parole juste</p></li></ul><h2>Fidélité aux Valar</h2><p>Les Vanyar sont les Eldar les plus proches des Valar. Ils vivent auprès d’eux, apprennent directement de leur sagesse et assistent à leurs célébrations. Ils honorent tout particulièrement Manwë, Varda, Yavanna, Nienna et Oromë.</p><p>Cette proximité n’est pas une adoration servile. Les Vanyar savent que les Valar ne sont pas des dieux créateurs, mais les puissants serviteurs d’Eru chargés d’ordonner le monde. Leur foi ne repose pas sur un clergé organisé : le chant, la contemplation, la gratitude et la participation aux œuvres des Valar constituent leurs principales formes de dévotion.</p><h2>Manwë et les hauteurs</h2><p>Manwë occupe une place particulière dans leur culture. Les Vanyar vivent près de ses demeures et associent les vents, les aigles, les sommets et les grands espaces ouverts à sa présence.</p><p>Ils aiment les hauteurs depuis lesquelles le regard peut porter au loin. Cette préférence exprime leur désir de considérer les événements dans leur ensemble plutôt que de se laisser enfermer dans une perspective étroite. Les oiseaux, particulièrement les grands aigles, sont traités avec respect.</p><h2>Varda et les étoiles</h2><p>Varda est peut-être la plus aimée des Valar parmi les Vanyar. Les étoiles existaient avant leur éveil et furent la première lumière que les Quendi contemplèrent.</p><p>Les Vanyar célèbrent Varda par des hymnes, des veillées sous les étoiles, des œuvres d’argent et de cristal, des vêtements brodés de motifs célestes et des observances liées aux mouvements du ciel. Leur connaissance des étoiles est à la fois poétique et précise.</p><h2>Relation au savoir</h2><p>Les Vanyar ne recherchent pas le savoir avec la même avidité créatrice que les Noldor. Ils cherchent moins à transformer le monde qu’à le comprendre et à percevoir l’harmonie déjà présente en lui.</p><p>Leurs domaines privilégiés comprennent la poésie, la musique, les langues, la philosophie, l’astronomie, l’histoire des Valar, la connaissance des chants anciens, la contemplation de la nature et la compréhension des émotions et des intentions.</p><h2>Guerre de la Colère</h2><p>Les Vanyar restèrent en Aman durant les guerres du Beleriand. À la fin du Premier Âge, ils répondirent cependant à l’appel des Valar et prirent part à la Guerre de la Colère sous la conduite d’Eönwë.</p><p>Cette guerre constitue la principale expérience militaire collective de leur peuple. Ils y démontrèrent que leur caractère paisible ne provenait pas d’une incapacité à combattre. Lorsqu’une cause juste et une autorité légitime l’exigent, ils peuvent devenir des guerriers d’une puissance redoutable. Après la victoire, la grande majorité retourna en Aman.</p><h2>Armes et armures</h2><p>Les Vanyar ne sont pas une culture guerrière, mais ceux qui se préparent au combat reçoivent une formation digne des Eldar d’Aman. Ils utilisent notamment la lance, l’épée longue, l’arc, le bouclier, la dague et les armures de maille légère.</p><p>Leurs armes sont élégantes, claires et équilibrées. L’or pâle, l’argent, les motifs de plumes, d’étoiles ou de rayons lumineux y sont fréquents. Ils privilégient les formations ordonnées, la discipline et la coordination.</p><h2>Magie et pouvoir</h2><p>Les Vanyar possèdent une relation naturelle avec les forces spirituelles d’Arda. Leur puissance s’exprime surtout par la voix, la présence, la lumière et l’harmonie.</p><p>Leurs pratiques peuvent concerner les chants de pouvoir, la lumière, la protection, la guérison, la résistance à la peur, la communication, la perception spirituelle, l’inspiration, la maîtrise des vents légers et la dissipation des ténèbres. Ils se tournent plus naturellement vers la Canalisation et le Mentalisme que vers les formes d’Essence fondées sur la transformation matérielle.</p><h2>Langues</h2><p>Le quenya est leur langue principale et demeure employé dans tous les aspects de leur existence. Leur parler est réputé particulièrement pur, musical et proche des formes anciennes développées en Aman.</p><p>Ils peuvent également connaître le valarin, le telerin, le sindarin et les langues anciennes des Eldar. Ils accordent une grande importance au choix des noms, à la précision du vocabulaire et à l’harmonie sonore d’une phrase.</p><h2>Vêtements et apparat</h2><p>Les Vanyar portent des vêtements légers, fluides et lumineux. Ils apprécient les étoffes fines, les drapés simples et les ornements qui reflètent la lumière sans paraître ostentatoires.</p><p>Le blanc, l’or pâle, le bleu céleste, l’argent, le jaune clair et le vert tendre dominent. Les motifs représentent souvent les étoiles, les rayons du soleil, les plumes, les fleurs d’Aman ou les sommets du Taniquetil. Leurs bijoux sont fins et discrets.</p><h2>Famille et société</h2><p>La société vanya est stable, unie et peu hiérarchisée en dehors de la royauté d’Ingwë et du respect accordé aux anciens, aux sages et aux maîtres des arts.</p><p>Le mariage est monogame et profondément lié à l’union des fëar. Les enfants grandissent au sein de communautés où l’éducation, la musique et la contemplation occupent une place centrale. Le prestige personnel vient principalement de la sagesse, de la maîtrise du chant, de la qualité du conseil et du service rendu à la communauté.</p><h2>Relations avec les Noldor</h2><p>Les Vanyar sont étroitement apparentés aux Noldor. Plusieurs unions eurent lieu entre leurs grandes maisons, notamment celle de Finwë avec Indis, parente d’Ingwë.</p><p>Ils admirent le génie, la passion et la créativité des Noldor, mais se méfient de leur orgueil, de leur possessivité et de leur désir de dépasser les limites imposées. La rébellion des Noldor fut pour eux une profonde douleur. Leur participation à la Guerre de la Colère montre qu’ils étaient prêts à combattre pour libérer la Terre du Milieu et sauver ceux qui pouvaient encore l’être.</p><h2>Relations avec les Teleri</h2><p>Les Vanyar entretiennent généralement des relations harmonieuses avec les Teleri d’Aman. Ils apprécient leur musique, leur lien avec la mer et leur sensibilité à la beauté naturelle.</p><p>Leurs tempéraments diffèrent : les Vanyar recherchent les hauteurs, les étoiles et la proximité des Valar, tandis que les Teleri sont davantage tournés vers les rivages, l’eau et le voyage. Le Massacre d’Alqualondë les bouleversa profondément.</p><h2>Relations avec les Hommes et les Nains</h2><p>Les Vanyar ont peu de contacts directs avec les Hommes et les Nains. Ils considèrent les Hommes avec compassion et curiosité et savent que leur mortalité appartient à un destin voulu par Eru.</p><p>Ils respectent les Nains en tant qu’œuvre d’Aulë, sans partager l’intérêt des Noldor pour leurs techniques ou leurs métaux. Leur attachement aux biens matériels et aux profondeurs de la terre leur paraît souvent difficile à comprendre.</p><h2>Professions et formation</h2><p>La Culture vanya favorise particulièrement Bardes, Mystiques, Voyants, guérisseurs, diplomates, érudits, poètes, musiciens, conseillers, gardiens spirituels et Combattants disciplinés.</p><p>Leur formation met l’accent sur le Chant, la Musique, la Poésie, les Langues, l’Influence, la Perception, l’Intuition, la Philosophie, l’Astronomie, la Connaissance des Valar, la Méditation et les pouvoirs de lumière et de protection. Les métiers fondés sur l’intrigue, le vol ou la tromperie sont exceptionnellement rares.</p><h2>Place dans la création de personnage</h2><p>La Culture Vanyar convient principalement à un Elfe né ou élevé en Aman, membre de la maison d’Ingwë, vivant sur les pentes du Taniquetil, ayant participé à la Guerre de la Colère ou envoyé exceptionnellement en mission par les Valar.</p><p>Elle est normalement limitée au Premier Âge et surtout aux campagnes se déroulant en Aman ou durant la Guerre de la Colère. Après la fin du Premier Âge, la présence d’un Vanya en Terre du Milieu doit rester extrêmement rare.</p><p>Les Vanyar incarnent la part la plus lumineuse et la plus fidèle des Eldar : un peuple de chanteurs, de sages et de contemplatifs qui choisit de demeurer auprès des Valar, mais dont la paix n’exclut pas la puissance lorsque l’harmonie du monde est menacée.</p>",
+            "culture": "Vanyar"
+          }
+        },
+        "en": {
+          "name": "Vanyar",
+          "system": {
+            "description": "<p>The Vanyar, the “Fair” or the “Blond,” are the first and least numerous of the three great kindreds of the Eldar. They were the first of the Elves to undertake the Great Journey westward under the leadership of Ingwë, their king, and those who remained most faithfully attached to the summons of the Valar. After reaching Aman, they first settled in Tirion with the Noldor, then gradually left the city to live closer to the Powers of the West, on the slopes of Taniquetil and in the lands bathed in the light of Valinor.</p><p>Of all the Quendi, the Vanyar are those who knew least of the wars, exiles, and divisions that marked the history of Middle-earth. They took part neither in Fëanor's rebellion nor in the departure of the Noldor. Their history is therefore less one of kingdoms founded and destroyed than one of fidelity preserved, exceptional closeness to the Valar, and an almost absolute love of light, song, and contemplation.</p><h2>Appearance</h2><p>The Vanyar are tall, graceful, and remarkably beautiful, even by the standards of the Eldar. Their figures are slender without being fragile, and their movements possess a lightness that can make them appear to move without effort.</p><p>Their most characteristic feature is their hair, generally blond, golden, honey-colored, or sometimes almost white under intense light. Their eyes are often blue, pale grey, green, or golden. Their skin is fair and sometimes seems to reflect the light of Aman with a particular softness.</p><p>Like all Elves, they are normally affected neither by ordinary disease nor by lasting scars. Their delicate appearance conceals great strength, exceptional endurance, and natural resistance to cold. They see beneath starlight or moonlight almost as clearly as by day, possess remarkable hearing, and move while leaving very little trace.</p><h2>Ingwë and the first kindred</h2><p>The king of the Vanyar is Ingwë, regarded as the High King of all Elves. His authority rests not on conquest or wealth, but on his antiquity, wisdom, and closeness to Manwë.</p><p>Ingwë led his people westward and never returned to live in Middle-earth. Under his rule, the Vanyar formed a united community rarely troubled by the dynastic rivalries that marked the Noldor. Loyalty to Ingwë is almost inseparable from their loyalty to the Valar.</p><h2>Life in Aman</h2><p>The Vanyar live chiefly on the slopes of Taniquetil, in the lands near Valimar and the dwellings of Manwë and Varda. They prefer luminous heights, broad horizons, the gardens of Aman, and places from which the stars can be contemplated without obstruction.</p><p>Their dwellings are open, bright, and harmoniously integrated into the hills. Pale materials, terraces, gardens, slender columns, and spaces devoted to song hold an important place. Their society has little need for fortifications, arsenals, or defensive works.</p><h2>A people of light</h2><p>Light holds a central place in their identity. The Vanyar knew the Two Trees in all their splendor and retain the memory of their radiance with the precision characteristic of Elves.</p><p>They do not necessarily regard darkness as evil in itself. The starry night is sacred because it reveals Varda's work. They nevertheless distinguish natural night from the darkness imposed by Morgoth, which seeks to smother light rather than complement it.</p><ul><li><p>truth</p></li><li><p>beauty</p></li><li><p>knowledge</p></li><li><p>the presence of the Valar</p></li><li><p>the harmony of the world</p></li><li><p>hope</p></li></ul><h2>Song and poetry</h2><p>The Vanyar are often regarded as the greatest singers among the Eldar. Their music is less directed toward detailed historical narrative than that of the Sindar, or toward the dramatic and passionate expression of the Noldor. Instead it seeks harmony, purity, and elevation of the spirit.</p><p>Their songs celebrate the stars, the Valar, the Two Trees, the mountains of Aman, waters and winds, the awakening of the Elves, and the beauty of Creation. Their voices possess exceptional clarity; several Vanyar can sing together without any one voice dominating the others.</p><h2>Elemmírë and the masters of song</h2><p>Among their most famous artists is Elemmírë, author of the Aldudénië, the lament for the death of the Two Trees. This work became known to all the Eldar and bears witness to the Vanyar's ability to transform grief into artistic expression of enduring beauty.</p><p>The prestige of a Vanyarin singer depends less on personal fame than on the ability to express a truth beyond individuality. The perfect work is one that allows the listener to perceive more clearly the beauty of the world or the will of Eru.</p><h2>Temperament</h2><p>The Vanyar are generally serene, patient, and little inclined toward quarrels. They master their emotions more easily than the Noldor without being cold or indifferent.</p><p>They rarely speak in haste. Before answering, a Vanya may take time to consider the consequences of his words and the way they will be received. This serenity can be interpreted as distance or passivity by more impulsive peoples.</p><ul><li><p>wisdom</p></li><li><p>harmony</p></li><li><p>fidelity</p></li><li><p>beauty</p></li><li><p>humility</p></li><li><p>self-mastery</p></li><li><p>contemplation</p></li><li><p>the right word</p></li></ul><h2>Fidelity to the Valar</h2><p>The Vanyar are the Eldar closest to the Valar. They live near them, learn directly from their wisdom, and attend their celebrations. They especially honor Manwë, Varda, Yavanna, Nienna, and Oromë.</p><p>This closeness is not servile worship. The Vanyar know that the Valar are not creator gods, but the mighty servants of Eru charged with ordering the world. Their faith does not rest on an organized clergy: song, contemplation, gratitude, and participation in the works of the Valar are their principal forms of devotion.</p><h2>Manwë and the heights</h2><p>Manwë holds a special place in their culture. The Vanyar live near his dwellings and associate winds, eagles, peaks, and great open spaces with his presence.</p><p>They love heights from which the eye can range far. This preference expresses their desire to consider events as a whole rather than become trapped in a narrow perspective. Birds, especially the great Eagles, are treated with respect.</p><h2>Varda and the stars</h2><p>Varda may be the most beloved of the Valar among the Vanyar. The stars existed before their awakening and were the first light the Quendi ever beheld.</p><p>The Vanyar celebrate Varda through hymns, vigils beneath the stars, works of silver and crystal, clothing embroidered with celestial patterns, and observances tied to the movements of the heavens. Their knowledge of the stars is both poetic and precise.</p><h2>Relationship with knowledge</h2><p>The Vanyar do not seek knowledge with the same creative hunger as the Noldor. They seek less to transform the world than to understand it and perceive the harmony already present within it.</p><p>Their favored fields include poetry, music, languages, philosophy, astronomy, the history of the Valar, knowledge of ancient songs, contemplation of nature, and understanding emotions and intentions.</p><h2>War of Wrath</h2><p>The Vanyar remained in Aman during the wars of Beleriand. At the end of the First Age, however, they answered the summons of the Valar and took part in the War of Wrath under the leadership of Eönwë.</p><p>This war is the principal collective military experience of their people. They demonstrated that their peaceful character did not spring from inability to fight. When a just cause and legitimate authority require it, they can become warriors of formidable power. After the victory, the great majority returned to Aman.</p><h2>Weapons and armor</h2><p>The Vanyar are not a warrior culture, but those who prepare for battle receive training worthy of the Eldar of Aman. They use, among other weapons, spear, longsword, bow, shield, dagger, and light mail armor.</p><p>Their weapons are elegant, bright, and well balanced. Pale gold, silver, and motifs of feathers, stars, or rays of light are common. They favor ordered formations, discipline, and coordination.</p><h2>Magic and power</h2><p>The Vanyar possess a natural relationship with the spiritual forces of Arda. Their power is expressed chiefly through voice, presence, light, and harmony.</p><p>Their practices may concern songs of power, light, protection, healing, resistance to fear, communication, spiritual perception, inspiration, mastery of gentle winds, and the dispersal of darkness. They turn more naturally toward Channeling and Mentalism than toward forms of Essence based on material transformation.</p><h2>Languages</h2><p>Quenya is their principal language and remains in use in every aspect of their existence. Their speech is considered especially pure, musical, and close to the ancient forms developed in Aman.</p><p>They may also know Valarin, Telerin, Sindarin, and ancient languages of the Eldar. They attach great importance to the choice of names, precision of vocabulary, and the harmony of sound within a sentence.</p><h2>Clothing and display</h2><p>The Vanyar wear light, flowing, luminous garments. They appreciate fine fabrics, simple drapery, and ornaments that reflect light without seeming ostentatious.</p><p>White, pale gold, sky blue, silver, light yellow, and soft green predominate. Patterns often depict stars, rays of sunlight, feathers, flowers of Aman, or the peaks of Taniquetil. Their jewelry is fine and discreet.</p><h2>Family and society</h2><p>Vanyarin society is stable, united, and only lightly hierarchical outside the kingship of Ingwë and the respect accorded to elders, sages, and masters of the arts.</p><p>Marriage is monogamous and deeply connected with the union of the fëar. Children grow within communities where education, music, and contemplation hold a central place. Personal prestige comes chiefly from wisdom, mastery of song, quality of counsel, and service to the community.</p><h2>Relations with the Noldor</h2><p>The Vanyar are closely related to the Noldor. Several unions took place between their great houses, notably that of Finwë with Indis, a kinswoman of Ingwë.</p><p>They admire the genius, passion, and creativity of the Noldor, but distrust their pride, possessiveness, and desire to exceed imposed limits. The rebellion of the Noldor was a profound sorrow to them. Their participation in the War of Wrath shows that they were willing to fight to liberate Middle-earth and save those who could still be saved.</p><h2>Relations with the Teleri</h2><p>The Vanyar generally maintain harmonious relations with the Teleri of Aman. They appreciate their music, their bond with the sea, and their sensitivity to natural beauty.</p><p>Their temperaments differ: the Vanyar seek heights, stars, and closeness to the Valar, while the Teleri turn more toward shores, water, and travel. The Kinslaying at Alqualondë shocked them profoundly.</p><h2>Relations with Men and Dwarves</h2><p>The Vanyar have little direct contact with Men and Dwarves. They regard Men with compassion and curiosity and know that their mortality belongs to a destiny intended by Eru.</p><p>They respect Dwarves as the work of Aulë without sharing the Noldor's interest in their techniques or metals. The Dwarves' attachment to material possessions and the depths of the earth often seems difficult for them to understand.</p><h2>Professions and training</h2><p>Vanyarin Culture particularly favors Bards, Mystics, Seers, healers, diplomats, scholars, poets, musicians, counselors, spiritual guardians, and disciplined Fighters.</p><p>Their training emphasizes Singing, Music, Poetry, Languages, Influence, Perception, Intuition, Philosophy, Astronomy, Lore of the Valar, Meditation, and powers of light and protection. Professions based on intrigue, theft, or deception are exceptionally rare.</p><h2>Place in character creation</h2><p>Vanyarin Culture is principally suitable for an Elf born or raised in Aman, a member of Ingwë's house, living on the slopes of Taniquetil, one who took part in the War of Wrath, or one exceptionally sent on a mission by the Valar.</p><p>It is normally limited to the First Age and especially to campaigns set in Aman or during the War of Wrath. After the end of the First Age, the presence of a Vanya in Middle-earth should remain extremely rare.</p><p>The Vanyar embody the brightest and most faithful part of the Eldar: a people of singers, sages, and contemplatives who chose to remain with the Valar, yet whose peace does not exclude power when the harmony of the world is threatened.</p>",
+            "culture": "Vanyar"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Elfes"
+    ],
+    "en": [
+      "Elves"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-elves"
+  ]
+}

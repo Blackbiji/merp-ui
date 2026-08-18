@@ -1,0 +1,79 @@
+{
+  "key": "herb-dragon-grass",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Herbe-Dragon (Dragon Grass)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-dragon-grass",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-O-2-U",
+        "sourceCost": "3sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "O",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Dragon Grass"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Easy",
+      "form": "Seeds",
+      "prep": "apply",
+      "season": "",
+      "cost": "3sp",
+      "notes": "<p>Ces graines se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Les graines moulues et répandues sur la peau brûlée calment la douleur pendant environ douze heures. Elles se conservent une année.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Herbe-Dragon (Dragon Grass)",
+      "system": {
+        "notes": "<p>Ces graines se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Les graines moulues et répandues sur la peau brûlée calment la douleur pendant environ douze heures. Elles se conservent une année.</p>"
+      }
+    },
+    "en": {
+      "name": "Dragon Grass",
+      "system": {
+        "notes": "<p>This seeds is found chiefly in cold climates, especially in sea coasts and saltwater shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The seeds are ground and scattered over burned skin, relieving pain for about twelve hours. They keep for one year.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

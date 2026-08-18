@@ -1,0 +1,78 @@
+{
+  "key": "herb-yaran",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Yaran",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-yaran",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-S-2-W",
+        "sourceCost": "9sp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "S",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Yaran"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Easy",
+      "form": "Pollen",
+      "prep": "ingest",
+      "season": "",
+      "cost": "9sp",
+      "notes": "<p>Ce pollen se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le pollen aiguise fortement l’odorat et le goût, accordant environ +50 aux perceptions correspondantes pendant une heure.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 7,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Yaran",
+      "system": {
+        "notes": "<p>Ce pollen se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le pollen aiguise fortement l’odorat et le goût, accordant environ +50 aux perceptions correspondantes pendant une heure.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Yaran",
+      "system": {
+        "notes": "<p>This pollen is found chiefly in cool temperate climates, especially in short-grass plains, and is best known in western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The pollen greatly sharpens smell and taste, granting about +50 to the corresponding perceptions for one hour.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "key": "seer-vision-guard",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-seer",
+  "document": {
+    "name": "Vision Guard",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "seer-vision-guard",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Mentalism Companion",
+        "sourceList": "Vision Guard",
+        "sourcePage": 126,
+        "merpRealm": "Mentalism",
+        "merpCategory": "Profession",
+        "profession": "Seer",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Mentalism Companion p.126; MERP/RMSS Seer p.149"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Mentalism Companion",
+      "name": "Vision Guard",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Seer",
+      "notes": "<h2>Vision Guard</h2><p>Protège contre la scrutation, la divination et l’exploration du passé ou de l’esprit, et permet de détecter ou détourner ces tentatives.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>",
+      "label": "Vision Guard",
+      "notesLabel": "Vision Guard notes",
+      "spells": [
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Detect Scrying",
+          "label": "MERP_RMU.Seer.spells.DetectScrying.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.DetectScrying.description",
+          "level": 1,
+          "description": "Détecte si un être, objet ou lieu dans une petite zone est actuellement la cible d’une scrutation ; le Devin peut examiner une zone différente chaque round.",
+          "aoe": "5'R",
+          "duration": "1 min/lvl (C)",
+          "range": "50'",
+          "spellType": "P",
+          "localizations": {
+            "fr": {
+              "name": "Détection de Scrutation",
+              "description": "Détecte si un être, objet ou lieu dans une petite zone est actuellement la cible d’une scrutation ; le Devin peut examiner une zone différente chaque round."
+            },
+            "en": {
+              "name": "Detect Scrying",
+              "description": "Detects whether a being, object, or place within a small area is currently being scryed; the Seer may examine a different area each round."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Detect Divination",
+          "label": "MERP_RMU.Seer.spells.DetectDivination.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.DetectDivination.description",
+          "level": 2,
+          "description": "Détecte si une tentative de divination concerne le futur d’un être, objet ou lieu dans la zone examinée.",
+          "aoe": "5'R",
+          "duration": "1 min/lvl (C)",
+          "range": "50'",
+          "spellType": "P",
+          "localizations": {
+            "fr": {
+              "name": "Détection de Divination",
+              "description": "Détecte si une tentative de divination concerne le futur d’un être, objet ou lieu dans la zone examinée."
+            },
+            "en": {
+              "name": "Detect Divination",
+              "description": "Detects whether a divination attempt concerns the future of a being, object, or place in the examined area."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Cloud Scrying",
+          "label": "MERP_RMU.Seer.spells.CloudScrying.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.CloudScrying.description",
+          "level": 3,
+          "description": "Brouille les tentatives de scrutation visant le sujet touché ; un scryer ne reçoit qu’une partie de l’information tant que la protection tient.",
+          "aoe": "1 subject",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Brouillage de Scrutation",
+              "description": "Brouille les tentatives de scrutation visant le sujet touché ; un scryer ne reçoit qu’une partie de l’information tant que la protection tient."
+            },
+            "en": {
+              "name": "Cloud Scrying",
+              "description": "Obscures scrying attempts directed at the touched subject; a scryer receives only part of the information while the protection holds."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Conceal Fate",
+          "label": "MERP_RMU.Seer.spells.ConcealFate.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ConcealFate.description",
+          "level": 4,
+          "description": "Dissimule une destinée ou malédiction particulière aux sorts qui tentent de la détecter, sans supprimer son effet réel.",
+          "aoe": "1 subject",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Dissimulation du Destin",
+              "description": "Dissimule une destinée ou malédiction particulière aux sorts qui tentent de la détecter, sans supprimer son effet réel."
+            },
+            "en": {
+              "name": "Conceal Fate",
+              "description": "Conceals one specific destiny or curse from spells attempting to detect it without removing its actual effect."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Scrying Misdirection",
+          "label": "MERP_RMU.Seer.spells.ScryingMisdirection.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ScryingMisdirection.description",
+          "level": 5,
+          "description": "Redirige une tentative de scrutation vers un sujet similaire choisi lors du lancement, si un leurre approprié existe à proximité.",
+          "aoe": "1 subject",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Détournement de Scrutation",
+              "description": "Redirige une tentative de scrutation vers un sujet similaire choisi lors du lancement, si un leurre approprié existe à proximité."
+            },
+            "en": {
+              "name": "Scrying Misdirection",
+              "description": "Redirects a scrying attempt toward a similar subject chosen when the spell is cast, provided a suitable decoy exists nearby."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Shadow Past",
+          "label": "MERP_RMU.Seer.spells.ShadowPast.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ShadowPast.description",
+          "level": 6,
+          "description": "Brouille les actes du sujet dans les visions du passé, rendant son rôle difficile à percevoir.",
+          "aoe": "1 target",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Passé Obscurci",
+              "description": "Brouille les actes du sujet dans les visions du passé, rendant son rôle difficile à percevoir."
+            },
+            "en": {
+              "name": "Shadow Past",
+              "description": "Obscures the subject’s actions in visions of the past, making their role difficult to perceive."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "False Truth",
+          "label": "MERP_RMU.Seer.spells.FalseTruth.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FalseTruth.description",
+          "level": 7,
+          "description": "Si le sujet résiste à un sort de lecture mentale ou de vérité, il peut présenter une fausse version comme si elle était vraie.",
+          "aoe": "1 subject",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Fausse Vérité",
+              "description": "Si le sujet résiste à un sort de lecture mentale ou de vérité, il peut présenter une fausse version comme si elle était vraie."
+            },
+            "en": {
+              "name": "False Truth",
+              "description": "If the subject resists a mind-reading or truth spell, they may present a false version as though it were true."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "False Anticipations",
+          "label": "MERP_RMU.Seer.spells.FalseAnticipations.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FalseAnticipations.description",
+          "level": 8,
+          "description": "Trompe les sorts d’anticipation portant sur le sujet, en fournissant de fausses intentions ou en neutralisant leurs avantages.",
+          "aoe": "1 subject",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Fausses Anticipations",
+              "description": "Trompe les sorts d’anticipation portant sur le sujet, en fournissant de fausses intentions ou en neutralisant leurs avantages."
+            },
+            "en": {
+              "name": "False Anticipations",
+              "description": "Deceives anticipation spells concerning the subject by supplying false intentions or neutralizing their advantages."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "False Scrying",
+          "label": "MERP_RMU.Seer.spells.FalseScrying.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FalseScrying.description",
+          "level": 9,
+          "description": "Prépare une image fausse et simple qui remplace la vision réelle obtenue par une tentative de scrutation sur le sujet.",
+          "aoe": "1 subject",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Fausse Scrutation",
+              "description": "Prépare une image fausse et simple qui remplace la vision réelle obtenue par une tentative de scrutation sur le sujet."
+            },
+            "en": {
+              "name": "False Scrying",
+              "description": "Prepares a simple false image that replaces the true vision obtained by a scrying attempt directed at the subject."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Cloud Portent",
+          "label": "MERP_RMU.Seer.spells.CloudPortent.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.CloudPortent.description",
+          "level": 10,
+          "description": "Comme Cloud Scrying, mais contre les sorts de divination portant sur le futur du sujet.",
+          "aoe": "1 subject",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Brouillage de Présage",
+              "description": "Comme Cloud Scrying, mais contre les sorts de divination portant sur le futur du sujet."
+            },
+            "en": {
+              "name": "Cloud Portent",
+              "description": "As Cloud Scrying, but against divination spells concerning the subject’s future."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Feel Scrying",
+          "label": "MERP_RMU.Seer.spells.FeelScrying.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FeelScrying.description",
+          "level": 11,
+          "description": "Le Devin ressent constamment les tentatives de scrutation qui le prennent pour cible.",
+          "aoe": "caster",
+          "duration": "constant",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Sentir la Scrutation",
+              "description": "Le Devin ressent constamment les tentatives de scrutation qui le prennent pour cible."
+            },
+            "en": {
+              "name": "Feel Scrying",
+              "description": "The Seer constantly senses scrying attempts that target them."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Feel Divination",
+          "label": "MERP_RMU.Seer.spells.FeelDivination.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FeelDivination.description",
+          "level": 12,
+          "description": "Le Devin ressent constamment les tentatives de divination qui portent sur son avenir.",
+          "aoe": "caster",
+          "duration": "constant",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Sentir la Divination",
+              "description": "Le Devin ressent constamment les tentatives de divination qui portent sur son avenir."
+            },
+            "en": {
+              "name": "Feel Divination",
+              "description": "The Seer constantly senses divination attempts concerning their future."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Unknown Past",
+          "label": "MERP_RMU.Seer.spells.UnknownPast.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.UnknownPast.description",
+          "level": 14,
+          "description": "Efface le sujet des visions du passé : les scènes restent visibles mais ne fournissent aucune information permettant d’identifier sa participation.",
+          "aoe": "1 target",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Passé Inconnu",
+              "description": "Efface le sujet des visions du passé : les scènes restent visibles mais ne fournissent aucune information permettant d’identifier sa participation."
+            },
+            "en": {
+              "name": "Unknown Past",
+              "description": "Erases the subject from visions of the past: scenes remain visible but reveal no information that could identify the subject’s participation."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "False Portent",
+          "label": "MERP_RMU.Seer.spells.FalsePortent.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FalsePortent.description",
+          "level": 15,
+          "description": "Toute divination portant sur le sujet protégé reçoit une fausse lecture déterminée lors du lancement.",
+          "aoe": "1 target",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Faux Présage",
+              "description": "Toute divination portant sur le sujet protégé reçoit une fausse lecture déterminée lors du lancement."
+            },
+            "en": {
+              "name": "False Portent",
+              "description": "Any divination concerning the protected subject receives a false reading determined when the spell is cast."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Conceal Presence",
+          "label": "MERP_RMU.Seer.spells.ConcealPresence.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ConcealPresence.description",
+          "level": 16,
+          "description": "Le sujet paraît ne posséder aucune présence mentale et échappe aux sorts de type Presence.",
+          "aoe": "1 target",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Dissimulation de Présence",
+              "description": "Le sujet paraît ne posséder aucune présence mentale et échappe aux sorts de type Presence."
+            },
+            "en": {
+              "name": "Conceal Presence",
+              "description": "The subject appears to possess no mental presence and escapes Presence-type spells."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Scrying Analysis",
+          "label": "MERP_RMU.Seer.spells.ScryingAnalysis.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ScryingAnalysis.description",
+          "level": 17,
+          "description": "Analyse une scrutation détectée afin de localiser et d’identifier le scryer.",
+          "aoe": "1 scryer",
+          "duration": "—",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Analyse de Scrutation",
+              "description": "Analyse une scrutation détectée afin de localiser et d’identifier le scryer."
+            },
+            "en": {
+              "name": "Scrying Analysis",
+              "description": "Analyzes a detected scrying attempt in order to locate and identify the scryer."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Divination Analysis",
+          "label": "MERP_RMU.Seer.spells.DivinationAnalysis.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.DivinationAnalysis.description",
+          "level": 18,
+          "description": "Analyse une divination détectée afin de localiser et d’identifier le divinateur.",
+          "aoe": "1 diviner",
+          "duration": "—",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Analyse de Divination",
+              "description": "Analyse une divination détectée afin de localiser et d’identifier le divinateur."
+            },
+            "en": {
+              "name": "Divination Analysis",
+              "description": "Analyzes a detected divination attempt in order to locate and identify the diviner."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "False Past",
+          "label": "MERP_RMU.Seer.spells.FalsePast.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FalsePast.description",
+          "level": 20,
+          "description": "Modifie les visions du passé de sorte que les actes du sujet semblent avoir été accomplis par une autre personne choisie au lancement.",
+          "aoe": "1 target",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Faux Passé",
+              "description": "Modifie les visions du passé de sorte que les actes du sujet semblent avoir été accomplis par une autre personne choisie au lancement."
+            },
+            "en": {
+              "name": "False Past",
+              "description": "Alters visions of the past so that the subject’s actions appear to have been performed by another person chosen when the spell is cast."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Conceal Memories",
+          "label": "MERP_RMU.Seer.spells.ConcealMemories.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ConcealMemories.description",
+          "level": 25,
+          "description": "Dissimule aux lectures mentales un nombre de scènes ou souvenirs égal au niveau du Devin ; le sujet conserve toutefois ses vrais souvenirs.",
+          "aoe": "1 target",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Dissimulation des Souvenirs",
+              "description": "Dissimule aux lectures mentales un nombre de scènes ou souvenirs égal au niveau du Devin ; le sujet conserve toutefois ses vrais souvenirs."
+            },
+            "en": {
+              "name": "Conceal Memories",
+              "description": "Conceals from mind-reading a number of scenes or memories equal to the Seer’s level; the subject nevertheless retains the true memories."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "False Memories",
+          "label": "MERP_RMU.Seer.spells.FalseMemories.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FalseMemories.description",
+          "level": 30,
+          "description": "Implante des souvenirs factices en plus des souvenirs réels, à raison d’un souvenir ou d’une scène par round.",
+          "aoe": "1 target",
+          "duration": "1 rnd/lvl",
+          "range": "touch",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Faux Souvenirs",
+              "description": "Implante des souvenirs factices en plus des souvenirs réels, à raison d’un souvenir ou d’une scène par round."
+            },
+            "en": {
+              "name": "False Memories",
+              "description": "Implants false memories in addition to the real ones, at the rate of one memory or scene per round."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Guard",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Outside the Weave",
+          "label": "MERP_RMU.Seer.spells.OutsidetheWeave.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.OutsidetheWeave.description",
+          "level": 50,
+          "description": "Protège totalement le sujet contre toute magie divinatoire pendant la durée. Les divinations le concernant échouent ou omettent sa présence ; le sujet lui-même ne peut utiliser de divination tant qu’il est ainsi retranché.",
+          "aoe": "1 subject",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Hors de la Trame",
+              "description": "Protège totalement le sujet contre toute magie divinatoire pendant la durée. Les divinations le concernant échouent ou omettent sa présence ; le sujet lui-même ne peut utiliser de divination tant qu’il est ainsi retranché."
+            },
+            "en": {
+              "name": "Outside the Weave",
+              "description": "Completely protects the subject from all divinatory magic for the duration. Divinations concerning the subject fail or omit the subject’s presence; the subject cannot use divination while thus removed."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Garde des Visions",
+      "system": {
+        "name": "Garde des Visions",
+        "label": "Garde des Visions",
+        "notesLabel": "Garde des Visions — notes",
+        "notes": "<h2>Garde des Visions</h2><p>Protège contre la scrutation, la divination et l’exploration du passé ou de l’esprit, et permet de détecter ou détourner ces tentatives.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>"
+      }
+    },
+    "en": {
+      "name": "Vision Guard",
+      "system": {
+        "name": "Vision Guard",
+        "label": "Vision Guard",
+        "notesLabel": "Vision Guard — notes",
+        "notes": "<h2>Vision Guard</h2><p>Protects against scrying, divination, and investigation of the past or the mind, and allows such attempts to be detected or diverted.</p><p><strong>MERP-RMU Conversion:</strong> historical Seer List, structured in RMU format while preserving its original effects and progression.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Devin (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Seer (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-seer"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "key": "good-battlefield-awareness",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mental",
+  "document": {
+    "name": "Conscience du champ de bataille (Good Battlefield Awareness)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "good-battlefield-awareness",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Senses",
+      "name": "Good Battlefield Awareness",
+      "cost": "5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Conscience du champ de bataille (Good Battlefield Awareness)</h1><h2>Description</h2><p>Vous lisez instinctivement la situation d’un combat : mouvements, ouvertures, menaces, angles d’approche et changements rapides du rapport de force. Cette perception améliore votre conscience situationnelle en combat et votre capacité à répondre à une menace venant d’une direction inattendue.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux jets de Perception explicitement liés à une menace ou à une situation tactique de combat. Le Talent ne donne pas automatiquement connaissance de ce qui est réellement invisible ou impossible à percevoir.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_good-battlefield-awareness.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Conscience du champ de bataille (Good Battlefield Awareness)",
+      "system": {
+        "description": "<h1>Conscience du champ de bataille (Good Battlefield Awareness)</h1><h2>Description</h2><p>Vous lisez instinctivement la situation d’un combat : mouvements, ouvertures, menaces, angles d’approche et changements rapides du rapport de force. Cette perception améliore votre conscience situationnelle en combat et votre capacité à répondre à une menace venant d’une direction inattendue.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux jets de Perception explicitement liés à une menace ou à une situation tactique de combat. Le Talent ne donne pas automatiquement connaissance de ce qui est réellement invisible ou impossible à percevoir.</p>"
+      }
+    },
+    "en": {
+      "name": "Good Battlefield Awareness",
+      "system": {
+        "description": "<h1>Good Battlefield Awareness</h1><h2>Description</h2><p>You instinctively read the flow of battle: movement, openings, threats, angles of approach, and rapid changes in the balance of force. This awareness improves your combat situational awareness and your ability to respond to a threat coming from an unexpected direction.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+5 per Tier</strong> to Perception rolls explicitly related to a threat or tactical combat situation. The Talent does not automatically reveal anything that is truly invisible or impossible to perceive.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mentaux"
+    ],
+    "en": [
+      "Talents — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mental"
+  ]
+}

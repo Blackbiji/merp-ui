@@ -1,0 +1,79 @@
+{
+  "key": "herb-juth-juthjuth",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-nerveux",
+  "document": {
+    "name": "Juth (Juthjuth)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-juth-juthjuth",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "a-Z-5-U",
+        "sourceCost": "56gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Nerveux"
+        ],
+        "poisonType": "Nerveux",
+        "climateCode": "a",
+        "localeCode": "Z",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Juth (Juthjuth)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "Z",
+      "findDifficulty": "Hard",
+      "form": "Scorpion",
+      "prep": "liquid",
+      "season": "",
+      "cost": "56gp",
+      "notes": "<p>Ce scorpion se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 2B. Ses effets peuvent aller jusqu’à une folie sévère se déclarant dans les semaines suivantes.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Juth (Juthjuth)",
+      "system": {
+        "notes": "<p>Ce scorpion se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 2B. Ses effets peuvent aller jusqu’à une folie sévère se déclarant dans les semaines suivantes.</p>"
+      }
+    },
+    "en": {
+      "name": "Juth (Juthjuth)",
+      "system": {
+        "notes": "<p>This scorpion is found chiefly in arid climates, especially in deserts, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 2B nerve poison. Its effects can culminate in severe insanity emerging during the following weeks.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nerveux"
+    ],
+    "en": [
+      "Nerve"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-nerveux"
+  ]
+}

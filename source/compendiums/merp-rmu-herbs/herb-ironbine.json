@@ -1,0 +1,90 @@
+{
+  "key": "herb-ironbine",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Liane de Fer (Ironbine)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ironbine",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-3-S",
+        "sourceCost": "3gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes",
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": "S",
+        "sourceVariants": [
+          {
+            "group": "Soins",
+            "code": "m-O-3-S",
+            "form": "Flower",
+            "prep": "ingest",
+            "cost": "3gp",
+            "af": 5,
+            "effect": "La fleur rend immédiatement 2 à 10 points de vie et se conserve environ une semaine après la cueillette."
+          }
+        ],
+        "sourceName": "Ironbine"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Light",
+      "form": "Bulb",
+      "prep": "powder",
+      "season": "",
+      "cost": "3gp",
+      "notes": "<p>Ce bulbe se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Antidote de niveau 12 contre l’Acána. Sa poudre se conserve pendant des années ; la plante est aussi connue sous les noms de Deathsaver et Lifeblossom. La fleur rend immédiatement 2 à 10 points de vie et se conserve environ une semaine après la cueillette.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 5,
+      "effects": [],
+      "table": "",
+      "level": 12
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Liane de Fer (Ironbine)",
+      "system": {
+        "notes": "<p>Ce bulbe se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Antidote de niveau 12 contre l’Acána. Sa poudre se conserve pendant des années ; la plante est aussi connue sous les noms de Deathsaver et Lifeblossom. La fleur rend immédiatement 2 à 10 points de vie et se conserve environ une semaine après la cueillette.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Ironbine",
+      "system": {
+        "notes": "<p>This bulb is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is ground into powder.</p><p>Level 12 antidote to Acána. Its powder keeps for years; the plant is also known as Deathsaver and Lifeblossom. The flower immediately restores 2–10 concussion hits and keeps for about one week after picking.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

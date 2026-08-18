@@ -1,0 +1,78 @@
+{
+  "key": "herb-merrig-maioc",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Merrig (Maioc)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-merrig-maioc",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-S-5-M",
+        "sourceCost": "2gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "S",
+        "regionCode": "M",
+        "sourceVariants": [],
+        "sourceName": "Merrig (Maioc)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Hard",
+      "form": "Thorn",
+      "prep": "brew",
+      "season": "",
+      "cost": "2gp",
+      "notes": "<p>Cette épine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une prise quotidienne pendant dix jours augmente l’Apparence et la Présence de 5 points. L’usage devient souvent addictif après deux semaines ; le sevrage entraîne une chute de Constitution ainsi qu’une perte d’Apparence et de Présence.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 20,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Merrig (Maioc)",
+      "system": {
+        "notes": "<p>Cette épine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une prise quotidienne pendant dix jours augmente l’Apparence et la Présence de 5 points. L’usage devient souvent addictif après deux semaines ; le sevrage entraîne une chute de Constitution ainsi qu’une perte d’Apparence et de Présence.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Merrig (Maioc)",
+      "system": {
+        "notes": "<p>This thorn is found chiefly in semi-arid climates, especially in short-grass plains, and is best known in central Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>Daily use for ten days increases Appearance and Presence by 5 points. Use often becomes addictive after two weeks; withdrawal causes a drop in Constitution as well as losses to Appearance and Presence.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

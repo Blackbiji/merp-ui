@@ -1,0 +1,79 @@
+{
+  "key": "herb-kaktu",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-musculaires",
+  "document": {
+    "name": "Kaktu",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-kaktu",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-S-7-S",
+        "sourceCost": "27gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Musculaire"
+        ],
+        "poisonType": "Musculaire",
+        "climateCode": "s",
+        "localeCode": "S",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Kaktu"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Extremely Hard",
+      "form": "Flower",
+      "prep": "liquid",
+      "season": "",
+      "cost": "27gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison musculaire de niveau 1A. Il peut provoquer une perte sévère d’Agilité dans un à quatre membres.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 1
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Kaktu",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison musculaire de niveau 1A. Il peut provoquer une perte sévère d’Agilité dans un à quatre membres.</p>"
+      }
+    },
+    "en": {
+      "name": "Kaktu",
+      "system": {
+        "notes": "<p>This flower is found chiefly in semi-arid climates, especially in short-grass plains, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 1A muscle poison. It can cause severe Agility loss in one to four limbs.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Musculaires"
+    ],
+    "en": [
+      "Muscle"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-musculaires"
+  ]
+}

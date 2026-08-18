@@ -1,0 +1,79 @@
+{
+  "key": "herb-edram-bonehae",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Edram (Bonehae)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-edram-bonehae",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-F-6-N",
+        "sourceCost": "33gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "F",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Edram (Bonehae)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Very Hard",
+      "form": "Moss",
+      "prep": "ingest",
+      "season": "",
+      "cost": "33gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Guérit-Os (Bonehae)</strong>.</p><p>Cette mousse se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Consommée très fraîche, idéalement dans la minute suivant la préparation, cette mousse peut ressouder un os en environ deux heures si celui-ci est bien réduit et maintenu immobile.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 10,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Edram (Bonehae)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Guérit-Os (Bonehae)</strong>.</p><p>Cette mousse se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Consommée très fraîche, idéalement dans la minute suivant la préparation, cette mousse peut ressouder un os en environ deux heures si celui-ci est bien réduit et maintenu immobile.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Edram (Bonehae)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Bonehae</strong>.</p><p>This moss is found chiefly in cold climates, especially in freshwater banks and shores, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Consumed very fresh, ideally within one minute of preparation, this moss can knit a bone in about two hours if it has been correctly set and kept immobile.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

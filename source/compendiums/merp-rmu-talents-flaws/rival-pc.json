@@ -1,0 +1,64 @@
+{
+  "key": "rival-pc",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Rival — PJ (Rival/PC)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "rival-pc",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Rival/PC",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Rival — PJ (Rival/PC)</h1><h2>Description</h2><p>Vous entretenez une rivalité durable avec un autre personnage joueur. Cette rivalité peut porter sur le prestige, l’autorité, une idéologie, une personne, une dette ou toute autre source de conflit récurrent.</p><h2>Tiers</h2><p>Le Tier mesure l’intensité et les conséquences de la rivalité.</p><h2>Adaptation MERP-RMU</h2><p>Ce Défaut ne doit être choisi qu’avec l’accord explicite des joueurs concernés. Il ne donne jamais permission de saboter la partie ou de retirer l’agence de l’autre joueur.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_rival-pc.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Rival — PJ (Rival/PC)",
+      "system": {
+        "description": "<h1>Rival — PJ (Rival/PC)</h1><h2>Description</h2><p>Vous entretenez une rivalité durable avec un autre personnage joueur. Cette rivalité peut porter sur le prestige, l’autorité, une idéologie, une personne, une dette ou toute autre source de conflit récurrent.</p><h2>Tiers</h2><p>Le Tier mesure l’intensité et les conséquences de la rivalité.</p><h2>Adaptation MERP-RMU</h2><p>Ce Défaut ne doit être choisi qu’avec l’accord explicite des joueurs concernés. Il ne donne jamais permission de saboter la partie ou de retirer l’agence de l’autre joueur.</p>"
+      }
+    },
+    "en": {
+      "name": "Rival/PC",
+      "system": {
+        "description": "<h1>Rival/PC</h1><h2>Description</h2><p>You maintain a lasting rivalry with another player character. The rivalry may concern prestige, authority, ideology, a person, a debt, or any other recurring source of conflict.</p><h2>Tiers</h2><p>The Tier measures the intensity and consequences of the rivalry.</p><h2>MERP-RMU Adaptation</h2><p>This Flaw should be chosen only with the explicit agreement of the players concerned. It never grants permission to sabotage the game or remove another player’s agency.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

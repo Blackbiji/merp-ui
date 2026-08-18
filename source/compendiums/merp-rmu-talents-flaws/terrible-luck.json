@@ -1,0 +1,64 @@
+{
+  "key": "terrible-luck",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Malchance funeste (Terrible Luck)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "terrible-luck",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Terrible Luck",
+      "cost": "-10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Malchance funeste (Terrible Luck)</h1><h2>Description</h2><p>Lorsque vous obtenez un <strong>01 naturel</strong> sur une action, les circonstances se retournent contre vous de la façon la plus complète possible. L’action échoue, l’équipement utilisé peut se briser, vous pouvez chuter, vous blesser ou provoquer une autre complication majeure appropriée à la scène.</p><p>La conséquence peut être extrêmement grave, mais elle ne doit jamais être <strong>instantanément fatale</strong>. Même dans le pire des cas, il doit subsister une possibilité, aussi mince soit-elle, de survivre aux conséquences.</p><h2>Adaptation MERP-RMU</h2><p>Le déclenchement repose sur un 01 naturel lorsque ce résultat est pertinent pour l’action effectuée. Le MJ choisit une complication cohérente avec la situation ; ce Défaut ne remplace pas les procédures normales de Fumble lorsqu’elles produisent déjà un résultat plus précis.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_terrible-luck.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Malchance funeste (Terrible Luck)",
+      "system": {
+        "description": "<h1>Malchance funeste (Terrible Luck)</h1><h2>Description</h2><p>Lorsque vous obtenez un <strong>01 naturel</strong> sur une action, les circonstances se retournent contre vous de la façon la plus complète possible. L’action échoue, l’équipement utilisé peut se briser, vous pouvez chuter, vous blesser ou provoquer une autre complication majeure appropriée à la scène.</p><p>La conséquence peut être extrêmement grave, mais elle ne doit jamais être <strong>instantanément fatale</strong>. Même dans le pire des cas, il doit subsister une possibilité, aussi mince soit-elle, de survivre aux conséquences.</p><h2>Adaptation MERP-RMU</h2><p>Le déclenchement repose sur un 01 naturel lorsque ce résultat est pertinent pour l’action effectuée. Le MJ choisit une complication cohérente avec la situation ; ce Défaut ne remplace pas les procédures normales de Fumble lorsqu’elles produisent déjà un résultat plus précis.</p>"
+      }
+    },
+    "en": {
+      "name": "Terrible Luck",
+      "system": {
+        "description": "<h1>Terrible Luck</h1><h2>Description</h2><p>Whenever you roll a <strong>natural 01</strong> on an action, circumstances turn against you as completely as possible. The action fails, the equipment being used may break, you may fall, suffer an injury, or cause another major complication appropriate to the scene.</p><p>The consequence may be extremely severe, but it must never be <strong>instantly fatal</strong>. Even in the worst case, there must remain some possibility, however slight, of surviving the consequences.</p><h2>MERP-RMU Adaptation</h2><p>The trigger is a natural 01 whenever that result is relevant to the action being attempted. The GM chooses a complication appropriate to the situation; this Flaw does not replace normal Fumble procedures when they already produce a more precise result.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

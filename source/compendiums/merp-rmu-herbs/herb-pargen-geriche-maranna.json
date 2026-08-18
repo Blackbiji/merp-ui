@@ -1,0 +1,78 @@
+{
+  "key": "herb-pargen-geriche-maranna",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Pargen (Geriche, Maranna)",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-pargen-geriche-maranna",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-8-S",
+        "sourceCost": "800gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Pargen (Geriche, Maranna)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Sheer Folly",
+      "form": "Berry",
+      "prep": "ingest",
+      "season": "",
+      "cost": "800gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie empêche l’état d’un blessé de se détériorer pendant quatre jours et permet aux soins d’atteindre leur pleine efficacité. Elle se conserve plusieurs mois.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 25,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pargen (Geriche, Maranna)",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie empêche l’état d’un blessé de se détériorer pendant quatre jours et permet aux soins d’atteindre leur pleine efficacité. Elle se conserve plusieurs mois.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Pargen (Geriche, Maranna)",
+      "system": {
+        "notes": "<p>This berry is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The berry prevents an injured person’s condition from deteriorating for four days and allows healing to work at full effectiveness. It keeps for several months.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

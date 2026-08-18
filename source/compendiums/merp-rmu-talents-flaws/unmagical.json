@@ -1,0 +1,64 @@
+{
+  "key": "unmagical",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Non-magique (Unmagical)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "unmagical",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Unmagical",
+      "cost": "-15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Non-magique (Unmagical)</h1><h2>Description</h2><p>Vous avez très peu d’affinité avec la magie. Vous éprouvez une difficulté majeure à développer ou utiliser les capacités magiques.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, le personnage éprouve de fortes difficultés à apprendre et employer la magie. Les limitations exactes sont appliquées aux Compétences et options de lancement de sorts pertinentes, sans modifier les Items du Core RMU eux-mêmes. Ce Défaut doit être incompatible avec une construction qui dépendrait normalement d’un accès aisé à la magie, sauf accord explicite du MJ.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_unmagical.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Non-magique (Unmagical)",
+      "system": {
+        "description": "<h1>Non-magique (Unmagical)</h1><h2>Description</h2><p>Vous avez très peu d’affinité avec la magie. Vous éprouvez une difficulté majeure à développer ou utiliser les capacités magiques.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, le personnage éprouve de fortes difficultés à apprendre et employer la magie. Les limitations exactes sont appliquées aux Compétences et options de lancement de sorts pertinentes, sans modifier les Items du Core RMU eux-mêmes. Ce Défaut doit être incompatible avec une construction qui dépendrait normalement d’un accès aisé à la magie, sauf accord explicite du MJ.</p>"
+      }
+    },
+    "en": {
+      "name": "Unmagical",
+      "system": {
+        "description": "<h1>Unmagical</h1><h2>Description</h2><p>You have very little affinity with magic. You face major difficulty developing or using magical abilities.</p><h2>MERP-RMU Adaptation</h2><p>In MERP-RMU, the character has great difficulty learning and using magic. The exact limitations are applied to the relevant Skills and spell-casting options without modifying RMU Core Items themselves. This Flaw should be incompatible with a character build that normally depends on easy access to magic unless the GM explicitly agrees otherwise.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

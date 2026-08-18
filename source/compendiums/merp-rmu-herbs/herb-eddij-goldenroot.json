@@ -1,0 +1,78 @@
+{
+  "key": "herb-eddij-goldenroot",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Eddij (Racine Dorée / Goldenroot)",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-eddij-goldenroot",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-D-8-S",
+        "sourceCost": "560gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "D",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Eddij (Goldenroot)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Sheer Folly",
+      "form": "Berry",
+      "prep": "apply",
+      "season": "",
+      "cost": "560gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Racine Dorée (Goldenroot)</strong>.</p><p>Cette baie se rencontre surtout dans les régions au climat chaud et humide, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Le jus de cette baie, appliqué aux yeux juste avant une mort imminente, peut maintenir la vie quelques heures supplémentaires.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 12,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Eddij (Racine Dorée / Goldenroot)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Racine Dorée (Goldenroot)</strong>.</p><p>Cette baie se rencontre surtout dans les régions au climat chaud et humide, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Le jus de cette baie, appliqué aux yeux juste avant une mort imminente, peut maintenir la vie quelques heures supplémentaires.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Eddij (Goldenroot)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Goldenroot</strong>.</p><p>This berry is found chiefly in hot and humid climates, especially in deciduous or mixed forests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The juice of this berry, applied to the eyes immediately before imminent death, can sustain life for several additional hours.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

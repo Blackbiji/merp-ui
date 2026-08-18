@@ -1,0 +1,1291 @@
+{
+  "key": "culture-umli",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Umli",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-umli",
+        "collection": "merp-rmu",
+        "contentVersion": 4,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "recommendedSpecializations": {},
+        "exclusiveTalents": [],
+        "canonicalKey": "culture-umli",
+        "availability": {
+          "ages": [
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "3": true,
+            "4": true
+          }
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-umli",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "3": {
+            "sourceKey": "culture-umli-age-3",
+            "folderKey": "cultures-age-3-restricted",
+            "document": {
+              "name": "Umli",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-umli-age-3",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-umli-age-3",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Umitic",
+                        "spoken": 8,
+                        "written": 8,
+                        "nameFr": "Umitique"
+                      },
+                      {
+                        "name": "Labba",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Labba"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Khuzdul",
+                        "spoken": 2,
+                        "written": 2,
+                        "nameFr": "Khuzdul"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-umli",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-umli"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Umli",
+                "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Tundra",
+                    "ranks": 7
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Umli",
+                "system": {
+                  "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+                  "culture": "Umli"
+                }
+              },
+              "en": {
+                "name": "Umli",
+                "system": {
+                  "description": "<h1>Umli Culture</h1>\n<p>The <strong>Umli</strong> live in forests, highlands, and cold expanses east of the Lossoth, in north-central Middle-earth. Their Culture combines two complementary traditions: that of hunters and travelers of the Far North, able to live for long periods far from any settlement, and that of craftsmen established in caves or underground communities where mining, smithing, and working materials hold an important place.</p>\n<h2>A Culture of the Far North</h2>\n<p>The land of the Umli is not an empty wasteland. An Umit reads animal tracks, the direction of the wind, fragile ice, possible shelters, and signs announcing a change in weather. Tundra Survival, Tracking, and Foraging therefore belong to ordinary skills.</p>\n<h2>Seasonal mobility</h2>\n<p>The Umli move with the seasons to follow game, reach better fishing grounds, or exploit temporary resources. This mobility is not absolute nomadism: most possess stable points of attachment, often improved caves or underground settlements to which families regularly return.</p>\n<h2>Caves and the surface</h2>\n<p>Most live in caves or underground settlements. These places protect from wind, stabilize temperature, secure stores, and house forges and workshops. Yet the Culture is not purely subterranean: hunting, fishing, Tracking, travel, and Foraging take place mainly outside. Underground is home, workshop, and refuge.</p>\n<h2>Hunting, fishing, and foraging</h2>\n<p>Hunting provides meat, fat, bone, sinew, and fur. The animal is used almost completely. Fishing supplements this subsistence in rivers, lakes, and cold waters, with catches dried, smoked, or naturally frozen. Foraging covers roots, berries, plants, and seasonal mushrooms; in an environment where food cannot be wasted, knowing the time and place of a resource has vital value.</p>\n<h2>Tracking and weather prediction</h2>\n<p>Tracking is used as much to follow game as to know who frequents a territory. In snow, a trail often reveals number, approximate weight, speed, and how long ago the passage occurred. The Umli also observe sky, wind, snow, and animal behavior to anticipate storms and sudden drops in temperature.</p>\n<h2>Skiing, skating, and ropework</h2>\n<p>Skiing and skating allow high mobility to be maintained despite snow and ice. These techniques are learned early. Mastery of ropes complements travel through difficult terrain, installations, traps, and safety on ice or steep ground.</p>\n<h2>Caving, mining, and smithing</h2>\n<p>The Umli know how to move through caves, recognize unstable areas, and enlarge their dwellings. Many are miners. Ores provide the metal required for weapons, tools, and trade. They are also accomplished smiths: in a region far from major commercial centers, being able to repair a blade or make a tool is an essential form of independence.</p>\n<h2>Craftsmanship</h2>\n<p>Their crafts extend beyond smithing: Bonecarving, Leatherworking, Trapmaking, and Woodworking are especially appropriate. Bone becomes needles, handles, fastenings, or engraved objects; leather provides clothing and protection; traps supplement hunting; wood serves for weapons, tools, and light structures.</p>\n<h2>Communities and family</h2>\n<p>Communities remain relatively small and cooperative. Underground homes provide important stability despite seasonal movement. Hunters, craftsmen, miners, and other specialists depend on one another. Family holds a central place; marriage is traditionally monogamous and descent follows the male line.</p>\n<h2>Religion and Mahlic</h2>\n<p>Umli religion is relatively formal. They honor Eru and the Valar, with particular reverence for <strong>Aulë, called Mahlic</strong>. This place suits a Culture of miners, smiths, and craftsmen. Work well done possesses value beyond utility: transforming ore, understanding stone, and creating a durable tool are activities deeply associated with Mahlic.</p>\n<h2>Temperament and social life</h2>\n<p>The Umli are reputed to be possessive, persevering, stubborn, fierce, and quiet. Possessiveness is not merely greed: a quality tool or garment may represent weeks of work and entails a responsibility for its maintenance. Their reserve toward outsiders does not prevent a rich social life within the community; Storytelling and Dance belong to their traditions.</p>\n<h2>Clothing</h2>\n<p>Clothing is entirely adapted to the Far North: long hide coats lined with fur, thick shirts, layered mittens, sturdy trousers, high boots, and broad hoods. The Umli generally do not dye their clothing and retain the natural colors of leather, fur, and wool: beige, grey, brown, and other neutral tones.</p>\n<h2>Armor and weapons</h2>\n<p>All major armor categories may be used, with a practical preference for leather protection taken from northern animals. The traditional arsenal is broad: dagger, one-handed axe, short sword, club, warhammer, mace, bola, composite bow, short bow, sling, battle axe, staff, javelin, spear, pick-hammer, and harpoon. This variety reflects the diversity of activities: hunting, fishing, mining, and defense.</p>\n<h2>Dragons and Wargs</h2>\n<p>Dragons and Wargs are among their most hated enemies. Umli traditions already connect their history with Cold-drakes, and a rumor of a Dragon in the North is never treated lightly. Wargs threaten hunters, travelers, and small communities; their pack intelligence justifies the importance of Tracking, traps, and watchfulness.</p>\n<h2>Relations with Lossoth and Khazâd</h2>\n<p>Umli territories lie east of the Lossoth, and some Umli know Labba, a sign of regular contact. The two peoples share experience of the cold but differ in the Umli importance of underground homes, mining, and metallurgy. Some Umli also know Khuzdul; relations with the Khazâd are eased by a shared appreciation of stone, metal, and skilled craft.</p>\n<h2>Languages</h2>\n<p>The Culture's own language is <strong>Umitic</strong>, with a developed written tradition. Westron is useful to travelers and merchants. Labba, Logathig, Bethteur, and Khuzdul may also be learned depending on region and contacts. Linguistic knowledge should reflect the character's personal history rather than becoming uniform.</p>\n<h2>Cultural skills</h2>\n<p>The cultural core emphasizes <strong>Foraging, Tracking, and Tundra Survival</strong>, followed by Caving, Observation, Stalking, Hiding, Body Development, Ropework, Weather Watching, Skating, Skiing, Bonecarving, Leatherworking, Smithing, Trapmaking, and Woodworking. Urban skills receive little development in traditional education.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Umli Race</strong> carries stature, longevity, resistance to cold, vulnerability to heat, and reduced need for sleep. The <strong>Umli Culture</strong> carries tundra, hunting, fishing, Foraging, Tracking, underground settlements, mines, smithing, clothing, the religion of Mahlic, languages, and craft traditions.</p>\n<h2>Place in character creation</h2>\n<p>An Umli character should specify the origin of his or her community: forest cave, mining settlement, group of hunters, or a community open to contacts with Lossoth and Khazâd. Family occupation and secondary language immediately add character. Umli Culture stands at the meeting point of two worlds: the mobility and cold-lore of the peoples of the Far North, and the familiarity with stone, mining, and smithing of underground societies.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Umitic</strong> — Spoken 8 / Written 8</li><li><strong>Labba</strong> — Spoken 4 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li><li><strong>Khuzdul</strong> — Spoken 2 / Written 2</li></ul></section>",
+                  "culture": "Umli"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-umli-age-4",
+            "folderKey": "cultures-age-4-restricted",
+            "document": {
+              "name": "Umli",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-umli-age-4",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-umli-age-4",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Umitic",
+                        "spoken": 8,
+                        "written": 8,
+                        "nameFr": "Umitique"
+                      },
+                      {
+                        "name": "Labba",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Labba"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Khuzdul",
+                        "spoken": 2,
+                        "written": 2,
+                        "nameFr": "Khuzdul"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-umli",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-umli"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Umli",
+                "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Tundra",
+                    "ranks": 7
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Umli",
+                "system": {
+                  "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+                  "culture": "Umli"
+                }
+              },
+              "en": {
+                "name": "Umli",
+                "system": {
+                  "description": "<h1>Umli Culture</h1>\n<p>The <strong>Umli</strong> live in forests, highlands, and cold expanses east of the Lossoth, in north-central Middle-earth. Their Culture combines two complementary traditions: that of hunters and travelers of the Far North, able to live for long periods far from any settlement, and that of craftsmen established in caves or underground communities where mining, smithing, and working materials hold an important place.</p>\n<h2>A Culture of the Far North</h2>\n<p>The land of the Umli is not an empty wasteland. An Umit reads animal tracks, the direction of the wind, fragile ice, possible shelters, and signs announcing a change in weather. Tundra Survival, Tracking, and Foraging therefore belong to ordinary skills.</p>\n<h2>Seasonal mobility</h2>\n<p>The Umli move with the seasons to follow game, reach better fishing grounds, or exploit temporary resources. This mobility is not absolute nomadism: most possess stable points of attachment, often improved caves or underground settlements to which families regularly return.</p>\n<h2>Caves and the surface</h2>\n<p>Most live in caves or underground settlements. These places protect from wind, stabilize temperature, secure stores, and house forges and workshops. Yet the Culture is not purely subterranean: hunting, fishing, Tracking, travel, and Foraging take place mainly outside. Underground is home, workshop, and refuge.</p>\n<h2>Hunting, fishing, and foraging</h2>\n<p>Hunting provides meat, fat, bone, sinew, and fur. The animal is used almost completely. Fishing supplements this subsistence in rivers, lakes, and cold waters, with catches dried, smoked, or naturally frozen. Foraging covers roots, berries, plants, and seasonal mushrooms; in an environment where food cannot be wasted, knowing the time and place of a resource has vital value.</p>\n<h2>Tracking and weather prediction</h2>\n<p>Tracking is used as much to follow game as to know who frequents a territory. In snow, a trail often reveals number, approximate weight, speed, and how long ago the passage occurred. The Umli also observe sky, wind, snow, and animal behavior to anticipate storms and sudden drops in temperature.</p>\n<h2>Skiing, skating, and ropework</h2>\n<p>Skiing and skating allow high mobility to be maintained despite snow and ice. These techniques are learned early. Mastery of ropes complements travel through difficult terrain, installations, traps, and safety on ice or steep ground.</p>\n<h2>Caving, mining, and smithing</h2>\n<p>The Umli know how to move through caves, recognize unstable areas, and enlarge their dwellings. Many are miners. Ores provide the metal required for weapons, tools, and trade. They are also accomplished smiths: in a region far from major commercial centers, being able to repair a blade or make a tool is an essential form of independence.</p>\n<h2>Craftsmanship</h2>\n<p>Their crafts extend beyond smithing: Bonecarving, Leatherworking, Trapmaking, and Woodworking are especially appropriate. Bone becomes needles, handles, fastenings, or engraved objects; leather provides clothing and protection; traps supplement hunting; wood serves for weapons, tools, and light structures.</p>\n<h2>Communities and family</h2>\n<p>Communities remain relatively small and cooperative. Underground homes provide important stability despite seasonal movement. Hunters, craftsmen, miners, and other specialists depend on one another. Family holds a central place; marriage is traditionally monogamous and descent follows the male line.</p>\n<h2>Religion and Mahlic</h2>\n<p>Umli religion is relatively formal. They honor Eru and the Valar, with particular reverence for <strong>Aulë, called Mahlic</strong>. This place suits a Culture of miners, smiths, and craftsmen. Work well done possesses value beyond utility: transforming ore, understanding stone, and creating a durable tool are activities deeply associated with Mahlic.</p>\n<h2>Temperament and social life</h2>\n<p>The Umli are reputed to be possessive, persevering, stubborn, fierce, and quiet. Possessiveness is not merely greed: a quality tool or garment may represent weeks of work and entails a responsibility for its maintenance. Their reserve toward outsiders does not prevent a rich social life within the community; Storytelling and Dance belong to their traditions.</p>\n<h2>Clothing</h2>\n<p>Clothing is entirely adapted to the Far North: long hide coats lined with fur, thick shirts, layered mittens, sturdy trousers, high boots, and broad hoods. The Umli generally do not dye their clothing and retain the natural colors of leather, fur, and wool: beige, grey, brown, and other neutral tones.</p>\n<h2>Armor and weapons</h2>\n<p>All major armor categories may be used, with a practical preference for leather protection taken from northern animals. The traditional arsenal is broad: dagger, one-handed axe, short sword, club, warhammer, mace, bola, composite bow, short bow, sling, battle axe, staff, javelin, spear, pick-hammer, and harpoon. This variety reflects the diversity of activities: hunting, fishing, mining, and defense.</p>\n<h2>Dragons and Wargs</h2>\n<p>Dragons and Wargs are among their most hated enemies. Umli traditions already connect their history with Cold-drakes, and a rumor of a Dragon in the North is never treated lightly. Wargs threaten hunters, travelers, and small communities; their pack intelligence justifies the importance of Tracking, traps, and watchfulness.</p>\n<h2>Relations with Lossoth and Khazâd</h2>\n<p>Umli territories lie east of the Lossoth, and some Umli know Labba, a sign of regular contact. The two peoples share experience of the cold but differ in the Umli importance of underground homes, mining, and metallurgy. Some Umli also know Khuzdul; relations with the Khazâd are eased by a shared appreciation of stone, metal, and skilled craft.</p>\n<h2>Languages</h2>\n<p>The Culture's own language is <strong>Umitic</strong>, with a developed written tradition. Westron is useful to travelers and merchants. Labba, Logathig, Bethteur, and Khuzdul may also be learned depending on region and contacts. Linguistic knowledge should reflect the character's personal history rather than becoming uniform.</p>\n<h2>Cultural skills</h2>\n<p>The cultural core emphasizes <strong>Foraging, Tracking, and Tundra Survival</strong>, followed by Caving, Observation, Stalking, Hiding, Body Development, Ropework, Weather Watching, Skating, Skiing, Bonecarving, Leatherworking, Smithing, Trapmaking, and Woodworking. Urban skills receive little development in traditional education.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Umli Race</strong> carries stature, longevity, resistance to cold, vulnerability to heat, and reduced need for sleep. The <strong>Umli Culture</strong> carries tundra, hunting, fishing, Foraging, Tracking, underground settlements, mines, smithing, clothing, the religion of Mahlic, languages, and craft traditions.</p>\n<h2>Place in character creation</h2>\n<p>An Umli character should specify the origin of his or her community: forest cave, mining settlement, group of hunters, or a community open to contacts with Lossoth and Khazâd. Family occupation and secondary language immediately add character. Umli Culture stands at the meeting point of two worlds: the mobility and cold-lore of the peoples of the Far North, and the familiarity with stone, mining, and smithing of underground societies.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Umitic</strong> — Spoken 8 / Written 8</li><li><strong>Labba</strong> — Spoken 4 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li><li><strong>Khuzdul</strong> — Spoken 2 / Written 2</li></ul></section>",
+                  "culture": "Umli"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Umli",
+      "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 6
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Tundra",
+          "ranks": 7
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 3
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Umli",
+      "system": {
+        "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+        "culture": "Umli"
+      }
+    },
+    "en": {
+      "name": "Umli",
+      "system": {
+        "description": "<h1>Umli Culture</h1>\n<p>The <strong>Umli</strong> live in forests, highlands, and cold expanses east of the Lossoth, in north-central Middle-earth. Their Culture combines two complementary traditions: that of hunters and travelers of the Far North, able to live for long periods far from any settlement, and that of craftsmen established in caves or underground communities where mining, smithing, and working materials hold an important place.</p>\n<h2>A Culture of the Far North</h2>\n<p>The land of the Umli is not an empty wasteland. An Umit reads animal tracks, the direction of the wind, fragile ice, possible shelters, and signs announcing a change in weather. Tundra Survival, Tracking, and Foraging therefore belong to ordinary skills.</p>\n<h2>Seasonal mobility</h2>\n<p>The Umli move with the seasons to follow game, reach better fishing grounds, or exploit temporary resources. This mobility is not absolute nomadism: most possess stable points of attachment, often improved caves or underground settlements to which families regularly return.</p>\n<h2>Caves and the surface</h2>\n<p>Most live in caves or underground settlements. These places protect from wind, stabilize temperature, secure stores, and house forges and workshops. Yet the Culture is not purely subterranean: hunting, fishing, Tracking, travel, and Foraging take place mainly outside. Underground is home, workshop, and refuge.</p>\n<h2>Hunting, fishing, and foraging</h2>\n<p>Hunting provides meat, fat, bone, sinew, and fur. The animal is used almost completely. Fishing supplements this subsistence in rivers, lakes, and cold waters, with catches dried, smoked, or naturally frozen. Foraging covers roots, berries, plants, and seasonal mushrooms; in an environment where food cannot be wasted, knowing the time and place of a resource has vital value.</p>\n<h2>Tracking and weather prediction</h2>\n<p>Tracking is used as much to follow game as to know who frequents a territory. In snow, a trail often reveals number, approximate weight, speed, and how long ago the passage occurred. The Umli also observe sky, wind, snow, and animal behavior to anticipate storms and sudden drops in temperature.</p>\n<h2>Skiing, skating, and ropework</h2>\n<p>Skiing and skating allow high mobility to be maintained despite snow and ice. These techniques are learned early. Mastery of ropes complements travel through difficult terrain, installations, traps, and safety on ice or steep ground.</p>\n<h2>Caving, mining, and smithing</h2>\n<p>The Umli know how to move through caves, recognize unstable areas, and enlarge their dwellings. Many are miners. Ores provide the metal required for weapons, tools, and trade. They are also accomplished smiths: in a region far from major commercial centers, being able to repair a blade or make a tool is an essential form of independence.</p>\n<h2>Craftsmanship</h2>\n<p>Their crafts extend beyond smithing: Bonecarving, Leatherworking, Trapmaking, and Woodworking are especially appropriate. Bone becomes needles, handles, fastenings, or engraved objects; leather provides clothing and protection; traps supplement hunting; wood serves for weapons, tools, and light structures.</p>\n<h2>Communities and family</h2>\n<p>Communities remain relatively small and cooperative. Underground homes provide important stability despite seasonal movement. Hunters, craftsmen, miners, and other specialists depend on one another. Family holds a central place; marriage is traditionally monogamous and descent follows the male line.</p>\n<h2>Religion and Mahlic</h2>\n<p>Umli religion is relatively formal. They honor Eru and the Valar, with particular reverence for <strong>Aulë, called Mahlic</strong>. This place suits a Culture of miners, smiths, and craftsmen. Work well done possesses value beyond utility: transforming ore, understanding stone, and creating a durable tool are activities deeply associated with Mahlic.</p>\n<h2>Temperament and social life</h2>\n<p>The Umli are reputed to be possessive, persevering, stubborn, fierce, and quiet. Possessiveness is not merely greed: a quality tool or garment may represent weeks of work and entails a responsibility for its maintenance. Their reserve toward outsiders does not prevent a rich social life within the community; Storytelling and Dance belong to their traditions.</p>\n<h2>Clothing</h2>\n<p>Clothing is entirely adapted to the Far North: long hide coats lined with fur, thick shirts, layered mittens, sturdy trousers, high boots, and broad hoods. The Umli generally do not dye their clothing and retain the natural colors of leather, fur, and wool: beige, grey, brown, and other neutral tones.</p>\n<h2>Armor and weapons</h2>\n<p>All major armor categories may be used, with a practical preference for leather protection taken from northern animals. The traditional arsenal is broad: dagger, one-handed axe, short sword, club, warhammer, mace, bola, composite bow, short bow, sling, battle axe, staff, javelin, spear, pick-hammer, and harpoon. This variety reflects the diversity of activities: hunting, fishing, mining, and defense.</p>\n<h2>Dragons and Wargs</h2>\n<p>Dragons and Wargs are among their most hated enemies. Umli traditions already connect their history with Cold-drakes, and a rumor of a Dragon in the North is never treated lightly. Wargs threaten hunters, travelers, and small communities; their pack intelligence justifies the importance of Tracking, traps, and watchfulness.</p>\n<h2>Relations with Lossoth and Khazâd</h2>\n<p>Umli territories lie east of the Lossoth, and some Umli know Labba, a sign of regular contact. The two peoples share experience of the cold but differ in the Umli importance of underground homes, mining, and metallurgy. Some Umli also know Khuzdul; relations with the Khazâd are eased by a shared appreciation of stone, metal, and skilled craft.</p>\n<h2>Languages</h2>\n<p>The Culture's own language is <strong>Umitic</strong>, with a developed written tradition. Westron is useful to travelers and merchants. Labba, Logathig, Bethteur, and Khuzdul may also be learned depending on region and contacts. Linguistic knowledge should reflect the character's personal history rather than becoming uniform.</p>\n<h2>Cultural skills</h2>\n<p>The cultural core emphasizes <strong>Foraging, Tracking, and Tundra Survival</strong>, followed by Caving, Observation, Stalking, Hiding, Body Development, Ropework, Weather Watching, Skating, Skiing, Bonecarving, Leatherworking, Smithing, Trapmaking, and Woodworking. Urban skills receive little development in traditional education.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Umli Race</strong> carries stature, longevity, resistance to cold, vulnerability to heat, and reduced need for sleep. The <strong>Umli Culture</strong> carries tundra, hunting, fishing, Foraging, Tracking, underground settlements, mines, smithing, clothing, the religion of Mahlic, languages, and craft traditions.</p>\n<h2>Place in character creation</h2>\n<p>An Umli character should specify the origin of his or her community: forest cave, mining settlement, group of hunters, or a community open to contacts with Lossoth and Khazâd. Family occupation and secondary language immediately add character. Umli Culture stands at the meeting point of two worlds: the mobility and cold-lore of the peoples of the Far North, and the familiarity with stone, mining, and smithing of underground societies.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Umitic</strong> — Spoken 8 / Written 8</li><li><strong>Labba</strong> — Spoken 4 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li><li><strong>Khuzdul</strong> — Spoken 2 / Written 2</li></ul></section>",
+        "culture": "Umli"
+      }
+    }
+  },
+  "ageVariants": {
+    "3": {
+      "sourceKey": "culture-umli-age-3",
+      "folderKey": "cultures-age-3-restricted",
+      "document": {
+        "name": "Umli",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-umli-age-3",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-umli-age-3",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Umitic",
+                  "spoken": 8,
+                  "written": 8,
+                  "nameFr": "Umitique"
+                },
+                {
+                  "name": "Labba",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Labba"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Khuzdul",
+                  "spoken": 2,
+                  "written": 2,
+                  "nameFr": "Khuzdul"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-umli",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-umli"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Umli",
+          "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Tundra",
+              "ranks": 7
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Umli",
+          "system": {
+            "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+            "culture": "Umli"
+          }
+        },
+        "en": {
+          "name": "Umli",
+          "system": {
+            "description": "<h1>Umli Culture</h1>\n<p>The <strong>Umli</strong> live in forests, highlands, and cold expanses east of the Lossoth, in north-central Middle-earth. Their Culture combines two complementary traditions: that of hunters and travelers of the Far North, able to live for long periods far from any settlement, and that of craftsmen established in caves or underground communities where mining, smithing, and working materials hold an important place.</p>\n<h2>A Culture of the Far North</h2>\n<p>The land of the Umli is not an empty wasteland. An Umit reads animal tracks, the direction of the wind, fragile ice, possible shelters, and signs announcing a change in weather. Tundra Survival, Tracking, and Foraging therefore belong to ordinary skills.</p>\n<h2>Seasonal mobility</h2>\n<p>The Umli move with the seasons to follow game, reach better fishing grounds, or exploit temporary resources. This mobility is not absolute nomadism: most possess stable points of attachment, often improved caves or underground settlements to which families regularly return.</p>\n<h2>Caves and the surface</h2>\n<p>Most live in caves or underground settlements. These places protect from wind, stabilize temperature, secure stores, and house forges and workshops. Yet the Culture is not purely subterranean: hunting, fishing, Tracking, travel, and Foraging take place mainly outside. Underground is home, workshop, and refuge.</p>\n<h2>Hunting, fishing, and foraging</h2>\n<p>Hunting provides meat, fat, bone, sinew, and fur. The animal is used almost completely. Fishing supplements this subsistence in rivers, lakes, and cold waters, with catches dried, smoked, or naturally frozen. Foraging covers roots, berries, plants, and seasonal mushrooms; in an environment where food cannot be wasted, knowing the time and place of a resource has vital value.</p>\n<h2>Tracking and weather prediction</h2>\n<p>Tracking is used as much to follow game as to know who frequents a territory. In snow, a trail often reveals number, approximate weight, speed, and how long ago the passage occurred. The Umli also observe sky, wind, snow, and animal behavior to anticipate storms and sudden drops in temperature.</p>\n<h2>Skiing, skating, and ropework</h2>\n<p>Skiing and skating allow high mobility to be maintained despite snow and ice. These techniques are learned early. Mastery of ropes complements travel through difficult terrain, installations, traps, and safety on ice or steep ground.</p>\n<h2>Caving, mining, and smithing</h2>\n<p>The Umli know how to move through caves, recognize unstable areas, and enlarge their dwellings. Many are miners. Ores provide the metal required for weapons, tools, and trade. They are also accomplished smiths: in a region far from major commercial centers, being able to repair a blade or make a tool is an essential form of independence.</p>\n<h2>Craftsmanship</h2>\n<p>Their crafts extend beyond smithing: Bonecarving, Leatherworking, Trapmaking, and Woodworking are especially appropriate. Bone becomes needles, handles, fastenings, or engraved objects; leather provides clothing and protection; traps supplement hunting; wood serves for weapons, tools, and light structures.</p>\n<h2>Communities and family</h2>\n<p>Communities remain relatively small and cooperative. Underground homes provide important stability despite seasonal movement. Hunters, craftsmen, miners, and other specialists depend on one another. Family holds a central place; marriage is traditionally monogamous and descent follows the male line.</p>\n<h2>Religion and Mahlic</h2>\n<p>Umli religion is relatively formal. They honor Eru and the Valar, with particular reverence for <strong>Aulë, called Mahlic</strong>. This place suits a Culture of miners, smiths, and craftsmen. Work well done possesses value beyond utility: transforming ore, understanding stone, and creating a durable tool are activities deeply associated with Mahlic.</p>\n<h2>Temperament and social life</h2>\n<p>The Umli are reputed to be possessive, persevering, stubborn, fierce, and quiet. Possessiveness is not merely greed: a quality tool or garment may represent weeks of work and entails a responsibility for its maintenance. Their reserve toward outsiders does not prevent a rich social life within the community; Storytelling and Dance belong to their traditions.</p>\n<h2>Clothing</h2>\n<p>Clothing is entirely adapted to the Far North: long hide coats lined with fur, thick shirts, layered mittens, sturdy trousers, high boots, and broad hoods. The Umli generally do not dye their clothing and retain the natural colors of leather, fur, and wool: beige, grey, brown, and other neutral tones.</p>\n<h2>Armor and weapons</h2>\n<p>All major armor categories may be used, with a practical preference for leather protection taken from northern animals. The traditional arsenal is broad: dagger, one-handed axe, short sword, club, warhammer, mace, bola, composite bow, short bow, sling, battle axe, staff, javelin, spear, pick-hammer, and harpoon. This variety reflects the diversity of activities: hunting, fishing, mining, and defense.</p>\n<h2>Dragons and Wargs</h2>\n<p>Dragons and Wargs are among their most hated enemies. Umli traditions already connect their history with Cold-drakes, and a rumor of a Dragon in the North is never treated lightly. Wargs threaten hunters, travelers, and small communities; their pack intelligence justifies the importance of Tracking, traps, and watchfulness.</p>\n<h2>Relations with Lossoth and Khazâd</h2>\n<p>Umli territories lie east of the Lossoth, and some Umli know Labba, a sign of regular contact. The two peoples share experience of the cold but differ in the Umli importance of underground homes, mining, and metallurgy. Some Umli also know Khuzdul; relations with the Khazâd are eased by a shared appreciation of stone, metal, and skilled craft.</p>\n<h2>Languages</h2>\n<p>The Culture's own language is <strong>Umitic</strong>, with a developed written tradition. Westron is useful to travelers and merchants. Labba, Logathig, Bethteur, and Khuzdul may also be learned depending on region and contacts. Linguistic knowledge should reflect the character's personal history rather than becoming uniform.</p>\n<h2>Cultural skills</h2>\n<p>The cultural core emphasizes <strong>Foraging, Tracking, and Tundra Survival</strong>, followed by Caving, Observation, Stalking, Hiding, Body Development, Ropework, Weather Watching, Skating, Skiing, Bonecarving, Leatherworking, Smithing, Trapmaking, and Woodworking. Urban skills receive little development in traditional education.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Umli Race</strong> carries stature, longevity, resistance to cold, vulnerability to heat, and reduced need for sleep. The <strong>Umli Culture</strong> carries tundra, hunting, fishing, Foraging, Tracking, underground settlements, mines, smithing, clothing, the religion of Mahlic, languages, and craft traditions.</p>\n<h2>Place in character creation</h2>\n<p>An Umli character should specify the origin of his or her community: forest cave, mining settlement, group of hunters, or a community open to contacts with Lossoth and Khazâd. Family occupation and secondary language immediately add character. Umli Culture stands at the meeting point of two worlds: the mobility and cold-lore of the peoples of the Far North, and the familiarity with stone, mining, and smithing of underground societies.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Umitic</strong> — Spoken 8 / Written 8</li><li><strong>Labba</strong> — Spoken 4 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li><li><strong>Khuzdul</strong> — Spoken 2 / Written 2</li></ul></section>",
+            "culture": "Umli"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-umli-age-4",
+      "folderKey": "cultures-age-4-restricted",
+      "document": {
+        "name": "Umli",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-umli-age-4",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-umli-age-4",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Umitic",
+                  "spoken": 8,
+                  "written": 8,
+                  "nameFr": "Umitique"
+                },
+                {
+                  "name": "Labba",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Labba"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Khuzdul",
+                  "spoken": 2,
+                  "written": 2,
+                  "nameFr": "Khuzdul"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-umli",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-umli"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Umli",
+          "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Tundra",
+              "ranks": 7
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Umli",
+          "system": {
+            "description": "<h1>Culture Umli</h1>\n<p>Les <strong>Umli</strong> vivent dans les forêts, les hautes terres et les immensités froides situées à l’est des Lossoth, dans le nord central de la Terre du Milieu. Leur Culture associe deux traditions complémentaires : celle des chasseurs et voyageurs du Grand Nord, capables de vivre longtemps loin de tout établissement, et celle d’artisans installés dans des grottes ou communautés souterraines où la mine, la forge et le travail des matériaux occupent une place importante.</p>\n<h2>Une Culture du Grand Nord</h2>\n<p>Le pays des Umli n’est pas un désert vide. Un Umit y lit les pistes animales, les orientations du vent, la glace fragile, les abris possibles et les signes annonçant un changement de temps. La Survie dans la toundra, le Pistage et la Cueillette appartiennent donc aux savoir-faire ordinaires.</p>\n<h2>Mobilité saisonnière</h2>\n<p>Les Umli se déplacent selon les saisons pour suivre le gibier, atteindre de meilleures zones de pêche ou exploiter des ressources temporaires. Cette mobilité n’est pas un nomadisme absolu : la plupart possèdent des points d’attache stables, souvent des grottes aménagées ou des établissements souterrains vers lesquels les familles reviennent régulièrement.</p>\n<h2>Cavernes et surface</h2>\n<p>La majorité réside dans des grottes ou établissements souterrains. Ces lieux protègent du vent, stabilisent la température, sécurisent les réserves et accueillent forges et ateliers. Pourtant la Culture n’est pas purement souterraine : chasse, pêche, Pistage, déplacements et Cueillette se déroulent surtout à l’extérieur. Le sous-sol est foyer, atelier et refuge.</p>\n<h2>Chasse, pêche et cueillette</h2>\n<p>La chasse fournit viande, graisse, os, tendons et fourrure. L’animal est exploité presque entièrement. La pêche complète cette subsistance dans les rivières, lacs et eaux froides, avec séchage, fumage ou congélation naturelle des prises. La Cueillette porte sur racines, baies, plantes et champignons saisonniers ; dans un environnement où la nourriture ne peut être gaspillée, connaître la période et le lieu d’une ressource possède une valeur vitale.</p>\n<h2>Pistage et prévision du temps</h2>\n<p>Le Pistage sert autant à suivre le gibier qu’à savoir qui fréquente un territoire. Dans la neige, une piste révèle souvent nombre, poids approximatif, vitesse et ancienneté du passage. Les Umli observent également ciel, vent, neige et comportement des animaux afin d’anticiper tempêtes et chutes brutales de température.</p>\n<h2>Ski, patinage et cordages</h2>\n<p>Le ski et le patinage permettent de conserver une grande mobilité malgré neige et glace. Ces techniques sont apprises tôt. La maîtrise des cordes complète les déplacements difficiles, les installations, les pièges et la sécurité sur glace ou en terrain escarpé.</p>\n<h2>Spéléologie, mine et forge</h2>\n<p>Les Umli savent progresser dans les cavernes, reconnaître les zones instables et agrandir leurs demeures. Beaucoup sont mineurs. Les minerais fournissent le métal nécessaire aux armes, outils et échanges. Ils sont également des forgerons accomplis : dans une région éloignée des grands centres commerciaux, pouvoir réparer une lame ou fabriquer un outil est une forme essentielle d’autonomie.</p>\n<h2>Artisanat</h2>\n<p>Leur artisanat dépasse la forge : Sculpture sur os, Travail du cuir, Fabrication de pièges et Travail du bois sont particulièrement cohérents. L’os devient aiguilles, manches, attaches ou objets gravés ; le cuir fournit vêtements et protections ; les pièges complètent la chasse ; le bois sert aux armes, outils et structures légères.</p>\n<h2>Communautés et famille</h2>\n<p>Les communautés restent relativement réduites et coopératives. Les habitats souterrains assurent une stabilité importante malgré les déplacements saisonniers. Chasseurs, artisans, mineurs et autres spécialistes dépendent les uns des autres. La famille occupe une place centrale ; le mariage est traditionnellement monogame et la filiation suit la lignée masculine.</p>\n<h2>Religion et Mahlic</h2>\n<p>La religion Umli est relativement formelle. Ils honorent Eru et les Valar, avec une révérence particulière pour <strong>Aulë, appelé Mahlic</strong>. Cette place convient à une Culture de mineurs, forgerons et artisans. Le travail bien fait possède une valeur qui dépasse l’utilité : transformer le minerai, comprendre la pierre et créer un outil durable sont des activités profondément associées à Mahlic.</p>\n<h2>Tempérament et vie sociale</h2>\n<p>Les Umli sont réputés possessifs, persévérants, obstinés, féroces et silencieux. La possession ne se réduit pas à l’avidité : un outil ou un vêtement de qualité peut représenter des semaines de travail et implique une responsabilité d’entretien. Leur réserve envers les étrangers n’empêche pas une vie sociale riche au sein de la communauté ; le Conte et la Danse appartiennent à leurs traditions.</p>\n<h2>Vêtements</h2>\n<p>Les vêtements sont entièrement adaptés au Grand Nord : longs manteaux de peau doublés de fourrure, chemises épaisses, moufles superposées, pantalons robustes, hautes bottes et larges capuchons. Les Umli ne teignent généralement pas leurs vêtements et conservent les couleurs naturelles des cuirs, fourrures et laines : beige, gris, brun et autres tons neutres.</p>\n<h2>Armures et armes</h2>\n<p>Toutes les grandes catégories d’armure peuvent être utilisées, avec une préférence pratique pour les protections de cuir tirées des animaux du Nord. L’arsenal traditionnel est vaste : dague, hache à une main, épée courte, gourdin, marteau de guerre, masse, bola, arc composite, arc court, fronde, hache de bataille, bâton, javelot, lance, marteau-pioche et harpon. La variété reflète la diversité des activités : chasse, pêche, mine et défense.</p>\n<h2>Dragons et Wargs</h2>\n<p>Les Dragons et les Wargs comptent parmi leurs ennemis les plus détestés. Les traditions Umli associent déjà leur histoire aux Drakes du Froid, et une rumeur de Dragon dans le Nord n’est jamais traitée avec légèreté. Les Wargs menacent chasseurs, voyageurs et petites communautés ; leur intelligence de meute justifie l’importance du Pistage, des pièges et de la surveillance.</p>\n<h2>Relations avec Lossoth et Khazâd</h2>\n<p>Les territoires umli se trouvent à l’est des Lossoth et certains Umli connaissent le labba, signe de contacts réguliers. Les deux peuples partagent l’expérience du froid mais se distinguent par l’importance umli des habitats souterrains, de la mine et de la métallurgie. Certains Umli connaissent aussi le khuzdul ; les relations avec les Khazâd sont facilitées par une appréciation commune de la pierre, du métal et du travail artisanal.</p>\n<h2>Langues</h2>\n<p>La langue propre de la Culture est l’<strong>umitique</strong>, avec une tradition écrite développée. Le westron est utile aux voyageurs et marchands. Labba, logathig, bethteur et khuzdul peuvent aussi être appris selon la région et les contacts. La connaissance linguistique doit préciser l’histoire personnelle du personnage plutôt que devenir uniforme.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau culturel privilégie <strong>Cueillette, Pistage et Survie dans la toundra</strong>, puis Spéléologie, Observation, Approche furtive, Dissimulation, Développement corporel, Cordages, Prévision météorologique, Patinage, Ski, Sculpture sur os, Travail du cuir, Forge, Fabrication de pièges et Travail du bois. Les compétences urbaines sont peu développées dans l’éducation traditionnelle.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Umli</strong> porte stature, longévité, résistance au froid, vulnérabilité à la chaleur et besoin réduit de sommeil. La <strong>Culture Umli</strong> porte toundra, chasse, pêche, Cueillette, Pistage, établissements souterrains, mines, forge, vêtements, religion de Mahlic, langues et traditions artisanales.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Umli doit préciser l’origine de sa communauté : caverne forestière, établissement minier, groupe de chasseurs ou communauté ouverte aux contacts avec les Lossoth et les Khazâd. Son métier familial et sa langue secondaire donnent immédiatement du relief. La Culture Umli se situe à la rencontre de deux mondes : mobilité et science du froid des peuples du Grand Nord, familiarité avec la pierre, la mine et la forge des sociétés souterraines.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Umitic</strong> — Parlée 8 / Écrite 8</li><li><strong>Labba</strong> — Parlée 4 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li><li><strong>Khuzdul</strong> — Parlée 2 / Écrite 2</li></ul></section>",
+            "culture": "Umli"
+          }
+        },
+        "en": {
+          "name": "Umli",
+          "system": {
+            "description": "<h1>Umli Culture</h1>\n<p>The <strong>Umli</strong> live in forests, highlands, and cold expanses east of the Lossoth, in north-central Middle-earth. Their Culture combines two complementary traditions: that of hunters and travelers of the Far North, able to live for long periods far from any settlement, and that of craftsmen established in caves or underground communities where mining, smithing, and working materials hold an important place.</p>\n<h2>A Culture of the Far North</h2>\n<p>The land of the Umli is not an empty wasteland. An Umit reads animal tracks, the direction of the wind, fragile ice, possible shelters, and signs announcing a change in weather. Tundra Survival, Tracking, and Foraging therefore belong to ordinary skills.</p>\n<h2>Seasonal mobility</h2>\n<p>The Umli move with the seasons to follow game, reach better fishing grounds, or exploit temporary resources. This mobility is not absolute nomadism: most possess stable points of attachment, often improved caves or underground settlements to which families regularly return.</p>\n<h2>Caves and the surface</h2>\n<p>Most live in caves or underground settlements. These places protect from wind, stabilize temperature, secure stores, and house forges and workshops. Yet the Culture is not purely subterranean: hunting, fishing, Tracking, travel, and Foraging take place mainly outside. Underground is home, workshop, and refuge.</p>\n<h2>Hunting, fishing, and foraging</h2>\n<p>Hunting provides meat, fat, bone, sinew, and fur. The animal is used almost completely. Fishing supplements this subsistence in rivers, lakes, and cold waters, with catches dried, smoked, or naturally frozen. Foraging covers roots, berries, plants, and seasonal mushrooms; in an environment where food cannot be wasted, knowing the time and place of a resource has vital value.</p>\n<h2>Tracking and weather prediction</h2>\n<p>Tracking is used as much to follow game as to know who frequents a territory. In snow, a trail often reveals number, approximate weight, speed, and how long ago the passage occurred. The Umli also observe sky, wind, snow, and animal behavior to anticipate storms and sudden drops in temperature.</p>\n<h2>Skiing, skating, and ropework</h2>\n<p>Skiing and skating allow high mobility to be maintained despite snow and ice. These techniques are learned early. Mastery of ropes complements travel through difficult terrain, installations, traps, and safety on ice or steep ground.</p>\n<h2>Caving, mining, and smithing</h2>\n<p>The Umli know how to move through caves, recognize unstable areas, and enlarge their dwellings. Many are miners. Ores provide the metal required for weapons, tools, and trade. They are also accomplished smiths: in a region far from major commercial centers, being able to repair a blade or make a tool is an essential form of independence.</p>\n<h2>Craftsmanship</h2>\n<p>Their crafts extend beyond smithing: Bonecarving, Leatherworking, Trapmaking, and Woodworking are especially appropriate. Bone becomes needles, handles, fastenings, or engraved objects; leather provides clothing and protection; traps supplement hunting; wood serves for weapons, tools, and light structures.</p>\n<h2>Communities and family</h2>\n<p>Communities remain relatively small and cooperative. Underground homes provide important stability despite seasonal movement. Hunters, craftsmen, miners, and other specialists depend on one another. Family holds a central place; marriage is traditionally monogamous and descent follows the male line.</p>\n<h2>Religion and Mahlic</h2>\n<p>Umli religion is relatively formal. They honor Eru and the Valar, with particular reverence for <strong>Aulë, called Mahlic</strong>. This place suits a Culture of miners, smiths, and craftsmen. Work well done possesses value beyond utility: transforming ore, understanding stone, and creating a durable tool are activities deeply associated with Mahlic.</p>\n<h2>Temperament and social life</h2>\n<p>The Umli are reputed to be possessive, persevering, stubborn, fierce, and quiet. Possessiveness is not merely greed: a quality tool or garment may represent weeks of work and entails a responsibility for its maintenance. Their reserve toward outsiders does not prevent a rich social life within the community; Storytelling and Dance belong to their traditions.</p>\n<h2>Clothing</h2>\n<p>Clothing is entirely adapted to the Far North: long hide coats lined with fur, thick shirts, layered mittens, sturdy trousers, high boots, and broad hoods. The Umli generally do not dye their clothing and retain the natural colors of leather, fur, and wool: beige, grey, brown, and other neutral tones.</p>\n<h2>Armor and weapons</h2>\n<p>All major armor categories may be used, with a practical preference for leather protection taken from northern animals. The traditional arsenal is broad: dagger, one-handed axe, short sword, club, warhammer, mace, bola, composite bow, short bow, sling, battle axe, staff, javelin, spear, pick-hammer, and harpoon. This variety reflects the diversity of activities: hunting, fishing, mining, and defense.</p>\n<h2>Dragons and Wargs</h2>\n<p>Dragons and Wargs are among their most hated enemies. Umli traditions already connect their history with Cold-drakes, and a rumor of a Dragon in the North is never treated lightly. Wargs threaten hunters, travelers, and small communities; their pack intelligence justifies the importance of Tracking, traps, and watchfulness.</p>\n<h2>Relations with Lossoth and Khazâd</h2>\n<p>Umli territories lie east of the Lossoth, and some Umli know Labba, a sign of regular contact. The two peoples share experience of the cold but differ in the Umli importance of underground homes, mining, and metallurgy. Some Umli also know Khuzdul; relations with the Khazâd are eased by a shared appreciation of stone, metal, and skilled craft.</p>\n<h2>Languages</h2>\n<p>The Culture's own language is <strong>Umitic</strong>, with a developed written tradition. Westron is useful to travelers and merchants. Labba, Logathig, Bethteur, and Khuzdul may also be learned depending on region and contacts. Linguistic knowledge should reflect the character's personal history rather than becoming uniform.</p>\n<h2>Cultural skills</h2>\n<p>The cultural core emphasizes <strong>Foraging, Tracking, and Tundra Survival</strong>, followed by Caving, Observation, Stalking, Hiding, Body Development, Ropework, Weather Watching, Skating, Skiing, Bonecarving, Leatherworking, Smithing, Trapmaking, and Woodworking. Urban skills receive little development in traditional education.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Umli Race</strong> carries stature, longevity, resistance to cold, vulnerability to heat, and reduced need for sleep. The <strong>Umli Culture</strong> carries tundra, hunting, fishing, Foraging, Tracking, underground settlements, mines, smithing, clothing, the religion of Mahlic, languages, and craft traditions.</p>\n<h2>Place in character creation</h2>\n<p>An Umli character should specify the origin of his or her community: forest cave, mining settlement, group of hunters, or a community open to contacts with Lossoth and Khazâd. Family occupation and secondary language immediately add character. Umli Culture stands at the meeting point of two worlds: the mobility and cold-lore of the peoples of the Far North, and the familiarity with stone, mining, and smithing of underground societies.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Umitic</strong> — Spoken 8 / Written 8</li><li><strong>Labba</strong> — Spoken 4 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li><li><strong>Khuzdul</strong> — Spoken 2 / Written 2</li></ul></section>",
+            "culture": "Umli"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Restreint"
+    ],
+    "en": [
+      "Restricted"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-restricted"
+  ]
+}

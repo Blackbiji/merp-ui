@@ -1,0 +1,78 @@
+{
+  "key": "herb-yuth",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Yuth",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-yuth",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-8-S",
+        "sourceCost": "29gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Yuth"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Sheer Folly",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "29gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 20 contre les venins nerveux.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Yuth",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 20 contre les venins nerveux.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Yuth",
+      "system": {
+        "notes": "<p>This flower is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 20 antidote for nerve venoms.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "key": "herb-olvar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Olvar",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-olvar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-O-6-N",
+        "sourceCost": "200gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "O",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Olvar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Very Hard",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "200gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur peut maintenir un mourant en vie pendant 2 à 20 jours.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 20,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Olvar",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur peut maintenir un mourant en vie pendant 2 à 20 jours.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Olvar",
+      "system": {
+        "notes": "<p>This flower is found chiefly in frigid climates, especially in sea coasts and saltwater shores, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The flower can keep a dying person alive for 2–20 days.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

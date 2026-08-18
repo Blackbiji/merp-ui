@@ -1,0 +1,194 @@
+{
+  "id": "merp-ui",
+  "title": "MERP UI Framework",
+  "description": "MERP UI Framework : thème partagé et référentiel canonique commun des compétences RMU.",
+  "version": "1.6.0-alpha.18",
+  "authors": [
+    {
+      "name": "Jean-Brice Gayet"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/merp-ui.js",
+    "scripts/skill-registry.js",
+    "scripts/merp-rmu-content.js",
+    "scripts/merp-rmu-magic.js"
+  ],
+  "styles": [
+    "styles/merp-typography.css",
+    "styles/merp-theme.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "merp-rmu-races",
+      "label": "MERP-RMU — Races",
+      "path": "packs/merp-rmu-races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rmu"
+    },
+    {
+      "name": "merp-rmu-cultures",
+      "label": "MERP-RMU — Cultures",
+      "path": "packs/merp-rmu-cultures",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rmu"
+    },
+    {
+      "name": "merp-rmu-professions",
+      "label": "MERP-RMU — Professions",
+      "path": "packs/merp-rmu-professions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rmu"
+    },
+    {
+      "name": "merp-rmu-skills",
+      "label": "MERP-RMU — Skills",
+      "path": "packs/merp-rmu-skills",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rmu"
+    },
+    {
+      "name": "merp-rmu-spell-lists",
+      "label": "MERP-RMU — Spell Lists",
+      "path": "packs/merp-rmu-spell-lists",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rmu"
+    },
+    {
+      "name": "merp-rmu-talents-flaws",
+      "label": "MERP-RMU — Talents & Flaws",
+      "path": "packs/merp-rmu-talents-flaws",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rmu"
+    },
+    {
+      "name": "merp-rmu-herbs",
+      "label": "MERP-RMU — Herbs & Substances",
+      "path": "packs/merp-rmu-herbs",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rmu"
+    },
+    {
+      "name": "merp-rmu-languages",
+      "label": "MERP-RMU — Languages",
+      "path": "packs/merp-rmu-languages",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "merp-rmu-rules",
+      "label": "MERP-RMU — Rules & References",
+      "path": "packs/merp-rmu-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md",
+  "flags": {
+    "merp-ui": {
+      "assetArchitecture": "0.5",
+      "catalogVersion": 2,
+      "typography": "PragRoman",
+      "compatibleFennasDrunin": "0.7.0",
+      "architecture": "split-typography-theme",
+      "iconFormat": "webp",
+      "iconCount": 36,
+      "webpMigration": "0.9.10",
+      "skillRegistrySchema": 2,
+      "skillCatalog": "translations/skills/skills.fr.json",
+      "skillTooltipOriginalName": true,
+      "skillCategoryRegistrySchema": 1,
+      "skillCategoryCatalog": "translations/skill-categories/categories.fr.json",
+      "translationGlossary": "translations/translation-glossary.fr.json",
+      "characterCreationLocalization": 2,
+      "localizationStrategy": "RMU i18n override; canonical item data unchanged",
+      "merpRmuContentSchema": 52,
+      "professionDescriptionSchema": 1,
+      "professionChassisIntegritySchema": 1,
+      "contentDelivery": "compendium-first",
+      "compendiumSourceSchema": 2,
+      "compendiumBootstrap": "NeDB seed -> Foundry LevelDB migration on first load",
+      "compendiumDefaultBuildLanguage": "fr",
+      "legacyWorldInstaller": "disabled-on-fresh-worlds",
+      "stableBaseline": "1.5.1 / RMU 1.5.33"
+    }
+  },
+  "packFolders": [
+    {
+      "name": "MERP-RMU",
+      "sorting": "m",
+      "packs": [
+        "merp-rmu-races",
+        "merp-rmu-cultures",
+        "merp-rmu-professions",
+        "merp-rmu-skills",
+        "merp-rmu-spell-lists",
+        "merp-rmu-talents-flaws",
+        "merp-rmu-herbs",
+        "merp-rmu-languages",
+        "merp-rmu-rules"
+      ],
+      "folders": []
+    }
+  ]
+}

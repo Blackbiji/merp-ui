@@ -1,0 +1,64 @@
+{
+  "key": "magically-susceptible",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Sensibilité à la magie (Magically Susceptible)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "magically-susceptible",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Magically Susceptible",
+      "cost": "-15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Sensibilité à la magie (Magically Susceptible)</h1><h2>Description</h2><p>Vous résistez moins bien aux effets magiques que la plupart des êtres. Lors de l’acquisition du Défaut, choisissez l’une des deux formes suivantes :</p><ul><li><strong>Un Royaume :</strong> vous subissez <strong>−10</strong> à vos Jets de Résistance contre les sorts et effets magiques de ce Royaume.</li><li><strong>Toute magie :</strong> vous subissez <strong>−5</strong> à vos Jets de Résistance contre tous les sorts et dispositifs magiques.</li></ul><h2>Adaptation MERP-RMU</h2><p>Les anciennes pénalités de −25 ou −15 ont été réduites à l’échelle RMU. Le choix effectué lors de l’acquisition est définitif sauf accord du MJ.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_magically-susceptible.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sensibilité à la magie (Magically Susceptible)",
+      "system": {
+        "description": "<h1>Sensibilité à la magie (Magically Susceptible)</h1><h2>Description</h2><p>Vous résistez moins bien aux effets magiques que la plupart des êtres. Lors de l’acquisition du Défaut, choisissez l’une des deux formes suivantes :</p><ul><li><strong>Un Royaume :</strong> vous subissez <strong>−10</strong> à vos Jets de Résistance contre les sorts et effets magiques de ce Royaume.</li><li><strong>Toute magie :</strong> vous subissez <strong>−5</strong> à vos Jets de Résistance contre tous les sorts et dispositifs magiques.</li></ul><h2>Adaptation MERP-RMU</h2><p>Les anciennes pénalités de −25 ou −15 ont été réduites à l’échelle RMU. Le choix effectué lors de l’acquisition est définitif sauf accord du MJ.</p>"
+      }
+    },
+    "en": {
+      "name": "Magically Susceptible",
+      "system": {
+        "description": "<h1>Magically Susceptible</h1><h2>Description</h2><p>You resist magical effects less effectively than most beings. When acquiring this Flaw, choose one of the following two forms:</p><ul><li><strong>One Realm:</strong> you suffer <strong>−10</strong> to Resistance Rolls against spells and magical effects from that Realm.</li><li><strong>All magic:</strong> you suffer <strong>−5</strong> to Resistance Rolls against all spells and magical devices.</li></ul><h2>MERP-RMU Adaptation</h2><p>The old penalties of −25 or −15 have been reduced to the RMU scale. The choice made when the Flaw is acquired is permanent unless the GM agrees otherwise.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

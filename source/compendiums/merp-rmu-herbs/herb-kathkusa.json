@@ -1,0 +1,78 @@
+{
+  "key": "herb-kathkusa",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Kathkusa",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-kathkusa",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-W-3-N",
+        "sourceCost": "50gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "W",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Kathkusa"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "W",
+      "findDifficulty": "Light",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "50gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat glacial, notamment dans les terres désolées, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille augmente brièvement la Force d’environ +10 et double les dégâts de concussion infligés pendant 1 à 10 rounds.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>",
+      "addictionFactor": 35,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Kathkusa",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat glacial, notamment dans les terres désolées, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille augmente brièvement la Force d’environ +10 et double les dégâts de concussion infligés pendant 1 à 10 rounds.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>"
+      }
+    },
+    "en": {
+      "name": "Kathkusa",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in frigid climates, especially in wastelands, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The leaf briefly increases Strength by about +10 and doubles concussion damage inflicted for 1–10 rounds.</p><p>Its use carries a very high risk of addiction and should remain exceptional.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

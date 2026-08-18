@@ -1,0 +1,64 @@
+{
+  "key": "unlucky",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Malchanceux (Unlucky)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "unlucky",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Unlucky",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Malchanceux (Unlucky)</h1><h2>Description</h2><p>Vous avez moins de chance que la moyenne. Lorsque deux issues plausibles dépendent véritablement du hasard, les circonstances tendent plus souvent à se résoudre à votre désavantage.</p><h2>Tiers</h2><p>Chaque Tier augmente la fréquence ou l’importance des interventions de la malchance.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ applique ce Défaut uniquement aux situations réellement aléatoires ou aux mécanismes explicitement fondés sur la chance. Il ne s’agit pas d’une pénalité universelle à toutes les Manœuvres.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_unlucky.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Malchanceux (Unlucky)",
+      "system": {
+        "description": "<h1>Malchanceux (Unlucky)</h1><h2>Description</h2><p>Vous avez moins de chance que la moyenne. Lorsque deux issues plausibles dépendent véritablement du hasard, les circonstances tendent plus souvent à se résoudre à votre désavantage.</p><h2>Tiers</h2><p>Chaque Tier augmente la fréquence ou l’importance des interventions de la malchance.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ applique ce Défaut uniquement aux situations réellement aléatoires ou aux mécanismes explicitement fondés sur la chance. Il ne s’agit pas d’une pénalité universelle à toutes les Manœuvres.</p>"
+      }
+    },
+    "en": {
+      "name": "Unlucky",
+      "system": {
+        "description": "<h1>Unlucky</h1><h2>Description</h2><p>You have less luck than most. When two plausible outcomes genuinely depend on chance, circumstances tend more often to resolve to your disadvantage.</p><h2>Tiers</h2><p>Each Tier increases the frequency or significance of bad-luck interventions.</p><h2>MERP-RMU Adaptation</h2><p>The GM applies this Flaw only to genuinely random situations or mechanisms explicitly based on luck. It is not a universal penalty to every Maneuver.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

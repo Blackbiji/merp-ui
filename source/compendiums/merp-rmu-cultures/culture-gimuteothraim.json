@@ -1,0 +1,716 @@
+{
+  "key": "culture-gimuteothraim",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Gimútéothraim — Éothraim",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-gimuteothraim",
+        "canonicalKey": "culture-gimuteothraim",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-humans",
+        "availability": {
+          "ages": [
+            3
+          ],
+          "restrictedByAge": {
+            "3": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "3": {
+            "sourceKey": "culture-gimuteothraim-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Gimútéothraim — Éothraim",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-gimuteothraim-age-3",
+                  "canonicalKey": "culture-gimuteothraim",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Gimútéothraim — Éothraim",
+                "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>Les <strong>Gimútéothraim</strong>, ou <strong>Éothraim</strong>, sont les grands cavaliers du Rhovanion méridional au début et au milieu du Troisième Âge. Ils descendent de populations nordiques venues de l’Ouest et constituent l’un des principaux ancêtres culturels des Éothéod puis des Rohirrim. Leur société repose sur les chevaux, les troupeaux, les migrations saisonnières, les longues maisons et les alliances tribales.</p>\n<h2>Les Six Tribus</h2>\n<p>Le peuple se répartit entre six grandes tribus, elles-mêmes composées de clans. Chaque clan connaît ses pâturages, ses routes et ses lieux de rassemblement. L’identité familiale reste forte, mais les tribus savent unir leurs forces lors des guerres et des grandes fêtes.</p>\n<h2>Le cheval</h2>\n<p>Le cheval est au centre de la vie. Les enfants apprennent très tôt à approcher, nourrir, guider et monter les animaux. L’élevage, le dressage, la conduite des troupeaux et le combat monté deviennent des savoir-faire culturels plutôt que de simples spécialisations militaires.</p>\n<h2>Transhumance et villages d’hiver</h2>\n<p>Une partie de l’année se passe dans des camps semi-permanents suivant les pâturages. À l’approche de l’hiver, les clans regagnent des villages fortifiés composés de maisons longues autour d’une grande salle cérémonielle. Cette salle accueille conseils, banquets, chants et récits.</p>\n<h2>Fêtes et croyances</h2>\n<p>Quatre grandes fêtes rythment l’année autour des solstices et des équinoxes. Courses, jeux, paris, musique et danse accompagnent les cérémonies. Eru et les Valar sont honorés, avec une place particulière accordée à Oromë, nommé Béma, figure idéale du cavalier et du chasseur.</p>\n<h2>Tempérament et guerre</h2>\n<p>Les Gimútéothraim sont réputés francs, courageux, robustes, pratiques et bruyants. Leur guerre repose sur la cavalerie, la mobilité et la coordination entre monture et cavalier. Lances, javelots, arcs et épées conviennent à leurs méthodes.</p>\n<h2>Héritage</h2>\n<p>Après 1857-1858 T.A., leur identité évolue vers celle des Éothéod. Plus tard, les Rohirrim héritent de leur maîtrise équestre, de leurs salles, de leurs chants, de leurs lignées et de leur vénération de Béma.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Gimútéothraim appartient à l’une des Six Tribus et à un clan précis. Son histoire gagne à définir ses chevaux, ses pâturages, ses liens de parenté et son rôle parmi les cavaliers, chasseurs, éleveurs ou chefs du Rhovanion.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Plains",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 2
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Gimútéothraim — Éothraim",
+                "system": {
+                  "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>Les <strong>Gimútéothraim</strong>, ou <strong>Éothraim</strong>, sont les grands cavaliers du Rhovanion méridional au début et au milieu du Troisième Âge. Ils descendent de populations nordiques venues de l’Ouest et constituent l’un des principaux ancêtres culturels des Éothéod puis des Rohirrim. Leur société repose sur les chevaux, les troupeaux, les migrations saisonnières, les longues maisons et les alliances tribales.</p>\n<h2>Les Six Tribus</h2>\n<p>Le peuple se répartit entre six grandes tribus, elles-mêmes composées de clans. Chaque clan connaît ses pâturages, ses routes et ses lieux de rassemblement. L’identité familiale reste forte, mais les tribus savent unir leurs forces lors des guerres et des grandes fêtes.</p>\n<h2>Le cheval</h2>\n<p>Le cheval est au centre de la vie. Les enfants apprennent très tôt à approcher, nourrir, guider et monter les animaux. L’élevage, le dressage, la conduite des troupeaux et le combat monté deviennent des savoir-faire culturels plutôt que de simples spécialisations militaires.</p>\n<h2>Transhumance et villages d’hiver</h2>\n<p>Une partie de l’année se passe dans des camps semi-permanents suivant les pâturages. À l’approche de l’hiver, les clans regagnent des villages fortifiés composés de maisons longues autour d’une grande salle cérémonielle. Cette salle accueille conseils, banquets, chants et récits.</p>\n<h2>Fêtes et croyances</h2>\n<p>Quatre grandes fêtes rythment l’année autour des solstices et des équinoxes. Courses, jeux, paris, musique et danse accompagnent les cérémonies. Eru et les Valar sont honorés, avec une place particulière accordée à Oromë, nommé Béma, figure idéale du cavalier et du chasseur.</p>\n<h2>Tempérament et guerre</h2>\n<p>Les Gimútéothraim sont réputés francs, courageux, robustes, pratiques et bruyants. Leur guerre repose sur la cavalerie, la mobilité et la coordination entre monture et cavalier. Lances, javelots, arcs et épées conviennent à leurs méthodes.</p>\n<h2>Héritage</h2>\n<p>Après 1857-1858 T.A., leur identité évolue vers celle des Éothéod. Plus tard, les Rohirrim héritent de leur maîtrise équestre, de leurs salles, de leurs chants, de leurs lignées et de leur vénération de Béma.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Gimútéothraim appartient à l’une des Six Tribus et à un clan précis. Son histoire gagne à définir ses chevaux, ses pâturages, ses liens de parenté et son rôle parmi les cavaliers, chasseurs, éleveurs ou chefs du Rhovanion.</p>",
+                  "culture": "Gimútéothraim — Éothraim"
+                }
+              },
+              "en": {
+                "name": "Gimútéothraim",
+                "system": {
+                  "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>The <strong>Gimútéothraim</strong>, or <strong>Éothraim</strong>, are the great horsemen of southern Rhovanion during the early and middle Third Age. They descend from northern populations that came from the West and form one of the principal cultural ancestors of the Éothéod and later the Rohirrim. Their society rests on horses, herds, seasonal migration, longhouses and tribal alliances.</p>\n<h2>The Six Tribes</h2>\n<p>The people are divided among six great tribes, themselves composed of clans. Each clan knows its grazing lands, routes and gathering places. Family identity remains strong, but the tribes can unite their forces during wars and great festivals.</p>\n<h2>The horse</h2>\n<p>The horse lies at the centre of life. Children learn very early to approach, feed, guide and ride the animals. Breeding, training, driving herds and mounted combat become cultural knowledge rather than mere military specialisations.</p>\n<h2>Transhumance and winter villages</h2>\n<p>Part of the year is spent in semi-permanent camps that follow the grazing grounds. As winter approaches, clans return to fortified villages of longhouses gathered around a great ceremonial hall. This hall hosts councils, feasts, songs and stories.</p>\n<h2>Festivals and beliefs</h2>\n<p>Four great festivals mark the year around the solstices and equinoxes. Races, games, wagers, music and dancing accompany the ceremonies. Eru and the Valar are honoured, with a special place given to Oromë, called Béma, the ideal figure of rider and hunter.</p>\n<h2>Temperament and war</h2>\n<p>The Gimútéothraim are renowned for being forthright, courageous, hardy, practical and loud. Their warfare relies on cavalry, mobility and coordination between mount and rider. Spears, javelins, bows and swords suit their methods.</p>\n<h2>Legacy</h2>\n<p>After T.A. 1857-1858, their identity evolves into that of the Éothéod. Later, the Rohirrim inherit their horsemanship, halls, songs, lineages and reverence for Béma.</p>\n<h2>Place in character creation</h2>\n<p>A Gimútéothraim character belongs to one of the Six Tribes and to a specific clan. Their story benefits from defining their horses, grazing lands, kinship ties and role among the riders, hunters, herders or leaders of Rhovanion.</p>",
+                  "culture": "Gimútéothraim"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Gimútéothraim — Éothraim",
+      "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>Les <strong>Gimútéothraim</strong>, ou <strong>Éothraim</strong>, sont les grands cavaliers du Rhovanion méridional au début et au milieu du Troisième Âge. Ils descendent de populations nordiques venues de l’Ouest et constituent l’un des principaux ancêtres culturels des Éothéod puis des Rohirrim. Leur société repose sur les chevaux, les troupeaux, les migrations saisonnières, les longues maisons et les alliances tribales.</p>\n<h2>Les Six Tribus</h2>\n<p>Le peuple se répartit entre six grandes tribus, elles-mêmes composées de clans. Chaque clan connaît ses pâturages, ses routes et ses lieux de rassemblement. L’identité familiale reste forte, mais les tribus savent unir leurs forces lors des guerres et des grandes fêtes.</p>\n<h2>Le cheval</h2>\n<p>Le cheval est au centre de la vie. Les enfants apprennent très tôt à approcher, nourrir, guider et monter les animaux. L’élevage, le dressage, la conduite des troupeaux et le combat monté deviennent des savoir-faire culturels plutôt que de simples spécialisations militaires.</p>\n<h2>Transhumance et villages d’hiver</h2>\n<p>Une partie de l’année se passe dans des camps semi-permanents suivant les pâturages. À l’approche de l’hiver, les clans regagnent des villages fortifiés composés de maisons longues autour d’une grande salle cérémonielle. Cette salle accueille conseils, banquets, chants et récits.</p>\n<h2>Fêtes et croyances</h2>\n<p>Quatre grandes fêtes rythment l’année autour des solstices et des équinoxes. Courses, jeux, paris, musique et danse accompagnent les cérémonies. Eru et les Valar sont honorés, avec une place particulière accordée à Oromë, nommé Béma, figure idéale du cavalier et du chasseur.</p>\n<h2>Tempérament et guerre</h2>\n<p>Les Gimútéothraim sont réputés francs, courageux, robustes, pratiques et bruyants. Leur guerre repose sur la cavalerie, la mobilité et la coordination entre monture et cavalier. Lances, javelots, arcs et épées conviennent à leurs méthodes.</p>\n<h2>Héritage</h2>\n<p>Après 1857-1858 T.A., leur identité évolue vers celle des Éothéod. Plus tard, les Rohirrim héritent de leur maîtrise équestre, de leurs salles, de leurs chants, de leurs lignées et de leur vénération de Béma.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Gimútéothraim appartient à l’une des Six Tribus et à un clan précis. Son histoire gagne à définir ses chevaux, ses pâturages, ses liens de parenté et son rôle parmi les cavaliers, chasseurs, éleveurs ou chefs du Rhovanion.</p>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Plains",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 8,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 2
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gimútéothraim — Éothraim",
+      "system": {
+        "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>Les <strong>Gimútéothraim</strong>, ou <strong>Éothraim</strong>, sont les grands cavaliers du Rhovanion méridional au début et au milieu du Troisième Âge. Ils descendent de populations nordiques venues de l’Ouest et constituent l’un des principaux ancêtres culturels des Éothéod puis des Rohirrim. Leur société repose sur les chevaux, les troupeaux, les migrations saisonnières, les longues maisons et les alliances tribales.</p>\n<h2>Les Six Tribus</h2>\n<p>Le peuple se répartit entre six grandes tribus, elles-mêmes composées de clans. Chaque clan connaît ses pâturages, ses routes et ses lieux de rassemblement. L’identité familiale reste forte, mais les tribus savent unir leurs forces lors des guerres et des grandes fêtes.</p>\n<h2>Le cheval</h2>\n<p>Le cheval est au centre de la vie. Les enfants apprennent très tôt à approcher, nourrir, guider et monter les animaux. L’élevage, le dressage, la conduite des troupeaux et le combat monté deviennent des savoir-faire culturels plutôt que de simples spécialisations militaires.</p>\n<h2>Transhumance et villages d’hiver</h2>\n<p>Une partie de l’année se passe dans des camps semi-permanents suivant les pâturages. À l’approche de l’hiver, les clans regagnent des villages fortifiés composés de maisons longues autour d’une grande salle cérémonielle. Cette salle accueille conseils, banquets, chants et récits.</p>\n<h2>Fêtes et croyances</h2>\n<p>Quatre grandes fêtes rythment l’année autour des solstices et des équinoxes. Courses, jeux, paris, musique et danse accompagnent les cérémonies. Eru et les Valar sont honorés, avec une place particulière accordée à Oromë, nommé Béma, figure idéale du cavalier et du chasseur.</p>\n<h2>Tempérament et guerre</h2>\n<p>Les Gimútéothraim sont réputés francs, courageux, robustes, pratiques et bruyants. Leur guerre repose sur la cavalerie, la mobilité et la coordination entre monture et cavalier. Lances, javelots, arcs et épées conviennent à leurs méthodes.</p>\n<h2>Héritage</h2>\n<p>Après 1857-1858 T.A., leur identité évolue vers celle des Éothéod. Plus tard, les Rohirrim héritent de leur maîtrise équestre, de leurs salles, de leurs chants, de leurs lignées et de leur vénération de Béma.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Gimútéothraim appartient à l’une des Six Tribus et à un clan précis. Son histoire gagne à définir ses chevaux, ses pâturages, ses liens de parenté et son rôle parmi les cavaliers, chasseurs, éleveurs ou chefs du Rhovanion.</p>",
+        "culture": "Gimútéothraim — Éothraim"
+      }
+    },
+    "en": {
+      "name": "Gimútéothraim",
+      "system": {
+        "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>The <strong>Gimútéothraim</strong>, or <strong>Éothraim</strong>, are the great horsemen of southern Rhovanion during the early and middle Third Age. They descend from northern populations that came from the West and form one of the principal cultural ancestors of the Éothéod and later the Rohirrim. Their society rests on horses, herds, seasonal migration, longhouses and tribal alliances.</p>\n<h2>The Six Tribes</h2>\n<p>The people are divided among six great tribes, themselves composed of clans. Each clan knows its grazing lands, routes and gathering places. Family identity remains strong, but the tribes can unite their forces during wars and great festivals.</p>\n<h2>The horse</h2>\n<p>The horse lies at the centre of life. Children learn very early to approach, feed, guide and ride the animals. Breeding, training, driving herds and mounted combat become cultural knowledge rather than mere military specialisations.</p>\n<h2>Transhumance and winter villages</h2>\n<p>Part of the year is spent in semi-permanent camps that follow the grazing grounds. As winter approaches, clans return to fortified villages of longhouses gathered around a great ceremonial hall. This hall hosts councils, feasts, songs and stories.</p>\n<h2>Festivals and beliefs</h2>\n<p>Four great festivals mark the year around the solstices and equinoxes. Races, games, wagers, music and dancing accompany the ceremonies. Eru and the Valar are honoured, with a special place given to Oromë, called Béma, the ideal figure of rider and hunter.</p>\n<h2>Temperament and war</h2>\n<p>The Gimútéothraim are renowned for being forthright, courageous, hardy, practical and loud. Their warfare relies on cavalry, mobility and coordination between mount and rider. Spears, javelins, bows and swords suit their methods.</p>\n<h2>Legacy</h2>\n<p>After T.A. 1857-1858, their identity evolves into that of the Éothéod. Later, the Rohirrim inherit their horsemanship, halls, songs, lineages and reverence for Béma.</p>\n<h2>Place in character creation</h2>\n<p>A Gimútéothraim character belongs to one of the Six Tribes and to a specific clan. Their story benefits from defining their horses, grazing lands, kinship ties and role among the riders, hunters, herders or leaders of Rhovanion.</p>",
+        "culture": "Gimútéothraim"
+      }
+    }
+  },
+  "ageVariants": {
+    "3": {
+      "sourceKey": "culture-gimuteothraim-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Gimútéothraim — Éothraim",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-gimuteothraim-age-3",
+            "canonicalKey": "culture-gimuteothraim",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Gimútéothraim — Éothraim",
+          "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>Les <strong>Gimútéothraim</strong>, ou <strong>Éothraim</strong>, sont les grands cavaliers du Rhovanion méridional au début et au milieu du Troisième Âge. Ils descendent de populations nordiques venues de l’Ouest et constituent l’un des principaux ancêtres culturels des Éothéod puis des Rohirrim. Leur société repose sur les chevaux, les troupeaux, les migrations saisonnières, les longues maisons et les alliances tribales.</p>\n<h2>Les Six Tribus</h2>\n<p>Le peuple se répartit entre six grandes tribus, elles-mêmes composées de clans. Chaque clan connaît ses pâturages, ses routes et ses lieux de rassemblement. L’identité familiale reste forte, mais les tribus savent unir leurs forces lors des guerres et des grandes fêtes.</p>\n<h2>Le cheval</h2>\n<p>Le cheval est au centre de la vie. Les enfants apprennent très tôt à approcher, nourrir, guider et monter les animaux. L’élevage, le dressage, la conduite des troupeaux et le combat monté deviennent des savoir-faire culturels plutôt que de simples spécialisations militaires.</p>\n<h2>Transhumance et villages d’hiver</h2>\n<p>Une partie de l’année se passe dans des camps semi-permanents suivant les pâturages. À l’approche de l’hiver, les clans regagnent des villages fortifiés composés de maisons longues autour d’une grande salle cérémonielle. Cette salle accueille conseils, banquets, chants et récits.</p>\n<h2>Fêtes et croyances</h2>\n<p>Quatre grandes fêtes rythment l’année autour des solstices et des équinoxes. Courses, jeux, paris, musique et danse accompagnent les cérémonies. Eru et les Valar sont honorés, avec une place particulière accordée à Oromë, nommé Béma, figure idéale du cavalier et du chasseur.</p>\n<h2>Tempérament et guerre</h2>\n<p>Les Gimútéothraim sont réputés francs, courageux, robustes, pratiques et bruyants. Leur guerre repose sur la cavalerie, la mobilité et la coordination entre monture et cavalier. Lances, javelots, arcs et épées conviennent à leurs méthodes.</p>\n<h2>Héritage</h2>\n<p>Après 1857-1858 T.A., leur identité évolue vers celle des Éothéod. Plus tard, les Rohirrim héritent de leur maîtrise équestre, de leurs salles, de leurs chants, de leurs lignées et de leur vénération de Béma.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Gimútéothraim appartient à l’une des Six Tribus et à un clan précis. Son histoire gagne à définir ses chevaux, ses pâturages, ses liens de parenté et son rôle parmi les cavaliers, chasseurs, éleveurs ou chefs du Rhovanion.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Plains",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 2
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Gimútéothraim — Éothraim",
+          "system": {
+            "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>Les <strong>Gimútéothraim</strong>, ou <strong>Éothraim</strong>, sont les grands cavaliers du Rhovanion méridional au début et au milieu du Troisième Âge. Ils descendent de populations nordiques venues de l’Ouest et constituent l’un des principaux ancêtres culturels des Éothéod puis des Rohirrim. Leur société repose sur les chevaux, les troupeaux, les migrations saisonnières, les longues maisons et les alliances tribales.</p>\n<h2>Les Six Tribus</h2>\n<p>Le peuple se répartit entre six grandes tribus, elles-mêmes composées de clans. Chaque clan connaît ses pâturages, ses routes et ses lieux de rassemblement. L’identité familiale reste forte, mais les tribus savent unir leurs forces lors des guerres et des grandes fêtes.</p>\n<h2>Le cheval</h2>\n<p>Le cheval est au centre de la vie. Les enfants apprennent très tôt à approcher, nourrir, guider et monter les animaux. L’élevage, le dressage, la conduite des troupeaux et le combat monté deviennent des savoir-faire culturels plutôt que de simples spécialisations militaires.</p>\n<h2>Transhumance et villages d’hiver</h2>\n<p>Une partie de l’année se passe dans des camps semi-permanents suivant les pâturages. À l’approche de l’hiver, les clans regagnent des villages fortifiés composés de maisons longues autour d’une grande salle cérémonielle. Cette salle accueille conseils, banquets, chants et récits.</p>\n<h2>Fêtes et croyances</h2>\n<p>Quatre grandes fêtes rythment l’année autour des solstices et des équinoxes. Courses, jeux, paris, musique et danse accompagnent les cérémonies. Eru et les Valar sont honorés, avec une place particulière accordée à Oromë, nommé Béma, figure idéale du cavalier et du chasseur.</p>\n<h2>Tempérament et guerre</h2>\n<p>Les Gimútéothraim sont réputés francs, courageux, robustes, pratiques et bruyants. Leur guerre repose sur la cavalerie, la mobilité et la coordination entre monture et cavalier. Lances, javelots, arcs et épées conviennent à leurs méthodes.</p>\n<h2>Héritage</h2>\n<p>Après 1857-1858 T.A., leur identité évolue vers celle des Éothéod. Plus tard, les Rohirrim héritent de leur maîtrise équestre, de leurs salles, de leurs chants, de leurs lignées et de leur vénération de Béma.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage Gimútéothraim appartient à l’une des Six Tribus et à un clan précis. Son histoire gagne à définir ses chevaux, ses pâturages, ses liens de parenté et son rôle parmi les cavaliers, chasseurs, éleveurs ou chefs du Rhovanion.</p>",
+            "culture": "Gimútéothraim — Éothraim"
+          }
+        },
+        "en": {
+          "name": "Gimútéothraim",
+          "system": {
+            "description": "<h1>Gimútéothraim — Éothraim</h1>\n<p>The <strong>Gimútéothraim</strong>, or <strong>Éothraim</strong>, are the great horsemen of southern Rhovanion during the early and middle Third Age. They descend from northern populations that came from the West and form one of the principal cultural ancestors of the Éothéod and later the Rohirrim. Their society rests on horses, herds, seasonal migration, longhouses and tribal alliances.</p>\n<h2>The Six Tribes</h2>\n<p>The people are divided among six great tribes, themselves composed of clans. Each clan knows its grazing lands, routes and gathering places. Family identity remains strong, but the tribes can unite their forces during wars and great festivals.</p>\n<h2>The horse</h2>\n<p>The horse lies at the centre of life. Children learn very early to approach, feed, guide and ride the animals. Breeding, training, driving herds and mounted combat become cultural knowledge rather than mere military specialisations.</p>\n<h2>Transhumance and winter villages</h2>\n<p>Part of the year is spent in semi-permanent camps that follow the grazing grounds. As winter approaches, clans return to fortified villages of longhouses gathered around a great ceremonial hall. This hall hosts councils, feasts, songs and stories.</p>\n<h2>Festivals and beliefs</h2>\n<p>Four great festivals mark the year around the solstices and equinoxes. Races, games, wagers, music and dancing accompany the ceremonies. Eru and the Valar are honoured, with a special place given to Oromë, called Béma, the ideal figure of rider and hunter.</p>\n<h2>Temperament and war</h2>\n<p>The Gimútéothraim are renowned for being forthright, courageous, hardy, practical and loud. Their warfare relies on cavalry, mobility and coordination between mount and rider. Spears, javelins, bows and swords suit their methods.</p>\n<h2>Legacy</h2>\n<p>After T.A. 1857-1858, their identity evolves into that of the Éothéod. Later, the Rohirrim inherit their horsemanship, halls, songs, lineages and reverence for Béma.</p>\n<h2>Place in character creation</h2>\n<p>A Gimútéothraim character belongs to one of the Six Tribes and to a specific clan. Their story benefits from defining their horses, grazing lands, kinship ties and role among the riders, hunters, herders or leaders of Rhovanion.</p>",
+            "culture": "Gimútéothraim"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

@@ -1,0 +1,1805 @@
+{
+  "key": "culture-hobbit-stoor",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Forts",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-hobbit-stoor",
+        "canonicalKey": "culture-hobbit-stoor",
+        "collection": "merp-rmu",
+        "contentVersion": 2,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "availability": {
+          "ages": [
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "recommendedSpecializations": {
+          "Environmental — Survival": [
+            "Riverlands",
+            "Marshes"
+          ],
+          "Environmental — Piloting": [
+            "River Boat"
+          ],
+          "Crafting & Vocation": [
+            "Fisher",
+            "Boatman",
+            "Farmer",
+            "Cook"
+          ]
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-hobbits",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "2": {
+            "sourceKey": "culture-hobbit-stoor-age-2",
+            "folderKey": "cultures-age-2-hobbits",
+            "document": {
+              "name": "Forts",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-hobbit-stoor-age-2",
+                  "canonicalKey": "culture-hobbit-stoor",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-hobbits-age-2",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false,
+                    "startQualifier": "Après le milieu du Deuxième Âge"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Environmental — Survival": [
+                      "Riverlands",
+                      "Marshes"
+                    ],
+                    "Environmental — Piloting": [
+                      "River Boat"
+                    ],
+                    "Crafting & Vocation": [
+                      "Fisher",
+                      "Boatman",
+                      "Farmer",
+                      "Cook"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-hobbits"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Forts",
+                "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 8
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Own Region",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 5
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Forts",
+                "system": {
+                  "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                  "culture": "Forts"
+                }
+              },
+              "en": {
+                "name": "Stoors",
+                "system": {
+                  "description": "<h1>Stoors</h1>\n<p>Stoors are the broadest and stockiest of the three great branches of Hobbit-kind. More robust than Harfoots and less slender than Fallohides, they are recognised by their broad build, strong shoulders and exceptionally large hands and feet. Their hair is most often brown and curly, and some men grow beards, a rare trait among other Hobbits.</p>\n<h2>A people of rivers and plains</h2>\n<p>Stoors favour lowlands, river valleys, marshes, quiet banks and flat countryside. They readily settle near water and often build above-ground houses of wood, brick or stone. Their villages grow around fords, bridges, mills, landing places and fertile ground deposited by floods.</p>\n<h2>Appearance</h2>\n<p>Stoors are the most heavily built Hobbits. Their average height lies between that of Harfoots and Fallohides, but they are noticeably heavier and broader. Their complexion often falls between the darker colouring of Harfoots and the fairer skin of Fallohides.</p>\n<p>They are more likely than other Hobbits to wear boots or shoes when living in marshland, on stony riverbanks or in cold regions.</p>\n<h2>Endurance</h2>\n<p>Like all Hobbits, Stoors possess an understated toughness. Among them this endurance takes an especially physical form: heavy agricultural labour, rowing, carrying loads, long marches across wet ground and repeated exertion.</p>\n<h2>Dwellings</h2>\n<p>Stoors are more willing to use dwellings built above ground. Their houses are low, broad and solid. A Stoor village often includes a mill, quay, boathouses, fish-smoking sheds, workshops, raised granaries and plank paths across marshy areas.</p>\n<h2>Agriculture and trades</h2>\n<p>Stoors remain fundamentally farmers and craftsmen. They excel in occupations connected with water and plains: fishing, boating, milling, boatbuilding, netmaking, woodworking, basketry, animal husbandry, farming, cooking and preserving food.</p>\n<h2>Temperament</h2>\n<p>Stoors are generally calm, practical and more reserved toward strangers than other Hobbits. They place great value on common sense, patience, steady work, discretion, family solidarity and respect for boundaries and property.</p>\n<h2>Family and descent</h2>\n<p>Marriage is monogamous. Stoors traditionally trace lineage through women. Land, houses, fishing rights and certain family possessions may therefore pass through the mother. Elder women of the family often play an important part in preserving genealogies and settling domestic disputes.</p>\n<h2>Relations with other peoples</h2>\n<p>Stoors are the most isolated of the three great Hobbit branches. They rarely associate with the Big Folk unless necessary and remain cautious toward Dwarves and Elves. They nevertheless maintain regular relations with human millers, boatmen, fishers and merchants established along the same rivers.</p>\n<h2>Religion and festivals</h2>\n<p>Their spirituality remains discreet and informal. Communities often add traditions connected with rivers: blessing boats, meals marking the opening of the fishing season, lanterns set upon the water, rowing or fishing contests and commemorations of those who drowned.</p>\n<h2>Clothing and weapons</h2>\n<p>They wear traditional Hobbit clothing but make more frequent use of short boots, sturdy shoes, waxed garments, thick cloaks, leather aprons and reinforced trousers.</p>\n<p>They chiefly use weapons that can also serve as tools: dagger, hatchet, club, staff, sling, short bow, knife and fishing spear.</p>\n<h2>Cultural skills</h2>\n<p>Stoor Culture particularly favours:</p>\n<ul>\n<li>Swimming</li>\n<li>Boat handling</li>\n<li>Fishing</li>\n<li>Ropework</li>\n<li>Survival in marshes and riverlands</li>\n<li>Boatbuilding</li>\n<li>Milling</li>\n<li>Farming</li>\n<li>Cooking</li>\n<li>Observation</li>\n<li>Concealment</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Stoor Culture is especially suitable for a Hobbit from a riverside village, a marsh community, a family of boatmen, a mill, a farm on a floodplain or a line of fishers.</p>\n<p>It produces Hobbits who are more robust, more familiar with water and somewhat more open to above-ground dwellings than Harfoots.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+                  "culture": "Stoors"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-hobbit-stoor-age-3",
+            "folderKey": "cultures-age-3-hobbits",
+            "document": {
+              "name": "Forts",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-hobbit-stoor-age-3",
+                  "canonicalKey": "culture-hobbit-stoor",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-hobbits-age-3",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Environmental — Survival": [
+                      "Riverlands",
+                      "Marshes"
+                    ],
+                    "Environmental — Piloting": [
+                      "River Boat"
+                    ],
+                    "Crafting & Vocation": [
+                      "Fisher",
+                      "Boatman",
+                      "Farmer",
+                      "Cook"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-hobbits"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Forts",
+                "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 8
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Own Region",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 5
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Forts",
+                "system": {
+                  "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                  "culture": "Forts"
+                }
+              },
+              "en": {
+                "name": "Stoors",
+                "system": {
+                  "description": "<h1>Stoors</h1>\n<p>Stoors are the broadest and stockiest of the three great branches of Hobbit-kind. More robust than Harfoots and less slender than Fallohides, they are recognised by their broad build, strong shoulders and exceptionally large hands and feet. Their hair is most often brown and curly, and some men grow beards, a rare trait among other Hobbits.</p>\n<h2>A people of rivers and plains</h2>\n<p>Stoors favour lowlands, river valleys, marshes, quiet banks and flat countryside. They readily settle near water and often build above-ground houses of wood, brick or stone. Their villages grow around fords, bridges, mills, landing places and fertile ground deposited by floods.</p>\n<h2>Appearance</h2>\n<p>Stoors are the most heavily built Hobbits. Their average height lies between that of Harfoots and Fallohides, but they are noticeably heavier and broader. Their complexion often falls between the darker colouring of Harfoots and the fairer skin of Fallohides.</p>\n<p>They are more likely than other Hobbits to wear boots or shoes when living in marshland, on stony riverbanks or in cold regions.</p>\n<h2>Endurance</h2>\n<p>Like all Hobbits, Stoors possess an understated toughness. Among them this endurance takes an especially physical form: heavy agricultural labour, rowing, carrying loads, long marches across wet ground and repeated exertion.</p>\n<h2>Dwellings</h2>\n<p>Stoors are more willing to use dwellings built above ground. Their houses are low, broad and solid. A Stoor village often includes a mill, quay, boathouses, fish-smoking sheds, workshops, raised granaries and plank paths across marshy areas.</p>\n<h2>Agriculture and trades</h2>\n<p>Stoors remain fundamentally farmers and craftsmen. They excel in occupations connected with water and plains: fishing, boating, milling, boatbuilding, netmaking, woodworking, basketry, animal husbandry, farming, cooking and preserving food.</p>\n<h2>Temperament</h2>\n<p>Stoors are generally calm, practical and more reserved toward strangers than other Hobbits. They place great value on common sense, patience, steady work, discretion, family solidarity and respect for boundaries and property.</p>\n<h2>Family and descent</h2>\n<p>Marriage is monogamous. Stoors traditionally trace lineage through women. Land, houses, fishing rights and certain family possessions may therefore pass through the mother. Elder women of the family often play an important part in preserving genealogies and settling domestic disputes.</p>\n<h2>Relations with other peoples</h2>\n<p>Stoors are the most isolated of the three great Hobbit branches. They rarely associate with the Big Folk unless necessary and remain cautious toward Dwarves and Elves. They nevertheless maintain regular relations with human millers, boatmen, fishers and merchants established along the same rivers.</p>\n<h2>Religion and festivals</h2>\n<p>Their spirituality remains discreet and informal. Communities often add traditions connected with rivers: blessing boats, meals marking the opening of the fishing season, lanterns set upon the water, rowing or fishing contests and commemorations of those who drowned.</p>\n<h2>Clothing and weapons</h2>\n<p>They wear traditional Hobbit clothing but make more frequent use of short boots, sturdy shoes, waxed garments, thick cloaks, leather aprons and reinforced trousers.</p>\n<p>They chiefly use weapons that can also serve as tools: dagger, hatchet, club, staff, sling, short bow, knife and fishing spear.</p>\n<h2>Cultural skills</h2>\n<p>Stoor Culture particularly favours:</p>\n<ul>\n<li>Swimming</li>\n<li>Boat handling</li>\n<li>Fishing</li>\n<li>Ropework</li>\n<li>Survival in marshes and riverlands</li>\n<li>Boatbuilding</li>\n<li>Milling</li>\n<li>Farming</li>\n<li>Cooking</li>\n<li>Observation</li>\n<li>Concealment</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Stoor Culture is especially suitable for a Hobbit from a riverside village, a marsh community, a family of boatmen, a mill, a farm on a floodplain or a line of fishers.</p>\n<p>It produces Hobbits who are more robust, more familiar with water and somewhat more open to above-ground dwellings than Harfoots.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+                  "culture": "Stoors"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-hobbit-stoor-age-4",
+            "folderKey": "cultures-age-4-hobbits",
+            "document": {
+              "name": "Forts",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-hobbit-stoor-age-4",
+                  "canonicalKey": "culture-hobbit-stoor",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-hobbits-age-4",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Environmental — Survival": [
+                      "Riverlands",
+                      "Marshes"
+                    ],
+                    "Environmental — Piloting": [
+                      "River Boat"
+                    ],
+                    "Crafting & Vocation": [
+                      "Fisher",
+                      "Boatman",
+                      "Farmer",
+                      "Cook"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-hobbits"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Forts",
+                "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 8
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Own Region",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 5
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Forts",
+                "system": {
+                  "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                  "culture": "Forts"
+                }
+              },
+              "en": {
+                "name": "Stoors",
+                "system": {
+                  "description": "<h1>Stoors</h1>\n<p>Stoors are the broadest and stockiest of the three great branches of Hobbit-kind. More robust than Harfoots and less slender than Fallohides, they are recognised by their broad build, strong shoulders and exceptionally large hands and feet. Their hair is most often brown and curly, and some men grow beards, a rare trait among other Hobbits.</p>\n<h2>A people of rivers and plains</h2>\n<p>Stoors favour lowlands, river valleys, marshes, quiet banks and flat countryside. They readily settle near water and often build above-ground houses of wood, brick or stone. Their villages grow around fords, bridges, mills, landing places and fertile ground deposited by floods.</p>\n<h2>Appearance</h2>\n<p>Stoors are the most heavily built Hobbits. Their average height lies between that of Harfoots and Fallohides, but they are noticeably heavier and broader. Their complexion often falls between the darker colouring of Harfoots and the fairer skin of Fallohides.</p>\n<p>They are more likely than other Hobbits to wear boots or shoes when living in marshland, on stony riverbanks or in cold regions.</p>\n<h2>Endurance</h2>\n<p>Like all Hobbits, Stoors possess an understated toughness. Among them this endurance takes an especially physical form: heavy agricultural labour, rowing, carrying loads, long marches across wet ground and repeated exertion.</p>\n<h2>Dwellings</h2>\n<p>Stoors are more willing to use dwellings built above ground. Their houses are low, broad and solid. A Stoor village often includes a mill, quay, boathouses, fish-smoking sheds, workshops, raised granaries and plank paths across marshy areas.</p>\n<h2>Agriculture and trades</h2>\n<p>Stoors remain fundamentally farmers and craftsmen. They excel in occupations connected with water and plains: fishing, boating, milling, boatbuilding, netmaking, woodworking, basketry, animal husbandry, farming, cooking and preserving food.</p>\n<h2>Temperament</h2>\n<p>Stoors are generally calm, practical and more reserved toward strangers than other Hobbits. They place great value on common sense, patience, steady work, discretion, family solidarity and respect for boundaries and property.</p>\n<h2>Family and descent</h2>\n<p>Marriage is monogamous. Stoors traditionally trace lineage through women. Land, houses, fishing rights and certain family possessions may therefore pass through the mother. Elder women of the family often play an important part in preserving genealogies and settling domestic disputes.</p>\n<h2>Relations with other peoples</h2>\n<p>Stoors are the most isolated of the three great Hobbit branches. They rarely associate with the Big Folk unless necessary and remain cautious toward Dwarves and Elves. They nevertheless maintain regular relations with human millers, boatmen, fishers and merchants established along the same rivers.</p>\n<h2>Religion and festivals</h2>\n<p>Their spirituality remains discreet and informal. Communities often add traditions connected with rivers: blessing boats, meals marking the opening of the fishing season, lanterns set upon the water, rowing or fishing contests and commemorations of those who drowned.</p>\n<h2>Clothing and weapons</h2>\n<p>They wear traditional Hobbit clothing but make more frequent use of short boots, sturdy shoes, waxed garments, thick cloaks, leather aprons and reinforced trousers.</p>\n<p>They chiefly use weapons that can also serve as tools: dagger, hatchet, club, staff, sling, short bow, knife and fishing spear.</p>\n<h2>Cultural skills</h2>\n<p>Stoor Culture particularly favours:</p>\n<ul>\n<li>Swimming</li>\n<li>Boat handling</li>\n<li>Fishing</li>\n<li>Ropework</li>\n<li>Survival in marshes and riverlands</li>\n<li>Boatbuilding</li>\n<li>Milling</li>\n<li>Farming</li>\n<li>Cooking</li>\n<li>Observation</li>\n<li>Concealment</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Stoor Culture is especially suitable for a Hobbit from a riverside village, a marsh community, a family of boatmen, a mill, a farm on a floodplain or a line of fishers.</p>\n<p>It produces Hobbits who are more robust, more familiar with water and somewhat more open to above-ground dwellings than Harfoots.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+                  "culture": "Stoors"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Forts",
+      "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 8
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Own Region",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 6,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 5
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Forts",
+      "system": {
+        "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+        "culture": "Forts"
+      }
+    },
+    "en": {
+      "name": "Stoors",
+      "system": {
+        "description": "<h1>Stoors</h1>\n<p>Stoors are the broadest and stockiest of the three great branches of Hobbit-kind. More robust than Harfoots and less slender than Fallohides, they are recognised by their broad build, strong shoulders and exceptionally large hands and feet. Their hair is most often brown and curly, and some men grow beards, a rare trait among other Hobbits.</p>\n<h2>A people of rivers and plains</h2>\n<p>Stoors favour lowlands, river valleys, marshes, quiet banks and flat countryside. They readily settle near water and often build above-ground houses of wood, brick or stone. Their villages grow around fords, bridges, mills, landing places and fertile ground deposited by floods.</p>\n<h2>Appearance</h2>\n<p>Stoors are the most heavily built Hobbits. Their average height lies between that of Harfoots and Fallohides, but they are noticeably heavier and broader. Their complexion often falls between the darker colouring of Harfoots and the fairer skin of Fallohides.</p>\n<p>They are more likely than other Hobbits to wear boots or shoes when living in marshland, on stony riverbanks or in cold regions.</p>\n<h2>Endurance</h2>\n<p>Like all Hobbits, Stoors possess an understated toughness. Among them this endurance takes an especially physical form: heavy agricultural labour, rowing, carrying loads, long marches across wet ground and repeated exertion.</p>\n<h2>Dwellings</h2>\n<p>Stoors are more willing to use dwellings built above ground. Their houses are low, broad and solid. A Stoor village often includes a mill, quay, boathouses, fish-smoking sheds, workshops, raised granaries and plank paths across marshy areas.</p>\n<h2>Agriculture and trades</h2>\n<p>Stoors remain fundamentally farmers and craftsmen. They excel in occupations connected with water and plains: fishing, boating, milling, boatbuilding, netmaking, woodworking, basketry, animal husbandry, farming, cooking and preserving food.</p>\n<h2>Temperament</h2>\n<p>Stoors are generally calm, practical and more reserved toward strangers than other Hobbits. They place great value on common sense, patience, steady work, discretion, family solidarity and respect for boundaries and property.</p>\n<h2>Family and descent</h2>\n<p>Marriage is monogamous. Stoors traditionally trace lineage through women. Land, houses, fishing rights and certain family possessions may therefore pass through the mother. Elder women of the family often play an important part in preserving genealogies and settling domestic disputes.</p>\n<h2>Relations with other peoples</h2>\n<p>Stoors are the most isolated of the three great Hobbit branches. They rarely associate with the Big Folk unless necessary and remain cautious toward Dwarves and Elves. They nevertheless maintain regular relations with human millers, boatmen, fishers and merchants established along the same rivers.</p>\n<h2>Religion and festivals</h2>\n<p>Their spirituality remains discreet and informal. Communities often add traditions connected with rivers: blessing boats, meals marking the opening of the fishing season, lanterns set upon the water, rowing or fishing contests and commemorations of those who drowned.</p>\n<h2>Clothing and weapons</h2>\n<p>They wear traditional Hobbit clothing but make more frequent use of short boots, sturdy shoes, waxed garments, thick cloaks, leather aprons and reinforced trousers.</p>\n<p>They chiefly use weapons that can also serve as tools: dagger, hatchet, club, staff, sling, short bow, knife and fishing spear.</p>\n<h2>Cultural skills</h2>\n<p>Stoor Culture particularly favours:</p>\n<ul>\n<li>Swimming</li>\n<li>Boat handling</li>\n<li>Fishing</li>\n<li>Ropework</li>\n<li>Survival in marshes and riverlands</li>\n<li>Boatbuilding</li>\n<li>Milling</li>\n<li>Farming</li>\n<li>Cooking</li>\n<li>Observation</li>\n<li>Concealment</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Stoor Culture is especially suitable for a Hobbit from a riverside village, a marsh community, a family of boatmen, a mill, a farm on a floodplain or a line of fishers.</p>\n<p>It produces Hobbits who are more robust, more familiar with water and somewhat more open to above-ground dwellings than Harfoots.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+        "culture": "Stoors"
+      }
+    }
+  },
+  "ageVariants": {
+    "2": {
+      "sourceKey": "culture-hobbit-stoor-age-2",
+      "folderKey": "cultures-age-2-hobbits",
+      "document": {
+        "name": "Forts",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-hobbit-stoor-age-2",
+            "canonicalKey": "culture-hobbit-stoor",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-hobbits-age-2",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false,
+              "startQualifier": "Après le milieu du Deuxième Âge"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Environmental — Survival": [
+                "Riverlands",
+                "Marshes"
+              ],
+              "Environmental — Piloting": [
+                "River Boat"
+              ],
+              "Crafting & Vocation": [
+                "Fisher",
+                "Boatman",
+                "Farmer",
+                "Cook"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-hobbits"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Forts",
+          "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 8
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Own Region",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 5
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Forts",
+          "system": {
+            "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+            "culture": "Forts"
+          }
+        },
+        "en": {
+          "name": "Stoors",
+          "system": {
+            "description": "<h1>Stoors</h1>\n<p>Stoors are the broadest and stockiest of the three great branches of Hobbit-kind. More robust than Harfoots and less slender than Fallohides, they are recognised by their broad build, strong shoulders and exceptionally large hands and feet. Their hair is most often brown and curly, and some men grow beards, a rare trait among other Hobbits.</p>\n<h2>A people of rivers and plains</h2>\n<p>Stoors favour lowlands, river valleys, marshes, quiet banks and flat countryside. They readily settle near water and often build above-ground houses of wood, brick or stone. Their villages grow around fords, bridges, mills, landing places and fertile ground deposited by floods.</p>\n<h2>Appearance</h2>\n<p>Stoors are the most heavily built Hobbits. Their average height lies between that of Harfoots and Fallohides, but they are noticeably heavier and broader. Their complexion often falls between the darker colouring of Harfoots and the fairer skin of Fallohides.</p>\n<p>They are more likely than other Hobbits to wear boots or shoes when living in marshland, on stony riverbanks or in cold regions.</p>\n<h2>Endurance</h2>\n<p>Like all Hobbits, Stoors possess an understated toughness. Among them this endurance takes an especially physical form: heavy agricultural labour, rowing, carrying loads, long marches across wet ground and repeated exertion.</p>\n<h2>Dwellings</h2>\n<p>Stoors are more willing to use dwellings built above ground. Their houses are low, broad and solid. A Stoor village often includes a mill, quay, boathouses, fish-smoking sheds, workshops, raised granaries and plank paths across marshy areas.</p>\n<h2>Agriculture and trades</h2>\n<p>Stoors remain fundamentally farmers and craftsmen. They excel in occupations connected with water and plains: fishing, boating, milling, boatbuilding, netmaking, woodworking, basketry, animal husbandry, farming, cooking and preserving food.</p>\n<h2>Temperament</h2>\n<p>Stoors are generally calm, practical and more reserved toward strangers than other Hobbits. They place great value on common sense, patience, steady work, discretion, family solidarity and respect for boundaries and property.</p>\n<h2>Family and descent</h2>\n<p>Marriage is monogamous. Stoors traditionally trace lineage through women. Land, houses, fishing rights and certain family possessions may therefore pass through the mother. Elder women of the family often play an important part in preserving genealogies and settling domestic disputes.</p>\n<h2>Relations with other peoples</h2>\n<p>Stoors are the most isolated of the three great Hobbit branches. They rarely associate with the Big Folk unless necessary and remain cautious toward Dwarves and Elves. They nevertheless maintain regular relations with human millers, boatmen, fishers and merchants established along the same rivers.</p>\n<h2>Religion and festivals</h2>\n<p>Their spirituality remains discreet and informal. Communities often add traditions connected with rivers: blessing boats, meals marking the opening of the fishing season, lanterns set upon the water, rowing or fishing contests and commemorations of those who drowned.</p>\n<h2>Clothing and weapons</h2>\n<p>They wear traditional Hobbit clothing but make more frequent use of short boots, sturdy shoes, waxed garments, thick cloaks, leather aprons and reinforced trousers.</p>\n<p>They chiefly use weapons that can also serve as tools: dagger, hatchet, club, staff, sling, short bow, knife and fishing spear.</p>\n<h2>Cultural skills</h2>\n<p>Stoor Culture particularly favours:</p>\n<ul>\n<li>Swimming</li>\n<li>Boat handling</li>\n<li>Fishing</li>\n<li>Ropework</li>\n<li>Survival in marshes and riverlands</li>\n<li>Boatbuilding</li>\n<li>Milling</li>\n<li>Farming</li>\n<li>Cooking</li>\n<li>Observation</li>\n<li>Concealment</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Stoor Culture is especially suitable for a Hobbit from a riverside village, a marsh community, a family of boatmen, a mill, a farm on a floodplain or a line of fishers.</p>\n<p>It produces Hobbits who are more robust, more familiar with water and somewhat more open to above-ground dwellings than Harfoots.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+            "culture": "Stoors"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-hobbit-stoor-age-3",
+      "folderKey": "cultures-age-3-hobbits",
+      "document": {
+        "name": "Forts",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-hobbit-stoor-age-3",
+            "canonicalKey": "culture-hobbit-stoor",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-hobbits-age-3",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Environmental — Survival": [
+                "Riverlands",
+                "Marshes"
+              ],
+              "Environmental — Piloting": [
+                "River Boat"
+              ],
+              "Crafting & Vocation": [
+                "Fisher",
+                "Boatman",
+                "Farmer",
+                "Cook"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-hobbits"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Forts",
+          "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 8
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Own Region",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 5
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Forts",
+          "system": {
+            "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+            "culture": "Forts"
+          }
+        },
+        "en": {
+          "name": "Stoors",
+          "system": {
+            "description": "<h1>Stoors</h1>\n<p>Stoors are the broadest and stockiest of the three great branches of Hobbit-kind. More robust than Harfoots and less slender than Fallohides, they are recognised by their broad build, strong shoulders and exceptionally large hands and feet. Their hair is most often brown and curly, and some men grow beards, a rare trait among other Hobbits.</p>\n<h2>A people of rivers and plains</h2>\n<p>Stoors favour lowlands, river valleys, marshes, quiet banks and flat countryside. They readily settle near water and often build above-ground houses of wood, brick or stone. Their villages grow around fords, bridges, mills, landing places and fertile ground deposited by floods.</p>\n<h2>Appearance</h2>\n<p>Stoors are the most heavily built Hobbits. Their average height lies between that of Harfoots and Fallohides, but they are noticeably heavier and broader. Their complexion often falls between the darker colouring of Harfoots and the fairer skin of Fallohides.</p>\n<p>They are more likely than other Hobbits to wear boots or shoes when living in marshland, on stony riverbanks or in cold regions.</p>\n<h2>Endurance</h2>\n<p>Like all Hobbits, Stoors possess an understated toughness. Among them this endurance takes an especially physical form: heavy agricultural labour, rowing, carrying loads, long marches across wet ground and repeated exertion.</p>\n<h2>Dwellings</h2>\n<p>Stoors are more willing to use dwellings built above ground. Their houses are low, broad and solid. A Stoor village often includes a mill, quay, boathouses, fish-smoking sheds, workshops, raised granaries and plank paths across marshy areas.</p>\n<h2>Agriculture and trades</h2>\n<p>Stoors remain fundamentally farmers and craftsmen. They excel in occupations connected with water and plains: fishing, boating, milling, boatbuilding, netmaking, woodworking, basketry, animal husbandry, farming, cooking and preserving food.</p>\n<h2>Temperament</h2>\n<p>Stoors are generally calm, practical and more reserved toward strangers than other Hobbits. They place great value on common sense, patience, steady work, discretion, family solidarity and respect for boundaries and property.</p>\n<h2>Family and descent</h2>\n<p>Marriage is monogamous. Stoors traditionally trace lineage through women. Land, houses, fishing rights and certain family possessions may therefore pass through the mother. Elder women of the family often play an important part in preserving genealogies and settling domestic disputes.</p>\n<h2>Relations with other peoples</h2>\n<p>Stoors are the most isolated of the three great Hobbit branches. They rarely associate with the Big Folk unless necessary and remain cautious toward Dwarves and Elves. They nevertheless maintain regular relations with human millers, boatmen, fishers and merchants established along the same rivers.</p>\n<h2>Religion and festivals</h2>\n<p>Their spirituality remains discreet and informal. Communities often add traditions connected with rivers: blessing boats, meals marking the opening of the fishing season, lanterns set upon the water, rowing or fishing contests and commemorations of those who drowned.</p>\n<h2>Clothing and weapons</h2>\n<p>They wear traditional Hobbit clothing but make more frequent use of short boots, sturdy shoes, waxed garments, thick cloaks, leather aprons and reinforced trousers.</p>\n<p>They chiefly use weapons that can also serve as tools: dagger, hatchet, club, staff, sling, short bow, knife and fishing spear.</p>\n<h2>Cultural skills</h2>\n<p>Stoor Culture particularly favours:</p>\n<ul>\n<li>Swimming</li>\n<li>Boat handling</li>\n<li>Fishing</li>\n<li>Ropework</li>\n<li>Survival in marshes and riverlands</li>\n<li>Boatbuilding</li>\n<li>Milling</li>\n<li>Farming</li>\n<li>Cooking</li>\n<li>Observation</li>\n<li>Concealment</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Stoor Culture is especially suitable for a Hobbit from a riverside village, a marsh community, a family of boatmen, a mill, a farm on a floodplain or a line of fishers.</p>\n<p>It produces Hobbits who are more robust, more familiar with water and somewhat more open to above-ground dwellings than Harfoots.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+            "culture": "Stoors"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-hobbit-stoor-age-4",
+      "folderKey": "cultures-age-4-hobbits",
+      "document": {
+        "name": "Forts",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-hobbit-stoor-age-4",
+            "canonicalKey": "culture-hobbit-stoor",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-hobbits-age-4",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Environmental — Survival": [
+                "Riverlands",
+                "Marshes"
+              ],
+              "Environmental — Piloting": [
+                "River Boat"
+              ],
+              "Crafting & Vocation": [
+                "Fisher",
+                "Boatman",
+                "Farmer",
+                "Cook"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-hobbits"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Forts",
+          "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 8
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Own Region",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 5
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Forts",
+          "system": {
+            "description": "<h1>Forts</h1>\n<p>Les Forts constituent la plus trapue des trois grandes branches du peuple hobbit. Plus robustes que les Pieds-velus et moins élancés que les Pâles, ils se reconnaissent à leur large carrure, à leurs épaules solides et à leurs mains et pieds exceptionnellement grands. Leurs cheveux sont le plus souvent bruns et bouclés, et certains hommes portent une barbe, particularité rare chez les autres Hobbits.</p>\n<h2>Un peuple des rivières et des plaines</h2>\n<p>Les Forts préfèrent les terres basses, les vallées fluviales, les marais, les rives paisibles et les campagnes plates. Ils s’établissent volontiers près de l’eau et construisent fréquemment des maisons de surface en bois, en brique ou en pierre. Leurs villages s’organisent autour des gués, des ponts, des moulins, des embarcadères et des terres fertiles déposées par les crues.</p>\n<h2>Apparence</h2>\n<p>Les Forts sont les plus corpulents des Hobbits. Leur stature moyenne se situe entre celle des Pieds-velus et celle des Pâles, mais ils sont sensiblement plus lourds et plus larges. Leur teint se situe souvent entre celui, plus sombre, des Pieds-velus et celui, plus clair, des Pâles.</p>\n<p>Ils portent plus volontiers que les autres Hobbits des bottes ou des souliers lorsqu’ils vivent dans des marais, sur des berges caillouteuses ou dans des régions froides.</p>\n<h2>Endurance</h2>\n<p>Comme tous les Hobbits, les Forts possèdent une robustesse discrète. Chez eux, cette endurance prend une forme particulièrement physique : travaux agricoles lourds, rame, transport de charges, longues marches sur terrain humide et efforts répétés.</p>\n<h2>Habitations</h2>\n<p>Les Forts utilisent plus volontiers des demeures construites au-dessus du sol. Leurs maisons sont basses, larges et solides. Un village fort comprend souvent un moulin, un quai, des hangars à bateaux, des fumoirs à poisson, des ateliers, des greniers surélevés et des chemins de planches dans les zones marécageuses.</p>\n<h2>Agriculture et métiers</h2>\n<p>Les Forts restent fondamentalement agriculteurs et artisans. Ils excellent dans les métiers liés à l’eau et aux plaines : pêche, batellerie, meunerie, construction de barques, fabrication de filets, travail du bois, vannerie, élevage, agriculture, cuisine et conservation des aliments.</p>\n<h2>Tempérament</h2>\n<p>Les Forts sont généralement calmes, pratiques et plus réservés que les autres Hobbits envers les étrangers. Ils accordent une grande valeur au bon sens, à la patience, au travail régulier, à la discrétion, à la solidarité familiale et au respect des limites et des propriétés.</p>\n<h2>Famille et filiation</h2>\n<p>Le mariage est monogame. Les Forts suivent traditionnellement leur lignée par les femmes. Les terres, les maisons, les droits de pêche et certains biens familiaux peuvent ainsi être transmis par la mère. Les anciennes femmes de la famille jouent souvent un rôle important dans la conservation des généalogies et la résolution des querelles domestiques.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Forts sont les plus isolés des trois grandes branches hobbites. Ils fréquentent rarement les Grandes Gens sans nécessité et se montrent prudents envers les Nains et les Elfes. Ils entretiennent toutefois des rapports réguliers avec les meuniers, bateliers, pêcheurs et marchands humains établis le long des mêmes rivières.</p>\n<h2>Religion et fêtes</h2>\n<p>Leur spiritualité demeure discrète et informelle. Les communautés ajoutent souvent des traditions liées aux rivières : bénédiction des barques, repas marquant l’ouverture de la pêche, lanternes posées sur l’eau, concours de rame ou de pêche et commémoration des noyés.</p>\n<h2>Vêtements et armes</h2>\n<p>Ils portent les vêtements traditionnels des Hobbits, mais utilisent plus fréquemment bottes courtes, chaussures solides, vêtements cirés, capes épaisses, tabliers de cuir et pantalons renforcés.</p>\n<p>Ils utilisent surtout des armes pouvant servir d’outils : dague, hachette, gourdin, bâton, fronde, arc court, couteau et épieu de pêche.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Forts favorise notamment :</p>\n<ul>\n<li>Natation</li>\n<li>Pilotage de barque</li>\n<li>Pêche</li>\n<li>Maîtrise des cordages</li>\n<li>Survie dans les marais et les régions fluviales</li>\n<li>Construction de bateaux</li>\n<li>Meunerie</li>\n<li>Agriculture</li>\n<li>Cuisine</li>\n<li>Observation</li>\n<li>Dissimulation</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Forts convient particulièrement à un Hobbit issu d’un village riverain, d’une communauté des marais, d’une famille de bateliers, d’un moulin, d’une ferme située dans une plaine alluviale ou d’une lignée de pêcheurs.</p>\n<p>Elle forme des Hobbits plus robustes, plus familiers de l’eau et légèrement plus ouverts aux demeures de surface que les Pieds-velus.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+            "culture": "Forts"
+          }
+        },
+        "en": {
+          "name": "Stoors",
+          "system": {
+            "description": "<h1>Stoors</h1>\n<p>Stoors are the broadest and stockiest of the three great branches of Hobbit-kind. More robust than Harfoots and less slender than Fallohides, they are recognised by their broad build, strong shoulders and exceptionally large hands and feet. Their hair is most often brown and curly, and some men grow beards, a rare trait among other Hobbits.</p>\n<h2>A people of rivers and plains</h2>\n<p>Stoors favour lowlands, river valleys, marshes, quiet banks and flat countryside. They readily settle near water and often build above-ground houses of wood, brick or stone. Their villages grow around fords, bridges, mills, landing places and fertile ground deposited by floods.</p>\n<h2>Appearance</h2>\n<p>Stoors are the most heavily built Hobbits. Their average height lies between that of Harfoots and Fallohides, but they are noticeably heavier and broader. Their complexion often falls between the darker colouring of Harfoots and the fairer skin of Fallohides.</p>\n<p>They are more likely than other Hobbits to wear boots or shoes when living in marshland, on stony riverbanks or in cold regions.</p>\n<h2>Endurance</h2>\n<p>Like all Hobbits, Stoors possess an understated toughness. Among them this endurance takes an especially physical form: heavy agricultural labour, rowing, carrying loads, long marches across wet ground and repeated exertion.</p>\n<h2>Dwellings</h2>\n<p>Stoors are more willing to use dwellings built above ground. Their houses are low, broad and solid. A Stoor village often includes a mill, quay, boathouses, fish-smoking sheds, workshops, raised granaries and plank paths across marshy areas.</p>\n<h2>Agriculture and trades</h2>\n<p>Stoors remain fundamentally farmers and craftsmen. They excel in occupations connected with water and plains: fishing, boating, milling, boatbuilding, netmaking, woodworking, basketry, animal husbandry, farming, cooking and preserving food.</p>\n<h2>Temperament</h2>\n<p>Stoors are generally calm, practical and more reserved toward strangers than other Hobbits. They place great value on common sense, patience, steady work, discretion, family solidarity and respect for boundaries and property.</p>\n<h2>Family and descent</h2>\n<p>Marriage is monogamous. Stoors traditionally trace lineage through women. Land, houses, fishing rights and certain family possessions may therefore pass through the mother. Elder women of the family often play an important part in preserving genealogies and settling domestic disputes.</p>\n<h2>Relations with other peoples</h2>\n<p>Stoors are the most isolated of the three great Hobbit branches. They rarely associate with the Big Folk unless necessary and remain cautious toward Dwarves and Elves. They nevertheless maintain regular relations with human millers, boatmen, fishers and merchants established along the same rivers.</p>\n<h2>Religion and festivals</h2>\n<p>Their spirituality remains discreet and informal. Communities often add traditions connected with rivers: blessing boats, meals marking the opening of the fishing season, lanterns set upon the water, rowing or fishing contests and commemorations of those who drowned.</p>\n<h2>Clothing and weapons</h2>\n<p>They wear traditional Hobbit clothing but make more frequent use of short boots, sturdy shoes, waxed garments, thick cloaks, leather aprons and reinforced trousers.</p>\n<p>They chiefly use weapons that can also serve as tools: dagger, hatchet, club, staff, sling, short bow, knife and fishing spear.</p>\n<h2>Cultural skills</h2>\n<p>Stoor Culture particularly favours:</p>\n<ul>\n<li>Swimming</li>\n<li>Boat handling</li>\n<li>Fishing</li>\n<li>Ropework</li>\n<li>Survival in marshes and riverlands</li>\n<li>Boatbuilding</li>\n<li>Milling</li>\n<li>Farming</li>\n<li>Cooking</li>\n<li>Observation</li>\n<li>Concealment</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Stoor Culture is especially suitable for a Hobbit from a riverside village, a marsh community, a family of boatmen, a mill, a farm on a floodplain or a line of fishers.</p>\n<p>It produces Hobbits who are more robust, more familiar with water and somewhat more open to above-ground dwellings than Harfoots.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+            "culture": "Stoors"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Hobbits"
+    ],
+    "en": [
+      "Hobbits"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-hobbits"
+  ]
+}

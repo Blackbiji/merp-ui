@@ -1,0 +1,79 @@
+{
+  "key": "herb-carpet-moss",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Mousse-Tapis (Carpet Moss)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-carpet-moss",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-2-NW",
+        "sourceCost": "4sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Carpet Moss"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Easy",
+      "form": "Lichen",
+      "prep": "apply",
+      "season": "",
+      "cost": "4sp",
+      "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Appliqué autour d’un os correctement remis en place, ce lichen facilite la réduction et double la vitesse de guérison. Il peut se conserver environ un an.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Mousse-Tapis (Carpet Moss)",
+      "system": {
+        "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Appliqué autour d’un os correctement remis en place, ce lichen facilite la réduction et double la vitesse de guérison. Il peut se conserver environ un an.</p>"
+      }
+    },
+    "en": {
+      "name": "Carpet Moss",
+      "system": {
+        "notes": "<p>This lichen is found chiefly in cool temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Applied around a correctly reset bone, this lichen helps the reduction and doubles the healing rate. It can be kept for about a year.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

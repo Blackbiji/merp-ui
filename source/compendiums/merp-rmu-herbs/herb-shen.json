@@ -1,0 +1,78 @@
+{
+  "key": "herb-shen",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Shen",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-shen",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-F-6-U",
+        "sourceCost": "27gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "F",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Shen"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Very Hard",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "27gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 4 contre les poisons nerveux.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Shen",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 4 contre les poisons nerveux.</p>"
+      }
+    },
+    "en": {
+      "name": "Shen",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in cool temperate climates, especially in freshwater banks and shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 4 antidote for nerve poisons.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

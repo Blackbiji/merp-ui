@@ -1,0 +1,79 @@
+{
+  "key": "herb-garig-tookash-garack",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Garíg (Tookash, Garack)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-garig-tookash-garack",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "a-Z-3-U",
+        "sourceCost": "55gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "a",
+        "localeCode": "Z",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Garíg (Tookash, Garack)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "Z",
+      "findDifficulty": "Light",
+      "form": "Cactus",
+      "prep": "ingest",
+      "season": "",
+      "cost": "55gp",
+      "notes": "<p>Ce cactus se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Un morceau gros comme un pouce rend environ 30 points de vie. Fraîche, la plante dégage une odeur si infecte qu’on la consomme rarement de bon gré ; elle est aussi nommée Sheloboon.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Garíg (Tookash, Garack)",
+      "system": {
+        "notes": "<p>Ce cactus se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Un morceau gros comme un pouce rend environ 30 points de vie. Fraîche, la plante dégage une odeur si infecte qu’on la consomme rarement de bon gré ; elle est aussi nommée Sheloboon.</p>"
+      }
+    },
+    "en": {
+      "name": "Garíg (Tookash, Garack)",
+      "system": {
+        "notes": "<p>This cactus is found chiefly in arid climates, especially in deserts, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>A thumb-sized piece restores about 30 concussion hits. Fresh, the plant gives off such a foul smell that it is rarely eaten willingly; it is also called Sheloboon.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

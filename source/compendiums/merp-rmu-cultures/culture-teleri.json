@@ -1,0 +1,716 @@
+{
+  "key": "culture-teleri",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Teleri — Falmari",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-teleri",
+        "canonicalKey": "culture-teleri",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-elves",
+        "availability": {
+          "ages": [
+            1
+          ],
+          "restrictedByAge": {
+            "1": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-teleri-age-1",
+            "folderKey": "cultures-age-1-elves",
+            "document": {
+              "name": "Teleri — Falmari",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-teleri-age-1",
+                  "canonicalKey": "culture-teleri",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-elves-age-1",
+                  "raceCanonicalKey": "race-elves",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Teleri — Falmari",
+                "description": "<h1>Teleri — Falmari</h1>\n<p>Les <strong>Teleri</strong> constituent la troisième et la plus nombreuse des grandes lignées des Eldar ayant entrepris la Grande Marche. Ceux qui atteignirent Aman sont appelés <strong>Falmari</strong>, le « Peuple des Vagues ». Leur Culture est inséparable d’Alqualondë, de la mer, du chant, de la construction navale et des navires-cygnes qui comptent parmi les plus belles œuvres des Eldar.</p>\n<h2>Grande Marche et divisions</h2>\n<p>Les Teleri progressèrent plus lentement que les Vanyar et les Noldor, s’arrêtant volontiers dans les terres rencontrées. Plusieurs branches se séparèrent : les Nandor abandonnèrent la Marche plus tôt, tandis que les Sindar descendirent des Teleri restés en Beleriand. Les Falmari suivirent Olwë jusqu’en Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, le Havre des Cygnes, est leur grande cité côtière. Son architecture accompagne les quais, les arches et la lumière de la mer. Les navires blancs en forme de cygne sont des œuvres uniques où se mêlent charpenterie, sculpture, gréement et art.</p>\n<h2>Mer et navigation</h2>\n<p>Navigation, construction navale, cordages, Natation, Observation des étoiles et Prévision du temps sont au cœur de leur formation. La mer constitue à la fois milieu de vie, source d’inspiration et objet de respect. Ulmo, Ossë et Uinen occupent naturellement une place importante dans leur mémoire et leurs chants.</p>\n<h2>Musique et artisanat</h2>\n<p>Le chant est l’un de leurs arts majeurs. Poésie, musique, perles, nacre, bois et tissus maritimes définissent une esthétique moins tournée vers les gemmes et la forge que celle des Noldor. Le blanc, l’argent, le bleu et les nuances de la mer dominent volontiers les vêtements et ornements.</p>\n<h2>Alqualondë et les Noldor</h2>\n<p>Le Massacre d’Alqualondë marque une rupture profonde. Le refus d’Olwë de céder les navires de son peuple conduit Fëanor et ses partisans à employer la force. La mémoire de ce premier Fratricide pèse durablement sur les relations avec les Noldor exilés.</p>\n<h2>Guerre</h2>\n<p>Les Teleri ne structurent pas leur société autour de la guerre. Lorsqu’ils doivent combattre, ils privilégient mobilité, précision, arcs, lances, javelots et lames maniables adaptées aux quais et aux navires. Les protections légères conviennent mieux à leur environnement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Teleri est destinée au Premier Âge. Un personnage doit être rattaché à Alqualondë, Tol Eressëa ou aux rivages d’Aman, avec une date précise qui détermine son rapport aux Noldor et au Massacre d’Alqualondë.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Coastlands",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 2
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Teleri — Falmari",
+                "system": {
+                  "description": "<h1>Teleri — Falmari</h1>\n<p>Les <strong>Teleri</strong> constituent la troisième et la plus nombreuse des grandes lignées des Eldar ayant entrepris la Grande Marche. Ceux qui atteignirent Aman sont appelés <strong>Falmari</strong>, le « Peuple des Vagues ». Leur Culture est inséparable d’Alqualondë, de la mer, du chant, de la construction navale et des navires-cygnes qui comptent parmi les plus belles œuvres des Eldar.</p>\n<h2>Grande Marche et divisions</h2>\n<p>Les Teleri progressèrent plus lentement que les Vanyar et les Noldor, s’arrêtant volontiers dans les terres rencontrées. Plusieurs branches se séparèrent : les Nandor abandonnèrent la Marche plus tôt, tandis que les Sindar descendirent des Teleri restés en Beleriand. Les Falmari suivirent Olwë jusqu’en Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, le Havre des Cygnes, est leur grande cité côtière. Son architecture accompagne les quais, les arches et la lumière de la mer. Les navires blancs en forme de cygne sont des œuvres uniques où se mêlent charpenterie, sculpture, gréement et art.</p>\n<h2>Mer et navigation</h2>\n<p>Navigation, construction navale, cordages, Natation, Observation des étoiles et Prévision du temps sont au cœur de leur formation. La mer constitue à la fois milieu de vie, source d’inspiration et objet de respect. Ulmo, Ossë et Uinen occupent naturellement une place importante dans leur mémoire et leurs chants.</p>\n<h2>Musique et artisanat</h2>\n<p>Le chant est l’un de leurs arts majeurs. Poésie, musique, perles, nacre, bois et tissus maritimes définissent une esthétique moins tournée vers les gemmes et la forge que celle des Noldor. Le blanc, l’argent, le bleu et les nuances de la mer dominent volontiers les vêtements et ornements.</p>\n<h2>Alqualondë et les Noldor</h2>\n<p>Le Massacre d’Alqualondë marque une rupture profonde. Le refus d’Olwë de céder les navires de son peuple conduit Fëanor et ses partisans à employer la force. La mémoire de ce premier Fratricide pèse durablement sur les relations avec les Noldor exilés.</p>\n<h2>Guerre</h2>\n<p>Les Teleri ne structurent pas leur société autour de la guerre. Lorsqu’ils doivent combattre, ils privilégient mobilité, précision, arcs, lances, javelots et lames maniables adaptées aux quais et aux navires. Les protections légères conviennent mieux à leur environnement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Teleri est destinée au Premier Âge. Un personnage doit être rattaché à Alqualondë, Tol Eressëa ou aux rivages d’Aman, avec une date précise qui détermine son rapport aux Noldor et au Massacre d’Alqualondë.</p>",
+                  "culture": "Teleri — Falmari"
+                }
+              },
+              "en": {
+                "name": "Teleri — Falmari",
+                "system": {
+                  "description": "<h1>Teleri — Falmari</h1>\n<p>The <strong>Teleri</strong> are the third and most numerous of the great hosts of the Eldar who undertook the Great Journey. Those who reached Aman are called <strong>Falmari</strong>, the “People of the Waves”. Their Culture is inseparable from Alqualondë, the sea, song, shipbuilding and the swan-ships that rank among the most beautiful works of the Eldar.</p>\n<h2>The Great Journey and divisions</h2>\n<p>The Teleri advanced more slowly than the Vanyar and Noldor, willingly lingering in the lands they encountered. Several branches separated: the Nandor abandoned the Journey earlier, while the Sindar descended from Teleri who remained in Beleriand. The Falmari followed Olwë into Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, the Haven of the Swans, is their great coastal city. Its architecture follows quays, arches and the light of the sea. The white swan-shaped ships are unique works combining carpentry, carving, rigging and art.</p>\n<h2>Sea and navigation</h2>\n<p>Navigation, Shipbuilding, Ropework, Swimming, Observation of the Stars and Weather Forecasting lie at the heart of their training. The sea is at once their living environment, source of inspiration and object of reverence. Ulmo, Ossë and Uinen naturally occupy important places in their memory and songs.</p>\n<h2>Music and craftsmanship</h2>\n<p>Song is one of their major arts. Poetry, music, pearls, mother-of-pearl, wood and maritime textiles define an aesthetic less focused on gems and smithcraft than that of the Noldor. White, silver, blue and the colours of the sea readily dominate clothing and ornaments.</p>\n<h2>Alqualondë and the Noldor</h2>\n<p>The Kinslaying at Alqualondë marks a profound rupture. Olwë's refusal to surrender his people's ships led Fëanor and his followers to use force. The memory of this first Kinslaying weighs for a long time upon relations with the exiled Noldor.</p>\n<h2>War</h2>\n<p>The Teleri do not organise their society around war. When they must fight, they favour mobility, precision, bows, spears, javelins and manageable blades suited to quays and ships. Light protection better suits their environment.</p>\n<h2>Place in character creation</h2>\n<p>Teleri Culture is intended for the First Age. A character should be tied to Alqualondë, Tol Eressëa or the shores of Aman, with a precise date determining their relationship with the Noldor and the Kinslaying at Alqualondë.</p>",
+                  "culture": "Teleri — Falmari"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Teleri — Falmari",
+      "description": "<h1>Teleri — Falmari</h1>\n<p>Les <strong>Teleri</strong> constituent la troisième et la plus nombreuse des grandes lignées des Eldar ayant entrepris la Grande Marche. Ceux qui atteignirent Aman sont appelés <strong>Falmari</strong>, le « Peuple des Vagues ». Leur Culture est inséparable d’Alqualondë, de la mer, du chant, de la construction navale et des navires-cygnes qui comptent parmi les plus belles œuvres des Eldar.</p>\n<h2>Grande Marche et divisions</h2>\n<p>Les Teleri progressèrent plus lentement que les Vanyar et les Noldor, s’arrêtant volontiers dans les terres rencontrées. Plusieurs branches se séparèrent : les Nandor abandonnèrent la Marche plus tôt, tandis que les Sindar descendirent des Teleri restés en Beleriand. Les Falmari suivirent Olwë jusqu’en Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, le Havre des Cygnes, est leur grande cité côtière. Son architecture accompagne les quais, les arches et la lumière de la mer. Les navires blancs en forme de cygne sont des œuvres uniques où se mêlent charpenterie, sculpture, gréement et art.</p>\n<h2>Mer et navigation</h2>\n<p>Navigation, construction navale, cordages, Natation, Observation des étoiles et Prévision du temps sont au cœur de leur formation. La mer constitue à la fois milieu de vie, source d’inspiration et objet de respect. Ulmo, Ossë et Uinen occupent naturellement une place importante dans leur mémoire et leurs chants.</p>\n<h2>Musique et artisanat</h2>\n<p>Le chant est l’un de leurs arts majeurs. Poésie, musique, perles, nacre, bois et tissus maritimes définissent une esthétique moins tournée vers les gemmes et la forge que celle des Noldor. Le blanc, l’argent, le bleu et les nuances de la mer dominent volontiers les vêtements et ornements.</p>\n<h2>Alqualondë et les Noldor</h2>\n<p>Le Massacre d’Alqualondë marque une rupture profonde. Le refus d’Olwë de céder les navires de son peuple conduit Fëanor et ses partisans à employer la force. La mémoire de ce premier Fratricide pèse durablement sur les relations avec les Noldor exilés.</p>\n<h2>Guerre</h2>\n<p>Les Teleri ne structurent pas leur société autour de la guerre. Lorsqu’ils doivent combattre, ils privilégient mobilité, précision, arcs, lances, javelots et lames maniables adaptées aux quais et aux navires. Les protections légères conviennent mieux à leur environnement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Teleri est destinée au Premier Âge. Un personnage doit être rattaché à Alqualondë, Tol Eressëa ou aux rivages d’Aman, avec une date précise qui détermine son rapport aux Noldor et au Massacre d’Alqualondë.</p>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Coastlands",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 10,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 2
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Teleri — Falmari",
+      "system": {
+        "description": "<h1>Teleri — Falmari</h1>\n<p>Les <strong>Teleri</strong> constituent la troisième et la plus nombreuse des grandes lignées des Eldar ayant entrepris la Grande Marche. Ceux qui atteignirent Aman sont appelés <strong>Falmari</strong>, le « Peuple des Vagues ». Leur Culture est inséparable d’Alqualondë, de la mer, du chant, de la construction navale et des navires-cygnes qui comptent parmi les plus belles œuvres des Eldar.</p>\n<h2>Grande Marche et divisions</h2>\n<p>Les Teleri progressèrent plus lentement que les Vanyar et les Noldor, s’arrêtant volontiers dans les terres rencontrées. Plusieurs branches se séparèrent : les Nandor abandonnèrent la Marche plus tôt, tandis que les Sindar descendirent des Teleri restés en Beleriand. Les Falmari suivirent Olwë jusqu’en Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, le Havre des Cygnes, est leur grande cité côtière. Son architecture accompagne les quais, les arches et la lumière de la mer. Les navires blancs en forme de cygne sont des œuvres uniques où se mêlent charpenterie, sculpture, gréement et art.</p>\n<h2>Mer et navigation</h2>\n<p>Navigation, construction navale, cordages, Natation, Observation des étoiles et Prévision du temps sont au cœur de leur formation. La mer constitue à la fois milieu de vie, source d’inspiration et objet de respect. Ulmo, Ossë et Uinen occupent naturellement une place importante dans leur mémoire et leurs chants.</p>\n<h2>Musique et artisanat</h2>\n<p>Le chant est l’un de leurs arts majeurs. Poésie, musique, perles, nacre, bois et tissus maritimes définissent une esthétique moins tournée vers les gemmes et la forge que celle des Noldor. Le blanc, l’argent, le bleu et les nuances de la mer dominent volontiers les vêtements et ornements.</p>\n<h2>Alqualondë et les Noldor</h2>\n<p>Le Massacre d’Alqualondë marque une rupture profonde. Le refus d’Olwë de céder les navires de son peuple conduit Fëanor et ses partisans à employer la force. La mémoire de ce premier Fratricide pèse durablement sur les relations avec les Noldor exilés.</p>\n<h2>Guerre</h2>\n<p>Les Teleri ne structurent pas leur société autour de la guerre. Lorsqu’ils doivent combattre, ils privilégient mobilité, précision, arcs, lances, javelots et lames maniables adaptées aux quais et aux navires. Les protections légères conviennent mieux à leur environnement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Teleri est destinée au Premier Âge. Un personnage doit être rattaché à Alqualondë, Tol Eressëa ou aux rivages d’Aman, avec une date précise qui détermine son rapport aux Noldor et au Massacre d’Alqualondë.</p>",
+        "culture": "Teleri — Falmari"
+      }
+    },
+    "en": {
+      "name": "Teleri — Falmari",
+      "system": {
+        "description": "<h1>Teleri — Falmari</h1>\n<p>The <strong>Teleri</strong> are the third and most numerous of the great hosts of the Eldar who undertook the Great Journey. Those who reached Aman are called <strong>Falmari</strong>, the “People of the Waves”. Their Culture is inseparable from Alqualondë, the sea, song, shipbuilding and the swan-ships that rank among the most beautiful works of the Eldar.</p>\n<h2>The Great Journey and divisions</h2>\n<p>The Teleri advanced more slowly than the Vanyar and Noldor, willingly lingering in the lands they encountered. Several branches separated: the Nandor abandoned the Journey earlier, while the Sindar descended from Teleri who remained in Beleriand. The Falmari followed Olwë into Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, the Haven of the Swans, is their great coastal city. Its architecture follows quays, arches and the light of the sea. The white swan-shaped ships are unique works combining carpentry, carving, rigging and art.</p>\n<h2>Sea and navigation</h2>\n<p>Navigation, Shipbuilding, Ropework, Swimming, Observation of the Stars and Weather Forecasting lie at the heart of their training. The sea is at once their living environment, source of inspiration and object of reverence. Ulmo, Ossë and Uinen naturally occupy important places in their memory and songs.</p>\n<h2>Music and craftsmanship</h2>\n<p>Song is one of their major arts. Poetry, music, pearls, mother-of-pearl, wood and maritime textiles define an aesthetic less focused on gems and smithcraft than that of the Noldor. White, silver, blue and the colours of the sea readily dominate clothing and ornaments.</p>\n<h2>Alqualondë and the Noldor</h2>\n<p>The Kinslaying at Alqualondë marks a profound rupture. Olwë's refusal to surrender his people's ships led Fëanor and his followers to use force. The memory of this first Kinslaying weighs for a long time upon relations with the exiled Noldor.</p>\n<h2>War</h2>\n<p>The Teleri do not organise their society around war. When they must fight, they favour mobility, precision, bows, spears, javelins and manageable blades suited to quays and ships. Light protection better suits their environment.</p>\n<h2>Place in character creation</h2>\n<p>Teleri Culture is intended for the First Age. A character should be tied to Alqualondë, Tol Eressëa or the shores of Aman, with a precise date determining their relationship with the Noldor and the Kinslaying at Alqualondë.</p>",
+        "culture": "Teleri — Falmari"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-teleri-age-1",
+      "folderKey": "cultures-age-1-elves",
+      "document": {
+        "name": "Teleri — Falmari",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-teleri-age-1",
+            "canonicalKey": "culture-teleri",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-elves-age-1",
+            "raceCanonicalKey": "race-elves",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Teleri — Falmari",
+          "description": "<h1>Teleri — Falmari</h1>\n<p>Les <strong>Teleri</strong> constituent la troisième et la plus nombreuse des grandes lignées des Eldar ayant entrepris la Grande Marche. Ceux qui atteignirent Aman sont appelés <strong>Falmari</strong>, le « Peuple des Vagues ». Leur Culture est inséparable d’Alqualondë, de la mer, du chant, de la construction navale et des navires-cygnes qui comptent parmi les plus belles œuvres des Eldar.</p>\n<h2>Grande Marche et divisions</h2>\n<p>Les Teleri progressèrent plus lentement que les Vanyar et les Noldor, s’arrêtant volontiers dans les terres rencontrées. Plusieurs branches se séparèrent : les Nandor abandonnèrent la Marche plus tôt, tandis que les Sindar descendirent des Teleri restés en Beleriand. Les Falmari suivirent Olwë jusqu’en Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, le Havre des Cygnes, est leur grande cité côtière. Son architecture accompagne les quais, les arches et la lumière de la mer. Les navires blancs en forme de cygne sont des œuvres uniques où se mêlent charpenterie, sculpture, gréement et art.</p>\n<h2>Mer et navigation</h2>\n<p>Navigation, construction navale, cordages, Natation, Observation des étoiles et Prévision du temps sont au cœur de leur formation. La mer constitue à la fois milieu de vie, source d’inspiration et objet de respect. Ulmo, Ossë et Uinen occupent naturellement une place importante dans leur mémoire et leurs chants.</p>\n<h2>Musique et artisanat</h2>\n<p>Le chant est l’un de leurs arts majeurs. Poésie, musique, perles, nacre, bois et tissus maritimes définissent une esthétique moins tournée vers les gemmes et la forge que celle des Noldor. Le blanc, l’argent, le bleu et les nuances de la mer dominent volontiers les vêtements et ornements.</p>\n<h2>Alqualondë et les Noldor</h2>\n<p>Le Massacre d’Alqualondë marque une rupture profonde. Le refus d’Olwë de céder les navires de son peuple conduit Fëanor et ses partisans à employer la force. La mémoire de ce premier Fratricide pèse durablement sur les relations avec les Noldor exilés.</p>\n<h2>Guerre</h2>\n<p>Les Teleri ne structurent pas leur société autour de la guerre. Lorsqu’ils doivent combattre, ils privilégient mobilité, précision, arcs, lances, javelots et lames maniables adaptées aux quais et aux navires. Les protections légères conviennent mieux à leur environnement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Teleri est destinée au Premier Âge. Un personnage doit être rattaché à Alqualondë, Tol Eressëa ou aux rivages d’Aman, avec une date précise qui détermine son rapport aux Noldor et au Massacre d’Alqualondë.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Coastlands",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 2
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Teleri — Falmari",
+          "system": {
+            "description": "<h1>Teleri — Falmari</h1>\n<p>Les <strong>Teleri</strong> constituent la troisième et la plus nombreuse des grandes lignées des Eldar ayant entrepris la Grande Marche. Ceux qui atteignirent Aman sont appelés <strong>Falmari</strong>, le « Peuple des Vagues ». Leur Culture est inséparable d’Alqualondë, de la mer, du chant, de la construction navale et des navires-cygnes qui comptent parmi les plus belles œuvres des Eldar.</p>\n<h2>Grande Marche et divisions</h2>\n<p>Les Teleri progressèrent plus lentement que les Vanyar et les Noldor, s’arrêtant volontiers dans les terres rencontrées. Plusieurs branches se séparèrent : les Nandor abandonnèrent la Marche plus tôt, tandis que les Sindar descendirent des Teleri restés en Beleriand. Les Falmari suivirent Olwë jusqu’en Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, le Havre des Cygnes, est leur grande cité côtière. Son architecture accompagne les quais, les arches et la lumière de la mer. Les navires blancs en forme de cygne sont des œuvres uniques où se mêlent charpenterie, sculpture, gréement et art.</p>\n<h2>Mer et navigation</h2>\n<p>Navigation, construction navale, cordages, Natation, Observation des étoiles et Prévision du temps sont au cœur de leur formation. La mer constitue à la fois milieu de vie, source d’inspiration et objet de respect. Ulmo, Ossë et Uinen occupent naturellement une place importante dans leur mémoire et leurs chants.</p>\n<h2>Musique et artisanat</h2>\n<p>Le chant est l’un de leurs arts majeurs. Poésie, musique, perles, nacre, bois et tissus maritimes définissent une esthétique moins tournée vers les gemmes et la forge que celle des Noldor. Le blanc, l’argent, le bleu et les nuances de la mer dominent volontiers les vêtements et ornements.</p>\n<h2>Alqualondë et les Noldor</h2>\n<p>Le Massacre d’Alqualondë marque une rupture profonde. Le refus d’Olwë de céder les navires de son peuple conduit Fëanor et ses partisans à employer la force. La mémoire de ce premier Fratricide pèse durablement sur les relations avec les Noldor exilés.</p>\n<h2>Guerre</h2>\n<p>Les Teleri ne structurent pas leur société autour de la guerre. Lorsqu’ils doivent combattre, ils privilégient mobilité, précision, arcs, lances, javelots et lames maniables adaptées aux quais et aux navires. Les protections légères conviennent mieux à leur environnement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Teleri est destinée au Premier Âge. Un personnage doit être rattaché à Alqualondë, Tol Eressëa ou aux rivages d’Aman, avec une date précise qui détermine son rapport aux Noldor et au Massacre d’Alqualondë.</p>",
+            "culture": "Teleri — Falmari"
+          }
+        },
+        "en": {
+          "name": "Teleri — Falmari",
+          "system": {
+            "description": "<h1>Teleri — Falmari</h1>\n<p>The <strong>Teleri</strong> are the third and most numerous of the great hosts of the Eldar who undertook the Great Journey. Those who reached Aman are called <strong>Falmari</strong>, the “People of the Waves”. Their Culture is inseparable from Alqualondë, the sea, song, shipbuilding and the swan-ships that rank among the most beautiful works of the Eldar.</p>\n<h2>The Great Journey and divisions</h2>\n<p>The Teleri advanced more slowly than the Vanyar and Noldor, willingly lingering in the lands they encountered. Several branches separated: the Nandor abandoned the Journey earlier, while the Sindar descended from Teleri who remained in Beleriand. The Falmari followed Olwë into Aman.</p>\n<h2>Alqualondë</h2>\n<p>Alqualondë, the Haven of the Swans, is their great coastal city. Its architecture follows quays, arches and the light of the sea. The white swan-shaped ships are unique works combining carpentry, carving, rigging and art.</p>\n<h2>Sea and navigation</h2>\n<p>Navigation, Shipbuilding, Ropework, Swimming, Observation of the Stars and Weather Forecasting lie at the heart of their training. The sea is at once their living environment, source of inspiration and object of reverence. Ulmo, Ossë and Uinen naturally occupy important places in their memory and songs.</p>\n<h2>Music and craftsmanship</h2>\n<p>Song is one of their major arts. Poetry, music, pearls, mother-of-pearl, wood and maritime textiles define an aesthetic less focused on gems and smithcraft than that of the Noldor. White, silver, blue and the colours of the sea readily dominate clothing and ornaments.</p>\n<h2>Alqualondë and the Noldor</h2>\n<p>The Kinslaying at Alqualondë marks a profound rupture. Olwë's refusal to surrender his people's ships led Fëanor and his followers to use force. The memory of this first Kinslaying weighs for a long time upon relations with the exiled Noldor.</p>\n<h2>War</h2>\n<p>The Teleri do not organise their society around war. When they must fight, they favour mobility, precision, bows, spears, javelins and manageable blades suited to quays and ships. Light protection better suits their environment.</p>\n<h2>Place in character creation</h2>\n<p>Teleri Culture is intended for the First Age. A character should be tied to Alqualondë, Tol Eressëa or the shores of Aman, with a precise date determining their relationship with the Noldor and the Kinslaying at Alqualondë.</p>",
+            "culture": "Teleri — Falmari"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Elfes"
+    ],
+    "en": [
+      "Elves"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-elves"
+  ]
+}

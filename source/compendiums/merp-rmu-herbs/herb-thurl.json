@@ -1,0 +1,79 @@
+{
+  "key": "herb-thurl",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Thurl",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-thurl",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-D-1-U",
+        "sourceCost": "2sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "D",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Thurl"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Routine",
+      "form": "Clove",
+      "prep": "brew",
+      "season": "",
+      "cost": "2sp",
+      "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très facile à repérer.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction rend 1 à 4 points de vie et se conserve une à deux semaines.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Thurl",
+      "system": {
+        "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très facile à repérer.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction rend 1 à 4 points de vie et se conserve une à deux semaines.</p>"
+      }
+    },
+    "en": {
+      "name": "Thurl",
+      "system": {
+        "notes": "<p>This clove is found chiefly in cool temperate climates, especially in deciduous or mixed forests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains routine to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction restores 1–4 concussion hits and keeps for one to two weeks.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-rumareth",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Rumareth",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-rumareth",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-6-U",
+        "sourceCost": "4gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Rumareth"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Very Hard",
+      "form": "Leaves",
+      "prep": "apply",
+      "season": "",
+      "cost": "4gp",
+      "notes": "<p>Ces feuilles se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Les feuilles fraîches arrêtent les saignements légers, jusqu’à environ deux points par round. Elles conservent leur efficacité une semaine après la cueillette.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Rumareth",
+      "system": {
+        "notes": "<p>Ces feuilles se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Les feuilles fraîches arrêtent les saignements légers, jusqu’à environ deux points par round. Elles conservent leur efficacité une semaine après la cueillette.</p>"
+      }
+    },
+    "en": {
+      "name": "Rumareth",
+      "system": {
+        "notes": "<p>This leaves is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Fresh leaves stop light bleeding, up to about 2 hits per round. They remain effective for one week after picking.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

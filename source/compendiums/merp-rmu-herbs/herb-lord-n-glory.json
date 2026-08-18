@@ -1,0 +1,90 @@
+{
+  "key": "herb-lord-n-glory",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Lord ’n’ Glory",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-lord-n-glory",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-C-4-NE",
+        "sourceCost": "12gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération",
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "C",
+        "regionCode": "NE",
+        "sourceVariants": [
+          {
+            "group": "Renforts & Altérations",
+            "code": "t-C-4-NE",
+            "form": "Flower",
+            "prep": "ingest",
+            "cost": "12gp",
+            "af": 8,
+            "effect": "Pressées, les fleurs donnent une huile aphrodisiaque qui provoque pendant plusieurs heures une forte excitation et des signes physiques évidents."
+          }
+        ],
+        "sourceName": "Lord ’n’ Glory"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Medium",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "12gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Pressée, la fleur produit une huile qui rend 1 à 6 points de vie ; elle possède également des propriétés aphrodisiaques. Pressées, les fleurs donnent une huile aphrodisiaque qui provoque pendant plusieurs heures une forte excitation et des signes physiques évidents.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lord ’n’ Glory",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Pressée, la fleur produit une huile qui rend 1 à 6 points de vie ; elle possède également des propriétés aphrodisiaques. Pressées, les fleurs donnent une huile aphrodisiaque qui provoque pendant plusieurs heures une forte excitation et des signes physiques évidents.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Lord ’n’ Glory",
+      "system": {
+        "notes": "<p>This flower is found chiefly in cool temperate climates, especially in coniferous forests, and is best known in north-eastern Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Pressed, the flower yields an oil that restores 1–6 concussion hits and also has aphrodisiac properties. Pressed flowers produce an aphrodisiac oil that causes strong arousal and obvious physical signs for several hours.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

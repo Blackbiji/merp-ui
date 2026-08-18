@@ -1,0 +1,84 @@
+{
+  "key": "herb-draf-seawort",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Dráf (Herbe-de-Mer / Seawort)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-draf-seawort",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-O-2-W",
+        "sourceCost": "5sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "O",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Dráf (Seawort)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Easy",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "5sp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Herbe-de-Mer (Seawort)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille rend 1 à 10 points de vie au cours de l’heure suivante, à condition de rester au repos. Chaque dose supplémentaire est deux fois moins efficace. Elle se garde trois jours.</p>",
+      "addictionFactor": 1,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "1d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Dráf (Herbe-de-Mer / Seawort)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Herbe-de-Mer (Seawort)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille rend 1 à 10 points de vie au cours de l’heure suivante, à condition de rester au repos. Chaque dose supplémentaire est deux fois moins efficace. Elle se garde trois jours.</p>"
+      }
+    },
+    "en": {
+      "name": "Dráf (Seawort)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Seawort</strong>.</p><p>This leaf is found chiefly in semi-arid climates, especially in sea coasts and saltwater shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The leaf restores 1–10 concussion hits over the following hour, provided the patient rests. Each additional dose is only half as effective. It keeps for three days.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

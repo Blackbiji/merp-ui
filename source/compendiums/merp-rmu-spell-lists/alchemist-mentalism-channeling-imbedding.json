@@ -1,0 +1,513 @@
+{
+  "key": "alchemist-mentalism-channeling-imbedding",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-essence-alchemist",
+  "document": {
+    "name": "Mentalism/Channeling Imbedding",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "alchemist-mentalism-channeling-imbedding",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Mentalism/Channeling Imbedding",
+        "sourcePage": 80,
+        "merpRealm": "Essence",
+        "merpCategory": "Profession",
+        "profession": "Alchemist",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Alchemy Companion p.80 — Core-Rules Alchemist Base List; MERP/RMSS Alchemist adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Mentalism/Channeling Imbedding",
+      "listType": "Base",
+      "realms": "Essence",
+      "profession": "Alchemist",
+      "notes": "<h2>Mentalism/Channeling Imbedding</h2><p>Permet à l’Alchimiste d’imprégner des sorts de Mentalisme ou de Canalisation. Le lanceur doit disposer d’un accès réel au sort concerné — par exemple grâce à un autre lanceur, une rune, un symbole ou une tradition religieuse appropriée.</p><p>Les sorts source au-delà du niveau 90 sont réservés pour une conversion ultérieure.</p>",
+      "label": "Mentalism/Channeling Imbedding",
+      "notesLabel": "Mentalism/Channeling Imbedding notes",
+      "spells": [
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Research",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.Research.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.Research.description",
+          "level": 1,
+          "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Mentalism or Channeling imbedding.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Recherche",
+              "description": "Recherche des sorts d’imprégnation spéciaux destinés à la création d’objets ; peut également conférer +50 aux jets appropriés de Recherche de Sorts et/ou de Création d’Objets concernant l’imprégnation du Mentalisme ou de la Théurgie."
+            },
+            "en": {
+              "name": "Research",
+              "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Mentalism or Channeling imbedding."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed I",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedI.description",
+          "level": 3,
+          "description": "Imbeds one 1st-level Mentalism or Channeling spell in an item or potion. The caster must have access to the spell being imbedded.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation I",
+              "description": "Imprègne dans un objet ou une potion un sort de Mentalisme ou de Théurgie de niveau 1. Le lanceur doit avoir accès au sort à imprégner."
+            },
+            "en": {
+              "name": "Imbed I",
+              "description": "Imbeds one 1st-level Mentalism or Channeling spell in an item or potion. The caster must have access to the spell being imbedded."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Charge Wand",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ChargeWand.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ChargeWand.description",
+          "level": 5,
+          "description": "Charges a Mentalism or Channeling wand when the caster has access to the appropriate spell.",
+          "aoe": "1 wand",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger une Baguette",
+              "description": "Charge une baguette de Mentalisme ou de Théurgie lorsque le lanceur a accès au sort approprié."
+            },
+            "en": {
+              "name": "Charge Wand",
+              "description": "Charges a Mentalism or Channeling wand when the caster has access to the appropriate spell."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed II",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedII.description",
+          "level": 6,
+          "description": "As Imbed I, but may imbed spells through 2nd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation II",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 2."
+            },
+            "en": {
+              "name": "Imbed II",
+              "description": "As Imbed I, but may imbed spells through 2nd level."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily I",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyI.description",
+          "level": 7,
+          "description": "An imbedded 1st-level spell may be used once per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien I",
+              "description": "Un sort imprégné de niveau 1 peut être utilisé une fois par jour."
+            },
+            "en": {
+              "name": "Daily I",
+              "description": "An imbedded 1st-level spell may be used once per day."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed III",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedIII.description",
+          "level": 9,
+          "description": "As Imbed I, but may imbed spells through 3rd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation III",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 3."
+            },
+            "en": {
+              "name": "Imbed III",
+              "description": "As Imbed I, but may imbed spells through 3rd level."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Charge Rod",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ChargeRod.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ChargeRod.description",
+          "level": 10,
+          "description": "As Charge Wand, but charges a rod.",
+          "aoe": "1 rod",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Sceptre",
+              "description": "Comme Charger une Baguette, mais charge un sceptre."
+            },
+            "en": {
+              "name": "Charge Rod",
+              "description": "As Charge Wand, but charges a rod."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily III",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyIII.description",
+          "level": 11,
+          "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien III",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 3 ; les sorts de niveau inférieur peuvent bénéficier d’un plus grand nombre d’utilisations par jour."
+            },
+            "en": {
+              "name": "Daily III",
+              "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed IV",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedIV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedIV.description",
+          "level": 12,
+          "description": "As Imbed I, but may imbed spells through 4th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation IV",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 4."
+            },
+            "en": {
+              "name": "Imbed IV",
+              "description": "As Imbed I, but may imbed spells through 4th level."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed V",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedV.description",
+          "level": 14,
+          "description": "As Imbed I, but may imbed spells through 5th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation V",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Imbed V",
+              "description": "As Imbed I, but may imbed spells through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily V",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyV.description",
+          "level": 15,
+          "description": "Creates a daily item using spells through 5th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien V",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Daily V",
+              "description": "Creates a daily item using spells through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Charge Staff",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ChargeStaff.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ChargeStaff.description",
+          "level": 20,
+          "description": "As Charge Wand, but charges a staff.",
+          "aoe": "1 staff",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Bâton",
+              "description": "Comme Charger une Baguette, mais charge un bâton."
+            },
+            "en": {
+              "name": "Charge Staff",
+              "description": "As Charge Wand, but charges a staff."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed X",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedX.description",
+          "level": 25,
+          "description": "As Imbed I, but may imbed spells through 10th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation X",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Imbed X",
+              "description": "As Imbed I, but may imbed spells through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily X",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.DailyX.description",
+          "level": 30,
+          "description": "Creates a daily item using spells through 10th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien X",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Daily X",
+              "description": "Creates a daily item using spells through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Constant",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.Constant.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.Constant.description",
+          "level": 50,
+          "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant",
+              "description": "Comme Quotidien X, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Constant",
+              "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed True",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedTrue.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.ImbedTrue.description",
+          "level": 60,
+          "description": "Imbeds one Mentalism or Channeling spell of any level in an item; it is normally usable once.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation Véritable",
+              "description": "Imprègne dans un objet un sort de Mentalisme ou de Théurgie de n’importe quel niveau ; il est normalement utilisable une seule fois."
+            },
+            "en": {
+              "name": "Imbed True",
+              "description": "Imbeds one Mentalism or Channeling spell of any level in an item; it is normally usable once."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Lord Daily",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.LordDaily.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.LordDaily.description",
+          "level": 75,
+          "description": "Creates exceptionally powerful daily-use items with spells through 20th level; artifact-scale and GM-controlled.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien Seigneur",
+              "description": "Crée des objets à usage quotidien exceptionnellement puissants, contenant des sorts jusqu’au niveau 20 ; il s’agit d’une magie de niveau artefact placée sous le contrôle du MJ."
+            },
+            "en": {
+              "name": "Lord Daily",
+              "description": "Creates exceptionally powerful daily-use items with spells through 20th level; artifact-scale and GM-controlled."
+            }
+          }
+        },
+        {
+          "spellList": "Mentalism/Channeling Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Lord Constant",
+          "label": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.LordConstant.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.MentalismChannelingImbedding.spells.LordConstant.description",
+          "level": 90,
+          "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant Seigneur",
+              "description": "Comme Quotidien Seigneur, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Lord Constant",
+              "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Imprégnation Mentalisme/Théurgie",
+      "system": {
+        "name": "Imprégnation Mentalisme/Théurgie",
+        "label": "Imprégnation Mentalisme/Théurgie",
+        "notesLabel": "Imprégnation Mentalisme/Théurgie — notes",
+        "notes": "<h2>Imprégnation Mentalisme/Théurgie</h2><p>Permet à l’Alchimiste d’imprégner des sorts de Mentalisme ou de Canalisation. Le lanceur doit disposer d’un accès réel au sort concerné — par exemple grâce à un autre lanceur, une rune, un symbole ou une tradition religieuse appropriée.</p><p>Les sorts source au-delà du niveau 90 sont réservés pour une conversion ultérieure.</p>"
+      }
+    },
+    "en": {
+      "name": "Mentalism/Channeling Imbedding",
+      "system": {
+        "name": "Mentalism/Channeling Imbedding",
+        "label": "Mentalism/Channeling Imbedding",
+        "notesLabel": "Mentalism/Channeling Imbedding — notes",
+        "notes": "<h2>Mentalism/Channeling Imbedding</h2><p>Allows the Alchemist to imbed Mentalism or Channeling spells. The caster must have genuine access to the spell concerned—for example through another caster, a rune, a symbol, or an appropriate religious tradition.</p><p>Source spells above level 90 are reserved for a later conversion.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts d’Essence",
+      "Alchimiste (Base)"
+    ],
+    "en": [
+      "Essence Spell Lists",
+      "Alchemist (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-essence",
+    "spell-lists-essence-alchemist"
+  ]
+}

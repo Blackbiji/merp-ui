@@ -1,0 +1,79 @@
+{
+  "key": "herb-kly",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-respiratoires",
+  "document": {
+    "name": "Kly",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-kly",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-H-5",
+        "sourceCost": "154gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": "Respiratoire",
+        "climateCode": "s",
+        "localeCode": "H",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Kly"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Hard",
+      "form": "Berry",
+      "prep": "paste",
+      "season": "",
+      "cost": "154gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 3F. Le jus brun peut infliger 3 à 300 points de vie, même si ses effets respiratoires généraux restent souvent limités.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 3
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Kly",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 3F. Le jus brun peut infliger 3 à 300 points de vie, même si ses effets respiratoires généraux restent souvent limités.</p>"
+      }
+    },
+    "en": {
+      "name": "Kly",
+      "system": {
+        "notes": "<p>This berry is found chiefly in semi-arid climates, especially in heaths, scrublands, and moors.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 3F respiratory poison. The brown juice can inflict 3–300 concussion hits, although its general respiratory effects are often limited.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Respiratoires"
+    ],
+    "en": [
+      "Respiratory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-respiratoires"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "key": "battle-confusion",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-mental",
+  "document": {
+    "name": "Confusion au combat (Battle Confusion)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "battle-confusion",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Discipline",
+      "name": "Battle Confusion",
+      "cost": "-10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Confusion au combat (Battle Confusion)</h1><h2>Description</h2><p>Le tumulte du combat vous désoriente. Lorsque plusieurs menaces, cris, mouvements et décisions urgentes se superposent, vous éprouvez davantage de difficulté à choisir la bonne action et à conserver une vision claire de la situation.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ peut imposer un modificateur défavorable aux jets tactiques, de Perception de combat ou d’Initiative lorsque le personnage est plongé dans un affrontement réellement chaotique. Le Défaut ne s’applique pas à toute action martiale isolée.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_battle-confusion.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Confusion au combat (Battle Confusion)",
+      "system": {
+        "description": "<h1>Confusion au combat (Battle Confusion)</h1><h2>Description</h2><p>Le tumulte du combat vous désoriente. Lorsque plusieurs menaces, cris, mouvements et décisions urgentes se superposent, vous éprouvez davantage de difficulté à choisir la bonne action et à conserver une vision claire de la situation.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ peut imposer un modificateur défavorable aux jets tactiques, de Perception de combat ou d’Initiative lorsque le personnage est plongé dans un affrontement réellement chaotique. Le Défaut ne s’applique pas à toute action martiale isolée.</p>"
+      }
+    },
+    "en": {
+      "name": "Battle Confusion",
+      "system": {
+        "description": "<h1>Battle Confusion</h1><h2>Description</h2><p>The turmoil of battle disorients you. When multiple threats, cries, movements, and urgent decisions overlap, you have greater difficulty choosing the right action and maintaining a clear view of the situation.</p><h2>MERP-RMU Adaptation</h2><p>The GM may impose an unfavorable modifier on tactical, combat Perception, or Initiative rolls when the character is caught in a genuinely chaotic confrontation. The Flaw does not apply to every isolated martial action.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Mentaux"
+    ],
+    "en": [
+      "Flaws — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-mental"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "key": "herb-witan-witav-drugo-sreca",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Witan (Witav, Drugo-sreca)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-witan-witav-drugo-sreca",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-6-SW",
+        "sourceCost": "15gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Étourdissement"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": "SW",
+        "sourceVariants": [],
+        "sourceName": "Witan (Witav, Drugo-sreca)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Very Hard",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "15gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille dissipe deux rounds d’étourdissement et reste active environ deux semaines après la cueillette.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 5,
+      "effects": [
+        {
+          "effect": "reduce-stun",
+          "value": 2
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Witan (Witav, Drugo-sreca)",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille dissipe deux rounds d’étourdissement et reste active environ deux semaines après la cueillette.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Witan (Witav, Drugo-sreca)",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known in south-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The leaf relieves two rounds of stun and remains potent for about two weeks after picking.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

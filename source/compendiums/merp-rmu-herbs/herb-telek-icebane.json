@@ -1,0 +1,84 @@
+{
+  "key": "herb-telek-icebane",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Telek (Fléau-de-Glace / Icebane)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-telek-icebane",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-S-5-NW",
+        "sourceCost": "10gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "S",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Telek (Icebane)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Hard",
+      "form": "Berries",
+      "prep": "apply/ingest",
+      "season": "",
+      "cost": "10gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Fléau-de-Glace (Icebane)</strong>.</p><p>Ces baies se rencontre surtout dans les régions au climat glacial, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle peut être appliquée ou consommée.</p><p>Mangées, les baies rendent 3 à 30 points de vie perdus à cause du froid. Écrasées et frottées sur une gelure, elles peuvent la faire disparaître en une dizaine de rounds. Le jus se garde un mois.</p>",
+      "addictionFactor": 1,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "3d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Telek (Fléau-de-Glace / Icebane)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Fléau-de-Glace (Icebane)</strong>.</p><p>Ces baies se rencontre surtout dans les régions au climat glacial, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle peut être appliquée ou consommée.</p><p>Mangées, les baies rendent 3 à 30 points de vie perdus à cause du froid. Écrasées et frottées sur une gelure, elles peuvent la faire disparaître en une dizaine de rounds. Le jus se garde un mois.</p>"
+      }
+    },
+    "en": {
+      "name": "Telek (Icebane)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Icebane</strong>.</p><p>This berries is found chiefly in frigid climates, especially in short-grass plains, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it may be applied directly or consumed.</p><p>Eaten, the berries restore 3–30 concussion hits lost to cold. Crushed and rubbed onto frostbite, they can remove it in about ten rounds. The juice keeps for one month.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

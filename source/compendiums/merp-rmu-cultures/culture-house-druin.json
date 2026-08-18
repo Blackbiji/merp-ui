@@ -1,0 +1,2126 @@
+{
+  "key": "culture-house-druin",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Maison de Drúin — Pieds-de-Pierre",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-house-druin",
+        "canonicalKey": "culture-house-druin",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-khazad",
+        "availability": {
+          "ages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-house-druin-age-1",
+            "folderKey": "cultures-age-1-khazad",
+            "document": {
+              "name": "Maison de Drúin — Pieds-de-Pierre",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-druin-age-1",
+                  "canonicalKey": "culture-house-druin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-1",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Drúin — Pieds-de-Pierre",
+                "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Drúin — Pieds-de-Pierre",
+                "system": {
+                  "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                  "culture": "Maison de Drúin — Pieds-de-Pierre"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Drúin) — Stonefoots",
+                "system": {
+                  "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+                  "culture": "Khazâd (House of Drúin) — Stonefoots"
+                }
+              }
+            }
+          },
+          "2": {
+            "sourceKey": "culture-house-druin-age-2",
+            "folderKey": "cultures-age-2-khazad",
+            "document": {
+              "name": "Maison de Drúin — Pieds-de-Pierre",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-druin-age-2",
+                  "canonicalKey": "culture-house-druin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-2",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Drúin — Pieds-de-Pierre",
+                "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Drúin — Pieds-de-Pierre",
+                "system": {
+                  "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                  "culture": "Maison de Drúin — Pieds-de-Pierre"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Drúin) — Stonefoots",
+                "system": {
+                  "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+                  "culture": "Khazâd (House of Drúin) — Stonefoots"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-house-druin-age-3",
+            "folderKey": "cultures-age-3-khazad",
+            "document": {
+              "name": "Maison de Drúin — Pieds-de-Pierre",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-druin-age-3",
+                  "canonicalKey": "culture-house-druin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-3",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Drúin — Pieds-de-Pierre",
+                "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Drúin — Pieds-de-Pierre",
+                "system": {
+                  "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                  "culture": "Maison de Drúin — Pieds-de-Pierre"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Drúin) — Stonefoots",
+                "system": {
+                  "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+                  "culture": "Khazâd (House of Drúin) — Stonefoots"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-house-druin-age-4",
+            "folderKey": "cultures-age-4-khazad",
+            "document": {
+              "name": "Maison de Drúin — Pieds-de-Pierre",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-druin-age-4",
+                  "canonicalKey": "culture-house-druin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-4",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Drúin — Pieds-de-Pierre",
+                "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Drúin — Pieds-de-Pierre",
+                "system": {
+                  "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+                  "culture": "Maison de Drúin — Pieds-de-Pierre"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Drúin) — Stonefoots",
+                "system": {
+                  "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+                  "culture": "Khazâd (House of Drúin) — Stonefoots"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Maison de Drúin — Pieds-de-Pierre",
+      "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Underground",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 0
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Maison de Drúin — Pieds-de-Pierre",
+      "system": {
+        "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+        "culture": "Maison de Drúin — Pieds-de-Pierre"
+      }
+    },
+    "en": {
+      "name": "Khazâd (House of Drúin) — Stonefoots",
+      "system": {
+        "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+        "culture": "Khazâd (House of Drúin) — Stonefoots"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-house-druin-age-1",
+      "folderKey": "cultures-age-1-khazad",
+      "document": {
+        "name": "Maison de Drúin — Pieds-de-Pierre",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-druin-age-1",
+            "canonicalKey": "culture-house-druin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-1",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Drúin — Pieds-de-Pierre",
+          "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Drúin — Pieds-de-Pierre",
+          "system": {
+            "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+            "culture": "Maison de Drúin — Pieds-de-Pierre"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Drúin) — Stonefoots",
+          "system": {
+            "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+            "culture": "Khazâd (House of Drúin) — Stonefoots"
+          }
+        }
+      }
+    },
+    "2": {
+      "sourceKey": "culture-house-druin-age-2",
+      "folderKey": "cultures-age-2-khazad",
+      "document": {
+        "name": "Maison de Drúin — Pieds-de-Pierre",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-druin-age-2",
+            "canonicalKey": "culture-house-druin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-2",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Drúin — Pieds-de-Pierre",
+          "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Drúin — Pieds-de-Pierre",
+          "system": {
+            "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+            "culture": "Maison de Drúin — Pieds-de-Pierre"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Drúin) — Stonefoots",
+          "system": {
+            "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+            "culture": "Khazâd (House of Drúin) — Stonefoots"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-house-druin-age-3",
+      "folderKey": "cultures-age-3-khazad",
+      "document": {
+        "name": "Maison de Drúin — Pieds-de-Pierre",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-druin-age-3",
+            "canonicalKey": "culture-house-druin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-3",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Drúin — Pieds-de-Pierre",
+          "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Drúin — Pieds-de-Pierre",
+          "system": {
+            "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+            "culture": "Maison de Drúin — Pieds-de-Pierre"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Drúin) — Stonefoots",
+          "system": {
+            "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+            "culture": "Khazâd (House of Drúin) — Stonefoots"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-house-druin-age-4",
+      "folderKey": "cultures-age-4-khazad",
+      "document": {
+        "name": "Maison de Drúin — Pieds-de-Pierre",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-druin-age-4",
+            "canonicalKey": "culture-house-druin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-4",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Drúin — Pieds-de-Pierre",
+          "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Drúin — Pieds-de-Pierre",
+          "system": {
+            "description": "<h1>Maison de Drúin — Pieds-de-Pierre</h1>\n<p>Les <strong>Khazâd de la Maison de Drúin</strong>, ou <strong>Pieds-de-Pierre</strong>, descendent du Père Drúin, éveillé sous les Montagnes de Fer aux côtés de Barin. Après un premier établissement dans les vallées orientales des Monts Brumeux, la découverte du laen rouge les conduisit sous Amon Lanc puis vers les Ered Harmal et Rûrik. Leur Maison faillit disparaître sous les coups du Roi-Démon Mûar avant que ses héritiers ne réapparaissent dans les guerres de libération de la fin du Deuxième Âge.</p>\n<h2>Tumûn-gabil et le laen rouge</h2>\n<p>La découverte du laen rouge provoqua la fondation de Tumûn-gabil sous Amon Lanc. En 97 D.A., la majorité de la Maison partit vers les terres des Chey et les Ered Harmal, tandis qu’une petite communauté demeurait sur place.</p>\n<h2>Rûrik et Tumunamahal</h2>\n<p>En 700 D.A., les Pieds-de-Pierre fondèrent Rûrik dans le sud-est d’Endor. Tumunamahal devint le grand symbole de leur prospérité, associant mines, ateliers et architecture monumentale dédiée à la continuité de la Maison.</p>\n<h2>Mûar et l’errance</h2>\n<p>La guerre lancée par Mûar en 1144 D.A. se termina en 1157 par la prise des cavernes et une quasi-destruction de la Maison. Les survivants partirent vers l’ouest avec leurs outils, leurs archives et la mémoire de leurs demeures.</p>\n<h2>Retour à la guerre</h2>\n<p>En 2741 D.A., les héritiers de Drúin participèrent avec des alliés humains à l’expédition destinée à libérer les Nains de Barin. Un an plus tard, les derniers soldats du Roi-Démon furent chassés des montagnes. L’ancienne parenté des deux Pères trouvait ainsi une expression concrète plusieurs millénaires après leur éveil.</p>\n<h2>Pieds-de-Pierre</h2>\n<p>La Maison est célèbre pour son extraordinaire Travail de la pierre. Taille, construction, architecture souterraine, mines et Spéléologie sont au cœur de son identité. Les vêtements lourds, capes colorées et bordures crénelées prolongent volontiers cette esthétique géométrique.</p>\n<h2>Lignée et croyances</h2>\n<p>Chaque lignée est conçue comme un ensemble uni par un esprit commun reliant ancêtres et descendants. Mahal demeure au sommet de la révérence. Les eaux ouvertes inspirent une forte aversion et la Natation est peu présente dans l’éducation traditionnelle.</p>\n<h2>Place dans la création de personnage</h2>\n<p>L’époque choisie transforme radicalement l’origine : Monts Brumeux, Tumûn-gabil, Rûrik, Tumunamahal ou communautés de survivants. La mémoire du laen rouge, de Mûar et de l’aide apportée à Barin fournit de puissants héritages familiaux.</p>",
+            "culture": "Maison de Drúin — Pieds-de-Pierre"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Drúin) — Stonefoots",
+          "system": {
+            "description": "<h1>Khazâd (House of Drúin) — Stonefoots</h1>\n<p>The <strong>Khazâd of the House of Drúin</strong>, or <strong>Stonefoots</strong>, descend from Father Drúin, who awoke beneath the Iron Mountains alongside Barin. After an initial settlement in the eastern valleys of the Misty Mountains, the discovery of red laen led them beneath Amon Lanc and later toward the Ered Harmal and Rûrik. Their House was nearly destroyed by the Demon-king Mûar before its heirs reappeared in the wars of liberation at the end of the Second Age.</p>\n<h2>Tumûn-gabil and red laen</h2>\n<p>The discovery of red laen led to the founding of Tumûn-gabil beneath Amon Lanc. In S.A. 97, most of the House departed for the lands of the Chey and the Ered Harmal, while a small community remained behind.</p>\n<h2>Rûrik and Tumunamahal</h2>\n<p>In S.A. 700, the Stonefoots founded Rûrik in south-eastern Endor. Tumunamahal became the great symbol of their prosperity, combining mines, workshops and monumental architecture dedicated to the continuity of the House.</p>\n<h2>Mûar and wandering</h2>\n<p>The war launched by Mûar in S.A. 1144 ended in 1157 with the capture of the caverns and the near destruction of the House. The survivors went west carrying their tools, archives and the memory of their dwellings.</p>\n<h2>Return to war</h2>\n<p>In S.A. 2741, the heirs of Drúin joined human allies in the expedition to free the Dwarves of Barin. One year later, the last soldiers of the Demon-king were driven from the mountains. The ancient kinship of the two Fathers thus found concrete expression several millennia after their awakening.</p>\n<h2>Stonefoots</h2>\n<p>The House is famous for its extraordinary Stonecraft. Cutting, construction, underground architecture, mining and Caving lie at the heart of its identity. Heavy clothing, colourful cloaks and crenellated borders often extend this geometric aesthetic.</p>\n<h2>Lineage and beliefs</h2>\n<p>Each lineage is conceived as a whole united by a common spirit linking ancestors and descendants. Mahal remains at the summit of their reverence. Open water inspires strong aversion and Swimming plays little part in traditional education.</p>\n<h2>Place in character creation</h2>\n<p>The chosen period radically changes the character's origin: Misty Mountains, Tumûn-gabil, Rûrik, Tumunamahal or communities of survivors. The memory of red laen, Mûar and the aid given to Barin provide powerful family legacies.</p>",
+            "culture": "Khazâd (House of Drúin) — Stonefoots"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Khazâd"
+    ],
+    "en": [
+      "Khazâd"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-khazad"
+  ]
+}

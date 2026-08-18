@@ -1,0 +1,76 @@
+{
+  "key": "langage-pedu",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "regles-langages",
+  "document": {
+    "name": "Pêdu",
+    "folder": null,
+    "sort": 240000,
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "collection": "merp-rmu-rules",
+        "key": "langage-pedu",
+        "section": "langages"
+      }
+    },
+    "pages": [
+      {
+        "name": "Pêdu",
+        "type": "text",
+        "title": {
+          "show": false,
+          "level": 1
+        },
+        "sort": 100000,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "image": {},
+        "text": {
+          "format": 1,
+          "markdown": "",
+          "content": "<div class=\"merp-rmu-rules merp-rmu-language-entry\"><h1>Pêdu</h1><section class=\"merp-rmu-rule-summary\"><p><strong>Statut :</strong> Développement MERP/ICE</p></section><h2>Présentation</h2><p>Langue des Pêdi/Jashcâi dans les cultures MERP, utilisée comme langue native pleinement développée et écrite. Elle est pratiquée parallèlement au Lynerian. La compilation de référence l’énumère parmi les langues d’Endor sans fournir une notice historique détaillée.</p><h2>Usage dans MERP-RMU</h2><p>Cette notice est descriptive. Les rangs linguistiques effectifs d’un personnage sont gérés par les compétences RMU <em>Language Spoken</em>, <em>Language Written</em>, <em>Lip Reading</em> et <em>Language Signaled</em> selon les données de sa Culture.</p><h2>Sources éditoriales</h2><ul><li>MERP Pêdi culture</li><li>RMSS/RMFRP language abbreviations</li></ul></div>"
+        }
+      }
+    ]
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pêdu",
+      "pages": [
+        {
+          "name": "Pêdu",
+          "text": {
+            "content": "<div class=\"merp-rmu-rules merp-rmu-language-entry\"><h1>Pêdu</h1><section class=\"merp-rmu-rule-summary\"><p><strong>Statut :</strong> Développement MERP/ICE</p></section><h2>Présentation</h2><p>Langue des Pêdi/Jashcâi dans les cultures MERP, utilisée comme langue native pleinement développée et écrite. Elle est pratiquée parallèlement au Lynerian. La compilation de référence l’énumère parmi les langues d’Endor sans fournir une notice historique détaillée.</p><h2>Usage dans MERP-RMU</h2><p>Cette notice est descriptive. Les rangs linguistiques effectifs d’un personnage sont gérés par les compétences RMU <em>Language Spoken</em>, <em>Language Written</em>, <em>Lip Reading</em> et <em>Language Signaled</em> selon les données de sa Culture.</p><h2>Sources éditoriales</h2><ul><li>MERP Pêdi culture</li><li>RMSS/RMFRP language abbreviations</li></ul></div>"
+          },
+          "title": {
+            "show": false
+          }
+        }
+      ]
+    },
+    "en": {
+      "name": "Pêdu",
+      "pages": [
+        {
+          "name": "Pêdu",
+          "text": {
+            "content": "<div class=\"merp-rmu-rules merp-rmu-language-entry\"><h1>Pêdu</h1><section class=\"merp-rmu-rule-summary\"><p><strong>Status :</strong> MERP/ICE development</p></section><h2>Overview</h2><p>The language of the Pêdi/Jashcâi in MERP cultures, used as a fully developed native written language. It is practised alongside Lynerian. The reference compilation lists it among the languages of Endor without providing a detailed historical entry.</p><h2>Use in MERP-RMU</h2><p>This entry is descriptive. A character’s actual language ranks are handled through the RMU skills <em>Language Spoken</em>, <em>Language Written</em>, <em>Lip Reading</em>, and <em>Language Signaled</em> according to Culture data.</p><h2>Editorial sources</h2><ul><li>MERP Pêdi culture</li><li>RMSS/RMFRP language abbreviations</li></ul></div>"
+          },
+          "title": {
+            "show": false
+          }
+        }
+      ]
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [],
+    "en": []
+  },
+  "compendiumFolderKeyPath": []
+}

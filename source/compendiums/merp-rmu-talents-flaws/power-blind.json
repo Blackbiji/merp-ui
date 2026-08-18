@@ -1,0 +1,64 @@
+{
+  "key": "power-blind",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Aveugle à la Puissance (Power Blind)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "power-blind",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Power Blind",
+      "cost": "-10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Aveugle à la Puissance (Power Blind)</h1><h2>Description</h2><p>Vous êtes partiellement aveugle aux courants et manifestations de Puissance. Cette cécité à la Puissance rend plus difficile la perception et l’analyse des phénomènes magiques.</p><h2>Adaptation MERP-RMU</h2><p>Vous subissez une pénalité de <strong>−10</strong> aux Manœuvres dont l’objet principal est de percevoir, ressentir ou analyser directement la Puissance magique. Les effets évidents aux sens ordinaires restent perceptibles normalement.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_power-blind.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Aveugle à la Puissance (Power Blind)",
+      "system": {
+        "description": "<h1>Aveugle à la Puissance (Power Blind)</h1><h2>Description</h2><p>Vous êtes partiellement aveugle aux courants et manifestations de Puissance. Cette cécité à la Puissance rend plus difficile la perception et l’analyse des phénomènes magiques.</p><h2>Adaptation MERP-RMU</h2><p>Vous subissez une pénalité de <strong>−10</strong> aux Manœuvres dont l’objet principal est de percevoir, ressentir ou analyser directement la Puissance magique. Les effets évidents aux sens ordinaires restent perceptibles normalement.</p>"
+      }
+    },
+    "en": {
+      "name": "Power Blind",
+      "system": {
+        "description": "<h1>Power Blind</h1><h2>Description</h2><p>You are partially blind to currents and manifestations of Power. This blindness makes magical phenomena harder for you to perceive and analyze.</p><h2>MERP-RMU Adaptation</h2><p>You suffer a <strong>−10</strong> penalty to Maneuvers whose primary purpose is to perceive, sense, or directly analyze magical Power. Effects obvious to ordinary senses remain normally perceptible.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

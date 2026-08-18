@@ -1,0 +1,562 @@
+{
+  "key": "herutano-liquid-gas-skills",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-herutano",
+  "document": {
+    "name": "Liquid/Gas Skills",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herutano-liquid-gas-skills",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Liquid/Gas Skills",
+        "sourcePage": 85,
+        "merpRealm": "Essence",
+        "merpCategory": "Profession",
+        "profession": "Alchemist",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmu-adapted-spell-list",
+          "reference": "Liquid/Gas Skills -> Liquid/Gas Skills",
+          "merpMapping": "Direct MERP/RMSS Herutano list using existing Liquid/Gas Skills mechanics"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Liquid/Gas Skills",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Herutano",
+      "notes": "<h2>Liquid/Gas Skills</h2><p>Prépare liquides, gaz, poisons et potions et permet d’y intégrer des sorts grâce aux Listes d’Imbedding. Plusieurs sorts couvrent des domaines voisins ; les bonus alternatifs aux Compétences ne doivent pas être cumulés.</p><p>Les sorts source de niveau 100 et 120 ne sont pas inclus dans cette première conversion RMU.</p>",
+      "label": "Liquid/Gas Skills",
+      "notesLabel": "Liquid/Gas Skills notes",
+      "spells": [
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Work Liquid",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkLiquid.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkLiquid.description",
+          "level": 1,
+          "description": "Flawlessly works non-magical liquids; alternatively grants +50 to appropriate Alchemy, brewing, distilling or winery rolls.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Liquides",
+              "description": "Travaille parfaitement les liquides non magiques ; peut également conférer +50 aux jets appropriés d’Alchimie, de Brassage, de Distillation ou de Vinification."
+            },
+            "en": {
+              "name": "Work Liquid",
+              "description": "Flawlessly works non-magical liquids; alternatively grants +50 to appropriate Alchemy, brewing, distilling or winery rolls."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Poison I",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonI.description",
+          "level": 2,
+          "description": "Safely handles, prepares and processes poisons with attacks up to 1st level; alternatively grants +50 to appropriate poison skills.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Poison I",
+              "description": "Manipule, prépare et traite sans danger les poisons dont l’attaque ne dépasse pas le niveau 1 ; peut également conférer +50 aux Compétences appropriées liées aux poisons."
+            },
+            "en": {
+              "name": "Poison I",
+              "description": "Safely handles, prepares and processes poisons with attacks up to 1st level; alternatively grants +50 to appropriate poison skills."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion I",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionI.description",
+          "level": 3,
+          "description": "Creates one dose of potion capable of holding one imbedded 1st-level spell.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion I",
+              "description": "Crée une dose de potion pouvant contenir un sort imprégné de niveau 1."
+            },
+            "en": {
+              "name": "Potion I",
+              "description": "Creates one dose of potion capable of holding one imbedded 1st-level spell."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Poison III",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonIII.description",
+          "level": 4,
+          "description": "As Poison I, but handles poisons through 3rd level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Poison III",
+              "description": "Comme Poison I, mais permet de traiter des poisons jusqu’au niveau 3."
+            },
+            "en": {
+              "name": "Poison III",
+              "description": "As Poison I, but handles poisons through 3rd level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Work Gas",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkGas.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkGas.description",
+          "level": 5,
+          "description": "Flawlessly works non-magical gases; alternatively grants +50 to appropriate Alchemy rolls.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Gaz",
+              "description": "Travaille parfaitement les gaz non magiques ; peut également conférer +50 aux jets d’Alchimie appropriés."
+            },
+            "en": {
+              "name": "Work Gas",
+              "description": "Flawlessly works non-magical gases; alternatively grants +50 to appropriate Alchemy rolls."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion II",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionII.description",
+          "level": 6,
+          "description": "As Potion I, but may hold a spell through 2nd level.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion II",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 2."
+            },
+            "en": {
+              "name": "Potion II",
+              "description": "As Potion I, but may hold a spell through 2nd level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Poison VI",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonVI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonVI.description",
+          "level": 7,
+          "description": "As Poison I, but handles poisons through 6th level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Poison VI",
+              "description": "Comme Poison I, mais permet de traiter des poisons jusqu’au niveau 6."
+            },
+            "en": {
+              "name": "Poison VI",
+              "description": "As Poison I, but handles poisons through 6th level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion III",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionIII.description",
+          "level": 9,
+          "description": "As Potion I, but may hold a spell through 3rd level.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion III",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 3."
+            },
+            "en": {
+              "name": "Potion III",
+              "description": "As Potion I, but may hold a spell through 3rd level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Poison X",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonX.description",
+          "level": 10,
+          "description": "As Poison I, but handles poisons through 10th level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Poison X",
+              "description": "Comme Poison I, mais permet de traiter des poisons jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Poison X",
+              "description": "As Poison I, but handles poisons through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Work Magical Liquid",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkMagicalLiquid.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkMagicalLiquid.description",
+          "level": 11,
+          "description": "As Work Liquid, but works magical liquids and may attempt to combine multiple magical effects, subject to magic-interaction rules.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Liquides Magiques",
+              "description": "Comme Travail des Liquides, mais permet de travailler les liquides magiques et de tenter de combiner plusieurs effets magiques, sous réserve des règles d’interaction magique."
+            },
+            "en": {
+              "name": "Work Magical Liquid",
+              "description": "As Work Liquid, but works magical liquids and may attempt to combine multiple magical effects, subject to magic-interaction rules."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion IV",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionIV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionIV.description",
+          "level": 12,
+          "description": "As Potion I, but may hold a spell through 4th level.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion IV",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 4."
+            },
+            "en": {
+              "name": "Potion IV",
+              "description": "As Potion I, but may hold a spell through 4th level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Gaseous Potion",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.GaseousPotion.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.GaseousPotion.description",
+          "level": 13,
+          "description": "When cast immediately before a Potion spell, creates a gaseous potion released into the air; beings in the affected area may receive an RR as determined by the source rules.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion Gazeuse",
+              "description": "Lancé immédiatement avant un sort de Potion, crée une potion gazeuse libérée dans l’air ; les êtres présents dans la zone affectée peuvent bénéficier d’un JR selon les règles d’origine."
+            },
+            "en": {
+              "name": "Gaseous Potion",
+              "description": "When cast immediately before a Potion spell, creates a gaseous potion released into the air; beings in the affected area may receive an RR as determined by the source rules."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Work Magical Gas",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkMagicalGas.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.WorkMagicalGas.description",
+          "level": 14,
+          "description": "As Work Gas, but works magical gases and may attempt to combine multiple magical effects.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Gaz Magiques",
+              "description": "Comme Travail des Gaz, mais permet de travailler les gaz magiques et de tenter de combiner plusieurs effets magiques."
+            },
+            "en": {
+              "name": "Work Magical Gas",
+              "description": "As Work Gas, but works magical gases and may attempt to combine multiple magical effects."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion V",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionV.description",
+          "level": 15,
+          "description": "As Potion I, but may hold a spell through 5th level.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion V",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Potion V",
+              "description": "As Potion I, but may hold a spell through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion VII",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionVII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionVII.description",
+          "level": 20,
+          "description": "As Potion I, but may hold a spell through 7th level.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion VII",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 7."
+            },
+            "en": {
+              "name": "Potion VII",
+              "description": "As Potion I, but may hold a spell through 7th level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion X",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionX.description",
+          "level": 25,
+          "description": "As Potion I, but may hold a spell through 10th level.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion X",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Potion X",
+              "description": "As Potion I, but may hold a spell through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Multiple Doses",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.MultipleDoses.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.MultipleDoses.description",
+          "level": 30,
+          "description": "Allows a Potion spell to create several doses by dividing the available spell-level capacity among them.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Doses Multiples",
+              "description": "Permet à un sort de Potion de créer plusieurs doses en répartissant entre elles la capacité disponible en niveaux de sort."
+            },
+            "en": {
+              "name": "Multiple Doses",
+              "description": "Allows a Potion spell to create several doses by dividing the available spell-level capacity among them."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Poisons True",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonsTrue.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PoisonsTrue.description",
+          "level": 40,
+          "description": "Safely works poisons of any level or magical nature.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Poisons Véritables",
+              "description": "Permet de travailler sans danger des poisons de n’importe quel niveau ou de nature magique."
+            },
+            "en": {
+              "name": "Poisons True",
+              "description": "Safely works poisons of any level or magical nature."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Lord Potion",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.LordPotion.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.LordPotion.description",
+          "level": 50,
+          "description": "As Potion I, but may hold a spell through 20th level.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion Seigneur",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 20."
+            },
+            "en": {
+              "name": "Lord Potion",
+              "description": "As Potion I, but may hold a spell through 20th level."
+            }
+          }
+        },
+        {
+          "spellList": "Liquid/Gas Skills",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Potion XXX",
+          "label": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionXXX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.LiquidGasSkills.spells.PotionXXX.description",
+          "level": 75,
+          "description": "As Potion I, but may hold a spell through 30th level. This is optional artifact-scale magic requiring exceptional circumstances.",
+          "aoe": "1 dose",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Potion XXX",
+              "description": "Comme Potion I, mais peut contenir un sort jusqu’au niveau 30. Il s’agit d’une magie optionnelle de niveau artefact exigeant des circonstances exceptionnelles."
+            },
+            "en": {
+              "name": "Potion XXX",
+              "description": "As Potion I, but may hold a spell through 30th level. This is optional artifact-scale magic requiring exceptional circumstances."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Techniques des Liquides et Gaz",
+      "system": {
+        "name": "Techniques des Liquides et Gaz",
+        "label": "Techniques des Liquides et Gaz",
+        "notesLabel": "Techniques des Liquides et Gaz — notes",
+        "notes": "<h2>Techniques des Liquides et Gaz</h2><p>Prépare liquides, gaz, poisons et potions et permet d’y intégrer des sorts grâce aux Listes d’Imbedding. Plusieurs sorts couvrent des domaines voisins ; les bonus alternatifs aux Compétences ne doivent pas être cumulés.</p><p>Les sorts source de niveau 100 et 120 ne sont pas inclus dans cette première conversion RMU.</p>"
+      }
+    },
+    "en": {
+      "name": "Liquid/Gas Skills",
+      "system": {
+        "name": "Liquid/Gas Skills",
+        "label": "Liquid/Gas Skills",
+        "notesLabel": "Liquid/Gas Skills — notes",
+        "notes": "<h2>Liquid/Gas Skills</h2><p>Prepares liquids, gases, poisons, and potions and allows spells to be incorporated into them through the Imbedding Lists. Several spells cover related fields; alternative Skill bonuses must not be cumulative.</p><p>Source spells of levels 100 and 120 are not included in this first RMU conversion.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Herutano (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Herutano (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-herutano"
+  ]
+}

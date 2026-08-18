@@ -1,0 +1,288 @@
+{
+  "key": "honnin-avian-ways",
+  "sourceFile": "data/merp-rmu/honnin-priest-beta-v1.json",
+  "folderKey": "spell-lists-channeling-honnin",
+  "document": {
+    "name": "Voies Aviaires (Avian Ways)",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "honnin-avian-ways",
+        "collection": "honnin-beta",
+        "contentVersion": 1,
+        "beta": true,
+        "source": {
+          "type": "rmss-honnin-spell-list",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 pp.231–233"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU — Bêta",
+      "name": "Voies Aviaires (Avian Ways)",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Honnin Priest",
+      "notes": "<h2>Voies Aviaires (Avian Ways)</h2><p>Liste Honnin de Théurgie centrée sur les oiseaux : silence, dissimulation à leurs sens, langage, apprivoisement, appel et transformation. Les transformations utilisent les règles RMU de changement de forme lorsqu’elles sont applicables.</p>",
+      "label": "Voies Aviaires (Avian Ways)",
+      "notesLabel": "Voies Aviaires (Avian Ways) notes",
+      "spells": [
+        {
+          "name": "Silence des Oiseaux (Silence Birds)",
+          "level": 1,
+          "description": "Tous les oiseaux dans la zone deviennent silencieux.",
+          "aoe": "20’R/niv",
+          "duration": "2 min/niv",
+          "range": "20’R/niv",
+          "spellType": "F",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Silence des Oiseaux (Silence Birds)",
+          "descriptionLabel": "Silence des Oiseaux (Silence Birds) description",
+          "localizations": {
+            "fr": {
+              "name": "Silence des Oiseaux",
+              "description": "Tous les oiseaux dans la zone deviennent silencieux."
+            },
+            "en": {
+              "name": "Silence Birds",
+              "description": "All birds within the area become silent."
+            }
+          }
+        },
+        {
+          "name": "Voile aux Oiseaux (Cloaking)",
+          "level": 2,
+          "description": "Le lanceur devient indétectable pour les oiseaux.",
+          "aoe": "caster",
+          "duration": "1 min/niv",
+          "range": "self",
+          "spellType": "E",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Voile aux Oiseaux (Cloaking)",
+          "descriptionLabel": "Voile aux Oiseaux (Cloaking) description",
+          "localizations": {
+            "fr": {
+              "name": "Voile aux Oiseaux",
+              "description": "Le lanceur devient indétectable pour les oiseaux."
+            },
+            "en": {
+              "name": "Cloaking",
+              "description": "The caster becomes undetectable to birds."
+            }
+          }
+        },
+        {
+          "name": "Langage des Oiseaux (Bird Tongues)",
+          "level": 3,
+          "description": "Permet de comprendre et de parler le langage d’une espèce d’oiseau choisie.",
+          "aoe": "caster",
+          "duration": "1 min/niv",
+          "range": "self",
+          "spellType": "I",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Langage des Oiseaux (Bird Tongues)",
+          "descriptionLabel": "Langage des Oiseaux (Bird Tongues) description",
+          "localizations": {
+            "fr": {
+              "name": "Langage des Oiseaux",
+              "description": "Permet de comprendre et de parler le langage d’une espèce d’oiseau choisie."
+            },
+            "en": {
+              "name": "Bird Tongues",
+              "description": "Allows the caster to understand and speak the language of one chosen species of bird."
+            }
+          }
+        },
+        {
+          "name": "Apprivoisement (Taming)",
+          "level": 6,
+          "description": "Permet d’apprivoiser un oiseau dont le niveau ne dépasse pas la moitié de celui du lanceur. Il sert son maître comme le ferait un animal loyal mais peu intelligent.",
+          "aoe": "1 oiseau",
+          "duration": "P",
+          "range": "10’/niv",
+          "spellType": "U",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Apprivoisement (Taming)",
+          "descriptionLabel": "Apprivoisement (Taming) description",
+          "localizations": {
+            "fr": {
+              "name": "Apprivoisement",
+              "description": "Permet d’apprivoiser un oiseau dont le niveau ne dépasse pas la moitié de celui du lanceur. Il sert son maître comme le ferait un animal loyal mais peu intelligent."
+            },
+            "en": {
+              "name": "Taming",
+              "description": "Allows the caster to tame a bird whose level does not exceed half the caster’s level. It serves its master as a loyal but unintelligent animal would."
+            }
+          }
+        },
+        {
+          "name": "Appel d’un Oiseau (Call Bird)",
+          "level": 13,
+          "description": "Appelle un oiseau précis et connu du lanceur. S’il peut matériellement rejoindre le lanceur, il vient à lui.",
+          "aoe": "1 oiseau",
+          "duration": "—",
+          "range": "1 mi/niv",
+          "spellType": "U",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Appel d’un Oiseau (Call Bird)",
+          "descriptionLabel": "Appel d’un Oiseau (Call Bird) description",
+          "localizations": {
+            "fr": {
+              "name": "Appel d’un Oiseau",
+              "description": "Appelle un oiseau précis et connu du lanceur. S’il peut matériellement rejoindre le lanceur, il vient à lui."
+            },
+            "en": {
+              "name": "Call Bird",
+              "description": "Calls one specific bird known to the caster. If it can physically reach the caster, it comes to them."
+            }
+          }
+        },
+        {
+          "name": "Forme d’Oiseau I (Bird Form I)",
+          "level": 14,
+          "description": "Le lanceur prend l’apparence et la texture d’un oiseau choisi, sans acquérir ses capacités physiques. Sa taille peut varier d’environ 75 % à 200 % de la taille normale de l’oiseau selon les limites fixées par le MJ.",
+          "aoe": "caster",
+          "duration": "1 min/niv",
+          "range": "self",
+          "spellType": "U",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Forme d’Oiseau I (Bird Form I)",
+          "descriptionLabel": "Forme d’Oiseau I (Bird Form I) description",
+          "localizations": {
+            "fr": {
+              "name": "Forme d’Oiseau I",
+              "description": "Le lanceur prend l’apparence et la texture d’un oiseau choisi, sans acquérir ses capacités physiques. Sa taille peut varier d’environ 75 % à 200 % de la taille normale de l’oiseau selon les limites fixées par le MJ."
+            },
+            "en": {
+              "name": "Bird Form I",
+              "description": "The caster takes on the appearance and texture of a chosen bird without gaining its physical capabilities. Size may vary from roughly 75% to 200% of the bird’s normal size, within limits set by the GM."
+            }
+          }
+        },
+        {
+          "name": "Forme d’Oiseau II (Bird Form II)",
+          "level": 16,
+          "description": "Comme Forme d’Oiseau I, mais le lanceur acquiert les capacités de déplacement de l’oiseau, notamment le vol lorsqu’il est approprié.",
+          "aoe": "caster",
+          "duration": "1 min/niv",
+          "range": "self",
+          "spellType": "U",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Forme d’Oiseau II (Bird Form II)",
+          "descriptionLabel": "Forme d’Oiseau II (Bird Form II) description",
+          "localizations": {
+            "fr": {
+              "name": "Forme d’Oiseau II",
+              "description": "Comme Forme d’Oiseau I, mais le lanceur acquiert les capacités de déplacement de l’oiseau, notamment le vol lorsqu’il est approprié."
+            },
+            "en": {
+              "name": "Bird Form II",
+              "description": "As Bird Form I, but the caster also gains the bird’s movement capabilities, including flight when appropriate."
+            }
+          }
+        },
+        {
+          "name": "Forme d’Oiseau III (Bird Form III)",
+          "level": 19,
+          "description": "Comme Forme d’Oiseau II, mais le lanceur acquiert également les attaques physiques naturelles de l’oiseau.",
+          "aoe": "caster",
+          "duration": "1 min/niv",
+          "range": "self",
+          "spellType": "U",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Forme d’Oiseau III (Bird Form III)",
+          "descriptionLabel": "Forme d’Oiseau III (Bird Form III) description",
+          "localizations": {
+            "fr": {
+              "name": "Forme d’Oiseau III",
+              "description": "Comme Forme d’Oiseau II, mais le lanceur acquiert également les attaques physiques naturelles de l’oiseau."
+            },
+            "en": {
+              "name": "Bird Form III",
+              "description": "As Bird Form II, but the caster also gains the bird’s natural physical attacks."
+            }
+          }
+        },
+        {
+          "name": "Forme d’Oiseau Véritable (Bird Form True)",
+          "level": 25,
+          "description": "Comme Forme d’Oiseau III, mais le lanceur peut passer d’une forme d’oiseau à une autre pendant la durée du sort.",
+          "aoe": "caster",
+          "duration": "1 min/niv",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Forme d’Oiseau Véritable (Bird Form True)",
+          "descriptionLabel": "Forme d’Oiseau Véritable (Bird Form True) description",
+          "localizations": {
+            "fr": {
+              "name": "Forme d’Oiseau Véritable",
+              "description": "Comme Forme d’Oiseau III, mais le lanceur peut passer d’une forme d’oiseau à une autre pendant la durée du sort."
+            },
+            "en": {
+              "name": "Bird Form True",
+              "description": "As Bird Form III, but the caster may shift from one bird form to another during the spell’s duration."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Voies Aviaires",
+      "system": {
+        "name": "Voies Aviaires",
+        "label": "Voies Aviaires",
+        "notesLabel": "Voies Aviaires — notes",
+        "notes": "<h2>Voies Aviaires</h2><p>Liste Honnin de Théurgie centrée sur les oiseaux : silence, dissimulation à leurs sens, langage, apprivoisement, appel et transformation. Les transformations utilisent les règles RMU de changement de forme lorsqu’elles sont applicables.</p>"
+      }
+    },
+    "en": {
+      "name": "Avian Ways",
+      "system": {
+        "name": "Avian Ways",
+        "label": "Avian Ways",
+        "notesLabel": "Avian Ways — notes",
+        "notes": "<h2>Avian Ways</h2><p>Honnin Channeling List centered on birds: silence, concealment from their senses, language, taming, calling, and transformation. Transformations use RMU shape-changing rules whenever applicable.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Prêtre Honnin (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Honnin Priest (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-honnin"
+  ]
+}

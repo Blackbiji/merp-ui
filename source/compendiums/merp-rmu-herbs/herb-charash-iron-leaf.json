@@ -1,0 +1,79 @@
+{
+  "key": "herb-charash-iron-leaf",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Charash (Feuille de Fer / Iron Leaf)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-charash-iron-leaf",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-A-6-NE",
+        "sourceCost": "4gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "A",
+        "regionCode": "NE",
+        "sourceVariants": [],
+        "sourceName": "Charash (Iron Leaf)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "A",
+      "findDifficulty": "Very Hard",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "4gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Feuille de Fer (Iron Leaf)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les hautes zones alpines, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Réduite en poudre et appliquée en cataplasme, cette feuille peut guérir des brûlures même sévères.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Charash (Feuille de Fer / Iron Leaf)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Feuille de Fer (Iron Leaf)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les hautes zones alpines, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Réduite en poudre et appliquée en cataplasme, cette feuille peut guérir des brûlures même sévères.</p>"
+      }
+    },
+    "en": {
+      "name": "Charash (Iron Leaf)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Iron Leaf</strong>.</p><p>This leaf is found chiefly in cold climates, especially in high alpine zones, and is best known in north-eastern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Ground into powder and applied as a poultice, this leaf can heal even severe burns.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

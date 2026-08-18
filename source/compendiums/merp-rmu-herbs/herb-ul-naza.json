@@ -1,0 +1,78 @@
+{
+  "key": "herb-ul-naza",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Ul-Naza",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ul-naza",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-W-8-M",
+        "sourceCost": "4200gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "W",
+        "regionCode": "M",
+        "sourceVariants": [],
+        "sourceName": "Ul-Naza"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "W",
+      "findDifficulty": "Sheer Folly",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "4200gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les terres désolées, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 50 contre pratiquement tout poison. Une feuille enveloppée dans le cuir d’un animal mort par suffocation reste active près d’un an ; sans cette précaution, elle se dégrade en une semaine.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 9,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ul-Naza",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les terres désolées, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 50 contre pratiquement tout poison. Une feuille enveloppée dans le cuir d’un animal mort par suffocation reste active près d’un an ; sans cette précaution, elle se dégrade en une semaine.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Ul-Naza",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in semi-arid climates, especially in wastelands, and is best known in central Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 50 antidote against virtually any poison. A leaf wrapped in the hide of an animal that died of suffocation remains potent for nearly a year; without this precaution it deteriorates within a week.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

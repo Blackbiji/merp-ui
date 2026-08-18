@@ -1,0 +1,78 @@
+{
+  "key": "herb-brorkwilb",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "intoxicants",
+  "document": {
+    "name": "Brorkwilb",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-brorkwilb",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-V-4-U",
+        "sourceCost": "9gp",
+        "sourceCategory": "Intoxicants",
+        "utilityGroups": [
+          "Intoxicants"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "V",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Brorkwilb"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "V",
+      "findDifficulty": "Medium",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "9gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les terrains volcaniques, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur est euphorisante et peut permettre de partager les rêves d’un membre de sa famille qui dort au même moment.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>",
+      "addictionFactor": 45,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Brorkwilb",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les terrains volcaniques, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur est euphorisante et peut permettre de partager les rêves d’un membre de sa famille qui dort au même moment.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>"
+      }
+    },
+    "en": {
+      "name": "Brorkwilb",
+      "system": {
+        "notes": "<p>This flower is found chiefly in mild temperate climates, especially in volcanic terrain, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The flower is euphoric and may allow the user to share the dreams of a family member sleeping at the same time.</p><p>Its use carries a very high risk of addiction and should remain exceptional.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Intoxicants"
+    ],
+    "en": [
+      "Intoxicants"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "intoxicants"
+  ]
+}

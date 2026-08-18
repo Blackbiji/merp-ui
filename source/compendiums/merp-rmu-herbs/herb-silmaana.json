@@ -1,0 +1,79 @@
+{
+  "key": "herb-silmaana",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-reduction",
+  "document": {
+    "name": "Silmaana",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-silmaana",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-T-2",
+        "sourceCost": "4gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Réduction"
+        ],
+        "poisonType": "Réduction",
+        "climateCode": "m",
+        "localeCode": "T",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Silmaana"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "T",
+      "findDifficulty": "Easy",
+      "form": "Stalk",
+      "prep": "powder",
+      "season": "",
+      "cost": "4gp",
+      "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré doux, notamment dans les hautes herbes.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison de réduction de niveau 9C. Cette poudre argentée marque et cicatrise la peau, inflige 2 à 20 points de vie et peut provoquer des effets modérés.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 9
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Silmaana",
+      "system": {
+        "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré doux, notamment dans les hautes herbes.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison de réduction de niveau 9C. Cette poudre argentée marque et cicatrise la peau, inflige 2 à 20 points de vie et peut provoquer des effets modérés.</p>"
+      }
+    },
+    "en": {
+      "name": "Silmaana",
+      "system": {
+        "notes": "<p>This stalk is found chiefly in mild temperate climates, especially in tall grasslands.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is ground into powder.</p><p>Level 9C Reduction poison. This silvery powder marks and scars the skin, inflicts 2–20 concussion hits, and can cause moderate general effects.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Réduction"
+    ],
+    "en": [
+      "Reduction"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-reduction"
+  ]
+}

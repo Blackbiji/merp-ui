@@ -1,0 +1,78 @@
+{
+  "key": "herb-quilmufur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Quilmufur",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-quilmufur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-C-7-U",
+        "sourceCost": "49gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "C",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Quilmufur"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Extremely Hard",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "49gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de conifères, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Antidote de niveau 8 contre les poisons de conversion.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Quilmufur",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de conifères, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Antidote de niveau 8 contre les poisons de conversion.</p>"
+      }
+    },
+    "en": {
+      "name": "Quilmufur",
+      "system": {
+        "notes": "<p>This root is found chiefly in mild temperate climates, especially in coniferous forests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>Level 8 antidote for conversion poisons.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

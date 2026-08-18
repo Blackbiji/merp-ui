@@ -1,0 +1,586 @@
+{
+  "key": "herutano-own-realm-imbedding",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-herutano",
+  "document": {
+    "name": "Own Realm Imbedding",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herutano-own-realm-imbedding",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Own Realm Imbedding",
+        "sourcePage": 120,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmu-adapted-spell-list",
+          "reference": "Own Realm Imbedding -> Own Realm Imbedding",
+          "merpMapping": "Direct MERP/RMSS Herutano list using existing Imbedding mechanics"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Own Realm Imbedding",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Herutano",
+      "notes": "<h2>Own Realm Imbedding</h2><p>Liste d’imprégnation du Razak-Zinul adaptée depuis les listes d’Alchimiste du <em>Alchemy Companion</em>. Elle est convertie au Royaume de Canalisation et utilise les inscriptions/runes khazâdes comme clef d’activation.</p>",
+      "label": "Own Realm Imbedding",
+      "notesLabel": "Own Realm Imbedding notes",
+      "spells": [
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Research",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.Research.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.Research.description",
+          "level": 1,
+          "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Channeling imbedding.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Recherche",
+              "description": "Recherche des sorts d’imprégnation spéciaux destinés à la création d’objets ; peut également conférer +50 aux jets appropriés de Recherche de Sorts et/ou de Création d’Objets concernant l’imprégnation de Théurgie."
+            },
+            "en": {
+              "name": "Research",
+              "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Channeling imbedding."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed I",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedI.description",
+          "level": 3,
+          "description": "Imbeds one 1st-level Channeling spell in an item or potion.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation I",
+              "description": "Imprègne dans un objet ou une potion un sort de Théurgie de niveau 1."
+            },
+            "en": {
+              "name": "Imbed I",
+              "description": "Imbeds one 1st-level Channeling spell in an item or potion."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Charge Wand",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ChargeWand.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ChargeWand.description",
+          "level": 4,
+          "description": "Charges an Channeling wand.",
+          "aoe": "1 wand",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger une Baguette",
+              "description": "Charge une baguette de Théurgie."
+            },
+            "en": {
+              "name": "Charge Wand",
+              "description": "Charges an Channeling wand."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed II",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedII.description",
+          "level": 5,
+          "description": "As Imbed I, but may imbed Channeling spells through 2nd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation II",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts de Théurgie jusqu’au niveau 2."
+            },
+            "en": {
+              "name": "Imbed II",
+              "description": "As Imbed I, but may imbed Channeling spells through 2nd level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Daily I",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyI.description",
+          "level": 6,
+          "description": "An imbedded 1st-level spell may be used once per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien I",
+              "description": "Un sort imprégné de niveau 1 peut être utilisé une fois par jour."
+            },
+            "en": {
+              "name": "Daily I",
+              "description": "An imbedded 1st-level spell may be used once per day."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed III",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedIII.description",
+          "level": 7,
+          "description": "As Imbed I, but may imbed Channeling spells through 3rd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation III",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts de Théurgie jusqu’au niveau 3."
+            },
+            "en": {
+              "name": "Imbed III",
+              "description": "As Imbed I, but may imbed Channeling spells through 3rd level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Charge Rod",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ChargeRod.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ChargeRod.description",
+          "level": 8,
+          "description": "As Charge Wand, but charges an Channeling rod.",
+          "aoe": "1 rod",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Sceptre",
+              "description": "Comme Charger une Baguette, mais charge un sceptre de Théurgie."
+            },
+            "en": {
+              "name": "Charge Rod",
+              "description": "As Charge Wand, but charges an Channeling rod."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed IV",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedIV.description",
+          "level": 9,
+          "description": "As Imbed I, but may imbed Channeling spells through 4th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation IV",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts de Théurgie jusqu’au niveau 4."
+            },
+            "en": {
+              "name": "Imbed IV",
+              "description": "As Imbed I, but may imbed Channeling spells through 4th level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Daily III",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyIII.description",
+          "level": 10,
+          "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien III",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 3 ; les sorts de niveau inférieur peuvent bénéficier d’un plus grand nombre d’utilisations par jour."
+            },
+            "en": {
+              "name": "Daily III",
+              "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed V",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedV.description",
+          "level": 11,
+          "description": "As Imbed I, but may imbed Channeling spells through 5th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation V",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts de Théurgie jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Imbed V",
+              "description": "As Imbed I, but may imbed Channeling spells through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Charge Staff",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ChargeStaff.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ChargeStaff.description",
+          "level": 12,
+          "description": "As Charge Wand, but charges an Channeling staff.",
+          "aoe": "1 staff",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Bâton",
+              "description": "Comme Charger une Baguette, mais charge un bâton de Théurgie."
+            },
+            "en": {
+              "name": "Charge Staff",
+              "description": "As Charge Wand, but charges an Channeling staff."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed VI",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedVI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedVI.description",
+          "level": 13,
+          "description": "As Imbed I, but may imbed Channeling spells through 6th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation VI",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts de Théurgie jusqu’au niveau 6."
+            },
+            "en": {
+              "name": "Imbed VI",
+              "description": "As Imbed I, but may imbed Channeling spells through 6th level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Daily V",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyV.description",
+          "level": 14,
+          "description": "Creates a daily item using spells through 5th level, with more daily uses for lower-level spells.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien V",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 5, avec davantage d’utilisations quotidiennes pour les sorts de niveau inférieur."
+            },
+            "en": {
+              "name": "Daily V",
+              "description": "Creates a daily item using spells through 5th level, with more daily uses for lower-level spells."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed VII",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedVII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedVII.description",
+          "level": 15,
+          "description": "As Imbed I, but may imbed Channeling spells through 7th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation VII",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts de Théurgie jusqu’au niveau 7."
+            },
+            "en": {
+              "name": "Imbed VII",
+              "description": "As Imbed I, but may imbed Channeling spells through 7th level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed X",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedX.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedX.description",
+          "level": 20,
+          "description": "As Imbed I, but may imbed Channeling spells through 10th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation X",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts de Théurgie jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Imbed X",
+              "description": "As Imbed I, but may imbed Channeling spells through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Daily X",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyX.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyX.description",
+          "level": 25,
+          "description": "Creates a daily item using spells through 10th level, with daily uses determined by spell level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien X",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 10, le nombre d’utilisations quotidiennes dépendant du niveau du sort."
+            },
+            "en": {
+              "name": "Daily X",
+              "description": "Creates a daily item using spells through 10th level, with daily uses determined by spell level."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Constant",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.Constant.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.Constant.description",
+          "level": 30,
+          "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant",
+              "description": "Comme Quotidien X, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Constant",
+              "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Imbed True",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.ImbedTrue.description",
+          "level": 50,
+          "description": "Imbeds one Channeling spell of any level in an item; the imbedded spell is normally usable once.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation Véritable",
+              "description": "Imprègne dans un objet un sort de Théurgie de n’importe quel niveau ; le sort imprégné est normalement utilisable une seule fois."
+            },
+            "en": {
+              "name": "Imbed True",
+              "description": "Imbeds one Channeling spell of any level in an item; the imbedded spell is normally usable once."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Lord Daily",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.LordDaily.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.LordDaily.description",
+          "level": 60,
+          "description": "Creates exceptionally powerful daily-use Channeling items with spells through 20th level; this is artifact-scale magic and requires GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien Seigneur",
+              "description": "Crée des objets de Théurgie à usage quotidien exceptionnellement puissants, contenant des sorts jusqu’au niveau 20 ; il s’agit d’une magie de niveau artefact nécessitant l’accord du MJ."
+            },
+            "en": {
+              "name": "Lord Daily",
+              "description": "Creates exceptionally powerful daily-use Channeling items with spells through 20th level; this is artifact-scale magic and requires GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Lord Constant",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.LordConstant.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.LordConstant.description",
+          "level": 75,
+          "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant Seigneur",
+              "description": "Comme Quotidien Seigneur, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Lord Constant",
+              "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Own Realm Imbedding",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Daily True",
+          "label": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.ownrealmimbedding.spells.DailyTrue.description",
+          "level": 90,
+          "description": "Creates daily-use Channeling items with spells through 50th level; this is artifact-scale magic requiring exceptional circumstances.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien Véritable",
+              "description": "Crée des objets de Théurgie à usage quotidien contenant des sorts jusqu’au niveau 50 ; il s’agit d’une magie de niveau artefact exigeant des circonstances exceptionnelles."
+            },
+            "en": {
+              "name": "Daily True",
+              "description": "Creates daily-use Channeling items with spells through 50th level; this is artifact-scale magic requiring exceptional circumstances."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Imprégnation de son Royaume",
+      "system": {
+        "name": "Imprégnation de son Royaume",
+        "label": "Imprégnation de son Royaume",
+        "notesLabel": "Imprégnation de son Royaume — notes",
+        "notes": "<h2>Imprégnation de son Royaume</h2><p>Liste d’imprégnation du Razak-Zinul adaptée depuis les listes d’Alchimiste du <em>Alchemy Companion</em>. Elle est convertie au Royaume de Canalisation et utilise les inscriptions/runes khazâdes comme clef d’activation.</p>"
+      }
+    },
+    "en": {
+      "name": "Own Realm Imbedding",
+      "system": {
+        "name": "Own Realm Imbedding",
+        "label": "Own Realm Imbedding",
+        "notesLabel": "Own Realm Imbedding — notes",
+        "notes": "<h2>Own Realm Imbedding</h2><p>Herutano Imbedding List adapted from the <em>Alchemist</em> traditions. It allows magic from the caster's own Realm to be bound according to the specific access and preparation rules of the conversion.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Herutano (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Herutano (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-herutano"
+  ]
+}

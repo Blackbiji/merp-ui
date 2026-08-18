@@ -1,0 +1,537 @@
+{
+  "key": "razak-zinul-loremaster",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-razak-zinul",
+  "document": {
+    "name": "Loremaster",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul-loremaster",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "MERP Character Creation Using RMSS/RMFRP v2.5",
+        "sourceList": "Loremaster",
+        "sourcePage": 240,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmss-spell-list-conversion",
+          "reference": "MERP/RMSS v2.5 pp. 240; Razak-zinul Base List"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / MERP-RMSS v2.5",
+      "name": "Loremaster",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Razak-zinul",
+      "notes": "<h2>Loremaster</h2><p>Analyse des objets et machines, identification de leurs origines et capacités, et création d’enchantements généraux. La restriction de réanalyse après gain de niveau de l’ancienne Item Analysis reste applicable lorsque le MJ utilise cette règle source.</p>",
+      "label": "Loremaster",
+      "notesLabel": "Loremaster notes",
+      "spells": [
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Detect Power",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.DetectPower.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.DetectPower.description",
+          "level": 1,
+          "description": "Detects whether an object contains power, without identifying its realm or strength.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Détection de la Puissance",
+              "description": "Détecte si un objet contient de la puissance, sans en identifier le royaume ni l’intensité."
+            },
+            "en": {
+              "name": "Detect Power",
+              "description": "Detects whether an object contains power, without identifying its realm or strength."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Lore",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemLore.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemLore.description",
+          "level": 2,
+          "description": "Gives a basic idea of an item’s purpose, if any.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance des Objets",
+              "description": "Donne une idée générale de la fonction d’un objet, s’il en possède une."
+            },
+            "en": {
+              "name": "Item Lore",
+              "description": "Gives a basic idea of an item’s purpose, if any."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Detect Curse",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.DetectCurse.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.DetectCurse.description",
+          "level": 3,
+          "description": "Detects whether an item is cursed.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Détection de Malédiction",
+              "description": "Détecte si un objet est maudit."
+            },
+            "en": {
+              "name": "Detect Curse",
+              "description": "Detects whether an item is cursed."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Analysis I",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisI.description",
+          "level": 4,
+          "description": "Provides a 10% chance per ability to determine the enchanted abilities of one item.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet I",
+              "description": "Donne 10 % de chances par capacité de déterminer chacune des capacités enchantées d’un objet."
+            },
+            "en": {
+              "name": "Item Analysis I",
+              "description": "Provides a 10% chance per ability to determine the enchanted abilities of one item."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "General I",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.GeneralI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.GeneralI.description",
+          "level": 6,
+          "description": "Allows the caster to enchant a general-purpose magic item with a Class I bonus.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général I",
+              "description": "Permet au lanceur d’enchanter un objet magique à usage général avec un bonus de Classe I."
+            },
+            "en": {
+              "name": "General I",
+              "description": "Allows the caster to enchant a general-purpose magic item with a Class I bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Machine Lore",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.MachineLore.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.MachineLore.description",
+          "level": 7,
+          "description": "Analyzes one machine, giving its purpose and operating procedures and a bonus when operating it.",
+          "aoe": "1 machine",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance des Machines",
+              "description": "Analyse une machine, révélant sa fonction et ses procédures d’utilisation et conférant un bonus pour la faire fonctionner."
+            },
+            "en": {
+              "name": "Machine Lore",
+              "description": "Analyzes one machine, giving its purpose and operating procedures and a bonus when operating it."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Analysis II",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisII.description",
+          "level": 8,
+          "description": "As Item Analysis I, but with a 20% chance per ability.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet II",
+              "description": "Comme Analyse d’Objet I, mais avec 20 % de chances par capacité."
+            },
+            "en": {
+              "name": "Item Analysis II",
+              "description": "As Item Analysis I, but with a 20% chance per ability."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Origins",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.Origins.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.Origins.description",
+          "level": 9,
+          "description": "Reveals the item’s area of origin, creator race, and approximate date of manufacture.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Origines",
+              "description": "Révèle la région d’origine de l’objet, la race de son créateur et sa date approximative de fabrication."
+            },
+            "en": {
+              "name": "Origins",
+              "description": "Reveals the item’s area of origin, creator race, and approximate date of manufacture."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "General II",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.GeneralII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.GeneralII.description",
+          "level": 10,
+          "description": "As General I, but creates a stronger general enchantment.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général II",
+              "description": "Comme Général I, mais crée un enchantement général plus puissant."
+            },
+            "en": {
+              "name": "General II",
+              "description": "As General I, but creates a stronger general enchantment."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Analysis III",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisIII.description",
+          "level": 12,
+          "description": "As Item Analysis I, with a greater chance to identify each ability.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet III",
+              "description": "Comme Analyse d’Objet I, mais avec une chance supérieure d’identifier chaque capacité."
+            },
+            "en": {
+              "name": "Item Analysis III",
+              "description": "As Item Analysis I, with a greater chance to identify each ability."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Mechanition Lore",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.MechanitionLore.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.MechanitionLore.description",
+          "level": 13,
+          "description": "Provides advanced knowledge of a machine’s construction, operation and likely faults.",
+          "aoe": "1 machine",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance des Mécanismes",
+              "description": "Fournit une connaissance avancée de la construction, du fonctionnement et des pannes probables d’une machine."
+            },
+            "en": {
+              "name": "Mechanition Lore",
+              "description": "Provides advanced knowledge of a machine’s construction, operation and likely faults."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "General III",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.GeneralIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.GeneralIII.description",
+          "level": 15,
+          "description": "As General I, but creates a stronger general enchantment.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général III",
+              "description": "Comme Général I, mais crée un enchantement général plus puissant."
+            },
+            "en": {
+              "name": "General III",
+              "description": "As General I, but creates a stronger general enchantment."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Analysis IV",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisIV.description",
+          "level": 16,
+          "description": "As Item Analysis I, with a greater chance to identify each ability.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet IV",
+              "description": "Comme Analyse d’Objet I, mais avec une chance supérieure d’identifier chaque capacité."
+            },
+            "en": {
+              "name": "Item Analysis IV",
+              "description": "As Item Analysis I, with a greater chance to identify each ability."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Engineering Lore",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.EngineeringLore.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.EngineeringLore.description",
+          "level": 17,
+          "description": "Gives the caster insight into engineering principles relevant to the examined construction or mechanism.",
+          "aoe": "caster",
+          "duration": "--",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance de l’Ingénierie",
+              "description": "Donne au lanceur une compréhension des principes d’ingénierie pertinents pour la construction ou le mécanisme examiné."
+            },
+            "en": {
+              "name": "Engineering Lore",
+              "description": "Gives the caster insight into engineering principles relevant to the examined construction or mechanism."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Analysis V",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisV.description",
+          "level": 20,
+          "description": "As Item Analysis I, with a greater chance to identify each ability.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet V",
+              "description": "Comme Analyse d’Objet I, mais avec une chance supérieure d’identifier chaque capacité."
+            },
+            "en": {
+              "name": "Item Analysis V",
+              "description": "As Item Analysis I, with a greater chance to identify each ability."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Origins True",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.OriginsTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.OriginsTrue.description",
+          "level": 25,
+          "description": "Reveals substantially more precise information about the origins and history of one item.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Origines Véritables",
+              "description": "Révèle des informations nettement plus précises sur l’origine et l’histoire d’un objet."
+            },
+            "en": {
+              "name": "Origins True",
+              "description": "Reveals substantially more precise information about the origins and history of one item."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Analysis VII",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisVII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisVII.description",
+          "level": 30,
+          "description": "As Item Analysis I, with a very high chance to identify each enchanted ability.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet VII",
+              "description": "Comme Analyse d’Objet I, mais avec une très forte chance d’identifier chaque capacité enchantée."
+            },
+            "en": {
+              "name": "Item Analysis VII",
+              "description": "As Item Analysis I, with a very high chance to identify each enchanted ability."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "General IV",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.GeneralIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.GeneralIV.description",
+          "level": 35,
+          "description": "As General I, but creates the strongest normal general enchantment on this list.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général IV",
+              "description": "Comme Général I, mais crée l’enchantement général normal le plus puissant de cette liste."
+            },
+            "en": {
+              "name": "General IV",
+              "description": "As General I, but creates the strongest normal general enchantment on this list."
+            }
+          }
+        },
+        {
+          "spellList": "Loremaster",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Item Analysis True",
+          "label": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.loremaster.spells.ItemAnalysisTrue.description",
+          "level": 50,
+          "description": "Provides the list’s most complete magical analysis of one item.",
+          "aoe": "1 object",
+          "duration": "--",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet Véritable",
+              "description": "Fournit l’analyse magique la plus complète de cette liste pour un objet."
+            },
+            "en": {
+              "name": "Item Analysis True",
+              "description": "Provides the list’s most complete magical analysis of one item."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Maître du Savoir",
+      "system": {
+        "name": "Maître du Savoir",
+        "label": "Maître du Savoir",
+        "notesLabel": "Maître du Savoir — notes",
+        "notes": "<h2>Maître du Savoir</h2><p>Analyse des objets et machines, identification de leurs origines et capacités, et création d’enchantements généraux. La restriction de réanalyse après gain de niveau de l’ancienne Item Analysis reste applicable lorsque le MJ utilise cette règle source.</p>"
+      }
+    },
+    "en": {
+      "name": "Loremaster",
+      "system": {
+        "name": "Loremaster",
+        "label": "Loremaster",
+        "notesLabel": "Loremaster — notes",
+        "notes": "<h2>Loremaster</h2><p>Analysis of objects and machines, identification of their origins and capabilities, and creation of general enchantments. The old Item Analysis restriction preventing another analysis until a level is gained remains applicable when the GM uses that source rule.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Razak-Zinul (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Razak-Zinul (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-razak-zinul"
+  ]
+}

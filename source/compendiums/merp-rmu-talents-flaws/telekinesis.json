@@ -1,0 +1,64 @@
+{
+  "key": "telekinesis",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mental",
+  "document": {
+    "name": "Télékinésie (Telekinesis)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "telekinesis",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Telekinesis",
+      "cost": "10/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Télékinésie (Telekinesis)</h1><h2>Description</h2><p>Vous pouvez déplacer un objet à distance par la seule force de votre esprit. Vous déplacez lentement des objets à distance par la seule force de votre esprit ; la masse manipulable et l’effort requis dépendent de votre maîtrise du Talent.</p><h2>Adaptation MERP-RMU</h2><p>Pour éviter de concurrencer directement les sorts de Télékinésie de RMU, la puissance est répartie en <strong>trois Tiers</strong>. Le Tier I agit sur des objets très légers, le Tier II sur quelques kilogrammes et le Tier III sur une charge significative. La vitesse reste lente et le pouvoir exige concentration ; il ne permet pas de produire gratuitement les effets offensifs d’un sort de projection. Le MJ fixe la difficulté selon masse, distance et précision.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_telekinesis.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Télékinésie (Telekinesis)",
+      "system": {
+        "description": "<h1>Télékinésie (Telekinesis)</h1><h2>Description</h2><p>Vous pouvez déplacer un objet à distance par la seule force de votre esprit. Vous déplacez lentement des objets à distance par la seule force de votre esprit ; la masse manipulable et l’effort requis dépendent de votre maîtrise du Talent.</p><h2>Adaptation MERP-RMU</h2><p>Pour éviter de concurrencer directement les sorts de Télékinésie de RMU, la puissance est répartie en <strong>trois Tiers</strong>. Le Tier I agit sur des objets très légers, le Tier II sur quelques kilogrammes et le Tier III sur une charge significative. La vitesse reste lente et le pouvoir exige concentration ; il ne permet pas de produire gratuitement les effets offensifs d’un sort de projection. Le MJ fixe la difficulté selon masse, distance et précision.</p>"
+      }
+    },
+    "en": {
+      "name": "Telekinesis",
+      "system": {
+        "description": "<h1>Telekinesis</h1><h2>Description</h2><p>You can move an object at a distance by the power of your mind alone. You move objects slowly at range through mental force; the mass that can be manipulated and the effort required depend on your mastery of the Talent.</p><h2>MERP-RMU Adaptation</h2><p>To avoid directly competing with RMU Telekinesis spells, power is divided into <strong>three Tiers</strong>. Tier I affects very light objects, Tier II objects weighing a few kilograms, and Tier III a significant load. Movement remains slow and requires concentration; the power cannot freely reproduce the offensive effects of a projection spell. The GM sets the difficulty according to mass, distance, and precision.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mentaux"
+    ],
+    "en": [
+      "Talents — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mental"
+  ]
+}

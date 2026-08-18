@@ -1,0 +1,681 @@
+{
+  "key": "alchemist-enchanting-ways",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-essence-alchemist",
+  "document": {
+    "name": "Enchanting Ways",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "alchemist-enchanting-ways",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Enchanting Ways",
+        "sourcePage": 81,
+        "merpRealm": "Essence",
+        "merpCategory": "Profession",
+        "profession": "Alchemist",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Alchemy Companion p.81 — Core-Rules Alchemist Base List; MERP/RMSS Alchemist adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Enchanting Ways",
+      "listType": "Base",
+      "realms": "Essence",
+      "profession": "Alchemist",
+      "notes": "<h2>Enchanting Ways</h2><p>Enchante armes, armures et objets généraux et permet de conférer différents degrés d’intelligence aux objets. Les bonus d’une même série ne sont pas cumulatifs : une version supérieure remplace la précédente.</p><p>Les capacités spéciales particulières — armes tueuses, pouvoirs uniques, résistances spéciales, etc. — restent soumises à la décision du MJ et aux règles de création d’objets.</p>",
+      "label": "Enchanting Ways",
+      "notesLabel": "Enchanting Ways notes",
+      "spells": [
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Research",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.Research.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.Research.description",
+          "level": 1,
+          "description": "Researches special enchanted abilities for item creation; alternatively grants +50 to appropriate research or item-creation rolls concerning enchantment.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Recherche",
+              "description": "Recherche des capacités enchantées spéciales destinées à la création d’objets ; peut également conférer +50 aux jets de recherche ou de création d’objets concernant l’enchantement."
+            },
+            "en": {
+              "name": "Research",
+              "description": "Researches special enchanted abilities for item creation; alternatively grants +50 to appropriate research or item-creation rolls concerning enchantment."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Empathy",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.Empathy.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.Empathy.description",
+          "level": 3,
+          "description": "Enchants an item with an empathic intelligence; the intelligence or spirit itself must come from another appropriate source.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Empathie",
+              "description": "Enchante un objet en lui conférant une intelligence empathique ; l’intelligence ou l’esprit lui-même doit provenir d’une autre source appropriée."
+            },
+            "en": {
+              "name": "Empathy",
+              "description": "Enchants an item with an empathic intelligence; the intelligence or spirit itself must come from another appropriate source."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Weapon I",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponI.description",
+          "level": 4,
+          "description": "Enchants a weapon with a +5 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme I",
+              "description": "Enchante une arme en lui conférant un bonus de +5."
+            },
+            "en": {
+              "name": "Weapon I",
+              "description": "Enchants a weapon with a +5 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Armor I",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorI.description",
+          "level": 5,
+          "description": "As Weapon I, but affects armor or shields.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure I",
+              "description": "Comme Arme I, mais affecte une armure ou un bouclier."
+            },
+            "en": {
+              "name": "Armor I",
+              "description": "As Weapon I, but affects armor or shields."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "General I",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralI.description",
+          "level": 6,
+          "description": "Enchants a general magic item with a +5 bonus; may also create +1 spell adders or x1.5 spell multipliers.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général I",
+              "description": "Enchante un objet magique à usage général avec un bonus de +5 ; peut également créer des additionneurs de sorts +1 ou des multiplicateurs de PP ×1,5."
+            },
+            "en": {
+              "name": "General I",
+              "description": "Enchants a general magic item with a +5 bonus; may also create +1 spell adders or x1.5 spell multipliers."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Low Intelligence",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.LowIntelligence.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.LowIntelligence.description",
+          "level": 7,
+          "description": "As Empathy, but grants low intelligence.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Intelligence Faible",
+              "description": "Comme Empathie, mais confère une intelligence faible."
+            },
+            "en": {
+              "name": "Low Intelligence",
+              "description": "As Empathy, but grants low intelligence."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Weapon II",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponII.description",
+          "level": 8,
+          "description": "As Weapon I, but grants a +10 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme II",
+              "description": "Comme Arme I, mais confère un bonus de +10."
+            },
+            "en": {
+              "name": "Weapon II",
+              "description": "As Weapon I, but grants a +10 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Armor II",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorII.description",
+          "level": 9,
+          "description": "As Armor I, but grants a +10 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure II",
+              "description": "Comme Armure I, mais confère un bonus de +10."
+            },
+            "en": {
+              "name": "Armor II",
+              "description": "As Armor I, but grants a +10 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "General II",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralII.description",
+          "level": 10,
+          "description": "As General I, but grants a +10 bonus; may create +2 spell adders or x2 spell multipliers.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général II",
+              "description": "Comme Général I, mais confère un bonus de +10 ; peut créer des additionneurs de sorts +2 ou des multiplicateurs de PP ×2."
+            },
+            "en": {
+              "name": "General II",
+              "description": "As General I, but grants a +10 bonus; may create +2 spell adders or x2 spell multipliers."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Medium Intelligence",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.MediumIntelligence.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.MediumIntelligence.description",
+          "level": 12,
+          "description": "As Empathy, but grants medium intelligence.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Intelligence Moyenne",
+              "description": "Comme Empathie, mais confère une intelligence moyenne."
+            },
+            "en": {
+              "name": "Medium Intelligence",
+              "description": "As Empathy, but grants medium intelligence."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Weapon III",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponIII.description",
+          "level": 13,
+          "description": "As Weapon I, but grants a +15 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme III",
+              "description": "Comme Arme I, mais confère un bonus de +15."
+            },
+            "en": {
+              "name": "Weapon III",
+              "description": "As Weapon I, but grants a +15 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Armor III",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorIII.description",
+          "level": 14,
+          "description": "As Armor I, but grants a +15 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure III",
+              "description": "Comme Armure I, mais confère un bonus de +15."
+            },
+            "en": {
+              "name": "Armor III",
+              "description": "As Armor I, but grants a +15 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "General III",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralIII.description",
+          "level": 15,
+          "description": "As General I, but grants a +15 bonus; may create +3 spell adders or x3 spell multipliers.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général III",
+              "description": "Comme Général I, mais confère un bonus de +15 ; peut créer des additionneurs de sorts +3 ou des multiplicateurs de PP ×3."
+            },
+            "en": {
+              "name": "General III",
+              "description": "As General I, but grants a +15 bonus; may create +3 spell adders or x3 spell multipliers."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "High Intelligence",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.HighIntelligence.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.HighIntelligence.description",
+          "level": 20,
+          "description": "As Empathy, but grants high intelligence.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Intelligence Élevée",
+              "description": "Comme Empathie, mais confère une intelligence élevée."
+            },
+            "en": {
+              "name": "High Intelligence",
+              "description": "As Empathy, but grants high intelligence."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Weapon IV",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponIV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponIV.description",
+          "level": 25,
+          "description": "As Weapon I, but grants a +20 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme IV",
+              "description": "Comme Arme I, mais confère un bonus de +20."
+            },
+            "en": {
+              "name": "Weapon IV",
+              "description": "As Weapon I, but grants a +20 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Armor IV",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorIV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorIV.description",
+          "level": 30,
+          "description": "As Armor I, but grants a +20 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure IV",
+              "description": "Comme Armure I, mais confère un bonus de +20."
+            },
+            "en": {
+              "name": "Armor IV",
+              "description": "As Armor I, but grants a +20 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "General IV",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralIV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralIV.description",
+          "level": 35,
+          "description": "As General I, but grants a +20 bonus; may create +4 spell adders or x4 spell multipliers.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général IV",
+              "description": "Comme Général I, mais confère un bonus de +20 ; peut créer des additionneurs de sorts +4 ou des multiplicateurs de PP ×4."
+            },
+            "en": {
+              "name": "General IV",
+              "description": "As General I, but grants a +20 bonus; may create +4 spell adders or x4 spell multipliers."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Very High Intelligence",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.VeryHighIntelligence.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.VeryHighIntelligence.description",
+          "level": 40,
+          "description": "As Empathy, but grants very high intelligence.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Intelligence Très Élevée",
+              "description": "Comme Empathie, mais confère une intelligence très élevée."
+            },
+            "en": {
+              "name": "Very High Intelligence",
+              "description": "As Empathy, but grants very high intelligence."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Weapon V",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponV.description",
+          "level": 50,
+          "description": "As Weapon I, but grants a +25 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme V",
+              "description": "Comme Arme I, mais confère un bonus de +25."
+            },
+            "en": {
+              "name": "Weapon V",
+              "description": "As Weapon I, but grants a +25 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Armor V",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorV.description",
+          "level": 55,
+          "description": "As Armor I, but grants a +25 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure V",
+              "description": "Comme Armure I, mais confère un bonus de +25."
+            },
+            "en": {
+              "name": "Armor V",
+              "description": "As Armor I, but grants a +25 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "General V",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralV.description",
+          "level": 60,
+          "description": "As General I, but grants a +25 bonus; may create +5 spell adders or x5 spell multipliers.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général V",
+              "description": "Comme Général I, mais confère un bonus de +25 ; peut créer des additionneurs de sorts +5 ou des multiplicateurs de PP ×5."
+            },
+            "en": {
+              "name": "General V",
+              "description": "As General I, but grants a +25 bonus; may create +5 spell adders or x5 spell multipliers."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Artifact Intelligence",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.ArtifactIntelligence.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.ArtifactIntelligence.description",
+          "level": 70,
+          "description": "Grants artifact-level intelligence to an item. This is optional artifact-scale magic and should require exceptional circumstances.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Intelligence d’Artefact",
+              "description": "Confère à un objet une intelligence de niveau artefact. Il s’agit d’une magie optionnelle de niveau artefact qui devrait exiger des circonstances exceptionnelles."
+            },
+            "en": {
+              "name": "Artifact Intelligence",
+              "description": "Grants artifact-level intelligence to an item. This is optional artifact-scale magic and should require exceptional circumstances."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Weapon VI",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponVI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.WeaponVI.description",
+          "level": 80,
+          "description": "As Weapon I, but grants a +30 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme VI",
+              "description": "Comme Arme I, mais confère un bonus de +30."
+            },
+            "en": {
+              "name": "Weapon VI",
+              "description": "As Weapon I, but grants a +30 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Armor VI",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorVI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.ArmorVI.description",
+          "level": 85,
+          "description": "As Armor I, but grants a +30 bonus.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure VI",
+              "description": "Comme Armure I, mais confère un bonus de +30."
+            },
+            "en": {
+              "name": "Armor VI",
+              "description": "As Armor I, but grants a +30 bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Enchanting Ways",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "General VI",
+          "label": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralVI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EnchantingWays.spells.GeneralVI.description",
+          "level": 90,
+          "description": "As General I, but grants a +30 bonus; may create +6 spell adders or x6 spell multipliers.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Général VI",
+              "description": "Comme Général I, mais confère un bonus de +30 ; peut créer des additionneurs de sorts +6 ou des multiplicateurs de PP ×6."
+            },
+            "en": {
+              "name": "General VI",
+              "description": "As General I, but grants a +30 bonus; may create +6 spell adders or x6 spell multipliers."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Voies de l'Enchantement",
+      "system": {
+        "name": "Voies de l'Enchantement",
+        "label": "Voies de l'Enchantement",
+        "notesLabel": "Voies de l'Enchantement — notes",
+        "notes": "<h2>Voies de l'Enchantement</h2><p>Enchante armes, armures et objets généraux et permet de conférer différents degrés d’intelligence aux objets. Les bonus d’une même série ne sont pas cumulatifs : une version supérieure remplace la précédente.</p><p>Les capacités spéciales particulières — armes tueuses, pouvoirs uniques, résistances spéciales, etc. — restent soumises à la décision du MJ et aux règles de création d’objets.</p>"
+      }
+    },
+    "en": {
+      "name": "Enchanting Ways",
+      "system": {
+        "name": "Enchanting Ways",
+        "label": "Enchanting Ways",
+        "notesLabel": "Enchanting Ways — notes",
+        "notes": "<h2>Enchanting Ways</h2><p>Enchants weapons, armor, and general objects and allows different degrees of intelligence to be granted to items. Bonuses from the same series are not cumulative: a higher version replaces the previous one.</p><p>Specific special abilities—slaying weapons, unique powers, special resistances, and so on—remain subject to the GM's decision and the item-creation rules.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts d’Essence",
+      "Alchimiste (Base)"
+    ],
+    "en": [
+      "Essence Spell Lists",
+      "Alchemist (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-essence",
+    "spell-lists-essence-alchemist"
+  ]
+}

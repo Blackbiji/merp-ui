@@ -1,0 +1,463 @@
+{
+  "_meta": {
+    "schemaVersion": 1,
+    "locale": "fr",
+    "scope": "shared",
+    "ownerModule": "merp-ui",
+    "description": "Document éditorial bilingue des Catégories de Compétences RMU.",
+    "statusValues": [
+      "draft",
+      "review",
+      "validated"
+    ],
+    "validatedBy": "JBG",
+    "validatedDate": "2026-08-02"
+  },
+  "categories": {
+    "rmu.category.animal": {
+      "categoryId": "rmu.category.animal",
+      "original": {
+        "name": "Animal",
+        "description": null
+      },
+      "translation": {
+        "name": "Animaux",
+        "description": "Les Compétences de la catégorie Animaux regroupent toutes celles qui impliquent d’interagir avec des animaux ou des bêtes, ou de les contrôler. La Manœuvre peut être une Manœuvre Absolue ou une Manœuvre en Pourcentage, avec les modificateurs appropriés. La difficulté dépend de la complexité de l’action demandée et de la disposition naturelle de l’animal à l’accomplir. La Compétence animale appropriée — Équitation lorsqu’il s’agit d’une monture, ou Dressage dans les autres cas — peut également être utilisée à la place de Commandement pour les Jets de Résistance à la Peur ainsi que pour rallier des animaux effrayés."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Animal",
+        "Animaux"
+      ]
+    },
+    "rmu.category.awareness": {
+      "categoryId": "rmu.category.awareness",
+      "original": {
+        "name": "Awareness",
+        "description": null
+      },
+      "translation": {
+        "name": "Vigilance",
+        "description": "Les Compétences de la catégorie Vigilance permettent de remarquer, de recueillir et d’interpréter des informations concernant son environnement. Les Manœuvres de Vigilance sont le plus souvent des Manœuvres Absolues. Leur difficulté dépend de la disponibilité des informations ainsi que de la facilité ou de la difficulté avec laquelle elles peuvent être interprétées."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Awareness",
+        "Vigilance"
+      ]
+    },
+    "rmu.category.battle-expertise": {
+      "categoryId": "rmu.category.battle-expertise",
+      "original": {
+        "name": "Battle Expertise",
+        "description": null
+      },
+      "translation": {
+        "name": "Expertise Martiale",
+        "description": "Les Compétences de la catégorie Expertise Martiale servent à réduire les pénalités appliquées aux attaques et aux Manœuvres Physiques généralement employées par les combattants portant une armure lourde. Chacune réduit une pénalité, mais ne peut au mieux que ramener ce modificateur à zéro. Elles ne peuvent pas conférer de bonus si leur valeur dépasse la pénalité et n’aggravent pas celle-ci si leur valeur est inférieure à 0."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Battle Expertise",
+        "Expertise Martiale"
+      ]
+    },
+    "rmu.category.body-discipline": {
+      "categoryId": "rmu.category.body-discipline",
+      "original": {
+        "name": "Body Discipline",
+        "description": null
+      },
+      "translation": {
+        "name": "Discipline Corporelle",
+        "description": "Les Compétences de la catégorie Discipline Corporelle permettent au personnage de pousser son corps au-delà de ses limites normales. L’utilisation de toute Compétence de Discipline Corporelle constitue une Manœuvre Adrénale. Ces Compétences sont souvent très utiles aux combattants, mais peuvent ne pas convenir à toutes les ambiances de jeu. Les Manœuvres Adrénales nécessitent un round de concentration avant d’effectuer une Manœuvre Absolue. Leurs bénéfices sont obtenus au round suivant et se prolongent selon le résultat. En cas de Réussite Absolue, le bénéfice est doublé pendant le premier round. Un personnage peut bénéficier simultanément de plusieurs Manœuvres Adrénales, mais chacune nécessite un round de concentration. La difficulté d’une Manœuvre Adrénale dépend de son importance dans la situation ainsi que de la motivation du personnage à réussir."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Body Discipline",
+        "Discipline Corporelle"
+      ]
+    },
+    "rmu.category.brawn": {
+      "categoryId": "rmu.category.brawn",
+      "original": {
+        "name": "Brawn",
+        "description": null
+      },
+      "translation": {
+        "name": "Puissance",
+        "description": "Les Compétences de la catégorie Puissance couvrent le développement physique du corps. Les Manœuvres de Puissance sont généralement des Manœuvres Absolues, dont la difficulté dépend de la Compétence concernée et de la situation."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Brawn",
+        "Puissance"
+      ]
+    },
+    "rmu.category.combat-expertise": {
+      "categoryId": "rmu.category.combat-expertise",
+      "original": {
+        "name": "Combat Expertise",
+        "description": null
+      },
+      "translation": {
+        "name": "Expertise au Combat",
+        "description": "Les Compétences de la catégorie Expertise au Combat servent à réduire les pénalités appliquées aux attaques et aux Manœuvres Physiques généralement employées par les combattants portant une armure légère. Chacune réduit une pénalité, mais ne peut au mieux que ramener ce modificateur à zéro. Elles ne peuvent pas conférer de bonus si leur valeur dépasse la pénalité et n’aggravent pas celle-ci si leur valeur est inférieure à 0."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Combat Expertise",
+        "Expertise au Combat"
+      ]
+    },
+    "rmu.category.combat-training": {
+      "categoryId": "rmu.category.combat-training",
+      "original": {
+        "name": "Combat Training",
+        "description": null
+      },
+      "translation": {
+        "name": "Entraînement au Combat",
+        "description": "Les Compétences de la catégorie Entraînement au Combat couvrent l’apprentissage de l’attaque et de la défense, à mains nues ou à l’aide de différents types d’armes. Le bonus d’une Compétence offensive est appelé Bonus Offensif. Lorsqu’elle est utilisée, la Compétence défensive Bouclier s’ajoute au Bonus Défensif du combattant. Ces Compétences ne sont pas soumises aux Modificateurs de Difficulté. Lors de la création d’un personnage, quatre coûts différents sont attribués aux catégories d’Entraînement au Combat. Toutes les Compétences de cette catégorie, à l’exception de Bouclier, possèdent des Spécialisations."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Combat Training",
+        "Entraînement au Combat"
+      ]
+    },
+    "rmu.category.composition": {
+      "categoryId": "rmu.category.composition",
+      "original": {
+        "name": "Composition",
+        "description": null
+      },
+      "translation": {
+        "name": "Composition",
+        "description": "Les Compétences de la catégorie Composition concernent la création d’une œuvre originale destinée à transmettre efficacement des informations et/ou un contenu émotionnel. Les Manœuvres de Composition peuvent être des Manœuvres Absolues ou des Manœuvres en Pourcentage. Leur difficulté dépend des particularités de l’œuvre et du type de réaction recherché."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Composition"
+      ]
+    },
+    "rmu.category.crafting": {
+      "categoryId": "rmu.category.crafting",
+      "original": {
+        "name": "Crafting",
+        "description": null
+      },
+      "translation": {
+        "name": "Artisanat",
+        "description": "Les Compétences de la catégorie Artisanat couvrent toute tentative visant à fabriquer manuellement un produit fini à partir de matières premières. Selon le type de produit réalisé, cette activité peut nécessiter des outils simples ou hautement spécialisés et demander quelques minutes, plusieurs semaines ou plusieurs mois de travail. Les Manœuvres d’Artisanat peuvent être des Manœuvres Absolues ou des Manœuvres en Pourcentage. Leur difficulté dépend de l’état des matériaux, des outils disponibles, de la qualité recherchée et du temps consacré à l’ouvrage. Les types d’artisanat disponibles dépendent de l’univers de jeu, de la culture et de l’historique des personnages."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Crafting",
+        "Artisanat"
+      ]
+    },
+    "rmu.category.delving": {
+      "categoryId": "rmu.category.delving",
+      "original": {
+        "name": "Delving",
+        "description": null
+      },
+      "translation": {
+        "name": "Analyse Magique",
+        "description": "Les Compétences de la catégorie Analyse Magique permettent de manipuler l’énergie magique imprégnant certains objets. Une Analyse Magique est résolue comme une Manœuvre Absolue pour l’Harmonisation ou les Runes. Sa difficulté dépend de la mesure dans laquelle l’environnement favorise la concentration, avec des modificateurs supplémentaires liés à la nature de la magie et aux connaissances du personnage. Un personnage ne dispose que d’une seule tentative pour analyser un objet ; en cas d’échec, il ne peut recommencer qu’après avoir amélioré ses rangs dans la Compétence appropriée."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Delving",
+        "Analyse Magique"
+      ]
+    },
+    "rmu.category.environmental": {
+      "categoryId": "rmu.category.environmental",
+      "original": {
+        "name": "Environmental",
+        "description": null
+      },
+      "translation": {
+        "name": "Environnement",
+        "description": "Les Compétences de la catégorie Environnement regroupent les aptitudes permettant de survivre et de s’orienter en pleine nature."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Environmental",
+        "Environnement"
+      ]
+    },
+    "rmu.category.gymnastic": {
+      "categoryId": "rmu.category.gymnastic",
+      "original": {
+        "name": "Gymnastic",
+        "description": null
+      },
+      "translation": {
+        "name": "Gymnastique",
+        "description": "Les Compétences de la catégorie Gymnastique déterminent la capacité du personnage à manœuvrer, à contorsionner son corps ou à accomplir des acrobaties. Contrairement aux Compétences de Mouvement, elles dépendent davantage de la difficulté de la figure elle-même que de la distance parcourue. Elles peuvent être résolues comme des Manœuvres Absolues ou des Manœuvres en Pourcentage. La difficulté dépend de la complexité de la Manœuvre."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Gymnastic",
+        "Gymnastique"
+      ]
+    },
+    "rmu.category.lore": {
+      "categoryId": "rmu.category.lore",
+      "original": {
+        "name": "Lore",
+        "description": null
+      },
+      "translation": {
+        "name": "Connaissances",
+        "description": "Les Compétences de la catégorie Connaissances représentent l’efficacité d’un personnage dans ses recherches et activités intellectuelles. Le nombre de rangs possédés peut servir d’indication générale de son niveau de connaissances. Le MJ exige le plus souvent une Manœuvre de Connaissances afin de déterminer si le personnage parvient à se rappeler une information pertinente. Ces Manœuvres peuvent être Absolues ou en Pourcentage. Leur difficulté dépend du caractère obscur du sujet et du niveau de détail recherché. Elles représentent les savoirs acquis par l’expérience ou par l’étude, mais ne donnent pas nécessairement accès à une compréhension scientifique approfondie."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Lore",
+        "Connaissances"
+      ]
+    },
+    "rmu.category.magical-expertise": {
+      "categoryId": "rmu.category.magical-expertise",
+      "original": {
+        "name": "Magical Expertise",
+        "description": null
+      },
+      "translation": {
+        "name": "Expertise Magique",
+        "description": "Les Compétences de la catégorie Expertise Magique représentent la maîtrise du lancement de sorts et des activités magiques. Elles permettent de réduire certaines pénalités qui s’appliqueraient autrement. Elles ne bénéficient d’aucun bonus de caractéristique et ne reçoivent que le bonus lié aux rangs, le Bonus Professionnel, les Dons et les Talents. Elles peuvent réduire une pénalité appliquée au Jet de Lancement de Sort jusqu’à zéro, sans jamais procurer de bonus."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Magical Expertise",
+        "Expertise Magique"
+      ]
+    },
+    "rmu.category.medical": {
+      "categoryId": "rmu.category.medical",
+      "original": {
+        "name": "Medical",
+        "description": null
+      },
+      "translation": {
+        "name": "Médecine",
+        "description": "Les Compétences de la catégorie Médecine couvrent le traitement et la guérison des blessures, ainsi que l’utilisation de substances actives, qu’elles possèdent des propriétés curatives ou toxiques. Le MJ détermine les types de Compétences médicales disponibles en fonction du niveau technologique et des connaissances propres à l’univers de jeu. La difficulté dépend de la Compétence concernée."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Medical",
+        "Médecine"
+      ]
+    },
+    "rmu.category.mental-discipline": {
+      "categoryId": "rmu.category.mental-discipline",
+      "original": {
+        "name": "Mental Discipline",
+        "description": null
+      },
+      "translation": {
+        "name": "Discipline Mentale",
+        "description": "Les Compétences de la catégorie Discipline Mentale permettent au personnage de pousser son esprit au-delà de ses limites normales et d’atteindre des états de concentration extrêmes. La difficulté dépend de la Compétence concernée."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Mental Discipline",
+        "Discipline Mentale"
+      ]
+    },
+    "rmu.category.movement": {
+      "categoryId": "rmu.category.movement",
+      "original": {
+        "name": "Movement",
+        "description": null
+      },
+      "translation": {
+        "name": "Mouvement",
+        "description": "Les Compétences de la catégorie Mouvement déterminent la capacité du personnage à parcourir des distances dans des situations éprouvantes en utilisant la table des Manœuvres en Pourcentage. Aucune Manœuvre n’est nécessaire pour les activités courantes et peu stressantes. De nombreuses Compétences de Mouvement exigent simplement un effort pour tenir bon, par exemple lorsqu’un personnage nage sur place, vole, escalade ou marche sur une corde raide. Selon les circonstances, le MJ peut exiger une Manœuvre afin d’éviter une chute ou une noyade."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Movement",
+        "Mouvement"
+      ]
+    },
+    "rmu.category.performance-art": {
+      "categoryId": "rmu.category.performance-art",
+      "original": {
+        "name": "Performance Art",
+        "description": null
+      },
+      "translation": {
+        "name": "Arts de la Scène",
+        "description": "Les Compétences de la catégorie Arts de la Scène regroupent les pratiques reposant sur une représentation, souvent destinée à susciter une réaction émotionnelle ou à raconter une histoire. Les Manœuvres d’Arts de la Scène sont presque toujours des Manœuvres Absolues. Les Compétences présentées n’en constituent que les formes les plus courantes ; d’autres peuvent être ajoutées selon l’univers de jeu."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Performance Art",
+        "Arts de la Scène"
+      ]
+    },
+    "rmu.category.power-manipulation": {
+      "categoryId": "rmu.category.power-manipulation",
+      "original": {
+        "name": "Power Manipulation",
+        "description": null
+      },
+      "translation": {
+        "name": "Manipulation de Pouvoir",
+        "description": "Les Compétences de la catégorie Manipulation de Pouvoir permettent de manipuler, de stocker et de transmettre directement l’énergie magique brute, plutôt que de l’utiliser pour lancer des sorts. La manipulation de l’énergie magique peut répondre à de nombreux objectifs, chacun étant traité selon des modalités propres. Le MJ peut imposer un Modificateur de Difficulté en cas de situation ou d’environnement inhabituel, bien que celui-ci soit généralement Moyen (0)."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Power Manipulation",
+        "Manipulation de Pouvoir"
+      ]
+    },
+    "rmu.category.science": {
+      "categoryId": "rmu.category.science",
+      "original": {
+        "name": "Science",
+        "description": null
+      },
+      "translation": {
+        "name": "Science",
+        "description": "Les Compétences de la catégorie Science ressemblent aux Compétences de Connaissances, mais elles comprennent l’application et l’analyse d’informations afin de résoudre des problèmes et d’établir des prévisions. Les Sciences reposent sur un cadre théorique qui permet non seulement de se rappeler des faits et de tirer des conclusions simples à partir de cas connus, mais aussi d’élaborer des hypothèses concernant des domaines encore inconnus de la discipline. Selon le niveau technologique de l’univers de jeu, le MJ peut décider de ne pas autoriser certaines Compétences scientifiques."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Science"
+      ]
+    },
+    "rmu.category.social": {
+      "categoryId": "rmu.category.social",
+      "original": {
+        "name": "Social",
+        "description": null
+      },
+      "translation": {
+        "name": "Social",
+        "description": "Les Compétences de la catégorie Social regroupent toutes celles qui impliquent des interactions avec d’autres personnes. Bien que la plupart soient résolues comme des Manœuvres Absolues, certaines Compétences obéissent à des règles particulières. La difficulté dépend de l’action entreprise et de la réceptivité de la cible."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Social"
+      ]
+    },
+    "rmu.category.spellcasting": {
+      "categoryId": "rmu.category.spellcasting",
+      "original": {
+        "name": "Spellcasting",
+        "description": null
+      },
+      "translation": {
+        "name": "Lancement de Sorts",
+        "description": "Les Compétences de la catégorie Lancement de Sorts regroupent toutes les formes de magie informelle — les rituels magiques — et de magie formelle — les Listes de Sorts. Contrairement à la plupart des autres catégories, les Compétences de Lancement de Sorts ont des coûts différents."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Spellcasting",
+        "Lancement de Sorts"
+      ]
+    },
+    "rmu.category.subterfuge": {
+      "categoryId": "rmu.category.subterfuge",
+      "original": {
+        "name": "Subterfuge",
+        "description": null
+      },
+      "translation": {
+        "name": "Subterfuge",
+        "description": "Les Compétences de la catégorie Subterfuge permettent d’éviter d’être détecté et d’accomplir des Manœuvres sans attirer l’attention. La difficulté dépend de la Compétence concernée."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Subterfuge"
+      ]
+    },
+    "rmu.category.technical": {
+      "categoryId": "rmu.category.technical",
+      "original": {
+        "name": "Technical",
+        "description": null
+      },
+      "translation": {
+        "name": "Technique",
+        "description": "Les Compétences de la catégorie Technique couvrent la connaissance, la conception, l’utilisation et l’entretien des dispositifs mécaniques ainsi que des réparations nécessitant une Compétence d’Artisanat appropriée. Certains dispositifs peuvent exiger des outils particuliers pour être utilisés, activés ou désactivés. Les Manœuvres Techniques sont le plus souvent des Manœuvres Absolues, dont la difficulté dépend de la complexité du dispositif."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Technical",
+        "Technique"
+      ]
+    },
+    "rmu.category.vocation": {
+      "categoryId": "rmu.category.vocation",
+      "original": {
+        "name": "Vocation",
+        "description": null
+      },
+      "translation": {
+        "name": "Vocation",
+        "description": "Toute profession comprend de nombreuses petites Compétences qui ne sont couvertes par aucune autre Compétence. Lorsque des rangs sont développés dans cette Compétence, il faut préciser une profession ou un domaine particulier. Toute action que les joueurs peuvent raisonnablement justifier, et que le MJ accepte, peut être tentée avec cette Compétence. La Vocation est conçue comme une catégorie générale regroupant la multitude de petites aptitudes qu’une personne exerçant un métier donné est susceptible de connaître. Elle n’a pas vocation à remplacer plusieurs autres Compétences par une seule. Elle est également utile pour se faire passer pour un membre d’une profession donnée ou pour le convaincre."
+      },
+      "status": "validated",
+      "validatedBy": "JBG",
+      "validatedDate": "2026-08-02",
+      "aliases": [
+        "Vocation"
+      ]
+    }
+  }
+}

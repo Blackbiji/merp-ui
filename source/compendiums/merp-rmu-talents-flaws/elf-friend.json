@@ -1,0 +1,64 @@
+{
+  "key": "elf-friend",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Ami des Elfes (Elf Friend)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "elf-friend",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Elf Friend",
+      "cost": "12",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Ami des Elfes (Elf Friend)</h1><h2>Description</h2><p>Vous connaissez les Elfes et avez gagné leur estime. Cette relation favorable améliore vos interactions avec eux et s’accompagne de connaissances sur une culture elfique ainsi que d’une meilleure maîtrise d’une éventuelle langue elfique apprise.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ peut accorder <strong>+5</strong> aux interactions sociales avec des Elfes lorsque cette réputation est pertinente. Le Talent justifie une familiarité culturelle et linguistique, mais n’accorde pas à lui seul des rangs gratuits supplémentaires dans les Compétences RMU.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_elf-friend.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ami des Elfes (Elf Friend)",
+      "system": {
+        "description": "<h1>Ami des Elfes (Elf Friend)</h1><h2>Description</h2><p>Vous connaissez les Elfes et avez gagné leur estime. Cette relation favorable améliore vos interactions avec eux et s’accompagne de connaissances sur une culture elfique ainsi que d’une meilleure maîtrise d’une éventuelle langue elfique apprise.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ peut accorder <strong>+5</strong> aux interactions sociales avec des Elfes lorsque cette réputation est pertinente. Le Talent justifie une familiarité culturelle et linguistique, mais n’accorde pas à lui seul des rangs gratuits supplémentaires dans les Compétences RMU.</p>"
+      }
+    },
+    "en": {
+      "name": "Elf Friend",
+      "system": {
+        "description": "<h1>Elf Friend</h1><h2>Description</h2><p>You know the Elves and have earned their esteem. This favorable relationship improves your interactions with them and is accompanied by knowledge of an Elven culture and greater fluency in any Elven language you have learned.</p><h2>MERP-RMU Adaptation</h2><p>The GM may grant <strong>+5</strong> to social interactions with Elves when this reputation is relevant. The Talent justifies cultural and linguistic familiarity but does not by itself grant additional free ranks in RMU Skills.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

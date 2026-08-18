@@ -1,0 +1,79 @@
+{
+  "key": "herb-klytun",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-circulatoires",
+  "document": {
+    "name": "Klytun",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-klytun",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-B-4",
+        "sourceCost": "53gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Circulatoire"
+        ],
+        "poisonType": "Circulatoire",
+        "climateCode": "s",
+        "localeCode": "B",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Klytun"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "B",
+      "findDifficulty": "Medium",
+      "form": "Root",
+      "prep": "paste",
+      "season": "",
+      "cost": "53gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat semi-aride, notamment dans les ravins et oueds.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 5A. Sa pâte dorée peut plonger la victime dans le coma pendant 1 à 10 jours.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 5
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Klytun",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat semi-aride, notamment dans les ravins et oueds.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 5A. Sa pâte dorée peut plonger la victime dans le coma pendant 1 à 10 jours.</p>"
+      }
+    },
+    "en": {
+      "name": "Klytun",
+      "system": {
+        "notes": "<p>This root is found chiefly in semi-arid climates, especially in ravines and wadis.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 5A circulatory poison. Its golden paste can place the victim in a coma for 1–10 days.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Circulatoires"
+    ],
+    "en": [
+      "Circulatory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-circulatoires"
+  ]
+}

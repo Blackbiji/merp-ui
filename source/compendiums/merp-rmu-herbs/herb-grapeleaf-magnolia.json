@@ -1,0 +1,78 @@
+{
+  "key": "herb-grapeleaf-magnolia",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Magnolia à Feuilles de Vigne (Grapeleaf Magnolia)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-grapeleaf-magnolia",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-3-NW",
+        "sourceCost": "7gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Grapeleaf Magnolia"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Light",
+      "form": "Nectar",
+      "prep": "ingest",
+      "season": "",
+      "cost": "7gp",
+      "notes": "<p>Ce nectar se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le nectar plonge l’utilisateur dans une ivresse onirique pendant environ deux heures, avec de fortes pénalités à l’action, tout en fournissant l’équivalent d’une journée de nourriture.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 18,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Magnolia à Feuilles de Vigne (Grapeleaf Magnolia)",
+      "system": {
+        "notes": "<p>Ce nectar se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le nectar plonge l’utilisateur dans une ivresse onirique pendant environ deux heures, avec de fortes pénalités à l’action, tout en fournissant l’équivalent d’une journée de nourriture.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Grapeleaf Magnolia",
+      "system": {
+        "notes": "<p>This nectar is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The nectar plunges the user into a dreamlike intoxication for about two hours, imposing severe action penalties while also providing the equivalent of one day’s food.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

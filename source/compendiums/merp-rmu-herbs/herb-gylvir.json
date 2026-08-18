@@ -1,0 +1,78 @@
+{
+  "key": "herb-gylvir",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Gylvir",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-gylvir",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-6-U",
+        "sourceCost": "45gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Gylvir"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Very Hard",
+      "form": "Algae",
+      "prep": "ingest",
+      "season": "",
+      "cost": "45gp",
+      "notes": "<p>Cette algue se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>L’algue permet de respirer sous l’eau — et uniquement sous l’eau — pendant environ quatre heures.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 20,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gylvir",
+      "system": {
+        "notes": "<p>Cette algue se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>L’algue permet de respirer sous l’eau — et uniquement sous l’eau — pendant environ quatre heures.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Gylvir",
+      "system": {
+        "notes": "<p>This algae is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The algae allows the user to breathe underwater—and only underwater—for about four hours.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

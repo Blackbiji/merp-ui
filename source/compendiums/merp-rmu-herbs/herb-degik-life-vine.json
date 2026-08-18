@@ -1,0 +1,78 @@
+{
+  "key": "herb-degik-life-vine",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Degík (Liane-de-Vie / Life-vine)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-degik-life-vine",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-O-5-U",
+        "sourceCost": "100gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "O",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Degík (Life-vine)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Hard",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "100gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille stabilise pendant environ une journée un patient au bord de la mort, ce qui laisse aux guérisseurs le temps d’agir.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 10,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Degík (Liane-de-Vie / Life-vine)",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille stabilise pendant environ une journée un patient au bord de la mort, ce qui laisse aux guérisseurs le temps d’agir.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Degík (Life-vine)",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in hot and humid climates, especially in sea coasts and saltwater shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The leaf stabilizes a patient on the verge of death for about one day, giving healers time to act.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-bluedrake-bluetongue",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Bluedrake (Langue Bleue / Bluetongue)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-bluedrake-bluetongue",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-F-7-NW",
+        "sourceCost": "50gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "F",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Bluedrake (Bluetongue)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Extremely Hard",
+      "form": "Nectar",
+      "prep": "apply",
+      "season": "",
+      "cost": "50gp",
+      "notes": "<p>Ce nectar se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Versé sur une brûlure puis laissé en place durant six heures, ce nectar engourdit la douleur et favorise la guérison. Il se conserve jusqu’à neuf mois.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Bluedrake (Langue Bleue / Bluetongue)",
+      "system": {
+        "notes": "<p>Ce nectar se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Versé sur une brûlure puis laissé en place durant six heures, ce nectar engourdit la douleur et favorise la guérison. Il se conserve jusqu’à neuf mois.</p>"
+      }
+    },
+    "en": {
+      "name": "Bluedrake (Bluetongue)",
+      "system": {
+        "notes": "<p>This nectar is found chiefly in cool temperate climates, especially in freshwater banks and shores, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Poured over a burn and left in place for six hours, this nectar numbs the pain and promotes healing. It keeps for up to nine months.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "key": "animist",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-pures-canalisation",
+  "document": {
+    "name": "Animiste",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "animist",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmu-adaptation",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 — Animist; RMU Core Law — Druid mechanical profile"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "profession": "Animist",
+      "spellCastingGroup": "Pure",
+      "numberOfBaseLists": 6,
+      "realms": "Channeling",
+      "description": "<h1>Animiste</h1>\n<p>L’<strong>Animiste</strong> est un utilisateur pur de la <strong>Théurgie</strong> spécialisé dans les forces qui animent le monde vivant. Sa magie porte sur les animaux, les plantes, les herbes, les phénomènes naturels, les sens et la protection offerte par l’environnement.</p>\n<p>Dans la Terre du Milieu, le terme Animiste désigne une famille de traditions. Chez les Hommes des Bois du Rhovanion, les femmes exerçant cette fonction sont appelées <strong>Wita</strong> ; chez certains Hommes du Nord et Gramuz, elles peuvent être connues comme <strong>Urdharkona</strong>. Chaque peuple donne à cette magie une expression propre.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales de l’Animiste sont <strong>Intuition (In)</strong> et <strong>Mémoire (Me)</strong>. L’Intuition est aussi la caractéristique de royaume de la Théurgie ; la Mémoire porte le savoir accumulé sur plantes, animaux, saisons, maladies et remèdes.</p>\n<h2>Orientation technique</h2>\n<p>L’Animiste favorise Listes de base, Animaux, Environnement, Herboristerie, Premiers soins, Perception, connaissances générales et magiques, Développement de la Puissance et Manipulation de la Puissance. Ses compétences ordinaires restent importantes même lorsque la magie n’est pas utilisée.</p>\n<h2>Une magie du monde vivant</h2>\n<p>La magie permet d’apaiser les animaux, trouver et renforcer les herbes, lire les informations du terrain, améliorer les sens, résister aux dangers naturels et stimuler les plantes. Elle peut rester très discrète et se confondre avec une connaissance exceptionnelle de la nature.</p>\n<h2>Animaux et herbes</h2>\n<p>Chez les Hommes des Bois, cette aptitude concerne les créatures de la Forêt Noire ; chez les Béornides, elle s’inscrit dans une tradition respectueuse des animaux des vallées de l’Anduin ; chez les Lossoth, elle porte sur les espèces adaptées aux régions glacées. Les herbes complètent naturellement cette relation au vivant.</p>\n<h2>Variantes culturelles</h2>\n<p>Les <strong>Wita</strong> des Hommes des Bois sont chamans, voyantes, guérisseuses et guides spirituelles, avec une tradition chantée ou psalmodiée. Les <strong>Urdharkona</strong> des Hommes du Nord urbanisés et des Gramuz peuvent être davantage liées à l’élevage, aux saisons et aux communautés agricoles. Certaines traditions particulières remplacent ou ajoutent des Listes selon leur Culture.</p>\n<h2>Listes de sorts de base</h2>\n<ul>\n<li><strong>Maîtrise des Animaux (Animal Mastery).</strong> Apaise, approche, comprend et influence les animaux.</li>\n<li><strong>Maîtrise des Herbes (Herb Mastery).</strong> Trouve, prépare et renforce les herbes et remèdes naturels.</li>\n<li><strong>Connaissance de la Nature (Nature’s Lore).</strong> Tire des informations de l’environnement.</li>\n<li><strong>Mouvement et Sens de la Nature (Nature’s Movement/Senses).</strong> Améliore capacités physiques et sensorielles.</li>\n<li><strong>Protection de la Nature (Nature’s Protection).</strong> Protège contre les dangers naturels.</li>\n<li><strong>Maîtrise des Plantes (Plant Mastery).</strong> Stimule, restaure et influence les végétaux.</li>\n</ul>\n<h2>Place dans la Terre du Milieu</h2>\n<p>L’Animiste s’intègre naturellement aux communautés vivant en relation étroite avec leur environnement : Hommes des Bois, Béornides, Lossoth et autres peuples ruraux ou forestiers. Dans les grandes cités du Gondor, il sera plus rare et pourra apparaître comme herboriste ou guérisseur spécialisé.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons l’Animiste comme <strong>pur utilisateur de Théurgie</strong> et rétablissons <strong>Intuition et Mémoire</strong> comme caractéristiques primordiales. Les six Listes historiques restent la référence de la Profession.</p>\n<p>MERP-RMU développe les variantes culturelles et lie l’accès aux Listes à la transmission réelle du savoir et au déclin de la magie selon les Âges.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "2/3"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "3/4"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "5/7"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "6/8"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "9/12"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "15/20"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling"
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception"
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking"
+        },
+        {
+          "skillCategory": "Crafting",
+          "skillName": "Woodcraft"
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation"
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Creature Lore"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "skillName": "Grace"
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "skillName": "Power Development"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Animiste",
+      "system": {
+        "description": "<h1>Animiste</h1>\n<p>L’<strong>Animiste</strong> est un utilisateur pur de la <strong>Théurgie</strong> spécialisé dans les forces qui animent le monde vivant. Sa magie porte sur les animaux, les plantes, les herbes, les phénomènes naturels, les sens et la protection offerte par l’environnement.</p>\n<p>Dans la Terre du Milieu, le terme Animiste désigne une famille de traditions. Chez les Hommes des Bois du Rhovanion, les femmes exerçant cette fonction sont appelées <strong>Wita</strong> ; chez certains Hommes du Nord et Gramuz, elles peuvent être connues comme <strong>Urdharkona</strong>. Chaque peuple donne à cette magie une expression propre.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales de l’Animiste sont <strong>Intuition (In)</strong> et <strong>Mémoire (Me)</strong>. L’Intuition est aussi la caractéristique de royaume de la Théurgie ; la Mémoire porte le savoir accumulé sur plantes, animaux, saisons, maladies et remèdes.</p>\n<h2>Orientation technique</h2>\n<p>L’Animiste favorise Listes de base, Animaux, Environnement, Herboristerie, Premiers soins, Perception, connaissances générales et magiques, Développement de la Puissance et Manipulation de la Puissance. Ses compétences ordinaires restent importantes même lorsque la magie n’est pas utilisée.</p>\n<h2>Une magie du monde vivant</h2>\n<p>La magie permet d’apaiser les animaux, trouver et renforcer les herbes, lire les informations du terrain, améliorer les sens, résister aux dangers naturels et stimuler les plantes. Elle peut rester très discrète et se confondre avec une connaissance exceptionnelle de la nature.</p>\n<h2>Animaux et herbes</h2>\n<p>Chez les Hommes des Bois, cette aptitude concerne les créatures de la Forêt Noire ; chez les Béornides, elle s’inscrit dans une tradition respectueuse des animaux des vallées de l’Anduin ; chez les Lossoth, elle porte sur les espèces adaptées aux régions glacées. Les herbes complètent naturellement cette relation au vivant.</p>\n<h2>Variantes culturelles</h2>\n<p>Les <strong>Wita</strong> des Hommes des Bois sont chamans, voyantes, guérisseuses et guides spirituelles, avec une tradition chantée ou psalmodiée. Les <strong>Urdharkona</strong> des Hommes du Nord urbanisés et des Gramuz peuvent être davantage liées à l’élevage, aux saisons et aux communautés agricoles. Certaines traditions particulières remplacent ou ajoutent des Listes selon leur Culture.</p>\n<h2>Listes de sorts de base</h2>\n<ul>\n<li><strong>Maîtrise des Animaux (Animal Mastery).</strong> Apaise, approche, comprend et influence les animaux.</li>\n<li><strong>Maîtrise des Herbes (Herb Mastery).</strong> Trouve, prépare et renforce les herbes et remèdes naturels.</li>\n<li><strong>Connaissance de la Nature (Nature’s Lore).</strong> Tire des informations de l’environnement.</li>\n<li><strong>Mouvement et Sens de la Nature (Nature’s Movement/Senses).</strong> Améliore capacités physiques et sensorielles.</li>\n<li><strong>Protection de la Nature (Nature’s Protection).</strong> Protège contre les dangers naturels.</li>\n<li><strong>Maîtrise des Plantes (Plant Mastery).</strong> Stimule, restaure et influence les végétaux.</li>\n</ul>\n<h2>Place dans la Terre du Milieu</h2>\n<p>L’Animiste s’intègre naturellement aux communautés vivant en relation étroite avec leur environnement : Hommes des Bois, Béornides, Lossoth et autres peuples ruraux ou forestiers. Dans les grandes cités du Gondor, il sera plus rare et pourra apparaître comme herboriste ou guérisseur spécialisé.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons l’Animiste comme <strong>pur utilisateur de Théurgie</strong> et rétablissons <strong>Intuition et Mémoire</strong> comme caractéristiques primordiales. Les six Listes historiques restent la référence de la Profession.</p>\n<p>MERP-RMU développe les variantes culturelles et lie l’accès aux Listes à la transmission réelle du savoir et au déclin de la magie selon les Âges.</p>"
+      }
+    },
+    "en": {
+      "name": "Animist",
+      "system": {
+        "description": "<h1>Animist</h1>\n<p>The <strong>Animist</strong> is a pure <strong>Channeling</strong> spell-user specializing in the forces that animate the living world. The Profession’s magic concerns animals, plants, herbs, natural phenomena, the senses, and the protection offered by the environment. The Animist’s relationship with nature is founded on knowledge, observation, and harmony with living things.</p>\n<p>In earlier Middle-earth and Rolemaster games, the Animist already occupied this role as a specialist in the living world. In Middle-earth, the term Animist is a broad category: among the <strong>Woodmen of Rhovanion</strong>, women who fulfil this role are called <strong>Wita</strong> and also serve as seers, healers, and spiritual guides; among some <strong>Urban Northmen</strong> and the <strong>Gramuz</strong>, Animists are known as <strong>Urdharkona</strong>.</p>\n<h2>Prime Stats</h2>\n<p>The Animist’s Prime Stats are <strong>Intuition (In)</strong> and <strong>Memory (Me)</strong>. Intuition is also the realm stat of Channeling. Memory represents the breadth of accumulated knowledge concerning plants, animals, seasons, diseases, remedies, and traditions.</p>\n<h2>Technical Orientation</h2>\n<p>The Animist is a <strong>pure Channeling spell-user</strong>. Development favours Base Spell Lists, skills related to <strong>Animals</strong> and the <strong>Environment</strong>, flora and fauna, Herb Lore, First Aid, Perception, general and magical lore, Power Point Development, and Power Manipulation.</p>\n<h2>Magic of the Living World</h2>\n<p>The Animist’s magic can calm or influence animals, find and prepare herbs, draw information from the environment, improve senses and physical abilities, resist natural hazards, and stimulate or restore plants.</p>\n<p>This magic often appears subtle. An Animist may walk through a forest and sense that a large group passed recently, recognize the plant capable of treating a wound, calm a frightened horse, or help a damaged tree recover its vigour.</p>\n<h2>Animals</h2>\n<p>Among the <strong>Woodmen</strong>, this ability may concern deer, birds, and the creatures of Mirkwood. Among the <strong>Beornings</strong>, it belongs to a tradition of particular respect for the animals of the Anduin vales. Among the <strong>Lossoth</strong>, an Animist may possess deep knowledge of creatures adapted to frozen lands.</p>\n<h2>Herbs and Healing</h2>\n<p><strong>Herb Mastery</strong> allows the Animist to find and prepare herbs and improve the effectiveness of natural remedies. A <strong>Wita</strong> of the Woodmen uses the plants of Mirkwood and the Anduin vales; a <strong>Dúnadan</strong> Animist may know remedies inherited from Númenórean traditions; a <strong>Dorwinadan</strong> Animist may combine this knowledge with the oils and cultivated plants of Dorwinion.</p>\n<h2>Knowledge of the Environment</h2>\n<p><strong>Nature’s Lore</strong> draws information from terrain, plants, animals, and natural phenomena. In Mirkwood, it can reveal areas where vegetation or animals react to the influence of the Shadow; in Eriador, it can identify traces left by travellers or predators.</p>\n<h2>Protection, Movement, and Senses</h2>\n<p><strong>Nature’s Protection</strong> improves resistance to natural hazards. <strong>Nature’s Movement/Senses</strong> enhances physical and perceptive abilities. Together these traditions reinforce the Animist’s identity as a character able to thrive in difficult environments through a combination of knowledge and magic.</p>\n<h2>Cultural Variants</h2>\n<h3>Wita of the Woodmen</h3>\n<p>The Wita are women regarded as “knowers.” They fulfil the roles of shaman, seer, healer, and spiritual guide. Their spells are traditionally sung or chanted.</p>\n<h3>Urdharkona</h3>\n<p>Among the Urban Northmen and the Gramuz, an Animist may bear the title <strong>Urdharkona</strong>. The tradition may be more closely structured around farming communities, livestock, the seasons, and protection of cultivated land.</p>\n<h2>Combat and Equipment</h2>\n<p>Combat is secondary. A Wita of the Woodmen may carry a staff, dagger, or bow; a Beorning Animist a spear or axe; a Dúnadan Animist may have received sword training. Light armour is generally the most compatible with the Profession’s way of life and magic.</p>\n<h2>Possible Profiles</h2>\n<p><strong>Forest Guardian.</strong> Animals, plants, Perception, and natural protection.</p>\n<p><strong>Herbalist.</strong> Herb Mastery, plant lore, and healing.</p>\n<p><strong>Animal Master.</strong> Animal Mastery, Riding, and knowledge of fauna.</p>\n<p><strong>Spiritual Adviser.</strong> Natural magic, Influence, religious traditions, and cultural lore.</p>\n<p><strong>Wilderness Traveller.</strong> Movement, senses, Survival, and environmental skills.</p>\n<h2>Base Spell Lists</h2>\n<p>The Animist has <strong>six Base Spell Lists</strong>:</p>\n<ul>\n<li><strong>Animal Mastery</strong></li>\n<li><strong>Herb Mastery</strong></li>\n<li><strong>Nature’s Lore</strong></li>\n<li><strong>Nature’s Movement/Senses</strong></li>\n<li><strong>Nature’s Protection</strong></li>\n<li><strong>Plant Mastery</strong></li>\n</ul>\n<h2>RMU / MERP Adaptation</h2>\n<p>We retain the fundamental concept of the Animist as a <strong>pure Channeling spell-user specializing in the living world</strong>. The Prime Stats remain <strong>Intuition and Memory</strong>, with Intuition also serving as the realm stat. The six traditional Lists remain the Profession’s reference.</p>\n<p>The MERP-RMU adaptation also develops cultural variants such as the <strong>Wita</strong>, <strong>Urdharkona</strong>, and other local traditions. The Animist’s place depends directly on the decline of magic and the transmission of lore. The more modest abilities may appear simply as extraordinary healing skill or knowledge of nature, while greater manifestations remain rare signs of an ancient tradition.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions Magiques Pures",
+      "Théurgie"
+    ],
+    "en": [
+      "Pure Spell-user Professions",
+      "Channeling"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-magiques-pures",
+    "professions-pures-canalisation"
+  ]
+}

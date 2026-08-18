@@ -1,0 +1,64 @@
+{
+  "key": "photographic-memory",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mental",
+  "document": {
+    "name": "Mémoire photographique (Photographic Memory)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "photographic-memory",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Photographic Memory",
+      "cost": "10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Mémoire photographique (Photographic Memory)</h1><h2>Description</h2><p>Votre mémoire peut conserver une quantité extraordinaire d’informations avec une grande précision. Tout ce que vous étudiez réellement pendant plus de quinze minutes peut être mémorisé avec une précision exceptionnelle : un livre entier peut ainsi être retenu si vous prenez le temps de le lire et de l’étudier. Un simple regard sur une page ne suffit pas.</p><p>Lorsqu’un souvenir étudié devait être rappelé, l’ancienne règle utilisait un jet ouvert fondé sur la Mémoire ; le résultat déterminait si l’information était restituée entièrement ou seulement en partie. Le Talent apportait également un bonus général aux connaissances.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, l’exigence d’<strong>étude réelle</strong> est conservée. Pour un détail important, incomplet ou ancien, le MJ peut demander une Manœuvre de Mémoire ou de Connaissance appropriée ; un succès permet une restitution très précise. Le Talent n’accorde pas la compréhension automatique d’un texte ni une connaissance qui n’a jamais été étudiée.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_photographic-memory.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Mémoire photographique (Photographic Memory)",
+      "system": {
+        "description": "<h1>Mémoire photographique (Photographic Memory)</h1><h2>Description</h2><p>Votre mémoire peut conserver une quantité extraordinaire d’informations avec une grande précision. Tout ce que vous étudiez réellement pendant plus de quinze minutes peut être mémorisé avec une précision exceptionnelle : un livre entier peut ainsi être retenu si vous prenez le temps de le lire et de l’étudier. Un simple regard sur une page ne suffit pas.</p><p>Lorsqu’un souvenir étudié devait être rappelé, l’ancienne règle utilisait un jet ouvert fondé sur la Mémoire ; le résultat déterminait si l’information était restituée entièrement ou seulement en partie. Le Talent apportait également un bonus général aux connaissances.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, l’exigence d’<strong>étude réelle</strong> est conservée. Pour un détail important, incomplet ou ancien, le MJ peut demander une Manœuvre de Mémoire ou de Connaissance appropriée ; un succès permet une restitution très précise. Le Talent n’accorde pas la compréhension automatique d’un texte ni une connaissance qui n’a jamais été étudiée.</p>"
+      }
+    },
+    "en": {
+      "name": "Photographic Memory",
+      "system": {
+        "description": "<h1>Photographic Memory</h1><h2>Description</h2><p>Your memory can retain an extraordinary quantity of information with great precision. Anything you genuinely study for more than fifteen minutes can be memorized with exceptional accuracy: an entire book can therefore be retained if you take the time to read and study it. A mere glance at a page is not sufficient.</p><p>When studied information had to be recalled, the older rule used an open-ended roll based on Memory; the result determined whether the information was recovered completely or only in part. The Talent also provided a general bonus to knowledge.</p><h2>MERP-RMU Adaptation</h2><p>MERP-RMU preserves the requirement for <strong>genuine study</strong>. For an important, incomplete, or old detail, the GM may require an appropriate Memory or Lore Maneuver; success allows extremely precise recall. The Talent does not grant automatic understanding of a text or knowledge that was never studied.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mentaux"
+    ],
+    "en": [
+      "Talents — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mental"
+  ]
+}

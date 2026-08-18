@@ -1,0 +1,69 @@
+{
+  "key": "gardener",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Jardinier (Gardener)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "gardener",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Hobbits",
+            "Periannath"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Gardener",
+      "cost": "5/Tier",
+      "tier": 0,
+      "maxTier": 2,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Jardinier (Gardener)</h1><h2>Description</h2><p>Vous avez la main verte. Dans la tradition hobbite, vous savez faire pousser de beaux légumes, des herbes et des champignons particulièrement réussis. Votre expérience renforce aussi vos connaissances de la flore et des herbes.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres pertinentes d’horticulture, d’agriculture à petite échelle, de flore ou d’herbes lorsque votre expérience de jardinier s’applique réellement.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_gardener.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Jardinier (Gardener)",
+      "system": {
+        "description": "<h1>Jardinier (Gardener)</h1><h2>Description</h2><p>Vous avez la main verte. Dans la tradition hobbite, vous savez faire pousser de beaux légumes, des herbes et des champignons particulièrement réussis. Votre expérience renforce aussi vos connaissances de la flore et des herbes.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres pertinentes d’horticulture, d’agriculture à petite échelle, de flore ou d’herbes lorsque votre expérience de jardinier s’applique réellement.</p>"
+      }
+    },
+    "en": {
+      "name": "Gardener",
+      "system": {
+        "description": "<h1>Gardener</h1><h2>Description</h2><p>You have a green thumb. In Hobbit tradition, you know how to grow fine vegetables, herbs, and especially good mushrooms. Your experience also strengthens your knowledge of flora and herbs.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+5 per Tier</strong> to relevant horticulture, small-scale agriculture, flora, or herb Maneuvers whenever your gardening experience genuinely applies.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

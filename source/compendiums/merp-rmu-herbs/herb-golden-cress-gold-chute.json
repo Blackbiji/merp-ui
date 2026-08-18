@@ -1,0 +1,79 @@
+{
+  "key": "herb-golden-cress-gold-chute",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Cresson Doré (Golden Cress / Chute-d’Or / Gold Chute)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-golden-cress-gold-chute",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-4-W",
+        "sourceCost": "9sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Golden Cress (Gold Chute)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Medium",
+      "form": "Herb",
+      "prep": "apply",
+      "season": "",
+      "cost": "9sp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Chute d’Or (Gold Chute)</strong>.</p><p>Cette herbe se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Séchée, moulue puis mêlée à du suif, cette plante forme un onguent qui referme les plaies sanglantes et rend 1 à 5 points de vie en quelques rounds.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Cresson Doré (Golden Cress / Chute-d’Or / Gold Chute)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Chute d’Or (Gold Chute)</strong>.</p><p>Cette herbe se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Séchée, moulue puis mêlée à du suif, cette plante forme un onguent qui referme les plaies sanglantes et rend 1 à 5 points de vie en quelques rounds.</p>"
+      }
+    },
+    "en": {
+      "name": "Golden Cress (Gold Chute)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Gold Chute</strong>.</p><p>This herb is found chiefly in mild temperate climates, especially in freshwater banks and shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Dried, ground, and mixed with tallow, this plant forms an ointment that closes bleeding wounds and restores 1–5 concussion hits within a few rounds.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

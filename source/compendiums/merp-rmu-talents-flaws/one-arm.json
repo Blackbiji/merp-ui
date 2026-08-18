@@ -1,0 +1,64 @@
+{
+  "key": "one-arm",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Un seul bras (One Arm)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "one-arm",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Physical",
+      "name": "One Arm",
+      "cost": "-15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Un seul bras (One Arm)</h1><h2>Description</h2><p>Vous ne disposez que d’un seul bras fonctionnel, qu’il ait été perdu, paralysé ou rendu inutilisable. Les actions qui supposent normalement l’usage coordonné des deux bras sont impossibles ou nécessitent une adaptation spécifique.</p><h2>Adaptation MERP-RMU</h2><p>Les armes, boucliers, escalades, manipulations et autres tâches sont résolus avec les règles RMU ordinaires en tenant compte de cette limitation. Une prothèse peut atténuer certaines conséquences si la technologie et le contexte de campagne le permettent, mais elle ne supprime pas automatiquement le Défaut.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_one-arm.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Un seul bras (One Arm)",
+      "system": {
+        "description": "<h1>Un seul bras (One Arm)</h1><h2>Description</h2><p>Vous ne disposez que d’un seul bras fonctionnel, qu’il ait été perdu, paralysé ou rendu inutilisable. Les actions qui supposent normalement l’usage coordonné des deux bras sont impossibles ou nécessitent une adaptation spécifique.</p><h2>Adaptation MERP-RMU</h2><p>Les armes, boucliers, escalades, manipulations et autres tâches sont résolus avec les règles RMU ordinaires en tenant compte de cette limitation. Une prothèse peut atténuer certaines conséquences si la technologie et le contexte de campagne le permettent, mais elle ne supprime pas automatiquement le Défaut.</p>"
+      }
+    },
+    "en": {
+      "name": "One Arm",
+      "system": {
+        "description": "<h1>One Arm</h1><h2>Description</h2><p>You have only one functional arm, whether the other was lost, paralyzed, or rendered unusable. Actions that normally require coordinated use of both arms are impossible or require a specific adaptation.</p><h2>MERP-RMU Adaptation</h2><p>Weapons, shields, climbing, manipulation, and other tasks are resolved using ordinary RMU rules while taking this limitation into account. A prosthesis may mitigate some consequences if the technology and campaign context allow it, but it does not automatically remove the Flaw.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

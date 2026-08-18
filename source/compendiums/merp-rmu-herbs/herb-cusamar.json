@@ -1,0 +1,79 @@
+{
+  "key": "herb-cusamar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Cusamar",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-cusamar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-H-8-N",
+        "sourceCost": "30gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "H",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Cusamar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Sheer Folly",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "30gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur rend 15 à 60 points de vie.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Cusamar",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur rend 15 à 60 points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Cusamar",
+      "system": {
+        "notes": "<p>This flower is found chiefly in cold climates, especially in heaths, scrublands, and moors, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The flower restores 15–60 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

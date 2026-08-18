@@ -1,0 +1,79 @@
+{
+  "key": "herb-ebur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Ebur",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ebur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-4-W",
+        "sourceCost": "22gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Ebur"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Medium",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "22gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur est utilisée pour accélérer la récupération des entorses.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 18,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ebur",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur est utilisée pour accélérer la récupération des entorses.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Ebur",
+      "system": {
+        "notes": "<p>This flower is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The flower is used to speed recovery from sprains.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

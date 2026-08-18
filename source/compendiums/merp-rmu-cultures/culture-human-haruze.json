@@ -1,0 +1,1903 @@
+{
+  "key": "culture-human-haruze",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Haruze",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-human-haruze",
+        "canonicalKey": "culture-human-haruze",
+        "collection": "merp-rmu",
+        "contentVersion": 2,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "availability": {
+          "ages": [
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "recommendedSpecializations": {
+          "Environmental — Survival": [
+            "Desert",
+            "Oasis"
+          ],
+          "Environmental — Navigation": [
+            "Stars",
+            "Caravan Routes"
+          ],
+          "Animal": [
+            "Camel",
+            "Horse"
+          ],
+          "Crafting & Vocation": [
+            "Caravaner",
+            "Guide",
+            "Merchant"
+          ]
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-humans",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "2": {
+            "sourceKey": "culture-human-haruze-age-2",
+            "folderKey": "cultures-age-2-humans",
+            "document": {
+              "name": "Haruze",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-human-haruze-age-2",
+                  "canonicalKey": "culture-human-haruze",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-2",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Haradaic",
+                        "spoken": 8,
+                        "written": 8,
+                        "nameFr": "Haradaïque"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 6,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Apysaic",
+                        "spoken": 6,
+                        "written": 4,
+                        "nameFr": "Apysaïque"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Environmental — Survival": [
+                      "Desert",
+                      "Oasis"
+                    ],
+                    "Environmental — Navigation": [
+                      "Stars",
+                      "Caravan Routes"
+                    ],
+                    "Animal": [
+                      "Camel",
+                      "Horse"
+                    ],
+                    "Crafting & Vocation": [
+                      "Caravaner",
+                      "Guide",
+                      "Merchant"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-humans"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Haruze",
+                "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Desert",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 12,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 1
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Haruze",
+                "system": {
+                  "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+                  "culture": "Haruze"
+                }
+              },
+              "en": {
+                "name": "Haruze",
+                "system": {
+                  "description": "<h1>Haruze</h1>\n<p>The Haruze, whose name means “People of the Gods” in Haradaic, are the northernmost of the peoples the Dúnedain call Haradrim, or Southrons in Westron. They live mainly in the arid and semi-arid lands between the Poros and Harnen, while their cities dominate the more fertile valleys of the Harnen and Ode Pezar.</p>\n<h2>Appearance</h2>\n<p>Haruze are generally short, lean, and wiry. Their skin is dark, their hair generally black, straight, and smooth, and their eyes dark, lively, and expressive. Men grow little beard or moustache. Their life expectancy is relatively high for Common Men, often between eighty and one hundred years.</p>\n<p>Their eyes are exceptionally well adapted to intense light. Sun glare, reflections on sand, and sudden flames trouble them little.</p>\n<h2>Adaptation to climate</h2>\n<p>Haruze endure heat, drought, and long distances particularly well. They can travel for many hours beneath an intense sun while consuming relatively little water.</p>\n<p>Cold, by contrast, is a genuine weakness. They cope poorly with damp, snowy, or freezing regions.</p>\n<h2>Cities, oases, and caravan routes</h2>\n<p>Most live in cities, fortified towns, or agricultural communities established near rivers and cultivable land. Others, known as Urdwan, lead a more mobile existence and follow desert routes according to the seasons.</p>\n<p>Caravan trade holds an essential place. Many Haruze are caravan drivers, merchants, guides, guards, interpreters, breeders of horses and camels, or traders.</p>\n<h2>Horses and camels</h2>\n<p>Most learn to ride from youth. Horses are preferred for speed and war, while camels are indispensable in the driest regions. Possession of good mounts is a mark of wealth, but also of competence and responsibility.</p>\n<h2>Society and family</h2>\n<p>Haruze society places considerable importance on family and clan. Descent traditionally follows the male line. Men may take several wives, but polygamy is expensive and practiced chiefly by prosperous families.</p>\n<h2>Honor, temperament, and hospitality</h2>\n<p>Haruze are passionate, proud, and quick to show emotion. Their conception of honor rests on loyalty to family, defense of the clan, respect for commitments, vengeance for an offense, courage, and protection of a guest.</p>\n<p>In arid regions, refusing water or shelter to a traveler can amount to a death sentence. Hospitality therefore has an almost sacred value, but ends immediately in the event of betrayal.</p>\n<h2>Religion</h2>\n<p>Haruze religion rests on elaborate rites addressed to idols representing different “high gods.” Families carry small altars devoted to household deities. Priests, seers, and mystics interpret signs, dreams, and omens.</p>\n<h2>Clothing and wealth</h2>\n<p>Haruze clothing is designed to protect from sun, dust, and loss of moisture. They wear blouses and breeches of silk, cotton, or wool, long robes, and a torft wrapped around the head, neck, and ears.</p>\n<p>They particularly love gold. Finely engraved jewelry serves both to display wealth and to preserve a reserve of value that can easily be carried.</p>\n<h2>Languages</h2>\n<p>Haradaic is their principal language. They also commonly know Westron, Apysaic, and Varadja. Travelers, merchants, and scholars may learn other languages according to their routes.</p>\n<h2>Weapons and way of fighting</h2>\n<p>Their weapons are adapted to climate and mobility: dagger, scimitar, short bow, short sword, spear, blowgun, boomerang, and throwing darts. Haruze rarely wear heavy armor and favor mobility, surprise, attacks from the saddle, and exploitation of terrain.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors fighters, rangers, rogues, merchants, diplomats, guides, caravan guards, riders, seers, goldsmiths, and storytellers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture suits a character from a city on the Harnen, an irrigated estate, a caravan clan, an Urdwan tribe, a merchant family, a group of desert guards, or a noble or priestly house.</p>\n<p>The Haruze are a people of townsfolk, riders, and caravan travelers, as comfortable in bustling markets as on desert tracks.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Haradaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4</li></ul></section>",
+                  "culture": "Haruze"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-human-haruze-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Haruze",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-human-haruze-age-3",
+                  "canonicalKey": "culture-human-haruze",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Haradaic",
+                        "spoken": 8,
+                        "written": 8,
+                        "nameFr": "Haradaïque"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 6,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Apysaic",
+                        "spoken": 6,
+                        "written": 4,
+                        "nameFr": "Apysaïque"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Environmental — Survival": [
+                      "Desert",
+                      "Oasis"
+                    ],
+                    "Environmental — Navigation": [
+                      "Stars",
+                      "Caravan Routes"
+                    ],
+                    "Animal": [
+                      "Camel",
+                      "Horse"
+                    ],
+                    "Crafting & Vocation": [
+                      "Caravaner",
+                      "Guide",
+                      "Merchant"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-humans"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Haruze",
+                "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Desert",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 12,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 1
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Haruze",
+                "system": {
+                  "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+                  "culture": "Haruze"
+                }
+              },
+              "en": {
+                "name": "Haruze",
+                "system": {
+                  "description": "<h1>Haruze</h1>\n<p>The Haruze, whose name means “People of the Gods” in Haradaic, are the northernmost of the peoples the Dúnedain call Haradrim, or Southrons in Westron. They live mainly in the arid and semi-arid lands between the Poros and Harnen, while their cities dominate the more fertile valleys of the Harnen and Ode Pezar.</p>\n<h2>Appearance</h2>\n<p>Haruze are generally short, lean, and wiry. Their skin is dark, their hair generally black, straight, and smooth, and their eyes dark, lively, and expressive. Men grow little beard or moustache. Their life expectancy is relatively high for Common Men, often between eighty and one hundred years.</p>\n<p>Their eyes are exceptionally well adapted to intense light. Sun glare, reflections on sand, and sudden flames trouble them little.</p>\n<h2>Adaptation to climate</h2>\n<p>Haruze endure heat, drought, and long distances particularly well. They can travel for many hours beneath an intense sun while consuming relatively little water.</p>\n<p>Cold, by contrast, is a genuine weakness. They cope poorly with damp, snowy, or freezing regions.</p>\n<h2>Cities, oases, and caravan routes</h2>\n<p>Most live in cities, fortified towns, or agricultural communities established near rivers and cultivable land. Others, known as Urdwan, lead a more mobile existence and follow desert routes according to the seasons.</p>\n<p>Caravan trade holds an essential place. Many Haruze are caravan drivers, merchants, guides, guards, interpreters, breeders of horses and camels, or traders.</p>\n<h2>Horses and camels</h2>\n<p>Most learn to ride from youth. Horses are preferred for speed and war, while camels are indispensable in the driest regions. Possession of good mounts is a mark of wealth, but also of competence and responsibility.</p>\n<h2>Society and family</h2>\n<p>Haruze society places considerable importance on family and clan. Descent traditionally follows the male line. Men may take several wives, but polygamy is expensive and practiced chiefly by prosperous families.</p>\n<h2>Honor, temperament, and hospitality</h2>\n<p>Haruze are passionate, proud, and quick to show emotion. Their conception of honor rests on loyalty to family, defense of the clan, respect for commitments, vengeance for an offense, courage, and protection of a guest.</p>\n<p>In arid regions, refusing water or shelter to a traveler can amount to a death sentence. Hospitality therefore has an almost sacred value, but ends immediately in the event of betrayal.</p>\n<h2>Religion</h2>\n<p>Haruze religion rests on elaborate rites addressed to idols representing different “high gods.” Families carry small altars devoted to household deities. Priests, seers, and mystics interpret signs, dreams, and omens.</p>\n<h2>Clothing and wealth</h2>\n<p>Haruze clothing is designed to protect from sun, dust, and loss of moisture. They wear blouses and breeches of silk, cotton, or wool, long robes, and a torft wrapped around the head, neck, and ears.</p>\n<p>They particularly love gold. Finely engraved jewelry serves both to display wealth and to preserve a reserve of value that can easily be carried.</p>\n<h2>Languages</h2>\n<p>Haradaic is their principal language. They also commonly know Westron, Apysaic, and Varadja. Travelers, merchants, and scholars may learn other languages according to their routes.</p>\n<h2>Weapons and way of fighting</h2>\n<p>Their weapons are adapted to climate and mobility: dagger, scimitar, short bow, short sword, spear, blowgun, boomerang, and throwing darts. Haruze rarely wear heavy armor and favor mobility, surprise, attacks from the saddle, and exploitation of terrain.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors fighters, rangers, rogues, merchants, diplomats, guides, caravan guards, riders, seers, goldsmiths, and storytellers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture suits a character from a city on the Harnen, an irrigated estate, a caravan clan, an Urdwan tribe, a merchant family, a group of desert guards, or a noble or priestly house.</p>\n<p>The Haruze are a people of townsfolk, riders, and caravan travelers, as comfortable in bustling markets as on desert tracks.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Haradaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4</li></ul></section>",
+                  "culture": "Haruze"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-human-haruze-age-4",
+            "folderKey": "cultures-age-4-humans",
+            "document": {
+              "name": "Haruze",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-human-haruze-age-4",
+                  "canonicalKey": "culture-human-haruze",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-4",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Haradaic",
+                        "spoken": 8,
+                        "written": 8,
+                        "nameFr": "Haradaïque"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 6,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Apysaic",
+                        "spoken": 6,
+                        "written": 4,
+                        "nameFr": "Apysaïque"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Environmental — Survival": [
+                      "Desert",
+                      "Oasis"
+                    ],
+                    "Environmental — Navigation": [
+                      "Stars",
+                      "Caravan Routes"
+                    ],
+                    "Animal": [
+                      "Camel",
+                      "Horse"
+                    ],
+                    "Crafting & Vocation": [
+                      "Caravaner",
+                      "Guide",
+                      "Merchant"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-humans"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Haruze",
+                "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Desert",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 12,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 1
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Haruze",
+                "system": {
+                  "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+                  "culture": "Haruze"
+                }
+              },
+              "en": {
+                "name": "Haruze",
+                "system": {
+                  "description": "<h1>Haruze</h1>\n<p>The Haruze, whose name means “People of the Gods” in Haradaic, are the northernmost of the peoples the Dúnedain call Haradrim, or Southrons in Westron. They live mainly in the arid and semi-arid lands between the Poros and Harnen, while their cities dominate the more fertile valleys of the Harnen and Ode Pezar.</p>\n<h2>Appearance</h2>\n<p>Haruze are generally short, lean, and wiry. Their skin is dark, their hair generally black, straight, and smooth, and their eyes dark, lively, and expressive. Men grow little beard or moustache. Their life expectancy is relatively high for Common Men, often between eighty and one hundred years.</p>\n<p>Their eyes are exceptionally well adapted to intense light. Sun glare, reflections on sand, and sudden flames trouble them little.</p>\n<h2>Adaptation to climate</h2>\n<p>Haruze endure heat, drought, and long distances particularly well. They can travel for many hours beneath an intense sun while consuming relatively little water.</p>\n<p>Cold, by contrast, is a genuine weakness. They cope poorly with damp, snowy, or freezing regions.</p>\n<h2>Cities, oases, and caravan routes</h2>\n<p>Most live in cities, fortified towns, or agricultural communities established near rivers and cultivable land. Others, known as Urdwan, lead a more mobile existence and follow desert routes according to the seasons.</p>\n<p>Caravan trade holds an essential place. Many Haruze are caravan drivers, merchants, guides, guards, interpreters, breeders of horses and camels, or traders.</p>\n<h2>Horses and camels</h2>\n<p>Most learn to ride from youth. Horses are preferred for speed and war, while camels are indispensable in the driest regions. Possession of good mounts is a mark of wealth, but also of competence and responsibility.</p>\n<h2>Society and family</h2>\n<p>Haruze society places considerable importance on family and clan. Descent traditionally follows the male line. Men may take several wives, but polygamy is expensive and practiced chiefly by prosperous families.</p>\n<h2>Honor, temperament, and hospitality</h2>\n<p>Haruze are passionate, proud, and quick to show emotion. Their conception of honor rests on loyalty to family, defense of the clan, respect for commitments, vengeance for an offense, courage, and protection of a guest.</p>\n<p>In arid regions, refusing water or shelter to a traveler can amount to a death sentence. Hospitality therefore has an almost sacred value, but ends immediately in the event of betrayal.</p>\n<h2>Religion</h2>\n<p>Haruze religion rests on elaborate rites addressed to idols representing different “high gods.” Families carry small altars devoted to household deities. Priests, seers, and mystics interpret signs, dreams, and omens.</p>\n<h2>Clothing and wealth</h2>\n<p>Haruze clothing is designed to protect from sun, dust, and loss of moisture. They wear blouses and breeches of silk, cotton, or wool, long robes, and a torft wrapped around the head, neck, and ears.</p>\n<p>They particularly love gold. Finely engraved jewelry serves both to display wealth and to preserve a reserve of value that can easily be carried.</p>\n<h2>Languages</h2>\n<p>Haradaic is their principal language. They also commonly know Westron, Apysaic, and Varadja. Travelers, merchants, and scholars may learn other languages according to their routes.</p>\n<h2>Weapons and way of fighting</h2>\n<p>Their weapons are adapted to climate and mobility: dagger, scimitar, short bow, short sword, spear, blowgun, boomerang, and throwing darts. Haruze rarely wear heavy armor and favor mobility, surprise, attacks from the saddle, and exploitation of terrain.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors fighters, rangers, rogues, merchants, diplomats, guides, caravan guards, riders, seers, goldsmiths, and storytellers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture suits a character from a city on the Harnen, an irrigated estate, a caravan clan, an Urdwan tribe, a merchant family, a group of desert guards, or a noble or priestly house.</p>\n<p>The Haruze are a people of townsfolk, riders, and caravan travelers, as comfortable in bustling markets as on desert tracks.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Haradaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4</li></ul></section>",
+                  "culture": "Haruze"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Haruze",
+      "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Desert",
+          "ranks": 6
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 12,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 1
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Haruze",
+      "system": {
+        "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+        "culture": "Haruze"
+      }
+    },
+    "en": {
+      "name": "Haruze",
+      "system": {
+        "description": "<h1>Haruze</h1>\n<p>The Haruze, whose name means “People of the Gods” in Haradaic, are the northernmost of the peoples the Dúnedain call Haradrim, or Southrons in Westron. They live mainly in the arid and semi-arid lands between the Poros and Harnen, while their cities dominate the more fertile valleys of the Harnen and Ode Pezar.</p>\n<h2>Appearance</h2>\n<p>Haruze are generally short, lean, and wiry. Their skin is dark, their hair generally black, straight, and smooth, and their eyes dark, lively, and expressive. Men grow little beard or moustache. Their life expectancy is relatively high for Common Men, often between eighty and one hundred years.</p>\n<p>Their eyes are exceptionally well adapted to intense light. Sun glare, reflections on sand, and sudden flames trouble them little.</p>\n<h2>Adaptation to climate</h2>\n<p>Haruze endure heat, drought, and long distances particularly well. They can travel for many hours beneath an intense sun while consuming relatively little water.</p>\n<p>Cold, by contrast, is a genuine weakness. They cope poorly with damp, snowy, or freezing regions.</p>\n<h2>Cities, oases, and caravan routes</h2>\n<p>Most live in cities, fortified towns, or agricultural communities established near rivers and cultivable land. Others, known as Urdwan, lead a more mobile existence and follow desert routes according to the seasons.</p>\n<p>Caravan trade holds an essential place. Many Haruze are caravan drivers, merchants, guides, guards, interpreters, breeders of horses and camels, or traders.</p>\n<h2>Horses and camels</h2>\n<p>Most learn to ride from youth. Horses are preferred for speed and war, while camels are indispensable in the driest regions. Possession of good mounts is a mark of wealth, but also of competence and responsibility.</p>\n<h2>Society and family</h2>\n<p>Haruze society places considerable importance on family and clan. Descent traditionally follows the male line. Men may take several wives, but polygamy is expensive and practiced chiefly by prosperous families.</p>\n<h2>Honor, temperament, and hospitality</h2>\n<p>Haruze are passionate, proud, and quick to show emotion. Their conception of honor rests on loyalty to family, defense of the clan, respect for commitments, vengeance for an offense, courage, and protection of a guest.</p>\n<p>In arid regions, refusing water or shelter to a traveler can amount to a death sentence. Hospitality therefore has an almost sacred value, but ends immediately in the event of betrayal.</p>\n<h2>Religion</h2>\n<p>Haruze religion rests on elaborate rites addressed to idols representing different “high gods.” Families carry small altars devoted to household deities. Priests, seers, and mystics interpret signs, dreams, and omens.</p>\n<h2>Clothing and wealth</h2>\n<p>Haruze clothing is designed to protect from sun, dust, and loss of moisture. They wear blouses and breeches of silk, cotton, or wool, long robes, and a torft wrapped around the head, neck, and ears.</p>\n<p>They particularly love gold. Finely engraved jewelry serves both to display wealth and to preserve a reserve of value that can easily be carried.</p>\n<h2>Languages</h2>\n<p>Haradaic is their principal language. They also commonly know Westron, Apysaic, and Varadja. Travelers, merchants, and scholars may learn other languages according to their routes.</p>\n<h2>Weapons and way of fighting</h2>\n<p>Their weapons are adapted to climate and mobility: dagger, scimitar, short bow, short sword, spear, blowgun, boomerang, and throwing darts. Haruze rarely wear heavy armor and favor mobility, surprise, attacks from the saddle, and exploitation of terrain.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors fighters, rangers, rogues, merchants, diplomats, guides, caravan guards, riders, seers, goldsmiths, and storytellers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture suits a character from a city on the Harnen, an irrigated estate, a caravan clan, an Urdwan tribe, a merchant family, a group of desert guards, or a noble or priestly house.</p>\n<p>The Haruze are a people of townsfolk, riders, and caravan travelers, as comfortable in bustling markets as on desert tracks.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Haradaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4</li></ul></section>",
+        "culture": "Haruze"
+      }
+    }
+  },
+  "ageVariants": {
+    "2": {
+      "sourceKey": "culture-human-haruze-age-2",
+      "folderKey": "cultures-age-2-humans",
+      "document": {
+        "name": "Haruze",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-human-haruze-age-2",
+            "canonicalKey": "culture-human-haruze",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-2",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Haradaic",
+                  "spoken": 8,
+                  "written": 8,
+                  "nameFr": "Haradaïque"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 6,
+                  "written": 6,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Apysaic",
+                  "spoken": 6,
+                  "written": 4,
+                  "nameFr": "Apysaïque"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Environmental — Survival": [
+                "Desert",
+                "Oasis"
+              ],
+              "Environmental — Navigation": [
+                "Stars",
+                "Caravan Routes"
+              ],
+              "Animal": [
+                "Camel",
+                "Horse"
+              ],
+              "Crafting & Vocation": [
+                "Caravaner",
+                "Guide",
+                "Merchant"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-humans"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Haruze",
+          "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Desert",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 12,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 1
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Haruze",
+          "system": {
+            "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+            "culture": "Haruze"
+          }
+        },
+        "en": {
+          "name": "Haruze",
+          "system": {
+            "description": "<h1>Haruze</h1>\n<p>The Haruze, whose name means “People of the Gods” in Haradaic, are the northernmost of the peoples the Dúnedain call Haradrim, or Southrons in Westron. They live mainly in the arid and semi-arid lands between the Poros and Harnen, while their cities dominate the more fertile valleys of the Harnen and Ode Pezar.</p>\n<h2>Appearance</h2>\n<p>Haruze are generally short, lean, and wiry. Their skin is dark, their hair generally black, straight, and smooth, and their eyes dark, lively, and expressive. Men grow little beard or moustache. Their life expectancy is relatively high for Common Men, often between eighty and one hundred years.</p>\n<p>Their eyes are exceptionally well adapted to intense light. Sun glare, reflections on sand, and sudden flames trouble them little.</p>\n<h2>Adaptation to climate</h2>\n<p>Haruze endure heat, drought, and long distances particularly well. They can travel for many hours beneath an intense sun while consuming relatively little water.</p>\n<p>Cold, by contrast, is a genuine weakness. They cope poorly with damp, snowy, or freezing regions.</p>\n<h2>Cities, oases, and caravan routes</h2>\n<p>Most live in cities, fortified towns, or agricultural communities established near rivers and cultivable land. Others, known as Urdwan, lead a more mobile existence and follow desert routes according to the seasons.</p>\n<p>Caravan trade holds an essential place. Many Haruze are caravan drivers, merchants, guides, guards, interpreters, breeders of horses and camels, or traders.</p>\n<h2>Horses and camels</h2>\n<p>Most learn to ride from youth. Horses are preferred for speed and war, while camels are indispensable in the driest regions. Possession of good mounts is a mark of wealth, but also of competence and responsibility.</p>\n<h2>Society and family</h2>\n<p>Haruze society places considerable importance on family and clan. Descent traditionally follows the male line. Men may take several wives, but polygamy is expensive and practiced chiefly by prosperous families.</p>\n<h2>Honor, temperament, and hospitality</h2>\n<p>Haruze are passionate, proud, and quick to show emotion. Their conception of honor rests on loyalty to family, defense of the clan, respect for commitments, vengeance for an offense, courage, and protection of a guest.</p>\n<p>In arid regions, refusing water or shelter to a traveler can amount to a death sentence. Hospitality therefore has an almost sacred value, but ends immediately in the event of betrayal.</p>\n<h2>Religion</h2>\n<p>Haruze religion rests on elaborate rites addressed to idols representing different “high gods.” Families carry small altars devoted to household deities. Priests, seers, and mystics interpret signs, dreams, and omens.</p>\n<h2>Clothing and wealth</h2>\n<p>Haruze clothing is designed to protect from sun, dust, and loss of moisture. They wear blouses and breeches of silk, cotton, or wool, long robes, and a torft wrapped around the head, neck, and ears.</p>\n<p>They particularly love gold. Finely engraved jewelry serves both to display wealth and to preserve a reserve of value that can easily be carried.</p>\n<h2>Languages</h2>\n<p>Haradaic is their principal language. They also commonly know Westron, Apysaic, and Varadja. Travelers, merchants, and scholars may learn other languages according to their routes.</p>\n<h2>Weapons and way of fighting</h2>\n<p>Their weapons are adapted to climate and mobility: dagger, scimitar, short bow, short sword, spear, blowgun, boomerang, and throwing darts. Haruze rarely wear heavy armor and favor mobility, surprise, attacks from the saddle, and exploitation of terrain.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors fighters, rangers, rogues, merchants, diplomats, guides, caravan guards, riders, seers, goldsmiths, and storytellers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture suits a character from a city on the Harnen, an irrigated estate, a caravan clan, an Urdwan tribe, a merchant family, a group of desert guards, or a noble or priestly house.</p>\n<p>The Haruze are a people of townsfolk, riders, and caravan travelers, as comfortable in bustling markets as on desert tracks.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Haradaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4</li></ul></section>",
+            "culture": "Haruze"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-human-haruze-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Haruze",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-human-haruze-age-3",
+            "canonicalKey": "culture-human-haruze",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Haradaic",
+                  "spoken": 8,
+                  "written": 8,
+                  "nameFr": "Haradaïque"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 6,
+                  "written": 6,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Apysaic",
+                  "spoken": 6,
+                  "written": 4,
+                  "nameFr": "Apysaïque"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Environmental — Survival": [
+                "Desert",
+                "Oasis"
+              ],
+              "Environmental — Navigation": [
+                "Stars",
+                "Caravan Routes"
+              ],
+              "Animal": [
+                "Camel",
+                "Horse"
+              ],
+              "Crafting & Vocation": [
+                "Caravaner",
+                "Guide",
+                "Merchant"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-humans"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Haruze",
+          "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Desert",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 12,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 1
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Haruze",
+          "system": {
+            "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+            "culture": "Haruze"
+          }
+        },
+        "en": {
+          "name": "Haruze",
+          "system": {
+            "description": "<h1>Haruze</h1>\n<p>The Haruze, whose name means “People of the Gods” in Haradaic, are the northernmost of the peoples the Dúnedain call Haradrim, or Southrons in Westron. They live mainly in the arid and semi-arid lands between the Poros and Harnen, while their cities dominate the more fertile valleys of the Harnen and Ode Pezar.</p>\n<h2>Appearance</h2>\n<p>Haruze are generally short, lean, and wiry. Their skin is dark, their hair generally black, straight, and smooth, and their eyes dark, lively, and expressive. Men grow little beard or moustache. Their life expectancy is relatively high for Common Men, often between eighty and one hundred years.</p>\n<p>Their eyes are exceptionally well adapted to intense light. Sun glare, reflections on sand, and sudden flames trouble them little.</p>\n<h2>Adaptation to climate</h2>\n<p>Haruze endure heat, drought, and long distances particularly well. They can travel for many hours beneath an intense sun while consuming relatively little water.</p>\n<p>Cold, by contrast, is a genuine weakness. They cope poorly with damp, snowy, or freezing regions.</p>\n<h2>Cities, oases, and caravan routes</h2>\n<p>Most live in cities, fortified towns, or agricultural communities established near rivers and cultivable land. Others, known as Urdwan, lead a more mobile existence and follow desert routes according to the seasons.</p>\n<p>Caravan trade holds an essential place. Many Haruze are caravan drivers, merchants, guides, guards, interpreters, breeders of horses and camels, or traders.</p>\n<h2>Horses and camels</h2>\n<p>Most learn to ride from youth. Horses are preferred for speed and war, while camels are indispensable in the driest regions. Possession of good mounts is a mark of wealth, but also of competence and responsibility.</p>\n<h2>Society and family</h2>\n<p>Haruze society places considerable importance on family and clan. Descent traditionally follows the male line. Men may take several wives, but polygamy is expensive and practiced chiefly by prosperous families.</p>\n<h2>Honor, temperament, and hospitality</h2>\n<p>Haruze are passionate, proud, and quick to show emotion. Their conception of honor rests on loyalty to family, defense of the clan, respect for commitments, vengeance for an offense, courage, and protection of a guest.</p>\n<p>In arid regions, refusing water or shelter to a traveler can amount to a death sentence. Hospitality therefore has an almost sacred value, but ends immediately in the event of betrayal.</p>\n<h2>Religion</h2>\n<p>Haruze religion rests on elaborate rites addressed to idols representing different “high gods.” Families carry small altars devoted to household deities. Priests, seers, and mystics interpret signs, dreams, and omens.</p>\n<h2>Clothing and wealth</h2>\n<p>Haruze clothing is designed to protect from sun, dust, and loss of moisture. They wear blouses and breeches of silk, cotton, or wool, long robes, and a torft wrapped around the head, neck, and ears.</p>\n<p>They particularly love gold. Finely engraved jewelry serves both to display wealth and to preserve a reserve of value that can easily be carried.</p>\n<h2>Languages</h2>\n<p>Haradaic is their principal language. They also commonly know Westron, Apysaic, and Varadja. Travelers, merchants, and scholars may learn other languages according to their routes.</p>\n<h2>Weapons and way of fighting</h2>\n<p>Their weapons are adapted to climate and mobility: dagger, scimitar, short bow, short sword, spear, blowgun, boomerang, and throwing darts. Haruze rarely wear heavy armor and favor mobility, surprise, attacks from the saddle, and exploitation of terrain.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors fighters, rangers, rogues, merchants, diplomats, guides, caravan guards, riders, seers, goldsmiths, and storytellers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture suits a character from a city on the Harnen, an irrigated estate, a caravan clan, an Urdwan tribe, a merchant family, a group of desert guards, or a noble or priestly house.</p>\n<p>The Haruze are a people of townsfolk, riders, and caravan travelers, as comfortable in bustling markets as on desert tracks.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Haradaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4</li></ul></section>",
+            "culture": "Haruze"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-human-haruze-age-4",
+      "folderKey": "cultures-age-4-humans",
+      "document": {
+        "name": "Haruze",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-human-haruze-age-4",
+            "canonicalKey": "culture-human-haruze",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-4",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Haradaic",
+                  "spoken": 8,
+                  "written": 8,
+                  "nameFr": "Haradaïque"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 6,
+                  "written": 6,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Apysaic",
+                  "spoken": 6,
+                  "written": 4,
+                  "nameFr": "Apysaïque"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Environmental — Survival": [
+                "Desert",
+                "Oasis"
+              ],
+              "Environmental — Navigation": [
+                "Stars",
+                "Caravan Routes"
+              ],
+              "Animal": [
+                "Camel",
+                "Horse"
+              ],
+              "Crafting & Vocation": [
+                "Caravaner",
+                "Guide",
+                "Merchant"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-humans"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Haruze",
+          "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Desert",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 12,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 1
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Haruze",
+          "system": {
+            "description": "<h1>Haruze</h1>\n<p>Les Haruze, dont le nom signifie « Peuple des Dieux » en haradaïque, forment le plus septentrional des peuples que les Dúnedain désignent sous le nom de Haradrim, ou Sudrons en westron. Ils vivent principalement dans les terres arides et semi-arides comprises entre le Poros et le Harnen, tandis que leurs cités dominent les vallées plus fertiles du Harnen et de l’Ode Pezar.</p>\n<h2>Apparence</h2>\n<p>Les Haruze sont généralement petits, minces et nerveux. Leur peau est sombre, leurs cheveux généralement noirs, droits et lisses, et leurs yeux foncés, vifs et expressifs. Les hommes portent peu de barbe ou de moustache. Leur espérance de vie est relativement élevée pour des Hommes communs, souvent comprise entre quatre-vingts et cent ans.</p>\n<p>Leurs yeux sont exceptionnellement bien adaptés à la lumière intense. Les éclats du soleil, les reflets sur le sable et les flammes soudaines les gênent peu.</p>\n<h2>Adaptation au climat</h2>\n<p>Les Haruze supportent particulièrement bien la chaleur, la sécheresse et les longues distances. Ils peuvent voyager durant de nombreuses heures sous un soleil intense en consommant relativement peu d’eau.</p>\n<p>Le froid représente en revanche une faiblesse réelle. Ils supportent mal les régions humides, enneigées ou glaciales.</p>\n<h2>Villes, oasis et routes caravanières</h2>\n<p>La majorité vit dans des villes, des bourgs fortifiés ou des communautés agricoles établies près des fleuves et des terres cultivables. D’autres, connus sous le nom d’Urdwan, mènent une existence plus mobile et suivent les routes du désert selon les saisons.</p>\n<p>Le commerce caravanier occupe une place essentielle. De nombreux Haruze sont conducteurs de caravanes, marchands, guides, gardes, interprètes, éleveurs de chevaux et de chameaux ou négociants.</p>\n<h2>Chevaux et chameaux</h2>\n<p>La plupart apprennent à monter dès leur jeunesse. Les chevaux sont privilégiés pour la vitesse et la guerre, tandis que les chameaux sont indispensables dans les régions les plus sèches. La possession de bonnes montures constitue un signe de richesse, mais aussi de compétence et de responsabilité.</p>\n<h2>Société et famille</h2>\n<p>La société haruze accorde une importance considérable à la famille et au clan. La filiation suit traditionnellement la lignée masculine. Les hommes peuvent prendre plusieurs épouses, mais la polygamie reste coûteuse et surtout pratiquée par les familles prospères.</p>\n<h2>Honneur, tempérament et hospitalité</h2>\n<p>Les Haruze sont passionnés, fiers et prompts à manifester leurs émotions. Leur conception de l’honneur repose sur la fidélité à la famille, la défense du clan, le respect des engagements, la vengeance d’une offense, le courage et la protection de l’hôte.</p>\n<p>Dans les régions arides, refuser l’eau ou un abri à un voyageur peut équivaloir à une condamnation à mort. L’hospitalité possède donc une valeur presque sacrée, mais cesse immédiatement en cas de trahison.</p>\n<h2>Religion</h2>\n<p>La religion haruze repose sur des rites élaborés adressés à des idoles représentant différents « hauts dieux ». Les familles transportent avec elles de petits autels consacrés aux divinités domestiques. Les prêtres, devins et mystiques interprètent les signes, les rêves et les présages.</p>\n<h2>Vêtements et richesse</h2>\n<p>Les vêtements haruze sont conçus pour protéger du soleil, de la poussière et de la perte d’humidité. Ils portent des blouses et des braies de soie, de coton ou de laine, de longues robes et un torft enveloppant la tête, la nuque et les oreilles.</p>\n<p>Ils aiment particulièrement l’or. Les bijoux finement gravés servent autant à montrer la richesse qu’à conserver une réserve de valeur facilement transportable.</p>\n<h2>Langues</h2>\n<p>Le haradaïque est leur langue principale. Ils connaissent également couramment le westron, l’apysaïque et le varadja. Les voyageurs, marchands et érudits peuvent apprendre d’autres langues selon leurs routes.</p>\n<h2>Armes et manière de combattre</h2>\n<p>Leurs armes sont adaptées au climat et à la mobilité : dague, cimeterre, arc court, épée courte, lance, sarbacane, boomerang et fléchettes de jet. Les Haruze portent rarement des armures lourdes et privilégient la mobilité, la surprise, les attaques depuis la selle et l’exploitation du terrain.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les combattants, rôdeurs, roublards, marchands, diplomates, guides, gardes de caravanes, cavaliers, devins, orfèvres et conteurs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture convient à un personnage issu d’une cité du Harnen, d’un domaine irrigué, d’un clan caravanier, d’une tribu urdwan, d’une famille de marchands, d’un groupe de gardes du désert ou d’une maison noble ou sacerdotale.</p>\n<p>Les Haruze forment un peuple de citadins, de cavaliers et de caravaniers, aussi à l’aise dans les marchés animés que sur les pistes du désert.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Haradaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Apysaic</strong> — Parlée 6 / Écrite 4</li></ul></section>",
+            "culture": "Haruze"
+          }
+        },
+        "en": {
+          "name": "Haruze",
+          "system": {
+            "description": "<h1>Haruze</h1>\n<p>The Haruze, whose name means “People of the Gods” in Haradaic, are the northernmost of the peoples the Dúnedain call Haradrim, or Southrons in Westron. They live mainly in the arid and semi-arid lands between the Poros and Harnen, while their cities dominate the more fertile valleys of the Harnen and Ode Pezar.</p>\n<h2>Appearance</h2>\n<p>Haruze are generally short, lean, and wiry. Their skin is dark, their hair generally black, straight, and smooth, and their eyes dark, lively, and expressive. Men grow little beard or moustache. Their life expectancy is relatively high for Common Men, often between eighty and one hundred years.</p>\n<p>Their eyes are exceptionally well adapted to intense light. Sun glare, reflections on sand, and sudden flames trouble them little.</p>\n<h2>Adaptation to climate</h2>\n<p>Haruze endure heat, drought, and long distances particularly well. They can travel for many hours beneath an intense sun while consuming relatively little water.</p>\n<p>Cold, by contrast, is a genuine weakness. They cope poorly with damp, snowy, or freezing regions.</p>\n<h2>Cities, oases, and caravan routes</h2>\n<p>Most live in cities, fortified towns, or agricultural communities established near rivers and cultivable land. Others, known as Urdwan, lead a more mobile existence and follow desert routes according to the seasons.</p>\n<p>Caravan trade holds an essential place. Many Haruze are caravan drivers, merchants, guides, guards, interpreters, breeders of horses and camels, or traders.</p>\n<h2>Horses and camels</h2>\n<p>Most learn to ride from youth. Horses are preferred for speed and war, while camels are indispensable in the driest regions. Possession of good mounts is a mark of wealth, but also of competence and responsibility.</p>\n<h2>Society and family</h2>\n<p>Haruze society places considerable importance on family and clan. Descent traditionally follows the male line. Men may take several wives, but polygamy is expensive and practiced chiefly by prosperous families.</p>\n<h2>Honor, temperament, and hospitality</h2>\n<p>Haruze are passionate, proud, and quick to show emotion. Their conception of honor rests on loyalty to family, defense of the clan, respect for commitments, vengeance for an offense, courage, and protection of a guest.</p>\n<p>In arid regions, refusing water or shelter to a traveler can amount to a death sentence. Hospitality therefore has an almost sacred value, but ends immediately in the event of betrayal.</p>\n<h2>Religion</h2>\n<p>Haruze religion rests on elaborate rites addressed to idols representing different “high gods.” Families carry small altars devoted to household deities. Priests, seers, and mystics interpret signs, dreams, and omens.</p>\n<h2>Clothing and wealth</h2>\n<p>Haruze clothing is designed to protect from sun, dust, and loss of moisture. They wear blouses and breeches of silk, cotton, or wool, long robes, and a torft wrapped around the head, neck, and ears.</p>\n<p>They particularly love gold. Finely engraved jewelry serves both to display wealth and to preserve a reserve of value that can easily be carried.</p>\n<h2>Languages</h2>\n<p>Haradaic is their principal language. They also commonly know Westron, Apysaic, and Varadja. Travelers, merchants, and scholars may learn other languages according to their routes.</p>\n<h2>Weapons and way of fighting</h2>\n<p>Their weapons are adapted to climate and mobility: dagger, scimitar, short bow, short sword, spear, blowgun, boomerang, and throwing darts. Haruze rarely wear heavy armor and favor mobility, surprise, attacks from the saddle, and exploitation of terrain.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors fighters, rangers, rogues, merchants, diplomats, guides, caravan guards, riders, seers, goldsmiths, and storytellers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture suits a character from a city on the Harnen, an irrigated estate, a caravan clan, an Urdwan tribe, a merchant family, a group of desert guards, or a noble or priestly house.</p>\n<p>The Haruze are a people of townsfolk, riders, and caravan travelers, as comfortable in bustling markets as on desert tracks.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Haradaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4</li></ul></section>",
+            "culture": "Haruze"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

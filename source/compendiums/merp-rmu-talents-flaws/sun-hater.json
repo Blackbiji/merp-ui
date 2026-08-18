@@ -1,0 +1,73 @@
+{
+  "key": "sun-hater",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Aversion au Soleil (Sun-hater)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "sun-hater",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {
+          "cultures": [
+            "Olog-hai",
+            "Olog Hai",
+            "Demi-Trolls",
+            "Demi-Troll",
+            "Half-trolls",
+            "Half-Trolls"
+          ]
+        },
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Physical",
+      "name": "Sun-hater",
+      "cost": "-15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Aversion au Soleil (Sun-hater)</h1><h2>Description</h2><p>La lumière solaire directe vous affaiblit profondément. En plein soleil, vous subissez <strong>−30</strong> à vos Manœuvres et attaques. Sous une lumière artificielle ou magique particulièrement vive, la pénalité est de <strong>−15</strong>.</p><p>Après votre retour dans l’obscurité ou sous une lumière normale, la pénalité persiste pendant <strong>1 round par tranche de 5 rounds d’exposition</strong>, jusqu’à un maximum de six heures pour une exposition prolongée.</p><h2>Adaptation MERP-RMU</h2><p>Les anciens pourcentages d’activité sont remplacés par des modificateurs directs compatibles avec les Manœuvres et attaques RMU.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_sun-hater.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Aversion au Soleil (Sun-hater)",
+      "system": {
+        "description": "<h1>Aversion au Soleil (Sun-hater)</h1><h2>Description</h2><p>La lumière solaire directe vous affaiblit profondément. En plein soleil, vous subissez <strong>−30</strong> à vos Manœuvres et attaques. Sous une lumière artificielle ou magique particulièrement vive, la pénalité est de <strong>−15</strong>.</p><p>Après votre retour dans l’obscurité ou sous une lumière normale, la pénalité persiste pendant <strong>1 round par tranche de 5 rounds d’exposition</strong>, jusqu’à un maximum de six heures pour une exposition prolongée.</p><h2>Adaptation MERP-RMU</h2><p>Les anciens pourcentages d’activité sont remplacés par des modificateurs directs compatibles avec les Manœuvres et attaques RMU.</p>"
+      }
+    },
+    "en": {
+      "name": "Sun-hater",
+      "system": {
+        "description": "<h1>Sun-hater</h1><h2>Description</h2><p>Direct sunlight profoundly weakens you. In full sunlight, you suffer <strong>−30</strong> to Maneuvers and attacks. Under especially bright artificial or magical light, the penalty is <strong>−15</strong>.</p><p>After returning to darkness or normal light, the penalty persists for <strong>1 round per 5 rounds of exposure</strong>, up to a maximum of six hours after prolonged exposure.</p><h2>MERP-RMU Adaptation</h2><p>The old activity percentages are replaced by direct modifiers compatible with RMU Maneuvers and attacks.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

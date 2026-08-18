@@ -1,0 +1,90 @@
+{
+  "key": "herb-arlan-white-slipper",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Arlan (Pantoufle Blanche / White Slipper)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-arlan-white-slipper",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-T-2-NW",
+        "sourceCost": "13sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération",
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "T",
+        "regionCode": "NW",
+        "sourceVariants": [
+          {
+            "group": "Remèdes & Antidotes",
+            "code": "t-T-2-NW",
+            "form": "Root",
+            "prep": "ingest",
+            "cost": "13sp",
+            "af": 1,
+            "effect": "La racine moulue est jetée dans l’eau bouillante et ses vapeurs sont respirées. Elle décongestionne, accorde +20 aux Jets de Résistance contre les refroidissements et accélère fortement la récupération des maladies respiratoires. Les racines se conservent un an."
+          }
+        ],
+        "sourceName": "Arlan (White Slipper)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "T",
+      "findDifficulty": "Easy",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "13sp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Sabot Blanc (White Slipper)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>En cataplasme, les feuilles rendent 4 à 9 points de vie ; utilisées sans préparation, elles n’en rendent que 1 à 6. Gardées humides, elles restent actives un mois. La racine moulue est jetée dans l’eau bouillante et ses vapeurs sont respirées. Elle décongestionne, accorde +20 aux Jets de Résistance contre les refroidissements et accélère fortement la récupération des maladies respiratoires. Les racines se conservent un an.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Arlan (Pantoufle Blanche / White Slipper)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Sabot Blanc (White Slipper)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>En cataplasme, les feuilles rendent 4 à 9 points de vie ; utilisées sans préparation, elles n’en rendent que 1 à 6. Gardées humides, elles restent actives un mois. La racine moulue est jetée dans l’eau bouillante et ses vapeurs sont respirées. Elle décongestionne, accorde +20 aux Jets de Résistance contre les refroidissements et accélère fortement la récupération des maladies respiratoires. Les racines se conservent un an.</p>"
+      }
+    },
+    "en": {
+      "name": "Arlan (White Slipper)",
+      "system": {
+        "notes": "<p>It is also known as <strong>White Slipper</strong>.</p><p>This leaf is found chiefly in cool temperate climates, especially in tall grasslands, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>As a poultice, the leaves restore 4–9 concussion hits; used without preparation they restore only 1–6. Kept moist, they remain potent for one month. The ground root is added to boiling water and the vapour inhaled. It clears congestion, grants +20 to Resistance Rolls against colds, and greatly speeds recovery from respiratory illnesses. The roots keep for one year.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

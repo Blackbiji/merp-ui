@@ -1,0 +1,226 @@
+{
+  "key": "layman",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-non-magiques",
+  "document": {
+    "name": "Sans Profession",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "layman",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmss-to-rmu-adaptation",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 — Layman; RMU-compatible adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP / RMSS — adaptation RMU",
+      "profession": "Layman",
+      "spellCastingGroup": "Non",
+      "numberOfBaseLists": 0,
+      "realms": "",
+      "description": "<h1>Sans Profession</h1>\n<p>Le <strong>Sans Profession</strong> représente un personnage qui n’a pas suivi de formation professionnelle structurée comparable à celle d’un Guerrier, d’un Voleur, d’un Magicien ou d’un Rôdeur. Son apprentissage vient surtout de son milieu, de sa famille, de son métier et des circonstances de son existence.</p>\n<p>Cela n’implique ni inexpérience ni incapacité. Un fermier peut parfaitement connaître les animaux et les cultures ; un artisan maîtriser son métier ; un marchand organiser des voyages et négocier ; un serviteur connaître les usages de cour. La différence vient de l’absence d’une spécialisation professionnelle d’aventurier.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Le Sans Profession ne possède <strong>aucune caractéristique primordiale</strong>. Aucun astérisque ne doit apparaître lors de la génération. Le joueur choisit librement les caractéristiques correspondant à l’histoire du personnage.</p>\n<p>Un forgeron khazâd pourra privilégier Force et Constitution ; un marchand dorwinadan Présence, Mémoire ou Raisonnement ; un érudit de Minas Tirith Mémoire et Raisonnement ; un berger rohir Constitution, Intuition et Agilité.</p>\n<h2>Orientation technique</h2>\n<p>Le Sans Profession est un <strong>non-utilisateur de sorts</strong>. Ses coûts sont plus généralistes : artisanat, compétences sociales, connaissances, métiers, aptitudes physiques, armes, Perception, animaux ou environnement peuvent tous être développés sans que la Profession définisse une vocation dominante.</p>\n<h2>Culture et profession</h2>\n<p>La Culture joue ici un rôle particulièrement fort. Un jeune Rohir peut conserver une forte identité de cavalier ; un Hobbit Pied-velu rester défini par ses compétences rurales et sa discrétion ; un habitant de Pelargir élevé parmi les bateliers développer navigation, commerce et connaissance des quais.</p>\n<h2>Métiers et vie quotidienne</h2>\n<ul>\n<li><strong>Artisan.</strong> Forgeron, charpentier, tailleur, potier, tanneur ou bâtisseur.</li>\n<li><strong>Marchand.</strong> Influence, Commerce, Évaluation, langues et connaissances régionales.</li>\n<li><strong>Paysan ou éleveur.</strong> Animaux, climat, endurance et métiers agricoles.</li>\n<li><strong>Marin ou batelier.</strong> Navigation, météo, entretien des embarcations et commerce.</li>\n<li><strong>Serviteur ou intendant.</strong> Organisation, compétences sociales et connaissance des usages.</li>\n</ul>\n<h2>Combat</h2>\n<p>Le Sans Profession peut savoir se battre par nécessité ou tradition culturelle. Un paysan d’Eriador peut utiliser lance ou arc ; un marin de Pelargir une lame courte ; un berger rohir une lance à cheval. Il développe toutefois moins facilement plusieurs styles qu’un combattant professionnel.</p>\n<h2>Un personnage qui évolue</h2>\n<p>Cette Profession convient particulièrement à quelqu’un dont l’histoire commence avant la vocation d’aventurier : fermier devenu combattant, marchand apprenant la survie, serviteur devenant espion, érudit découvrant la magie. Elle permet de raconter une évolution progressive et très naturelle dans la Terre du Milieu.</p>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong> Aucun royaume magique n’est privilégié par la Profession.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons de RMU une Profession généraliste sans spécialisation marquée. MERP-RMU maintient surtout l’absence complète de caractéristiques primordiales et insiste sur la Culture, le métier et l’histoire individuelle.</p>\n<p>Le Sans Profession n’est pas un personnage vide : marchand dorwinadan, berger rohir, artisan khazâd, marin de Pelargir, fermier de Bree ou érudit de Minas Tirith peuvent tous posséder une identité très forte avant même que l’aventure commence.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "1/2"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "3/5"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "3/5"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "4/6"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "4/6"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Crafting",
+          "skillName": "Metalcraft"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore"
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "First Aid"
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading"
+        },
+        {
+          "skillCategory": "Technical",
+          "skillName": "Administration"
+        },
+        {
+          "skillCategory": "Vocation",
+          "skillName": "Trade"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sans Profession",
+      "system": {
+        "description": "<h1>Sans Profession</h1>\n<p>Le <strong>Sans Profession</strong> représente un personnage qui n’a pas suivi de formation professionnelle structurée comparable à celle d’un Guerrier, d’un Voleur, d’un Magicien ou d’un Rôdeur. Son apprentissage vient surtout de son milieu, de sa famille, de son métier et des circonstances de son existence.</p>\n<p>Cela n’implique ni inexpérience ni incapacité. Un fermier peut parfaitement connaître les animaux et les cultures ; un artisan maîtriser son métier ; un marchand organiser des voyages et négocier ; un serviteur connaître les usages de cour. La différence vient de l’absence d’une spécialisation professionnelle d’aventurier.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Le Sans Profession ne possède <strong>aucune caractéristique primordiale</strong>. Aucun astérisque ne doit apparaître lors de la génération. Le joueur choisit librement les caractéristiques correspondant à l’histoire du personnage.</p>\n<p>Un forgeron khazâd pourra privilégier Force et Constitution ; un marchand dorwinadan Présence, Mémoire ou Raisonnement ; un érudit de Minas Tirith Mémoire et Raisonnement ; un berger rohir Constitution, Intuition et Agilité.</p>\n<h2>Orientation technique</h2>\n<p>Le Sans Profession est un <strong>non-utilisateur de sorts</strong>. Ses coûts sont plus généralistes : artisanat, compétences sociales, connaissances, métiers, aptitudes physiques, armes, Perception, animaux ou environnement peuvent tous être développés sans que la Profession définisse une vocation dominante.</p>\n<h2>Culture et profession</h2>\n<p>La Culture joue ici un rôle particulièrement fort. Un jeune Rohir peut conserver une forte identité de cavalier ; un Hobbit Pied-velu rester défini par ses compétences rurales et sa discrétion ; un habitant de Pelargir élevé parmi les bateliers développer navigation, commerce et connaissance des quais.</p>\n<h2>Métiers et vie quotidienne</h2>\n<ul>\n<li><strong>Artisan.</strong> Forgeron, charpentier, tailleur, potier, tanneur ou bâtisseur.</li>\n<li><strong>Marchand.</strong> Influence, Commerce, Évaluation, langues et connaissances régionales.</li>\n<li><strong>Paysan ou éleveur.</strong> Animaux, climat, endurance et métiers agricoles.</li>\n<li><strong>Marin ou batelier.</strong> Navigation, météo, entretien des embarcations et commerce.</li>\n<li><strong>Serviteur ou intendant.</strong> Organisation, compétences sociales et connaissance des usages.</li>\n</ul>\n<h2>Combat</h2>\n<p>Le Sans Profession peut savoir se battre par nécessité ou tradition culturelle. Un paysan d’Eriador peut utiliser lance ou arc ; un marin de Pelargir une lame courte ; un berger rohir une lance à cheval. Il développe toutefois moins facilement plusieurs styles qu’un combattant professionnel.</p>\n<h2>Un personnage qui évolue</h2>\n<p>Cette Profession convient particulièrement à quelqu’un dont l’histoire commence avant la vocation d’aventurier : fermier devenu combattant, marchand apprenant la survie, serviteur devenant espion, érudit découvrant la magie. Elle permet de raconter une évolution progressive et très naturelle dans la Terre du Milieu.</p>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong> Aucun royaume magique n’est privilégié par la Profession.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons de RMU une Profession généraliste sans spécialisation marquée. MERP-RMU maintient surtout l’absence complète de caractéristiques primordiales et insiste sur la Culture, le métier et l’histoire individuelle.</p>\n<p>Le Sans Profession n’est pas un personnage vide : marchand dorwinadan, berger rohir, artisan khazâd, marin de Pelargir, fermier de Bree ou érudit de Minas Tirith peuvent tous posséder une identité très forte avant même que l’aventure commence.</p>"
+      }
+    },
+    "en": {
+      "name": "Layman",
+      "system": {
+        "description": "<h1>Layman</h1>\n<p>The <strong>Layman</strong> represents a character who has not followed a structured professional training comparable to that of a Fighter, Thief, Magician, or Ranger. The Profession has no predefined field of excellence and no strong orientation toward any particular group of skills. In earlier Middle-earth and Rolemaster games, this profile describes someone whose learning was shaped by family, trade, surroundings, and the circumstances of ordinary life rather than by the formal training of an adventuring profession.</p>\n<p>A farmer may know animals and crops intimately; a craftsman may master a trade; a merchant may negotiate, appraise goods, and organize long journeys; a servant attached to a noble household may know courtly customs, great families, and the secrets of a master. The Layman is therefore not an unskilled character, but one whose expertise arises from <strong>life experience rather than a professional adventuring discipline</strong>.</p>\n<h2>Prime Stats</h2>\n<p>The Layman has <strong>no Prime Stats</strong>.</p>\n<p>This absence is fundamental to the Profession. No characteristic is structurally privileged by training: the character’s strengths come from Culture, personal choices, trade, and history.</p>\n<h2>Technical Orientation</h2>\n<p>The Layman is a <strong>non-spell-user</strong> and has no professional Base Spell Lists.</p>\n<p>Development is deliberately broad. The character can invest in social, technical, outdoor, scholarly, craft, and practical skills according to background. Combat and magic are possible, but neither receives the favourable professional orientation of a dedicated Fighter or spell-user.</p>\n<h2>Culture and Profession</h2>\n<p>For the Layman, <strong>Culture matters more than for almost any other Profession</strong>. Cultural training supplies the foundation on which the character’s practical identity is built. A Bree-land farmer, a Rohir shepherd, a Khazâd artisan, a Pelargir sailor, and a Minas Tirith scribe may all be Laymen while possessing radically different capabilities.</p>\n<h2>Trades and Everyday Life</h2>\n<p><strong>Farmer or Herder.</strong> Animal Handling, Survival, weather sense, local lore, and a practical weapon such as spear or bow.</p>\n<p><strong>Craftsman.</strong> A primary Craft skill, appraisal, trade contacts, and knowledge of materials and tools.</p>\n<p><strong>Merchant.</strong> Influence, appraisal, languages, route knowledge, organization, and perhaps riding or sailing.</p>\n<p><strong>Sailor.</strong> A sailor of Pelargir, Umbar, or Dorwinion may know navigation, weather, vessel maintenance, and trade.</p>\n<p><strong>Servant or Steward.</strong> Social skills, Organization, Influence, and knowledge of customs; in a noble house of Gondor, an experienced steward may possess considerable political knowledge.</p>\n<h2>Combat</h2>\n<p>A Layman may learn to fight through necessity or cultural tradition. A farmer of Eriador may know spear or bow; a sailor of Pelargir a short blade; a Rohir shepherd a spear from horseback. Developing several combat styles or reaching very high martial expertise requires more investment than it would for a specialized Profession.</p>\n<h2>A Character Who Changes</h2>\n<p>The Layman is especially useful for representing the beginning of a journey: a farmer who becomes a fighter after the destruction of a village, a merchant who learns survival and weapons, a servant who becomes a spy, or a scholar who gradually discovers magic. The Profession allows play to tell the story of a person transformed into an adventurer by events.</p>\n<h2>Base Spell Lists</h2>\n<p><strong>None.</strong></p>\n<p>The Layman has no professional Base Spell Lists and no magical realm favoured by the Profession.</p>\n<h2>RMU / MERP Adaptation</h2>\n<p>We retain RMU’s concept of a <strong>generalist Profession</strong> with no strong specialization and no professional Base Spell Lists. The essential MERP element is the complete absence of <strong>Prime Stats</strong>.</p>\n<p>Our adaptation places greater emphasis on <strong>Culture</strong> and <strong>trade</strong>. A Layman is not an empty character: a Dorwinadan merchant, Rohir shepherd, Khazâd craftsman, Pelargir sailor, Bree farmer, or Minas Tirith scholar may possess a very strong identity. The difference is that these abilities were acquired through ordinary life rather than through a formal adventuring profession.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions non magiques"
+    ],
+    "en": [
+      "Non-magical Professions"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-non-magiques"
+  ]
+}

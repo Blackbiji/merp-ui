@@ -1,0 +1,60 @@
+/* Place locally compiled WOFF2 files in merp-ui/fonts/compiled/ */
+
+@font-face {
+  font-family: "Fennas Roman";
+  src: url("../fonts/compiled/FennasRoman-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fennas Roman";
+  src: url("../fonts/compiled/FennasRoman-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fennas Text";
+  src: url("../fonts/compiled/FennasText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fennas Text";
+  src: url("../fonts/compiled/FennasText-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fennas Text";
+  src: url("../fonts/compiled/FennasText-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.merp-ui .window-title,
+.merp-ui h1,
+.merp-ui h2,
+.merp-ui .directory-header {
+  font-family: "Fennas Roman", Georgia, serif;
+}
+
+.merp-ui,
+.merp-ui .journal-entry-content {
+  font-family: "Fennas Text", Georgia, serif;
+}
+
+.merp-ui nav.tabs,
+.merp-ui .directory-item .entry-name {
+  font-family: "Fennas Small Caps", "Fennas Roman", serif;
+  letter-spacing: .06em;
+  font-variant: small-caps;
+}

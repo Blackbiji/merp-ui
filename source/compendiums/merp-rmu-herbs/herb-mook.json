@@ -1,0 +1,78 @@
+{
+  "key": "herb-mook",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Mook",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-mook",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-3-S",
+        "sourceCost": "210gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Mook"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Light",
+      "form": "Berry",
+      "prep": "ingest",
+      "season": "",
+      "cost": "210gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 3 contre les poisons respiratoires. Les baies préparées conservent leurs propriétés pendant des années.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 5,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Mook",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 3 contre les poisons respiratoires. Les baies préparées conservent leurs propriétés pendant des années.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Mook",
+      "system": {
+        "notes": "<p>This berry is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 3 antidote for respiratory poisons. Prepared berries retain their properties for years.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

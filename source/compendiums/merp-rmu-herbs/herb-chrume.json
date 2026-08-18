@@ -1,0 +1,78 @@
+{
+  "key": "herb-chrume",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "intoxicants",
+  "document": {
+    "name": "Chrumë",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-chrume",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-4-W",
+        "sourceCost": "15sp",
+        "sourceCategory": "Intoxicants",
+        "utilityGroups": [
+          "Intoxicants"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Chrumë"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Medium",
+      "form": "Mushroom",
+      "prep": "ingest",
+      "season": "",
+      "cost": "15sp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce champignon euphorisant et stimulant affaiblit Agilité et Rapidité d’environ 20, tout en renforçant Constitution et Présence d’environ 20 pendant plusieurs heures. L’utilisateur devient facilement fasciné par des détails insignifiants.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 10,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Chrumë",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce champignon euphorisant et stimulant affaiblit Agilité et Rapidité d’environ 20, tout en renforçant Constitution et Présence d’environ 20 pendant plusieurs heures. L’utilisateur devient facilement fasciné par des détails insignifiants.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Chrumë",
+      "system": {
+        "notes": "<p>This mushroom is found chiefly in cool temperate climates, especially in underground environments, and is best known in western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This euphoric stimulant mushroom reduces Agility and Quickness by about 20 while increasing Constitution and Presence by about 20 for several hours. The user becomes easily fascinated by insignificant details.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Intoxicants"
+    ],
+    "en": [
+      "Intoxicants"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "intoxicants"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-yellow-hemlock",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Ciguë Jaune (Yellow Hemlock)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-yellow-hemlock",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-C-3-S",
+        "sourceCost": "175gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "C",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Yellow Hemlock"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Light",
+      "form": "Resin",
+      "prep": "apply",
+      "season": "",
+      "cost": "175gp",
+      "notes": "<p>Cette résine se rencontre surtout dans les régions au climat semi-aride, notamment dans les forêts de conifères, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>L’arbre fournit une résine appelée Harfy qui arrête immédiatement presque toute hémorragie. Conservée dans un récipient hermétique, elle garde ses propriétés un an.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 9,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ciguë Jaune (Yellow Hemlock)",
+      "system": {
+        "notes": "<p>Cette résine se rencontre surtout dans les régions au climat semi-aride, notamment dans les forêts de conifères, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>L’arbre fournit une résine appelée Harfy qui arrête immédiatement presque toute hémorragie. Conservée dans un récipient hermétique, elle garde ses propriétés un an.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Yellow Hemlock",
+      "system": {
+        "notes": "<p>This resin is found chiefly in semi-arid climates, especially in coniferous forests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The tree yields a resin called Harfy that immediately stops almost any bleeding. Kept in an airtight container, it retains its properties for one year.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

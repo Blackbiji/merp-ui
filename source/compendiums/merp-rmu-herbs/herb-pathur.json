@@ -1,0 +1,78 @@
+{
+  "key": "herb-pathur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Pathur",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-pathur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "a-H-4-M",
+        "sourceCost": "35gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "a",
+        "localeCode": "H",
+        "regionCode": "M",
+        "sourceVariants": [],
+        "sourceName": "Pathur"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Medium",
+      "form": "Nodule",
+      "prep": "ingest",
+      "season": "",
+      "cost": "35gp",
+      "notes": "<p>Ce nodule se rencontre surtout dans les régions au climat aride, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le nodule maintient un mourant en vie pendant environ une heure.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pathur",
+      "system": {
+        "notes": "<p>Ce nodule se rencontre surtout dans les régions au climat aride, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le nodule maintient un mourant en vie pendant environ une heure.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Pathur",
+      "system": {
+        "notes": "<p>This nodule is found chiefly in arid climates, especially in heaths, scrublands, and moors, and is best known in central Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The nodule keeps a dying person alive for about one hour.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

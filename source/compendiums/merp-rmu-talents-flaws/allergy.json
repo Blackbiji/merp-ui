@@ -1,0 +1,64 @@
+{
+  "key": "allergy",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Allergie (Allergy)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "allergy",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Physical",
+      "name": "Allergy",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Allergie (Allergy)</h1><h2>Description</h2><p>Vous souffrez d’une réaction physique à une substance définie lors de l’acquisition du Défaut. L’allergie peut être rare ou commune et provoquer larmoiement, écoulement nasal, gêne respiratoire ou fortes pénalités après une exposition suffisante ; sa gravité dépend de sa fréquence et de sa sévérité.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> allergène peu fréquent ou effet gênant mais limité.</li><li><strong>Tier II :</strong> allergène courant ou réaction nettement handicapante.</li><li><strong>Tier III :</strong> allergie très contraignante, fréquente ou sévère.</li></ul><h2>Adaptation MERP-RMU</h2><p>Le déclencheur doit être approuvé par le MJ et réellement susceptible d’entrer en jeu. Les pénalités exactes sont adaptées au contexte RMU ; une exposition significative doit produire une gêne mécanique cohérente plutôt qu’un simple élément décoratif.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_allergy.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Allergie (Allergy)",
+      "system": {
+        "description": "<h1>Allergie (Allergy)</h1><h2>Description</h2><p>Vous souffrez d’une réaction physique à une substance définie lors de l’acquisition du Défaut. L’allergie peut être rare ou commune et provoquer larmoiement, écoulement nasal, gêne respiratoire ou fortes pénalités après une exposition suffisante ; sa gravité dépend de sa fréquence et de sa sévérité.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> allergène peu fréquent ou effet gênant mais limité.</li><li><strong>Tier II :</strong> allergène courant ou réaction nettement handicapante.</li><li><strong>Tier III :</strong> allergie très contraignante, fréquente ou sévère.</li></ul><h2>Adaptation MERP-RMU</h2><p>Le déclencheur doit être approuvé par le MJ et réellement susceptible d’entrer en jeu. Les pénalités exactes sont adaptées au contexte RMU ; une exposition significative doit produire une gêne mécanique cohérente plutôt qu’un simple élément décoratif.</p>"
+      }
+    },
+    "en": {
+      "name": "Allergy",
+      "system": {
+        "description": "<h1>Allergy</h1><h2>Description</h2><p>You suffer a physical reaction to a substance defined when the Flaw is acquired. The allergen may be rare or common and can cause watering eyes, a runny nose, breathing difficulty, or severe penalties after sufficient exposure; its impact depends on both frequency and severity.</p><h2>Tiers</h2><ul><li><strong>Tier I:</strong> uncommon allergen or an inconvenient but limited effect.</li><li><strong>Tier II:</strong> common allergen or a clearly disabling reaction.</li><li><strong>Tier III:</strong> a highly restrictive, frequent, or severe allergy.</li></ul><h2>MERP-RMU Adaptation</h2><p>The trigger must be approved by the GM and must realistically be capable of appearing in play. Exact penalties are adapted to the RMU context; meaningful exposure should produce a coherent mechanical hindrance rather than remain merely decorative.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

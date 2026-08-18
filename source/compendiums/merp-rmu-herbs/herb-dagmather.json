@@ -1,0 +1,79 @@
+{
+  "key": "herb-dagmather",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Dagmather",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-dagmather",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-S-5-U",
+        "sourceCost": "28gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "S",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Dagmather"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Hard",
+      "form": "Spine",
+      "prep": "brew",
+      "season": "",
+      "cost": "28gp",
+      "notes": "<p>Cette épine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La préparation tirée des épines favorise la réparation du cartilage.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 12,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Dagmather",
+      "system": {
+        "notes": "<p>Cette épine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La préparation tirée des épines favorise la réparation du cartilage.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Dagmather",
+      "system": {
+        "notes": "<p>This spine is found chiefly in semi-arid climates, especially in short-grass plains, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>A preparation made from the thorns promotes cartilage repair.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "key": "dunedain-disease-resistance",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Résistance aux maladies",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "dunedain-disease-resistance",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "MERP-RMU",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Dúnedain"
+          ]
+        },
+        "descriptionVersion": 1
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Résistance aux maladies",
+      "cost": "0",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Résistance aux maladies</h1><h2>Description</h2><p>Les Dúnedain sont moins vulnérables que les Hommes communs aux maladies naturelles et aux affections liées aux privations.</p><h2>Adaptation MERP-RMU</h2><p>Ce Talent racial représente cette résistance héréditaire. Il est accordé par la Race et n’est pas destiné à être acheté séparément lors du développement normal du personnage.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_dunedain-disease-resistance.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Résistance aux maladies",
+      "system": {
+        "description": "<h1>Résistance aux maladies</h1><h2>Description</h2><p>Les Dúnedain sont moins vulnérables que les Hommes communs aux maladies naturelles et aux affections liées aux privations.</p><h2>Adaptation MERP-RMU</h2><p>Ce Talent racial représente cette résistance héréditaire. Il est accordé par la Race et n’est pas destiné à être acheté séparément lors du développement normal du personnage.</p>"
+      }
+    },
+    "en": {
+      "name": "Disease Resistance",
+      "system": {
+        "description": "<h1>Disease Resistance</h1><h2>Description</h2><p>The Dúnedain are less vulnerable than Common Men to natural diseases and afflictions caused by deprivation.</p><h2>MERP-RMU Adaptation</h2><p>This racial Talent represents that inherited resistance. It is granted by the Race and is not intended to be purchased separately during normal character development.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

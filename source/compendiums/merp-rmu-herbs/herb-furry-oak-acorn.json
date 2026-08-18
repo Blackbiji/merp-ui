@@ -1,0 +1,78 @@
+{
+  "key": "herb-furry-oak-acorn",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "nourriture",
+  "document": {
+    "name": "Gland de Chêne Velu (Furry Oak Acorn)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-furry-oak-acorn",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-5-NW",
+        "sourceCost": "5bp/lb",
+        "sourceCategory": "Nourriture",
+        "utilityGroups": [
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Furry Oak Acorn"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Hard",
+      "form": "Acorn",
+      "prep": "ingest",
+      "season": "",
+      "cost": "5bp/lb",
+      "notes": "<p>Ce gland se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Les glands du chêne velu constituent une nourriture simple mais nourrissante.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gland de Chêne Velu (Furry Oak Acorn)",
+      "system": {
+        "notes": "<p>Ce gland se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Les glands du chêne velu constituent une nourriture simple mais nourrissante.</p>"
+      }
+    },
+    "en": {
+      "name": "Furry Oak Acorn",
+      "system": {
+        "notes": "<p>This acorn is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The acorns of the Furry Oak are simple but nourishing food.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nourriture"
+    ],
+    "en": [
+      "Food"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "nourriture"
+  ]
+}

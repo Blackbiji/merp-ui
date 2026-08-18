@@ -1,0 +1,78 @@
+{
+  "key": "herb-elendils-basket",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Elendil’s Basket",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-elendils-basket",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-H-7-N",
+        "sourceCost": "8gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "H",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Elendil’s Basket"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Extremely Hard",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "8gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat glacial, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction purifie l’eau et ralentit environ dix fois la progression des poisons pendant douze heures.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Elendil’s Basket",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat glacial, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction purifie l’eau et ralentit environ dix fois la progression des poisons pendant douze heures.</p>"
+      }
+    },
+    "en": {
+      "name": "Elendil’s Basket",
+      "system": {
+        "notes": "<p>This root is found chiefly in frigid climates, especially in heaths, scrublands, and moors, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction purifies water and slows the progression of poisons by roughly a factor of ten for twelve hours.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

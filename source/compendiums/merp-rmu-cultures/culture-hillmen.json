@@ -1,0 +1,1238 @@
+{
+  "key": "culture-hillmen",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Hommes des Collines — Hillmen",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-hillmen",
+        "canonicalKey": "culture-hillmen",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-humans",
+        "availability": {
+          "ages": [
+            2,
+            3
+          ],
+          "restrictedByAge": {
+            "2": false,
+            "3": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "2": {
+            "sourceKey": "culture-hillmen-age-2",
+            "folderKey": "cultures-age-2-humans",
+            "document": {
+              "name": "Hommes des Collines — Hillmen",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-hillmen-age-2",
+                  "canonicalKey": "culture-hillmen",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-2",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Blarm",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Blarm"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Hommes des Collines — Hillmen",
+                "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Woodlands",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Hommes des Collines — Hillmen",
+                "system": {
+                  "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+                  "culture": "Hommes des Collines — Hillmen"
+                }
+              },
+              "en": {
+                "name": "Hillmen",
+                "system": {
+                  "description": "<h1>Hillmen</h1>\n<p>The <strong>Hillmen</strong> descend from the ancient Mebion Bron and live mainly in the highlands of Rhudaur and the Trollshaws. Their semi-nomadic Culture rests on hunting, small camps, the Nine Tribes, memory of custom and a concept of status based on individual competence rather than permanent administration.</p>\n<h2>Appearance and material life</h2>\n<p>Hillmen are stocky, strong and very hairy, with dark hair and eyes. They wear the Kalth, a kind of hide kilt, and the Kullodo, a short fur jacket, with cloaks and boots added in winter. Hair is often divided into three long braids decorated with bone rings.</p>\n<h2>The Nine Tribes</h2>\n<p>All camps belong to one of the Ne Dreubhan, the Nine Tribes. Each tribe possesses its own routes and alliances. Camps remain autonomous, while the Tiark and the Targ-Arm provide a higher level of command during crises.</p>\n<h2>Hunters and Makers</h2>\n<p>Society distinguishes the Tiark, chiefs; the Dhier, Hunters; and the Dheusan, Makers. Becoming a Hunter requires a harsh trial: surviving alone through winter and then killing a wolf without aid. Those who follow other paths provide craftwork, maintenance and the tasks essential to the camp.</p>\n<h2>Wegech and spiritual traditions</h2>\n<p>Each camp has a Wegech, a woman who preserves its spiritual and magical traditions. Ancestors, the Boghain, the Woigh and sacred places of the highlands are central. Every child receives an Ail-legan, a personal copper totem whose loss is a profound disgrace.</p>\n<h2>Raids and combat</h2>\n<p>Raids between tribes settle rivalries and maintain the skill of Hunters. Internal disputes may be resolved through champion duels. Against an outside enemy, night ambushes and exploitation of terrain are preferred.</p>\n<h2>Family and descent</h2>\n<p>Descent follows the maternal line, and a husband traditionally joins his wife's camp. The maternal uncle often plays an important role in raising children. Women may become Hunters if they pass the same trials.</p>\n<h2>Place in character creation</h2>\n<p>A Hillman should be tied to a tribe and a Dacaithan. The character's status as Hunter or Maker, Ail-legan, relationship with the Wegech and family history provide the principal points of reference for creation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Blarm</strong> — Spoken 8 / Written 4</li><li><strong>Westron</strong> — Spoken 8 / Written 4</li></ul></section>",
+                  "culture": "Hillmen"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-hillmen-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Hommes des Collines — Hillmen",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-hillmen-age-3",
+                  "canonicalKey": "culture-hillmen",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Blarm",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Blarm"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 4,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Hommes des Collines — Hillmen",
+                "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Woodlands",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Hommes des Collines — Hillmen",
+                "system": {
+                  "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+                  "culture": "Hommes des Collines — Hillmen"
+                }
+              },
+              "en": {
+                "name": "Hillmen",
+                "system": {
+                  "description": "<h1>Hillmen</h1>\n<p>The <strong>Hillmen</strong> descend from the ancient Mebion Bron and live mainly in the highlands of Rhudaur and the Trollshaws. Their semi-nomadic Culture rests on hunting, small camps, the Nine Tribes, memory of custom and a concept of status based on individual competence rather than permanent administration.</p>\n<h2>Appearance and material life</h2>\n<p>Hillmen are stocky, strong and very hairy, with dark hair and eyes. They wear the Kalth, a kind of hide kilt, and the Kullodo, a short fur jacket, with cloaks and boots added in winter. Hair is often divided into three long braids decorated with bone rings.</p>\n<h2>The Nine Tribes</h2>\n<p>All camps belong to one of the Ne Dreubhan, the Nine Tribes. Each tribe possesses its own routes and alliances. Camps remain autonomous, while the Tiark and the Targ-Arm provide a higher level of command during crises.</p>\n<h2>Hunters and Makers</h2>\n<p>Society distinguishes the Tiark, chiefs; the Dhier, Hunters; and the Dheusan, Makers. Becoming a Hunter requires a harsh trial: surviving alone through winter and then killing a wolf without aid. Those who follow other paths provide craftwork, maintenance and the tasks essential to the camp.</p>\n<h2>Wegech and spiritual traditions</h2>\n<p>Each camp has a Wegech, a woman who preserves its spiritual and magical traditions. Ancestors, the Boghain, the Woigh and sacred places of the highlands are central. Every child receives an Ail-legan, a personal copper totem whose loss is a profound disgrace.</p>\n<h2>Raids and combat</h2>\n<p>Raids between tribes settle rivalries and maintain the skill of Hunters. Internal disputes may be resolved through champion duels. Against an outside enemy, night ambushes and exploitation of terrain are preferred.</p>\n<h2>Family and descent</h2>\n<p>Descent follows the maternal line, and a husband traditionally joins his wife's camp. The maternal uncle often plays an important role in raising children. Women may become Hunters if they pass the same trials.</p>\n<h2>Place in character creation</h2>\n<p>A Hillman should be tied to a tribe and a Dacaithan. The character's status as Hunter or Maker, Ail-legan, relationship with the Wegech and family history provide the principal points of reference for creation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Blarm</strong> — Spoken 8 / Written 4</li><li><strong>Westron</strong> — Spoken 8 / Written 4</li></ul></section>",
+                  "culture": "Hillmen"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Hommes des Collines — Hillmen",
+      "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Woodlands",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 4
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Hommes des Collines — Hillmen",
+      "system": {
+        "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+        "culture": "Hommes des Collines — Hillmen"
+      }
+    },
+    "en": {
+      "name": "Hillmen",
+      "system": {
+        "description": "<h1>Hillmen</h1>\n<p>The <strong>Hillmen</strong> descend from the ancient Mebion Bron and live mainly in the highlands of Rhudaur and the Trollshaws. Their semi-nomadic Culture rests on hunting, small camps, the Nine Tribes, memory of custom and a concept of status based on individual competence rather than permanent administration.</p>\n<h2>Appearance and material life</h2>\n<p>Hillmen are stocky, strong and very hairy, with dark hair and eyes. They wear the Kalth, a kind of hide kilt, and the Kullodo, a short fur jacket, with cloaks and boots added in winter. Hair is often divided into three long braids decorated with bone rings.</p>\n<h2>The Nine Tribes</h2>\n<p>All camps belong to one of the Ne Dreubhan, the Nine Tribes. Each tribe possesses its own routes and alliances. Camps remain autonomous, while the Tiark and the Targ-Arm provide a higher level of command during crises.</p>\n<h2>Hunters and Makers</h2>\n<p>Society distinguishes the Tiark, chiefs; the Dhier, Hunters; and the Dheusan, Makers. Becoming a Hunter requires a harsh trial: surviving alone through winter and then killing a wolf without aid. Those who follow other paths provide craftwork, maintenance and the tasks essential to the camp.</p>\n<h2>Wegech and spiritual traditions</h2>\n<p>Each camp has a Wegech, a woman who preserves its spiritual and magical traditions. Ancestors, the Boghain, the Woigh and sacred places of the highlands are central. Every child receives an Ail-legan, a personal copper totem whose loss is a profound disgrace.</p>\n<h2>Raids and combat</h2>\n<p>Raids between tribes settle rivalries and maintain the skill of Hunters. Internal disputes may be resolved through champion duels. Against an outside enemy, night ambushes and exploitation of terrain are preferred.</p>\n<h2>Family and descent</h2>\n<p>Descent follows the maternal line, and a husband traditionally joins his wife's camp. The maternal uncle often plays an important role in raising children. Women may become Hunters if they pass the same trials.</p>\n<h2>Place in character creation</h2>\n<p>A Hillman should be tied to a tribe and a Dacaithan. The character's status as Hunter or Maker, Ail-legan, relationship with the Wegech and family history provide the principal points of reference for creation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Blarm</strong> — Spoken 8 / Written 4</li><li><strong>Westron</strong> — Spoken 8 / Written 4</li></ul></section>",
+        "culture": "Hillmen"
+      }
+    }
+  },
+  "ageVariants": {
+    "2": {
+      "sourceKey": "culture-hillmen-age-2",
+      "folderKey": "cultures-age-2-humans",
+      "document": {
+        "name": "Hommes des Collines — Hillmen",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-hillmen-age-2",
+            "canonicalKey": "culture-hillmen",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-2",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Blarm",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Blarm"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Hommes des Collines — Hillmen",
+          "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Woodlands",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Hommes des Collines — Hillmen",
+          "system": {
+            "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+            "culture": "Hommes des Collines — Hillmen"
+          }
+        },
+        "en": {
+          "name": "Hillmen",
+          "system": {
+            "description": "<h1>Hillmen</h1>\n<p>The <strong>Hillmen</strong> descend from the ancient Mebion Bron and live mainly in the highlands of Rhudaur and the Trollshaws. Their semi-nomadic Culture rests on hunting, small camps, the Nine Tribes, memory of custom and a concept of status based on individual competence rather than permanent administration.</p>\n<h2>Appearance and material life</h2>\n<p>Hillmen are stocky, strong and very hairy, with dark hair and eyes. They wear the Kalth, a kind of hide kilt, and the Kullodo, a short fur jacket, with cloaks and boots added in winter. Hair is often divided into three long braids decorated with bone rings.</p>\n<h2>The Nine Tribes</h2>\n<p>All camps belong to one of the Ne Dreubhan, the Nine Tribes. Each tribe possesses its own routes and alliances. Camps remain autonomous, while the Tiark and the Targ-Arm provide a higher level of command during crises.</p>\n<h2>Hunters and Makers</h2>\n<p>Society distinguishes the Tiark, chiefs; the Dhier, Hunters; and the Dheusan, Makers. Becoming a Hunter requires a harsh trial: surviving alone through winter and then killing a wolf without aid. Those who follow other paths provide craftwork, maintenance and the tasks essential to the camp.</p>\n<h2>Wegech and spiritual traditions</h2>\n<p>Each camp has a Wegech, a woman who preserves its spiritual and magical traditions. Ancestors, the Boghain, the Woigh and sacred places of the highlands are central. Every child receives an Ail-legan, a personal copper totem whose loss is a profound disgrace.</p>\n<h2>Raids and combat</h2>\n<p>Raids between tribes settle rivalries and maintain the skill of Hunters. Internal disputes may be resolved through champion duels. Against an outside enemy, night ambushes and exploitation of terrain are preferred.</p>\n<h2>Family and descent</h2>\n<p>Descent follows the maternal line, and a husband traditionally joins his wife's camp. The maternal uncle often plays an important role in raising children. Women may become Hunters if they pass the same trials.</p>\n<h2>Place in character creation</h2>\n<p>A Hillman should be tied to a tribe and a Dacaithan. The character's status as Hunter or Maker, Ail-legan, relationship with the Wegech and family history provide the principal points of reference for creation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Blarm</strong> — Spoken 8 / Written 4</li><li><strong>Westron</strong> — Spoken 8 / Written 4</li></ul></section>",
+            "culture": "Hillmen"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-hillmen-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Hommes des Collines — Hillmen",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-hillmen-age-3",
+            "canonicalKey": "culture-hillmen",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Blarm",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Blarm"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 4,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Hommes des Collines — Hillmen",
+          "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Woodlands",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Hommes des Collines — Hillmen",
+          "system": {
+            "description": "<h1>Hommes des Collines — Hillmen</h1>\n<p>Les <strong>Hommes des Collines</strong> descendent des anciens Mebion Bron et vivent surtout dans les hautes terres du Rhudaur et les Landes des Trolls. Leur Culture semi-nomade repose sur la chasse, les petits camps, les Neuf Tribus, la mémoire des coutumes et une conception du statut fondée sur la compétence individuelle plutôt que sur une administration permanente.</p>\n<h2>Apparence et vie matérielle</h2>\n<p>Les Hommes des Collines sont trapus, forts et très velus, avec des cheveux et des yeux sombres. Ils portent le Kalth, sorte de kilt de peau, et le Kullodo, courte veste de fourrure, auxquels s’ajoutent capes et bottes en hiver. Les cheveux sont souvent divisés en trois longues tresses ornées d’anneaux d’os.</p>\n<h2>Les Neuf Tribus</h2>\n<p>Tous les camps appartiennent à l’une des Ne Dreubhan, les Neuf Tribus. Chaque tribu possède ses propres routes et alliances. Les camps restent autonomes, tandis que les Tiark et le Targ-Arm fournissent un niveau de commandement supérieur lors des crises.</p>\n<h2>Chasseurs et Faiseurs</h2>\n<p>La société distingue les Tiark, chefs ; les Dhier, Chasseurs ; et les Dheusan, Faiseurs. Devenir Chasseur exige une épreuve rude : survivre seul pendant l’hiver puis tuer un loup sans aide. Ceux qui suivent d’autres voies assurent l’artisanat, l’entretien et les tâches indispensables du camp.</p>\n<h2>Wegech et traditions spirituelles</h2>\n<p>Chaque camp possède une Wegech, femme dépositaire des traditions spirituelles et magiques. Les ancêtres, les Boghain, les Woigh et les lieux sacrés des hautes terres occupent une place essentielle. Chaque enfant reçoit un Ail-legan, totem de cuivre personnel dont la perte constitue une profonde disgrâce.</p>\n<h2>Raids et combat</h2>\n<p>Les raids entre tribus servent à régler des rivalités et à entretenir l’habileté des Chasseurs. Les conflits internes peuvent se résoudre par des duels de champions. Face à un ennemi extérieur, les embuscades nocturnes et l’exploitation du terrain sont privilégiées.</p>\n<h2>Famille et filiation</h2>\n<p>La filiation suit la lignée maternelle et le mari rejoint traditionnellement le camp de son épouse. L’oncle maternel joue souvent un rôle important dans l’éducation des enfants. Les femmes peuvent devenir Chasseurs lorsqu’elles réussissent les mêmes épreuves.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Homme des Collines doit être rattaché à une tribu et à un Dacaithan. Son statut de Chasseur ou de Faiseur, son Ail-legan, sa relation avec la Wegech et son histoire familiale fournissent les principaux repères de création.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Blarm</strong> — Parlée 8 / Écrite 4</li><li><strong>Westron</strong> — Parlée 8 / Écrite 4</li></ul></section>",
+            "culture": "Hommes des Collines — Hillmen"
+          }
+        },
+        "en": {
+          "name": "Hillmen",
+          "system": {
+            "description": "<h1>Hillmen</h1>\n<p>The <strong>Hillmen</strong> descend from the ancient Mebion Bron and live mainly in the highlands of Rhudaur and the Trollshaws. Their semi-nomadic Culture rests on hunting, small camps, the Nine Tribes, memory of custom and a concept of status based on individual competence rather than permanent administration.</p>\n<h2>Appearance and material life</h2>\n<p>Hillmen are stocky, strong and very hairy, with dark hair and eyes. They wear the Kalth, a kind of hide kilt, and the Kullodo, a short fur jacket, with cloaks and boots added in winter. Hair is often divided into three long braids decorated with bone rings.</p>\n<h2>The Nine Tribes</h2>\n<p>All camps belong to one of the Ne Dreubhan, the Nine Tribes. Each tribe possesses its own routes and alliances. Camps remain autonomous, while the Tiark and the Targ-Arm provide a higher level of command during crises.</p>\n<h2>Hunters and Makers</h2>\n<p>Society distinguishes the Tiark, chiefs; the Dhier, Hunters; and the Dheusan, Makers. Becoming a Hunter requires a harsh trial: surviving alone through winter and then killing a wolf without aid. Those who follow other paths provide craftwork, maintenance and the tasks essential to the camp.</p>\n<h2>Wegech and spiritual traditions</h2>\n<p>Each camp has a Wegech, a woman who preserves its spiritual and magical traditions. Ancestors, the Boghain, the Woigh and sacred places of the highlands are central. Every child receives an Ail-legan, a personal copper totem whose loss is a profound disgrace.</p>\n<h2>Raids and combat</h2>\n<p>Raids between tribes settle rivalries and maintain the skill of Hunters. Internal disputes may be resolved through champion duels. Against an outside enemy, night ambushes and exploitation of terrain are preferred.</p>\n<h2>Family and descent</h2>\n<p>Descent follows the maternal line, and a husband traditionally joins his wife's camp. The maternal uncle often plays an important role in raising children. Women may become Hunters if they pass the same trials.</p>\n<h2>Place in character creation</h2>\n<p>A Hillman should be tied to a tribe and a Dacaithan. The character's status as Hunter or Maker, Ail-legan, relationship with the Wegech and family history provide the principal points of reference for creation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Blarm</strong> — Spoken 8 / Written 4</li><li><strong>Westron</strong> — Spoken 8 / Written 4</li></ul></section>",
+            "culture": "Hillmen"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "key": "culture-olog-hai",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Olog-hai — Trolls Noirs",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-olog-hai",
+        "collection": "merp-rmu",
+        "contentVersion": 4,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "recommendedSpecializations": {},
+        "exclusiveTalents": [],
+        "canonicalKey": "culture-olog-hai",
+        "availability": {
+          "ages": [
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "3": true,
+            "4": true
+          }
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-trolls",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "3": {
+            "sourceKey": "culture-olog-hai-age-3",
+            "folderKey": "cultures-age-3-restricted",
+            "document": {
+              "name": "Olog-hai — Trolls Noirs",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-olog-hai-age-3",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-trolls-age-3",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Black Speech",
+                        "spoken": 6,
+                        "written": 2,
+                        "nameFr": "Parler Noir"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 4,
+                        "written": 2,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-olog-hai",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-trolls"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Olog-hai — Trolls Noirs",
+                "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 7
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 7
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Campaign",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Olog-hai — Trolls Noirs",
+                "system": {
+                  "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                  "culture": "Olog-hai — Trolls Noirs"
+                }
+              },
+              "en": {
+                "name": "Olog-hai",
+                "system": {
+                  "description": "<h1>Olog-hai — Black Trolls</h1>\n<p>The <strong>Olog-hai</strong>, or <strong>Black Trolls</strong>, are the great Trolls bred by Sauron to become disciplined fighters capable of serving effectively in his armies. Their Culture is entirely oriented toward organized warfare: weapons, armor, leadership, tactics, ambush, interrogation, signaling, and functioning within a military hierarchy. They represent a profound break from primitive Tereg.</p>\n<h2>Trolls made for war</h2>\n<p>The whole Olog-hai Culture is built around combat. Where the Forest Troll hunts and the Stone Troll accumulates loot, the Olog-hai is first and foremost a soldier. He receives weapons suited to his size, learns to hold a position, advance on command, and fulfill a specific function within a military force.</p>\n<h2>Sauron and the army</h2>\n<p>Sauron occupies a central place in their existence. He gives them a function, hierarchy, equipment, and enemies. Their relationship with him is one of authority and domination more than of an independent religion. Their primary collective framework is not the tribe but the army.</p>\n<h2>Hierarchy, rank, and Leadership</h2>\n<p>Military rank has real importance. An Olog understands superior and subordinate, and the best individuals can command other troops. Leadership is used to transmit simple orders, keep a group moving, and impose authority. Tactics allows them to understand concrete principles: hold a gate, protect a flank, wait for a signal, concentrate an attack on a breach.</p>\n<h2>Soldiers, guards, and shock troops</h2>\n<p>The Culture essentially produces Fighters, serving as Soldiers or Mercenaries. Olog-hai excel as guards, champions, and shock troops: defending a gate, breaking a line, opening a passage, or confronting the enemy's most powerful fighters. Their almost complete racial lack of fear further increases this usefulness.</p>\n<h2>Daylight operations</h2>\n<p>Olog-hai can act freely under the Sun, a racial ability with enormous military consequences. An army can move them by day, maintain an exterior guard, and continue fighting after dawn. The Culture adds no bonus to this ability; it simply organizes its tactics around that freedom.</p>\n<h2>Martial specialization</h2>\n<p>An Olog-hai can receive a primary martial focus: one-handed concussion weapons, one-handed edged weapons, two-handed weapons, or thrown weapons. This specialization makes it possible to create different fighters within the same Culture rather than giving every one of them exactly the same hammer.</p>\n<h2>Arsenal</h2>\n<p>Their arsenal includes battle axe, club, flail, mace, morning star, two-handed sword, warhammer, bastard sword, spiked club, pick-hammer, and thrown rocks. The presence of two-handed swords, flails, and gigantic metal weapons demonstrates the existence of genuine military infrastructure capable of equipping them.</p>\n<h2>Armor and shield</h2>\n<p>Olog-hai wear mail reinforced with plates, a simple metal helmet, and a large shield. At their scale, the quantity of metal required is considerable. Their equipment is therefore not improvised in a cave: it comes from organized forges. Personal decoration remains secondary; military function predominates.</p>\n<h2>Loot and special equipment</h2>\n<p>Olog-hai readily take coins, gems, weapons, and shiny objects from victims, but accumulation is not as central as it is for Stone Trolls. Special objects may be issued on a commander's orders, including enchanted weapons adapted to a mission. This reflects genuinely organized military logistics.</p>\n<h2>Metalworking and Leatherworking</h2>\n<p>Metalworking and Leatherworking make it possible to maintain armor, straps, weapons, and protection. Not every Olog-hai is a smith, but a heavily equipped army needs individuals capable of keeping its equipment in service.</p>\n<h2>Ambush, stealth, and fortresses</h2>\n<p>Ambush, Stalking, and Hiding form part of their training. Size limits certain forms of stealth, but fortresses, rocks, tunnels, and ruins provide sufficient cover. Caving remains useful in underground complexes without dominating their profile, since the Olog-hai also fights very effectively on the surface.</p>\n<h2>Observation, Signaling, and Interrogation</h2>\n<p>Observation serves the guard, leader, and fighter. Signaling confirms integration into an army: shouts, horns, gestures, or marks transmit advance, assembly, or alarm. Interrogation is direct and intimidating, but an Olog-hai can genuinely understand answers and adapt simple questions.</p>\n<h2>Wrestling and Body Development</h2>\n<p>Wrestling makes full use of their power and can be used to capture an opponent alive. Body Development represents training, endurance, and combat practice without reproducing the Strength, mass, and natural protection bonuses already provided by the Race.</p>\n<h2>Languages</h2>\n<p>The <strong>Black Speech</strong> is the main language and can genuinely be mastered both spoken and written. Westron is also well developed, allowing prisoners to be interrogated and communication with human allies. Orcish is particularly useful to Olog-hai who command Orcs. Other eastern or southern languages may appear according to the campaign.</p>\n<h2>Religion and civilian life</h2>\n<p>Olog-hai have no religion of their own and no true autonomous civilian society. No structuring marriage system, little family life, no profession outside warfare: their organization comes from the function assigned to them. The military unit occupies the social space that clan or family fills elsewhere.</p>\n<h2>Relations</h2>\n<p>Orcs are their most natural military companions and may be placed under their command. Uruk-hai represent another form of elite troop: more numerous and versatile, but far less powerful individually. Khazâd are particularly hated and are opponents capable of resisting them in close combat. Humans are enemies, prisoners, sources of information, or allies according to allegiance.</p>\n<h2>Cultural skills</h2>\n<p>The RMU core favors <strong>Primary Weapon, Armor, Shield, Body Development, Observation, Leadership, Tactics, Signaling, and Wrestling</strong>. Secondary Weapon, Thrown Weapons, Ambush, Stalking, Hiding, Interrogation, Caving, Metalworking, Leatherworking, and Trapmaking round out specializations.</p>\n<h2>Race and Culture</h2>\n<p>The Olog-hai Race carries gigantic size, black scaly hide, black blood, vision, resistance, natural protection, absence of fear, and the ability to act normally under the Sun. The Olog-hai Culture carries Black Speech, Westron, Orcish, weapons training, mail and plates, shield, Leadership, Tactics, Signaling, and membership in a military hierarchy.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. In the Third Age it is directly tied to Sauron's structures. In the Fourth, survivors have lost the system that organized their existence. A character should define his military function, primary weapon, and above all his former commander. The Olog-hai was raised to possess a mission; when command disappears, he must discover what to do with his strength and training.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 6 / Written 2</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+                  "culture": "Olog-hai"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-olog-hai-age-4",
+            "folderKey": "cultures-age-4-restricted",
+            "document": {
+              "name": "Olog-hai — Trolls Noirs",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-olog-hai-age-4",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-trolls-age-4",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Black Speech",
+                        "spoken": 6,
+                        "written": 2,
+                        "nameFr": "Parler Noir"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 4,
+                        "written": 2,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-olog-hai",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-trolls"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Olog-hai — Trolls Noirs",
+                "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 7
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 7
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Campaign",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Olog-hai — Trolls Noirs",
+                "system": {
+                  "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                  "culture": "Olog-hai — Trolls Noirs"
+                }
+              },
+              "en": {
+                "name": "Olog-hai",
+                "system": {
+                  "description": "<h1>Olog-hai — Black Trolls</h1>\n<p>The <strong>Olog-hai</strong>, or <strong>Black Trolls</strong>, are the great Trolls bred by Sauron to become disciplined fighters capable of serving effectively in his armies. Their Culture is entirely oriented toward organized warfare: weapons, armor, leadership, tactics, ambush, interrogation, signaling, and functioning within a military hierarchy. They represent a profound break from primitive Tereg.</p>\n<h2>Trolls made for war</h2>\n<p>The whole Olog-hai Culture is built around combat. Where the Forest Troll hunts and the Stone Troll accumulates loot, the Olog-hai is first and foremost a soldier. He receives weapons suited to his size, learns to hold a position, advance on command, and fulfill a specific function within a military force.</p>\n<h2>Sauron and the army</h2>\n<p>Sauron occupies a central place in their existence. He gives them a function, hierarchy, equipment, and enemies. Their relationship with him is one of authority and domination more than of an independent religion. Their primary collective framework is not the tribe but the army.</p>\n<h2>Hierarchy, rank, and Leadership</h2>\n<p>Military rank has real importance. An Olog understands superior and subordinate, and the best individuals can command other troops. Leadership is used to transmit simple orders, keep a group moving, and impose authority. Tactics allows them to understand concrete principles: hold a gate, protect a flank, wait for a signal, concentrate an attack on a breach.</p>\n<h2>Soldiers, guards, and shock troops</h2>\n<p>The Culture essentially produces Fighters, serving as Soldiers or Mercenaries. Olog-hai excel as guards, champions, and shock troops: defending a gate, breaking a line, opening a passage, or confronting the enemy's most powerful fighters. Their almost complete racial lack of fear further increases this usefulness.</p>\n<h2>Daylight operations</h2>\n<p>Olog-hai can act freely under the Sun, a racial ability with enormous military consequences. An army can move them by day, maintain an exterior guard, and continue fighting after dawn. The Culture adds no bonus to this ability; it simply organizes its tactics around that freedom.</p>\n<h2>Martial specialization</h2>\n<p>An Olog-hai can receive a primary martial focus: one-handed concussion weapons, one-handed edged weapons, two-handed weapons, or thrown weapons. This specialization makes it possible to create different fighters within the same Culture rather than giving every one of them exactly the same hammer.</p>\n<h2>Arsenal</h2>\n<p>Their arsenal includes battle axe, club, flail, mace, morning star, two-handed sword, warhammer, bastard sword, spiked club, pick-hammer, and thrown rocks. The presence of two-handed swords, flails, and gigantic metal weapons demonstrates the existence of genuine military infrastructure capable of equipping them.</p>\n<h2>Armor and shield</h2>\n<p>Olog-hai wear mail reinforced with plates, a simple metal helmet, and a large shield. At their scale, the quantity of metal required is considerable. Their equipment is therefore not improvised in a cave: it comes from organized forges. Personal decoration remains secondary; military function predominates.</p>\n<h2>Loot and special equipment</h2>\n<p>Olog-hai readily take coins, gems, weapons, and shiny objects from victims, but accumulation is not as central as it is for Stone Trolls. Special objects may be issued on a commander's orders, including enchanted weapons adapted to a mission. This reflects genuinely organized military logistics.</p>\n<h2>Metalworking and Leatherworking</h2>\n<p>Metalworking and Leatherworking make it possible to maintain armor, straps, weapons, and protection. Not every Olog-hai is a smith, but a heavily equipped army needs individuals capable of keeping its equipment in service.</p>\n<h2>Ambush, stealth, and fortresses</h2>\n<p>Ambush, Stalking, and Hiding form part of their training. Size limits certain forms of stealth, but fortresses, rocks, tunnels, and ruins provide sufficient cover. Caving remains useful in underground complexes without dominating their profile, since the Olog-hai also fights very effectively on the surface.</p>\n<h2>Observation, Signaling, and Interrogation</h2>\n<p>Observation serves the guard, leader, and fighter. Signaling confirms integration into an army: shouts, horns, gestures, or marks transmit advance, assembly, or alarm. Interrogation is direct and intimidating, but an Olog-hai can genuinely understand answers and adapt simple questions.</p>\n<h2>Wrestling and Body Development</h2>\n<p>Wrestling makes full use of their power and can be used to capture an opponent alive. Body Development represents training, endurance, and combat practice without reproducing the Strength, mass, and natural protection bonuses already provided by the Race.</p>\n<h2>Languages</h2>\n<p>The <strong>Black Speech</strong> is the main language and can genuinely be mastered both spoken and written. Westron is also well developed, allowing prisoners to be interrogated and communication with human allies. Orcish is particularly useful to Olog-hai who command Orcs. Other eastern or southern languages may appear according to the campaign.</p>\n<h2>Religion and civilian life</h2>\n<p>Olog-hai have no religion of their own and no true autonomous civilian society. No structuring marriage system, little family life, no profession outside warfare: their organization comes from the function assigned to them. The military unit occupies the social space that clan or family fills elsewhere.</p>\n<h2>Relations</h2>\n<p>Orcs are their most natural military companions and may be placed under their command. Uruk-hai represent another form of elite troop: more numerous and versatile, but far less powerful individually. Khazâd are particularly hated and are opponents capable of resisting them in close combat. Humans are enemies, prisoners, sources of information, or allies according to allegiance.</p>\n<h2>Cultural skills</h2>\n<p>The RMU core favors <strong>Primary Weapon, Armor, Shield, Body Development, Observation, Leadership, Tactics, Signaling, and Wrestling</strong>. Secondary Weapon, Thrown Weapons, Ambush, Stalking, Hiding, Interrogation, Caving, Metalworking, Leatherworking, and Trapmaking round out specializations.</p>\n<h2>Race and Culture</h2>\n<p>The Olog-hai Race carries gigantic size, black scaly hide, black blood, vision, resistance, natural protection, absence of fear, and the ability to act normally under the Sun. The Olog-hai Culture carries Black Speech, Westron, Orcish, weapons training, mail and plates, shield, Leadership, Tactics, Signaling, and membership in a military hierarchy.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. In the Third Age it is directly tied to Sauron's structures. In the Fourth, survivors have lost the system that organized their existence. A character should define his military function, primary weapon, and above all his former commander. The Olog-hai was raised to possess a mission; when command disappears, he must discover what to do with his strength and training.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 6 / Written 2</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+                  "culture": "Olog-hai"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Olog-hai — Trolls Noirs",
+      "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 6
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 7
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 7
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 8,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Campaign",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 8,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 3
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Olog-hai — Trolls Noirs",
+      "system": {
+        "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+        "culture": "Olog-hai — Trolls Noirs"
+      }
+    },
+    "en": {
+      "name": "Olog-hai",
+      "system": {
+        "description": "<h1>Olog-hai — Black Trolls</h1>\n<p>The <strong>Olog-hai</strong>, or <strong>Black Trolls</strong>, are the great Trolls bred by Sauron to become disciplined fighters capable of serving effectively in his armies. Their Culture is entirely oriented toward organized warfare: weapons, armor, leadership, tactics, ambush, interrogation, signaling, and functioning within a military hierarchy. They represent a profound break from primitive Tereg.</p>\n<h2>Trolls made for war</h2>\n<p>The whole Olog-hai Culture is built around combat. Where the Forest Troll hunts and the Stone Troll accumulates loot, the Olog-hai is first and foremost a soldier. He receives weapons suited to his size, learns to hold a position, advance on command, and fulfill a specific function within a military force.</p>\n<h2>Sauron and the army</h2>\n<p>Sauron occupies a central place in their existence. He gives them a function, hierarchy, equipment, and enemies. Their relationship with him is one of authority and domination more than of an independent religion. Their primary collective framework is not the tribe but the army.</p>\n<h2>Hierarchy, rank, and Leadership</h2>\n<p>Military rank has real importance. An Olog understands superior and subordinate, and the best individuals can command other troops. Leadership is used to transmit simple orders, keep a group moving, and impose authority. Tactics allows them to understand concrete principles: hold a gate, protect a flank, wait for a signal, concentrate an attack on a breach.</p>\n<h2>Soldiers, guards, and shock troops</h2>\n<p>The Culture essentially produces Fighters, serving as Soldiers or Mercenaries. Olog-hai excel as guards, champions, and shock troops: defending a gate, breaking a line, opening a passage, or confronting the enemy's most powerful fighters. Their almost complete racial lack of fear further increases this usefulness.</p>\n<h2>Daylight operations</h2>\n<p>Olog-hai can act freely under the Sun, a racial ability with enormous military consequences. An army can move them by day, maintain an exterior guard, and continue fighting after dawn. The Culture adds no bonus to this ability; it simply organizes its tactics around that freedom.</p>\n<h2>Martial specialization</h2>\n<p>An Olog-hai can receive a primary martial focus: one-handed concussion weapons, one-handed edged weapons, two-handed weapons, or thrown weapons. This specialization makes it possible to create different fighters within the same Culture rather than giving every one of them exactly the same hammer.</p>\n<h2>Arsenal</h2>\n<p>Their arsenal includes battle axe, club, flail, mace, morning star, two-handed sword, warhammer, bastard sword, spiked club, pick-hammer, and thrown rocks. The presence of two-handed swords, flails, and gigantic metal weapons demonstrates the existence of genuine military infrastructure capable of equipping them.</p>\n<h2>Armor and shield</h2>\n<p>Olog-hai wear mail reinforced with plates, a simple metal helmet, and a large shield. At their scale, the quantity of metal required is considerable. Their equipment is therefore not improvised in a cave: it comes from organized forges. Personal decoration remains secondary; military function predominates.</p>\n<h2>Loot and special equipment</h2>\n<p>Olog-hai readily take coins, gems, weapons, and shiny objects from victims, but accumulation is not as central as it is for Stone Trolls. Special objects may be issued on a commander's orders, including enchanted weapons adapted to a mission. This reflects genuinely organized military logistics.</p>\n<h2>Metalworking and Leatherworking</h2>\n<p>Metalworking and Leatherworking make it possible to maintain armor, straps, weapons, and protection. Not every Olog-hai is a smith, but a heavily equipped army needs individuals capable of keeping its equipment in service.</p>\n<h2>Ambush, stealth, and fortresses</h2>\n<p>Ambush, Stalking, and Hiding form part of their training. Size limits certain forms of stealth, but fortresses, rocks, tunnels, and ruins provide sufficient cover. Caving remains useful in underground complexes without dominating their profile, since the Olog-hai also fights very effectively on the surface.</p>\n<h2>Observation, Signaling, and Interrogation</h2>\n<p>Observation serves the guard, leader, and fighter. Signaling confirms integration into an army: shouts, horns, gestures, or marks transmit advance, assembly, or alarm. Interrogation is direct and intimidating, but an Olog-hai can genuinely understand answers and adapt simple questions.</p>\n<h2>Wrestling and Body Development</h2>\n<p>Wrestling makes full use of their power and can be used to capture an opponent alive. Body Development represents training, endurance, and combat practice without reproducing the Strength, mass, and natural protection bonuses already provided by the Race.</p>\n<h2>Languages</h2>\n<p>The <strong>Black Speech</strong> is the main language and can genuinely be mastered both spoken and written. Westron is also well developed, allowing prisoners to be interrogated and communication with human allies. Orcish is particularly useful to Olog-hai who command Orcs. Other eastern or southern languages may appear according to the campaign.</p>\n<h2>Religion and civilian life</h2>\n<p>Olog-hai have no religion of their own and no true autonomous civilian society. No structuring marriage system, little family life, no profession outside warfare: their organization comes from the function assigned to them. The military unit occupies the social space that clan or family fills elsewhere.</p>\n<h2>Relations</h2>\n<p>Orcs are their most natural military companions and may be placed under their command. Uruk-hai represent another form of elite troop: more numerous and versatile, but far less powerful individually. Khazâd are particularly hated and are opponents capable of resisting them in close combat. Humans are enemies, prisoners, sources of information, or allies according to allegiance.</p>\n<h2>Cultural skills</h2>\n<p>The RMU core favors <strong>Primary Weapon, Armor, Shield, Body Development, Observation, Leadership, Tactics, Signaling, and Wrestling</strong>. Secondary Weapon, Thrown Weapons, Ambush, Stalking, Hiding, Interrogation, Caving, Metalworking, Leatherworking, and Trapmaking round out specializations.</p>\n<h2>Race and Culture</h2>\n<p>The Olog-hai Race carries gigantic size, black scaly hide, black blood, vision, resistance, natural protection, absence of fear, and the ability to act normally under the Sun. The Olog-hai Culture carries Black Speech, Westron, Orcish, weapons training, mail and plates, shield, Leadership, Tactics, Signaling, and membership in a military hierarchy.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. In the Third Age it is directly tied to Sauron's structures. In the Fourth, survivors have lost the system that organized their existence. A character should define his military function, primary weapon, and above all his former commander. The Olog-hai was raised to possess a mission; when command disappears, he must discover what to do with his strength and training.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 6 / Written 2</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+        "culture": "Olog-hai"
+      }
+    }
+  },
+  "ageVariants": {
+    "3": {
+      "sourceKey": "culture-olog-hai-age-3",
+      "folderKey": "cultures-age-3-restricted",
+      "document": {
+        "name": "Olog-hai — Trolls Noirs",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-olog-hai-age-3",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-trolls-age-3",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Black Speech",
+                  "spoken": 6,
+                  "written": 2,
+                  "nameFr": "Parler Noir"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 4,
+                  "written": 2,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-olog-hai",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-trolls"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Olog-hai — Trolls Noirs",
+          "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 7
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 7
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Campaign",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Olog-hai — Trolls Noirs",
+          "system": {
+            "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+            "culture": "Olog-hai — Trolls Noirs"
+          }
+        },
+        "en": {
+          "name": "Olog-hai",
+          "system": {
+            "description": "<h1>Olog-hai — Black Trolls</h1>\n<p>The <strong>Olog-hai</strong>, or <strong>Black Trolls</strong>, are the great Trolls bred by Sauron to become disciplined fighters capable of serving effectively in his armies. Their Culture is entirely oriented toward organized warfare: weapons, armor, leadership, tactics, ambush, interrogation, signaling, and functioning within a military hierarchy. They represent a profound break from primitive Tereg.</p>\n<h2>Trolls made for war</h2>\n<p>The whole Olog-hai Culture is built around combat. Where the Forest Troll hunts and the Stone Troll accumulates loot, the Olog-hai is first and foremost a soldier. He receives weapons suited to his size, learns to hold a position, advance on command, and fulfill a specific function within a military force.</p>\n<h2>Sauron and the army</h2>\n<p>Sauron occupies a central place in their existence. He gives them a function, hierarchy, equipment, and enemies. Their relationship with him is one of authority and domination more than of an independent religion. Their primary collective framework is not the tribe but the army.</p>\n<h2>Hierarchy, rank, and Leadership</h2>\n<p>Military rank has real importance. An Olog understands superior and subordinate, and the best individuals can command other troops. Leadership is used to transmit simple orders, keep a group moving, and impose authority. Tactics allows them to understand concrete principles: hold a gate, protect a flank, wait for a signal, concentrate an attack on a breach.</p>\n<h2>Soldiers, guards, and shock troops</h2>\n<p>The Culture essentially produces Fighters, serving as Soldiers or Mercenaries. Olog-hai excel as guards, champions, and shock troops: defending a gate, breaking a line, opening a passage, or confronting the enemy's most powerful fighters. Their almost complete racial lack of fear further increases this usefulness.</p>\n<h2>Daylight operations</h2>\n<p>Olog-hai can act freely under the Sun, a racial ability with enormous military consequences. An army can move them by day, maintain an exterior guard, and continue fighting after dawn. The Culture adds no bonus to this ability; it simply organizes its tactics around that freedom.</p>\n<h2>Martial specialization</h2>\n<p>An Olog-hai can receive a primary martial focus: one-handed concussion weapons, one-handed edged weapons, two-handed weapons, or thrown weapons. This specialization makes it possible to create different fighters within the same Culture rather than giving every one of them exactly the same hammer.</p>\n<h2>Arsenal</h2>\n<p>Their arsenal includes battle axe, club, flail, mace, morning star, two-handed sword, warhammer, bastard sword, spiked club, pick-hammer, and thrown rocks. The presence of two-handed swords, flails, and gigantic metal weapons demonstrates the existence of genuine military infrastructure capable of equipping them.</p>\n<h2>Armor and shield</h2>\n<p>Olog-hai wear mail reinforced with plates, a simple metal helmet, and a large shield. At their scale, the quantity of metal required is considerable. Their equipment is therefore not improvised in a cave: it comes from organized forges. Personal decoration remains secondary; military function predominates.</p>\n<h2>Loot and special equipment</h2>\n<p>Olog-hai readily take coins, gems, weapons, and shiny objects from victims, but accumulation is not as central as it is for Stone Trolls. Special objects may be issued on a commander's orders, including enchanted weapons adapted to a mission. This reflects genuinely organized military logistics.</p>\n<h2>Metalworking and Leatherworking</h2>\n<p>Metalworking and Leatherworking make it possible to maintain armor, straps, weapons, and protection. Not every Olog-hai is a smith, but a heavily equipped army needs individuals capable of keeping its equipment in service.</p>\n<h2>Ambush, stealth, and fortresses</h2>\n<p>Ambush, Stalking, and Hiding form part of their training. Size limits certain forms of stealth, but fortresses, rocks, tunnels, and ruins provide sufficient cover. Caving remains useful in underground complexes without dominating their profile, since the Olog-hai also fights very effectively on the surface.</p>\n<h2>Observation, Signaling, and Interrogation</h2>\n<p>Observation serves the guard, leader, and fighter. Signaling confirms integration into an army: shouts, horns, gestures, or marks transmit advance, assembly, or alarm. Interrogation is direct and intimidating, but an Olog-hai can genuinely understand answers and adapt simple questions.</p>\n<h2>Wrestling and Body Development</h2>\n<p>Wrestling makes full use of their power and can be used to capture an opponent alive. Body Development represents training, endurance, and combat practice without reproducing the Strength, mass, and natural protection bonuses already provided by the Race.</p>\n<h2>Languages</h2>\n<p>The <strong>Black Speech</strong> is the main language and can genuinely be mastered both spoken and written. Westron is also well developed, allowing prisoners to be interrogated and communication with human allies. Orcish is particularly useful to Olog-hai who command Orcs. Other eastern or southern languages may appear according to the campaign.</p>\n<h2>Religion and civilian life</h2>\n<p>Olog-hai have no religion of their own and no true autonomous civilian society. No structuring marriage system, little family life, no profession outside warfare: their organization comes from the function assigned to them. The military unit occupies the social space that clan or family fills elsewhere.</p>\n<h2>Relations</h2>\n<p>Orcs are their most natural military companions and may be placed under their command. Uruk-hai represent another form of elite troop: more numerous and versatile, but far less powerful individually. Khazâd are particularly hated and are opponents capable of resisting them in close combat. Humans are enemies, prisoners, sources of information, or allies according to allegiance.</p>\n<h2>Cultural skills</h2>\n<p>The RMU core favors <strong>Primary Weapon, Armor, Shield, Body Development, Observation, Leadership, Tactics, Signaling, and Wrestling</strong>. Secondary Weapon, Thrown Weapons, Ambush, Stalking, Hiding, Interrogation, Caving, Metalworking, Leatherworking, and Trapmaking round out specializations.</p>\n<h2>Race and Culture</h2>\n<p>The Olog-hai Race carries gigantic size, black scaly hide, black blood, vision, resistance, natural protection, absence of fear, and the ability to act normally under the Sun. The Olog-hai Culture carries Black Speech, Westron, Orcish, weapons training, mail and plates, shield, Leadership, Tactics, Signaling, and membership in a military hierarchy.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. In the Third Age it is directly tied to Sauron's structures. In the Fourth, survivors have lost the system that organized their existence. A character should define his military function, primary weapon, and above all his former commander. The Olog-hai was raised to possess a mission; when command disappears, he must discover what to do with his strength and training.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 6 / Written 2</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+            "culture": "Olog-hai"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-olog-hai-age-4",
+      "folderKey": "cultures-age-4-restricted",
+      "document": {
+        "name": "Olog-hai — Trolls Noirs",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-olog-hai-age-4",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-trolls-age-4",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Black Speech",
+                  "spoken": 6,
+                  "written": 2,
+                  "nameFr": "Parler Noir"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 4,
+                  "written": 2,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-olog-hai",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-trolls"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Olog-hai — Trolls Noirs",
+          "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 7
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 7
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Campaign",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Olog-hai — Trolls Noirs",
+          "system": {
+            "description": "<h1>Olog-hai — Trolls Noirs</h1>\n<p>Les <strong>Olog-hai</strong>, ou <strong>Trolls Noirs</strong>, sont les grands Trolls élevés par Sauron pour devenir des combattants disciplinés capables de servir efficacement dans ses armées. Leur Culture est entièrement orientée vers la guerre organisée : armes, armures, commandement, tactique, embuscade, interrogation, signalisation et fonctionnement dans une hiérarchie militaire. Ils représentent une rupture profonde avec les Tereg primitifs.</p>\n<h2>Des Trolls créés pour la guerre</h2>\n<p>Toute la Culture Olog-hai est construite autour du combat. Là où le Troll des Forêts chasse et où le Troll de Pierre accumule son butin, l’Olog-hai est avant tout un soldat. Il reçoit des armes adaptées à sa taille, apprend à tenir une position, avancer sur ordre et remplir une fonction précise au sein d’une force militaire.</p>\n<h2>Sauron et l’armée</h2>\n<p>Sauron occupe une place centrale dans leur existence. Il leur donne une fonction, une hiérarchie, de l’équipement et des ennemis. Leur rapport à lui relève davantage de l’autorité et de la domination que d’une religion autonome. Leur cadre collectif principal n’est pas la tribu mais l’armée.</p>\n<h2>Hiérarchie, rang et Commandement</h2>\n<p>Le rang militaire a une importance réelle. Un Olog comprend supérieur et subordonné, et les meilleurs individus peuvent commander d’autres troupes. Le Commandement sert à transmettre des ordres simples, maintenir un groupe en mouvement et imposer une autorité. La Tactique permet de comprendre des principes concrets : tenir une porte, protéger un flanc, attendre un signal, concentrer une attaque sur une brèche.</p>\n<h2>Soldats, gardes et forces de choc</h2>\n<p>La Culture produit essentiellement des Combattants, avec des fonctions de Soldat ou Mercenaire. Les Olog-hai excellent comme gardes, champions et forces de choc : défendre une porte, briser une ligne, ouvrir un passage ou affronter les combattants les plus puissants de l’ennemi. Leur absence raciale presque totale de peur renforce encore cette utilité.</p>\n<h2>Opérations en plein jour</h2>\n<p>Les Olog-hai peuvent agir librement sous le Soleil, capacité raciale aux conséquences militaires immenses. Une armée peut les déplacer de jour, maintenir une garde extérieure et poursuivre un combat après l’aube. La Culture n’ajoute aucun bonus à cette capacité : elle organise simplement ses tactiques autour de cette liberté.</p>\n<h2>Spécialisation martiale</h2>\n<p>L’Olog-hai peut recevoir un axe martial principal : armes de percussion à une main, armes tranchantes à une main, armes à deux mains ou armes de jet. Cette spécialisation permet de créer des combattants différents au sein de la même Culture, plutôt que de donner à tous exactement le même marteau.</p>\n<h2>Arsenal</h2>\n<p>Leur arsenal comprend hache de bataille, gourdin, fléau, masse, étoile du matin, épée à deux mains, marteau de guerre, épée bâtarde, gourdin à pointes, marteau-pioche et rochers lancés. La présence d’épées à deux mains, de fléaux et d’armes métalliques gigantesques prouve l’existence d’une véritable infrastructure militaire capable de les équiper.</p>\n<h2>Armure et bouclier</h2>\n<p>Les Olog-hai portent une cotte de mailles renforcée par des plaques, un casque métallique simple et un grand bouclier. À leur échelle, la quantité de métal nécessaire est considérable. Leur équipement n’est donc pas improvisé dans une grotte : il provient de forges organisées. La décoration personnelle reste secondaire ; la fonction militaire domine.</p>\n<h2>Butin et équipement spécial</h2>\n<p>Les Olog-hai prennent volontiers pièces, gemmes, armes et objets brillants sur les victimes, mais l’accumulation n’est pas aussi centrale que chez les Trolls de Pierre. Des objets spéciaux peuvent être distribués sur ordre d’un commandant, notamment des armes enchantées adaptées à une mission. Cela traduit une logistique militaire réellement organisée.</p>\n<h2>Travail du métal et du cuir</h2>\n<p>Travail des métaux et Travail du cuir permettent d’entretenir armure, sangles, armes et protections. Tous les Olog-hai ne sont pas forgerons, mais une armée lourdement équipée a besoin d’individus capables de maintenir le matériel en état.</p>\n<h2>Embuscade, discrétion et forteresses</h2>\n<p>L’Embuscade, l’Approche furtive et la Dissimulation font partie de leur formation. La taille limite certaines formes de discrétion, mais forteresses, rochers, tunnels et ruines offrent des couverts suffisants. La Spéléologie reste utile dans les complexes souterrains sans dominer leur profil, puisque l’Olog-hai combat aussi très bien à la surface.</p>\n<h2>Observation, Signalisation et Interrogatoire</h2>\n<p>L’Observation sert au garde, au chef et au combattant. La Signalisation confirme l’intégration à une armée : cris, cors, gestes ou marques transmettent avance, rassemblement ou alarme. L’Interrogatoire est direct et intimidant, mais l’Olog-hai peut réellement comprendre les réponses et adapter des questions simples.</p>\n<h2>Lutte et Développement corporel</h2>\n<p>La Lutte tire pleinement parti de leur puissance et peut servir à capturer un adversaire vivant. Le Développement corporel représente entraînement, endurance et pratique du combat sans reproduire les bonus de Force, masse et protection naturelle déjà fournis par la Race.</p>\n<h2>Langues</h2>\n<p>Le <strong>Parler Noir</strong> est la langue principale et peut être réellement maîtrisé à l’oral comme à l’écrit. Le westron est également bien développé, ce qui permet d’interroger des prisonniers et de communiquer avec des alliés humains. L’orcien est particulièrement utile aux Olog-hai qui commandent des Orcs. D’autres langues orientales ou méridionales peuvent apparaître selon les campagnes.</p>\n<h2>Religion et vie civile</h2>\n<p>Les Olog-hai n’ont pas de religion propre ni de véritable société civile autonome. Pas de mariage structurant, peu de vie familiale, pas de profession hors de la guerre : leur organisation vient de la fonction qui leur a été assignée. L’unité militaire occupe l’espace social que le clan ou la famille remplit ailleurs.</p>\n<h2>Relations</h2>\n<p>Les Orcs sont leurs compagnons militaires les plus naturels et peuvent être placés sous leurs ordres. Les Uruk-hai représentent une autre forme de troupe d’élite : plus nombreux et polyvalents, mais beaucoup moins puissants individuellement. Les Khazâd sont particulièrement haïs et constituent des adversaires capables de résister au corps à corps. Les Humains sont ennemis, prisonniers, sources de renseignements ou alliés selon leur allégeance.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau RMU favorise <strong>Arme principale, Armure, Bouclier, Développement corporel, Observation, Commandement, Tactique, Signalisation et Lutte</strong>. Arme secondaire, Armes de jet, Embuscade, Approche furtive, Dissimulation, Interrogatoire, Spéléologie, Travail des métaux, Travail du cuir et Fabrication de pièges complètent les spécialisations.</p>\n<h2>Race et Culture</h2>\n<p>La Race Olog-hai porte taille gigantesque, peau noire écailleuse, sang noir, vision, résistance, protection naturelle, absence de peur et capacité à agir normalement sous le Soleil. La Culture Olog-hai porte Parler Noir, westron, orcien, formation aux armes, maille et plaques, bouclier, Commandement, Tactique, Signalisation et appartenance à la hiérarchie militaire.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture est disponible aux <strong>Troisième et Quatrième Âges</strong>. Au Troisième Âge, elle est directement liée aux structures de Sauron. Au Quatrième, les survivants ont perdu le système qui organisait leur existence. Un personnage doit définir sa fonction militaire, son arme principale et surtout son ancien commandant. L’Olog-hai a été élevé pour posséder une mission ; lorsque le commandement disparaît, il doit découvrir ce qu’il fait de sa puissance et de son entraînement.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 6 / Écrite 2</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+            "culture": "Olog-hai — Trolls Noirs"
+          }
+        },
+        "en": {
+          "name": "Olog-hai",
+          "system": {
+            "description": "<h1>Olog-hai — Black Trolls</h1>\n<p>The <strong>Olog-hai</strong>, or <strong>Black Trolls</strong>, are the great Trolls bred by Sauron to become disciplined fighters capable of serving effectively in his armies. Their Culture is entirely oriented toward organized warfare: weapons, armor, leadership, tactics, ambush, interrogation, signaling, and functioning within a military hierarchy. They represent a profound break from primitive Tereg.</p>\n<h2>Trolls made for war</h2>\n<p>The whole Olog-hai Culture is built around combat. Where the Forest Troll hunts and the Stone Troll accumulates loot, the Olog-hai is first and foremost a soldier. He receives weapons suited to his size, learns to hold a position, advance on command, and fulfill a specific function within a military force.</p>\n<h2>Sauron and the army</h2>\n<p>Sauron occupies a central place in their existence. He gives them a function, hierarchy, equipment, and enemies. Their relationship with him is one of authority and domination more than of an independent religion. Their primary collective framework is not the tribe but the army.</p>\n<h2>Hierarchy, rank, and Leadership</h2>\n<p>Military rank has real importance. An Olog understands superior and subordinate, and the best individuals can command other troops. Leadership is used to transmit simple orders, keep a group moving, and impose authority. Tactics allows them to understand concrete principles: hold a gate, protect a flank, wait for a signal, concentrate an attack on a breach.</p>\n<h2>Soldiers, guards, and shock troops</h2>\n<p>The Culture essentially produces Fighters, serving as Soldiers or Mercenaries. Olog-hai excel as guards, champions, and shock troops: defending a gate, breaking a line, opening a passage, or confronting the enemy's most powerful fighters. Their almost complete racial lack of fear further increases this usefulness.</p>\n<h2>Daylight operations</h2>\n<p>Olog-hai can act freely under the Sun, a racial ability with enormous military consequences. An army can move them by day, maintain an exterior guard, and continue fighting after dawn. The Culture adds no bonus to this ability; it simply organizes its tactics around that freedom.</p>\n<h2>Martial specialization</h2>\n<p>An Olog-hai can receive a primary martial focus: one-handed concussion weapons, one-handed edged weapons, two-handed weapons, or thrown weapons. This specialization makes it possible to create different fighters within the same Culture rather than giving every one of them exactly the same hammer.</p>\n<h2>Arsenal</h2>\n<p>Their arsenal includes battle axe, club, flail, mace, morning star, two-handed sword, warhammer, bastard sword, spiked club, pick-hammer, and thrown rocks. The presence of two-handed swords, flails, and gigantic metal weapons demonstrates the existence of genuine military infrastructure capable of equipping them.</p>\n<h2>Armor and shield</h2>\n<p>Olog-hai wear mail reinforced with plates, a simple metal helmet, and a large shield. At their scale, the quantity of metal required is considerable. Their equipment is therefore not improvised in a cave: it comes from organized forges. Personal decoration remains secondary; military function predominates.</p>\n<h2>Loot and special equipment</h2>\n<p>Olog-hai readily take coins, gems, weapons, and shiny objects from victims, but accumulation is not as central as it is for Stone Trolls. Special objects may be issued on a commander's orders, including enchanted weapons adapted to a mission. This reflects genuinely organized military logistics.</p>\n<h2>Metalworking and Leatherworking</h2>\n<p>Metalworking and Leatherworking make it possible to maintain armor, straps, weapons, and protection. Not every Olog-hai is a smith, but a heavily equipped army needs individuals capable of keeping its equipment in service.</p>\n<h2>Ambush, stealth, and fortresses</h2>\n<p>Ambush, Stalking, and Hiding form part of their training. Size limits certain forms of stealth, but fortresses, rocks, tunnels, and ruins provide sufficient cover. Caving remains useful in underground complexes without dominating their profile, since the Olog-hai also fights very effectively on the surface.</p>\n<h2>Observation, Signaling, and Interrogation</h2>\n<p>Observation serves the guard, leader, and fighter. Signaling confirms integration into an army: shouts, horns, gestures, or marks transmit advance, assembly, or alarm. Interrogation is direct and intimidating, but an Olog-hai can genuinely understand answers and adapt simple questions.</p>\n<h2>Wrestling and Body Development</h2>\n<p>Wrestling makes full use of their power and can be used to capture an opponent alive. Body Development represents training, endurance, and combat practice without reproducing the Strength, mass, and natural protection bonuses already provided by the Race.</p>\n<h2>Languages</h2>\n<p>The <strong>Black Speech</strong> is the main language and can genuinely be mastered both spoken and written. Westron is also well developed, allowing prisoners to be interrogated and communication with human allies. Orcish is particularly useful to Olog-hai who command Orcs. Other eastern or southern languages may appear according to the campaign.</p>\n<h2>Religion and civilian life</h2>\n<p>Olog-hai have no religion of their own and no true autonomous civilian society. No structuring marriage system, little family life, no profession outside warfare: their organization comes from the function assigned to them. The military unit occupies the social space that clan or family fills elsewhere.</p>\n<h2>Relations</h2>\n<p>Orcs are their most natural military companions and may be placed under their command. Uruk-hai represent another form of elite troop: more numerous and versatile, but far less powerful individually. Khazâd are particularly hated and are opponents capable of resisting them in close combat. Humans are enemies, prisoners, sources of information, or allies according to allegiance.</p>\n<h2>Cultural skills</h2>\n<p>The RMU core favors <strong>Primary Weapon, Armor, Shield, Body Development, Observation, Leadership, Tactics, Signaling, and Wrestling</strong>. Secondary Weapon, Thrown Weapons, Ambush, Stalking, Hiding, Interrogation, Caving, Metalworking, Leatherworking, and Trapmaking round out specializations.</p>\n<h2>Race and Culture</h2>\n<p>The Olog-hai Race carries gigantic size, black scaly hide, black blood, vision, resistance, natural protection, absence of fear, and the ability to act normally under the Sun. The Olog-hai Culture carries Black Speech, Westron, Orcish, weapons training, mail and plates, shield, Leadership, Tactics, Signaling, and membership in a military hierarchy.</p>\n<h2>Availability and character creation</h2>\n<p>The Culture is available in the <strong>Third and Fourth Ages</strong>. In the Third Age it is directly tied to Sauron's structures. In the Fourth, survivors have lost the system that organized their existence. A character should define his military function, primary weapon, and above all his former commander. The Olog-hai was raised to possess a mission; when command disappears, he must discover what to do with his strength and training.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 6 / Written 2</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+            "culture": "Olog-hai"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Restreint"
+    ],
+    "en": [
+      "Restricted"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-restricted"
+  ]
+}

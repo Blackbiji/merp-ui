@@ -1,0 +1,757 @@
+{
+  "key": "culture-petty-dwarves",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Petits-Nains — Noegyth Nibin",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-petty-dwarves",
+        "collection": "merp-rmu",
+        "contentVersion": 4,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "recommendedSpecializations": {},
+        "exclusiveTalents": [],
+        "canonicalKey": "culture-petty-dwarves",
+        "availability": {
+          "ages": [
+            1
+          ],
+          "restrictedByAge": {
+            "1": true
+          }
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-petty-dwarves",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-petty-dwarves-age-1",
+            "folderKey": "cultures-age-1-restricted",
+            "document": {
+              "name": "Petits-Nains — Noegyth Nibin",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-petty-dwarves-age-1",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-petty-dwarves-age-1",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Westron",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Sindarin",
+                        "spoken": 4,
+                        "written": 2,
+                        "nameFr": "Sindarin"
+                      },
+                      {
+                        "name": "Khuzdul",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Khuzdul"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-petty-dwarves",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-petty-dwarves"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Petits-Nains — Noegyth Nibin",
+                "description": "<h1>Petits-Nains — Noegyth Nibin</h1>\n<p>Les <strong>Petits-Nains</strong>, appelés <strong>Noegyth Nibin</strong> en sindarin, constituent une population khazâd marginale et tragique du Premier Âge. Ils descendent de Nains rejetés autrefois par leurs propres communautés, expulsés de leurs demeures et contraints de survivre loin des grandes cités souterraines. Au fil des générations, cet isolement transforma profondément leur mode de vie. Ils demeurent pleinement des Khazâd par leur origine, mais leur Culture est celle de petites communautés cachées, prudentes, polyvalentes et entièrement tournées vers la survie.</p>\n<h2>Origines</h2>\n<p>Les premiers Petits-Nains étaient des Khazâd bannis de leurs communautés. Les raisons de ces exclusions n’étaient pas nécessairement uniformes : fautes graves, ruptures d’obligations, conflits ou simple héritage d’une condition d’exilé pour les descendants des premiers bannis. Ils quittèrent progressivement les grandes demeures naines et gagnèrent l’ouest avant l’installation des principales colonies khazâd du Beleriand.</p>\n<p>Cette origine distingue leur Culture de celle des Sept Maisons. Le Petit-Nain n’est pas seulement un Nain vivant dans une région différente : il descend d’une population coupée des grandes structures politiques, artisanales et familiales qui organisent normalement la vie khazâd.</p>\n<h2>Noegyth Nibin</h2>\n<p>Le nom sindarin <strong>Noegyth Nibin</strong> signifie « Petits-Nains ». Il finit par désigner l’ensemble de leur population. Les Petits-Nains étaient moins nombreux, plus pauvres et généralement moins robustes que les populations venues ensuite de Nogrod et Belegost. Leur faible nombre et leur isolement marquèrent durablement la manière dont les autres peuples les perçurent.</p>\n<h2>Premiers habitants du Beleriand</h2>\n<p>Les Petits-Nains comptèrent parmi les premiers habitants connus de plusieurs régions du Beleriand. Ils creusèrent des demeures dans les collines et utilisèrent des cavernes naturelles comme refuges. Lorsque les Sindar commencèrent à parcourir ces terres, ils ne comprirent pas immédiatement la nature des êtres qu’ils rencontraient.</p>\n<h2>La chasse des Sindar</h2>\n<p>Les premiers Sindar prirent les Petits-Nains pour des créatures animales ou monstrueuses et les chassèrent comme du gibier. Lorsque les Elfes rencontrèrent ensuite les Nains de Nogrod et Belegost, ils comprirent que les Noegyth Nibin étaient eux aussi des êtres doués de parole et apparentés aux Khazâd ; la chasse cessa, mais la population des Petits-Nains avait déjà été gravement réduite.</p>\n<p>Cette mémoire nourrit une défiance profonde envers les Sindar. Elle ne condamne pas chaque relation individuelle à la violence, mais elle explique pourquoi la confiance envers les Elfes se construit lentement et pourquoi les offenses anciennes restent présentes dans les récits familiaux.</p>\n<h2>Une Culture de survivants</h2>\n<p>Leur organisation doit être comprise à partir de cette histoire. Ils vivent en petits groupes, dissimulent leurs demeures, évitent de révéler les entrées de leurs cavernes, observent longuement les étrangers et accumulent soigneusement les ressources. Ces comportements ne sont pas de simples traits de caractère : ils sont devenus des stratégies de survie transmises de génération en génération.</p>\n<h2>Amon Rûdh et Bar-en-Danwedh</h2>\n<p>La demeure la plus célèbre des Petits-Nains est <strong>Amon Rûdh</strong>, la Colline Chauve, habitée par Mîm et ses fils Ibun et Khîm. Sous la colline se trouvait <strong>Bar-en-Danwedh</strong>, la « Maison de la Rançon », ensemble de cavernes et de passages parfaitement connus de ses habitants.</p>\n<p>Cette demeure illustre leur architecture : sécurité, discrétion et utilisation intelligente des cavités naturelles comptent davantage que la monumentalité. Une sortie secondaire, une ouverture presque invisible ou un passage étroit peut avoir plus de valeur qu’une immense porte sculptée.</p>\n<h2>Petites communautés et famille</h2>\n<p>Les Petits-Nains ne disposent plus des populations nécessaires à de véritables royaumes. Le groupe familial devient l’unité essentielle. Une communauté peut comprendre seulement quelques familles et être organisée autour d’une unique demeure. Les tâches y sont peu spécialisées : un adulte doit souvent être à la fois artisan, chasseur, gardien, mineur et combattant.</p>\n<p>La famille possède une importance presque absolue. Chez un peuple devenu très peu nombreux, la perte d’un seul adulte expérimenté peut faire disparaître des savoirs importants. Une offense ou une blessure infligée à un parent engage rarement le seul individu concerné.</p>\n<h2>Mémoire, méfiance et secret</h2>\n<p>Les Petits-Nains possèdent une longue mémoire des torts. Exclusions anciennes, massacres, pertes familiales et trahisons peuvent rester vivants pendant plusieurs générations. Chez un peuple longévif, une querelle vieille d’un siècle peut encore avoir été racontée par un témoin direct à quelqu’un toujours vivant.</p>\n<p>Le secret constitue une protection. Passages cachés, réserves, caches alimentaires, issues secondaires et itinéraires inconnus des étrangers permettent à la communauté de survivre. Même un allié peut ne connaître qu’une partie de la demeure.</p>\n<h2>Rapport aux grandes Maisons khazâd</h2>\n<p>Les relations avec les autres Khazâd sont complexes. Les Petits-Nains descendent précisément de populations rejetées par les grandes communautés. La mémoire de cette exclusion peut produire honte, amertume, défiance ou désir de renouer. Il existe pourtant une parenté réelle : langue d’origine khazâd, vénération de Mahal et rapport profond à la pierre et au travail manuel.</p>\n<h2>Mahal et artisanat</h2>\n<p>Les Petits-Nains demeurent des enfants de <strong>Mahal</strong>. Le travail de la pierre, la fabrication d’objets et l’entretien d’une demeure conservent une dimension fondamentale. Ils disposent toutefois de beaucoup moins de ressources que les grandes Maisons.</p>\n<p>Leur artisanat est austère et efficace. Réparer, réutiliser et transformer compte autant que créer. Un morceau de métal cassé n’est pas jeté s’il peut être refondu ; une lame endommagée peut devenir un outil ; une pièce de cuir est conservée tant qu’elle peut fournir une réparation.</p>\n<h2>Pierre, mines et récupération</h2>\n<p>Ils savent agrandir une caverne, consolider un passage, dissimuler une ouverture et reconnaître les qualités d’une formation rocheuse. Leur architecture recherche moins la grandeur que la subtilité. Les exploitations minières restent modestes, adaptées aux faibles effectifs et assez discrètes pour ne pas révéler la communauté.</p>\n<p>La récupération constitue un véritable savoir culturel. Métal, bois, cuir, corde et objets abandonnés sont réemployés lorsque cela est possible. Dans une petite communauté isolée, gaspiller une ressource utile serait une faute grave.</p>\n<h2>Chasse, cueillette et herbes</h2>\n<p>Contrairement aux habitants des grandes cités khazâd, les Petits-Nains peuvent dépendre directement de la chasse et de la cueillette. Ils connaissent le gibier local, les pièges, les racines, champignons, baies et plantes utiles. Mîm est notamment associé à une connaissance des plantes, ce qui justifie une place réelle aux savoirs d’herboristerie et de soins pratiques.</p>\n<p>La nourriture est conservée avec soin : séchage, fumage et stockage permettent de traverser les périodes difficiles. La présence d’une source ou d’une réserve d’eau dissimulée joue un rôle essentiel dans le choix d’une demeure.</p>\n<h2>Vêtements et possessions</h2>\n<p>Les vêtements sont solides, simples et souvent réparés : cuir, laine grossière et tissus récupérés. Les couleurs sont peu voyantes. Les bijoux sont moins nombreux que dans les grandes cités, mais un petit objet familial peut posséder une valeur immense. Une bague, un anneau ou un fragment d’ouvrage provenant d’une demeure disparue devient presque irremplaçable.</p>\n<p>La richesse se mesure autant en nourriture, outils, eau sûre et secret qu’en métaux précieux. Le troc avec les étrangers existe, mais il se déroule volontiers dans un lieu neutre afin de ne pas révéler la demeure.</p>\n<h2>Langue et écriture</h2>\n<p>Les Petits-Nains utilisent une forme de <strong>khuzdul</strong> héritée de leurs ancêtres. Leur isolement peut produire des particularités de vocabulaire et de prononciation. Le sindarin devient utile après l’établissement durable des Elfes dans le Beleriand. Les Cirth peuvent servir aux inscriptions, aux généalogies, aux marques de propriété et à des repères volontairement discrets.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les relations avec les Sindar restent marquées par les anciennes chasses. Les Noldor sont moins directement associés à ce traumatisme, mais demeurent des Elfes et suscitent souvent la prudence. Les relations avec les Hommes peuvent aller de la coopération à l’hostilité ; l’histoire de Mîm et Túrin montre combien capture, rançon, hospitalité contrainte, rancune et trahison peuvent se mêler.</p>\n<p>Les Orcs sont des ennemis naturels dans les montagnes et cavernes. Les Petits-Nains ne servent pas par nature l’Ombre : leur amertume envers les Elfes ou les grandes Maisons n’équivaut pas à une adhésion à Morgoth.</p>\n<h2>Combat et défense</h2>\n<p>Leur faible nombre rend les pertes difficiles à remplacer. Ils évitent donc autant que possible les batailles ouvertes. Ils utilisent passages étroits, pièges, embuscades, sorties dissimulées et connaissance du terrain. Haches, marteaux, masses, pioches, dagues, épées courtes, lances courtes et armes de projectile simples leur conviennent particulièrement.</p>\n<p>Les armures lourdes sont moins fréquentes que dans les grandes Maisons. Le métal est précieux ; cuir, pièces récupérées et protections composites sont plus courants. Une véritable maille khazâd peut constituer un héritage familial exceptionnel.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil culturel favorise la <strong>Spéléologie</strong>, la <strong>Dissimulation</strong>, l’<strong>Approche furtive</strong>, le <strong>Pistage</strong>, l’<strong>Observation</strong>, la <strong>Cueillette</strong>, la <strong>Chasse</strong>, le <strong>Travail de la pierre</strong>, le <strong>Travail du métal</strong>, la <strong>Réparation</strong>, la Survie en montagne et les Herbes. Les armes courtes et les techniques adaptées aux espaces fermés ont une place correcte sans transformer les Petits-Nains en meilleurs combattants que les grandes Maisons.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Petits-Nains</strong> porte leurs différences physiologiques et leurs traits innés. La <strong>Culture Petits-Nains — Noegyth Nibin</strong> porte petites communautés, demeures secrètes, chasse, cueillette, récupération, dissimulation, mémoire des persécutions et polyvalence pratique. Cette séparation évite tout doublonnage mécanique.</p>\n<h2>Disponibilité et création de personnage</h2>\n<p>Cette Culture est limitée au <strong>Premier Âge</strong>. À l’époque de Túrin, la population est déjà presque entièrement détruite et Mîm, Ibun et Khîm appartiennent aux derniers représentants connus.</p>\n<p>Un personnage Petit-Nain doit définir sa famille, sa demeure cachée, sa relation avec les Sindar et les autres Khazâd, ainsi que la raison qui l’a poussé à quitter une communauté si fragile. Dette, vengeance, recherche d’un parent, perte du refuge ou nécessité de trouver un nouveau territoire constituent des motivations cohérentes. Chez les Noegyth Nibin, survivre est déjà une œuvre digne d’être transmise.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li><li><strong>Sindarin</strong> — Parlée 4 / Écrite 2</li><li><strong>Khuzdul</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 5
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Petits-Nains — Noegyth Nibin",
+                "system": {
+                  "description": "<h1>Petits-Nains — Noegyth Nibin</h1>\n<p>Les <strong>Petits-Nains</strong>, appelés <strong>Noegyth Nibin</strong> en sindarin, constituent une population khazâd marginale et tragique du Premier Âge. Ils descendent de Nains rejetés autrefois par leurs propres communautés, expulsés de leurs demeures et contraints de survivre loin des grandes cités souterraines. Au fil des générations, cet isolement transforma profondément leur mode de vie. Ils demeurent pleinement des Khazâd par leur origine, mais leur Culture est celle de petites communautés cachées, prudentes, polyvalentes et entièrement tournées vers la survie.</p>\n<h2>Origines</h2>\n<p>Les premiers Petits-Nains étaient des Khazâd bannis de leurs communautés. Les raisons de ces exclusions n’étaient pas nécessairement uniformes : fautes graves, ruptures d’obligations, conflits ou simple héritage d’une condition d’exilé pour les descendants des premiers bannis. Ils quittèrent progressivement les grandes demeures naines et gagnèrent l’ouest avant l’installation des principales colonies khazâd du Beleriand.</p>\n<p>Cette origine distingue leur Culture de celle des Sept Maisons. Le Petit-Nain n’est pas seulement un Nain vivant dans une région différente : il descend d’une population coupée des grandes structures politiques, artisanales et familiales qui organisent normalement la vie khazâd.</p>\n<h2>Noegyth Nibin</h2>\n<p>Le nom sindarin <strong>Noegyth Nibin</strong> signifie « Petits-Nains ». Il finit par désigner l’ensemble de leur population. Les Petits-Nains étaient moins nombreux, plus pauvres et généralement moins robustes que les populations venues ensuite de Nogrod et Belegost. Leur faible nombre et leur isolement marquèrent durablement la manière dont les autres peuples les perçurent.</p>\n<h2>Premiers habitants du Beleriand</h2>\n<p>Les Petits-Nains comptèrent parmi les premiers habitants connus de plusieurs régions du Beleriand. Ils creusèrent des demeures dans les collines et utilisèrent des cavernes naturelles comme refuges. Lorsque les Sindar commencèrent à parcourir ces terres, ils ne comprirent pas immédiatement la nature des êtres qu’ils rencontraient.</p>\n<h2>La chasse des Sindar</h2>\n<p>Les premiers Sindar prirent les Petits-Nains pour des créatures animales ou monstrueuses et les chassèrent comme du gibier. Lorsque les Elfes rencontrèrent ensuite les Nains de Nogrod et Belegost, ils comprirent que les Noegyth Nibin étaient eux aussi des êtres doués de parole et apparentés aux Khazâd ; la chasse cessa, mais la population des Petits-Nains avait déjà été gravement réduite.</p>\n<p>Cette mémoire nourrit une défiance profonde envers les Sindar. Elle ne condamne pas chaque relation individuelle à la violence, mais elle explique pourquoi la confiance envers les Elfes se construit lentement et pourquoi les offenses anciennes restent présentes dans les récits familiaux.</p>\n<h2>Une Culture de survivants</h2>\n<p>Leur organisation doit être comprise à partir de cette histoire. Ils vivent en petits groupes, dissimulent leurs demeures, évitent de révéler les entrées de leurs cavernes, observent longuement les étrangers et accumulent soigneusement les ressources. Ces comportements ne sont pas de simples traits de caractère : ils sont devenus des stratégies de survie transmises de génération en génération.</p>\n<h2>Amon Rûdh et Bar-en-Danwedh</h2>\n<p>La demeure la plus célèbre des Petits-Nains est <strong>Amon Rûdh</strong>, la Colline Chauve, habitée par Mîm et ses fils Ibun et Khîm. Sous la colline se trouvait <strong>Bar-en-Danwedh</strong>, la « Maison de la Rançon », ensemble de cavernes et de passages parfaitement connus de ses habitants.</p>\n<p>Cette demeure illustre leur architecture : sécurité, discrétion et utilisation intelligente des cavités naturelles comptent davantage que la monumentalité. Une sortie secondaire, une ouverture presque invisible ou un passage étroit peut avoir plus de valeur qu’une immense porte sculptée.</p>\n<h2>Petites communautés et famille</h2>\n<p>Les Petits-Nains ne disposent plus des populations nécessaires à de véritables royaumes. Le groupe familial devient l’unité essentielle. Une communauté peut comprendre seulement quelques familles et être organisée autour d’une unique demeure. Les tâches y sont peu spécialisées : un adulte doit souvent être à la fois artisan, chasseur, gardien, mineur et combattant.</p>\n<p>La famille possède une importance presque absolue. Chez un peuple devenu très peu nombreux, la perte d’un seul adulte expérimenté peut faire disparaître des savoirs importants. Une offense ou une blessure infligée à un parent engage rarement le seul individu concerné.</p>\n<h2>Mémoire, méfiance et secret</h2>\n<p>Les Petits-Nains possèdent une longue mémoire des torts. Exclusions anciennes, massacres, pertes familiales et trahisons peuvent rester vivants pendant plusieurs générations. Chez un peuple longévif, une querelle vieille d’un siècle peut encore avoir été racontée par un témoin direct à quelqu’un toujours vivant.</p>\n<p>Le secret constitue une protection. Passages cachés, réserves, caches alimentaires, issues secondaires et itinéraires inconnus des étrangers permettent à la communauté de survivre. Même un allié peut ne connaître qu’une partie de la demeure.</p>\n<h2>Rapport aux grandes Maisons khazâd</h2>\n<p>Les relations avec les autres Khazâd sont complexes. Les Petits-Nains descendent précisément de populations rejetées par les grandes communautés. La mémoire de cette exclusion peut produire honte, amertume, défiance ou désir de renouer. Il existe pourtant une parenté réelle : langue d’origine khazâd, vénération de Mahal et rapport profond à la pierre et au travail manuel.</p>\n<h2>Mahal et artisanat</h2>\n<p>Les Petits-Nains demeurent des enfants de <strong>Mahal</strong>. Le travail de la pierre, la fabrication d’objets et l’entretien d’une demeure conservent une dimension fondamentale. Ils disposent toutefois de beaucoup moins de ressources que les grandes Maisons.</p>\n<p>Leur artisanat est austère et efficace. Réparer, réutiliser et transformer compte autant que créer. Un morceau de métal cassé n’est pas jeté s’il peut être refondu ; une lame endommagée peut devenir un outil ; une pièce de cuir est conservée tant qu’elle peut fournir une réparation.</p>\n<h2>Pierre, mines et récupération</h2>\n<p>Ils savent agrandir une caverne, consolider un passage, dissimuler une ouverture et reconnaître les qualités d’une formation rocheuse. Leur architecture recherche moins la grandeur que la subtilité. Les exploitations minières restent modestes, adaptées aux faibles effectifs et assez discrètes pour ne pas révéler la communauté.</p>\n<p>La récupération constitue un véritable savoir culturel. Métal, bois, cuir, corde et objets abandonnés sont réemployés lorsque cela est possible. Dans une petite communauté isolée, gaspiller une ressource utile serait une faute grave.</p>\n<h2>Chasse, cueillette et herbes</h2>\n<p>Contrairement aux habitants des grandes cités khazâd, les Petits-Nains peuvent dépendre directement de la chasse et de la cueillette. Ils connaissent le gibier local, les pièges, les racines, champignons, baies et plantes utiles. Mîm est notamment associé à une connaissance des plantes, ce qui justifie une place réelle aux savoirs d’herboristerie et de soins pratiques.</p>\n<p>La nourriture est conservée avec soin : séchage, fumage et stockage permettent de traverser les périodes difficiles. La présence d’une source ou d’une réserve d’eau dissimulée joue un rôle essentiel dans le choix d’une demeure.</p>\n<h2>Vêtements et possessions</h2>\n<p>Les vêtements sont solides, simples et souvent réparés : cuir, laine grossière et tissus récupérés. Les couleurs sont peu voyantes. Les bijoux sont moins nombreux que dans les grandes cités, mais un petit objet familial peut posséder une valeur immense. Une bague, un anneau ou un fragment d’ouvrage provenant d’une demeure disparue devient presque irremplaçable.</p>\n<p>La richesse se mesure autant en nourriture, outils, eau sûre et secret qu’en métaux précieux. Le troc avec les étrangers existe, mais il se déroule volontiers dans un lieu neutre afin de ne pas révéler la demeure.</p>\n<h2>Langue et écriture</h2>\n<p>Les Petits-Nains utilisent une forme de <strong>khuzdul</strong> héritée de leurs ancêtres. Leur isolement peut produire des particularités de vocabulaire et de prononciation. Le sindarin devient utile après l’établissement durable des Elfes dans le Beleriand. Les Cirth peuvent servir aux inscriptions, aux généalogies, aux marques de propriété et à des repères volontairement discrets.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les relations avec les Sindar restent marquées par les anciennes chasses. Les Noldor sont moins directement associés à ce traumatisme, mais demeurent des Elfes et suscitent souvent la prudence. Les relations avec les Hommes peuvent aller de la coopération à l’hostilité ; l’histoire de Mîm et Túrin montre combien capture, rançon, hospitalité contrainte, rancune et trahison peuvent se mêler.</p>\n<p>Les Orcs sont des ennemis naturels dans les montagnes et cavernes. Les Petits-Nains ne servent pas par nature l’Ombre : leur amertume envers les Elfes ou les grandes Maisons n’équivaut pas à une adhésion à Morgoth.</p>\n<h2>Combat et défense</h2>\n<p>Leur faible nombre rend les pertes difficiles à remplacer. Ils évitent donc autant que possible les batailles ouvertes. Ils utilisent passages étroits, pièges, embuscades, sorties dissimulées et connaissance du terrain. Haches, marteaux, masses, pioches, dagues, épées courtes, lances courtes et armes de projectile simples leur conviennent particulièrement.</p>\n<p>Les armures lourdes sont moins fréquentes que dans les grandes Maisons. Le métal est précieux ; cuir, pièces récupérées et protections composites sont plus courants. Une véritable maille khazâd peut constituer un héritage familial exceptionnel.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil culturel favorise la <strong>Spéléologie</strong>, la <strong>Dissimulation</strong>, l’<strong>Approche furtive</strong>, le <strong>Pistage</strong>, l’<strong>Observation</strong>, la <strong>Cueillette</strong>, la <strong>Chasse</strong>, le <strong>Travail de la pierre</strong>, le <strong>Travail du métal</strong>, la <strong>Réparation</strong>, la Survie en montagne et les Herbes. Les armes courtes et les techniques adaptées aux espaces fermés ont une place correcte sans transformer les Petits-Nains en meilleurs combattants que les grandes Maisons.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Petits-Nains</strong> porte leurs différences physiologiques et leurs traits innés. La <strong>Culture Petits-Nains — Noegyth Nibin</strong> porte petites communautés, demeures secrètes, chasse, cueillette, récupération, dissimulation, mémoire des persécutions et polyvalence pratique. Cette séparation évite tout doublonnage mécanique.</p>\n<h2>Disponibilité et création de personnage</h2>\n<p>Cette Culture est limitée au <strong>Premier Âge</strong>. À l’époque de Túrin, la population est déjà presque entièrement détruite et Mîm, Ibun et Khîm appartiennent aux derniers représentants connus.</p>\n<p>Un personnage Petit-Nain doit définir sa famille, sa demeure cachée, sa relation avec les Sindar et les autres Khazâd, ainsi que la raison qui l’a poussé à quitter une communauté si fragile. Dette, vengeance, recherche d’un parent, perte du refuge ou nécessité de trouver un nouveau territoire constituent des motivations cohérentes. Chez les Noegyth Nibin, survivre est déjà une œuvre digne d’être transmise.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li><li><strong>Sindarin</strong> — Parlée 4 / Écrite 2</li><li><strong>Khuzdul</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+                  "culture": "Petits-Nains — Noegyth Nibin"
+                }
+              },
+              "en": {
+                "name": "Petty-dwarves — Noegyth Nibin",
+                "system": {
+                  "description": "<h1>Petty-dwarves — Noegyth Nibin</h1>\n<p>The <strong>Petty-dwarves</strong>, called <strong>Noegyth Nibin</strong> in Sindarin, are a marginal and tragic Khazâd population of the First Age. They descend from Dwarves once rejected by their own communities, expelled from their homes and forced to survive far from the great underground cities. Over generations, this isolation profoundly transformed their way of life. They remain fully Khazâd by origin, but their Culture is that of small, hidden, cautious, versatile communities wholly devoted to survival.</p>\n<h2>Origins</h2>\n<p>The first Petty-dwarves were Khazâd banished from their communities. The reasons for these exclusions were not necessarily uniform: serious offenses, broken obligations, conflicts, or simply inheriting an exiled status as descendants of the first outcasts. They gradually left the great Dwarven mansions and moved west before the establishment of the principal Khazâd colonies of Beleriand.</p>\n<p>This origin distinguishes their Culture from that of the Seven Houses. A Petty-dwarf is not merely a Dwarf living in a different region: he descends from a population cut off from the great political, craft, and family structures that normally organize Khazâd life.</p>\n<h2>Noegyth Nibin</h2>\n<p>The Sindarin name <strong>Noegyth Nibin</strong> means “Petty-dwarves.” It eventually came to designate their entire population. Petty-dwarves were fewer, poorer, and generally less robust than the populations that later came from Nogrod and Belegost. Their small numbers and isolation permanently shaped the way other peoples perceived them.</p>\n<h2>First inhabitants of Beleriand</h2>\n<p>Petty-dwarves were among the earliest known inhabitants of several regions of Beleriand. They dug dwellings into hills and used natural caves as refuges. When the Sindar began to range through these lands, they did not immediately understand the nature of the beings they encountered.</p>\n<h2>The Sindarin hunt</h2>\n<p>The first Sindar mistook the Petty-dwarves for animals or monstrous creatures and hunted them as game. When the Elves later encountered the Dwarves of Nogrod and Belegost, they understood that the Noegyth Nibin were also speaking beings related to the Khazâd; the hunting ceased, but the Petty-dwarf population had already been gravely reduced.</p>\n<p>This memory feeds a profound distrust of the Sindar. It does not condemn every individual relationship to violence, but it explains why trust in Elves is built slowly and why ancient offenses remain present in family stories.</p>\n<h2>A Culture of survivors</h2>\n<p>Their organization must be understood through this history. They live in small groups, conceal their dwellings, avoid revealing the entrances to their caves, observe strangers for long periods, and carefully accumulate resources. These behaviors are not mere personality traits: they have become survival strategies passed down from generation to generation.</p>\n<h2>Amon Rûdh and Bar-en-Danwedh</h2>\n<p>The most famous dwelling of the Petty-dwarves is <strong>Amon Rûdh</strong>, the Bald Hill, inhabited by Mîm and his sons Ibun and Khîm. Beneath the hill lay <strong>Bar-en-Danwedh</strong>, the “House of Ransom,” a complex of caves and passages perfectly known to its inhabitants.</p>\n<p>This dwelling illustrates their architecture: security, concealment, and intelligent use of natural cavities matter more than monumentality. A secondary exit, an almost invisible opening, or a narrow passage may be more valuable than an immense carved gate.</p>\n<h2>Small communities and family</h2>\n<p>Petty-dwarves no longer possess the populations required for true kingdoms. The family group becomes the essential unit. A community may consist of only a few families and be organized around a single dwelling. Tasks are only lightly specialized: an adult must often be craftsman, hunter, guard, miner, and fighter all at once.</p>\n<p>Family has almost absolute importance. Among a people reduced to very small numbers, the loss of a single experienced adult can erase important knowledge. An offense or injury inflicted on one relative rarely concerns that individual alone.</p>\n<h2>Memory, distrust, and secrecy</h2>\n<p>Petty-dwarves possess long memories for wrongs. Ancient expulsions, massacres, family losses, and betrayals may remain alive for several generations. Among a long-lived people, a century-old quarrel may still have been told by a direct witness to someone who remains alive.</p>\n<p>Secrecy is a form of protection. Hidden passages, stores, food caches, secondary exits, and routes unknown to strangers allow the community to survive. Even an ally may know only part of a dwelling.</p>\n<h2>Relationship with the great Khazâd Houses</h2>\n<p>Relations with other Khazâd are complex. Petty-dwarves descend precisely from populations rejected by the great communities. The memory of that exclusion can produce shame, bitterness, distrust, or a desire to reconnect. Yet true kinship remains: a language of Khazâd origin, reverence for Mahal, and a deep relationship with stone and manual craft.</p>\n<h2>Mahal and craftsmanship</h2>\n<p>Petty-dwarves remain children of <strong>Mahal</strong>. Working stone, making objects, and maintaining a dwelling retain fundamental importance. They nevertheless possess far fewer resources than the great Houses.</p>\n<p>Their craftsmanship is austere and efficient. Repairing, reusing, and transforming matter as much as creating. A broken piece of metal is not discarded if it can be remelted; a damaged blade can become a tool; a piece of leather is kept for as long as it can provide a repair.</p>\n<h2>Stone, mines, and salvage</h2>\n<p>They know how to enlarge a cave, shore up a passage, conceal an opening, and recognize the qualities of a rock formation. Their architecture seeks subtlety rather than grandeur. Mining remains modest, suited to small populations and discreet enough not to reveal the community.</p>\n<p>Salvage is a true cultural skill. Metal, wood, leather, rope, and abandoned objects are reused whenever possible. In a small isolated community, wasting a useful resource would be a serious fault.</p>\n<h2>Hunting, foraging, and herbs</h2>\n<p>Unlike inhabitants of the great Khazâd cities, Petty-dwarves may depend directly on hunting and foraging. They know local game, traps, roots, mushrooms, berries, and useful plants. Mîm in particular is associated with knowledge of plants, justifying a genuine place for Herb Lore and practical healing skills.</p>\n<p>Food is carefully preserved: drying, smoking, and storage make it possible to endure difficult periods. The presence of a spring or a concealed water reserve plays an essential role in choosing a dwelling.</p>\n<h2>Clothing and possessions</h2>\n<p>Clothing is sturdy, simple, and often repaired: leather, coarse wool, and salvaged cloth. Colors are subdued. Jewelry is less abundant than in the great cities, but a small family object may possess immense value. A ring, band, or fragment of work from a vanished dwelling becomes almost irreplaceable.</p>\n<p>Wealth is measured as much in food, tools, safe water, and secrecy as in precious metals. Barter with outsiders exists, but is preferably conducted at a neutral location so as not to reveal the dwelling.</p>\n<h2>Language and writing</h2>\n<p>Petty-dwarves use a form of <strong>Khuzdul</strong> inherited from their ancestors. Isolation may produce peculiarities of vocabulary and pronunciation. Sindarin becomes useful after the permanent settlement of Elves in Beleriand. Cirth can be used for inscriptions, genealogies, marks of ownership, and deliberately discreet signs.</p>\n<h2>Relations with other peoples</h2>\n<p>Relations with the Sindar remain marked by the ancient hunts. The Noldor are less directly associated with that trauma, but remain Elves and often inspire caution. Relations with Men can range from cooperation to hostility; the story of Mîm and Túrin shows how capture, ransom, forced hospitality, resentment, and betrayal can become intertwined.</p>\n<p>Orcs are natural enemies in mountains and caves. Petty-dwarves do not by nature serve the Shadow: bitterness toward Elves or the great Houses does not amount to allegiance to Morgoth.</p>\n<h2>Combat and defense</h2>\n<p>Their small numbers make losses difficult to replace. They therefore avoid open battles whenever possible. They use narrow passages, traps, ambushes, hidden exits, and knowledge of the terrain. Axes, hammers, maces, picks, daggers, short swords, short spears, and simple missile weapons suit them particularly well.</p>\n<p>Heavy armor is less common than among the great Houses. Metal is precious; leather, salvaged pieces, and composite protection are more common. A true suit of Khazâd mail may constitute an exceptional family heirloom.</p>\n<h2>Cultural skills</h2>\n<p>The cultural profile favors <strong>Caving</strong>, <strong>Hiding</strong>, <strong>Stalking</strong>, <strong>Tracking</strong>, <strong>Observation</strong>, <strong>Foraging</strong>, <strong>Hunting</strong>, <strong>Stoneworking</strong>, <strong>Metalworking</strong>, <strong>Repair</strong>, Mountain Survival, and Herbs. Short weapons and techniques suited to enclosed spaces have a proper place without making Petty-dwarves better fighters than the great Houses.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Petty-dwarf Race</strong> carries their physiological differences and innate traits. The <strong>Petty-dwarves — Noegyth Nibin Culture</strong> carries small communities, secret dwellings, hunting, foraging, salvage, concealment, memory of persecution, and practical versatility. This separation avoids any mechanical duplication.</p>\n<h2>Availability and character creation</h2>\n<p>This Culture is limited to the <strong>First Age</strong>. By the time of Túrin, the population is already almost entirely destroyed, and Mîm, Ibun, and Khîm belong to the last known representatives.</p>\n<p>A Petty-dwarf character should define his family, hidden dwelling, relationship with the Sindar and other Khazâd, and the reason that drove him to leave such a fragile community. Debt, revenge, the search for a relative, loss of the refuge, or the need to find new territory are all appropriate motivations. Among the Noegyth Nibin, merely surviving is already a deed worthy of being handed down.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li><li><strong>Sindarin</strong> — Spoken 4 / Written 2</li><li><strong>Khuzdul</strong> — Spoken 8 / Written 6</li></ul></section>",
+                  "culture": "Petty-dwarves — Noegyth Nibin"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Petits-Nains — Noegyth Nibin",
+      "description": "<h1>Petits-Nains — Noegyth Nibin</h1>\n<p>Les <strong>Petits-Nains</strong>, appelés <strong>Noegyth Nibin</strong> en sindarin, constituent une population khazâd marginale et tragique du Premier Âge. Ils descendent de Nains rejetés autrefois par leurs propres communautés, expulsés de leurs demeures et contraints de survivre loin des grandes cités souterraines. Au fil des générations, cet isolement transforma profondément leur mode de vie. Ils demeurent pleinement des Khazâd par leur origine, mais leur Culture est celle de petites communautés cachées, prudentes, polyvalentes et entièrement tournées vers la survie.</p>\n<h2>Origines</h2>\n<p>Les premiers Petits-Nains étaient des Khazâd bannis de leurs communautés. Les raisons de ces exclusions n’étaient pas nécessairement uniformes : fautes graves, ruptures d’obligations, conflits ou simple héritage d’une condition d’exilé pour les descendants des premiers bannis. Ils quittèrent progressivement les grandes demeures naines et gagnèrent l’ouest avant l’installation des principales colonies khazâd du Beleriand.</p>\n<p>Cette origine distingue leur Culture de celle des Sept Maisons. Le Petit-Nain n’est pas seulement un Nain vivant dans une région différente : il descend d’une population coupée des grandes structures politiques, artisanales et familiales qui organisent normalement la vie khazâd.</p>\n<h2>Noegyth Nibin</h2>\n<p>Le nom sindarin <strong>Noegyth Nibin</strong> signifie « Petits-Nains ». Il finit par désigner l’ensemble de leur population. Les Petits-Nains étaient moins nombreux, plus pauvres et généralement moins robustes que les populations venues ensuite de Nogrod et Belegost. Leur faible nombre et leur isolement marquèrent durablement la manière dont les autres peuples les perçurent.</p>\n<h2>Premiers habitants du Beleriand</h2>\n<p>Les Petits-Nains comptèrent parmi les premiers habitants connus de plusieurs régions du Beleriand. Ils creusèrent des demeures dans les collines et utilisèrent des cavernes naturelles comme refuges. Lorsque les Sindar commencèrent à parcourir ces terres, ils ne comprirent pas immédiatement la nature des êtres qu’ils rencontraient.</p>\n<h2>La chasse des Sindar</h2>\n<p>Les premiers Sindar prirent les Petits-Nains pour des créatures animales ou monstrueuses et les chassèrent comme du gibier. Lorsque les Elfes rencontrèrent ensuite les Nains de Nogrod et Belegost, ils comprirent que les Noegyth Nibin étaient eux aussi des êtres doués de parole et apparentés aux Khazâd ; la chasse cessa, mais la population des Petits-Nains avait déjà été gravement réduite.</p>\n<p>Cette mémoire nourrit une défiance profonde envers les Sindar. Elle ne condamne pas chaque relation individuelle à la violence, mais elle explique pourquoi la confiance envers les Elfes se construit lentement et pourquoi les offenses anciennes restent présentes dans les récits familiaux.</p>\n<h2>Une Culture de survivants</h2>\n<p>Leur organisation doit être comprise à partir de cette histoire. Ils vivent en petits groupes, dissimulent leurs demeures, évitent de révéler les entrées de leurs cavernes, observent longuement les étrangers et accumulent soigneusement les ressources. Ces comportements ne sont pas de simples traits de caractère : ils sont devenus des stratégies de survie transmises de génération en génération.</p>\n<h2>Amon Rûdh et Bar-en-Danwedh</h2>\n<p>La demeure la plus célèbre des Petits-Nains est <strong>Amon Rûdh</strong>, la Colline Chauve, habitée par Mîm et ses fils Ibun et Khîm. Sous la colline se trouvait <strong>Bar-en-Danwedh</strong>, la « Maison de la Rançon », ensemble de cavernes et de passages parfaitement connus de ses habitants.</p>\n<p>Cette demeure illustre leur architecture : sécurité, discrétion et utilisation intelligente des cavités naturelles comptent davantage que la monumentalité. Une sortie secondaire, une ouverture presque invisible ou un passage étroit peut avoir plus de valeur qu’une immense porte sculptée.</p>\n<h2>Petites communautés et famille</h2>\n<p>Les Petits-Nains ne disposent plus des populations nécessaires à de véritables royaumes. Le groupe familial devient l’unité essentielle. Une communauté peut comprendre seulement quelques familles et être organisée autour d’une unique demeure. Les tâches y sont peu spécialisées : un adulte doit souvent être à la fois artisan, chasseur, gardien, mineur et combattant.</p>\n<p>La famille possède une importance presque absolue. Chez un peuple devenu très peu nombreux, la perte d’un seul adulte expérimenté peut faire disparaître des savoirs importants. Une offense ou une blessure infligée à un parent engage rarement le seul individu concerné.</p>\n<h2>Mémoire, méfiance et secret</h2>\n<p>Les Petits-Nains possèdent une longue mémoire des torts. Exclusions anciennes, massacres, pertes familiales et trahisons peuvent rester vivants pendant plusieurs générations. Chez un peuple longévif, une querelle vieille d’un siècle peut encore avoir été racontée par un témoin direct à quelqu’un toujours vivant.</p>\n<p>Le secret constitue une protection. Passages cachés, réserves, caches alimentaires, issues secondaires et itinéraires inconnus des étrangers permettent à la communauté de survivre. Même un allié peut ne connaître qu’une partie de la demeure.</p>\n<h2>Rapport aux grandes Maisons khazâd</h2>\n<p>Les relations avec les autres Khazâd sont complexes. Les Petits-Nains descendent précisément de populations rejetées par les grandes communautés. La mémoire de cette exclusion peut produire honte, amertume, défiance ou désir de renouer. Il existe pourtant une parenté réelle : langue d’origine khazâd, vénération de Mahal et rapport profond à la pierre et au travail manuel.</p>\n<h2>Mahal et artisanat</h2>\n<p>Les Petits-Nains demeurent des enfants de <strong>Mahal</strong>. Le travail de la pierre, la fabrication d’objets et l’entretien d’une demeure conservent une dimension fondamentale. Ils disposent toutefois de beaucoup moins de ressources que les grandes Maisons.</p>\n<p>Leur artisanat est austère et efficace. Réparer, réutiliser et transformer compte autant que créer. Un morceau de métal cassé n’est pas jeté s’il peut être refondu ; une lame endommagée peut devenir un outil ; une pièce de cuir est conservée tant qu’elle peut fournir une réparation.</p>\n<h2>Pierre, mines et récupération</h2>\n<p>Ils savent agrandir une caverne, consolider un passage, dissimuler une ouverture et reconnaître les qualités d’une formation rocheuse. Leur architecture recherche moins la grandeur que la subtilité. Les exploitations minières restent modestes, adaptées aux faibles effectifs et assez discrètes pour ne pas révéler la communauté.</p>\n<p>La récupération constitue un véritable savoir culturel. Métal, bois, cuir, corde et objets abandonnés sont réemployés lorsque cela est possible. Dans une petite communauté isolée, gaspiller une ressource utile serait une faute grave.</p>\n<h2>Chasse, cueillette et herbes</h2>\n<p>Contrairement aux habitants des grandes cités khazâd, les Petits-Nains peuvent dépendre directement de la chasse et de la cueillette. Ils connaissent le gibier local, les pièges, les racines, champignons, baies et plantes utiles. Mîm est notamment associé à une connaissance des plantes, ce qui justifie une place réelle aux savoirs d’herboristerie et de soins pratiques.</p>\n<p>La nourriture est conservée avec soin : séchage, fumage et stockage permettent de traverser les périodes difficiles. La présence d’une source ou d’une réserve d’eau dissimulée joue un rôle essentiel dans le choix d’une demeure.</p>\n<h2>Vêtements et possessions</h2>\n<p>Les vêtements sont solides, simples et souvent réparés : cuir, laine grossière et tissus récupérés. Les couleurs sont peu voyantes. Les bijoux sont moins nombreux que dans les grandes cités, mais un petit objet familial peut posséder une valeur immense. Une bague, un anneau ou un fragment d’ouvrage provenant d’une demeure disparue devient presque irremplaçable.</p>\n<p>La richesse se mesure autant en nourriture, outils, eau sûre et secret qu’en métaux précieux. Le troc avec les étrangers existe, mais il se déroule volontiers dans un lieu neutre afin de ne pas révéler la demeure.</p>\n<h2>Langue et écriture</h2>\n<p>Les Petits-Nains utilisent une forme de <strong>khuzdul</strong> héritée de leurs ancêtres. Leur isolement peut produire des particularités de vocabulaire et de prononciation. Le sindarin devient utile après l’établissement durable des Elfes dans le Beleriand. Les Cirth peuvent servir aux inscriptions, aux généalogies, aux marques de propriété et à des repères volontairement discrets.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les relations avec les Sindar restent marquées par les anciennes chasses. Les Noldor sont moins directement associés à ce traumatisme, mais demeurent des Elfes et suscitent souvent la prudence. Les relations avec les Hommes peuvent aller de la coopération à l’hostilité ; l’histoire de Mîm et Túrin montre combien capture, rançon, hospitalité contrainte, rancune et trahison peuvent se mêler.</p>\n<p>Les Orcs sont des ennemis naturels dans les montagnes et cavernes. Les Petits-Nains ne servent pas par nature l’Ombre : leur amertume envers les Elfes ou les grandes Maisons n’équivaut pas à une adhésion à Morgoth.</p>\n<h2>Combat et défense</h2>\n<p>Leur faible nombre rend les pertes difficiles à remplacer. Ils évitent donc autant que possible les batailles ouvertes. Ils utilisent passages étroits, pièges, embuscades, sorties dissimulées et connaissance du terrain. Haches, marteaux, masses, pioches, dagues, épées courtes, lances courtes et armes de projectile simples leur conviennent particulièrement.</p>\n<p>Les armures lourdes sont moins fréquentes que dans les grandes Maisons. Le métal est précieux ; cuir, pièces récupérées et protections composites sont plus courants. Une véritable maille khazâd peut constituer un héritage familial exceptionnel.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil culturel favorise la <strong>Spéléologie</strong>, la <strong>Dissimulation</strong>, l’<strong>Approche furtive</strong>, le <strong>Pistage</strong>, l’<strong>Observation</strong>, la <strong>Cueillette</strong>, la <strong>Chasse</strong>, le <strong>Travail de la pierre</strong>, le <strong>Travail du métal</strong>, la <strong>Réparation</strong>, la Survie en montagne et les Herbes. Les armes courtes et les techniques adaptées aux espaces fermés ont une place correcte sans transformer les Petits-Nains en meilleurs combattants que les grandes Maisons.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Petits-Nains</strong> porte leurs différences physiologiques et leurs traits innés. La <strong>Culture Petits-Nains — Noegyth Nibin</strong> porte petites communautés, demeures secrètes, chasse, cueillette, récupération, dissimulation, mémoire des persécutions et polyvalence pratique. Cette séparation évite tout doublonnage mécanique.</p>\n<h2>Disponibilité et création de personnage</h2>\n<p>Cette Culture est limitée au <strong>Premier Âge</strong>. À l’époque de Túrin, la population est déjà presque entièrement détruite et Mîm, Ibun et Khîm appartiennent aux derniers représentants connus.</p>\n<p>Un personnage Petit-Nain doit définir sa famille, sa demeure cachée, sa relation avec les Sindar et les autres Khazâd, ainsi que la raison qui l’a poussé à quitter une communauté si fragile. Dette, vengeance, recherche d’un parent, perte du refuge ou nécessité de trouver un nouveau territoire constituent des motivations cohérentes. Chez les Noegyth Nibin, survivre est déjà une œuvre digne d’être transmise.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li><li><strong>Sindarin</strong> — Parlée 4 / Écrite 2</li><li><strong>Khuzdul</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Underground",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 8,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 6
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 5
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Petits-Nains — Noegyth Nibin",
+      "system": {
+        "description": "<h1>Petits-Nains — Noegyth Nibin</h1>\n<p>Les <strong>Petits-Nains</strong>, appelés <strong>Noegyth Nibin</strong> en sindarin, constituent une population khazâd marginale et tragique du Premier Âge. Ils descendent de Nains rejetés autrefois par leurs propres communautés, expulsés de leurs demeures et contraints de survivre loin des grandes cités souterraines. Au fil des générations, cet isolement transforma profondément leur mode de vie. Ils demeurent pleinement des Khazâd par leur origine, mais leur Culture est celle de petites communautés cachées, prudentes, polyvalentes et entièrement tournées vers la survie.</p>\n<h2>Origines</h2>\n<p>Les premiers Petits-Nains étaient des Khazâd bannis de leurs communautés. Les raisons de ces exclusions n’étaient pas nécessairement uniformes : fautes graves, ruptures d’obligations, conflits ou simple héritage d’une condition d’exilé pour les descendants des premiers bannis. Ils quittèrent progressivement les grandes demeures naines et gagnèrent l’ouest avant l’installation des principales colonies khazâd du Beleriand.</p>\n<p>Cette origine distingue leur Culture de celle des Sept Maisons. Le Petit-Nain n’est pas seulement un Nain vivant dans une région différente : il descend d’une population coupée des grandes structures politiques, artisanales et familiales qui organisent normalement la vie khazâd.</p>\n<h2>Noegyth Nibin</h2>\n<p>Le nom sindarin <strong>Noegyth Nibin</strong> signifie « Petits-Nains ». Il finit par désigner l’ensemble de leur population. Les Petits-Nains étaient moins nombreux, plus pauvres et généralement moins robustes que les populations venues ensuite de Nogrod et Belegost. Leur faible nombre et leur isolement marquèrent durablement la manière dont les autres peuples les perçurent.</p>\n<h2>Premiers habitants du Beleriand</h2>\n<p>Les Petits-Nains comptèrent parmi les premiers habitants connus de plusieurs régions du Beleriand. Ils creusèrent des demeures dans les collines et utilisèrent des cavernes naturelles comme refuges. Lorsque les Sindar commencèrent à parcourir ces terres, ils ne comprirent pas immédiatement la nature des êtres qu’ils rencontraient.</p>\n<h2>La chasse des Sindar</h2>\n<p>Les premiers Sindar prirent les Petits-Nains pour des créatures animales ou monstrueuses et les chassèrent comme du gibier. Lorsque les Elfes rencontrèrent ensuite les Nains de Nogrod et Belegost, ils comprirent que les Noegyth Nibin étaient eux aussi des êtres doués de parole et apparentés aux Khazâd ; la chasse cessa, mais la population des Petits-Nains avait déjà été gravement réduite.</p>\n<p>Cette mémoire nourrit une défiance profonde envers les Sindar. Elle ne condamne pas chaque relation individuelle à la violence, mais elle explique pourquoi la confiance envers les Elfes se construit lentement et pourquoi les offenses anciennes restent présentes dans les récits familiaux.</p>\n<h2>Une Culture de survivants</h2>\n<p>Leur organisation doit être comprise à partir de cette histoire. Ils vivent en petits groupes, dissimulent leurs demeures, évitent de révéler les entrées de leurs cavernes, observent longuement les étrangers et accumulent soigneusement les ressources. Ces comportements ne sont pas de simples traits de caractère : ils sont devenus des stratégies de survie transmises de génération en génération.</p>\n<h2>Amon Rûdh et Bar-en-Danwedh</h2>\n<p>La demeure la plus célèbre des Petits-Nains est <strong>Amon Rûdh</strong>, la Colline Chauve, habitée par Mîm et ses fils Ibun et Khîm. Sous la colline se trouvait <strong>Bar-en-Danwedh</strong>, la « Maison de la Rançon », ensemble de cavernes et de passages parfaitement connus de ses habitants.</p>\n<p>Cette demeure illustre leur architecture : sécurité, discrétion et utilisation intelligente des cavités naturelles comptent davantage que la monumentalité. Une sortie secondaire, une ouverture presque invisible ou un passage étroit peut avoir plus de valeur qu’une immense porte sculptée.</p>\n<h2>Petites communautés et famille</h2>\n<p>Les Petits-Nains ne disposent plus des populations nécessaires à de véritables royaumes. Le groupe familial devient l’unité essentielle. Une communauté peut comprendre seulement quelques familles et être organisée autour d’une unique demeure. Les tâches y sont peu spécialisées : un adulte doit souvent être à la fois artisan, chasseur, gardien, mineur et combattant.</p>\n<p>La famille possède une importance presque absolue. Chez un peuple devenu très peu nombreux, la perte d’un seul adulte expérimenté peut faire disparaître des savoirs importants. Une offense ou une blessure infligée à un parent engage rarement le seul individu concerné.</p>\n<h2>Mémoire, méfiance et secret</h2>\n<p>Les Petits-Nains possèdent une longue mémoire des torts. Exclusions anciennes, massacres, pertes familiales et trahisons peuvent rester vivants pendant plusieurs générations. Chez un peuple longévif, une querelle vieille d’un siècle peut encore avoir été racontée par un témoin direct à quelqu’un toujours vivant.</p>\n<p>Le secret constitue une protection. Passages cachés, réserves, caches alimentaires, issues secondaires et itinéraires inconnus des étrangers permettent à la communauté de survivre. Même un allié peut ne connaître qu’une partie de la demeure.</p>\n<h2>Rapport aux grandes Maisons khazâd</h2>\n<p>Les relations avec les autres Khazâd sont complexes. Les Petits-Nains descendent précisément de populations rejetées par les grandes communautés. La mémoire de cette exclusion peut produire honte, amertume, défiance ou désir de renouer. Il existe pourtant une parenté réelle : langue d’origine khazâd, vénération de Mahal et rapport profond à la pierre et au travail manuel.</p>\n<h2>Mahal et artisanat</h2>\n<p>Les Petits-Nains demeurent des enfants de <strong>Mahal</strong>. Le travail de la pierre, la fabrication d’objets et l’entretien d’une demeure conservent une dimension fondamentale. Ils disposent toutefois de beaucoup moins de ressources que les grandes Maisons.</p>\n<p>Leur artisanat est austère et efficace. Réparer, réutiliser et transformer compte autant que créer. Un morceau de métal cassé n’est pas jeté s’il peut être refondu ; une lame endommagée peut devenir un outil ; une pièce de cuir est conservée tant qu’elle peut fournir une réparation.</p>\n<h2>Pierre, mines et récupération</h2>\n<p>Ils savent agrandir une caverne, consolider un passage, dissimuler une ouverture et reconnaître les qualités d’une formation rocheuse. Leur architecture recherche moins la grandeur que la subtilité. Les exploitations minières restent modestes, adaptées aux faibles effectifs et assez discrètes pour ne pas révéler la communauté.</p>\n<p>La récupération constitue un véritable savoir culturel. Métal, bois, cuir, corde et objets abandonnés sont réemployés lorsque cela est possible. Dans une petite communauté isolée, gaspiller une ressource utile serait une faute grave.</p>\n<h2>Chasse, cueillette et herbes</h2>\n<p>Contrairement aux habitants des grandes cités khazâd, les Petits-Nains peuvent dépendre directement de la chasse et de la cueillette. Ils connaissent le gibier local, les pièges, les racines, champignons, baies et plantes utiles. Mîm est notamment associé à une connaissance des plantes, ce qui justifie une place réelle aux savoirs d’herboristerie et de soins pratiques.</p>\n<p>La nourriture est conservée avec soin : séchage, fumage et stockage permettent de traverser les périodes difficiles. La présence d’une source ou d’une réserve d’eau dissimulée joue un rôle essentiel dans le choix d’une demeure.</p>\n<h2>Vêtements et possessions</h2>\n<p>Les vêtements sont solides, simples et souvent réparés : cuir, laine grossière et tissus récupérés. Les couleurs sont peu voyantes. Les bijoux sont moins nombreux que dans les grandes cités, mais un petit objet familial peut posséder une valeur immense. Une bague, un anneau ou un fragment d’ouvrage provenant d’une demeure disparue devient presque irremplaçable.</p>\n<p>La richesse se mesure autant en nourriture, outils, eau sûre et secret qu’en métaux précieux. Le troc avec les étrangers existe, mais il se déroule volontiers dans un lieu neutre afin de ne pas révéler la demeure.</p>\n<h2>Langue et écriture</h2>\n<p>Les Petits-Nains utilisent une forme de <strong>khuzdul</strong> héritée de leurs ancêtres. Leur isolement peut produire des particularités de vocabulaire et de prononciation. Le sindarin devient utile après l’établissement durable des Elfes dans le Beleriand. Les Cirth peuvent servir aux inscriptions, aux généalogies, aux marques de propriété et à des repères volontairement discrets.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les relations avec les Sindar restent marquées par les anciennes chasses. Les Noldor sont moins directement associés à ce traumatisme, mais demeurent des Elfes et suscitent souvent la prudence. Les relations avec les Hommes peuvent aller de la coopération à l’hostilité ; l’histoire de Mîm et Túrin montre combien capture, rançon, hospitalité contrainte, rancune et trahison peuvent se mêler.</p>\n<p>Les Orcs sont des ennemis naturels dans les montagnes et cavernes. Les Petits-Nains ne servent pas par nature l’Ombre : leur amertume envers les Elfes ou les grandes Maisons n’équivaut pas à une adhésion à Morgoth.</p>\n<h2>Combat et défense</h2>\n<p>Leur faible nombre rend les pertes difficiles à remplacer. Ils évitent donc autant que possible les batailles ouvertes. Ils utilisent passages étroits, pièges, embuscades, sorties dissimulées et connaissance du terrain. Haches, marteaux, masses, pioches, dagues, épées courtes, lances courtes et armes de projectile simples leur conviennent particulièrement.</p>\n<p>Les armures lourdes sont moins fréquentes que dans les grandes Maisons. Le métal est précieux ; cuir, pièces récupérées et protections composites sont plus courants. Une véritable maille khazâd peut constituer un héritage familial exceptionnel.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil culturel favorise la <strong>Spéléologie</strong>, la <strong>Dissimulation</strong>, l’<strong>Approche furtive</strong>, le <strong>Pistage</strong>, l’<strong>Observation</strong>, la <strong>Cueillette</strong>, la <strong>Chasse</strong>, le <strong>Travail de la pierre</strong>, le <strong>Travail du métal</strong>, la <strong>Réparation</strong>, la Survie en montagne et les Herbes. Les armes courtes et les techniques adaptées aux espaces fermés ont une place correcte sans transformer les Petits-Nains en meilleurs combattants que les grandes Maisons.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Petits-Nains</strong> porte leurs différences physiologiques et leurs traits innés. La <strong>Culture Petits-Nains — Noegyth Nibin</strong> porte petites communautés, demeures secrètes, chasse, cueillette, récupération, dissimulation, mémoire des persécutions et polyvalence pratique. Cette séparation évite tout doublonnage mécanique.</p>\n<h2>Disponibilité et création de personnage</h2>\n<p>Cette Culture est limitée au <strong>Premier Âge</strong>. À l’époque de Túrin, la population est déjà presque entièrement détruite et Mîm, Ibun et Khîm appartiennent aux derniers représentants connus.</p>\n<p>Un personnage Petit-Nain doit définir sa famille, sa demeure cachée, sa relation avec les Sindar et les autres Khazâd, ainsi que la raison qui l’a poussé à quitter une communauté si fragile. Dette, vengeance, recherche d’un parent, perte du refuge ou nécessité de trouver un nouveau territoire constituent des motivations cohérentes. Chez les Noegyth Nibin, survivre est déjà une œuvre digne d’être transmise.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li><li><strong>Sindarin</strong> — Parlée 4 / Écrite 2</li><li><strong>Khuzdul</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+        "culture": "Petits-Nains — Noegyth Nibin"
+      }
+    },
+    "en": {
+      "name": "Petty-dwarves — Noegyth Nibin",
+      "system": {
+        "description": "<h1>Petty-dwarves — Noegyth Nibin</h1>\n<p>The <strong>Petty-dwarves</strong>, called <strong>Noegyth Nibin</strong> in Sindarin, are a marginal and tragic Khazâd population of the First Age. They descend from Dwarves once rejected by their own communities, expelled from their homes and forced to survive far from the great underground cities. Over generations, this isolation profoundly transformed their way of life. They remain fully Khazâd by origin, but their Culture is that of small, hidden, cautious, versatile communities wholly devoted to survival.</p>\n<h2>Origins</h2>\n<p>The first Petty-dwarves were Khazâd banished from their communities. The reasons for these exclusions were not necessarily uniform: serious offenses, broken obligations, conflicts, or simply inheriting an exiled status as descendants of the first outcasts. They gradually left the great Dwarven mansions and moved west before the establishment of the principal Khazâd colonies of Beleriand.</p>\n<p>This origin distinguishes their Culture from that of the Seven Houses. A Petty-dwarf is not merely a Dwarf living in a different region: he descends from a population cut off from the great political, craft, and family structures that normally organize Khazâd life.</p>\n<h2>Noegyth Nibin</h2>\n<p>The Sindarin name <strong>Noegyth Nibin</strong> means “Petty-dwarves.” It eventually came to designate their entire population. Petty-dwarves were fewer, poorer, and generally less robust than the populations that later came from Nogrod and Belegost. Their small numbers and isolation permanently shaped the way other peoples perceived them.</p>\n<h2>First inhabitants of Beleriand</h2>\n<p>Petty-dwarves were among the earliest known inhabitants of several regions of Beleriand. They dug dwellings into hills and used natural caves as refuges. When the Sindar began to range through these lands, they did not immediately understand the nature of the beings they encountered.</p>\n<h2>The Sindarin hunt</h2>\n<p>The first Sindar mistook the Petty-dwarves for animals or monstrous creatures and hunted them as game. When the Elves later encountered the Dwarves of Nogrod and Belegost, they understood that the Noegyth Nibin were also speaking beings related to the Khazâd; the hunting ceased, but the Petty-dwarf population had already been gravely reduced.</p>\n<p>This memory feeds a profound distrust of the Sindar. It does not condemn every individual relationship to violence, but it explains why trust in Elves is built slowly and why ancient offenses remain present in family stories.</p>\n<h2>A Culture of survivors</h2>\n<p>Their organization must be understood through this history. They live in small groups, conceal their dwellings, avoid revealing the entrances to their caves, observe strangers for long periods, and carefully accumulate resources. These behaviors are not mere personality traits: they have become survival strategies passed down from generation to generation.</p>\n<h2>Amon Rûdh and Bar-en-Danwedh</h2>\n<p>The most famous dwelling of the Petty-dwarves is <strong>Amon Rûdh</strong>, the Bald Hill, inhabited by Mîm and his sons Ibun and Khîm. Beneath the hill lay <strong>Bar-en-Danwedh</strong>, the “House of Ransom,” a complex of caves and passages perfectly known to its inhabitants.</p>\n<p>This dwelling illustrates their architecture: security, concealment, and intelligent use of natural cavities matter more than monumentality. A secondary exit, an almost invisible opening, or a narrow passage may be more valuable than an immense carved gate.</p>\n<h2>Small communities and family</h2>\n<p>Petty-dwarves no longer possess the populations required for true kingdoms. The family group becomes the essential unit. A community may consist of only a few families and be organized around a single dwelling. Tasks are only lightly specialized: an adult must often be craftsman, hunter, guard, miner, and fighter all at once.</p>\n<p>Family has almost absolute importance. Among a people reduced to very small numbers, the loss of a single experienced adult can erase important knowledge. An offense or injury inflicted on one relative rarely concerns that individual alone.</p>\n<h2>Memory, distrust, and secrecy</h2>\n<p>Petty-dwarves possess long memories for wrongs. Ancient expulsions, massacres, family losses, and betrayals may remain alive for several generations. Among a long-lived people, a century-old quarrel may still have been told by a direct witness to someone who remains alive.</p>\n<p>Secrecy is a form of protection. Hidden passages, stores, food caches, secondary exits, and routes unknown to strangers allow the community to survive. Even an ally may know only part of a dwelling.</p>\n<h2>Relationship with the great Khazâd Houses</h2>\n<p>Relations with other Khazâd are complex. Petty-dwarves descend precisely from populations rejected by the great communities. The memory of that exclusion can produce shame, bitterness, distrust, or a desire to reconnect. Yet true kinship remains: a language of Khazâd origin, reverence for Mahal, and a deep relationship with stone and manual craft.</p>\n<h2>Mahal and craftsmanship</h2>\n<p>Petty-dwarves remain children of <strong>Mahal</strong>. Working stone, making objects, and maintaining a dwelling retain fundamental importance. They nevertheless possess far fewer resources than the great Houses.</p>\n<p>Their craftsmanship is austere and efficient. Repairing, reusing, and transforming matter as much as creating. A broken piece of metal is not discarded if it can be remelted; a damaged blade can become a tool; a piece of leather is kept for as long as it can provide a repair.</p>\n<h2>Stone, mines, and salvage</h2>\n<p>They know how to enlarge a cave, shore up a passage, conceal an opening, and recognize the qualities of a rock formation. Their architecture seeks subtlety rather than grandeur. Mining remains modest, suited to small populations and discreet enough not to reveal the community.</p>\n<p>Salvage is a true cultural skill. Metal, wood, leather, rope, and abandoned objects are reused whenever possible. In a small isolated community, wasting a useful resource would be a serious fault.</p>\n<h2>Hunting, foraging, and herbs</h2>\n<p>Unlike inhabitants of the great Khazâd cities, Petty-dwarves may depend directly on hunting and foraging. They know local game, traps, roots, mushrooms, berries, and useful plants. Mîm in particular is associated with knowledge of plants, justifying a genuine place for Herb Lore and practical healing skills.</p>\n<p>Food is carefully preserved: drying, smoking, and storage make it possible to endure difficult periods. The presence of a spring or a concealed water reserve plays an essential role in choosing a dwelling.</p>\n<h2>Clothing and possessions</h2>\n<p>Clothing is sturdy, simple, and often repaired: leather, coarse wool, and salvaged cloth. Colors are subdued. Jewelry is less abundant than in the great cities, but a small family object may possess immense value. A ring, band, or fragment of work from a vanished dwelling becomes almost irreplaceable.</p>\n<p>Wealth is measured as much in food, tools, safe water, and secrecy as in precious metals. Barter with outsiders exists, but is preferably conducted at a neutral location so as not to reveal the dwelling.</p>\n<h2>Language and writing</h2>\n<p>Petty-dwarves use a form of <strong>Khuzdul</strong> inherited from their ancestors. Isolation may produce peculiarities of vocabulary and pronunciation. Sindarin becomes useful after the permanent settlement of Elves in Beleriand. Cirth can be used for inscriptions, genealogies, marks of ownership, and deliberately discreet signs.</p>\n<h2>Relations with other peoples</h2>\n<p>Relations with the Sindar remain marked by the ancient hunts. The Noldor are less directly associated with that trauma, but remain Elves and often inspire caution. Relations with Men can range from cooperation to hostility; the story of Mîm and Túrin shows how capture, ransom, forced hospitality, resentment, and betrayal can become intertwined.</p>\n<p>Orcs are natural enemies in mountains and caves. Petty-dwarves do not by nature serve the Shadow: bitterness toward Elves or the great Houses does not amount to allegiance to Morgoth.</p>\n<h2>Combat and defense</h2>\n<p>Their small numbers make losses difficult to replace. They therefore avoid open battles whenever possible. They use narrow passages, traps, ambushes, hidden exits, and knowledge of the terrain. Axes, hammers, maces, picks, daggers, short swords, short spears, and simple missile weapons suit them particularly well.</p>\n<p>Heavy armor is less common than among the great Houses. Metal is precious; leather, salvaged pieces, and composite protection are more common. A true suit of Khazâd mail may constitute an exceptional family heirloom.</p>\n<h2>Cultural skills</h2>\n<p>The cultural profile favors <strong>Caving</strong>, <strong>Hiding</strong>, <strong>Stalking</strong>, <strong>Tracking</strong>, <strong>Observation</strong>, <strong>Foraging</strong>, <strong>Hunting</strong>, <strong>Stoneworking</strong>, <strong>Metalworking</strong>, <strong>Repair</strong>, Mountain Survival, and Herbs. Short weapons and techniques suited to enclosed spaces have a proper place without making Petty-dwarves better fighters than the great Houses.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Petty-dwarf Race</strong> carries their physiological differences and innate traits. The <strong>Petty-dwarves — Noegyth Nibin Culture</strong> carries small communities, secret dwellings, hunting, foraging, salvage, concealment, memory of persecution, and practical versatility. This separation avoids any mechanical duplication.</p>\n<h2>Availability and character creation</h2>\n<p>This Culture is limited to the <strong>First Age</strong>. By the time of Túrin, the population is already almost entirely destroyed, and Mîm, Ibun, and Khîm belong to the last known representatives.</p>\n<p>A Petty-dwarf character should define his family, hidden dwelling, relationship with the Sindar and other Khazâd, and the reason that drove him to leave such a fragile community. Debt, revenge, the search for a relative, loss of the refuge, or the need to find new territory are all appropriate motivations. Among the Noegyth Nibin, merely surviving is already a deed worthy of being handed down.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li><li><strong>Sindarin</strong> — Spoken 4 / Written 2</li><li><strong>Khuzdul</strong> — Spoken 8 / Written 6</li></ul></section>",
+        "culture": "Petty-dwarves — Noegyth Nibin"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-petty-dwarves-age-1",
+      "folderKey": "cultures-age-1-restricted",
+      "document": {
+        "name": "Petits-Nains — Noegyth Nibin",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-petty-dwarves-age-1",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-petty-dwarves-age-1",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Westron",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Sindarin",
+                  "spoken": 4,
+                  "written": 2,
+                  "nameFr": "Sindarin"
+                },
+                {
+                  "name": "Khuzdul",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Khuzdul"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-petty-dwarves",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-petty-dwarves"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Petits-Nains — Noegyth Nibin",
+          "description": "<h1>Petits-Nains — Noegyth Nibin</h1>\n<p>Les <strong>Petits-Nains</strong>, appelés <strong>Noegyth Nibin</strong> en sindarin, constituent une population khazâd marginale et tragique du Premier Âge. Ils descendent de Nains rejetés autrefois par leurs propres communautés, expulsés de leurs demeures et contraints de survivre loin des grandes cités souterraines. Au fil des générations, cet isolement transforma profondément leur mode de vie. Ils demeurent pleinement des Khazâd par leur origine, mais leur Culture est celle de petites communautés cachées, prudentes, polyvalentes et entièrement tournées vers la survie.</p>\n<h2>Origines</h2>\n<p>Les premiers Petits-Nains étaient des Khazâd bannis de leurs communautés. Les raisons de ces exclusions n’étaient pas nécessairement uniformes : fautes graves, ruptures d’obligations, conflits ou simple héritage d’une condition d’exilé pour les descendants des premiers bannis. Ils quittèrent progressivement les grandes demeures naines et gagnèrent l’ouest avant l’installation des principales colonies khazâd du Beleriand.</p>\n<p>Cette origine distingue leur Culture de celle des Sept Maisons. Le Petit-Nain n’est pas seulement un Nain vivant dans une région différente : il descend d’une population coupée des grandes structures politiques, artisanales et familiales qui organisent normalement la vie khazâd.</p>\n<h2>Noegyth Nibin</h2>\n<p>Le nom sindarin <strong>Noegyth Nibin</strong> signifie « Petits-Nains ». Il finit par désigner l’ensemble de leur population. Les Petits-Nains étaient moins nombreux, plus pauvres et généralement moins robustes que les populations venues ensuite de Nogrod et Belegost. Leur faible nombre et leur isolement marquèrent durablement la manière dont les autres peuples les perçurent.</p>\n<h2>Premiers habitants du Beleriand</h2>\n<p>Les Petits-Nains comptèrent parmi les premiers habitants connus de plusieurs régions du Beleriand. Ils creusèrent des demeures dans les collines et utilisèrent des cavernes naturelles comme refuges. Lorsque les Sindar commencèrent à parcourir ces terres, ils ne comprirent pas immédiatement la nature des êtres qu’ils rencontraient.</p>\n<h2>La chasse des Sindar</h2>\n<p>Les premiers Sindar prirent les Petits-Nains pour des créatures animales ou monstrueuses et les chassèrent comme du gibier. Lorsque les Elfes rencontrèrent ensuite les Nains de Nogrod et Belegost, ils comprirent que les Noegyth Nibin étaient eux aussi des êtres doués de parole et apparentés aux Khazâd ; la chasse cessa, mais la population des Petits-Nains avait déjà été gravement réduite.</p>\n<p>Cette mémoire nourrit une défiance profonde envers les Sindar. Elle ne condamne pas chaque relation individuelle à la violence, mais elle explique pourquoi la confiance envers les Elfes se construit lentement et pourquoi les offenses anciennes restent présentes dans les récits familiaux.</p>\n<h2>Une Culture de survivants</h2>\n<p>Leur organisation doit être comprise à partir de cette histoire. Ils vivent en petits groupes, dissimulent leurs demeures, évitent de révéler les entrées de leurs cavernes, observent longuement les étrangers et accumulent soigneusement les ressources. Ces comportements ne sont pas de simples traits de caractère : ils sont devenus des stratégies de survie transmises de génération en génération.</p>\n<h2>Amon Rûdh et Bar-en-Danwedh</h2>\n<p>La demeure la plus célèbre des Petits-Nains est <strong>Amon Rûdh</strong>, la Colline Chauve, habitée par Mîm et ses fils Ibun et Khîm. Sous la colline se trouvait <strong>Bar-en-Danwedh</strong>, la « Maison de la Rançon », ensemble de cavernes et de passages parfaitement connus de ses habitants.</p>\n<p>Cette demeure illustre leur architecture : sécurité, discrétion et utilisation intelligente des cavités naturelles comptent davantage que la monumentalité. Une sortie secondaire, une ouverture presque invisible ou un passage étroit peut avoir plus de valeur qu’une immense porte sculptée.</p>\n<h2>Petites communautés et famille</h2>\n<p>Les Petits-Nains ne disposent plus des populations nécessaires à de véritables royaumes. Le groupe familial devient l’unité essentielle. Une communauté peut comprendre seulement quelques familles et être organisée autour d’une unique demeure. Les tâches y sont peu spécialisées : un adulte doit souvent être à la fois artisan, chasseur, gardien, mineur et combattant.</p>\n<p>La famille possède une importance presque absolue. Chez un peuple devenu très peu nombreux, la perte d’un seul adulte expérimenté peut faire disparaître des savoirs importants. Une offense ou une blessure infligée à un parent engage rarement le seul individu concerné.</p>\n<h2>Mémoire, méfiance et secret</h2>\n<p>Les Petits-Nains possèdent une longue mémoire des torts. Exclusions anciennes, massacres, pertes familiales et trahisons peuvent rester vivants pendant plusieurs générations. Chez un peuple longévif, une querelle vieille d’un siècle peut encore avoir été racontée par un témoin direct à quelqu’un toujours vivant.</p>\n<p>Le secret constitue une protection. Passages cachés, réserves, caches alimentaires, issues secondaires et itinéraires inconnus des étrangers permettent à la communauté de survivre. Même un allié peut ne connaître qu’une partie de la demeure.</p>\n<h2>Rapport aux grandes Maisons khazâd</h2>\n<p>Les relations avec les autres Khazâd sont complexes. Les Petits-Nains descendent précisément de populations rejetées par les grandes communautés. La mémoire de cette exclusion peut produire honte, amertume, défiance ou désir de renouer. Il existe pourtant une parenté réelle : langue d’origine khazâd, vénération de Mahal et rapport profond à la pierre et au travail manuel.</p>\n<h2>Mahal et artisanat</h2>\n<p>Les Petits-Nains demeurent des enfants de <strong>Mahal</strong>. Le travail de la pierre, la fabrication d’objets et l’entretien d’une demeure conservent une dimension fondamentale. Ils disposent toutefois de beaucoup moins de ressources que les grandes Maisons.</p>\n<p>Leur artisanat est austère et efficace. Réparer, réutiliser et transformer compte autant que créer. Un morceau de métal cassé n’est pas jeté s’il peut être refondu ; une lame endommagée peut devenir un outil ; une pièce de cuir est conservée tant qu’elle peut fournir une réparation.</p>\n<h2>Pierre, mines et récupération</h2>\n<p>Ils savent agrandir une caverne, consolider un passage, dissimuler une ouverture et reconnaître les qualités d’une formation rocheuse. Leur architecture recherche moins la grandeur que la subtilité. Les exploitations minières restent modestes, adaptées aux faibles effectifs et assez discrètes pour ne pas révéler la communauté.</p>\n<p>La récupération constitue un véritable savoir culturel. Métal, bois, cuir, corde et objets abandonnés sont réemployés lorsque cela est possible. Dans une petite communauté isolée, gaspiller une ressource utile serait une faute grave.</p>\n<h2>Chasse, cueillette et herbes</h2>\n<p>Contrairement aux habitants des grandes cités khazâd, les Petits-Nains peuvent dépendre directement de la chasse et de la cueillette. Ils connaissent le gibier local, les pièges, les racines, champignons, baies et plantes utiles. Mîm est notamment associé à une connaissance des plantes, ce qui justifie une place réelle aux savoirs d’herboristerie et de soins pratiques.</p>\n<p>La nourriture est conservée avec soin : séchage, fumage et stockage permettent de traverser les périodes difficiles. La présence d’une source ou d’une réserve d’eau dissimulée joue un rôle essentiel dans le choix d’une demeure.</p>\n<h2>Vêtements et possessions</h2>\n<p>Les vêtements sont solides, simples et souvent réparés : cuir, laine grossière et tissus récupérés. Les couleurs sont peu voyantes. Les bijoux sont moins nombreux que dans les grandes cités, mais un petit objet familial peut posséder une valeur immense. Une bague, un anneau ou un fragment d’ouvrage provenant d’une demeure disparue devient presque irremplaçable.</p>\n<p>La richesse se mesure autant en nourriture, outils, eau sûre et secret qu’en métaux précieux. Le troc avec les étrangers existe, mais il se déroule volontiers dans un lieu neutre afin de ne pas révéler la demeure.</p>\n<h2>Langue et écriture</h2>\n<p>Les Petits-Nains utilisent une forme de <strong>khuzdul</strong> héritée de leurs ancêtres. Leur isolement peut produire des particularités de vocabulaire et de prononciation. Le sindarin devient utile après l’établissement durable des Elfes dans le Beleriand. Les Cirth peuvent servir aux inscriptions, aux généalogies, aux marques de propriété et à des repères volontairement discrets.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les relations avec les Sindar restent marquées par les anciennes chasses. Les Noldor sont moins directement associés à ce traumatisme, mais demeurent des Elfes et suscitent souvent la prudence. Les relations avec les Hommes peuvent aller de la coopération à l’hostilité ; l’histoire de Mîm et Túrin montre combien capture, rançon, hospitalité contrainte, rancune et trahison peuvent se mêler.</p>\n<p>Les Orcs sont des ennemis naturels dans les montagnes et cavernes. Les Petits-Nains ne servent pas par nature l’Ombre : leur amertume envers les Elfes ou les grandes Maisons n’équivaut pas à une adhésion à Morgoth.</p>\n<h2>Combat et défense</h2>\n<p>Leur faible nombre rend les pertes difficiles à remplacer. Ils évitent donc autant que possible les batailles ouvertes. Ils utilisent passages étroits, pièges, embuscades, sorties dissimulées et connaissance du terrain. Haches, marteaux, masses, pioches, dagues, épées courtes, lances courtes et armes de projectile simples leur conviennent particulièrement.</p>\n<p>Les armures lourdes sont moins fréquentes que dans les grandes Maisons. Le métal est précieux ; cuir, pièces récupérées et protections composites sont plus courants. Une véritable maille khazâd peut constituer un héritage familial exceptionnel.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil culturel favorise la <strong>Spéléologie</strong>, la <strong>Dissimulation</strong>, l’<strong>Approche furtive</strong>, le <strong>Pistage</strong>, l’<strong>Observation</strong>, la <strong>Cueillette</strong>, la <strong>Chasse</strong>, le <strong>Travail de la pierre</strong>, le <strong>Travail du métal</strong>, la <strong>Réparation</strong>, la Survie en montagne et les Herbes. Les armes courtes et les techniques adaptées aux espaces fermés ont une place correcte sans transformer les Petits-Nains en meilleurs combattants que les grandes Maisons.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Petits-Nains</strong> porte leurs différences physiologiques et leurs traits innés. La <strong>Culture Petits-Nains — Noegyth Nibin</strong> porte petites communautés, demeures secrètes, chasse, cueillette, récupération, dissimulation, mémoire des persécutions et polyvalence pratique. Cette séparation évite tout doublonnage mécanique.</p>\n<h2>Disponibilité et création de personnage</h2>\n<p>Cette Culture est limitée au <strong>Premier Âge</strong>. À l’époque de Túrin, la population est déjà presque entièrement détruite et Mîm, Ibun et Khîm appartiennent aux derniers représentants connus.</p>\n<p>Un personnage Petit-Nain doit définir sa famille, sa demeure cachée, sa relation avec les Sindar et les autres Khazâd, ainsi que la raison qui l’a poussé à quitter une communauté si fragile. Dette, vengeance, recherche d’un parent, perte du refuge ou nécessité de trouver un nouveau territoire constituent des motivations cohérentes. Chez les Noegyth Nibin, survivre est déjà une œuvre digne d’être transmise.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li><li><strong>Sindarin</strong> — Parlée 4 / Écrite 2</li><li><strong>Khuzdul</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 5
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Petits-Nains — Noegyth Nibin",
+          "system": {
+            "description": "<h1>Petits-Nains — Noegyth Nibin</h1>\n<p>Les <strong>Petits-Nains</strong>, appelés <strong>Noegyth Nibin</strong> en sindarin, constituent une population khazâd marginale et tragique du Premier Âge. Ils descendent de Nains rejetés autrefois par leurs propres communautés, expulsés de leurs demeures et contraints de survivre loin des grandes cités souterraines. Au fil des générations, cet isolement transforma profondément leur mode de vie. Ils demeurent pleinement des Khazâd par leur origine, mais leur Culture est celle de petites communautés cachées, prudentes, polyvalentes et entièrement tournées vers la survie.</p>\n<h2>Origines</h2>\n<p>Les premiers Petits-Nains étaient des Khazâd bannis de leurs communautés. Les raisons de ces exclusions n’étaient pas nécessairement uniformes : fautes graves, ruptures d’obligations, conflits ou simple héritage d’une condition d’exilé pour les descendants des premiers bannis. Ils quittèrent progressivement les grandes demeures naines et gagnèrent l’ouest avant l’installation des principales colonies khazâd du Beleriand.</p>\n<p>Cette origine distingue leur Culture de celle des Sept Maisons. Le Petit-Nain n’est pas seulement un Nain vivant dans une région différente : il descend d’une population coupée des grandes structures politiques, artisanales et familiales qui organisent normalement la vie khazâd.</p>\n<h2>Noegyth Nibin</h2>\n<p>Le nom sindarin <strong>Noegyth Nibin</strong> signifie « Petits-Nains ». Il finit par désigner l’ensemble de leur population. Les Petits-Nains étaient moins nombreux, plus pauvres et généralement moins robustes que les populations venues ensuite de Nogrod et Belegost. Leur faible nombre et leur isolement marquèrent durablement la manière dont les autres peuples les perçurent.</p>\n<h2>Premiers habitants du Beleriand</h2>\n<p>Les Petits-Nains comptèrent parmi les premiers habitants connus de plusieurs régions du Beleriand. Ils creusèrent des demeures dans les collines et utilisèrent des cavernes naturelles comme refuges. Lorsque les Sindar commencèrent à parcourir ces terres, ils ne comprirent pas immédiatement la nature des êtres qu’ils rencontraient.</p>\n<h2>La chasse des Sindar</h2>\n<p>Les premiers Sindar prirent les Petits-Nains pour des créatures animales ou monstrueuses et les chassèrent comme du gibier. Lorsque les Elfes rencontrèrent ensuite les Nains de Nogrod et Belegost, ils comprirent que les Noegyth Nibin étaient eux aussi des êtres doués de parole et apparentés aux Khazâd ; la chasse cessa, mais la population des Petits-Nains avait déjà été gravement réduite.</p>\n<p>Cette mémoire nourrit une défiance profonde envers les Sindar. Elle ne condamne pas chaque relation individuelle à la violence, mais elle explique pourquoi la confiance envers les Elfes se construit lentement et pourquoi les offenses anciennes restent présentes dans les récits familiaux.</p>\n<h2>Une Culture de survivants</h2>\n<p>Leur organisation doit être comprise à partir de cette histoire. Ils vivent en petits groupes, dissimulent leurs demeures, évitent de révéler les entrées de leurs cavernes, observent longuement les étrangers et accumulent soigneusement les ressources. Ces comportements ne sont pas de simples traits de caractère : ils sont devenus des stratégies de survie transmises de génération en génération.</p>\n<h2>Amon Rûdh et Bar-en-Danwedh</h2>\n<p>La demeure la plus célèbre des Petits-Nains est <strong>Amon Rûdh</strong>, la Colline Chauve, habitée par Mîm et ses fils Ibun et Khîm. Sous la colline se trouvait <strong>Bar-en-Danwedh</strong>, la « Maison de la Rançon », ensemble de cavernes et de passages parfaitement connus de ses habitants.</p>\n<p>Cette demeure illustre leur architecture : sécurité, discrétion et utilisation intelligente des cavités naturelles comptent davantage que la monumentalité. Une sortie secondaire, une ouverture presque invisible ou un passage étroit peut avoir plus de valeur qu’une immense porte sculptée.</p>\n<h2>Petites communautés et famille</h2>\n<p>Les Petits-Nains ne disposent plus des populations nécessaires à de véritables royaumes. Le groupe familial devient l’unité essentielle. Une communauté peut comprendre seulement quelques familles et être organisée autour d’une unique demeure. Les tâches y sont peu spécialisées : un adulte doit souvent être à la fois artisan, chasseur, gardien, mineur et combattant.</p>\n<p>La famille possède une importance presque absolue. Chez un peuple devenu très peu nombreux, la perte d’un seul adulte expérimenté peut faire disparaître des savoirs importants. Une offense ou une blessure infligée à un parent engage rarement le seul individu concerné.</p>\n<h2>Mémoire, méfiance et secret</h2>\n<p>Les Petits-Nains possèdent une longue mémoire des torts. Exclusions anciennes, massacres, pertes familiales et trahisons peuvent rester vivants pendant plusieurs générations. Chez un peuple longévif, une querelle vieille d’un siècle peut encore avoir été racontée par un témoin direct à quelqu’un toujours vivant.</p>\n<p>Le secret constitue une protection. Passages cachés, réserves, caches alimentaires, issues secondaires et itinéraires inconnus des étrangers permettent à la communauté de survivre. Même un allié peut ne connaître qu’une partie de la demeure.</p>\n<h2>Rapport aux grandes Maisons khazâd</h2>\n<p>Les relations avec les autres Khazâd sont complexes. Les Petits-Nains descendent précisément de populations rejetées par les grandes communautés. La mémoire de cette exclusion peut produire honte, amertume, défiance ou désir de renouer. Il existe pourtant une parenté réelle : langue d’origine khazâd, vénération de Mahal et rapport profond à la pierre et au travail manuel.</p>\n<h2>Mahal et artisanat</h2>\n<p>Les Petits-Nains demeurent des enfants de <strong>Mahal</strong>. Le travail de la pierre, la fabrication d’objets et l’entretien d’une demeure conservent une dimension fondamentale. Ils disposent toutefois de beaucoup moins de ressources que les grandes Maisons.</p>\n<p>Leur artisanat est austère et efficace. Réparer, réutiliser et transformer compte autant que créer. Un morceau de métal cassé n’est pas jeté s’il peut être refondu ; une lame endommagée peut devenir un outil ; une pièce de cuir est conservée tant qu’elle peut fournir une réparation.</p>\n<h2>Pierre, mines et récupération</h2>\n<p>Ils savent agrandir une caverne, consolider un passage, dissimuler une ouverture et reconnaître les qualités d’une formation rocheuse. Leur architecture recherche moins la grandeur que la subtilité. Les exploitations minières restent modestes, adaptées aux faibles effectifs et assez discrètes pour ne pas révéler la communauté.</p>\n<p>La récupération constitue un véritable savoir culturel. Métal, bois, cuir, corde et objets abandonnés sont réemployés lorsque cela est possible. Dans une petite communauté isolée, gaspiller une ressource utile serait une faute grave.</p>\n<h2>Chasse, cueillette et herbes</h2>\n<p>Contrairement aux habitants des grandes cités khazâd, les Petits-Nains peuvent dépendre directement de la chasse et de la cueillette. Ils connaissent le gibier local, les pièges, les racines, champignons, baies et plantes utiles. Mîm est notamment associé à une connaissance des plantes, ce qui justifie une place réelle aux savoirs d’herboristerie et de soins pratiques.</p>\n<p>La nourriture est conservée avec soin : séchage, fumage et stockage permettent de traverser les périodes difficiles. La présence d’une source ou d’une réserve d’eau dissimulée joue un rôle essentiel dans le choix d’une demeure.</p>\n<h2>Vêtements et possessions</h2>\n<p>Les vêtements sont solides, simples et souvent réparés : cuir, laine grossière et tissus récupérés. Les couleurs sont peu voyantes. Les bijoux sont moins nombreux que dans les grandes cités, mais un petit objet familial peut posséder une valeur immense. Une bague, un anneau ou un fragment d’ouvrage provenant d’une demeure disparue devient presque irremplaçable.</p>\n<p>La richesse se mesure autant en nourriture, outils, eau sûre et secret qu’en métaux précieux. Le troc avec les étrangers existe, mais il se déroule volontiers dans un lieu neutre afin de ne pas révéler la demeure.</p>\n<h2>Langue et écriture</h2>\n<p>Les Petits-Nains utilisent une forme de <strong>khuzdul</strong> héritée de leurs ancêtres. Leur isolement peut produire des particularités de vocabulaire et de prononciation. Le sindarin devient utile après l’établissement durable des Elfes dans le Beleriand. Les Cirth peuvent servir aux inscriptions, aux généalogies, aux marques de propriété et à des repères volontairement discrets.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les relations avec les Sindar restent marquées par les anciennes chasses. Les Noldor sont moins directement associés à ce traumatisme, mais demeurent des Elfes et suscitent souvent la prudence. Les relations avec les Hommes peuvent aller de la coopération à l’hostilité ; l’histoire de Mîm et Túrin montre combien capture, rançon, hospitalité contrainte, rancune et trahison peuvent se mêler.</p>\n<p>Les Orcs sont des ennemis naturels dans les montagnes et cavernes. Les Petits-Nains ne servent pas par nature l’Ombre : leur amertume envers les Elfes ou les grandes Maisons n’équivaut pas à une adhésion à Morgoth.</p>\n<h2>Combat et défense</h2>\n<p>Leur faible nombre rend les pertes difficiles à remplacer. Ils évitent donc autant que possible les batailles ouvertes. Ils utilisent passages étroits, pièges, embuscades, sorties dissimulées et connaissance du terrain. Haches, marteaux, masses, pioches, dagues, épées courtes, lances courtes et armes de projectile simples leur conviennent particulièrement.</p>\n<p>Les armures lourdes sont moins fréquentes que dans les grandes Maisons. Le métal est précieux ; cuir, pièces récupérées et protections composites sont plus courants. Une véritable maille khazâd peut constituer un héritage familial exceptionnel.</p>\n<h2>Compétences culturelles</h2>\n<p>Le profil culturel favorise la <strong>Spéléologie</strong>, la <strong>Dissimulation</strong>, l’<strong>Approche furtive</strong>, le <strong>Pistage</strong>, l’<strong>Observation</strong>, la <strong>Cueillette</strong>, la <strong>Chasse</strong>, le <strong>Travail de la pierre</strong>, le <strong>Travail du métal</strong>, la <strong>Réparation</strong>, la Survie en montagne et les Herbes. Les armes courtes et les techniques adaptées aux espaces fermés ont une place correcte sans transformer les Petits-Nains en meilleurs combattants que les grandes Maisons.</p>\n<h2>Race et Culture</h2>\n<p>La <strong>Race Petits-Nains</strong> porte leurs différences physiologiques et leurs traits innés. La <strong>Culture Petits-Nains — Noegyth Nibin</strong> porte petites communautés, demeures secrètes, chasse, cueillette, récupération, dissimulation, mémoire des persécutions et polyvalence pratique. Cette séparation évite tout doublonnage mécanique.</p>\n<h2>Disponibilité et création de personnage</h2>\n<p>Cette Culture est limitée au <strong>Premier Âge</strong>. À l’époque de Túrin, la population est déjà presque entièrement détruite et Mîm, Ibun et Khîm appartiennent aux derniers représentants connus.</p>\n<p>Un personnage Petit-Nain doit définir sa famille, sa demeure cachée, sa relation avec les Sindar et les autres Khazâd, ainsi que la raison qui l’a poussé à quitter une communauté si fragile. Dette, vengeance, recherche d’un parent, perte du refuge ou nécessité de trouver un nouveau territoire constituent des motivations cohérentes. Chez les Noegyth Nibin, survivre est déjà une œuvre digne d’être transmise.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li><li><strong>Sindarin</strong> — Parlée 4 / Écrite 2</li><li><strong>Khuzdul</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+            "culture": "Petits-Nains — Noegyth Nibin"
+          }
+        },
+        "en": {
+          "name": "Petty-dwarves — Noegyth Nibin",
+          "system": {
+            "description": "<h1>Petty-dwarves — Noegyth Nibin</h1>\n<p>The <strong>Petty-dwarves</strong>, called <strong>Noegyth Nibin</strong> in Sindarin, are a marginal and tragic Khazâd population of the First Age. They descend from Dwarves once rejected by their own communities, expelled from their homes and forced to survive far from the great underground cities. Over generations, this isolation profoundly transformed their way of life. They remain fully Khazâd by origin, but their Culture is that of small, hidden, cautious, versatile communities wholly devoted to survival.</p>\n<h2>Origins</h2>\n<p>The first Petty-dwarves were Khazâd banished from their communities. The reasons for these exclusions were not necessarily uniform: serious offenses, broken obligations, conflicts, or simply inheriting an exiled status as descendants of the first outcasts. They gradually left the great Dwarven mansions and moved west before the establishment of the principal Khazâd colonies of Beleriand.</p>\n<p>This origin distinguishes their Culture from that of the Seven Houses. A Petty-dwarf is not merely a Dwarf living in a different region: he descends from a population cut off from the great political, craft, and family structures that normally organize Khazâd life.</p>\n<h2>Noegyth Nibin</h2>\n<p>The Sindarin name <strong>Noegyth Nibin</strong> means “Petty-dwarves.” It eventually came to designate their entire population. Petty-dwarves were fewer, poorer, and generally less robust than the populations that later came from Nogrod and Belegost. Their small numbers and isolation permanently shaped the way other peoples perceived them.</p>\n<h2>First inhabitants of Beleriand</h2>\n<p>Petty-dwarves were among the earliest known inhabitants of several regions of Beleriand. They dug dwellings into hills and used natural caves as refuges. When the Sindar began to range through these lands, they did not immediately understand the nature of the beings they encountered.</p>\n<h2>The Sindarin hunt</h2>\n<p>The first Sindar mistook the Petty-dwarves for animals or monstrous creatures and hunted them as game. When the Elves later encountered the Dwarves of Nogrod and Belegost, they understood that the Noegyth Nibin were also speaking beings related to the Khazâd; the hunting ceased, but the Petty-dwarf population had already been gravely reduced.</p>\n<p>This memory feeds a profound distrust of the Sindar. It does not condemn every individual relationship to violence, but it explains why trust in Elves is built slowly and why ancient offenses remain present in family stories.</p>\n<h2>A Culture of survivors</h2>\n<p>Their organization must be understood through this history. They live in small groups, conceal their dwellings, avoid revealing the entrances to their caves, observe strangers for long periods, and carefully accumulate resources. These behaviors are not mere personality traits: they have become survival strategies passed down from generation to generation.</p>\n<h2>Amon Rûdh and Bar-en-Danwedh</h2>\n<p>The most famous dwelling of the Petty-dwarves is <strong>Amon Rûdh</strong>, the Bald Hill, inhabited by Mîm and his sons Ibun and Khîm. Beneath the hill lay <strong>Bar-en-Danwedh</strong>, the “House of Ransom,” a complex of caves and passages perfectly known to its inhabitants.</p>\n<p>This dwelling illustrates their architecture: security, concealment, and intelligent use of natural cavities matter more than monumentality. A secondary exit, an almost invisible opening, or a narrow passage may be more valuable than an immense carved gate.</p>\n<h2>Small communities and family</h2>\n<p>Petty-dwarves no longer possess the populations required for true kingdoms. The family group becomes the essential unit. A community may consist of only a few families and be organized around a single dwelling. Tasks are only lightly specialized: an adult must often be craftsman, hunter, guard, miner, and fighter all at once.</p>\n<p>Family has almost absolute importance. Among a people reduced to very small numbers, the loss of a single experienced adult can erase important knowledge. An offense or injury inflicted on one relative rarely concerns that individual alone.</p>\n<h2>Memory, distrust, and secrecy</h2>\n<p>Petty-dwarves possess long memories for wrongs. Ancient expulsions, massacres, family losses, and betrayals may remain alive for several generations. Among a long-lived people, a century-old quarrel may still have been told by a direct witness to someone who remains alive.</p>\n<p>Secrecy is a form of protection. Hidden passages, stores, food caches, secondary exits, and routes unknown to strangers allow the community to survive. Even an ally may know only part of a dwelling.</p>\n<h2>Relationship with the great Khazâd Houses</h2>\n<p>Relations with other Khazâd are complex. Petty-dwarves descend precisely from populations rejected by the great communities. The memory of that exclusion can produce shame, bitterness, distrust, or a desire to reconnect. Yet true kinship remains: a language of Khazâd origin, reverence for Mahal, and a deep relationship with stone and manual craft.</p>\n<h2>Mahal and craftsmanship</h2>\n<p>Petty-dwarves remain children of <strong>Mahal</strong>. Working stone, making objects, and maintaining a dwelling retain fundamental importance. They nevertheless possess far fewer resources than the great Houses.</p>\n<p>Their craftsmanship is austere and efficient. Repairing, reusing, and transforming matter as much as creating. A broken piece of metal is not discarded if it can be remelted; a damaged blade can become a tool; a piece of leather is kept for as long as it can provide a repair.</p>\n<h2>Stone, mines, and salvage</h2>\n<p>They know how to enlarge a cave, shore up a passage, conceal an opening, and recognize the qualities of a rock formation. Their architecture seeks subtlety rather than grandeur. Mining remains modest, suited to small populations and discreet enough not to reveal the community.</p>\n<p>Salvage is a true cultural skill. Metal, wood, leather, rope, and abandoned objects are reused whenever possible. In a small isolated community, wasting a useful resource would be a serious fault.</p>\n<h2>Hunting, foraging, and herbs</h2>\n<p>Unlike inhabitants of the great Khazâd cities, Petty-dwarves may depend directly on hunting and foraging. They know local game, traps, roots, mushrooms, berries, and useful plants. Mîm in particular is associated with knowledge of plants, justifying a genuine place for Herb Lore and practical healing skills.</p>\n<p>Food is carefully preserved: drying, smoking, and storage make it possible to endure difficult periods. The presence of a spring or a concealed water reserve plays an essential role in choosing a dwelling.</p>\n<h2>Clothing and possessions</h2>\n<p>Clothing is sturdy, simple, and often repaired: leather, coarse wool, and salvaged cloth. Colors are subdued. Jewelry is less abundant than in the great cities, but a small family object may possess immense value. A ring, band, or fragment of work from a vanished dwelling becomes almost irreplaceable.</p>\n<p>Wealth is measured as much in food, tools, safe water, and secrecy as in precious metals. Barter with outsiders exists, but is preferably conducted at a neutral location so as not to reveal the dwelling.</p>\n<h2>Language and writing</h2>\n<p>Petty-dwarves use a form of <strong>Khuzdul</strong> inherited from their ancestors. Isolation may produce peculiarities of vocabulary and pronunciation. Sindarin becomes useful after the permanent settlement of Elves in Beleriand. Cirth can be used for inscriptions, genealogies, marks of ownership, and deliberately discreet signs.</p>\n<h2>Relations with other peoples</h2>\n<p>Relations with the Sindar remain marked by the ancient hunts. The Noldor are less directly associated with that trauma, but remain Elves and often inspire caution. Relations with Men can range from cooperation to hostility; the story of Mîm and Túrin shows how capture, ransom, forced hospitality, resentment, and betrayal can become intertwined.</p>\n<p>Orcs are natural enemies in mountains and caves. Petty-dwarves do not by nature serve the Shadow: bitterness toward Elves or the great Houses does not amount to allegiance to Morgoth.</p>\n<h2>Combat and defense</h2>\n<p>Their small numbers make losses difficult to replace. They therefore avoid open battles whenever possible. They use narrow passages, traps, ambushes, hidden exits, and knowledge of the terrain. Axes, hammers, maces, picks, daggers, short swords, short spears, and simple missile weapons suit them particularly well.</p>\n<p>Heavy armor is less common than among the great Houses. Metal is precious; leather, salvaged pieces, and composite protection are more common. A true suit of Khazâd mail may constitute an exceptional family heirloom.</p>\n<h2>Cultural skills</h2>\n<p>The cultural profile favors <strong>Caving</strong>, <strong>Hiding</strong>, <strong>Stalking</strong>, <strong>Tracking</strong>, <strong>Observation</strong>, <strong>Foraging</strong>, <strong>Hunting</strong>, <strong>Stoneworking</strong>, <strong>Metalworking</strong>, <strong>Repair</strong>, Mountain Survival, and Herbs. Short weapons and techniques suited to enclosed spaces have a proper place without making Petty-dwarves better fighters than the great Houses.</p>\n<h2>Race and Culture</h2>\n<p>The <strong>Petty-dwarf Race</strong> carries their physiological differences and innate traits. The <strong>Petty-dwarves — Noegyth Nibin Culture</strong> carries small communities, secret dwellings, hunting, foraging, salvage, concealment, memory of persecution, and practical versatility. This separation avoids any mechanical duplication.</p>\n<h2>Availability and character creation</h2>\n<p>This Culture is limited to the <strong>First Age</strong>. By the time of Túrin, the population is already almost entirely destroyed, and Mîm, Ibun, and Khîm belong to the last known representatives.</p>\n<p>A Petty-dwarf character should define his family, hidden dwelling, relationship with the Sindar and other Khazâd, and the reason that drove him to leave such a fragile community. Debt, revenge, the search for a relative, loss of the refuge, or the need to find new territory are all appropriate motivations. Among the Noegyth Nibin, merely surviving is already a deed worthy of being handed down.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li><li><strong>Sindarin</strong> — Spoken 4 / Written 2</li><li><strong>Khuzdul</strong> — Spoken 8 / Written 6</li></ul></section>",
+            "culture": "Petty-dwarves — Noegyth Nibin"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Restreint"
+    ],
+    "en": [
+      "Restricted"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-restricted"
+  ]
+}

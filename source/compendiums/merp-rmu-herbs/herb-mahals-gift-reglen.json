@@ -1,0 +1,79 @@
+{
+  "key": "herb-mahals-gift-reglen",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Don-de-Mahal (Mahal’s Gift / Reglen)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-mahals-gift-reglen",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-M-3-U",
+        "sourceCost": "75gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "M",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Mahal’s Gift (Reglen)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Light",
+      "form": "Moss",
+      "prep": "brew",
+      "season": "",
+      "cost": "75gp",
+      "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction rend environ 50 points de vie.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 7,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Don-de-Mahal (Mahal’s Gift / Reglen)",
+      "system": {
+        "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction rend environ 50 points de vie.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Mahal’s Gift (Reglen)",
+      "system": {
+        "notes": "<p>This moss is found chiefly in cool temperate climates, especially in mountains, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction restores about 50 concussion hits.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

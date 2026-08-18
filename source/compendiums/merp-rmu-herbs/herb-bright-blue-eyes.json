@@ -1,0 +1,78 @@
+{
+  "key": "herb-bright-blue-eyes",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Yeux Bleu Vif (Bright Blue Eyes)",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-bright-blue-eyes",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-S-7-W",
+        "sourceCost": "15gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "S",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Bright Blue Eyes"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Extremely Hard",
+      "form": "Flower",
+      "prep": "brew",
+      "season": "",
+      "cost": "15gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>L’infusion triple la portée visuelle, améliore la Perception d’environ +25 et donne une faible vision infrarouge pendant trois heures. Une seconde utilisation est réputée mortelle.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 25,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Yeux Bleu Vif (Bright Blue Eyes)",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>L’infusion triple la portée visuelle, améliore la Perception d’environ +25 et donne une faible vision infrarouge pendant trois heures. Une seconde utilisation est réputée mortelle.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Bright Blue Eyes",
+      "system": {
+        "notes": "<p>This flower is found chiefly in mild temperate climates, especially in short-grass plains, and is best known in western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The infusion triples visual range, improves Perception by about +25, and grants limited infrared vision for three hours. A second use is reputed to be fatal.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

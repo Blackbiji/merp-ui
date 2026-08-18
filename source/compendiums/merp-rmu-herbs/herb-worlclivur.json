@@ -1,0 +1,79 @@
+{
+  "key": "herb-worlclivur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-musculaires",
+  "document": {
+    "name": "Worlclivur",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-worlclivur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-O-8-NW",
+        "sourceCost": "133gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Musculaire"
+        ],
+        "poisonType": "Musculaire",
+        "climateCode": "c",
+        "localeCode": "O",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Worlclivur"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Sheer Folly",
+      "form": "Lichen",
+      "prep": "paste",
+      "season": "",
+      "cost": "133gp",
+      "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison musculaire de niveau 2 touchant surtout la vue : cécité d’un œil, spasmes des paupières ou cécité des deux yeux selon la gravité de l’échec. Le jus brut de la fleur agit comme un poison de niveau 1.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Worlclivur",
+      "system": {
+        "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison musculaire de niveau 2 touchant surtout la vue : cécité d’un œil, spasmes des paupières ou cécité des deux yeux selon la gravité de l’échec. Le jus brut de la fleur agit comme un poison de niveau 1.</p>"
+      }
+    },
+    "en": {
+      "name": "Worlclivur",
+      "system": {
+        "notes": "<p>This lichen is found chiefly in cold climates, especially in sea coasts and saltwater shores, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 2 muscle poison primarily affecting sight: blindness in one eye, eyelid spasms, or blindness in both eyes depending on the severity of the failure. Raw flower juice acts as a level 1 poison.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Musculaires"
+    ],
+    "en": [
+      "Muscle"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-musculaires"
+  ]
+}

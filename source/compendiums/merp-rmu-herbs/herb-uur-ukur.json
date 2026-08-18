@@ -1,0 +1,78 @@
+{
+  "key": "herb-uur-ukur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "nourriture",
+  "document": {
+    "name": "Uur (Ukur)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-uur-ukur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-H-3-N",
+        "sourceCost": "3gp",
+        "sourceCategory": "Nourriture",
+        "utilityGroups": [
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "H",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Uur (Ukur)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Light",
+      "form": "Nut",
+      "prep": "ingest",
+      "season": "",
+      "cost": "3gp",
+      "notes": "<p>Cette noix se rencontre surtout dans les régions au climat glacial, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une noix fournit approximativement l’équivalent d’une journée de nourriture.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Uur (Ukur)",
+      "system": {
+        "notes": "<p>Cette noix se rencontre surtout dans les régions au climat glacial, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une noix fournit approximativement l’équivalent d’une journée de nourriture.</p>"
+      }
+    },
+    "en": {
+      "name": "Uur (Ukur)",
+      "system": {
+        "notes": "<p>This nut is found chiefly in frigid climates, especially in heaths, scrublands, and moors, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>One nut provides approximately the equivalent of one day’s food.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nourriture"
+    ],
+    "en": [
+      "Food"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "nourriture"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "key": "herb-rewk-sorriss",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Rewk (Sorriss)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-rewk-sorriss",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-D-3-U",
+        "sourceCost": "9sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "D",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Rewk (Sorriss)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Light",
+      "form": "Nodule",
+      "prep": "brew",
+      "season": "",
+      "cost": "9sp",
+      "notes": "<p>Ce nodule se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Après une heure d’infusion, le nodule rend 2 à 20 points de vie.</p>",
+      "addictionFactor": 1,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "2d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Rewk (Sorriss)",
+      "system": {
+        "notes": "<p>Ce nodule se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Après une heure d’infusion, le nodule rend 2 à 20 points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Rewk (Sorriss)",
+      "system": {
+        "notes": "<p>This nodule is found chiefly in cool temperate climates, especially in deciduous or mixed forests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>After one hour of steeping, the nodule restores 2–20 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

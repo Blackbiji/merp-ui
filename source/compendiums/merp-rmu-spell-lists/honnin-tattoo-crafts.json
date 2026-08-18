@@ -1,0 +1,624 @@
+{
+  "key": "honnin-tattoo-crafts",
+  "sourceFile": "data/merp-rmu/honnin-priest-beta-v1.json",
+  "folderKey": "spell-lists-channeling-honnin",
+  "document": {
+    "name": "Artisanat du Tatouage (Tattoo Crafts)",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "honnin-tattoo-crafts",
+        "collection": "honnin-beta",
+        "contentVersion": 1,
+        "beta": true,
+        "source": {
+          "type": "rmss-honnin-spell-list",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 pp.231–233"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU — Bêta",
+      "name": "Artisanat du Tatouage (Tattoo Crafts)",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Honnin Priest",
+      "notes": "<h2>Artisanat du Tatouage (Tattoo Crafts)</h2><p>Liste Honnin de Théurgie consacrée à la création de tatouages magiques. Dans cette adaptation bêta, elle devient une Liste de base du Prêtre Honnin.</p><p><strong>Règles particulières :</strong> seuls des sorts de Théurgie peuvent être imprégnés. Un tatouage magique mesure au minimum environ 2,5 × 2,5 cm ; deux tatouages magiques ne peuvent se croiser ; un tatouage ne peut porter qu’une seule capacité enchantée ; une personne ne peut porter plus de <strong>13 tatouages magiques</strong>.</p><p>Les Tatouages Généraux peuvent conférer des bonus ou propriétés. Les valeurs historiques sont conservées pour le bêta-test : Classe I/II/III/IV — Compétence +5/+10/+15/+20 ; Catégorie +2/+4/+6/+8 ; PV +5/+15/+30/+45 ; PP +2/+4/+6/+8 ; JR +5/+10/+15/+20 ; Adder +1/+2/+3/+4 ; multiplicateur de PP ×1,25/×1,5/×2/×3. <strong>Ces valeurs ne sont pas encore considérées comme équilibrées pour RMU et requièrent l’accord du MJ.</strong></p><p>Pour enchanter un bonus de Compétence ou de Catégorie, le tatoueur doit connaître personnellement la Compétence concernée et posséder un bonus au moins égal au double du bonus qu’il souhaite inscrire.</p>",
+      "label": "Artisanat du Tatouage (Tattoo Crafts)",
+      "notesLabel": "Artisanat du Tatouage (Tattoo Crafts) notes",
+      "spells": [
+        {
+          "name": "Création du Tatouage (Make Tattoo)",
+          "level": 1,
+          "description": "Permet au lanceur de réaliser sans défaut un tatouage sur une chair non magique, à condition de disposer des outils et pigments nécessaires. Le temps de travail est réduit de moitié.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Création du Tatouage (Make Tattoo)",
+          "descriptionLabel": "Création du Tatouage (Make Tattoo) description",
+          "localizations": {
+            "fr": {
+              "name": "Création du Tatouage",
+              "description": "Permet au lanceur de réaliser sans défaut un tatouage sur une chair non magique, à condition de disposer des outils et pigments nécessaires. Le temps de travail est réduit de moitié."
+            },
+            "en": {
+              "name": "Make Tattoo",
+              "description": "Allows the caster to flawlessly create a tattoo on non-magical flesh, provided the necessary tools and pigments are available. Working time is halved."
+            }
+          }
+        },
+        {
+          "name": "Tatouage I (Tattoo I)",
+          "level": 2,
+          "description": "Prépare un tatouage afin qu’il puisse recevoir un sort de Théurgie de niveau 1.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage I (Tattoo I)",
+          "descriptionLabel": "Tatouage I (Tattoo I) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage I",
+              "description": "Prépare un tatouage afin qu’il puisse recevoir un sort de Théurgie de niveau 1."
+            },
+            "en": {
+              "name": "Tattoo I",
+              "description": "Prepares a tattoo so that it can receive a 1st-level Channeling spell."
+            }
+          }
+        },
+        {
+          "name": "Imprégnation du Tatouage I (Imbed Tattoo I)",
+          "level": 3,
+          "description": "Imprègne dans un tatouage préparé un sort de Théurgie de niveau 1.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Imprégnation du Tatouage I (Imbed Tattoo I)",
+          "descriptionLabel": "Imprégnation du Tatouage I (Imbed Tattoo I) description",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation du Tatouage I",
+              "description": "Imprègne dans un tatouage préparé un sort de Théurgie de niveau 1."
+            },
+            "en": {
+              "name": "Imbed Tattoo I",
+              "description": "Imbeds a 1st-level Channeling spell into a prepared tattoo."
+            }
+          }
+        },
+        {
+          "name": "Tatouage II (Tattoo II)",
+          "level": 4,
+          "description": "Comme Tatouage I, mais le tatouage peut recevoir un sort de Théurgie de niveau 1 ou 2.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage II (Tattoo II)",
+          "descriptionLabel": "Tatouage II (Tattoo II) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage II",
+              "description": "Comme Tatouage I, mais le tatouage peut recevoir un sort de Théurgie de niveau 1 ou 2."
+            },
+            "en": {
+              "name": "Tattoo II",
+              "description": "As Tattoo I, but the tattoo can receive a 1st- or 2nd-level Channeling spell."
+            }
+          }
+        },
+        {
+          "name": "Imprégnation du Tatouage II (Imbed Tattoo II)",
+          "level": 5,
+          "description": "Comme Imprégnation du Tatouage I, mais permet d’inscrire un sort de niveau 1 ou 2.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Imprégnation du Tatouage II (Imbed Tattoo II)",
+          "descriptionLabel": "Imprégnation du Tatouage II (Imbed Tattoo II) description",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation du Tatouage II",
+              "description": "Comme Imprégnation du Tatouage I, mais permet d’inscrire un sort de niveau 1 ou 2."
+            },
+            "en": {
+              "name": "Imbed Tattoo II",
+              "description": "As Imbed Tattoo I, but allows a 1st- or 2nd-level spell to be imbedded."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Général I (General Tattoo I)",
+          "level": 6,
+          "description": "Prépare un tatouage afin qu’il puisse recevoir un effet général de Classe I. Les valeurs de la table Honnin sont conservées à titre bêta et doivent être validées par le MJ.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Général I (General Tattoo I)",
+          "descriptionLabel": "Tatouage Général I (General Tattoo I) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Général I",
+              "description": "Prépare un tatouage afin qu’il puisse recevoir un effet général de Classe I. Les valeurs de la table Honnin sont conservées à titre bêta et doivent être validées par le MJ."
+            },
+            "en": {
+              "name": "General Tattoo I",
+              "description": "Prepares a tattoo so that it can receive a Class I general effect. The values from the Honnin table are retained for beta testing and require GM approval."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Quotidien I (Daily Tattoo I)",
+          "level": 7,
+          "description": "Permet d’imprégner un sort de Théurgie de niveau 1 dans un tatouage afin qu’il puisse être utilisé une fois par jour.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Quotidien I (Daily Tattoo I)",
+          "descriptionLabel": "Tatouage Quotidien I (Daily Tattoo I) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Quotidien I",
+              "description": "Permet d’imprégner un sort de Théurgie de niveau 1 dans un tatouage afin qu’il puisse être utilisé une fois par jour."
+            },
+            "en": {
+              "name": "Daily Tattoo I",
+              "description": "Allows a 1st-level Channeling spell to be imbedded in a tattoo for use once per day."
+            }
+          }
+        },
+        {
+          "name": "Tatouage IV (Tattoo IV)",
+          "level": 8,
+          "description": "Comme Tatouage I, jusqu’au niveau 4.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage IV (Tattoo IV)",
+          "descriptionLabel": "Tatouage IV (Tattoo IV) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage IV",
+              "description": "Comme Tatouage I, jusqu’au niveau 4."
+            },
+            "en": {
+              "name": "Tattoo IV",
+              "description": "As Tattoo I, up to 4th level."
+            }
+          }
+        },
+        {
+          "name": "Imprégnation du Tatouage IV (Imbed Tattoo IV)",
+          "level": 9,
+          "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 4.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Imprégnation du Tatouage IV (Imbed Tattoo IV)",
+          "descriptionLabel": "Imprégnation du Tatouage IV (Imbed Tattoo IV) description",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation du Tatouage IV",
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 4."
+            },
+            "en": {
+              "name": "Imbed Tattoo IV",
+              "description": "As Imbed Tattoo I, for a spell from 1st through 4th level."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Général II (General Tattoo II)",
+          "level": 10,
+          "description": "Comme Tatouage Général I, mais permet un effet général de Classe II.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Général II (General Tattoo II)",
+          "descriptionLabel": "Tatouage Général II (General Tattoo II) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Général II",
+              "description": "Comme Tatouage Général I, mais permet un effet général de Classe II."
+            },
+            "en": {
+              "name": "General Tattoo II",
+              "description": "As General Tattoo I, but allows a Class II general effect."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Constant II (Constant Tattoo II)",
+          "level": 11,
+          "description": "Permet d’imprégner un sort de Théurgie de niveau 1 ou 2 afin qu’il fonctionne en permanence ou à volonté, selon la nature du sort et l’accord du MJ.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Constant II (Constant Tattoo II)",
+          "descriptionLabel": "Tatouage Constant II (Constant Tattoo II) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Constant II",
+              "description": "Permet d’imprégner un sort de Théurgie de niveau 1 ou 2 afin qu’il fonctionne en permanence ou à volonté, selon la nature du sort et l’accord du MJ."
+            },
+            "en": {
+              "name": "Constant Tattoo II",
+              "description": "Allows a 1st- or 2nd-level Channeling spell to be imbedded so that it functions continuously or at will, depending on the nature of the spell and GM approval."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Quotidien III (Daily Tattoo III)",
+          "level": 12,
+          "description": "Permet d’imprégner un sort de niveau 1 à 3 : niveau 1 jusqu’à trois fois par jour ; niveaux 2 ou 3 une fois par jour.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Quotidien III (Daily Tattoo III)",
+          "descriptionLabel": "Tatouage Quotidien III (Daily Tattoo III) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Quotidien III",
+              "description": "Permet d’imprégner un sort de niveau 1 à 3 : niveau 1 jusqu’à trois fois par jour ; niveaux 2 ou 3 une fois par jour."
+            },
+            "en": {
+              "name": "Daily Tattoo III",
+              "description": "Allows a 1st- to 3rd-level spell to be imbedded: a 1st-level spell up to three times per day; 2nd- or 3rd-level spells once per day."
+            }
+          }
+        },
+        {
+          "name": "Tatouage VI (Tattoo VI)",
+          "level": 13,
+          "description": "Comme Tatouage I, jusqu’au niveau 6.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage VI (Tattoo VI)",
+          "descriptionLabel": "Tatouage VI (Tattoo VI) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage VI",
+              "description": "Comme Tatouage I, jusqu’au niveau 6."
+            },
+            "en": {
+              "name": "Tattoo VI",
+              "description": "As Tattoo I, up to 6th level."
+            }
+          }
+        },
+        {
+          "name": "Imprégnation du Tatouage VI (Imbed Tattoo VI)",
+          "level": 14,
+          "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 6.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Imprégnation du Tatouage VI (Imbed Tattoo VI)",
+          "descriptionLabel": "Imprégnation du Tatouage VI (Imbed Tattoo VI) description",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation du Tatouage VI",
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 6."
+            },
+            "en": {
+              "name": "Imbed Tattoo VI",
+              "description": "As Imbed Tattoo I, for a spell from 1st through 6th level."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Général III (General Tattoo III)",
+          "level": 15,
+          "description": "Comme Tatouage Général I, mais permet un effet général de Classe III.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Général III (General Tattoo III)",
+          "descriptionLabel": "Tatouage Général III (General Tattoo III) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Général III",
+              "description": "Comme Tatouage Général I, mais permet un effet général de Classe III."
+            },
+            "en": {
+              "name": "General Tattoo III",
+              "description": "As General Tattoo I, but allows a Class III general effect."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Quotidien V (Daily Tattoo V)",
+          "level": 16,
+          "description": "Permet d’imprégner un sort de niveau 1 à 5 : niveau 1 jusqu’à cinq fois par jour ; niveaux 2–3 deux fois ; niveaux 4–5 une fois.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Quotidien V (Daily Tattoo V)",
+          "descriptionLabel": "Tatouage Quotidien V (Daily Tattoo V) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Quotidien V",
+              "description": "Permet d’imprégner un sort de niveau 1 à 5 : niveau 1 jusqu’à cinq fois par jour ; niveaux 2–3 deux fois ; niveaux 4–5 une fois."
+            },
+            "en": {
+              "name": "Daily Tattoo V",
+              "description": "Allows a 1st- to 5th-level spell to be imbedded: 1st level up to five times per day; 2nd–3rd levels twice per day; 4th–5th levels once per day."
+            }
+          }
+        },
+        {
+          "name": "Tatouage VIII (Tattoo VIII)",
+          "level": 17,
+          "description": "Comme Tatouage I, jusqu’au niveau 8.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage VIII (Tattoo VIII)",
+          "descriptionLabel": "Tatouage VIII (Tattoo VIII) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage VIII",
+              "description": "Comme Tatouage I, jusqu’au niveau 8."
+            },
+            "en": {
+              "name": "Tattoo VIII",
+              "description": "As Tattoo I, up to 8th level."
+            }
+          }
+        },
+        {
+          "name": "Imprégnation du Tatouage VIII (Imbed Tattoo VIII)",
+          "level": 18,
+          "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 8.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Imprégnation du Tatouage VIII (Imbed Tattoo VIII)",
+          "descriptionLabel": "Imprégnation du Tatouage VIII (Imbed Tattoo VIII) description",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation du Tatouage VIII",
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 8."
+            },
+            "en": {
+              "name": "Imbed Tattoo VIII",
+              "description": "As Imbed Tattoo I, for a spell from 1st through 8th level."
+            }
+          }
+        },
+        {
+          "name": "Création du Tatouage Véritable (Make Tattoo True)",
+          "level": 19,
+          "description": "Permet de réaliser sans défaut un tatouage sur une chair magique. Les outils et matériaux requis doivent être présents ; le temps de travail est réduit de moitié.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Création du Tatouage Véritable (Make Tattoo True)",
+          "descriptionLabel": "Création du Tatouage Véritable (Make Tattoo True) description",
+          "localizations": {
+            "fr": {
+              "name": "Création du Tatouage Véritable",
+              "description": "Permet de réaliser sans défaut un tatouage sur une chair magique. Les outils et matériaux requis doivent être présents ; le temps de travail est réduit de moitié."
+            },
+            "en": {
+              "name": "Make Tattoo True",
+              "description": "Allows the caster to flawlessly create a tattoo on magical flesh. The required tools and materials must be available; working time is halved."
+            }
+          }
+        },
+        {
+          "name": "Tatouage X (Tattoo X)",
+          "level": 20,
+          "description": "Comme Tatouage I, jusqu’au niveau 10.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage X (Tattoo X)",
+          "descriptionLabel": "Tatouage X (Tattoo X) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage X",
+              "description": "Comme Tatouage I, jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Tattoo X",
+              "description": "As Tattoo I, up to 10th level."
+            }
+          }
+        },
+        {
+          "name": "Imprégnation du Tatouage X (Imbed Tattoo X)",
+          "level": 25,
+          "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 10.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Imprégnation du Tatouage X (Imbed Tattoo X)",
+          "descriptionLabel": "Imprégnation du Tatouage X (Imbed Tattoo X) description",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation du Tatouage X",
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 10."
+            },
+            "en": {
+              "name": "Imbed Tattoo X",
+              "description": "As Imbed Tattoo I, for a spell from 1st through 10th level."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Général IV (General Tattoo IV)",
+          "level": 35,
+          "description": "Comme Tatouage Général I, mais permet un effet général de Classe IV.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Général IV (General Tattoo IV)",
+          "descriptionLabel": "Tatouage Général IV (General Tattoo IV) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Général IV",
+              "description": "Comme Tatouage Général I, mais permet un effet général de Classe IV."
+            },
+            "en": {
+              "name": "General Tattoo IV",
+              "description": "As General Tattoo I, but allows a Class IV general effect."
+            }
+          }
+        },
+        {
+          "name": "Tatouage Constant X (Constant Tattoo X)",
+          "level": 50,
+          "description": "Comme Tatouage Constant II, mais permet d’imprégner un sort de Théurgie de niveau 1 à 10.",
+          "aoe": "1 tatouage",
+          "duration": "24 h",
+          "range": "self",
+          "spellType": "F",
+          "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Tatouage Constant X (Constant Tattoo X)",
+          "descriptionLabel": "Tatouage Constant X (Constant Tattoo X) description",
+          "localizations": {
+            "fr": {
+              "name": "Tatouage Constant X",
+              "description": "Comme Tatouage Constant II, mais permet d’imprégner un sort de Théurgie de niveau 1 à 10."
+            },
+            "en": {
+              "name": "Constant Tattoo X",
+              "description": "As Constant Tattoo II, but allows a 1st- through 10th-level Channeling spell to be imbedded."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Artisanat du Tatouage",
+      "system": {
+        "name": "Artisanat du Tatouage",
+        "label": "Artisanat du Tatouage",
+        "notesLabel": "Artisanat du Tatouage — notes",
+        "notes": "<h2>Artisanat du Tatouage</h2><p>Liste Honnin de Théurgie consacrée à la création de tatouages magiques. Dans cette adaptation bêta, elle devient une Liste de base du Prêtre Honnin.</p><p><strong>Règles particulières :</strong> seuls des sorts de Théurgie peuvent être imprégnés. Un tatouage magique mesure au minimum environ 2,5 × 2,5 cm ; deux tatouages magiques ne peuvent se croiser ; un tatouage ne peut porter qu’une seule capacité enchantée ; une personne ne peut porter plus de <strong>13 tatouages magiques</strong>.</p><p>Les Tatouages Généraux peuvent conférer des bonus ou propriétés. Les valeurs historiques sont conservées pour le bêta-test : Classe I/II/III/IV — Compétence +5/+10/+15/+20 ; Catégorie +2/+4/+6/+8 ; PV +5/+15/+30/+45 ; PP +2/+4/+6/+8 ; JR +5/+10/+15/+20 ; Adder +1/+2/+3/+4 ; multiplicateur de PP ×1,25/×1,5/×2/×3. <strong>Ces valeurs ne sont pas encore considérées comme équilibrées pour RMU et requièrent l’accord du MJ.</strong></p><p>Pour enchanter un bonus de Compétence ou de Catégorie, le tatoueur doit connaître personnellement la Compétence concernée et posséder un bonus au moins égal au double du bonus qu’il souhaite inscrire.</p>"
+      }
+    },
+    "en": {
+      "name": "Tattoo Crafts",
+      "system": {
+        "name": "Tattoo Crafts",
+        "label": "Tattoo Crafts",
+        "notesLabel": "Tattoo Crafts — notes",
+        "notes": "<h2>Tattoo Crafts</h2><p>Honnin Channeling List devoted to the creation of magical tattoos. In this beta adaptation, it becomes a Base List of the Honnin Priest.</p><p><strong>Special rules:</strong> only Channeling spells may be imbedded. A magical tattoo must measure at least about 2.5 × 2.5 cm; two magical tattoos may not overlap; a tattoo can hold only one enchanted ability; a person may bear no more than <strong>13 magical tattoos</strong>.</p><p>General Tattoos may grant bonuses or properties. Historical values are retained for beta testing: Class I/II/III/IV — Skill +5/+10/+15/+20; Category +2/+4/+6/+8; hits +5/+15/+30/+45; PP +2/+4/+6/+8; RR +5/+10/+15/+20; Adder +1/+2/+3/+4; PP multiplier ×1.25/×1.5/×2/×3. <strong>These values are not yet considered balanced for RMU and require GM approval.</strong></p><p>To enchant a Skill or Category bonus, the tattooist must personally know the Skill concerned and possess a bonus at least twice as high as the bonus they wish to inscribe.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Prêtre Honnin (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Honnin Priest (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-honnin"
+  ]
+}

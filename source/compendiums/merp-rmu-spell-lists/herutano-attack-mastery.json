@@ -1,0 +1,610 @@
+{
+  "key": "herutano-attack-mastery",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-herutano",
+  "document": {
+    "name": "Attack Mastery",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herutano-attack-mastery",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "MERP Character Creation Using RMSS/RMFRP v2.5",
+        "sourceList": "Weaponsmith",
+        "sourcePage": 235,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmu-adapted-spell-list",
+          "reference": "Weaponsmith -> Attack Mastery",
+          "merpMapping": "Weaponsmith mechanics adapted to MERP Herutano Attack Mastery"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / MERP-RMSS v2.5",
+      "name": "Attack Mastery",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Herutano",
+      "notes": "<h2>Weaponsmith</h2><p>Liste du forgeron d’armes : accélération du combat, armes appelées à la main, parades spéciales et enchantements progressifs des armes.</p>",
+      "label": "Weaponsmith",
+      "notesLabel": "Weaponsmith notes",
+      "spells": [
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Lightning Strike",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.LightningStrike.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.LightningStrike.description",
+          "level": 1,
+          "description": "Allows the caster to make an attack in the current Snap Action phase without the usual -20 penalty; the attack is part of the spell.",
+          "aoe": "caster",
+          "duration": "1 rnd",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Frappe Éclair",
+              "description": "Permet au lanceur d’effectuer une attaque pendant la phase d’Action Instantanée en cours sans subir la pénalité habituelle de −20 ; l’attaque fait partie du sort."
+            },
+            "en": {
+              "name": "Lightning Strike",
+              "description": "Allows the caster to make an attack in the current Snap Action phase without the usual -20 penalty; the attack is part of the spell."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Attack I",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackI.description",
+          "level": 2,
+          "description": "Adds +15 to the caster’s melee or missile attack for the current round.",
+          "aoe": "caster",
+          "duration": "1 attack",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque I",
+              "description": "Ajoute +15 à l’attaque de mêlée ou de projectile du lanceur pour le round en cours."
+            },
+            "en": {
+              "name": "Attack I",
+              "description": "Adds +15 to the caster’s melee or missile attack for the current round."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Draw Weapon",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.DrawWeapon.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.DrawWeapon.description",
+          "level": 3,
+          "description": "The caster’s weapon leaps into the caster’s hand, negating normal penalties for drawing it.",
+          "aoe": "1 weapon",
+          "duration": "--",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Dégainer l’Arme",
+              "description": "L’arme du lanceur bondit dans sa main, annulant les pénalités normales liées au fait de la dégainer."
+            },
+            "en": {
+              "name": "Draw Weapon",
+              "description": "The caster’s weapon leaps into the caster’s hand, negating normal penalties for drawing it."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Weapon I",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponI.description",
+          "level": 4,
+          "description": "Enchants a weapon with a +5 general magical bonus or +10 against one broad group.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme I",
+              "description": "Enchante une arme en lui conférant un bonus magique général de +5 ou +10 contre un vaste groupe de créatures."
+            },
+            "en": {
+              "name": "Weapon I",
+              "description": "Enchants a weapon with a +5 general magical bonus or +10 against one broad group."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Split Parry II",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitParryII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitParryII.description",
+          "level": 5,
+          "description": "Caster may divide parry between up to two melee attackers without the normal split penalty.",
+          "aoe": "caster",
+          "duration": "1 rnd",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Parade Répartie II",
+              "description": "Le lanceur peut répartir sa parade entre deux attaquants de mêlée au maximum sans subir la pénalité normale de répartition."
+            },
+            "en": {
+              "name": "Split Parry II",
+              "description": "Caster may divide parry between up to two melee attackers without the normal split penalty."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Summon Weapon",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.SummonWeapon.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.SummonWeapon.description",
+          "level": 6,
+          "description": "Summons one weapon within range to the caster’s hand.",
+          "aoe": "1 weapon",
+          "duration": "--",
+          "range": "50'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Appel de l’Arme",
+              "description": "Appelle dans la main du lanceur une arme située à portée."
+            },
+            "en": {
+              "name": "Summon Weapon",
+              "description": "Summons one weapon within range to the caster’s hand."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Attack III",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackIII.description",
+          "level": 7,
+          "description": "Improves the caster’s attack bonus according to the progression of Attack spells on this list.",
+          "aoe": "caster",
+          "duration": "1 attack",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque III",
+              "description": "Améliore le bonus d’attaque du lanceur selon la progression des sorts d’Attaque de cette liste."
+            },
+            "en": {
+              "name": "Attack III",
+              "description": "Improves the caster’s attack bonus according to the progression of Attack spells on this list."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Weapon II",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponII.description",
+          "level": 8,
+          "description": "As Weapon I, with a greater enchantment bonus.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme II",
+              "description": "Comme Arme I, mais avec un bonus d’enchantement supérieur."
+            },
+            "en": {
+              "name": "Weapon II",
+              "description": "As Weapon I, with a greater enchantment bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Split Attack II",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitAttackII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitAttackII.description",
+          "level": 9,
+          "description": "Allows the caster to divide an attack between up to two valid targets as defined by the source list.",
+          "aoe": "caster",
+          "duration": "1 rnd",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque Répartie II",
+              "description": "Permet au lanceur de répartir une attaque entre deux cibles valides au maximum, conformément aux règles de la liste d’origine."
+            },
+            "en": {
+              "name": "Split Attack II",
+              "description": "Allows the caster to divide an attack between up to two valid targets as defined by the source list."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Attack IV",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackIV.description",
+          "level": 10,
+          "description": "Improves the caster’s melee or missile attack for one attack.",
+          "aoe": "caster",
+          "duration": "1 attack",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque IV",
+              "description": "Améliore l’attaque de mêlée ou de projectile du lanceur pour une attaque."
+            },
+            "en": {
+              "name": "Attack IV",
+              "description": "Improves the caster’s melee or missile attack for one attack."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Split Parry III",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitParryIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitParryIII.description",
+          "level": 11,
+          "description": "As Split Parry II, but may divide parry among up to three melee attackers.",
+          "aoe": "caster",
+          "duration": "1 rnd",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Parade Répartie III",
+              "description": "Comme Parade Répartie II, mais la parade peut être répartie entre trois attaquants de mêlée au maximum."
+            },
+            "en": {
+              "name": "Split Parry III",
+              "description": "As Split Parry II, but may divide parry among up to three melee attackers."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Parrying Weapon",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.ParryingWeapon.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.ParryingWeapon.description",
+          "level": 12,
+          "description": "Enchants one weapon for improved parrying during the spell.",
+          "aoe": "1 weapon",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Arme de Parade",
+              "description": "Enchante une arme afin d’améliorer la parade pendant la durée du sort."
+            },
+            "en": {
+              "name": "Parrying Weapon",
+              "description": "Enchants one weapon for improved parrying during the spell."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Weapon III",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponIII.description",
+          "level": 13,
+          "description": "As Weapon I, with a greater enchantment bonus.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme III",
+              "description": "Comme Arme I, mais avec un bonus d’enchantement supérieur."
+            },
+            "en": {
+              "name": "Weapon III",
+              "description": "As Weapon I, with a greater enchantment bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Attack V",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackV.description",
+          "level": 14,
+          "description": "Improves the caster’s melee or missile attack for one attack.",
+          "aoe": "caster",
+          "duration": "1 attack",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque V",
+              "description": "Améliore l’attaque de mêlée ou de projectile du lanceur pour une attaque."
+            },
+            "en": {
+              "name": "Attack V",
+              "description": "Improves the caster’s melee or missile attack for one attack."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Attack VI",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackVI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackVI.description",
+          "level": 16,
+          "description": "Improves the caster’s melee or missile attack for one attack.",
+          "aoe": "caster",
+          "duration": "1 attack",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque VI",
+              "description": "Améliore l’attaque de mêlée ou de projectile du lanceur pour une attaque."
+            },
+            "en": {
+              "name": "Attack VI",
+              "description": "Improves the caster’s melee or missile attack for one attack."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Split Parry IV",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitParryIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitParryIV.description",
+          "level": 17,
+          "description": "As Split Parry II, but may divide parry among up to four melee attackers.",
+          "aoe": "caster",
+          "duration": "1 rnd",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Parade Répartie IV",
+              "description": "Comme Parade Répartie II, mais la parade peut être répartie entre quatre attaquants de mêlée au maximum."
+            },
+            "en": {
+              "name": "Split Parry IV",
+              "description": "As Split Parry II, but may divide parry among up to four melee attackers."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Elemental Parry",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.ElementalParry.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.ElementalParry.description",
+          "level": 18,
+          "description": "Allows one weapon to be used to parry an elemental attack as specified by the source rules.",
+          "aoe": "1 weapon",
+          "duration": "1 parry",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Parade Élémentaire",
+              "description": "Permet d’utiliser une arme pour parer une attaque élémentaire selon les modalités précisées par les règles d’origine."
+            },
+            "en": {
+              "name": "Elemental Parry",
+              "description": "Allows one weapon to be used to parry an elemental attack as specified by the source rules."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Attack VII",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackVII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.AttackVII.description",
+          "level": 19,
+          "description": "Improves the caster’s melee or missile attack for one attack.",
+          "aoe": "caster",
+          "duration": "1 attack",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque VII",
+              "description": "Améliore l’attaque de mêlée ou de projectile du lanceur pour une attaque."
+            },
+            "en": {
+              "name": "Attack VII",
+              "description": "Improves the caster’s melee or missile attack for one attack."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Split Attack III",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitAttackIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.SplitAttackIII.description",
+          "level": 20,
+          "description": "Allows the caster to divide an attack among up to three valid targets as defined by the source list.",
+          "aoe": "caster",
+          "duration": "1 rnd",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Attaque Répartie III",
+              "description": "Permet au lanceur de répartir une attaque entre trois cibles valides au maximum, conformément aux règles de la liste d’origine."
+            },
+            "en": {
+              "name": "Split Attack III",
+              "description": "Allows the caster to divide an attack among up to three valid targets as defined by the source list."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Weapon IV",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponIV.description",
+          "level": 25,
+          "description": "As Weapon I, with a greater enchantment bonus.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme IV",
+              "description": "Comme Arme I, mais avec un bonus d’enchantement supérieur."
+            },
+            "en": {
+              "name": "Weapon IV",
+              "description": "As Weapon I, with a greater enchantment bonus."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Spell Parry",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.SpellParry.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.SpellParry.description",
+          "level": 30,
+          "description": "Allows one weapon to parry a spell attack as specified by the source rules.",
+          "aoe": "1 weapon",
+          "duration": "1 parry",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Parade de Sort",
+              "description": "Permet d’utiliser une arme pour parer une attaque de sort selon les modalités précisées par les règles d’origine."
+            },
+            "en": {
+              "name": "Spell Parry",
+              "description": "Allows one weapon to parry a spell attack as specified by the source rules."
+            }
+          }
+        },
+        {
+          "spellList": "Attack Mastery",
+          "listType": "Base",
+          "profession": "Herutano",
+          "name": "Weapon V",
+          "label": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.weaponsmith.spells.WeaponV.description",
+          "level": 50,
+          "description": "The highest weapon enchantment on this list.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Arme V",
+              "description": "L’enchantement d’arme le plus puissant de cette liste."
+            },
+            "en": {
+              "name": "Weapon V",
+              "description": "The highest weapon enchantment on this list."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Maîtrise de l'Attaque",
+      "system": {
+        "name": "Maîtrise de l'Attaque",
+        "label": "Maîtrise de l'Attaque",
+        "notesLabel": "Maîtrise de l'Attaque — notes",
+        "notes": "<h2>Maîtrise de l'Attaque</h2><p>Liste du forgeron d’armes : accélération du combat, armes appelées à la main, parades spéciales et enchantements progressifs des armes.</p>"
+      }
+    },
+    "en": {
+      "name": "Attack Mastery",
+      "system": {
+        "name": "Attack Mastery",
+        "label": "Attack Mastery",
+        "notesLabel": "Attack Mastery — notes",
+        "notes": "<h2>Attack Mastery</h2><p>Herutano offensive mastery List, centered on improving attacks, weapon handling, and the controlled application of martial power.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Herutano (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Herutano (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-herutano"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-adder-venom",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-nerveux",
+  "document": {
+    "name": "Venin de Vipère (Adder Venom)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-adder-venom",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-7",
+        "sourceCost": "75gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Nerveux"
+        ],
+        "poisonType": "Nerveux",
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Adder Venom"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Extremely Hard",
+      "form": "Paste",
+      "prep": "injection",
+      "season": "",
+      "cost": "75gp",
+      "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison nerveux de niveau 10 composé de venin de vipère et de Curulot. Il peut provoquer une paralysie flasque pendant 1 à 100 rounds ou tuer en cinq rounds.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 10
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Venin de Vipère (Adder Venom)",
+      "system": {
+        "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison nerveux de niveau 10 composé de venin de vipère et de Curulot. Il peut provoquer une paralysie flasque pendant 1 à 100 rounds ou tuer en cinq rounds.</p>"
+      }
+    },
+    "en": {
+      "name": "Adder Venom",
+      "system": {
+        "notes": "<p>This paste is found chiefly in mild temperate climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is administered by injection.</p><p>Level 10 nerve poison made from adder venom and Curulot. It can cause flaccid paralysis for 1–100 rounds or kill in five rounds.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nerveux"
+    ],
+    "en": [
+      "Nerve"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-nerveux"
+  ]
+}

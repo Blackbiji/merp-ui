@@ -1,0 +1,79 @@
+{
+  "key": "herb-gwinwin-rynd",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-nerveux",
+  "document": {
+    "name": "Gwinwin Rynd",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-gwinwin-rynd",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-8-NW",
+        "sourceCost": "84gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Nerveux"
+        ],
+        "poisonType": "Nerveux",
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Gwinwin Rynd"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Sheer Folly",
+      "form": "Bat",
+      "prep": "liquid",
+      "season": "",
+      "cost": "84gp",
+      "notes": "<p>Cette chauve-souris se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 2 tiré de la sécrétion linguale d’une chauve-souris. Au contact, il paralyse la zone touchée ; ingéré, il peut provoquer une paralysie totale prolongée ou la mort immédiate.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gwinwin Rynd",
+      "system": {
+        "notes": "<p>Cette chauve-souris se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 2 tiré de la sécrétion linguale d’une chauve-souris. Au contact, il paralyse la zone touchée ; ingéré, il peut provoquer une paralysie totale prolongée ou la mort immédiate.</p>"
+      }
+    },
+    "en": {
+      "name": "Gwinwin Rynd",
+      "system": {
+        "notes": "<p>This bat is found chiefly in cool temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 2 nerve poison derived from the tongue secretion of a bat. On contact it paralyzes the affected area; ingested, it can cause prolonged total paralysis or immediate death.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nerveux"
+    ],
+    "en": [
+      "Nerve"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-nerveux"
+  ]
+}

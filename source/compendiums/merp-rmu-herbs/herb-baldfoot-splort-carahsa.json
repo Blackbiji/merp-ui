@@ -1,0 +1,84 @@
+{
+  "key": "herb-baldfoot-splort-carahsa",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Pied-Chauve (Baldfoot / Splort, Carahsá)",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-baldfoot-splort-carahsa",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-5-E",
+        "sourceCost": "2gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "E",
+        "sourceVariants": [],
+        "sourceName": "Baldfoot (Splort, Carahsá)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Hard",
+      "form": "Berry",
+      "prep": "ingest",
+      "season": "",
+      "cost": "2gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Splort</strong>, <strong>Carahsá</strong>.</p><p>Cette baie se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’Est d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une baie rend immédiatement 1 à 10 points de vie. Il ne faut pas en consommer plus d’une toutes les deux heures sous peine de vertiges sévères.</p>",
+      "addictionFactor": 1,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "1d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pied-Chauve (Baldfoot / Splort, Carahsá)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Splort</strong>, <strong>Carahsá</strong>.</p><p>Cette baie se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’Est d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une baie rend immédiatement 1 à 10 points de vie. Il ne faut pas en consommer plus d’une toutes les deux heures sous peine de vertiges sévères.</p>"
+      }
+    },
+    "en": {
+      "name": "Baldfoot (Splort, Carahsá)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Splort</strong>.</p><p>This berry is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known in eastern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>One berry immediately restores 1–10 concussion hits. More than one every two hours causes severe dizziness.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

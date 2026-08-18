@@ -1,0 +1,79 @@
+{
+  "key": "herb-jegga",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-respiratoires",
+  "document": {
+    "name": "Jegga",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-jegga",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-U-5",
+        "sourceCost": "92gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": "Respiratoire",
+        "climateCode": "m",
+        "localeCode": "U",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Jegga"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Hard",
+      "form": "Bats",
+      "prep": "paste",
+      "season": "",
+      "cost": "92gp",
+      "notes": "<p>Ces chauves-souris se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 7B, pâte brune infligeant 1 à 100 points de vie en plus de ses effets respiratoires.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 7
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Jegga",
+      "system": {
+        "notes": "<p>Ces chauves-souris se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 7B, pâte brune infligeant 1 à 100 points de vie en plus de ses effets respiratoires.</p>"
+      }
+    },
+    "en": {
+      "name": "Jegga",
+      "system": {
+        "notes": "<p>This bats is found chiefly in mild temperate climates, especially in underground environments.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 7B respiratory poison, a brown paste that inflicts 1–100 concussion hits in addition to its respiratory effects.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Respiratoires"
+    ],
+    "en": [
+      "Respiratory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-respiratoires"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "key": "immovable-will",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mental",
+  "document": {
+    "name": "Volonté inébranlable (Immovable Will)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "immovable-will",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Discipline",
+      "name": "Immovable Will",
+      "cost": "5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Volonté inébranlable (Immovable Will)</h1><h2>Description</h2><p>Votre volonté est exceptionnellement difficile à ébranler. Cette volonté renforce vos résistances contre la peur, le charme et les effets qui cherchent à vous soumettre mentalement.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Jets de Résistance contre la <strong>Peur</strong>, le <strong>Charme</strong> et les effets de domination mentale comparables. Les effets purement physiques ou ne mettant pas la volonté en jeu ne bénéficient pas de ce bonus.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_immovable-will.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Volonté inébranlable (Immovable Will)",
+      "system": {
+        "description": "<h1>Volonté inébranlable (Immovable Will)</h1><h2>Description</h2><p>Votre volonté est exceptionnellement difficile à ébranler. Cette volonté renforce vos résistances contre la peur, le charme et les effets qui cherchent à vous soumettre mentalement.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Jets de Résistance contre la <strong>Peur</strong>, le <strong>Charme</strong> et les effets de domination mentale comparables. Les effets purement physiques ou ne mettant pas la volonté en jeu ne bénéficient pas de ce bonus.</p>"
+      }
+    },
+    "en": {
+      "name": "Immovable Will",
+      "system": {
+        "description": "<h1>Immovable Will</h1><h2>Description</h2><p>Your will is exceptionally difficult to shake. This strength of will reinforces your resistance to fear, charm, and effects that seek to dominate you mentally.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+5 per Tier</strong> to Resistance Rolls against <strong>Fear</strong>, <strong>Charm</strong>, and comparable mental domination effects. Purely physical effects or those that do not test the will do not benefit from this bonus.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mentaux"
+    ],
+    "en": [
+      "Talents — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mental"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-alambas-spike",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Alambas (Spike)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-alambas-spike",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-S-3-SW",
+        "sourceCost": "10gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "S",
+        "regionCode": "SW",
+        "sourceVariants": [],
+        "sourceName": "Alambas (Spike)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Light",
+      "form": "Grass",
+      "prep": "apply",
+      "season": "",
+      "cost": "10gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Épi (Spike)</strong>.</p><p>Cette herbe se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>L’herbe doit être appliquée fraîche sur la peau. Une dose soigneusement étalée permet de traiter environ quatre pieds carrés de brûlures.</p>",
+      "addictionFactor": 4,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Alambas (Spike)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Épi (Spike)</strong>.</p><p>Cette herbe se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>L’herbe doit être appliquée fraîche sur la peau. Une dose soigneusement étalée permet de traiter environ quatre pieds carrés de brûlures.</p>"
+      }
+    },
+    "en": {
+      "name": "Alambas (Spike)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Spike</strong>.</p><p>This grass is found chiefly in mild temperate climates, especially in short-grass plains, and is best known in south-western Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The herb must be applied fresh to the skin. One carefully spread dose can treat roughly four square feet of burns.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

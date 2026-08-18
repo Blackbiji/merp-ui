@@ -1,0 +1,78 @@
+{
+  "key": "herb-sarah-pokes-her-head",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "nourriture",
+  "document": {
+    "name": "Sarah-Passe-la-Tête (Sarah-Pokes-Her-Head)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-sarah-pokes-her-head",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-7-NW",
+        "sourceCost": "12gp",
+        "sourceCategory": "Nourriture",
+        "utilityGroups": [
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Sarah-Pokes-Her-Head"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Extremely Hard",
+      "form": "Root",
+      "prep": "ingest",
+      "season": "",
+      "cost": "12gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une racine correctement préparée peut fournir à une personne jusqu’à trois semaines de nourriture.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sarah-Passe-la-Tête (Sarah-Pokes-Her-Head)",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une racine correctement préparée peut fournir à une personne jusqu’à trois semaines de nourriture.</p>"
+      }
+    },
+    "en": {
+      "name": "Sarah-Pokes-Her-Head",
+      "system": {
+        "notes": "<p>This root is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>A properly prepared root can provide one person with up to three weeks of food.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nourriture"
+    ],
+    "en": [
+      "Food"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "nourriture"
+  ]
+}

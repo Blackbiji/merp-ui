@@ -1,0 +1,79 @@
+{
+  "key": "herb-harwite-chelas",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Harwite (Chelas)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-harwite-chelas",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-2-W",
+        "sourceCost": "1sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Harwite (Chelas)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Easy",
+      "form": "Moss",
+      "prep": "ingest",
+      "season": "",
+      "cost": "1sp",
+      "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette mousse, connue surtout dans la forêt de Fangorn, rend 10 à 50 points de vie.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Harwite (Chelas)",
+      "system": {
+        "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette mousse, connue surtout dans la forêt de Fangorn, rend 10 à 50 points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Harwite (Chelas)",
+      "system": {
+        "notes": "<p>This moss is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known in western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This moss, best known in Fangorn Forest, restores 10–50 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

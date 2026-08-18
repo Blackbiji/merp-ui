@@ -1,0 +1,265 @@
+{
+  "key": "razak-zinul",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-pures-canalisation",
+  "document": {
+    "name": "Razak-Zinul",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmss-to-rmu-adaptation",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 pp.146, 233–240; Alchemy Companion Dwarven Alchemist imbed lists"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / RMSS",
+      "profession": "Razak-zinul",
+      "spellCastingGroup": "Pure",
+      "numberOfBaseLists": 6,
+      "realms": "Channeling",
+      "description": "<h1>Razak-Zinul</h1>\n<p>Le <strong>Razak-Zinul</strong>, « Barbe-de-Forge » en khuzdul, est un utilisateur pur de <strong>Théurgie</strong> exclusivement issu des <strong>Khazâd</strong>. Sa magie est tournée vers l’artisanat, la création d’armes et d’armures, l’enchantement d’objets, l’analyse des artefacts et la protection par des inscriptions ou des runes.</p>\n<p>Dans la Terre du Milieu, cette Profession représente une expression naturelle de la magie khazâd. Un artisan de la Maison de Durin peut travailler sur les traditions de Khazad-dûm ; un Barbe-de-Feu privilégier la forge et les métaux ; un membre d’une Maison orientale transmettre d’autres traditions de pierre, gemmes ou inscriptions.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales sont <strong>Intuition (In)</strong> et <strong>Raisonnement (Re)</strong>. L’Intuition est aussi la caractéristique de royaume de la Théurgie ; le Raisonnement soutient conception, analyse et procédés artisanaux complexes.</p>\n<h2>Orientation technique</h2>\n<p>Le Razak-Zinul favorise Artisanat, Listes de base, connaissances magiques et anciennes, Développement des Points de Puissance, Perception de la Puissance, compétences techniques, Influence et Armes.</p>\n<h2>Aulë et la tradition khazâd</h2>\n<p>La Théurgie du Razak-Zinul s’interprète à travers la relation des Nains à <strong>Aulë/Mahal</strong>. Le travail de la matière possède une dimension sacrée et la Profession donne une expression magique à cet héritage.</p>\n<h2>Runes et inscriptions</h2>\n<p>Les sorts intégrés dans un objet sont associés à des inscriptions ou runes. Une rune peut être gravée sur une lame, cachée dans une armure, inscrite sur une pierre, un mécanisme ou un bijou. Le langage et la tradition de gravure peuvent servir de clé d’activation et de protection du savoir.</p>\n<h2>Neuf Listes, six choix</h2>\n<p>Le Razak-Zinul possède neuf traditions professionnelles et en choisit <strong>six comme Listes de base</strong>. Les trois restantes restent plus difficiles et ne deviennent pas automatiquement de nouvelles Listes de base. Ce choix définit très tôt la spécialité artisanale du personnage.</p>\n<h2>Listes de sorts de base</h2>\n<ul>\n<li><strong>Forge d’Armures (Armourer).</strong> Crée des armures magiques et améliore leurs défenses.</li>\n<li><strong>Maîtrise de l’Artisan (Craftsman).</strong> Travaille matières organiques et dispositifs mécaniques.</li>\n<li><strong>Techniques Inorganiques Naines (Dwarven Inorganic Skills).</strong> Travaille les matières inorganiques selon les traditions khazâd.</li>\n<li><strong>Maîtrise du Savoir (Loremaster).</strong> Crée des objets généraux et analyse les objets de pouvoir.</li>\n<li><strong>Imprégnation d’un Autre Royaume (Other Realm Imbedding).</strong> Fixe des sorts d’un autre royaume dans un objet.</li>\n<li><strong>Imprégnation de son Propre Royaume (Own Realm Imbedding).</strong> Fixe des sorts de Théurgie dans un objet.</li>\n<li><strong>Symboles (Symbols).</strong> Crée des inscriptions contenant des sorts.</li>\n<li><strong>Gardes (Wards).</strong> Crée des protections magiques pour personnes et lieux.</li>\n<li><strong>Forge d’Armes (Weaponsmith).</strong> Crée des armes magiques et améliore leurs capacités de combat.</li>\n</ul>\n<h2>Place dans la Terre du Milieu</h2>\n<p>Dans Erebor, il peut servir une grande forge ; dans les Montagnes Bleues, conserver des traditions anciennes ; dans les anciennes demeures de Durin, rechercher des techniques perdues. Voyages, minerais rares, ateliers abandonnés, objets volés et runes oubliées constituent des motivations naturelles d’aventure.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Le Razak-Zinul n’a pas d’équivalent complet dans RMU. MERP-RMU conserve une Profession <strong>pure de Théurgie khazâd</strong>, avec <strong>Intuition et Raisonnement</strong> et le mécanisme historique de <strong>six Listes choisies parmi neuf</strong>.</p>\n<p>Les mécanismes modernes d’Artisanat, d’enchantement, d’analyse et de runes servent de socle lorsque possible, tandis que les traditions spécifiquement naines et les règles d’inscription restent propres à MERP-RMU.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "8/12"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "8/12"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "2/3"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "5/7"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "6/8"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "9/12"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "15/20"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Delving",
+          "skillName": "Attunement"
+        },
+        {
+          "skillCategory": "Delving",
+          "skillName": "Runes"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Spell Lore"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Materials Lore"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "skillName": "Grace"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "skillName": "Power Development"
+        },
+        {
+          "skillCategory": "Crafting",
+          "skillName": "Metalcraft"
+        },
+        {
+          "skillCategory": "Crafting",
+          "skillName": "Stonecraft"
+        },
+        {
+          "skillCategory": "Science",
+          "skillName": "Engineering"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual"
+        },
+        {
+          "skillCategory": "Technical",
+          "skillName": "Locks"
+        },
+        {
+          "skillCategory": "Vocation",
+          "skillName": "Crafting"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Razak-Zinul",
+      "system": {
+        "description": "<h1>Razak-Zinul</h1>\n<p>Le <strong>Razak-Zinul</strong>, « Barbe-de-Forge » en khuzdul, est un utilisateur pur de <strong>Théurgie</strong> exclusivement issu des <strong>Khazâd</strong>. Sa magie est tournée vers l’artisanat, la création d’armes et d’armures, l’enchantement d’objets, l’analyse des artefacts et la protection par des inscriptions ou des runes.</p>\n<p>Dans la Terre du Milieu, cette Profession représente une expression naturelle de la magie khazâd. Un artisan de la Maison de Durin peut travailler sur les traditions de Khazad-dûm ; un Barbe-de-Feu privilégier la forge et les métaux ; un membre d’une Maison orientale transmettre d’autres traditions de pierre, gemmes ou inscriptions.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales sont <strong>Intuition (In)</strong> et <strong>Raisonnement (Re)</strong>. L’Intuition est aussi la caractéristique de royaume de la Théurgie ; le Raisonnement soutient conception, analyse et procédés artisanaux complexes.</p>\n<h2>Orientation technique</h2>\n<p>Le Razak-Zinul favorise Artisanat, Listes de base, connaissances magiques et anciennes, Développement des Points de Puissance, Perception de la Puissance, compétences techniques, Influence et Armes.</p>\n<h2>Aulë et la tradition khazâd</h2>\n<p>La Théurgie du Razak-Zinul s’interprète à travers la relation des Nains à <strong>Aulë/Mahal</strong>. Le travail de la matière possède une dimension sacrée et la Profession donne une expression magique à cet héritage.</p>\n<h2>Runes et inscriptions</h2>\n<p>Les sorts intégrés dans un objet sont associés à des inscriptions ou runes. Une rune peut être gravée sur une lame, cachée dans une armure, inscrite sur une pierre, un mécanisme ou un bijou. Le langage et la tradition de gravure peuvent servir de clé d’activation et de protection du savoir.</p>\n<h2>Neuf Listes, six choix</h2>\n<p>Le Razak-Zinul possède neuf traditions professionnelles et en choisit <strong>six comme Listes de base</strong>. Les trois restantes restent plus difficiles et ne deviennent pas automatiquement de nouvelles Listes de base. Ce choix définit très tôt la spécialité artisanale du personnage.</p>\n<h2>Listes de sorts de base</h2>\n<ul>\n<li><strong>Forge d’Armures (Armourer).</strong> Crée des armures magiques et améliore leurs défenses.</li>\n<li><strong>Maîtrise de l’Artisan (Craftsman).</strong> Travaille matières organiques et dispositifs mécaniques.</li>\n<li><strong>Techniques Inorganiques Naines (Dwarven Inorganic Skills).</strong> Travaille les matières inorganiques selon les traditions khazâd.</li>\n<li><strong>Maîtrise du Savoir (Loremaster).</strong> Crée des objets généraux et analyse les objets de pouvoir.</li>\n<li><strong>Imprégnation d’un Autre Royaume (Other Realm Imbedding).</strong> Fixe des sorts d’un autre royaume dans un objet.</li>\n<li><strong>Imprégnation de son Propre Royaume (Own Realm Imbedding).</strong> Fixe des sorts de Théurgie dans un objet.</li>\n<li><strong>Symboles (Symbols).</strong> Crée des inscriptions contenant des sorts.</li>\n<li><strong>Gardes (Wards).</strong> Crée des protections magiques pour personnes et lieux.</li>\n<li><strong>Forge d’Armes (Weaponsmith).</strong> Crée des armes magiques et améliore leurs capacités de combat.</li>\n</ul>\n<h2>Place dans la Terre du Milieu</h2>\n<p>Dans Erebor, il peut servir une grande forge ; dans les Montagnes Bleues, conserver des traditions anciennes ; dans les anciennes demeures de Durin, rechercher des techniques perdues. Voyages, minerais rares, ateliers abandonnés, objets volés et runes oubliées constituent des motivations naturelles d’aventure.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Le Razak-Zinul n’a pas d’équivalent complet dans RMU. MERP-RMU conserve une Profession <strong>pure de Théurgie khazâd</strong>, avec <strong>Intuition et Raisonnement</strong> et le mécanisme historique de <strong>six Listes choisies parmi neuf</strong>.</p>\n<p>Les mécanismes modernes d’Artisanat, d’enchantement, d’analyse et de runes servent de socle lorsque possible, tandis que les traditions spécifiquement naines et les règles d’inscription restent propres à MERP-RMU.</p>"
+      }
+    },
+    "en": {
+      "name": "Razak-Zinul",
+      "system": {
+        "description": "<h1>Razak-Zinul</h1>\n<p>The <strong>Razak-Zinul</strong>, literally <strong>“Forge-beard”</strong> in Khuzdul, is a pure <strong>Channeling</strong> spell-user found exclusively among the <strong>Khazâd</strong>. The Profession’s magic is directed toward craft, the making of weapons and armour, the enchantment of objects, analysis of artefacts, and protection through inscriptions and runes. The Razak-Zinul joins the spiritual tradition of the Dwarves to their exceptional mastery of matter.</p>\n<p>A Razak-Zinul of the <strong>House of Durin</strong> may work upon weapons, armour, and inscriptions inherited from Khazad-dûm; a craftsman of the <strong>Firebeards</strong> may place greater emphasis on forge-work and metals; a member of an eastern House may preserve a different tradition of engraving, stonework, or object-making.</p>\n<h2>Prime Stats</h2>\n<p>The Razak-Zinul’s Prime Stats are <strong>Intuition (In)</strong> and <strong>Reasoning (Re)</strong>. Intuition is the realm stat of Channeling; Reasoning represents the technical understanding needed to design an object, analyse its structure, and organize the stages of complex manufacture.</p>\n<h2>Technical Orientation</h2>\n<p>The Razak-Zinul is a <strong>pure Channeling spell-user</strong>. Development particularly favours <strong>Craft</strong>, Base Spell Lists, magical and ancient lore, Power Point Development, Power Perception, selected technical skills, Influence, and Weapons.</p>\n<h2>Craft and Magic</h2>\n<p>The Razak-Zinul regards magic as one component of <strong>work properly done</strong>. Power is integrated into metal, stone, wood, a weapon, armour, a mechanism, an inscription, or a protective symbol. Creation demands as much craftsmanship as magical ability.</p>\n<h2>Mahal and the Khazâd Tradition</h2>\n<p>The Razak-Zinul’s Channeling is naturally understood through the Dwarves’ relationship with <strong>Aulë, Mahal</strong>. The Khazâd were created by him, and their exceptional affinity with stone, metal, and craft belongs directly to that heritage. The Razak-Zinul gives magical expression to this relationship.</p>\n<h2>Runes and Inscriptions</h2>\n<p>Spells embedded in an object are linked to an inscription or rune written in a specific language. The inscription must be read aloud to activate the power. A rune may be carved into a blade, hidden inside armour, cut into stone, worked into a jewel, or placed upon a door.</p>\n<h2>Weapons, Armour, and Matter</h2>\n<p><strong>Weaponsmith</strong> creates enchanted weapons. <strong>Armourer</strong> creates magical protections. <strong>Craftsman</strong> works with organic materials and mechanisms. <strong>Dwarven Inorganic Skills</strong> represents Khazâd lore concerning stone, metal, gems, and minerals.</p>\n<h2>Loremaster and Imbedding</h2>\n<p><strong>Loremaster</strong> allows the creation of general magical items and the analysis of objects of power. <strong>Own Realm Imbedding</strong> fixes Channeling spells into objects. <strong>Other Realm Imbedding</strong> permits work with a Magician, Lay Healer, or another spell-user in order to incorporate magic from a different realm.</p>\n<h2>Symbols and Wards</h2>\n<p><strong>Symbols</strong> creates inscriptions capable of holding spells. <strong>Wards</strong> protects people and places: doors, halls, workshops, treasuries, tombs, or important objects. In a Khazâd dwelling these protections may be combined with physical mechanisms and massive doors.</p>\n<h2>Nine Lists, Six Choices</h2>\n<p>The Razak-Zinul has <strong>nine professional Lists</strong>, but the character chooses only <strong>six as Base Spell Lists</strong>. The remaining three become more difficult to develop. This rule forces an early choice about what kind of craftsman the character will become.</p>\n<h2>Possible Profiles</h2>\n<p><strong>Master Smith.</strong> Weaponsmith, Armourer, and Dwarven Inorganic Skills.</p>\n<p><strong>Rune-master.</strong> Symbols, Wards, and Own Realm Imbedding.</p>\n<p><strong>Maker of Objects.</strong> Craftsman, Loremaster, and Imbedding techniques.</p>\n<p><strong>Keeper of the Gates.</strong> Wards, Symbols, Craft, and defensive mechanisms.</p>\n<h2>Base Spell Lists</h2>\n<p>The Razak-Zinul chooses <strong>six Base Spell Lists from nine</strong>:</p>\n<ul>\n<li><strong>Armourer</strong></li>\n<li><strong>Craftsman</strong></li>\n<li><strong>Dwarven Inorganic Skills</strong></li>\n<li><strong>Loremaster</strong></li>\n<li><strong>Other Realm Imbedding</strong></li>\n<li><strong>Own Realm Imbedding</strong></li>\n<li><strong>Symbols</strong></li>\n<li><strong>Wards</strong></li>\n<li><strong>Weaponsmith</strong></li>\n</ul>\n<h2>Secrecy and Transmission</h2>\n<p>The Dwarves guard their lore jealously. Enchanting techniques, runes, forging methods, and knowledge of certain materials may be restricted to a family, House, guild, or workshop. The choice of a master is therefore an important part of the character’s history.</p>\n<h2>RMU / MERP Adaptation</h2>\n<p>The Razak-Zinul has no complete direct professional equivalent among standard RMU Professions. We preserve the historical identity of a <strong>pure Khazâd Channeling spell-user specializing in magical craft</strong>, the Prime Stats <strong>Intuition and Reasoning</strong>, the restriction to the Khazâd, and the defining mechanism of <strong>nine available Lists of which only six become Base Spell Lists</strong>.</p>\n<p>The adaptation emphasizes the <strong>rare, secret, and enduring</strong> character of this magic. A Razak-Zinul creates works intended to outlive their maker, sometimes by centuries: faith in Mahal, mastery of matter, and knowledge of runes united within a single tradition.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions Magiques Pures",
+      "Théurgie"
+    ],
+    "en": [
+      "Pure Spell-user Professions",
+      "Channeling"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-magiques-pures",
+    "professions-pures-canalisation"
+  ]
+}

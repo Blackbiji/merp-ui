@@ -1,0 +1,64 @@
+{
+  "key": "addiction",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-mental",
+  "document": {
+    "name": "Dépendance (Addiction)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "addiction",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Addiction",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Dépendance (Addiction)</h1><h2>Description</h2><p>Vous êtes dépendant d’une substance, d’un produit ou d’une pratique précise. La dépendance est définie par la rareté de ce dont vous avez besoin et par la gravité du manque, depuis une habitude contraignante jusqu’à une addiction potentiellement mortelle.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> dépendance réelle mais effets de manque modérés.</li><li><strong>Tier II :</strong> dépendance sérieuse, avec conséquences importantes en cas de manque.</li><li><strong>Tier III :</strong> dépendance dangereuse, potentiellement destructrice pour la santé ou le comportement.</li></ul><h2>Adaptation MERP-RMU</h2><p>La substance et ses effets précis sont définis avec le MJ. Le Défaut doit créer une contrainte régulière : nécessité de se procurer le produit, symptômes de manque, pénalités ou risques lorsque la dépendance n’est pas satisfaite.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_addiction.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Dépendance (Addiction)",
+      "system": {
+        "description": "<h1>Dépendance (Addiction)</h1><h2>Description</h2><p>Vous êtes dépendant d’une substance, d’un produit ou d’une pratique précise. La dépendance est définie par la rareté de ce dont vous avez besoin et par la gravité du manque, depuis une habitude contraignante jusqu’à une addiction potentiellement mortelle.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> dépendance réelle mais effets de manque modérés.</li><li><strong>Tier II :</strong> dépendance sérieuse, avec conséquences importantes en cas de manque.</li><li><strong>Tier III :</strong> dépendance dangereuse, potentiellement destructrice pour la santé ou le comportement.</li></ul><h2>Adaptation MERP-RMU</h2><p>La substance et ses effets précis sont définis avec le MJ. Le Défaut doit créer une contrainte régulière : nécessité de se procurer le produit, symptômes de manque, pénalités ou risques lorsque la dépendance n’est pas satisfaite.</p>"
+      }
+    },
+    "en": {
+      "name": "Addiction",
+      "system": {
+        "description": "<h1>Addiction</h1><h2>Description</h2><p>You are dependent on a specific substance, product, or practice. The addiction is defined by the rarity of what you need and by the severity of withdrawal, ranging from a burdensome habit to a potentially lethal dependency.</p><h2>Tiers</h2><ul><li><strong>Tier I:</strong> genuine dependency with moderate withdrawal effects.</li><li><strong>Tier II:</strong> serious dependency with important consequences when deprived.</li><li><strong>Tier III:</strong> dangerous dependency, potentially destructive to health or behavior.</li></ul><h2>MERP-RMU Adaptation</h2><p>The substance and its exact effects are defined with the GM. The Flaw must create a recurring constraint: the need to obtain the substance, withdrawal symptoms, penalties, or risks when the addiction is not satisfied.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Mentaux"
+    ],
+    "en": [
+      "Flaws — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-mental"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-nen-calgalen",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-circulatoires",
+  "document": {
+    "name": "Nen Calgalen",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-nen-calgalen",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-7-NW",
+        "sourceCost": "35gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Circulatoire"
+        ],
+        "poisonType": "Circulatoire",
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Nen Calgalen"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Extremely Hard",
+      "form": "Root",
+      "prep": "paste",
+      "season": "",
+      "cost": "35gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 2. La victime luit d’un vert malsain ; les effets vont d’un ralentissement marqué et de douleurs violentes à une destruction temporaire de la Constitution et des caractéristiques mentales, potentiellement mortelle.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 6,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Nen Calgalen",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 2. La victime luit d’un vert malsain ; les effets vont d’un ralentissement marqué et de douleurs violentes à une destruction temporaire de la Constitution et des caractéristiques mentales, potentiellement mortelle.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Nen Calgalen",
+      "system": {
+        "notes": "<p>This root is found chiefly in cool temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 2 circulatory poison. The victim glows an unhealthy green; effects range from severe slowing and intense pain to temporary destruction of Constitution and mental stats, potentially causing death.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Circulatoires"
+    ],
+    "en": [
+      "Circulatory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-circulatoires"
+  ]
+}

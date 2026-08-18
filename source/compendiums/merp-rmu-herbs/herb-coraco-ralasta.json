@@ -1,0 +1,84 @@
+{
+  "key": "herb-coraco-ralasta",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Coraco (Ralasta)",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-coraco-ralasta",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-D-2-SW",
+        "sourceCost": "85gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "D",
+        "regionCode": "SW",
+        "sourceVariants": [],
+        "sourceName": "Coraco (Ralasta)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Easy",
+      "form": "Berry",
+      "prep": "ingest",
+      "season": "",
+      "cost": "85gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette baie du Suza Sumar donne un jus concentré : huit onces rendent 2 à 20 points de vie. Il faut environ deux grands seaux de baies pour une dose, qui se conserve six mois.</p>",
+      "addictionFactor": 0,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "2d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Coraco (Ralasta)",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette baie du Suza Sumar donne un jus concentré : huit onces rendent 2 à 20 points de vie. Il faut environ deux grands seaux de baies pour une dose, qui se conserve six mois.</p>"
+      }
+    },
+    "en": {
+      "name": "Coraco (Ralasta)",
+      "system": {
+        "notes": "<p>This berry is found chiefly in semi-arid climates, especially in deciduous or mixed forests, and is best known in south-western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This berry from the Suza Sumar yields a concentrated juice: eight ounces restore 2–20 concussion hits. Roughly two large buckets of berries are needed for one dose, which keeps for six months.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-galenaana",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-respiratoires",
+  "document": {
+    "name": "Galenaana",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-galenaana",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-A-6",
+        "sourceCost": "179gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": "Respiratoire",
+        "climateCode": "c",
+        "localeCode": "A",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Galenaana"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "A",
+      "findDifficulty": "Very Hard",
+      "form": "Leaf",
+      "prep": "powder",
+      "season": "",
+      "cost": "179gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les hautes zones alpines.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison respiratoire de niveau 9D sous forme de poudre verte. Les effets peuvent être sévères ; les Elfes restent exposés aux formes les plus extrêmes.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 9
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Galenaana",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les hautes zones alpines.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison respiratoire de niveau 9D sous forme de poudre verte. Les effets peuvent être sévères ; les Elfes restent exposés aux formes les plus extrêmes.</p>"
+      }
+    },
+    "en": {
+      "name": "Galenaana",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in cold climates, especially in high alpine zones.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is ground into powder.</p><p>Level 9D respiratory poison in the form of a green powder. Its effects can be severe; Elves remain vulnerable to the most extreme effects.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Respiratoires"
+    ],
+    "en": [
+      "Respiratory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-respiratoires"
+  ]
+}

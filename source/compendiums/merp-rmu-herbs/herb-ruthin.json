@@ -1,0 +1,79 @@
+{
+  "key": "herb-ruthin",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-conversion",
+  "document": {
+    "name": "Rûthin",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ruthin",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-U-7-NW",
+        "sourceCost": "88gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Conversion"
+        ],
+        "poisonType": "Conversion",
+        "climateCode": "f",
+        "localeCode": "U",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Rûthin"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Extremely Hard",
+      "form": "Crystal",
+      "prep": "liquid",
+      "season": "",
+      "cost": "88gp",
+      "notes": "<p>Ce cristal se rencontre surtout dans les régions au climat glacial, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison de conversion de niveau 2. En cas d’échec au Jet de Résistance, le contenu de l’estomac se transforme en éclats de verre acérés et la mort survient en quelques rounds. Il est sans effet sur un estomac vide.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Rûthin",
+      "system": {
+        "notes": "<p>Ce cristal se rencontre surtout dans les régions au climat glacial, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison de conversion de niveau 2. En cas d’échec au Jet de Résistance, le contenu de l’estomac se transforme en éclats de verre acérés et la mort survient en quelques rounds. Il est sans effet sur un estomac vide.</p>"
+      }
+    },
+    "en": {
+      "name": "Rûthin",
+      "system": {
+        "notes": "<p>This crystal is found chiefly in frigid climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 2 conversion poison. On a failed Resistance Roll, the contents of the stomach turn into jagged shards of glass and death follows within a few rounds. It has no effect on an empty stomach.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Conversion"
+    ],
+    "en": [
+      "Conversion"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-conversion"
+  ]
+}

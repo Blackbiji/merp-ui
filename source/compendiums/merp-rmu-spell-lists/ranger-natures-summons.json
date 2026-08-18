@@ -1,0 +1,561 @@
+{
+  "key": "ranger-natures-summons",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-ranger",
+  "document": {
+    "name": "Nature's Summons",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "ranger-natures-summons",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Spell Law",
+        "sourceList": "Nature's Summons",
+        "sourcePage": 50,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Rôdeur",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "RMSS Spell Law p.50 — Ranger Base List 2.6.4; MERP Character Creation Using RMSS/RMFRP v2.5 — Ranger"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / RMSS Spell Law",
+      "name": "Nature's Summons",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Rôdeur",
+      "notes": "<h2>Nature’s Summons</h2><p>Liste de base du Rôdeur restaurée depuis RMSS pour MERP-RMU. Elle combine l’appel d’animaux locaux, l’accélération de la croissance végétale et des prières météorologiques.</p><p><strong>Animaux :</strong> les animaux appelés doivent normalement exister dans la région et pouvoir atteindre le lanceur ; ils ne sont pas créés par le sort. Un animal appelé quitte normalement le lanceur à l’expiration du sort.</p><p><strong>Prières :</strong> les sorts de prière exigent que le lanceur soit dehors et consacre au moins une minute à la prière. La météo demandée apparaît progressivement si la prière est exaucée et suit ensuite son cours naturel.</p>",
+      "label": "Nature's Summons",
+      "notesLabel": "Nature's Summons notes",
+      "spells": [
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Nourishment",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Nourishment.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Nourishment.description",
+          "level": 1,
+          "description": "An animal arrives carrying some form of nourishment for the caster, such as berries, nuts, tubers, or other vegetable food. The animal drops the food and returns to the wilderness.",
+          "aoe": "1 creature",
+          "duration": "--",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation de Nourriture",
+              "description": "Un animal arrive en apportant au lanceur une forme de nourriture, comme des baies, des noix, des tubercules ou d’autres aliments végétaux. L’animal dépose la nourriture puis retourne dans la nature."
+            },
+            "en": {
+              "name": "Summon Nourishment",
+              "description": "An animal arrives carrying some form of nourishment for the caster, such as berries, nuts, tubers, or other vegetable food. The animal drops the food and returns to the wilderness."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Warmth",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Warmth.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Warmth.description",
+          "level": 2,
+          "description": "A heavily furred animal arrives and lies down near the caster. The animal allows the caster, and only the caster, to lie beside it for warmth.",
+          "aoe": "1 creature",
+          "duration": "8 hours",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation de Chaleur",
+              "description": "Un animal à la fourrure épaisse arrive et se couche près du lanceur. Il permet au lanceur, et à lui seul, de se blottir contre lui pour se réchauffer."
+            },
+            "en": {
+              "name": "Summon Warmth",
+              "description": "A heavily furred animal arrives and lies down near the caster. The animal allows the caster, and only the caster, to lie beside it for warmth."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Guide",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Guide.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Guide.description",
+          "level": 3,
+          "description": "An animal that knows the path to a specified location arrives and guides the caster. It continues only while the caster concentrates or until the destination is reached.",
+          "aoe": "1 creature",
+          "duration": "24 hours (C)",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation d’un Guide",
+              "description": "Un animal connaissant le chemin vers un lieu désigné arrive et guide le lanceur. Il poursuit sa route tant que le lanceur se concentre ou jusqu’à ce que la destination soit atteinte."
+            },
+            "en": {
+              "name": "Summon Guide",
+              "description": "An animal that knows the path to a specified location arrives and guides the caster. It continues only while the caster concentrates or until the destination is reached."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Guardian",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Guardian.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Guardian.description",
+          "level": 4,
+          "description": "A suitable large animal arrives and attempts to protect the caster from hostile attacks for the duration. It protects only while the caster remains near it and does not itself initiate hostile action through the caster.",
+          "aoe": "1 creature",
+          "duration": "8 hours",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation d’un Gardien",
+              "description": "Un grand animal approprié arrive et tente de protéger le lanceur contre les attaques hostiles pendant la durée du sort. Il ne protège le lanceur que tant que celui-ci reste près de lui et n’engage pas lui-même d’action hostile par l’intermédiaire du lanceur."
+            },
+            "en": {
+              "name": "Summon Guardian",
+              "description": "A suitable large animal arrives and attempts to protect the caster from hostile attacks for the duration. It protects only while the caster remains near it and does not itself initiate hostile action through the caster."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Mount",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Mount.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Mount.description",
+          "level": 5,
+          "description": "A large animal arrives and serves as a mount for the caster for the duration.",
+          "aoe": "1 creature",
+          "duration": "24 hours",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation d’une Monture",
+              "description": "Un grand animal arrive et sert de monture au lanceur pendant la durée du sort."
+            },
+            "en": {
+              "name": "Summon Mount",
+              "description": "A large animal arrives and serves as a mount for the caster for the duration."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Hunter",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Hunter.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Hunter.description",
+          "level": 6,
+          "description": "An animal arrives carrying recently killed prey suitable as food. It drops the prey near the caster and then returns to the wilderness.",
+          "aoe": "1 creature",
+          "duration": "--",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation d’un Chasseur",
+              "description": "Un animal arrive en transportant une proie récemment tuée et propre à la consommation. Il dépose la proie près du lanceur puis retourne dans la nature."
+            },
+            "en": {
+              "name": "Summon Hunter",
+              "description": "An animal arrives carrying recently killed prey suitable as food. It drops the prey near the caster and then returns to the wilderness."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Sense",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Sense.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Sense.description",
+          "level": 7,
+          "description": "An animal with a particularly keen sense arrives. While concentrating, the caster can have the animal communicate what it perceives with that sense.",
+          "aoe": "1 creature",
+          "duration": "24 hours (C)",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation d’un Sens",
+              "description": "Un animal doté d’un sens particulièrement développé arrive. Tant qu’il se concentre, le lanceur peut lui faire communiquer ce qu’il perçoit grâce à ce sens."
+            },
+            "en": {
+              "name": "Summon Sense",
+              "description": "An animal with a particularly keen sense arrives. While concentrating, the caster can have the animal communicate what it perceives with that sense."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Summon Group",
+          "label": "MERP_RMU.NaturesSummons.spells.Summon Group.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Summon Group.description",
+          "level": 9,
+          "description": "A group of animals arrives and remains near the area where the spell was cast. The summoned animals must normally be creatures that naturally travel in groups.",
+          "aoe": "1 group",
+          "duration": "24 hours",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocation d’un Groupe",
+              "description": "Un groupe d’animaux arrive et demeure à proximité de la zone où le sort a été lancé. Les animaux invoqués doivent normalement appartenir à des espèces vivant naturellement en groupe."
+            },
+            "en": {
+              "name": "Summon Group",
+              "description": "A group of animals arrives and remains near the area where the spell was cast. The summoned animals must normally be creatures that naturally travel in groups."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Mass Summons",
+          "label": "MERP_RMU.NaturesSummons.spells.Mass Summons.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Mass Summons.description",
+          "level": 10,
+          "description": "The caster may use any lower-level animal-summoning spell from this list to summon one animal per caster level. All summoned animals serve only the caster.",
+          "aoe": "1 creature/lvl",
+          "duration": "varies",
+          "range": "varies",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Invocations de Masse",
+              "description": "Le lanceur peut utiliser n’importe quel sort d’invocation animale de niveau inférieur de cette liste pour invoquer un animal par niveau du lanceur. Tous les animaux invoqués ne servent que le lanceur."
+            },
+            "en": {
+              "name": "Mass Summons",
+              "description": "The caster may use any lower-level animal-summoning spell from this list to summon one animal per caster level. All summoned animals serve only the caster."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Spread Plants",
+          "label": "MERP_RMU.NaturesSummons.spells.Spread Plants.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Spread Plants.description",
+          "level": 12,
+          "description": "Produces a ground covering of grasses and small plants of other varieties. The plants must already exist in the area of effect; the spell accelerates multiplication and growth.",
+          "aoe": "20'R",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Propagation des Plantes",
+              "description": "Produit un tapis de graminées et de petites plantes d’autres variétés. Les plantes doivent déjà exister dans la zone d’effet ; le sort accélère leur multiplication et leur croissance."
+            },
+            "en": {
+              "name": "Spread Plants",
+              "description": "Produces a ground covering of grasses and small plants of other varieties. The plants must already exist in the area of effect; the spell accelerates multiplication and growth."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Fog Prayer",
+          "label": "MERP_RMU.NaturesSummons.spells.Fog Prayer.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Fog Prayer.description",
+          "level": 13,
+          "description": "The caster prays to the deity or spiritual power for fog. The base chance that the prayer is answered is 2% per caster level, modified by how natural such weather is for the region and season.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière de Brouillard",
+              "description": "Le lanceur prie une divinité ou une puissance spirituelle afin d’obtenir du brouillard. La probabilité de base que la prière soit exaucée est de 2 % par niveau du lanceur, modifiée selon le caractère naturel de ce temps pour la région et la saison."
+            },
+            "en": {
+              "name": "Fog Prayer",
+              "description": "The caster prays to the deity or spiritual power for fog. The base chance that the prayer is answered is 2% per caster level, modified by how natural such weather is for the region and season."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Rain Prayer",
+          "label": "MERP_RMU.NaturesSummons.spells.Rain Prayer.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Rain Prayer.description",
+          "level": 14,
+          "description": "As Fog Prayer, except the requested weather is a gentle light rain.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière de Pluie",
+              "description": "Comme Prière de Brouillard, mais le temps demandé est une pluie fine et douce."
+            },
+            "en": {
+              "name": "Rain Prayer",
+              "description": "As Fog Prayer, except the requested weather is a gentle light rain."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Spread Plants II",
+          "label": "MERP_RMU.NaturesSummons.spells.Spread Plants II.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Spread Plants II.description",
+          "level": 15,
+          "description": "As Spread Plants, except the effect also promotes the growth and spread of small trees.",
+          "aoe": "20'R",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Propagation des Plantes II",
+              "description": "Comme Propagation des Plantes, mais l’effet favorise aussi la croissance et la propagation de petits arbres."
+            },
+            "en": {
+              "name": "Spread Plants II",
+              "description": "As Spread Plants, except the effect also promotes the growth and spread of small trees."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Storm Prayer",
+          "label": "MERP_RMU.NaturesSummons.spells.Storm Prayer.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Storm Prayer.description",
+          "level": 16,
+          "description": "As Fog Prayer, except the requested weather is a heavy thunderstorm.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière de Tempête",
+              "description": "Comme Prière de Brouillard, mais le temps demandé est un violent orage."
+            },
+            "en": {
+              "name": "Storm Prayer",
+              "description": "As Fog Prayer, except the requested weather is a heavy thunderstorm."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Hail Prayer",
+          "label": "MERP_RMU.NaturesSummons.spells.Hail Prayer.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Hail Prayer.description",
+          "level": 17,
+          "description": "As Fog Prayer, except the requested weather is a hailstorm.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière de Grêle",
+              "description": "Comme Prière de Brouillard, mais le temps demandé est une tempête de grêle."
+            },
+            "en": {
+              "name": "Hail Prayer",
+              "description": "As Fog Prayer, except the requested weather is a hailstorm."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Lightning Prayer",
+          "label": "MERP_RMU.NaturesSummons.spells.Lightning Prayer.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Lightning Prayer.description",
+          "level": 18,
+          "description": "As Fog Prayer, except the requested weather is a lightning storm.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière de Foudre",
+              "description": "Comme Prière de Brouillard, mais le temps demandé est un orage de foudre."
+            },
+            "en": {
+              "name": "Lightning Prayer",
+              "description": "As Fog Prayer, except the requested weather is a lightning storm."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Tornado Prayer",
+          "label": "MERP_RMU.NaturesSummons.spells.Tornado Prayer.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Tornado Prayer.description",
+          "level": 20,
+          "description": "As Fog Prayer, except the requested weather includes a tornado.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière de Tornade",
+              "description": "Comme Prière de Brouillard, mais le temps demandé comprend une tornade."
+            },
+            "en": {
+              "name": "Tornado Prayer",
+              "description": "As Fog Prayer, except the requested weather includes a tornado."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Clear Weather Prayer",
+          "label": "MERP_RMU.NaturesSummons.spells.Clear Weather Prayer.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Clear Weather Prayer.description",
+          "level": 25,
+          "description": "As Fog Prayer, except the prayer requests and, if answered, ensures clear weather.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière de Temps Clair",
+              "description": "Comme Prière de Brouillard, mais la prière demande et, si elle est exaucée, garantit un temps clair."
+            },
+            "en": {
+              "name": "Clear Weather Prayer",
+              "description": "As Fog Prayer, except the prayer requests and, if answered, ensures clear weather."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Weather Prayer True",
+          "label": "MERP_RMU.NaturesSummons.spells.Weather Prayer True.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Weather Prayer True.description",
+          "level": 30,
+          "description": "As Fog Prayer, except the power petitioned grants whatever weather would be most beneficial to the caster’s current goal.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Prière Météorologique Véritable",
+              "description": "Comme Prière de Brouillard, mais la puissance sollicitée accorde les conditions météorologiques les plus favorables à l’objectif actuel du lanceur."
+            },
+            "en": {
+              "name": "Weather Prayer True",
+              "description": "As Fog Prayer, except the power petitioned grants whatever weather would be most beneficial to the caster’s current goal."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Summons",
+          "listType": "Base",
+          "profession": "Rôdeur",
+          "name": "Prayer Mastery",
+          "label": "MERP_RMU.NaturesSummons.spells.Prayer Mastery.name",
+          "descriptionLabel": "MERP_RMU.NaturesSummons.spells.Prayer Mastery.description",
+          "level": 50,
+          "description": "The caster may use any lower-level Prayer spell on this list; the chance that the prayer is answered is 95%.",
+          "aoe": "500'R/lvl",
+          "duration": "varies",
+          "range": "10'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Maîtrise des Prières",
+              "description": "Le lanceur peut utiliser n’importe quel sort de Prière de niveau inférieur de cette liste ; la probabilité que la prière soit exaucée est de 95 %."
+            },
+            "en": {
+              "name": "Prayer Mastery",
+              "description": "The caster may use any lower-level Prayer spell on this list; the chance that the prayer is answered is 95%."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Invocations de la Nature",
+      "system": {
+        "name": "Invocations de la Nature",
+        "label": "Invocations de la Nature",
+        "notesLabel": "Invocations de la Nature — notes",
+        "notes": "<h2>Invocations de la Nature</h2><p>Liste de base du Rôdeur restaurée depuis RMSS pour MERP-RMU. Elle combine l’appel d’animaux locaux, l’accélération de la croissance végétale et des prières météorologiques.</p><p><strong>Animaux :</strong> les animaux appelés doivent normalement exister dans la région et pouvoir atteindre le lanceur ; ils ne sont pas créés par le sort. Un animal appelé quitte normalement le lanceur à l’expiration du sort.</p><p><strong>Prières :</strong> les sorts de prière exigent que le lanceur soit dehors et consacre au moins une minute à la prière. La météo demandée apparaît progressivement si la prière est exaucée et suit ensuite son cours naturel.</p>"
+      }
+    },
+    "en": {
+      "name": "Nature's Summons",
+      "system": {
+        "name": "Nature's Summons",
+        "label": "Nature's Summons",
+        "notesLabel": "Nature's Summons — notes",
+        "notes": "<h2>Nature's Summons</h2><p>Ranger Base List restored from RMSS for MERP-RMU. It combines the summoning of local animals, accelerated plant growth, and weather prayers.</p><p><strong>Animals:</strong> summoned animals must normally exist in the region and be able to reach the caster; they are not created by the spell. A summoned animal normally leaves the caster when the spell expires.</p><p><strong>Prayers:</strong> prayer spells require the caster to be outdoors and to devote at least one minute to prayer. If the prayer is granted, the requested weather develops gradually and then follows its natural course.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Rôdeur (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Ranger (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-ranger"
+  ]
+}

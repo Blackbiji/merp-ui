@@ -1,0 +1,79 @@
+{
+  "key": "herb-jitsu",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-respiratoires",
+  "document": {
+    "name": "Jitsu",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-jitsu",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-4",
+        "sourceCost": "34gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": "Respiratoire",
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Jitsu"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Medium",
+      "form": "Clams",
+      "prep": "liquid",
+      "season": "",
+      "cost": "34gp",
+      "notes": "<p>Ces palourdes se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison respiratoire de niveau 5B. Ce venin jaune inflige 5 à 50 points de vie et provoque des effets respiratoires généralement légers.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 5
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Jitsu",
+      "system": {
+        "notes": "<p>Ces palourdes se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison respiratoire de niveau 5B. Ce venin jaune inflige 5 à 50 points de vie et provoque des effets respiratoires généralement légers.</p>"
+      }
+    },
+    "en": {
+      "name": "Jitsu",
+      "system": {
+        "notes": "<p>This clams is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 5B respiratory poison. This yellow venom inflicts 5–50 concussion hits and generally causes light respiratory effects.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Respiratoires"
+    ],
+    "en": [
+      "Respiratory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-respiratoires"
+  ]
+}

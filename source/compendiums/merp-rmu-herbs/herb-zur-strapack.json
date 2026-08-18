@@ -1,0 +1,78 @@
+{
+  "key": "herb-zur-strapack",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Zur (Paquet-Sangle / Strapack)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-zur-strapack",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-U-4-M",
+        "sourceCost": "12gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "U",
+        "regionCode": "M",
+        "sourceVariants": [],
+        "sourceName": "Zur (Strapack)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Medium",
+      "form": "Fungus",
+      "prep": "brew",
+      "season": "",
+      "cost": "12gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat froid, notamment dans les milieux souterrains, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction triple environ la portée de l’odorat et de l’ouïe et accorde +50 aux perceptions correspondantes pendant une heure.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Zur (Paquet-Sangle / Strapack)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat froid, notamment dans les milieux souterrains, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction triple environ la portée de l’odorat et de l’ouïe et accorde +50 aux perceptions correspondantes pendant une heure.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Zur (Strapack)",
+      "system": {
+        "notes": "<p>This fungus is found chiefly in cold climates, especially in underground environments, and is best known in central Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction roughly triples the range of smell and hearing and grants +50 to the corresponding perceptions for one hour.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

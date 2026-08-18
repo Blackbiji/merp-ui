@@ -1,0 +1,78 @@
+{
+  "key": "herb-black-vine-vision-maker",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "intoxicants",
+  "document": {
+    "name": "Liane Noire (Black Vine / Faiseuse-de-Visions / Vision Maker)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-black-vine-vision-maker",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-C-9-NW",
+        "sourceCost": "205gp",
+        "sourceCategory": "Intoxicants",
+        "utilityGroups": [
+          "Intoxicants"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "C",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Black Vine (Vision Maker)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Absurd",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "205gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Faiseur de Visions (Vision Maker)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Cette plante de la Vieille Forêt, d’Yeffelwood et d’Eryn Vorn produit une euphorie intense de quelques minutes. Lorsque l’effet retombe, l’utilisateur risque de sombrer dans un sommeil délirant.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 10,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Liane Noire (Black Vine / Faiseuse-de-Visions / Vision Maker)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Faiseur de Visions (Vision Maker)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Cette plante de la Vieille Forêt, d’Yeffelwood et d’Eryn Vorn produit une euphorie intense de quelques minutes. Lorsque l’effet retombe, l’utilisateur risque de sombrer dans un sommeil délirant.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Black Vine (Vision Maker)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Vision Maker</strong>.</p><p>This leaf is found chiefly in cold climates, especially in coniferous forests, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains of legendary rarity.</p><p>To obtain its properties, it is used by direct application.</p><p>This plant from the Old Forest, Yeffelwood, and Eryn Vorn produces intense euphoria lasting a few minutes. When the effect wears off, the user risks falling into a delirious sleep.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Intoxicants"
+    ],
+    "en": [
+      "Intoxicants"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "intoxicants"
+  ]
+}

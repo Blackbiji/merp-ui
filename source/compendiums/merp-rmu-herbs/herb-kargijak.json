@@ -1,0 +1,79 @@
+{
+  "key": "herb-kargijak",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Kargîjak",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-kargijak",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "a-V-2-W",
+        "sourceCost": "8gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "a",
+        "localeCode": "V",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Kargîjak"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "V",
+      "findDifficulty": "Easy",
+      "form": "Berry",
+      "prep": "paste",
+      "season": "",
+      "cost": "8gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat aride, notamment dans les terrains volcaniques, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Cette baie de Mordor, préparée en pâte, rend 20 points de vie et double la vitesse de guérison. Elle brûle la peau, étourdit 1 à 10 rounds et laisse presque toujours une cicatrice.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Kargîjak",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat aride, notamment dans les terrains volcaniques, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Cette baie de Mordor, préparée en pâte, rend 20 points de vie et double la vitesse de guérison. Elle brûle la peau, étourdit 1 à 10 rounds et laisse presque toujours une cicatrice.</p>"
+      }
+    },
+    "en": {
+      "name": "Kargîjak",
+      "system": {
+        "notes": "<p>This berry is found chiefly in arid climates, especially in volcanic terrain, and is best known in western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>This berry from Mordor, prepared as a paste, restores 20 concussion hits and doubles the healing rate. It burns the skin, causes 1–10 rounds of stun, and almost always leaves a scar.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

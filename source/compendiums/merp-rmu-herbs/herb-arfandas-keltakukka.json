@@ -1,0 +1,79 @@
+{
+  "key": "herb-arfandas-keltakukka",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Arfandas (Keltakukka)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-arfandas-keltakukka",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-6-SE",
+        "sourceCost": "2sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": "SE",
+        "sourceVariants": [],
+        "sourceName": "Arfandas (Keltakukka)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Very Hard",
+      "form": "Stem",
+      "prep": "apply",
+      "season": "",
+      "cost": "2sp",
+      "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La tige fraîche, pilée en cataplasme puis posée sur une fracture correctement réduite, double la vitesse naturelle de consolidation. Elle perd ses vertus en quelques heures.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Arfandas (Keltakukka)",
+      "system": {
+        "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La tige fraîche, pilée en cataplasme puis posée sur une fracture correctement réduite, double la vitesse naturelle de consolidation. Elle perd ses vertus en quelques heures.</p>"
+      }
+    },
+    "en": {
+      "name": "Arfandas (Keltakukka)",
+      "system": {
+        "notes": "<p>This stem is found chiefly in mild temperate climates, especially in freshwater banks and shores, and is best known in south-eastern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>A fresh stalk, crushed into a poultice and placed on a properly set fracture, doubles the natural rate of knitting. It loses its potency within a few hours.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

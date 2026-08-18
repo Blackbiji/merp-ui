@@ -1,0 +1,79 @@
+{
+  "key": "herb-mountainrod-bonebinder",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Tige des Montagnes (Mountainrod / Lie-Os / Bonebinder)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-mountainrod-bonebinder",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-M-3-U",
+        "sourceCost": "5gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "M",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Mountainrod (Bonebinder)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Light",
+      "form": "Reed",
+      "prep": "brew",
+      "season": "",
+      "cost": "5gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Lie-Os (Bonebinder)</strong>.</p><p>Ce roseau se rencontre surtout dans les régions au climat tempéré doux, notamment dans les montagnes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une infusion de ce roseau multiplie par cinq la guérison des fractures pendant deux jours, à condition que l’os soit correctement réduit et immobilisé.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Tige des Montagnes (Mountainrod / Lie-Os / Bonebinder)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Lie-Os (Bonebinder)</strong>.</p><p>Ce roseau se rencontre surtout dans les régions au climat tempéré doux, notamment dans les montagnes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une infusion de ce roseau multiplie par cinq la guérison des fractures pendant deux jours, à condition que l’os soit correctement réduit et immobilisé.</p>"
+      }
+    },
+    "en": {
+      "name": "Mountainrod (Bonebinder)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Bonebinder</strong>.</p><p>This reed is found chiefly in mild temperate climates, especially in mountains, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>An infusion of this reed increases fracture healing fivefold for two days, provided the bone has been correctly set and immobilized.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "key": "herb-madarch-zurumul",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Madarch (Zûrumul)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-madarch-zurumul",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-U-6-NW",
+        "sourceCost": "100gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation",
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "U",
+        "regionCode": "NW",
+        "sourceVariants": [
+          {
+            "group": "Nourriture",
+            "code": "m-U-6-NW",
+            "form": "Mushroom",
+            "prep": "ingest",
+            "cost": "1gp",
+            "af": 1,
+            "effect": "Une livre de Madarch suffit à nourrir un homme pendant trois jours et se conserve plusieurs semaines."
+          }
+        ],
+        "sourceName": "Madarch (Zûrumul)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Very Hard",
+      "form": "Mushroom",
+      "prep": "liquid",
+      "season": "",
+      "cost": "100gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Le jus du champignon, dilué avec une quantité égale d’eau, donne une potion violacée qui réchauffe le corps et répare coupures et vaisseaux sanguins en moins de deux heures. Non dilué, il devient le dangereux Pelenaur. Une livre de Madarch suffit à nourrir un homme pendant trois jours et se conserve plusieurs semaines.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Madarch (Zûrumul)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Le jus du champignon, dilué avec une quantité égale d’eau, donne une potion violacée qui réchauffe le corps et répare coupures et vaisseaux sanguins en moins de deux heures. Non dilué, il devient le dangereux Pelenaur. Une livre de Madarch suffit à nourrir un homme pendant trois jours et se conserve plusieurs semaines.</p>"
+      }
+    },
+    "en": {
+      "name": "Madarch (Zûrumul)",
+      "system": {
+        "notes": "<p>This mushroom is found chiefly in mild temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>The mushroom’s juice, diluted with an equal quantity of water, produces a violet potion that warms the body and repairs cuts and blood vessels in less than two hours. Undiluted it becomes the dangerous Pelenaur. One pound of Madarch will feed a man for three days and keeps for several weeks.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

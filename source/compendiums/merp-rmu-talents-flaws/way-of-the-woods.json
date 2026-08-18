@@ -1,0 +1,68 @@
+{
+  "key": "way-of-the-woods",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Voie des Bois (Way of the Woods)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "way-of-the-woods",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Luindrim"
+          ]
+        },
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Physical",
+      "name": "Way of the Woods",
+      "cost": "8/Tier",
+      "tier": 0,
+      "maxTier": 2,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Voie des Bois (Way of the Woods)</h1><h2>Description</h2><p>Vous possédez une affinité remarquable avec les arbres et la végétation forestière. Dans un terrain boisé naturel, vous vous déplacez, grimpez, vous dissimulez et franchissez les obstacles avec une aisance inhabituelle.</p><h2>Tiers</h2><p>Chaque Tier accorde <strong>+5</strong> aux Manœuvres physiques directement liées au terrain forestier, jusqu’à +10 au Tier II.</p><h2>Adaptation MERP-RMU</h2><p>Le bonus ne s’applique pas à toutes les actions accomplies en forêt, mais uniquement lorsque la nature du terrain boisé joue réellement un rôle dans la Manœuvre.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_way-of-the-woods.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Voie des Bois (Way of the Woods)",
+      "system": {
+        "description": "<h1>Voie des Bois (Way of the Woods)</h1><h2>Description</h2><p>Vous possédez une affinité remarquable avec les arbres et la végétation forestière. Dans un terrain boisé naturel, vous vous déplacez, grimpez, vous dissimulez et franchissez les obstacles avec une aisance inhabituelle.</p><h2>Tiers</h2><p>Chaque Tier accorde <strong>+5</strong> aux Manœuvres physiques directement liées au terrain forestier, jusqu’à +10 au Tier II.</p><h2>Adaptation MERP-RMU</h2><p>Le bonus ne s’applique pas à toutes les actions accomplies en forêt, mais uniquement lorsque la nature du terrain boisé joue réellement un rôle dans la Manœuvre.</p>"
+      }
+    },
+    "en": {
+      "name": "Way of the Woods",
+      "system": {
+        "description": "<h1>Way of the Woods</h1><h2>Description</h2><p>You possess a remarkable affinity with trees and forest vegetation. In natural wooded terrain, you move, climb, hide, and cross obstacles with unusual ease.</p><h2>Tiers</h2><p>Each Tier grants <strong>+5</strong> to physical Maneuvers directly related to forest terrain, up to +10 at Tier II.</p><h2>MERP-RMU Adaptation</h2><p>The bonus does not apply to every action performed in a forest, only when the nature of the wooded terrain genuinely plays a role in the Maneuver.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

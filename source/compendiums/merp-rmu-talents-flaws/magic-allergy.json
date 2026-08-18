@@ -1,0 +1,64 @@
+{
+  "key": "magic-allergy",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Allergie à la magie (Magic Allergy)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "magic-allergy",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Magic Allergy",
+      "cost": "-10/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Allergie à la magie (Magic Allergy)</h1><h2>Description</h2><p>Votre organisme ou votre esprit réagit violemment à certains Royaumes de magie. Utiliser un sort ou un objet magique du Royaume concerné peut provoquer une réaction violente, et la proximité d’une manifestation importante de cette magie comporte également un risque. Les Tiers supérieurs étendent l’allergie à deux puis trois Royaumes.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> allergie à un Royaume.</li><li><strong>Tier II :</strong> allergie à deux Royaumes.</li><li><strong>Tier III :</strong> allergie aux trois Royaumes.</li></ul><h2>Adaptation MERP-RMU</h2><p>Les anciens pourcentages et durées sont adaptés aux règles RMU. Utiliser directement une magie concernée doit comporter un risque majeur d’incapacitation ; être à proximité d’une manifestation importante peut également imposer un test. Le Royaume ou les Royaumes sont choisis à l’acquisition.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_magic-allergy.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Allergie à la magie (Magic Allergy)",
+      "system": {
+        "description": "<h1>Allergie à la magie (Magic Allergy)</h1><h2>Description</h2><p>Votre organisme ou votre esprit réagit violemment à certains Royaumes de magie. Utiliser un sort ou un objet magique du Royaume concerné peut provoquer une réaction violente, et la proximité d’une manifestation importante de cette magie comporte également un risque. Les Tiers supérieurs étendent l’allergie à deux puis trois Royaumes.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> allergie à un Royaume.</li><li><strong>Tier II :</strong> allergie à deux Royaumes.</li><li><strong>Tier III :</strong> allergie aux trois Royaumes.</li></ul><h2>Adaptation MERP-RMU</h2><p>Les anciens pourcentages et durées sont adaptés aux règles RMU. Utiliser directement une magie concernée doit comporter un risque majeur d’incapacitation ; être à proximité d’une manifestation importante peut également imposer un test. Le Royaume ou les Royaumes sont choisis à l’acquisition.</p>"
+      }
+    },
+    "en": {
+      "name": "Magic Allergy",
+      "system": {
+        "description": "<h1>Magic Allergy</h1><h2>Description</h2><p>Your body or mind reacts violently to certain Realms of magic. Using a spell or magical object from the affected Realm can provoke a severe reaction, and being near a major manifestation of that magic also carries a risk. Higher Tiers extend the allergy to two and then three Realms.</p><h2>Tiers</h2><ul><li><strong>Tier I:</strong> allergy to one Realm.</li><li><strong>Tier II:</strong> allergy to two Realms.</li><li><strong>Tier III:</strong> allergy to all three Realms.</li></ul><h2>MERP-RMU Adaptation</h2><p>The old percentages and durations are adapted to RMU rules. Directly using affected magic should carry a major risk of incapacitation; proximity to an important manifestation may also require a test. The affected Realm or Realms are chosen when the Flaw is acquired.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

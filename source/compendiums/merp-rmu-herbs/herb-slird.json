@@ -1,0 +1,79 @@
+{
+  "key": "herb-slird",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-nerveux",
+  "document": {
+    "name": "Slird",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-slird",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-8-SW",
+        "sourceCost": "13gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Nerveux"
+        ],
+        "poisonType": "Nerveux",
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": "SW",
+        "sourceVariants": [],
+        "sourceName": "Slird"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Sheer Folly",
+      "form": "Fruit",
+      "prep": "paste",
+      "season": "",
+      "cost": "13gp",
+      "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 2C agissant en 1 à 2 rounds. Il peut faire perdre toute sensation dans plusieurs extrémités pendant des semaines.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 2
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Slird",
+      "system": {
+        "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 2C agissant en 1 à 2 rounds. Il peut faire perdre toute sensation dans plusieurs extrémités pendant des semaines.</p>"
+      }
+    },
+    "en": {
+      "name": "Slird",
+      "system": {
+        "notes": "<p>This fruit is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known in south-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 2C nerve poison acting within 1–2 rounds. It can remove all sensation from several extremities for weeks.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nerveux"
+    ],
+    "en": [
+      "Nerve"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-nerveux"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-thuryik",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-respiratoires",
+  "document": {
+    "name": "Thuryik",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-thuryik",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-V-8",
+        "sourceCost": "85gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": "Respiratoire",
+        "climateCode": "s",
+        "localeCode": "V",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Thuryik"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "V",
+      "findDifficulty": "Sheer Folly",
+      "form": "Gas",
+      "prep": "ingest",
+      "season": "",
+      "cost": "85gp",
+      "notes": "<p>Ce gaz se rencontre surtout dans les régions au climat semi-aride, notamment dans les terrains volcaniques.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10 sous forme gazeuse. Un échec au Jet de Résistance plonge dans un profond sommeil de 1 à 10 heures.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 10
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Thuryik",
+      "system": {
+        "notes": "<p>Ce gaz se rencontre surtout dans les régions au climat semi-aride, notamment dans les terrains volcaniques.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10 sous forme gazeuse. Un échec au Jet de Résistance plonge dans un profond sommeil de 1 à 10 heures.</p>"
+      }
+    },
+    "en": {
+      "name": "Thuryik",
+      "system": {
+        "notes": "<p>This gas is found chiefly in semi-arid climates, especially in volcanic terrain.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 10 respiratory poison in gaseous form. A failed Resistance Roll puts the victim into a deep sleep for 1–10 hours.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Respiratoires"
+    ],
+    "en": [
+      "Respiratory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-respiratoires"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "stealthy-hobbit",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Furtif (Stealthy)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "stealthy-hobbit",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Hobbits",
+            "Periannath"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Stealthy",
+      "cost": "7/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Furtif (Stealthy)</h1><h2>Description</h2><p>Vous incarnez la discrétion presque proverbiale des Hobbits : démarche silencieuse, capacité à vous fondre dans un environnement et talent pour disparaître de l’attention d’autrui. Cette aptitude améliore la filature, la dissimulation et les tentatives pour passer inaperçu au milieu d’autres personnes.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres de Discrétion et aux Manœuvres appropriées pour passer inaperçu dans une foule ou un groupe. Ce Talent est réservé aux Hobbits.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_stealthy-hobbit.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Furtif (Stealthy)",
+      "system": {
+        "description": "<h1>Furtif (Stealthy)</h1><h2>Description</h2><p>Vous incarnez la discrétion presque proverbiale des Hobbits : démarche silencieuse, capacité à vous fondre dans un environnement et talent pour disparaître de l’attention d’autrui. Cette aptitude améliore la filature, la dissimulation et les tentatives pour passer inaperçu au milieu d’autres personnes.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres de Discrétion et aux Manœuvres appropriées pour passer inaperçu dans une foule ou un groupe. Ce Talent est réservé aux Hobbits.</p>"
+      }
+    },
+    "en": {
+      "name": "Stealthy",
+      "system": {
+        "description": "<h1>Stealthy</h1><h2>Description</h2><p>You embody the almost proverbial stealth of Hobbits: a quiet gait, the ability to blend into your surroundings, and a talent for slipping from the notice of others. This aptitude improves shadowing, concealment, and attempts to pass unnoticed among other people.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+5 per Tier</strong> to Stealth Maneuvers and appropriate Maneuvers to pass unnoticed in a crowd or group. This Talent is restricted to Hobbits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

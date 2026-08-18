@@ -1,0 +1,265 @@
+{
+  "key": "alchemist",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-pures-essence",
+  "document": {
+    "name": "Alchimiste",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "alchemist",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmss-to-rmu-adaptation",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 — Alchemist; Alchemy Companion pp.79–86 — Core-Rules Alchemist lists"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP / RMSS — adaptation RMU",
+      "profession": "Alchemist",
+      "spellCastingGroup": "Pure",
+      "numberOfBaseLists": 6,
+      "realms": "Essence",
+      "description": "<h1>Alchimiste</h1>\n<p>L’<strong>Alchimiste</strong> est un utilisateur pur de l’<strong>Essence</strong> spécialisé dans l’intégration de la magie au monde matériel. Son domaine est la création d’objets, de préparations, de dispositifs et de supports capables de conserver ou transmettre un effet magique.</p>\n<p>Dans la Terre du Milieu, il correspond à l’artisan savant, au maître des runes, au créateur d’objets de pouvoir et au chercheur capable d’associer connaissance de la matière et maîtrise de l’Essence. Un Noldo peut développer des techniques très anciennes ; un érudit dúnadan du Gondor travailler sur des objets hérités de Númenor ; un maître-artisan d’Umbar conserver des traditions dérivées des Númenóréens Noirs.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales de l’Alchimiste sont <strong>Empathie (Em)</strong> et <strong>Raisonnement (Re)</strong>. L’Empathie est la caractéristique de royaume de l’Essence ; le Raisonnement soutient analyse, conception et reproduction précise des procédés.</p>\n<h2>Orientation technique</h2>\n<p>L’Alchimiste favorise Listes de base, Artisanat, connaissances magiques et techniques, Manipulation de la Puissance, Développement des Points de Puissance, Perception de la Puissance et compétences utiles à la création.</p>\n<h2>L’art de fixer la magie</h2>\n<p>Le cœur de la Profession consiste à transformer un effet magique fugitif en une œuvre durable : arme, armure, bijou, potion, bâton, baguette, rune, matériau ou objet utilitaire. La fabrication associe artisanat, connaissance magique et incantation.</p>\n<h2>Création et artisanat</h2>\n<p>Un Noldo peut associer forge, métaux et Essence ; un Alchimiste du Gondor créer objets de protection ou outils savants ; à Umbar, certains ateliers peuvent produire des objets destinés à la guerre, à l’intimidation ou à la domination. La qualité matérielle de l’objet reste importante.</p>\n<h2>Analyse des objets de pouvoir</h2>\n<p>L’Alchimiste peut rechercher fonction, nature de l’enchantement, royaume utilisé, conditions d’activation, procédés de fabrication et limitations d’un objet. Une arme trouvée dans les ruines d’Arnor, un artefact de Númenor ou une œuvre elfique exigent des connaissances différentes.</p>\n<h2>Potions et préparations</h2>\n<p>Liquides, poudres, huiles et substances préparées peuvent servir de support à la magie. Un Alchimiste dorwinadan peut associer son art aux vins, huiles et plantes locales ; un érudit du Gondor travailler à partir d’anciens textes númenóréens.</p>\n<h2>Listes de sorts de base</h2>\n<p>L’Alchimiste dispose traditionnellement d’un ensemble plus large de traditions et en choisit six comme Listes de base. Parmi elles : <strong>Enchantements d’Armures (Armour Enchantments)</strong>, <strong>Enchantements Généraux (General Enchantments)</strong>, <strong>Compétences de Matière Inorganique (Inorganic Skills)</strong>, <strong>Analyse des Objets (Item Analysis)</strong>, <strong>Maîtrise des Liquides et des Gaz (Liquid/Gas Skills)</strong>, <strong>Compétences de Matière Organique (Organic Skills)</strong>, <strong>Imprégnation d’un Autre Royaume (Other Realm Imbedding)</strong>, <strong>Imprégnation de son Propre Royaume (Own Realm Imbedding)</strong> et <strong>Enchantements d’Armes (Weapon Enchantments)</strong>.</p>\n<h2>Déclin des savoirs</h2>\n<p>Au Premier ou au Deuxième Âge, certains artisans peuvent disposer de maîtres, matériaux et ateliers devenus introuvables plus tard. Au Troisième Âge, connaître le principe d’un enchantement ne garantit pas la capacité de reproduire une œuvre ancienne.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons le <strong>châssis de l’Alchimiste RMU</strong> et son royaume d’Essence, avec <strong>Empathie et Raisonnement</strong> comme caractéristiques primordiales.</p>\n<p>MERP-RMU développe fortement son identité de créateur d’objets de pouvoir et impose des limites de rareté, transmission, atelier et matériaux. La création magique devient un projet réel plutôt qu’une simple dépense mécanique.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "8/12"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "8/12"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "2/3"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "5/7"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "6/8"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "9/12"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "15/20"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Delving",
+          "skillName": "Attunement"
+        },
+        {
+          "skillCategory": "Delving",
+          "skillName": "Runes"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Spell Lore"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Materials Lore"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "skillName": "Grace"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "skillName": "Power Development"
+        },
+        {
+          "skillCategory": "Crafting",
+          "skillName": "Metalcraft"
+        },
+        {
+          "skillCategory": "Crafting",
+          "skillName": "Stonecraft"
+        },
+        {
+          "skillCategory": "Science",
+          "skillName": "Engineering"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual"
+        },
+        {
+          "skillCategory": "Technical",
+          "skillName": "Locks"
+        },
+        {
+          "skillCategory": "Vocation",
+          "skillName": "Crafting"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Alchimiste",
+      "system": {
+        "description": "<h1>Alchimiste</h1>\n<p>L’<strong>Alchimiste</strong> est un utilisateur pur de l’<strong>Essence</strong> spécialisé dans l’intégration de la magie au monde matériel. Son domaine est la création d’objets, de préparations, de dispositifs et de supports capables de conserver ou transmettre un effet magique.</p>\n<p>Dans la Terre du Milieu, il correspond à l’artisan savant, au maître des runes, au créateur d’objets de pouvoir et au chercheur capable d’associer connaissance de la matière et maîtrise de l’Essence. Un Noldo peut développer des techniques très anciennes ; un érudit dúnadan du Gondor travailler sur des objets hérités de Númenor ; un maître-artisan d’Umbar conserver des traditions dérivées des Númenóréens Noirs.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales de l’Alchimiste sont <strong>Empathie (Em)</strong> et <strong>Raisonnement (Re)</strong>. L’Empathie est la caractéristique de royaume de l’Essence ; le Raisonnement soutient analyse, conception et reproduction précise des procédés.</p>\n<h2>Orientation technique</h2>\n<p>L’Alchimiste favorise Listes de base, Artisanat, connaissances magiques et techniques, Manipulation de la Puissance, Développement des Points de Puissance, Perception de la Puissance et compétences utiles à la création.</p>\n<h2>L’art de fixer la magie</h2>\n<p>Le cœur de la Profession consiste à transformer un effet magique fugitif en une œuvre durable : arme, armure, bijou, potion, bâton, baguette, rune, matériau ou objet utilitaire. La fabrication associe artisanat, connaissance magique et incantation.</p>\n<h2>Création et artisanat</h2>\n<p>Un Noldo peut associer forge, métaux et Essence ; un Alchimiste du Gondor créer objets de protection ou outils savants ; à Umbar, certains ateliers peuvent produire des objets destinés à la guerre, à l’intimidation ou à la domination. La qualité matérielle de l’objet reste importante.</p>\n<h2>Analyse des objets de pouvoir</h2>\n<p>L’Alchimiste peut rechercher fonction, nature de l’enchantement, royaume utilisé, conditions d’activation, procédés de fabrication et limitations d’un objet. Une arme trouvée dans les ruines d’Arnor, un artefact de Númenor ou une œuvre elfique exigent des connaissances différentes.</p>\n<h2>Potions et préparations</h2>\n<p>Liquides, poudres, huiles et substances préparées peuvent servir de support à la magie. Un Alchimiste dorwinadan peut associer son art aux vins, huiles et plantes locales ; un érudit du Gondor travailler à partir d’anciens textes númenóréens.</p>\n<h2>Listes de sorts de base</h2>\n<p>L’Alchimiste dispose traditionnellement d’un ensemble plus large de traditions et en choisit six comme Listes de base. Parmi elles : <strong>Enchantements d’Armures (Armour Enchantments)</strong>, <strong>Enchantements Généraux (General Enchantments)</strong>, <strong>Compétences de Matière Inorganique (Inorganic Skills)</strong>, <strong>Analyse des Objets (Item Analysis)</strong>, <strong>Maîtrise des Liquides et des Gaz (Liquid/Gas Skills)</strong>, <strong>Compétences de Matière Organique (Organic Skills)</strong>, <strong>Imprégnation d’un Autre Royaume (Other Realm Imbedding)</strong>, <strong>Imprégnation de son Propre Royaume (Own Realm Imbedding)</strong> et <strong>Enchantements d’Armes (Weapon Enchantments)</strong>.</p>\n<h2>Déclin des savoirs</h2>\n<p>Au Premier ou au Deuxième Âge, certains artisans peuvent disposer de maîtres, matériaux et ateliers devenus introuvables plus tard. Au Troisième Âge, connaître le principe d’un enchantement ne garantit pas la capacité de reproduire une œuvre ancienne.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons le <strong>châssis de l’Alchimiste RMU</strong> et son royaume d’Essence, avec <strong>Empathie et Raisonnement</strong> comme caractéristiques primordiales.</p>\n<p>MERP-RMU développe fortement son identité de créateur d’objets de pouvoir et impose des limites de rareté, transmission, atelier et matériaux. La création magique devient un projet réel plutôt qu’une simple dépense mécanique.</p>"
+      }
+    },
+    "en": {
+      "name": "Alchemist",
+      "system": {
+        "description": "<h1>Alchemist</h1>\n<p>The <strong>Alchemist</strong> is a pure <strong>Essence</strong> spell-user specializing in the integration of magic with the material world. The Profession’s domain is the <strong>creation of objects, preparations, devices, and media capable of retaining or transmitting a magical effect</strong>.</p>\n<p>In earlier Middle-earth and Rolemaster games, the Alchemist is already defined as a maker of magical items, potions, runes, staves, and wands. The Alchemist manipulates matter, enchants objects, and can embed spells from the character’s own realm or from other magical traditions.</p>\n<p>In Middle-earth, the Profession corresponds to learned artisans, rune-masters, makers of objects of power, and researchers able to combine knowledge of matter with mastery of Essence. A <strong>Noldo</strong> craftsman may develop very ancient enchanting techniques; a learned <strong>Dúnadan of Gondor</strong> may study objects inherited from Númenor; a master artisan of <strong>Umbar</strong> may preserve traditions derived from the Black Númenóreans.</p>\n<h2>Prime Stats</h2>\n<p>The Alchemist’s Prime Stats are <strong>Empathy (Em)</strong> and <strong>Reasoning (Re)</strong>.</p>\n<p><strong>Empathy</strong> is the realm stat of Essence and reflects sensitivity to the magical structures that permeate matter. <strong>Reasoning</strong> represents analysis, understanding of complex processes, the ability to design an object or preparation, and the precision required to reproduce a magical procedure.</p>\n<h2>Technical Orientation</h2>\n<p>The Alchemist is a <strong>pure Essence spell-user</strong>. Development favours Base Spell Lists, <strong>Craft</strong>, magical and technical lore, <strong>Power Manipulation</strong>, Power Point Development, Power Perception, sciences useful to creation, and analysis of objects of power.</p>\n<h2>The Art of Fixing Magic into Matter</h2>\n<p>The heart of the Profession is the ability to transform a fleeting magical effect into something enduring. An Alchemist may work upon a weapon, armour, jewel, potion, staff, wand, rune, raw material, or practical object.</p>\n<p>This approach is especially well suited to Middle-earth, where objects of power occupy a central place. An ancient blade, enchanted jewel, or rune-carved stone may survive for centuries and become the lasting testimony of a vanished art.</p>\n<h2>Creation and Craftsmanship</h2>\n<p>The Alchemist remains a craftsman as much as a spell-user. A Noldo may combine smithcraft, metalworking, and Essence to produce an exceptional blade. An Alchemist of Gondor may specialize in protective items or devices inspired by Númenórean traditions. In Umbar, an artisan tied to ancient Númenórean houses may create objects intended for war, intimidation, or domination.</p>\n<h2>Analysis of Objects of Power</h2>\n<p>The Alchemist can determine an object’s function, the nature of its enchantment, the realm used, its conditions of activation, the way an effect was embedded into matter, and any limitations or dangers.</p>\n<p>In a Third Age campaign, this ability is invaluable: an object found in the ruins of Arnor, a weapon recovered from an old tomb of Gondor, a relic of Númenor, or an Elven work may require very different bodies of knowledge.</p>\n<h2>Potions and Preparations</h2>\n<p>The Alchemist can create magical preparations in the form of liquids, powders, oils, or other prepared substances. In Middle-earth, these practices remain discreet: strengthening draughts, protective oils, travel preparations, or substances with unusual properties.</p>\n<p>A <strong>Dorwinadan</strong> Alchemist may combine the art with knowledge of the wines, oils, and plants of Dorwinion; a scholar of Gondor may work from preparations described in old Númenórean texts.</p>\n<h2>Spell Imbedding</h2>\n<p>One of the Alchemist’s major abilities is to embed a spell in an object. If the Alchemist knows the spell it may be supplied directly; otherwise another spell-user, a rune, or another magical source may provide the effect. This naturally encourages cooperation with Magicians, Animists, Lay Healers, and other traditions.</p>\n<h2>Objects of Power and Rarity</h2>\n<p>In MERP-RMU, creating magical objects requires time, suitable materials, an appropriate workshop or tools, access to the necessary Lists, and often rare components. A blade forged from ore of the <strong>Blue Mountains</strong>, a stone cut according to a technique of <strong>Númenor</strong>, or an object made in an ancient Elven workshop may permit results impossible with ordinary materials.</p>\n<h2>Possible Profiles</h2>\n<p><strong>Weapon Enchanter.</strong> Creation and improvement of weapons.</p>\n<p><strong>Armour Enchanter.</strong> Protection and reinforcement of armour.</p>\n<p><strong>Potion Maker.</strong> Substances, preparations, and effects retained in liquid form.</p>\n<p><strong>Rune-master.</strong> Techniques that fix magical effects into signs and inscriptions.</p>\n<p><strong>Artefact Scholar.</strong> Item analysis, magical lore, history, and craftsmanship.</p>\n<h2>Base Spell Lists</h2>\n<p>Traditionally, the Alchemist has access to an expanded set of professional Lists and chooses <strong>six</strong> as Base Spell Lists. The principal traditions include:</p>\n<ul>\n<li><strong>Armour Enchantments</strong></li>\n<li><strong>General Enchantments</strong></li>\n<li><strong>Inorganic Skills</strong></li>\n<li><strong>Item Analysis</strong></li>\n<li><strong>Liquid/Gas Skills</strong></li>\n<li><strong>Organic Skills</strong></li>\n<li><strong>Other Realm Imbedding</strong></li>\n<li><strong>Own Realm Imbedding</strong></li>\n<li><strong>Weapon Enchantments</strong></li>\n</ul>\n<h2>The Decline of Lore</h2>\n<p>The Alchemist illustrates especially well the <strong>decline of magic through the Ages</strong>. In the First or Second Age, some craftsmen had access to lore, materials, and masters that are almost impossible to find in the Third Age. A late human Alchemist may understand the principle behind an ancient work yet remain unable to reproduce it for lack of materials, tools, or complementary knowledge.</p>\n<h2>RMU / MERP Adaptation</h2>\n<p>RMU retains the Alchemist as a pure spell-user specialized in the creation of magical objects. For MERP-RMU we use the <strong>Essence Alchemist chassis</strong>, with <strong>Empathy and Reasoning</strong> as Prime Stats.</p>\n<p>We develop the Profession’s traditional identity as a maker of objects of power, with particular emphasis on enchantment, potions, analysis, and spell imbedding. The Middle-earth adaptation mainly adds limits of <strong>rarity, transmission, and availability of lore</strong>. Creation requires a tradition, workshop, materials, and time. The Alchemist therefore represents magic fixed into enduring works, bound to craft, materials, and knowledge whose secrets become rarer with each passing Age.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions Magiques Pures",
+      "Essence"
+    ],
+    "en": [
+      "Pure Spell-user Professions",
+      "Essence"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-magiques-pures",
+    "professions-pures-essence"
+  ]
+}

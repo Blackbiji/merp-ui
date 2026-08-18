@@ -1,0 +1,64 @@
+{
+  "key": "rival-npc",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Rival — PNJ (Rival/NPC)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "rival-npc",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Rival/NPC",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Rival — PNJ (Rival/NPC)</h1><h2>Description</h2><p>Vous avez un rival qui poursuit ses propres objectifs et agit régulièrement contre vos intérêts. L’origine de la rivalité, ses enjeux et les limites que chacun est prêt à franchir sont définis avec le MJ.</p><h2>Tiers</h2><p>Le Tier mesure la puissance, les ressources, l’hostilité ou la fréquence d’intervention du rival.</p><h2>Adaptation MERP-RMU</h2><p>Le rival doit être un véritable PNJ de campagne, capable d’intervenir dans l’histoire. Il n’est pas nécessaire qu’il cherche à vous tuer : concurrence, vengeance, prestige, politique ou intérêts opposés peuvent suffire.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_rival-npc.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Rival — PNJ (Rival/NPC)",
+      "system": {
+        "description": "<h1>Rival — PNJ (Rival/NPC)</h1><h2>Description</h2><p>Vous avez un rival qui poursuit ses propres objectifs et agit régulièrement contre vos intérêts. L’origine de la rivalité, ses enjeux et les limites que chacun est prêt à franchir sont définis avec le MJ.</p><h2>Tiers</h2><p>Le Tier mesure la puissance, les ressources, l’hostilité ou la fréquence d’intervention du rival.</p><h2>Adaptation MERP-RMU</h2><p>Le rival doit être un véritable PNJ de campagne, capable d’intervenir dans l’histoire. Il n’est pas nécessaire qu’il cherche à vous tuer : concurrence, vengeance, prestige, politique ou intérêts opposés peuvent suffire.</p>"
+      }
+    },
+    "en": {
+      "name": "Rival/NPC",
+      "system": {
+        "description": "<h1>Rival/NPC</h1><h2>Description</h2><p>You have a rival who pursues their own goals and regularly acts against your interests. The origin of the rivalry, its stakes, and the limits each side is willing to cross are defined with the GM.</p><h2>Tiers</h2><p>The Tier measures the rival’s power, resources, hostility, or frequency of intervention.</p><h2>MERP-RMU Adaptation</h2><p>The rival must be a genuine campaign NPC capable of entering the story. They need not seek to kill you: competition, revenge, prestige, politics, or opposing interests may be sufficient.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

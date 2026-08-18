@@ -1,0 +1,79 @@
+{
+  "key": "herb-taynaga",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-conversion",
+  "document": {
+    "name": "Taynaga",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-taynaga",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-C-5",
+        "sourceCost": "27gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Conversion"
+        ],
+        "poisonType": "Conversion",
+        "climateCode": "c",
+        "localeCode": "C",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Taynaga"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Hard",
+      "form": "Bark",
+      "prep": "powder",
+      "season": "",
+      "cost": "27gp",
+      "notes": "<p>Cette écorce se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison de conversion de niveau 8D. Cette poudre brunâtre stérilise la victime, inflige 5 à 50 points de vie de dégâts et peut produire des effets généraux modérés.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 8
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Taynaga",
+      "system": {
+        "notes": "<p>Cette écorce se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison de conversion de niveau 8D. Cette poudre brunâtre stérilise la victime, inflige 5 à 50 points de vie de dégâts et peut produire des effets généraux modérés.</p>"
+      }
+    },
+    "en": {
+      "name": "Taynaga",
+      "system": {
+        "notes": "<p>This bark is found chiefly in cold climates, especially in coniferous forests.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is ground into powder.</p><p>Level 8D conversion poison. This brownish powder sterilizes the victim, inflicts 5–50 concussion hits, and can produce moderate general effects.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Conversion"
+    ],
+    "en": [
+      "Conversion"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-conversion"
+  ]
+}

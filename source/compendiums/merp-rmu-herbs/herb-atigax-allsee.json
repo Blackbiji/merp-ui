@@ -1,0 +1,78 @@
+{
+  "key": "herb-atigax-allsee",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Atigax (Voit-Tout / Allsee)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-atigax-allsee",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-H-4-NW",
+        "sourceCost": "40gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "H",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Atigax (Allsee)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Medium",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "40gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Voit-Tout (Allsee)</strong>.</p><p>Cette racine se rencontre surtout dans les régions au climat glacial, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La racine brûlée puis réduite en poudre est mêlée à de l’eau bouillante. La préparation protège les yeux contre l’éblouissement pendant environ neuf heures. Elle est aussi connue sous les noms Firegaze, Punasalvia et Metsästäjän Ystävä.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 12,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Atigax (Voit-Tout / Allsee)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Voit-Tout (Allsee)</strong>.</p><p>Cette racine se rencontre surtout dans les régions au climat glacial, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La racine brûlée puis réduite en poudre est mêlée à de l’eau bouillante. La préparation protège les yeux contre l’éblouissement pendant environ neuf heures. Elle est aussi connue sous les noms Firegaze, Punasalvia et Metsästäjän Ystävä.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Atigax (Allsee)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Allsee</strong>.</p><p>This root is found chiefly in frigid climates, especially in heaths, scrublands, and moors, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The root is burned, ground into powder, and mixed with boiling water. The preparation protects the eyes from glare for about nine hours. It is also known as Firegaze, Punasalvia, and Metsästäjän Ystävä.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

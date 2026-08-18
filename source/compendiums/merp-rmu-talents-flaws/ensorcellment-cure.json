@@ -1,0 +1,64 @@
+{
+  "key": "ensorcellment-cure",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mystical",
+  "document": {
+    "name": "Guérison d’envoûtement (Ensorcellment Cure)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "ensorcellment-cure",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Ensorcellment Cure",
+      "cost": "15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Guérison d’envoûtement (Ensorcellment Cure)</h1><h2>Description</h2><p>Vous pouvez tenter de délivrer une créature d’une altération magique permanente en la touchant : malédiction, lycanthropie, enchantement durable ou effet comparable. La puissance qui maintient l’altération doit résister à votre tentative ; en cas d’échec, l’effet est définitivement dissipé.</p><p>Si l’altération résiste, vous ne pouvez pas tenter de supprimer une nouvelle fois ce même effet avant d’avoir gagné un niveau.</p><h2>Adaptation MERP-RMU</h2><p>La tentative utilise le niveau du personnage comme niveau d’effet opposé à celui de la malédiction ou de l’altération. Le MJ détermine le Jet de Résistance approprié lorsque l’effet ne possède pas déjà de niveau clairement défini. Les altérations directement liées à des puissances uniques, des artefacts majeurs ou des volontés supérieures peuvent rester hors de portée de ce Talent.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_ensorcellment-cure.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Guérison d’envoûtement (Ensorcellment Cure)",
+      "system": {
+        "description": "<h1>Guérison d’envoûtement (Ensorcellment Cure)</h1><h2>Description</h2><p>Vous pouvez tenter de délivrer une créature d’une altération magique permanente en la touchant : malédiction, lycanthropie, enchantement durable ou effet comparable. La puissance qui maintient l’altération doit résister à votre tentative ; en cas d’échec, l’effet est définitivement dissipé.</p><p>Si l’altération résiste, vous ne pouvez pas tenter de supprimer une nouvelle fois ce même effet avant d’avoir gagné un niveau.</p><h2>Adaptation MERP-RMU</h2><p>La tentative utilise le niveau du personnage comme niveau d’effet opposé à celui de la malédiction ou de l’altération. Le MJ détermine le Jet de Résistance approprié lorsque l’effet ne possède pas déjà de niveau clairement défini. Les altérations directement liées à des puissances uniques, des artefacts majeurs ou des volontés supérieures peuvent rester hors de portée de ce Talent.</p>"
+      }
+    },
+    "en": {
+      "name": "Ensorcellment Cure",
+      "system": {
+        "description": "<h1>Ensorcellment Cure</h1><h2>Description</h2><p>You can attempt to free a creature from a permanent magical alteration by touching it: a curse, lycanthropy, lasting enchantment, or comparable effect. The power sustaining the alteration must resist your attempt; if it fails, the effect is permanently dispelled.</p><p>If the alteration resists, you cannot attempt to remove that same effect again until you have gained a level.</p><h2>MERP-RMU Adaptation</h2><p>The attempt uses the character’s level as the effect level opposed to the level of the curse or alteration. The GM determines the appropriate Resistance Roll when the effect does not already have a clearly defined level. Alterations directly linked to unique powers, major artifacts, or superior wills may remain beyond the reach of this Talent.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mystiques"
+    ],
+    "en": [
+      "Talents — Mystical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mystical"
+  ]
+}

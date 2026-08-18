@@ -1,0 +1,78 @@
+{
+  "key": "herb-lemsang",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "nourriture",
+  "document": {
+    "name": "Lemsang",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-lemsang",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-5-NW",
+        "sourceCost": "25sp",
+        "sourceCategory": "Nourriture",
+        "utilityGroups": [
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Lemsang"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Hard",
+      "form": "Mushroom",
+      "prep": "ingest",
+      "season": "",
+      "cost": "25sp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une livre de ce champignon constitue l’équivalent d’une semaine de rations conservées.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lemsang",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une livre de ce champignon constitue l’équivalent d’une semaine de rations conservées.</p>"
+      }
+    },
+    "en": {
+      "name": "Lemsang",
+      "system": {
+        "notes": "<p>This mushroom is found chiefly in cool temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>One pound of this mushroom is equivalent to one week of preserved rations.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nourriture"
+    ],
+    "en": [
+      "Food"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "nourriture"
+  ]
+}

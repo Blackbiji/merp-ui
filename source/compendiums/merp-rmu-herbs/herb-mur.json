@@ -1,0 +1,78 @@
+{
+  "key": "herb-mur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Mur",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-mur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-S-7-S",
+        "sourceCost": "80gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "S",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Mur"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Extremely Hard",
+      "form": "Resin",
+      "prep": "apply",
+      "season": "",
+      "cost": "80gp",
+      "notes": "<p>Cette résine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frottée sur une personne mourante, cette résine peut empêcher la mort pendant plusieurs heures.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Mur",
+      "system": {
+        "notes": "<p>Cette résine se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frottée sur une personne mourante, cette résine peut empêcher la mort pendant plusieurs heures.</p>"
+      }
+    },
+    "en": {
+      "name": "Mur",
+      "system": {
+        "notes": "<p>This resin is found chiefly in semi-arid climates, especially in short-grass plains, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Rubbed onto a dying person, this resin can prevent death for several hours.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

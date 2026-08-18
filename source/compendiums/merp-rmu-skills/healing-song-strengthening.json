@@ -1,0 +1,64 @@
+{
+  "key": "healing-song-strengthening",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "skills",
+  "document": {
+    "name": "Chant de Fortification",
+    "type": "skill",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "healing-song-strengthening",
+        "collection": "merp-rmu",
+        "source": "RMSS/RMFRP — Healing Songs",
+        "restriction": {
+          "race": "elf"
+        },
+        "resultTable": "healing-songs",
+        "englishName": "Strengthening Songs"
+      }
+    },
+    "system": {
+      "name": "Chant de Fortification",
+      "category": "Power Manipulation",
+      "trainingGroup": null,
+      "stat": "Em",
+      "description": "<h1>Chant de Fortification (Strengthening Songs)</h1><p>Chant elfique polyvalent capable de soutenir plusieurs formes de guérison et de fortifier l’esprit.</p><p><strong>Restriction :</strong> cette Compétence est normalement réservée aux lignées elfiques. Elle est considérée comme Restreinte pour les autres peuples.</p><p><strong>Résolution :</strong> utilisez une Manœuvre de Manipulation de la Puissance. MERP-UI remplace automatiquement le résultat normal par la table spéciale des Chants de Guérison. Les modificateurs de situation, de gravité de la blessure, des chanteurs accompagnateurs et de l’affinité du patient avec les Elfes restent à appliquer dans le dialogue de Manœuvre.</p><p><strong>Modificateurs RMSS/RMFRP :</strong> situation de +30 à −70 ; nature de la maladie ou de la blessure de +30 à −70 ; jusqu’à cinq chanteurs accompagnateurs ajoutent chacun leur bonus dans le Chant concerné ; patient mortel ayant une affinité avec les Elfes : −20 ; autre mortel : −50. Ces modificateurs sont saisis dans le dialogue de Manœuvre RMU.</p>",
+      "specialization": "",
+      "attackUUID": null,
+      "specializationType": 0,
+      "hasSpecialization": false,
+      "fixedSpecializations": false,
+      "specializations": [],
+      "favorite": false,
+      "cultureRanks": 0,
+      "ranks": 0,
+      "autoSkill": false
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Chant de Fortification",
+      "system": {
+        "name": "Chant de Fortification",
+        "description": "<h1>Chant de Fortification (Strengthening Songs)</h1><p>Chant elfique polyvalent capable de soutenir plusieurs formes de guérison et de fortifier l’esprit.</p><p><strong>Restriction :</strong> cette Compétence est normalement réservée aux lignées elfiques. Elle est considérée comme Restreinte pour les autres peuples.</p><p><strong>Résolution :</strong> utilisez une Manœuvre de Manipulation de la Puissance. MERP-UI remplace automatiquement le résultat normal par la table spéciale des Chants de Guérison. Les modificateurs de situation, de gravité de la blessure, des chanteurs accompagnateurs et de l’affinité du patient avec les Elfes restent à appliquer dans le dialogue de Manœuvre.</p><p><strong>Modificateurs RMSS/RMFRP :</strong> situation de +30 à −70 ; nature de la maladie ou de la blessure de +30 à −70 ; jusqu’à cinq chanteurs accompagnateurs ajoutent chacun leur bonus dans le Chant concerné ; patient mortel ayant une affinité avec les Elfes : −20 ; autre mortel : −50. Ces modificateurs sont saisis dans le dialogue de Manœuvre RMU.</p>"
+      }
+    },
+    "en": {
+      "name": "Strengthening Songs",
+      "system": {
+        "name": "Strengthening Songs",
+        "description": "<h1>Strengthening Songs</h1><p>Versatile Elven song capable of supporting several forms of healing and strengthening the mind.</p><p><strong>Restriction:</strong> this Skill is normally reserved for Elven lineages. It is considered Restricted for other peoples.</p><p><strong>Resolution:</strong> use a Power Manipulation Maneuver. MERP-UI automatically replaces the normal result with the special Healing Songs table. Situation modifiers, injury severity, accompanying singers, and the patient’s affinity with Elves must still be entered in the Maneuver dialog.</p><p><strong>RMSS/RMFRP Modifiers:</strong> situation from +30 to −70; nature of the illness or injury from +30 to −70; up to five accompanying singers each add their bonus in the relevant Song; mortal patient with an affinity for Elves: −20; other mortal: −50. These modifiers are entered in the RMU Maneuver dialog.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [],
+    "en": []
+  },
+  "compendiumFolderKeyPath": []
+}

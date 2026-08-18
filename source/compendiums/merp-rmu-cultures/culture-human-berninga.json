@@ -1,0 +1,1465 @@
+{
+  "key": "culture-human-berninga",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Béornides",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-human-berninga",
+        "canonicalKey": "culture-human-berninga",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "availability": {
+          "ages": [
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "3": false,
+            "4": false
+          }
+        },
+        "recommendedSpecializations": {
+          "Animal": [
+            "Bears",
+            "Horses",
+            "Beasts of the Anduin"
+          ],
+          "Environmental — Survival": [
+            "Forest",
+            "Mountain Valleys"
+          ],
+          "Crafting & Vocation": [
+            "Hunter",
+            "Herbalist",
+            "Woodworker"
+          ],
+          "Combat Training — Melee Weapons": [
+            "Axes",
+            "Clubs",
+            "Spears"
+          ]
+        },
+        "characterCreation": {
+          "professionRules": {
+            "forbiddenSpellCastingGroups": [
+              "Pure Essence",
+              "Hybrid Essence"
+            ],
+            "recommendedProfessionKeys": [
+              "fighter",
+              "ranger",
+              "animist",
+              "rogue"
+            ]
+          }
+        },
+        "raceCanonicalKey": "race-humans",
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "3": {
+            "sourceKey": "culture-human-berninga-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Béornides",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-human-berninga-age-3",
+                  "canonicalKey": "culture-human-berninga",
+                  "collection": "merp-rmu",
+                  "contentVersion": 3,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Atliduk",
+                        "spoken": 8,
+                        "written": 8,
+                        "nameFr": "Atliduk"
+                      },
+                      {
+                        "name": "Waildyth",
+                        "spoken": 8,
+                        "written": 0,
+                        "mode": "signaled",
+                        "nameFr": "Waildyth"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 6,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Nahaiduk",
+                        "spoken": 6,
+                        "written": 6,
+                        "nameFr": "Nahaiduk"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Animal": [
+                      "Bears",
+                      "Horses",
+                      "Beasts of the Anduin"
+                    ],
+                    "Environmental — Survival": [
+                      "Forest",
+                      "Mountain Valleys"
+                    ],
+                    "Crafting & Vocation": [
+                      "Hunter",
+                      "Herbalist",
+                      "Woodworker"
+                    ],
+                    "Combat Training — Melee Weapons": [
+                      "Axes",
+                      "Clubs",
+                      "Spears"
+                    ]
+                  },
+                  "characterCreation": {
+                    "professionRules": {
+                      "forbiddenSpellCastingGroups": [
+                        "Pure Essence",
+                        "Hybrid Essence"
+                      ],
+                      "recommendedProfessionKeys": [
+                        "fighter",
+                        "ranger",
+                        "animist",
+                        "rogue"
+                      ]
+                    }
+                  },
+                  "raceCanonicalKey": "race-humans",
+                  "descriptionFormat": "html"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Béornides",
+                "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 1
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Béornides",
+                "system": {
+                  "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+                  "culture": "Béornides"
+                }
+              },
+              "en": {
+                "name": "Berninga",
+                "system": {
+                  "description": "<h1>Berninga</h1>\n<p>The Berninga, also called Beornings, Beijabar, or Bajaegahar, form a distinctive branch of the Northmen. They descend from ancient peoples of Eriador who, over the course of the Second Age, gradually separated from other northern communities. By the beginning of the Third Age their ancestors had withdrawn into the upper vales of the Anduin, the northern foothills of the Misty Mountains, and the wild passes leading toward the Grey Mountains. Their isolation, closeness to nature, and religious traditions eventually gave them an identity of their own, distinct from that of the Woodmen, the people of Dale, and other peoples of Rhovanion.</p>\n<h2>Origins and territory</h2>\n<p>Few in number, they rarely live in true villages. Most families occupy large isolated estates, carefully maintained but hidden from the eyes of travelers. These homesteads may lie in the fertile vales of the Anduin, in forests, or on mountain slopes. Each household is almost a small autonomous world, bringing together kin, servants, familiar beasts, barns, beehives, gardens, and pastureland.</p>\n<h2>Estates and way of life</h2>\n<p>The Berninga maintain an exceptional relationship with wild animals. According to their traditions, their ancestors once made an alliance with the bears of the Misty Mountains. In exchange for their protection and certain secret teachings, they swore not to hunt mammals for flesh or fur. Instead they live on the produce of their fields, honey, fish, poultry, and other resources that do not break this ancient pact. Animals living on their lands are not regarded as mere possessions: they are companions of the household, sometimes able to perform tasks that astonish outsiders. Wild beasts do not normally attack a Berninga unless deliberately provoked.</p>\n<h2>Alliance with animals</h2>\n<p>A few members of their bloodlines possess the mysterious gift of changing skin and taking the form of a bear. This ability is neither common nor mastered by all Berninga. Those who possess it are nevertheless held in very high esteem, for they embody the ancestral bond between clan, bears, and the wild powers of the world. Their transformation grants formidable strength and ferocity, but can also subject them to instincts that are difficult to contain. In the fury of battle, a skin-changer risks losing all restraint and no longer clearly distinguishing the enemy from whatever merely stands in his path.</p>\n<h2>Skin-changers</h2>\n<p>Physically, the Berninga are among the most imposing Northmen. They are tall, powerfully built, and heavy-boned. Men often have abundant body hair and red or reddish-brown hair, whereas most other northern peoples are more commonly fair-haired. Their appearance is further emphasized by woolen clothing, coarse cloaks, and furs that they wear without necessarily having obtained them by hunting. They rarely use heavy armor, preferring freedom of movement, supple leathers, and clothing suited to forests and mountains.</p>\n<h2>Appearance</h2>\n<p>Their endurance is remarkable. They require little sleep and can continue their activities for long periods without prolonged rest. This resilience, combined with physical strength and knowledge of the land, allows them to cross mountains, woods, and valleys with an ease few outsiders can match. They are especially gifted at hunting, tracking, survival, woodworking, herb lore, and caring for animals.</p>\n<h2>Endurance and skills</h2>\n<p>Berninga society is organized around families and bloodlines. Marriages are monogamous, contracted outside the immediate family but generally within the clan. Descent traditionally follows the male line, and a wife joins her husband's household. Men often leave their estate for long periods to take part in the military, religious, or political affairs of the people, while the rest of the family ensures continuity of the household.</p>\n<h2>Society and family</h2>\n<p>Their religion centers on the ancient Bear Cult, called Bairakyn. Its leader, the Waildanbair, or “Sovereign Bear,” also exercises hereditary authority over the whole clan. He is traditionally the most powerful of the skin-changers. During secret ceremonies held at certain sacred places, initiates take bear form and reenact through dance the tales, battles, and myths of their ancestors. These sanctuaries are linked to Oromë, whom the Berninga call Araw, the hunter Vala, protector of riders, forests, and wild beasts.</p>\n<h2>Religion</h2>\n<p>Berninga are solitary by nature and uncomfortable in large cities. They prefer open spaces, woods, and isolated homesteads to crowded streets and stone palaces. This reserve does not mean they are hostile. Once an outsider earns their trust, they can be generous, welcoming, and even merry. Their deep, booming laughter then contrasts with their usual gravity. They speak little, but attach great value to frankness, hospitality, and a given word.</p>\n<h2>Temperament</h2>\n<p>In battle, their temperament changes abruptly. They become fierce, impulsive, and at times almost uncontrollable. They particularly hate Orcs, Wargs, Trolls, Giants, and Dragons, which they regard as natural enemies of their people and lands. Their favorite weapons are simple and suited to their way of life: axes, clubs, maces, short bows, slings, and staves. They generally reject magical disciplines founded on Essence, but may follow traditions of Channeling or Mentalism when linked to nature, spirits, healing, or ancient clan customs.</p>\n<h2>War and weapons</h2>\n<p>Their principal language is Atliduk, accompanied by Waildyth, a system of natural calls and signals used to communicate at a distance or with animal companions. Many also speak Westron and the tongue of the Woodmen. The more educated may know Logathig, Sindarin, or certain Silvan languages.</p>\n<h2>Languages</h2>\n<p>The Berninga are thus a small but formidable people, standing on the boundary between the civilization of the Northmen and the wild world. They protect the crossings of the Anduin, their isolated estates, and ancient roads against creatures of the Shadow. Their strength rests not on numerous armies or fortresses, but on knowledge of the land, family solidarity, alliance with beasts, and the exceptional power of those who still bear the gift of the Bear.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Atliduk</strong> — Spoken 8 / Written 8</li><li><strong>Waildyth</strong> — Spoken 8 / Written 0 — signaled language</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Nahaiduk</strong> — Spoken 6 / Written 6</li></ul></section>",
+                  "culture": "Berninga"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-human-berninga-age-4",
+            "folderKey": "cultures-age-4-humans",
+            "document": {
+              "name": "Béornides",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-human-berninga-age-4",
+                  "canonicalKey": "culture-human-berninga",
+                  "collection": "merp-rmu",
+                  "contentVersion": 3,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-4",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Atliduk",
+                        "spoken": 8,
+                        "written": 8,
+                        "nameFr": "Atliduk"
+                      },
+                      {
+                        "name": "Waildyth",
+                        "spoken": 8,
+                        "written": 0,
+                        "mode": "signaled",
+                        "nameFr": "Waildyth"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 6,
+                        "written": 6,
+                        "nameFr": "Westron"
+                      },
+                      {
+                        "name": "Nahaiduk",
+                        "spoken": 6,
+                        "written": 6,
+                        "nameFr": "Nahaiduk"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Animal": [
+                      "Bears",
+                      "Horses",
+                      "Beasts of the Anduin"
+                    ],
+                    "Environmental — Survival": [
+                      "Forest",
+                      "Mountain Valleys"
+                    ],
+                    "Crafting & Vocation": [
+                      "Hunter",
+                      "Herbalist",
+                      "Woodworker"
+                    ],
+                    "Combat Training — Melee Weapons": [
+                      "Axes",
+                      "Clubs",
+                      "Spears"
+                    ]
+                  },
+                  "characterCreation": {
+                    "professionRules": {
+                      "forbiddenSpellCastingGroups": [
+                        "Pure Essence",
+                        "Hybrid Essence"
+                      ],
+                      "recommendedProfessionKeys": [
+                        "fighter",
+                        "ranger",
+                        "animist",
+                        "rogue"
+                      ]
+                    }
+                  },
+                  "raceCanonicalKey": "race-humans",
+                  "descriptionFormat": "html"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Béornides",
+                "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 1
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Béornides",
+                "system": {
+                  "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+                  "culture": "Béornides"
+                }
+              },
+              "en": {
+                "name": "Berninga",
+                "system": {
+                  "description": "<h1>Berninga</h1>\n<p>The Berninga, also called Beornings, Beijabar, or Bajaegahar, form a distinctive branch of the Northmen. They descend from ancient peoples of Eriador who, over the course of the Second Age, gradually separated from other northern communities. By the beginning of the Third Age their ancestors had withdrawn into the upper vales of the Anduin, the northern foothills of the Misty Mountains, and the wild passes leading toward the Grey Mountains. Their isolation, closeness to nature, and religious traditions eventually gave them an identity of their own, distinct from that of the Woodmen, the people of Dale, and other peoples of Rhovanion.</p>\n<h2>Origins and territory</h2>\n<p>Few in number, they rarely live in true villages. Most families occupy large isolated estates, carefully maintained but hidden from the eyes of travelers. These homesteads may lie in the fertile vales of the Anduin, in forests, or on mountain slopes. Each household is almost a small autonomous world, bringing together kin, servants, familiar beasts, barns, beehives, gardens, and pastureland.</p>\n<h2>Estates and way of life</h2>\n<p>The Berninga maintain an exceptional relationship with wild animals. According to their traditions, their ancestors once made an alliance with the bears of the Misty Mountains. In exchange for their protection and certain secret teachings, they swore not to hunt mammals for flesh or fur. Instead they live on the produce of their fields, honey, fish, poultry, and other resources that do not break this ancient pact. Animals living on their lands are not regarded as mere possessions: they are companions of the household, sometimes able to perform tasks that astonish outsiders. Wild beasts do not normally attack a Berninga unless deliberately provoked.</p>\n<h2>Alliance with animals</h2>\n<p>A few members of their bloodlines possess the mysterious gift of changing skin and taking the form of a bear. This ability is neither common nor mastered by all Berninga. Those who possess it are nevertheless held in very high esteem, for they embody the ancestral bond between clan, bears, and the wild powers of the world. Their transformation grants formidable strength and ferocity, but can also subject them to instincts that are difficult to contain. In the fury of battle, a skin-changer risks losing all restraint and no longer clearly distinguishing the enemy from whatever merely stands in his path.</p>\n<h2>Skin-changers</h2>\n<p>Physically, the Berninga are among the most imposing Northmen. They are tall, powerfully built, and heavy-boned. Men often have abundant body hair and red or reddish-brown hair, whereas most other northern peoples are more commonly fair-haired. Their appearance is further emphasized by woolen clothing, coarse cloaks, and furs that they wear without necessarily having obtained them by hunting. They rarely use heavy armor, preferring freedom of movement, supple leathers, and clothing suited to forests and mountains.</p>\n<h2>Appearance</h2>\n<p>Their endurance is remarkable. They require little sleep and can continue their activities for long periods without prolonged rest. This resilience, combined with physical strength and knowledge of the land, allows them to cross mountains, woods, and valleys with an ease few outsiders can match. They are especially gifted at hunting, tracking, survival, woodworking, herb lore, and caring for animals.</p>\n<h2>Endurance and skills</h2>\n<p>Berninga society is organized around families and bloodlines. Marriages are monogamous, contracted outside the immediate family but generally within the clan. Descent traditionally follows the male line, and a wife joins her husband's household. Men often leave their estate for long periods to take part in the military, religious, or political affairs of the people, while the rest of the family ensures continuity of the household.</p>\n<h2>Society and family</h2>\n<p>Their religion centers on the ancient Bear Cult, called Bairakyn. Its leader, the Waildanbair, or “Sovereign Bear,” also exercises hereditary authority over the whole clan. He is traditionally the most powerful of the skin-changers. During secret ceremonies held at certain sacred places, initiates take bear form and reenact through dance the tales, battles, and myths of their ancestors. These sanctuaries are linked to Oromë, whom the Berninga call Araw, the hunter Vala, protector of riders, forests, and wild beasts.</p>\n<h2>Religion</h2>\n<p>Berninga are solitary by nature and uncomfortable in large cities. They prefer open spaces, woods, and isolated homesteads to crowded streets and stone palaces. This reserve does not mean they are hostile. Once an outsider earns their trust, they can be generous, welcoming, and even merry. Their deep, booming laughter then contrasts with their usual gravity. They speak little, but attach great value to frankness, hospitality, and a given word.</p>\n<h2>Temperament</h2>\n<p>In battle, their temperament changes abruptly. They become fierce, impulsive, and at times almost uncontrollable. They particularly hate Orcs, Wargs, Trolls, Giants, and Dragons, which they regard as natural enemies of their people and lands. Their favorite weapons are simple and suited to their way of life: axes, clubs, maces, short bows, slings, and staves. They generally reject magical disciplines founded on Essence, but may follow traditions of Channeling or Mentalism when linked to nature, spirits, healing, or ancient clan customs.</p>\n<h2>War and weapons</h2>\n<p>Their principal language is Atliduk, accompanied by Waildyth, a system of natural calls and signals used to communicate at a distance or with animal companions. Many also speak Westron and the tongue of the Woodmen. The more educated may know Logathig, Sindarin, or certain Silvan languages.</p>\n<h2>Languages</h2>\n<p>The Berninga are thus a small but formidable people, standing on the boundary between the civilization of the Northmen and the wild world. They protect the crossings of the Anduin, their isolated estates, and ancient roads against creatures of the Shadow. Their strength rests not on numerous armies or fortresses, but on knowledge of the land, family solidarity, alliance with beasts, and the exceptional power of those who still bear the gift of the Bear.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Atliduk</strong> — Spoken 8 / Written 8</li><li><strong>Waildyth</strong> — Spoken 8 / Written 0 — signaled language</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Nahaiduk</strong> — Spoken 6 / Written 6</li></ul></section>",
+                  "culture": "Berninga"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Béornides",
+      "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Forest",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 10,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 1
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Béornides",
+      "system": {
+        "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+        "culture": "Béornides"
+      }
+    },
+    "en": {
+      "name": "Berninga",
+      "system": {
+        "description": "<h1>Berninga</h1>\n<p>The Berninga, also called Beornings, Beijabar, or Bajaegahar, form a distinctive branch of the Northmen. They descend from ancient peoples of Eriador who, over the course of the Second Age, gradually separated from other northern communities. By the beginning of the Third Age their ancestors had withdrawn into the upper vales of the Anduin, the northern foothills of the Misty Mountains, and the wild passes leading toward the Grey Mountains. Their isolation, closeness to nature, and religious traditions eventually gave them an identity of their own, distinct from that of the Woodmen, the people of Dale, and other peoples of Rhovanion.</p>\n<h2>Origins and territory</h2>\n<p>Few in number, they rarely live in true villages. Most families occupy large isolated estates, carefully maintained but hidden from the eyes of travelers. These homesteads may lie in the fertile vales of the Anduin, in forests, or on mountain slopes. Each household is almost a small autonomous world, bringing together kin, servants, familiar beasts, barns, beehives, gardens, and pastureland.</p>\n<h2>Estates and way of life</h2>\n<p>The Berninga maintain an exceptional relationship with wild animals. According to their traditions, their ancestors once made an alliance with the bears of the Misty Mountains. In exchange for their protection and certain secret teachings, they swore not to hunt mammals for flesh or fur. Instead they live on the produce of their fields, honey, fish, poultry, and other resources that do not break this ancient pact. Animals living on their lands are not regarded as mere possessions: they are companions of the household, sometimes able to perform tasks that astonish outsiders. Wild beasts do not normally attack a Berninga unless deliberately provoked.</p>\n<h2>Alliance with animals</h2>\n<p>A few members of their bloodlines possess the mysterious gift of changing skin and taking the form of a bear. This ability is neither common nor mastered by all Berninga. Those who possess it are nevertheless held in very high esteem, for they embody the ancestral bond between clan, bears, and the wild powers of the world. Their transformation grants formidable strength and ferocity, but can also subject them to instincts that are difficult to contain. In the fury of battle, a skin-changer risks losing all restraint and no longer clearly distinguishing the enemy from whatever merely stands in his path.</p>\n<h2>Skin-changers</h2>\n<p>Physically, the Berninga are among the most imposing Northmen. They are tall, powerfully built, and heavy-boned. Men often have abundant body hair and red or reddish-brown hair, whereas most other northern peoples are more commonly fair-haired. Their appearance is further emphasized by woolen clothing, coarse cloaks, and furs that they wear without necessarily having obtained them by hunting. They rarely use heavy armor, preferring freedom of movement, supple leathers, and clothing suited to forests and mountains.</p>\n<h2>Appearance</h2>\n<p>Their endurance is remarkable. They require little sleep and can continue their activities for long periods without prolonged rest. This resilience, combined with physical strength and knowledge of the land, allows them to cross mountains, woods, and valleys with an ease few outsiders can match. They are especially gifted at hunting, tracking, survival, woodworking, herb lore, and caring for animals.</p>\n<h2>Endurance and skills</h2>\n<p>Berninga society is organized around families and bloodlines. Marriages are monogamous, contracted outside the immediate family but generally within the clan. Descent traditionally follows the male line, and a wife joins her husband's household. Men often leave their estate for long periods to take part in the military, religious, or political affairs of the people, while the rest of the family ensures continuity of the household.</p>\n<h2>Society and family</h2>\n<p>Their religion centers on the ancient Bear Cult, called Bairakyn. Its leader, the Waildanbair, or “Sovereign Bear,” also exercises hereditary authority over the whole clan. He is traditionally the most powerful of the skin-changers. During secret ceremonies held at certain sacred places, initiates take bear form and reenact through dance the tales, battles, and myths of their ancestors. These sanctuaries are linked to Oromë, whom the Berninga call Araw, the hunter Vala, protector of riders, forests, and wild beasts.</p>\n<h2>Religion</h2>\n<p>Berninga are solitary by nature and uncomfortable in large cities. They prefer open spaces, woods, and isolated homesteads to crowded streets and stone palaces. This reserve does not mean they are hostile. Once an outsider earns their trust, they can be generous, welcoming, and even merry. Their deep, booming laughter then contrasts with their usual gravity. They speak little, but attach great value to frankness, hospitality, and a given word.</p>\n<h2>Temperament</h2>\n<p>In battle, their temperament changes abruptly. They become fierce, impulsive, and at times almost uncontrollable. They particularly hate Orcs, Wargs, Trolls, Giants, and Dragons, which they regard as natural enemies of their people and lands. Their favorite weapons are simple and suited to their way of life: axes, clubs, maces, short bows, slings, and staves. They generally reject magical disciplines founded on Essence, but may follow traditions of Channeling or Mentalism when linked to nature, spirits, healing, or ancient clan customs.</p>\n<h2>War and weapons</h2>\n<p>Their principal language is Atliduk, accompanied by Waildyth, a system of natural calls and signals used to communicate at a distance or with animal companions. Many also speak Westron and the tongue of the Woodmen. The more educated may know Logathig, Sindarin, or certain Silvan languages.</p>\n<h2>Languages</h2>\n<p>The Berninga are thus a small but formidable people, standing on the boundary between the civilization of the Northmen and the wild world. They protect the crossings of the Anduin, their isolated estates, and ancient roads against creatures of the Shadow. Their strength rests not on numerous armies or fortresses, but on knowledge of the land, family solidarity, alliance with beasts, and the exceptional power of those who still bear the gift of the Bear.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Atliduk</strong> — Spoken 8 / Written 8</li><li><strong>Waildyth</strong> — Spoken 8 / Written 0 — signaled language</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Nahaiduk</strong> — Spoken 6 / Written 6</li></ul></section>",
+        "culture": "Berninga"
+      }
+    }
+  },
+  "ageVariants": {
+    "3": {
+      "sourceKey": "culture-human-berninga-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Béornides",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-human-berninga-age-3",
+            "canonicalKey": "culture-human-berninga",
+            "collection": "merp-rmu",
+            "contentVersion": 3,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Atliduk",
+                  "spoken": 8,
+                  "written": 8,
+                  "nameFr": "Atliduk"
+                },
+                {
+                  "name": "Waildyth",
+                  "spoken": 8,
+                  "written": 0,
+                  "mode": "signaled",
+                  "nameFr": "Waildyth"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 6,
+                  "written": 6,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Nahaiduk",
+                  "spoken": 6,
+                  "written": 6,
+                  "nameFr": "Nahaiduk"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Animal": [
+                "Bears",
+                "Horses",
+                "Beasts of the Anduin"
+              ],
+              "Environmental — Survival": [
+                "Forest",
+                "Mountain Valleys"
+              ],
+              "Crafting & Vocation": [
+                "Hunter",
+                "Herbalist",
+                "Woodworker"
+              ],
+              "Combat Training — Melee Weapons": [
+                "Axes",
+                "Clubs",
+                "Spears"
+              ]
+            },
+            "characterCreation": {
+              "professionRules": {
+                "forbiddenSpellCastingGroups": [
+                  "Pure Essence",
+                  "Hybrid Essence"
+                ],
+                "recommendedProfessionKeys": [
+                  "fighter",
+                  "ranger",
+                  "animist",
+                  "rogue"
+                ]
+              }
+            },
+            "raceCanonicalKey": "race-humans",
+            "descriptionFormat": "html"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Béornides",
+          "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 1
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Béornides",
+          "system": {
+            "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+            "culture": "Béornides"
+          }
+        },
+        "en": {
+          "name": "Berninga",
+          "system": {
+            "description": "<h1>Berninga</h1>\n<p>The Berninga, also called Beornings, Beijabar, or Bajaegahar, form a distinctive branch of the Northmen. They descend from ancient peoples of Eriador who, over the course of the Second Age, gradually separated from other northern communities. By the beginning of the Third Age their ancestors had withdrawn into the upper vales of the Anduin, the northern foothills of the Misty Mountains, and the wild passes leading toward the Grey Mountains. Their isolation, closeness to nature, and religious traditions eventually gave them an identity of their own, distinct from that of the Woodmen, the people of Dale, and other peoples of Rhovanion.</p>\n<h2>Origins and territory</h2>\n<p>Few in number, they rarely live in true villages. Most families occupy large isolated estates, carefully maintained but hidden from the eyes of travelers. These homesteads may lie in the fertile vales of the Anduin, in forests, or on mountain slopes. Each household is almost a small autonomous world, bringing together kin, servants, familiar beasts, barns, beehives, gardens, and pastureland.</p>\n<h2>Estates and way of life</h2>\n<p>The Berninga maintain an exceptional relationship with wild animals. According to their traditions, their ancestors once made an alliance with the bears of the Misty Mountains. In exchange for their protection and certain secret teachings, they swore not to hunt mammals for flesh or fur. Instead they live on the produce of their fields, honey, fish, poultry, and other resources that do not break this ancient pact. Animals living on their lands are not regarded as mere possessions: they are companions of the household, sometimes able to perform tasks that astonish outsiders. Wild beasts do not normally attack a Berninga unless deliberately provoked.</p>\n<h2>Alliance with animals</h2>\n<p>A few members of their bloodlines possess the mysterious gift of changing skin and taking the form of a bear. This ability is neither common nor mastered by all Berninga. Those who possess it are nevertheless held in very high esteem, for they embody the ancestral bond between clan, bears, and the wild powers of the world. Their transformation grants formidable strength and ferocity, but can also subject them to instincts that are difficult to contain. In the fury of battle, a skin-changer risks losing all restraint and no longer clearly distinguishing the enemy from whatever merely stands in his path.</p>\n<h2>Skin-changers</h2>\n<p>Physically, the Berninga are among the most imposing Northmen. They are tall, powerfully built, and heavy-boned. Men often have abundant body hair and red or reddish-brown hair, whereas most other northern peoples are more commonly fair-haired. Their appearance is further emphasized by woolen clothing, coarse cloaks, and furs that they wear without necessarily having obtained them by hunting. They rarely use heavy armor, preferring freedom of movement, supple leathers, and clothing suited to forests and mountains.</p>\n<h2>Appearance</h2>\n<p>Their endurance is remarkable. They require little sleep and can continue their activities for long periods without prolonged rest. This resilience, combined with physical strength and knowledge of the land, allows them to cross mountains, woods, and valleys with an ease few outsiders can match. They are especially gifted at hunting, tracking, survival, woodworking, herb lore, and caring for animals.</p>\n<h2>Endurance and skills</h2>\n<p>Berninga society is organized around families and bloodlines. Marriages are monogamous, contracted outside the immediate family but generally within the clan. Descent traditionally follows the male line, and a wife joins her husband's household. Men often leave their estate for long periods to take part in the military, religious, or political affairs of the people, while the rest of the family ensures continuity of the household.</p>\n<h2>Society and family</h2>\n<p>Their religion centers on the ancient Bear Cult, called Bairakyn. Its leader, the Waildanbair, or “Sovereign Bear,” also exercises hereditary authority over the whole clan. He is traditionally the most powerful of the skin-changers. During secret ceremonies held at certain sacred places, initiates take bear form and reenact through dance the tales, battles, and myths of their ancestors. These sanctuaries are linked to Oromë, whom the Berninga call Araw, the hunter Vala, protector of riders, forests, and wild beasts.</p>\n<h2>Religion</h2>\n<p>Berninga are solitary by nature and uncomfortable in large cities. They prefer open spaces, woods, and isolated homesteads to crowded streets and stone palaces. This reserve does not mean they are hostile. Once an outsider earns their trust, they can be generous, welcoming, and even merry. Their deep, booming laughter then contrasts with their usual gravity. They speak little, but attach great value to frankness, hospitality, and a given word.</p>\n<h2>Temperament</h2>\n<p>In battle, their temperament changes abruptly. They become fierce, impulsive, and at times almost uncontrollable. They particularly hate Orcs, Wargs, Trolls, Giants, and Dragons, which they regard as natural enemies of their people and lands. Their favorite weapons are simple and suited to their way of life: axes, clubs, maces, short bows, slings, and staves. They generally reject magical disciplines founded on Essence, but may follow traditions of Channeling or Mentalism when linked to nature, spirits, healing, or ancient clan customs.</p>\n<h2>War and weapons</h2>\n<p>Their principal language is Atliduk, accompanied by Waildyth, a system of natural calls and signals used to communicate at a distance or with animal companions. Many also speak Westron and the tongue of the Woodmen. The more educated may know Logathig, Sindarin, or certain Silvan languages.</p>\n<h2>Languages</h2>\n<p>The Berninga are thus a small but formidable people, standing on the boundary between the civilization of the Northmen and the wild world. They protect the crossings of the Anduin, their isolated estates, and ancient roads against creatures of the Shadow. Their strength rests not on numerous armies or fortresses, but on knowledge of the land, family solidarity, alliance with beasts, and the exceptional power of those who still bear the gift of the Bear.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Atliduk</strong> — Spoken 8 / Written 8</li><li><strong>Waildyth</strong> — Spoken 8 / Written 0 — signaled language</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Nahaiduk</strong> — Spoken 6 / Written 6</li></ul></section>",
+            "culture": "Berninga"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-human-berninga-age-4",
+      "folderKey": "cultures-age-4-humans",
+      "document": {
+        "name": "Béornides",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-human-berninga-age-4",
+            "canonicalKey": "culture-human-berninga",
+            "collection": "merp-rmu",
+            "contentVersion": 3,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-4",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Atliduk",
+                  "spoken": 8,
+                  "written": 8,
+                  "nameFr": "Atliduk"
+                },
+                {
+                  "name": "Waildyth",
+                  "spoken": 8,
+                  "written": 0,
+                  "mode": "signaled",
+                  "nameFr": "Waildyth"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 6,
+                  "written": 6,
+                  "nameFr": "Westron"
+                },
+                {
+                  "name": "Nahaiduk",
+                  "spoken": 6,
+                  "written": 6,
+                  "nameFr": "Nahaiduk"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Animal": [
+                "Bears",
+                "Horses",
+                "Beasts of the Anduin"
+              ],
+              "Environmental — Survival": [
+                "Forest",
+                "Mountain Valleys"
+              ],
+              "Crafting & Vocation": [
+                "Hunter",
+                "Herbalist",
+                "Woodworker"
+              ],
+              "Combat Training — Melee Weapons": [
+                "Axes",
+                "Clubs",
+                "Spears"
+              ]
+            },
+            "characterCreation": {
+              "professionRules": {
+                "forbiddenSpellCastingGroups": [
+                  "Pure Essence",
+                  "Hybrid Essence"
+                ],
+                "recommendedProfessionKeys": [
+                  "fighter",
+                  "ranger",
+                  "animist",
+                  "rogue"
+                ]
+              }
+            },
+            "raceCanonicalKey": "race-humans",
+            "descriptionFormat": "html"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Béornides",
+          "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 1
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Béornides",
+          "system": {
+            "description": "<h1>Béornides</h1>\n<p>Les Béornides, également appelés Berninga, Beornings, Beijabar ou Bajaegahar, forment une branche singulière des Hommes du Nord. Ils descendent d’anciens peuples d’Eriador qui, au fil du Deuxième Âge, se séparèrent progressivement des autres communautés nordiques. Au début du Troisième Âge, leurs ancêtres s’étaient retirés dans les hautes vallées de l’Anduin, les contreforts septentrionaux des Monts Brumeux et les passages sauvages menant vers les Montagnes Grises. Leur isolement, leur proximité avec la nature et leurs traditions religieuses finirent par leur donner une identité propre, distincte de celle des Hommes des Bois, des habitants du Val et des autres peuples du Rhovanion.</p>\n<h2>Origines et territoire</h2>\n<p>Peu nombreux, ils vivent rarement dans de véritables villages. La plupart des familles occupent de vastes domaines isolés, soigneusement entretenus mais dissimulés au regard des voyageurs. Ces demeures peuvent se trouver dans les vallées fertiles de l’Anduin, dans les forêts ou sur les pentes des montagnes. Chaque maison forme presque un petit monde autonome, réunissant parents, serviteurs, bêtes familières, granges, ruches, jardins et terres de pâture.</p>\n<h2>Domaines et mode de vie</h2>\n<p>Les Béornides entretiennent une relation exceptionnelle avec les animaux sauvages. Selon leurs traditions, leurs ancêtres conclurent autrefois une alliance avec les ours des Monts Brumeux. En échange de leur protection et de certains enseignements secrets, ils jurèrent de ne pas chasser les mammifères pour leur chair ou leur fourrure. Ils se nourrissent plutôt des produits de leurs cultures, de miel, de poisson, de volaille et d’autres ressources qui ne rompent pas ce pacte ancien. Les animaux vivant sur leurs terres ne sont pas considérés comme de simples possessions : ils sont des compagnons du foyer, parfois capables d’accomplir des tâches qui étonnent les étrangers. Les bêtes sauvages n’attaquent normalement pas un Béornide à moins d’être délibérément provoquées.</p>\n<h2>Alliance avec les animaux</h2>\n<p>Quelques membres de leurs lignées possèdent le don mystérieux de changer de peau et de prendre la forme d’un ours. Cette capacité n’est ni commune ni maîtrisée par tous les Béornides. Ceux qui la détiennent sont cependant tenus en très haute estime, car ils incarnent le lien ancestral entre le clan, les ours et les puissances sauvages du monde. Leur transformation leur confère une force et une férocité redoutables, mais elle peut également les soumettre à des instincts difficiles à contenir. Dans la fureur du combat, le changeur de peau risque de perdre toute mesure et de ne plus distinguer clairement l’ennemi de ce qui se trouve simplement sur son chemin.</p>\n<h2>Changeurs de peau</h2>\n<p>Physiquement, les Béornides comptent parmi les plus imposants des Hommes du Nord. Ils sont grands, puissamment bâtis et dotés d’une ossature robuste. Les hommes portent souvent une pilosité abondante et une chevelure rousse ou brun-roux, alors que la plupart des autres peuples nordiques sont plus fréquemment blonds. Leur apparence est encore accentuée par leurs vêtements de laine, leurs manteaux grossiers et les fourrures qu’ils portent sans nécessairement les avoir obtenues par la chasse. Ils utilisent rarement les armures lourdes, préférant la liberté de mouvement, les cuirs souples et les vêtements adaptés aux forêts et aux montagnes.</p>\n<h2>Apparence</h2>\n<p>Leur endurance est remarquable. Ils ont besoin de peu de sommeil et peuvent poursuivre leurs activités pendant de longues périodes sans repos prolongé. Cette résistance, associée à leur force physique et à leur connaissance du terrain, leur permet de parcourir les montagnes, les bois et les vallées avec une aisance que peu d’étrangers égalent. Ils sont particulièrement doués pour la chasse, le pistage, la survie, le travail du bois, l’herboristerie et le soin des animaux.</p>\n<h2>Endurance et compétences</h2>\n<p>La société béornide est organisée autour des familles et des lignées. Les mariages sont monogames, conclus à l’extérieur de la famille immédiate mais généralement au sein du clan. La filiation suit traditionnellement la lignée masculine, et l’épouse rejoint la maisonnée de son mari. Les hommes quittent souvent leur domaine pendant de longues périodes pour participer aux affaires militaires, religieuses ou politiques du peuple, tandis que le reste de la famille veille à la continuité du foyer.</p>\n<h2>Société et famille</h2>\n<p>Leur religion est centrée sur l’ancien Culte de l’Ours, appelé Bairakyn. Son chef, le Waildanbair, ou « Ours souverain », exerce également une autorité héréditaire sur l’ensemble du clan. Il est traditionnellement le plus puissant des changeurs de peau. Lors de cérémonies secrètes célébrées dans certains lieux sacrés, les initiés prennent la forme d’ours et rejouent par la danse les récits, les batailles et les mythes de leurs ancêtres. Ces sanctuaires sont liés à Oromë, que les Béornides nomment Araw, le Vala chasseur, protecteur des cavaliers, des forêts et des bêtes sauvages.</p>\n<h2>Religion</h2>\n<p>Les Béornides sont solitaires par nature et se montrent mal à l’aise dans les grandes villes. Ils préfèrent les espaces ouverts, les bois et les demeures isolées aux rues encombrées et aux palais de pierre. Cette réserve ne signifie pourtant pas qu’ils soient hostiles. Lorsqu’un étranger gagne leur confiance, ils peuvent se montrer généreux, accueillants et même joyeux. Leur rire profond et retentissant contraste alors avec leur habituelle gravité. Ils parlent peu, mais accordent une grande valeur à la franchise, à l’hospitalité et à la parole donnée.</p>\n<h2>Tempérament</h2>\n<p>Au combat, leur tempérament change brutalement. Ils deviennent féroces, impulsifs et parfois presque incontrôlables. Ils détestent particulièrement les Orcs, les Wargs, les Trolls, les Géants et les Dragons, qu’ils considèrent comme des ennemis naturels de leur peuple et de leurs terres. Leurs armes favorites sont simples et adaptées à leur mode de vie : haches, gourdins, masses, arcs courts, frondes et bâtons. Ils rejettent généralement les disciplines magiques fondées sur l’Essence, mais peuvent suivre les traditions de la Canalisation ou du Mentalisme lorsqu’elles sont liées à la nature, aux esprits, à la guérison ou aux anciennes coutumes du clan.</p>\n<h2>Guerre et armes</h2>\n<p>Leur langue principale est l’Atliduk, accompagnée du Waildyth, un système de signaux et d’appels naturels utilisé pour communiquer à distance ou avec leurs compagnons animaux. Beaucoup parlent également le westron et la langue des Hommes des Bois. Les plus instruits peuvent connaître le logathig, le sindarin ou certaines langues sylvaines.</p>\n<h2>Langues</h2>\n<p>Les Béornides sont ainsi un peuple peu nombreux mais redoutable, placé à la frontière entre la civilisation des Hommes du Nord et le monde sauvage. Ils protègent les passages de l’Anduin, leurs domaines isolés et les anciennes routes contre les créatures de l’Ombre. Leur force ne repose pas sur des armées nombreuses ou des forteresses, mais sur leur connaissance du pays, leur solidarité familiale, leur alliance avec les bêtes et la puissance exceptionnelle de ceux qui portent encore le don de l’Ours.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Atliduk</strong> — Parlée 8 / Écrite 8</li><li><strong>Waildyth</strong> — Parlée 8 / Écrite 0 — langue signalée</li><li><strong>Westron</strong> — Parlée 6 / Écrite 6</li><li><strong>Nahaiduk</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+            "culture": "Béornides"
+          }
+        },
+        "en": {
+          "name": "Berninga",
+          "system": {
+            "description": "<h1>Berninga</h1>\n<p>The Berninga, also called Beornings, Beijabar, or Bajaegahar, form a distinctive branch of the Northmen. They descend from ancient peoples of Eriador who, over the course of the Second Age, gradually separated from other northern communities. By the beginning of the Third Age their ancestors had withdrawn into the upper vales of the Anduin, the northern foothills of the Misty Mountains, and the wild passes leading toward the Grey Mountains. Their isolation, closeness to nature, and religious traditions eventually gave them an identity of their own, distinct from that of the Woodmen, the people of Dale, and other peoples of Rhovanion.</p>\n<h2>Origins and territory</h2>\n<p>Few in number, they rarely live in true villages. Most families occupy large isolated estates, carefully maintained but hidden from the eyes of travelers. These homesteads may lie in the fertile vales of the Anduin, in forests, or on mountain slopes. Each household is almost a small autonomous world, bringing together kin, servants, familiar beasts, barns, beehives, gardens, and pastureland.</p>\n<h2>Estates and way of life</h2>\n<p>The Berninga maintain an exceptional relationship with wild animals. According to their traditions, their ancestors once made an alliance with the bears of the Misty Mountains. In exchange for their protection and certain secret teachings, they swore not to hunt mammals for flesh or fur. Instead they live on the produce of their fields, honey, fish, poultry, and other resources that do not break this ancient pact. Animals living on their lands are not regarded as mere possessions: they are companions of the household, sometimes able to perform tasks that astonish outsiders. Wild beasts do not normally attack a Berninga unless deliberately provoked.</p>\n<h2>Alliance with animals</h2>\n<p>A few members of their bloodlines possess the mysterious gift of changing skin and taking the form of a bear. This ability is neither common nor mastered by all Berninga. Those who possess it are nevertheless held in very high esteem, for they embody the ancestral bond between clan, bears, and the wild powers of the world. Their transformation grants formidable strength and ferocity, but can also subject them to instincts that are difficult to contain. In the fury of battle, a skin-changer risks losing all restraint and no longer clearly distinguishing the enemy from whatever merely stands in his path.</p>\n<h2>Skin-changers</h2>\n<p>Physically, the Berninga are among the most imposing Northmen. They are tall, powerfully built, and heavy-boned. Men often have abundant body hair and red or reddish-brown hair, whereas most other northern peoples are more commonly fair-haired. Their appearance is further emphasized by woolen clothing, coarse cloaks, and furs that they wear without necessarily having obtained them by hunting. They rarely use heavy armor, preferring freedom of movement, supple leathers, and clothing suited to forests and mountains.</p>\n<h2>Appearance</h2>\n<p>Their endurance is remarkable. They require little sleep and can continue their activities for long periods without prolonged rest. This resilience, combined with physical strength and knowledge of the land, allows them to cross mountains, woods, and valleys with an ease few outsiders can match. They are especially gifted at hunting, tracking, survival, woodworking, herb lore, and caring for animals.</p>\n<h2>Endurance and skills</h2>\n<p>Berninga society is organized around families and bloodlines. Marriages are monogamous, contracted outside the immediate family but generally within the clan. Descent traditionally follows the male line, and a wife joins her husband's household. Men often leave their estate for long periods to take part in the military, religious, or political affairs of the people, while the rest of the family ensures continuity of the household.</p>\n<h2>Society and family</h2>\n<p>Their religion centers on the ancient Bear Cult, called Bairakyn. Its leader, the Waildanbair, or “Sovereign Bear,” also exercises hereditary authority over the whole clan. He is traditionally the most powerful of the skin-changers. During secret ceremonies held at certain sacred places, initiates take bear form and reenact through dance the tales, battles, and myths of their ancestors. These sanctuaries are linked to Oromë, whom the Berninga call Araw, the hunter Vala, protector of riders, forests, and wild beasts.</p>\n<h2>Religion</h2>\n<p>Berninga are solitary by nature and uncomfortable in large cities. They prefer open spaces, woods, and isolated homesteads to crowded streets and stone palaces. This reserve does not mean they are hostile. Once an outsider earns their trust, they can be generous, welcoming, and even merry. Their deep, booming laughter then contrasts with their usual gravity. They speak little, but attach great value to frankness, hospitality, and a given word.</p>\n<h2>Temperament</h2>\n<p>In battle, their temperament changes abruptly. They become fierce, impulsive, and at times almost uncontrollable. They particularly hate Orcs, Wargs, Trolls, Giants, and Dragons, which they regard as natural enemies of their people and lands. Their favorite weapons are simple and suited to their way of life: axes, clubs, maces, short bows, slings, and staves. They generally reject magical disciplines founded on Essence, but may follow traditions of Channeling or Mentalism when linked to nature, spirits, healing, or ancient clan customs.</p>\n<h2>War and weapons</h2>\n<p>Their principal language is Atliduk, accompanied by Waildyth, a system of natural calls and signals used to communicate at a distance or with animal companions. Many also speak Westron and the tongue of the Woodmen. The more educated may know Logathig, Sindarin, or certain Silvan languages.</p>\n<h2>Languages</h2>\n<p>The Berninga are thus a small but formidable people, standing on the boundary between the civilization of the Northmen and the wild world. They protect the crossings of the Anduin, their isolated estates, and ancient roads against creatures of the Shadow. Their strength rests not on numerous armies or fortresses, but on knowledge of the land, family solidarity, alliance with beasts, and the exceptional power of those who still bear the gift of the Bear.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Atliduk</strong> — Spoken 8 / Written 8</li><li><strong>Waildyth</strong> — Spoken 8 / Written 0 — signaled language</li><li><strong>Westron</strong> — Spoken 6 / Written 6</li><li><strong>Nahaiduk</strong> — Spoken 6 / Written 6</li></ul></section>",
+            "culture": "Berninga"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

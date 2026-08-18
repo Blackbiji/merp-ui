@@ -1,0 +1,265 @@
+{
+  "key": "magician",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-pures-essence",
+  "document": {
+    "name": "Magicien",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "magician",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "rmu-native-plus-merp-editorial",
+          "reference": "fvtt-Item-magician-BiE9Oupa2nYTEee5.json"
+        }
+      }
+    },
+    "system": {
+      "book": "RMU Core Law",
+      "profession": "Magician",
+      "spellCastingGroup": "Pure",
+      "numberOfBaseLists": 6,
+      "realms": "Essence",
+      "description": "<h1>Magicien</h1>\n<p>Le <strong>Magicien</strong> est un utilisateur pur de l’<strong>Essence</strong>, spécialisé dans la manipulation des forces élémentaires du monde. Sa magie agit sur la terre, le feu, la glace, la lumière, l’eau et le vent. Il transforme son environnement, crée des obstacles, contrôle des phénomènes physiques et peut produire des attaques élémentaires extrêmement dangereuses.</p>\n<p>Dans la Terre du Milieu, le Magicien reste une figure rare. Un humain du Gondor peut avoir découvert des traditions anciennes dans des archives ; un Númenóréen Noir d’Umbar peut employer l’Essence comme instrument de puissance ; un Noldo peut aborder certaines manipulations élémentaires comme l’expression d’un savoir très ancien sur la matière et les forces d’Arda.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Magicien sont <strong>Empathie (Em)</strong> et <strong>Raisonnement (Re)</strong>. L’Empathie est aussi la caractéristique de royaume de l’Essence ; le Raisonnement représente la compréhension intellectuelle nécessaire aux principes complexes de la magie.</p>\n<h2>Orientation technique</h2>\n<p>Le Magicien est un <strong>utilisateur pur d’Essence</strong>. Il privilégie Listes de base, Listes Ouvertes d’Essence, connaissances magiques, Manipulation de la Puissance, Développement de la Puissance, Perception de la Puissance et Sorts dirigés. Le combat physique et les armures lourdes restent secondaires.</p>\n<h2>Essence et manipulation du monde</h2>\n<p>L’Essence agit sur les structures du monde matériel. Le Magicien peut chauffer ou refroidir, créer des flammes, modifier terre ou pierre, déplacer air ou eau, manipuler lumière et électricité. Il est particulièrement efficace lorsqu’il comprend son environnement et choisit le bon élément pour répondre à la situation.</p>\n<h2>Magie offensive</h2>\n<p>Ses Listes comportent Éclairs élémentaires, Boules élémentaires, murs et zones dangereuses. Cette puissance exige de véritables compétences de Sorts dirigés et une bonne gestion des Points de Puissance.</p>\n<h2>Un savoir dangereux</h2>\n<p>Dans la Terre du Milieu, une magie trop visible peut attirer l’attention, provoquer la peur ou révéler le lanceur aux forces de l’Ombre. Un Magicien du Troisième Âge qui déchaîne feu ou lumière dans une région surveillée par les serviteurs de Sauron prend donc un risque réel.</p>\n<h2>Listes de sorts de base</h2>\n<ul>\n<li><strong>Loi de la Terre (Earth Law).</strong> Manipule terre, pierre et matières inorganiques.</li>\n<li><strong>Loi du Feu (Fire Law).</strong> Contrôle feu et chaleur et fournit de puissantes attaques élémentaires.</li>\n<li><strong>Loi de la Glace (Ice Law).</strong> Crée et manipule glace et froid.</li>\n<li><strong>Loi de la Lumière (Light Law).</strong> Manipule lumière et électricité.</li>\n<li><strong>Loi de l’Eau (Water Law).</strong> Contrôle eau et autres liquides.</li>\n<li><strong>Loi du Vent (Wind Law).</strong> Manipule air, vents et mouvements atmosphériques.</li>\n</ul>\n<h2>Place dans la Terre du Milieu</h2>\n<p>La Profession doit rester rare. Dans le Gondor, certains savoirs peuvent dériver d’archives númenóréennes ; à Umbar, une tradition apparentée peut avoir évolué vers des usages plus sombres ; chez les Noldor, les frontières entre artisanat supérieur, connaissance du monde et magie sont souvent moins nettes aux yeux des Hommes.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons directement le <strong>châssis du Magician RMU</strong> et ses six Listes élémentaires. MERP-RMU rétablit <strong>Empathie et Raisonnement</strong> comme caractéristiques primordiales.</p>\n<p>L’adaptation concerne surtout la rareté et le contexte : disponibilité des Listes selon l’Âge, nécessité d’un maître ou d’une tradition, usage discret de la magie et <strong>Risque d’attirer l’Ombre</strong>. La puissance mécanique reste RMU ; son expression respecte les limites de la Terre du Milieu.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "2/3"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "6/8"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "3/4"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "5/7"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "6/8"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "9/12"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "15/20"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Delving",
+          "skillName": "Attunement"
+        },
+        {
+          "skillCategory": "Delving",
+          "skillName": "Runes"
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Spell Lore"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "skillName": "Grace"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "skillName": "Directed Spell"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "skillName": "Power Development"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "skillName": "Power Projection"
+        },
+        {
+          "skillCategory": "Science",
+          "skillName": "Architecture"
+        },
+        {
+          "skillCategory": "Science",
+          "skillName": "Astronomy"
+        },
+        {
+          "skillCategory": "Science",
+          "skillName": "Engineering"
+        },
+        {
+          "skillCategory": "Science",
+          "skillName": "Mathematics"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Magicien",
+      "system": {
+        "description": "<h1>Magicien</h1>\n<p>Le <strong>Magicien</strong> est un utilisateur pur de l’<strong>Essence</strong>, spécialisé dans la manipulation des forces élémentaires du monde. Sa magie agit sur la terre, le feu, la glace, la lumière, l’eau et le vent. Il transforme son environnement, crée des obstacles, contrôle des phénomènes physiques et peut produire des attaques élémentaires extrêmement dangereuses.</p>\n<p>Dans la Terre du Milieu, le Magicien reste une figure rare. Un humain du Gondor peut avoir découvert des traditions anciennes dans des archives ; un Númenóréen Noir d’Umbar peut employer l’Essence comme instrument de puissance ; un Noldo peut aborder certaines manipulations élémentaires comme l’expression d’un savoir très ancien sur la matière et les forces d’Arda.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Magicien sont <strong>Empathie (Em)</strong> et <strong>Raisonnement (Re)</strong>. L’Empathie est aussi la caractéristique de royaume de l’Essence ; le Raisonnement représente la compréhension intellectuelle nécessaire aux principes complexes de la magie.</p>\n<h2>Orientation technique</h2>\n<p>Le Magicien est un <strong>utilisateur pur d’Essence</strong>. Il privilégie Listes de base, Listes Ouvertes d’Essence, connaissances magiques, Manipulation de la Puissance, Développement de la Puissance, Perception de la Puissance et Sorts dirigés. Le combat physique et les armures lourdes restent secondaires.</p>\n<h2>Essence et manipulation du monde</h2>\n<p>L’Essence agit sur les structures du monde matériel. Le Magicien peut chauffer ou refroidir, créer des flammes, modifier terre ou pierre, déplacer air ou eau, manipuler lumière et électricité. Il est particulièrement efficace lorsqu’il comprend son environnement et choisit le bon élément pour répondre à la situation.</p>\n<h2>Magie offensive</h2>\n<p>Ses Listes comportent Éclairs élémentaires, Boules élémentaires, murs et zones dangereuses. Cette puissance exige de véritables compétences de Sorts dirigés et une bonne gestion des Points de Puissance.</p>\n<h2>Un savoir dangereux</h2>\n<p>Dans la Terre du Milieu, une magie trop visible peut attirer l’attention, provoquer la peur ou révéler le lanceur aux forces de l’Ombre. Un Magicien du Troisième Âge qui déchaîne feu ou lumière dans une région surveillée par les serviteurs de Sauron prend donc un risque réel.</p>\n<h2>Listes de sorts de base</h2>\n<ul>\n<li><strong>Loi de la Terre (Earth Law).</strong> Manipule terre, pierre et matières inorganiques.</li>\n<li><strong>Loi du Feu (Fire Law).</strong> Contrôle feu et chaleur et fournit de puissantes attaques élémentaires.</li>\n<li><strong>Loi de la Glace (Ice Law).</strong> Crée et manipule glace et froid.</li>\n<li><strong>Loi de la Lumière (Light Law).</strong> Manipule lumière et électricité.</li>\n<li><strong>Loi de l’Eau (Water Law).</strong> Contrôle eau et autres liquides.</li>\n<li><strong>Loi du Vent (Wind Law).</strong> Manipule air, vents et mouvements atmosphériques.</li>\n</ul>\n<h2>Place dans la Terre du Milieu</h2>\n<p>La Profession doit rester rare. Dans le Gondor, certains savoirs peuvent dériver d’archives númenóréennes ; à Umbar, une tradition apparentée peut avoir évolué vers des usages plus sombres ; chez les Noldor, les frontières entre artisanat supérieur, connaissance du monde et magie sont souvent moins nettes aux yeux des Hommes.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons directement le <strong>châssis du Magician RMU</strong> et ses six Listes élémentaires. MERP-RMU rétablit <strong>Empathie et Raisonnement</strong> comme caractéristiques primordiales.</p>\n<p>L’adaptation concerne surtout la rareté et le contexte : disponibilité des Listes selon l’Âge, nécessité d’un maître ou d’une tradition, usage discret de la magie et <strong>Risque d’attirer l’Ombre</strong>. La puissance mécanique reste RMU ; son expression respecte les limites de la Terre du Milieu.</p>"
+      }
+    },
+    "en": {
+      "name": "Magician",
+      "system": {
+        "description": "<h1>Magician</h1>\n<p>The <strong>Magician</strong> is a pure <strong>Essence</strong> spell-user specializing in the manipulation of the world’s elemental forces. Where other spell-users turn toward divination, healing, or domination of the mind, the Magician acts directly upon matter and energy: earth, fire, ice, light, water, and wind. A Magician can transform the environment, alter temperature, move or reshape matter, and unleash extremely dangerous magical attacks.</p>\n<p>This mastery does not reduce the Magician to a mere thrower of elemental projectiles. The Profession’s Lists can move or transform matter, alter temperatures, control air and liquids, create elemental walls, and exploit light and electricity. RMU fully preserves this identity by defining the Magician as a pure spell-user able to manipulate the six major elements of its magical system.</p>\n<p>In Middle-earth, however, the Magician is a <strong>rare and remarkable</strong> figure. Essence certainly exists, but open and spectacular magic is unusual, especially in the later Ages. A human Magician of <strong>Gondor</strong> may be a scholar who uncovered ancient traditions in the archives of Minas Tirith; a <strong>Black Númenórean</strong> of Umbar may wield Essence within a more authoritarian or destructive tradition; a <strong>Noldo</strong> may approach elemental manipulation as an expression of very ancient knowledge concerning matter and the forces of Arda. Depending on Age and Culture, the same Profession may therefore represent very different magical traditions.</p>\n<h2>Prime Stats</h2>\n<p>The Magician’s Prime Stats are <strong>Empathy (Em)</strong> and <strong>Reasoning (Re)</strong>.</p>\n<p><strong>Empathy</strong> is also the realm stat of Essence. Here it represents the Magician’s ability to perceive and manipulate the magical structures permeating the world.</p>\n<p><strong>Reasoning</strong> reflects the intellectual understanding required to learn complex principles, analyse magical phenomena, and master highly technical Lists.</p>\n<p>Empathy may therefore be marked both as a <strong>Prime Stat</strong> and as a <strong>realm stat</strong>.</p>\n<h2>Technical Orientation</h2>\n<p>The Magician is a <strong>pure Essence spell-user</strong>.</p>\n<p>Development strongly favours:</p>\n<ul>\n<li><strong>Base Spell Lists</strong>;</li>\n<li><strong>Open</strong> Essence Lists;</li>\n<li>magical lore;</li>\n<li><strong>Power Manipulation</strong>;</li>\n<li>perception of magical phenomena;</li>\n<li><strong>Directed Spells</strong> and other elemental attacks;</li>\n<li>Power Development;</li>\n<li>skills related to study, research, and the sciences.</li>\n</ul>\n<p>RMU gives the Magician excellent development costs in Lore, Magical Expertise, Power Manipulation, and Spell Casting. Base and Open Lists are among the Profession’s most accessible developments. Physical combat, heavy armour, and specialized martial disciplines remain secondary.</p>\n<h2>Essence and the Manipulation of the World</h2>\n<p>Essence acts upon the fundamental structures of the material world. For the Magician, this is expressed chiefly through elemental magic. Spells can heat or cool matter, create flame, alter earth or stone, move air or water, and manipulate light.</p>\n<p>This magic can be very concrete. A Magician using <strong>Earth Law</strong> can affect earth and stone. <strong>Water Law</strong> controls liquids. <strong>Wind Law</strong> acts upon air and atmospheric movement. <strong>Light Law</strong> also includes the manipulation of electricity.</p>\n<p>The Magician is therefore especially effective when the character understands the environment and chooses the right element for the situation.</p>\n<h2>Offensive Magic</h2>\n<p>The Magician has one of the highest offensive potentials among spell-users. The Profession’s Lists contain many spells that produce <strong>Elemental Bolts</strong>, <strong>Elemental Balls</strong>, dangerous areas, walls of fire or ice, and persistent elemental manifestations.</p>\n<p><strong>Fire Law</strong> includes practical effects such as heating liquids or solids as well as offensive spells such as fire bolts and fire balls. <strong>Ice Law</strong> can produce cold attacks and transform terrain. <strong>Light Law</strong> provides manifestations of light and electricity.</p>\n<p>This power requires real investment in the appropriate skills. A Magician who wants to specialize in magical combat must develop <strong>Directed Spells</strong> and the skills required for elemental attacks.</p>\n<h2>Dangerous Lore</h2>\n<p>The Magician’s power comes from understanding and control. In Middle-earth, conspicuous magic can attract attention, inspire fear, or reveal the caster’s presence to the forces of the Shadow. A <strong>Third Age</strong> Magician openly casting manifestations of fire or light in a region watched by Sauron’s servants takes a very different risk from a scholar quietly using a perception spell.</p>\n<p>Some traditions may lead toward much more dangerous uses of Essence. A <strong>Black Númenórean</strong> mage of Umbar may seek to use magic as an instrument of domination, while a scholar of <strong>Gondor</strong> may regard such practices with deep suspicion.</p>\n<p>Elemental power is therefore always tied to the moral and historical context in which it is used.</p>\n<h2>Combat and Equipment</h2>\n<p>The Magician is not naturally a physical combatant. Weapon training is possible, but costly compared with that of a Fighter or Rogue. Heavy armour strongly interferes with the development and effective use of Essence.</p>\n<p>A Magician of <strong>Gondor</strong> may carry a dagger or staff as a secondary weapon. A travelling <strong>Dúnadan</strong> mage may learn the sword from necessity. A <strong>Noldo</strong> may possess excellent martial training through Culture while remaining professionally a Magician.</p>\n<p>Such abilities therefore arise more from <strong>Race, Culture, or personal history</strong> than from the Profession itself.</p>\n<h2>Possible Profiles</h2>\n<p><strong>Offensive Elementalist.</strong> Favours Fire Law, Ice Law, or Light Law together with Directed Spells and excels in magical combat.</p>\n<p><strong>Master of Matter.</strong> Develops Earth Law and Water Law, using magic to alter the environment, move obstacles, or transform terrain.</p>\n<p><strong>Storm Mage.</strong> Combines Wind Law, Water Law, and Light Law to manipulate air, precipitation, and electricity.</p>\n<p><strong>Scholar of Essence.</strong> Invests more heavily in lore, Power Manipulation, Open and Closed Lists, and magical research.</p>\n<p><strong>Battle Mage.</strong> Combines elemental attacks, magical defenses, and secondary martial training. This profile may suit a mage employed by the armies of Gondor or Umbar.</p>\n<p><strong>Wandering Mage.</strong> Favours versatile Lists and exploration skills, solving problems through intelligent use of several elements.</p>\n<h2>Base Spell Lists</h2>\n<p>The Magician has <strong>six Base Spell Lists</strong>, all retained in RMU.</p>\n<p><strong>Earth Law</strong><br />Manipulates earth, stone, and other inorganic materials.</p>\n<p><strong>Fire Law</strong><br />Controls fire and heat and includes several extremely dangerous elemental attacks.</p>\n<p><strong>Ice Law</strong><br />Creates, manipulates, and exploits ice and cold.</p>\n<p><strong>Light Law</strong><br />Manipulates light and electricity and also provides elemental attacks.</p>\n<p><strong>Water Law</strong><br />Controls water and other liquids.</p>\n<p><strong>Wind Law</strong><br />Manipulates air, winds, and their movement.</p>\n<p>These six Lists form the core of the Magician’s identity. They represent six different ways of acting directly upon the physical world.</p>\n<h2>Other Essence Lists</h2>\n<p>The Magician may also develop <strong>Open</strong> and <strong>Closed</strong> Essence Lists. Open Lists provide relatively universal techniques: detection, elemental protection, perception of Essence, runes, and manipulation of barriers. Closed Lists contain more complex practices such as dispelling, rapid movement, invisibility, transformation, spell control, and deeper manipulations of matter and mind.</p>\n<p>In our Middle-earth adaptation, however, availability depends on Age, Culture, and the existence of a master or living tradition capable of teaching them.</p>\n<h2>The Magician in Middle-earth</h2>\n<p>The Profession should remain relatively rare. Great manifestations of elemental magic do exist in Middle-earth, but they are not an everyday technology. A village is no more likely to have a resident Magician than it is to possess an ancient lore-master.</p>\n<p>A human Magician may have learned from an isolated master, an esoteric tradition, or the study of ancient texts.</p>\n<p>In <strong>Gondor</strong>, some knowledge may derive from Númenórean archives or scholarly traditions preserved in the great cities. In <strong>Umbar</strong>, a related tradition may have developed toward much darker uses. Among some <strong>Elves</strong>, especially the Noldor, the boundaries between supreme craftsmanship, knowledge of the world, and magic may appear far less distinct to mortal observers.</p>\n<p>Choosing the Profession should therefore always include consideration of <strong>where the character’s magical training came from</strong>.</p>\n<h2>RMU / MERP Adaptation</h2>\n<p>The Magician is one of the Professions for which continuity between older editions and RMU is especially strong.</p>\n<p>We use the <strong>RMU Magician mechanical chassis</strong> directly: a pure Essence spell-user with six Base Lists and a strong specialization in magical disciplines. RMU still uses the six Lists <strong>Earth Law, Fire Law, Ice Law, Light Law, Water Law</strong>, and <strong>Wind Law</strong>.</p>\n<p>We explicitly restore <strong>Empathy and Reasoning</strong> as Prime Stats so that character creation follows the MERP tradition rather than a generic spell-user model.</p>\n<p>The MERP-RMU adaptation mainly affects the <strong>context in which magic is used</strong>. RMU mechanics allow powerful spell-users; in Middle-earth, their existence must be placed within a world where magic is rarer, more discreet, and far more dependent upon history.</p>\n<p>We therefore keep RMU’s modern mechanics for elemental attacks, Lists, and spell casting while adding the rules specific to this adaptation: List availability by Age, learning tied to genuine traditions, discreet use of magic, and the <strong>Risk of Attracting the Shadow</strong> when magical manifestations become sufficiently significant.</p>\n<p>The MERP-RMU Magician thus remains fully capable of mastering the elements, while the Profession’s power serves as a reminder that in Middle-earth, <strong>openly calling upon magic is never an entirely trivial act</strong>.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions Magiques Pures",
+      "Essence"
+    ],
+    "en": [
+      "Pure Spell-user Professions",
+      "Essence"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-magiques-pures",
+    "professions-pures-essence"
+  ]
+}

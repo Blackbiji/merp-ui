@@ -1,0 +1,633 @@
+{
+  "key": "seer-past-visions",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-seer",
+  "document": {
+    "name": "Past Visions",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "seer-past-visions",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Mentalism Companion",
+        "sourceList": "Past Visions",
+        "sourcePage": 124,
+        "merpRealm": "Mentalism",
+        "merpCategory": "Profession",
+        "profession": "Seer",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Mentalism Companion p.124; MERP/RMSS Seer p.149"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Mentalism Companion",
+      "name": "Past Visions",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Seer",
+      "notes": "<h2>Past Visions</h2><p>Évoque le passé des objets, personnes et lieux et permet d’analyser les événements, malédictions et souvenirs historiques.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>",
+      "label": "Past Visions",
+      "notesLabel": "Past Visions notes",
+      "spells": [
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Origins",
+          "label": "MERP_RMU.Seer.spells.Origins.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Origins.description",
+          "level": 1,
+          "description": "Donne une idée générale du lieu d’origine d’un objet.",
+          "aoe": "1 object",
+          "duration": "—",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Origines",
+              "description": "Donne une idée générale du lieu d’origine d’un objet."
+            },
+            "en": {
+              "name": "Origins",
+              "description": "Gives a general idea of an object’s place of origin."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Detect Curse",
+          "label": "MERP_RMU.Seer.spells.DetectCurse.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.DetectCurse.description",
+          "level": 2,
+          "description": "Détecte l’existence d’une malédiction sur une personne, un objet ou un lieu.",
+          "aoe": "varies",
+          "duration": "—",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Détection de Malédiction",
+              "description": "Détecte l’existence d’une malédiction sur une personne, un objet ou un lieu."
+            },
+            "en": {
+              "name": "Detect Curse",
+              "description": "Detects the existence of a curse on a person, object, or place."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind I",
+          "label": "MERP_RMU.Seer.spells.VisionBehindI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindI.description",
+          "level": 3,
+          "description": "Donne une vision du passé liée à la cible touchée, jusqu’à une minute par niveau dans le passé, avec une précision d’environ une minute.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé I",
+              "description": "Donne une vision du passé liée à la cible touchée, jusqu’à une minute par niveau dans le passé, avec une précision d’environ une minute."
+            },
+            "en": {
+              "name": "Vision Behind I",
+              "description": "Gives a vision of the past linked to the touched target, up to one minute per level into the past, with a precision of about one minute."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Power Lore",
+          "label": "MERP_RMU.Seer.spells.PowerLore.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.PowerLore.description",
+          "level": 4,
+          "description": "Révèle l’origine ou la nature générale du pouvoir d’un objet.",
+          "aoe": "1 item",
+          "duration": "—",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance de la Puissance",
+              "description": "Révèle l’origine ou la nature générale du pouvoir d’un objet."
+            },
+            "en": {
+              "name": "Power Lore",
+              "description": "Reveals the origin or general nature of an object’s power."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Guide",
+          "label": "MERP_RMU.Seer.spells.VisionGuide.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionGuide.description",
+          "level": 5,
+          "description": "Repère dans le passé les moments où se sont produits des événements significatifs afin de guider une future Vision Behind.",
+          "aoe": "1 spell",
+          "duration": "varies",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Guide des Visions",
+              "description": "Repère dans le passé les moments où se sont produits des événements significatifs afin de guider une future Vision Behind."
+            },
+            "en": {
+              "name": "Vision Guide",
+              "description": "Identifies moments in the past when significant events occurred, helping guide a later Vision Behind."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Item Vision",
+          "label": "MERP_RMU.Seer.spells.ItemVision.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ItemVision.description",
+          "level": 6,
+          "description": "Montre un événement significatif du passé d’un objet.",
+          "aoe": "1 item",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision d’Objet",
+              "description": "Montre un événement significatif du passé d’un objet."
+            },
+            "en": {
+              "name": "Item Vision",
+              "description": "Shows one significant event from an object’s past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind II",
+          "label": "MERP_RMU.Seer.spells.VisionBehindII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindII.description",
+          "level": 7,
+          "description": "Comme Vision Behind I, mais jusqu’à dix minutes par niveau dans le passé.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé II",
+              "description": "Comme Vision Behind I, mais jusqu’à dix minutes par niveau dans le passé."
+            },
+            "en": {
+              "name": "Vision Behind II",
+              "description": "As Vision Behind I, but up to ten minutes per level into the past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Enhancement",
+          "label": "MERP_RMU.Seer.spells.VisionEnhancement.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionEnhancement.description",
+          "level": 8,
+          "description": "Améliore la prochaine Vision Behind en lui ajoutant un sens ou une capacité perceptive supplémentaire.",
+          "aoe": "1 spell",
+          "duration": "varies",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Amélioration de Vision",
+              "description": "Améliore la prochaine Vision Behind en lui ajoutant un sens ou une capacité perceptive supplémentaire."
+            },
+            "en": {
+              "name": "Vision Enhancement",
+              "description": "Improves the next Vision Behind by adding one additional sense or perceptive capability."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind III",
+          "label": "MERP_RMU.Seer.spells.VisionBehindIII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindIII.description",
+          "level": 9,
+          "description": "Comme Vision Behind I, mais jusqu’à une heure par niveau dans le passé.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé III",
+              "description": "Comme Vision Behind I, mais jusqu’à une heure par niveau dans le passé."
+            },
+            "en": {
+              "name": "Vision Behind III",
+              "description": "As Vision Behind I, but up to one hour per level into the past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Delving",
+          "label": "MERP_RMU.Seer.spells.Delving.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Delving.description",
+          "level": 10,
+          "description": "Révèle les détails importants de la construction et de la fonction d’un objet, sans nécessairement dévoiler précisément tous ses pouvoirs.",
+          "aoe": "1 item",
+          "duration": "—",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Investigation",
+              "description": "Révèle les détails importants de la construction et de la fonction d’un objet, sans nécessairement dévoiler précisément tous ses pouvoirs."
+            },
+            "en": {
+              "name": "Delving",
+              "description": "Reveals important details of an object’s construction and function without necessarily disclosing all of its powers precisely."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind IV",
+          "label": "MERP_RMU.Seer.spells.VisionBehindIV.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindIV.description",
+          "level": 11,
+          "description": "Comme Vision Behind I, mais jusqu’à un jour par niveau dans le passé.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé IV",
+              "description": "Comme Vision Behind I, mais jusqu’à un jour par niveau dans le passé."
+            },
+            "en": {
+              "name": "Vision Behind IV",
+              "description": "As Vision Behind I, but up to one day per level into the past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Location Vision",
+          "label": "MERP_RMU.Seer.spells.LocationVision.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LocationVision.description",
+          "level": 12,
+          "description": "Comme Item Vision, mais révèle un événement significatif lié au lieu où se trouve le Devin.",
+          "aoe": "1 location",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision de Lieu",
+              "description": "Comme Item Vision, mais révèle un événement significatif lié au lieu où se trouve le Devin."
+            },
+            "en": {
+              "name": "Location Vision",
+              "description": "As Item Vision, but reveals a significant event connected to the place where the Seer is standing."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Past Store",
+          "label": "MERP_RMU.Seer.spells.PastStore.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.PastStore.description",
+          "level": 13,
+          "description": "Mémorise pendant une Vision Behind l’image d’une personne, d’un lieu ou d’un objet afin de l’utiliser comme clé pour de futures visions.",
+          "aoe": "1 spell",
+          "duration": "varies",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Mémorisation du Passé",
+              "description": "Mémorise pendant une Vision Behind l’image d’une personne, d’un lieu ou d’un objet afin de l’utiliser comme clé pour de futures visions."
+            },
+            "en": {
+              "name": "Past Store",
+              "description": "During a Vision Behind, stores the image of a person, place, or object for use as a key in future visions."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Curse Analysis",
+          "label": "MERP_RMU.Seer.spells.CurseAnalysis.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.CurseAnalysis.description",
+          "level": 14,
+          "description": "Analyse l’origine, la source, la puissance, la nature et l’efficacité approximative d’une malédiction.",
+          "aoe": "1 curse",
+          "duration": "—",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse de Malédiction",
+              "description": "Analyse l’origine, la source, la puissance, la nature et l’efficacité approximative d’une malédiction."
+            },
+            "en": {
+              "name": "Curse Analysis",
+              "description": "Analyzes a curse’s origin, source, power, nature, and approximate effectiveness."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind V",
+          "label": "MERP_RMU.Seer.spells.VisionBehindV.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindV.description",
+          "level": 15,
+          "description": "Comme Vision Behind I, mais jusqu’à un mois par niveau dans le passé.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé V",
+              "description": "Comme Vision Behind I, mais jusqu’à un mois par niveau dans le passé."
+            },
+            "en": {
+              "name": "Vision Behind V",
+              "description": "As Vision Behind I, but up to one month per level into the past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Item Analysis",
+          "label": "MERP_RMU.Seer.spells.ItemAnalysis.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ItemAnalysis.description",
+          "level": 16,
+          "description": "Donne une analyse très complète de la construction, de la fonction et des pouvoirs d’un objet ; les objets exceptionnellement puissants peuvent rester partiellement obscurs.",
+          "aoe": "1 item",
+          "duration": "—",
+          "range": "6'",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Analyse d’Objet",
+              "description": "Donne une analyse très complète de la construction, de la fonction et des pouvoirs d’un objet ; les objets exceptionnellement puissants peuvent rester partiellement obscurs."
+            },
+            "en": {
+              "name": "Item Analysis",
+              "description": "Provides a very complete analysis of an object’s construction, function, and powers; exceptionally powerful objects may remain partly obscure."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind VI",
+          "label": "MERP_RMU.Seer.spells.VisionBehindVI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindVI.description",
+          "level": 17,
+          "description": "Comme Vision Behind I, mais jusqu’à un an par niveau dans le passé.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé VI",
+              "description": "Comme Vision Behind I, mais jusqu’à un an par niveau dans le passé."
+            },
+            "en": {
+              "name": "Vision Behind VI",
+              "description": "As Vision Behind I, but up to one year per level into the past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Person Vision",
+          "label": "MERP_RMU.Seer.spells.PersonVision.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.PersonVision.description",
+          "level": 18,
+          "description": "Comme Item Vision, mais pour un événement significatif du passé d’un être vivant.",
+          "aoe": "1 being",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision de Personne",
+              "description": "Comme Item Vision, mais pour un événement significatif du passé d’un être vivant."
+            },
+            "en": {
+              "name": "Person Vision",
+              "description": "As Item Vision, but for a significant event in a living being’s past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Evoke Vision",
+          "label": "MERP_RMU.Seer.spells.EvokeVision.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.EvokeVision.description",
+          "level": 19,
+          "description": "Projette une Vision Behind dans un support approprié afin que d’autres personnes puissent en voir les aspects visuels.",
+          "aoe": "1 item",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Évocation de Vision",
+              "description": "Projette une Vision Behind dans un support approprié afin que d’autres personnes puissent en voir les aspects visuels."
+            },
+            "en": {
+              "name": "Evoke Vision",
+              "description": "Projects a Vision Behind into an appropriate medium so that other people can see its visual aspects."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Hold",
+          "label": "MERP_RMU.Seer.spells.VisionHold.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionHold.description",
+          "level": 20,
+          "description": "À partir d’une description générale d’un événement, guide la prochaine Vision Behind vers l’événement correspondant le plus proche.",
+          "aoe": "caster",
+          "duration": "varies",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Fixation de Vision",
+              "description": "À partir d’une description générale d’un événement, guide la prochaine Vision Behind vers l’événement correspondant le plus proche."
+            },
+            "en": {
+              "name": "Vision Hold",
+              "description": "Using a general description of an event, guides the next Vision Behind toward the nearest matching event."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind VII",
+          "label": "MERP_RMU.Seer.spells.VisionBehindVII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindVII.description",
+          "level": 25,
+          "description": "Comme Vision Behind I, mais jusqu’à dix ans par niveau dans le passé.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé VII",
+              "description": "Comme Vision Behind I, mais jusqu’à dix ans par niveau dans le passé."
+            },
+            "en": {
+              "name": "Vision Behind VII",
+              "description": "As Vision Behind I, but up to ten years per level into the past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind VIII",
+          "label": "MERP_RMU.Seer.spells.VisionBehindVIII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindVIII.description",
+          "level": 30,
+          "description": "Comme Vision Behind I, mais jusqu’à cent ans par niveau dans le passé.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé VIII",
+              "description": "Comme Vision Behind I, mais jusqu’à cent ans par niveau dans le passé."
+            },
+            "en": {
+              "name": "Vision Behind VIII",
+              "description": "As Vision Behind I, but up to one hundred years per level into the past."
+            }
+          }
+        },
+        {
+          "spellList": "Past Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Vision Behind True",
+          "label": "MERP_RMU.Seer.spells.VisionBehindTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.VisionBehindTrue.description",
+          "level": 50,
+          "description": "Permet de regarder arbitrairement loin dans le passé, avec une précision réduite à l’échelle historique.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "touch",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Vision du Passé Véritable",
+              "description": "Permet de regarder arbitrairement loin dans le passé, avec une précision réduite à l’échelle historique."
+            },
+            "en": {
+              "name": "Vision Behind True",
+              "description": "Allows the Seer to look arbitrarily far into the past, with precision reduced to a historical scale."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Visions du Passé",
+      "system": {
+        "name": "Visions du Passé",
+        "label": "Visions du Passé",
+        "notesLabel": "Visions du Passé — notes",
+        "notes": "<h2>Visions du Passé</h2><p>Évoque le passé des objets, personnes et lieux et permet d’analyser les événements, malédictions et souvenirs historiques.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>"
+      }
+    },
+    "en": {
+      "name": "Past Visions",
+      "system": {
+        "name": "Past Visions",
+        "label": "Past Visions",
+        "notesLabel": "Past Visions — notes",
+        "notes": "<h2>Past Visions</h2><p>Reveals the past of objects, people, and places and allows the analysis of events, curses, and historical memories.</p><p><strong>MERP-RMU Conversion:</strong> historical Seer List, structured in RMU format while preserving its original effects and progression.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Devin (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Seer (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-seer"
+  ]
+}

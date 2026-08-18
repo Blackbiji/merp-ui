@@ -1,0 +1,79 @@
+{
+  "key": "herb-shirolos",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-respiratoires",
+  "document": {
+    "name": "Shirolos",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-shirolos",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-H-8",
+        "sourceCost": "84gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": "Respiratoire",
+        "climateCode": "m",
+        "localeCode": "H",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Shirolos"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Sheer Folly",
+      "form": "Liquid",
+      "prep": "ingest",
+      "season": "",
+      "cost": "84gp",
+      "notes": "<p>Ce liquide se rencontre surtout dans les régions au climat tempéré doux, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10, distillation de Sweet Galenas et de vin blanc. Il provoque une somnolence extrême ou un état de transe suggestible pouvant durer des dizaines d’heures.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 10,
+      "effects": [],
+      "table": "",
+      "level": 10
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Shirolos",
+      "system": {
+        "notes": "<p>Ce liquide se rencontre surtout dans les régions au climat tempéré doux, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10, distillation de Sweet Galenas et de vin blanc. Il provoque une somnolence extrême ou un état de transe suggestible pouvant durer des dizaines d’heures.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Shirolos",
+      "system": {
+        "notes": "<p>This liquid is found chiefly in mild temperate climates, especially in heaths, scrublands, and moors.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 10 respiratory poison distilled from Sweet Galenas and white wine. It causes extreme drowsiness or a suggestible trance that can last for dozens of hours.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Respiratoires"
+    ],
+    "en": [
+      "Respiratory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-respiratoires"
+  ]
+}

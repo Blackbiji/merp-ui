@@ -1,0 +1,1198 @@
+{
+  "_meta": {
+    "schemaVersion": 2,
+    "locale": "fr",
+    "moduleVersion": "1.2.0",
+    "scope": "shared",
+    "generated": true,
+    "source": "translations/skills/source/skills.fr.work.json"
+  },
+  "Accounting": {
+    "skillId": "rmu.skill.accounting",
+    "officialUuid": null,
+    "name": "Accounting",
+    "description": null,
+    "aliases": [
+      "Accounting",
+      "Comptabilité"
+    ]
+  },
+  "Acrobatics": {
+    "skillId": "rmu.skill.acrobatics",
+    "officialUuid": "Compendium.rmu.core.Item.BWCB3JwaohpaA8HA",
+    "name": "Acrobaties",
+    "description": "Les Acrobaties regroupent les roulades, les plongeons horizontaux, les roulés au sol, les balancements sur des objets ainsi que les autres Manœuvres générales de gymnastique.\n\nCette Compétence peut être utilisée pour tenter de contrôler une chute. Si la chute entraîne un Critique, sa gravité est augmentée d’un niveau en cas d’Échec Absolu, diminuée d’un niveau en cas de Réussite et diminuée de deux niveaux en cas de Réussite Absolue.\n\nLa difficulté d’une Manœuvre d’Acrobaties dépend de l’amplitude du déplacement et du moment de son exécution. Les rotations et les saltos rendent la Manœuvre encore plus difficile.",
+    "aliases": [
+      "Acrobatics",
+      "Acrobaties"
+    ]
+  },
+  "Acting": {
+    "skillId": "rmu.skill.acting",
+    "officialUuid": "Compendium.rmu.core.Item.2fJ47HWxlaKa1yI3",
+    "name": "Comédie",
+    "description": "La Comédie consiste à feindre des émotions et à utiliser la voix ainsi que le langage corporel pour incarner un personnage, qu’il s’agisse d’un rôle original ou de l’imitation d’une personne existante. Elle comprend également une certaine aptitude à interpréter un texte ou une représentation en fonction des motivations du personnage.",
+    "aliases": [
+      "Acting",
+      "Comédie",
+      "Interprétation"
+    ]
+  },
+  "Administration": {
+    "skillId": "rmu.skill.administration",
+    "officialUuid": "Compendium.rmu.core.Item.KhoXMwjrDLoGNIx3",
+    "name": "Administration",
+    "description": "Cette Compétence regroupe les vocations liées à la gestion, à l’administration et à l’organisation. Elle couvre les procédures et les pratiques propres à la profession, et peut servir aussi bien à gérer des registres qu’à les exploiter. Elle inclut également une certaine connaissance des pratiques et procédures des personnes administrées ou servies. Certaines vocations administratives peuvent exiger d’autres Compétences et, dans de nombreuses situations, celles-ci peuvent servir de Compétences Complémentaires. Spécialisations : Comptable, Bibliothécaire, Officier, Gestionnaire, Quartier-maître, Sénéchal.",
+    "aliases": [
+      "Administration"
+    ]
+  },
+  "Adrenal Defense": {
+    "skillId": "rmu.skill.adrenal-defense",
+    "officialUuid": "Compendium.rmu.core.Item.eHizjyGuTb3c7ws1",
+    "name": "Défense Adrénale",
+    "description": "La Défense Adrénale représente l’intégration complète de l’esquive dans des mouvements naturels et fluides.\n\nEn cas de Manœuvre réussie, le personnage peut effectuer une esquive partielle en tant qu’action instantanée pour 0 PA, ou une esquive complète en se concentrant.\n\nLa Défense Adrénale étant plus facile à maintenir que les autres Manœuvres Adrénales, sa durée est doublée.\n\nEn cas de Réussite Absolue, le doublement du bénéfice signifie que le personnage peut effectuer une esquive complète en tant qu’action instantanée pendant le premier round.\n\nEn cas d’Échec Absolu, le personnage est incapable d’esquiver pendant tout le round suivant, en plus des effets indiqués par le résultat de la table.",
+    "aliases": [
+      "Adrenal Defense",
+      "Défense Adrénale",
+      "Défense adrénale"
+    ]
+  },
+  "Adrenal Focus": {
+    "skillId": "rmu.skill.adrenal-focus",
+    "officialUuid": "Compendium.rmu.core.Item.sx8j5nCLUHGEcgEd",
+    "name": "Concentration Adrénale",
+    "description": "La Concentration Adrénale permet d’accomplir des prouesses exigeant un effort surhumain grâce à la concentration et à l’autodiscipline. En cas de Manœuvre réussie, le personnage bénéficie d’un bonus de +25 à toute Manœuvre de Puissance, de Gymnastique ou de Mouvement, porté à +50 en cas de Réussite Absolue.",
+    "aliases": [
+      "Adrenal Focus",
+      "Concentration Adrénale",
+      "Concentration adrénale"
+    ]
+  },
+  "Adrenal Speed": {
+    "skillId": "rmu.skill.adrenal-speed",
+    "officialUuid": "Compendium.rmu.core.Item.8Tf2hyULaPQGlnaB",
+    "name": "Vitesse Adrénale",
+    "description": "En cas de Manœuvre réussie, le personnage gagne 2 Points d’Action supplémentaires, ou 4 PA en cas de Réussite Absolue. Un Échec Absolu lui fait perdre ses 2 premiers Points d’Action lors du round suivant, en plus des effets indiqués par le résultat de la table.",
+    "aliases": [
+      "Adrenal Speed",
+      "Vitesse Adrénale",
+      "Vitesse adrénale"
+    ]
+  },
+  "Adrenal Strength": {
+    "skillId": "rmu.skill.adrenal-strength",
+    "officialUuid": "Compendium.rmu.core.Item.G7WoYkOFimsnJ1L7",
+    "name": "Force Adrénale",
+    "description": "En cas de Manœuvre réussie, les attaques du personnage sont considérées comme étant d’une taille supérieure, et son poids est multiplié par 4 pour les Prouesses de Force.\n\nEn cas de Réussite Absolue, ses attaques sont considérées comme étant de deux tailles supérieures et son poids est multiplié par 8.\n\nUne Réussite Partielle ne produit aucun effet. En cas d’Échec Absolu, la taille des attaques du personnage est réduite d’un niveau pendant le round suivant, en plus des effets indiqués par le résultat de la table, et son poids est divisé par 4 pour les Prouesses de Force.",
+    "aliases": [
+      "Adrenal Strength",
+      "Force Adrénale",
+      "Force adrénale"
+    ]
+  },
+  "Agriculture": {
+    "skillId": "rmu.skill.agriculture",
+    "officialUuid": null,
+    "name": "Agriculture",
+    "description": "Permet de gérer les cultures, les récoltes, les élevages et l’organisation d’un domaine rural.",
+    "aliases": [
+      "Agriculture"
+    ]
+  },
+  "Ambush": {
+    "skillId": "rmu.skill.ambush",
+    "officialUuid": "Compendium.rmu.core.Item.dHPCMe5uLxBKJH0n",
+    "name": "Embuscade",
+    "description": "L’Embuscade représente la capacité à porter une attaque très précise. Elle ne peut être utilisée que lorsque l’adversaire n’a absolument pas conscience de l’attaque du personnage. Si l’attaque inflige un Critique, le personnage peut modifier son jet sur la Table de Critiques appropriée d’un nombre maximal égal à son nombre de rangs en Embuscade. Il n’est pas nécessaire d’effectuer une Manœuvre d’Embuscade distincte. L’Embuscade peut être utilisée contre un adversaire déjà engagé en mêlée si celui-ci ne sait pas que l’attaque va survenir ; le nombre de rangs en Embuscade est alors divisé par deux. Si la cible est tuée ou assommée, la Compétence peut également être utilisée pour rendre l’attaque silencieuse. Spécialisations : chaque Compétence d’Entraînement au Combat ou une Spécialisation de Sorts Dirigés.",
+    "aliases": [
+      "Ambush",
+      "Embuscade"
+    ]
+  },
+  "Animal Handling": {
+    "skillId": "rmu.skill.animal-handling",
+    "officialUuid": "Compendium.rmu.core.Item.wMoWTVheb7qWzDRe",
+    "name": "Dressage",
+    "description": "Le Dressage comprend les soins et l’alimentation des animaux, ainsi que leur entraînement, les soins mineurs et, selon le type d’animal, éventuellement une forme de communication simple.\n\nCette Compétence permet notamment de calmer des animaux agités ou, au contraire, de les stimuler, de rassembler un troupeau de moutons ou de guider un cheval. Elle peut aussi servir à enseigner des tours aussi complexes que ceux exécutés par un chien de cirque.\n\nSpécialisations : chaque type précis d’animal.",
+    "aliases": [
+      "Animal Handling",
+      "Dressage"
+    ]
+  },
+  "Arcane Spell List": {
+    "skillId": "rmu.skill.arcane-spell-list",
+    "officialUuid": "Compendium.rmu.core.Item.TjyRXF3jf6KEx0Eu",
+    "name": "Liste de Sorts Arcanique",
+    "description": "Développer une Liste de Sorts permet au personnage de lancer les sorts qui en font partie. Le nombre de rangs possédés dans une Liste détermine jusqu’à quel niveau le personnage peut en lancer les sorts. Les Listes Arcaniques regroupent des formes de magie plus obscures ou exotiques, qui existent en dehors des Domaines. Spécialisation : chaque Liste de Sorts Arcanique.",
+    "aliases": [
+      "Arcane Spell List",
+      "Liste de Sorts Arcanique",
+      "Arcane",
+      "Liste de sorts arcaniques"
+    ]
+  },
+  "Architecture": {
+    "skillId": "rmu.skill.architecture",
+    "officialUuid": "Compendium.rmu.core.Item.EE1Q8tA1ALIb8Bis",
+    "name": "Architecture",
+    "description": "L’Architecture est la science de la conception des bâtiments. Il s’agit d’une forme spécialisée d’ingénierie qui comprend également une dimension artistique. Un personnage ne possédant que des Compétences élémentaires d’Artisanat peut construire une cabane semblable à celles qu’il connaît déjà. En revanche, concevoir une structure vaste et/ou complexe, destinée à durer ou reposant sur une conception nouvelle et efficace, nécessite la Compétence Architecture. Les pièges et mécanismes de grande taille intégrés à une construction, comme les ascenseurs, relèvent également de l’Architecture.",
+    "aliases": [
+      "Architecture"
+    ]
+  },
+  "Astronomy": {
+    "skillId": "rmu.skill.astronomy",
+    "officialUuid": "Compendium.rmu.core.Item.MdsClbUqtYuMCnRy",
+    "name": "Astronomie",
+    "description": "L’Astronomie, l’une des plus anciennes sciences physiques à avoir été développée, a joué un rôle moteur dans l’essor des mathématiques. Elle comprend non seulement l’identification des différents corps célestes, mais aussi la prévision de leurs mouvements. Selon l’univers de jeu, la compréhension de la nature réelle de ces astres peut varier considérablement, et les théories en vigueur peuvent différer de leur véritable nature.",
+    "aliases": [
+      "Astronomy",
+      "Astronomie"
+    ]
+  },
+  "Attunement": {
+    "skillId": "rmu.skill.attunement",
+    "officialUuid": "Compendium.rmu.core.Item.aOfDsWo0N1GHvJSB",
+    "name": "Harmonisation",
+    "description": "Certains objets nécessitent une Harmonisation avant que tout ou partie de leurs capacités puisse être utilisé. Cela diffère, par exemple, d’une épée magique conférant un Bonus Offensif de +10, dont le porteur bénéficie normalement même s’il ignore les propriétés de l’arme.\n\nL’Harmonisation peut également servir à identifier les pouvoirs magiques d’un objet. Le processus repose sur la formation d’un lien sympathique entre l’aura du personnage et celle de l’objet.\n\nEn règle générale, une seule personne peut être harmonisée avec un objet donné à la fois, bien qu’un même personnage puisse être harmonisé avec un nombre quelconque d’objets.\n\nLe processus d’Harmonisation nécessite normalement trois minutes. Lorsqu’il est effectué plus rapidement, une pénalité s’applique : une minute, −10 ; une demi-minute, −25 ; un seul round, −50. Dans tous les cas, l’Harmonisation doit être achevée avant le round au cours duquel l’objet doit être utilisé.\n\nLorsque l’Harmonisation vise à permettre l’utilisation d’un objet, et non simplement son identification, elle doit être réalisée par le personnage qui utilisera cet objet.\n\nUn autre personnage possédant la Compétence Harmonisation peut lui porter assistance en lui expliquant les pouvoirs de l’objet et en appliquant la règle des Compétences Complémentaires, qui permet d’ajouter ses propres rangs en Harmonisation. Une seule personne peut toutefois apporter cette aide à la tentative.\n\nUne fois le personnage harmonisé avec l’objet, les capacités de sort de celui-ci peuvent être utilisées en effectuant un Jet de Lancement de Sort modifié, comme indiqué dans Spell Law. L’Harmonisation et l’utilisation des objets magiques sont détaillées davantage dans Treasure Law.",
+    "aliases": [
+      "Attunement",
+      "Harmonisation",
+      "Accord"
+    ]
+  },
+  "Base Spell List": {
+    "skillId": "rmu.skill.base-spell-list",
+    "officialUuid": "Compendium.rmu.core.Item.HKMsYOxwPwwsxPVW",
+    "name": "Liste de Sorts Basique",
+    "description": "Développer une Liste de Sorts permet au personnage de lancer les sorts qui en font partie. Le nombre de rangs possédés dans une Liste détermine jusqu’à quel niveau le personnage peut en lancer les sorts. Le nombre de rangs possédés dans la Liste de Sorts, auquel s’ajoute une fois le bonus de caractéristique associé au Domaine, est également ajouté au Jet de Lancement de Sort lorsque le personnage lance un sort de cette Liste. Le bonus total de Compétence est utilisé pour les tentatives de Maîtrise des Sorts. Les Listes Basiques correspondent aux Listes propres à chaque profession utilisant la magie. Spécialisation : chaque Liste de Sorts Basique.",
+    "aliases": [
+      "Base Spell List",
+      "Liste de Sorts Basique",
+      "Base",
+      "Liste de sorts de base"
+    ]
+  },
+  "Blind Fighting": {
+    "skillId": "rmu.skill.blind-fighting",
+    "officialUuid": "Compendium.rmu.core.Item.tAVhIaC8Z5USII5n",
+    "name": "Combat à l’Aveugle",
+    "description": "Réduit les pénalités appliquées aux Manœuvres effectuées sans pouvoir voir, dans l’obscurité ou sous une faible luminosité (section 15.7).",
+    "aliases": [
+      "Blind Fighting",
+      "Combat à l’Aveugle",
+      "Combat à l’aveugle"
+    ]
+  },
+  "Body Development": {
+    "skillId": "rmu.skill.body-development",
+    "officialUuid": "Compendium.rmu.core.Item.2Lr8Ga6TzVd8fkLP",
+    "name": "Développement Corporel",
+    "description": "Le Développement Corporel représente le degré de développement et d’entraînement physique du personnage. Une valeur élevée lui permet de subir davantage de dégâts sans perdre connaissance, ainsi que de pousser son corps vers des niveaux d’effort ou d’endurance plus extrêmes.\n\nLe bonus de Développement Corporel du personnage est ajouté à ses points de vie de base, déterminés par sa race, afin d’obtenir son total de points de vie. Pour un personnage de Petite taille, ce total est multiplié par 0,75. Pour un personnage de Grande taille, il est multiplié par 1,5. Pour les personnages d’une taille autre que Petite, Moyenne ou Grande, consultez le tableau 9-4a.\n\nLe bonus de Développement Corporel est également utilisé lors des Jets d’Endurance (section 5.5).\n\nUn personnage meurt lorsque son total de points de vie négatifs dépasse son bonus de Développement Corporel. Ainsi, un personnage possédant un bonus de Développement Corporel de +67 meurt lorsqu’il atteint −68 points de vie.",
+    "aliases": [
+      "Body Development",
+      "Développement Corporel",
+      "Développement corporel"
+    ]
+  },
+  "Channeling": {
+    "skillId": "rmu.skill.channeling",
+    "officialUuid": "Compendium.rmu.core.Item.4gKr6KUQLzypYg8r",
+    "name": "Canalisation",
+    "description": "Cette Compétence permet de transmettre des Points de Pouvoir à une cible consentante ou à un objet conçu pour stocker du pouvoir.\n\nL’émetteur doit connaître l’emplacement exact de la cible, soit en la voyant, soit par un moyen magique, soit grâce à un rendez-vous convenu à l’avance.\n\nPour transmettre des Points de Pouvoir, le personnage doit annoncer le nombre de points qu’il envoie, puis effectuer une Manœuvre en Pourcentage Moyenne (+0). Le résultat obtenu correspond au pourcentage de Points de Pouvoir effectivement transmis ; le reste est perdu. Tout résultat supérieur à 100 est considéré comme un bonus au jet du destinataire. Un résultat négatif retire à l’émetteur un nombre équivalent de Points de Pouvoir, en plus de la totalité des points qu’il tentait de transmettre, jusqu’à un minimum de 0. Toute perte excédentaire est ignorée.\n\nPour recevoir des Points de Pouvoir, le destinataire effectue également une Manœuvre en Pourcentage Moyenne (0). Le résultat obtenu correspond au pourcentage des Points de Pouvoir transmis réellement reçus, jusqu’à un maximum de 100 %. Le destinataire peut ainsi se retrouver temporairement avec davantage de Points de Pouvoir que son maximum normal. Il perd toutefois 1 Point de Pouvoir par heure jusqu’à ce que son total revienne à sa valeur maximale habituelle.",
+    "aliases": [
+      "Channeling",
+      "Canalisation"
+    ]
+  },
+  "Climbing": {
+    "skillId": "rmu.skill.climbing",
+    "officialUuid": "Compendium.rmu.core.Item.f4NGQIPao66sbyys",
+    "name": "Escalade",
+    "description": "L’Escalade couvre les Manœuvres allant de la montée à une échelle jusqu’à l’ascension d’une falaise. La vitesse d’escalade correspond à un quart du Taux de Mouvement de Base normal du personnage. Cette vitesse de base est ensuite ajustée normalement en fonction de l’Allure. Toutefois, il est impossible d’escalader à une vitesse supérieure à une Allure de Course (+2), sauf si la paroi présente de nombreuses prises évidentes pour les mains et les pieds — comme une échelle ou un arbre — ou si le personnage possède des griffes ou une autre adaptation physique particulière à l’escalade.",
+    "aliases": [
+      "Climbing",
+      "Escalade"
+    ]
+  },
+  "Closed Spell List": {
+    "skillId": "rmu.skill.closed-spell-list",
+    "officialUuid": "Compendium.rmu.core.Item.z4jthRmCyA5zBV1B",
+    "name": "Liste de Sorts Fermée",
+    "description": "Développer une Liste de Sorts permet au personnage de lancer les sorts qui en font partie. Le nombre de rangs possédés dans une Liste détermine jusqu’à quel niveau le personnage peut en lancer les sorts. Les Listes Fermées représentent des techniques magiques plus ésotériques, que seuls les utilisateurs du Domaine concerné peuvent comprendre, mais avec davantage de difficulté. Spécialisation : chaque Liste de Sorts Fermée.",
+    "aliases": [
+      "Closed Spell List",
+      "Liste de Sorts Fermée",
+      "Closed",
+      "Liste de sorts fermée"
+    ]
+  },
+  "Codes": {
+    "skillId": "rmu.skill.codes",
+    "officialUuid": null,
+    "name": "Codes",
+    "description": null,
+    "aliases": [
+      "Codes"
+    ]
+  },
+  "Concealment": {
+    "skillId": "rmu.skill.concealment",
+    "officialUuid": "Compendium.rmu.core.Item.UOYzaLTaSj7YJytm",
+    "name": "Dissimulation",
+    "description": "La Dissimulation permet de cacher des objets ou des groupes d’objets de toute taille — bâtiment, campement, etc. — ou de dissimuler des personnes en tirant parti de l’environnement, de l’éclairage et d’un camouflage approprié. Lorsqu’un personnage tente de rester lui-même invisible, qu’il soit en mouvement ou immobile, il doit utiliser la Compétence Discrétion.",
+    "aliases": [
+      "Concealment",
+      "Dissimulation"
+    ]
+  },
+  "Contortions": {
+    "skillId": "rmu.skill.contortions",
+    "officialUuid": "Compendium.rmu.core.Item.N5GAm1iOW7E2Yavt",
+    "name": "Contorsions",
+    "description": "Les Contorsions consistent à manipuler son corps afin de se glisser dans de petites ouvertures ou de se libérer de liens.\n\nLa difficulté dépend de la taille de l’ouverture par rapport au personnage, ou du matériau utilisé pour les liens et de la manière dont ceux-ci ont été serrés.\n\nCette Compétence peut également être utilisée pour échapper à certaines attaques de lutte, comme indiqué dans la section « Agrippements » de la section 9.8.\n\nUne tentative visant à se libérer d’une prise ou de liens peut être répétée à chaque round jusqu’à ce que le personnage parvienne à s’échapper ou obtienne un Échec Absolu. Dans ce dernier cas, il a resserré la prise ou les liens au point de ne plus pouvoir s’en libérer sans assistance.\n\nLe personnage peut néanmoins encore tenter de neutraliser l’adversaire qui le maintient ou de rompre ses liens grâce à une Prouesse de Force.\n\nSe libérer de liens constitue normalement une action complète de 4 PA. Chaque PA consacré en moins impose une pénalité cumulative de −25 à la tentative, avec un minimum de 1 PA pour une pénalité de −75.\n\nTenter de se libérer de liens ou d’une prise sans attirer l’attention d’un observateur, grâce à de petits mouvements discrets, impose une pénalité de −50 et permet au personnage d’effectuer une Manœuvre Opposée de Discrétion ou de Dupage en opposition à la Perception de l’observateur afin que ses efforts passent inaperçus. Le niveau de difficulté et les modificateurs dépendent de l’attention avec laquelle l’observateur surveille le personnage, de la luminosité ainsi que de tout autre facteur jugé approprié par le MJ.",
+    "aliases": [
+      "Contortions",
+      "Contorsions"
+    ]
+  },
+  "Control Lycanthropy": {
+    "skillId": "rmu.skill.control-lycanthropy",
+    "officialUuid": "Compendium.rmu.core.Item.Yc8WrgnmVQb19Igv",
+    "name": "Contrôle de la Lycanthropie",
+    "description": "La transformation contagieuse provoquée par la lycanthropie est alimentée par l’instinct et les émotions, mais elle peut être maîtrisée par la discipline et le calme.\n\nLe besoin émotionnel de céder à la bête intérieure augmente et diminue au fil du cycle lunaire, atteignant son paroxysme lors de la pleine lune : Pleine lune −50 ; Lune gibbeuse croissante −30 ; Lune gibbeuse décroissante −20 ; Dernier quartier −10 ; Premier quartier 0 ; Premier croissant +10 ; Dernier croissant +20 ; Nouvelle lune +30.\n\nChaque fois que le personnage s’endort lors d’une nuit de pleine lune, chaque fois que le joueur ou le MJ estime qu’il manifeste une rage véritable, ou encore lorsque le MJ considère que le personnage subit une tension émotionnelle extrême, une Manœuvre Absolue doit être effectuée en opposition à cette Compétence, avec une pénalité de −25 si elle ne possède aucun rang, afin de déterminer si le personnage se transforme en sa forme bestiale.\n\nSi la transformation se produit, le lycanthrope, sous le contrôle du MJ, chasse, tue et se nourrit, attaquant violemment quiconque tente de l’en empêcher. Une fois rassasié, il trouve un endroit où se cacher et s’endort. Durant son sommeil, il reprend sa forme « humaine » et se réveille maître de lui-même, sans aucun souvenir de la transformation ni de ce qu’il a accompli sous sa forme bestiale.\n\nUn lycanthrope peut tenter de se transformer volontairement en forme bestiale en maintenant le contrôle, avec une pénalité supplémentaire de −25 à la Manœuvre, puis reprendre sa forme « humaine » depuis un état bestial contrôlé avec une pénalité supplémentaire de −50. Un Échec lors de l’une ou l’autre de ces transformations fait sombrer le lycanthrope dans l’état incontrôlé décrit ci-dessus.\n\nLe stress physique et les traumatismes — notamment les pénalités dues aux blessures et à la Fatigue — rendent le contrôle de la lycanthropie plus difficile et doivent être appliqués comme pénalités à la Manœuvre. Il appartient au MJ d’évaluer les tensions mentales ou émotionnelles susceptibles d’imposer également des pénalités. La Méditation, les plantes ou drogues sédatives, ainsi que les effets magiques conférant des bonus au calme ou à l’autodiscipline, accordent tous des bonus aux tests de contrôle effectués avec cette Compétence.",
+    "aliases": [
+      "Control Lycanthropy",
+      "Contrôle de la Lycanthropie",
+      "Maîtrise de la lycanthropie"
+    ]
+  },
+  "Creature Lore": {
+    "skillId": "rmu.skill.creature-lore",
+    "officialUuid": "Compendium.rmu.core.Item.ptaeZOk6wIgdpc2T",
+    "name": "Connaissance des Créatures",
+    "description": "La Connaissance des Créatures permet de reconnaître un type précis de créature et d’en connaître l’habitat, le régime alimentaire, ainsi que les pouvoirs et capacités. Un nombre de rangs plus élevé permet d’acquérir des connaissances portant sur les cultures, la psychologie et d’autres détails propres à ces créatures. Les connaissances relatives aux animaux ordinaires relèvent toutefois de la Compétence Survie du biome approprié. La Connaissance des Créatures convient aux créatures magiques qui ne s’organisent pas en cités ou en tribus. Pour celles qui disposent de telles structures sociales, la Connaissance des Races peut être plus appropriée. Spécialisations : Démons, Dragons, Fées, Morts-vivants.",
+    "aliases": [
+      "Creature Lore",
+      "Connaissance des Créatures",
+      "Connaissance des créatures"
+    ]
+  },
+  "Culinary": {
+    "skillId": "rmu.skill.culinary",
+    "officialUuid": "Compendium.rmu.core.Item.RMTmeNI1xTpNIGxE",
+    "name": "Art Culinaire",
+    "description": "L’alimentation occupe une place essentielle dans la vie de toute créature vivante. Les aliments sont plus savoureux et meilleurs pour la santé lorsqu’ils sont préparés avec savoir-faire. Les légumes, les viandes et les boissons font chacun l’objet de métiers spécialisés consacrés à leur récolte, à leur transformation et à leur préparation avant consommation. Spécialisations visibles : cuisinier, brasseur, sommelier, boucher, fromager.",
+    "aliases": [
+      "Culinary",
+      "Art Culinaire",
+      "Cuisine"
+    ]
+  },
+  "Dagger": {
+    "skillId": "rmu.skill.dagger",
+    "officialUuid": null,
+    "name": "Dague",
+    "description": "Permet d’utiliser une dague au corps à corps ou comme arme de secours.",
+    "aliases": [
+      "Dagger",
+      "Dague"
+    ]
+  },
+  "Diplomacy": {
+    "skillId": "rmu.skill.diplomacy",
+    "officialUuid": null,
+    "name": "Diplomatie",
+    "description": "Permet de négocier entre des intérêts opposés, de désamorcer les conflits et de rechercher un compromis durable.",
+    "aliases": [
+      "Diplomacy",
+      "Diplomatie"
+    ]
+  },
+  "Directed Spell": {
+    "skillId": "rmu.skill.directed-spell",
+    "officialUuid": "Compendium.rmu.core.Item.4VqqSCIGzBDIO6D5",
+    "name": "Sort Dirigé",
+    "description": "Les Sorts Dirigés sont des attaques magiques dirigées ou visées contre une cible. Cette Compétence fournit le Bonus Offensif de ces attaques, mais ne permet pas de créer l’attaque elle-même : celle-ci doit provenir du lancement d’un sort approprié. Spécialisations : Projectiles Élémentaires, Attaques Illusoires, Projection.",
+    "aliases": [
+      "Directed Spell",
+      "Sort Dirigé",
+      "Sort dirigé"
+    ]
+  },
+  "Disarm": {
+    "skillId": "rmu.skill.disarm",
+    "officialUuid": "Compendium.rmu.core.Item.BuRMDfQsnMq6EYCm",
+    "name": "Désarmement",
+    "description": "Réduit les pénalités associées aux tentatives visant à désarmer un adversaire (section 9.7).",
+    "aliases": [
+      "Disarm",
+      "Désarmement"
+    ]
+  },
+  "Drawing/Painting": {
+    "skillId": "rmu.skill.drawing-painting",
+    "officialUuid": "Compendium.rmu.core.Item.bobgpyecFdgUsI1v",
+    "name": "Dessin/Peinture",
+    "description": "Le Dessin et la Peinture permettent de créer des œuvres visuelles allant de représentations réalistes à des compositions abstraites. L’artiste utilise des lignes, des ombrages, des formes, des couleurs et des textures pour produire des illustrations ou des tableaux. Une œuvre soignée peut nécessiter un crayon, une plume, un pinceau ou un outil similaire, mais cette Compétence peut également être pratiquée sommairement sur n’importe quelle surface utilisable, avec pour seul matériel un pigment quelconque et le doigt du personnage. Spécialisations : Dessin, Peinture.",
+    "aliases": [
+      "Drawing/Painting",
+      "Dessin/Peinture"
+    ]
+  },
+  "Endurance": {
+    "skillId": "rmu.skill.endurance",
+    "officialUuid": null,
+    "name": "Endurance",
+    "description": "Permet de résister à la fatigue, aux longues marches, au froid et aux efforts prolongés.",
+    "aliases": [
+      "Endurance"
+    ]
+  },
+  "Engineering": {
+    "skillId": "rmu.skill.engineering",
+    "officialUuid": "Compendium.rmu.core.Item.wTiAXVO2XdSVG6Ni",
+    "name": "Ingénierie",
+    "description": "L’Ingénierie associe des notions de mathématiques, de physique et d’invention. Elle fournit des connaissances théoriques sur les dispositifs et les procédés, ainsi qu’une compréhension des raisons pour lesquelles les choses fonctionnent. Les personnages peuvent utiliser l’Ingénierie pour déterminer le fonctionnement d’un mécanisme, concevoir de nouveaux dispositifs ou améliorer l’efficacité de systèmes existants.",
+    "aliases": [
+      "Engineering",
+      "Ingénierie"
+    ]
+  },
+  "Fabric Craft": {
+    "skillId": "rmu.skill.fabric-craft",
+    "officialUuid": "Compendium.rmu.core.Item.6OV02K1mzNPyWGk3",
+    "name": "Artisanat Textile",
+    "description": "Les humains ont besoin de vêtements pour se protéger des intempéries. Les étoffes sont produites à partir de fibres animales ou végétales. La fabrication de vêtements exige un travail spécialisé, même si de nombreuses personnes au foyer possèdent également quelques notions dans cet artisanat. Spécialisations : fileur, teinturier, tailleur, tisserand, couturier, tapissier, tricoteur, chapelier, cordier.",
+    "aliases": [
+      "Fabric Craft",
+      "Artisanat Textile",
+      "Travail des textiles"
+    ]
+  },
+  "Flying": {
+    "skillId": "rmu.skill.flying",
+    "officialUuid": "Compendium.rmu.core.Item.pYxBj63lwAw7ykXb",
+    "name": "Vol",
+    "description": "Comme pour les autres Compétences de Mouvement, la vitesse de vol dépend d’un Taux de Mouvement de Base, généralement déterminé par le moyen de locomotion aérienne, puis ajusté selon l’Allure choisie. En vol, l’Allure de Sprint correspond à un Piqué, vitesse qui ne peut être atteinte qu’en descendant rapidement, tandis que l’Allure de Ruée correspond à un Piqué Propulsé, obtenu en volant aussi vite que possible tout en descendant rapidement. Les créatures volantes peuvent planer jusqu’à une Allure de Course en ne subissant que la moitié des pénalités normales de déplacement. À moins que les conditions ne soient idéales, sous la forme de forts courants ascendants ou d’un vent favorable, chaque round de vol plané prolongé nécessite une Manœuvre réussie assortie d’une pénalité cumulative de −10 par round.",
+    "aliases": [
+      "Flying",
+      "Vol"
+    ]
+  },
+  "Footwork": {
+    "skillId": "rmu.skill.footwork",
+    "officialUuid": "Compendium.rmu.core.Item.VFQfXFNeiAduwmnp",
+    "name": "Jeu de Jambes",
+    "description": "Réduit les pénalités associées au déplacement lors d’attaques de mêlée, y compris pendant une charge (section 8.2).",
+    "aliases": [
+      "Footwork",
+      "Jeu de Jambes",
+      "Jeu de jambes"
+    ]
+  },
+  "Fortitude": {
+    "skillId": "rmu.skill.fortitude",
+    "officialUuid": "Compendium.rmu.core.Item.RvKRfbgs13tToueP",
+    "name": "Robustesse",
+    "description": "Le personnage s’est entraîné à bloquer temporairement les sensations de douleur et d’inconfort, ce qui lui permet de réduire provisoirement les pénalités dues à la Fatigue, à la douleur ou aux blessures.\n\nEn cas de Manœuvre réussie, toutes les pénalités dues à la Fatigue, à la perte de points de vie, aux Blessures et à l’Étourdissement sont divisées par deux. Bien que la pénalité d’Étourdissement puisse être réduite, le personnage est toujours considéré comme Étourdi pour déterminer les attaques portées contre lui et sa capacité à se concentrer.\n\nUne Manœuvre de Robustesse constitue une action instantanée. En cas de réussite, ses bénéfices s’appliquent pendant le même round et se prolongent d’un round supplémentaire par tranche complète de 20 points de Réussite : 1 round pour un résultat de 101 à 120, 2 rounds pour un résultat de 121 à 140, etc.\n\nEn cas de Réussite Absolue, le personnage ne subit aucune pénalité due à la Fatigue, à la perte de points de vie, aux Blessures ou à l’Étourdissement pendant le premier round.\n\nToutes les pénalités de Blessure s’appliquent à chaque Manœuvre de Robustesse, même après une utilisation réussie de cette Compétence.\n\nLa table des Manœuvres Adrénales est utilisée pour les Manœuvres de Robustesse. Un Échec Absolu entraîne également une pénalité supplémentaire de Fatigue de −20.",
+    "aliases": [
+      "Fortitude",
+      "Robustesse"
+    ]
+  },
+  "Grace": {
+    "skillId": "rmu.skill.grace",
+    "officialUuid": "Compendium.rmu.core.Item.nWUkJD5TQ6lGWOEM",
+    "name": "Grâce",
+    "description": "Réduit les pénalités subies lors du lancement d’un sort d’un niveau supérieur à celui du lanceur.",
+    "aliases": [
+      "Grace",
+      "Grâce"
+    ]
+  },
+  "Heraldry": {
+    "skillId": "rmu.skill.heraldry",
+    "officialUuid": null,
+    "name": "Héraldique",
+    "description": "Permet d’identifier les blasons, lignées, maisons, symboles et signes d’autorité.",
+    "aliases": [
+      "Heraldry",
+      "Héraldique"
+    ]
+  },
+  "Herbalism": {
+    "skillId": "rmu.skill.herbalism",
+    "officialUuid": "Compendium.rmu.core.Item.z9deteAzm3oL6Jky",
+    "name": "Herboristerie",
+    "description": "L’Herboristerie comprend la connaissance des effets et des doses, ainsi que la préparation et l’utilisation des plantes et des remèdes. La recherche de plantes doit être effectuée à l’aide de la Compétence Survie correspondant au biome approprié, bien que l’Herboristerie puisse être utilisée comme Compétence Complémentaire. Les règles détaillées concernant les plantes figurent dans Treasure Law. Dans les sociétés disposant d’un niveau technologique plus avancé, cette Compétence peut être remplacée par la Pharmacologie.",
+    "aliases": [
+      "Herbalism",
+      "Herboristerie"
+    ]
+  },
+  "Historic Lore": {
+    "skillId": "rmu.skill.historic-lore",
+    "officialUuid": "Compendium.rmu.core.Item.Ki1eas3iNx70TTD3",
+    "name": "Connaissance Historique",
+    "description": "La Connaissance Historique porte sur les événements consignés du passé. Plus le domaine couvert par le personnage est vaste, notamment sur les plans géographique et chronologique, moins les informations dont il dispose sont précises. À l’inverse, plus le sujet est restreint, plus ses connaissances peuvent être détaillées. Ainsi, la Compétence Histoire du Continent Septentrional peut s’appliquer à de nombreuses situations, mais ne fournit que des informations générales. La Compétence Histoire de Kai Shulin à l’époque du Troisième Empire, en revanche, offre des connaissances beaucoup plus précises et détaillées, mais uniquement pour la région et la période concernées, ainsi que des informations limitées sur les autres époques ou les territoires voisins. Le MJ doit garder à l’esprit que l’histoire contient souvent des vérités partielles ou des récits erronés. Une Réussite Absolue peut donc être nécessaire pour se rappeler un détail connu de peu de personnes, alors même que la majorité croit généralement vraie une version différente des faits.",
+    "aliases": [
+      "Historic Lore",
+      "Connaissance Historique",
+      "Connaissance historique"
+    ]
+  },
+  "History": {
+    "skillId": "rmu.skill.history",
+    "officialUuid": null,
+    "name": "Histoire",
+    "description": "Permet de se souvenir d’événements historiques, de chronologies, de lignées et de précédents utiles.",
+    "aliases": [
+      "History",
+      "Histoire"
+    ]
+  },
+  "Illusion Crafting": {
+    "skillId": "rmu.skill.illusion-crafting",
+    "officialUuid": "Compendium.rmu.core.Item.5ULqrBallK81EDHP",
+    "name": "Création d’Illusions",
+    "description": "La création d’illusions est un art exigeant. Les efforts d’un artiste médiocre ne produisent guère plus qu’un camouflage sommaire.\n\nLes illusions servent souvent à tromper, et la Création d’Illusions peut être utilisée pour garantir leur vraisemblance, voire pour imiter des créatures, des objets ou des individus réels.\n\nCependant, les illusions peuvent également servir à divertir ou à soutenir, de manière subtile ou manifeste, d’autres formes de représentation. Un discours peut bénéficier d’une meilleure résonance acoustique ou d’un jeu opportun de lumière et d’ombre, tandis que des illusions peuvent masquer des accessoires ou des décors de piètre qualité sur une scène.",
+    "aliases": [
+      "Illusion Crafting",
+      "Création d’Illusions",
+      "Composition d’illusions"
+    ]
+  },
+  "Influence": {
+    "skillId": "rmu.skill.influence",
+    "officialUuid": "Compendium.rmu.core.Item.JZbzdTAvwPCGMBI2",
+    "name": "Influence",
+    "description": "Cette Compétence confère un bonus aux Manœuvres visant à orienter les opinions d’une personne dans la direction souhaitée par le personnage. Spécialisations : Charme, Dupage, Intimidation.",
+    "aliases": [
+      "Influence"
+    ]
+  },
+  "Intimidation": {
+    "skillId": "rmu.skill.intimidation",
+    "officialUuid": null,
+    "name": "Intimidation",
+    "description": null,
+    "aliases": [
+      "Intimidation"
+    ]
+  },
+  "Jumping": {
+    "skillId": "rmu.skill.jumping",
+    "officialUuid": "Compendium.rmu.core.Item.o8r6XNdULmCuKnpn",
+    "name": "Saut",
+    "description": "Le Saut comprend aussi bien les sauts avec élan que les sauts sans élan. Chaque personnage possède une distance de saut de base, qui dépend du type de saut. L’Allure correspond au modificateur de déplacement du personnage, exprimé en pouces. Saut en longueur avec élan : 50 pouces + Allure ; sans élan : (50 pouces + Allure) ÷ 2 ; saut en hauteur avec élan : (50 pouces + Allure) ÷ 5 ; sans élan : (50 pouces + Allure) ÷ 10. Le Modificateur de Difficulté pour franchir une distance donnée est de +40, diminué de 20 pour chaque fraction complète de la distance de saut de base du personnage. En cas d’échec de la Manœuvre, si la distance réellement franchie est importante, consultez la table des Manœuvres en Pourcentage afin de déterminer la distance parcourue.",
+    "aliases": [
+      "Jumping",
+      "Saut"
+    ]
+  },
+  "Language Lip Reading": {
+    "skillId": "rmu.skill.language-lip-reading",
+    "officialUuid": "Compendium.rmu.core.Item.m0DJ9HQIeMoFkLnn",
+    "name": "Langue : lecture labiale",
+    "description": "Cette compétence permet de comprendre une langue en observant les mouvements des lèvres et du visage. Elle exige généralement de connaître la langue parlée correspondante.",
+    "aliases": [
+      "Language Lip Reading",
+      "Langue : lecture labiale",
+      "Lip Reading"
+    ]
+  },
+  "Language Signaled": {
+    "skillId": "rmu.skill.language-signaled",
+    "officialUuid": "Compendium.rmu.core.Item.6vTdNOR56P6mdauT",
+    "name": "Langue gestuelle",
+    "description": "Cette compétence mesure la maîtrise d’une langue gestuelle ou signalée. Chaque langue constitue une spécialisation distincte.",
+    "aliases": [
+      "Language Signaled",
+      "Langue gestuelle",
+      "Signaled"
+    ]
+  },
+  "Language Spoken": {
+    "skillId": "rmu.skill.language-spoken",
+    "officialUuid": "Compendium.rmu.core.Item.F3QYqm90nJEfwDr8",
+    "name": "Langue parlée",
+    "description": "Cette compétence mesure l’aisance à comprendre et parler une langue. Chaque langue constitue une spécialisation distincte, avec un niveau de maîtrise dépendant des rangs.",
+    "aliases": [
+      "Language Spoken",
+      "Langue parlée",
+      "Spoken"
+    ]
+  },
+  "Language Written": {
+    "skillId": "rmu.skill.language-written",
+    "officialUuid": "Compendium.rmu.core.Item.aS6BrCO1WDJfGdJM",
+    "name": "Langue écrite",
+    "description": "Cette compétence mesure l’aisance à lire et écrire une langue. Chaque système d’écriture ou langue constitue une spécialisation distincte.",
+    "aliases": [
+      "Language Written",
+      "Langue écrite",
+      "Written"
+    ]
+  },
+  "Law": {
+    "skillId": "rmu.skill.law",
+    "officialUuid": null,
+    "name": "Droit",
+    "description": "Connaissance des lois, coutumes, droits, obligations et procédures judiciaires en vigueur.",
+    "aliases": [
+      "Law",
+      "Droit"
+    ]
+  },
+  "Leadership": {
+    "skillId": "rmu.skill.leadership",
+    "officialUuid": "Compendium.rmu.core.Item.klzz4fkNjTms4Xpv",
+    "name": "Commandement",
+    "description": "Le Commandement permet d’inspirer les personnes loyales au personnage afin qu’elles suivent ses instructions ou qu’elles s’organisent efficacement en groupe. Cette Compétence ne peut pas être utilisée sur des personnes qui ne sont pas déjà loyales envers lui. En revanche, elle peut servir à rallier ceux qui le considèrent comme leur chef ou à les inspirer. Toute instruction ou tout ordre susceptible d’être contesté est modifié par le bonus de Commandement du personnage. Tous les combattants qui considèrent le personnage comme leur chef bénéficient également d’un bonus égal à ses rangs en Commandement à tous les Jets de Résistance contre la Peur ou la Terreur, tant qu’ils savent qu’il est présent. Le chef peut aussi effectuer une Manœuvre pour rallier des partisans ayant échoué à un test de Peur. Le Commandement apporte enfin un avantage lors de la coordination de plusieurs individus accomplissant une même tâche.",
+    "aliases": [
+      "Leadership",
+      "Commandement"
+    ]
+  },
+  "Leathercraft": {
+    "skillId": "rmu.skill.leathercraft",
+    "officialUuid": "Compendium.rmu.core.Item.bn8gpyecFdgUsI1v",
+    "name": "Travail du Cuir",
+    "description": "Les peaux animales peuvent être tannées et utilisées à de nombreuses fins. Le cuir est résistant, protège bien des intempéries et possède une apparence agréable. De nombreux objets sont fabriqués en cuir. Spécialisations : tanneur, maroquinier, sellier, cordonnier, fabricant de tentes, armurier, fabricant de ceintures.",
+    "aliases": [
+      "Leathercraft",
+      "Travail du Cuir",
+      "Travail du cuir"
+    ]
+  },
+  "Locks": {
+    "skillId": "rmu.skill.locks",
+    "officialUuid": "Compendium.rmu.core.Item.Ab6fQAHYrkAMpjEK",
+    "name": "Serrures",
+    "description": "Cette Compétence couvre la manipulation et le crochetage des serrures sans clé, l’entretien des serrures, la modification des serrures réglables par leur utilisateur, ainsi que la conception des serrures. Exemples de difficultés proposées : cadenas simple, Facile ; serrure à combinaison ou à gorges, Difficile à Extrêmement Difficile ; serrure à double clé ou à double combinaison, Pure Folie. Des outils particuliers ou certaines circonstances peuvent encore modifier la complexité.",
+    "aliases": [
+      "Locks",
+      "Serrures"
+    ]
+  },
+  "Long Sword": {
+    "skillId": "rmu.skill.long-sword",
+    "officialUuid": null,
+    "name": "Épée longue",
+    "description": "Permet d’utiliser une épée longue pour attaquer, parer et combattre à pied.",
+    "aliases": [
+      "Long Sword",
+      "Épée longue"
+    ]
+  },
+  "Magical Ritual": {
+    "skillId": "rmu.skill.magical-ritual",
+    "officialUuid": "Compendium.rmu.core.Item.RQ7ZU0YPOCg4WY63",
+    "name": "Rituel Magique",
+    "description": "Les Rituels Magiques constituent une autre manière d’utiliser la magie. Comparés aux sorts, les rituels peuvent produire des effets plus vastes, mais demandent généralement beaucoup plus de temps. Les exemples de types de rituels sont représentatifs et non exhaustifs. La plupart des effets de sorts relèvent d’une seule catégorie de rituel, mais certains appartiennent à deux catégories. Spécialisations : Altération, Création, Défense, Destruction, Élémentaire, Guérison, Information, Invocation et Transport.",
+    "aliases": [
+      "Magical Ritual",
+      "Rituel Magique",
+      "Rituel magique"
+    ]
+  },
+  "Maneuvering in Armor": {
+    "skillId": "rmu.skill.maneuvering-in-armor",
+    "officialUuid": "Compendium.rmu.core.Item.aicSzr6Bk4mBbtce",
+    "name": "Manœuvre en Armure",
+    "description": "Réduit la pénalité de Manœuvre imposée par l’armure portée, mais n’a aucun effet sur la pénalité d’Encombrement associée à cette armure (section 7.2).",
+    "aliases": [
+      "Maneuvering in Armor",
+      "Manœuvre en Armure",
+      "Manœuvres en armure"
+    ]
+  },
+  "Materials Lore": {
+    "skillId": "rmu.skill.materials-lore",
+    "officialUuid": "Compendium.rmu.core.Item.b79GBZMGImkk2unK",
+    "name": "Connaissance des Matériaux",
+    "description": "La Connaissance des Matériaux permet d’identifier les matières premières d’un type précis de matériau, comme le métal, ainsi que d’en connaître les sources et les méthodes de travail. La fabrication proprement dite relève de la Compétence d’Artisanat correspondante. Cette Compétence peut également fournir des informations sur des objets célèbres, magiques, historiques, légendaires ou maudits, ainsi que sur les matériaux dont ils sont constitués. Spécialisations : os/corne, étoffes, cuir, métal, pierre, bois.",
+    "aliases": [
+      "Materials Lore",
+      "Connaissance des Matériaux",
+      "Connaissance des matériaux"
+    ]
+  },
+  "Mathematics": {
+    "skillId": "rmu.skill.mathematics",
+    "officialUuid": "Compendium.rmu.core.Item.wvtojEOZyYPGauzs",
+    "name": "Mathématiques",
+    "description": "Dans sa forme la plus élémentaire, la Mathématique comprend le dénombrement ainsi que les opérations fondamentales d’addition, de soustraction, de multiplication et de division. À des niveaux de difficulté plus élevés, elle peut servir à mesurer et à quantifier des aspects toujours plus complexes du monde tangible. Les niveaux de difficulté supérieurs permettent d’effectuer des opérations plus élaborées et de manipuler des qualités ou des quantités plus abstraites. L’application de nombreuses autres Sciences dépend d’un niveau suffisant en Mathématiques pour réaliser les calculs nécessaires.",
+    "aliases": [
+      "Mathematics",
+      "Mathématiques"
+    ]
+  },
+  "Mechanics": {
+    "skillId": "rmu.skill.mechanics",
+    "officialUuid": "Compendium.rmu.core.Item.qdGm8l0rATW6zmNM",
+    "name": "Mécanique",
+    "description": "Cette Compétence concerne l’utilisation, la réparation et la construction de dispositifs technologiques. Dans la plupart des univers médiévaux-fantastiques, la Mécanique constitue une Compétence unique couvrant tous les dispositifs mécaniques et hydrauliques possibles, notamment les pompes. La Spécialisation Utilisation couvre l’emploi correct des dispositifs technologiques, l’obtention de leurs performances maximales ainsi que les moyens d’éviter de les soumettre à des contraintes excessives susceptibles de les endommager. La Mécanique peut être utilisée pour faire fonctionner certains éléments d’un véhicule tant que celui-ci reste immobile. Dès que le véhicule se déplace, la Compétence Pilotage est requise. La Spécialisation Réparation et Construction permet au personnage d’assembler des dispositifs technologiques à partir de pièces, de repérer les blocages et de remplacer les composants endommagés. La construction ou la réparation de pièces brisées nécessite une Compétence d’Artisanat appropriée. La création de dispositifs nouveaux ou originaux nécessite la Compétence Ingénierie. Spécialisations : Utilisation, Réparation et Construction.",
+    "aliases": [
+      "Mechanics",
+      "Mécanique"
+    ]
+  },
+  "Medicine": {
+    "skillId": "rmu.skill.medicine",
+    "officialUuid": "Compendium.rmu.core.Item.XwqS4u3JAEuNnh4S",
+    "name": "Médecine",
+    "description": "Cette Compétence confère un bonus pour le traitement des blessures et des symptômes manifestes de maladie. Elle couvre notamment l’utilisation de remèdes médicaux simples ou de plantes, la réduction de fractures, l’arrêt des saignements, etc. Pour une utilisation détaillée de cette Compétence, consultez les règles relatives aux blessures et à la guérison, section 13.1.",
+    "aliases": [
+      "Medicine",
+      "Médecine"
+    ]
+  },
+  "Meditation": {
+    "skillId": "rmu.skill.meditation",
+    "officialUuid": "Compendium.rmu.core.Item.ZmfJLza11LOaeNH9",
+    "name": "Méditation",
+    "description": "La Méditation permet d’entrer dans une transe mentale et de l’exploiter afin d’aider le personnage à résoudre des problèmes difficiles ou à accomplir des Manœuvres Mentales. Pour utiliser cette Compétence, le personnage doit méditer pendant 5 minutes. En cas de Manœuvre réussie, il bénéficie d’un bonus de +25, lors du round suivant, à toutes les actions mentales : Harmonisation avec un objet magique, lancement d’un sort, utilisation d’une Compétence de Connaissances, etc.",
+    "aliases": [
+      "Meditation",
+      "Méditation"
+    ]
+  },
+  "Melee Weapons": {
+    "skillId": "rmu.skill.melee-weapons",
+    "officialUuid": "Compendium.rmu.core.Item.SZsgIAgJpnhdV0Kn",
+    "name": "Armes de Mêlée",
+    "description": "Armes utilisées lors des combats au corps à corps, telles que les épées longues, les lances, les marteaux de guerre ou les épées à deux mains. Spécialisations : Lames, Chaînes, Armes Emmanchées, Grandes Lames, Grandes Chaînes, Grandes Armes Emmanchées, Armes d’Hast et tout type précis d’Arme Exotique.",
+    "aliases": [
+      "Melee Weapons",
+      "Armes de Mêlée",
+      "Armes de mêlée"
+    ]
+  },
+  "Mental Focus": {
+    "skillId": "rmu.skill.mental-focus",
+    "officialUuid": "Compendium.rmu.core.Item.v5abagtc8WLe6YHZ",
+    "name": "Concentration Mentale",
+    "description": "La Concentration Mentale permet de maintenir sa concentration pendant une durée prolongée, lorsqu’on est Étourdi ou lorsqu’on se concentre simultanément sur deux tâches. Le MJ peut également exiger une Manœuvre de Concentration Mentale dans une situation extrêmement stressante, chaotique ou déroutante.",
+    "aliases": [
+      "Mental Focus",
+      "Concentration Mentale",
+      "Concentration mentale"
+    ]
+  },
+  "Metalcraft": {
+    "skillId": "rmu.skill.metalcraft",
+    "officialUuid": "Compendium.rmu.core.Item.nPKYuxvkfv8Nfjf3",
+    "name": "Travail du Métal",
+    "description": "Les métaux sont extraits du sol sous forme de minerais, puis fondus et raffinés afin d’obtenir des lingots ou des billettes. Chaque métal possède ses usages propres, et de nombreuses Spécialisations permettent de fabriquer des objets métalliques. Le métal peut être moulé ou travaillé. Parmi les exemples figurent le fer, dur et résistant, le cuivre, semi-précieux et malléable, ainsi que l’argent et l’or, précieux mais tendres. Spécialisations : forgeron, chaudronnier, fondeur, joaillier, orfèvre, argentier, armurier, fabricant d’armes.",
+    "aliases": [
+      "Metalcraft",
+      "Travail du Métal",
+      "Travail du métal"
+    ]
+  },
+  "Mounted Combat": {
+    "skillId": "rmu.skill.mounted-combat",
+    "officialUuid": "Compendium.rmu.core.Item.tKnY5hTgtnMJMz4j",
+    "name": "Combat Monté",
+    "description": "Réduit les pénalités appliquées aux Manœuvres effectuées lorsque le personnage monte un animal ou une bête (section 9.7).",
+    "aliases": [
+      "Mounted Combat",
+      "Combat Monté",
+      "Combat monté"
+    ]
+  },
+  "Multiple Attacks": {
+    "skillId": "rmu.skill.multiple-attacks",
+    "officialUuid": "Compendium.rmu.core.Item.bryzfW8lEP6YExeH",
+    "name": "Attaques Multiples",
+    "description": "Réduit les pénalités associées à l’exécution de plusieurs attaques de mêlée simultanées au cours d’un même round, qu’elles visent un seul adversaire ou plusieurs adversaires. Voir les Katas à la section 9.7.",
+    "aliases": [
+      "Multiple Attacks",
+      "Attaques Multiples",
+      "Attaques multiples"
+    ]
+  },
+  "Music": {
+    "skillId": "rmu.skill.music",
+    "officialUuid": "Compendium.rmu.core.Item.OcviBIwfqLH8BTco",
+    "name": "Musique",
+    "description": "La Compétence Musique couvre l’interprétation effective d’une œuvre musicale, qu’elle soit écrite ou improvisée, à l’aide d’un instrument précis ou par le chant. Spécialisations : Chant, chaque famille d’instruments — percussions, flûtes, instruments à vent, cuivres.",
+    "aliases": [
+      "Music",
+      "Musique"
+    ]
+  },
+  "Musical Composition": {
+    "skillId": "rmu.skill.musical-composition",
+    "officialUuid": "Compendium.rmu.core.Item.PyDMHx1FzehRIFyQ",
+    "name": "Composition Musicale",
+    "description": "Alors que la Compétence Musique sert à interpréter une œuvre musicale connue, la Composition Musicale permet de créer de nouvelles œuvres et d’adapter celles qui existent déjà. Un compositeur peut simplement chercher à gagner sa vie, mais la musique peut également servir à raconter des histoires, à influencer les émotions ou à persuader. Une mélodie entraînante peut se diffuser bien au-delà de la portée d’un simple discours public.",
+    "aliases": [
+      "Musical Composition",
+      "Composition Musicale",
+      "Composition musicale"
+    ]
+  },
+  "Navigation": {
+    "skillId": "rmu.skill.navigation",
+    "officialUuid": "Compendium.rmu.core.Item.17TJeo3H9rw2n0E9",
+    "name": "Navigation",
+    "description": "La Navigation permet de déterminer les directions et les distances appropriées lors de l’utilisation ou de la création d’une carte, en association avec un moyen d’orientation tel qu’une boussole ou les étoiles. Elle englobe notamment l’orientation, aussi bien sur terre que sur l’eau. Lorsque le déplacement s’effectue à l’aide de repères familiers, la Compétence Connaissance Régionale est utilisée à la place.",
+    "aliases": [
+      "Navigation"
+    ]
+  },
+  "Negotiation": {
+    "skillId": "rmu.skill.negotiation",
+    "officialUuid": null,
+    "name": "Négociation",
+    "description": "Permet d’obtenir un accord avantageux par la discussion, les concessions et l’évaluation des priorités adverses.",
+    "aliases": [
+      "Negotiation",
+      "Négociation"
+    ]
+  },
+  "Open Spell List": {
+    "skillId": "rmu.skill.open-spell-list",
+    "officialUuid": "Compendium.rmu.core.Item.CrqFW2p1mPztFP8V",
+    "name": "Liste de Sorts Ouverte",
+    "description": "Développer une Liste de Sorts permet au personnage de lancer les sorts qui en font partie. Le nombre de rangs possédés dans une Liste détermine jusqu’à quel niveau le personnage peut en lancer les sorts. Les Listes Ouvertes sont communes : elles regroupent des sorts relativement simples que beaucoup comprennent et que chacun peut apprendre. Spécialisation : chaque Liste de Sorts Ouverte.",
+    "aliases": [
+      "Open Spell List",
+      "Liste de Sorts Ouverte",
+      "Open",
+      "Liste de sorts ouverte"
+    ]
+  },
+  "Perception": {
+    "skillId": "rmu.skill.perception",
+    "officialUuid": "Compendium.rmu.core.Item.vvh3yZzmP3RboK0d",
+    "name": "Perception",
+    "description": "La Perception permet de remarquer les détails de l’environnement et influe sur la manière dont les informations recueillies sont interprétées. Elle sert à découvrir des objets dissimulés, à repérer dans un mur des imperfections susceptibles de masquer une porte secrète, à identifier les déclencheurs de pièges ou encore à pressentir une embuscade.\n\nLa Perception fait appel à l’ensemble des sens. Toutefois, lorsqu’un sens particulier est requis, un modificateur peut s’appliquer en fonction de la supériorité — ou de l’infériorité — de ce sens chez le personnage.\n\nLorsqu’un personnage déclare qu’il observe ou examine une zone, une situation ou un lieu, le MJ doit effectuer une Manœuvre Absolue en utilisant la Compétence Perception du personnage afin de déterminer s’il remarque ou détecte quelque chose. Le MJ peut garder ce jet secret et ne révéler que ce que le personnage a effectivement observé.\n\nUne forte pénalité doit être appliquée — si tant est qu’un jet soit autorisé — lorsque les joueurs ignorent ce que leurs personnages recherchent, ou lorsqu’ils ne précisent pas que ceux-ci cherchent quelque chose en particulier. De même, se concentrer sur la recherche de pièges au plafond peut rendre plus difficile la détection de fosses piégées, et inversement.\n\nLa Perception est souvent utilisée comme Compétence Opposée à d’autres Compétences, telles que Discrétion.",
+    "aliases": [
+      "Perception"
+    ]
+  },
+  "Piloting": {
+    "skillId": "rmu.skill.piloting",
+    "officialUuid": "Compendium.rmu.core.Item.ueEMRlAev2OGEnVr",
+    "name": "Pilotage",
+    "description": "Le Pilotage concerne la conduite d’un véhicule tel qu’un chariot, une charrette, un traîneau, un dirigeable, etc. Pour les véhicules tirés par des animaux, le conducteur doit également posséder la Compétence Dressage afin de pouvoir contrôler l’animal. La conduite implique la compréhension des commandes, du freinage et des performances du véhicule sur différents types de terrain. La Manœuvre de Pilotage peut être modifiée par la vitesse du véhicule, l’angle d’un virage lorsqu’il y en a un, ainsi que par la taille approximative et la maniabilité du véhicule. Les véhicules tirés par des animaux sont généralement peu maniables, et la difficulté fixée par le MJ doit en tenir compte. Par exemple, un chariot ne peut pas effectuer facilement de virages à angle droit. Lorsque les chevaux tournent, l’arrière du chariot continue d’avancer en ligne droite jusqu’à être entraîné dans la courbe. Spécialisations : chaque type précis de véhicule.",
+    "aliases": [
+      "Piloting",
+      "Pilotage"
+    ]
+  },
+  "Poison Mastery": {
+    "skillId": "rmu.skill.poison-mastery",
+    "officialUuid": "Compendium.rmu.core.Item.gXGoF1zxPSTXqYYT",
+    "name": "Maîtrise des Poisons",
+    "description": "La Maîtrise des Poisons comprend la connaissance des effets et des doses, ainsi que la préparation et l’utilisation de substances chimiques ou de maladies nuisibles à la santé. Cette Compétence couvre également la préparation et l’administration d’antidotes destinés à combattre ces toxines.",
+    "aliases": [
+      "Poison Mastery",
+      "Maîtrise des Poisons",
+      "Maîtrise des poisons"
+    ]
+  },
+  "Power Development": {
+    "skillId": "rmu.skill.power-development",
+    "officialUuid": "Compendium.rmu.core.Item.nR416JhxTC9iWAdA",
+    "name": "Développement de Pouvoir",
+    "description": "Le bonus total de cette Compétence détermine le nombre de Points de Pouvoir dont dispose le personnage pour lancer des sorts. Chaque personnage possède une réserve unique de Points de Pouvoir, même s’il a accès à plusieurs Domaines. Les Points de Pouvoir sont récupérés par le repos. Pour chaque tranche de 2 heures de sommeil, le personnage récupère 10 % de son total de Points de Pouvoir, jusqu’à concurrence d’une nuit complète de sommeil de 8 heures. Les personnages ayant besoin de davantage ou de moins de sommeil récupèrent leurs Points de Pouvoir proportionnellement plus vite ou plus lentement, mais toujours dans la limite d’une nuit complète. La vitesse de récupération peut varier selon le Niveau de Pouvoir de la campagne. Un personnage entièrement reposé dispose d’une réserve de pouvoir considérable. Cependant, s’il la dépense intégralement, il lui faudra plus d’une nuit pour la reconstituer complètement.",
+    "aliases": [
+      "Power Development",
+      "Développement de Pouvoir",
+      "Développement du pouvoir"
+    ]
+  },
+  "Power Projection": {
+    "skillId": "rmu.skill.power-projection",
+    "officialUuid": "Compendium.rmu.core.Item.DcSpz0eUBjCNkwFe",
+    "name": "Projection de Pouvoir",
+    "description": "Forme de duel magique, la Projection de Pouvoir oppose deux adversaires. Elle crée entre eux une manifestation visible d’énergie magique qui se maintient jusqu’à ce que l’un d’eux échoue. Les adversaires doivent se trouver à moins de 30 pieds l’un de l’autre, entrer en rounds de combat et effectuer immédiatement un jet d’Initiative à chaque round. Chaque participant doit dépenser 1 Point de Pouvoir par round à son Initiative et effectuer une Manœuvre Absolue de Routine avec cette Compétence. Aucun participant ne peut accomplir d’autre action que converser ou recourir à une perception occasionnelle pendant le duel. À partir du deuxième round, la Manœuvre subit une pénalité cumulative de −20 par round tant que la Projection demeure active. Si l’un des participants ne peut ou ne veut plus contribuer de Points de Pouvoir, s’éloigne au-delà de 30 pieds ou devient Étourdi, la situation est traitée comme un Échec. Dès qu’un participant perd le contrôle de la Projection, les pénalités liées à cet Échec sont résolues, puis le duel prend fin. L’autre participant remporte la Projection de Pouvoir. Il en ressort indemne et ne subit pas les effets de l’Échec de son adversaire, sans avoir à effectuer de jet supplémentaire.",
+    "aliases": [
+      "Power Projection",
+      "Projection de Pouvoir",
+      "Projection de pouvoir"
+    ]
+  },
+  "Protect": {
+    "skillId": "rmu.skill.protect",
+    "officialUuid": "Compendium.rmu.core.Item.X49gWD1amebeKXcb",
+    "name": "Protection",
+    "description": "Réduit les pénalités subies lorsque le personnage étend son BD afin de protéger un allié (section 9.7).",
+    "aliases": [
+      "Protect",
+      "Protection"
+    ]
+  },
+  "Public Speaking": {
+    "skillId": "rmu.skill.public-speaking",
+    "officialUuid": null,
+    "name": "Prise de parole",
+    "description": "Permet de s’adresser clairement à une assemblée, de structurer un discours et de retenir l’attention d’un auditoire.",
+    "aliases": [
+      "Public Speaking",
+      "Prise de parole"
+    ]
+  },
+  "Quarterstaff": {
+    "skillId": "rmu.skill.quarterstaff",
+    "officialUuid": null,
+    "name": "Quarterstaff",
+    "description": null,
+    "aliases": [
+      "Quarterstaff",
+      "Bâton"
+    ]
+  },
+  "Racial Lore": {
+    "skillId": "rmu.skill.racial-lore",
+    "officialUuid": "Compendium.rmu.core.Item.oKtwYksuC0at2961",
+    "name": "Connaissance des Races",
+    "description": "La Connaissance des Races permet de reconnaître un type précis de race et d’en connaître l’habitat, le régime alimentaire, ainsi que les pouvoirs et capacités. Un nombre de rangs plus élevé permet d’acquérir des connaissances portant sur les cultures, la psychologie et d’autres particularités de cette race. Spécialisations : Elfe, Halfelin, Humain, Orc, etc.",
+    "aliases": [
+      "Racial Lore",
+      "Connaissance des Races",
+      "Connaissance des peuples"
+    ]
+  },
+  "Ranged Weapons": {
+    "skillId": "rmu.skill.ranged-weapons",
+    "officialUuid": "Compendium.rmu.core.Item.xz0gq9f6jWHDSxTM",
+    "name": "Armes à Distance",
+    "description": "Armes de jet propulsées par la force musculaire, ainsi que dispositifs mécaniques lançant des projectiles à faible vitesse. Spécialisations : Arcs, Arbalètes, Frondes, Armes de Jet et Armes Exotiques.",
+    "aliases": [
+      "Ranged Weapons",
+      "Armes à Distance",
+      "Armes à distance"
+    ]
+  },
+  "Region Lore": {
+    "skillId": "rmu.skill.region-lore",
+    "officialUuid": "Compendium.rmu.core.Item.WJ4hhrwMc10ByMWT",
+    "name": "Connaissance Régionale",
+    "description": "Cette Compétence fournit des connaissances sur la géographie d’une région, ainsi qu’une vue d’ensemble élémentaire de ses cultures locales, de sa flore, de sa faune et de son histoire récente. La taille de la région peut varier, mais elle ne devrait pas dépasser 100 000 miles carrés environ — soit quelque 300 × 300 miles, une superficie comparable à celle de l’État du Colorado ou de l’Italie.",
+    "aliases": [
+      "Region Lore",
+      "Connaissance Régionale",
+      "Connaissance régionale"
+    ]
+  },
+  "Religion/Philosophy Lore": {
+    "skillId": "rmu.skill.religion-philosophy-lore",
+    "officialUuid": "Compendium.rmu.core.Item.DcQk3cOoEvYIHl3P",
+    "name": "Religion/Philosophie",
+    "description": "Cette Compétence peut être acquise de manière générale, auquel cas elle couvre les principes fondamentaux de toutes les religions et philosophies connues du personnage, ou se rapporter à une religion particulière, auquel cas elle fournit des informations plus précises et détaillées. Elle aborde certains éléments historiques, mais concerne principalement les points de théorie, de dogme ou de croyance, ainsi que certains aspects de l’organisation des religions ou des sociétés philosophiques structurées. Spécialisations : Générale ou toute religion particulière.",
+    "aliases": [
+      "Religion/Philosophy Lore",
+      "Religion/Philosophie",
+      "Connaissance des religions/philosophies"
+    ]
+  },
+  "Resistance": {
+    "skillId": "rmu.skill.resistance",
+    "officialUuid": null,
+    "name": "Résistance",
+    "description": "Permet de faire appel à sa volonté et à sa robustesse pour résister aux contraintes physiques ou mentales.",
+    "aliases": [
+      "Resistance",
+      "Résistance"
+    ]
+  },
+  "Restricted Quarters": {
+    "skillId": "rmu.skill.restricted-quarters",
+    "officialUuid": "Compendium.rmu.core.Item.acBUkyfgEOzePhiw",
+    "name": "Espaces Restreints",
+    "description": "Réduit les pénalités subies lors d’un combat dans un espace restreint (section 9.5).",
+    "aliases": [
+      "Restricted Quarters",
+      "Espaces Restreints",
+      "Espaces restreints"
+    ]
+  },
+  "Restricted Spell List": {
+    "skillId": "rmu.skill.restricted-spell-list",
+    "officialUuid": "Compendium.rmu.core.Item.M3x2utBnZYMHVzRv",
+    "name": "Liste de Sorts Restreinte",
+    "description": "Développer une Liste de Sorts permet au personnage de lancer les sorts qui en font partie. Le nombre de rangs possédés dans une Liste détermine jusqu’à quel niveau le personnage peut en lancer les sorts. Les Listes Restreintes comprennent toute Liste dont le MJ autorise l’apprentissage mais qui ne relève ni des Listes Basiques, ni des Listes Ouvertes, Fermées ou Arcaniques. Spécialisation : chaque Liste de Sorts Restreinte.",
+    "aliases": [
+      "Restricted Spell List",
+      "Liste de Sorts Restreinte",
+      "Restricted",
+      "Liste de sorts restreinte"
+    ]
+  },
+  "Reverse Strike": {
+    "skillId": "rmu.skill.reverse-strike",
+    "officialUuid": "Compendium.rmu.core.Item.5tj7QBjC3H3UbT4L",
+    "name": "Frappe en Revers",
+    "description": "Réduit la pénalité subie lorsqu’un personnage attaque une cible située sur son flanc ou derrière lui, ou diminue les bonus d’un adversaire qui attaque son flanc ou son dos (section 9.5).",
+    "aliases": [
+      "Reverse Strike",
+      "Frappe en Revers",
+      "Frappe inversée"
+    ]
+  },
+  "Riding": {
+    "skillId": "rmu.skill.riding",
+    "officialUuid": "Compendium.rmu.core.Item.jR3z1CEI1xunew8f",
+    "name": "Équitation",
+    "description": "L’Équitation comprend la capacité à rester en selle en toute sécurité ainsi qu’à contrôler sa monture. Les personnages dépourvus de toute Compétence d’Équitation auront déjà du mal à simplement rester assis sur un animal en mouvement. Un cavalier non entraîné ne peut entreprendre aucune action autre que la Perception ou la conversation tant que sa monture se déplace. L’animal devra être mené par quelqu’un d’autre ; sinon, il ira où bon lui semble, puisque le cavalier non entraîné n’exerce aucun contrôle sur lui.\n\nLes chevaux sont toutefois des animaux grégaires. Ainsi, lorsqu’un groupe monté se déplace, un cheval portant un cavalier non entraîné et qui n’est pas mené suivra le « troupeau » jusqu’à ce qu’il soit effrayé ou menacé. Il prendra alors la fuite, en suivant le groupe si tous ses membres fuient, ou dans la direction opposée à ce qui l’a effrayé dans le cas contraire.\n\nSi la monture se déplace à une allure supérieure au pas, un cavalier non entraîné doit obtenir au moins une Réussite Partielle à une Manœuvre d’Équitation à chaque round, avec la pénalité habituelle de −25 correspondant à 0 rang, afin d’éviter d’être désarçonné.\n\nLes Manœuvres d’Équitation complexes, ainsi que le contrôle d’une monture dans une situation éprouvante, nécessitent une Manœuvre d’Équitation assortie d’un modificateur égal à la moitié de la pénalité de déplacement indiquée dans le tableau 5-3 du chapitre 5.\n\nToutes les autres Manœuvres et actions effectuées à cheval, comme lancer un sort ou porter une attaque, subissent la totalité de la pénalité due à l’allure de la monture indiquée dans le tableau 5-3. Cette pénalité peut être réduite grâce à la Compétence Combat Monté. Toute Manœuvre nécessitant que la monture recule subit une pénalité supplémentaire de −20.\n\nSpécialisations : chaque type précis d’animal ou de créature pouvant être monté.",
+    "aliases": [
+      "Riding",
+      "Équitation"
+    ]
+  },
+  "Runes": {
+    "skillId": "rmu.skill.runes",
+    "officialUuid": "Compendium.rmu.core.Item.DlesZCLkZxKdytp3",
+    "name": "Runes",
+    "description": "Grâce à la Liste de Sorts Maîtrise des Runes ou Runes Sacrées, les sorts peuvent être conservés sous forme de « runes » afin d’être utilisés ultérieurement par toute personne possédant la Compétence nécessaire.\n\nCes runes sont inscrites sur du Papier Runique spécial — ou, plus rarement, sur un matériau équivalent — enchanté afin de contenir une rune.\n\nLancer un sort à partir d’une rune nécessite une Manœuvre de Runes réussie afin de la déchiffrer avant de tenter le lancement.\n\nLe niveau d’effet d’une rune correspond au niveau du sort qu’elle contient. Il peut être augmenté en utilisant une Liste de Sorts de Runes d’un niveau supérieur à celui requis par le sort. Ainsi, un sort de Sommeil inscrit à l’aide d’un sort de Runes de niveau VI est résisté comme un sort de sixième niveau.\n\nSi le sort constitue une attaque élémentaire, le Bonus Offensif de Sort Dirigé approprié est utilisé.\n\nLa procédure de lancement d’un sort à partir d’une rune est semblable à celle d’un lancement de sort normal. Toutefois, le lanceur peut ajouter ses rangs dans la Compétence Runes, ainsi que les éventuels rangs qu’il possède dans la Liste de Sorts dont provient le sort.\n\nLes autres règles concernant les runes sont détaillées dans Spell Law.\n\nL’utilisation d’une rune nécessite le temps normalement requis pour lancer le sort qu’elle contient. En règle générale, le personnage tente de la déchiffrer à l’avance afin de l’identifier et de pouvoir l’utiliser. Cette opération demande trois minutes et ne subit aucune pénalité.\n\nPour accélérer le processus, il peut tenter de la déchiffrer en une minute, avec une pénalité de −10 à sa Manœuvre de Runes. La déchiffrer en un seul round impose une pénalité de −25.\n\nTenter de déchiffrer la rune tout en lançant simultanément le sort qu’elle contient impose une pénalité de −50 au jet de Runes et une pénalité de −20 au lancement du sort. Cette méthode peut également se révéler peu utile si le sort contenu dans la rune n’est pas celui auquel le personnage s’attendait.",
+    "aliases": [
+      "Runes"
+    ]
+  },
+  "Running": {
+    "skillId": "rmu.skill.running",
+    "officialUuid": "Compendium.rmu.core.Item.S0SDRfFJBrvJWvGH",
+    "name": "Course",
+    "description": "La Course est la principale Compétence de Mouvement des races terrestres. Elle permet de se déplacer à pied à n’importe quelle Allure, de la Marche Lente à la Ruée. Elle couvre tous les déplacements au sol, quelle que soit la vitesse, et sert également à effectuer des esquives au sol. Dans certains cas, la Compétence Acrobaties peut toutefois être utilisée à sa place.",
+    "aliases": [
+      "Running",
+      "Course"
+    ]
+  },
+  "Service": {
+    "skillId": "rmu.skill.service",
+    "officialUuid": "Compendium.rmu.core.Item.guhZS3KPcDkXrGyE",
+    "name": "Services",
+    "description": "Les vocations de Services concernent principalement les interactions avec autrui et la fourniture de prestations. Le contact avec les clients et les usagers constitue un aspect essentiel de ces vocations. Les personnages possédant cette Compétence savent se présenter et se comporter aussi bien dans le cadre professionnel que lorsqu’ils cherchent de nouveaux clients. De nombreuses vocations de Services nécessitent également d’autres Compétences, qui peuvent servir de Compétences Complémentaires. Spécialisations : Garde du corps, Ajusteur d’os, Croupier, Messager, Garde, Guide, Aubergiste, Chercheur, Chaman, Marin, Enseignant, Valet.",
+    "aliases": [
+      "Service",
+      "Services"
+    ]
+  },
+  "Shield": {
+    "skillId": "rmu.skill.shield",
+    "officialUuid": "Compendium.rmu.core.Item.K6wIksVPT6Wik3mQ",
+    "name": "Bouclier",
+    "description": "La Compétence Bouclier permet à un combattant entraîné de tirer un meilleur bénéfice défensif de son bouclier, aussi bien en mêlée que contre les attaques à distance (section 9.6).\n\nCette Compétence permet également d’effectuer des attaques de Coup de Bouclier. La Compétence Attaques Multiples peut toutefois être nécessaire pour les réaliser tout en attaquant avec une arme. Voir les Katas à la section 9.7.",
+    "aliases": [
+      "Shield",
+      "Bouclier"
+    ]
+  },
+  "Social Awareness": {
+    "skillId": "rmu.skill.social-awareness",
+    "officialUuid": "Compendium.rmu.core.Item.y3zFhqiXlXsqituU",
+    "name": "Conscience Sociale",
+    "description": "Cette Compétence développe la compréhension des motivations et des comportements sociaux des personnes qui entourent le personnage. Elle permet d’effectuer des Manœuvres afin d’étudier les autres, de tenter de les comprendre, de déterminer s’ils mentent ou de discerner leurs véritables motivations. Lorsqu’une personne utilise cette Compétence de manière active alors qu’elle est la cible d’une Manœuvre d’Influence, elle peut effectuer une Manœuvre Opposée afin de déceler cette tentative.",
+    "aliases": [
+      "Social Awareness",
+      "Conscience Sociale",
+      "Perspicacité sociale"
+    ]
+  },
+  "Spell Lore": {
+    "skillId": "rmu.skill.spell-lore",
+    "officialUuid": "Compendium.rmu.core.Item.uQT93S8rkxvdyFKk",
+    "name": "Connaissance des Sorts",
+    "description": "La Connaissance des Sorts permet à un personnage de reconnaître les sorts qui ont été lancés contre lui, ou les sorts écrits. Dans ce dernier cas, elle permet uniquement leur identification et ne peut pas remplacer la Compétence Runes. Cette Compétence peut également fournir des informations sur la durée ou la zone d’effet présumée d’un sort actif.",
+    "aliases": [
+      "Spell Lore",
+      "Connaissance des Sorts",
+      "Connaissance des sorts"
+    ]
+  },
+  "Spell Trickery": {
+    "skillId": "rmu.skill.spell-trickery",
+    "officialUuid": "Compendium.rmu.core.Item.AJ7MY2KUFwuQtG2K",
+    "name": "Subterfuge Magique",
+    "description": "Réduit les pénalités de lancement de sorts dues aux tentatives visant à dissimuler ou modifier leurs effets visuels — lorsque la règle optionnelle relative aux sorts visuels est utilisée — ainsi qu’à modifier l’usage des gestes et de la voix. Cette Compétence doit être spécialisée dans une Liste de Sorts précise.",
+    "aliases": [
+      "Spell Trickery",
+      "Subterfuge Magique",
+      "Subterfuge magique"
+    ]
+  },
+  "Stage Magic": {
+    "skillId": "rmu.skill.stage-magic",
+    "officialUuid": "Compendium.rmu.core.Item.iqPD3KLe3yhkVlKn",
+    "name": "Prestidigitation",
+    "description": "La Prestidigitation est l’art d’exécuter des tours soigneusement chorégraphiés, généralement à l’aide d’accessoires. Elle comprend aussi bien les tours de petite envergure, comme les tours de cartes, que les numéros plus importants, comme celui consistant à « couper » une personne en deux.",
+    "aliases": [
+      "Stage Magic",
+      "Prestidigitation",
+      "Prestidigitation scénique"
+    ]
+  },
+  "Stalking": {
+    "skillId": "rmu.skill.stalking",
+    "officialUuid": "Compendium.rmu.core.Item.urKtkhiGImjFtEzc",
+    "name": "Discrétion",
+    "description": "La Discrétion représente la capacité à se déplacer silencieusement et à rester invisible en utilisant le camouflage et les ombres pour dissimuler sa présence. La difficulté de la Manœuvre dépend principalement de l’environnement. Il est plus facile de se dissimuler dans une zone sombre et ombragée offrant de nombreux couverts, mais plus difficile dans un endroit bien éclairé dépourvu de tout abri. De même, se déplacer sur une surface lisse au milieu de nombreux bruits ambiants est plus facile que d’être entendu. La Discrétion est utilisée en opposition à la Compétence Perception.",
+    "aliases": [
+      "Stalking",
+      "Discrétion",
+      "Approche furtive"
+    ]
+  },
+  "Stonecraft": {
+    "skillId": "rmu.skill.stonecraft",
+    "officialUuid": "Compendium.rmu.core.Item.6toVvXZqMqkRMPDw",
+    "name": "Travail de la Pierre",
+    "description": "La pierre est un matériau dur et résistant, utilisé pour la construction et la décoration. Elle supporte bien les contraintes statiques et peut présenter un aspect esthétique remarquable. On la trouve dans les collines et les montagnes, mais elle doit être taillée avant de pouvoir être utilisée dans les sculptures et les bâtiments. L’extraction des meilleures pierres et leur transformation en objets utiles relèvent de plusieurs métiers spécialisés. La céramique constitue une forme de pierre créée artificiellement. Spécialisations : maçon, tailleur de pierre, sculpteur, lapidaire, potier, vitrier.",
+    "aliases": [
+      "Stonecraft",
+      "Travail de la Pierre",
+      "Travail de la pierre"
+    ]
+  },
+  "Subduing": {
+    "skillId": "rmu.skill.subduing",
+    "officialUuid": "Compendium.rmu.core.Item.dLwcnjn7xpfeJFHJ",
+    "name": "Neutralisation",
+    "description": "Réduit les pénalités subies lorsque le personnage tente de neutraliser un adversaire (section 9.7).",
+    "aliases": [
+      "Subduing",
+      "Neutralisation"
+    ]
+  },
+  "Subterfuge": {
+    "skillId": "rmu.skill.subterfuge",
+    "officialUuid": null,
+    "name": "Subterfuge",
+    "description": null,
+    "aliases": [
+      "Subterfuge"
+    ]
+  },
+  "Survival": {
+    "skillId": "rmu.skill.survival",
+    "officialUuid": "Compendium.rmu.core.Item.29O9BrL1YnUx2vxg",
+    "name": "Survie",
+    "description": "La Survie regroupe les aptitudes nécessaires pour vivre dans un environnement hostile donné. Elle comprend notamment la recherche d’eau potable, la cueillette de plantes comestibles, ainsi que la capture de petits animaux au moyen de techniques de collecte, de pêche ou de chasse. Elle couvre également l’observation et l’identification des phénomènes météorologiques dangereux, la recherche d’un abri et d’un emplacement de campement appropriés, l’allumage d’un feu, ainsi que la fabrication improvisée de vêtements ou d’équipements. La Spécialisation Urbaine de cette Compétence consiste principalement à trouver de la nourriture et d’autres matériaux dans les déchets et les objets abandonnés par les habitants plutôt que dans la nature, mais son fonctionnement reste par ailleurs identique. Spécialisations : Urbaine, biome précis ou environnement extraterrestre — autre plan, monde étranger, etc.",
+    "aliases": [
+      "Survival",
+      "Survie"
+    ]
+  },
+  "Swimming": {
+    "skillId": "rmu.skill.swimming",
+    "officialUuid": "Compendium.rmu.core.Item.Riaj9t8UBKUTkDyv",
+    "name": "Natation",
+    "description": "Pour les nageurs non aquatiques, le Taux de Mouvement de Base des Manœuvres de Natation correspond au quart du Taux de Mouvement de Base normal du personnage, ajusté normalement selon l’Allure. Les armures et l’équipement encombrant sont particulièrement pénalisants dans l’eau. Toute pénalité d’Armure ou d’Encombrement est donc multipliée par 3 avant d’appliquer la Compétence Manœuvre en Armure.",
+    "aliases": [
+      "Swimming",
+      "Natation"
+    ]
+  },
+  "Tracking": {
+    "skillId": "rmu.skill.tracking",
+    "officialUuid": "Compendium.rmu.core.Item.4d6GQte1ZnTEoMtz",
+    "name": "Pistage",
+    "description": "Cette Compétence confère un bonus aux Manœuvres de Pistage et permet d’interpréter les traces et les indices laissés par des créatures, ainsi que de suivre la piste laissée par une personne ou une chose : empreintes de pas, branches brisées, herbe écrasée, morceaux de tissu accrochés, etc.\n\nBien que proche de la Perception, le Pistage consiste à rechercher des détails précis révélant la manière dont des êtres ont affecté leur environnement.\n\nUne cible qui laisse une piste bien marquée est plus facile à suivre. La cause la plus courante d’une piste évidente est un saignement incontrôlé : le pistage d’un adversaire qui saigne bénéficie d’un bonus de +50, porté à +100 si celui-ci perd plus de 5 points de vie par round. Dans les autres situations, le MJ doit faire appel à son jugement.\n\nLe Pistage peut également servir à dissimuler sa propre piste. Dans ce cas, il est utilisé comme Compétence Opposée face à la Compétence Pistage du poursuivant. Ainsi, un résultat de 120 rend le pistage plus difficile (−20), tandis qu’un résultat de 80 le rend plus facile (+20).\n\nMasquer ses traces est plus difficile lorsqu’on se déplace rapidement. Les pénalités dues à l’allure sont donc doublées lorsque le Pistage est utilisé pour dissimuler sa piste tout en se déplaçant.",
+    "aliases": [
+      "Tracking",
+      "Pistage"
+    ]
+  },
+  "Trade": {
+    "skillId": "rmu.skill.trade",
+    "officialUuid": "Compendium.rmu.core.Item.oXiINQkYe7WgWr5r",
+    "name": "Commerce et Métiers",
+    "description": "Cette Compétence regroupe les vocations davantage centrées sur un ensemble précis d’aptitudes liées à un métier. Les affaires et les échanges occupent une place importante dans de nombreuses professions, notamment pour trouver des clients et des fournisseurs, ainsi que pour présenter ses marchandises sous leur meilleur jour. Dans d’autres cas, la vocation peut représenter le travail accompli au sein d’un groupe ou d’une unité. De nombreux métiers exigent d’autres Compétences, qui peuvent souvent servir de Compétences Complémentaires. Spécialisations : Forgeron, Charpentier, Fermier, Receleur, Joueur, Berger, Chasseur, Marchand, Mineur, Pirate, Marin, Scribe, Soldat, Voleur, Rétameur, Trappeur, Tisserand.",
+    "aliases": [
+      "Trade",
+      "Commerce et Métiers",
+      "Métier"
+    ]
+  },
+  "Trading": {
+    "skillId": "rmu.skill.trading",
+    "officialUuid": "Compendium.rmu.core.Item.ftzul6Cw2iwV5iAc",
+    "name": "Commerce",
+    "description": "Le Commerce permet de négocier, de marchander et de conclure des accords. Les personnages compétents dans ce domaine sont capables d’élaborer un arrangement avantageux pour les deux parties, lorsqu’un compromis est possible. Dans certains cas, cette Compétence peut être résolue comme une Manœuvre Absolue Opposée. Pour le marchandage, elle est résolue comme une Manœuvre en Pourcentage Opposée face à l’acheteur en tant que partie active. Le prix final correspond à 200 % moins le résultat obtenu, ce qui permet d’aboutir à un prix compris entre 50 % et 200 %. La difficulté dépend de la manière dont l’offre présentée par le personnage est perçue par la cible.",
+    "aliases": [
+      "Trading",
+      "Commerce",
+      "Négociation commerciale"
+    ]
+  },
+  "Transcendence": {
+    "skillId": "rmu.skill.transcendence",
+    "officialUuid": "Compendium.rmu.core.Item.r7d6g3PQiKuyONev",
+    "name": "Transcendance",
+    "description": "Réduit les pénalités de lancement de sorts liées au port d’une armure.",
+    "aliases": [
+      "Transcendence",
+      "Transcendance"
+    ]
+  },
+  "Traps": {
+    "skillId": "rmu.skill.traps",
+    "officialUuid": "Compendium.rmu.core.Item.TGV48IZbXheb07Jf",
+    "name": "Pièges",
+    "description": "Cette Compétence permet d’installer, d’entretenir ou de désamorcer des dispositifs conçus soit pour blesser ou capturer la créature qui les déclenche, soit pour donner l’alarme. Exemples de difficultés suggérées : collet ou clochettes reliées par une ficelle, Facile ; fil-piège, Moyen ; plaque de pression, Difficile à Extrêmement Difficile ; déclencheur par vibration, pression de l’air, magie ou lumière, Pure Folie ou davantage. Des outils particuliers ou certaines circonstances peuvent encore modifier la complexité. Cette Compétence peut également être utilisée sur un piège découvert afin de l’évaluer et de trouver un moyen de l’éviter sans le désamorcer. Selon les particularités du mécanisme de déclenchement, cette solution peut être plus ou moins difficile que le désamorçage du piège.",
+    "aliases": [
+      "Traps",
+      "Pièges"
+    ]
+  },
+  "Trickery": {
+    "skillId": "rmu.skill.trickery",
+    "officialUuid": "Compendium.rmu.core.Item.jKzvOICEVLmsqGnI",
+    "name": "Escamotage",
+    "description": "Les utilisateurs de cette Compétence ont entraîné leurs mains à l’art de la diversion, afin d’accomplir des actions qui peuvent sembler magiques à un observateur non averti, mais qui ne le sont pas. L’Escamotage comprend toute forme d’adresse manuelle permettant de tricher aux cartes ou dans d’autres jeux de hasard, ou encore de faire les poches.",
+    "aliases": [
+      "Trickery",
+      "Escamotage"
+    ]
+  },
+  "Unarmed": {
+    "skillId": "rmu.skill.unarmed",
+    "officialUuid": "Compendium.rmu.core.Item.r4Y2Pdz2zrz606gD",
+    "name": "Combat à Mains Nues",
+    "description": "Regroupe les attaques de mêlée effectuées à mains nues ou à l’aide d’armes naturelles, telles que les arts martiaux ou les morsures. La caractéristique utilisée dépend de l’attaque de mêlée choisie (section 7.1). Spécialisations : Frappes [St], Balayages et Projections [Ag], Lutte [Ag], Bec [St], Morsure [St], Griffes [St], Corne [St], Charge [St], Dard [Ag] et Piétinement [St].",
+    "aliases": [
+      "Unarmed",
+      "Combat à Mains Nues",
+      "Combat à mains nues"
+    ]
+  },
+  "Weight Training": {
+    "skillId": "rmu.skill.weight-training",
+    "officialUuid": "Compendium.rmu.core.Item.ysihtJx51rMNRpvg",
+    "name": "Musculation",
+    "description": "La Musculation permet d’utiliser ses muscles de la manière la plus efficace possible tout en limitant les risques de blessure.\n\nElle couvre les techniques permettant d’assurer une prise ferme sur un objet, d’appliquer correctement sa force pour soulever ou déplacer quelque chose, ainsi que de positionner son corps de façon à maintenir l’effort sans se blesser.\n\nLe bonus de cette Compétence est utilisé pour les Prouesses de Force (section 5.2).",
+    "aliases": [
+      "Weight Training",
+      "Musculation"
+    ]
+  },
+  "Woodcraft": {
+    "skillId": "rmu.skill.woodcraft",
+    "officialUuid": "Compendium.rmu.core.Item.SYfMsQbObrOgLGsN",
+    "name": "Travail du Bois",
+    "description": "Le bois provient des arbres. Transformer ce matériau léger, solide, facile à travailler et esthétique en meubles, embarcations ou autres objets nécessite l’intervention de nombreux artisans. Le bois peut être débité en planches, en poutres et en pièces de différentes dimensions, qui seront ensuite façonnées par des artisans spécialisés afin de produire des objets utilisables. Spécialisations : scieur de long, menuisier, charpentier de marine, charron, tonnelier, facteur d’arcs, fabricant de flèches.",
+    "aliases": [
+      "Woodcraft",
+      "Travail du Bois",
+      "Travail du bois"
+    ]
+  },
+  "Writing": {
+    "skillId": "rmu.skill.writing",
+    "officialUuid": "Compendium.rmu.core.Item.YBOVFwX1Opexvjvu",
+    "name": "Écriture",
+    "description": "L’écrit assure la cohésion des civilisations. Grâce aux documents écrits, le savoir peut être transmis sur de grandes distances et préservé au fil du temps à une échelle qui dépasse largement les possibilités d’une tradition orale.\n\nLes œuvres écrites peuvent servir à informer, enseigner, inspirer ou divertir. Un auteur talentueux peut suggérer plutôt qu’énoncer explicitement, conduisant ainsi le lecteur à tirer les conclusions appropriées, ou au contraire semer la confusion et le doute.\n\nLorsque l’objectif est de persuader le lecteur, la Compétence Écriture peut être utilisée à la place de la Compétence Influence.",
+    "aliases": [
+      "Writing",
+      "Écriture"
+    ]
+  }
+}

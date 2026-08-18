@@ -1,0 +1,633 @@
+{
+  "key": "seer-far-visions",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-seer",
+  "document": {
+    "name": "Far Visions",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "seer-far-visions",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Mentalism Companion",
+        "sourceList": "Far Visions",
+        "sourcePage": 121,
+        "merpRealm": "Mentalism",
+        "merpCategory": "Profession",
+        "profession": "Seer",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Mentalism Companion p.121; MERP/RMSS Seer p.149"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Mentalism Companion",
+      "name": "Far Visions",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Seer",
+      "notes": "<h2>Far Visions</h2><p>Altère et étend les sens du Devin : vision nocturne, perception à distance, observation à travers la matière et sens projetés.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>",
+      "label": "Far Visions",
+      "notesLabel": "Far Visions notes",
+      "spells": [
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Watersight",
+          "label": "MERP_RMU.Seer.spells.Watersight.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Watersight.description",
+          "level": 1,
+          "description": "Permet de voir à travers l’eau jusqu’à 10 pieds par niveau ; une lumière résiduelle reste nécessaire.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision Aquatique",
+              "description": "Permet de voir à travers l’eau jusqu’à 10 pieds par niveau ; une lumière résiduelle reste nécessaire."
+            },
+            "en": {
+              "name": "Watersight",
+              "description": "Allows the Seer to see through water up to 10 feet per level; some residual light is still required."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Nightsight",
+          "label": "MERP_RMU.Seer.spells.Nightsight.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Nightsight.description",
+          "level": 2,
+          "description": "Permet de voir dans l’obscurité normale comme avec une faible lumière.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision Nocturne",
+              "description": "Permet de voir dans l’obscurité normale comme avec une faible lumière."
+            },
+            "en": {
+              "name": "Nightsight",
+              "description": "Allows the Seer to see in normal darkness as though in dim light."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Fogsight",
+          "label": "MERP_RMU.Seer.spells.Fogsight.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Fogsight.description",
+          "level": 3,
+          "description": "Permet de voir normalement à travers brouillard, brume, précipitations et gaz non magiques.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision à travers le Brouillard",
+              "description": "Permet de voir normalement à travers brouillard, brume, précipitations et gaz non magiques."
+            },
+            "en": {
+              "name": "Fogsight",
+              "description": "Allows normal sight through non-magical fog, mist, precipitation, and gases."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Woodsight II",
+          "label": "MERP_RMU.Seer.spells.WoodsightII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.WoodsightII.description",
+          "level": 4,
+          "description": "Permet de voir à travers du bois non magique jusqu’à environ 1 pouce d’épaisseur par niveau.",
+          "aoe": "caster",
+          "duration": "1 min/lvl (C)",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision à travers le Bois II",
+              "description": "Permet de voir à travers du bois non magique jusqu’à environ 1 pouce d’épaisseur par niveau."
+            },
+            "en": {
+              "name": "Woodsight II",
+              "description": "Allows the Seer to see through non-magical wood up to about 1 inch of thickness per level."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Ear",
+          "label": "MERP_RMU.Seer.spells.LongEar.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongEar.description",
+          "level": 5,
+          "description": "Projette le point d’écoute jusqu’à 10 pieds par niveau ; il peut être déplacé à 10 pieds par round tant qu’aucun obstacle infranchissable ne l’arrête.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "10'/lvl",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Ouïe Lointaine",
+              "description": "Projette le point d’écoute jusqu’à 10 pieds par niveau ; il peut être déplacé à 10 pieds par round tant qu’aucun obstacle infranchissable ne l’arrête."
+            },
+            "en": {
+              "name": "Long Ear",
+              "description": "Projects the point of hearing up to 10 feet per level; it can be moved at 10 feet per round as long as no impassable obstacle blocks it."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Observe I",
+          "label": "MERP_RMU.Seer.spells.ObserveI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ObserveI.description",
+          "level": 6,
+          "description": "Crée à courte distance un point d’observation fixe depuis lequel le Devin peut voir et entendre ; le point peut pivoter.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Observation I",
+              "description": "Crée à courte distance un point d’observation fixe depuis lequel le Devin peut voir et entendre ; le point peut pivoter."
+            },
+            "en": {
+              "name": "Observe I",
+              "description": "Creates a fixed observation point at short range from which the Seer can see and hear; the point can rotate."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Eye",
+          "label": "MERP_RMU.Seer.spells.LongEye.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongEye.description",
+          "level": 7,
+          "description": "Projette le point de vue jusqu’à 10 pieds par niveau ; il peut être déplacé à 10 pieds par round.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "10'/lvl",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vue Lointaine",
+              "description": "Projette le point de vue jusqu’à 10 pieds par niveau ; il peut être déplacé à 10 pieds par round."
+            },
+            "en": {
+              "name": "Long Eye",
+              "description": "Projects the viewpoint up to 10 feet per level; it can be moved at 10 feet per round."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Invisiblesight",
+          "label": "MERP_RMU.Seer.spells.Invisiblesight.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Invisiblesight.description",
+          "level": 8,
+          "description": "Les êtres et objets invisibles apparaissent visibles au Devin ; le sort ne les détecte pas s’il ne regarde pas dans leur direction.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision de l’Invisible",
+              "description": "Les êtres et objets invisibles apparaissent visibles au Devin ; le sort ne les détecte pas s’il ne regarde pas dans leur direction."
+            },
+            "en": {
+              "name": "Invisiblesight",
+              "description": "Invisible beings and objects appear visible to the Seer; the spell does not detect them unless the Seer is looking in their direction."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Stonesight II",
+          "label": "MERP_RMU.Seer.spells.StonesightII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.StonesightII.description",
+          "level": 9,
+          "description": "Comme Woodsight, mais à travers de la pierre non magique.",
+          "aoe": "caster",
+          "duration": "1 min/lvl (C)",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision à travers la Pierre II",
+              "description": "Comme Woodsight, mais à travers de la pierre non magique."
+            },
+            "en": {
+              "name": "Stonesight II",
+              "description": "As Woodsight, but through non-magical stone."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Ironsight II",
+          "label": "MERP_RMU.Seer.spells.IronsightII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.IronsightII.description",
+          "level": 10,
+          "description": "Permet de voir à travers du fer ou de l’acier non magique.",
+          "aoe": "caster",
+          "duration": "1 min/lvl (C)",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision à travers le Fer II",
+              "description": "Permet de voir à travers du fer ou de l’acier non magique."
+            },
+            "en": {
+              "name": "Ironsight II",
+              "description": "Allows the Seer to see through non-magical iron or steel."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Illusionsight II",
+          "label": "MERP_RMU.Seer.spells.IllusionsightII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.IllusionsightII.description",
+          "level": 11,
+          "description": "Permet au Devin de voir au travers des illusions visuelles, phantasmes et glamours qui l’affecteraient normalement.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision à travers les Illusions II",
+              "description": "Permet au Devin de voir au travers des illusions visuelles, phantasmes et glamours qui l’affecteraient normalement."
+            },
+            "en": {
+              "name": "Illusionsight II",
+              "description": "Allows the Seer to see through visual illusions, phantasms, and glamours that would otherwise affect them."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Observe II",
+          "label": "MERP_RMU.Seer.spells.ObserveII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ObserveII.description",
+          "level": 12,
+          "description": "Comme Observe I, mais avec une portée accrue.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "10'/lvl",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Observation II",
+              "description": "Comme Observe I, mais avec une portée accrue."
+            },
+            "en": {
+              "name": "Observe II",
+              "description": "As Observe I, but with increased range."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Sense",
+          "label": "MERP_RMU.Seer.spells.LongSense.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongSense.description",
+          "level": 13,
+          "description": "Projette un ou plusieurs sens du Devin jusqu’à 100 pieds par niveau.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "100'/lvl",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Sens Lointain",
+              "description": "Projette un ou plusieurs sens du Devin jusqu’à 100 pieds par niveau."
+            },
+            "en": {
+              "name": "Long Sense",
+              "description": "Projects one or more of the Seer’s senses up to 100 feet per level."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Metalsight II",
+          "label": "MERP_RMU.Seer.spells.MetalsightII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.MetalsightII.description",
+          "level": 14,
+          "description": "Permet de voir à travers n’importe quel métal non magique.",
+          "aoe": "caster",
+          "duration": "1 min/lvl (C)",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision à travers les Métaux II",
+              "description": "Permet de voir à travers n’importe quel métal non magique."
+            },
+            "en": {
+              "name": "Metalsight II",
+              "description": "Allows the Seer to see through any non-magical metal."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Utterdarksight",
+          "label": "MERP_RMU.Seer.spells.Utterdarksight.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Utterdarksight.description",
+          "level": 15,
+          "description": "Permet de voir même dans l’obscurité totale ou magique.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision dans les Ténèbres Totales",
+              "description": "Permet de voir même dans l’obscurité totale ou magique."
+            },
+            "en": {
+              "name": "Utterdarksight",
+              "description": "Allows the Seer to see even in total or magical darkness."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Greater Observe",
+          "label": "MERP_RMU.Seer.spells.GreaterObserve.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.GreaterObserve.description",
+          "level": 16,
+          "description": "Permet d’observer simultanément deux points distincts situés à portée.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "100'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Observation Supérieure",
+              "description": "Permet d’observer simultanément deux points distincts situés à portée."
+            },
+            "en": {
+              "name": "Greater Observe",
+              "description": "Allows simultaneous observation of two distinct points within range."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Observe III",
+          "label": "MERP_RMU.Seer.spells.ObserveIII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ObserveIII.description",
+          "level": 17,
+          "description": "Comme Observe I avec une portée considérablement accrue.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "100'/lvl",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Observation III",
+              "description": "Comme Observe I avec une portée considérablement accrue."
+            },
+            "en": {
+              "name": "Observe III",
+              "description": "As Observe I, but with greatly increased range."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Wallsight",
+          "label": "MERP_RMU.Seer.spells.Wallsight.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Wallsight.description",
+          "level": 18,
+          "description": "Permet de voir à travers une paroi non magique, quelle que soit son épaisseur pratique.",
+          "aoe": "caster",
+          "duration": "1 min/lvl (C)",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision à travers les Murs",
+              "description": "Permet de voir à travers une paroi non magique, quelle que soit son épaisseur pratique."
+            },
+            "en": {
+              "name": "Wallsight",
+              "description": "Allows the Seer to see through a non-magical wall regardless of its practical thickness."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Waiting Observe",
+          "label": "MERP_RMU.Seer.spells.WaitingObserve.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.WaitingObserve.description",
+          "level": 19,
+          "description": "Place un Observe III en attente, déclenché par un mouvement ou un son perceptible ; le Devin peut alors concentrer ses sens sur le point préparé.",
+          "aoe": "caster",
+          "duration": "1 day/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Observation en Attente",
+              "description": "Place un Observe III en attente, déclenché par un mouvement ou un son perceptible ; le Devin peut alors concentrer ses sens sur le point préparé."
+            },
+            "en": {
+              "name": "Waiting Observe",
+              "description": "Places an Observe III effect in waiting, triggered by perceptible movement or sound; the Seer may then focus their senses on the prepared point."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Greater Long Sense",
+          "label": "MERP_RMU.Seer.spells.GreaterLongSense.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.GreaterLongSense.description",
+          "level": 20,
+          "description": "Comme Long Sense, avec une portée d’un mile par niveau.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "1 mile/lvl",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Sens Lointain Supérieur",
+              "description": "Comme Long Sense, avec une portée d’un mile par niveau."
+            },
+            "en": {
+              "name": "Greater Long Sense",
+              "description": "As Long Sense, but with a range of one mile per level."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Observe True",
+          "label": "MERP_RMU.Seer.spells.ObserveTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ObserveTrue.description",
+          "level": 25,
+          "description": "Comme Observe III, mais l’observation peut être maintenue pendant 1 minute par niveau sans concentration continue ; une perception détaillée n’est possible qu’à intervalles réguliers.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "100'/lvl",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Observation Véritable",
+              "description": "Comme Observe III, mais l’observation peut être maintenue pendant 1 minute par niveau sans concentration continue ; une perception détaillée n’est possible qu’à intervalles réguliers."
+            },
+            "en": {
+              "name": "Observe True",
+              "description": "As Observe III, but the observation can be maintained for 1 minute per level without continuous concentration; detailed perception is possible only at regular intervals."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sight True",
+          "label": "MERP_RMU.Seer.spells.SightTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SightTrue.description",
+          "level": 30,
+          "description": "Permet de voir à travers toute matière inanimée ; les matériaux fortement magiques peuvent résister.",
+          "aoe": "caster",
+          "duration": "1 min/lvl (C)",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vision Véritable",
+              "description": "Permet de voir à travers toute matière inanimée ; les matériaux fortement magiques peuvent résister."
+            },
+            "en": {
+              "name": "Sight True",
+              "description": "Allows the Seer to see through any inanimate matter; strongly magical materials may resist."
+            }
+          }
+        },
+        {
+          "spellList": "Far Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Sense True",
+          "label": "MERP_RMU.Seer.spells.LongSenseTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongSenseTrue.description",
+          "level": 50,
+          "description": "Projette les sens du Devin à une distance pratiquement illimitée.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "unlimited",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Sens Lointain Véritable",
+              "description": "Projette les sens du Devin à une distance pratiquement illimitée."
+            },
+            "en": {
+              "name": "Long Sense True",
+              "description": "Projects the Seer’s senses to a practically unlimited distance."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Visions Lointaines",
+      "system": {
+        "name": "Visions Lointaines",
+        "label": "Visions Lointaines",
+        "notesLabel": "Visions Lointaines — notes",
+        "notes": "<h2>Visions Lointaines</h2><p>Altère et étend les sens du Devin : vision nocturne, perception à distance, observation à travers la matière et sens projetés.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>"
+      }
+    },
+    "en": {
+      "name": "Far Visions",
+      "system": {
+        "name": "Far Visions",
+        "label": "Far Visions",
+        "notesLabel": "Far Visions — notes",
+        "notes": "<h2>Far Visions</h2><p>Alters and extends the Seer's senses: night vision, distant perception, observation through matter, and projected senses.</p><p><strong>MERP-RMU Conversion:</strong> historical Seer List, structured in RMU format while preserving its original effects and progression.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Devin (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Seer (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-seer"
+  ]
+}

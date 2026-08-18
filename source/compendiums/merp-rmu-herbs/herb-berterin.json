@@ -1,0 +1,79 @@
+{
+  "key": "herb-berterin",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Berterin",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-berterin",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-3",
+        "sourceCost": "19gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Berterin"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Light",
+      "form": "Moss",
+      "prep": "brew",
+      "season": "",
+      "cost": "19gp",
+      "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Cette mousse permet de préserver pendant environ une journée une matière organique allant jusqu’à la taille d’un corps humain.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 20,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Berterin",
+      "system": {
+        "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Cette mousse permet de préserver pendant environ une journée une matière organique allant jusqu’à la taille d’un corps humain.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Berterin",
+      "system": {
+        "notes": "<p>This moss is found chiefly in mild temperate climates, especially in deciduous or mixed forests.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>This moss can preserve organic matter up to the size of a human body for about one day.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

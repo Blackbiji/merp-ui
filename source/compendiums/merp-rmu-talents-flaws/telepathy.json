@@ -1,0 +1,64 @@
+{
+  "key": "telepathy",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mental",
+  "document": {
+    "name": "Télépathie (Telepathy)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "telepathy",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Telepathy",
+      "cost": "10/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Télépathie (Telepathy)</h1><h2>Description</h2><p>Vous pouvez transmettre des pensées ou tenter de lire celles d’autrui. Une cible non consentante bénéficie d’un Jet de Résistance de Mentalisme. En cas d’échec, vous pouvez percevoir ses pensées de surface ; rechercher une information précise ou un secret profondément enfoui rend la tentative plus difficile. La portée et la profondeur du contact dépendent de votre Tier.</p><h2>Adaptation MERP-RMU</h2><p><strong>Tier I :</strong> échange volontaire de pensées à courte portée. <strong>Tier II :</strong> portée et richesse de l’échange augmentées. <strong>Tier III :</strong> vous pouvez tenter de sonder une cible non consentante ; celle-ci bénéficie d’un Jet de Résistance de Mentalisme et les secrets profondément enfouis peuvent recevoir des bonus de résistance supplémentaires. Le Talent n’offre jamais un accès automatique à l’ensemble de la mémoire d’une cible.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_telepathy.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Télépathie (Telepathy)",
+      "system": {
+        "description": "<h1>Télépathie (Telepathy)</h1><h2>Description</h2><p>Vous pouvez transmettre des pensées ou tenter de lire celles d’autrui. Une cible non consentante bénéficie d’un Jet de Résistance de Mentalisme. En cas d’échec, vous pouvez percevoir ses pensées de surface ; rechercher une information précise ou un secret profondément enfoui rend la tentative plus difficile. La portée et la profondeur du contact dépendent de votre Tier.</p><h2>Adaptation MERP-RMU</h2><p><strong>Tier I :</strong> échange volontaire de pensées à courte portée. <strong>Tier II :</strong> portée et richesse de l’échange augmentées. <strong>Tier III :</strong> vous pouvez tenter de sonder une cible non consentante ; celle-ci bénéficie d’un Jet de Résistance de Mentalisme et les secrets profondément enfouis peuvent recevoir des bonus de résistance supplémentaires. Le Talent n’offre jamais un accès automatique à l’ensemble de la mémoire d’une cible.</p>"
+      }
+    },
+    "en": {
+      "name": "Telepathy",
+      "system": {
+        "description": "<h1>Telepathy</h1><h2>Description</h2><p>You can transmit thoughts or attempt to read those of another. An unwilling target receives a Mentalism Resistance Roll. On a failure, you may perceive surface thoughts; seeking a specific piece of information or a deeply buried secret makes the attempt more difficult. The range and depth of contact depend on your Tier.</p><h2>MERP-RMU Adaptation</h2><p><strong>Tier I:</strong> voluntary exchange of thoughts at short range. <strong>Tier II:</strong> increased range and richness of exchange. <strong>Tier III:</strong> you may attempt to probe an unwilling target; it receives a Mentalism Resistance Roll, and deeply buried secrets may gain additional resistance bonuses. The Talent never grants automatic access to a target’s entire memory.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mentaux"
+    ],
+    "en": [
+      "Talents — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mental"
+  ]
+}

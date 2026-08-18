@@ -1,0 +1,2278 @@
+{
+  "key": "culture-fuinar",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Fuinar",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-fuinar",
+        "canonicalKey": "culture-fuinar",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-elves",
+        "availability": {
+          "ages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-fuinar-age-1",
+            "folderKey": "cultures-age-1-elves",
+            "document": {
+              "name": "Fuinar",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-fuinar-age-1",
+                  "canonicalKey": "culture-fuinar",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-elves-age-1",
+                  "raceCanonicalKey": "race-elves",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Cuindî",
+                        "spoken": 10,
+                        "written": 10,
+                        "nameFr": "Cuindî"
+                      },
+                      {
+                        "name": "Drel",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Drel"
+                      },
+                      {
+                        "name": "Quenya",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Quenya"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Fuinar",
+                "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              },
+              "en": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              }
+            }
+          },
+          "2": {
+            "sourceKey": "culture-fuinar-age-2",
+            "folderKey": "cultures-age-2-elves",
+            "document": {
+              "name": "Fuinar",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-fuinar-age-2",
+                  "canonicalKey": "culture-fuinar",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-elves-age-2",
+                  "raceCanonicalKey": "race-elves",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Cuindî",
+                        "spoken": 10,
+                        "written": 10,
+                        "nameFr": "Cuindî"
+                      },
+                      {
+                        "name": "Drel",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Drel"
+                      },
+                      {
+                        "name": "Quenya",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Quenya"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Fuinar",
+                "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              },
+              "en": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-fuinar-age-3",
+            "folderKey": "cultures-age-3-elves",
+            "document": {
+              "name": "Fuinar",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-fuinar-age-3",
+                  "canonicalKey": "culture-fuinar",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-elves-age-3",
+                  "raceCanonicalKey": "race-elves",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Cuindî",
+                        "spoken": 10,
+                        "written": 10,
+                        "nameFr": "Cuindî"
+                      },
+                      {
+                        "name": "Drel",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Drel"
+                      },
+                      {
+                        "name": "Quenya",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Quenya"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Fuinar",
+                "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              },
+              "en": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-fuinar-age-4",
+            "folderKey": "cultures-age-4-elves",
+            "document": {
+              "name": "Fuinar",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-fuinar-age-4",
+                  "canonicalKey": "culture-fuinar",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-elves-age-4",
+                  "raceCanonicalKey": "race-elves",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Cuindî",
+                        "spoken": 10,
+                        "written": 10,
+                        "nameFr": "Cuindî"
+                      },
+                      {
+                        "name": "Drel",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Drel"
+                      },
+                      {
+                        "name": "Quenya",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Quenya"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Fuinar",
+                "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              },
+              "en": {
+                "name": "Fuinar",
+                "system": {
+                  "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+                  "culture": "Fuinar"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Fuinar",
+      "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Forest",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 4
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Fuinar",
+      "system": {
+        "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+        "culture": "Fuinar"
+      }
+    },
+    "en": {
+      "name": "Fuinar",
+      "system": {
+        "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+        "culture": "Fuinar"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-fuinar-age-1",
+      "folderKey": "cultures-age-1-elves",
+      "document": {
+        "name": "Fuinar",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-fuinar-age-1",
+            "canonicalKey": "culture-fuinar",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-elves-age-1",
+            "raceCanonicalKey": "race-elves",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Cuindî",
+                  "spoken": 10,
+                  "written": 10,
+                  "nameFr": "Cuindî"
+                },
+                {
+                  "name": "Drel",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Drel"
+                },
+                {
+                  "name": "Quenya",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Quenya"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Fuinar",
+          "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        },
+        "en": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        }
+      }
+    },
+    "2": {
+      "sourceKey": "culture-fuinar-age-2",
+      "folderKey": "cultures-age-2-elves",
+      "document": {
+        "name": "Fuinar",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-fuinar-age-2",
+            "canonicalKey": "culture-fuinar",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-elves-age-2",
+            "raceCanonicalKey": "race-elves",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Cuindî",
+                  "spoken": 10,
+                  "written": 10,
+                  "nameFr": "Cuindî"
+                },
+                {
+                  "name": "Drel",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Drel"
+                },
+                {
+                  "name": "Quenya",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Quenya"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Fuinar",
+          "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        },
+        "en": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-fuinar-age-3",
+      "folderKey": "cultures-age-3-elves",
+      "document": {
+        "name": "Fuinar",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-fuinar-age-3",
+            "canonicalKey": "culture-fuinar",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-elves-age-3",
+            "raceCanonicalKey": "race-elves",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Cuindî",
+                  "spoken": 10,
+                  "written": 10,
+                  "nameFr": "Cuindî"
+                },
+                {
+                  "name": "Drel",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Drel"
+                },
+                {
+                  "name": "Quenya",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Quenya"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Fuinar",
+          "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        },
+        "en": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-fuinar-age-4",
+      "folderKey": "cultures-age-4-elves",
+      "document": {
+        "name": "Fuinar",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-fuinar-age-4",
+            "canonicalKey": "culture-fuinar",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-elves-age-4",
+            "raceCanonicalKey": "race-elves",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Cuindî",
+                  "spoken": 10,
+                  "written": 10,
+                  "nameFr": "Cuindî"
+                },
+                {
+                  "name": "Drel",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Drel"
+                },
+                {
+                  "name": "Quenya",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Quenya"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Fuinar",
+          "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>Les <strong>Fuinar</strong> sont des Elfes <strong>Avari</strong> du sud-ouest d’Endor. Leurs ancêtres s’établirent autrefois dans la région de Bellakar avant que l’assèchement des terres et les migrations humaines ne les conduisent vers la grande forêt de <strong>Valagalen</strong>, en Drel. Ils y développèrent une Culture forestière joyeuse, magique et très attachée à la nuit et aux étoiles.</p>\n<h2>Valagalen</h2>\n<p>Les villes fuinar sont installées dans les arbres, à quelques milles de la lisière. Des gardiens surveillent les frontières et repoussent ceux qui s’enfoncent trop profondément. Leur objectif reste la discrétion et la protection du territoire plutôt que l’affrontement systématique.</p>\n<h2>Société et famille</h2>\n<p>Un Roi conseillé par des législateurs dirige la communauté. Les relations familiales et amoureuses sont importantes ; les Fuinar se marient généralement une fois, mais le divorce est accepté. Les unions avec des Humains existent et peuvent donner naissance à des Demi-Elfes.</p>\n<h2>Joie de vivre</h2>\n<p>Musique, danse, jeux, tir à l’arc, escrime, théâtre, artisanat et flirt occupent une grande partie des loisirs. Les Fuinar sont joueurs et heureux dans l’intimité de leurs communautés, tandis que leurs vêtements et leurs comportements deviennent beaucoup plus discrets à l’extérieur.</p>\n<h2>Religion</h2>\n<p>Ushâna, associée à celle qui façonne les étoiles, reçoit un profond respect. Oromë est appelé Sautâka, « le Traître », selon une interprétation avarine de la séparation des Quendi. La religion reste informelle et privilégie célébration communautaire et méditation personnelle.</p>\n<h2>Magie</h2>\n<p>La magie est utilisée avec une grande familiarité, parfois pour de petits effets pratiques ou ludiques. Les Fuinar l’intègrent à la vie quotidienne sans rechercher constamment les manifestations les plus puissantes. Certains combinent efficacement magie et équipement martial.</p>\n<h2>Artisanat et compétences</h2>\n<p>Travail du bois, musique, instruments, Tromperie, Observation, Dissimulation, Empennage, Cueillette, Pistage et connaissance de la forêt sont très représentatifs. Les objets exceptionnels peuvent employer bois fins ou enchantés aux côtés des métaux et matériaux précieux.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Fuina doit être rattaché à Valagalen et à une communauté arboricole. Gardien, artisan, musicien, Rôdeur ou utilisateur de magie, il reste un Avari dont les ancêtres ont choisi la Terre du Milieu et dont la Culture s’épanouit sous les étoiles plutôt que sous le Soleil.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Cuindî</strong> — Parlée 10 / Écrite 10</li><li><strong>Drel</strong> — Parlée 8 / Écrite 6</li><li><strong>Quenya</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        },
+        "en": {
+          "name": "Fuinar",
+          "system": {
+            "description": "<h1>Fuinar</h1>\n<p>The <strong>Fuinar</strong> are <strong>Avari</strong> Elves of south-western Endor. Their ancestors once settled in the region of Bellakar before the drying of the land and human migrations drove them toward the great forest of <strong>Valagalen</strong> in Drel. There they developed a joyful, magical woodland Culture deeply attached to night and the stars.</p>\n<h2>Valagalen</h2>\n<p>Fuinar towns are built in the trees several miles from the forest edge. Guardians watch the borders and turn back those who penetrate too deeply. Their aim is discretion and protection of their territory rather than systematic confrontation.</p>\n<h2>Society and family</h2>\n<p>A King advised by lawmakers leads the community. Family and romantic relationships are important; Fuinar generally marry once, but divorce is accepted. Unions with Humans exist and may produce Half-elves.</p>\n<h2>Joy of life</h2>\n<p>Music, dance, games, archery, fencing, theatre, craftwork and flirtation occupy much of their leisure time. The Fuinar are playful and happy within their own communities, while their clothing and behaviour become far more discreet outside them.</p>\n<h2>Religion</h2>\n<p>Ushâna, associated with the one who shapes the stars, receives deep reverence. Oromë is called Sautâka, “the Traitor”, according to an Avarin interpretation of the separation of the Quendi. Religion remains informal and favours communal celebration and personal meditation.</p>\n<h2>Magic</h2>\n<p>Magic is used with great familiarity, sometimes for small practical or playful effects. The Fuinar integrate it into daily life without constantly seeking its most powerful manifestations. Some effectively combine magic with martial equipment.</p>\n<h2>Craft and skills</h2>\n<p>Woodcraft, music, instruments, Deception, Observation, Concealment, Fletching, Gathering, Tracking and forest lore are highly representative. Exceptional objects may use fine or enchanted woods alongside metals and precious materials.</p>\n<h2>Place in character creation</h2>\n<p>A Fuina should be tied to Valagalen and to a tree-dwelling community. Guardian, craftsman, musician, Ranger or user of magic, the character remains an Avar whose ancestors chose Middle-earth and whose Culture flourishes beneath the stars rather than beneath the Sun.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Cuindî</strong> — Spoken 10 / Written 10</li><li><strong>Drel</strong> — Spoken 8 / Written 6</li><li><strong>Quenya</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "culture": "Fuinar"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Elfes"
+    ],
+    "en": [
+      "Elves"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-elves"
+  ]
+}

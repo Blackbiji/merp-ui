@@ -1,0 +1,84 @@
+{
+  "key": "herb-suranie",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Suranie",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-suranie",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-F-3-U",
+        "sourceCost": "2gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Étourdissement"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "F",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Suranie"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Light",
+      "form": "Berry",
+      "prep": "ingest",
+      "season": "",
+      "cost": "2gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie dissipe un round d’étourdissement.</p>",
+      "addictionFactor": 3,
+      "effects": [
+        {
+          "effect": "reduce-stun",
+          "value": 1
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Suranie",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie dissipe un round d’étourdissement.</p>"
+      }
+    },
+    "en": {
+      "name": "Suranie",
+      "system": {
+        "notes": "<p>This berry is found chiefly in cool temperate climates, especially in freshwater banks and shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The berry relieves one round of stun.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

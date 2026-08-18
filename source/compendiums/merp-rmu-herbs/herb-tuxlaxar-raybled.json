@@ -1,0 +1,79 @@
+{
+  "key": "herb-tuxlaxar-raybled",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Tuxlaxar (Sang-Rayé / Raybled)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-tuxlaxar-raybled",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-S-4-N",
+        "sourceCost": "75gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "S",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Tuxlaxar (Raybled)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Medium",
+      "form": "Leaf",
+      "prep": "brew",
+      "season": "",
+      "cost": "75gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Rayon-Sang (Raybled)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les prairies rases, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une infusion préparée avec des feuilles très fraîches agit comme un puissant styptique et arrête toute hémorragie en 1 à 10 rounds.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 6,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Tuxlaxar (Sang-Rayé / Raybled)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Rayon-Sang (Raybled)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les prairies rases, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une infusion préparée avec des feuilles très fraîches agit comme un puissant styptique et arrête toute hémorragie en 1 à 10 rounds.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Tuxlaxar (Raybled)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Raybled</strong>.</p><p>This leaf is found chiefly in cold climates, especially in short-grass plains, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>An infusion prepared from very fresh leaves acts as a powerful styptic and stops all bleeding in 1–10 rounds.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

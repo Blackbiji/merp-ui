@@ -1,0 +1,78 @@
+{
+  "key": "herb-agaath",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Agaath",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-agaath",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "e-G-2-U",
+        "sourceCost": "5gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "e",
+        "localeCode": "G",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Agaath"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "G",
+      "findDifficulty": "Easy",
+      "form": "Berry",
+      "prep": "ingest",
+      "season": "",
+      "cost": "5gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat de froid éternel, notamment dans les glaciers et champs de neige, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie permet de respirer pendant douze heures dans une atmosphère ne contenant qu’environ un quart de l’oxygène normal. En consommer plus d’une fois tous les deux jours peut être mortel.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Agaath",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat de froid éternel, notamment dans les glaciers et champs de neige, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie permet de respirer pendant douze heures dans une atmosphère ne contenant qu’environ un quart de l’oxygène normal. En consommer plus d’une fois tous les deux jours peut être mortel.</p>"
+      }
+    },
+    "en": {
+      "name": "Agaath",
+      "system": {
+        "notes": "<p>This berry is found chiefly in permanently frozen climates, especially in glaciers and snowfields, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The berry allows a person to breathe for twelve hours in an atmosphere containing only about one quarter of normal oxygen. Taking it more than once every two days can be fatal.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

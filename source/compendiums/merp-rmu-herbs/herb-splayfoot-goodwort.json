@@ -1,0 +1,78 @@
+{
+  "key": "herb-splayfoot-goodwort",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Splayfoot Goodwort",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-splayfoot-goodwort",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-6-W",
+        "sourceCost": "23gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Splayfoot Goodwort"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Very Hard",
+      "form": "Seeds",
+      "prep": "ingest",
+      "season": "",
+      "cost": "23gp",
+      "notes": "<p>Ces graines se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Chez les êtres bons et honnêtes, les graines inspirent confiance et détermination (+25) pendant 1 à 4 heures ; chez les créatures mauvaises ou liées aux Ténèbres, elles provoquent vertiges et confusion (−50).</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Splayfoot Goodwort",
+      "system": {
+        "notes": "<p>Ces graines se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Chez les êtres bons et honnêtes, les graines inspirent confiance et détermination (+25) pendant 1 à 4 heures ; chez les créatures mauvaises ou liées aux Ténèbres, elles provoquent vertiges et confusion (−50).</p>"
+      }
+    },
+    "en": {
+      "name": "Splayfoot Goodwort",
+      "system": {
+        "notes": "<p>This seeds is found chiefly in mild temperate climates, especially in freshwater banks and shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>In good and honest beings, the seeds inspire confidence and determination (+25) for 1–4 hours; in evil creatures or those bound to Darkness they cause dizziness and confusion (−50).</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

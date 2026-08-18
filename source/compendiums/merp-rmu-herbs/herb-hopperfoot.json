@@ -1,0 +1,84 @@
+{
+  "key": "herb-hopperfoot",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Pied-Sauteur (Hopperfoot)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-hopperfoot",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-5-S",
+        "sourceCost": "45gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Hopperfoot"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Hard",
+      "form": "Mushroom",
+      "prep": "ingest",
+      "season": "",
+      "cost": "45gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le champignon plonge son consommateur dans un profond sommeil de huit heures et lui rend 2 à 20 points de vie. Le sommeil s’accompagne souvent de flatulences incontrôlables.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 6,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "2d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pied-Sauteur (Hopperfoot)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le champignon plonge son consommateur dans un profond sommeil de huit heures et lui rend 2 à 20 points de vie. Le sommeil s’accompagne souvent de flatulences incontrôlables.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Hopperfoot",
+      "system": {
+        "notes": "<p>This mushroom is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The mushroom puts its consumer into a deep eight-hour sleep and restores 2–20 concussion hits. The sleep is often accompanied by uncontrollable flatulence.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

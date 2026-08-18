@@ -1,0 +1,79 @@
+{
+  "key": "herb-flameroot",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Racine-de-Flamme (Flameroot)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-flameroot",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-4-U",
+        "sourceCost": "26gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Flameroot"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Medium",
+      "form": "Fungus",
+      "prep": "brew",
+      "season": "",
+      "cost": "26gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction double la vitesse naturelle de récupération des points de vie.</p>",
+      "addictionFactor": 4,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Racine-de-Flamme (Flameroot)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction double la vitesse naturelle de récupération des points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Flameroot",
+      "system": {
+        "notes": "<p>This fungus is found chiefly in cool temperate climates, especially in underground environments, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction doubles the natural recovery rate of concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-lisgereg-rorash-anserke",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Lisgereg (Rorash, Anserkë)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-lisgereg-rorash-anserke",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-O-6-S",
+        "sourceCost": "75gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "O",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Lisgereg (Rorash, Anserkë)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Very Hard",
+      "form": "Root",
+      "prep": "apply",
+      "season": "",
+      "cost": "75gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Les fibres de la racine produisent un gel hémostatique qui arrête généralement le saignement en trois rounds ; la zone doit ensuite rester au repos quelques minutes.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 7,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lisgereg (Rorash, Anserkë)",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Les fibres de la racine produisent un gel hémostatique qui arrête généralement le saignement en trois rounds ; la zone doit ensuite rester au repos quelques minutes.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Lisgereg (Rorash, Anserkë)",
+      "system": {
+        "notes": "<p>This root is found chiefly in hot and humid climates, especially in sea coasts and saltwater shores, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Fibres from the root produce a haemostatic gel that usually stops bleeding in three rounds; the affected area must then remain at rest for a few minutes.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

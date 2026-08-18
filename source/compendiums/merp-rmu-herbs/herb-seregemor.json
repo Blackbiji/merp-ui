@@ -1,0 +1,79 @@
+{
+  "key": "herb-seregemor",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-conversion",
+  "document": {
+    "name": "Seregemor",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-seregemor",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-H-6-NW",
+        "sourceCost": "180gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Conversion"
+        ],
+        "poisonType": "Conversion",
+        "climateCode": "c",
+        "localeCode": "H",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Seregemor"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Very Hard",
+      "form": "Flower",
+      "prep": "paste",
+      "season": "",
+      "cost": "180gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1. Il transforme temporairement le sang en une substance noire imparfaite, provoquant incapacité et effondrement des caractéristiques mentales avant une récupération très lente.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 1
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Seregemor",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1. Il transforme temporairement le sang en une substance noire imparfaite, provoquant incapacité et effondrement des caractéristiques mentales avant une récupération très lente.</p>"
+      }
+    },
+    "en": {
+      "name": "Seregemor",
+      "system": {
+        "notes": "<p>This flower is found chiefly in cold climates, especially in heaths, scrublands, and moors, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 1 conversion poison. It temporarily transforms the victim’s blood into an imperfect black substance, causing incapacity and a collapse of mental stats followed by a very slow recovery.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Conversion"
+    ],
+    "en": [
+      "Conversion"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-conversion"
+  ]
+}

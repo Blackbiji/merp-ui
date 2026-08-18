@@ -1,0 +1,78 @@
+{
+  "key": "herb-felmather",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Felmather",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-felmather",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-5-U",
+        "sourceCost": "105gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Felmather"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Hard",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "105gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille permet d’appeler mentalement un ami connu, qu’il soit bête ou personne, dans un rayon d’environ 300 pieds par niveau. Elle peut aussi aider à sortir d’un coma.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 15,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Felmather",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La feuille permet d’appeler mentalement un ami connu, qu’il soit bête ou personne, dans un rayon d’environ 300 pieds par niveau. Elle peut aussi aider à sortir d’un coma.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Felmather",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The leaf allows the user to mentally call a known friend, whether beast or person, within a range of about 300 feet per level. It can also help bring someone out of a coma.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

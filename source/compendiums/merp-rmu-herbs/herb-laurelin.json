@@ -1,0 +1,78 @@
+{
+  "key": "herb-laurelin",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Laurelin",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-laurelin",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-9-NW",
+        "sourceCost": "999gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Laurelin"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Absurd",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "999gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette feuille légendaire peut rendre la vie à un Elfe mort depuis moins de vingt-huit jours.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 21,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Laurelin",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette feuille légendaire peut rendre la vie à un Elfe mort depuis moins de vingt-huit jours.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Laurelin",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains of legendary rarity.</p><p>To obtain its properties, it is consumed directly.</p><p>This legendary leaf can restore to life an Elf who has been dead for fewer than twenty-eight days.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-chekyuv-blue-rub",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Chékyûv (Baume Bleu / Blue Rub)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-chekyuv-blue-rub",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-2-E",
+        "sourceCost": "1sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": "E",
+        "sourceVariants": [],
+        "sourceName": "Chékyûv (Blue Rub)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Easy",
+      "form": "Lichen",
+      "prep": "apply",
+      "season": "",
+      "cost": "1sp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Baume Bleu (Blue Rub)</strong>.</p><p>Ce lichen se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Est d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frotté directement sur une plaie, ce lichen réduit l’hémorragie d’environ deux points par round, au prix d’une forte léthargie pendant une heure.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Chékyûv (Baume Bleu / Blue Rub)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Baume Bleu (Blue Rub)</strong>.</p><p>Ce lichen se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Est d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frotté directement sur une plaie, ce lichen réduit l’hémorragie d’environ deux points par round, au prix d’une forte léthargie pendant une heure.</p>"
+      }
+    },
+    "en": {
+      "name": "Chékyûv (Blue Rub)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Blue Rub</strong>.</p><p>This lichen is found chiefly in mild temperate climates, especially in freshwater banks and shores, and is best known in eastern Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Rubbed directly onto a wound, this lichen reduces bleeding by about 2 hits per round, at the cost of severe lethargy for one hour.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

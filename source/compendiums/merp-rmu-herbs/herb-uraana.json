@@ -1,0 +1,79 @@
+{
+  "key": "herb-uraana",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-respiratoires",
+  "document": {
+    "name": "Uraana",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-uraana",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-S-3",
+        "sourceCost": "12gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": "Respiratoire",
+        "climateCode": "t",
+        "localeCode": "S",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Uraana"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Light",
+      "form": "Leaf",
+      "prep": "paste",
+      "season": "",
+      "cost": "12gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 6A. Cette pâte crémeuse inflige 3 à 30 points de vie et provoque des effets respiratoires généralement légers.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 6,
+      "effects": [],
+      "table": "",
+      "level": 6
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Uraana",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 6A. Cette pâte crémeuse inflige 3 à 30 points de vie et provoque des effets respiratoires généralement légers.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Uraana",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in cool temperate climates, especially in short-grass plains.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 6A respiratory poison. This creamy paste inflicts 3–30 concussion hits and generally causes light respiratory effects.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Respiratoires"
+    ],
+    "en": [
+      "Respiratory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-respiratoires"
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "key": "astrologer-starlights",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-hybrid-astrologer",
+  "document": {
+    "name": "Starlights",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "astrologer-starlights",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Mentalism Companion",
+        "sourceList": "Starlights",
+        "sourcePage": 129,
+        "merpRealm": "Channeling,Mentalism",
+        "merpCategory": "Profession",
+        "profession": "Astrologer",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Mentalism Companion pp. 129 — Astrologer Base List"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Mentalism Companion",
+      "name": "Starlights",
+      "listType": "Base",
+      "realms": "Channeling,Mentalism",
+      "profession": "Astrologer",
+      "notes": "<h2>Starlights</h2><p>Manipulation de la lumière, auras lumineuses et attaques de lumière stellaire.</p><p><strong>Conversion MERP-RMU :</strong> Liste historique de l’Astrologue, structurée au format RMU à partir du <em>Mentalism Companion</em>.</p>",
+      "label": "Starlights",
+      "notesLabel": "Starlights notes",
+      "spells": [
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Projected Light",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.ProjectedLight.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.ProjectedLight.description",
+          "level": 1,
+          "description": "Projette depuis la paume un faisceau lumineux comparable à une puissante lanterne.",
+          "aoe": "50' beam",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Lumière Projetée",
+              "description": "Projette depuis la paume un faisceau lumineux comparable à une puissante lanterne."
+            },
+            "en": {
+              "name": "Projected Light",
+              "description": "Projects from the palm a beam of light comparable to a powerful lantern."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Self Aura I",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraI.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraI.description",
+          "level": 2,
+          "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Aura Personnelle I",
+              "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante."
+            },
+            "en": {
+              "name": "Self Aura I",
+              "description": "Surrounds the caster with an imposing luminous aura; attacks against the caster suffer an increasing penalty."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Light II",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.LightII.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.LightII.description",
+          "level": 3,
+          "description": "Crée ou intensifie une zone de lumière selon la zone d’effet indiquée.",
+          "aoe": "20'R",
+          "duration": "10 min/lvl",
+          "range": "touch",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Lumière II",
+              "description": "Crée ou intensifie une zone de lumière selon la zone d’effet indiquée."
+            },
+            "en": {
+              "name": "Light II",
+              "description": "Creates or intensifies an area of light according to the listed area of effect."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Light Eruption",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.LightEruption.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.LightEruption.description",
+          "level": 4,
+          "description": "Crée ou intensifie une zone de lumière selon la zone d’effet indiquée.",
+          "aoe": "10'R",
+          "duration": "--",
+          "range": "100'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Éruption de Lumière",
+              "description": "Crée ou intensifie une zone de lumière selon la zone d’effet indiquée."
+            },
+            "en": {
+              "name": "Light Eruption",
+              "description": "Creates or intensifies an area of light according to the listed area of effect."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Shock Bolt I",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.ShockBoltI.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.ShockBoltI.description",
+          "level": 5,
+          "description": "Projette un trait de lumière concentrée résolu comme une attaque élémentaire de lumière.",
+          "aoe": "1 target",
+          "duration": "--",
+          "range": "100'",
+          "spellType": "DE",
+          "localizations": {
+            "fr": {
+              "name": "Trait de Choc I",
+              "description": "Projette un trait de lumière concentrée résolu comme une attaque élémentaire de lumière."
+            },
+            "en": {
+              "name": "Shock Bolt I",
+              "description": "Projects a bolt of concentrated light resolved as an elemental light attack."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Self Aura II",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraII.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraII.description",
+          "level": 6,
+          "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Aura Personnelle II",
+              "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante."
+            },
+            "en": {
+              "name": "Self Aura II",
+              "description": "Surrounds the caster with an imposing luminous aura; attacks against the caster suffer an increasing penalty."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Flare",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.Flare.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.Flare.description",
+          "level": 7,
+          "description": "Projette une boule de lumière qui éclate en flare ; peut produire un effet de chaleur sur une cible.",
+          "aoe": "varies",
+          "duration": "3 rnds",
+          "range": "500'",
+          "spellType": "DE",
+          "localizations": {
+            "fr": {
+              "name": "Éclat",
+              "description": "Projette une boule de lumière qui éclate en flare ; peut produire un effet de chaleur sur une cible."
+            },
+            "en": {
+              "name": "Flare",
+              "description": "Projects a ball of light that bursts in a flare and may produce a heat effect on a target."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Utterlight I",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.UtterlightI.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.UtterlightI.description",
+          "level": 8,
+          "description": "Crée une lumière totale qui dissipe l’obscurité magique dans la zone.",
+          "aoe": "10'R",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Lumière Totale I",
+              "description": "Crée une lumière totale qui dissipe l’obscurité magique dans la zone."
+            },
+            "en": {
+              "name": "Utterlight I",
+              "description": "Creates total light that dispels magical darkness within the area."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Self Aura III",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraIII.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraIII.description",
+          "level": 9,
+          "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Aura Personnelle III",
+              "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante."
+            },
+            "en": {
+              "name": "Self Aura III",
+              "description": "Surrounds the caster with an imposing luminous aura; attacks against the caster suffer an increasing penalty."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Beacon V",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.BeaconV.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.BeaconV.description",
+          "level": 10,
+          "description": "Projette un rayon lumineux extrêmement long servant de balise.",
+          "aoe": "5 miles",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Balise V",
+              "description": "Projette un rayon lumineux extrêmement long servant de balise."
+            },
+            "en": {
+              "name": "Beacon V",
+              "description": "Projects an extremely long beam of light that serves as a beacon."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Light VI",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.LightVI.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.LightVI.description",
+          "level": 11,
+          "description": "Crée ou intensifie une zone de lumière selon la zone d’effet indiquée.",
+          "aoe": "60'R",
+          "duration": "10 min/lvl",
+          "range": "touch",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Lumière VI",
+              "description": "Crée ou intensifie une zone de lumière selon la zone d’effet indiquée."
+            },
+            "en": {
+              "name": "Light VI",
+              "description": "Creates or intensifies an area of light according to the listed area of effect."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Lesser Starbolt",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.LesserStarbolt.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.LesserStarbolt.description",
+          "level": 12,
+          "description": "Projette un trait de lumière concentrée résolu comme une attaque élémentaire de lumière.",
+          "aoe": "1 target",
+          "duration": "--",
+          "range": "300'",
+          "spellType": "DE",
+          "localizations": {
+            "fr": {
+              "name": "Trait Stellaire Mineur",
+              "description": "Projette un trait de lumière concentrée résolu comme une attaque élémentaire de lumière."
+            },
+            "en": {
+              "name": "Lesser Starbolt",
+              "description": "Projects a bolt of concentrated light resolved as an elemental light attack."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Waiting Light II",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.WaitingLightII.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.WaitingLightII.description",
+          "level": 13,
+          "description": "Place un effet de lumière en attente, déclenché par une condition définie.",
+          "aoe": "20'R",
+          "duration": "10 min/lvl",
+          "range": "touch",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Lumière en Attente II",
+              "description": "Place un effet de lumière en attente, déclenché par une condition définie."
+            },
+            "en": {
+              "name": "Waiting Light II",
+              "description": "Places a light effect in waiting, triggered by a defined condition."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Lord Self Aura",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.LordSelfAura.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.LordSelfAura.description",
+          "level": 14,
+          "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Aura Personnelle Seigneur",
+              "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante."
+            },
+            "en": {
+              "name": "Lord Self Aura",
+              "description": "Surrounds the caster with an imposing luminous aura; attacks against the caster suffer an increasing penalty."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Flash",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.Flash.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.Flash.description",
+          "level": 15,
+          "description": "Un éclair brillant aveugle brièvement la cible en cas d’échec de résistance.",
+          "aoe": "1 target",
+          "duration": "--",
+          "range": "100'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Éclair",
+              "description": "Un éclair brillant aveugle brièvement la cible en cas d’échec de résistance."
+            },
+            "en": {
+              "name": "Flash",
+              "description": "A brilliant flash briefly blinds the target if it fails to resist."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Beacon X",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.BeaconX.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.BeaconX.description",
+          "level": 16,
+          "description": "Projette un rayon lumineux extrêmement long servant de balise.",
+          "aoe": "10 miles",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Balise X",
+              "description": "Projette un rayon lumineux extrêmement long servant de balise."
+            },
+            "en": {
+              "name": "Beacon X",
+              "description": "Projects an extremely long beam of light that serves as a beacon."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Lord Light",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.LordLight.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.LordLight.description",
+          "level": 17,
+          "description": "Effet de niveau 17 de la Liste Starlights, converti depuis Mentalism Companion.",
+          "aoe": "200'R",
+          "duration": "10 min/lvl",
+          "range": "touch",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Lumière Seigneur",
+              "description": "Effet de niveau 17 de la Liste Starlights, converti depuis Mentalism Companion."
+            },
+            "en": {
+              "name": "Lord Light",
+              "description": "Level 17 effect from the Starlights List, converted from the Mentalism Companion."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Utterlight V",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.UtterlightV.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.UtterlightV.description",
+          "level": 18,
+          "description": "Crée une lumière totale qui dissipe l’obscurité magique dans la zone.",
+          "aoe": "50'R",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Lumière Totale V",
+              "description": "Crée une lumière totale qui dissipe l’obscurité magique dans la zone."
+            },
+            "en": {
+              "name": "Utterlight V",
+              "description": "Creates total light that dispels magical darkness within the area."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Greater Starbolt",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.GreaterStarbolt.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.GreaterStarbolt.description",
+          "level": 19,
+          "description": "Projette un trait de lumière concentrée résolu comme une attaque élémentaire de lumière.",
+          "aoe": "1 target",
+          "duration": "--",
+          "range": "1000'",
+          "spellType": "DE",
+          "localizations": {
+            "fr": {
+              "name": "Trait Stellaire Supérieur",
+              "description": "Projette un trait de lumière concentrée résolu comme une attaque élémentaire de lumière."
+            },
+            "en": {
+              "name": "Greater Starbolt",
+              "description": "Projects a bolt of concentrated light resolved as an elemental light attack."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Self Aura True",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraTrue.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.SelfAuraTrue.description",
+          "level": 20,
+          "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Aura Personnelle Véritable",
+              "description": "Entoure le lanceur d’une aura lumineuse imposante ; les attaques contre lui subissent une pénalité croissante."
+            },
+            "en": {
+              "name": "Self Aura True",
+              "description": "Surrounds the caster with an imposing luminous aura; attacks against the caster suffer an increasing penalty."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Starfires",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.Starfires.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.Starfires.description",
+          "level": 25,
+          "description": "Concentre lumière stellaire ou lunaire en un foyer ardent capable de brûler progressivement la matière.",
+          "aoe": "1 point",
+          "duration": "C",
+          "range": "500'",
+          "spellType": "E",
+          "localizations": {
+            "fr": {
+              "name": "Feux Stellaires",
+              "description": "Concentre lumière stellaire ou lunaire en un foyer ardent capable de brûler progressivement la matière."
+            },
+            "en": {
+              "name": "Starfires",
+              "description": "Concentrates starlight or moonlight into a burning focus capable of progressively burning matter."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Starhand",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.Starhand.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.Starhand.description",
+          "level": 30,
+          "description": "Concentre Starfires au voisinage de la main du lanceur pour l’utiliser comme attaque dirigée mobile.",
+          "aoe": "1 point",
+          "duration": "1 rnd/lvl",
+          "range": "6\"",
+          "spellType": "DE",
+          "localizations": {
+            "fr": {
+              "name": "Main Stellaire",
+              "description": "Concentre Starfires au voisinage de la main du lanceur pour l’utiliser comme attaque dirigée mobile."
+            },
+            "en": {
+              "name": "Starhand",
+              "description": "Concentrates Starfires near the caster’s hand for use as a mobile directed attack."
+            }
+          }
+        },
+        {
+          "spellList": "Starlights",
+          "listType": "Base",
+          "profession": "Astrologer",
+          "name": "Starfires True",
+          "label": "MERP_RMU.Astrologer.Starlights.spells.StarfiresTrue.name",
+          "descriptionLabel": "MERP_RMU.Astrologer.Starlights.spells.StarfiresTrue.description",
+          "level": 50,
+          "description": "Concentre lumière stellaire ou lunaire en un foyer ardent capable de brûler progressivement la matière.",
+          "aoe": "1 point",
+          "duration": "varies",
+          "range": "varies",
+          "spellType": "DE",
+          "localizations": {
+            "fr": {
+              "name": "Feux Stellaires Véritables",
+              "description": "Concentre lumière stellaire ou lunaire en un foyer ardent capable de brûler progressivement la matière."
+            },
+            "en": {
+              "name": "Starfires True",
+              "description": "Concentrates starlight or moonlight into a burning focus capable of progressively burning matter."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lumières Stellaires",
+      "system": {
+        "name": "Lumières Stellaires",
+        "label": "Lumières Stellaires",
+        "notesLabel": "Lumières Stellaires — notes",
+        "notes": "<h2>Lumières Stellaires</h2><p>Manipulation de la lumière, auras lumineuses et attaques de lumière stellaire.</p><p><strong>Conversion MERP-RMU :</strong> Liste historique de l’Astrologue, structurée au format RMU à partir du <em>Mentalism Companion</em>.</p>"
+      }
+    },
+    "en": {
+      "name": "Starlights",
+      "system": {
+        "name": "Starlights",
+        "label": "Starlights",
+        "notesLabel": "Starlights — notes",
+        "notes": "<h2>Starlights</h2><p>Manipulation of light, luminous auras, and attacks of starlight.</p><p><strong>MERP-RMU Conversion:</strong> historical Astrologer List, structured in RMU format from the <em>Mentalism Companion</em>.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts Hybrides",
+      "Astrologue (Base)"
+    ],
+    "en": [
+      "Hybrid Spell Lists",
+      "Astrologer (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-hybrid",
+    "spell-lists-hybrid-astrologer"
+  ]
+}

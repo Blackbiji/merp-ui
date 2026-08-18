@@ -1,0 +1,84 @@
+{
+  "key": "herb-moonthumb-glow-worm",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Pouce-de-Lune (Moonthumb / Ver Luisant / Glow Worm)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-moonthumb-glow-worm",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-7-NE",
+        "sourceCost": "12gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "NE",
+        "sourceVariants": [],
+        "sourceName": "Moonthumb (Glow Worm)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Extremely Hard",
+      "form": "Fungus",
+      "prep": "ingest",
+      "season": "",
+      "cost": "12gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Ver Luisant (Glow Worm)</strong>.</p><p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce champignon rend immédiatement 1 à 10 points de vie et conserve ses vertus même une fois séché.</p>",
+      "addictionFactor": 4,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "1d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pouce-de-Lune (Moonthumb / Ver Luisant / Glow Worm)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Ver Luisant (Glow Worm)</strong>.</p><p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce champignon rend immédiatement 1 à 10 points de vie et conserve ses vertus même une fois séché.</p>"
+      }
+    },
+    "en": {
+      "name": "Moonthumb (Glow Worm)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Glow Worm</strong>.</p><p>This fungus is found chiefly in cool temperate climates, especially in underground environments, and is best known in north-eastern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This mushroom immediately restores 1–10 concussion hits and retains its potency even after drying.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

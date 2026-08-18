@@ -1,0 +1,84 @@
+{
+  "key": "herb-akbutege",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Akbutegé",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-akbutege",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-S-6-SW",
+        "sourceCost": "25gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "S",
+        "regionCode": "SW",
+        "sourceVariants": [],
+        "sourceName": "Akbutegé"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Very Hard",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "25gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Rend 1 à 10 points de vie.</p>",
+      "addictionFactor": 1,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "1d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Akbutegé",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Rend 1 à 10 points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Akbutegé",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in semi-arid climates, especially in short-grass plains, and is best known in south-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Restores 1–10 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "key": "dunedain-longevity",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Longévité dúnadan",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "dunedain-longevity",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "MERP-RMU",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Dúnedain"
+          ]
+        },
+        "descriptionVersion": 1
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Longévité dúnadan",
+      "cost": "0",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Longévité dúnadan</h1><h2>Description</h2><p>Les Dúnedain de sang relativement pur vivent généralement entre <strong>160 et 240 ans</strong> et conservent longtemps leur vigueur.</p><h2>Adaptation MERP-RMU</h2><p>Ce Talent racial représente la longévité propre aux Dúnedain. Il est accordé par la Race et n’est pas destiné à être acheté séparément lors du développement normal du personnage.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_dunedain-longevity.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Longévité dúnadan",
+      "system": {
+        "description": "<h1>Longévité dúnadan</h1><h2>Description</h2><p>Les Dúnedain de sang relativement pur vivent généralement entre <strong>160 et 240 ans</strong> et conservent longtemps leur vigueur.</p><h2>Adaptation MERP-RMU</h2><p>Ce Talent racial représente la longévité propre aux Dúnedain. Il est accordé par la Race et n’est pas destiné à être acheté séparément lors du développement normal du personnage.</p>"
+      }
+    },
+    "en": {
+      "name": "Dúnedain Longevity",
+      "system": {
+        "description": "<h1>Dúnedain Longevity</h1><h2>Description</h2><p>Dúnedain of relatively pure blood generally live between <strong>160 and 240 years</strong> and retain their vigor for a long time.</p><h2>MERP-RMU Adaptation</h2><p>This racial Talent represents the longevity inherent to the Dúnedain. It is granted by the Race and is not intended to be purchased separately during normal character development.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

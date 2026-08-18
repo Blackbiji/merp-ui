@@ -1,0 +1,68 @@
+{
+  "key": "light-of-aman",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Lumière d’Aman (Light of Aman)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "light-of-aman",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Noldor"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Light of Aman",
+      "cost": "15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Lumière d’Aman (Light of Aman)</h1><h2>Description</h2><p>Vous avez contemplé la lumière des Deux Arbres d’Aman et en portez encore une pâle réflexion. Cette présence peut demeurer discrète si vous le souhaitez, mais les êtres moindres peuvent la pressentir comme un éclat à la limite de leur perception. Elle renforce légèrement votre Présence et marque votre nature spirituelle de façon perceptible aux êtres capables de la discerner.</p><h2>Adaptation MERP-RMU</h2><p>Le Talent conserve surtout sa <strong>nature spirituelle et historique</strong>. Il exige que l’âge et l’histoire du personnage rendent plausible la contemplation d’Aman. Les anciens paramètres de Race Type et de Soul Departure ne sont pas transposés littéralement en RMU ; le MJ peut reconnaître l’aura dans les interactions ou effets surnaturels où l’origine amanienne est pertinente.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_light-of-aman.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lumière d’Aman (Light of Aman)",
+      "system": {
+        "description": "<h1>Lumière d’Aman (Light of Aman)</h1><h2>Description</h2><p>Vous avez contemplé la lumière des Deux Arbres d’Aman et en portez encore une pâle réflexion. Cette présence peut demeurer discrète si vous le souhaitez, mais les êtres moindres peuvent la pressentir comme un éclat à la limite de leur perception. Elle renforce légèrement votre Présence et marque votre nature spirituelle de façon perceptible aux êtres capables de la discerner.</p><h2>Adaptation MERP-RMU</h2><p>Le Talent conserve surtout sa <strong>nature spirituelle et historique</strong>. Il exige que l’âge et l’histoire du personnage rendent plausible la contemplation d’Aman. Les anciens paramètres de Race Type et de Soul Departure ne sont pas transposés littéralement en RMU ; le MJ peut reconnaître l’aura dans les interactions ou effets surnaturels où l’origine amanienne est pertinente.</p>"
+      }
+    },
+    "en": {
+      "name": "Light of Aman",
+      "system": {
+        "description": "<h1>Light of Aman</h1><h2>Description</h2><p>You have beheld the light of the Two Trees of Aman and still carry a pale reflection of it. This presence can remain subtle if you wish, but lesser beings may sense it as a glimmer at the edge of perception. It slightly strengthens your Presence and marks your spiritual nature in a way perceptible to beings capable of discerning it.</p><h2>MERP-RMU Adaptation</h2><p>The Talent chiefly preserves its <strong>spiritual and historical nature</strong>. The character’s age and history must make it plausible that they saw Aman. The old Race Type and Soul Departure parameters are not translated literally into RMU; the GM may recognize the aura in interactions or supernatural effects where Amanian origin is relevant.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "key": "herb-melander",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Melander",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-melander",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-F-3",
+        "sourceCost": "12sp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "F",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Melander"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Light",
+      "form": "Moss",
+      "prep": "brew",
+      "season": "",
+      "cost": "12sp",
+      "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une infusion de cette mousse accorde environ +10 aux Jets de Résistance contre les maladies pendant 1 à 10 jours.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Melander",
+      "system": {
+        "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une infusion de cette mousse accorde environ +10 aux Jets de Résistance contre les maladies pendant 1 à 10 jours.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Melander",
+      "system": {
+        "notes": "<p>This moss is found chiefly in cold climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>An infusion of this moss grants about +10 to Resistance Rolls against disease for 1–10 days.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "key": "fighter",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-non-magiques",
+  "document": {
+    "name": "Guerrier",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "fighter",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "rmu-core-law-adaptation",
+          "reference": "RMU Core Law — Fighter; MERP Character Creation Using RMSS/RMFRP v2.5 — Fighter"
+        }
+      }
+    },
+    "system": {
+      "book": "RMU Core Law",
+      "profession": "Fighter",
+      "spellCastingGroup": "Non",
+      "numberOfBaseLists": 0,
+      "realms": "",
+      "description": "<h1>Guerrier</h1>\n<p>Le <strong>Guerrier</strong> est un combattant professionnel. Il consacre l’essentiel de son entraînement au maniement des armes, au port de l’armure et aux techniques qui permettent de survivre et de vaincre dans une confrontation directe. Dans les versions précédentes du jeu de rôle des Terres du Milieu et de Rolemaster, il représente déjà le spécialiste martial capable de développer plusieurs catégories d’armes et d’utiliser efficacement les protections lourdes.</p>\n<p>La Profession peut représenter un chevalier du Gondor, un cavalier du Rohan, un garde de cité, un mercenaire, un champion de clan, un archer, un combattant khazâd ou un vétéran. La Culture donne sa forme concrète au personnage : un Rohir privilégiera souvent lance, équitation et combat monté ; un Khazad pourra favoriser hache, bouclier et armure ; un Sinda pourra rechercher mobilité, arc et épée.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Guerrier sont <strong>Constitution (Co)</strong> et <strong>Force (St)</strong>. La Constitution soutient l’endurance, la résistance aux blessures et aux contraintes prolongées. La Force intervient dans de nombreux entraînements martiaux, le maniement des armes et les efforts physiques liés au combat.</p>\n<p>Ces deux caractéristiques doivent recevoir une attention particulière lors de la création du personnage.</p>\n<h2>Orientation technique</h2>\n<p>Le Guerrier est un <strong>non-utilisateur de sorts</strong>. Il ne possède aucune Liste de base. Son développement privilégie les Armes de mêlée, les Armes à distance, le Bouclier, le Combat à mains nues, les Manœuvres en armure, le Combat monté, le Développement corporel, la Protection, le Désarmement, les Attaques multiples, la Course et le Commandement.</p>\n<p>Il peut devenir très spécialisé dans une seule arme ou construire une formation martiale plus large. La Profession donne surtout la capacité de consacrer une part importante du développement à plusieurs disciplines de combat sans sacrifier sa robustesse générale.</p>\n<h2>Combat et équipement</h2>\n<p>Le Guerrier est naturellement à l’aise avec les armes et l’armure. Un soldat du Gondor peut apprendre la discipline de formation, le bouclier et les protections lourdes ; un cavalier du Rohan associera l’équitation à la lance et à l’épée ; un Khazad des Longues-Barbes pourra privilégier hache, marteau, bouclier et cotte de mailles ; un Corsaire d’Umbar pourra combiner lame, arc et techniques adaptées au combat naval.</p>\n<p>Le choix du style de combat relève donc de la Culture, de l’histoire personnelle et de l’équipement disponible plutôt que d’une école unique imposée par la Profession.</p>\n<h2>Profils de Guerriers</h2>\n<ul>\n<li><strong>Guerrier lourd.</strong> Arme de mêlée, Bouclier, Manœuvres en armure et Développement corporel.</li>\n<li><strong>Archer.</strong> Armes à distance, Perception et mobilité.</li>\n<li><strong>Cavalier.</strong> Équitation, Combat monté et arme adaptée au combat à cheval.</li>\n<li><strong>Champion.</strong> Spécialisation poussée dans une arme et techniques de combat avancées.</li>\n<li><strong>Garde.</strong> Protection, Bouclier, Observation et éventuellement Commandement.</li>\n<li><strong>Capitaine.</strong> Compétences martiales, Commandement et aptitudes sociales nécessaires pour diriger une troupe.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong> Le Guerrier ne possède pas de Liste de base professionnelle. Il peut théoriquement apprendre certaines formes de magie, mais cet apprentissage reste particulièrement coûteux et exceptionnel.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons le <strong>châssis mécanique du Fighter RMU</strong> : ses coûts de développement, ses groupes d’entraînement au combat et ses compétences professionnelles constituent la base de la Profession.</p>\n<p>MERP-RMU rétablit explicitement les caractéristiques primordiales <strong>Constitution et Force</strong> et replace l’identité du Guerrier dans les traditions militaires de la Terre du Milieu. Sa Race et sa Culture déterminent les armes, les protections et la forme concrète de son entraînement. Son absence de magie reste volontairement nette afin de conserver la distinction traditionnelle entre combattants professionnels et professions magiques.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "2/3"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "3/4"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "1/2"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "1/2"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "2/3"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "3/4"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Mounted Combat"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Protect"
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development"
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Fortitude"
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "skillName": "Disarm"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "skillName": "Multiple Attacks"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Melee Weapons"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Ranged Weapons"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Shield"
+        },
+        {
+          "skillCategory": "Crafting",
+          "skillName": "Metalcraft"
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running"
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Leadership"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Guerrier",
+      "system": {
+        "description": "<h1>Guerrier</h1>\n<p>Le <strong>Guerrier</strong> est un combattant professionnel. Il consacre l’essentiel de son entraînement au maniement des armes, au port de l’armure et aux techniques qui permettent de survivre et de vaincre dans une confrontation directe. Dans les versions précédentes du jeu de rôle des Terres du Milieu et de Rolemaster, il représente déjà le spécialiste martial capable de développer plusieurs catégories d’armes et d’utiliser efficacement les protections lourdes.</p>\n<p>La Profession peut représenter un chevalier du Gondor, un cavalier du Rohan, un garde de cité, un mercenaire, un champion de clan, un archer, un combattant khazâd ou un vétéran. La Culture donne sa forme concrète au personnage : un Rohir privilégiera souvent lance, équitation et combat monté ; un Khazad pourra favoriser hache, bouclier et armure ; un Sinda pourra rechercher mobilité, arc et épée.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Guerrier sont <strong>Constitution (Co)</strong> et <strong>Force (St)</strong>. La Constitution soutient l’endurance, la résistance aux blessures et aux contraintes prolongées. La Force intervient dans de nombreux entraînements martiaux, le maniement des armes et les efforts physiques liés au combat.</p>\n<p>Ces deux caractéristiques doivent recevoir une attention particulière lors de la création du personnage.</p>\n<h2>Orientation technique</h2>\n<p>Le Guerrier est un <strong>non-utilisateur de sorts</strong>. Il ne possède aucune Liste de base. Son développement privilégie les Armes de mêlée, les Armes à distance, le Bouclier, le Combat à mains nues, les Manœuvres en armure, le Combat monté, le Développement corporel, la Protection, le Désarmement, les Attaques multiples, la Course et le Commandement.</p>\n<p>Il peut devenir très spécialisé dans une seule arme ou construire une formation martiale plus large. La Profession donne surtout la capacité de consacrer une part importante du développement à plusieurs disciplines de combat sans sacrifier sa robustesse générale.</p>\n<h2>Combat et équipement</h2>\n<p>Le Guerrier est naturellement à l’aise avec les armes et l’armure. Un soldat du Gondor peut apprendre la discipline de formation, le bouclier et les protections lourdes ; un cavalier du Rohan associera l’équitation à la lance et à l’épée ; un Khazad des Longues-Barbes pourra privilégier hache, marteau, bouclier et cotte de mailles ; un Corsaire d’Umbar pourra combiner lame, arc et techniques adaptées au combat naval.</p>\n<p>Le choix du style de combat relève donc de la Culture, de l’histoire personnelle et de l’équipement disponible plutôt que d’une école unique imposée par la Profession.</p>\n<h2>Profils de Guerriers</h2>\n<ul>\n<li><strong>Guerrier lourd.</strong> Arme de mêlée, Bouclier, Manœuvres en armure et Développement corporel.</li>\n<li><strong>Archer.</strong> Armes à distance, Perception et mobilité.</li>\n<li><strong>Cavalier.</strong> Équitation, Combat monté et arme adaptée au combat à cheval.</li>\n<li><strong>Champion.</strong> Spécialisation poussée dans une arme et techniques de combat avancées.</li>\n<li><strong>Garde.</strong> Protection, Bouclier, Observation et éventuellement Commandement.</li>\n<li><strong>Capitaine.</strong> Compétences martiales, Commandement et aptitudes sociales nécessaires pour diriger une troupe.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong> Le Guerrier ne possède pas de Liste de base professionnelle. Il peut théoriquement apprendre certaines formes de magie, mais cet apprentissage reste particulièrement coûteux et exceptionnel.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons le <strong>châssis mécanique du Fighter RMU</strong> : ses coûts de développement, ses groupes d’entraînement au combat et ses compétences professionnelles constituent la base de la Profession.</p>\n<p>MERP-RMU rétablit explicitement les caractéristiques primordiales <strong>Constitution et Force</strong> et replace l’identité du Guerrier dans les traditions militaires de la Terre du Milieu. Sa Race et sa Culture déterminent les armes, les protections et la forme concrète de son entraînement. Son absence de magie reste volontairement nette afin de conserver la distinction traditionnelle entre combattants professionnels et professions magiques.</p>"
+      }
+    },
+    "en": {
+      "name": "Fighter",
+      "system": {
+        "description": "<h1>Fighter</h1>\n<p>The <strong>Fighter</strong> is a professional combatant. Most of the profession’s training is devoted to weapons, armour, and the techniques needed to survive and prevail in direct confrontation. In earlier Middle-earth and Rolemaster games, the Fighter already represents the martial specialist able to develop several weapon categories and use heavy protection effectively.</p>\n<p>The Profession may represent a knight of Gondor, a rider of Rohan, a city guard, mercenary, clan champion, archer, Khazâd warrior, or veteran. Culture gives the character a concrete form: a Rohir will often favour spear, riding, and mounted combat; a Khazad may favour axe, shield, and armour; a Sinda may seek mobility, bow, and sword.</p>\n<h2>Prime Stats</h2>\n<p>The Fighter’s Prime Stats are <strong>Constitution (Co)</strong> and <strong>Strength (St)</strong>. Constitution supports endurance, resistance to wounds, and prolonged physical hardship. Strength naturally contributes to many martial disciplines, weapon use, and strenuous physical effort.</p>\n<p>These two Stats deserve particular attention during character creation.</p>\n<h2>Technical orientation</h2>\n<p>The Fighter is a <strong>non-spell-user</strong> and has no Base Lists. Development favours Melee Weapons, Ranged Weapons, Shield, Unarmed Combat, Maneuvering in Armor, Mounted Combat, Body Development, Protect, Disarm, Multiple Attacks, Running, and Leadership.</p>\n<p>A Fighter may become highly specialized in one weapon or build a broader martial training. The Profession’s main strength is the ability to invest heavily in several combat disciplines without giving up overall physical resilience.</p>\n<h2>Combat and equipment</h2>\n<p>Fighters are naturally comfortable with weapons and armour. A Gondorian soldier may learn formation discipline, shield, and heavy armour; a rider of Rohan may combine riding with spear and sword; a Longbeard Khazad may favour axe, hammer, shield, and mail; a Corsair of Umbar may combine blade, bow, and techniques suited to fighting at sea.</p>\n<p>The choice of fighting style therefore comes from Culture, personal history, and available equipment rather than from a single school imposed by the Profession.</p>\n<h2>Fighter profiles</h2>\n<ul><li><strong>Heavy Fighter.</strong> Melee weapon, Shield, Maneuvering in Armor, and Body Development.</li><li><strong>Archer.</strong> Ranged Weapons, Perception, and mobility.</li><li><strong>Rider.</strong> Riding, Mounted Combat, and a weapon suited to fighting from horseback.</li><li><strong>Champion.</strong> Deep specialization in one main weapon and advanced combat techniques.</li><li><strong>Guard.</strong> Protect, Shield, Observation, and possibly Leadership.</li><li><strong>Captain.</strong> Martial skills combined with Leadership and the social abilities needed to command troops.</li></ul>\n<h2>Base Spell Lists</h2>\n<p><strong>None.</strong> The Fighter has no professional Base Spell List. A Fighter can theoretically learn some forms of magic, but doing so is unusually costly and represents an exceptional path.</p>\n<h2>RMU / MERP adaptation</h2>\n<p>We retain the <strong>RMU Fighter mechanical chassis</strong>: its development costs, combat training groups, and professional skills remain the foundation of the Profession.</p>\n<p>MERP-RMU explicitly restores <strong>Constitution and Strength</strong> as the Prime Stats and places the Fighter within the military traditions of Middle-earth. Race and Culture determine weapons, protection, and the concrete form of training. The deliberate absence of magic preserves the traditional distinction between professional warriors and magical professions.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions non magiques"
+    ],
+    "en": [
+      "Non-magical Professions"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-non-magiques"
+  ]
+}

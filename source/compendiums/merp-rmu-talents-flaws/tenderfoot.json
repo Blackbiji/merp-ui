@@ -1,0 +1,69 @@
+{
+  "key": "tenderfoot",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Pieds sensibles (Tenderfoot)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "tenderfoot",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {
+          "races": [
+            "Hobbits",
+            "Periannath"
+          ]
+        },
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Physical",
+      "name": "Tenderfoot",
+      "cost": "-5",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Pieds sensibles (Tenderfoot)</h1><h2>Description</h2><p>Vos pieds sont exceptionnellement sensibles et presque dépourvus de la protection naturelle commune à votre peuple. Vous devez porter des chaussures, des bottes ou des sandales adaptées.</p><p>Lorsque vous êtes pieds nus sur un terrain susceptible de les blesser — pierre, gravier, ronces, neige dure, débris ou surface équivalente — vous subissez <strong>−25 aux Manœuvres de déplacement</strong>.</p><h2>Adaptation MERP-RMU</h2><p>La pénalité est réduite par rapport à la version d’origine afin de rester compatible avec l’échelle des modificateurs RMU, tout en conservant une contrainte réelle tant que vos pieds ne sont pas protégés.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_tenderfoot.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pieds sensibles (Tenderfoot)",
+      "system": {
+        "description": "<h1>Pieds sensibles (Tenderfoot)</h1><h2>Description</h2><p>Vos pieds sont exceptionnellement sensibles et presque dépourvus de la protection naturelle commune à votre peuple. Vous devez porter des chaussures, des bottes ou des sandales adaptées.</p><p>Lorsque vous êtes pieds nus sur un terrain susceptible de les blesser — pierre, gravier, ronces, neige dure, débris ou surface équivalente — vous subissez <strong>−25 aux Manœuvres de déplacement</strong>.</p><h2>Adaptation MERP-RMU</h2><p>La pénalité est réduite par rapport à la version d’origine afin de rester compatible avec l’échelle des modificateurs RMU, tout en conservant une contrainte réelle tant que vos pieds ne sont pas protégés.</p>"
+      }
+    },
+    "en": {
+      "name": "Tenderfoot",
+      "system": {
+        "description": "<h1>Tenderfoot</h1><h2>Description</h2><p>Your feet are exceptionally sensitive and almost entirely lack the natural protection common to your people. You must wear suitable shoes, boots, or sandals.</p><p>When barefoot on terrain liable to injure them—stone, gravel, brambles, hard snow, debris, or an equivalent surface—you suffer <strong>−25 to movement Maneuvers</strong>.</p><h2>MERP-RMU Adaptation</h2><p>The penalty is reduced from the original version to remain compatible with RMU modifier scales while preserving a genuine limitation whenever your feet are unprotected.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

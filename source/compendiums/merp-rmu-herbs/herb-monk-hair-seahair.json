@@ -1,0 +1,79 @@
+{
+  "key": "herb-monk-hair-seahair",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Cheveux de Moine (Monk Hair / Cheveux de Mer / Seahair)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-monk-hair-seahair",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-O-4-U",
+        "sourceCost": "12gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes",
+          "Soins"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "O",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Monk Hair (Seahair)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Medium",
+      "form": "Algae",
+      "prep": "powder",
+      "season": "",
+      "cost": "12gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Cheveux de Mer (Seahair)</strong>.</p><p>Cette algue se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Antidote de niveau 12 contre le Karfar lorsqu’il est administré dans la minute suivant l’empoisonnement. La poudre peut aussi arrêter les hémorragies internes et externes sans refermer la plaie.</p>",
+      "addictionFactor": 4,
+      "effects": [],
+      "table": "",
+      "level": 12
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Cheveux de Moine (Monk Hair / Cheveux de Mer / Seahair)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Cheveux de Mer (Seahair)</strong>.</p><p>Cette algue se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Antidote de niveau 12 contre le Karfar lorsqu’il est administré dans la minute suivant l’empoisonnement. La poudre peut aussi arrêter les hémorragies internes et externes sans refermer la plaie.</p>"
+      }
+    },
+    "en": {
+      "name": "Monk Hair (Seahair)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Seahair</strong>.</p><p>This algae is found chiefly in hot and humid climates, especially in sea coasts and saltwater shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is ground into powder.</p><p>Level 12 antidote for Karfar if administered within one minute of poisoning. The powder can also stop internal and external bleeding without closing the wound.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

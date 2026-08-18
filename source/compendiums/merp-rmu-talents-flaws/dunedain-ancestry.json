@@ -1,0 +1,69 @@
+{
+  "key": "dunedain-ancestry",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Ascendance dúnadan (Dúnedain Ancestry)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "dunedain-ancestry",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Eriadoriens",
+            "Eriadorian"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Dúnedain Ancestry",
+      "cost": "7/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Ascendance dúnadan (Dúnedain Ancestry)</h1><h2>Description</h2><p>Un de vos ancêtres appartenait aux Dúnedain et une partie de cet héritage demeure dans votre lignée. Les trois Tiers augmentent progressivement votre longévité et votre résistance aux maladies ; aux Tiers supérieurs, votre héritage dúnadan renforce aussi votre développement corporel et certaines de vos caractéristiques physiques et spirituelles.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> votre longévité est sensiblement supérieure à celle d’un Humain ordinaire.</li><li><strong>Tier II :</strong> vous gagnez en plus <strong>+5 aux Jets de Résistance contre les maladies</strong>.</li><li><strong>Tier III :</strong> vous gagnez également <strong>+1 aux bonus de Force, Constitution et Présence</strong>.</li></ul><h2>Adaptation MERP-RMU</h2><p>L’ancienne progression fixe de Body Development n’est pas transposée, car RMU calcule le Développement Corporel différemment. Les trois Tiers conservent l’idée d’un héritage dúnadan de plus en plus marqué.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_dunedain-ancestry.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ascendance dúnadan (Dúnedain Ancestry)",
+      "system": {
+        "description": "<h1>Ascendance dúnadan (Dúnedain Ancestry)</h1><h2>Description</h2><p>Un de vos ancêtres appartenait aux Dúnedain et une partie de cet héritage demeure dans votre lignée. Les trois Tiers augmentent progressivement votre longévité et votre résistance aux maladies ; aux Tiers supérieurs, votre héritage dúnadan renforce aussi votre développement corporel et certaines de vos caractéristiques physiques et spirituelles.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> votre longévité est sensiblement supérieure à celle d’un Humain ordinaire.</li><li><strong>Tier II :</strong> vous gagnez en plus <strong>+5 aux Jets de Résistance contre les maladies</strong>.</li><li><strong>Tier III :</strong> vous gagnez également <strong>+1 aux bonus de Force, Constitution et Présence</strong>.</li></ul><h2>Adaptation MERP-RMU</h2><p>L’ancienne progression fixe de Body Development n’est pas transposée, car RMU calcule le Développement Corporel différemment. Les trois Tiers conservent l’idée d’un héritage dúnadan de plus en plus marqué.</p>"
+      }
+    },
+    "en": {
+      "name": "Dúnedain Ancestry",
+      "system": {
+        "description": "<h1>Dúnedain Ancestry</h1><h2>Description</h2><p>One of your ancestors belonged to the Dúnedain, and part of that heritage remains in your bloodline. The three Tiers progressively increase your longevity and resistance to disease; at higher Tiers, your Dúnedain heritage also strengthens your physical development and certain physical and spiritual characteristics.</p><h2>Tiers</h2><ul><li><strong>Tier I:</strong> your lifespan is noticeably greater than that of an ordinary Man.</li><li><strong>Tier II:</strong> you also gain <strong>+5 to Resistance Rolls against disease</strong>.</li><li><strong>Tier III:</strong> you additionally gain <strong>+1 to your Strength, Constitution, and Presence bonuses</strong>.</li></ul><h2>MERP-RMU Adaptation</h2><p>The old fixed Body Development progression is not carried over because RMU calculates Body Development differently. The three Tiers preserve the idea of an increasingly pronounced Dúnedain heritage.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

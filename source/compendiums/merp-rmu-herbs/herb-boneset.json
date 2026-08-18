@@ -1,0 +1,79 @@
+{
+  "key": "herb-boneset",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Ressoude-Os (Boneset)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-boneset",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-M-4-W",
+        "sourceCost": "14gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "M",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Boneset"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Medium",
+      "form": "Root",
+      "prep": "ingest",
+      "season": "",
+      "cost": "14gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La racine, surtout connue dans les vallées méridionales des Montagnes Blanches, triple la vitesse de guérison des fractures.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ressoude-Os (Boneset)",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La racine, surtout connue dans les vallées méridionales des Montagnes Blanches, triple la vitesse de guérison des fractures.</p>"
+      }
+    },
+    "en": {
+      "name": "Boneset",
+      "system": {
+        "notes": "<p>This root is found chiefly in cool temperate climates, especially in mountains, and is best known in western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The root, best known in the southern valleys of the White Mountains, triples the healing rate of fractures.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

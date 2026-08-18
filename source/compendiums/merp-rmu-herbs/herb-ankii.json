@@ -1,0 +1,78 @@
+{
+  "key": "herb-ankii",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Ankii",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ankii",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-B-8-W",
+        "sourceCost": "100gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "B",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Ankii"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "B",
+      "findDifficulty": "Sheer Folly",
+      "form": "Berry",
+      "prep": "ingest",
+      "season": "",
+      "cost": "100gp",
+      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les ravins et oueds, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie procure un sommeil exceptionnellement réparateur ; des usages répétés au cours de la même semaine épuisent cependant la Constitution.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 9,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ankii",
+      "system": {
+        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les ravins et oueds, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La baie procure un sommeil exceptionnellement réparateur ; des usages répétés au cours de la même semaine épuisent cependant la Constitution.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Ankii",
+      "system": {
+        "notes": "<p>This berry is found chiefly in semi-arid climates, especially in ravines and wadis, and is best known in western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The berry induces exceptionally restorative sleep; repeated use during the same week, however, drains Constitution.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

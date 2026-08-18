@@ -1,0 +1,79 @@
+{
+  "key": "herb-carlong-busis-bonis",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Carlong (Busis, Bonis)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-carlong-busis-bonis",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-S-7-U",
+        "sourceCost": "110gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "S",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Carlong (Busis, Bonis)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Extremely Hard",
+      "form": "Stalk",
+      "prep": "brew",
+      "season": "",
+      "cost": "110gp",
+      "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction aide à ressouder les fractures éclatées, à condition d’immobiliser totalement l’os pendant douze heures. On la nomme aussi Bursthelas.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 22,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Carlong (Busis, Bonis)",
+      "system": {
+        "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction aide à ressouder les fractures éclatées, à condition d’immobiliser totalement l’os pendant douze heures. On la nomme aussi Bursthelas.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Carlong (Busis, Bonis)",
+      "system": {
+        "notes": "<p>This stalk is found chiefly in cool temperate climates, especially in short-grass plains, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction helps knit shattered fractures provided the bone is kept completely immobile for twelve hours. It is also called Bursthelas.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

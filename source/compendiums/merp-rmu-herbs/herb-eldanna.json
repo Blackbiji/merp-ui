@@ -1,0 +1,78 @@
+{
+  "key": "herb-eldanna",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Eldanna",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-eldanna",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-O-4-N",
+        "sourceCost": "99gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "O",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Eldanna"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Medium",
+      "form": "Leaf",
+      "prep": "brew",
+      "season": "",
+      "cost": "99gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Antidote de niveau 9 contre les poisons de réduction. Il peut également inverser la malédiction dite « Laideur d’Orn ».</p>",
+      "addictionFactor": 2,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Eldanna",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Antidote de niveau 9 contre les poisons de réduction. Il peut également inverser la malédiction dite « Laideur d’Orn ».</p>"
+      }
+    },
+    "en": {
+      "name": "Eldanna",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in cold climates, especially in sea coasts and saltwater shores, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>Level 9 antidote for Reduction poisons. It can also reverse the curse known as “Ugliness of Orn.”</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

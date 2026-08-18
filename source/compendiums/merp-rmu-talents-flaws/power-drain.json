@@ -1,0 +1,64 @@
+{
+  "key": "power-drain",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Drain des objets de Pouvoir (Power Drain)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "power-drain",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Power Drain",
+      "cost": "-20",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Drain des objets de Pouvoir (Power Drain)</h1><h2>Description</h2><p>Les objets qui augmentent ou multiplient votre réserve de Pouvoir perdent une partie de leur efficacité entre vos mains. Tout <strong>spell adder</strong> que vous utilisez est réduit d’un cran, et tout <strong>multiplier</strong> voit son multiplicateur réduit d’un point.</p><p>Ainsi, un adder +3 fonctionne pour vous comme un +2, et un multiplicateur ×2 comme un ×1. L’objet retrouve immédiatement sa puissance normale lorsqu’il est utilisé par quelqu’un qui ne possède pas ce Défaut.</p><h2>Adaptation MERP-RMU</h2><p>Cette règle s’applique aux objets RMU qui remplissent encore la fonction d’adders ou de multipliers, quelle que soit leur présentation exacte dans Treasure Law ou dans Foundry.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_power-drain.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Drain des objets de Pouvoir (Power Drain)",
+      "system": {
+        "description": "<h1>Drain des objets de Pouvoir (Power Drain)</h1><h2>Description</h2><p>Les objets qui augmentent ou multiplient votre réserve de Pouvoir perdent une partie de leur efficacité entre vos mains. Tout <strong>spell adder</strong> que vous utilisez est réduit d’un cran, et tout <strong>multiplier</strong> voit son multiplicateur réduit d’un point.</p><p>Ainsi, un adder +3 fonctionne pour vous comme un +2, et un multiplicateur ×2 comme un ×1. L’objet retrouve immédiatement sa puissance normale lorsqu’il est utilisé par quelqu’un qui ne possède pas ce Défaut.</p><h2>Adaptation MERP-RMU</h2><p>Cette règle s’applique aux objets RMU qui remplissent encore la fonction d’adders ou de multipliers, quelle que soit leur présentation exacte dans Treasure Law ou dans Foundry.</p>"
+      }
+    },
+    "en": {
+      "name": "Power Drain",
+      "system": {
+        "description": "<h1>Power Drain</h1><h2>Description</h2><p>Items that increase or multiply your Power reserve lose part of their effectiveness in your hands. Any <strong>spell adder</strong> you use is reduced by one step, and any <strong>multiplier</strong> has its multiplier reduced by one.</p><p>Thus, a +3 adder functions for you as +2, and a ×2 multiplier as ×1. The item immediately returns to full power when used by someone who does not possess this Flaw.</p><h2>MERP-RMU Adaptation</h2><p>This rule applies to RMU items that still fulfill the function of adders or multipliers, regardless of their exact presentation in Treasure Law or Foundry.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

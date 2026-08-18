@@ -1,0 +1,79 @@
+{
+  "key": "herb-witchbriar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Ronce-de-Sorcière (Witchbriar)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-witchbriar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-C-5-NE",
+        "sourceCost": "14gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "C",
+        "regionCode": "NE",
+        "sourceVariants": [],
+        "sourceName": "Witchbriar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Hard",
+      "form": "Thorn",
+      "prep": "ingest",
+      "season": "",
+      "cost": "14gp",
+      "notes": "<p>Cette épine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>L’épine injecte un suc qui rend 1 à 5 points de vie. Gardées au sec, les épines restent utilisables environ un an.</p>",
+      "addictionFactor": 2,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ronce-de-Sorcière (Witchbriar)",
+      "system": {
+        "notes": "<p>Cette épine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Est d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>L’épine injecte un suc qui rend 1 à 5 points de vie. Gardées au sec, les épines restent utilisables environ un an.</p>"
+      }
+    },
+    "en": {
+      "name": "Witchbriar",
+      "system": {
+        "notes": "<p>This thorn is found chiefly in cool temperate climates, especially in coniferous forests, and is best known in north-eastern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The thorn injects a sap that restores 1–5 concussion hits. Kept dry, the thorns remain usable for about one year.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

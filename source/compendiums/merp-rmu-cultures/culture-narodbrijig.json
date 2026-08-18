@@ -1,0 +1,1734 @@
+{
+  "key": "culture-narodbrijig",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Narodbrijig — Peuple des Collines",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-narodbrijig",
+        "canonicalKey": "culture-narodbrijig",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-humans",
+        "availability": {
+          "ages": [
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "2": {
+            "sourceKey": "culture-narodbrijig-age-2",
+            "folderKey": "cultures-age-2-humans",
+            "document": {
+              "name": "Narodbrijig — Peuple des Collines",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-narodbrijig-age-2",
+                  "canonicalKey": "culture-narodbrijig",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-2",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Apysaic",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Apysaïque"
+                      },
+                      {
+                        "name": "Ansith",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Ansith"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Narodbrijig — Peuple des Collines",
+                "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Desert",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 2
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Narodbrijig — Peuple des Collines",
+                "system": {
+                  "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                  "culture": "Narodbrijig — Peuple des Collines"
+                }
+              },
+              "en": {
+                "name": "Narodbrijig",
+                "system": {
+                  "description": "<h1>Narodbrijig — Hill Folk</h1>\n<p>The <strong>Narodbrijig</strong>, “Hill Folk”, live chiefly in the Brij-Mijesec of Bozisha-Miraz. Their Culture brings together farmers, herders, inhabitants of small towns and warrior clans, united by a strong family identity, the religion of Ladnoca and a demanding concept of honour.</p>\n<h2>Appearance and climate</h2>\n<p>The Narodbrijig are tall and slender, with brown skin, dark eyes and black hair. They tolerate heat remarkably well, conserve water and know how to travel through regions where temperatures would quickly exhaust an outsider. Cold is much less natural to them.</p>\n<h2>Clans and families</h2>\n<p>The extended family is traditionally led by the oldest man in the group. Parental responsibilities are shared by uncles and aunts, and descent follows the male line. Depending on the clan, marriage may be monogamous or allow several wives.</p>\n<h2>Work and wealth</h2>\n<p>Goat herding, agriculture, craftwork and local trade provide most resources. The number of goats may serve as a visible measure of wealth. Warrior clans rely more heavily on raids, protection and warfare.</p>\n<h2>Religion</h2>\n<p>The Kat Polozaj, the great tale of the land, links people, gods, honour and duty. Ladnoca, Lady of Light, occupies a central place; Tresti is her holy city and the decennial pilgrimage periodically gathers the communities. Vatra, Valaquetal, Metassa and Hanuq also belong to the religious landscape.</p>\n<h2>Women and healing</h2>\n<p>Family healing is traditionally passed down through women. Matriarchs preserve knowledge of herbs, care and childbirth. Animists are also women in the most classical tradition.</p>\n<h2>Temperament and relations</h2>\n<p>Stoic, practical and determined, the Narodbrijig place great value on work, loyalty and respect for the clan. They distrust foreigners, although merchants are better received when they respect local custom. Elves and Dwarves often inspire particular reserve.</p>\n<h2>Place in character creation</h2>\n<p>The character should be situated within one of three broad environments: a family of herders and farmers, an urban or village community, or a warrior clan. This origin determines the character's relationship with trade, weapons, livestock and family responsibilities.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Apysaic</strong> — Spoken 8 / Written 6</li><li><strong>Ansith</strong> — Spoken 4 / Written 4</li></ul></section>",
+                  "culture": "Narodbrijig"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-narodbrijig-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Narodbrijig — Peuple des Collines",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-narodbrijig-age-3",
+                  "canonicalKey": "culture-narodbrijig",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Apysaic",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Apysaïque"
+                      },
+                      {
+                        "name": "Ansith",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Ansith"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Narodbrijig — Peuple des Collines",
+                "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Desert",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 2
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Narodbrijig — Peuple des Collines",
+                "system": {
+                  "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                  "culture": "Narodbrijig — Peuple des Collines"
+                }
+              },
+              "en": {
+                "name": "Narodbrijig",
+                "system": {
+                  "description": "<h1>Narodbrijig — Hill Folk</h1>\n<p>The <strong>Narodbrijig</strong>, “Hill Folk”, live chiefly in the Brij-Mijesec of Bozisha-Miraz. Their Culture brings together farmers, herders, inhabitants of small towns and warrior clans, united by a strong family identity, the religion of Ladnoca and a demanding concept of honour.</p>\n<h2>Appearance and climate</h2>\n<p>The Narodbrijig are tall and slender, with brown skin, dark eyes and black hair. They tolerate heat remarkably well, conserve water and know how to travel through regions where temperatures would quickly exhaust an outsider. Cold is much less natural to them.</p>\n<h2>Clans and families</h2>\n<p>The extended family is traditionally led by the oldest man in the group. Parental responsibilities are shared by uncles and aunts, and descent follows the male line. Depending on the clan, marriage may be monogamous or allow several wives.</p>\n<h2>Work and wealth</h2>\n<p>Goat herding, agriculture, craftwork and local trade provide most resources. The number of goats may serve as a visible measure of wealth. Warrior clans rely more heavily on raids, protection and warfare.</p>\n<h2>Religion</h2>\n<p>The Kat Polozaj, the great tale of the land, links people, gods, honour and duty. Ladnoca, Lady of Light, occupies a central place; Tresti is her holy city and the decennial pilgrimage periodically gathers the communities. Vatra, Valaquetal, Metassa and Hanuq also belong to the religious landscape.</p>\n<h2>Women and healing</h2>\n<p>Family healing is traditionally passed down through women. Matriarchs preserve knowledge of herbs, care and childbirth. Animists are also women in the most classical tradition.</p>\n<h2>Temperament and relations</h2>\n<p>Stoic, practical and determined, the Narodbrijig place great value on work, loyalty and respect for the clan. They distrust foreigners, although merchants are better received when they respect local custom. Elves and Dwarves often inspire particular reserve.</p>\n<h2>Place in character creation</h2>\n<p>The character should be situated within one of three broad environments: a family of herders and farmers, an urban or village community, or a warrior clan. This origin determines the character's relationship with trade, weapons, livestock and family responsibilities.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Apysaic</strong> — Spoken 8 / Written 6</li><li><strong>Ansith</strong> — Spoken 4 / Written 4</li></ul></section>",
+                  "culture": "Narodbrijig"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-narodbrijig-age-4",
+            "folderKey": "cultures-age-4-humans",
+            "document": {
+              "name": "Narodbrijig — Peuple des Collines",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-narodbrijig-age-4",
+                  "canonicalKey": "culture-narodbrijig",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-4",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Apysaic",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Apysaïque"
+                      },
+                      {
+                        "name": "Ansith",
+                        "spoken": 4,
+                        "written": 4,
+                        "nameFr": "Ansith"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Narodbrijig — Peuple des Collines",
+                "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Desert",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 2
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Narodbrijig — Peuple des Collines",
+                "system": {
+                  "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+                  "culture": "Narodbrijig — Peuple des Collines"
+                }
+              },
+              "en": {
+                "name": "Narodbrijig",
+                "system": {
+                  "description": "<h1>Narodbrijig — Hill Folk</h1>\n<p>The <strong>Narodbrijig</strong>, “Hill Folk”, live chiefly in the Brij-Mijesec of Bozisha-Miraz. Their Culture brings together farmers, herders, inhabitants of small towns and warrior clans, united by a strong family identity, the religion of Ladnoca and a demanding concept of honour.</p>\n<h2>Appearance and climate</h2>\n<p>The Narodbrijig are tall and slender, with brown skin, dark eyes and black hair. They tolerate heat remarkably well, conserve water and know how to travel through regions where temperatures would quickly exhaust an outsider. Cold is much less natural to them.</p>\n<h2>Clans and families</h2>\n<p>The extended family is traditionally led by the oldest man in the group. Parental responsibilities are shared by uncles and aunts, and descent follows the male line. Depending on the clan, marriage may be monogamous or allow several wives.</p>\n<h2>Work and wealth</h2>\n<p>Goat herding, agriculture, craftwork and local trade provide most resources. The number of goats may serve as a visible measure of wealth. Warrior clans rely more heavily on raids, protection and warfare.</p>\n<h2>Religion</h2>\n<p>The Kat Polozaj, the great tale of the land, links people, gods, honour and duty. Ladnoca, Lady of Light, occupies a central place; Tresti is her holy city and the decennial pilgrimage periodically gathers the communities. Vatra, Valaquetal, Metassa and Hanuq also belong to the religious landscape.</p>\n<h2>Women and healing</h2>\n<p>Family healing is traditionally passed down through women. Matriarchs preserve knowledge of herbs, care and childbirth. Animists are also women in the most classical tradition.</p>\n<h2>Temperament and relations</h2>\n<p>Stoic, practical and determined, the Narodbrijig place great value on work, loyalty and respect for the clan. They distrust foreigners, although merchants are better received when they respect local custom. Elves and Dwarves often inspire particular reserve.</p>\n<h2>Place in character creation</h2>\n<p>The character should be situated within one of three broad environments: a family of herders and farmers, an urban or village community, or a warrior clan. This origin determines the character's relationship with trade, weapons, livestock and family responsibilities.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Apysaic</strong> — Spoken 8 / Written 6</li><li><strong>Ansith</strong> — Spoken 4 / Written 4</li></ul></section>",
+                  "culture": "Narodbrijig"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Narodbrijig — Peuple des Collines",
+      "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Desert",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 2
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Narodbrijig — Peuple des Collines",
+      "system": {
+        "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+        "culture": "Narodbrijig — Peuple des Collines"
+      }
+    },
+    "en": {
+      "name": "Narodbrijig",
+      "system": {
+        "description": "<h1>Narodbrijig — Hill Folk</h1>\n<p>The <strong>Narodbrijig</strong>, “Hill Folk”, live chiefly in the Brij-Mijesec of Bozisha-Miraz. Their Culture brings together farmers, herders, inhabitants of small towns and warrior clans, united by a strong family identity, the religion of Ladnoca and a demanding concept of honour.</p>\n<h2>Appearance and climate</h2>\n<p>The Narodbrijig are tall and slender, with brown skin, dark eyes and black hair. They tolerate heat remarkably well, conserve water and know how to travel through regions where temperatures would quickly exhaust an outsider. Cold is much less natural to them.</p>\n<h2>Clans and families</h2>\n<p>The extended family is traditionally led by the oldest man in the group. Parental responsibilities are shared by uncles and aunts, and descent follows the male line. Depending on the clan, marriage may be monogamous or allow several wives.</p>\n<h2>Work and wealth</h2>\n<p>Goat herding, agriculture, craftwork and local trade provide most resources. The number of goats may serve as a visible measure of wealth. Warrior clans rely more heavily on raids, protection and warfare.</p>\n<h2>Religion</h2>\n<p>The Kat Polozaj, the great tale of the land, links people, gods, honour and duty. Ladnoca, Lady of Light, occupies a central place; Tresti is her holy city and the decennial pilgrimage periodically gathers the communities. Vatra, Valaquetal, Metassa and Hanuq also belong to the religious landscape.</p>\n<h2>Women and healing</h2>\n<p>Family healing is traditionally passed down through women. Matriarchs preserve knowledge of herbs, care and childbirth. Animists are also women in the most classical tradition.</p>\n<h2>Temperament and relations</h2>\n<p>Stoic, practical and determined, the Narodbrijig place great value on work, loyalty and respect for the clan. They distrust foreigners, although merchants are better received when they respect local custom. Elves and Dwarves often inspire particular reserve.</p>\n<h2>Place in character creation</h2>\n<p>The character should be situated within one of three broad environments: a family of herders and farmers, an urban or village community, or a warrior clan. This origin determines the character's relationship with trade, weapons, livestock and family responsibilities.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Apysaic</strong> — Spoken 8 / Written 6</li><li><strong>Ansith</strong> — Spoken 4 / Written 4</li></ul></section>",
+        "culture": "Narodbrijig"
+      }
+    }
+  },
+  "ageVariants": {
+    "2": {
+      "sourceKey": "culture-narodbrijig-age-2",
+      "folderKey": "cultures-age-2-humans",
+      "document": {
+        "name": "Narodbrijig — Peuple des Collines",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-narodbrijig-age-2",
+            "canonicalKey": "culture-narodbrijig",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-2",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Apysaic",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Apysaïque"
+                },
+                {
+                  "name": "Ansith",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Ansith"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Narodbrijig — Peuple des Collines",
+          "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Desert",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 2
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Narodbrijig — Peuple des Collines",
+          "system": {
+            "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "culture": "Narodbrijig — Peuple des Collines"
+          }
+        },
+        "en": {
+          "name": "Narodbrijig",
+          "system": {
+            "description": "<h1>Narodbrijig — Hill Folk</h1>\n<p>The <strong>Narodbrijig</strong>, “Hill Folk”, live chiefly in the Brij-Mijesec of Bozisha-Miraz. Their Culture brings together farmers, herders, inhabitants of small towns and warrior clans, united by a strong family identity, the religion of Ladnoca and a demanding concept of honour.</p>\n<h2>Appearance and climate</h2>\n<p>The Narodbrijig are tall and slender, with brown skin, dark eyes and black hair. They tolerate heat remarkably well, conserve water and know how to travel through regions where temperatures would quickly exhaust an outsider. Cold is much less natural to them.</p>\n<h2>Clans and families</h2>\n<p>The extended family is traditionally led by the oldest man in the group. Parental responsibilities are shared by uncles and aunts, and descent follows the male line. Depending on the clan, marriage may be monogamous or allow several wives.</p>\n<h2>Work and wealth</h2>\n<p>Goat herding, agriculture, craftwork and local trade provide most resources. The number of goats may serve as a visible measure of wealth. Warrior clans rely more heavily on raids, protection and warfare.</p>\n<h2>Religion</h2>\n<p>The Kat Polozaj, the great tale of the land, links people, gods, honour and duty. Ladnoca, Lady of Light, occupies a central place; Tresti is her holy city and the decennial pilgrimage periodically gathers the communities. Vatra, Valaquetal, Metassa and Hanuq also belong to the religious landscape.</p>\n<h2>Women and healing</h2>\n<p>Family healing is traditionally passed down through women. Matriarchs preserve knowledge of herbs, care and childbirth. Animists are also women in the most classical tradition.</p>\n<h2>Temperament and relations</h2>\n<p>Stoic, practical and determined, the Narodbrijig place great value on work, loyalty and respect for the clan. They distrust foreigners, although merchants are better received when they respect local custom. Elves and Dwarves often inspire particular reserve.</p>\n<h2>Place in character creation</h2>\n<p>The character should be situated within one of three broad environments: a family of herders and farmers, an urban or village community, or a warrior clan. This origin determines the character's relationship with trade, weapons, livestock and family responsibilities.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Apysaic</strong> — Spoken 8 / Written 6</li><li><strong>Ansith</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "culture": "Narodbrijig"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-narodbrijig-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Narodbrijig — Peuple des Collines",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-narodbrijig-age-3",
+            "canonicalKey": "culture-narodbrijig",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Apysaic",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Apysaïque"
+                },
+                {
+                  "name": "Ansith",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Ansith"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Narodbrijig — Peuple des Collines",
+          "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Desert",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 2
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Narodbrijig — Peuple des Collines",
+          "system": {
+            "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "culture": "Narodbrijig — Peuple des Collines"
+          }
+        },
+        "en": {
+          "name": "Narodbrijig",
+          "system": {
+            "description": "<h1>Narodbrijig — Hill Folk</h1>\n<p>The <strong>Narodbrijig</strong>, “Hill Folk”, live chiefly in the Brij-Mijesec of Bozisha-Miraz. Their Culture brings together farmers, herders, inhabitants of small towns and warrior clans, united by a strong family identity, the religion of Ladnoca and a demanding concept of honour.</p>\n<h2>Appearance and climate</h2>\n<p>The Narodbrijig are tall and slender, with brown skin, dark eyes and black hair. They tolerate heat remarkably well, conserve water and know how to travel through regions where temperatures would quickly exhaust an outsider. Cold is much less natural to them.</p>\n<h2>Clans and families</h2>\n<p>The extended family is traditionally led by the oldest man in the group. Parental responsibilities are shared by uncles and aunts, and descent follows the male line. Depending on the clan, marriage may be monogamous or allow several wives.</p>\n<h2>Work and wealth</h2>\n<p>Goat herding, agriculture, craftwork and local trade provide most resources. The number of goats may serve as a visible measure of wealth. Warrior clans rely more heavily on raids, protection and warfare.</p>\n<h2>Religion</h2>\n<p>The Kat Polozaj, the great tale of the land, links people, gods, honour and duty. Ladnoca, Lady of Light, occupies a central place; Tresti is her holy city and the decennial pilgrimage periodically gathers the communities. Vatra, Valaquetal, Metassa and Hanuq also belong to the religious landscape.</p>\n<h2>Women and healing</h2>\n<p>Family healing is traditionally passed down through women. Matriarchs preserve knowledge of herbs, care and childbirth. Animists are also women in the most classical tradition.</p>\n<h2>Temperament and relations</h2>\n<p>Stoic, practical and determined, the Narodbrijig place great value on work, loyalty and respect for the clan. They distrust foreigners, although merchants are better received when they respect local custom. Elves and Dwarves often inspire particular reserve.</p>\n<h2>Place in character creation</h2>\n<p>The character should be situated within one of three broad environments: a family of herders and farmers, an urban or village community, or a warrior clan. This origin determines the character's relationship with trade, weapons, livestock and family responsibilities.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Apysaic</strong> — Spoken 8 / Written 6</li><li><strong>Ansith</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "culture": "Narodbrijig"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-narodbrijig-age-4",
+      "folderKey": "cultures-age-4-humans",
+      "document": {
+        "name": "Narodbrijig — Peuple des Collines",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-narodbrijig-age-4",
+            "canonicalKey": "culture-narodbrijig",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-4",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Apysaic",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Apysaïque"
+                },
+                {
+                  "name": "Ansith",
+                  "spoken": 4,
+                  "written": 4,
+                  "nameFr": "Ansith"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Narodbrijig — Peuple des Collines",
+          "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Desert",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 2
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Narodbrijig — Peuple des Collines",
+          "system": {
+            "description": "<h1>Narodbrijig — Peuple des Collines</h1>\n<p>Les <strong>Narodbrijig</strong>, « Peuple des Collines », vivent surtout dans les Brij-Mijesec du Bozisha-Miraz. Leur Culture rassemble agriculteurs, éleveurs, habitants de petits bourgs et clans guerriers, unis par une forte identité familiale, la religion de Ladnoca et une conception exigeante de l’honneur.</p>\n<h2>Apparence et climat</h2>\n<p>Les Narodbrijig sont grands et élancés, à la peau brune, aux yeux sombres et aux cheveux noirs. Ils supportent remarquablement la chaleur, économisent l’eau et savent voyager dans des régions où les températures épuiseraient rapidement un étranger. Le froid leur est beaucoup moins naturel.</p>\n<h2>Clans et familles</h2>\n<p>La famille étendue est dirigée traditionnellement par le plus ancien homme du groupe. Les responsabilités parentales sont partagées par les oncles et les tantes, et la filiation suit la lignée masculine. Selon les clans, le mariage peut être monogame ou autoriser plusieurs épouses.</p>\n<h2>Travail et richesse</h2>\n<p>Élevage des chèvres, agriculture, artisanat et commerce local assurent l’essentiel des ressources. Le nombre de chèvres peut représenter une mesure visible de richesse. Les clans guerriers vivent davantage de raids, de protection et de guerre.</p>\n<h2>Religion</h2>\n<p>Le Kat Polozaj, grand récit de la terre, relie peuple, dieux, honneur et devoir. Ladnoca, Dame de Lumière, occupe une place centrale ; Tresti est sa ville sainte et le pèlerinage décennal rassemble périodiquement les communautés. Vatra, Valaquetal, Metassa et Hanuq appartiennent aussi au paysage religieux.</p>\n<h2>Femmes et guérison</h2>\n<p>La guérison familiale est traditionnellement transmise par les femmes. Les matriarches conservent les savoirs d’herbes, de soins et de naissance. Les Animistes sont également des femmes dans la tradition la plus classique.</p>\n<h2>Tempérament et relations</h2>\n<p>Stoïques, pratiques et déterminés, les Narodbrijig accordent beaucoup de valeur au travail, à la loyauté et au respect du clan. Ils se méfient des étrangers, mais les commerçants sont mieux reçus lorsqu’ils respectent les usages. Elfes et Nains suscitent souvent une réserve particulière.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Le personnage doit être situé parmi trois grands milieux : famille d’éleveurs et d’agriculteurs, communauté urbaine ou villageoise, ou clan guerrier. Cette origine détermine son rapport au commerce, aux armes, au bétail et aux responsabilités familiales.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Apysaic</strong> — Parlée 8 / Écrite 6</li><li><strong>Ansith</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "culture": "Narodbrijig — Peuple des Collines"
+          }
+        },
+        "en": {
+          "name": "Narodbrijig",
+          "system": {
+            "description": "<h1>Narodbrijig — Hill Folk</h1>\n<p>The <strong>Narodbrijig</strong>, “Hill Folk”, live chiefly in the Brij-Mijesec of Bozisha-Miraz. Their Culture brings together farmers, herders, inhabitants of small towns and warrior clans, united by a strong family identity, the religion of Ladnoca and a demanding concept of honour.</p>\n<h2>Appearance and climate</h2>\n<p>The Narodbrijig are tall and slender, with brown skin, dark eyes and black hair. They tolerate heat remarkably well, conserve water and know how to travel through regions where temperatures would quickly exhaust an outsider. Cold is much less natural to them.</p>\n<h2>Clans and families</h2>\n<p>The extended family is traditionally led by the oldest man in the group. Parental responsibilities are shared by uncles and aunts, and descent follows the male line. Depending on the clan, marriage may be monogamous or allow several wives.</p>\n<h2>Work and wealth</h2>\n<p>Goat herding, agriculture, craftwork and local trade provide most resources. The number of goats may serve as a visible measure of wealth. Warrior clans rely more heavily on raids, protection and warfare.</p>\n<h2>Religion</h2>\n<p>The Kat Polozaj, the great tale of the land, links people, gods, honour and duty. Ladnoca, Lady of Light, occupies a central place; Tresti is her holy city and the decennial pilgrimage periodically gathers the communities. Vatra, Valaquetal, Metassa and Hanuq also belong to the religious landscape.</p>\n<h2>Women and healing</h2>\n<p>Family healing is traditionally passed down through women. Matriarchs preserve knowledge of herbs, care and childbirth. Animists are also women in the most classical tradition.</p>\n<h2>Temperament and relations</h2>\n<p>Stoic, practical and determined, the Narodbrijig place great value on work, loyalty and respect for the clan. They distrust foreigners, although merchants are better received when they respect local custom. Elves and Dwarves often inspire particular reserve.</p>\n<h2>Place in character creation</h2>\n<p>The character should be situated within one of three broad environments: a family of herders and farmers, an urban or village community, or a warrior clan. This origin determines the character's relationship with trade, weapons, livestock and family responsibilities.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Apysaic</strong> — Spoken 8 / Written 6</li><li><strong>Ansith</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "culture": "Narodbrijig"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

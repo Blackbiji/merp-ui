@@ -1,0 +1,79 @@
+{
+  "key": "herb-foxrose-redthorn",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Rose-de-Renard (Foxrose / Épine Rouge / Redthorn)",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-foxrose-redthorn",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-6-W",
+        "sourceCost": "5gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Foxrose (Redthorn)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Very Hard",
+      "form": "Petal",
+      "prep": "ingest",
+      "season": "",
+      "cost": "5gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Épine Rouge (Redthorn)</strong>.</p><p>Ce pétale se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Les pétales rendent 2 à 12 points de vie.</p>",
+      "addictionFactor": 2,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Rose-de-Renard (Foxrose / Épine Rouge / Redthorn)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Épine Rouge (Redthorn)</strong>.</p><p>Ce pétale se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Les pétales rendent 2 à 12 points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Foxrose (Redthorn)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Redthorn</strong>.</p><p>This petal is found chiefly in mild temperate climates, especially in freshwater banks and shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The petals restore 2–12 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

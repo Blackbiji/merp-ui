@@ -1,0 +1,79 @@
+{
+  "key": "herb-nehtelasse-keihaanlehti",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Nehtelassë (Keihäänlehti)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-nehtelasse-keihaanlehti",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-S-4-NW",
+        "sourceCost": "4sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "S",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Nehtelassë (Keihäänlehti)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Medium",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "4sp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frottée sur une plaie, la feuille rend 1 à 6 points de vie.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Nehtelassë (Keihäänlehti)",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frottée sur une plaie, la feuille rend 1 à 6 points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Nehtelassë (Keihäänlehti)",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in cool temperate climates, especially in short-grass plains, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Rubbed onto a wound, the leaf restores 1–6 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

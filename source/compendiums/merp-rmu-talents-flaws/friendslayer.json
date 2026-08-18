@@ -1,0 +1,64 @@
+{
+  "key": "friendslayer",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Fratricide magique (Friendslayer)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "friendslayer",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Friendslayer",
+      "cost": "-10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Fratricide magique (Friendslayer)</h1><h2>Description</h2><p>Vos échecs avec les sorts offensifs mettent parfois vos propres alliés en danger. Lorsque vous échouez à lancer un sort d’attaque et qu’un allié constitue une cible valide dans la portée du sort, le MJ choisit aléatoirement l’un de ces alliés : le sort se retourne contre lui au lieu d’être résolu comme un échec ordinaire.</p><p>La nouvelle cible bénéficie de toutes les défenses et de tous les Jets de Résistance auxquels elle aurait normalement droit. S’il n’existe aucun allié valide à portée, l’échec est résolu normalement.</p><h2>Adaptation MERP-RMU</h2><p>Le déclenchement se fait sur un échec de lancement offensif selon la procédure RMU. Ce Défaut ne transforme pas un sort non offensif en attaque contre un allié.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_friendslayer.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Fratricide magique (Friendslayer)",
+      "system": {
+        "description": "<h1>Fratricide magique (Friendslayer)</h1><h2>Description</h2><p>Vos échecs avec les sorts offensifs mettent parfois vos propres alliés en danger. Lorsque vous échouez à lancer un sort d’attaque et qu’un allié constitue une cible valide dans la portée du sort, le MJ choisit aléatoirement l’un de ces alliés : le sort se retourne contre lui au lieu d’être résolu comme un échec ordinaire.</p><p>La nouvelle cible bénéficie de toutes les défenses et de tous les Jets de Résistance auxquels elle aurait normalement droit. S’il n’existe aucun allié valide à portée, l’échec est résolu normalement.</p><h2>Adaptation MERP-RMU</h2><p>Le déclenchement se fait sur un échec de lancement offensif selon la procédure RMU. Ce Défaut ne transforme pas un sort non offensif en attaque contre un allié.</p>"
+      }
+    },
+    "en": {
+      "name": "Friendslayer",
+      "system": {
+        "description": "<h1>Friendslayer</h1><h2>Description</h2><p>Your failures with offensive spells sometimes endanger your own allies. When you fail to cast an attack spell and an ally is a valid target within the spell’s range, the GM randomly chooses one such ally: the spell turns against them instead of being resolved as an ordinary failure.</p><p>The new target receives all defenses and Resistance Rolls to which they would normally be entitled. If there is no valid ally within range, the failure is resolved normally.</p><h2>MERP-RMU Adaptation</h2><p>The trigger is an offensive casting failure under RMU procedure. This Flaw does not turn a non-offensive spell into an attack against an ally.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

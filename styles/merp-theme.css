@@ -1,0 +1,4960 @@
+/*
+ * MERP UI 0.8.0 — Theme
+ *
+ * Couleurs, fonds, cadres et hiérarchie visuelle.
+ * Aucune règle de police pour les contrôles, boutons, onglets ou icônes.
+ */
+
+:root {
+  --merp-paper: #ffffff;
+  --merp-sidebar: #f1f1f1;
+  --merp-header: #d7d7d7;
+  --merp-header-alt: #e7e7e7;
+  --merp-ink: #202020;
+  --merp-muted: #666666;
+  --merp-rule: #8a8a8a;
+  --merp-gold: #a27b39;
+  --merp-link: #6f5423;
+}
+
+/* Journaux */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .journal-sheet.merp-ui,
+  .journal-entry-sheet.merp-ui,
+  .journal-entry.merp-ui,
+  .application.journal-entry.merp-ui,
+  [data-document-class="JournalEntry"].merp-ui,
+  [data-document-class="JournalEntryPage"].merp-ui
+) {
+  color: var(--merp-ink);
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .journal-sheet.merp-ui,
+  .journal-entry-sheet.merp-ui,
+  .journal-entry.merp-ui,
+  .application.journal-entry.merp-ui,
+  [data-document-class="JournalEntry"].merp-ui,
+  [data-document-class="JournalEntryPage"].merp-ui
+) .window-content {
+  color: var(--merp-ink) !important;
+  background: var(--merp-paper) !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry,
+  .journal-sheet.merp-ui,
+  .journal-entry-sheet.merp-ui,
+  .journal-entry.merp-ui,
+  .application.journal-entry.merp-ui
+) .window-header {
+  color: #222 !important;
+  background: linear-gradient(#dedede, #c9c9c9) !important;
+  border-bottom: 1px solid #888 !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) .window-title {
+  color: #222 !important;
+  font-size: 1.22rem;
+  line-height: 1.1;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .sidebar,
+  .pages-list,
+  .journal-entry-pages
+) {
+  color: var(--merp-ink) !important;
+  background: var(--merp-sidebar) !important;
+  border-color: #b7b7b7 !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror
+) {
+  color: var(--merp-ink) !important;
+  background: transparent !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-header .title,
+  .journal-header input[name="name"],
+  .journal-entry-page > header,
+  .journal-page-header,
+  .page-heading
+) {
+  color: var(--merp-ink) !important;
+  background: var(--merp-header) !important;
+  border: 1px solid #aaa !important;
+  border-radius: 3px;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h1 {
+  margin: 1.1rem 0 .95rem;
+  padding: .42rem .65rem .36rem;
+  color: var(--merp-ink) !important;
+  background: var(--merp-header) !important;
+  border: 1px solid #aaa !important;
+  border-bottom: 2px solid #777 !important;
+  border-radius: 2px;
+  font-size: 1.48rem;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h2 {
+  margin: 1.02rem 0 .7rem;
+  padding: .3rem .52rem .25rem;
+  color: var(--merp-ink) !important;
+  background: var(--merp-header-alt) !important;
+  border: 0 !important;
+  border-left: 4px solid var(--merp-rule) !important;
+  font-size: 1.22rem;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h3 {
+  margin: .94rem 0 .52rem;
+  padding: 0 0 .2rem;
+  color: var(--merp-ink) !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-bottom: 1px solid #b0b0b0 !important;
+  font-size: 1.06rem;
+}
+
+/* Titres secondaires des Journaux : contraste renforcé. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h4 {
+  color: #2b2b2b !important;
+  text-shadow: none !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h5 {
+  color: #383838 !important;
+  text-shadow: none !important;
+}
+
+/* Règle horizontale des Journaux : ligne sombre, nette et visible. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) hr {
+  display: block !important;
+  height: 0 !important;
+  margin: .85rem 0 !important;
+  border: 0 !important;
+  border-top: 2px solid #777777 !important;
+  opacity: 1 !important;
+  background: transparent !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) :is(h1, h2, h3) + :is(p, ul, ol, div, section, table, blockquote) {
+  margin-top: .46rem;
+}
+
+/* Décor */
+.merp-ui .merp-ui-ice-panel,
+.merp-ui .fdrmu-journal,
+:is(.journal-sheet.merp-ui, .journal-entry-sheet.merp-ui, .journal-entry.merp-ui)
+.journal-entry-content > section {
+  position: relative;
+  margin: .8rem 0 1rem;
+  padding: .2rem 1rem .2rem 1.4rem;
+  border-left: 3px solid var(--merp-gold);
+  background: transparent !important;
+}
+
+.merp-ui-dropcap,
+.merp-ui .merp-ui-dropcap {
+  float: left;
+  width: 56px;
+  height: 56px;
+  margin: .08rem .58rem .1rem 0;
+  object-fit: contain;
+  background: transparent;
+  border: 0;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(a.content-link, a.inline-roll) {
+  color: var(--merp-link);
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) table {
+  color: var(--merp-ink) !important;
+  background: #fff !important;
+  border-collapse: collapse;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) table th {
+  color: var(--merp-ink) !important;
+  background: #dedede !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) table :is(th, td) {
+  padding: .34rem .48rem;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(input, textarea, select) {
+  color: #222 !important;
+  background: #fff !important;
+  border-color: #aaa !important;
+}
+
+/* Actors/Items : aucun thème de Journal forcé. */
+:is(
+  .merp-ui.actor-sheet,
+  .merp-ui.item-sheet,
+  .actor-sheet.merp-ui,
+  .item-sheet.merp-ui,
+  .application.actor.merp-ui,
+  .application.item.merp-ui
+) .window-content {
+  font-size: .91rem;
+  line-height: 1.4;
+}
+
+/* Les contrôles restent intégralement natifs. */
+.merp-ui :is(
+  .window-header button,
+  .window-controls button,
+  .header-control,
+  .window-control,
+  nav.tabs,
+  .tabs,
+  .editor-menu,
+  .prosemirror-menu,
+  .toolbar
+) {
+  font-family: inherit;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.1 — restauration explicite des icônes Foundry                */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Foundry V13/V14 utilise des éléments très variés pour ses contrôles :
+ * <i>, <span>, <button> ou <a> portant directement une classe Font Awesome.
+ * On restaure donc la fonte d'icônes sur l'élément lui-même ET sur ses
+ * pseudo-éléments, sans toucher au texte des Journaux.
+ */
+
+:is(
+  .merp-ui,
+  .journal-sheet,
+  .journal-entry-sheet,
+  .journal-entry,
+  .journal-page-sheet,
+  .actor-sheet,
+  .item-sheet,
+  .application.actor,
+  .application.item,
+  .application.journal-entry,
+  .application.journal-page
+) :is(
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+),
+:is(
+  .merp-ui,
+  .journal-sheet,
+  .journal-entry-sheet,
+  .journal-entry,
+  .journal-page-sheet,
+  .actor-sheet,
+  .item-sheet,
+  .application.actor,
+  .application.item,
+  .application.journal-entry,
+  .application.journal-page
+) :is(
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+)::before,
+:is(
+  .merp-ui,
+  .journal-sheet,
+  .journal-entry-sheet,
+  .journal-entry,
+  .journal-page-sheet,
+  .actor-sheet,
+  .item-sheet,
+  .application.actor,
+  .application.item,
+  .application.journal-entry,
+  .application.journal-page
+) :is(
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+)::after {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  text-rendering: auto !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+/* Variantes de graisse */
+:is(.merp-ui, .journal-sheet, .journal-entry-sheet, .actor-sheet, .item-sheet)
+:is(.far, .fa-regular),
+:is(.merp-ui, .journal-sheet, .journal-entry-sheet, .actor-sheet, .item-sheet)
+:is(.far, .fa-regular)::before {
+  font-family:
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+  font-weight: 400 !important;
+}
+
+:is(.merp-ui, .journal-sheet, .journal-entry-sheet, .actor-sheet, .item-sheet)
+:is(.fab, .fa-brands),
+:is(.merp-ui, .journal-sheet, .journal-entry-sheet, .actor-sheet, .item-sheet)
+:is(.fab, .fa-brands)::before {
+  font-family:
+    "Font Awesome 6 Brands",
+    "Font Awesome 5 Brands" !important;
+  font-weight: 400 !important;
+}
+
+/* Contrôles dont la classe Font Awesome est portée par le bouton lui-même. */
+:is(
+  .merp-ui,
+  .journal-sheet,
+  .journal-entry-sheet,
+  .actor-sheet,
+  .item-sheet,
+  .application.actor,
+  .application.item,
+  .application.journal-entry
+) :is(
+  button[class*="fa-"],
+  a[class*="fa-"],
+  .header-control[class*="fa-"],
+  .window-control[class*="fa-"]
+) {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+  font-weight: 900 !important;
+}
+
+/* Contrôles de fenêtre et barres d'outils : dimensions et visibilité natives. */
+:is(
+  .merp-ui,
+  .journal-sheet,
+  .journal-entry-sheet,
+  .actor-sheet,
+  .item-sheet,
+  .application.actor,
+  .application.item,
+  .application.journal-entry
+) :is(
+  .window-controls,
+  .header-control,
+  .window-control,
+  .journal-sidebar .controls,
+  .journal-entry-pages .controls,
+  .editor-menu,
+  .prosemirror-menu,
+  .toolbar
+) :is(i, svg, [class*="fa-"]) {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Les SVG natifs ne doivent jamais être masqués par le thème. */
+:is(
+  .merp-ui,
+  .journal-sheet,
+  .journal-entry-sheet,
+  .actor-sheet,
+  .item-sheet,
+  .application.actor,
+  .application.item,
+  .application.journal-entry
+) :is(
+  .window-controls,
+  .header-control,
+  .window-control,
+  .journal-sidebar,
+  .journal-entry-pages,
+  .editor-menu,
+  .prosemirror-menu,
+  .toolbar
+) svg {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  fill: currentColor;
+}
+
+/* Les contrôles conservent leur rendu et leur fonte native. */
+:is(
+  .merp-ui,
+  .journal-sheet,
+  .journal-entry-sheet,
+  .actor-sheet,
+  .item-sheet,
+  .application.actor,
+  .application.item,
+  .application.journal-entry
+) :is(
+  .window-controls,
+  .header-control,
+  .window-control,
+  nav.tabs,
+  .tabs,
+  .editor-menu,
+  .prosemirror-menu,
+  .toolbar
+) {
+  font-family: var(--font-body, Arial, sans-serif) !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.3 — Thème gris pour les fiches Actor                         */
+/* ------------------------------------------------------------------------- */
+
+:root {
+  --merp-actor-bg: #ececec;
+  --merp-actor-panel: #f7f7f7;
+  --merp-actor-panel-alt: #dddddd;
+  --merp-actor-header: #cfcfcf;
+  --merp-actor-header-dark: #b9b9b9;
+  --merp-actor-border: #8d8d8d;
+  --merp-actor-border-soft: #b9b9b9;
+  --merp-actor-ink: #202020;
+  --merp-actor-muted: #656565;
+  --merp-actor-accent: #7a7a7a;
+  --merp-actor-hover: #e4e4e4;
+  --merp-actor-selected: #d2d2d2;
+}
+
+/* Fenêtre générale */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) {
+  color: var(--merp-actor-ink);
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) .window-content {
+  color: var(--merp-actor-ink) !important;
+  background:
+    linear-gradient(
+      180deg,
+      var(--merp-actor-bg),
+      #e5e5e5
+    ) !important;
+}
+
+/* Barre de titre */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) .window-header {
+  color: #222 !important;
+  background: linear-gradient(
+    var(--merp-actor-header),
+    var(--merp-actor-header-dark)
+  ) !important;
+  border-bottom: 1px solid #7c7c7c !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) .window-title {
+  color: #222 !important;
+  font-family: var(--merp-font) !important;
+}
+
+/* En-tête de fiche */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .sheet-header,
+  header.sheet-header,
+  .actor-header,
+  .profile-header
+) {
+  color: var(--merp-actor-ink) !important;
+  background: linear-gradient(
+    180deg,
+    #dddddd,
+    #c8c8c8
+  ) !important;
+  border: 1px solid var(--merp-actor-border) !important;
+  border-radius: 3px;
+  box-shadow: none !important;
+}
+
+/* Panneaux principaux */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .sheet-body,
+  .sheet-content,
+  .tab.active,
+  .details,
+  .description,
+  .biography,
+  .notes,
+  .characteristics,
+  .attributes,
+  .skills,
+  .skill-list,
+  .items-list,
+  .item-list,
+  .equipment,
+  .combat,
+  .spells,
+  .effects
+) {
+  color: var(--merp-actor-ink) !important;
+  background-color: transparent;
+}
+
+/* Titres de sections */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .section-title,
+  .category-title,
+  .group-title,
+  .list-header,
+  .items-header,
+  h1,
+  h2,
+  h3
+) {
+  color: var(--merp-actor-ink) !important;
+  background: var(--merp-actor-panel-alt) !important;
+  border-color: var(--merp-actor-border) !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) h1 {
+  padding: .38rem .58rem .32rem;
+  border: 1px solid var(--merp-actor-border) !important;
+  border-bottom: 2px solid #777 !important;
+  border-radius: 2px;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) h2 {
+  padding: .28rem .48rem .22rem;
+  border: 0 !important;
+  border-left: 4px solid var(--merp-actor-accent) !important;
+}
+
+/* Onglets */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs
+) {
+  color: var(--merp-actor-ink) !important;
+  background: #d9d9d9 !important;
+  border-color: var(--merp-actor-border) !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs
+) :is(a, button, .item) {
+  color: var(--merp-actor-ink) !important;
+  background: transparent !important;
+  border-color: transparent !important;
+  text-shadow: none !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs
+) :is(a, button, .item):hover {
+  background: var(--merp-actor-hover) !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs
+) :is(.active, [aria-selected="true"]) {
+  color: #111 !important;
+  background: var(--merp-actor-selected) !important;
+  border-bottom-color: #666 !important;
+}
+
+/* Listes, compétences, objets et lignes */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .item,
+  .skill,
+  .skill-row,
+  .item-row,
+  .attribute,
+  .characteristic,
+  .effect,
+  tr
+) {
+  color: var(--merp-actor-ink) !important;
+  border-color: var(--merp-actor-border-soft) !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .item,
+  .skill,
+  .skill-row,
+  .item-row,
+  .attribute,
+  .characteristic,
+  .effect
+):nth-child(odd) {
+  background: rgba(0, 0, 0, .025) !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .item,
+  .skill,
+  .skill-row,
+  .item-row,
+  .attribute,
+  .characteristic,
+  .effect
+):hover {
+  background: rgba(0, 0, 0, .055) !important;
+}
+
+/* Tableaux */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) table {
+  color: var(--merp-actor-ink) !important;
+  background: var(--merp-actor-panel) !important;
+  border-color: var(--merp-actor-border) !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) table th {
+  color: var(--merp-actor-ink) !important;
+  background: var(--merp-actor-panel-alt) !important;
+}
+
+/* Champs */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  input,
+  textarea,
+  select
+) {
+  color: #222 !important;
+  background: #fafafa !important;
+  border-color: #9d9d9d !important;
+  box-shadow: none !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  input,
+  textarea,
+  select
+):focus {
+  border-color: #666 !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .16) !important;
+}
+
+/* Boutons textuels : gris neutre */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) button:not([class*="fa-"]) {
+  color: #222;
+  background: linear-gradient(#eeeeee, #d8d8d8);
+  border-color: #999;
+  box-shadow: none;
+}
+
+/* Suppression des principaux bleus du système RMU */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  [class*="blue"],
+  [class*="primary"],
+  .selected,
+  .highlight,
+  .active-row
+) {
+  --color-bg-btn: var(--merp-actor-panel-alt);
+  --color-bg-option: var(--merp-actor-panel-alt);
+  --color-border-highlight: var(--merp-actor-border);
+  --color-text-hyperlink: var(--merp-link);
+}
+
+/* Les icônes et contrôles restent natifs */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .window-controls,
+  .header-control,
+  .window-control,
+  i,
+  svg,
+  [class^="fa-"],
+  [class*=" fa-"]
+) {
+  font-family: inherit;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.4 — Palette grise directe pour RMU                           */
+/* ------------------------------------------------------------------------- */
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) {
+  --rmu-color-primary: #777 !important;
+  --rmu-color-secondary: #999 !important;
+  --rmu-color-accent: #666 !important;
+  --rmu-color-bg-primary: #ececec !important;
+  --rmu-color-bg-secondary: #d8d8d8 !important;
+  --color-bg-btn: #dedede !important;
+  --color-bg-option: #e4e4e4 !important;
+  --color-border-highlight: #888 !important;
+  --color-text-hyperlink: #5f5f5f !important;
+  color: var(--merp-actor-ink) !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) .window-content {
+  color: var(--merp-actor-ink) !important;
+  background: linear-gradient(#eeeeee, #e2e2e2) !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) .window-header {
+  color: #222 !important;
+  background: linear-gradient(#d6d6d6, #bfbfbf) !important;
+  border-bottom: 1px solid #7e7e7e !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(
+  .sheet-header,
+  .actor-header,
+  .profile-header,
+  .section-title,
+  .category-title,
+  .group-title,
+  .list-header,
+  .items-header,
+  .header-row,
+  .category-header,
+  .skill-category,
+  thead
+) {
+  color: #222 !important;
+  background: #d6d6d6 !important;
+  border-color: #8b8b8b !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs
+) {
+  color: #222 !important;
+  background: #d9d9d9 !important;
+  border-color: #8d8d8d !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(
+  .item,
+  .skill,
+  .skill-row,
+  .item-row,
+  .attribute,
+  .characteristic,
+  .effect,
+  tbody tr
+) {
+  color: #222 !important;
+  background-color: #f4f4f4 !important;
+  border-color: #b8b8b8 !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(
+  .item,
+  .skill,
+  .skill-row,
+  .item-row,
+  .attribute,
+  .characteristic,
+  .effect,
+  tbody tr
+):nth-child(even) {
+  background-color: #e9e9e9 !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(input, textarea, select) {
+  color: #222 !important;
+  background: #fafafa !important;
+  border-color: #999 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+/*
+ * PragRoman et texte clair dans les répertoires Foundry.
+ * Les icônes et contrôles restent natifs.
+ */
+
+:is(
+  #sidebar,
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(
+  .directory-header,
+  .directory-list,
+  .directory-item,
+  .folder,
+  .folder-header,
+  .entry-name,
+  .document-name,
+  .document-link,
+  .folder-name,
+  .actor-name,
+  .item-name,
+  .journal-name,
+  .scene-name,
+  h3,
+  h4,
+  a,
+  label,
+  input[type="search"],
+  input[type="text"]
+) {
+  font-family: var(--merp-font) !important;
+  color: #f2f2f2 !important;
+}
+
+/* Noms d’Actors : blanc lisible même dans les dossiers imbriqués. */
+#actors :is(
+  .directory-item,
+  .directory-item a,
+  .directory-item h3,
+  .directory-item h4,
+  .directory-item span:not([class^="fa-"]):not([class*=" fa-"]),
+  .entry-name,
+  .document-name,
+  .document-link,
+  .actor-name
+) {
+  color: #f2f2f2 !important;
+  font-family: var(--merp-font) !important;
+}
+
+/* Dossiers légèrement différenciés. */
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(
+  .folder-header,
+  .folder-name
+) {
+  color: #f5e8c8 !important;
+}
+
+/* Recherche : texte et placeholder lisibles. */
+:is(
+  #sidebar,
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(
+  input[type="search"],
+  input[type="text"]
+) {
+  color: #f2f2f2 !important;
+  background: rgba(255, 255, 255, .06) !important;
+  border-color: rgba(255, 255, 255, .22) !important;
+}
+
+:is(
+  #sidebar,
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(
+  input[type="search"],
+  input[type="text"]
+)::placeholder {
+  color: #d8c6a3 !important;
+  opacity: .9;
+}
+
+/* Survol et sélection. */
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) .directory-item:hover {
+  background: rgba(255, 255, 255, .055) !important;
+}
+
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) .directory-item.active {
+  background: rgba(255, 255, 255, .10) !important;
+}
+
+/* Exclusion explicite des icônes et boutons. */
+:is(
+  #sidebar,
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(
+  button,
+  i,
+  svg,
+  [class^="fa-"],
+  [class*=" fa-"],
+  .control,
+  .controls,
+  .directory-control
+) {
+  font-family: inherit;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.6 — Répertoires textuels sans altérer les icônes             */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * PragRoman est limitée au contenu des répertoires.
+ * La barre verticale des onglets, les boutons, les contrôles et tous les
+ * pseudo-éléments Font Awesome restent entièrement natifs.
+ */
+
+/* Texte des répertoires uniquement — jamais #sidebar dans son ensemble. */
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(
+  .directory-header,
+  .directory-list,
+  .directory-item,
+  .folder,
+  .folder-header
+) :is(
+  .entry-name,
+  .document-name,
+  .document-link,
+  .folder-name,
+  .actor-name,
+  .item-name,
+  .journal-name,
+  .scene-name,
+  h3,
+  h4,
+  label
+) {
+  font-family: var(--merp-font) !important;
+  color: #f2f2f2 !important;
+}
+
+/* Liens nommés des entrées, en excluant tous les contrôles et icônes. */
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) .directory-item > :is(
+  a:not(.control):not(.directory-control):not([class*="fa-"]),
+  span:not(.control):not([class^="fa-"]):not([class*=" fa-"])
+) {
+  font-family: var(--merp-font) !important;
+  color: #f2f2f2 !important;
+}
+
+/* Noms des Actors, y compris dans les dossiers imbriqués. */
+#actors :is(
+  .entry-name,
+  .document-name,
+  .document-link,
+  .actor-name,
+  .directory-item h3,
+  .directory-item h4
+) {
+  color: #f2f2f2 !important;
+  font-family: var(--merp-font) !important;
+}
+
+/* Dossiers. */
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(.folder-header, .folder-name) {
+  color: #f5e8c8 !important;
+  font-family: var(--merp-font) !important;
+}
+
+/* Champs de recherche des répertoires seulement. */
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(input[type="search"], input[type="text"]) {
+  font-family: var(--merp-font) !important;
+  color: #f2f2f2 !important;
+  background: rgba(255,255,255,.06) !important;
+  border-color: rgba(255,255,255,.22) !important;
+}
+
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(input[type="search"], input[type="text"])::placeholder {
+  color: #d8c6a3 !important;
+  opacity: .9;
+}
+
+/* Survol et sélection des entrées. */
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) .directory-item:hover {
+  background: rgba(255,255,255,.055) !important;
+}
+
+:is(
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) .directory-item.active {
+  background: rgba(255,255,255,.10) !important;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Restauration stricte de la barre gauche et des contrôles                  */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Foundry porte parfois la classe fa-* sur l'élément, parfois sur ::before.
+ * Les deux sont restaurés explicitement.
+ */
+
+:is(
+  #sidebar-tabs,
+  #sidebar,
+  #ui-left,
+  #ui-right,
+  #controls,
+  .scene-controls,
+  .directory,
+  .directory-header,
+  .directory-footer
+) :is(
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+),
+:is(
+  #sidebar-tabs,
+  #sidebar,
+  #ui-left,
+  #ui-right,
+  #controls,
+  .scene-controls,
+  .directory,
+  .directory-header,
+  .directory-footer
+) :is(
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+)::before,
+:is(
+  #sidebar-tabs,
+  #sidebar,
+  #ui-left,
+  #ui-right,
+  #controls,
+  .scene-controls,
+  .directory,
+  .directory-header,
+  .directory-footer
+) :is(
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+)::after {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  text-rendering: auto !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+/* Regular / Brands. */
+:is(#sidebar-tabs, #sidebar, #ui-left, #ui-right)
+:is(.far, .fa-regular),
+:is(#sidebar-tabs, #sidebar, #ui-left, #ui-right)
+:is(.far, .fa-regular)::before {
+  font-family:
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+  font-weight: 400 !important;
+}
+
+:is(#sidebar-tabs, #sidebar, #ui-left, #ui-right)
+:is(.fab, .fa-brands),
+:is(#sidebar-tabs, #sidebar, #ui-left, #ui-right)
+:is(.fab, .fa-brands)::before {
+  font-family: "Font Awesome 6 Brands", "Font Awesome 5 Brands" !important;
+  font-weight: 400 !important;
+}
+
+/* Onglets latéraux : ne jamais hériter de PragRoman. */
+#sidebar-tabs :is(a, button, .item, [role="tab"]),
+#sidebar-tabs :is(a, button, .item, [role="tab"])::before,
+#sidebar-tabs :is(a, button, .item, [role="tab"])::after,
+#ui-left :is(button, .control-tool),
+#ui-left :is(button, .control-tool)::before,
+#ui-right :is(button, .control-tool),
+#ui-right :is(button, .control-tool)::before {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+}
+
+/* Boutons et contrôles de répertoire. */
+:is(
+  #sidebar,
+  #actors,
+  #items,
+  #journal,
+  #tables,
+  #cards,
+  #playlists,
+  #scenes,
+  #compendium,
+  #macros
+) :is(
+  button,
+  .control,
+  .controls,
+  .directory-control,
+  .header-control,
+  .footer-control
+) {
+  font-family: var(--font-body, Arial, sans-serif) !important;
+}
+
+/* Tous les SVG de l'interface restent visibles. */
+:is(
+  #sidebar-tabs,
+  #sidebar,
+  #ui-left,
+  #ui-right,
+  #controls,
+  .scene-controls,
+  .directory
+) svg {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  fill: currentColor;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.7 — Fiches RMU AppV2 : suppression du bleu                  */
+/* ------------------------------------------------------------------------- */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor {
+  --rmu-blue: #777 !important;
+  --rmu-dark-blue: #5f5f5f !important;
+  --rmu-light-blue: #d9d9d9 !important;
+  --rmu-primary: #777 !important;
+  --rmu-secondary: #999 !important;
+  --rmu-accent: #666 !important;
+
+  --color-primary: #777 !important;
+  --color-secondary: #999 !important;
+  --color-accent: #666 !important;
+  --color-border-highlight: #777 !important;
+  --color-border-highlight-alt: #999 !important;
+  --color-text-hyperlink: #555 !important;
+
+  --color-bg-primary: #e9e9e9 !important;
+  --color-bg-secondary: #d7d7d7 !important;
+  --color-bg-btn: #dedede !important;
+  --color-bg-option: #ececec !important;
+  --color-bg-header: #cfcfcf !important;
+
+  color: #202020 !important;
+}
+
+/* Fond général de la fiche. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor .window-content {
+  color: #202020 !important;
+  background:
+    linear-gradient(180deg, #eeeeee 0%, #e2e2e2 100%) !important;
+}
+
+/* Barre de fenêtre. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor .window-header {
+  color: #202020 !important;
+  background:
+    linear-gradient(180deg, #d5d5d5 0%, #bdbdbd 100%) !important;
+  border-bottom: 1px solid #7a7a7a !important;
+}
+
+/* Les grands panneaux bleus visibles dans la fiche. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .sheet-header,
+  .actor-header,
+  .profile-header,
+  .header,
+  .panel-header,
+  .section-header,
+  .category-header,
+  .group-header,
+  .list-header,
+  .items-header,
+  .skills-header,
+  .characteristics-header,
+  .navigation-header,
+  .rmu-header,
+  [class*="header"],
+  [class*="banner"]
+) {
+  color: #202020 !important;
+  background:
+    linear-gradient(180deg, #d8d8d8 0%, #c5c5c5 100%) !important;
+  border-color: #8a8a8a !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Navigation et onglets. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  nav,
+  .nav,
+  .navigation,
+  .tabs,
+  .sheet-tabs,
+  [class*="navigation"],
+  [class*="tabs"]
+) {
+  color: #202020 !important;
+  background: #d7d7d7 !important;
+  border-color: #8a8a8a !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  nav,
+  .nav,
+  .navigation,
+  .tabs,
+  .sheet-tabs,
+  [class*="navigation"],
+  [class*="tabs"]
+) :is(a, button, .item, [role="tab"]) {
+  color: #202020 !important;
+  background: transparent !important;
+  border-color: transparent !important;
+  text-shadow: none !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  nav,
+  .nav,
+  .navigation,
+  .tabs,
+  .sheet-tabs,
+  [class*="navigation"],
+  [class*="tabs"]
+) :is(.active, [aria-selected="true"]) {
+  background: #c7c7c7 !important;
+  border-bottom-color: #686868 !important;
+}
+
+/* Cadres, panneaux et conteneurs. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .panel,
+  .section,
+  .category,
+  .group,
+  .block,
+  .card,
+  .box,
+  .container,
+  .content-box,
+  .details,
+  .skills,
+  .characteristics,
+  .attributes,
+  .equipment,
+  .combat,
+  .spells,
+  .effects,
+  [class*="panel"],
+  [class*="section"],
+  [class*="category"],
+  [class*="group"],
+  [class*="box"],
+  [class*="card"]
+) {
+  color: #202020 !important;
+  background-color: #f1f1f1 !important;
+  border-color: #9b9b9b !important;
+  box-shadow: none !important;
+}
+
+/* Entêtes de tableaux et de listes. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  thead,
+  th,
+  .header-row,
+  .table-header,
+  .row-header,
+  .category-row,
+  .group-row,
+  .skill-category,
+  [class*="header-row"]
+) {
+  color: #202020 !important;
+  background: #d0d0d0 !important;
+  border-color: #8a8a8a !important;
+  text-shadow: none !important;
+}
+
+/* Lignes de compétences, objets et caractéristiques. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  tbody tr,
+  .row,
+  .item,
+  .item-row,
+  .skill,
+  .skill-row,
+  .attribute,
+  .characteristic,
+  .effect,
+  [class*="skill-row"],
+  [class*="item-row"]
+) {
+  color: #202020 !important;
+  background: #f5f5f5 !important;
+  border-color: #b6b6b6 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  tbody tr,
+  .row,
+  .item,
+  .item-row,
+  .skill,
+  .skill-row,
+  .attribute,
+  .characteristic,
+  .effect,
+  [class*="skill-row"],
+  [class*="item-row"]
+):nth-child(even) {
+  background: #e8e8e8 !important;
+}
+
+/* Champs de saisie. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  input,
+  textarea,
+  select
+) {
+  color: #202020 !important;
+  background: #fafafa !important;
+  border-color: #969696 !important;
+  box-shadow: none !important;
+}
+
+/* Boutons textuels. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor button:not([class*="fa-"]) {
+  color: #202020 !important;
+  background:
+    linear-gradient(180deg, #eeeeee 0%, #d4d4d4 100%) !important;
+  border-color: #8f8f8f !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Remplacement direct des fonds bleus inline ou hérités. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  [style*="background: rgb(0"],
+  [style*="background-color: rgb(0"],
+  [style*="background:#0"],
+  [style*="background-color:#0"]
+) {
+  background: #d6d6d6 !important;
+  color: #202020 !important;
+}
+
+/* Liens et accents. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor a {
+  color: #575757 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor a:hover {
+  color: #222 !important;
+  text-shadow: none !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.8 — Correctif lisibilité et surfaces RMU                     */
+/* ------------------------------------------------------------------------- */
+
+/* Classes ajoutées dynamiquement par le script après rendu. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor .merp-ui-grey-surface {
+  color: #202020 !important;
+  background:
+    linear-gradient(180deg, #dddddd 0%, #c8c8c8 100%) !important;
+  border-color: #8a8a8a !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor .merp-ui-grey-surface-soft {
+  color: #202020 !important;
+  background: #eeeeee !important;
+  border-color: #a7a7a7 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor .merp-ui-dark-text {
+  color: #202020 !important;
+  text-shadow: none !important;
+}
+
+/* Les libellés et valeurs des formulaires doivent toujours rester lisibles. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .form-group,
+  .form-fields,
+  .form-field,
+  .field,
+  .property,
+  .trait,
+  .trait-row,
+  .trait-value,
+  .additional-trait,
+  .additional-traits,
+  .supplementary-traits,
+  .details,
+  dl,
+  dt,
+  dd
+) :is(
+  label,
+  span:not([class^="fa-"]):not([class*=" fa-"]),
+  strong,
+  em,
+  small,
+  p,
+  div
+) {
+  color: #202020 !important;
+  text-shadow: none !important;
+}
+
+/* Zone « Traits supplémentaires ». */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  [class*="trait"],
+  [class*="property"],
+  [class*="detail"]
+) :is(
+  label,
+  .label,
+  .name,
+  .value,
+  span:not([class^="fa-"]):not([class*=" fa-"])
+) {
+  color: #202020 !important;
+}
+
+/* Les zones de notes et descriptions utilisent un fond clair. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .notes,
+  .description,
+  .biography,
+  .editor,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  textarea
+) {
+  color: #202020 !important;
+  background: #f7f7f7 !important;
+  border-color: #999 !important;
+  text-shadow: none !important;
+}
+
+/* Les grands bandeaux de statut encore bleus. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .status,
+  .disposition,
+  .hostility,
+  .hostile,
+  .resource,
+  .resource-header,
+  .search-bar,
+  .filter-bar,
+  [class*="status"],
+  [class*="resource"],
+  [class*="filter"]
+) {
+  color: #202020 !important;
+  background:
+    linear-gradient(180deg, #dddddd 0%, #c7c7c7 100%) !important;
+  border-color: #888 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Les entêtes de catégories restent contrastés mais ne sont plus bleus. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .section-title,
+  .category-title,
+  .group-title,
+  .panel-title,
+  .list-title,
+  .rmu-category-title,
+  [class*="section-title"],
+  [class*="category-title"],
+  [class*="group-title"]
+) {
+  color: #202020 !important;
+  background:
+    linear-gradient(180deg, #cfcfcf 0%, #b9b9b9 100%) !important;
+  border: 1px solid #858585 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Les scrollbars ne reprennent plus l’accent bleu. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor * {
+  scrollbar-color: #8b8b8b #e3e3e3;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor *::-webkit-scrollbar-thumb {
+  background: #8b8b8b !important;
+  border-color: #d8d8d8 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor *::-webkit-scrollbar-track {
+  background: #e3e3e3 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.9 — Restauration complète des textes et contrôles RMU        */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * La 0.8.8 a correctement neutralisé les fonds bleus, mais plusieurs
+ * composants RMU conservaient une couleur de texte blanche ou très claire.
+ * Ce bloc force une couleur sombre sur les éléments textuels de la fiche,
+ * sans toucher aux icônes, badges colorés ni états fonctionnels.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .window-content,
+  .sheet-header,
+  .sheet-body,
+  .sheet-content,
+  .tab,
+  .tabs,
+  .navigation,
+  .nav,
+  .header,
+  .footer,
+  .panel,
+  .section,
+  .category,
+  .group,
+  .list,
+  .row,
+  .cell,
+  .field,
+  .form-group,
+  .form-fields,
+  .property,
+  .trait,
+  .trait-row,
+  .trait-value,
+  .details,
+  .description,
+  .biography,
+  .notes,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td,
+  dl,
+  dt,
+  dd
+) {
+  color: #202020 !important;
+}
+
+/* Texte réellement affiché dans les composants RMU. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  p,
+  li,
+  label,
+  strong,
+  em,
+  small,
+  .label,
+  .value,
+  .name,
+  .title,
+  .subtitle,
+  .text,
+  .total,
+  .bonus,
+  .penalty,
+  .duration,
+  .severity,
+  .localisation,
+  .source,
+  .effect,
+  .resistance,
+  .characteristic,
+  .attribute,
+  .skill-name,
+  .item-name,
+  .category-name,
+  .section-name,
+  .property-name,
+  .property-value,
+  .trait-name,
+  .trait-value,
+  span:not(.fa):not(.fas):not(.far):not(.fal):not(.fat):not(.fad):not(.fab)
+      :not(.fa-solid):not(.fa-regular):not(.fa-brands)
+      :not([class^="fa-"]):not([class*=" fa-"])
+) {
+  color: #202020 !important;
+  text-shadow: none !important;
+}
+
+/* Champs et valeurs de formulaire. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  input,
+  textarea,
+  select,
+  option
+) {
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+  opacity: 1 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor input::placeholder,
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor textarea::placeholder {
+  color: #777 !important;
+  -webkit-text-fill-color: #777 !important;
+  opacity: .9 !important;
+}
+
+/* Les libellés ne doivent jamais disparaître par opacité. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  label,
+  .label,
+  .name,
+  .title,
+  .subtitle,
+  .property-name,
+  .trait-name,
+  .category-name,
+  .section-name
+) {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Les valeurs restent visibles même dans les blocs désactivés. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .value,
+  .property-value,
+  .trait-value,
+  .total,
+  .bonus,
+  .penalty
+) {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/*
+ * Les badges et marqueurs fonctionnels conservent leur couleur propre.
+ * On ne force que leur lisibilité.
+ */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .badge,
+  .tag,
+  .pro,
+  .roy,
+  .success,
+  .danger,
+  .warning
+) {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Boutons textuels et commandes. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor button:not(
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+) {
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+}
+
+/* Les éléments désactivés restent lisibles sans sembler actifs. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  input:disabled,
+  textarea:disabled,
+  select:disabled,
+  button:disabled,
+  [aria-disabled="true"]
+) {
+  color: #555 !important;
+  -webkit-text-fill-color: #555 !important;
+  opacity: .72 !important;
+}
+
+/* Les titres de sections restent sombres sur les bandeaux gris. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .section-title,
+  .category-title,
+  .group-title,
+  .panel-title,
+  .list-title,
+  .rmu-category-title,
+  [class*="section-title"],
+  [class*="category-title"],
+  [class*="group-title"]
+) :is(
+  span,
+  strong,
+  em,
+  label
+) {
+  color: #202020 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+
+/* Zone États / pénalités : correction explicite des libellés blanchis. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  [class*="state"],
+  [class*="status"],
+  [class*="penalt"],
+  [class*="wound"],
+  [class*="injur"],
+  [class*="endurance"],
+  [class*="effect"]
+) :is(
+  label,
+  span:not([class^="fa-"]):not([class*=" fa-"]),
+  p,
+  strong,
+  em,
+  small
+) {
+  color: #202020 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+
+/* Les icônes conservent absolument leur fonte native. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  i,
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  i,
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+)::before {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.1 — Retour à la géométrie native RMU                         */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Cette version conserve les couleurs grises et PragRoman, mais annule
+ * toute modification de dimensions introduite par la 0.9.0.
+ */
+
+/* Ne pas modifier les dimensions générales de la fenêtre. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor .window-content {
+  padding: revert !important;
+}
+
+/* En-têtes : dimensions RMU d’origine. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .sheet-header,
+  .actor-header,
+  .profile-header
+) {
+  margin: revert !important;
+  padding: revert !important;
+  min-height: revert !important;
+  height: revert !important;
+  border-radius: revert !important;
+}
+
+/* Panneaux et sections : aucune géométrie imposée. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .panel,
+  .section,
+  .category,
+  .group,
+  .block,
+  .card,
+  .box,
+  .content-box,
+  .details,
+  .skills,
+  .characteristics,
+  .attributes,
+  .equipment,
+  .combat,
+  .spells,
+  .effects
+) {
+  margin: revert !important;
+  padding: revert !important;
+  min-height: revert !important;
+  height: revert !important;
+  border-radius: revert !important;
+}
+
+/* Titres de sections : tailles et hauteurs natives. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .section-title,
+  .category-title,
+  .group-title,
+  .panel-title,
+  .list-title,
+  .rmu-category-title,
+  [class*="section-title"],
+  [class*="category-title"],
+  [class*="group-title"]
+) {
+  margin: revert !important;
+  padding: revert !important;
+  min-height: revert !important;
+  height: revert !important;
+  border-radius: revert !important;
+}
+
+/* Onglets et navigation : conserver les proportions natives. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs,
+  .navigation
+) {
+  margin: revert !important;
+  padding: revert !important;
+  min-height: revert !important;
+  height: revert !important;
+  border-radius: revert !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs,
+  .navigation
+) :is(a, button, .item, [role="tab"]) {
+  min-height: revert !important;
+  height: revert !important;
+  padding: revert !important;
+  border-radius: revert !important;
+}
+
+/* Tableaux et listes : aucune hauteur ajoutée. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor table :is(th, td) {
+  padding: revert !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .row,
+  .item,
+  .item-row,
+  .skill,
+  .skill-row,
+  .attribute,
+  .characteristic,
+  .effect,
+  tbody tr
+) {
+  min-height: revert !important;
+  height: revert !important;
+}
+
+/* Champs : dimensions natives RMU. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  input,
+  textarea,
+  select
+) {
+  min-height: revert !important;
+  height: revert !important;
+  padding: revert !important;
+  border-radius: revert !important;
+}
+
+/* Groupes de formulaires : espacements natifs. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .form-group,
+  .form-fields,
+  .field,
+  .property,
+  .trait-row
+) {
+  gap: revert !important;
+  margin-bottom: revert !important;
+}
+
+/* Boutons : dimensions natives. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor button:not([class*="fa-"]) {
+  min-height: revert !important;
+  height: revert !important;
+  padding: revert !important;
+  border-radius: revert !important;
+}
+
+/* Pas de distinction dimensionnelle Personnage / Créature. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor[data-actor-type="creature"] :is(
+  .characteristics,
+  .resistances,
+  .traits,
+  .attacks,
+  .skills
+),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor[data-actor-type="character"] :is(
+  .biography,
+  .description,
+  .notes
+) {
+  padding: revert !important;
+}
+
+/* Titre de l’infobulle. */
+:is(
+  #tooltip,
+  .tooltip,
+  .locked-tooltip,
+  .rmu-tooltip,
+  .rmu-skill-tooltip,
+  [role="tooltip"]
+) :is(
+  h1,
+  h2,
+  h3,
+  h4,
+  .tooltip-title,
+  .title
+) {
+  color: #ffffff !important;
+  margin: 0 0 .3rem 0 !important;
+  font-size: .78rem !important;
+  line-height: 1.15 !important;
+}
+
+/* Corps descriptif. */
+:is(
+  #tooltip,
+  .tooltip,
+  .locked-tooltip,
+  .rmu-tooltip,
+  .rmu-skill-tooltip,
+  [role="tooltip"]
+) :is(
+  .description,
+  .tooltip-description,
+  .tooltip-content,
+  [class*="description"],
+  [class*="content"]
+) {
+  margin-top: .25rem !important;
+  font-size: .82rem !important;
+  line-height: 1.32 !important;
+}
+
+/* Les icônes éventuelles gardent leur fonte native. */
+:is(
+  #tooltip,
+  .tooltip,
+  .locked-tooltip,
+  .rmu-tooltip,
+  .rmu-skill-tooltip,
+  [role="tooltip"]
+) :is(
+  i,
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fab,
+  [class^="fa-"],
+  [class*=" fa-"]
+) {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+}
+
+/* Titre et description : uniquement taille et couleur. */
+#tooltip :is(.tooltip-title, .title, h1, h2, h3, h4),
+.locked-tooltip :is(.tooltip-title, .title, h1, h2, h3, h4) {
+  color: #ffffff !important;
+  margin-bottom: .25rem !important;
+}
+
+#tooltip :is(.tooltip-description, .description, .tooltip-content, .content),
+.locked-tooltip :is(.tooltip-description, .description, .tooltip-content, .content) {
+  color: var(--merp-tooltip-fg) !important;
+  line-height: 1.3 !important;
+  white-space: normal !important;
+}
+
+/* Les icônes éventuelles gardent leur police native. */
+#tooltip :is(i, .fa, .fas, .far, .fal, .fab, [class^="fa-"], [class*=" fa-"]),
+.locked-tooltip :is(i, .fa, .fas, .far, .fal, .fab, [class^="fa-"], [class*=" fa-"]) {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.6 — Réduction de la marge de navigation verticale RMU        */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Correction strictement cosmétique :
+ * - ne change pas la structure HTML ;
+ * - ne déplace aucun panneau ;
+ * - ne touche pas aux événements ni aux onglets ;
+ * - réduit seulement la largeur réservée par la barre verticale.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.rmu-navigation-theme3 .rmu-navigation {
+  width: 38px !important;
+  min-width: 38px !important;
+  max-width: 38px !important;
+  flex: 0 0 38px !important;
+  padding-inline: 0 !important;
+  margin-inline: 0 !important;
+}
+
+/* Les onglets restent fonctionnels et occupent toute la largeur disponible. */
+.rmu-appv2-sheet.rmu-actor-sheet.rmu-navigation-theme3
+.rmu-navigation > :is(a, button, .item, [role="tab"]) {
+  width: 36px !important;
+  min-width: 36px !important;
+  max-width: 36px !important;
+  box-sizing: border-box !important;
+  margin-inline: 1px !important;
+}
+
+/* Évite qu'un conteneur parent conserve une largeur minimale inutile. */
+.rmu-appv2-sheet.rmu-actor-sheet.rmu-navigation-theme3
+:is(.rmu-navigation-wrapper, .navigation-wrapper) {
+  width: 38px !important;
+  min-width: 38px !important;
+  max-width: 38px !important;
+  flex: 0 0 38px !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.7 — Ciblage exact de la navigation verticale RMU             */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Conteneur réellement observé dans RMU :
+ * NAV.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2
+ *
+ * La correction ne touche qu'à sa largeur et à son espace horizontal.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2 {
+  width: 40px !important;
+  min-width: 40px !important;
+  max-width: 40px !important;
+  flex: 0 0 40px !important;
+  flex-basis: 40px !important;
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+
+  column-gap: 0 !important;
+  row-gap: 2px !important;
+  gap: 2px 0 !important;
+
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+/* Les onglets gardent leur fonctionnement et restent entièrement cliquables. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2
+> :is(a, button, .item, [role="tab"]) {
+  width: 38px !important;
+  min-width: 38px !important;
+  max-width: 38px !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  box-sizing: border-box !important;
+}
+
+/*
+ * Certaines versions RMU placent la navigation dans une grille.
+ * On limite alors uniquement la colonne qui contient le NAV, sans modifier
+ * l'ordre ni le contenu des panneaux.
+ */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:has(> nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2) {
+  --merp-rmu-nav-width: 40px;
+}
+
+/* Parent flex : la largeur du NAV ne peut plus être étirée. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:has(> nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2)
+> nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2 {
+  align-self: stretch;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.8 — Barre latérale RMU accolée et onglets mieux séparés      */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Ajustement purement visuel du NAV vertical déjà identifié.
+ * Aucun changement de structure HTML, d'ordre des onglets ou d'événements.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2 {
+  width: 42px !important;
+  min-width: 42px !important;
+  max-width: 42px !important;
+  flex: 0 0 42px !important;
+  flex-basis: 42px !important;
+
+  /* Recolle visuellement la barre à la fiche sans modifier le layout interne. */
+  transform: translateX(-28px) !important;
+  margin-right: -28px !important;
+
+  padding: 0 1px !important;
+  gap: 2px 0 !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+/* Onglets : quelques pixels de respiration et séparation plus nette. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2
+> :is(a, button, .item, [role="tab"]) {
+  width: 40px !important;
+  min-width: 40px !important;
+  max-width: 40px !important;
+  box-sizing: border-box !important;
+
+  margin: 0 0 2px 0 !important;
+  padding: 3px 2px !important;
+
+  color: #1f1f1f !important;
+  background: linear-gradient(180deg, #f4f4f4 0%, #dedede 100%) !important;
+  border: 1px solid #8ea6bc !important;
+  border-radius: 2px !important;
+
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, .28),
+    inset 0 0 0 1px rgba(255, 255, 255, .55) !important;
+
+  text-shadow: none !important;
+}
+
+/* État actif : contraste légèrement renforcé. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2
+> :is(
+  a.active,
+  button.active,
+  .item.active,
+  [role="tab"][aria-selected="true"]
+) {
+  background: linear-gradient(180deg, #d4dce3 0%, #b9c7d2 100%) !important;
+  border-color: #55738d !important;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, .38),
+    inset 3px 0 0 #496d8b !important;
+}
+
+/* Survol discret, sans modifier la zone cliquable. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2
+> :is(a, button, .item, [role="tab"]):hover {
+  background: linear-gradient(180deg, #ffffff 0%, #e7e7e7 100%) !important;
+  border-color: #607f99 !important;
+}
+
+/* Le dernier onglet ne réserve pas d'espace supplémentaire. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+nav.sheet-tabs.tabs.rmu-text-action.rmu-gap-x-4.rmu-pt-2
+> :is(a, button, .item, [role="tab"]):last-child {
+  margin-bottom: 0 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.11 — Première page Actor : harmonisation ciblée              */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Ces règles s'appuient sur des classes ajoutées une seule fois au rendu
+ * de la fiche. Elles ne modifient ni le DOM, ni l'ordre, ni les événements.
+ */
+
+/* Colonne PV / PP / VDB / Initiative */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack {
+  --merp-resource-label-width: 112px;
+  --merp-resource-row-height: 25px;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-row {
+  min-height: var(--merp-resource-row-height) !important;
+  height: var(--merp-resource-row-height) !important;
+  align-items: center !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-label {
+  width: var(--merp-resource-label-width) !important;
+  min-width: var(--merp-resource-label-width) !important;
+  max-width: var(--merp-resource-label-width) !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: clip !important;
+  padding-inline: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Initiative ne doit jamais élargir ou déborder par rapport aux autres lignes. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-label[data-merp-ui-resource="initiative"] {
+  letter-spacing: 0 !important;
+  font-size: .94em !important;
+}
+
+/* Valeurs de la colonne de gauche */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-value {
+  min-height: var(--merp-resource-row-height) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  line-height: 1 !important;
+}
+
+/* Harmonisation typographique de l'en-tête Actor */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-header-polish
+:is(
+  .merp-ui-resource-label,
+  .merp-ui-header-label,
+  .merp-ui-level-label
+) {
+  font-size: .96rem !important;
+  line-height: 1.05 !important;
+  font-weight: 600 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-header-polish
+:is(
+  .merp-ui-resource-value,
+  .merp-ui-header-value,
+  .merp-ui-level-value
+) {
+  font-size: 1rem !important;
+  line-height: 1.05 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-name-field {
+  font-size: 1rem !important;
+  line-height: 1.1 !important;
+  font-weight: 600 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-size-field {
+  font-size: .98rem !important;
+  line-height: 1.1 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button {
+  font-size: .92rem !important;
+  line-height: 1.05 !important;
+  min-height: 43px !important;
+  height: 43px !important;
+  padding: 4px 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+/* Traits supplémentaires : labels et valeurs sur une même échelle */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits {
+  --merp-trait-label-size: .88rem;
+  --merp-trait-value-size: .94rem;
+  --merp-trait-row-height: 26px;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-row {
+  min-height: var(--merp-trait-row-height) !important;
+  display: grid !important;
+  grid-template-columns: minmax(115px, 36%) minmax(0, 1fr) !important;
+  column-gap: 12px !important;
+  align-items: center !important;
+  padding-block: 2px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-label {
+  font-size: var(--merp-trait-label-size) !important;
+  line-height: 1.12 !important;
+  font-weight: 600 !important;
+  color: #303030 !important;
+  opacity: 1 !important;
+  white-space: normal !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-value {
+  font-size: var(--merp-trait-value-size) !important;
+  line-height: 1.12 !important;
+  color: #202020 !important;
+  opacity: 1 !important;
+  white-space: normal !important;
+}
+
+/* Les champs de valeur des Traits supplémentaires suivent la même taille. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-value
+:is(input, textarea, select) {
+  font-size: var(--merp-trait-value-size) !important;
+  line-height: 1.12 !important;
+}
+
+/* Évite que les icônes héritent de PragRoman ou de la taille des textes. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(.merp-ui-primary-resource-stack, .merp-ui-supplementary-traits)
+:is(i, .fa, .fas, .far, .fal, .fab, [class^="fa-"], [class*=" fa-"]) {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+  font-size: inherit !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.12 — Première page Actor compacte (-40 %)                    */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Réduction ciblée d'environ 40 % des tailles ajoutées par la 0.9.11.
+ * La géométrie native RMU reste prioritaire et les cadres sont rétablis.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor {
+  --merp-first-page-scale: .60;
+}
+
+/* Ressources principales : PV / PP / VDB / Initiative */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack {
+  --merp-resource-label-width: 82px !important;
+  --merp-resource-row-height: 20px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-row {
+  min-height: 20px !important;
+  height: 20px !important;
+  border: 1px solid #b3b3b3 !important;
+  background: #eeeeee !important;
+  box-sizing: border-box !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-label {
+  width: 82px !important;
+  min-width: 82px !important;
+  max-width: 82px !important;
+  padding-inline: 4px !important;
+  font-size: .72rem !important;
+  line-height: 1 !important;
+  border-right: 1px solid #b3b3b3 !important;
+  background: #e3e3e3 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-label[data-merp-ui-resource="initiative"] {
+  font-size: .68rem !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-value {
+  min-height: 18px !important;
+  height: 18px !important;
+  padding-inline: 4px !important;
+  font-size: .74rem !important;
+  line-height: 1 !important;
+}
+
+/* En-tête Actor */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-header-polish
+:is(
+  .merp-ui-header-label,
+  .merp-ui-level-label
+) {
+  font-size: .72rem !important;
+  line-height: 1 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-header-polish
+:is(
+  .merp-ui-header-value,
+  .merp-ui-level-value
+) {
+  font-size: .76rem !important;
+  line-height: 1 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-name-field {
+  font-size: .76rem !important;
+  line-height: 1 !important;
+  min-height: 20px !important;
+  height: 20px !important;
+  padding: 1px 4px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-size-field {
+  font-size: .74rem !important;
+  line-height: 1 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button {
+  font-size: .70rem !important;
+  min-height: 30px !important;
+  height: 30px !important;
+  padding: 2px 5px !important;
+  border: 1px solid #aaa !important;
+  border-radius: 2px !important;
+}
+
+/* Traits supplémentaires */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits {
+  --merp-trait-label-size: .70rem !important;
+  --merp-trait-value-size: .74rem !important;
+  --merp-trait-row-height: 20px !important;
+
+  border: 1px solid #b5b5b5 !important;
+  background: #f3f3f3 !important;
+  padding: 4px 6px !important;
+  box-sizing: border-box !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-row {
+  min-height: 20px !important;
+  height: auto !important;
+  grid-template-columns: minmax(96px, 34%) minmax(0, 1fr) !important;
+  column-gap: 8px !important;
+  padding-block: 1px !important;
+  border-bottom: 1px solid #d2d2d2 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-row:last-child {
+  border-bottom: 0 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-label {
+  font-size: .70rem !important;
+  line-height: 1.05 !important;
+  font-weight: 600 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-value,
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-supplementary-traits
+.merp-ui-trait-value :is(input, textarea, select) {
+  font-size: .74rem !important;
+  line-height: 1.05 !important;
+  min-height: 18px !important;
+}
+
+/* Titres de la première page */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .section-title,
+  .category-title,
+  .group-title,
+  .panel-title,
+  .list-title,
+  .rmu-category-title
+) {
+  font-size: .76rem !important;
+  min-height: 18px !important;
+  padding: 1px 6px !important;
+  border: 1px solid #aaa !important;
+  box-sizing: border-box !important;
+}
+
+/* Cadres de la première page : bordures visibles sans épaissir l'ensemble */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .characteristics,
+  .resistances,
+  .notes,
+  .description,
+  .merp-ui-supplementary-traits
+) {
+  border: 1px solid #b6b6b6 !important;
+  box-shadow: none !important;
+}
+
+/* Description et notes plus denses */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(.description, .notes, .editor-content, .ProseMirror) {
+  font-size: .68rem !important;
+  line-height: 1.15 !important;
+}
+
+/* Les tableaux de la première page restent lisibles et compacts */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(.characteristics, .resistances) :is(th, td) {
+  font-size: .68rem !important;
+  line-height: 1 !important;
+  padding: 2px 3px !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.13 — Correctifs fins de l'en-tête Actor                      */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Corrige uniquement :
+ * - l'ajustement du bouton « Changement de Niveau » ;
+ * - l'artefact visuel à droite des lignes PV / PP / VDB / Initiative ;
+ * - l'écart de taille entre valeur actuelle et valeur maximale.
+ */
+
+/* Supprime les dépassements et les pseudo-bordures parasites à droite. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack {
+  overflow: hidden !important;
+  border-radius: 2px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-row {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  border-right: 1px solid #b3b3b3 !important;
+  box-sizing: border-box !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-row > * {
+  box-sizing: border-box !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-value {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  width: auto !important;
+  overflow: hidden !important;
+  border-right: 0 !important;
+  background: #eeeeee !important;
+}
+
+/* Harmonise toutes les valeurs numériques et symboles dans la même cellule. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-value,
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-value :is(
+  span,
+  strong,
+  em,
+  input,
+  output,
+  div
+) {
+  font-size: .74rem !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  vertical-align: middle !important;
+}
+
+/* Les inputs de valeur actuelle ne doivent plus être visuellement plus petits. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-value input {
+  min-height: 16px !important;
+  height: 16px !important;
+  padding: 0 2px !important;
+  border: 0 !important;
+  background: transparent !important;
+  text-align: right !important;
+  font-family: var(--merp-font) !important;
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+  opacity: 1 !important;
+}
+
+/* Le séparateur "/" reste compact et aligné. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-primary-resource-stack
+.merp-ui-resource-value :is(.separator, [class*="separator"]) {
+  padding-inline: 2px !important;
+  font-size: .72rem !important;
+}
+
+/* Bouton Changement de Niveau : il remplit réellement son cadre parent. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 2px 6px !important;
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  font-size: .70rem !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  overflow: hidden !important;
+}
+
+/* Son conteneur ne doit pas ajouter de padding ou de hauteur parasite. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button:is(button, a),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button > :is(span, div) {
+  box-sizing: border-box !important;
+}
+
+/* Harmonise Niveau / PX et leurs valeurs avec les ressources de gauche. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-actor-header-polish
+:is(
+  .merp-ui-level-label,
+  .merp-ui-level-value
+) {
+  font-size: .74rem !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.14 — Bouton de niveau compact                               */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Correction strictement ciblée :
+ * - ne touche pas à PV / PP / VDB / Initiative ;
+ * - ne change pas la structure HTML ;
+ * - réduit uniquement l'emprise du bouton « Changement de Niveau ».
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button {
+  width: calc(100% - 18px) !important;
+  max-width: calc(100% - 18px) !important;
+  min-width: 0 !important;
+
+  height: 34px !important;
+  min-height: 34px !important;
+  max-height: 34px !important;
+
+  margin: 4px 9px !important;
+  padding: 2px 6px !important;
+
+  box-sizing: border-box !important;
+  align-self: center !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  font-size: .68rem !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  overflow: hidden !important;
+}
+
+/*
+ * Le conteneur du bouton garde sa hauteur native, sans étirer le bouton
+ * sur toute la colonne de droite.
+ */
+/*
+ * Le texte interne du bouton ne doit pas imposer une hauteur supplémentaire.
+ */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button > :is(span, div) {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.05 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.16 — Colonne Niveau / PX alignée, CSS uniquement             */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Aucun JavaScript, aucun :has(), aucun changement de structure.
+ * Le correctif agit seulement sur les cellules déjà marquées par la 0.9.14.
+ */
+
+/* Niveau et PX utilisent désormais exactement la même largeur de libellé. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-label {
+  flex: 0 0 82px !important;
+  width: 82px !important;
+  min-width: 82px !important;
+  max-width: 82px !important;
+
+  height: 22px !important;
+  min-height: 22px !important;
+  max-height: 22px !important;
+
+  margin: 0 !important;
+  padding: 2px 6px !important;
+  box-sizing: border-box !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+
+  font-size: .74rem !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+}
+
+/* La cellule située à droite du libellé occupe régulièrement l'espace restant. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-label + :is(input, span, div, output, strong) {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+
+  height: 22px !important;
+  min-height: 22px !important;
+  max-height: 22px !important;
+
+  margin: 0 !important;
+  padding: 2px 6px !important;
+  box-sizing: border-box !important;
+
+  font-size: .74rem !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  text-align: right !important;
+}
+
+/* Le champ PX reste explicitement cliquable et éditable. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-label + input {
+  pointer-events: auto !important;
+  cursor: text !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* Bouton légèrement plus grand que dans la 0.9.15, mais plus compact que 0.9.14. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-level-change-button {
+  width: 92% !important;
+  max-width: 92% !important;
+  min-width: 0 !important;
+
+  height: 31px !important;
+  min-height: 31px !important;
+  max-height: 31px !important;
+
+  margin: 3px auto 0 auto !important;
+  padding: 2px 7px !important;
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  font-size: .67rem !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+  white-space: normal !important;
+
+  pointer-events: auto !important;
+}
+
+
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.18 — Infobulles natives et champs États restaurés            */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Foundry garde le contrôle complet de l'ouverture et de la fermeture.
+ * Aucune propriété visibility, opacity, display ou position n'est imposée.
+ */
+#tooltip,
+.locked-tooltip {
+  color: #f4f4f4 !important;
+  background: #1d2530 !important;
+  border-color: #6c5ab5 !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .65) !important;
+  max-width: 360px;
+  white-space: normal !important;
+  line-height: 1.3 !important;
+}
+
+#tooltip :is(
+  p,
+  div,
+  span:not([class^="fa-"]):not([class*=" fa-"]),
+  strong,
+  em,
+  small,
+  .title,
+  .name,
+  .description,
+  .tooltip-content,
+  .tooltip-description
+),
+.locked-tooltip :is(
+  p,
+  div,
+  span:not([class^="fa-"]):not([class*=" fa-"]),
+  strong,
+  em,
+  small,
+  .title,
+  .name,
+  .description,
+  .tooltip-content,
+  .tooltip-description
+) {
+  color: #f4f4f4 !important;
+  -webkit-text-fill-color: #f4f4f4 !important;
+  text-shadow: none !important;
+}
+
+/*
+ * Tous les champs numériques hors en-tête retrouvent une taille exploitable.
+ * Cela couvre Fatigue, Saisie %, les trois lignes Rounds et la valeur
+ * située avant « Chancelant ».
+ */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+input[type="number"]:not(
+  .merp-ui-primary-resource-stack input
+):not(
+  [name*="experience"]
+):not(
+  [name*="level"]
+) {
+  min-width: 46px !important;
+  width: auto !important;
+  max-width: 74px !important;
+
+  min-height: 22px !important;
+  height: 22px !important;
+  max-height: 22px !important;
+
+  margin: 0 !important;
+  padding: 1px 5px !important;
+  box-sizing: border-box !important;
+
+  font-size: .72rem !important;
+  line-height: 1 !important;
+  text-align: center !important;
+
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+  background: #f7f7f7 !important;
+  border: 1px solid #b8b8b8 !important;
+  border-radius: 2px !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  appearance: auto !important;
+  -moz-appearance: auto !important;
+}
+
+/* Champs texte courts de l'onglet États. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  [data-tab*="state"],
+  [data-tab*="status"],
+  [class*="state"],
+  [class*="status"],
+  [class*="penalt"],
+  [class*="wound"],
+  [class*="injur"]
+)
+input[type="text"] {
+  min-height: 22px !important;
+  height: 22px !important;
+  max-height: 22px !important;
+  min-width: 46px !important;
+  padding: 1px 5px !important;
+  box-sizing: border-box !important;
+  font-size: .72rem !important;
+  line-height: 1 !important;
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+  background: #f7f7f7 !important;
+  border: 1px solid #b8b8b8 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* Cases à cocher : Chancelant, Renversé, Déséquilibré. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+input[type="checkbox"] {
+  width: 16px !important;
+  min-width: 16px !important;
+  max-width: 16px !important;
+  height: 16px !important;
+  min-height: 16px !important;
+  max-height: 16px !important;
+
+  margin: 0 5px 0 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+
+  appearance: auto !important;
+  -moz-appearance: auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  vertical-align: middle !important;
+}
+
+/* Empêche les lignes de l'onglet États de s'écraser verticalement. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  [data-tab*="state"],
+  [data-tab*="status"],
+  [class*="state"],
+  [class*="status"],
+  [class*="penalt"],
+  [class*="wound"],
+  [class*="injur"]
+)
+:is(
+  .form-group,
+  .form-field,
+  .field,
+  .property,
+  .row,
+  li
+) {
+  min-height: 24px !important;
+  align-items: center !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.19 — Notes et Description plus lisibles                      */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Ajustement purement typographique.
+ * Les zones Notes et Description de la première page utilisent désormais
+ * une taille proche de celle du tableau des Résistances.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .notes,
+  .description
+)
+:is(
+  textarea,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  .prosemirror-content
+),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .notes,
+  .description
+)
+:is(
+  textarea,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  .prosemirror-content
+) * {
+  font-size: .78rem !important;
+  line-height: 1.35 !important;
+}
+
+/* Fallback ciblé pour les éditeurs placés à l'intérieur des cadres. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .notes .editor,
+  .description .editor
+)
+:is(
+  .editor-content,
+  .ProseMirror
+),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .notes .editor,
+  .description .editor
+)
+:is(
+  .editor-content,
+  .ProseMirror
+) * {
+  font-size: .78rem !important;
+  line-height: 1.35 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.20 — Notes et Description ciblées précisément                */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Ciblage basé sur les classes réelles observées dans RMU :
+ * - Notes : .rmu-prose-creature-notes-editor
+ * - Description : .rmu-prose-editor
+ *
+ * Aucun changement de structure ni de comportement.
+ */
+
+/* Zone Notes des créatures. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-prose-creature-notes-editor
+:is(
+  .editor-content,
+  .ProseMirror
+),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-prose-creature-notes-editor
+:is(
+  .editor-content,
+  .ProseMirror
+) * {
+  font-size: .78rem !important;
+  line-height: 1.32 !important;
+}
+
+/* Zone Description des créatures. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-prose-editor:not(.rmu-prose-creature-notes-editor)
+:is(
+  .editor-content,
+  .ProseMirror
+),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-prose-editor:not(.rmu-prose-creature-notes-editor)
+:is(
+  .editor-content,
+  .ProseMirror
+) * {
+  font-size: .78rem !important;
+  line-height: 1.32 !important;
+}
+
+/* Listes et paragraphes : espacement régulier sans agrandir les cadres. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .rmu-prose-creature-notes-editor,
+  .rmu-prose-editor:not(.rmu-prose-creature-notes-editor)
+)
+:is(
+  p,
+  ul,
+  ol
+) {
+  margin-top: .25rem !important;
+  margin-bottom: .25rem !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+:is(
+  .rmu-prose-creature-notes-editor,
+  .rmu-prose-editor:not(.rmu-prose-creature-notes-editor)
+)
+li {
+  margin-bottom: .08rem !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.22 — Uniformisation réelle des lignes de compétences         */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Ciblage fondé sur la structure réelle RMU observée :
+ * TABLE.rmu-table
+ *   TR.rmu-filter-row.rmu-drag-skill
+ *     TD.rmu-filter-field
+ *
+ * Aucun JavaScript, aucune modification de structure.
+ */
+
+/* Toutes les lignes de compétences ont exactement la même hauteur. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+table.rmu-table
+tr.rmu-filter-row.rmu-drag-skill {
+  height: 26px !important;
+  min-height: 26px !important;
+  max-height: 26px !important;
+}
+
+/* Toutes les cellules suivent la même hauteur et le même rythme vertical. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+table.rmu-table
+tr.rmu-filter-row.rmu-drag-skill
+td {
+  height: 26px !important;
+  min-height: 26px !important;
+  max-height: 26px !important;
+
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  box-sizing: border-box !important;
+
+  font-size: .78rem !important;
+  line-height: 26px !important;
+  vertical-align: middle !important;
+}
+
+/* Nom de compétence : même taille et même alignement, quel que soit le contenu. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+table.rmu-table
+tr.rmu-filter-row.rmu-drag-skill
+td.rmu-filter-field,
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+table.rmu-table
+tr.rmu-filter-row.rmu-drag-skill
+td.rmu-filter-field :is(
+  a,
+  span,
+  label,
+  strong,
+  em
+) {
+  font-size: .78rem !important;
+  line-height: 26px !important;
+  min-height: 26px !important;
+  max-height: 26px !important;
+  vertical-align: middle !important;
+}
+
+/* Les cellules contenant +, rangs, bonus et étoile restent centrées. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+table.rmu-table
+tr.rmu-filter-row.rmu-drag-skill
+td :is(
+  button,
+  input,
+  i,
+  .fa,
+  .fas,
+  .far,
+  [class^="fa-"],
+  [class*=" fa-"]
+) {
+  line-height: 26px !important;
+  vertical-align: middle !important;
+}
+
+/* Badge Pro : hauteur stable, sans agrandir la ligne. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+table.rmu-table
+tr.rmu-filter-row.rmu-drag-skill
+:is(
+  .tag,
+  .badge,
+  .pro,
+  [class*="tag"],
+  [class*="badge"]
+) {
+  display: inline-flex !important;
+  align-items: center !important;
+
+  height: 16px !important;
+  min-height: 16px !important;
+  max-height: 16px !important;
+  line-height: 16px !important;
+
+  margin-left: 4px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  vertical-align: middle !important;
+  box-sizing: border-box !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.24 — Badge « Comp. profess. » ciblé précisément              */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Élément réel identifié dans RMU :
+ * span.rmu-profession-skill-marker.merp-ui-grey-surface-soft
+ *
+ * Le texte « Pro » est masqué visuellement puis remplacé par
+ * « Comp. profess. » sans modifier la donnée RMU.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+span.rmu-profession-skill-marker {
+  font-size: 0 !important;
+
+  width: 82px !important;
+  min-width: 82px !important;
+  max-width: 82px !important;
+
+  height: 16px !important;
+  min-height: 16px !important;
+  max-height: 16px !important;
+
+  margin-left: 4px !important;
+  padding: 0 4px !important;
+  box-sizing: border-box !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  line-height: 16px !important;
+  vertical-align: middle !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+span.rmu-profession-skill-marker::after {
+  content: "Comp. profess.";
+
+  font-family: var(--merp-font, "PragRoman"), serif !important;
+  font-size: .62rem !important;
+  line-height: 16px !important;
+  font-weight: 600 !important;
+
+  color: inherit !important;
+  white-space: nowrap !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.25 — Correction du badge « Comp. profess. »                  */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * La largeur fixe de 82 px débordait dans certaines cellules étroites.
+ * Le badge reprend désormais une largeur automatique et compacte.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+span.rmu-profession-skill-marker {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+
+  height: 16px !important;
+  min-height: 16px !important;
+  max-height: 16px !important;
+
+  margin-left: 3px !important;
+  padding: 0 3px !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  overflow: visible !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+span.rmu-profession-skill-marker::after {
+  content: "Comp. profess." !important;
+
+  font-family: var(--merp-font, "PragRoman"), serif !important;
+  font-size: .54rem !important;
+  line-height: 16px !important;
+  font-weight: 600 !important;
+
+  white-space: nowrap !important;
+  display: inline-block !important;
+}
+
+/* La cellule du nom reste assez souple pour accueillir le badge. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+td.rmu-filter-field {
+  overflow: visible !important;
+  white-space: nowrap !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.26 — Noms des Actors plus lisibles dans la barre latérale    */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Correction exclusivement cosmétique du répertoire Actors de Foundry.
+ * Aucun changement sur les feuilles Actor ni sur les données.
+ */
+
+/* Noms des Actors dans le répertoire de droite. */
+#actors .directory-list .directory-item.actor
+:is(
+  .entry-name,
+  .document-name,
+  .name,
+  h3,
+  h4,
+  a
+),
+#actors .directory-list .directory-item.document.actor
+:is(
+  .entry-name,
+  .document-name,
+  .name,
+  h3,
+  h4,
+  a
+) {
+  font-family: var(--merp-font, "PragRoman"), serif !important;
+  font-size: .82rem !important;
+  line-height: 1.15 !important;
+  font-weight: 600 !important;
+  color: #f4f4f4 !important;
+  -webkit-text-fill-color: #f4f4f4 !important;
+  opacity: 1 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Fallback pour les versions Foundry où le nom est directement dans la ligne. */
+#actors .directory-list
+:is(
+  .directory-item.actor,
+  .directory-item.document.actor
+) {
+  font-size: .82rem !important;
+  line-height: 1.15 !important;
+}
+
+/* Les lignes imbriquées conservent une hauteur suffisante pour la nouvelle taille. */
+#actors .directory-list
+:is(
+  .directory-item.actor,
+  .directory-item.document.actor
+) {
+  min-height: 40px !important;
+}
+
+/* Les portraits ne changent pas de taille et restent centrés. */
+#actors .directory-list
+:is(
+  .directory-item.actor,
+  .directory-item.document.actor
+)
+:is(
+  img,
+  .thumbnail,
+  .document-thumbnail
+) {
+  flex: 0 0 auto !important;
+  align-self: center !important;
+}
+
+
+/* MERP UI 0.9.27 — Barre latérale en niveaux de gris */
+
+:root {
+  --merp-grey-newest: #bdbdbd;
+  --merp-grey-recent: #969696;
+  --merp-grey-mid: #747474;
+  --merp-grey-old: #555555;
+  --merp-grey-dark: #3d3d3d;
+}
+
+/* Onglets de la colonne de droite */
+#sidebar-tabs .item,
+#sidebar-tabs [data-tab],
+#ui-right nav.tabs .item {
+  border-color: var(--merp-grey-dark) !important;
+  color: #d7d7d7 !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#sidebar-tabs .item:hover,
+#sidebar-tabs [data-tab]:hover,
+#ui-right nav.tabs .item:hover {
+  border-color: var(--merp-grey-recent) !important;
+  color: #fff !important;
+  background: rgba(255,255,255,.06) !important;
+}
+
+#sidebar-tabs .item.active,
+#sidebar-tabs [data-tab].active,
+#ui-right nav.tabs .item.active {
+  border-color: var(--merp-grey-newest) !important;
+  color: #fff !important;
+  background: rgba(255,255,255,.11) !important;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.08) !important;
+}
+
+/* Répertoires et combats */
+#ui-right .directory-item,
+#ui-right .combatant {
+  border-color: var(--merp-grey-dark) !important;
+}
+
+#ui-right .directory-item:hover,
+#ui-right .combatant:hover {
+  border-color: var(--merp-grey-recent) !important;
+  background: rgba(255,255,255,.055) !important;
+}
+
+#ui-right .directory-item.active,
+#ui-right .directory-item.selected,
+#ui-right .combatant.active {
+  border-color: var(--merp-grey-newest) !important;
+  box-shadow: inset 3px 0 0 var(--merp-grey-newest) !important;
+}
+
+/* Messages anciens */
+#chat-log .chat-message {
+  border-color: var(--merp-grey-old) !important;
+  box-shadow: inset 3px 0 0 var(--merp-grey-old) !important;
+}
+
+/* Douze derniers messages */
+#chat-log .chat-message:nth-last-child(-n + 12) {
+  border-color: var(--merp-grey-mid) !important;
+  box-shadow: inset 3px 0 0 var(--merp-grey-mid) !important;
+}
+
+/* Six derniers messages */
+#chat-log .chat-message:nth-last-child(-n + 6) {
+  border-color: var(--merp-grey-recent) !important;
+  box-shadow: inset 3px 0 0 var(--merp-grey-recent) !important;
+}
+
+/* Deux derniers messages */
+#chat-log .chat-message:nth-last-child(-n + 2) {
+  border-color: var(--merp-grey-newest) !important;
+  box-shadow: inset 3px 0 0 var(--merp-grey-newest) !important;
+}
+
+/* Survol et sélection */
+#chat-log .chat-message:hover,
+#chat-log .chat-message.selected,
+#chat-log .chat-message.active {
+  border-color: #d0d0d0 !important;
+  box-shadow:
+    inset 4px 0 0 #d0d0d0,
+    0 0 0 1px rgba(208,208,208,.35) !important;
+}
+
+/* Cartes internes RMU et jets */
+#chat-log .chat-message :is(
+  .dice-roll,
+  .dice-result,
+  .dice-formula,
+  .dice-total,
+  .card,
+  .chat-card,
+  .rmu-chat-card,
+  .rmu-card
+) {
+  border-color: var(--merp-grey-mid) !important;
+  box-shadow: none !important;
+}
+
+/* Boutons et contrôles du panneau */
+#ui-right :is(button, .button, .control, .chat-control-icon, .sidebar-control) {
+  border-color: var(--merp-grey-dark) !important;
+  box-shadow: none !important;
+}
+
+#ui-right :is(button, .button, .control, .chat-control-icon, .sidebar-control):hover {
+  border-color: var(--merp-grey-recent) !important;
+}
+
+/* Scrollbars */
+#ui-right,
+#ui-right * {
+  scrollbar-color: var(--merp-grey-mid) #1d1d1d;
+}
+
+#ui-right *::-webkit-scrollbar-thumb {
+  background: var(--merp-grey-mid) !important;
+  border-color: #1d1d1d !important;
+}
+
+#ui-right *::-webkit-scrollbar-thumb:hover {
+  background: var(--merp-grey-recent) !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.28 — Cartes RMU du chat réellement passées en gris           */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Ciblage fondé sur les classes réelles observées dans la colonne de droite :
+ *
+ * .rmu-primary-container__title
+ * .rmu-primary-container__title-details-container
+ * .rmu-primary-container__content
+ * .rmu-primary-card-container
+ * .rmu-primary-chat-card__content
+ *
+ * Aucun JavaScript, aucune modification de structure.
+ */
+
+#chat-log .chat-message .rmu-primary-chat-card__content,
+#chat-log .chat-message .rmu-primary-card-container,
+#chat-log .chat-message .rmu-primary-container__content,
+#chat-log .chat-message .rmu-primary-container__title-details-container,
+#chat-log .chat-message .rmu-primary-container__title {
+  --rmu-primary-color: #727272 !important;
+  --rmu-secondary-color: #595959 !important;
+  --rmu-accent-color: #8e8e8e !important;
+  --rmu-highlight-color: #b7b7b7 !important;
+
+  border-color: #6f6f6f !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Cadre principal de la carte RMU. */
+#chat-log .chat-message .rmu-primary-chat-card__content {
+  border: 1px solid #646464 !important;
+  border-left: 4px solid #8e8e8e !important;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(110, 110, 110, .13),
+      rgba(50, 50, 50, .07)
+    ) !important;
+}
+
+/* Conteneur intérieur. */
+#chat-log .chat-message .rmu-primary-card-container {
+  border-color: #686868 !important;
+  background-color: transparent !important;
+}
+
+/* Bande et contenu de titre. */
+#chat-log .chat-message .rmu-primary-container__title-details-container,
+#chat-log .chat-message .rmu-primary-container__title {
+  border-color: #777777 !important;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(118, 118, 118, .28),
+      rgba(71, 71, 71, .10)
+    ) !important;
+  color: #eeeeee !important;
+  -webkit-text-fill-color: #eeeeee !important;
+}
+
+/* Corps de la carte. */
+#chat-log .chat-message .rmu-primary-container__content {
+  border-color: #606060 !important;
+  background-color: rgba(0, 0, 0, .08) !important;
+}
+
+/* Éléments secondaires internes qui héritaient encore du bleu. */
+#chat-log .chat-message
+.rmu-primary-chat-card__content
+:is(
+  header,
+  section,
+  footer,
+  .rmu-primary-container,
+  .rmu-secondary-container,
+  .rmu-card,
+  .rmu-card-row,
+  .rmu-result,
+  .rmu-result-row,
+  .rmu-roll-result
+) {
+  border-color: #666666 !important;
+  box-shadow: none !important;
+}
+
+/* Bandes verticales, séparateurs et accents internes. */
+#chat-log .chat-message
+.rmu-primary-chat-card__content
+:is(
+  [class*="accent"],
+  [class*="border"],
+  [class*="stripe"],
+  [class*="sidebar"],
+  [class*="indicator"]
+) {
+  border-color: #7a7a7a !important;
+  background-color: #737373 !important;
+}
+
+/* Liens et valeurs mises en évidence : gris clair au lieu du bleu. */
+#chat-log .chat-message
+.rmu-primary-chat-card__content
+:is(
+  a,
+  .clickable,
+  .rollable,
+  [data-action]
+) {
+  color: #d4d4d4 !important;
+  -webkit-text-fill-color: #d4d4d4 !important;
+  text-shadow: none !important;
+}
+
+/* Dégradé selon l'ancienneté appliqué cette fois au vrai cadre RMU. */
+#chat-log .chat-message
+.rmu-primary-chat-card__content {
+  border-left-color: #555555 !important;
+}
+
+#chat-log .chat-message:nth-last-child(-n + 12)
+.rmu-primary-chat-card__content {
+  border-left-color: #747474 !important;
+}
+
+#chat-log .chat-message:nth-last-child(-n + 6)
+.rmu-primary-chat-card__content {
+  border-left-color: #969696 !important;
+}
+
+#chat-log .chat-message:nth-last-child(-n + 2)
+.rmu-primary-chat-card__content {
+  border-left-color: #bdbdbd !important;
+}
+
+#chat-log .chat-message:hover
+.rmu-primary-chat-card__content {
+  border-left-color: #d0d0d0 !important;
+  border-color: #a5a5a5 !important;
+}
+
+
+/* MERP UI 0.9.29 — Variables RMU du chat en niveaux de gris */
+
+#chat-log,
+#chat-log .chat-message,
+#chat-log .message-content,
+#chat-log .rmu-primary-chat-card__content,
+#chat-log .rmu-primary-card-container {
+  --rmu-background-level1: #4d4d4d !important;
+  --rmu-background-level2: #303030 !important;
+  --rmu-background-canvas: #242424 !important;
+  --rmu-fieldset-background: #303030 !important;
+
+  --rmu-border: #8a8a8a !important;
+  --rmu-border-standard: 0.5px solid #8a8a8a !important;
+  --rmu-border-focus: 1px solid #9e9e9e !important;
+  --rmu-selected-border: #b7b7b7 !important;
+
+  --rmu-table-row-selected: #666666 !important;
+  --rmu-table-row-border: #707070 !important;
+  --rmu-background-card-wrapper-legend: #666666 !important;
+
+  --rmu-chat-image-background: #777777 !important;
+  --rmu-chat-image-border: #666666 !important;
+  --rmu-chat-sidebar-primary-background: #6c6c6c !important;
+  --rmu-chat-message-sender: #b3b3b3 !important;
+
+  --rmu-input-border: #8c8c8c !important;
+  --rmu-prose-editor-button-background-active: #686868 !important;
+  --rmu-accent-color1-900: #454545 !important;
+  --rmu-accent-color2-900: #565656 !important;
+  --rmu-accent-color2-400: #a3a3a3 !important;
+  --rmu-combat-control-button-background: #414141 !important;
+  --rmu-content-link-background: #666666 !important;
+  --rmu-tab-background-ribbon: #565656 !important;
+}
+
+#chat-log .chat-message
+:is(
+  .rmu-primary-chat-card__content,
+  .rmu-primary-card-container,
+  .rmu-primary-container__content,
+  .rmu-primary-container__title-details-container,
+  .rmu-primary-container__title
+) {
+  border-color: var(--rmu-border) !important;
+  box-shadow: none !important;
+}
+
+#chat-log .chat-message .rmu-primary-chat-card__content {
+  border-left: 4px solid #6f6f6f !important;
+}
+
+#chat-log .chat-message:nth-last-child(-n + 12)
+.rmu-primary-chat-card__content {
+  border-left-color: #777777 !important;
+}
+
+#chat-log .chat-message:nth-last-child(-n + 6)
+.rmu-primary-chat-card__content {
+  border-left-color: #969696 !important;
+}
+
+#chat-log .chat-message:nth-last-child(-n + 2)
+.rmu-primary-chat-card__content {
+  border-left-color: #bdbdbd !important;
+}
+
+#chat-log .chat-message
+:is(
+  .rmu-primary-container__title,
+  .rmu-primary-container__title-details-container,
+  [class*="rmu-chat-sidebar"],
+  [class*="rmu-card-wrapper-legend"]
+) {
+  background-color: #595959 !important;
+  border-color: #7a7a7a !important;
+  color: #eeeeee !important;
+  -webkit-text-fill-color: #eeeeee !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.30 — Palettes RMU bleue et violette en noir et blanc         */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Remplacement global des deux palettes d'accent RMU :
+ * - accent-color1 : ancien bleu
+ * - accent-color2 : ancien violet
+ *
+ * Les couleurs fonctionnelles (succès, avertissement, danger) restent intactes.
+ */
+
+body.game.system-rmu.theme-dark,
+body.game.system-rmu.theme-dark.theme-spell-law {
+  /* Ancienne palette bleue → gris froids */
+  --rmu-accent-color1-050: #f4f4f4 !important;
+  --rmu-accent-color1-100: #e5e5e5 !important;
+  --rmu-accent-color1-200: #d2d2d2 !important;
+  --rmu-accent-color1-300: #bdbdbd !important;
+  --rmu-accent-color1-400: #a3a3a3 !important;
+  --rmu-accent-color1-500: #888888 !important;
+  --rmu-accent-color1-600: #707070 !important;
+  --rmu-accent-color1-700: #5a5a5a !important;
+  --rmu-accent-color1-800: #444444 !important;
+  --rmu-accent-color1-900: #303030 !important;
+  --rmu-accent-color1-1000: #1d1d1d !important;
+
+  /* Ancienne palette violette → gris légèrement plus chauds */
+  --rmu-accent-color2-050: #fafafa !important;
+  --rmu-accent-color2-100: #ececec !important;
+  --rmu-accent-color2-200: #d8d8d8 !important;
+  --rmu-accent-color2-300: #c2c2c2 !important;
+  --rmu-accent-color2-400: #aaaaaa !important;
+  --rmu-accent-color2-500: #919191 !important;
+  --rmu-accent-color2-600: #787878 !important;
+  --rmu-accent-color2-700: #626262 !important;
+  --rmu-accent-color2-800: #4c4c4c !important;
+  --rmu-accent-color2-900: #373737 !important;
+  --rmu-accent-color2-1000: #242424 !important;
+
+  /* Bases explicites pour les thèmes qui recalculent les nuances. */
+  --rmu-accent-color1-base: #888888 !important;
+  --rmu-accent-color2-base: #919191 !important;
+
+  /* Variables secondaires directement dérivées des anciennes couleurs. */
+  --rmu-background-canvas: #1d1d1d !important;
+  --rmu-background-card: #303030 !important;
+  --rmu-background-card-wrapper: #444444 !important;
+  --rmu-background-card-wrapper-legend: #5a5a5a !important;
+  --rmu-background-button: #787878 !important;
+  --rmu-background-button-active: #626262 !important;
+  --rmu-background-option-hover: #444444 !important;
+  --rmu-background-hr: #d2d2d2 !important;
+
+  --rmu-background-level1: #444444 !important;
+  --rmu-background-level2: #1d1d1d !important;
+  --rmu-background-level3: #303030 !important;
+
+  --rmu-border: #a3a3a3 !important;
+  --rmu-image-border: #bdbdbd !important;
+  --rmu-input-border: #888888 !important;
+  --rmu-selected-border: #bdbdbd !important;
+  --rmu-scrollbar-color: #707070 !important;
+  --rmu-table-row-border: #5a5a5a !important;
+  --rmu-table-row-selected: #5a5a5a !important;
+  --rmu-box-shadow: #a3a3a3 !important;
+
+  --rmu-action-background: #626262 !important;
+  --rmu-action-border: #d8d8d8 !important;
+  --rmu-action-icon: #d8d8d8 !important;
+  --rmu-note-background: #626262 !important;
+  --rmu-content-link-background: #626262 !important;
+  --rmu-color-shadow: #c2c2c2 !important;
+
+  /* Chat RMU */
+  --rmu-chat-primary-background-level1: #303030 !important;
+  --rmu-chat-secondary-background-level1: #373737 !important;
+  --rmu-chat-primary-background-level2: #1d1d1d !important;
+  --rmu-chat-secondary-background-level2: #242424 !important;
+  --rmu-chat-primary-background-level3: #303030 !important;
+  --rmu-chat-secondary-background-level3: #373737 !important;
+  --rmu-chat-whisper-background: #373737 !important;
+  --rmu-chat-sidebar-primary-background: #707070 !important;
+  --rmu-chat-sidebar-secondary-background: #787878 !important;
+  --rmu-chat-message-sender: #a3a3a3 !important;
+  --rmu-chat-image-background: #a3a3a3 !important;
+  --rmu-chat-image-border: #707070 !important;
+
+  /* Combat, onglets et éditeur */
+  --rmu-combat-window-header-background: #303030 !important;
+  --rmu-combat-header-background: #444444 !important;
+  --rmu-combat-control-button-background: #303030 !important;
+  --rmu-combat-control-button-border: #d8d8d8 !important;
+  --rmu-token-background: #444444 !important;
+  --rmu-prose-editor-background: #444444 !important;
+  --rmu-prose-editor-button-background-active: #707070 !important;
+  --rmu-tab-background-ribbon: #373737 !important;
+  --rmu-tab-active-ribbon: #fafafa !important;
+  --rmu-tab-inactive-ribbon: #d8d8d8 !important;
+  --rmu-tab-sidebar-text: #fafafa !important;
+  --rmu-text-hyperlink: #d8d8d8 !important;
+}
+
+/* Même surcharge sur l'élément racine, pour neutraliser les variables inline. */
+html body.game.system-rmu.theme-dark {
+  --rmu-accent-color1-050: #f4f4f4 !important;
+  --rmu-accent-color1-100: #e5e5e5 !important;
+  --rmu-accent-color1-200: #d2d2d2 !important;
+  --rmu-accent-color1-300: #bdbdbd !important;
+  --rmu-accent-color1-400: #a3a3a3 !important;
+  --rmu-accent-color1-500: #888888 !important;
+  --rmu-accent-color1-600: #707070 !important;
+  --rmu-accent-color1-700: #5a5a5a !important;
+  --rmu-accent-color1-800: #444444 !important;
+  --rmu-accent-color1-900: #303030 !important;
+  --rmu-accent-color1-1000: #1d1d1d !important;
+
+  --rmu-accent-color2-050: #fafafa !important;
+  --rmu-accent-color2-100: #ececec !important;
+  --rmu-accent-color2-200: #d8d8d8 !important;
+  --rmu-accent-color2-300: #c2c2c2 !important;
+  --rmu-accent-color2-400: #aaaaaa !important;
+  --rmu-accent-color2-500: #919191 !important;
+  --rmu-accent-color2-600: #787878 !important;
+  --rmu-accent-color2-700: #626262 !important;
+  --rmu-accent-color2-800: #4c4c4c !important;
+  --rmu-accent-color2-900: #373737 !important;
+  --rmu-accent-color2-1000: #242424 !important;
+}
+
+
+/* ========================================================================= */
+/* MERP UI 1.0.0 — Palette centrale MERP                                    */
+/* ========================================================================= */
+
+/*
+ * Version 1.0 :
+ * toutes les couleurs principales du thème sont centralisées dans des
+ * variables --merp-* puis réinjectées dans les variables RMU.
+ *
+ * Pour personnaliser le thème, il suffit désormais de modifier cette palette.
+ */
+
+:root {
+  /* Palette structurelle */
+  --merp-black: #161616;
+  --merp-charcoal: #242424;
+  --merp-slate-dark: #333333;
+  --merp-slate: #4a4a4a;
+  --merp-steel-dark: #5f5f5f;
+  --merp-steel: #787878;
+  --merp-silver-dark: #9a9a9a;
+  --merp-silver: #b8b8b8;
+  --merp-pearl: #d8d8d8;
+  --merp-paper: #f4f4f4;
+  --merp-white: #fafafa;
+
+  /* Accents sobres */
+  --merp-gold: #a27b39;
+  --merp-ink: #202020;
+  --merp-muted: #666666;
+
+  /* Surfaces */
+  --merp-surface-0: var(--merp-black);
+  --merp-surface-1: var(--merp-charcoal);
+  --merp-surface-2: var(--merp-slate-dark);
+  --merp-surface-3: var(--merp-slate);
+  --merp-border-dark: var(--merp-steel-dark);
+  --merp-border: var(--merp-steel);
+  --merp-border-light: var(--merp-silver);
+  --merp-text: var(--merp-paper);
+  --merp-text-strong: var(--merp-white);
+  --merp-text-muted: var(--merp-silver-dark);
+}
+
+/* Palette monochrome RMU construite à partir des variables MERP */
+body.game.system-rmu.theme-dark,
+body.game.system-rmu.theme-dark.theme-spell-law {
+  --rmu-accent-color1-050: var(--merp-paper) !important;
+  --rmu-accent-color1-100: #e5e5e5 !important;
+  --rmu-accent-color1-200: #d2d2d2 !important;
+  --rmu-accent-color1-300: var(--merp-silver) !important;
+  --rmu-accent-color1-400: #a3a3a3 !important;
+  --rmu-accent-color1-500: #888888 !important;
+  --rmu-accent-color1-600: #707070 !important;
+  --rmu-accent-color1-700: #5a5a5a !important;
+  --rmu-accent-color1-800: #444444 !important;
+  --rmu-accent-color1-900: #303030 !important;
+  --rmu-accent-color1-1000: #1d1d1d !important;
+
+  --rmu-accent-color2-050: var(--merp-white) !important;
+  --rmu-accent-color2-100: #ececec !important;
+  --rmu-accent-color2-200: var(--merp-pearl) !important;
+  --rmu-accent-color2-300: #c2c2c2 !important;
+  --rmu-accent-color2-400: #aaaaaa !important;
+  --rmu-accent-color2-500: #919191 !important;
+  --rmu-accent-color2-600: var(--merp-steel) !important;
+  --rmu-accent-color2-700: #626262 !important;
+  --rmu-accent-color2-800: #4c4c4c !important;
+  --rmu-accent-color2-900: #373737 !important;
+  --rmu-accent-color2-1000: var(--merp-charcoal) !important;
+
+  --rmu-accent-color1-base: #888888 !important;
+  --rmu-accent-color2-base: #919191 !important;
+
+  --rmu-background-canvas: var(--merp-surface-0) !important;
+  --rmu-background-card: var(--merp-surface-2) !important;
+  --rmu-background-card-wrapper: var(--merp-surface-3) !important;
+  --rmu-background-card-wrapper-legend: var(--merp-steel-dark) !important;
+  --rmu-background-button: var(--merp-steel) !important;
+  --rmu-background-button-active: #626262 !important;
+  --rmu-background-option-hover: #444444 !important;
+  --rmu-background-hr: #d2d2d2 !important;
+
+  --rmu-background-level1: #444444 !important;
+  --rmu-background-level2: #1d1d1d !important;
+  --rmu-background-level3: #303030 !important;
+
+  --rmu-border: #a3a3a3 !important;
+  --rmu-image-border: var(--merp-silver) !important;
+  --rmu-input-border: #888888 !important;
+  --rmu-selected-border: var(--merp-silver) !important;
+  --rmu-scrollbar-color: #707070 !important;
+  --rmu-table-row-border: #5a5a5a !important;
+  --rmu-table-row-selected: #5a5a5a !important;
+  --rmu-box-shadow: #a3a3a3 !important;
+
+  --rmu-action-background: #626262 !important;
+  --rmu-action-border: var(--merp-pearl) !important;
+  --rmu-action-icon: var(--merp-pearl) !important;
+  --rmu-note-background: #626262 !important;
+  --rmu-content-link-background: #626262 !important;
+  --rmu-color-shadow: #c2c2c2 !important;
+
+  --rmu-chat-primary-background-level1: #303030 !important;
+  --rmu-chat-secondary-background-level1: #373737 !important;
+  --rmu-chat-primary-background-level2: #1d1d1d !important;
+  --rmu-chat-secondary-background-level2: var(--merp-charcoal) !important;
+  --rmu-chat-primary-background-level3: #303030 !important;
+  --rmu-chat-secondary-background-level3: #373737 !important;
+  --rmu-chat-whisper-background: #373737 !important;
+  --rmu-chat-sidebar-primary-background: #707070 !important;
+  --rmu-chat-sidebar-secondary-background: var(--merp-steel) !important;
+  --rmu-chat-message-sender: #a3a3a3 !important;
+  --rmu-chat-image-background: #a3a3a3 !important;
+  --rmu-chat-image-border: #707070 !important;
+
+  --rmu-combat-window-header-background: #303030 !important;
+  --rmu-combat-header-background: #444444 !important;
+  --rmu-combat-control-button-background: #303030 !important;
+  --rmu-combat-control-button-border: var(--merp-pearl) !important;
+  --rmu-token-background: #444444 !important;
+  --rmu-prose-editor-background: #444444 !important;
+  --rmu-prose-editor-button-background-active: #707070 !important;
+  --rmu-tab-background-ribbon: #373737 !important;
+  --rmu-tab-active-ribbon: var(--merp-white) !important;
+  --rmu-tab-inactive-ribbon: var(--merp-pearl) !important;
+  --rmu-tab-sidebar-text: var(--merp-white) !important;
+  --rmu-text-hyperlink: var(--merp-pearl) !important;
+}
+
+/* Sécurité contre les variables inline injectées par RMU */
+html body.game.system-rmu.theme-dark {
+  --rmu-accent-color1-base: #888888 !important;
+  --rmu-accent-color2-base: #919191 !important;
+}
+
+/* Accent doré MERP réservé aux éléments explicitement thémés */
+.merp-ui-gold-accent {
+  color: var(--merp-gold) !important;
+  border-color: var(--merp-gold) !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 1.1.2 — Badge de compétence professionnelle                      */
+/* Le texte est désormais remplacé dans le DOM par merp-ui.js.              */
+/* ------------------------------------------------------------------------- */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+span.rmu-profession-skill-marker {
+  font-size: .54rem !important;
+  line-height: 16px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table
+span.rmu-profession-skill-marker::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 1.1.3 — Nom anglais original dans les infobulles de compétences */
+/* ------------------------------------------------------------------------- */
+
+:is(#tooltip, .locked-tooltip, .rmu-tooltip, .rmu-skill-tooltip, [role="tooltip"])
+  .merp-ui-tooltip-original-name {
+  display: block !important;
+  width: 100% !important;
+  margin: .55rem 0 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  text-align: right !important;
+  font-size: .62rem !important;
+  line-height: 1.15 !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  letter-spacing: .01em !important;
+  color: var(--merp-tooltip-fg, #e6e1d7) !important;
+  opacity: .68 !important;
+  white-space: normal !important;
+}
+
+/* MERP UI 1.2.0 — Infobulles des Catégories de Compétences */
+:is(#tooltip, .locked-tooltip, .rmu-tooltip, [role="tooltip"])
+  .merp-ui-category-tooltip-description {
+  white-space: normal !important;
+  line-height: 1.28 !important;
+}
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 1.2.4 — Hauteurs homogènes des lignes de Compétences             */
+/* ------------------------------------------------------------------------- */
+
+/* Lignes ordinaires : une hauteur constante et un centrage vertical net. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-drag-skill {
+  height: 34px !important;
+  min-height: 34px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-drag-skill > td {
+  height: 34px !important;
+  min-height: 34px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  vertical-align: middle !important;
+  line-height: 1.15 !important;
+  box-sizing: border-box !important;
+}
+
+/* En-têtes de Catégories : bande plus haute, cohérente avec les compétences. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-skill-group {
+  height: 30px !important;
+  min-height: 30px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-skill-group > td {
+  height: 30px !important;
+  min-height: 30px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  vertical-align: middle !important;
+  line-height: 1.1 !important;
+  box-sizing: border-box !important;
+}
+
+/* Le libellé de catégorie reste lisible sans modifier sa typographie. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-skill-group > td:nth-child(3) {
+  white-space: normal !important;
+}
+
+
+/* Liens de documents et jets intégrés dans les Journaux :
+   fond gris clair contrasté, texte noir et survol renforcé. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .merp-ui-journal
+) :is(a.content-link, a.inline-roll) {
+  color: #171717 !important;
+  background: #d2d2d2 !important;
+  border: 1px solid #8a8a8a !important;
+  border-radius: 4px !important;
+  padding: 1px 5px !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .merp-ui-journal
+) :is(a.content-link, a.inline-roll):hover {
+  color: #000000 !important;
+  background: #bcbcbc !important;
+  border-color: #656565 !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .08) !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .merp-ui-journal
+) :is(a.content-link, a.inline-roll) i {
+  color: #4a4a4a !important;
+}
+
+/* MERP-RMU rules journals */
+.merp-rmu-rules .merp-rmu-rule-summary {
+  border: 1px solid rgba(92, 66, 34, 0.55);
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  margin: 0.6rem 0 1.2rem;
+  background: rgba(114, 85, 45, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.18);
+}
+.merp-rmu-rules .merp-rmu-rule-summary h2 { margin-top: 0; }
+.merp-rmu-rules table { width: 100%; margin: 0.65rem 0 1rem; border-collapse: collapse; }
+.merp-rmu-rules th, .merp-rmu-rules td { padding: 0.35rem 0.5rem; vertical-align: top; }
+.merp-rmu-rules .merp-rmu-source { font-size: 0.92em; opacity: 0.82; }
+
+/* MERP-RMU magic automation */
+.merp-rmu-command-word-note {
+  margin-top: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border-left: 3px solid var(--color-border-highlight, #9f8a5a);
+  background: rgba(0, 0, 0, 0.14);
+  font-size: 0.9em;
+  line-height: 1.25;
+}
+.merp-rmu-magic-card {
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(145, 120, 70, 0.7);
+  border-radius: 4px;
+}
+.merp-rmu-magic-card h3 { margin: 0 0 0.45rem; }
+.merp-rmu-magic-card p { margin: 0.3rem 0; }
+.merp-rmu-shadow-alert { font-weight: 700; }
+.merp-rmu-corruption-check {
+  margin-top: 0.45rem;
+  width: 100%;
+}
+
+/* MERP-RMU — Corruption on RMU Actor Conditions tab */
+.merp-rmu-corruption-row {
+  margin-top: 0.15rem;
+}
+.merp-rmu-corruption-row .merp-rmu-corruption-spinner {
+  width: 4.4rem;
+  min-width: 4.4rem;
+}
+.merp-rmu-corruption-row .merp-rmu-corruption-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+}
+.merp-rmu-corruption-row .merp-rmu-corruption-status {
+  margin-left: auto;
+  padding: 0.08rem 0.35rem;
+  border: 1px solid rgba(92, 66, 34, 0.45);
+  border-radius: 999px;
+  font-size: 0.78em;
+  line-height: 1.2;
+  opacity: 0.82;
+  white-space: nowrap;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 1.6.0-alpha.4 — Compendiums                                      */
+/* Les libellés des packs sont désormais monolingues selon la langue active. */
+/* Légère réduction supplémentaire pour garder les cartes lisibles.          */
+/* ------------------------------------------------------------------------- */
+
+#compendium :is(
+  .directory-item,
+  .compendium-pack,
+  .compendium
+) :is(
+  .entry-name,
+  .document-name,
+  .compendium-name,
+  h3,
+  h4
+) {
+  font-size: 0.88em !important;
+  line-height: 1.08 !important;
+}
+
+
+
+/* MERP UI 1.6.0-alpha.6 — Journal Compendium headers */
+.merp-ui-journal-compendium .window-header .window-title,
+.merp-ui-journal-compendium .window-title {
+  flex: 1 1 auto !important;
+  text-align: center !important;
+}
+
+
+
+/* MERP UI 1.6.0-alpha.8 — Long Herbs & Substances pack label */
+#compendium [data-pack="merp-ui.merp-rmu-herbs"] :is(
+  .compendium-name,
+  .entry-name,
+  .document-name,
+  h3,
+  h4
+),
+#compendium [data-entry-id="merp-ui.merp-rmu-herbs"] :is(
+  .compendium-name,
+  .entry-name,
+  .document-name,
+  h3,
+  h4
+) {
+  width: 100% !important;
+  text-align: center !important;
+  justify-content: center !important;
+  font-size: 0.82em !important;
+  line-height: 1.02 !important;
+}
+
+
+
+/* MERP UI 1.6.0-alpha.12 — Welcome chat card */
+.merp-ui-welcome-chat-card {
+  padding: 0.35rem 0.15rem;
+}
+
+.merp-ui-welcome-chat-card h3 {
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.merp-ui-welcome-chat-card ul {
+  margin: 0.45rem 0 0.65rem 1.1rem;
+}
+
+.merp-ui-welcome-chat-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+}
+
+.merp-ui-welcome-chat-actions button {
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+
+
+
+

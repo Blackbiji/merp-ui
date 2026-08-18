@@ -1,0 +1,64 @@
+{
+  "key": "the-slain",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Proie désignée (The Slain)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "the-slain",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "The Slain",
+      "cost": "-20",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Proie désignée (The Slain)</h1><h2>Description</h2><p>Vous présentez une vulnérabilité particulière à une race déterminée. Le <strong>MJ choisit cette race</strong> lors de l’acquisition du Défaut ; elle ne peut pas être la race de votre propre personnage. Vous pouvez être vulnérable à une race apparentée à la vôtre, comme un Elfe vis-à-vis des Demi-Elfes.</p><p>Chaque fois qu’un membre de cette race vous inflige un <strong>Critique</strong>, celui-ci est résolu comme un <strong>Critique de Pourfendeur (Slaying Critical)</strong>. Cette faiblesse ne dépend ni de l’arme ni de l’attaque employée : c’est l’identité de l’attaquant qui rend le Critique particulièrement meurtrier.</p><h2>Adaptation MERP-RMU</h2><p>RMU conservant les Critiques de Pourfendeur, aucune conversion mécanique supplémentaire n’est nécessaire. La race choisie doit être notée lors de l’acquisition du Défaut.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_the-slain.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Proie désignée (The Slain)",
+      "system": {
+        "description": "<h1>Proie désignée (The Slain)</h1><h2>Description</h2><p>Vous présentez une vulnérabilité particulière à une race déterminée. Le <strong>MJ choisit cette race</strong> lors de l’acquisition du Défaut ; elle ne peut pas être la race de votre propre personnage. Vous pouvez être vulnérable à une race apparentée à la vôtre, comme un Elfe vis-à-vis des Demi-Elfes.</p><p>Chaque fois qu’un membre de cette race vous inflige un <strong>Critique</strong>, celui-ci est résolu comme un <strong>Critique de Pourfendeur (Slaying Critical)</strong>. Cette faiblesse ne dépend ni de l’arme ni de l’attaque employée : c’est l’identité de l’attaquant qui rend le Critique particulièrement meurtrier.</p><h2>Adaptation MERP-RMU</h2><p>RMU conservant les Critiques de Pourfendeur, aucune conversion mécanique supplémentaire n’est nécessaire. La race choisie doit être notée lors de l’acquisition du Défaut.</p>"
+      }
+    },
+    "en": {
+      "name": "The Slain",
+      "system": {
+        "description": "<h1>The Slain</h1><h2>Description</h2><p>You possess a particular vulnerability to a chosen race. The <strong>GM chooses that race</strong> when the Flaw is acquired; it cannot be your own race. You may be vulnerable to a race related to your own, such as an Elf being vulnerable to Half-elves.</p><p>Whenever a member of that race inflicts a <strong>Critical</strong> on you, it is resolved as a <strong>Slaying Critical</strong>. This weakness does not depend on the weapon or attack used: it is the attacker’s identity that makes the Critical especially deadly.</p><h2>MERP-RMU Adaptation</h2><p>Because RMU retains Slaying Criticals, no additional mechanical conversion is required. The chosen race must be recorded when the Flaw is acquired.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

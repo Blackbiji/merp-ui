@@ -1,0 +1,38 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+feature liga {
+    sub f f i by ffi;
+    sub f f l by ffl;
+    sub T h by Th;
+    sub S t by St;
+} liga;
+
+feature smcp {
+    sub a by A.sc;
+    sub b by B.sc;
+    sub c by C.sc;
+    sub d by D.sc;
+    sub e by E.sc;
+    sub f by F.sc;
+    sub g by G.sc;
+    sub h by H.sc;
+    sub i by I.sc;
+    sub j by J.sc;
+    sub k by K.sc;
+    sub l by L.sc;
+    sub m by M.sc;
+    sub n by N.sc;
+    sub o by O.sc;
+    sub p by P.sc;
+    sub q by Q.sc;
+    sub r by R.sc;
+    sub s by S.sc;
+    sub t by T.sc;
+    sub u by U.sc;
+    sub v by V.sc;
+    sub w by W.sc;
+    sub x by X.sc;
+    sub y by Y.sc;
+    sub z by Z.sc;
+} smcp;

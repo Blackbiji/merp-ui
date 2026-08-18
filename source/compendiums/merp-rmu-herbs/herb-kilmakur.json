@@ -1,0 +1,78 @@
+{
+  "key": "herb-kilmakur",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Kilmakur",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-kilmakur",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-S-7-SE",
+        "sourceCost": "65gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "S",
+        "regionCode": "SE",
+        "sourceVariants": [],
+        "sourceName": "Kilmakur"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Extremely Hard",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "65gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat chaud et humide, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction protège contre les flammes et la chaleur naturelles pendant 1 à 10 heures.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>",
+      "addictionFactor": 33,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Kilmakur",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat chaud et humide, notamment dans les prairies rases, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction protège contre les flammes et la chaleur naturelles pendant 1 à 10 heures.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>"
+      }
+    },
+    "en": {
+      "name": "Kilmakur",
+      "system": {
+        "notes": "<p>This root is found chiefly in hot and humid climates, especially in short-grass plains, and is best known in south-eastern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The decoction protects against natural flame and heat for 1–10 hours.</p><p>Its use carries a very high risk of addiction and should remain exceptional.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

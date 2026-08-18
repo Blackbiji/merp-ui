@@ -1,0 +1,79 @@
+{
+  "key": "herb-zaganzar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-reduction",
+  "document": {
+    "name": "Zaganzar",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-zaganzar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-M-6",
+        "sourceCost": "139gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Réduction"
+        ],
+        "poisonType": "Réduction",
+        "climateCode": "t",
+        "localeCode": "M",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Zaganzar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Very Hard",
+      "form": "Root",
+      "prep": "liquid",
+      "season": "",
+      "cost": "139gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison de réduction de niveau 5H. Son extrait bleuté peut produire de sévères effets, notamment la cécité par destruction du nerf optique, et inflige 1 à 10 points de vie.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 5
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Zaganzar",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison de réduction de niveau 5H. Son extrait bleuté peut produire de sévères effets, notamment la cécité par destruction du nerf optique, et inflige 1 à 10 points de vie.</p>"
+      }
+    },
+    "en": {
+      "name": "Zaganzar",
+      "system": {
+        "notes": "<p>This root is found chiefly in cool temperate climates, especially in mountains.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 5H Reduction poison. Its bluish extract can cause severe effects, including blindness through destruction of the optic nerve, and inflicts 1–10 concussion hits.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Réduction"
+    ],
+    "en": [
+      "Reduction"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-reduction"
+  ]
+}

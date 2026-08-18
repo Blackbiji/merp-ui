@@ -1,0 +1,64 @@
+{
+  "key": "unique-looks",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Apparence singulière (Unique Looks)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "unique-looks",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Unique Looks",
+      "cost": "-3/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Apparence singulière (Unique Looks)</h1><h2>Description</h2><p>Votre apparence possède un trait exceptionnellement reconnaissable. Ce n’est pas nécessairement laid ou monstrueux : l’important est que les témoins se souviennent de vous et puissent vous décrire avec une grande facilité.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> détail distinctif facilement mémorisable.</li><li><strong>Tier II :</strong> apparence très inhabituelle, difficile à dissimuler.</li><li><strong>Tier III :</strong> singularité presque impossible à oublier ou à masquer sans déguisement sérieux.</li></ul><h2>Adaptation MERP-RMU</h2><p>Le MJ doit en tenir compte dans les tentatives de se fondre dans une foule, de nier une identification ou d’éviter qu’un témoin fournisse une description utile.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_unique-looks.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Apparence singulière (Unique Looks)",
+      "system": {
+        "description": "<h1>Apparence singulière (Unique Looks)</h1><h2>Description</h2><p>Votre apparence possède un trait exceptionnellement reconnaissable. Ce n’est pas nécessairement laid ou monstrueux : l’important est que les témoins se souviennent de vous et puissent vous décrire avec une grande facilité.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> détail distinctif facilement mémorisable.</li><li><strong>Tier II :</strong> apparence très inhabituelle, difficile à dissimuler.</li><li><strong>Tier III :</strong> singularité presque impossible à oublier ou à masquer sans déguisement sérieux.</li></ul><h2>Adaptation MERP-RMU</h2><p>Le MJ doit en tenir compte dans les tentatives de se fondre dans une foule, de nier une identification ou d’éviter qu’un témoin fournisse une description utile.</p>"
+      }
+    },
+    "en": {
+      "name": "Unique Looks",
+      "system": {
+        "description": "<h1>Unique Looks</h1><h2>Description</h2><p>Your appearance possesses an exceptionally recognizable feature. It need not be ugly or monstrous: what matters is that witnesses remember you and can describe you with great ease.</p><h2>Tiers</h2><ul><li><strong>Tier I:</strong> a distinctive detail that is easy to remember.</li><li><strong>Tier II:</strong> a very unusual appearance that is difficult to conceal.</li><li><strong>Tier III:</strong> a feature almost impossible to forget or hide without a serious disguise.</li></ul><h2>MERP-RMU Adaptation</h2><p>The GM should take this into account when you try to blend into a crowd, deny an identification, or prevent a witness from giving a useful description.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

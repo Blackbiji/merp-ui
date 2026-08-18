@@ -1,0 +1,633 @@
+{
+  "key": "razak-zinul-symbols",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-razak-zinul",
+  "document": {
+    "name": "Symbols",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul-symbols",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "MERP Character Creation Using RMSS/RMFRP v2.5",
+        "sourceList": "Symbols",
+        "sourcePage": 237,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmss-spell-list-conversion",
+          "reference": "MERP/RMSS v2.5 pp. 237; Razak-zinul Base List"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / MERP-RMSS v2.5",
+      "name": "Symbols",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Razak-zinul",
+      "notes": "<h2>Symbols</h2><p>Les Symbols sont des inscriptions permanentes capables de contenir un sort et de le déclencher lorsqu’une condition définie est remplie. La Liste permet aussi d’identifier, neutraliser temporairement et détruire les Symbols.</p>",
+      "label": "Symbols",
+      "notesLabel": "Symbols notes",
+      "spells": [
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Detect Symbol",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.DetectSymbol.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.DetectSymbol.description",
+          "level": 1,
+          "description": "Detects an active symbol in the examined area; caster may examine a different area each round.",
+          "aoe": "5' R",
+          "duration": "1 min/lvl (C)",
+          "range": "50'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Détection de Symbole",
+              "description": "Détecte un Symbole actif dans la zone examinée ; le lanceur peut examiner une zone différente à chaque round."
+            },
+            "en": {
+              "name": "Detect Symbol",
+              "description": "Detects an active symbol in the examined area; caster may examine a different area each round."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol Lore",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolLore.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolLore.description",
+          "level": 2,
+          "description": "Reveals which spell is emplaced in one symbol and how it is triggered.",
+          "aoe": "1 symbol",
+          "duration": "--",
+          "range": "50'",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance des Symboles",
+              "description": "Révèle quel sort est placé dans un Symbole et de quelle manière il est déclenché."
+            },
+            "en": {
+              "name": "Symbol Lore",
+              "description": "Reveals which spell is emplaced in one symbol and how it is triggered."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Bypass Symbol I",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolI.description",
+          "level": 3,
+          "description": "Temporarily turns off one Symbol I if the symbol fails its resistance.",
+          "aoe": "1 symbol",
+          "duration": "1 min/lvl",
+          "range": "50'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Contournement de Symbole I",
+              "description": "Désactive temporairement un Symbole I si celui-ci échoue à sa résistance."
+            },
+            "en": {
+              "name": "Bypass Symbol I",
+              "description": "Temporarily turns off one Symbol I if the symbol fails its resistance."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Unsymbol I",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolI.description",
+          "level": 4,
+          "description": "Removes one Symbol I if the symbol fails its resistance.",
+          "aoe": "1 symbol",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Dissipation de Symbole I",
+              "description": "Supprime un Symbole I si celui-ci échoue à sa résistance."
+            },
+            "en": {
+              "name": "Unsymbol I",
+              "description": "Removes one Symbol I if the symbol fails its resistance."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol I",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolI.description",
+          "level": 5,
+          "description": "Creates a permanent symbol capable of holding an eligible low-level spell until triggered.",
+          "aoe": "varies",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Symbole I",
+              "description": "Crée un Symbole permanent capable de contenir un sort admissible de faible niveau jusqu’à son déclenchement."
+            },
+            "en": {
+              "name": "Symbol I",
+              "description": "Creates a permanent symbol capable of holding an eligible low-level spell until triggered."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol Extension",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolExtension.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolExtension.description",
+          "level": 6,
+          "description": "Extends the usable surface or placement options of one symbol.",
+          "aoe": "1 surface",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Extension de Symbole",
+              "description": "Étend la surface utilisable ou les possibilités de placement d’un Symbole."
+            },
+            "en": {
+              "name": "Symbol Extension",
+              "description": "Extends the usable surface or placement options of one symbol."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Bypass Symbol III",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolIII.description",
+          "level": 7,
+          "description": "As Bypass Symbol I, but works against symbols of greater capacity.",
+          "aoe": "1 symbol",
+          "duration": "1 min/lvl",
+          "range": "50'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Contournement de Symbole III",
+              "description": "Comme Contournement de Symbole I, mais fonctionne contre des Symboles de capacité supérieure."
+            },
+            "en": {
+              "name": "Bypass Symbol III",
+              "description": "As Bypass Symbol I, but works against symbols of greater capacity."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Unsymbol III",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolIII.description",
+          "level": 8,
+          "description": "As Unsymbol I, but can remove a stronger symbol.",
+          "aoe": "1 symbol",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Dissipation de Symbole III",
+              "description": "Comme Dissipation de Symbole I, mais peut supprimer un Symbole plus puissant."
+            },
+            "en": {
+              "name": "Unsymbol III",
+              "description": "As Unsymbol I, but can remove a stronger symbol."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol III",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolIII.description",
+          "level": 9,
+          "description": "As Symbol I, but can hold a higher-level spell.",
+          "aoe": "varies",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Symbole III",
+              "description": "Comme Symbole I, mais peut contenir un sort de niveau supérieur."
+            },
+            "en": {
+              "name": "Symbol III",
+              "description": "As Symbol I, but can hold a higher-level spell."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Bypass Symbol V",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolV.description",
+          "level": 10,
+          "description": "As Bypass Symbol I, but works against stronger symbols.",
+          "aoe": "1 symbol",
+          "duration": "1 min/lvl",
+          "range": "50'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Contournement de Symbole V",
+              "description": "Comme Contournement de Symbole I, mais fonctionne contre des Symboles plus puissants."
+            },
+            "en": {
+              "name": "Bypass Symbol V",
+              "description": "As Bypass Symbol I, but works against stronger symbols."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Unsymbol V",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolV.description",
+          "level": 11,
+          "description": "As Unsymbol I, but can remove a stronger symbol.",
+          "aoe": "1 symbol",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Dissipation de Symbole V",
+              "description": "Comme Dissipation de Symbole I, mais peut supprimer un Symbole plus puissant."
+            },
+            "en": {
+              "name": "Unsymbol V",
+              "description": "As Unsymbol I, but can remove a stronger symbol."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol V",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolV.description",
+          "level": 12,
+          "description": "As Symbol I, but can hold a higher-level spell.",
+          "aoe": "varies",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Symbole V",
+              "description": "Comme Symbole I, mais peut contenir un sort de niveau supérieur."
+            },
+            "en": {
+              "name": "Symbol V",
+              "description": "As Symbol I, but can hold a higher-level spell."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Bypass Symbol VII",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolVII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolVII.description",
+          "level": 13,
+          "description": "As Bypass Symbol I, but works against stronger symbols.",
+          "aoe": "1 symbol",
+          "duration": "1 min/lvl",
+          "range": "50'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Contournement de Symbole VII",
+              "description": "Comme Contournement de Symbole I, mais fonctionne contre des Symboles plus puissants."
+            },
+            "en": {
+              "name": "Bypass Symbol VII",
+              "description": "As Bypass Symbol I, but works against stronger symbols."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Unsymbol VII",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolVII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolVII.description",
+          "level": 14,
+          "description": "As Unsymbol I, but can remove a stronger symbol.",
+          "aoe": "1 symbol",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Dissipation de Symbole VII",
+              "description": "Comme Dissipation de Symbole I, mais peut supprimer un Symbole plus puissant."
+            },
+            "en": {
+              "name": "Unsymbol VII",
+              "description": "As Unsymbol I, but can remove a stronger symbol."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol VII",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolVII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolVII.description",
+          "level": 15,
+          "description": "As Symbol I, but can hold a higher-level spell.",
+          "aoe": "varies",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Symbole VII",
+              "description": "Comme Symbole I, mais peut contenir un sort de niveau supérieur."
+            },
+            "en": {
+              "name": "Symbol VII",
+              "description": "As Symbol I, but can hold a higher-level spell."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Bypass Symbol IX",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolIX.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolIX.description",
+          "level": 16,
+          "description": "As Bypass Symbol I, but works against stronger symbols.",
+          "aoe": "1 symbol",
+          "duration": "1 min/lvl",
+          "range": "50'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Contournement de Symbole IX",
+              "description": "Comme Contournement de Symbole I, mais fonctionne contre des Symboles plus puissants."
+            },
+            "en": {
+              "name": "Bypass Symbol IX",
+              "description": "As Bypass Symbol I, but works against stronger symbols."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Unsymbol IX",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolIX.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolIX.description",
+          "level": 17,
+          "description": "As Unsymbol I, but can remove a stronger symbol.",
+          "aoe": "1 symbol",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Dissipation de Symbole IX",
+              "description": "Comme Dissipation de Symbole I, mais peut supprimer un Symbole plus puissant."
+            },
+            "en": {
+              "name": "Unsymbol IX",
+              "description": "As Unsymbol I, but can remove a stronger symbol."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol IX",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolIX.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolIX.description",
+          "level": 18,
+          "description": "As Symbol I, but can hold a higher-level spell.",
+          "aoe": "varies",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Symbole IX",
+              "description": "Comme Symbole I, mais peut contenir un sort de niveau supérieur."
+            },
+            "en": {
+              "name": "Symbol IX",
+              "description": "As Symbol I, but can hold a higher-level spell."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Bypass Symbol XI",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolXI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.BypassSymbolXI.description",
+          "level": 19,
+          "description": "As Bypass Symbol I, but works against stronger symbols.",
+          "aoe": "1 symbol",
+          "duration": "1 min/lvl",
+          "range": "50'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Contournement de Symbole XI",
+              "description": "Comme Contournement de Symbole I, mais fonctionne contre des Symboles plus puissants."
+            },
+            "en": {
+              "name": "Bypass Symbol XI",
+              "description": "As Bypass Symbol I, but works against stronger symbols."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Unsymbol XI",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolXI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolXI.description",
+          "level": 20,
+          "description": "As Unsymbol I, but can remove a stronger symbol.",
+          "aoe": "1 symbol",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Dissipation de Symbole XI",
+              "description": "Comme Dissipation de Symbole I, mais peut supprimer un Symbole plus puissant."
+            },
+            "en": {
+              "name": "Unsymbol XI",
+              "description": "As Unsymbol I, but can remove a stronger symbol."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol XI",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolXI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolXI.description",
+          "level": 25,
+          "description": "As Symbol I, but can hold a still higher-level spell.",
+          "aoe": "varies",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Symbole XI",
+              "description": "Comme Symbole I, mais peut contenir un sort d’un niveau encore supérieur."
+            },
+            "en": {
+              "name": "Symbol XI",
+              "description": "As Symbol I, but can hold a still higher-level spell."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Unsymbol True",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.UnsymbolTrue.description",
+          "level": 30,
+          "description": "Removes symbols of any capacity allowed by this list, subject to the symbol’s resistance.",
+          "aoe": "1 symbol",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Dissipation de Symbole Véritable",
+              "description": "Supprime les Symboles de toute capacité permise par cette liste, sous réserve de leur résistance."
+            },
+            "en": {
+              "name": "Unsymbol True",
+              "description": "Removes symbols of any capacity allowed by this list, subject to the symbol’s resistance."
+            }
+          }
+        },
+        {
+          "spellList": "Symbols",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Symbol True",
+          "label": "MERP_RMU.RazakZinul.symbols.spells.SymbolTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.symbols.spells.SymbolTrue.description",
+          "level": 50,
+          "description": "Creates the ultimate symbol available on this list.",
+          "aoe": "varies",
+          "duration": "P",
+          "range": "10'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Symbole Véritable",
+              "description": "Crée le Symbole ultime disponible sur cette liste."
+            },
+            "en": {
+              "name": "Symbol True",
+              "description": "Creates the ultimate symbol available on this list."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Symboles",
+      "system": {
+        "name": "Symboles",
+        "label": "Symboles",
+        "notesLabel": "Symboles — notes",
+        "notes": "<h2>Symboles</h2><p>Les Symbols sont des inscriptions permanentes capables de contenir un sort et de le déclencher lorsqu’une condition définie est remplie. La Liste permet aussi d’identifier, neutraliser temporairement et détruire les Symbols.</p>"
+      }
+    },
+    "en": {
+      "name": "Symbols",
+      "system": {
+        "name": "Symbols",
+        "label": "Symbols",
+        "notesLabel": "Symbols — notes",
+        "notes": "<h2>Symbols</h2><p>Symbols are permanent inscriptions capable of holding a spell and triggering it when a defined condition is fulfilled. The List also allows Symbols to be identified, temporarily neutralized, and destroyed.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Razak-Zinul (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Razak-Zinul (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-razak-zinul"
+  ]
+}

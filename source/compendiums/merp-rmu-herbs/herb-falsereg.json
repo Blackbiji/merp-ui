@@ -1,0 +1,79 @@
+{
+  "key": "herb-falsereg",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-conversion",
+  "document": {
+    "name": "Falsereg",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-falsereg",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-G-7-N",
+        "sourceCost": "90gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Conversion"
+        ],
+        "poisonType": "Conversion",
+        "climateCode": "c",
+        "localeCode": "G",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Falsereg"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "G",
+      "findDifficulty": "Extremely Hard",
+      "form": "Blood",
+      "prep": "paste",
+      "season": "",
+      "cost": "90gp",
+      "notes": "<p>Ce sang se rencontre surtout dans les régions au climat froid, notamment dans les glaciers et champs de neige, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1 préparé à partir de sang de poisson. Il fait peler la peau pendant des semaines et, dans les cas graves, provoque des saignements par les pores lors des efforts.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 1
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Falsereg",
+      "system": {
+        "notes": "<p>Ce sang se rencontre surtout dans les régions au climat froid, notamment dans les glaciers et champs de neige, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1 préparé à partir de sang de poisson. Il fait peler la peau pendant des semaines et, dans les cas graves, provoque des saignements par les pores lors des efforts.</p>"
+      }
+    },
+    "en": {
+      "name": "Falsereg",
+      "system": {
+        "notes": "<p>This blood is found chiefly in cold climates, especially in glaciers and snowfields, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 1 conversion poison prepared from fish blood. It causes the skin to peel continuously for weeks and, in severe cases, causes bleeding through the pores during exertion.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Conversion"
+    ],
+    "en": [
+      "Conversion"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-conversion"
+  ]
+}

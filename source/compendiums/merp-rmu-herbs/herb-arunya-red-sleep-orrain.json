@@ -1,0 +1,78 @@
+{
+  "key": "herb-arunya-red-sleep-orrain",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Árunya (Sommeil Rouge / Red Sleep, Orrain)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-arunya-red-sleep-orrain",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-S-5-U",
+        "sourceCost": "2bp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "S",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Árunya (Red Sleep, Orrain)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Hard",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "2bp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Sommeil Rouge (Red Sleep)</strong>.</p><p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une préparation purifiée provoque rapidement le sommeil et l’inconscience ; une heure de ce repos équivaut à environ quatre heures de sommeil normal. Son usage répété plusieurs jours de suite est fortement addictif.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>",
+      "addictionFactor": 50,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Árunya (Sommeil Rouge / Red Sleep, Orrain)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Sommeil Rouge (Red Sleep)</strong>.</p><p>Cette racine se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Une préparation purifiée provoque rapidement le sommeil et l’inconscience ; une heure de ce repos équivaut à environ quatre heures de sommeil normal. Son usage répété plusieurs jours de suite est fortement addictif.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>"
+      }
+    },
+    "en": {
+      "name": "Árunya (Red Sleep, Orrain)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Red Sleep</strong>.</p><p>This root is found chiefly in mild temperate climates, especially in short-grass plains, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>A purified preparation rapidly induces sleep and unconsciousness; one hour of this rest is equivalent to about four hours of normal sleep. Repeated use for several consecutive days is highly addictive.</p><p>Its use carries a very high risk of addiction and should remain exceptional.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

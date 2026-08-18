@@ -1,0 +1,78 @@
+{
+  "key": "herb-gort",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "intoxicants",
+  "document": {
+    "name": "Gort",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-gort",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-4-U",
+        "sourceCost": "10gp",
+        "sourceCategory": "Intoxicants",
+        "utilityGroups": [
+          "Intoxicants"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Gort"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Medium",
+      "form": "Leaves",
+      "prep": "inhale",
+      "season": "",
+      "cost": "10gp",
+      "notes": "<p>Ces feuilles se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est inhalée sous forme de poudre ou de vapeur.</p><p>Les feuilles inhalées produisent un mélange d’euphorie, de stimulation et d’hallucinations. La substance est recherchée comme drogue et présente un risque d’accoutumance important.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 20,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gort",
+      "system": {
+        "notes": "<p>Ces feuilles se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est inhalée sous forme de poudre ou de vapeur.</p><p>Les feuilles inhalées produisent un mélange d’euphorie, de stimulation et d’hallucinations. La substance est recherchée comme drogue et présente un risque d’accoutumance important.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Gort",
+      "system": {
+        "notes": "<p>This leaves is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is inhaled.</p><p>Inhaled leaves produce a mixture of euphoria, stimulation, and hallucinations. The substance is sought after as a drug and carries a significant risk of addiction.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Intoxicants"
+    ],
+    "en": [
+      "Intoxicants"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "intoxicants"
+  ]
+}

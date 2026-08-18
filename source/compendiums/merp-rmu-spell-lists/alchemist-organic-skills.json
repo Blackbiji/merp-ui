@@ -1,0 +1,585 @@
+{
+  "key": "alchemist-organic-skills",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-essence-alchemist",
+  "document": {
+    "name": "Organic Skills",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "alchemist-organic-skills",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Organic Skills",
+        "sourcePage": 83,
+        "merpRealm": "Essence",
+        "merpCategory": "Profession",
+        "profession": "Alchemist",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Alchemy Companion p.83 — Core-Rules Alchemist Base List; MERP/RMSS Alchemist adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Organic Skills",
+      "listType": "Base",
+      "realms": "Essence",
+      "profession": "Alchemist",
+      "notes": "<h2>Organic Skills</h2><p>Travaille tissus, cuir, bois et autres matières organiques et crée les supports physiques nécessaires à de nombreux objets alchimiques. Le papier runique est réutilisable après déclenchement, mais ne peut porter qu’un seul sort à la fois.</p>",
+      "label": "Organic Skills",
+      "notesLabel": "Organic Skills notes",
+      "spells": [
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Cloth",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkCloth.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkCloth.description",
+          "level": 1,
+          "description": "Flawlessly fabricates and works non-magical cloth when the required tools and materials are available; alternatively grants +50 to appropriate textile Crafting rolls.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Tissu",
+              "description": "Fabrique et travaille parfaitement un tissu non magique lorsque les outils et matériaux requis sont disponibles ; peut également conférer +50 aux jets d’Artisanat textile appropriés."
+            },
+            "en": {
+              "name": "Work Cloth",
+              "description": "Flawlessly fabricates and works non-magical cloth when the required tools and materials are available; alternatively grants +50 to appropriate textile Crafting rolls."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Leather",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkLeather.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkLeather.description",
+          "level": 2,
+          "description": "Creates and works non-magical leather, parchment and vellum; alternatively grants +50 to appropriate leatherworking Crafting rolls.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Cuir",
+              "description": "Crée et travaille parfaitement le cuir, le parchemin et le vélin non magiques ; peut également conférer +50 aux jets d’Artisanat du cuir appropriés."
+            },
+            "en": {
+              "name": "Work Leather",
+              "description": "Creates and works non-magical leather, parchment and vellum; alternatively grants +50 to appropriate leatherworking Crafting rolls."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Wood",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkWood.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkWood.description",
+          "level": 3,
+          "description": "Flawlessly works non-magical wood; alternatively grants +50 to appropriate woodworking Crafting rolls.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Bois",
+              "description": "Travaille parfaitement le bois non magique ; peut également conférer +50 aux jets d’Artisanat du bois appropriés."
+            },
+            "en": {
+              "name": "Work Wood",
+              "description": "Flawlessly works non-magical wood; alternatively grants +50 to appropriate woodworking Crafting rolls."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper I",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperI.description",
+          "level": 4,
+          "description": "Creates reusable rune paper able to hold one 1st-level spell; also permits flawless paper making and related crafts.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique I",
+              "description": "Crée un papier runique réutilisable pouvant contenir un sort de niveau 1 ; permet également de fabriquer parfaitement le papier et d’effectuer des travaux apparentés."
+            },
+            "en": {
+              "name": "Rune Paper I",
+              "description": "Creates reusable rune paper able to hold one 1st-level spell; also permits flawless paper making and related crafts."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Organic",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkOrganic.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkOrganic.description",
+          "level": 5,
+          "description": "As Work Cloth, but may work any ordinary non-magical organic material such as horn, bone, chitin, wax, feathers or hair.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail Organique",
+              "description": "Comme Travail du Tissu, mais permet de travailler toute matière organique ordinaire non magique, comme la corne, l’os, la chitine, la cire, les plumes ou les cheveux."
+            },
+            "en": {
+              "name": "Work Organic",
+              "description": "As Work Cloth, but may work any ordinary non-magical organic material such as horn, bone, chitin, wax, feathers or hair."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper II",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperII.description",
+          "level": 6,
+          "description": "As Rune Paper I, but holds a spell through 2nd level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique II",
+              "description": "Comme Papier Runique I, mais peut contenir un sort jusqu’au niveau 2."
+            },
+            "en": {
+              "name": "Rune Paper II",
+              "description": "As Rune Paper I, but holds a spell through 2nd level."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Make Wand",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.MakeWand.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.MakeWand.description",
+          "level": 7,
+          "description": "Creates a wand suitable for receiving imbedded spells.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Fabriquer une Baguette",
+              "description": "Crée une baguette adaptée à recevoir des sorts imprégnés."
+            },
+            "en": {
+              "name": "Make Wand",
+              "description": "Creates a wand suitable for receiving imbedded spells."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper III",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperIII.description",
+          "level": 8,
+          "description": "As Rune Paper I, but holds a spell through 3rd level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique III",
+              "description": "Comme Papier Runique I, mais peut contenir un sort jusqu’au niveau 3."
+            },
+            "en": {
+              "name": "Rune Paper III",
+              "description": "As Rune Paper I, but holds a spell through 3rd level."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Make Rod",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.MakeRod.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.MakeRod.description",
+          "level": 10,
+          "description": "Creates a rod suitable for receiving imbedded spells.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Fabriquer un Sceptre",
+              "description": "Crée un sceptre adapté à recevoir des sorts imprégnés."
+            },
+            "en": {
+              "name": "Make Rod",
+              "description": "Creates a rod suitable for receiving imbedded spells."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper V",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperV.description",
+          "level": 11,
+          "description": "As Rune Paper I, but holds a spell through 5th level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique V",
+              "description": "Comme Papier Runique I, mais peut contenir un sort jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Rune Paper V",
+              "description": "As Rune Paper I, but holds a spell through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Organic Rune",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.OrganicRune.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.OrganicRune.description",
+          "level": 13,
+          "description": "When cast immediately before a Rune Paper spell, allows the rune to be placed on a non-living organic material instead of paper.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Rune Organique",
+              "description": "Lancé immédiatement avant un sort de Papier Runique, permet de placer la rune sur une matière organique non vivante plutôt que sur du papier."
+            },
+            "en": {
+              "name": "Organic Rune",
+              "description": "When cast immediately before a Rune Paper spell, allows the rune to be placed on a non-living organic material instead of paper."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper VII",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperVII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperVII.description",
+          "level": 14,
+          "description": "As Rune Paper I, but holds a spell through 7th level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique VII",
+              "description": "Comme Papier Runique I, mais peut contenir un sort jusqu’au niveau 7."
+            },
+            "en": {
+              "name": "Rune Paper VII",
+              "description": "As Rune Paper I, but holds a spell through 7th level."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Make Staff",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.MakeStaff.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.MakeStaff.description",
+          "level": 15,
+          "description": "Creates a staff suitable for receiving imbedded spells.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Fabriquer un Bâton",
+              "description": "Crée un bâton adapté à recevoir des sorts imprégnés."
+            },
+            "en": {
+              "name": "Make Staff",
+              "description": "Creates a staff suitable for receiving imbedded spells."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper X",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperX.description",
+          "level": 16,
+          "description": "As Rune Paper I, but holds a spell through 10th level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique X",
+              "description": "Comme Papier Runique I, mais peut contenir un sort jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Rune Paper X",
+              "description": "As Rune Paper I, but holds a spell through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Magic Cloth",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkMagicCloth.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkMagicCloth.description",
+          "level": 17,
+          "description": "As Work Cloth, but may create or work magical cloth.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Tissu Magique",
+              "description": "Comme Travail du Tissu, mais permet de créer ou de travailler du tissu magique."
+            },
+            "en": {
+              "name": "Work Magic Cloth",
+              "description": "As Work Cloth, but may create or work magical cloth."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Magic Leather",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkMagicLeather.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkMagicLeather.description",
+          "level": 18,
+          "description": "As Work Leather, but may create or work magical leather.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Cuir Magique",
+              "description": "Comme Travail du Cuir, mais permet de créer ou de travailler du cuir magique."
+            },
+            "en": {
+              "name": "Work Magic Leather",
+              "description": "As Work Leather, but may create or work magical leather."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Magic Wood",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkMagicWood.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkMagicWood.description",
+          "level": 19,
+          "description": "As Work Wood, but may create or work magical wood.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Bois Magique",
+              "description": "Comme Travail du Bois, mais permet de créer ou de travailler du bois magique."
+            },
+            "en": {
+              "name": "Work Magic Wood",
+              "description": "As Work Wood, but may create or work magical wood."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Organic True",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkOrganicTrue.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.WorkOrganicTrue.description",
+          "level": 20,
+          "description": "May create or work extraordinary or magical organic materials, such as dragon hide, when proper tools and materials are available.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail Organique Véritable",
+              "description": "Permet de créer ou de travailler des matières organiques extraordinaires ou magiques, comme la peau de dragon, lorsque les outils et matériaux appropriés sont disponibles."
+            },
+            "en": {
+              "name": "Work Organic True",
+              "description": "May create or work extraordinary or magical organic materials, such as dragon hide, when proper tools and materials are available."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Lord Rune Paper",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.LordRunePaper.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.LordRunePaper.description",
+          "level": 25,
+          "description": "As Rune Paper I, but holds a spell through 20th level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique Seigneur",
+              "description": "Comme Papier Runique I, mais peut contenir un sort jusqu’au niveau 20."
+            },
+            "en": {
+              "name": "Lord Rune Paper",
+              "description": "As Rune Paper I, but holds a spell through 20th level."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper XXX",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperXXX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperXXX.description",
+          "level": 30,
+          "description": "As Rune Paper I, but holds a spell through 30th level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique XXX",
+              "description": "Comme Papier Runique I, mais peut contenir un sort jusqu’au niveau 30."
+            },
+            "en": {
+              "name": "Rune Paper XXX",
+              "description": "As Rune Paper I, but holds a spell through 30th level."
+            }
+          }
+        },
+        {
+          "spellList": "Organic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Rune Paper True",
+          "label": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperTrue.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.OrganicSkills.spells.RunePaperTrue.description",
+          "level": 50,
+          "description": "As Rune Paper I, but may hold a spell of any level.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Papier Runique Véritable",
+              "description": "Comme Papier Runique I, mais peut contenir un sort de n’importe quel niveau."
+            },
+            "en": {
+              "name": "Rune Paper True",
+              "description": "As Rune Paper I, but may hold a spell of any level."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Techniques Organiques",
+      "system": {
+        "name": "Techniques Organiques",
+        "label": "Techniques Organiques",
+        "notesLabel": "Techniques Organiques — notes",
+        "notes": "<h2>Techniques Organiques</h2><p>Travaille tissus, cuir, bois et autres matières organiques et crée les supports physiques nécessaires à de nombreux objets alchimiques. Le papier runique est réutilisable après déclenchement, mais ne peut porter qu’un seul sort à la fois.</p>"
+      }
+    },
+    "en": {
+      "name": "Organic Skills",
+      "system": {
+        "name": "Organic Skills",
+        "label": "Organic Skills",
+        "notesLabel": "Organic Skills — notes",
+        "notes": "<h2>Organic Skills</h2><p>Works cloth, leather, wood, and other organic materials and creates the physical supports required by many alchemical items. Runic paper is reusable after activation, but can carry only one spell at a time.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts d’Essence",
+      "Alchimiste (Base)"
+    ],
+    "en": [
+      "Essence Spell Lists",
+      "Alchemist (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-essence",
+    "spell-lists-essence-alchemist"
+  ]
+}

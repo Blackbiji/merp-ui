@@ -1,0 +1,78 @@
+{
+  "key": "herb-nur-oiolosse",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Nur-oiolosse",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-nur-oiolosse",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-F-8-U",
+        "sourceCost": "200gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "F",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Nur-oiolosse"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Sheer Folly",
+      "form": "Clove",
+      "prep": "ingest",
+      "season": "",
+      "cost": "200gp",
+      "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat glacial, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette gousse peut rendre la vie à un mort depuis moins d’un jour, mais le ressuscité mourra le lendemain s’il ne reçoit pas rapidement une noix de Sorul.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 13,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Nur-oiolosse",
+      "system": {
+        "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat glacial, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cette gousse peut rendre la vie à un mort depuis moins d’un jour, mais le ressuscité mourra le lendemain s’il ne reçoit pas rapidement une noix de Sorul.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Nur-oiolosse",
+      "system": {
+        "notes": "<p>This clove is found chiefly in frigid climates, especially in freshwater banks and shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This clove can restore to life someone dead for less than one day, but the restored person will die the following day unless they quickly receive a Sorul Nut.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

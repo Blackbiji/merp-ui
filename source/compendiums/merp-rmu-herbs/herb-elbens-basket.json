@@ -1,0 +1,78 @@
+{
+  "key": "herb-elbens-basket",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Panier d’Elben (Elben’s Basket)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-elbens-basket",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-S-8-NW",
+        "sourceCost": "10gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "S",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Elben’s Basket"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Sheer Folly",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "10gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Ce stimulant cardiaque permet un bref sursaut de vitesse une fois par heure. Une dose excessive impose une journée entière de repos ; plus de deux doses simultanées peuvent provoquer un arrêt cardiaque.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 15,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Panier d’Elben (Elben’s Basket)",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Ce stimulant cardiaque permet un bref sursaut de vitesse une fois par heure. Une dose excessive impose une journée entière de repos ; plus de deux doses simultanées peuvent provoquer un arrêt cardiaque.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Elben’s Basket",
+      "system": {
+        "notes": "<p>This root is found chiefly in cool temperate climates, especially in short-grass plains, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>This cardiac stimulant allows a brief burst of speed once per hour. An excessive dose requires a full day of rest; more than two doses at once can cause cardiac arrest.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

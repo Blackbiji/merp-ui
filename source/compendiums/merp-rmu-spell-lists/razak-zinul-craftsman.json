@@ -1,0 +1,537 @@
+{
+  "key": "razak-zinul-craftsman",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-razak-zinul",
+  "document": {
+    "name": "Craftsman",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul-craftsman",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "MERP Character Creation Using RMSS/RMFRP v2.5",
+        "sourceList": "Craftsman",
+        "sourcePage": 239,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmss-spell-list-conversion",
+          "reference": "MERP/RMSS v2.5 pp. 239; Razak-zinul Base List"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / MERP-RMSS v2.5",
+      "name": "Craftsman",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Razak-zinul",
+      "notes": "<h2>Craftsman</h2><p>Liste d’artisanat organique et mécanique : tissus, cuir, bois, matières organiques, pierres lumineuses, programmation et fonctionnement de machines. Une « machine » est ici un dispositif artificiel construit pour accomplir une fonction précise.</p>",
+      "label": "Craftsman",
+      "notesLabel": "Craftsman notes",
+      "spells": [
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Cloth",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkCloth.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkCloth.description",
+          "level": 1,
+          "description": "Allows flawless working of ordinary cloth with the necessary tools and materials; working time is halved.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Tissu",
+              "description": "Permet de travailler parfaitement le tissu ordinaire avec les outils et matériaux nécessaires ; le temps de travail est réduit de moitié."
+            },
+            "en": {
+              "name": "Work Cloth",
+              "description": "Allows flawless working of ordinary cloth with the necessary tools and materials; working time is halved."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Leather",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkLeather.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkLeather.description",
+          "level": 2,
+          "description": "As Work Cloth, but for ordinary leather.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Cuir",
+              "description": "Comme Travail du Tissu, mais pour le cuir ordinaire."
+            },
+            "en": {
+              "name": "Work Leather",
+              "description": "As Work Cloth, but for ordinary leather."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Wood",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkWood.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkWood.description",
+          "level": 3,
+          "description": "As Work Cloth, but for ordinary wood.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Bois",
+              "description": "Comme Travail du Tissu, mais pour le bois ordinaire."
+            },
+            "en": {
+              "name": "Work Wood",
+              "description": "As Work Cloth, but for ordinary wood."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Operate I",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.OperateI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.OperateI.description",
+          "level": 4,
+          "description": "Gives the caster a chance to operate a non-magical machine correctly even without full familiarity.",
+          "aoe": "1 machine",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Fonctionnement I",
+              "description": "Donne au lanceur une chance de faire fonctionner correctement une machine non magique même sans en connaître parfaitement l’usage."
+            },
+            "en": {
+              "name": "Operate I",
+              "description": "Gives the caster a chance to operate a non-magical machine correctly even without full familiarity."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Organic",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkOrganic.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkOrganic.description",
+          "level": 5,
+          "description": "Allows the caster to work ordinary organic materials such as horn, bone, chitin, wax, feathers and hair.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail Organique",
+              "description": "Permet au lanceur de travailler des matières organiques ordinaires comme la corne, l’os, la chitine, la cire, les plumes et les cheveux."
+            },
+            "en": {
+              "name": "Work Organic",
+              "description": "Allows the caster to work ordinary organic materials such as horn, bone, chitin, wax, feathers and hair."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Light Stone I",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.LightStoneI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.LightStoneI.description",
+          "level": 6,
+          "description": "Creates a prepared stone that emits useful light as described by the source list.",
+          "aoe": "1 stone",
+          "duration": "24 hrs",
+          "range": "touch",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Pierre de Lumière I",
+              "description": "Crée une pierre préparée qui émet une lumière utile conformément à la liste d’origine."
+            },
+            "en": {
+              "name": "Light Stone I",
+              "description": "Creates a prepared stone that emits useful light as described by the source list."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Program I",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.ProgramI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.ProgramI.description",
+          "level": 7,
+          "description": "Allows a simple program or sequence to be set into a suitable machine for later operation.",
+          "aoe": "1 machine",
+          "duration": "24 hrs",
+          "range": "touch",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Programme I",
+              "description": "Permet d’inscrire dans une machine adaptée un programme ou une séquence simple destiné à une utilisation ultérieure."
+            },
+            "en": {
+              "name": "Program I",
+              "description": "Allows a simple program or sequence to be set into a suitable machine for later operation."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Operate II",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.OperateII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.OperateII.description",
+          "level": 9,
+          "description": "As Operate I, but with a higher chance of successful operation.",
+          "aoe": "1 machine",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Fonctionnement II",
+              "description": "Comme Fonctionnement I, mais avec une probabilité de réussite supérieure."
+            },
+            "en": {
+              "name": "Operate II",
+              "description": "As Operate I, but with a higher chance of successful operation."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Light Stone II",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.LightStoneII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.LightStoneII.description",
+          "level": 11,
+          "description": "As Light Stone I, with improved light output or endurance.",
+          "aoe": "1 stone",
+          "duration": "24 hrs",
+          "range": "touch",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Pierre de Lumière II",
+              "description": "Comme Pierre de Lumière I, mais avec une lumière plus intense ou une durée accrue."
+            },
+            "en": {
+              "name": "Light Stone II",
+              "description": "As Light Stone I, with improved light output or endurance."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Program II",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.ProgramII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.ProgramII.description",
+          "level": 12,
+          "description": "As Program I, but permits a more complex programmed sequence.",
+          "aoe": "1 machine",
+          "duration": "24 hrs",
+          "range": "touch",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Programme II",
+              "description": "Comme Programme I, mais permet une séquence programmée plus complexe."
+            },
+            "en": {
+              "name": "Program II",
+              "description": "As Program I, but permits a more complex programmed sequence."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Operate III",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.OperateIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.OperateIII.description",
+          "level": 14,
+          "description": "As Operate I, but with a still higher chance of successful operation.",
+          "aoe": "1 machine",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Fonctionnement III",
+              "description": "Comme Fonctionnement I, mais avec une probabilité de réussite encore supérieure."
+            },
+            "en": {
+              "name": "Operate III",
+              "description": "As Operate I, but with a still higher chance of successful operation."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Light Stone III",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.LightStoneIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.LightStoneIII.description",
+          "level": 16,
+          "description": "As Light Stone I, with the strongest normal effect on this list.",
+          "aoe": "1 stone",
+          "duration": "24 hrs",
+          "range": "touch",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Pierre de Lumière III",
+              "description": "Comme Pierre de Lumière I, avec l’effet normal le plus puissant de cette liste."
+            },
+            "en": {
+              "name": "Light Stone III",
+              "description": "As Light Stone I, with the strongest normal effect on this list."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Magic Cloth",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicCloth.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicCloth.description",
+          "level": 17,
+          "description": "Allows flawless working of magical cloth with required tools and materials.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Tissu Magique",
+              "description": "Permet de travailler parfaitement le tissu magique avec les outils et matériaux requis."
+            },
+            "en": {
+              "name": "Work Magic Cloth",
+              "description": "Allows flawless working of magical cloth with required tools and materials."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Magic Leather",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicLeather.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicLeather.description",
+          "level": 18,
+          "description": "Allows flawless working of magical leather with required tools and materials.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Cuir Magique",
+              "description": "Permet de travailler parfaitement le cuir magique avec les outils et matériaux requis."
+            },
+            "en": {
+              "name": "Work Magic Leather",
+              "description": "Allows flawless working of magical leather with required tools and materials."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Magic Wood",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicWood.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicWood.description",
+          "level": 19,
+          "description": "Allows flawless working of magical wood with required tools and materials.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Bois Magique",
+              "description": "Permet de travailler parfaitement le bois magique avec les outils et matériaux requis."
+            },
+            "en": {
+              "name": "Work Magic Wood",
+              "description": "Allows flawless working of magical wood with required tools and materials."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Magic Organic True",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicOrganicTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.WorkMagicOrganicTrue.description",
+          "level": 20,
+          "description": "Allows the caster to work any magical organic material with required tools and materials.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail Organique Magique Véritable",
+              "description": "Permet au lanceur de travailler toute matière organique magique avec les outils et matériaux requis."
+            },
+            "en": {
+              "name": "Work Magic Organic True",
+              "description": "Allows the caster to work any magical organic material with required tools and materials."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Operate IV",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.OperateIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.OperateIV.description",
+          "level": 25,
+          "description": "As Operate I, but the source gives a 90% chance of operating the machine.",
+          "aoe": "1 machine",
+          "duration": "1 min/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Fonctionnement IV",
+              "description": "Comme Fonctionnement I, mais la source indique 90 % de chances de faire fonctionner la machine."
+            },
+            "en": {
+              "name": "Operate IV",
+              "description": "As Operate I, but the source gives a 90% chance of operating the machine."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Mass Operate",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.MassOperate.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.MassOperate.description",
+          "level": 30,
+          "description": "As Operate III, but affects all machines in the area of effect.",
+          "aoe": "varies",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Fonctionnement de Masse",
+              "description": "Comme Fonctionnement III, mais affecte toutes les machines de la zone d’effet."
+            },
+            "en": {
+              "name": "Mass Operate",
+              "description": "As Operate III, but affects all machines in the area of effect."
+            }
+          }
+        },
+        {
+          "spellList": "Craftsman",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Perpetual Motion",
+          "label": "MERP_RMU.RazakZinul.craftsman.spells.PerpetualMotion.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.craftsman.spells.PerpetualMotion.description",
+          "level": 50,
+          "description": "Causes one non-magical mechanism to operate normally for the duration without an external motive force.",
+          "aoe": "1 machine",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Mouvement Perpétuel",
+              "description": "Fait fonctionner normalement un mécanisme non magique pendant la durée du sort sans source motrice extérieure."
+            },
+            "en": {
+              "name": "Perpetual Motion",
+              "description": "Causes one non-magical mechanism to operate normally for the duration without an external motive force."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Artisan",
+      "system": {
+        "name": "Artisan",
+        "label": "Artisan",
+        "notesLabel": "Artisan — notes",
+        "notes": "<h2>Artisan</h2><p>Liste d’artisanat organique et mécanique : tissus, cuir, bois, matières organiques, pierres lumineuses, programmation et fonctionnement de machines. Une « machine » est ici un dispositif artificiel construit pour accomplir une fonction précise.</p>"
+      }
+    },
+    "en": {
+      "name": "Craftsman",
+      "system": {
+        "name": "Craftsman",
+        "label": "Craftsman",
+        "notesLabel": "Craftsman — notes",
+        "notes": "<h2>Craftsman</h2><p>Organic and mechanical craft List: cloth, leather, wood, organic materials, luminous stones, programming, and operation of machines. A “machine” here is an artificial device constructed to perform a specific function.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Razak-Zinul (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Razak-Zinul (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-razak-zinul"
+  ]
+}

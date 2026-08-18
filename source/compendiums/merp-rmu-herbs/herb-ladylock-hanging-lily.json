@@ -1,0 +1,79 @@
+{
+  "key": "herb-ladylock-hanging-lily",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Boucle-de-Dame (Ladylock / Lys Suspendu / Hanging Lily)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-ladylock-hanging-lily",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-6-U",
+        "sourceCost": "4gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes",
+          "Soins"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Ladylock (Hanging Lily)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Very Hard",
+      "form": "Moss",
+      "prep": "brew",
+      "season": "",
+      "cost": "4gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Lys Suspendu (Hanging Lily)</strong>.</p><p>Cette mousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Séchée, moulue puis infusée, cette mousse peut tirer du coma une victime du Saewedhil en deux à quatre heures.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Boucle-de-Dame (Ladylock / Lys Suspendu / Hanging Lily)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Lys Suspendu (Hanging Lily)</strong>.</p><p>Cette mousse se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Séchée, moulue puis infusée, cette mousse peut tirer du coma une victime du Saewedhil en deux à quatre heures.</p>"
+      }
+    },
+    "en": {
+      "name": "Ladylock (Hanging Lily)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Hanging Lily</strong>.</p><p>This moss is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>When dried, ground, and brewed as a tea, this moss can bring a victim of Saewedhil out of a coma within two to four hours.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

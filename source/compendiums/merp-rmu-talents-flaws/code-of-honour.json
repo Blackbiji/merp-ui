@@ -1,0 +1,64 @@
+{
+  "key": "code-of-honour",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-mental",
+  "document": {
+    "name": "Code d’honneur (Code of Honour)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "code-of-honour",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Code of Honour",
+      "cost": "-10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Code d’honneur (Code of Honour)</h1><h2>Description</h2><p>Vous adhérez à un code moral, guerrier, religieux ou social qui limite réellement vos choix. Le code doit comporter des obligations suffisamment précises pour pouvoir vous contraindre même lorsqu’il serait plus avantageux de les ignorer.</p><h2>Adaptation MERP-RMU</h2><p>Le code est défini avec le MJ à l’acquisition. Le personnage doit le respecter tant qu’il possède le Défaut ; une violation volontaire doit entraîner des conséquences narratives et, si nécessaire, mécaniques proportionnées à son importance.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_code-of-honour.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Code d’honneur (Code of Honour)",
+      "system": {
+        "description": "<h1>Code d’honneur (Code of Honour)</h1><h2>Description</h2><p>Vous adhérez à un code moral, guerrier, religieux ou social qui limite réellement vos choix. Le code doit comporter des obligations suffisamment précises pour pouvoir vous contraindre même lorsqu’il serait plus avantageux de les ignorer.</p><h2>Adaptation MERP-RMU</h2><p>Le code est défini avec le MJ à l’acquisition. Le personnage doit le respecter tant qu’il possède le Défaut ; une violation volontaire doit entraîner des conséquences narratives et, si nécessaire, mécaniques proportionnées à son importance.</p>"
+      }
+    },
+    "en": {
+      "name": "Code of Honour",
+      "system": {
+        "description": "<h1>Code of Honour</h1><h2>Description</h2><p>You adhere to a moral, martial, religious, or social code that genuinely restricts your choices. The code must contain obligations precise enough to constrain you even when ignoring them would be more advantageous.</p><h2>MERP-RMU Adaptation</h2><p>The code is defined with the GM when the Flaw is acquired. The character must honor it while possessing the Flaw; a deliberate violation should bring narrative and, where appropriate, mechanical consequences proportionate to its importance.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Mentaux"
+    ],
+    "en": [
+      "Flaws — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-mental"
+  ]
+}

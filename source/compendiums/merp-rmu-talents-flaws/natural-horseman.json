@@ -1,0 +1,64 @@
+{
+  "key": "natural-horseman",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-general",
+  "document": {
+    "name": "Cavalier-né (Natural Horseman)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "natural-horseman",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Natural Horseman",
+      "cost": "5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Cavalier-né (Natural Horseman)</h1><h2>Description</h2><p>Vous avez une affinité instinctive avec les chevaux. Vous comprenez facilement leurs réactions, trouvez naturellement votre équilibre en selle et savez les guider avec une aisance supérieure à celle d’un cavalier ordinaire. Cette affinité améliore toutes les Manœuvres qui impliquent directement des chevaux.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres d’Équitation et de manipulation d’animaux lorsqu’elles concernent directement un cheval. Le bonus ne s’étend pas automatiquement aux autres montures.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_natural-horseman.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Cavalier-né (Natural Horseman)",
+      "system": {
+        "description": "<h1>Cavalier-né (Natural Horseman)</h1><h2>Description</h2><p>Vous avez une affinité instinctive avec les chevaux. Vous comprenez facilement leurs réactions, trouvez naturellement votre équilibre en selle et savez les guider avec une aisance supérieure à celle d’un cavalier ordinaire. Cette affinité améliore toutes les Manœuvres qui impliquent directement des chevaux.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres d’Équitation et de manipulation d’animaux lorsqu’elles concernent directement un cheval. Le bonus ne s’étend pas automatiquement aux autres montures.</p>"
+      }
+    },
+    "en": {
+      "name": "Natural Horseman",
+      "system": {
+        "description": "<h1>Natural Horseman</h1><h2>Description</h2><p>You have an instinctive affinity with horses. You easily understand their reactions, naturally find your balance in the saddle, and know how to guide them with greater ease than an ordinary rider. This affinity improves all Maneuvers that directly involve horses.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+5 per Tier</strong> to Riding and Animal Handling Maneuvers when they directly concern a horse. The bonus does not automatically extend to other mounts.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Généraux"
+    ],
+    "en": [
+      "Talents — General"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-general"
+  ]
+}

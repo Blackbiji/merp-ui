@@ -1,0 +1,74 @@
+{
+  "key": "shadow-sight",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Vision de l’Ombre (Shadow-sight)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "shadow-sight",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Hommes du Nord urbanisés",
+            "Urban Northmen",
+            "Gramuz",
+            "Éothraim",
+            "Eothraim",
+            "Béornides",
+            "Berninga"
+          ]
+        },
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Senses",
+      "name": "Shadow-sight",
+      "cost": "10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Vision de l’Ombre (Shadow-sight)</h1><h2>Description</h2><p>Vous voyez les fantômes, les spectres et les autres habitants du monde de l’Ombre comme s’ils étaient normalement visibles. Cette perception révèle leur présence lorsqu’ils occupent le même espace que le monde visible, sans vous permettre de voir à travers les obstacles ni d’annuler d’autres formes de dissimulation.</p><h2>Adaptation MERP-RMU</h2><p>Cette faculté reste un Talent binaire : elle permet de percevoir normalement les créatures du monde de l’Ombre lorsqu’elles sont présentes et visibles depuis votre position. Elle ne fournit aucun bonus automatique de Perception contre des créatures cachées ou invisibles par d’autres moyens.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_shadow-sight.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Vision de l’Ombre (Shadow-sight)",
+      "system": {
+        "description": "<h1>Vision de l’Ombre (Shadow-sight)</h1><h2>Description</h2><p>Vous voyez les fantômes, les spectres et les autres habitants du monde de l’Ombre comme s’ils étaient normalement visibles. Cette perception révèle leur présence lorsqu’ils occupent le même espace que le monde visible, sans vous permettre de voir à travers les obstacles ni d’annuler d’autres formes de dissimulation.</p><h2>Adaptation MERP-RMU</h2><p>Cette faculté reste un Talent binaire : elle permet de percevoir normalement les créatures du monde de l’Ombre lorsqu’elles sont présentes et visibles depuis votre position. Elle ne fournit aucun bonus automatique de Perception contre des créatures cachées ou invisibles par d’autres moyens.</p>"
+      }
+    },
+    "en": {
+      "name": "Shadow-sight",
+      "system": {
+        "description": "<h1>Shadow-sight</h1><h2>Description</h2><p>You can see ghosts, wraiths, and other inhabitants of the Shadow World as though they were normally visible. This perception reveals their presence when they occupy the same space as the visible world without allowing you to see through obstacles or negate other forms of concealment.</p><h2>MERP-RMU Adaptation</h2><p>This ability remains a binary Talent: it allows you to perceive creatures of the Shadow World normally when they are present and visible from your position. It grants no automatic Perception bonus against creatures hidden or invisible by other means.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

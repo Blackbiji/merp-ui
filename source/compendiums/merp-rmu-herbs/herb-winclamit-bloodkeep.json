@@ -1,0 +1,79 @@
+{
+  "key": "herb-winclamit-bloodkeep",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Winclamit (Garde-Sang / Bloodkeep)",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-winclamit-bloodkeep",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-C-9-N",
+        "sourceCost": "100gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "C",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Winclamit (Bloodkeep)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Absurd",
+      "form": "Fruit",
+      "prep": "ingest",
+      "season": "",
+      "cost": "100gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Garde-Sang (Bloodkeep)</strong>.</p><p>Ce fruit se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce fruit extrêmement rare peut rendre 3 à 300 points de vie.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 12,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Winclamit (Garde-Sang / Bloodkeep)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Garde-Sang (Bloodkeep)</strong>.</p><p>Ce fruit se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce fruit extrêmement rare peut rendre 3 à 300 points de vie.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Winclamit (Bloodkeep)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Bloodkeep</strong>.</p><p>This fruit is found chiefly in cold climates, especially in coniferous forests, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains of legendary rarity.</p><p>To obtain its properties, it is consumed directly.</p><p>This extremely rare fruit can restore 3–300 concussion hits.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

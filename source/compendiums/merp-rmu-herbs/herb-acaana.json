@@ -1,0 +1,79 @@
+{
+  "key": "herb-acaana",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-nerveux",
+  "document": {
+    "name": "Acaana",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-acaana",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-M-7",
+        "sourceCost": "600gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Nerveux"
+        ],
+        "poisonType": "Nerveux",
+        "climateCode": "f",
+        "localeCode": "M",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Acaana"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Extremely Hard",
+      "form": "Flower",
+      "prep": "paste",
+      "season": "",
+      "cost": "600gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les montagnes.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 10E. La pâte noire détruit progressivement le système nerveux ; à son effet extrême, elle tue instantanément.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 10
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Acaana",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les montagnes.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 10E. La pâte noire détruit progressivement le système nerveux ; à son effet extrême, elle tue instantanément.</p>"
+      }
+    },
+    "en": {
+      "name": "Acaana",
+      "system": {
+        "notes": "<p>This flower is found chiefly in frigid climates, especially in mountains.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 10E nerve poison. The black paste progressively destroys the nervous system; at its most extreme effect it kills instantly.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nerveux"
+    ],
+    "en": [
+      "Nerve"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-nerveux"
+  ]
+}

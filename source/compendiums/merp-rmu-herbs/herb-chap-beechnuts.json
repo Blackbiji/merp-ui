@@ -1,0 +1,78 @@
+{
+  "key": "herb-chap-beechnuts",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "nourriture",
+  "document": {
+    "name": "Chap-beechnuts",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-chap-beechnuts",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-4-NW",
+        "sourceCost": "1bp",
+        "sourceCategory": "Nourriture",
+        "utilityGroups": [
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Chap-beechnuts"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Medium",
+      "form": "Nut",
+      "prep": "ingest",
+      "season": "",
+      "cost": "1bp",
+      "notes": "<p>Cette noix se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cinq faînes assurent à une personne l’équivalent d’une journée de nourriture.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Chap-beechnuts",
+      "system": {
+        "notes": "<p>Cette noix se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cinq faînes assurent à une personne l’équivalent d’une journée de nourriture.</p>"
+      }
+    },
+    "en": {
+      "name": "Chap-beechnuts",
+      "system": {
+        "notes": "<p>This nut is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Five beechnuts provide one person with the equivalent of a day’s food.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nourriture"
+    ],
+    "en": [
+      "Food"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "nourriture"
+  ]
+}

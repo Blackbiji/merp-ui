@@ -1,0 +1,90 @@
+{
+  "key": "herb-bramblerose",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Bramblerose",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-bramblerose",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-4-SE",
+        "sourceCost": "4gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération",
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": "SE",
+        "sourceVariants": [
+          {
+            "group": "Nourriture",
+            "code": "m-F-4-SE",
+            "form": "Fruit",
+            "prep": "ingest",
+            "cost": "4gp",
+            "af": 1,
+            "effect": "Deux fruits suffisent à soutenir un homme pendant une journée. Les graines, en revanche, provoquent de fortes douleurs intestinales."
+          }
+        ],
+        "sourceName": "Bramblerose"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Medium",
+      "form": "Fruit",
+      "prep": "ingest",
+      "season": "",
+      "cost": "4gp",
+      "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La chair du fruit rend 4 à 10 points de vie ; ses graines provoquent de violentes douleurs intestinales. Deux fruits peuvent aussi nourrir un homme pendant une journée. Deux fruits suffisent à soutenir un homme pendant une journée. Les graines, en revanche, provoquent de fortes douleurs intestinales.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Bramblerose",
+      "system": {
+        "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans le Sud-Est d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La chair du fruit rend 4 à 10 points de vie ; ses graines provoquent de violentes douleurs intestinales. Deux fruits peuvent aussi nourrir un homme pendant une journée. Deux fruits suffisent à soutenir un homme pendant une journée. Les graines, en revanche, provoquent de fortes douleurs intestinales.</p>"
+      }
+    },
+    "en": {
+      "name": "Bramblerose",
+      "system": {
+        "notes": "<p>This fruit is found chiefly in mild temperate climates, especially in freshwater banks and shores, and is best known in south-eastern Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The flesh of the fruit restores 4–10 concussion hits; its seeds cause violent intestinal pain. Two fruits can also feed a man for one day. Two fruits provide enough nourishment to sustain a man for a full day. The seeds, however, cause severe intestinal pain.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

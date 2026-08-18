@@ -1,0 +1,79 @@
+{
+  "key": "herb-kastaba",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-musculaires",
+  "document": {
+    "name": "Kastaba",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-kastaba",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-D-5-S",
+        "sourceCost": "27gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Musculaire"
+        ],
+        "poisonType": "Musculaire",
+        "climateCode": "h",
+        "localeCode": "D",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Kastaba"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Hard",
+      "form": "Toad",
+      "prep": "paste",
+      "season": "",
+      "cost": "27gp",
+      "notes": "<p>Ce crapaud se rencontre surtout dans les régions au climat chaud et humide, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Toxine musculaire : un échec léger au Jet de Résistance entraîne la cécité, un échec plus grave le coma accompagné de cécité, et un échec sévère la mort.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Kastaba",
+      "system": {
+        "notes": "<p>Ce crapaud se rencontre surtout dans les régions au climat chaud et humide, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Toxine musculaire : un échec léger au Jet de Résistance entraîne la cécité, un échec plus grave le coma accompagné de cécité, et un échec sévère la mort.</p>"
+      }
+    },
+    "en": {
+      "name": "Kastaba",
+      "system": {
+        "notes": "<p>This toad is found chiefly in hot and humid climates, especially in deciduous or mixed forests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Muscle toxin: a light Resistance Roll failure causes blindness, a more serious failure causes coma with blindness, and a severe failure causes death.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Musculaires"
+    ],
+    "en": [
+      "Muscle"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-musculaires"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-wifurwif",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Wifurwif",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-wifurwif",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-M-7-E",
+        "sourceCost": "55gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "M",
+        "regionCode": "E",
+        "sourceVariants": [],
+        "sourceName": "Wifurwif"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Extremely Hard",
+      "form": "Lichen",
+      "prep": "ingest",
+      "season": "",
+      "cost": "55gp",
+      "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes, et elle est surtout connue dans l’Est d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce lichen rare est employé pour réparer les lésions des nerfs.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 15,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Wifurwif",
+      "system": {
+        "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat tempéré frais, notamment dans les montagnes, et elle est surtout connue dans l’Est d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce lichen rare est employé pour réparer les lésions des nerfs.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Wifurwif",
+      "system": {
+        "notes": "<p>This lichen is found chiefly in cool temperate climates, especially in mountains, and is best known in eastern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This rare lichen is used to repair damaged nerves.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

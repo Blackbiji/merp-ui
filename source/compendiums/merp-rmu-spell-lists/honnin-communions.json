@@ -1,0 +1,312 @@
+{
+  "key": "honnin-communions",
+  "sourceFile": "data/merp-rmu/honnin-priest-beta-v1.json",
+  "folderKey": "spell-lists-channeling-honnin",
+  "document": {
+    "name": "Communions (Communions)",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "honnin-communions",
+        "collection": "honnin-beta",
+        "contentVersion": 1,
+        "beta": true,
+        "source": {
+          "type": "rmss-honnin-spell-list",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 pp.231–233"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU — Bêta",
+      "name": "Communions (Communions)",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Honnin Priest",
+      "notes": "<h2>Communions (Communions)</h2><p>Liste Honnin de Théurgie consacrée à la perception des présences et au partage des sens, émotions et perceptions des oiseaux. Les effets sont adaptés du corpus RMSS/RMFRP et sont proposés en bêta.</p>",
+      "label": "Communions (Communions)",
+      "notesLabel": "Communions (Communions) notes",
+      "spells": [
+        {
+          "name": "Connaissance des Créatures (Creature Lore)",
+          "level": 1,
+          "description": "Le lanceur reçoit un bonus spécial de +10 à une Manœuvre utilisant une Compétence de Connaissance concernant la créature choisie.",
+          "aoe": "self",
+          "duration": "C",
+          "range": "sight",
+          "spellType": "P",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Connaissance des Créatures (Creature Lore)",
+          "descriptionLabel": "Connaissance des Créatures (Creature Lore) description",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance des Créatures",
+              "description": "Le lanceur reçoit un bonus spécial de +10 à une Manœuvre utilisant une Compétence de Connaissance concernant la créature choisie."
+            },
+            "en": {
+              "name": "Creature Lore",
+              "description": "The caster receives a special +10 bonus to one Maneuver using a Lore Skill concerning the chosen creature."
+            }
+          }
+        },
+        {
+          "name": "Transe des Présences (Presence Trance)",
+          "level": 2,
+          "description": "Le lanceur perçoit la présence de tous les êtres — animaux et personnes — situés dans la zone, sans nécessairement en connaître l’identité précise.",
+          "aoe": "10’R/niv",
+          "duration": "C",
+          "range": "self",
+          "spellType": "U",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Transe des Présences (Presence Trance)",
+          "descriptionLabel": "Transe des Présences (Presence Trance) description",
+          "localizations": {
+            "fr": {
+              "name": "Transe des Présences",
+              "description": "Le lanceur perçoit la présence de tous les êtres — animaux et personnes — situés dans la zone, sans nécessairement en connaître l’identité précise."
+            },
+            "en": {
+              "name": "Presence Trance",
+              "description": "The caster perceives the presence of all beings—animals and people—within the area without necessarily learning their exact identities."
+            }
+          }
+        },
+        {
+          "name": "Communion I (Commune I)",
+          "level": 3,
+          "description": "Permet de partager les sentiments des oiseaux présents dans la portée et d’obtenir une impression plus précise de ce qu’ils perçoivent ou ressentent.",
+          "aoe": "self",
+          "duration": "C",
+          "range": "10’/niv",
+          "spellType": "P",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Communion I (Commune I)",
+          "descriptionLabel": "Communion I (Commune I) description",
+          "localizations": {
+            "fr": {
+              "name": "Communion I",
+              "description": "Permet de partager les sentiments des oiseaux présents dans la portée et d’obtenir une impression plus précise de ce qu’ils perçoivent ou ressentent."
+            },
+            "en": {
+              "name": "Commune I",
+              "description": "Allows the caster to share the feelings of birds within range and gain a more precise impression of what they perceive or feel."
+            }
+          }
+        },
+        {
+          "name": "Empathie Aviaire (Bird Empathy)",
+          "level": 4,
+          "description": "Permet de comprendre ou de visualiser les pensées et émotions d’un oiseau.",
+          "aoe": "1 oiseau",
+          "duration": "C",
+          "range": "100’",
+          "spellType": "I",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Empathie Aviaire (Bird Empathy)",
+          "descriptionLabel": "Empathie Aviaire (Bird Empathy) description",
+          "localizations": {
+            "fr": {
+              "name": "Empathie Aviaire",
+              "description": "Permet de comprendre ou de visualiser les pensées et émotions d’un oiseau."
+            },
+            "en": {
+              "name": "Bird Empathy",
+              "description": "Allows the caster to understand or visualize a bird’s thoughts and emotions."
+            }
+          }
+        },
+        {
+          "name": "Vue d’Oiseau I (Bird Sight I)",
+          "level": 5,
+          "description": "Le lanceur emprunte la vue d’un oiseau non intelligent à portée. L’oiseau doit être visible ou avoir été localisé par un effet de présence.",
+          "aoe": "caster + 1 cible",
+          "duration": "C",
+          "range": "100’",
+          "spellType": "Pm",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Vue d’Oiseau I (Bird Sight I)",
+          "descriptionLabel": "Vue d’Oiseau I (Bird Sight I) description",
+          "localizations": {
+            "fr": {
+              "name": "Vue d’Oiseau I",
+              "description": "Le lanceur emprunte la vue d’un oiseau non intelligent à portée. L’oiseau doit être visible ou avoir été localisé par un effet de présence."
+            },
+            "en": {
+              "name": "Bird Sight I",
+              "description": "The caster borrows the sight of a non-intelligent bird within range. The bird must be visible or have been located by a presence effect."
+            }
+          }
+        },
+        {
+          "name": "Ouïe d’Oiseau (Bird Hearing)",
+          "level": 6,
+          "description": "Comme Vue d’Oiseau I, mais le lanceur emprunte l’ouïe de l’oiseau.",
+          "aoe": "caster + 1 cible",
+          "duration": "C",
+          "range": "100’",
+          "spellType": "Pm",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Ouïe d’Oiseau (Bird Hearing)",
+          "descriptionLabel": "Ouïe d’Oiseau (Bird Hearing) description",
+          "localizations": {
+            "fr": {
+              "name": "Ouïe d’Oiseau",
+              "description": "Comme Vue d’Oiseau I, mais le lanceur emprunte l’ouïe de l’oiseau."
+            },
+            "en": {
+              "name": "Bird Hearing",
+              "description": "As Bird Sight I, but the caster borrows the bird’s hearing."
+            }
+          }
+        },
+        {
+          "name": "Contact Aviaire II (Touch Bird II)",
+          "level": 7,
+          "description": "Établit un contact avec un oiseau approprié à grande portée. Le lanceur peut préciser une direction et un type général d’oiseau ; il peut changer d’oiseau jusqu’à trois fois pendant la durée si des cibles appropriées sont disponibles.",
+          "aoe": "self",
+          "duration": "C",
+          "range": "100’/niv",
+          "spellType": "P",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Contact Aviaire II (Touch Bird II)",
+          "descriptionLabel": "Contact Aviaire II (Touch Bird II) description",
+          "localizations": {
+            "fr": {
+              "name": "Contact Aviaire II",
+              "description": "Établit un contact avec un oiseau approprié à grande portée. Le lanceur peut préciser une direction et un type général d’oiseau ; il peut changer d’oiseau jusqu’à trois fois pendant la durée si des cibles appropriées sont disponibles."
+            },
+            "en": {
+              "name": "Touch Bird II",
+              "description": "Establishes contact with an appropriate bird at long range. The caster may specify a direction and a general type of bird and may switch birds up to three times during the duration if suitable targets are available."
+            }
+          }
+        },
+        {
+          "name": "Vue d’Oiseau II (Bird Sight II)",
+          "level": 8,
+          "description": "Version étendue de Vue d’Oiseau I, permettant d’emprunter la vue d’un oiseau à beaucoup plus grande portée.",
+          "aoe": "self",
+          "duration": "C",
+          "range": "100’/niv",
+          "spellType": "P",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Vue d’Oiseau II (Bird Sight II)",
+          "descriptionLabel": "Vue d’Oiseau II (Bird Sight II) description",
+          "localizations": {
+            "fr": {
+              "name": "Vue d’Oiseau II",
+              "description": "Version étendue de Vue d’Oiseau I, permettant d’emprunter la vue d’un oiseau à beaucoup plus grande portée."
+            },
+            "en": {
+              "name": "Bird Sight II",
+              "description": "An extended version of Bird Sight I that allows the caster to borrow a bird’s sight at much greater range."
+            }
+          }
+        },
+        {
+          "name": "Transe de Conscience (Awareness Trance)",
+          "level": 9,
+          "description": "Le lanceur étend sa conscience aux êtres présents dans une vaste zone et obtient une perception plus fine de leur position et de leur activité.",
+          "aoe": "10’R/niv",
+          "duration": "C",
+          "range": "self",
+          "spellType": "U",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Transe de Conscience (Awareness Trance)",
+          "descriptionLabel": "Transe de Conscience (Awareness Trance) description",
+          "localizations": {
+            "fr": {
+              "name": "Transe de Conscience",
+              "description": "Le lanceur étend sa conscience aux êtres présents dans une vaste zone et obtient une perception plus fine de leur position et de leur activité."
+            },
+            "en": {
+              "name": "Awareness Trance",
+              "description": "The caster extends awareness to beings within a broad area and gains a more precise sense of their positions and activities."
+            }
+          }
+        },
+        {
+          "name": "Communion Véritable (Commune True)",
+          "level": 10,
+          "description": "Établit une communion profonde avec les oiseaux sur une très grande distance, permettant une perception et un échange bien plus complets que Communion I.",
+          "aoe": "self",
+          "duration": "C",
+          "range": "20 mi/niv",
+          "spellType": "P",
+          "spellList": "Communions (Communions)",
+          "listType": "Base",
+          "profession": "Honnin Priest",
+          "label": "Communion Véritable (Commune True)",
+          "descriptionLabel": "Communion Véritable (Commune True) description",
+          "localizations": {
+            "fr": {
+              "name": "Communion Véritable",
+              "description": "Établit une communion profonde avec les oiseaux sur une très grande distance, permettant une perception et un échange bien plus complets que Communion I."
+            },
+            "en": {
+              "name": "Commune True",
+              "description": "Establishes a deep communion with birds over a very great distance, allowing much fuller perception and exchange than Commune I."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Communions",
+      "system": {
+        "name": "Communions",
+        "label": "Communions",
+        "notesLabel": "Communions — notes",
+        "notes": "<h2>Communions</h2><p>Liste Honnin de Théurgie consacrée à la perception des présences et au partage des sens, émotions et perceptions des oiseaux. Les effets sont adaptés du corpus RMSS/RMFRP et sont proposés en bêta.</p>"
+      }
+    },
+    "en": {
+      "name": "Communions",
+      "system": {
+        "name": "Communions",
+        "label": "Communions",
+        "notesLabel": "Communions — notes",
+        "notes": "<h2>Communions</h2><p>Honnin Channeling List devoted to sensing presences and sharing the senses, emotions, and perceptions of birds. The effects are adapted from the RMSS/RMFRP corpus and are presented in beta form.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Prêtre Honnin (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Honnin Priest (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-honnin"
+  ]
+}

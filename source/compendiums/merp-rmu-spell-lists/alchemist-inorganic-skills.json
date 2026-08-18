@@ -1,0 +1,561 @@
+{
+  "key": "alchemist-inorganic-skills",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-essence-alchemist",
+  "document": {
+    "name": "Inorganic Skills",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "alchemist-inorganic-skills",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Inorganic Skills",
+        "sourcePage": 84,
+        "merpRealm": "Essence",
+        "merpCategory": "Profession",
+        "profession": "Alchemist",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Alchemy Companion p.84 — Core-Rules Alchemist Base List; MERP/RMSS Alchemist adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Inorganic Skills",
+      "listType": "Base",
+      "realms": "Essence",
+      "profession": "Alchemist",
+      "notes": "<h2>Inorganic Skills</h2><p>Travaille pierre, métaux, alliages, gemmes et matériaux magiques. Les noms de matériaux historiques de Rolemaster sont conservés comme références techniques ; leur disponibilité en Terre du Milieu dépend du cadre de campagne et du MJ.</p><p>Les sorts ne créent pas les outils ni les matières premières nécessaires.</p>",
+      "label": "Inorganic Skills",
+      "notesLabel": "Inorganic Skills notes",
+      "spells": [
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Stone",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkStone.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkStone.description",
+          "level": 1,
+          "description": "Flawlessly works non-magical stone; alternatively grants +50 to Stone Crafts and Sculpting rolls.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de la Pierre",
+              "description": "Travaille parfaitement la pierre non magique ; peut également conférer +50 aux jets d’Artisanat de la pierre et de Sculpture."
+            },
+            "en": {
+              "name": "Work Stone",
+              "description": "Flawlessly works non-magical stone; alternatively grants +50 to Stone Crafts and Sculpting rolls."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Base Metals",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkBaseMetals.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkBaseMetals.description",
+          "level": 2,
+          "description": "Works ordinary base metals such as copper, tin or lead and may extract and forge them with proper equipment.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Métaux de Base",
+              "description": "Travaille les métaux de base ordinaires comme le cuivre, l’étain ou le plomb et permet de les extraire et de les forger avec l’équipement approprié."
+            },
+            "en": {
+              "name": "Work Base Metals",
+              "description": "Works ordinary base metals such as copper, tin or lead and may extract and forge them with proper equipment."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Base Alloys",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkBaseAlloys.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkBaseAlloys.description",
+          "level": 3,
+          "description": "Works ordinary non-iron alloys such as brass, bronze and pewter with proper equipment.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Alliages de Base",
+              "description": "Travaille les alliages ordinaires sans fer comme le laiton, le bronze et l’étain avec l’équipement approprié."
+            },
+            "en": {
+              "name": "Work Base Alloys",
+              "description": "Works ordinary non-iron alloys such as brass, bronze and pewter with proper equipment."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Iron",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkIron.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkIron.description",
+          "level": 4,
+          "description": "Works and forges ordinary iron; may create items of normal quality with proper equipment.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Fer",
+              "description": "Travaille et forge le fer ordinaire ; permet de créer des objets de qualité normale avec l’équipement approprié."
+            },
+            "en": {
+              "name": "Work Iron",
+              "description": "Works and forges ordinary iron; may create items of normal quality with proper equipment."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Low Steel",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkLowSteel.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkLowSteel.description",
+          "level": 5,
+          "description": "Works low-carbon steel and comparable ordinary alloys, permitting items with modest superior bonuses.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Acier Doux",
+              "description": "Travaille l’acier à faible teneur en carbone et les alliages ordinaires comparables, permettant de produire des objets bénéficiant de modestes bonus supérieurs."
+            },
+            "en": {
+              "name": "Work Low Steel",
+              "description": "Works low-carbon steel and comparable ordinary alloys, permitting items with modest superior bonuses."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work High Steel",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkHighSteel.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkHighSteel.description",
+          "level": 6,
+          "description": "Works high-carbon steel and comparable superior ordinary alloys.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Acier Dur",
+              "description": "Travaille l’acier à forte teneur en carbone et les alliages ordinaires supérieurs comparables."
+            },
+            "en": {
+              "name": "Work High Steel",
+              "description": "Works high-carbon steel and comparable superior ordinary alloys."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Keron",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkKeron.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkKeron.description",
+          "level": 7,
+          "description": "Works magical alloys such as Keron when the necessary ingredients, tools and knowledge are available.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Keron",
+              "description": "Travaille les alliages magiques comme le Keron lorsque les ingrédients, outils et connaissances nécessaires sont disponibles."
+            },
+            "en": {
+              "name": "Work Keron",
+              "description": "Works magical alloys such as Keron when the necessary ingredients, tools and knowledge are available."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Precious Metals",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkPreciousMetals.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkPreciousMetals.description",
+          "level": 8,
+          "description": "Works precious metals such as silver and gold and alloys made from them.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Métaux Précieux",
+              "description": "Travaille les métaux précieux comme l’argent et l’or ainsi que les alliages qui en sont issus."
+            },
+            "en": {
+              "name": "Work Precious Metals",
+              "description": "Works precious metals such as silver and gold and alloys made from them."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work White Steel",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkWhiteSteel.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkWhiteSteel.description",
+          "level": 9,
+          "description": "Works superior white-steel alloys and comparable non-magical alloys.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Acier Blanc",
+              "description": "Travaille les alliages supérieurs d’acier blanc et les alliages non magiques comparables."
+            },
+            "en": {
+              "name": "Work White Steel",
+              "description": "Works superior white-steel alloys and comparable non-magical alloys."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Mithin",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkMithin.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkMithin.description",
+          "level": 10,
+          "description": "Works Mithin (beryllium) and comparable high-quality non-magical metals.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Mithin",
+              "description": "Travaille le Mithin (béryllium) et les métaux non magiques de haute qualité comparables."
+            },
+            "en": {
+              "name": "Work Mithin",
+              "description": "Works Mithin (beryllium) and comparable high-quality non-magical metals."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Gemstone",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkGemstone.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkGemstone.description",
+          "level": 11,
+          "description": "Cuts, facets and polishes non-magical gemstones; alternatively grants +50 to appropriate gem-cutting or jeweler rolls.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Gemmes",
+              "description": "Taille, facette et polit les gemmes non magiques ; peut également conférer +50 aux jets appropriés de taille de gemmes ou de Joaillerie."
+            },
+            "en": {
+              "name": "Work Gemstone",
+              "description": "Cuts, facets and polishes non-magical gemstones; alternatively grants +50 to appropriate gem-cutting or jeweler rolls."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Black Steel",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkBlackSteel.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkBlackSteel.description",
+          "level": 12,
+          "description": "Works black-steel alloys and comparable superior non-magical alloys.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Acier Noir",
+              "description": "Travaille les alliages d’acier noir et les alliages non magiques supérieurs comparables."
+            },
+            "en": {
+              "name": "Work Black Steel",
+              "description": "Works black-steel alloys and comparable superior non-magical alloys."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Mithglin",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkMithglin.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkMithglin.description",
+          "level": 13,
+          "description": "Works Mithglin (titanium) and comparable superior non-magical metals.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Mithglin",
+              "description": "Travaille le Mithglin (titane) et les métaux non magiques supérieurs comparables."
+            },
+            "en": {
+              "name": "Work Mithglin",
+              "description": "Works Mithglin (titanium) and comparable superior non-magical metals."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Ithilnaur",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkIthilnaur.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkIthilnaur.description",
+          "level": 14,
+          "description": "Works magical Ithilnaur (moon-fire) and comparable magical alloys.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Ithilnaur",
+              "description": "Travaille l’Ithilnaur magique (feu-de-lune) et les alliages magiques comparables."
+            },
+            "en": {
+              "name": "Work Ithilnaur",
+              "description": "Works magical Ithilnaur (moon-fire) and comparable magical alloys."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Mithril",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkMithril.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkMithril.description",
+          "level": 15,
+          "description": "Works magical Mithril (True-silver) when proper tools, material and facilities are available.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Mithril",
+              "description": "Travaille le Mithril magique (Vrai-Argent) lorsque les outils, matériaux et installations appropriés sont disponibles."
+            },
+            "en": {
+              "name": "Work Mithril",
+              "description": "Works magical Mithril (True-silver) when proper tools, material and facilities are available."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Laen",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkLaen.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkLaen.description",
+          "level": 20,
+          "description": "Works magical Laen and other materials of comparable potency.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Laen",
+              "description": "Travaille le Laen magique et les autres matériaux d’une puissance comparable."
+            },
+            "en": {
+              "name": "Work Laen",
+              "description": "Works magical Laen and other materials of comparable potency."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Eog",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkEog.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkEog.description",
+          "level": 25,
+          "description": "Works magical Eog and alloys of comparable potency.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Eog",
+              "description": "Travaille l’Eog magique et les alliages d’une puissance comparable."
+            },
+            "en": {
+              "name": "Work Eog",
+              "description": "Works magical Eog and alloys of comparable potency."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Galvorn",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkGalvorn.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkGalvorn.description",
+          "level": 30,
+          "description": "Works magical Galvorn and materials of comparable potency.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Galvorn",
+              "description": "Travaille le Galvorn magique et les matériaux d’une puissance comparable."
+            },
+            "en": {
+              "name": "Work Galvorn",
+              "description": "Works magical Galvorn and materials of comparable potency."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work Angil",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkAngil.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkAngil.description",
+          "level": 35,
+          "description": "Works magical Angil (star-iron) and materials of comparable potency.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Angil",
+              "description": "Travaille l’Angil magique (fer-étoile) et les matériaux d’une puissance comparable."
+            },
+            "en": {
+              "name": "Work Angil",
+              "description": "Works magical Angil (star-iron) and materials of comparable potency."
+            }
+          }
+        },
+        {
+          "spellList": "Inorganic Skills",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Work True",
+          "label": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkTrue.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.InorganicSkills.spells.WorkTrue.description",
+          "level": 50,
+          "description": "May make and work any metal, alloy or inorganic mineral, including materials with exceptional anti-magical properties, subject to tools and materials.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail Véritable",
+              "description": "Permet de fabriquer et de travailler n’importe quel métal, alliage ou minéral inorganique, y compris les matériaux possédant des propriétés anti-magiques exceptionnelles, sous réserve de disposer des outils et matériaux nécessaires."
+            },
+            "en": {
+              "name": "Work True",
+              "description": "May make and work any metal, alloy or inorganic mineral, including materials with exceptional anti-magical properties, subject to tools and materials."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Techniques Inorganiques",
+      "system": {
+        "name": "Techniques Inorganiques",
+        "label": "Techniques Inorganiques",
+        "notesLabel": "Techniques Inorganiques — notes",
+        "notes": "<h2>Techniques Inorganiques</h2><p>Travaille pierre, métaux, alliages, gemmes et matériaux magiques. Les noms de matériaux historiques de Rolemaster sont conservés comme références techniques ; leur disponibilité en Terre du Milieu dépend du cadre de campagne et du MJ.</p><p>Les sorts ne créent pas les outils ni les matières premières nécessaires.</p>"
+      }
+    },
+    "en": {
+      "name": "Inorganic Skills",
+      "system": {
+        "name": "Inorganic Skills",
+        "label": "Inorganic Skills",
+        "notesLabel": "Inorganic Skills — notes",
+        "notes": "<h2>Inorganic Skills</h2><p>Works stone, metals, alloys, gems, and magical materials. Historical Rolemaster material names are retained as technical references; their availability in Middle-earth depends on the campaign setting and the GM.</p><p>The spells do not create the tools or raw materials required.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts d’Essence",
+      "Alchimiste (Base)"
+    ],
+    "en": [
+      "Essence Spell Lists",
+      "Alchemist (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-essence",
+    "spell-lists-essence-alchemist"
+  ]
+}

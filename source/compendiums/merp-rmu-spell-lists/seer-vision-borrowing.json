@@ -1,0 +1,633 @@
+{
+  "key": "seer-vision-borrowing",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-seer",
+  "document": {
+    "name": "Vision Borrowing",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "seer-vision-borrowing",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Mentalism Companion",
+        "sourceList": "Vision Borrowing",
+        "sourcePage": 125,
+        "merpRealm": "Mentalism",
+        "merpCategory": "Profession",
+        "profession": "Seer",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Mentalism Companion p.125; MERP/RMSS Seer p.149"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Mentalism Companion",
+      "name": "Vision Borrowing",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Seer",
+      "notes": "<h2>Vision Borrowing</h2><p>Emprunte les sens d’animaux ou d’autres êtres, fusionne les perceptions et permet la scrutation à distance.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>",
+      "label": "Vision Borrowing",
+      "notesLabel": "Vision Borrowing notes",
+      "spells": [
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sight I",
+          "label": "MERP_RMU.Seer.spells.AnimalSightI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSightI.description",
+          "level": 1,
+          "description": "Permet de voir à travers les yeux d’un animal non intelligent situé à portée.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "100'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vue Animale I",
+              "description": "Permet de voir à travers les yeux d’un animal non intelligent situé à portée."
+            },
+            "en": {
+              "name": "Animal Sight I",
+              "description": "Allows the Seer to see through the eyes of a non-intelligent animal within range."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Hearing I",
+          "label": "MERP_RMU.Seer.spells.AnimalHearingI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalHearingI.description",
+          "level": 2,
+          "description": "Permet d’entendre à travers l’ouïe d’un animal non intelligent situé à portée.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "100'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Ouïe Animale I",
+              "description": "Permet d’entendre à travers l’ouïe d’un animal non intelligent situé à portée."
+            },
+            "en": {
+              "name": "Animal Hearing I",
+              "description": "Allows the Seer to hear through the hearing of a non-intelligent animal within range."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sense I",
+          "label": "MERP_RMU.Seer.spells.AnimalSenseI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSenseI.description",
+          "level": 3,
+          "description": "Permet d’emprunter un ou plusieurs sens d’un animal non intelligent.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "100'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Sens Animal I",
+              "description": "Permet d’emprunter un ou plusieurs sens d’un animal non intelligent."
+            },
+            "en": {
+              "name": "Animal Sense I",
+              "description": "Allows the Seer to borrow one or more senses from a non-intelligent animal."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sight Merge I",
+          "label": "MERP_RMU.Seer.spells.SightMergeI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SightMergeI.description",
+          "level": 4,
+          "description": "Permet de voir à travers les yeux de n’importe quel être situé à portée.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "100'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion de Vue I",
+              "description": "Permet de voir à travers les yeux de n’importe quel être situé à portée."
+            },
+            "en": {
+              "name": "Sight Merge I",
+              "description": "Allows the Seer to see through the eyes of any being within range."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Hearing Merge I",
+          "label": "MERP_RMU.Seer.spells.HearingMergeI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.HearingMergeI.description",
+          "level": 5,
+          "description": "Permet d’entendre à travers l’ouïe de n’importe quel être situé à portée.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "100'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion d’Ouïe I",
+              "description": "Permet d’entendre à travers l’ouïe de n’importe quel être situé à portée."
+            },
+            "en": {
+              "name": "Hearing Merge I",
+              "description": "Allows the Seer to hear through the hearing of any being within range."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sight III",
+          "label": "MERP_RMU.Seer.spells.AnimalSightIII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSightIII.description",
+          "level": 6,
+          "description": "Comme Animal Sight I, avec une portée de 300 pieds.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "300'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vue Animale III",
+              "description": "Comme Animal Sight I, avec une portée de 300 pieds."
+            },
+            "en": {
+              "name": "Animal Sight III",
+              "description": "As Animal Sight I, but with a range of 300 feet."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Scrying I",
+          "label": "MERP_RMU.Seer.spells.ScryingI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ScryingI.description",
+          "level": 7,
+          "description": "Permet de scruter une personne, un objet ou un lieu précisément décrit à travers un support de divination ; la portée dépend du caractère mobile ou fixe de la cible.",
+          "aoe": "1 item/medium",
+          "duration": "C",
+          "range": "varies",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Scrutation I",
+              "description": "Permet de scruter une personne, un objet ou un lieu précisément décrit à travers un support de divination ; la portée dépend du caractère mobile ou fixe de la cible."
+            },
+            "en": {
+              "name": "Scrying I",
+              "description": "Allows the Seer to scry a precisely described person, object, or place through a divinatory medium; range depends on whether the target is mobile or fixed."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sense III",
+          "label": "MERP_RMU.Seer.spells.AnimalSenseIII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSenseIII.description",
+          "level": 8,
+          "description": "Comme Animal Sense I, avec une portée de 300 pieds.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "300'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Sens Animal III",
+              "description": "Comme Animal Sense I, avec une portée de 300 pieds."
+            },
+            "en": {
+              "name": "Animal Sense III",
+              "description": "As Animal Sense I, but with a range of 300 feet."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Comprehend Borrowed Sense",
+          "label": "MERP_RMU.Seer.spells.ComprehendBorrowedSense.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ComprehendBorrowedSense.description",
+          "level": 9,
+          "description": "Permet d’interpréter correctement des informations sensorielles provenant d’un sens que le Devin ne possède pas naturellement.",
+          "aoe": "caster",
+          "duration": "varies",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Compréhension d’un Sens Emprunté",
+              "description": "Permet d’interpréter correctement des informations sensorielles provenant d’un sens que le Devin ne possède pas naturellement."
+            },
+            "en": {
+              "name": "Comprehend Borrowed Sense",
+              "description": "Allows correct interpretation of sensory information coming from a sense the Seer does not naturally possess."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sight Merge III",
+          "label": "MERP_RMU.Seer.spells.SightMergeIII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SightMergeIII.description",
+          "level": 10,
+          "description": "Comme Sight Merge I, avec une portée de 300 pieds.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "300'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion de Vue III",
+              "description": "Comme Sight Merge I, avec une portée de 300 pieds."
+            },
+            "en": {
+              "name": "Sight Merge III",
+              "description": "As Sight Merge I, but with a range of 300 feet."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sight V",
+          "label": "MERP_RMU.Seer.spells.AnimalSightV.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSightV.description",
+          "level": 11,
+          "description": "Comme Animal Sight I, avec une portée de 500 pieds.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "500'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vue Animale V",
+              "description": "Comme Animal Sight I, avec une portée de 500 pieds."
+            },
+            "en": {
+              "name": "Animal Sight V",
+              "description": "As Animal Sight I, but with a range of 500 feet."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sensory Merge I",
+          "label": "MERP_RMU.Seer.spells.SensoryMergeI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SensoryMergeI.description",
+          "level": 12,
+          "description": "Comme Animal Sense, mais peut emprunter n’importe quels sens d’un être pensant ou non.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "100'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion Sensorielle I",
+              "description": "Comme Animal Sense, mais peut emprunter n’importe quels sens d’un être pensant ou non."
+            },
+            "en": {
+              "name": "Sensory Merge I",
+              "description": "As Animal Sense, but may borrow any senses from either a thinking or non-thinking being."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sense V",
+          "label": "MERP_RMU.Seer.spells.AnimalSenseV.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSenseV.description",
+          "level": 13,
+          "description": "Comme Animal Sense I, avec une portée de 500 pieds.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "500'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Sens Animal V",
+              "description": "Comme Animal Sense I, avec une portée de 500 pieds."
+            },
+            "en": {
+              "name": "Animal Sense V",
+              "description": "As Animal Sense I, but with a range of 500 feet."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Scrying II",
+          "label": "MERP_RMU.Seer.spells.ScryingII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ScryingII.description",
+          "level": 14,
+          "description": "Comme Scrying I, avec une portée d’un mile par niveau pour une cible mobile et dix miles par niveau pour une cible fixe.",
+          "aoe": "1 item",
+          "duration": "C",
+          "range": "varies",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Scrutation II",
+              "description": "Comme Scrying I, avec une portée d’un mile par niveau pour une cible mobile et dix miles par niveau pour une cible fixe."
+            },
+            "en": {
+              "name": "Scrying II",
+              "description": "As Scrying I, but with a range of one mile per level for a mobile target and ten miles per level for a fixed target."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sight Merge V",
+          "label": "MERP_RMU.Seer.spells.SightMergeV.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SightMergeV.description",
+          "level": 15,
+          "description": "Comme Sight Merge I, avec une portée de 500 pieds.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "500'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion de Vue V",
+              "description": "Comme Sight Merge I, avec une portée de 500 pieds."
+            },
+            "en": {
+              "name": "Sight Merge V",
+              "description": "As Sight Merge I, but with a range of 500 feet."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sight True",
+          "label": "MERP_RMU.Seer.spells.AnimalSightTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSightTrue.description",
+          "level": 16,
+          "description": "Comme Animal Sight I, avec une portée d’un mile par niveau.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "1 mile/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vue Animale Véritable",
+              "description": "Comme Animal Sight I, avec une portée d’un mile par niveau."
+            },
+            "en": {
+              "name": "Animal Sight True",
+              "description": "As Animal Sight I, but with a range of one mile per level."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Scrying Share",
+          "label": "MERP_RMU.Seer.spells.ScryingShare.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ScryingShare.description",
+          "level": 17,
+          "description": "Permet à plusieurs personnes préparées de partager ce que le Devin voit au moyen d’un sort de Scrying.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "varies",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Partage de Scrutation",
+              "description": "Permet à plusieurs personnes préparées de partager ce que le Devin voit au moyen d’un sort de Scrying."
+            },
+            "en": {
+              "name": "Scrying Share",
+              "description": "Allows several prepared people to share what the Seer sees through a Scrying spell."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sensory Merge III",
+          "label": "MERP_RMU.Seer.spells.SensoryMergeIII.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SensoryMergeIII.description",
+          "level": 18,
+          "description": "Comme Sensory Merge I, avec une portée de 300 pieds.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "300'",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion Sensorielle III",
+              "description": "Comme Sensory Merge I, avec une portée de 300 pieds."
+            },
+            "en": {
+              "name": "Sensory Merge III",
+              "description": "As Sensory Merge I, but with a range of 300 feet."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Animal Sense True",
+          "label": "MERP_RMU.Seer.spells.AnimalSenseTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AnimalSenseTrue.description",
+          "level": 19,
+          "description": "Comme Animal Sense I, avec une portée d’un mile par niveau.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "1 mile/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Sens Animal Véritable",
+              "description": "Comme Animal Sense I, avec une portée d’un mile par niveau."
+            },
+            "en": {
+              "name": "Animal Sense True",
+              "description": "As Animal Sense I, but with a range of one mile per level."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sight Merge True",
+          "label": "MERP_RMU.Seer.spells.SightMergeTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SightMergeTrue.description",
+          "level": 20,
+          "description": "Comme Sight Merge I, avec une portée d’un mile par niveau.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "1 mile/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion de Vue Véritable",
+              "description": "Comme Sight Merge I, avec une portée d’un mile par niveau."
+            },
+            "en": {
+              "name": "Sight Merge True",
+              "description": "As Sight Merge I, but with a range of one mile per level."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Sensory Merge",
+          "label": "MERP_RMU.Seer.spells.LongSensoryMerge.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongSensoryMerge.description",
+          "level": 25,
+          "description": "Comme Sensory Merge I, avec une portée d’un mile par niveau.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "1 mile/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion Sensorielle Lointaine",
+              "description": "Comme Sensory Merge I, avec une portée d’un mile par niveau."
+            },
+            "en": {
+              "name": "Long Sensory Merge",
+              "description": "As Sensory Merge I, but with a range of one mile per level."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Scrying True",
+          "label": "MERP_RMU.Seer.spells.ScryingTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ScryingTrue.description",
+          "level": 30,
+          "description": "Comme Scrying I, avec une portée de dix miles par niveau pour une cible mobile et cent miles par niveau pour une cible fixe.",
+          "aoe": "1 item",
+          "duration": "C",
+          "range": "varies",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Scrutation Véritable",
+              "description": "Comme Scrying I, avec une portée de dix miles par niveau pour une cible mobile et cent miles par niveau pour une cible fixe."
+            },
+            "en": {
+              "name": "Scrying True",
+              "description": "As Scrying I, but with a range of ten miles per level for a mobile target and one hundred miles per level for a fixed target."
+            }
+          }
+        },
+        {
+          "spellList": "Vision Borrowing",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Sensory Merge True",
+          "label": "MERP_RMU.Seer.spells.SensoryMergeTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SensoryMergeTrue.description",
+          "level": 50,
+          "description": "Comme Sensory Merge I, mais sans limite pratique de portée.",
+          "aoe": "caster + 1 target",
+          "duration": "C",
+          "range": "unlimited",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Fusion Sensorielle Véritable",
+              "description": "Comme Sensory Merge I, mais sans limite pratique de portée."
+            },
+            "en": {
+              "name": "Sensory Merge True",
+              "description": "As Sensory Merge I, but with no practical range limit."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Emprunt de Vision",
+      "system": {
+        "name": "Emprunt de Vision",
+        "label": "Emprunt de Vision",
+        "notesLabel": "Emprunt de Vision — notes",
+        "notes": "<h2>Emprunt de Vision</h2><p>Emprunte les sens d’animaux ou d’autres êtres, fusionne les perceptions et permet la scrutation à distance.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>"
+      }
+    },
+    "en": {
+      "name": "Vision Borrowing",
+      "system": {
+        "name": "Vision Borrowing",
+        "label": "Vision Borrowing",
+        "notesLabel": "Vision Borrowing — notes",
+        "notes": "<h2>Vision Borrowing</h2><p>Borrows the senses of animals or other beings, merges perceptions, and enables remote scrying.</p><p><strong>MERP-RMU Conversion:</strong> historical Seer List, structured in RMU format while preserving its original effects and progression.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Devin (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Seer (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-seer"
+  ]
+}

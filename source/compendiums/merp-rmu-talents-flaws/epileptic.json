@@ -1,0 +1,64 @@
+{
+  "key": "epileptic",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Épilepsie (Epileptic)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "epileptic",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Physical",
+      "name": "Epileptic",
+      "cost": "-20",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Épilepsie (Epileptic)</h1><h2>Description</h2><p>Vous souffrez de crises épileptiques sévères. Une situation de stress extrême peut déclencher une crise : vous perdez momentanément la capacité de penser ou parler clairement, êtes pris de convulsions et lâchez ce que vous tenez. Une telle crise vous laisse ensuite fortement épuisé.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, lorsqu’un stress extrême constitue un déclencheur crédible, le MJ demande un Jet de Résistance approprié. En cas d’échec, le personnage subit une crise : il est incapable d’agir normalement, lâche les objets tenus et reste sévèrement incapacitant pendant une durée déterminée par le MJ ou le jet prévu par la table de campagne. La récupération doit également entraîner une Fatigue significative.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_epileptic.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Épilepsie (Epileptic)",
+      "system": {
+        "description": "<h1>Épilepsie (Epileptic)</h1><h2>Description</h2><p>Vous souffrez de crises épileptiques sévères. Une situation de stress extrême peut déclencher une crise : vous perdez momentanément la capacité de penser ou parler clairement, êtes pris de convulsions et lâchez ce que vous tenez. Une telle crise vous laisse ensuite fortement épuisé.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, lorsqu’un stress extrême constitue un déclencheur crédible, le MJ demande un Jet de Résistance approprié. En cas d’échec, le personnage subit une crise : il est incapable d’agir normalement, lâche les objets tenus et reste sévèrement incapacitant pendant une durée déterminée par le MJ ou le jet prévu par la table de campagne. La récupération doit également entraîner une Fatigue significative.</p>"
+      }
+    },
+    "en": {
+      "name": "Epileptic",
+      "system": {
+        "description": "<h1>Epileptic</h1><h2>Description</h2><p>You suffer from severe epileptic seizures. Extreme stress may trigger a seizure: you temporarily lose the ability to think or speak clearly, convulse, and drop whatever you are holding. Such a seizure leaves you severely exhausted afterward.</p><h2>MERP-RMU Adaptation</h2><p>In MERP-RMU, when extreme stress presents a credible trigger, the GM calls for an appropriate Resistance Roll. On a failure, the character suffers a seizure: they cannot act normally, drop held objects, and remain severely incapacitated for a duration determined by the GM or by the campaign table being used. Recovery should also cause significant Fatigue.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

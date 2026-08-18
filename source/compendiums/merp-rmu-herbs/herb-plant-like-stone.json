@@ -1,0 +1,79 @@
+{
+  "key": "herb-plant-like-stone",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Pierre-Végétale (Plant-like Stone)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-plant-like-stone",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-U-6-U",
+        "sourceCost": "12gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "U",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Plant-like Stone"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Very Hard",
+      "form": "Fungus",
+      "prep": "apply",
+      "season": "",
+      "cost": "12gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La sève blanc laiteux de ce champignon se solidifie sur la blessure : elle arrête l’hémorragie, scelle la plaie et contribue à la protéger contre l’infection.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pierre-Végétale (Plant-like Stone)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La sève blanc laiteux de ce champignon se solidifie sur la blessure : elle arrête l’hémorragie, scelle la plaie et contribue à la protéger contre l’infection.</p>"
+      }
+    },
+    "en": {
+      "name": "Plant-like Stone",
+      "system": {
+        "notes": "<p>This fungus is found chiefly in mild temperate climates, especially in underground environments, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The milky-white sap of this fungus hardens over a wound, stopping the bleeding, sealing the injury, and helping protect it against infection.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-iauthalion-yavis-jargon",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Iauthalion (Yavis, Jargon)",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-iauthalion-yavis-jargon",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-5-W",
+        "sourceCost": "45gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Iauthalion (Yavis, Jargon)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Hard",
+      "form": "Fruit",
+      "prep": "ingest",
+      "season": "",
+      "cost": "45gp",
+      "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le fruit rend immédiatement 5 à 50 points de vie. Il est également connu sous le nom de Yavethalion.</p>",
+      "addictionFactor": 4,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Iauthalion (Yavis, Jargon)",
+      "system": {
+        "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le fruit rend immédiatement 5 à 50 points de vie. Il est également connu sous le nom de Yavethalion.</p>"
+      }
+    },
+    "en": {
+      "name": "Iauthalion (Yavis, Jargon)",
+      "system": {
+        "notes": "<p>This fruit is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores, and is best known in western Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The fruit immediately restores 5–50 concussion hits. It is also known as Yavethalion.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

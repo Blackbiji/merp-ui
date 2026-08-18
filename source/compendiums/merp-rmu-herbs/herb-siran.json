@@ -1,0 +1,79 @@
+{
+  "key": "herb-siran",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Siran",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-siran",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-S-6-M",
+        "sourceCost": "80gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "S",
+        "regionCode": "M",
+        "sourceVariants": [],
+        "sourceName": "Siran"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Very Hard",
+      "form": "Clove",
+      "prep": "ingest",
+      "season": "",
+      "cost": "80gp",
+      "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce remède peut restaurer un organe ou une zone corporelle gravement atteinte, mais il fragilise temporairement la peau et peut provoquer de sévères réactions au soleil.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>",
+      "addictionFactor": 31,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Siran",
+      "system": {
+        "notes": "<p>Cette gousse se rencontre surtout dans les régions au climat semi-aride, notamment dans les prairies rases, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce remède peut restaurer un organe ou une zone corporelle gravement atteinte, mais il fragilise temporairement la peau et peut provoquer de sévères réactions au soleil.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>"
+      }
+    },
+    "en": {
+      "name": "Siran",
+      "system": {
+        "notes": "<p>This clove is found chiefly in semi-arid climates, especially in short-grass plains, and is best known in central Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This remedy can restore a badly damaged organ or body area, but it temporarily weakens the skin and can cause severe reactions to sunlight.</p><p>Its use carries a very high risk of addiction and should remain exceptional.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

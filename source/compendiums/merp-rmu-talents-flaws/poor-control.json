@@ -1,0 +1,64 @@
+{
+  "key": "poor-control",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Mauvais contrôle (Poor Control)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "poor-control",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Poor Control",
+      "cost": "-7",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Mauvais contrôle (Poor Control)</h1><h2>Description</h2><p>Votre magie est instable lorsqu’elle vous échappe. Lorsqu’un sort vous échappe, les conséquences ont tendance à être plus dangereuses que pour un lanceur de sorts ordinaire, particulièrement avec les sorts offensifs.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, lorsqu’un <strong>Spell Casting Roll</strong> échoue et qu’un résultat de Fumble ou de complication est applicable, le MJ augmente la sévérité ou choisit une conséquence plus dangereuse que pour un lanceur de sorts ordinaire. Le Défaut ne provoque pas automatiquement un Fumble sur chaque simple échec si les règles RMU n’en prévoient aucun.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_poor-control.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Mauvais contrôle (Poor Control)",
+      "system": {
+        "description": "<h1>Mauvais contrôle (Poor Control)</h1><h2>Description</h2><p>Votre magie est instable lorsqu’elle vous échappe. Lorsqu’un sort vous échappe, les conséquences ont tendance à être plus dangereuses que pour un lanceur de sorts ordinaire, particulièrement avec les sorts offensifs.</p><h2>Adaptation MERP-RMU</h2><p>En MERP-RMU, lorsqu’un <strong>Spell Casting Roll</strong> échoue et qu’un résultat de Fumble ou de complication est applicable, le MJ augmente la sévérité ou choisit une conséquence plus dangereuse que pour un lanceur de sorts ordinaire. Le Défaut ne provoque pas automatiquement un Fumble sur chaque simple échec si les règles RMU n’en prévoient aucun.</p>"
+      }
+    },
+    "en": {
+      "name": "Poor Control",
+      "system": {
+        "description": "<h1>Poor Control</h1><h2>Description</h2><p>Your magic is unstable when it escapes your control. When a spell gets away from you, the consequences tend to be more dangerous than for an ordinary spell-user, especially with offensive spells.</p><h2>MERP-RMU Adaptation</h2><p>In MERP-RMU, when a <strong>Spell Casting Roll</strong> fails and a Fumble or complication result applies, the GM increases the severity or chooses a more dangerous consequence than for an ordinary spell-user. The Flaw does not automatically cause a Fumble on every simple failure if RMU rules do not call for one.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

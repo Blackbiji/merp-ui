@@ -1,0 +1,78 @@
+{
+  "key": "herb-athelas-kings-foil",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Athelas (Feuille-du-Roi / Kings Foil)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-athelas-kings-foil",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-C-5-W",
+        "sourceCost": "300gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "C",
+        "regionCode": "W",
+        "sourceVariants": [],
+        "sourceName": "Athelas (Kings Foil)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Hard",
+      "form": "Leaf",
+      "prep": "brew",
+      "season": "",
+      "cost": "300gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Feuille des Rois (Kings Foil)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de conifères, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>L’Athelas peut soutenir la guérison de presque toute affection tant que le patient vit encore, mais son efficacité dépend du talent du guérisseur. Entre les mains d’un roi légitime, ses vertus atteignent leur pleine puissance. Elle ne rend cependant pas la vie aux morts.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 20,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Athelas (Feuille-du-Roi / Kings Foil)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Feuille des Rois (Kings Foil)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de conifères, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>L’Athelas peut soutenir la guérison de presque toute affection tant que le patient vit encore, mais son efficacité dépend du talent du guérisseur. Entre les mains d’un roi légitime, ses vertus atteignent leur pleine puissance. Elle ne rend cependant pas la vie aux morts.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Athelas (Kings Foil)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Kings Foil</strong>.</p><p>This leaf is found chiefly in mild temperate climates, especially in coniferous forests, and is best known in western Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>Athelas can aid the healing of almost any affliction while the patient still lives, but its effectiveness depends on the healer’s skill. In the hands of a rightful king, its virtues reach their full power. It cannot, however, restore the dead to life.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

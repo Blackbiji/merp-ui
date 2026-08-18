@@ -1,0 +1,64 @@
+{
+  "key": "mana-sensing",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mystical",
+  "document": {
+    "name": "Perception de la Mana (Mana Sensing)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "mana-sensing",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Mana Sensing",
+      "cost": "5",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Perception de la Mana (Mana Sensing)</h1><h2>Description</h2><p>Vous êtes sensible aux concentrations de puissance magique. Une forte accumulation de pouvoir, un lieu profondément enchanté ou une manifestation magique importante peut produire pour vous une sensation perceptible, sans que vous compreniez automatiquement sa nature.</p><h2>Adaptation MERP-RMU</h2><p>Le Talent permet de <strong>ressentir la présence</strong> d’une puissance inhabituelle ; il ne remplace pas Accord, les Connaissances magiques ni les moyens précis d’analyse. La portée et la finesse dépendent de l’intensité du phénomène et de l’appréciation du MJ.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_mana-sensing.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Perception de la Mana (Mana Sensing)",
+      "system": {
+        "description": "<h1>Perception de la Mana (Mana Sensing)</h1><h2>Description</h2><p>Vous êtes sensible aux concentrations de puissance magique. Une forte accumulation de pouvoir, un lieu profondément enchanté ou une manifestation magique importante peut produire pour vous une sensation perceptible, sans que vous compreniez automatiquement sa nature.</p><h2>Adaptation MERP-RMU</h2><p>Le Talent permet de <strong>ressentir la présence</strong> d’une puissance inhabituelle ; il ne remplace pas Accord, les Connaissances magiques ni les moyens précis d’analyse. La portée et la finesse dépendent de l’intensité du phénomène et de l’appréciation du MJ.</p>"
+      }
+    },
+    "en": {
+      "name": "Mana Sensing",
+      "system": {
+        "description": "<h1>Mana Sensing</h1><h2>Description</h2><p>You are sensitive to concentrations of magical power. A strong accumulation of power, a deeply enchanted place, or an important magical manifestation may produce a perceptible sensation for you without automatically revealing its nature.</p><h2>MERP-RMU Adaptation</h2><p>The Talent allows you to <strong>sense the presence</strong> of unusual power; it does not replace Attunement, magical Lore, or precise means of analysis. Range and sensitivity depend on the intensity of the phenomenon and the GM’s judgment.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mystiques"
+    ],
+    "en": [
+      "Talents — Mystical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mystical"
+  ]
+}

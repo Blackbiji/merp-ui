@@ -1,0 +1,78 @@
+{
+  "key": "herb-argsbargies-cashdir",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Argsbargies (Cashdir)",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-argsbargies-cashdir",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "a-Z-5-U",
+        "sourceCost": "38gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "a",
+        "localeCode": "Z",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Argsbargies (Cashdir)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "Z",
+      "findDifficulty": "Hard",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "38gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 4 contre les poisons musculaires.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 7,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Argsbargies (Cashdir)",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 4 contre les poisons musculaires.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Argsbargies (Cashdir)",
+      "system": {
+        "notes": "<p>This flower is found chiefly in arid climates, especially in deserts, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 4 antidote for muscle poisons.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "beardless",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Imberbe (Beardless)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "beardless",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {
+          "races": [
+            "Khazâd",
+            "Naugrim"
+          ]
+        },
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Beardless",
+      "cost": "-5",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Imberbe (Beardless)</h1><h2>Description</h2><p>Vous êtes né sans barbe, fait exceptionnel et socialement embarrassant chez les Khazâd. Certains de vos semblables vous regardent avec pitié, embarras ou condescendance, et peuvent modifier leur comportement à votre égard.</p><p>Vous subissez <strong>−10 aux Manœuvres sociales</strong> lorsque votre apparence et le respect des conventions traditionnelles naines sont déterminants, particulièrement lors d’une première rencontre avec des Khazâd conservateurs. Cette pénalité ne s’applique pas aux personnes qui vous connaissent déjà ou qui accordent peu d’importance à cette convention.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_beardless.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Imberbe (Beardless)",
+      "system": {
+        "description": "<h1>Imberbe (Beardless)</h1><h2>Description</h2><p>Vous êtes né sans barbe, fait exceptionnel et socialement embarrassant chez les Khazâd. Certains de vos semblables vous regardent avec pitié, embarras ou condescendance, et peuvent modifier leur comportement à votre égard.</p><p>Vous subissez <strong>−10 aux Manœuvres sociales</strong> lorsque votre apparence et le respect des conventions traditionnelles naines sont déterminants, particulièrement lors d’une première rencontre avec des Khazâd conservateurs. Cette pénalité ne s’applique pas aux personnes qui vous connaissent déjà ou qui accordent peu d’importance à cette convention.</p>"
+      }
+    },
+    "en": {
+      "name": "Beardless",
+      "system": {
+        "description": "<h1>Beardless</h1><h2>Description</h2><p>You were born without a beard, an exceptional and socially embarrassing condition among the Khazâd. Some of your people regard you with pity, discomfort, or condescension and may alter their behavior toward you.</p><p>You suffer <strong>−10 to social Maneuvers</strong> when your appearance and adherence to traditional Dwarven conventions are decisive, especially on a first meeting with conservative Khazâd. This penalty does not apply to people who already know you or who place little importance on this convention.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-arnuminas",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Arnuminas",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-arnuminas",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-S-2-NW",
+        "sourceCost": "6bp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "S",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Arnuminas"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "S",
+      "findDifficulty": "Easy",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "6bp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La feuille appliquée en cataplasme double la vitesse de guérison des entorses, ligaments déchirés et lésions du cartilage.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Arnuminas",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les prairies rases, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La feuille appliquée en cataplasme double la vitesse de guérison des entorses, ligaments déchirés et lésions du cartilage.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Arnuminas",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in mild temperate climates, especially in short-grass plains, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Applied as a poultice, the leaf doubles the healing rate of sprains, torn ligaments, and cartilage injuries.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

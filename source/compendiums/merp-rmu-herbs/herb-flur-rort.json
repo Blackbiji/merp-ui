@@ -1,0 +1,78 @@
+{
+  "key": "herb-flur-rort",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Flúr Rort",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-flur-rort",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-H-6-NW",
+        "sourceCost": "21gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "H",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Flúr Rort"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Very Hard",
+      "form": "Flower",
+      "prep": "liquid",
+      "season": "",
+      "cost": "21gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Antidote de niveau 12 contre les poisons nerveux.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Flúr Rort",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Antidote de niveau 12 contre les poisons nerveux.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Flúr Rort",
+      "system": {
+        "notes": "<p>This flower is found chiefly in cold climates, especially in heaths, scrublands, and moors, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 12 antidote for nerve poisons.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

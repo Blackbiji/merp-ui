@@ -1,0 +1,68 @@
+{
+  "key": "aura-of-aman",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Aura d’Aman (Aura of Aman)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "aura-of-aman",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Noldor"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Aura of Aman",
+      "cost": "20/Tier",
+      "tier": 0,
+      "maxTier": 2,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Aura d’Aman (Aura of Aman)</h1><h2>Description</h2><p>Une bénédiction curative liée aux Terres Immortelles traverse votre lignée. Le premier Tier représente un personnage dont un ou deux parents sont nés en Aman et lui confère des capacités curatives innées limitées. Le second Tier concerne un personnage lui-même né en Aman et renforce fortement ces capacités. Les soins exigent le contact et mobilisent une part importante de votre énergie.</p><h2>Adaptation MERP-RMU</h2><p>Donner gratuitement plusieurs Listes complètes serait disproportionné en RMU. Le Talent est donc conservé à <strong>deux Tiers</strong> sous forme de capacités curatives innées ciblées, définies avec le MJ à partir de soins du sang, des os, des muscles/tendons/ligaments et de purification. Les soins exigent le contact et doivent conserver un coût ou une limitation d’usage significative. Le Tier II représente une puissance nettement supérieure et suppose une naissance en Aman ou une justification équivalente.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_aura-of-aman.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Aura d’Aman (Aura of Aman)",
+      "system": {
+        "description": "<h1>Aura d’Aman (Aura of Aman)</h1><h2>Description</h2><p>Une bénédiction curative liée aux Terres Immortelles traverse votre lignée. Le premier Tier représente un personnage dont un ou deux parents sont nés en Aman et lui confère des capacités curatives innées limitées. Le second Tier concerne un personnage lui-même né en Aman et renforce fortement ces capacités. Les soins exigent le contact et mobilisent une part importante de votre énergie.</p><h2>Adaptation MERP-RMU</h2><p>Donner gratuitement plusieurs Listes complètes serait disproportionné en RMU. Le Talent est donc conservé à <strong>deux Tiers</strong> sous forme de capacités curatives innées ciblées, définies avec le MJ à partir de soins du sang, des os, des muscles/tendons/ligaments et de purification. Les soins exigent le contact et doivent conserver un coût ou une limitation d’usage significative. Le Tier II représente une puissance nettement supérieure et suppose une naissance en Aman ou une justification équivalente.</p>"
+      }
+    },
+    "en": {
+      "name": "Aura of Aman",
+      "system": {
+        "description": "<h1>Aura of Aman</h1><h2>Description</h2><p>A healing blessing linked to the Undying Lands runs through your lineage. The first Tier represents a character with one or two parents born in Aman and grants limited innate healing abilities. The second Tier concerns a character personally born in Aman and greatly strengthens these abilities. Healing requires touch and consumes a significant part of your energy.</p><h2>MERP-RMU Adaptation</h2><p>Granting several complete Spell Lists for free would be disproportionate in RMU. The Talent is therefore retained in <strong>two Tiers</strong> as targeted innate healing abilities, defined with the GM from Blood, Bone, Muscle/Tendon/Ligament, and Cleansing healing effects. Healing requires touch and must retain a meaningful cost or usage limitation. Tier II represents substantially greater power and assumes birth in Aman or an equivalent justification.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

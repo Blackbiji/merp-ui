@@ -1,0 +1,70 @@
+{
+  "key": "elf-hater",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Haine des Elfes (Elf-Hater)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "elf-hater",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Uruk-hai",
+            "Uruk Hai",
+            "Uruk"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Combat",
+      "name": "Elf-Hater",
+      "cost": "10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Haine des Elfes (Elf-Hater)</h1><h2>Description</h2><p>La haine des Elfes, déjà forte chez beaucoup d’Orcs, devient chez vous une rage presque incontrôlable. Face aux Elfes, cette haine augmente votre agressivité, votre efficacité offensive et votre capacité à poursuivre le combat, mais elle vous pousse à privilégier l’attaque au détriment de la prudence.</p><h2>Adaptation MERP-RMU</h2><p>La version MERP-RMU est volontairement réduite : contre un adversaire elfe, vous gagnez <strong>+10 OB</strong> et <strong>+5 Initiative</strong>, et vous ignorez jusqu’à <strong>5 points de pénalités de blessure</strong> lorsque vous l’attaquez. En contrepartie, vous <strong>ne pouvez pas allouer d’OB à la parade</strong> contre un adversaire elfe. Le doublement des dégâts et l’augmentation automatique de la vitesse ont été supprimés.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_elf-hater.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Haine des Elfes (Elf-Hater)",
+      "system": {
+        "description": "<h1>Haine des Elfes (Elf-Hater)</h1><h2>Description</h2><p>La haine des Elfes, déjà forte chez beaucoup d’Orcs, devient chez vous une rage presque incontrôlable. Face aux Elfes, cette haine augmente votre agressivité, votre efficacité offensive et votre capacité à poursuivre le combat, mais elle vous pousse à privilégier l’attaque au détriment de la prudence.</p><h2>Adaptation MERP-RMU</h2><p>La version MERP-RMU est volontairement réduite : contre un adversaire elfe, vous gagnez <strong>+10 OB</strong> et <strong>+5 Initiative</strong>, et vous ignorez jusqu’à <strong>5 points de pénalités de blessure</strong> lorsque vous l’attaquez. En contrepartie, vous <strong>ne pouvez pas allouer d’OB à la parade</strong> contre un adversaire elfe. Le doublement des dégâts et l’augmentation automatique de la vitesse ont été supprimés.</p>"
+      }
+    },
+    "en": {
+      "name": "Elf-Hater",
+      "system": {
+        "description": "<h1>Elf-Hater</h1><h2>Description</h2><p>The hatred of Elves, already strong among many Orcs, becomes an almost uncontrollable rage in you. Against Elves, this hatred increases your aggression, offensive effectiveness, and ability to keep fighting, but it drives you to favor attack over caution.</p><h2>MERP-RMU Adaptation</h2><p>The MERP-RMU version is deliberately reduced: against an Elven opponent you gain <strong>+10 OB</strong> and <strong>+5 Initiative</strong>, and ignore up to <strong>5 points of injury penalties</strong> while attacking them. In return, you <strong>cannot allocate OB to parry</strong> against an Elven opponent. Doubling damage and automatically increasing speed have been removed.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "key": "herbalist",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-general",
+  "document": {
+    "name": "Herboriste (Herbalist)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herbalist",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Herbalist",
+      "cost": "7/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Herboriste (Herbalist)</h1><h2>Description</h2><p>Vous possédez une aptitude naturelle à reconnaître les herbes, les plantes médicinales et les poisons, ainsi qu’à comprendre leur préparation et leur emploi. Cette aptitude facilite la cuisine, la recherche de nourriture, l’utilisation et la préparation des herbes, ainsi que les connaissances des herbes et des poisons.</p><h2>Adaptation MERP-RMU</h2><p>Les bonus sont adaptés à l’échelle de RMU. Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres directement liées à l’identification, la récolte, la préparation ou l’utilisation des herbes et poisons, lorsque la Compétence employée est pertinente. Ce Talent n’accorde pas automatiquement la connaissance d’une plante inconnue ni l’accès à des préparations que le personnage ne pourrait normalement réaliser.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_herbalist.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Herboriste (Herbalist)",
+      "system": {
+        "description": "<h1>Herboriste (Herbalist)</h1><h2>Description</h2><p>Vous possédez une aptitude naturelle à reconnaître les herbes, les plantes médicinales et les poisons, ainsi qu’à comprendre leur préparation et leur emploi. Cette aptitude facilite la cuisine, la recherche de nourriture, l’utilisation et la préparation des herbes, ainsi que les connaissances des herbes et des poisons.</p><h2>Adaptation MERP-RMU</h2><p>Les bonus sont adaptés à l’échelle de RMU. Vous gagnez <strong>+5 par Tier</strong> aux Manœuvres directement liées à l’identification, la récolte, la préparation ou l’utilisation des herbes et poisons, lorsque la Compétence employée est pertinente. Ce Talent n’accorde pas automatiquement la connaissance d’une plante inconnue ni l’accès à des préparations que le personnage ne pourrait normalement réaliser.</p>"
+      }
+    },
+    "en": {
+      "name": "Herbalist",
+      "system": {
+        "description": "<h1>Herbalist</h1><h2>Description</h2><p>You possess a natural aptitude for recognizing herbs, medicinal plants, and poisons, as well as for understanding their preparation and use. This aptitude makes cooking, foraging, the use and preparation of herbs, and knowledge of herbs and poisons easier.</p><h2>MERP-RMU Adaptation</h2><p>The bonuses are adapted to the RMU scale. You gain <strong>+5 per Tier</strong> to Maneuvers directly related to identifying, gathering, preparing, or using herbs and poisons when the Skill being used is relevant. This Talent does not automatically grant knowledge of an unknown plant or access to preparations the character could not normally make.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Généraux"
+    ],
+    "en": [
+      "Talents — General"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-general"
+  ]
+}

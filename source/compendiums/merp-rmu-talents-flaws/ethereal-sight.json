@@ -1,0 +1,64 @@
+{
+  "key": "ethereal-sight",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mystical",
+  "document": {
+    "name": "Vue éthérée (Ethereal Sight)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "ethereal-sight",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Senses",
+      "name": "Ethereal Sight",
+      "cost": "10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Vue éthérée (Ethereal Sight)</h1><h2>Description</h2><p>Votre perception s’étend au-delà du monde strictement matériel. Vous pouvez discerner certaines manifestations éthérées, spirituelles ou normalement invisibles aux sens ordinaires, selon leur nature et les circonstances.</p><h2>Adaptation MERP-RMU</h2><p>Le Talent ne confère pas une vision universelle de l’invisible. Le MJ détermine quelles manifestations ont une composante éthérée perceptible et peut demander une Manœuvre de Perception lorsque l’apparition est faible, dissimulée ou ambiguë.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_ethereal-sight.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Vue éthérée (Ethereal Sight)",
+      "system": {
+        "description": "<h1>Vue éthérée (Ethereal Sight)</h1><h2>Description</h2><p>Votre perception s’étend au-delà du monde strictement matériel. Vous pouvez discerner certaines manifestations éthérées, spirituelles ou normalement invisibles aux sens ordinaires, selon leur nature et les circonstances.</p><h2>Adaptation MERP-RMU</h2><p>Le Talent ne confère pas une vision universelle de l’invisible. Le MJ détermine quelles manifestations ont une composante éthérée perceptible et peut demander une Manœuvre de Perception lorsque l’apparition est faible, dissimulée ou ambiguë.</p>"
+      }
+    },
+    "en": {
+      "name": "Ethereal Sight",
+      "system": {
+        "description": "<h1>Ethereal Sight</h1><h2>Description</h2><p>Your perception extends beyond the strictly material world. You can discern certain ethereal or spiritual manifestations, or things normally invisible to ordinary senses, according to their nature and the circumstances.</p><h2>MERP-RMU Adaptation</h2><p>The Talent does not grant universal sight of the invisible. The GM determines which manifestations possess a perceptible ethereal component and may require a Perception Maneuver when an apparition is faint, concealed, or ambiguous.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mystiques"
+    ],
+    "en": [
+      "Talents — Mystical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mystical"
+  ]
+}

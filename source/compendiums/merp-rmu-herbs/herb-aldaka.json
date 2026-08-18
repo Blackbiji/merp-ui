@@ -1,0 +1,79 @@
+{
+  "key": "herb-aldaka",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Aldaka",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-aldaka",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-M-5",
+        "sourceCost": "102gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "M",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Aldaka"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "M",
+      "findDifficulty": "Hard",
+      "form": "Root",
+      "prep": "brew",
+      "season": "",
+      "cost": "102gp",
+      "notes": "<p>Cette racine se rencontre surtout dans les régions au climat froid, notamment dans les montagnes.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction de cette racine peut restaurer la vue perdue à la suite d’une lésion organique.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 7,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Aldaka",
+      "system": {
+        "notes": "<p>Cette racine se rencontre surtout dans les régions au climat froid, notamment dans les montagnes.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La décoction de cette racine peut restaurer la vue perdue à la suite d’une lésion organique.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Aldaka",
+      "system": {
+        "notes": "<p>This root is found chiefly in cold climates, especially in mountains.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>A decoction of this root can restore sight lost through organic injury.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "key": "dependent",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Personne à charge (Dependent)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "dependent",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Dependent",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Personne à charge (Dependent)</h1><h2>Description</h2><p>Une personne ou un petit groupe dépend concrètement de vous pour sa sécurité, son entretien, sa protection ou sa survie. Cette relation crée une responsabilité exploitable en jeu et peut vous contraindre à consacrer temps, ressources ou risques à autrui.</p><h2>Tiers</h2><p>Avec les Tiers supérieurs, la personne à charge devient plus vulnérable, plus exigeante, plus exposée au danger ou plus difficile à protéger.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ et le joueur définissent clairement qui dépend du personnage et pourquoi. La relation doit être réelle dans la campagne et ne peut pas rester constamment hors scène.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_dependent.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Personne à charge (Dependent)",
+      "system": {
+        "description": "<h1>Personne à charge (Dependent)</h1><h2>Description</h2><p>Une personne ou un petit groupe dépend concrètement de vous pour sa sécurité, son entretien, sa protection ou sa survie. Cette relation crée une responsabilité exploitable en jeu et peut vous contraindre à consacrer temps, ressources ou risques à autrui.</p><h2>Tiers</h2><p>Avec les Tiers supérieurs, la personne à charge devient plus vulnérable, plus exigeante, plus exposée au danger ou plus difficile à protéger.</p><h2>Adaptation MERP-RMU</h2><p>Le MJ et le joueur définissent clairement qui dépend du personnage et pourquoi. La relation doit être réelle dans la campagne et ne peut pas rester constamment hors scène.</p>"
+      }
+    },
+    "en": {
+      "name": "Dependent",
+      "system": {
+        "description": "<h1>Dependent</h1><h2>Description</h2><p>A person or small group concretely depends on you for safety, support, protection, or survival. This relationship creates a responsibility that can matter in play and may force you to devote time, resources, or risk to others.</p><h2>Tiers</h2><p>At higher Tiers, the dependent becomes more vulnerable, more demanding, more exposed to danger, or more difficult to protect.</p><h2>MERP-RMU Adaptation</h2><p>The GM and player clearly define who depends on the character and why. The relationship must be real within the campaign and cannot remain permanently offstage.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

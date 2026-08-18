@@ -1,0 +1,84 @@
+{
+  "key": "herb-olvatari-kelventari",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Olvatári (Kelventari)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-olvatari-kelventari",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-T-5-U",
+        "sourceCost": "5gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "T",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Olvatári (Kelventari)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "T",
+      "findDifficulty": "Hard",
+      "form": "Juice",
+      "prep": "apply",
+      "season": "",
+      "cost": "5gp",
+      "notes": "<p>Ce jus se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Son jus soigne les brûlures, rend 1 à 10 points de vie perdus par la chaleur et limite fortement les cicatrices. Bien conservé, il reste actif jusqu’à deux ans.</p>",
+      "addictionFactor": 0,
+      "effects": [
+        {
+          "effect": "heal-hits",
+          "formula": "1d10"
+        }
+      ],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Olvatári (Kelventari)",
+      "system": {
+        "notes": "<p>Ce jus se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Son jus soigne les brûlures, rend 1 à 10 points de vie perdus par la chaleur et limite fortement les cicatrices. Bien conservé, il reste actif jusqu’à deux ans.</p>"
+      }
+    },
+    "en": {
+      "name": "Olvatári (Kelventari)",
+      "system": {
+        "notes": "<p>This juice is found chiefly in cool temperate climates, especially in tall grasslands, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Its juice heals burns, restores 1–10 concussion hits lost to heat, and greatly limits scarring. Properly stored, it remains effective for up to two years.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

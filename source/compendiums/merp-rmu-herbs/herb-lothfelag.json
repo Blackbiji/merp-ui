@@ -1,0 +1,90 @@
+{
+  "key": "herb-lothfelag",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Lothfelag",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-lothfelag",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-7-W",
+        "sourceCost": "490gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie",
+          "Poisons",
+          "Respiratoire"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "W",
+        "sourceVariants": [
+          {
+            "group": "Poisons",
+            "code": "t-U-7-W",
+            "form": "Resin",
+            "prep": "ingest",
+            "cost": "70gp",
+            "af": 4,
+            "effect": "Poison respiratoire de niveau 1. Un échec modéré plonge dans un sommeil impossible à interrompre pendant 1 à 10 heures ; un échec sévère entraîne un coma de 1 à 7 mois."
+          }
+        ],
+        "sourceName": "Lothfelag"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Extremely Hard",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "490gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Chez les Nains, la fleur peut maintenir la vie pendant des mois et, dans certains cas, rappeler à la vie un mort très récent. Chez les autres peuples, elle dissipe surtout blessures superficielles et étourdissement ; sa résine brute doit être soigneusement éliminée. Poison respiratoire de niveau 1. Un échec modéré plonge dans un sommeil impossible à interrompre pendant 1 à 10 heures ; un échec sévère entraîne un coma de 1 à 7 mois.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 16,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lothfelag",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Chez les Nains, la fleur peut maintenir la vie pendant des mois et, dans certains cas, rappeler à la vie un mort très récent. Chez les autres peuples, elle dissipe surtout blessures superficielles et étourdissement ; sa résine brute doit être soigneusement éliminée. Poison respiratoire de niveau 1. Un échec modéré plonge dans un sommeil impossible à interrompre pendant 1 à 10 heures ; un échec sévère entraîne un coma de 1 à 7 mois.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Lothfelag",
+      "system": {
+        "notes": "<p>This flower is found chiefly in cool temperate climates, especially in underground environments, and is best known in western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Among Dwarves, the flower can sustain life for months and, in some cases, restore a very recently dead Dwarf to life. Among other peoples it mainly relieves superficial wounds and stun; its raw resin must be carefully removed. Level 1 respiratory poison. A moderate failure causes an unbreakable sleep lasting 1–10 hours; a severe failure causes a coma lasting 1–7 months.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

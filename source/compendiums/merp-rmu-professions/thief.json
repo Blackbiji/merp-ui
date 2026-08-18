@@ -1,0 +1,246 @@
+{
+  "key": "thief",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-non-magiques",
+  "document": {
+    "name": "Voleur",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "thief",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmss-to-rmu-adaptation",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 — Thief; RMU-compatible adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP / RMSS — adaptation RMU",
+      "profession": "Thief",
+      "spellCastingGroup": "Non",
+      "numberOfBaseLists": 0,
+      "realms": "",
+      "description": "<h1>Voleur — ou Cambrioleur</h1>\n<p>Le <strong>Voleur</strong>, parfois appelé <strong>Cambrioleur</strong>, est un spécialiste de l’intrusion, de la discrétion et de la manipulation. Il pousse plus loin que le Roublard les compétences permettant d’entrer dans un lieu protégé, observer sans être vu, neutraliser les obstacles mécaniques et repartir sans laisser de trace.</p>\n<p>Le terme Cambrioleur convient particulièrement à la Terre du Milieu : la Profession peut représenter un véritable criminel, mais aussi un éclaireur, un récupérateur, un espion, un chercheur de trésors, un spécialiste des serrures ou un aventurier chargé de pénétrer dans des lieux dangereux.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Voleur sont <strong>Agilité (Ag)</strong> et <strong>Rapidité (Qu)</strong>. L’Agilité gouverne les gestes précis ; la Rapidité permet de profiter d’une ouverture, agir avant d’être repéré et disparaître lorsque la situation se dégrade.</p>\n<h2>Orientation technique</h2>\n<p>Le Voleur est un <strong>non-utilisateur de sorts</strong>. Il privilégie Subterfuge, Discrétion, Serrures, Pièges, Perception, Recherche, aptitudes gymniques, compétences urbaines et armes adaptées à son mode d’action.</p>\n<h2>Intrusion et mécanique</h2>\n<p>Serrures, pièges, coffres, portes secrètes et mécanismes dissimulés constituent son domaine emblématique. À Minas Tirith, il peut connaître les réserves et passages de service des grandes maisons ; à Umbar, les entrepôts et coffres marchands ; dans les ruines d’Arnor, il appliquera les mêmes compétences à des portes anciennes et mécanismes oubliés.</p>\n<h2>Discrétion</h2>\n<p>Le Voleur sait utiliser ombres et couvert, attendre le bon moment, suivre une cible et se dissimuler rapidement. À Pelargir, cela peut prendre la forme de filatures sur les quais ; chez un Hobbit, d’une discrétion naturelle et d’une connaissance précise des chemins secondaires ; chez un espion dúnadan, d’une infiltration en territoire surveillé.</p>\n<h2>Combat et armure</h2>\n<p>Le Voleur sait se battre mais privilégie les armes légères ou faciles à transporter : dague, épée courte, gourdin, arc court, fronde ou armes de jet. Un Corsaire d’Umbar peut toutefois adopter une lame plus lourde selon sa Culture. Les protections légères préservent mieux mobilité, escalade et discrétion.</p>\n<h2>Voleur et Roublard</h2>\n<p>Le Roublard recherche l’équilibre entre combat et subterfuge. Le Voleur se spécialise dans les serrures, pièges, infiltrations et opérations clandestines. Lors d’un affrontement prolongé, le Roublard possède généralement l’avantage ; face à une serrure complexe ou une mission de discrétion, le Voleur doit rester le meilleur spécialiste.</p>\n<h2>Profils possibles</h2>\n<ul>\n<li><strong>Cambrioleur.</strong> Serrures, Discrétion, Perception, Escalade et recherche de pièges.</li>\n<li><strong>Voleur à la tire.</strong> Observation, discrétion, manipulation et connaissance des foules.</li>\n<li><strong>Espion.</strong> Discrétion, Serrures, Perception, Influence et déguisement.</li>\n<li><strong>Pilleur de ruines.</strong> Pièges, serrures, recherche, escalade et connaissances techniques.</li>\n<li><strong>Receleur.</strong> Contacts, évaluation, négociation et compétences urbaines.</li>\n<li><strong>Éclaireur clandestin.</strong> Furtivité, perception, déplacement et arme à distance.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong></p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons de RMU le spécialiste du Subterfuge et des compétences techniques. MERP-RMU rétablit explicitement <strong>Agilité et Rapidité</strong> comme caractéristiques primordiales et maintient une distinction forte avec le Roublard.</p>\n<p>La Profession dépasse le simple criminel : Hobbit cambrioleur, espion dúnadan, spécialiste des ruines d’Arnor, voleur des quais d’Umbar ou aventurier chargé de franchir les obstacles que le groupe ne peut résoudre ouvertement.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "2/3"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "1/1"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "1/2"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "2/4"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "3/5"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "4/6"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "3/5"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Observation"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Climbing"
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Hiding"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Locks"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Pick Pockets"
+        },
+        {
+          "skillCategory": "Technical",
+          "skillName": "Traps"
+        },
+        {
+          "skillCategory": "Vocation",
+          "skillName": "Trade"
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Deception"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Melee Weapons"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Voleur",
+      "system": {
+        "description": "<h1>Voleur — ou Cambrioleur</h1>\n<p>Le <strong>Voleur</strong>, parfois appelé <strong>Cambrioleur</strong>, est un spécialiste de l’intrusion, de la discrétion et de la manipulation. Il pousse plus loin que le Roublard les compétences permettant d’entrer dans un lieu protégé, observer sans être vu, neutraliser les obstacles mécaniques et repartir sans laisser de trace.</p>\n<p>Le terme Cambrioleur convient particulièrement à la Terre du Milieu : la Profession peut représenter un véritable criminel, mais aussi un éclaireur, un récupérateur, un espion, un chercheur de trésors, un spécialiste des serrures ou un aventurier chargé de pénétrer dans des lieux dangereux.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Voleur sont <strong>Agilité (Ag)</strong> et <strong>Rapidité (Qu)</strong>. L’Agilité gouverne les gestes précis ; la Rapidité permet de profiter d’une ouverture, agir avant d’être repéré et disparaître lorsque la situation se dégrade.</p>\n<h2>Orientation technique</h2>\n<p>Le Voleur est un <strong>non-utilisateur de sorts</strong>. Il privilégie Subterfuge, Discrétion, Serrures, Pièges, Perception, Recherche, aptitudes gymniques, compétences urbaines et armes adaptées à son mode d’action.</p>\n<h2>Intrusion et mécanique</h2>\n<p>Serrures, pièges, coffres, portes secrètes et mécanismes dissimulés constituent son domaine emblématique. À Minas Tirith, il peut connaître les réserves et passages de service des grandes maisons ; à Umbar, les entrepôts et coffres marchands ; dans les ruines d’Arnor, il appliquera les mêmes compétences à des portes anciennes et mécanismes oubliés.</p>\n<h2>Discrétion</h2>\n<p>Le Voleur sait utiliser ombres et couvert, attendre le bon moment, suivre une cible et se dissimuler rapidement. À Pelargir, cela peut prendre la forme de filatures sur les quais ; chez un Hobbit, d’une discrétion naturelle et d’une connaissance précise des chemins secondaires ; chez un espion dúnadan, d’une infiltration en territoire surveillé.</p>\n<h2>Combat et armure</h2>\n<p>Le Voleur sait se battre mais privilégie les armes légères ou faciles à transporter : dague, épée courte, gourdin, arc court, fronde ou armes de jet. Un Corsaire d’Umbar peut toutefois adopter une lame plus lourde selon sa Culture. Les protections légères préservent mieux mobilité, escalade et discrétion.</p>\n<h2>Voleur et Roublard</h2>\n<p>Le Roublard recherche l’équilibre entre combat et subterfuge. Le Voleur se spécialise dans les serrures, pièges, infiltrations et opérations clandestines. Lors d’un affrontement prolongé, le Roublard possède généralement l’avantage ; face à une serrure complexe ou une mission de discrétion, le Voleur doit rester le meilleur spécialiste.</p>\n<h2>Profils possibles</h2>\n<ul>\n<li><strong>Cambrioleur.</strong> Serrures, Discrétion, Perception, Escalade et recherche de pièges.</li>\n<li><strong>Voleur à la tire.</strong> Observation, discrétion, manipulation et connaissance des foules.</li>\n<li><strong>Espion.</strong> Discrétion, Serrures, Perception, Influence et déguisement.</li>\n<li><strong>Pilleur de ruines.</strong> Pièges, serrures, recherche, escalade et connaissances techniques.</li>\n<li><strong>Receleur.</strong> Contacts, évaluation, négociation et compétences urbaines.</li>\n<li><strong>Éclaireur clandestin.</strong> Furtivité, perception, déplacement et arme à distance.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong></p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons de RMU le spécialiste du Subterfuge et des compétences techniques. MERP-RMU rétablit explicitement <strong>Agilité et Rapidité</strong> comme caractéristiques primordiales et maintient une distinction forte avec le Roublard.</p>\n<p>La Profession dépasse le simple criminel : Hobbit cambrioleur, espion dúnadan, spécialiste des ruines d’Arnor, voleur des quais d’Umbar ou aventurier chargé de franchir les obstacles que le groupe ne peut résoudre ouvertement.</p>"
+      }
+    },
+    "en": {
+      "name": "Thief",
+      "system": {
+        "description": "<h1>Thief — or Burglar</h1>\n<p>The <strong>Thief</strong>, sometimes called a <strong>Burglar</strong>, is a specialist in intrusion, stealth, and manipulation. Where the Rogue balances combat and subterfuge, the Thief develops much further the skills needed to enter places where one should not be, observe without being seen, overcome mechanical obstacles, and leave without a trace.</p>\n<p>In earlier Middle-earth and Rolemaster games, the Thief is a non-spell-user particularly gifted with mechanical skills such as lock-picking and trap disarming, highly capable in stealth, and sufficiently trained with weapons to defend himself without becoming a front-line fighter.</p>\n<p>The word <strong>Burglar</strong> is especially appropriate in Middle-earth. It describes the heart of the Profession without automatically implying criminality. A Thief may indeed be a professional criminal, but may equally be a scout, retriever, spy, treasure-seeker, locksmith, or adventurer whose task is to penetrate dangerous places.</p>\n<h2>Prime Stats</h2>\n<p>The Thief’s Prime Stats are <strong>Agility (Ag)</strong> and <strong>Quickness (Qu)</strong>.</p>\n<p><strong>Agility</strong> is essential for precise actions: working a lock, disarming a mechanism, climbing, moving silently, or acting in confined spaces. <strong>Quickness</strong> represents the ability to react immediately, exploit an opening, vanish before being noticed, or escape a situation that has become dangerous.</p>\n<h2>Technical Orientation</h2>\n<p>The Thief is a <strong>non-spell-user</strong>. Development strongly favours <strong>Subterfuge</strong>, <strong>Stealth</strong>, mechanical skills, <strong>Perception</strong> and searching, gymnastic skills, urban abilities, and light weapons suited to clandestine action.</p>\n<h2>Intrusion and Mechanics</h2>\n<p>The Thief’s most emblematic field is mechanical intrusion: locks, traps, locking devices, hidden mechanisms, strongboxes, secret doors, and technical systems.</p>\n<p>A Burglar working in <strong>Minas Tirith</strong> may know the complex locks and service passages of the great houses. In <strong>Umbar</strong>, the same specialist may be familiar with merchants’ chests, harbour warehouses, and shipboard locking systems. In the ruined cities of <strong>Arnor</strong>, an adventurer may use those skills to explore ancient sites and force long-sealed doors.</p>\n<h2>Stealth</h2>\n<p>The Thief knows how to move without attracting attention, use shadows and cover, wait for the right moment, observe a target’s habits, hide quickly, and follow someone without being noticed.</p>\n<p>In <strong>Pelargir</strong>, this may mean shadowing someone along the docks; for a <strong>Hobbit</strong> of Eriador, it may reflect natural quietness and intimate knowledge of side paths; for a <strong>Dúnadan</strong> spy, it may be used to cross watched territory or observe an enemy position.</p>\n<h2>The Thief and Society</h2>\n<p>A Thief may be a professional burglar, a member of an urban underworld, a spy, a ruin-explorer, or a retriever. In Umbar, the Profession may work with smugglers and Corsair captains; in the cities of Gondor, belong to a criminal network or serve as an intelligence agent; in Eriador, explore old Númenórean ruins.</p>\n<h2>Combat and Armour</h2>\n<p>The Thief can fight, but combat remains secondary. Daggers, short swords, clubs, short bows, slings, and thrown weapons are common choices. These are not absolute restrictions: a Corsair of Umbar may employ a heavier blade, while a Hobbit burglar will favour very different arms.</p>\n<p>Heavy armour naturally interferes with mobility and infiltration. Leather, reinforced clothing, and light protection therefore suit the Profession better.</p>\n<h2>Criminal Networks and Fences</h2>\n<p>Technical skill is not always enough. A professional must identify worthwhile targets, assess the value of an object, find a buyer, and understand whom it is safer not to rob. In Umbar, such a network may include fences and merchants tied to Corsair crews; in Pelargir, dockworkers, taverns, and harbour intermediaries; in Eriador, a handful of accommodating innkeepers and merchants.</p>\n<h2>Thief and Rogue</h2>\n<p>The <strong>Rogue</strong> seeks balance: fight, infiltrate, improvise. The <strong>Thief</strong> is a specialist: observe, enter, manipulate, disappear. Against a difficult lock, trap, or infiltration, the Thief should normally have the advantage; in a prolonged fight, the Rogue is better prepared.</p>\n<h2>Possible Profiles</h2>\n<p><strong>Burglar.</strong> Locks, traps, Stealth, climbing, and appraisal.</p>\n<p><strong>Scout.</strong> Perception, Stealth, movement, and a ranged weapon.</p>\n<p><strong>Spy.</strong> Shadowing, Influence, Stealth, observation, and an easily concealed weapon.</p>\n<p><strong>Ruin Delver.</strong> Searching, mechanics, traps, climbing, and lore useful for old sites.</p>\n<p><strong>Urban Thief.</strong> Contacts, Stealth, locks, appraisal, and knowledge of streets and markets.</p>\n<h2>Base Spell Lists</h2>\n<p><strong>None.</strong></p>\n<p>The Thief has no professional Base Spell Lists. Magical development remains exceptional and costly.</p>\n<h2>RMU / MERP Adaptation</h2>\n<p>We retain the traditional MERP/Rolemaster concept of the Thief as a <strong>specialist in clandestine and mechanical skills</strong>. The Prime Stats are explicitly <strong>Agility and Quickness</strong>. The Profession remains more focused than the Rogue: less capable in open combat, but superior in intrusion, traps, mechanisms, and stealth.</p>\n<p>The Middle-earth adaptation emphasizes the term <strong>Burglar</strong> and the diversity of possible roles. The Profession may be criminal, exploratory, military, or practical depending on Culture and circumstances. Its identity lies not in crime itself, but in the ability to enter, observe, manipulate, recover, and escape.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions non magiques"
+    ],
+    "en": [
+      "Non-magical Professions"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-non-magiques"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-terbas",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Terbas",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-terbas",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-3",
+        "sourceCost": "2gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Muscles, nerfs & organes"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Terbas"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Light",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "2gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Appliquée sur la zone atteinte, la feuille double la vitesse naturelle de récupération des nerfs lésés.</p>",
+      "addictionFactor": 4,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Terbas",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Appliquée sur la zone atteinte, la feuille double la vitesse naturelle de récupération des nerfs lésés.</p>"
+      }
+    },
+    "en": {
+      "name": "Terbas",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in mild temperate climates, especially in deciduous or mixed forests.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Applied to the affected area, the leaf doubles the natural recovery rate of damaged nerves.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

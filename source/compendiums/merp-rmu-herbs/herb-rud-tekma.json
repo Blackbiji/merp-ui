@@ -1,0 +1,78 @@
+{
+  "key": "herb-rud-tekma",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Rud-Tekma",
+    "type": "herb",
+    "img": "icons/consumables/fruit/berry-leaf-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-rud-tekma",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-6-S",
+        "sourceCost": "23gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Rud-Tekma"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Very Hard",
+      "form": "Fruit",
+      "prep": "ingest",
+      "season": "",
+      "cost": "23gp",
+      "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le fruit accorde environ +20 aux jets d’incantation mais impose −20 au combat rapproché et aux manœuvres pendant une heure ; les sorts dirigés peuvent parfois dévier vers la cible la plus proche.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 10,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Rud-Tekma",
+      "system": {
+        "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le fruit accorde environ +20 aux jets d’incantation mais impose −20 au combat rapproché et aux manœuvres pendant une heure ; les sorts dirigés peuvent parfois dévier vers la cible la plus proche.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Rud-Tekma",
+      "system": {
+        "notes": "<p>This fruit is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The fruit grants about +20 to spell-casting rolls but imposes −20 on melee combat and maneuvers for one hour; Directed Spells may occasionally veer toward the nearest target.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

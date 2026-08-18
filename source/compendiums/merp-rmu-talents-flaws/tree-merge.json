@@ -1,0 +1,69 @@
+{
+  "key": "tree-merge",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Fusion avec l’arbre (Tree Merge)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "tree-merge",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "cultures": [
+            "Hommes des Bois",
+            "Woodmen"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Tree Merge",
+      "cost": "15",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Fusion avec l’arbre (Tree Merge)</h1><h2>Description</h2><p>Vous pouvez vous fondre physiquement dans un arbre vivant suffisamment grand pour contenir votre corps. Tant que la fusion est maintenue, vous êtes dissimulé dans le bois plutôt que simplement caché derrière lui. Cette aptitude est issue de traditions très particulières de la Terre du Milieu et ne constitue pas une métamorphose libre.</p><h2>Adaptation MERP-RMU</h2><p>La fusion exige concentration et contact avec un arbre de taille suffisante. Une fois à l’intérieur, vous ne pouvez pas vous déplacer normalement et vos perceptions du monde extérieur sont fortement limitées. Vous êtes extrêmement difficile à détecter par des moyens ordinaires. La sortie demande de rompre volontairement la fusion ; les conditions exactes et le coût d’effort sont arbitrés par le MJ conformément à la situation.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_tree-merge.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Fusion avec l’arbre (Tree Merge)",
+      "system": {
+        "description": "<h1>Fusion avec l’arbre (Tree Merge)</h1><h2>Description</h2><p>Vous pouvez vous fondre physiquement dans un arbre vivant suffisamment grand pour contenir votre corps. Tant que la fusion est maintenue, vous êtes dissimulé dans le bois plutôt que simplement caché derrière lui. Cette aptitude est issue de traditions très particulières de la Terre du Milieu et ne constitue pas une métamorphose libre.</p><h2>Adaptation MERP-RMU</h2><p>La fusion exige concentration et contact avec un arbre de taille suffisante. Une fois à l’intérieur, vous ne pouvez pas vous déplacer normalement et vos perceptions du monde extérieur sont fortement limitées. Vous êtes extrêmement difficile à détecter par des moyens ordinaires. La sortie demande de rompre volontairement la fusion ; les conditions exactes et le coût d’effort sont arbitrés par le MJ conformément à la situation.</p>"
+      }
+    },
+    "en": {
+      "name": "Tree Merge",
+      "system": {
+        "description": "<h1>Tree Merge</h1><h2>Description</h2><p>You can physically merge into a living tree large enough to contain your body. While the merge is maintained, you are concealed within the wood rather than merely hidden behind it. This ability comes from very particular traditions of Middle-earth and does not constitute free-form shapeshifting.</p><h2>MERP-RMU Adaptation</h2><p>The merge requires concentration and contact with a sufficiently large tree. Once inside, you cannot move normally and your perception of the outside world is greatly limited. You are extremely difficult to detect by ordinary means. Leaving requires voluntarily breaking the merge; the exact conditions and effort cost are adjudicated by the GM according to the situation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

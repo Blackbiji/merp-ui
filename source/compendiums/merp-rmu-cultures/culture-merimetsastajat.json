@@ -1,0 +1,1698 @@
+{
+  "key": "culture-merimetsastajat",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Merimetsästäjät",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-merimetsastajat",
+        "canonicalKey": "culture-merimetsastajat",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-humans",
+        "availability": {
+          "ages": [
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "2": {
+            "sourceKey": "culture-merimetsastajat-age-2",
+            "folderKey": "cultures-age-2-humans",
+            "document": {
+              "name": "Merimetsästäjät",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-merimetsastajat-age-2",
+                  "canonicalKey": "culture-merimetsastajat",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-2",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Labba",
+                        "spoken": 9,
+                        "written": 0,
+                        "nameFr": "Labba"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Merimetsästäjät",
+                "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Coastlands",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Merimetsästäjät",
+                "system": {
+                  "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+                  "culture": "Merimetsästäjät"
+                }
+              },
+              "en": {
+                "name": "Merimetsästäjät",
+                "system": {
+                  "description": "<h1>Merimetsästäjät</h1>\n<p>The <strong>Merimetsästäjät</strong> are Humans of the Far North who live almost entirely upon the sea and drifting ice of the Bay of Forochel. Related to the Ystävät Talven and Jaamiehet, they developed a polar maritime Culture founded on fishing, whaling, light boats, ivory and extraordinary knowledge of ice and weather.</p>\n<h2>Life on the ice</h2>\n<p>Their dwellings are established on floating ice and must follow the changes of the bay. Every object has a purpose, space is limited and cooperation constant. Ice, currents and wind are watched as closely as a farmer watches a field.</p>\n<h2>Appearance and adaptation</h2>\n<p>The Merimetsästäjät are short, stocky and muscular, with very fair skin, hair ranging from blond to almost white and pale eyes. They are remarkably resistant to cold but tolerate very hot climates less well. Their sense of smell is exceptionally developed.</p>\n<h2>Whales, fishing and craft</h2>\n<p>Whaling provides meat, fat, oil, bone and ivory. Fishing supplies a steadier daily resource. Leather, sealskin, ivory and ice are worked with great skill; boatbuilding and rowing are vital knowledge.</p>\n<h2>Family and religion</h2>\n<p>Kinship strongly structures the small communities. Descent follows the maternal line. Spiritual traditions honour the Spirit World and accord a special place to whales; the viisaat and henkinimittajat conduct the principal ritual practices.</p>\n<h2>Temperament</h2>\n<p>They are calm and reserved with strangers, much more playful and noisy among themselves. Their courage is accompanied by constant caution: knowing when to abandon a voyage at sea is proof of competence, not weakness.</p>\n<h2>Weapons and skills</h2>\n<p>Dagger, harpoon, javelin and spear dominate their weaponry. Protection comes chiefly from thick leather and fur clothing. Rowing, Navigation, Tundra Survival, Trapping, Gathering, Skinning, Weather Observation and Whale Lore are especially representative.</p>\n<h2>Place in character creation</h2>\n<p>A Merimetsästäjä leaving Forochel abandons a world to which their knowledge is perfectly adapted and discovers roads, horses, cities and monetary societies. Their expertise remains immense: they know how to read ice, predict a storm and exploit every resource of an environment most outsiders consider uninhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Labba</strong> — Spoken 9 / Written 0</li></ul></section>",
+                  "culture": "Merimetsästäjät"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-merimetsastajat-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Merimetsästäjät",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-merimetsastajat-age-3",
+                  "canonicalKey": "culture-merimetsastajat",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Labba",
+                        "spoken": 9,
+                        "written": 0,
+                        "nameFr": "Labba"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Merimetsästäjät",
+                "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Coastlands",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Merimetsästäjät",
+                "system": {
+                  "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+                  "culture": "Merimetsästäjät"
+                }
+              },
+              "en": {
+                "name": "Merimetsästäjät",
+                "system": {
+                  "description": "<h1>Merimetsästäjät</h1>\n<p>The <strong>Merimetsästäjät</strong> are Humans of the Far North who live almost entirely upon the sea and drifting ice of the Bay of Forochel. Related to the Ystävät Talven and Jaamiehet, they developed a polar maritime Culture founded on fishing, whaling, light boats, ivory and extraordinary knowledge of ice and weather.</p>\n<h2>Life on the ice</h2>\n<p>Their dwellings are established on floating ice and must follow the changes of the bay. Every object has a purpose, space is limited and cooperation constant. Ice, currents and wind are watched as closely as a farmer watches a field.</p>\n<h2>Appearance and adaptation</h2>\n<p>The Merimetsästäjät are short, stocky and muscular, with very fair skin, hair ranging from blond to almost white and pale eyes. They are remarkably resistant to cold but tolerate very hot climates less well. Their sense of smell is exceptionally developed.</p>\n<h2>Whales, fishing and craft</h2>\n<p>Whaling provides meat, fat, oil, bone and ivory. Fishing supplies a steadier daily resource. Leather, sealskin, ivory and ice are worked with great skill; boatbuilding and rowing are vital knowledge.</p>\n<h2>Family and religion</h2>\n<p>Kinship strongly structures the small communities. Descent follows the maternal line. Spiritual traditions honour the Spirit World and accord a special place to whales; the viisaat and henkinimittajat conduct the principal ritual practices.</p>\n<h2>Temperament</h2>\n<p>They are calm and reserved with strangers, much more playful and noisy among themselves. Their courage is accompanied by constant caution: knowing when to abandon a voyage at sea is proof of competence, not weakness.</p>\n<h2>Weapons and skills</h2>\n<p>Dagger, harpoon, javelin and spear dominate their weaponry. Protection comes chiefly from thick leather and fur clothing. Rowing, Navigation, Tundra Survival, Trapping, Gathering, Skinning, Weather Observation and Whale Lore are especially representative.</p>\n<h2>Place in character creation</h2>\n<p>A Merimetsästäjä leaving Forochel abandons a world to which their knowledge is perfectly adapted and discovers roads, horses, cities and monetary societies. Their expertise remains immense: they know how to read ice, predict a storm and exploit every resource of an environment most outsiders consider uninhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Labba</strong> — Spoken 9 / Written 0</li></ul></section>",
+                  "culture": "Merimetsästäjät"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-merimetsastajat-age-4",
+            "folderKey": "cultures-age-4-humans",
+            "document": {
+              "name": "Merimetsästäjät",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-merimetsastajat-age-4",
+                  "canonicalKey": "culture-merimetsastajat",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-4",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Labba",
+                        "spoken": 9,
+                        "written": 0,
+                        "nameFr": "Labba"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Merimetsästäjät",
+                "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Coastlands",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Merimetsästäjät",
+                "system": {
+                  "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+                  "culture": "Merimetsästäjät"
+                }
+              },
+              "en": {
+                "name": "Merimetsästäjät",
+                "system": {
+                  "description": "<h1>Merimetsästäjät</h1>\n<p>The <strong>Merimetsästäjät</strong> are Humans of the Far North who live almost entirely upon the sea and drifting ice of the Bay of Forochel. Related to the Ystävät Talven and Jaamiehet, they developed a polar maritime Culture founded on fishing, whaling, light boats, ivory and extraordinary knowledge of ice and weather.</p>\n<h2>Life on the ice</h2>\n<p>Their dwellings are established on floating ice and must follow the changes of the bay. Every object has a purpose, space is limited and cooperation constant. Ice, currents and wind are watched as closely as a farmer watches a field.</p>\n<h2>Appearance and adaptation</h2>\n<p>The Merimetsästäjät are short, stocky and muscular, with very fair skin, hair ranging from blond to almost white and pale eyes. They are remarkably resistant to cold but tolerate very hot climates less well. Their sense of smell is exceptionally developed.</p>\n<h2>Whales, fishing and craft</h2>\n<p>Whaling provides meat, fat, oil, bone and ivory. Fishing supplies a steadier daily resource. Leather, sealskin, ivory and ice are worked with great skill; boatbuilding and rowing are vital knowledge.</p>\n<h2>Family and religion</h2>\n<p>Kinship strongly structures the small communities. Descent follows the maternal line. Spiritual traditions honour the Spirit World and accord a special place to whales; the viisaat and henkinimittajat conduct the principal ritual practices.</p>\n<h2>Temperament</h2>\n<p>They are calm and reserved with strangers, much more playful and noisy among themselves. Their courage is accompanied by constant caution: knowing when to abandon a voyage at sea is proof of competence, not weakness.</p>\n<h2>Weapons and skills</h2>\n<p>Dagger, harpoon, javelin and spear dominate their weaponry. Protection comes chiefly from thick leather and fur clothing. Rowing, Navigation, Tundra Survival, Trapping, Gathering, Skinning, Weather Observation and Whale Lore are especially representative.</p>\n<h2>Place in character creation</h2>\n<p>A Merimetsästäjä leaving Forochel abandons a world to which their knowledge is perfectly adapted and discovers roads, horses, cities and monetary societies. Their expertise remains immense: they know how to read ice, predict a storm and exploit every resource of an environment most outsiders consider uninhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Labba</strong> — Spoken 9 / Written 0</li></ul></section>",
+                  "culture": "Merimetsästäjät"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Merimetsästäjät",
+      "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 6,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Coastlands",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 6,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 3
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Merimetsästäjät",
+      "system": {
+        "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+        "culture": "Merimetsästäjät"
+      }
+    },
+    "en": {
+      "name": "Merimetsästäjät",
+      "system": {
+        "description": "<h1>Merimetsästäjät</h1>\n<p>The <strong>Merimetsästäjät</strong> are Humans of the Far North who live almost entirely upon the sea and drifting ice of the Bay of Forochel. Related to the Ystävät Talven and Jaamiehet, they developed a polar maritime Culture founded on fishing, whaling, light boats, ivory and extraordinary knowledge of ice and weather.</p>\n<h2>Life on the ice</h2>\n<p>Their dwellings are established on floating ice and must follow the changes of the bay. Every object has a purpose, space is limited and cooperation constant. Ice, currents and wind are watched as closely as a farmer watches a field.</p>\n<h2>Appearance and adaptation</h2>\n<p>The Merimetsästäjät are short, stocky and muscular, with very fair skin, hair ranging from blond to almost white and pale eyes. They are remarkably resistant to cold but tolerate very hot climates less well. Their sense of smell is exceptionally developed.</p>\n<h2>Whales, fishing and craft</h2>\n<p>Whaling provides meat, fat, oil, bone and ivory. Fishing supplies a steadier daily resource. Leather, sealskin, ivory and ice are worked with great skill; boatbuilding and rowing are vital knowledge.</p>\n<h2>Family and religion</h2>\n<p>Kinship strongly structures the small communities. Descent follows the maternal line. Spiritual traditions honour the Spirit World and accord a special place to whales; the viisaat and henkinimittajat conduct the principal ritual practices.</p>\n<h2>Temperament</h2>\n<p>They are calm and reserved with strangers, much more playful and noisy among themselves. Their courage is accompanied by constant caution: knowing when to abandon a voyage at sea is proof of competence, not weakness.</p>\n<h2>Weapons and skills</h2>\n<p>Dagger, harpoon, javelin and spear dominate their weaponry. Protection comes chiefly from thick leather and fur clothing. Rowing, Navigation, Tundra Survival, Trapping, Gathering, Skinning, Weather Observation and Whale Lore are especially representative.</p>\n<h2>Place in character creation</h2>\n<p>A Merimetsästäjä leaving Forochel abandons a world to which their knowledge is perfectly adapted and discovers roads, horses, cities and monetary societies. Their expertise remains immense: they know how to read ice, predict a storm and exploit every resource of an environment most outsiders consider uninhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Labba</strong> — Spoken 9 / Written 0</li></ul></section>",
+        "culture": "Merimetsästäjät"
+      }
+    }
+  },
+  "ageVariants": {
+    "2": {
+      "sourceKey": "culture-merimetsastajat-age-2",
+      "folderKey": "cultures-age-2-humans",
+      "document": {
+        "name": "Merimetsästäjät",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-merimetsastajat-age-2",
+            "canonicalKey": "culture-merimetsastajat",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-2",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Labba",
+                  "spoken": 9,
+                  "written": 0,
+                  "nameFr": "Labba"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Merimetsästäjät",
+          "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Coastlands",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Merimetsästäjät",
+          "system": {
+            "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+            "culture": "Merimetsästäjät"
+          }
+        },
+        "en": {
+          "name": "Merimetsästäjät",
+          "system": {
+            "description": "<h1>Merimetsästäjät</h1>\n<p>The <strong>Merimetsästäjät</strong> are Humans of the Far North who live almost entirely upon the sea and drifting ice of the Bay of Forochel. Related to the Ystävät Talven and Jaamiehet, they developed a polar maritime Culture founded on fishing, whaling, light boats, ivory and extraordinary knowledge of ice and weather.</p>\n<h2>Life on the ice</h2>\n<p>Their dwellings are established on floating ice and must follow the changes of the bay. Every object has a purpose, space is limited and cooperation constant. Ice, currents and wind are watched as closely as a farmer watches a field.</p>\n<h2>Appearance and adaptation</h2>\n<p>The Merimetsästäjät are short, stocky and muscular, with very fair skin, hair ranging from blond to almost white and pale eyes. They are remarkably resistant to cold but tolerate very hot climates less well. Their sense of smell is exceptionally developed.</p>\n<h2>Whales, fishing and craft</h2>\n<p>Whaling provides meat, fat, oil, bone and ivory. Fishing supplies a steadier daily resource. Leather, sealskin, ivory and ice are worked with great skill; boatbuilding and rowing are vital knowledge.</p>\n<h2>Family and religion</h2>\n<p>Kinship strongly structures the small communities. Descent follows the maternal line. Spiritual traditions honour the Spirit World and accord a special place to whales; the viisaat and henkinimittajat conduct the principal ritual practices.</p>\n<h2>Temperament</h2>\n<p>They are calm and reserved with strangers, much more playful and noisy among themselves. Their courage is accompanied by constant caution: knowing when to abandon a voyage at sea is proof of competence, not weakness.</p>\n<h2>Weapons and skills</h2>\n<p>Dagger, harpoon, javelin and spear dominate their weaponry. Protection comes chiefly from thick leather and fur clothing. Rowing, Navigation, Tundra Survival, Trapping, Gathering, Skinning, Weather Observation and Whale Lore are especially representative.</p>\n<h2>Place in character creation</h2>\n<p>A Merimetsästäjä leaving Forochel abandons a world to which their knowledge is perfectly adapted and discovers roads, horses, cities and monetary societies. Their expertise remains immense: they know how to read ice, predict a storm and exploit every resource of an environment most outsiders consider uninhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Labba</strong> — Spoken 9 / Written 0</li></ul></section>",
+            "culture": "Merimetsästäjät"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-merimetsastajat-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Merimetsästäjät",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-merimetsastajat-age-3",
+            "canonicalKey": "culture-merimetsastajat",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Labba",
+                  "spoken": 9,
+                  "written": 0,
+                  "nameFr": "Labba"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Merimetsästäjät",
+          "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Coastlands",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Merimetsästäjät",
+          "system": {
+            "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+            "culture": "Merimetsästäjät"
+          }
+        },
+        "en": {
+          "name": "Merimetsästäjät",
+          "system": {
+            "description": "<h1>Merimetsästäjät</h1>\n<p>The <strong>Merimetsästäjät</strong> are Humans of the Far North who live almost entirely upon the sea and drifting ice of the Bay of Forochel. Related to the Ystävät Talven and Jaamiehet, they developed a polar maritime Culture founded on fishing, whaling, light boats, ivory and extraordinary knowledge of ice and weather.</p>\n<h2>Life on the ice</h2>\n<p>Their dwellings are established on floating ice and must follow the changes of the bay. Every object has a purpose, space is limited and cooperation constant. Ice, currents and wind are watched as closely as a farmer watches a field.</p>\n<h2>Appearance and adaptation</h2>\n<p>The Merimetsästäjät are short, stocky and muscular, with very fair skin, hair ranging from blond to almost white and pale eyes. They are remarkably resistant to cold but tolerate very hot climates less well. Their sense of smell is exceptionally developed.</p>\n<h2>Whales, fishing and craft</h2>\n<p>Whaling provides meat, fat, oil, bone and ivory. Fishing supplies a steadier daily resource. Leather, sealskin, ivory and ice are worked with great skill; boatbuilding and rowing are vital knowledge.</p>\n<h2>Family and religion</h2>\n<p>Kinship strongly structures the small communities. Descent follows the maternal line. Spiritual traditions honour the Spirit World and accord a special place to whales; the viisaat and henkinimittajat conduct the principal ritual practices.</p>\n<h2>Temperament</h2>\n<p>They are calm and reserved with strangers, much more playful and noisy among themselves. Their courage is accompanied by constant caution: knowing when to abandon a voyage at sea is proof of competence, not weakness.</p>\n<h2>Weapons and skills</h2>\n<p>Dagger, harpoon, javelin and spear dominate their weaponry. Protection comes chiefly from thick leather and fur clothing. Rowing, Navigation, Tundra Survival, Trapping, Gathering, Skinning, Weather Observation and Whale Lore are especially representative.</p>\n<h2>Place in character creation</h2>\n<p>A Merimetsästäjä leaving Forochel abandons a world to which their knowledge is perfectly adapted and discovers roads, horses, cities and monetary societies. Their expertise remains immense: they know how to read ice, predict a storm and exploit every resource of an environment most outsiders consider uninhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Labba</strong> — Spoken 9 / Written 0</li></ul></section>",
+            "culture": "Merimetsästäjät"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-merimetsastajat-age-4",
+      "folderKey": "cultures-age-4-humans",
+      "document": {
+        "name": "Merimetsästäjät",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-merimetsastajat-age-4",
+            "canonicalKey": "culture-merimetsastajat",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-4",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Labba",
+                  "spoken": 9,
+                  "written": 0,
+                  "nameFr": "Labba"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Merimetsästäjät",
+          "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Coastlands",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Merimetsästäjät",
+          "system": {
+            "description": "<h1>Merimetsästäjät</h1>\n<p>Les <strong>Merimetsästäjät</strong> sont des Humains du Grand Nord vivant presque entièrement sur la mer et les glaces dérivantes de la baie de Forochel. Apparentés aux Ystävät Talven et aux Jaamiehet, ils ont développé une Culture maritime polaire fondée sur la pêche, la chasse à la baleine, les embarcations légères, l’ivoire et une extraordinaire connaissance de la glace et du temps.</p>\n<h2>Vie sur les glaces</h2>\n<p>Leurs habitats sont installés sur des glaces flottantes et doivent suivre les changements de la baie. Chaque objet a une fonction, l’espace est compté et la coopération est permanente. La glace, les courants et le vent sont observés aussi attentivement qu’un paysan surveille son champ.</p>\n<h2>Apparence et adaptation</h2>\n<p>Les Merimetsästäjät sont courts, trapus et musclés, à la peau très claire, aux cheveux blonds à presque blancs et aux yeux pâles. Ils résistent remarquablement au froid mais supportent moins bien les climats très chauds. Leur odorat est exceptionnellement développé.</p>\n<h2>Baleines, pêche et artisanat</h2>\n<p>La chasse à la baleine fournit viande, graisse, huile, os et ivoire. La pêche assure une ressource quotidienne plus régulière. Le cuir, la peau de phoque, l’ivoire et la glace sont travaillés avec une grande maîtrise ; la construction d’embarcations et l’aviron sont des savoirs vitaux.</p>\n<h2>Famille et religion</h2>\n<p>La parenté structure fortement les petites communautés. La filiation suit la branche maternelle. Les traditions spirituelles honorent le Monde des Esprits et accordent une place particulière aux baleines ; les viisaat et les henkinimittajat conduisent les principales pratiques rituelles.</p>\n<h2>Tempérament</h2>\n<p>Ils sont calmes et réservés avec les étrangers, beaucoup plus joueurs et bruyants entre eux. Leur courage s’accompagne d’une prudence constante : reconnaître le moment où il faut renoncer à une sortie en mer est une preuve de compétence, pas de faiblesse.</p>\n<h2>Armes et compétences</h2>\n<p>Dague, harpon, javelot et lance dominent l’armement. Les protections sont surtout fournies par les vêtements épais de cuir et de fourrure. Aviron, Navigation, Survie dans la toundra, Piégeage, Cueillette, Dépeçage, Observation du temps et connaissance des baleines sont particulièrement représentatifs.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Merimetsästäjä quittant Forochel abandonne un monde où son savoir est parfaitement adapté pour découvrir des routes, des chevaux, des villes et des sociétés monétaires. Son expertise reste immense : il sait lire une glace, prévoir une tempête et exploiter chaque ressource d’un environnement que la plupart des étrangers considèrent comme inhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Labba</strong> — Parlée 9 / Écrite 0</li></ul></section>",
+            "culture": "Merimetsästäjät"
+          }
+        },
+        "en": {
+          "name": "Merimetsästäjät",
+          "system": {
+            "description": "<h1>Merimetsästäjät</h1>\n<p>The <strong>Merimetsästäjät</strong> are Humans of the Far North who live almost entirely upon the sea and drifting ice of the Bay of Forochel. Related to the Ystävät Talven and Jaamiehet, they developed a polar maritime Culture founded on fishing, whaling, light boats, ivory and extraordinary knowledge of ice and weather.</p>\n<h2>Life on the ice</h2>\n<p>Their dwellings are established on floating ice and must follow the changes of the bay. Every object has a purpose, space is limited and cooperation constant. Ice, currents and wind are watched as closely as a farmer watches a field.</p>\n<h2>Appearance and adaptation</h2>\n<p>The Merimetsästäjät are short, stocky and muscular, with very fair skin, hair ranging from blond to almost white and pale eyes. They are remarkably resistant to cold but tolerate very hot climates less well. Their sense of smell is exceptionally developed.</p>\n<h2>Whales, fishing and craft</h2>\n<p>Whaling provides meat, fat, oil, bone and ivory. Fishing supplies a steadier daily resource. Leather, sealskin, ivory and ice are worked with great skill; boatbuilding and rowing are vital knowledge.</p>\n<h2>Family and religion</h2>\n<p>Kinship strongly structures the small communities. Descent follows the maternal line. Spiritual traditions honour the Spirit World and accord a special place to whales; the viisaat and henkinimittajat conduct the principal ritual practices.</p>\n<h2>Temperament</h2>\n<p>They are calm and reserved with strangers, much more playful and noisy among themselves. Their courage is accompanied by constant caution: knowing when to abandon a voyage at sea is proof of competence, not weakness.</p>\n<h2>Weapons and skills</h2>\n<p>Dagger, harpoon, javelin and spear dominate their weaponry. Protection comes chiefly from thick leather and fur clothing. Rowing, Navigation, Tundra Survival, Trapping, Gathering, Skinning, Weather Observation and Whale Lore are especially representative.</p>\n<h2>Place in character creation</h2>\n<p>A Merimetsästäjä leaving Forochel abandons a world to which their knowledge is perfectly adapted and discovers roads, horses, cities and monetary societies. Their expertise remains immense: they know how to read ice, predict a storm and exploit every resource of an environment most outsiders consider uninhabitable.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Labba</strong> — Spoken 9 / Written 0</li></ul></section>",
+            "culture": "Merimetsästäjät"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

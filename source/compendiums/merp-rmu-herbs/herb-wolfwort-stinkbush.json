@@ -1,0 +1,79 @@
+{
+  "key": "herb-wolfwort-stinkbush",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Herbe-au-Loup (Wolfwort / Buisson-Puant / Stinkbush)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-wolfwort-stinkbush",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-D-3-U",
+        "sourceCost": "4sp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "D",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Wolfwort (Stinkbush)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Light",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "4sp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Buisson-Puant (Stinkbush)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Chaque feuille rend 1 point de vie. Au-delà d’une quinzaine par jour, nausées, vomissements et incapacité menacent ; quelques feuilles suffisent déjà à imprégner le corps d’une forte odeur animale.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Herbe-au-Loup (Wolfwort / Buisson-Puant / Stinkbush)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Buisson-Puant (Stinkbush)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré doux, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Chaque feuille rend 1 point de vie. Au-delà d’une quinzaine par jour, nausées, vomissements et incapacité menacent ; quelques feuilles suffisent déjà à imprégner le corps d’une forte odeur animale.</p>"
+      }
+    },
+    "en": {
+      "name": "Wolfwort (Stinkbush)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Stinkbush</strong>.</p><p>This leaf is found chiefly in mild temperate climates, especially in deciduous or mixed forests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Each leaf restores 1 concussion hit. More than about fifteen per day risks nausea, vomiting, and incapacity; even a few leaves are enough to give the body a strong animal smell.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

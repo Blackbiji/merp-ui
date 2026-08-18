@@ -1,0 +1,78 @@
+{
+  "key": "herb-zulsendura-zilsendura",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Zulsendura (Zilsendura)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-zulsendura-zilsendura",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "a-U-4-U",
+        "sourceCost": "70gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "a",
+        "localeCode": "U",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Zulsendura (Zilsendura)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Medium",
+      "form": "Mushroom",
+      "prep": "ingest",
+      "season": "",
+      "cost": "70gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat aride, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce champignon, aussi appelé Dry-rot ou Hurry-up, confère une accélération remarquable pendant trois rounds.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>",
+      "addictionFactor": 22,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Zulsendura (Zilsendura)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat aride, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Ce champignon, aussi appelé Dry-rot ou Hurry-up, confère une accélération remarquable pendant trois rounds.</p><p>Des prises répétées peuvent entraîner une dépendance notable.</p>"
+      }
+    },
+    "en": {
+      "name": "Zulsendura (Zilsendura)",
+      "system": {
+        "notes": "<p>This mushroom is found chiefly in arid climates, especially in underground environments, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>This mushroom, also called Dry-rot or Hurry-up, grants remarkable acceleration for three rounds.</p><p>Repeated doses can lead to significant dependence.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

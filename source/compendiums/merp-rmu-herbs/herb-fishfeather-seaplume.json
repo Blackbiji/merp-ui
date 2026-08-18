@@ -1,0 +1,79 @@
+{
+  "key": "herb-fishfeather-seaplume",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Plume-de-Poisson (Fishfeather / Plume-de-Mer / Seaplume)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-fishfeather-seaplume",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-F-4-U",
+        "sourceCost": "3gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "F",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Fishfeather (Seaplume)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Medium",
+      "form": "Leaf",
+      "prep": "ingest",
+      "season": "",
+      "cost": "3gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Plume-de-Mer (Seaplume)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une feuille rend 1 à 4 points de vie et conserve ses vertus un mois si elle reste humide.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Plume-de-Poisson (Fishfeather / Plume-de-Mer / Seaplume)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Plume-de-Mer (Seaplume)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une feuille rend 1 à 4 points de vie et conserve ses vertus un mois si elle reste humide.</p>"
+      }
+    },
+    "en": {
+      "name": "Fishfeather (Seaplume)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Seaplume</strong>.</p><p>This leaf is found chiefly in cool temperate climates, especially in freshwater banks and shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>One leaf restores 1–4 concussion hits and retains its potency for one month if kept moist.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

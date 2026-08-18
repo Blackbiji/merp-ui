@@ -1,0 +1,79 @@
+{
+  "key": "herb-gefnul-earthash",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Gefnul (Cendre-de-Terre / Earthash)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-gefnul-earthash",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "e-V-5-N",
+        "sourceCost": "90gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "e",
+        "localeCode": "V",
+        "regionCode": "N",
+        "sourceVariants": [],
+        "sourceName": "Gefnul (Earthash)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "V",
+      "findDifficulty": "Hard",
+      "form": "Lichen",
+      "prep": "ingest",
+      "season": "",
+      "cost": "90gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Frêne-de-Terre (Earthash)</strong>.</p><p>Ce lichen se rencontre surtout dans les régions au climat de froid éternel, notamment dans les terrains volcaniques, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une plaque de lichen grande comme une main rend jusqu’à 90 points de vie sur vingt-quatre heures. Elle se conserve un mois après récolte.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 10,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gefnul (Cendre-de-Terre / Earthash)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Frêne-de-Terre (Earthash)</strong>.</p><p>Ce lichen se rencontre surtout dans les régions au climat de froid éternel, notamment dans les terrains volcaniques, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Une plaque de lichen grande comme une main rend jusqu’à 90 points de vie sur vingt-quatre heures. Elle se conserve un mois après récolte.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Gefnul (Earthash)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Earthash</strong>.</p><p>This lichen is found chiefly in permanently frozen climates, especially in volcanic terrain, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>A hand-sized patch of lichen restores up to 90 concussion hits over twenty-four hours. It keeps for one month after gathering.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

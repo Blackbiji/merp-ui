@@ -1,0 +1,79 @@
+{
+  "key": "herb-water-hemlock-plant",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-musculaires",
+  "document": {
+    "name": "Ciguë d’Eau (Water Hemlock Plant)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-water-hemlock-plant",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-7",
+        "sourceCost": "18gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Musculaire"
+        ],
+        "poisonType": "Musculaire",
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Water Hemlock Plant"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Extremely Hard",
+      "form": "Liquid",
+      "prep": "ingest",
+      "season": "",
+      "cost": "18gp",
+      "notes": "<p>Ce liquide se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison musculaire de niveau 3, liquide clair ambré. Un échec modéré provoque une incapacité de 1 à 10 heures ; un échec sévère tue en 6 à 10 rounds.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 3
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ciguë d’Eau (Water Hemlock Plant)",
+      "system": {
+        "notes": "<p>Ce liquide se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison musculaire de niveau 3, liquide clair ambré. Un échec modéré provoque une incapacité de 1 à 10 heures ; un échec sévère tue en 6 à 10 rounds.</p>"
+      }
+    },
+    "en": {
+      "name": "Water Hemlock Plant",
+      "system": {
+        "notes": "<p>This liquid is found chiefly in mild temperate climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 3 muscle poison, a clear pale-amber liquid. A moderate failure causes incapacity for 1–10 hours; a severe failure kills in 6–10 rounds.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Musculaires"
+    ],
+    "en": [
+      "Muscle"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-musculaires"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "herb-miretari-crown",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Couronne de Míretári (Míretári’ Crown)",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-miretari-crown",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-A-8-U",
+        "sourceCost": "24gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "A",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Míretári’ Crown"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "A",
+      "findDifficulty": "Sheer Folly",
+      "form": "Flower",
+      "prep": "apply",
+      "season": "",
+      "cost": "24gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes zones alpines, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Posée en travers d’une plaie pendant dix minutes, la fleur arrête le saignement sans refermer les chairs. On l’appelle aussi Bloodsuckers.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Couronne de Míretári (Míretári’ Crown)",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes zones alpines, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Posée en travers d’une plaie pendant dix minutes, la fleur arrête le saignement sans refermer les chairs. On l’appelle aussi Bloodsuckers.</p>"
+      }
+    },
+    "en": {
+      "name": "Míretári’ Crown",
+      "system": {
+        "notes": "<p>This flower is found chiefly in cool temperate climates, especially in high alpine zones, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Placed across a wound for ten minutes, the flower stops bleeding without closing the flesh. It is also called Bloodsuckers.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

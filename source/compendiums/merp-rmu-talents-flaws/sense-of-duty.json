@@ -1,0 +1,64 @@
+{
+  "key": "sense-of-duty",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-mental",
+  "document": {
+    "name": "Sens du devoir (Sense of Duty)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "sense-of-duty",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Sense of Duty",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Sens du devoir (Sense of Duty)</h1><h2>Description</h2><p>Vous ressentez personnellement une responsabilité profonde envers quelqu’un ou quelque chose. Contrairement à <em>Duty</em>, cette obligation vient de vous-même : vous ne trahirez, ne blesserez ni ne tromperez volontairement ceux envers qui vous éprouvez ce devoir.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> devoir envers une personne proche ou un petit groupe.</li><li><strong>Tier II :</strong> devoir envers un grand groupe ou une organisation, comme une ville.</li><li><strong>Tier III :</strong> devoir envers un pays, un peuple ou une cause d’ampleur comparable.</li></ul><h2>Adaptation MERP-RMU</h2><p>L’étendue du devoir augmente avec le Tier. Le MJ doit pouvoir s’en servir pour créer de véritables choix et obligations en jeu.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_sense-of-duty.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sens du devoir (Sense of Duty)",
+      "system": {
+        "description": "<h1>Sens du devoir (Sense of Duty)</h1><h2>Description</h2><p>Vous ressentez personnellement une responsabilité profonde envers quelqu’un ou quelque chose. Contrairement à <em>Duty</em>, cette obligation vient de vous-même : vous ne trahirez, ne blesserez ni ne tromperez volontairement ceux envers qui vous éprouvez ce devoir.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> devoir envers une personne proche ou un petit groupe.</li><li><strong>Tier II :</strong> devoir envers un grand groupe ou une organisation, comme une ville.</li><li><strong>Tier III :</strong> devoir envers un pays, un peuple ou une cause d’ampleur comparable.</li></ul><h2>Adaptation MERP-RMU</h2><p>L’étendue du devoir augmente avec le Tier. Le MJ doit pouvoir s’en servir pour créer de véritables choix et obligations en jeu.</p>"
+      }
+    },
+    "en": {
+      "name": "Sense of Duty",
+      "system": {
+        "description": "<h1>Sense of Duty</h1><h2>Description</h2><p>You personally feel a deep responsibility toward someone or something. Unlike <em>Duty</em>, this obligation comes from within: you will not willingly betray, harm, or deceive those toward whom you feel this duty.</p><h2>Tiers</h2><ul><li><strong>Tier I:</strong> duty toward one close person or a small group.</li><li><strong>Tier II:</strong> duty toward a large group or organization, such as a city.</li><li><strong>Tier III:</strong> duty toward a country, a people, or a cause of comparable scope.</li></ul><h2>MERP-RMU Adaptation</h2><p>The scope of the duty increases with Tier. The GM must be able to use it to create genuine choices and obligations in play.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Mentaux"
+    ],
+    "en": [
+      "Flaws — Mental"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-mental"
+  ]
+}

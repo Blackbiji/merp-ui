@@ -1,0 +1,79 @@
+{
+  "key": "herb-lus",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-circulatoires",
+  "document": {
+    "name": "Lus",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-lus",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-T-3-NW",
+        "sourceCost": "31gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Circulatoire"
+        ],
+        "poisonType": "Circulatoire",
+        "climateCode": "t",
+        "localeCode": "T",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Lus"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "T",
+      "findDifficulty": "Light",
+      "form": "Flowers",
+      "prep": "paste",
+      "season": "",
+      "cost": "31gp",
+      "notes": "<p>Ces fleurs se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 4, surtout connu en Saralainn. Selon la gravité de l’échec au Jet de Résistance, il provoque cécité temporaire ou durable, coma, voire mort.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 4
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lus",
+      "system": {
+        "notes": "<p>Ces fleurs se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 4, surtout connu en Saralainn. Selon la gravité de l’échec au Jet de Résistance, il provoque cécité temporaire ou durable, coma, voire mort.</p>"
+      }
+    },
+    "en": {
+      "name": "Lus",
+      "system": {
+        "notes": "<p>This flowers is found chiefly in cool temperate climates, especially in tall grasslands, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 4 circulatory poison, chiefly known in Saralainn. Depending on the severity of the failed Resistance Roll, it causes temporary or lasting blindness, coma, or death.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Circulatoires"
+    ],
+    "en": [
+      "Circulatory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-circulatoires"
+  ]
+}

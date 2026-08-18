@@ -1,0 +1,633 @@
+{
+  "key": "seer-mind-visions",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-mentalism-seer",
+  "document": {
+    "name": "Mind Visions",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "seer-mind-visions",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Mentalism Companion",
+        "sourceList": "Mind Visions",
+        "sourcePage": 123,
+        "merpRealm": "Mentalism",
+        "merpCategory": "Profession",
+        "profession": "Seer",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Mentalism Companion p.123; MERP/RMSS Seer p.149"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Mentalism Companion",
+      "name": "Mind Visions",
+      "listType": "Base",
+      "realms": "Mentalism",
+      "profession": "Seer",
+      "notes": "<h2>Mind Visions</h2><p>Détection des esprits, lecture mentale, recherche d’individus, vérité et exploration des souvenirs.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>",
+      "label": "Mind Visions",
+      "notesLabel": "Mind Visions notes",
+      "spells": [
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Seer's Presence",
+          "label": "MERP_RMU.Seer.spells.SeersPresence.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SeersPresence.description",
+          "level": 1,
+          "description": "Détecte la présence de tous les êtres pensants dans un rayon de 10 pieds par niveau ; les animaux peuvent être inclus au prix d’un effort supplémentaire.",
+          "aoe": "10'R/lvl",
+          "duration": "C",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Présence du Devin",
+              "description": "Détecte la présence de tous les êtres pensants dans un rayon de 10 pieds par niveau ; les animaux peuvent être inclus au prix d’un effort supplémentaire."
+            },
+            "en": {
+              "name": "Seer's Presence",
+              "description": "Detects the presence of all thinking beings within 10 feet per level; animals may be included at the cost of additional effort."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Mind Store",
+          "label": "MERP_RMU.Seer.spells.MindStore.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.MindStore.description",
+          "level": 2,
+          "description": "Mémorise la signature mentale d’une cible détectée ; le nombre total de signatures conservées dépend des capacités mentales du Devin.",
+          "aoe": "1 target",
+          "duration": "—",
+          "range": "10'/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Mémorisation Mentale",
+              "description": "Mémorise la signature mentale d’une cible détectée ; le nombre total de signatures conservées dépend des capacités mentales du Devin."
+            },
+            "en": {
+              "name": "Mind Store",
+              "description": "Stores the mental signature of a detected target; the total number of signatures retained depends on the Seer’s mental capabilities."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Seer's Analysis",
+          "label": "MERP_RMU.Seer.spells.SeersAnalysis.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.SeersAnalysis.description",
+          "level": 3,
+          "description": "Révèle un renseignement fondamental sur une cible détectée, tel que race, profession ou niveau.",
+          "aoe": "1 target",
+          "duration": "—",
+          "range": "10'/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Analyse du Devin",
+              "description": "Révèle un renseignement fondamental sur une cible détectée, tel que race, profession ou niveau."
+            },
+            "en": {
+              "name": "Seer's Analysis",
+              "description": "Reveals one fundamental piece of information about a detected target, such as race, profession, or level."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Minor Finding",
+          "label": "MERP_RMU.Seer.spells.MinorFinding.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.MinorFinding.description",
+          "level": 4,
+          "description": "Donne direction et distance vers un esprit non protégé dont la signature a été mémorisée.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "100'/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Localisation Mineure",
+              "description": "Donne direction et distance vers un esprit non protégé dont la signature a été mémorisée."
+            },
+            "en": {
+              "name": "Minor Finding",
+              "description": "Gives direction and distance to an unprotected mind whose signature has been stored."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Thoughts",
+          "label": "MERP_RMU.Seer.spells.Thoughts.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Thoughts.description",
+          "level": 5,
+          "description": "Lit les pensées de surface d’une cible ; une résistance particulièrement forte peut lui faire remarquer l’intrusion.",
+          "aoe": "1 target/rnd",
+          "duration": "1 rnd/lvl (C)",
+          "range": "100'",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Pensées",
+              "description": "Lit les pensées de surface d’une cible ; une résistance particulièrement forte peut lui faire remarquer l’intrusion."
+            },
+            "en": {
+              "name": "Thoughts",
+              "description": "Reads a target’s surface thoughts; particularly strong resistance may alert the target to the intrusion."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Questioning",
+          "label": "MERP_RMU.Seer.spells.Questioning.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Questioning.description",
+          "level": 6,
+          "description": "Force une cible à fournir mentalement des réponses véridiques à des questions simples, une par round.",
+          "aoe": "1 target",
+          "duration": "1 rnd/lvl (C)",
+          "range": "10'",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Interrogation",
+              "description": "Force une cible à fournir mentalement des réponses véridiques à des questions simples, une par round."
+            },
+            "en": {
+              "name": "Questioning",
+              "description": "Forces a target to provide truthful mental answers to simple questions, one per round."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Mind Typing",
+          "label": "MERP_RMU.Seer.spells.MindTyping.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.MindTyping.description",
+          "level": 7,
+          "description": "Comme Seer’s Analysis, mais révèle simultanément race, profession et niveau.",
+          "aoe": "1 target",
+          "duration": "—",
+          "range": "10'/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Typage Mental",
+              "description": "Comme Seer’s Analysis, mais révèle simultanément race, profession et niveau."
+            },
+            "en": {
+              "name": "Mind Typing",
+              "description": "As Seer’s Analysis, but simultaneously reveals race, profession, and level."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Awareness",
+          "label": "MERP_RMU.Seer.spells.Awareness.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.Awareness.description",
+          "level": 8,
+          "description": "Comme Presence, mais donne aussi une idée générale des actions entreprises par les esprits détectés.",
+          "aoe": "10'R/lvl",
+          "duration": "C",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Conscience",
+              "description": "Comme Presence, mais donne aussi une idée générale des actions entreprises par les esprits détectés."
+            },
+            "en": {
+              "name": "Awareness",
+              "description": "As Presence, but also gives a general idea of the actions being undertaken by detected minds."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Truth I",
+          "label": "MERP_RMU.Seer.spells.TruthI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.TruthI.description",
+          "level": 9,
+          "description": "Le Devin sait lorsqu’une personne située dans le rayon ment.",
+          "aoe": "10'R",
+          "duration": "C",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vérité I",
+              "description": "Le Devin sait lorsqu’une personne située dans le rayon ment."
+            },
+            "en": {
+              "name": "Truth I",
+              "description": "The Seer knows when a person within the radius is lying."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Inner Thoughts",
+          "label": "MERP_RMU.Seer.spells.InnerThoughts.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.InnerThoughts.description",
+          "level": 10,
+          "description": "Comme Thoughts, mais permet de comprendre les raisonnements et structures mentales sous-jacentes.",
+          "aoe": "1 target/rnd",
+          "duration": "1 rnd/lvl (C)",
+          "range": "100'",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Pensées Profondes",
+              "description": "Comme Thoughts, mais permet de comprendre les raisonnements et structures mentales sous-jacentes."
+            },
+            "en": {
+              "name": "Inner Thoughts",
+              "description": "As Thoughts, but allows understanding of underlying reasoning and mental structures."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Awareness True",
+          "label": "MERP_RMU.Seer.spells.AwarenessTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.AwarenessTrue.description",
+          "level": 11,
+          "description": "Comme Awareness, mais révèle l’ensemble des actions immédiates des cibles pour le round.",
+          "aoe": "10'R/lvl",
+          "duration": "C",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Conscience Véritable",
+              "description": "Comme Awareness, mais révèle l’ensemble des actions immédiates des cibles pour le round."
+            },
+            "en": {
+              "name": "Awareness True",
+              "description": "As Awareness, but reveals all immediate actions of the targets for the round."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Mind Store",
+          "label": "MERP_RMU.Seer.spells.LongMindStore.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongMindStore.description",
+          "level": 12,
+          "description": "Comme Mind Store, avec une portée de 100 pieds par niveau.",
+          "aoe": "1 target",
+          "duration": "—",
+          "range": "100'/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Mémorisation Mentale Lointaine",
+              "description": "Comme Mind Store, avec une portée de 100 pieds par niveau."
+            },
+            "en": {
+              "name": "Long Mind Store",
+              "description": "As Mind Store, but with a range of 100 feet per level."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Mind Typing",
+          "label": "MERP_RMU.Seer.spells.LongMindTyping.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongMindTyping.description",
+          "level": 13,
+          "description": "Comme Mind Typing, avec une portée de 100 pieds par niveau.",
+          "aoe": "1 target",
+          "duration": "—",
+          "range": "100'/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Typage Mental Lointain",
+              "description": "Comme Mind Typing, avec une portée de 100 pieds par niveau."
+            },
+            "en": {
+              "name": "Long Mind Typing",
+              "description": "As Mind Typing, but with a range of 100 feet per level."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Finding I",
+          "label": "MERP_RMU.Seer.spells.FindingI.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FindingI.description",
+          "level": 14,
+          "description": "Comme Minor Finding, avec une portée d’un mile par niveau.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "1 mile/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Localisation I",
+              "description": "Comme Minor Finding, avec une portée d’un mile par niveau."
+            },
+            "en": {
+              "name": "Finding I",
+              "description": "As Minor Finding, but with a range of one mile per level."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Mind Scan",
+          "label": "MERP_RMU.Seer.spells.MindScan.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.MindScan.description",
+          "level": 15,
+          "description": "Comme Inner Thoughts, mais peut explorer les souvenirs conscients, une scène ou séquence à la fois.",
+          "aoe": "1 target/rnd",
+          "duration": "1 rnd/lvl (C)",
+          "range": "100'",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Exploration Mentale",
+              "description": "Comme Inner Thoughts, mais peut explorer les souvenirs conscients, une scène ou séquence à la fois."
+            },
+            "en": {
+              "name": "Mind Scan",
+              "description": "As Inner Thoughts, but can explore conscious memories, one scene or sequence at a time."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Truth V",
+          "label": "MERP_RMU.Seer.spells.TruthV.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.TruthV.description",
+          "level": 16,
+          "description": "Comme Truth I, mais dans un rayon de 50 pieds.",
+          "aoe": "50'R",
+          "duration": "C",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vérité V",
+              "description": "Comme Truth I, mais dans un rayon de 50 pieds."
+            },
+            "en": {
+              "name": "Truth V",
+              "description": "As Truth I, but within a 50-foot radius."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Long Truth",
+          "label": "MERP_RMU.Seer.spells.LongTruth.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.LongTruth.description",
+          "level": 17,
+          "description": "Comme Truth I, mais peut être projeté à 10 pieds par niveau.",
+          "aoe": "10'R",
+          "duration": "C",
+          "range": "10'/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vérité Lointaine",
+              "description": "Comme Truth I, mais peut être projeté à 10 pieds par niveau."
+            },
+            "en": {
+              "name": "Long Truth",
+              "description": "As Truth I, but may be projected to 10 feet per level."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Past Truth",
+          "label": "MERP_RMU.Seer.spells.PastTruth.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.PastTruth.description",
+          "level": 18,
+          "description": "Applique la détection du mensonge à une vision du passé, permettant d’identifier les mensonges prononcés dans celle-ci.",
+          "aoe": "1 vision",
+          "duration": "varies",
+          "range": "self",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vérité du Passé",
+              "description": "Applique la détection du mensonge à une vision du passé, permettant d’identifier les mensonges prononcés dans celle-ci."
+            },
+            "en": {
+              "name": "Past Truth",
+              "description": "Applies lie detection to a vision of the past, allowing lies spoken within it to be identified."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Finding V",
+          "label": "MERP_RMU.Seer.spells.FindingV.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FindingV.description",
+          "level": 19,
+          "description": "Comme Minor Finding, avec une portée de cinq miles par niveau.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "5 miles/lvl",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Localisation V",
+              "description": "Comme Minor Finding, avec une portée de cinq miles par niveau."
+            },
+            "en": {
+              "name": "Finding V",
+              "description": "As Minor Finding, but with a range of five miles per level."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Mind Probe",
+          "label": "MERP_RMU.Seer.spells.MindProbe.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.MindProbe.description",
+          "level": 20,
+          "description": "Comme Mind Scan, mais atteint aussi les souvenirs subconscients et des expériences profondément enfouies.",
+          "aoe": "1 target/rnd",
+          "duration": "1 rnd/lvl (C)",
+          "range": "100'",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Sonde Mentale",
+              "description": "Comme Mind Scan, mais atteint aussi les souvenirs subconscients et des expériences profondément enfouies."
+            },
+            "en": {
+              "name": "Mind Probe",
+              "description": "As Mind Scan, but also reaches subconscious memories and deeply buried experiences."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Thought Steal",
+          "label": "MERP_RMU.Seer.spells.ThoughtSteal.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.ThoughtSteal.description",
+          "level": 25,
+          "description": "Retire de l’esprit d’une cible une pensée ou un souvenir par round pendant la durée.",
+          "aoe": "1 target",
+          "duration": "1 rnd/lvl (C)",
+          "range": "100'",
+          "spellType": "Fm",
+          "localizations": {
+            "fr": {
+              "name": "Vol de Pensée",
+              "description": "Retire de l’esprit d’une cible une pensée ou un souvenir par round pendant la durée."
+            },
+            "en": {
+              "name": "Thought Steal",
+              "description": "Removes one thought or memory from a target’s mind per round for the duration."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Truth True",
+          "label": "MERP_RMU.Seer.spells.TruthTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.TruthTrue.description",
+          "level": 30,
+          "description": "Version supérieure de Truth : peut produire soit un vaste champ de vérité, soit une détection de vérité à très grande distance selon l’usage choisi.",
+          "aoe": "varies",
+          "duration": "varies",
+          "range": "varies",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Vérité Véritable",
+              "description": "Version supérieure de Truth : peut produire soit un vaste champ de vérité, soit une détection de vérité à très grande distance selon l’usage choisi."
+            },
+            "en": {
+              "name": "Truth True",
+              "description": "Superior version of Truth: may produce either a broad field of truth or truth detection at very great range, depending on the chosen use."
+            }
+          }
+        },
+        {
+          "spellList": "Mind Visions",
+          "listType": "Base",
+          "profession": "Seer",
+          "name": "Finding True",
+          "label": "MERP_RMU.Seer.spells.FindingTrue.name",
+          "descriptionLabel": "MERP_RMU.Seer.spells.FindingTrue.description",
+          "level": 50,
+          "description": "Comme Minor Finding, mais sans limite pratique de distance.",
+          "aoe": "caster",
+          "duration": "C",
+          "range": "unlimited",
+          "spellType": "Pm",
+          "localizations": {
+            "fr": {
+              "name": "Localisation Véritable",
+              "description": "Comme Minor Finding, mais sans limite pratique de distance."
+            },
+            "en": {
+              "name": "Finding True",
+              "description": "As Minor Finding, but with no practical distance limit."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Visions de l'Esprit",
+      "system": {
+        "name": "Visions de l'Esprit",
+        "label": "Visions de l'Esprit",
+        "notesLabel": "Visions de l'Esprit — notes",
+        "notes": "<h2>Visions de l'Esprit</h2><p>Détection des esprits, lecture mentale, recherche d’individus, vérité et exploration des souvenirs.</p><p><strong>Conversion MERP-RMU :</strong> liste historique du Devin (Seer), structurée au format RMU tout en conservant ses effets et sa progression d’origine.</p>"
+      }
+    },
+    "en": {
+      "name": "Mind Visions",
+      "system": {
+        "name": "Mind Visions",
+        "label": "Mind Visions",
+        "notesLabel": "Mind Visions — notes",
+        "notes": "<h2>Mind Visions</h2><p>Detection of minds, mind reading, searching for individuals, truth, and exploration of memories.</p><p><strong>MERP-RMU Conversion:</strong> historical Seer List, structured in RMU format while preserving its original effects and progression.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Mentalisme",
+      "Devin (Base)"
+    ],
+    "en": [
+      "Mentalism Spell Lists",
+      "Seer (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-mentalism",
+    "spell-lists-mentalism-seer"
+  ]
+}

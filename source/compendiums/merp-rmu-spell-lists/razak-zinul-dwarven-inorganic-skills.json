@@ -1,0 +1,513 @@
+{
+  "key": "razak-zinul-dwarven-inorganic-skills",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-razak-zinul",
+  "document": {
+    "name": "Dwarven Inorganic Skills",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul-dwarven-inorganic-skills",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "MERP Character Creation Using RMSS/RMFRP v2.5",
+        "sourceList": "Dwarven Inorganic Skills",
+        "sourcePage": 233,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmss-spell-list-conversion",
+          "reference": "MERP/RMSS v2.5 pp. 233; Razak-zinul Base List"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / MERP-RMSS v2.5",
+      "name": "Dwarven Inorganic Skills",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Razak-zinul",
+      "notes": "<h2>Dwarven Inorganic Skills</h2><p>Travail magique de la pierre, des métaux et des alliages khazâds. Les bonus de matériau obtenus ne sont pas eux-mêmes magiques : d’autres Listes sont nécessaires pour créer un enchantement.</p>",
+      "label": "Dwarven Inorganic Skills",
+      "notesLabel": "Dwarven Inorganic Skills notes",
+      "spells": [
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Stone",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkStone.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkStone.description",
+          "level": 1,
+          "description": "Allows flawless working of non-magical stone with all required tools and materials present; working time is halved.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de la Pierre",
+              "description": "Permet de travailler parfaitement la pierre non magique lorsque tous les outils et matériaux nécessaires sont disponibles ; le temps de travail est réduit de moitié."
+            },
+            "en": {
+              "name": "Work Stone",
+              "description": "Allows flawless working of non-magical stone with all required tools and materials present; working time is halved."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Metal",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkMetal.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkMetal.description",
+          "level": 2,
+          "description": "As Work Stone, but for ordinary non-magical metals; Nornang is excluded.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Métal",
+              "description": "Comme Travail de la Pierre, mais pour les métaux ordinaires non magiques ; le Nornang est exclu."
+            },
+            "en": {
+              "name": "Work Metal",
+              "description": "As Work Stone, but for ordinary non-magical metals; Nornang is excluded."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Alloy",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkAlloy.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkAlloy.description",
+          "level": 3,
+          "description": "As Work Stone, but for ordinary non-iron alloys such as brass, bronze and pewter.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Alliages",
+              "description": "Comme Travail de la Pierre, mais pour les alliages ordinaires sans fer, comme le laiton, le bronze et l’étain."
+            },
+            "en": {
+              "name": "Work Alloy",
+              "description": "As Work Stone, but for ordinary non-iron alloys such as brass, bronze and pewter."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Nornang",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkNornang.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkNornang.description",
+          "level": 4,
+          "description": "As Work Stone, but permits the working of Nornang (hard iron).",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Nornang",
+              "description": "Comme Travail de la Pierre, mais permet de travailler le Nornang (fer dur)."
+            },
+            "en": {
+              "name": "Work Nornang",
+              "description": "As Work Stone, but permits the working of Nornang (hard iron)."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Borang",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkBorang.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkBorang.description",
+          "level": 5,
+          "description": "As Work Stone, but permits the working of Borang (low-carbon steel).",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Borang",
+              "description": "Comme Travail de la Pierre, mais permet de travailler le Borang (acier à faible teneur en carbone)."
+            },
+            "en": {
+              "name": "Work Borang",
+              "description": "As Work Stone, but permits the working of Borang (low-carbon steel)."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Make Alloy",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.MakeAlloy.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.MakeAlloy.description",
+          "level": 6,
+          "description": "Allows the caster to make ordinary alloys from available raw materials and equipment; it does not make steel from iron.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Fabriquer un Alliage",
+              "description": "Permet au lanceur de fabriquer des alliages ordinaires à partir des matières premières et de l’équipement disponibles ; ne permet pas de fabriquer de l’acier à partir de fer."
+            },
+            "en": {
+              "name": "Make Alloy",
+              "description": "Allows the caster to make ordinary alloys from available raw materials and equipment; it does not make steel from iron."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Celebrang",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkCelebrang.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkCelebrang.description",
+          "level": 7,
+          "description": "As Work Stone, but permits the working of Celebrang/Arborang (high-carbon steel).",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Celebrang",
+              "description": "Comme Travail de la Pierre, mais permet de travailler le Celebrang/Arborang (acier à forte teneur en carbone)."
+            },
+            "en": {
+              "name": "Work Celebrang",
+              "description": "As Work Stone, but permits the working of Celebrang/Arborang (high-carbon steel)."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Make Steel",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.MakeSteel.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.MakeSteel.description",
+          "level": 8,
+          "description": "Allows the caster to make steel from iron, limited by available materials and equipment.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Fabriquer de l’Acier",
+              "description": "Permet au lanceur de fabriquer de l’acier à partir de fer, dans les limites des matériaux et de l’équipement disponibles."
+            },
+            "en": {
+              "name": "Make Steel",
+              "description": "Allows the caster to make steel from iron, limited by available materials and equipment."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Ardarcer",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkArdarcer.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkArdarcer.description",
+          "level": 9,
+          "description": "As Work Stone, but permits the working of Ardarcer.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Ardarcer",
+              "description": "Comme Travail de la Pierre, mais permet de travailler l’Ardarcer."
+            },
+            "en": {
+              "name": "Work Ardarcer",
+              "description": "As Work Stone, but permits the working of Ardarcer."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Tasarang",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkTasarang.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkTasarang.description",
+          "level": 10,
+          "description": "As Work Stone, but permits the working of the enchanted metal Tasarang.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Tasarang",
+              "description": "Comme Travail de la Pierre, mais permet de travailler le métal enchanté Tasarang."
+            },
+            "en": {
+              "name": "Work Tasarang",
+              "description": "As Work Stone, but permits the working of the enchanted metal Tasarang."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Gemstone",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkGemstone.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkGemstone.description",
+          "level": 11,
+          "description": "As Work Stone, but permits flawless working of non-magical gemstones.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail des Gemmes",
+              "description": "Comme Travail de la Pierre, mais permet de travailler parfaitement les gemmes non magiques."
+            },
+            "en": {
+              "name": "Work Gemstone",
+              "description": "As Work Stone, but permits flawless working of non-magical gemstones."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Ogamur",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkOgamur.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkOgamur.description",
+          "level": 12,
+          "description": "As Work Stone, but permits the working of the enchanted metal Ogamur.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Ogamur",
+              "description": "Comme Travail de la Pierre, mais permet de travailler le métal enchanté Ogamur."
+            },
+            "en": {
+              "name": "Work Ogamur",
+              "description": "As Work Stone, but permits the working of the enchanted metal Ogamur."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Mithril",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkMithril.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkMithril.description",
+          "level": 15,
+          "description": "As Work Stone, but permits the working of Mithril; items made from it gain the material bonus described by the source.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Mithril",
+              "description": "Comme Travail de la Pierre, mais permet de travailler le Mithril ; les objets qui en sont faits gagnent le bonus de matériau décrit dans la source."
+            },
+            "en": {
+              "name": "Work Mithril",
+              "description": "As Work Stone, but permits the working of Mithril; items made from it gain the material bonus described by the source."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Ithilnaur",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkIthilnaur.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkIthilnaur.description",
+          "level": 16,
+          "description": "As Work Stone, but permits the working of Ithilnaur.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Ithilnaur",
+              "description": "Comme Travail de la Pierre, mais permet de travailler l’Ithilnaur."
+            },
+            "en": {
+              "name": "Work Ithilnaur",
+              "description": "As Work Stone, but permits the working of Ithilnaur."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Ithildin",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkIthildin.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkIthildin.description",
+          "level": 17,
+          "description": "As Work Stone, but permits the working of Ithildin.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Ithildin",
+              "description": "Comme Travail de la Pierre, mais permet de travailler l’Ithildin."
+            },
+            "en": {
+              "name": "Work Ithildin",
+              "description": "As Work Stone, but permits the working of Ithildin."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Laen",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkLaen.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkLaen.description",
+          "level": 20,
+          "description": "As Work Stone, but permits the working of Laen.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail du Laen",
+              "description": "Comme Travail de la Pierre, mais permet de travailler le Laen."
+            },
+            "en": {
+              "name": "Work Laen",
+              "description": "As Work Stone, but permits the working of Laen."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Work Eog",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkEog.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.WorkEog.description",
+          "level": 25,
+          "description": "As Work Stone, but permits the working of Eog.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Travail de l’Eog",
+              "description": "Comme Travail de la Pierre, mais permet de travailler l’Eog."
+            },
+            "en": {
+              "name": "Work Eog",
+              "description": "As Work Stone, but permits the working of Eog."
+            }
+          }
+        },
+        {
+          "spellList": "Dwarven Inorganic Skills",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Make/Work",
+          "label": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.MakeWork.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.dwarveninorganicskills.spells.MakeWork.description",
+          "level": 50,
+          "description": "Allows the caster to make and work any metal, alloy or inorganic material for which the necessary materials and tools are available.",
+          "aoe": "caster",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Fabriquer/Travailler",
+              "description": "Permet au lanceur de fabriquer et de travailler tout métal, alliage ou matériau inorganique pour lequel il dispose des matériaux et outils nécessaires."
+            },
+            "en": {
+              "name": "Make/Work",
+              "description": "Allows the caster to make and work any metal, alloy or inorganic material for which the necessary materials and tools are available."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Techniques Inorganiques Naines",
+      "system": {
+        "name": "Techniques Inorganiques Naines",
+        "label": "Techniques Inorganiques Naines",
+        "notesLabel": "Techniques Inorganiques Naines — notes",
+        "notes": "<h2>Techniques Inorganiques Naines</h2><p>Travail magique de la pierre, des métaux et des alliages khazâds. Les bonus de matériau obtenus ne sont pas eux-mêmes magiques : d’autres Listes sont nécessaires pour créer un enchantement.</p>"
+      }
+    },
+    "en": {
+      "name": "Dwarven Inorganic Skills",
+      "system": {
+        "name": "Dwarven Inorganic Skills",
+        "label": "Dwarven Inorganic Skills",
+        "notesLabel": "Dwarven Inorganic Skills — notes",
+        "notes": "<h2>Dwarven Inorganic Skills</h2><p>Magical working of stone, metals, and Khazâd alloys. The material bonuses obtained are not themselves magical: other Lists are required to create an enchantment.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Razak-Zinul (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Razak-Zinul (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-razak-zinul"
+  ]
+}

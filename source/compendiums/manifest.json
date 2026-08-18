@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "baseline": "MERP-UI 1.5.1 / RMU 1.5.33",
+  "packs": [
+    {
+      "name": "merp-rmu-races",
+      "label": "MERP-RMU — Races",
+      "type": "Item",
+      "system": "rmu",
+      "sourceDirectory": "source/compendiums/merp-rmu-races",
+      "seedPath": "packs/merp-rmu-races.db",
+      "leveldbPath": "packs/merp-rmu-races",
+      "count": 12
+    },
+    {
+      "name": "merp-rmu-cultures",
+      "label": "MERP-RMU — Cultures",
+      "type": "Item",
+      "system": "rmu",
+      "sourceDirectory": "source/compendiums/merp-rmu-cultures",
+      "seedPath": "packs/merp-rmu-cultures.db",
+      "leveldbPath": "packs/merp-rmu-cultures",
+      "count": 59
+    },
+    {
+      "name": "merp-rmu-professions",
+      "label": "MERP-RMU — Professions",
+      "type": "Item",
+      "system": "rmu",
+      "sourceDirectory": "source/compendiums/merp-rmu-professions",
+      "seedPath": "packs/merp-rmu-professions.db",
+      "leveldbPath": "packs/merp-rmu-professions",
+      "count": 21
+    },
+    {
+      "name": "merp-rmu-skills",
+      "label": "MERP-RMU — Skills",
+      "type": "Item",
+      "system": "rmu",
+      "sourceDirectory": "source/compendiums/merp-rmu-skills",
+      "seedPath": "packs/merp-rmu-skills.db",
+      "leveldbPath": "packs/merp-rmu-skills",
+      "count": 8
+    },
+    {
+      "name": "merp-rmu-spell-lists",
+      "label": "MERP-RMU — Spell Lists",
+      "type": "Item",
+      "system": "rmu",
+      "sourceDirectory": "source/compendiums/merp-rmu-spell-lists",
+      "seedPath": "packs/merp-rmu-spell-lists.db",
+      "leveldbPath": "packs/merp-rmu-spell-lists",
+      "count": 36
+    },
+    {
+      "name": "merp-rmu-talents-flaws",
+      "label": "MERP-RMU — Talents & Flaws",
+      "type": "Item",
+      "system": "rmu",
+      "sourceDirectory": "source/compendiums/merp-rmu-talents-flaws",
+      "seedPath": "packs/merp-rmu-talents-flaws.db",
+      "leveldbPath": "packs/merp-rmu-talents-flaws",
+      "count": 85
+    },
+    {
+      "name": "merp-rmu-herbs",
+      "label": "MERP-RMU — Herbs & Substances",
+      "type": "Item",
+      "system": "rmu",
+      "sourceDirectory": "source/compendiums/merp-rmu-herbs",
+      "seedPath": "packs/merp-rmu-herbs.db",
+      "leveldbPath": "packs/merp-rmu-herbs",
+      "count": 187
+    },
+    {
+      "name": "merp-rmu-languages",
+      "label": "MERP-RMU — Languages",
+      "type": "JournalEntry",
+      "system": null,
+      "sourceDirectory": "source/compendiums/merp-rmu-languages",
+      "seedPath": "packs/merp-rmu-languages.db",
+      "leveldbPath": "packs/merp-rmu-languages",
+      "count": 34
+    },
+    {
+      "name": "merp-rmu-rules",
+      "label": "MERP-RMU — Rules & References",
+      "type": "JournalEntry",
+      "system": null,
+      "sourceDirectory": "source/compendiums/merp-rmu-rules",
+      "seedPath": "packs/merp-rmu-rules.db",
+      "leveldbPath": "packs/merp-rmu-rules",
+      "count": 13
+    }
+  ]
+}

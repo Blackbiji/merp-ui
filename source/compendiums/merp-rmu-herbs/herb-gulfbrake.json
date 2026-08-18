@@ -1,0 +1,79 @@
+{
+  "key": "herb-gulfbrake",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Gulfbrake",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-gulfbrake",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-O-7-U",
+        "sourceCost": "20gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "O",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Gulfbrake"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Extremely Hard",
+      "form": "Algae",
+      "prep": "apply",
+      "season": "",
+      "cost": "20gp",
+      "notes": "<p>Cette algue se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Cette algue marine est chauffée dans une eau brûlante mais non bouillante puis enroulée autour de la fracture comme un plâtre. Elle multiplie par cinq la vitesse de consolidation et peut être séchée pour un stockage prolongé.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gulfbrake",
+      "system": {
+        "notes": "<p>Cette algue se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Cette algue marine est chauffée dans une eau brûlante mais non bouillante puis enroulée autour de la fracture comme un plâtre. Elle multiplie par cinq la vitesse de consolidation et peut être séchée pour un stockage prolongé.</p>"
+      }
+    },
+    "en": {
+      "name": "Gulfbrake",
+      "system": {
+        "notes": "<p>This algae is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>This seaweed is heated in scalding but not boiling water and then wrapped around the fracture like a cast. It increases the rate of knitting fivefold and can be dried for long-term storage.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

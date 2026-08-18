@@ -1,0 +1,78 @@
+{
+  "key": "herb-attanar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Attanar",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-attanar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-F-4-U",
+        "sourceCost": "8gp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "F",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Attanar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Medium",
+      "form": "Moss",
+      "prep": "apply",
+      "season": "",
+      "cost": "8gp",
+      "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Cette mousse appliquée en remède fait tomber les fièvres.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Attanar",
+      "system": {
+        "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les berges et rivages d’eau douce, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Cette mousse appliquée en remède fait tomber les fièvres.</p>"
+      }
+    },
+    "en": {
+      "name": "Attanar",
+      "system": {
+        "notes": "<p>This moss is found chiefly in cool temperate climates, especially in freshwater banks and shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Applied as a remedy, this moss reduces fevers.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

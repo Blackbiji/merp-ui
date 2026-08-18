@@ -1,0 +1,79 @@
+{
+  "key": "herb-seathorn",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Épine-de-Mer (Seathorn)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-seathorn",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-O-6-U",
+        "sourceCost": "35gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Récupération"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "O",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Seathorn"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Very Hard",
+      "form": "Nodule",
+      "prep": "ingest",
+      "season": "",
+      "cost": "35gp",
+      "notes": "<p>Ce nodule se rencontre surtout dans les régions au climat tempéré frais, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le nodule marin, parfois appelé « barnacle », est brisé pour en manger la chair, qui rend 1 à 6 points de vie. Il se conserve plusieurs mois avant de se dessécher.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Épine-de-Mer (Seathorn)",
+      "system": {
+        "notes": "<p>Ce nodule se rencontre surtout dans les régions au climat tempéré frais, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Le nodule marin, parfois appelé « barnacle », est brisé pour en manger la chair, qui rend 1 à 6 points de vie. Il se conserve plusieurs mois avant de se dessécher.</p>"
+      }
+    },
+    "en": {
+      "name": "Seathorn",
+      "system": {
+        "notes": "<p>This nodule is found chiefly in cool temperate climates, especially in sea coasts and saltwater shores, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The marine nodule, sometimes called a “barnacle,” is cracked open and its flesh eaten, restoring 1–6 concussion hits. It keeps for several months before drying out.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

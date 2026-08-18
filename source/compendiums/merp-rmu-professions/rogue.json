@@ -1,0 +1,250 @@
+{
+  "key": "rogue",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-non-magiques",
+  "document": {
+    "name": "Roublard",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "rogue",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmss-to-rmu-adaptation",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 — Rogue; RMU-compatible adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP / RMSS — adaptation RMU",
+      "profession": "Rogue",
+      "spellCastingGroup": "Non",
+      "numberOfBaseLists": 0,
+      "realms": "",
+      "description": "<h1>Roublard</h1>\n<p>Le <strong>Roublard</strong> est un combattant polyvalent qui associe maîtrise des armes, discrétion, intrusion, tromperie et débrouillardise. Il se situe entre le Guerrier, spécialiste du combat, et le Voleur, spécialiste des activités clandestines.</p>\n<p>La Profession correspond à quelqu’un qui a appris à se battre et à résoudre les problèmes hors des cadres conventionnels. Un Corsaire d’Umbar peut mêler combat naval, intimidation et contrebande ; un Dunlending peut servir de guide ou de passeur ; un Dúnadan d’Arnor peut agir comme éclaireur ; un marchand Dorwinadan peut associer négociation, estimation et maniement des armes.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Roublard sont <strong>Agilité (Ag)</strong> et <strong>Force (St)</strong>. L’Agilité soutient précision, mobilité et discrétion ; la Force rappelle qu’il reste un véritable combattant.</p>\n<h2>Orientation technique</h2>\n<p>Le Roublard est un <strong>non-utilisateur de sorts</strong>. Il partage son développement entre Armes, Discrétion, Subterfuge, Perception, aptitudes gymniques, Développement corporel, compétences urbaines et connaissances pratiques.</p>\n<h2>Combat</h2>\n<p>Le Roublard peut choisir une arme principale et atteindre un niveau très élevé avec elle. Un Corsaire d’Umbar peut privilégier une lame adaptée au pont d’un navire ; un Dunlending une hache ou une épée ; un Dorwinadan l’arc et une arme légère ; un agent du Gondor une lame facile à dissimuler.</p>\n<h2>Subterfuge et discrétion</h2>\n<p>Filature, dissimulation, infiltration, crochetage, manipulation de mécanismes, mensonge, escroquerie et contrebande peuvent entrer dans son domaine. Un espion d’Umbar peut infiltrer une cité ennemie ; un passeur dunlending évitera les patrouilles ; un agent du Gondor développera plutôt filature, observation et réseaux urbains.</p>\n<h2>Milieu urbain et réseaux</h2>\n<p>Le Roublard apprend à repérer les autorités réelles, les marchés clandestins, les intermédiaires et les lieux où disparaître. À Pelargir ou Umbar, il peut connaître les quais et les équipages ; en Eriador, son réseau peut reposer sur des aubergistes, des familles locales et des relais discrets.</p>\n<h2>Profils possibles</h2>\n<ul>\n<li><strong>Éclaireur.</strong> Perception, Discrétion, déplacement et arme à distance.</li>\n<li><strong>Espion.</strong> Influence, Tromperie, Filature, Discrétion et arme discrète.</li>\n<li><strong>Contrebandier.</strong> Négociation, routes, dissimulation, équitation ou navigation.</li>\n<li><strong>Chasseur de primes.</strong> Recherche d’informations, combat, observation et intimidation.</li>\n<li><strong>Homme de confiance.</strong> Garde, collecteur, négociateur et résolution de problèmes.</li>\n<li><strong>Aventurier polyvalent.</strong> Équilibre entre combat, perception, discrétion et compétences sociales.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong></p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons de RMU une Profession martiale polyvalente située entre combattant et spécialiste du Subterfuge. MERP-RMU fixe explicitement <strong>Agilité et Force</strong> comme caractéristiques primordiales et développe son rôle social et culturel.</p>\n<p>Le Roublard peut être espion d’Umbar, passeur dunlending, éclaireur dúnadan, marchand-aventurier dorwinadan ou homme de confiance. Son domaine est la polyvalence dans les situations où armes, discrétion et débrouillardise doivent être utilisées ensemble.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "1/3"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "2/3"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "2/3"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "3/5"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "3/5"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Observation"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Climbing"
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running"
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Deception"
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Hiding"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Locks"
+        },
+        {
+          "skillCategory": "Technical",
+          "skillName": "Traps"
+        },
+        {
+          "skillCategory": "Vocation",
+          "skillName": "Trade"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Melee Weapons"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Ranged Weapons"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Roublard",
+      "system": {
+        "description": "<h1>Roublard</h1>\n<p>Le <strong>Roublard</strong> est un combattant polyvalent qui associe maîtrise des armes, discrétion, intrusion, tromperie et débrouillardise. Il se situe entre le Guerrier, spécialiste du combat, et le Voleur, spécialiste des activités clandestines.</p>\n<p>La Profession correspond à quelqu’un qui a appris à se battre et à résoudre les problèmes hors des cadres conventionnels. Un Corsaire d’Umbar peut mêler combat naval, intimidation et contrebande ; un Dunlending peut servir de guide ou de passeur ; un Dúnadan d’Arnor peut agir comme éclaireur ; un marchand Dorwinadan peut associer négociation, estimation et maniement des armes.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Roublard sont <strong>Agilité (Ag)</strong> et <strong>Force (St)</strong>. L’Agilité soutient précision, mobilité et discrétion ; la Force rappelle qu’il reste un véritable combattant.</p>\n<h2>Orientation technique</h2>\n<p>Le Roublard est un <strong>non-utilisateur de sorts</strong>. Il partage son développement entre Armes, Discrétion, Subterfuge, Perception, aptitudes gymniques, Développement corporel, compétences urbaines et connaissances pratiques.</p>\n<h2>Combat</h2>\n<p>Le Roublard peut choisir une arme principale et atteindre un niveau très élevé avec elle. Un Corsaire d’Umbar peut privilégier une lame adaptée au pont d’un navire ; un Dunlending une hache ou une épée ; un Dorwinadan l’arc et une arme légère ; un agent du Gondor une lame facile à dissimuler.</p>\n<h2>Subterfuge et discrétion</h2>\n<p>Filature, dissimulation, infiltration, crochetage, manipulation de mécanismes, mensonge, escroquerie et contrebande peuvent entrer dans son domaine. Un espion d’Umbar peut infiltrer une cité ennemie ; un passeur dunlending évitera les patrouilles ; un agent du Gondor développera plutôt filature, observation et réseaux urbains.</p>\n<h2>Milieu urbain et réseaux</h2>\n<p>Le Roublard apprend à repérer les autorités réelles, les marchés clandestins, les intermédiaires et les lieux où disparaître. À Pelargir ou Umbar, il peut connaître les quais et les équipages ; en Eriador, son réseau peut reposer sur des aubergistes, des familles locales et des relais discrets.</p>\n<h2>Profils possibles</h2>\n<ul>\n<li><strong>Éclaireur.</strong> Perception, Discrétion, déplacement et arme à distance.</li>\n<li><strong>Espion.</strong> Influence, Tromperie, Filature, Discrétion et arme discrète.</li>\n<li><strong>Contrebandier.</strong> Négociation, routes, dissimulation, équitation ou navigation.</li>\n<li><strong>Chasseur de primes.</strong> Recherche d’informations, combat, observation et intimidation.</li>\n<li><strong>Homme de confiance.</strong> Garde, collecteur, négociateur et résolution de problèmes.</li>\n<li><strong>Aventurier polyvalent.</strong> Équilibre entre combat, perception, discrétion et compétences sociales.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong></p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons de RMU une Profession martiale polyvalente située entre combattant et spécialiste du Subterfuge. MERP-RMU fixe explicitement <strong>Agilité et Force</strong> comme caractéristiques primordiales et développe son rôle social et culturel.</p>\n<p>Le Roublard peut être espion d’Umbar, passeur dunlending, éclaireur dúnadan, marchand-aventurier dorwinadan ou homme de confiance. Son domaine est la polyvalence dans les situations où armes, discrétion et débrouillardise doivent être utilisées ensemble.</p>"
+      }
+    },
+    "en": {
+      "name": "Rogue",
+      "system": {
+        "description": "<h1>Rogue</h1>\n<p>The <strong>Rogue</strong> is a versatile combatant who combines solid weapon training with stealth, intrusion, deception, and resourcefulness. The Profession lies between the <strong>Fighter</strong>, a specialist in combat, and the <strong>Thief</strong>, a specialist in clandestine activities. In earlier Middle-earth and Rolemaster games, this flexibility is the Rogue’s defining strength: a Rogue can approach a Fighter’s effectiveness with one chosen weapon while developing enough subterfuge to serve as a scout, spy, smuggler, or urban adventurer.</p>\n<p>A Rogue is not necessarily a criminal. The Profession represents someone who has learned to <strong>fight and survive outside conventional structures</strong>. A <strong>Corsair of Umbar</strong> may combine shipboard combat, intimidation, and smuggling; a <strong>Dunlending</strong> guide or ferryman may mix terrain knowledge, stealth, and weapons; a <strong>Dúnadan of Arnor</strong> serving as a scout may emphasize observation and infiltration; a <strong>Dorwinadan</strong> merchant travelling dangerous roads may develop negotiation, appraisal, and weapon skills.</p>\n<h2>Prime Stats</h2>\n<p>The Rogue’s Prime Stats are <strong>Agility (Ag)</strong> and <strong>Strength (St)</strong>.</p>\n<p><strong>Agility</strong> reflects precision, stealthy movement, climbing, mechanical manipulation, and the finesse required by certain weapons. <strong>Strength</strong> matters far more to the Rogue than to the Thief: the Rogue is a genuine combatant.</p>\n<h2>Technical Orientation</h2>\n<p>The Rogue is a <strong>non-spell-user</strong>. Development balances combat, physical abilities, and subterfuge.</p>\n<p>Favoured areas include <strong>Weapons</strong>, <strong>Stealth</strong>, <strong>Subterfuge</strong>, <strong>Perception</strong> and searching, gymnastic skills, <strong>Body Development</strong>, urban skills, and selected technical or professional skills.</p>\n<h2>Combat</h2>\n<p>A Rogue can select a primary weapon and become extremely effective with it. In that one field the Rogue can come close to a Fighter, although the Profession cannot develop many different fighting styles with the same ease.</p>\n<p>A Dunlending may favour axe or sword; a Corsair of Umbar a blade suited to fighting on a ship’s deck; a Dorwinadan travelling with caravans a bow and a light melee weapon; an agent of Gondor a short sword or dagger that is easier to conceal.</p>\n<h2>Subterfuge and Stealth</h2>\n<p>The Rogue has excellent access to Subterfuge skills: shadowing, concealment, infiltration, lock-picking, mechanical manipulation, lying, fraud, smuggling, and knowledge of clandestine networks.</p>\n<p>A spy from <strong>Umbar</strong> may use these abilities to infiltrate an enemy city; a <strong>Dunlending</strong> smuggler to avoid patrols and conceal goods; in a great city of <strong>Gondor</strong>, an investigator or underworld figure may instead develop contacts, surveillance, and observation.</p>\n<h2>Urban Environments and Networks</h2>\n<p>The Rogue is particularly comfortable where information and relationships matter as much as force. In <strong>Pelargir</strong> or <strong>Umbar</strong>, this may mean knowing docks, crews, and traffickers. In a city of <strong>Gondor</strong>, it may involve contacts among artisans, guards, and guilds. In a small community of <strong>Eriador</strong>, the same abilities may take the form of a network of innkeepers, ferrymen, and local families.</p>\n<h2>Rogue and Thief</h2>\n<p>The <strong>Thief</strong> devotes a much larger share of development to infiltration, locks, traps, and other clandestine techniques. The <strong>Rogue</strong> spreads development more evenly between those areas and combat.</p>\n<p>Against a complex lock or a particularly difficult infiltration, a specialized Thief will usually retain the advantage. When the situation turns into open combat, the Rogue normally has superior martial training.</p>\n<h2>Possible Profiles</h2>\n<p><strong>Scout.</strong> Perception, Stealth, movement, and a ranged weapon.</p>\n<p><strong>Spy.</strong> Influence, Duping, Shadowing, Stealth, and an easily concealed weapon. Suitable for agents of Umbar, Angmar, Gondor, or the former realms of Arnor.</p>\n<p><strong>Smuggler.</strong> Negotiation, route knowledge, concealment, riding or sailing, and enough martial skill to defend a cargo.</p>\n<p><strong>Bounty Hunter.</strong> Tracking, information gathering, combat, observation, and intimidation.</p>\n<p><strong>Trusted Hand.</strong> Guard, collector, negotiator, and problem-solver when words alone are not enough.</p>\n<h2>Base Spell Lists</h2>\n<p><strong>None.</strong></p>\n<p>The Rogue has no professional Base Spell Lists. Magic remains an exceptional and costly direction of development.</p>\n<h2>RMU / MERP Adaptation</h2>\n<p>We retain RMU’s concept of a <strong>versatile martial Profession</strong> positioned between the dedicated fighter and the Subterfuge specialist. The Prime Stats are explicitly <strong>Agility and Strength</strong>. We also preserve the idea that a Rogue can become nearly as capable as a Fighter with <strong>one favoured weapon</strong> while retaining excellent access to Stealth and urban skills.</p>\n<p>The Middle-earth adaptation strongly develops the Profession’s social and cultural dimension. A Rogue may be a spy of Umbar, a Dunlending smuggler, a Dúnadan scout, a Dorwinadan merchant-adventurer, a street guard, or the trusted agent of a noble house. The Rogue’s true domain is versatility in situations where weapons, stealth, and resourcefulness must be used together.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions non magiques"
+    ],
+    "en": [
+      "Non-magical Professions"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-non-magiques"
+  ]
+}

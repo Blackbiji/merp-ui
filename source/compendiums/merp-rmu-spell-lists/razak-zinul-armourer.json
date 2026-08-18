@@ -1,0 +1,561 @@
+{
+  "key": "razak-zinul-armourer",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-razak-zinul",
+  "document": {
+    "name": "Armourer",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul-armourer",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "MERP Character Creation Using RMSS/RMFRP v2.5",
+        "sourceList": "Armourer",
+        "sourcePage": 234,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmss-spell-list-conversion",
+          "reference": "MERP/RMSS v2.5 pp. 234; Razak-zinul Base List"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / MERP-RMSS v2.5",
+      "name": "Armourer",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Razak-zinul",
+      "notes": "<h2>Armourer</h2><p>Liste de forge défensive du Razak-Zinul : boucliers de force, renforcement des défenses et enchantement d’armures et de vêtements protecteurs.</p>",
+      "label": "Armourer",
+      "notesLabel": "Armourer notes",
+      "spells": [
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Shield",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.Shield.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.Shield.description",
+          "level": 2,
+          "description": "Creates an invisible force shield in front of the caster. It functions like a normal shield but occupies no hand and cannot be combined with a real shield.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Bouclier",
+              "description": "Crée devant le lanceur un bouclier de force invisible. Il fonctionne comme un bouclier normal, mais n’occupe aucune main et ne peut pas être combiné avec un bouclier réel."
+            },
+            "en": {
+              "name": "Shield",
+              "description": "Creates an invisible force shield in front of the caster. It functions like a normal shield but occupies no hand and cannot be combined with a real shield."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Shield Defense I",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseI.description",
+          "level": 3,
+          "description": "Improves the caster’s shield DB by +5.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense au Bouclier I",
+              "description": "Améliore de +5 la BD de bouclier du lanceur."
+            },
+            "en": {
+              "name": "Shield Defense I",
+              "description": "Improves the caster’s shield DB by +5."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour Defense I",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseI.description",
+          "level": 4,
+          "description": "Improves the caster’s armour DB by +5.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense d’Armure I",
+              "description": "Améliore de +5 la BD d’armure du lanceur."
+            },
+            "en": {
+              "name": "Armour Defense I",
+              "description": "Improves the caster’s armour DB by +5."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour I",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourI.description",
+          "level": 5,
+          "description": "Enchants armour or a shield with a +5 general magical bonus or a +10 bonus against one broad group.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure I",
+              "description": "Enchante une armure ou un bouclier en lui conférant un bonus magique général de +5 ou +10 contre un vaste groupe de créatures."
+            },
+            "en": {
+              "name": "Armour I",
+              "description": "Enchants armour or a shield with a +5 general magical bonus or a +10 bonus against one broad group."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Enchant Cloth I",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothI.description",
+          "level": 6,
+          "description": "Enchants the caster’s clothing to protect as a heavier armour type according to the source list.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Enchantement du Tissu I",
+              "description": "Enchante les vêtements du lanceur afin qu’ils protègent comme un type d’armure plus lourd, conformément à la liste d’origine."
+            },
+            "en": {
+              "name": "Enchant Cloth I",
+              "description": "Enchants the caster’s clothing to protect as a heavier armour type according to the source list."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Shield Defense II",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseII.description",
+          "level": 7,
+          "description": "As Shield Defense I, but the bonus is +10.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense au Bouclier II",
+              "description": "Comme Défense au Bouclier I, mais le bonus est de +10."
+            },
+            "en": {
+              "name": "Shield Defense II",
+              "description": "As Shield Defense I, but the bonus is +10."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour Defense II",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseII.description",
+          "level": 8,
+          "description": "As Armour Defense I, but the bonus is +10.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense d’Armure II",
+              "description": "Comme Défense d’Armure I, mais le bonus est de +10."
+            },
+            "en": {
+              "name": "Armour Defense II",
+              "description": "As Armour Defense I, but the bonus is +10."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour II",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourII.description",
+          "level": 9,
+          "description": "As Armour I, but grants +10 general or +15 against one broad group.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure II",
+              "description": "Comme Armure I, mais confère +10 en général ou +15 contre un vaste groupe de créatures."
+            },
+            "en": {
+              "name": "Armour II",
+              "description": "As Armour I, but grants +10 general or +15 against one broad group."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Enchant Cloth II",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothII.description",
+          "level": 10,
+          "description": "As Enchant Cloth I, with improved protection.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Enchantement du Tissu II",
+              "description": "Comme Enchantement du Tissu I, avec une protection améliorée."
+            },
+            "en": {
+              "name": "Enchant Cloth II",
+              "description": "As Enchant Cloth I, with improved protection."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Shield Defense III",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseIII.description",
+          "level": 11,
+          "description": "As Shield Defense I, but the bonus is +15.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense au Bouclier III",
+              "description": "Comme Défense au Bouclier I, mais le bonus est de +15."
+            },
+            "en": {
+              "name": "Shield Defense III",
+              "description": "As Shield Defense I, but the bonus is +15."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour Defense III",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseIII.description",
+          "level": 12,
+          "description": "As Armour Defense I, but the bonus is +15.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense d’Armure III",
+              "description": "Comme Défense d’Armure I, mais le bonus est de +15."
+            },
+            "en": {
+              "name": "Armour Defense III",
+              "description": "As Armour Defense I, but the bonus is +15."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour III",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourIII.description",
+          "level": 14,
+          "description": "As Armour I, but grants +15 general or +20 against one broad group.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure III",
+              "description": "Comme Armure I, mais confère +15 en général ou +20 contre un vaste groupe de créatures."
+            },
+            "en": {
+              "name": "Armour III",
+              "description": "As Armour I, but grants +15 general or +20 against one broad group."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Shield Defense IV",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseIV.description",
+          "level": 15,
+          "description": "As Shield Defense I, but the bonus is +20.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense au Bouclier IV",
+              "description": "Comme Défense au Bouclier I, mais le bonus est de +20."
+            },
+            "en": {
+              "name": "Shield Defense IV",
+              "description": "As Shield Defense I, but the bonus is +20."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour Defense IV",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseIV.description",
+          "level": 16,
+          "description": "As Armour Defense I, but the bonus is +20.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense d’Armure IV",
+              "description": "Comme Défense d’Armure I, mais le bonus est de +20."
+            },
+            "en": {
+              "name": "Armour Defense IV",
+              "description": "As Armour Defense I, but the bonus is +20."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Enchant Cloth III",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothIII.description",
+          "level": 18,
+          "description": "As Enchant Cloth I, with still greater protection.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Enchantement du Tissu III",
+              "description": "Comme Enchantement du Tissu I, avec une protection encore supérieure."
+            },
+            "en": {
+              "name": "Enchant Cloth III",
+              "description": "As Enchant Cloth I, with still greater protection."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Shield Defense True",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ShieldDefenseTrue.description",
+          "level": 19,
+          "description": "As Shield Defense I, but the bonus is +25.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense au Bouclier Véritable",
+              "description": "Comme Défense au Bouclier I, mais le bonus est de +25."
+            },
+            "en": {
+              "name": "Shield Defense True",
+              "description": "As Shield Defense I, but the bonus is +25."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour Defense True",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseTrue.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourDefenseTrue.description",
+          "level": 20,
+          "description": "As Armour Defense I, but the bonus is +25.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Défense d’Armure Véritable",
+              "description": "Comme Défense d’Armure I, mais le bonus est de +25."
+            },
+            "en": {
+              "name": "Armour Defense True",
+              "description": "As Armour Defense I, but the bonus is +25."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Enchant Cloth IV",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.EnchantClothIV.description",
+          "level": 25,
+          "description": "As Enchant Cloth I, with the strongest listed cloth protection.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Enchantement du Tissu IV",
+              "description": "Comme Enchantement du Tissu I, avec la protection textile la plus puissante de la liste."
+            },
+            "en": {
+              "name": "Enchant Cloth IV",
+              "description": "As Enchant Cloth I, with the strongest listed cloth protection."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Armour IV",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.ArmourIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.ArmourIV.description",
+          "level": 30,
+          "description": "As Armour I, but grants +20 general or +25 against one broad group.",
+          "aoe": "self",
+          "duration": "24 hrs",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Armure IV",
+              "description": "Comme Armure I, mais confère +20 en général ou +25 contre un vaste groupe de créatures."
+            },
+            "en": {
+              "name": "Armour IV",
+              "description": "As Armour I, but grants +20 general or +25 against one broad group."
+            }
+          }
+        },
+        {
+          "spellList": "Armourer",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Mystical Armour",
+          "label": "MERP_RMU.RazakZinul.armourer.spells.MysticalArmour.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.armourer.spells.MysticalArmour.description",
+          "level": 50,
+          "description": "Creates the list’s ultimate magical armour protection for the caster.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Armure Mystique",
+              "description": "Crée pour le lanceur la protection d’armure magique ultime de cette liste."
+            },
+            "en": {
+              "name": "Mystical Armour",
+              "description": "Creates the list’s ultimate magical armour protection for the caster."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Armurier",
+      "system": {
+        "name": "Armurier",
+        "label": "Armurier",
+        "notesLabel": "Armurier — notes",
+        "notes": "<h2>Armurier</h2><p>Liste de forge défensive du Razak-Zinul : boucliers de force, renforcement des défenses et enchantement d’armures et de vêtements protecteurs.</p>"
+      }
+    },
+    "en": {
+      "name": "Armourer",
+      "system": {
+        "name": "Armourer",
+        "label": "Armourer",
+        "notesLabel": "Armourer — notes",
+        "notes": "<h2>Armourer</h2><p>Razak-Zinul defensive forging List: force shields, strengthened defenses, and enchantment of armor and protective clothing.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Razak-Zinul (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Razak-Zinul (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-razak-zinul"
+  ]
+}

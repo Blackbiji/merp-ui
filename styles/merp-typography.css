@@ -1,0 +1,1016 @@
+/*
+ * MERP UI 0.8.0 — Typography
+ *
+ * PragRoman est appliquée uniquement aux zones textuelles.
+ * Les boutons, onglets, barres d’outils, contrôles et icônes ne sont pas ciblés.
+ */
+
+@font-face {
+  font-family: "PragRoman";
+  src: url("../fonts/PragRoman.ttf?v=0.8.0") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --merp-font: "PragRoman", Georgia, "Times New Roman", serif;
+  --merp-body-size: 0.93rem;
+  --merp-body-leading: 1.43;
+  --merp-heading-leading: 1.14;
+}
+
+/* Journaux : contenu éditorial uniquement. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .journal-sheet.merp-ui,
+  .journal-entry-sheet.merp-ui,
+  .journal-entry.merp-ui,
+  .application.journal-entry.merp-ui,
+  [data-document-class="JournalEntry"].merp-ui,
+  [data-document-class="JournalEntryPage"].merp-ui
+) :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror
+) {
+  font-family: var(--merp-font) !important;
+  font-size: var(--merp-body-size);
+  line-height: var(--merp-body-leading);
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .journal-sheet.merp-ui,
+  .journal-entry-sheet.merp-ui,
+  .journal-entry.merp-ui,
+  .application.journal-entry.merp-ui,
+  [data-document-class="JournalEntry"].merp-ui,
+  [data-document-class="JournalEntryPage"].merp-ui
+) :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror
+) :is(
+  p,
+  li,
+  dt,
+  dd,
+  blockquote,
+  figcaption,
+  caption,
+  th,
+  td,
+  label,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a.content-link,
+  a.inline-roll
+) {
+  font-family: var(--merp-font) !important;
+}
+
+/* Noms des pages et titres de document, sans toucher aux contrôles. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .window-title,
+  .journal-header .title,
+  .journal-header input[name="name"],
+  .page-heading,
+  .journal-page-header
+) {
+  font-family: var(--merp-font) !important;
+}
+
+/* Fiches Actor/Item : uniquement le contenu descriptif et les champs texte. */
+:is(
+  .merp-ui.actor-sheet,
+  .merp-ui.item-sheet,
+  .actor-sheet.merp-ui,
+  .item-sheet.merp-ui,
+  .application.actor.merp-ui,
+  .application.item.merp-ui,
+  [data-document-class="Actor"].merp-ui,
+  [data-document-class="Item"].merp-ui
+) :is(
+  .sheet-body,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  .description,
+  .biography,
+  .notes,
+  .details
+) {
+  font-family: var(--merp-font) !important;
+  font-size: 0.91rem;
+  line-height: 1.4;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .merp-ui.item-sheet,
+  .actor-sheet.merp-ui,
+  .item-sheet.merp-ui,
+  .application.actor.merp-ui,
+  .application.item.merp-ui,
+  [data-document-class="Actor"].merp-ui,
+  [data-document-class="Item"].merp-ui
+) :is(
+  .sheet-body,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  .description,
+  .biography,
+  .notes,
+  .details
+) :is(
+  p,
+  li,
+  dt,
+  dd,
+  blockquote,
+  th,
+  td,
+  label,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a.content-link,
+  a.inline-roll
+) {
+  font-family: var(--merp-font) !important;
+}
+
+/* Champs textuels explicites seulement. */
+:is(
+  .merp-ui.actor-sheet,
+  .merp-ui.item-sheet,
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.application.actor,
+  .merp-ui.application.item,
+  .merp-ui.application.journal-entry
+) :is(
+  input[type="text"],
+  input[type="search"],
+  input[type="number"],
+  textarea,
+  select
+) {
+  font-family: var(--merp-font) !important;
+}
+
+/* Hiérarchie typographique des Journaux. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) :is(h1, h2, h3, h4) {
+  line-height: var(--merp-heading-leading);
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) p {
+  margin: .42rem 0 .68rem;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(ul, ol) {
+  margin: .42rem 0 .8rem 1.3rem;
+  padding-left: .65rem;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.2 — Index et navigation des Journaux                         */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * PragRoman est appliquée uniquement aux textes de la colonne de gauche.
+ * Les icônes, boutons et contrôles Foundry restent natifs.
+ */
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry,
+  .journal-sheet.merp-ui,
+  .journal-entry-sheet.merp-ui,
+  .journal-entry.merp-ui,
+  .application.journal-entry.merp-ui,
+  [data-document-class="JournalEntry"].merp-ui
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list,
+  .directory-list,
+  .toc,
+  .table-of-contents
+) :is(
+  .page-title,
+  .page-name,
+  .page-heading,
+  .entry-name,
+  .document-name,
+  .directory-item > a,
+  .directory-item > span,
+  .toc-item > a,
+  .toc-item > span,
+  li > a,
+  li > span,
+  label
+) {
+  font-family: var(--merp-font) !important;
+}
+
+/* Champ de recherche de la colonne des pages. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry,
+  .journal-sheet.merp-ui,
+  .journal-entry-sheet.merp-ui,
+  .journal-entry.merp-ui,
+  .application.journal-entry.merp-ui
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list
+) :is(
+  input[type="search"],
+  input[type="text"],
+  .page-search input,
+  .search input
+) {
+  font-family: var(--merp-font) !important;
+  font-size: .94rem;
+  font-style: normal;
+}
+
+/* Noms des pages principales. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list
+) :is(
+  .page-title,
+  .page-name,
+  .entry-name,
+  .document-name,
+  .directory-item > a,
+  .directory-item > span
+) {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+/* Table des matières interne à une page. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list,
+  .toc,
+  .table-of-contents
+) :is(
+  .toc-item > a,
+  .toc-item > span,
+  ol li > a,
+  ul li > a
+) {
+  font-family: var(--merp-font) !important;
+  font-size: .91rem;
+  line-height: 1.22;
+}
+
+/* Numéros des pages : même police, mais plus discrets. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list
+) :is(
+  .page-number,
+  .page-index,
+  .page-num,
+  .index,
+  .number
+) {
+  font-family: var(--merp-font) !important;
+  font-size: .92rem;
+  opacity: .72;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* Sélection et survol discrets, façon index imprimé. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list
+) :is(
+  .directory-item,
+  .page,
+  li
+) {
+  transition:
+    background-color 120ms ease,
+    border-color 120ms ease;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list
+) :is(
+  .directory-item,
+  .page,
+  li
+):hover {
+  background-color: rgba(0, 0, 0, .035);
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list
+) :is(
+  .directory-item.active,
+  .page.active,
+  li.active,
+  [aria-current="page"]
+) {
+  background-color: rgba(0, 0, 0, .07);
+  border-color: rgba(0, 0, 0, .18);
+}
+
+/* Exclusion explicite des contrôles et icônes. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.application.journal-entry
+) :is(
+  .journal-sidebar,
+  .journal-entry-pages,
+  .pages-list
+) :is(
+  button,
+  .control,
+  .controls,
+  .page-control,
+  i,
+  svg,
+  [class^="fa-"],
+  [class*=" fa-"]
+) {
+  font-family: inherit;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.3 — Typographie des fiches Actor                             */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * PragRoman est appliquée aux textes des fiches de personnages et créatures,
+ * sans toucher aux icônes ni aux contrôles natifs de Foundry/RMU.
+ */
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  .window-title,
+  .sheet-header,
+  .sheet-body,
+  .sheet-content,
+  .tab,
+  .details,
+  .description,
+  .biography,
+  .notes,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  .characteristics,
+  .attributes,
+  .skills,
+  .skill-list,
+  .items-list,
+  .item-list,
+  .equipment,
+  .combat,
+  .spells,
+  .effects
+) :is(
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  dt,
+  dd,
+  th,
+  td,
+  label,
+  span:not([class^="fa-"]):not([class*=" fa-"]),
+  a:not([class^="fa-"]):not([class*=" fa-"])
+) {
+  font-family: var(--merp-font) !important;
+}
+
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  input[type="text"],
+  input[type="search"],
+  input[type="number"],
+  textarea,
+  select
+) {
+  font-family: var(--merp-font) !important;
+}
+
+/* Onglets : texte PragRoman, icônes conservées. */
+:is(
+  .merp-ui.actor-sheet,
+  .actor-sheet.merp-ui,
+  .application.actor.merp-ui,
+  [data-document-class="Actor"].merp-ui
+) :is(
+  nav.tabs,
+  .tabs,
+  .sheet-tabs
+) :is(
+  a,
+  button,
+  span:not([class^="fa-"]):not([class*=" fa-"])
+) {
+  font-family: var(--merp-font) !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.4 — Sélecteurs directs des fiches RMU                        */
+/* ------------------------------------------------------------------------- */
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(
+  .window-title,
+  .sheet-header,
+  .sheet-body,
+  .sheet-content,
+  .tab,
+  .details,
+  .description,
+  .biography,
+  .notes,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  .characteristics,
+  .attributes,
+  .skills,
+  .skill-list,
+  .items-list,
+  .item-list,
+  .equipment,
+  .combat,
+  .spells,
+  .effects
+) :is(
+  h1,h2,h3,h4,h5,h6,
+  p,li,dt,dd,th,td,label,
+  span:not([class^="fa-"]):not([class*=" fa-"]),
+  a:not([class^="fa-"]):not([class*=" fa-"])
+) {
+  font-family: var(--merp-font) !important;
+}
+
+:is(
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-application-part="actor"],
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(
+  input[type="text"],
+  input[type="search"],
+  input[type="number"],
+  textarea,
+  select
+) {
+  font-family: var(--merp-font) !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.5 — Réduction typographique des fiches Actor                 */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Réduction d’environ 20 % de la taille des textes dans les feuilles Actor
+ * et Créature, sans modifier les Journaux ni les icônes.
+ */
+
+:is(
+  .merp-ui-actor,
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) {
+  --merp-actor-font-scale: .80;
+}
+
+:is(
+  .merp-ui-actor,
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) :is(
+  p,
+  li,
+  dt,
+  dd,
+  td,
+  th,
+  label,
+  .item-name,
+  .skill-name,
+  .description,
+  .notes,
+  .biography,
+  input[type="text"],
+  input[type="search"],
+  input[type="number"],
+  textarea,
+  select
+) {
+  font-size: calc(1em * var(--merp-actor-font-scale)) !important;
+}
+
+:is(
+  .merp-ui-actor,
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) h1 {
+  font-size: 1.18rem !important;
+}
+
+:is(
+  .merp-ui-actor,
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) h2 {
+  font-size: 1rem !important;
+}
+
+:is(
+  .merp-ui-actor,
+  .rmu.sheet.actor,
+  .rmu.actor.sheet,
+  .rmu.actor-sheet,
+  .rmu-actor-sheet,
+  .rmu.sheet.creature,
+  .rmu.creature-sheet,
+  .rmu-creature-sheet,
+  .application.rmu.actor,
+  .application.rmu-actor,
+  [data-document-name="Actor"],
+  [data-document-type="Actor"]
+) h3 {
+  font-size: .9rem !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.8.7 — Fiches RMU AppV2 : PragRoman partout dans le texte       */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Classe racine observée :
+ * application sheet rmu rmu-appv2-sheet rmu-actor-sheet
+ * merp-ui merp-ui-actor rmu-navigation-theme3
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor {
+  font-family: var(--merp-font) !important;
+  font-size: .80em;
+}
+
+/* Tous les éléments textuels héritent de PragRoman. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .window-title,
+  .window-content,
+  .sheet-header,
+  .sheet-body,
+  .sheet-content,
+  .tab,
+  .tabs,
+  .navigation,
+  .nav,
+  .header,
+  .footer,
+  .panel,
+  .section,
+  .category,
+  .group,
+  .list,
+  .row,
+  .cell,
+  .label,
+  .value,
+  .name,
+  .title,
+  .subtitle,
+  .description,
+  .biography,
+  .notes,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror,
+  p,
+  li,
+  dt,
+  dd,
+  th,
+  td,
+  label,
+  input,
+  textarea,
+  select,
+  button
+) {
+  font-family: var(--merp-font) !important;
+}
+
+/* Ne jamais remplacer la police des icônes. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  i,
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+),
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  i,
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fat,
+  .fad,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-duotone,
+  .fa-brands,
+  [class^="fa-"],
+  [class*=" fa-"]
+)::before {
+  font-family:
+    var(--font-awesome),
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Free",
+    FontAwesome !important;
+}
+
+/* Réduction complémentaire de 20 % sur les contenus. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  p,
+  li,
+  dt,
+  dd,
+  th,
+  td,
+  label,
+  input,
+  textarea,
+  select,
+  .item-name,
+  .skill-name,
+  .category-name,
+  .section-name,
+  .characteristic-name
+) {
+  font-size: .80rem !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(h1, .h1) {
+  font-size: 1.18rem !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(h2, .h2) {
+  font-size: 1rem !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(h3, .h3) {
+  font-size: .9rem !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.2 — Affinage typographique des compétences                   */
+/* ------------------------------------------------------------------------- */
+
+/*
+ * Réduction locale et légère de la typographie dans la zone Compétences.
+ * Les valeurs numériques et la géométrie native RMU restent inchangées.
+ */
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) {
+  --merp-skill-font-scale: .90;
+}
+
+/* Noms des compétences */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  .skill-name,
+  [class*="skill-name"],
+  .item-name
+) {
+  font-size: calc(1em * var(--merp-skill-font-scale)) !important;
+  line-height: 1.15 !important;
+}
+
+/* Catégories de compétences */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  .skill-category,
+  .category-name,
+  [class*="skill-category"],
+  [class*="category-name"]
+) {
+  font-size: .88em !important;
+  line-height: 1.12 !important;
+  letter-spacing: .01em;
+}
+
+/* Entêtes du tableau des compétences */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  th,
+  .table-header,
+  .header-row,
+  [class*="header"]
+) {
+  font-size: .84em !important;
+  line-height: 1.1 !important;
+}
+
+/* Le texte descriptif éventuel des lignes de compétence */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  .specialization,
+  .specialisation,
+  .training,
+  .archetype,
+  [class*="special"],
+  [class*="training"],
+  [class*="archetype"]
+) {
+  font-size: .88em !important;
+  line-height: 1.12 !important;
+}
+
+/* Valeurs numériques conservées à leur taille actuelle */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  .bonus,
+  .rank,
+  .total,
+  .value,
+  input[type="number"]
+) {
+  font-size: inherit !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 0.9.3 — Compétences encore légèrement réduites                  */
+/* ------------------------------------------------------------------------- */
+
+/* Réduction supplémentaire d’environ 5 à 6 % par rapport à la 0.9.2. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) {
+  --merp-skill-font-scale: .84;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  .skill-name,
+  [class*="skill-name"],
+  .item-name
+) {
+  font-size: .84em !important;
+  line-height: 1.12 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  .skill-category,
+  .category-name,
+  [class*="skill-category"],
+  [class*="category-name"]
+) {
+  font-size: .82em !important;
+  line-height: 1.08 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor :is(
+  .skills,
+  .skill-list,
+  [class*="skills"],
+  [class*="skill-list"]
+) :is(
+  th,
+  .table-header,
+  .header-row
+) {
+  font-size: .80em !important;
+  line-height: 1.06 !important;
+}

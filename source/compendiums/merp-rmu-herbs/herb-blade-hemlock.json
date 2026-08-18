@@ -1,0 +1,79 @@
+{
+  "key": "herb-blade-hemlock",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-musculaires",
+  "document": {
+    "name": "Ciguë-Lame (Blade Hemlock)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-blade-hemlock",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-F-6",
+        "sourceCost": "58gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Musculaire"
+        ],
+        "poisonType": "Musculaire",
+        "climateCode": "m",
+        "localeCode": "F",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Blade Hemlock"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Very Hard",
+      "form": "Paste",
+      "prep": "inject",
+      "season": "",
+      "cost": "58gp",
+      "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison musculaire de niveau 6 préparé avec de la ciguë et du Curulot. Un échec modéré provoque une incapacité de plusieurs heures ; un échec plus sévère entraîne la mort en quelques rounds.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 6
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Ciguë-Lame (Blade Hemlock)",
+      "system": {
+        "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison musculaire de niveau 6 préparé avec de la ciguë et du Curulot. Un échec modéré provoque une incapacité de plusieurs heures ; un échec plus sévère entraîne la mort en quelques rounds.</p>"
+      }
+    },
+    "en": {
+      "name": "Blade Hemlock",
+      "system": {
+        "notes": "<p>This paste is found chiefly in mild temperate climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is injected.</p><p>Level 6 muscle poison prepared from hemlock and Curulot. A moderate failure causes incapacity for several hours; a more severe failure causes death within a few rounds.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Musculaires"
+    ],
+    "en": [
+      "Muscle"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-musculaires"
+  ]
+}

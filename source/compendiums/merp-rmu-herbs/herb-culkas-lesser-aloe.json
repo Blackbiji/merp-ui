@@ -1,0 +1,79 @@
+{
+  "key": "herb-culkas-lesser-aloe",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Culkas (Petit Aloès / Lesser Aloe)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-culkas-lesser-aloe",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-Z-4-M",
+        "sourceCost": "35gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "Z",
+        "regionCode": "M",
+        "sourceVariants": [],
+        "sourceName": "Culkas (Lesser Aloe)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "Z",
+      "findDifficulty": "Medium",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "35gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Petit Aloès (Lesser Aloe)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les déserts, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La chair de la feuille, appliquée directement, peut traiter environ dix pieds carrés de brûlures.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Culkas (Petit Aloès / Lesser Aloe)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Petit Aloès (Lesser Aloe)</strong>.</p><p>Cette feuille se rencontre surtout dans les régions au climat semi-aride, notamment dans les déserts, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La chair de la feuille, appliquée directement, peut traiter environ dix pieds carrés de brûlures.</p>"
+      }
+    },
+    "en": {
+      "name": "Culkas (Lesser Aloe)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Lesser Aloe</strong>.</p><p>This leaf is found chiefly in semi-arid climates, especially in deserts, and is best known in central Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The flesh of the leaf, applied directly, can treat about ten square feet of burns.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

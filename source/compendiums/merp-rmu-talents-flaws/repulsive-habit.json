@@ -1,0 +1,64 @@
+{
+  "key": "repulsive-habit",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Habitude répugnante (Repulsive Habit)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "repulsive-habit",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Other",
+      "name": "Repulsive Habit",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Habitude répugnante (Repulsive Habit)</h1><h2>Description</h2><p>Vous avez une habitude que la plupart des gens trouvent pénible ou répugnante et vous ressentez le besoin de vous y livrer chaque fois que l’occasion se présente. Selon le Tier, ce comportement va d’une habitude simplement agaçante à une conduite si dégoûtante qu’elle peut faire quitter la pièce aux témoins.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> l’habitude agace et provoque le mépris.</li><li><strong>Tier II :</strong> elle dégoûte ouvertement la plupart des témoins.</li><li><strong>Tier III :</strong> elle provoque un rejet social immédiat et intense.</li></ul><h2>Adaptation MERP-RMU</h2><p>L’habitude est choisie avec l’accord du MJ. Lorsqu’elle est connue ou observée, elle doit affecter les réactions sociales de manière proportionnée au Tier.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_repulsive-habit.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Habitude répugnante (Repulsive Habit)",
+      "system": {
+        "description": "<h1>Habitude répugnante (Repulsive Habit)</h1><h2>Description</h2><p>Vous avez une habitude que la plupart des gens trouvent pénible ou répugnante et vous ressentez le besoin de vous y livrer chaque fois que l’occasion se présente. Selon le Tier, ce comportement va d’une habitude simplement agaçante à une conduite si dégoûtante qu’elle peut faire quitter la pièce aux témoins.</p><h2>Tiers</h2><ul><li><strong>Tier I :</strong> l’habitude agace et provoque le mépris.</li><li><strong>Tier II :</strong> elle dégoûte ouvertement la plupart des témoins.</li><li><strong>Tier III :</strong> elle provoque un rejet social immédiat et intense.</li></ul><h2>Adaptation MERP-RMU</h2><p>L’habitude est choisie avec l’accord du MJ. Lorsqu’elle est connue ou observée, elle doit affecter les réactions sociales de manière proportionnée au Tier.</p>"
+      }
+    },
+    "en": {
+      "name": "Repulsive Habit",
+      "system": {
+        "description": "<h1>Repulsive Habit</h1><h2>Description</h2><p>You have a habit most people find unpleasant or repulsive, and you feel compelled to indulge it whenever the opportunity arises. Depending on Tier, this behavior ranges from merely annoying to so disgusting that witnesses may leave the room.</p><h2>Tiers</h2><ul><li><strong>Tier I:</strong> the habit annoys others and provokes contempt.</li><li><strong>Tier II:</strong> it openly disgusts most witnesses.</li><li><strong>Tier III:</strong> it provokes immediate and intense social rejection.</li></ul><h2>MERP-RMU Adaptation</h2><p>The habit is chosen with the GM’s approval. When known or observed, it should affect social reactions in proportion to the Tier.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

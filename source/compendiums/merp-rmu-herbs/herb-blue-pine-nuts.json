@@ -1,0 +1,78 @@
+{
+  "key": "herb-blue-pine-nuts",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "nourriture",
+  "document": {
+    "name": "Pignons de Pin Bleu (Blue pine nuts)",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-blue-pine-nuts",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-C-2-NW",
+        "sourceCost": "1cp",
+        "sourceCategory": "Nourriture",
+        "utilityGroups": [
+          "Nourriture"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "C",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Blue pine nuts"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Easy",
+      "form": "Seed",
+      "prep": "ingest",
+      "season": "",
+      "cost": "1cp",
+      "notes": "<p>Cette graine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cinq graines suffisent à nourrir une personne pour un repas. Chaque cône en contient généralement six ; leur saveur acide devient plus agréable après torréfaction.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Pignons de Pin Bleu (Blue pine nuts)",
+      "system": {
+        "notes": "<p>Cette graine se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Cinq graines suffisent à nourrir une personne pour un repas. Chaque cône en contient généralement six ; leur saveur acide devient plus agréable après torréfaction.</p>"
+      }
+    },
+    "en": {
+      "name": "Blue pine nuts",
+      "system": {
+        "notes": "<p>This seed is found chiefly in cool temperate climates, especially in coniferous forests, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Five seeds are enough to feed one person for a meal. Each cone usually contains six; their sour flavour becomes more pleasant after roasting.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Nourriture"
+    ],
+    "en": [
+      "Food"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "nourriture"
+  ]
+}

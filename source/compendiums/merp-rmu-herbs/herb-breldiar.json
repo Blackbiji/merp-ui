@@ -1,0 +1,78 @@
+{
+  "key": "herb-breldiar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Breldiar",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-breldiar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "m-V-4-U",
+        "sourceCost": "25gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "m",
+        "localeCode": "V",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Breldiar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "V",
+      "findDifficulty": "Medium",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "25gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les terrains volcaniques, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur provoque une euphorie qui gêne les manœuvres et le combat rapproché d’environ 30 points, mais améliore d’environ 50 les tirs et certains usages de la magie pendant une heure.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 7,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Breldiar",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat tempéré doux, notamment dans les terrains volcaniques, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>La fleur provoque une euphorie qui gêne les manœuvres et le combat rapproché d’environ 30 points, mais améliore d’environ 50 les tirs et certains usages de la magie pendant une heure.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Breldiar",
+      "system": {
+        "notes": "<p>This flower is found chiefly in mild temperate climates, especially in volcanic terrain, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The flower causes euphoria that imposes about −30 on maneuvers and melee combat, while granting about +50 to missile attacks and certain uses of magic for one hour.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

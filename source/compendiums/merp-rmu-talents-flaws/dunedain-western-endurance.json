@@ -1,0 +1,68 @@
+{
+  "key": "dunedain-western-endurance",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Endurance de l’Ouest",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "dunedain-western-endurance",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "MERP-RMU",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Dúnedain"
+          ]
+        },
+        "descriptionVersion": 1
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Endurance de l’Ouest",
+      "cost": "0",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Endurance de l’Ouest</h1><h2>Description</h2><p>La constitution et la discipline héritées de l’Ouest permettent aux Dúnedain de soutenir de longues marches, des veilles prolongées et des efforts difficiles.</p><h2>Adaptation MERP-RMU</h2><p>Ce Talent racial représente l’endurance propre aux héritiers de Númenor. Il est accordé par la Race et n’est pas destiné à être acheté séparément lors du développement normal du personnage.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_dunedain-western-endurance.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Endurance de l’Ouest",
+      "system": {
+        "description": "<h1>Endurance de l’Ouest</h1><h2>Description</h2><p>La constitution et la discipline héritées de l’Ouest permettent aux Dúnedain de soutenir de longues marches, des veilles prolongées et des efforts difficiles.</p><h2>Adaptation MERP-RMU</h2><p>Ce Talent racial représente l’endurance propre aux héritiers de Númenor. Il est accordé par la Race et n’est pas destiné à être acheté séparément lors du développement normal du personnage.</p>"
+      }
+    },
+    "en": {
+      "name": "Western Endurance",
+      "system": {
+        "description": "<h1>Western Endurance</h1><h2>Description</h2><p>The constitution and discipline inherited from the West allow the Dúnedain to sustain long marches, prolonged watches, and arduous efforts.</p><h2>MERP-RMU Adaptation</h2><p>This racial Talent represents the endurance of the heirs of Númenor. It is granted by the Race and is not intended to be purchased separately during normal character development.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

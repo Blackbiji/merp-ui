@@ -1,0 +1,79 @@
+{
+  "key": "herb-slota",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-reduction",
+  "document": {
+    "name": "Slota",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-slota",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-D-7",
+        "sourceCost": "36gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Réduction"
+        ],
+        "poisonType": "Réduction",
+        "climateCode": "t",
+        "localeCode": "D",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Slota"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "D",
+      "findDifficulty": "Extremely Hard",
+      "form": "Spider",
+      "prep": "paste",
+      "season": "",
+      "cost": "36gp",
+      "notes": "<p>Cette araignée se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de feuillus ou mixtes.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de réduction de niveau 5A. Son effet extrême est une paralysie lente apparaissant en un jour, suivie de la mort en 1 à 10 jours.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 5
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Slota",
+      "system": {
+        "notes": "<p>Cette araignée se rencontre surtout dans les régions au climat tempéré frais, notamment dans les forêts de feuillus ou mixtes.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de réduction de niveau 5A. Son effet extrême est une paralysie lente apparaissant en un jour, suivie de la mort en 1 à 10 jours.</p>"
+      }
+    },
+    "en": {
+      "name": "Slota",
+      "system": {
+        "notes": "<p>This spider is found chiefly in cool temperate climates, especially in deciduous or mixed forests.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 5A Reduction poison. Its extreme effect is slow paralysis beginning within one day, followed by death in 1–10 days.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Réduction"
+    ],
+    "en": [
+      "Reduction"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-reduction"
+  ]
+}

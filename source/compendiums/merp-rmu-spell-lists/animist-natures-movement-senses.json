@@ -1,0 +1,633 @@
+{
+  "key": "animist-natures-movement-senses",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-animist",
+  "document": {
+    "name": "Nature's Movement/Senses",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "animist-natures-movement-senses",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Spell Law",
+        "sourceList": "Nature's Movement/Senses",
+        "sourcePage": 32,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Animist",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "RMSS Spell Law p.32 — Animist Base List 2.3.4; MERP Character Creation Using RMSS/RMFRP v2.5 — Animist"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / RMSS Spell Law",
+      "name": "Nature's Movement/Senses",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Animist",
+      "notes": "<h2>Nature’s Movement/Senses</h2><p>Liste de base de l’Animiste conservée depuis RMSS pour MERP-RMU. Elle améliore les sens, la mobilité, la résistance et certaines capacités physiques du lanceur en empruntant des qualités animales.</p><p><strong>Note :</strong> sauf Chameleon Skin, Lion Claws et Viperfang, les sorts de cette Liste ne modifient pas physiquement l’apparence du lanceur.</p>",
+      "label": "Nature's Movement/Senses",
+      "notesLabel": "Nature's Movement/Senses notes",
+      "spells": [
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Cat Step",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Cat Step.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Cat Step.description",
+          "level": 1,
+          "description": "Caster moves as quietly as a cat and gains +20 to all Stalking maneuvers.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Pas de Chat",
+              "description": "Le lanceur se déplace aussi silencieusement qu’un chat et gagne +20 à toutes les Manœuvres de Filature."
+            },
+            "en": {
+              "name": "Cat Step",
+              "description": "Caster moves as quietly as a cat and gains +20 to all Stalking maneuvers."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Chameleon Skin",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Chameleon Skin.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Chameleon Skin.description",
+          "level": 2,
+          "description": "Caster’s skin takes on the coloration of the surrounding terrain, granting +10 to +50 to Stalking/Hiding maneuvers. The coloration changes to match surrounding terrain but does not affect gear or clothing.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Peau de Caméléon",
+              "description": "La peau du lanceur adopte la coloration du terrain environnant, conférant de +10 à +50 aux Manœuvres de Filature/Dissimulation. La coloration s’adapte au décor, mais n’affecte ni l’équipement ni les vêtements."
+            },
+            "en": {
+              "name": "Chameleon Skin",
+              "description": "Caster’s skin takes on the coloration of the surrounding terrain, granting +10 to +50 to Stalking/Hiding maneuvers. The coloration changes to match surrounding terrain but does not affect gear or clothing."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Wolf Sense",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Wolf Sense.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Wolf Sense.description",
+          "level": 3,
+          "description": "Caster gains an increased sense of smell and hearing, including subtle smells and higher sonic ranges. This gives +50 to Perception using only these senses and +20 when combined with other senses.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Sens du Loup",
+              "description": "Le lanceur bénéficie d’un odorat et d’une ouïe accrus, notamment pour les odeurs subtiles et les fréquences sonores élevées. Il gagne +50 à la Perception utilisant uniquement ces sens et +20 lorsqu’ils sont combinés à d’autres sens."
+            },
+            "en": {
+              "name": "Wolf Sense",
+              "description": "Caster gains an increased sense of smell and hearing, including subtle smells and higher sonic ranges. This gives +50 to Perception using only these senses and +20 when combined with other senses."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Deer Speed I",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed I.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed I.description",
+          "level": 4,
+          "description": "Caster can run at twice normal pace (Run pace) while expending exhaustion as if only walking.",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vitesse du Cerf I",
+              "description": "Le lanceur peut courir à deux fois son allure normale (allure Course) tout en dépensant de l’Endurance comme s’il marchait."
+            },
+            "en": {
+              "name": "Deer Speed I",
+              "description": "Caster can run at twice normal pace (Run pace) while expending exhaustion as if only walking."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Bat Sense",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Bat Sense.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Bat Sense.description",
+          "level": 5,
+          "description": "Caster can maneuver more effectively without sight. When blinded or otherwise without sight, the spell reduces darkness/blindness maneuver penalties by +10 to +50; it does not remove blindness.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Sens de la Chauve-souris",
+              "description": "Le lanceur peut manœuvrer plus efficacement sans la vue. Lorsqu’il est aveuglé ou privé de vision, le sort réduit de 10 à 50 points les pénalités de Manœuvre dues à l’obscurité ou à la cécité ; il ne supprime pas la cécité."
+            },
+            "en": {
+              "name": "Bat Sense",
+              "description": "Caster can maneuver more effectively without sight. When blinded or otherwise without sight, the spell reduces darkness/blindness maneuver penalties by +10 to +50; it does not remove blindness."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Otterlungs",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Otterlungs.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Otterlungs.description",
+          "level": 6,
+          "description": "Caster can safely hold breath for the duration of the spell.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Poumons de Loutre",
+              "description": "Le lanceur peut retenir sa respiration sans danger pendant toute la durée du sort."
+            },
+            "en": {
+              "name": "Otterlungs",
+              "description": "Caster can safely hold breath for the duration of the spell."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Glide I",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Glide I.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Glide I.description",
+          "level": 7,
+          "description": "Caster can glide like a bird. The product of altitude and horizontal speed cannot exceed 100 feet per round; the caster cannot choose a total less than or greater than 100.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Plané I",
+              "description": "Le lanceur peut planer comme un oiseau. Le produit de l’altitude et de la vitesse horizontale ne peut dépasser 100 pieds par round ; le lanceur ne peut choisir un total inférieur ou supérieur à 100."
+            },
+            "en": {
+              "name": "Glide I",
+              "description": "Caster can glide like a bird. The product of altitude and horizontal speed cannot exceed 100 feet per round; the caster cannot choose a total less than or greater than 100."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Hawk's Sense",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Hawk's Sense.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Hawk's Sense.description",
+          "level": 8,
+          "description": "Caster gains the visual acuity of a hawk, granting +50 to Perception involving only sight and +20 when sight is combined with other senses.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Sens du Faucon",
+              "description": "Le lanceur bénéficie de l’acuité visuelle d’un faucon, gagnant +50 à la Perception fondée uniquement sur la vue et +20 lorsque la vue est combinée à d’autres sens."
+            },
+            "en": {
+              "name": "Hawk's Sense",
+              "description": "Caster gains the visual acuity of a hawk, granting +50 to Perception involving only sight and +20 when sight is combined with other senses."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Tiger Skin",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Tiger Skin.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Tiger Skin.description",
+          "level": 9,
+          "description": "Caster’s skin gains the resilience of a large cat, equivalent to Armor Type 3.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Peau de Tigre",
+              "description": "La peau du lanceur acquiert la résistance d’un grand félin, équivalente à un Type d’Armure 3."
+            },
+            "en": {
+              "name": "Tiger Skin",
+              "description": "Caster’s skin gains the resilience of a large cat, equivalent to Armor Type 3."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Boar Strength",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Boar Strength.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Boar Strength.description",
+          "level": 10,
+          "description": "Caster gains the force of a wild boar, receiving +20 melee OB but unable to parry or use missile weapons for the duration.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Force du Sanglier",
+              "description": "Le lanceur acquiert la puissance d’un sanglier sauvage et reçoit +20 BO en mêlée, mais ne peut ni parer ni utiliser d’armes de projectile pendant la durée du sort."
+            },
+            "en": {
+              "name": "Boar Strength",
+              "description": "Caster gains the force of a wild boar, receiving +20 melee OB but unable to parry or use missile weapons for the duration."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Lion Claws",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Lion Claws.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Lion Claws.description",
+          "level": 11,
+          "description": "Caster can make claw attacks as a lion, using the Claw Attack Table with a maximum of Medium results. This attack requires a separately developed skill comparable to Martial Arts Striking.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Griffes de Lion",
+              "description": "Le lanceur peut attaquer avec des griffes comme un lion, en utilisant la Table d’Attaque de Griffes avec un maximum de résultats Moyens. Cette attaque nécessite une Compétence développée séparément, comparable aux Arts Martiaux — Frappes."
+            },
+            "en": {
+              "name": "Lion Claws",
+              "description": "Caster can make claw attacks as a lion, using the Claw Attack Table with a maximum of Medium results. This attack requires a separately developed skill comparable to Martial Arts Striking."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Insect Sense",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Insect Sense.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Insect Sense.description",
+          "level": 12,
+          "description": "Caster gains an insect-like sensitivity to vibrations through the ground or other solid material within the area. The spell indicates general movement and approximate number of targets and grants +25 to +100 to appropriate Perception maneuvers depending on activity.",
+          "aoe": "10'R/lvl",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Sens de l’Insecte",
+              "description": "Le lanceur acquiert une sensibilité de type insecte aux vibrations transmises par le sol ou un autre matériau solide dans la zone. Le sort indique les mouvements généraux et le nombre approximatif de cibles et confère de +25 à +100 aux Manœuvres de Perception appropriées selon l’activité."
+            },
+            "en": {
+              "name": "Insect Sense",
+              "description": "Caster gains an insect-like sensitivity to vibrations through the ground or other solid material within the area. The spell indicates general movement and approximate number of targets and grants +25 to +100 to appropriate Perception maneuvers depending on activity."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Deer Speed II",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed II.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed II.description",
+          "level": 13,
+          "description": "As Deer Speed I, except speed is increased to three times normal pace (Sprint pace).",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vitesse du Cerf II",
+              "description": "Comme Vitesse du Cerf I, mais la vitesse passe à trois fois l’allure normale (allure Sprint)."
+            },
+            "en": {
+              "name": "Deer Speed II",
+              "description": "As Deer Speed I, except speed is increased to three times normal pace (Sprint pace)."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Bear Skin",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Bear Skin.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Bear Skin.description",
+          "level": 14,
+          "description": "Caster’s skin gains the resilience of a bear, equivalent to Armor Type 8.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Peau d’Ours",
+              "description": "La peau du lanceur acquiert la résistance d’un ours, équivalente à un Type d’Armure 8."
+            },
+            "en": {
+              "name": "Bear Skin",
+              "description": "Caster’s skin gains the resilience of a bear, equivalent to Armor Type 8."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Bear Arms",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Bear Arms.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Bear Arms.description",
+          "level": 15,
+          "description": "Caster can make grapple attacks as a bear, using the Grapple Attack Table with a maximum of Medium results. This attack requires a separately developed skill comparable to Martial Arts Sweeps/Throws.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Bras d’Ours",
+              "description": "Le lanceur peut effectuer des attaques d’agrippement comme un ours, en utilisant la Table d’Attaque d’Agrippement avec un maximum de résultats Moyens. Cette attaque nécessite une Compétence développée séparément, comparable aux Arts Martiaux — Balayages/Projections."
+            },
+            "en": {
+              "name": "Bear Arms",
+              "description": "Caster can make grapple attacks as a bear, using the Grapple Attack Table with a maximum of Medium results. This attack requires a separately developed skill comparable to Martial Arts Sweeps/Throws."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Glide III",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Glide III.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Glide III.description",
+          "level": 16,
+          "description": "As Glide I, except the product of altitude and horizontal speed can equal 300 feet per round.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Plané III",
+              "description": "Comme Plané I, mais le produit de l’altitude et de la vitesse horizontale peut atteindre 300 pieds par round."
+            },
+            "en": {
+              "name": "Glide III",
+              "description": "As Glide I, except the product of altitude and horizontal speed can equal 300 feet per round."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Viperfang",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Viperfang.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Viperfang.description",
+          "level": 17,
+          "description": "Caster can make bite attacks as a serpent, using the Bite Attack Table with a maximum of Medium results. This attack requires a separately developed skill comparable to Martial Arts Striking.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Croc de Vipère",
+              "description": "Le lanceur peut effectuer des attaques de morsure comme un serpent, en utilisant la Table d’Attaque de Morsure avec un maximum de résultats Moyens. Cette attaque nécessite une Compétence développée séparément, comparable aux Arts Martiaux — Frappes."
+            },
+            "en": {
+              "name": "Viperfang",
+              "description": "Caster can make bite attacks as a serpent, using the Bite Attack Table with a maximum of Medium results. This attack requires a separately developed skill comparable to Martial Arts Striking."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Wyvern Skin",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Wyvern Skin.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Wyvern Skin.description",
+          "level": 18,
+          "description": "Caster’s skin gains the resilience of a minor drake, equivalent to Armor Type 12.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Peau de Vouivre",
+              "description": "La peau du lanceur acquiert la résistance d’un drake mineur, équivalente à un Type d’Armure 12."
+            },
+            "en": {
+              "name": "Wyvern Skin",
+              "description": "Caster’s skin gains the resilience of a minor drake, equivalent to Armor Type 12."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Deer Speed III",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed III.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed III.description",
+          "level": 19,
+          "description": "As Deer Speed I, except speed is increased to four times normal pace (Fast Sprint pace).",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vitesse du Cerf III",
+              "description": "Comme Vitesse du Cerf I, mais la vitesse passe à quatre fois l’allure normale (allure Sprint Rapide)."
+            },
+            "en": {
+              "name": "Deer Speed III",
+              "description": "As Deer Speed I, except speed is increased to four times normal pace (Fast Sprint pace)."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Ox Strength",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Ox Strength.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Ox Strength.description",
+          "level": 20,
+          "description": "Caster gains the strength of an ox, receiving +40 melee OB but unable to parry or use missile weapons for the duration.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Force du Bœuf",
+              "description": "Le lanceur acquiert la force d’un bœuf et reçoit +40 BO en mêlée, mais ne peut ni parer ni utiliser d’armes de projectile pendant la durée du sort."
+            },
+            "en": {
+              "name": "Ox Strength",
+              "description": "Caster gains the strength of an ox, receiving +40 melee OB but unable to parry or use missile weapons for the duration."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Glide True",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Glide True.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Glide True.description",
+          "level": 25,
+          "description": "As Glide I, except the product of altitude and horizontal speed can equal 500 feet per round.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Plané Véritable",
+              "description": "Comme Plané I, mais le produit de l’altitude et de la vitesse horizontale peut atteindre 500 pieds par round."
+            },
+            "en": {
+              "name": "Glide True",
+              "description": "As Glide I, except the product of altitude and horizontal speed can equal 500 feet per round."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Deer Speed True",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed True.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Deer Speed True.description",
+          "level": 30,
+          "description": "As Deer Speed I, except speed is increased to five times normal pace (Dash pace).",
+          "aoe": "caster",
+          "duration": "10 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Vitesse du Cerf Véritable",
+              "description": "Comme Vitesse du Cerf I, mais la vitesse passe à cinq fois l’allure normale (allure Course Maximale)."
+            },
+            "en": {
+              "name": "Deer Speed True",
+              "description": "As Deer Speed I, except speed is increased to five times normal pace (Dash pace)."
+            }
+          }
+        },
+        {
+          "spellList": "Nature's Movement/Senses",
+          "listType": "Base",
+          "profession": "Animist",
+          "name": "Dragon Skin",
+          "label": "MERP_RMU.NaturesMovementSenses.spells.Dragon Skin.name",
+          "descriptionLabel": "MERP_RMU.NaturesMovementSenses.spells.Dragon Skin.description",
+          "level": 50,
+          "description": "Caster’s skin gains the resilience of a lesser drake, equivalent to Armor Type 20.",
+          "aoe": "caster",
+          "duration": "1 min/lvl",
+          "range": "self",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Peau de Dragon",
+              "description": "La peau du lanceur acquiert la résistance d’un drake inférieur, équivalente à un Type d’Armure 20."
+            },
+            "en": {
+              "name": "Dragon Skin",
+              "description": "Caster’s skin gains the resilience of a lesser drake, equivalent to Armor Type 20."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Mouvements et Sens de la Nature",
+      "system": {
+        "name": "Mouvements et Sens de la Nature",
+        "label": "Mouvements et Sens de la Nature",
+        "notesLabel": "Mouvements et Sens de la Nature — notes",
+        "notes": "<h2>Mouvements et Sens de la Nature</h2><p>Liste de base de l’Animiste conservée depuis RMSS pour MERP-RMU. Elle améliore les sens, la mobilité, la résistance et certaines capacités physiques du lanceur en empruntant des qualités animales.</p><p><strong>Note :</strong> sauf Peau de Caméléon, Griffes de Lion et Croc de Vipère, les sorts de cette Liste ne modifient pas physiquement l’apparence du lanceur.</p>"
+      }
+    },
+    "en": {
+      "name": "Nature's Movement/Senses",
+      "system": {
+        "name": "Nature's Movement/Senses",
+        "label": "Nature's Movement/Senses",
+        "notesLabel": "Nature's Movement/Senses — notes",
+        "notes": "<h2>Nature's Movement/Senses</h2><p>Animist Base List retained from RMSS for MERP-RMU. It enhances the caster's senses, mobility, resistance, and certain physical capabilities by borrowing animal qualities.</p><p><strong>Note:</strong> except for Chameleon Skin, Lion Claws, and Viperfang, spells from this List do not physically alter the caster's appearance.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Animiste (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Animist (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-animist"
+  ]
+}

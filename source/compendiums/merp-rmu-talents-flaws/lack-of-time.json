@@ -1,0 +1,64 @@
+{
+  "key": "lack-of-time",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-special",
+  "document": {
+    "name": "Durée réduite (Lack of Time)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "lack-of-time",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Lack of Time",
+      "cost": "-20",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Durée réduite (Lack of Time)</h1><h2>Description</h2><p>Vos sorts persistent moins longtemps qu’ils ne le devraient. Toute durée chronométrée d’un sort que vous lancez est <strong>divisée par deux</strong>, en arrondissant au round supérieur lorsque cela est nécessaire.</p><h2>Adaptation MERP-RMU</h2><p>Les sorts <strong>Instantanés</strong> et les effets dont la durée dépend uniquement de la <strong>Concentration</strong> ne sont pas réduits par ce Défaut. Lorsqu’un sort possède à la fois une durée fixe et une exigence de concentration, seule sa composante chronométrée est divisée par deux.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_lack-of-time.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Durée réduite (Lack of Time)",
+      "system": {
+        "description": "<h1>Durée réduite (Lack of Time)</h1><h2>Description</h2><p>Vos sorts persistent moins longtemps qu’ils ne le devraient. Toute durée chronométrée d’un sort que vous lancez est <strong>divisée par deux</strong>, en arrondissant au round supérieur lorsque cela est nécessaire.</p><h2>Adaptation MERP-RMU</h2><p>Les sorts <strong>Instantanés</strong> et les effets dont la durée dépend uniquement de la <strong>Concentration</strong> ne sont pas réduits par ce Défaut. Lorsqu’un sort possède à la fois une durée fixe et une exigence de concentration, seule sa composante chronométrée est divisée par deux.</p>"
+      }
+    },
+    "en": {
+      "name": "Lack of Time",
+      "system": {
+        "description": "<h1>Lack of Time</h1><h2>Description</h2><p>Your spells persist for less time than they should. Any timed duration of a spell you cast is <strong>halved</strong>, rounding up to the next round when necessary.</p><h2>MERP-RMU Adaptation</h2><p><strong>Instantaneous</strong> spells and effects whose duration depends solely on <strong>Concentration</strong> are not reduced by this Flaw. When a spell has both a fixed duration and a concentration requirement, only its timed component is halved.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Spéciaux"
+    ],
+    "en": [
+      "Flaws — Special"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-special"
+  ]
+}

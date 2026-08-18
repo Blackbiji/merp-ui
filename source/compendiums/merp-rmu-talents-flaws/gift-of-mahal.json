@@ -1,0 +1,69 @@
+{
+  "key": "gift-of-mahal",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Don de Mahal (Gift of Mahal)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "gift-of-mahal",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Khazâd",
+            "Naugrim"
+          ]
+        },
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Gift of Mahal",
+      "cost": "10/Tier",
+      "tier": 0,
+      "maxTier": 2,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Don de Mahal (Gift of Mahal)</h1><h2>Description</h2><p>Mahal vous a accordé un don exceptionnel pour préserver la vie et favoriser la guérison. Votre intuition et votre précision rendent vos soins particulièrement efficaces.</p><h2>Tiers</h2><p>Vous recevez <strong>+5/Tier</strong> aux Manœuvres que vous effectuez personnellement pour soigner une blessure, traiter une affection ou stabiliser un patient, jusqu’à +10 au Tier II.</p><h2>Adaptation MERP-RMU</h2><p>Le très important bonus historique est ramené à l’échelle RMU. Le Talent n’augmente pas automatiquement la puissance d’un sort de guérison ; il s’applique aux Manœuvres de soin lorsqu’un jet est réellement effectué.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_gift-of-mahal.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Don de Mahal (Gift of Mahal)",
+      "system": {
+        "description": "<h1>Don de Mahal (Gift of Mahal)</h1><h2>Description</h2><p>Mahal vous a accordé un don exceptionnel pour préserver la vie et favoriser la guérison. Votre intuition et votre précision rendent vos soins particulièrement efficaces.</p><h2>Tiers</h2><p>Vous recevez <strong>+5/Tier</strong> aux Manœuvres que vous effectuez personnellement pour soigner une blessure, traiter une affection ou stabiliser un patient, jusqu’à +10 au Tier II.</p><h2>Adaptation MERP-RMU</h2><p>Le très important bonus historique est ramené à l’échelle RMU. Le Talent n’augmente pas automatiquement la puissance d’un sort de guérison ; il s’applique aux Manœuvres de soin lorsqu’un jet est réellement effectué.</p>"
+      }
+    },
+    "en": {
+      "name": "Gift of Mahal",
+      "system": {
+        "description": "<h1>Gift of Mahal</h1><h2>Description</h2><p>Mahal has granted you an exceptional gift for preserving life and promoting healing. Your intuition and precision make your care especially effective.</p><h2>Tiers</h2><p>You receive <strong>+5/Tier</strong> to Maneuvers you personally perform to treat an injury, address an affliction, or stabilize a patient, up to +10 at Tier II.</p><h2>MERP-RMU Adaptation</h2><p>The very large historical bonus is reduced to the RMU scale. The Talent does not automatically increase the power of a healing spell; it applies to healing Maneuvers when a roll is actually made.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

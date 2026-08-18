@@ -1,0 +1,78 @@
+{
+  "key": "herb-sorul-nut",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Sorul Nut",
+    "type": "herb",
+    "img": "icons/consumables/nuts/chestnut-roasted-brown-white.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-sorul-nut",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-F-2",
+        "sourceCost": "1sp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "F",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Sorul Nut"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "F",
+      "findDifficulty": "Easy",
+      "form": "Nut",
+      "prep": "ingest",
+      "season": "",
+      "cost": "1sp",
+      "notes": "<p>Cette noix se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 20 contre le Nur-oiolosse.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sorul Nut",
+      "system": {
+        "notes": "<p>Cette noix se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Antidote de niveau 20 contre le Nur-oiolosse.</p>"
+      }
+    },
+    "en": {
+      "name": "Sorul Nut",
+      "system": {
+        "notes": "<p>This nut is found chiefly in cold climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 20 antidote for Nur-oiolosse.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

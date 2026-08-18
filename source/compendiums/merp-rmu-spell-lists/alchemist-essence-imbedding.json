@@ -1,0 +1,585 @@
+{
+  "key": "alchemist-essence-imbedding",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-essence-alchemist",
+  "document": {
+    "name": "Essence Imbedding",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "alchemist-essence-imbedding",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS",
+        "sourceBook": "Alchemy Companion",
+        "sourceList": "Essence Imbedding",
+        "sourcePage": 79,
+        "merpRealm": "Essence",
+        "merpCategory": "Profession",
+        "profession": "Alchemist",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "rmss-spell-list-conversion",
+          "reference": "Alchemy Companion p.79 — Core-Rules Alchemist Base List; MERP/RMSS Alchemist adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / Alchemy Companion",
+      "name": "Essence Imbedding",
+      "listType": "Base",
+      "realms": "Essence",
+      "profession": "Alchemist",
+      "notes": "<h2>Essence Imbedding</h2><p>Liste de base classique de l’Alchimiste pour fixer des sorts d’Essence dans des objets. Les sorts de création ont généralement une durée de travail de 24 heures ; cette durée décrit le travail magique quotidien et non la durée de vie de l’objet terminé.</p><p>Les sorts de la version source au-delà du niveau 90 ne sont pas inclus dans cette première conversion, afin de rester dans l’échelle épique actuellement utilisée par RMU Treasure Law.</p>",
+      "label": "Essence Imbedding",
+      "notesLabel": "Essence Imbedding notes",
+      "spells": [
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Research",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.Research.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.Research.description",
+          "level": 1,
+          "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Essence imbedding.",
+          "aoe": "self",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Recherche",
+              "description": "Recherche des sorts d’imprégnation spéciaux destinés à la création d’objets ; peut également conférer +50 aux jets appropriés de Recherche de Sorts et/ou de Création d’Objets concernant l’imprégnation de l’Essence."
+            },
+            "en": {
+              "name": "Research",
+              "description": "Researches special imbedding spells for item creation; alternatively grants +50 to appropriate Spell Research and/or Item Creation rolls concerning Essence imbedding."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed I",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedI.description",
+          "level": 3,
+          "description": "Imbeds one 1st-level Essence spell in an item or potion.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation I",
+              "description": "Imprègne dans un objet ou une potion un sort d’Essence de niveau 1."
+            },
+            "en": {
+              "name": "Imbed I",
+              "description": "Imbeds one 1st-level Essence spell in an item or potion."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Charge Wand",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ChargeWand.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ChargeWand.description",
+          "level": 4,
+          "description": "Charges an Essence wand.",
+          "aoe": "1 wand",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger une Baguette",
+              "description": "Charge une baguette d’Essence."
+            },
+            "en": {
+              "name": "Charge Wand",
+              "description": "Charges an Essence wand."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed II",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedII.description",
+          "level": 5,
+          "description": "As Imbed I, but may imbed Essence spells through 2nd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation II",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts d’Essence jusqu’au niveau 2."
+            },
+            "en": {
+              "name": "Imbed II",
+              "description": "As Imbed I, but may imbed Essence spells through 2nd level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily I",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyI.description",
+          "level": 6,
+          "description": "An imbedded 1st-level spell may be used once per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien I",
+              "description": "Un sort imprégné de niveau 1 peut être utilisé une fois par jour."
+            },
+            "en": {
+              "name": "Daily I",
+              "description": "An imbedded 1st-level spell may be used once per day."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed III",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedIII.description",
+          "level": 7,
+          "description": "As Imbed I, but may imbed Essence spells through 3rd level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation III",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts d’Essence jusqu’au niveau 3."
+            },
+            "en": {
+              "name": "Imbed III",
+              "description": "As Imbed I, but may imbed Essence spells through 3rd level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Charge Rod",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ChargeRod.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ChargeRod.description",
+          "level": 8,
+          "description": "As Charge Wand, but charges an Essence rod.",
+          "aoe": "1 rod",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Sceptre",
+              "description": "Comme Charger une Baguette, mais charge un sceptre d’Essence."
+            },
+            "en": {
+              "name": "Charge Rod",
+              "description": "As Charge Wand, but charges an Essence rod."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed IV",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedIV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedIV.description",
+          "level": 9,
+          "description": "As Imbed I, but may imbed Essence spells through 4th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation IV",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts d’Essence jusqu’au niveau 4."
+            },
+            "en": {
+              "name": "Imbed IV",
+              "description": "As Imbed I, but may imbed Essence spells through 4th level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily III",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyIII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyIII.description",
+          "level": 10,
+          "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien III",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 3 ; les sorts de niveau inférieur peuvent bénéficier d’un plus grand nombre d’utilisations par jour."
+            },
+            "en": {
+              "name": "Daily III",
+              "description": "Creates a daily item using spells through 3rd level; lower-level spells may receive more uses per day."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed V",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedV.description",
+          "level": 11,
+          "description": "As Imbed I, but may imbed Essence spells through 5th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation V",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts d’Essence jusqu’au niveau 5."
+            },
+            "en": {
+              "name": "Imbed V",
+              "description": "As Imbed I, but may imbed Essence spells through 5th level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Charge Staff",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ChargeStaff.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ChargeStaff.description",
+          "level": 12,
+          "description": "As Charge Wand, but charges an Essence staff.",
+          "aoe": "1 staff",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Charger un Bâton",
+              "description": "Comme Charger une Baguette, mais charge un bâton d’Essence."
+            },
+            "en": {
+              "name": "Charge Staff",
+              "description": "As Charge Wand, but charges an Essence staff."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed VI",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedVI.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedVI.description",
+          "level": 13,
+          "description": "As Imbed I, but may imbed Essence spells through 6th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation VI",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts d’Essence jusqu’au niveau 6."
+            },
+            "en": {
+              "name": "Imbed VI",
+              "description": "As Imbed I, but may imbed Essence spells through 6th level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily V",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyV.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyV.description",
+          "level": 14,
+          "description": "Creates a daily item using spells through 5th level, with more daily uses for lower-level spells.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien V",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 5, avec davantage d’utilisations quotidiennes pour les sorts de niveau inférieur."
+            },
+            "en": {
+              "name": "Daily V",
+              "description": "Creates a daily item using spells through 5th level, with more daily uses for lower-level spells."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed VII",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedVII.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedVII.description",
+          "level": 15,
+          "description": "As Imbed I, but may imbed Essence spells through 7th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation VII",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts d’Essence jusqu’au niveau 7."
+            },
+            "en": {
+              "name": "Imbed VII",
+              "description": "As Imbed I, but may imbed Essence spells through 7th level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed X",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedX.description",
+          "level": 20,
+          "description": "As Imbed I, but may imbed Essence spells through 10th level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation X",
+              "description": "Comme Imprégnation I, mais permet d’imprégner des sorts d’Essence jusqu’au niveau 10."
+            },
+            "en": {
+              "name": "Imbed X",
+              "description": "As Imbed I, but may imbed Essence spells through 10th level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily X",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyX.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyX.description",
+          "level": 25,
+          "description": "Creates a daily item using spells through 10th level, with daily uses determined by spell level.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien X",
+              "description": "Crée un objet à usage quotidien utilisant des sorts jusqu’au niveau 10, le nombre d’utilisations quotidiennes dépendant du niveau du sort."
+            },
+            "en": {
+              "name": "Daily X",
+              "description": "Creates a daily item using spells through 10th level, with daily uses determined by spell level."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Constant",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.Constant.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.Constant.description",
+          "level": 30,
+          "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant",
+              "description": "Comme Quotidien X, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Constant",
+              "description": "As Daily X, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Imbed True",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedTrue.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.ImbedTrue.description",
+          "level": 50,
+          "description": "Imbeds one Essence spell of any level in an item; the imbedded spell is normally usable once.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Imprégnation Véritable",
+              "description": "Imprègne dans un objet un sort d’Essence de n’importe quel niveau ; le sort imprégné est normalement utilisable une seule fois."
+            },
+            "en": {
+              "name": "Imbed True",
+              "description": "Imbeds one Essence spell of any level in an item; the imbedded spell is normally usable once."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Lord Daily",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.LordDaily.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.LordDaily.description",
+          "level": 60,
+          "description": "Creates exceptionally powerful daily-use Essence items with spells through 20th level; this is artifact-scale magic and requires GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien Seigneur",
+              "description": "Crée des objets d’Essence à usage quotidien exceptionnellement puissants, contenant des sorts jusqu’au niveau 20 ; il s’agit d’une magie de niveau artefact nécessitant l’accord du MJ."
+            },
+            "en": {
+              "name": "Lord Daily",
+              "description": "Creates exceptionally powerful daily-use Essence items with spells through 20th level; this is artifact-scale magic and requires GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Lord Constant",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.LordConstant.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.LordConstant.description",
+          "level": 75,
+          "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Constant Seigneur",
+              "description": "Comme Quotidien Seigneur, mais les effets imprégnés appropriés peuvent fonctionner en permanence, sous réserve de l’accord du MJ."
+            },
+            "en": {
+              "name": "Lord Constant",
+              "description": "As Lord Daily, but appropriate imbedded effects may operate constantly, subject to GM approval."
+            }
+          }
+        },
+        {
+          "spellList": "Essence Imbedding",
+          "listType": "Base",
+          "profession": "Alchemist",
+          "name": "Daily True",
+          "label": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyTrue.name",
+          "descriptionLabel": "MERP_RMU.Alchemist.EssenceImbedding.spells.DailyTrue.description",
+          "level": 90,
+          "description": "Creates daily-use Essence items with spells through 50th level; this is artifact-scale magic requiring exceptional circumstances.",
+          "aoe": "1 item",
+          "duration": "24 hours",
+          "range": "self",
+          "spellType": "F",
+          "localizations": {
+            "fr": {
+              "name": "Quotidien Véritable",
+              "description": "Crée des objets d’Essence à usage quotidien contenant des sorts jusqu’au niveau 50 ; il s’agit d’une magie de niveau artefact exigeant des circonstances exceptionnelles."
+            },
+            "en": {
+              "name": "Daily True",
+              "description": "Creates daily-use Essence items with spells through 50th level; this is artifact-scale magic requiring exceptional circumstances."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Imprégnation d'Essence",
+      "system": {
+        "name": "Imprégnation d'Essence",
+        "label": "Imprégnation d'Essence",
+        "notesLabel": "Imprégnation d'Essence — notes",
+        "notes": "<h2>Imprégnation d'Essence</h2><p>Liste de base classique de l’Alchimiste pour fixer des sorts d’Essence dans des objets. Les sorts de création ont généralement une durée de travail de 24 heures ; cette durée décrit le travail magique quotidien et non la durée de vie de l’objet terminé.</p><p>Les sorts de la version source au-delà du niveau 90 ne sont pas inclus dans cette première conversion, afin de rester dans l’échelle épique actuellement utilisée par RMU Treasure Law.</p>"
+      }
+    },
+    "en": {
+      "name": "Essence Imbedding",
+      "system": {
+        "name": "Essence Imbedding",
+        "label": "Essence Imbedding",
+        "notesLabel": "Essence Imbedding — notes",
+        "notes": "<h2>Essence Imbedding</h2><p>Classic Alchemist Base List for binding Essence spells into objects. Creation spells generally require 24 hours of work; this duration describes the daily magical work and not the lifetime of the finished object.</p><p>Source spells above level 90 are not included in this first conversion, in order to remain within the epic scale currently used by RMU Treasure Law.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts d’Essence",
+      "Alchimiste (Base)"
+    ],
+    "en": [
+      "Essence Spell Lists",
+      "Alchemist (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-essence",
+    "spell-lists-essence-alchemist"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "key": "barbarian",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": "professions-non-magiques",
+  "document": {
+    "name": "Barbare",
+    "type": "profession",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "barbarian",
+        "collection": "merp-rmu",
+        "contentVersion": 3,
+        "source": {
+          "type": "merp-rmss-to-rmu-adaptation",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 — Barbarian; RMU-compatible adaptation"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP / RMSS — adaptation RMU",
+      "profession": "Barbarian",
+      "spellCastingGroup": "Non",
+      "numberOfBaseLists": 0,
+      "realms": "",
+      "description": "<h1>Barbare</h1>\n<p>Le <strong>Barbare</strong> est un combattant des terres sauvages, façonné par une vie rude, un environnement exigeant et des sociétés où la survie dépend largement de la force, de l’endurance et de l’expérience pratique. Sa formation est plus étroite que celle du Guerrier mais peut atteindre une efficacité remarquable dans les domaines qu’il choisit de maîtriser.</p>\n<p>Le terme ne décrit pas un individu dépourvu de culture. Il représente un combattant issu d’une société peu urbanisée ou d’une tradition où la chasse, la guerre, le voyage et la résistance physique structurent la vie quotidienne. Un Variag de Khand, un Homme des Collines du Rhudaur, un Beffraen ou un guerrier d’une communauté nordique isolée peuvent tous suivre cette Profession avec des traditions très différentes.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Barbare sont <strong>Force (St)</strong> et <strong>Constitution (Co)</strong>. La Force traduit sa puissance physique ; la Constitution représente sa capacité à supporter fatigue, blessures, privations et conditions naturelles difficiles.</p>\n<h2>Orientation technique</h2>\n<p>Le Barbare est un <strong>non-utilisateur de sorts</strong>. Il privilégie Développement corporel, Armes, Survie, activités de plein air, Discrétion, Perception et aptitudes physiques. Il excelle dans quelques domaines directement liés à son mode de vie et peut y atteindre une très grande efficacité.</p>\n<h2>Combat et équipement</h2>\n<p>Le Barbare privilégie généralement les armes de sa Culture : un Variag peut combattre à cheval avec arc, lance ou lame ; un Homme des Collines peut employer lance, hache ou arc ; un Beffraen peut favoriser des armes robustes adaptées à une vie rude et à des ressources plus limitées.</p>\n<p>Les protections légères ou moyennes s’accordent souvent mieux avec sa mobilité. Le recours aux armures lourdes dépend fortement de la Culture, des ressources disponibles et de la tradition martiale locale.</p>\n<h2>Vie dans les terres sauvages</h2>\n<p>Survie, recherche de nourriture, observation du climat, équitation, connaissance du terrain et endurance sont naturellement importants. Le Barbare survit grâce à l’expérience, à sa robustesse et aux traditions de sa communauté plutôt qu’à une spécialisation comparable à celle du Rôdeur.</p>\n<h2>Profils possibles</h2>\n<ul>\n<li><strong>Guerrier tribal.</strong> Arme de mêlée, Développement corporel et compétences nécessaires aux guerres de clan.</li>\n<li><strong>Chasseur.</strong> Armes à distance, Perception, Survie et connaissance des animaux.</li>\n<li><strong>Cavalier nomade.</strong> Équitation, armes de jet ou de tir et grande mobilité.</li>\n<li><strong>Berserker.</strong> Puissance offensive et résistance aux blessures.</li>\n<li><strong>Éclaireur des terres sauvages.</strong> Discrétion, Perception, déplacement et connaissance du terrain.</li>\n<li><strong>Champion de clan.</strong> Spécialisation martiale représentant la communauté dans les affrontements importants.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong> La magie ne fait pas partie de sa formation professionnelle normale.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons le socle martial et physique de RMU tout en réaffirmant l’identité traditionnelle du Barbare : <strong>Force et Constitution</strong>, robustesse élevée, spécialisation et forte relation à la Culture.</p>\n<p>MERP-RMU insiste sur le fait que la Profession n’est pas un niveau de civilisation. Un Variag, un Homme des Collines, un Beffraen ou un guerrier d’une société nordique possède une histoire, des croyances et des usages précis qui donnent tout son sens au châssis mécanique.</p>",
+      "skillDevelopmentCosts": [
+        {
+          "skillCategory": "Animal",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Awareness",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Body Discipline",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Brawn",
+          "cost": "1/2"
+        },
+        {
+          "skillCategory": "Combat Expertise",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Composition",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Crafting",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Delving",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Environmental",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Lore",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Magical Expertise",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Medical",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Mental Discipline",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Movement",
+          "cost": "1/3"
+        },
+        {
+          "skillCategory": "Performance Art",
+          "cost": "3/4"
+        },
+        {
+          "skillCategory": "Power Manipulation",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Science",
+          "cost": "5/7"
+        },
+        {
+          "skillCategory": "Social",
+          "cost": "3/5"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Base",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Open",
+          "cost": "7/10"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Magical Ritual",
+          "cost": "9/12"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Arcane",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Closed",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Spellcasting",
+          "skillName": "Restricted",
+          "cost": "15/20"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "cost": "2/4"
+        },
+        {
+          "skillCategory": "Technical",
+          "cost": "4/6"
+        },
+        {
+          "skillCategory": "Vocation",
+          "cost": "3/5"
+        }
+      ],
+      "combatTrainingCosts": [
+        {
+          "trainingGroup": "Melee Weapons",
+          "cost": "1/3"
+        },
+        {
+          "trainingGroup": "Ranged Weapons",
+          "cost": "2/4"
+        },
+        {
+          "trainingGroup": "Shield",
+          "cost": "3/5"
+        },
+        {
+          "trainingGroup": "Unarmed",
+          "cost": "2/3"
+        }
+      ],
+      "professionalSkills": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding"
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Observation"
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development"
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Fortitude"
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training"
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Foraging"
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival"
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Weather Watching"
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running"
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Melee Weapons"
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillName": "Unarmed"
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Barbare",
+      "system": {
+        "description": "<h1>Barbare</h1>\n<p>Le <strong>Barbare</strong> est un combattant des terres sauvages, façonné par une vie rude, un environnement exigeant et des sociétés où la survie dépend largement de la force, de l’endurance et de l’expérience pratique. Sa formation est plus étroite que celle du Guerrier mais peut atteindre une efficacité remarquable dans les domaines qu’il choisit de maîtriser.</p>\n<p>Le terme ne décrit pas un individu dépourvu de culture. Il représente un combattant issu d’une société peu urbanisée ou d’une tradition où la chasse, la guerre, le voyage et la résistance physique structurent la vie quotidienne. Un Variag de Khand, un Homme des Collines du Rhudaur, un Beffraen ou un guerrier d’une communauté nordique isolée peuvent tous suivre cette Profession avec des traditions très différentes.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Les caractéristiques primordiales du Barbare sont <strong>Force (St)</strong> et <strong>Constitution (Co)</strong>. La Force traduit sa puissance physique ; la Constitution représente sa capacité à supporter fatigue, blessures, privations et conditions naturelles difficiles.</p>\n<h2>Orientation technique</h2>\n<p>Le Barbare est un <strong>non-utilisateur de sorts</strong>. Il privilégie Développement corporel, Armes, Survie, activités de plein air, Discrétion, Perception et aptitudes physiques. Il excelle dans quelques domaines directement liés à son mode de vie et peut y atteindre une très grande efficacité.</p>\n<h2>Combat et équipement</h2>\n<p>Le Barbare privilégie généralement les armes de sa Culture : un Variag peut combattre à cheval avec arc, lance ou lame ; un Homme des Collines peut employer lance, hache ou arc ; un Beffraen peut favoriser des armes robustes adaptées à une vie rude et à des ressources plus limitées.</p>\n<p>Les protections légères ou moyennes s’accordent souvent mieux avec sa mobilité. Le recours aux armures lourdes dépend fortement de la Culture, des ressources disponibles et de la tradition martiale locale.</p>\n<h2>Vie dans les terres sauvages</h2>\n<p>Survie, recherche de nourriture, observation du climat, équitation, connaissance du terrain et endurance sont naturellement importants. Le Barbare survit grâce à l’expérience, à sa robustesse et aux traditions de sa communauté plutôt qu’à une spécialisation comparable à celle du Rôdeur.</p>\n<h2>Profils possibles</h2>\n<ul>\n<li><strong>Guerrier tribal.</strong> Arme de mêlée, Développement corporel et compétences nécessaires aux guerres de clan.</li>\n<li><strong>Chasseur.</strong> Armes à distance, Perception, Survie et connaissance des animaux.</li>\n<li><strong>Cavalier nomade.</strong> Équitation, armes de jet ou de tir et grande mobilité.</li>\n<li><strong>Berserker.</strong> Puissance offensive et résistance aux blessures.</li>\n<li><strong>Éclaireur des terres sauvages.</strong> Discrétion, Perception, déplacement et connaissance du terrain.</li>\n<li><strong>Champion de clan.</strong> Spécialisation martiale représentant la communauté dans les affrontements importants.</li>\n</ul>\n<h2>Listes de sorts de base</h2>\n<p><strong>Aucune.</strong> La magie ne fait pas partie de sa formation professionnelle normale.</p>\n<h2>Adaptation RMU / MERP</h2>\n<p>Nous conservons le socle martial et physique de RMU tout en réaffirmant l’identité traditionnelle du Barbare : <strong>Force et Constitution</strong>, robustesse élevée, spécialisation et forte relation à la Culture.</p>\n<p>MERP-RMU insiste sur le fait que la Profession n’est pas un niveau de civilisation. Un Variag, un Homme des Collines, un Beffraen ou un guerrier d’une société nordique possède une histoire, des croyances et des usages précis qui donnent tout son sens au châssis mécanique.</p>"
+      }
+    },
+    "en": {
+      "name": "Barbarian",
+      "system": {
+        "description": "<h1>Barbarian</h1>\n<p>The <strong>Barbarian</strong> is a warrior of the wild lands, shaped by a harsh life, a demanding environment, and societies in which survival depends first on strength, endurance, and direct mastery of combat. In earlier Middle-earth and Rolemaster games, the Barbarian is a non-spell-user: less broadly versatile than the Fighter in the range of martial techniques, but exceptionally effective in the areas he chooses to master.</p>\n<p>The term does not imply a lack of culture. It represents a warrior from a less urbanized society, or from a way of life in which hunting, warfare, movement through difficult country, and physical resilience lie at the heart of existence. A <strong>Variag of Khand</strong> may be a fierce and mobile horse-warrior; a <strong>Hillman</strong> may favour ambush, spear, and axe; a <strong>Beffraen</strong> may combine endurance, simple weapons, and intimate knowledge of a demanding environment.</p>\n<h2>Prime Stats</h2>\n<p>The Barbarian’s Prime Stats are <strong>Strength (St)</strong> and <strong>Constitution (Co)</strong>.</p>\n<p><strong>Strength</strong> reflects physical power: the ability to wield demanding weapons, wrestle, carry, push, or break. <strong>Constitution</strong> represents endurance and resistance to wounds, fatigue, privation, and harsh natural conditions.</p>\n<h2>Technical Orientation</h2>\n<p>The Barbarian is a <strong>non-spell-user</strong>. He has no professional Base Spell Lists, and magical development remains particularly costly.</p>\n<p>Development strongly favours <strong>Body Development</strong>, <strong>Weapons</strong>, outdoor activities, <strong>Survival</strong>, <strong>Stealth</strong>, Perception, physical skills, and knowledge of terrain and animals. Mechanically, the Barbarian is defined less by breadth than the Fighter: he excels in a smaller number of areas directly linked to his way of life and can become extremely capable in them.</p>\n<h2>Combat and Equipment</h2>\n<p>The Barbarian generally favours direct combat and weapons suited to the traditions of his Culture. He may be a melee fighter, javelin thrower, archer, spearman, or two-handed warrior. The choice depends above all on his origin.</p>\n<p>Traditionally, Barbarians avoid heavy armour and prefer light or medium protection in order to preserve mobility and endurance. Among the <strong>Variags</strong>, this mobility naturally combines with riding; among the <strong>Hillmen</strong>, it suits fighting in broken terrain; among some <strong>Beffraens</strong>, it reflects warrior traditions adapted to limited resources and frequent travel.</p>\n<h2>Life in the Wild</h2>\n<p>The Barbarian is usually at home in a natural environment. Survival, foraging, weather sense, riding, and knowledge of the land are natural fields of expertise. He survives above all through practical experience, toughness, and the traditions of his community.</p>\n<h2>Physical Strength and Endurance</h2>\n<p>Physical resilience is one of the Profession’s defining traits. The Barbarian develops <strong>Body Development</strong> very efficiently and has a remarkable ability to endure wounds and fatigue. This toughness does not necessarily imply ponderousness: a Variag rider or hill-country hunter may remain highly mobile while possessing exceptional stamina.</p>\n<h2>Possible Profiles</h2>\n<p><strong>Tribal Warrior.</strong> Focuses on a melee weapon, Body Development, and the abilities needed for clan warfare.</p>\n<p><strong>Hunter.</strong> Combines ranged weapons, Perception, Survival, and animal lore.</p>\n<p><strong>Nomad Rider.</strong> Favours Riding, thrown or missile weapons, and mobility; especially appropriate for the Variags of Khand.</p>\n<p><strong>Berserker.</strong> Seeks maximum offensive power and the ability to continue fighting despite wounds.</p>\n<p><strong>Wilderness Scout.</strong> Develops Stealth, Perception, movement, and environmental knowledge.</p>\n<p><strong>Clan Champion.</strong> Concentrates training on a particular weapon and becomes a representative warrior of the community.</p>\n<h2>Base Spell Lists</h2>\n<p><strong>None.</strong></p>\n<p>The Barbarian has no professional Base Spell Lists. Magical training remains possible in exceptional circumstances, but it is always costly and foreign to the Profession’s normal training.</p>\n<h2>RMU / MERP Adaptation</h2>\n<p>We retain RMU’s concept of a warrior specialized in physical and martial disciplines while reinforcing the traditional identity of the <strong>MERP and Rolemaster Barbarian</strong>. Strength and Constitution remain the Prime Stats, and the Profession continues to represent an exceptionally robust fighter who is less broadly trained than the Fighter but particularly effective in the areas that match his way of life.</p>\n<p>The MERP-RMU adaptation also emphasizes the relationship with <strong>Culture</strong>. The Barbarian is not a universal personality type: fighting style, weapons, clothing, beliefs, and skills arise from the character’s people of origin. The distinction from the Fighter remains clear: the Fighter represents broad, structured martial training; the Barbarian relies more heavily on toughness, specialization, practical experience, and adaptation to a demanding environment.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Professions non magiques"
+    ],
+    "en": [
+      "Non-magical Professions"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "professions-non-magiques"
+  ]
+}

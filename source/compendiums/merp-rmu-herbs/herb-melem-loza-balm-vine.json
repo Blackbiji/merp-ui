@@ -1,0 +1,79 @@
+{
+  "key": "herb-melem-loza-balm-vine",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Melem Loza (Liane-Baume / Balm Vine)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-melem-loza-balm-vine",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "s-H-6-S",
+        "sourceCost": "60gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Brûlures & exposition"
+        ],
+        "poisonType": null,
+        "climateCode": "s",
+        "localeCode": "H",
+        "regionCode": "S",
+        "sourceVariants": [],
+        "sourceName": "Melem Loza (Balm Vine)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Very Hard",
+      "form": "Stem",
+      "prep": "apply",
+      "season": "",
+      "cost": "60gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Liane-Baume (Balm Vine)</strong>.</p><p>Cette tige se rencontre surtout dans les régions au climat semi-aride, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La sève de cette liane réduit de moitié les effets d’une brûlure du premier ou du deuxième degré. Elle ne se conserve que deux jours.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Melem Loza (Liane-Baume / Balm Vine)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Liane-Baume (Balm Vine)</strong>.</p><p>Cette tige se rencontre surtout dans les régions au climat semi-aride, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La sève de cette liane réduit de moitié les effets d’une brûlure du premier ou du deuxième degré. Elle ne se conserve que deux jours.</p>"
+      }
+    },
+    "en": {
+      "name": "Melem Loza (Balm Vine)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Balm Vine</strong>.</p><p>This stem is found chiefly in semi-arid climates, especially in heaths, scrublands, and moors, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is used by direct application.</p><p>The sap of this vine halves the effects of a first- or second-degree burn. It keeps for only two days.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

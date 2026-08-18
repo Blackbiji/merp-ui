@@ -1,0 +1,78 @@
+{
+  "key": "herb-sha",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Sha",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-sha",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-H-7-NW",
+        "sourceCost": "10gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "H",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Sha"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "H",
+      "findDifficulty": "Extremely Hard",
+      "form": "Flower",
+      "prep": "ingest",
+      "season": "",
+      "cost": "10gp",
+      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Les fleurs séchées et réduites en poudre permettent de voir jusqu’à environ 300 pieds dans presque toute obscurité pendant 10 à 50 rounds. Une diarrhée pénible survient souvent plusieurs heures plus tard.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 5,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sha",
+      "system": {
+        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Les fleurs séchées et réduites en poudre permettent de voir jusqu’à environ 300 pieds dans presque toute obscurité pendant 10 à 50 rounds. Une diarrhée pénible survient souvent plusieurs heures plus tard.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Sha",
+      "system": {
+        "notes": "<p>This flower is found chiefly in cold climates, especially in heaths, scrublands, and moors, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is consumed directly.</p><p>The flowers are dried and powdered, allowing the user to see up to about 300 feet in almost complete darkness for 10–50 rounds. Painful diarrhea often follows several hours later.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

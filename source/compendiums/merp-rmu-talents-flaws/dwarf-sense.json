@@ -1,0 +1,70 @@
+{
+  "key": "dwarf-sense",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Sens des Nains (Dwarf Sense)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "dwarf-sense",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Khazâd",
+            "Naugrim",
+            "Petits-Nains"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Dwarf Sense",
+      "cost": "5",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Sens des Nains (Dwarf Sense)</h1><h2>Description</h2><p>Vous possédez l’orientation souterraine instinctive traditionnellement attribuée aux Khazâd. Sous terre, vous pouvez presque naturellement déterminer votre orientation générale et évaluer l’élévation ou la profondeur relative de votre position.</p><h2>Adaptation MERP-RMU</h2><p>Comme RMU possède déjà <em>Direction Sense</em>, le Talent ne duplique pas son effet principal. Sous terre, vous pouvez évaluer avec une grande fiabilité <strong>pente, élévation et profondeur relative</strong>, et le MJ peut vous fournir spontanément ces informations lorsqu’elles sont perceptibles par cette faculté.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_dwarf-sense.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sens des Nains (Dwarf Sense)",
+      "system": {
+        "description": "<h1>Sens des Nains (Dwarf Sense)</h1><h2>Description</h2><p>Vous possédez l’orientation souterraine instinctive traditionnellement attribuée aux Khazâd. Sous terre, vous pouvez presque naturellement déterminer votre orientation générale et évaluer l’élévation ou la profondeur relative de votre position.</p><h2>Adaptation MERP-RMU</h2><p>Comme RMU possède déjà <em>Direction Sense</em>, le Talent ne duplique pas son effet principal. Sous terre, vous pouvez évaluer avec une grande fiabilité <strong>pente, élévation et profondeur relative</strong>, et le MJ peut vous fournir spontanément ces informations lorsqu’elles sont perceptibles par cette faculté.</p>"
+      }
+    },
+    "en": {
+      "name": "Dwarf Sense",
+      "system": {
+        "description": "<h1>Dwarf Sense</h1><h2>Description</h2><p>You possess the instinctive underground orientation traditionally attributed to the Khazâd. Underground, you can almost naturally determine your general direction and assess the relative elevation or depth of your position.</p><h2>MERP-RMU Adaptation</h2><p>Because RMU already has <em>Direction Sense</em>, this Talent does not duplicate its main effect. Underground, you can assess <strong>slope, elevation, and relative depth</strong> with great reliability, and the GM may provide this information spontaneously whenever it can be perceived through this faculty.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

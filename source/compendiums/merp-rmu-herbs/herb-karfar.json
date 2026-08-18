@@ -1,0 +1,79 @@
+{
+  "key": "herb-karfar",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "poison-circulatoires",
+  "document": {
+    "name": "Karfar",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-karfar",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-J-4",
+        "sourceCost": "142gp",
+        "sourceCategory": "Poisons",
+        "utilityGroups": [
+          "Poisons",
+          "Circulatoire"
+        ],
+        "poisonType": "Circulatoire",
+        "climateCode": "h",
+        "localeCode": "J",
+        "regionCode": null,
+        "sourceVariants": [],
+        "sourceName": "Karfar"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "J",
+      "findDifficulty": "Medium",
+      "form": "Leaf",
+      "prep": "paste",
+      "season": "",
+      "cost": "142gp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 7C. Sa pâte rougeâtre dérègle le cœur et agit généralement en 2 à 12 rounds.</p>",
+      "addictionFactor": 0,
+      "effects": [],
+      "table": "",
+      "level": 7
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Karfar",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 7C. Sa pâte rougeâtre dérègle le cœur et agit généralement en 2 à 12 rounds.</p>"
+      }
+    },
+    "en": {
+      "name": "Karfar",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in hot and humid climates, especially in jungles and rainforests.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 7C circulatory poison. Its reddish paste causes the heart to malfunction and generally takes effect in 2–12 rounds.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Circulatoires"
+    ],
+    "en": [
+      "Circulatory"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "poison-circulatoires"
+  ]
+}

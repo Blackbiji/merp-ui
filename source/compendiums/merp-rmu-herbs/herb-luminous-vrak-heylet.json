@@ -1,0 +1,79 @@
+{
+  "key": "herb-luminous-vrak-heylet",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Vrak Lumineux (Luminous Vrak / Heylet)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-luminous-vrak-heylet",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "t-U-4-U",
+        "sourceCost": "21gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Hémorragies & circulation"
+        ],
+        "poisonType": null,
+        "climateCode": "t",
+        "localeCode": "U",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Luminous Vrak (Heylet)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "U",
+      "findDifficulty": "Medium",
+      "form": "Mushroom",
+      "prep": "apply",
+      "season": "",
+      "cost": "21gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Heylet</strong>.</p><p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La matière prélevée sous les lamelles du champignon, appliquée sur la plaie, stoppe progressivement l’hémorragie en quelques minutes.</p>",
+      "addictionFactor": 3,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Vrak Lumineux (Luminous Vrak / Heylet)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Heylet</strong>.</p><p>Ce champignon se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>La matière prélevée sous les lamelles du champignon, appliquée sur la plaie, stoppe progressivement l’hémorragie en quelques minutes.</p>"
+      }
+    },
+    "en": {
+      "name": "Luminous Vrak (Heylet)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Heylet</strong>.</p><p>This mushroom is found chiefly in cool temperate climates, especially in underground environments, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Material scraped from beneath the mushroom’s gills and applied to a wound gradually stops the bleeding within a few minutes.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

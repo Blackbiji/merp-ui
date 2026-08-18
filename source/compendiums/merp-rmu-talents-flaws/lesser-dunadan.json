@@ -1,0 +1,71 @@
+{
+  "key": "lesser-dunadan",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Sang dúnadan affaibli (Lesser Dúnedain)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "lesser-dunadan",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {
+          "cultures": [
+            "Dúnedain Arnor",
+            "Dúnedain d’Arnor",
+            "Dúnedain (of the Lost Realm)",
+            "Dúnedain du Royaume Perdu"
+          ]
+        },
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Lesser Dúnedain",
+      "cost": "-5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Sang dúnadan affaibli (Lesser Dúnedain)</h1><h2>Description</h2><p>Votre lignée dúnadan s’est affaiblie au fil des générations et des unions avec les populations locales. Les différents Tiers représentent un éloignement croissant de l’héritage physique des Dúnedain du Royaume Perdu.</p><h2>Tiers</h2><p><strong>Tier I :</strong> votre espérance de vie est ramenée à environ <strong>90–125 ans</strong>.</p><p><strong>Tier II :</strong> vous subissez en plus <strong>−5 aux Jets de Résistance contre les maladies</strong>.</p><p><strong>Tier III :</strong> vous subissez en plus <strong>−1 au bonus de Constitution</strong>.</p><h2>Adaptation MERP-RMU</h2><p>Les anciennes modifications de progression de Développement Corporel ne sont pas transposées directement. Elles sont remplacées par des effets simples et compatibles avec RMU tout en conservant l’idée d’un héritage dúnadan progressivement affaibli.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_lesser-dunadan.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Sang dúnadan affaibli (Lesser Dúnedain)",
+      "system": {
+        "description": "<h1>Sang dúnadan affaibli (Lesser Dúnedain)</h1><h2>Description</h2><p>Votre lignée dúnadan s’est affaiblie au fil des générations et des unions avec les populations locales. Les différents Tiers représentent un éloignement croissant de l’héritage physique des Dúnedain du Royaume Perdu.</p><h2>Tiers</h2><p><strong>Tier I :</strong> votre espérance de vie est ramenée à environ <strong>90–125 ans</strong>.</p><p><strong>Tier II :</strong> vous subissez en plus <strong>−5 aux Jets de Résistance contre les maladies</strong>.</p><p><strong>Tier III :</strong> vous subissez en plus <strong>−1 au bonus de Constitution</strong>.</p><h2>Adaptation MERP-RMU</h2><p>Les anciennes modifications de progression de Développement Corporel ne sont pas transposées directement. Elles sont remplacées par des effets simples et compatibles avec RMU tout en conservant l’idée d’un héritage dúnadan progressivement affaibli.</p>"
+      }
+    },
+    "en": {
+      "name": "Lesser Dúnedain",
+      "system": {
+        "description": "<h1>Lesser Dúnedain</h1><h2>Description</h2><p>Your Dúnedain bloodline has weakened over generations and through unions with local populations. The different Tiers represent increasing distance from the physical heritage of the Dúnedain of the Lost Realm.</p><h2>Tiers</h2><p><strong>Tier I:</strong> your lifespan is reduced to about <strong>90–125 years</strong>.</p><p><strong>Tier II:</strong> you additionally suffer <strong>−5 to Resistance Rolls against disease</strong>.</p><p><strong>Tier III:</strong> you additionally suffer <strong>−1 to your Constitution bonus</strong>.</p><h2>MERP-RMU Adaptation</h2><p>The old changes to Body Development progression are not directly converted. They are replaced by simple effects compatible with RMU while preserving the idea of a progressively weakened Dúnedain heritage.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

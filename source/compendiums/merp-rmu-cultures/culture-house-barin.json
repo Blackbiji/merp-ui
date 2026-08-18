@@ -1,0 +1,2126 @@
+{
+  "key": "culture-house-barin",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Maison de Barin — Mèches-Noires",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-house-barin",
+        "canonicalKey": "culture-house-barin",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-khazad",
+        "availability": {
+          "ages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-house-barin-age-1",
+            "folderKey": "cultures-age-1-khazad",
+            "document": {
+              "name": "Maison de Barin — Mèches-Noires",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-barin-age-1",
+                  "canonicalKey": "culture-house-barin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-1",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Barin — Mèches-Noires",
+                "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Barin — Mèches-Noires",
+                "system": {
+                  "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                  "culture": "Maison de Barin — Mèches-Noires"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Barin) — Blacklocks",
+                "system": {
+                  "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+                  "culture": "Khazâd (House of Barin) — Blacklocks"
+                }
+              }
+            }
+          },
+          "2": {
+            "sourceKey": "culture-house-barin-age-2",
+            "folderKey": "cultures-age-2-khazad",
+            "document": {
+              "name": "Maison de Barin — Mèches-Noires",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-barin-age-2",
+                  "canonicalKey": "culture-house-barin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-2",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Barin — Mèches-Noires",
+                "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Barin — Mèches-Noires",
+                "system": {
+                  "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                  "culture": "Maison de Barin — Mèches-Noires"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Barin) — Blacklocks",
+                "system": {
+                  "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+                  "culture": "Khazâd (House of Barin) — Blacklocks"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-house-barin-age-3",
+            "folderKey": "cultures-age-3-khazad",
+            "document": {
+              "name": "Maison de Barin — Mèches-Noires",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-barin-age-3",
+                  "canonicalKey": "culture-house-barin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-3",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Barin — Mèches-Noires",
+                "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Barin — Mèches-Noires",
+                "system": {
+                  "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                  "culture": "Maison de Barin — Mèches-Noires"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Barin) — Blacklocks",
+                "system": {
+                  "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+                  "culture": "Khazâd (House of Barin) — Blacklocks"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-house-barin-age-4",
+            "folderKey": "cultures-age-4-khazad",
+            "document": {
+              "name": "Maison de Barin — Mèches-Noires",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-house-barin-age-4",
+                  "canonicalKey": "culture-house-barin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-khazad-age-4",
+                  "raceCanonicalKey": "race-khazad",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "starting-languages-not-resolved"
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Maison de Barin — Mèches-Noires",
+                "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 8,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Underground",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 9,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 0
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Maison de Barin — Mèches-Noires",
+                "system": {
+                  "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+                  "culture": "Maison de Barin — Mèches-Noires"
+                }
+              },
+              "en": {
+                "name": "Khazâd (House of Barin) — Blacklocks",
+                "system": {
+                  "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+                  "culture": "Khazâd (House of Barin) — Blacklocks"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Maison de Barin — Mèches-Noires",
+      "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 8,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Underground",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 9,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 0
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Maison de Barin — Mèches-Noires",
+      "system": {
+        "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+        "culture": "Maison de Barin — Mèches-Noires"
+      }
+    },
+    "en": {
+      "name": "Khazâd (House of Barin) — Blacklocks",
+      "system": {
+        "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+        "culture": "Khazâd (House of Barin) — Blacklocks"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-house-barin-age-1",
+      "folderKey": "cultures-age-1-khazad",
+      "document": {
+        "name": "Maison de Barin — Mèches-Noires",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-barin-age-1",
+            "canonicalKey": "culture-house-barin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-1",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Barin — Mèches-Noires",
+          "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Barin — Mèches-Noires",
+          "system": {
+            "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+            "culture": "Maison de Barin — Mèches-Noires"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Barin) — Blacklocks",
+          "system": {
+            "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+            "culture": "Khazâd (House of Barin) — Blacklocks"
+          }
+        }
+      }
+    },
+    "2": {
+      "sourceKey": "culture-house-barin-age-2",
+      "folderKey": "cultures-age-2-khazad",
+      "document": {
+        "name": "Maison de Barin — Mèches-Noires",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-barin-age-2",
+            "canonicalKey": "culture-house-barin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-2",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Barin — Mèches-Noires",
+          "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Barin — Mèches-Noires",
+          "system": {
+            "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+            "culture": "Maison de Barin — Mèches-Noires"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Barin) — Blacklocks",
+          "system": {
+            "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+            "culture": "Khazâd (House of Barin) — Blacklocks"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-house-barin-age-3",
+      "folderKey": "cultures-age-3-khazad",
+      "document": {
+        "name": "Maison de Barin — Mèches-Noires",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-barin-age-3",
+            "canonicalKey": "culture-house-barin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-3",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Barin — Mèches-Noires",
+          "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Barin — Mèches-Noires",
+          "system": {
+            "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+            "culture": "Maison de Barin — Mèches-Noires"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Barin) — Blacklocks",
+          "system": {
+            "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+            "culture": "Khazâd (House of Barin) — Blacklocks"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-house-barin-age-4",
+      "folderKey": "cultures-age-4-khazad",
+      "document": {
+        "name": "Maison de Barin — Mèches-Noires",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-house-barin-age-4",
+            "canonicalKey": "culture-house-barin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-khazad-age-4",
+            "raceCanonicalKey": "race-khazad",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "starting-languages-not-resolved"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Maison de Barin — Mèches-Noires",
+          "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 8,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Underground",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 9,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 0
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Maison de Barin — Mèches-Noires",
+          "system": {
+            "description": "<h1>Maison de Barin — Mèches-Noires</h1>\n<p>Les <strong>Khazâd de la Maison de Barin</strong>, ou <strong>Mèches-Noires</strong>, descendent du Père Barin, éveillé sous les Montagnes de Fer aux côtés de Drúin. Installés au nord de Rûrik à partir de 707 du Deuxième Âge, ils connurent plusieurs siècles de prospérité avant que la guerre de Mûar ne réduise leur domaine à une seule forteresse : <strong>Khazad-madûr</strong>. Ils y survécurent pendant des générations avant la libération des montagnes en 2742 D.A.</p>\n<h2>Rûrik</h2>\n<p>Les Mèches-Noires rejoignirent Rûrik quelques années après les Pieds-de-Pierre et reçurent un fief dans le nord. Mines, ateliers et halls prospérèrent autour de Khazad-madûr jusqu’à l’arrivée du Roi-Démon.</p>\n<h2>Khazad-madûr</h2>\n<p>Après la chute des autres cavernes en 1157 D.A., Khazad-madûr devint le dernier refuge. Les familles y vécurent pendant plusieurs siècles dans un isolement volontaire, préservant réserves, métiers, généalogies et connaissance des galeries perdues.</p>\n<h2>Culture du siège</h2>\n<p>La conservation, la réparation et la discipline prirent une importance exceptionnelle. Un outil réparable ne se jette pas ; une galerie secondaire peut décider du sort d’une cité ; une famille d’artisans peut porter une technique irremplaçable. La mémoire des salles occupées par l’ennemi demeura précise pendant des générations.</p>\n<h2>Libération</h2>\n<p>En 2741 D.A., la tentative de libération reçut l’aide des héritiers de Drúin et d’alliés humains. En 2742, les dernières forces du Roi-Démon furent expulsées. Les Mèches-Noires purent alors explorer, restaurer et réoccuper des lieux qu’ils connaissaient parfois seulement par les récits de leurs ancêtres.</p>\n<h2>Apparence et caractère</h2>\n<p>Les Mèches-Noires sont trapus et puissants, aux cheveux noirs, roux ou brun foncé. Longs cheveux, barbes parfois tressées, vêtements lourds, capes colorées et motifs crénelés forment une apparence traditionnelle. Ils sont souvent sobres, soupçonneux, possessifs, combatifs et introspectifs.</p>\n<h2>Ancêtres et royauté</h2>\n<p>Chaque lignée est perçue comme unie par un esprit commun. Les ancêtres sont honorés avec intensité et une part de leurs prédécesseurs est censée demeurer présente dans les Rois. Mahal conserve naturellement la première place dans leur révérence.</p>\n<h2>Compétences et guerre</h2>\n<p>Spéléologie, Exploitation minière, Travail de la pierre, Artisanat, réparation et défense souterraine sont particulièrement importants. Les armures lourdes et les armes compactes conviennent à une guerre de portes, couloirs et positions préparées.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un personnage peut être né avant la guerre, pendant les siècles d’enfermement ou après la libération. Une clef, un plan, un outil ancestral ou le nom d’un atelier perdu peuvent suffire à définir la mission d’une famille entière.</p>",
+            "culture": "Maison de Barin — Mèches-Noires"
+          }
+        },
+        "en": {
+          "name": "Khazâd (House of Barin) — Blacklocks",
+          "system": {
+            "description": "<h1>Khazâd (House of Barin) — Blacklocks</h1>\n<p>The <strong>Khazâd of the House of Barin</strong>, or <strong>Blacklocks</strong>, descend from Father Barin, who awoke beneath the Iron Mountains alongside Drúin. Settled north of Rûrik from S.A. 707, they enjoyed several centuries of prosperity before Mûar's war reduced their domain to a single fortress: <strong>Khazad-madûr</strong>. There they survived for generations before the mountains were liberated in S.A. 2742.</p>\n<h2>Rûrik</h2>\n<p>The Blacklocks joined Rûrik a few years after the Stonefoots and received a fief in the north. Mines, workshops and halls prospered around Khazad-madûr until the arrival of the Demon-king.</p>\n<h2>Khazad-madûr</h2>\n<p>After the fall of the other caverns in S.A. 1157, Khazad-madûr became the last refuge. Families lived there for several centuries in deliberate isolation, preserving stores, crafts, genealogies and knowledge of the lost galleries.</p>\n<h2>A culture of siege</h2>\n<p>Preservation, repair and discipline took on exceptional importance. A repairable tool is not thrown away; a secondary passage may decide the fate of a city; a family of craftsmen may carry an irreplaceable technique. The memory of halls occupied by the enemy remained precise for generations.</p>\n<h2>Liberation</h2>\n<p>In S.A. 2741, the attempt at liberation received the aid of the heirs of Drúin and human allies. In 2742, the last forces of the Demon-king were expelled. The Blacklocks could then explore, restore and reoccupy places they sometimes knew only from the stories of their ancestors.</p>\n<h2>Appearance and character</h2>\n<p>Blacklocks are stocky and powerful, with black, red or dark-brown hair. Long hair, sometimes braided beards, heavy clothing, colourful cloaks and crenellated patterns form a traditional appearance. They are often sober, suspicious, possessive, combative and introspective.</p>\n<h2>Ancestors and kingship</h2>\n<p>Each lineage is perceived as united by a common spirit. Ancestors are honoured intensely, and a part of their predecessors is believed to remain present in the Kings. Mahal naturally retains first place in their reverence.</p>\n<h2>Skills and warfare</h2>\n<p>Caving, Mining, Stonecraft, Crafting, repair and underground defence are especially important. Heavy armour and compact weapons suit warfare fought at gates, in corridors and from prepared positions.</p>\n<h2>Place in character creation</h2>\n<p>A character may have been born before the war, during the centuries of confinement or after the liberation. A key, map, ancestral tool or the name of a lost workshop may be enough to define the mission of an entire family.</p>",
+            "culture": "Khazâd (House of Barin) — Blacklocks"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Khazâd"
+    ],
+    "en": [
+      "Khazâd"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-khazad"
+  ]
+}

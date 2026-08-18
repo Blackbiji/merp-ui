@@ -1,0 +1,757 @@
+{
+  "key": "culture-uruk-hai",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Uruk-hai — Grands Orcs",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-uruk-hai",
+        "collection": "merp-rmu",
+        "contentVersion": 4,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "recommendedSpecializations": {},
+        "exclusiveTalents": [],
+        "canonicalKey": "culture-uruk-hai",
+        "availability": {
+          "ages": [
+            3
+          ],
+          "restrictedByAge": {
+            "3": true
+          }
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-orcs",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "3": {
+            "sourceKey": "culture-uruk-hai-age-3",
+            "folderKey": "cultures-age-3-restricted",
+            "document": {
+              "name": "Uruk-hai — Grands Orcs",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-uruk-hai-age-3",
+                  "collection": "merp-rmu",
+                  "contentVersion": 4,
+                  "raceKey": "race-orcs-age-3",
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Black Speech",
+                        "spoken": 8,
+                        "written": 2,
+                        "nameFr": "Parler Noir"
+                      },
+                      {
+                        "name": "Orkish",
+                        "spoken": 8,
+                        "written": 3,
+                        "nameFr": "Orc"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 5,
+                        "written": 2,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {},
+                  "exclusiveTalents": [],
+                  "canonicalKey": "culture-uruk-hai",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": true
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-orcs"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Uruk-hai — Grands Orcs",
+                "description": "<h1>Uruk-hai — Grands Orcs</h1>\n<p>Les <strong>Uruk-hai</strong>, « Peuples-Orcs » dans le Parler Noir, représentent les populations orcs les plus puissantes et les plus systématiquement préparées à la guerre du Troisième Âge. La Culture regroupe les grands Uruks du Mordor et les Uruk-hai d’Isengard autour d’un socle commun : formation militaire intensive, discipline, armement standardisé, marches forcées, hiérarchie et identification à une armée davantage qu’à une tribu.</p>\n<h2>Une Culture militaire</h2>\n<p>La différence avec les Orcs communs n’est pas seulement physique. L’Uruk-hai grandit dans un environnement où la guerre est une fonction sociale centrale. Il apprend à appartenir à une unité, maintenir une formation, obéir rapidement et poursuivre un objectif collectif. La puissance qui le produit peut nourrir, armer et commander des milliers de combattants.</p>\n<h2>Mordor et Isengard</h2>\n<p>Les grands Uruks apparaissent au Troisième Âge avant Saruman et servent notamment le Mordor. Ils peuvent commander des Orcs communs, tenir des forteresses et former le noyau de certaines unités. Sous Saruman, les Uruk-hai d’Isengard reçoivent une organisation particulièrement poussée, symbolisée par la <strong>Main Blanche</strong>. Les Uruks du Mordor peuvent porter les marques de l’Œil Rouge. L’héraldique dépend du maître ; la Culture reste commune.</p>\n<h2>Unités, hiérarchie et commandement</h2>\n<p>Les Uruk-hai combattent au sein d’unités permanentes avec chefs, subordonnés et fonctions spécialisées. Éclaireurs, archers, fantassins et gardes peuvent être distingués. Un chef uruk doit faire fonctionner une unité : distribuer les tâches, maintenir la marche, empêcher les désertions et imposer les ordres. La violence reste un instrument de discipline, mais l’efficacité collective limite l’arbitraire.</p>\n<h2>Discipline et fierté de corps</h2>\n<p>La Discipline est l’un des traits culturels centraux. Un Uruk-hai supporte faim, fatigue, marche et dureté du commandement sans abandonner immédiatement sa mission. Cela ne signifie pas fidélité morale : il peut détester son supérieur tout en exécutant ses ordres. Les Uruk-hai développent une forte fierté de corps et méprisent souvent les Orcs communs, qu’ils jugent moins résistants et moins disciplinés.</p>\n<h2>Équipement standardisé</h2>\n<p>Les grandes organisations capables de produire des Uruk-hai disposent de forges et ateliers centralisés. Armes, casques, boucliers et armures sont fabriqués selon des modèles suffisamment communs pour équiper des unités entières. Cette standardisation distingue nettement leur apparence de celle des bandes orcs équipées de prises disparates.</p>\n<h2>Forge, armures et boucliers</h2>\n<p>Les forges militaires produisent lames, pointes, plaques, casques, clous et pièces de réparation. Les Uruk-hai utilisent volontiers armures moyennes ou lourdes, maille, cuir renforcé et plaques. Le bouclier prend une grande importance parce que leur combat est collectif : tenir une ligne, progresser sous les tirs et protéger un compagnon sont des apprentissages ordinaires.</p>\n<h2>Armes</h2>\n<p>Leur arsenal comprend épées courtes ou larges, cimeterres, lances, piques, arcs, arbalètes, dagues, haches et armes d’hast. Les armes robustes et faciles à entretenir sont privilégiées. Les armes d’hast prennent une place particulière dans les formations, tandis que les arcs et arbalètes soutiennent l’infanterie.</p>\n<h2>Marches forcées et opérations de jour</h2>\n<p>Les Uruk-hai sont célèbres pour leur capacité à maintenir une marche rapide sur de longues distances. La Culture développe endurance, progression en unité et gestion des périodes de repos. Leur meilleure tolérance raciale au Soleil permet également de planifier des opérations de jour et de maintenir la pression sans dépendre constamment de la nuit.</p>\n<h2>Campements, ravitaillement et prisonniers</h2>\n<p>En campagne, les gardes sont assignés, les prisonniers surveillés et les réserves regroupées. Les troupes d’Isengard disposent même d’un breuvage fort utilisé pour soutenir les individus épuisés ; ce détail reste propre à leur logistique et ne doit pas devenir un trait universel. Les Uruk-hai sont aussi capables de capturer et transporter des prisonniers vivants lorsqu’un ordre l’exige.</p>\n<h2>Interrogatoire, pillage et rivalités</h2>\n<p>Menace et Intimidation sont naturelles dans les interrogatoires. Le pillage reste une motivation importante mais doit être contenu par la mission. Les rivalités persistent entre Mordor et Isengard ou entre différents groupes : partager une origine orc ne crée pas une unité politique automatique.</p>\n<h2>Tempérament</h2>\n<p>Les Uruk-hai sont agressifs, orgueilleux, brutaux, pragmatiques et disciplinés. Ils peuvent différer une satisfaction lorsque la mission l’exige. Leur courage est celui de soldats : ils méprisent la fuite facile, mais ne recherchent pas nécessairement une mort inutile. La réputation de l’unité compte fortement.</p>\n<h2>Langues et signalisation</h2>\n<p>Ils utilisent différents dialectes orcs, le Parler Noir dans les organisations liées à Sauron et souvent le westron dans les régions humaines. La Signalisation est beaucoup plus développée que chez les Orcs communs : cors, cris, drapeaux, tambours ou gestes permettent de coordonner plusieurs unités.</p>\n<h2>Observation, Pistage et Embuscade</h2>\n<p>Les éclaireurs doivent repérer traces, positions défensives et terrain. Le Pistage est utile aux poursuites ; l’Embuscade reste pleinement acceptable et peut être organisée entre plusieurs groupes recevant un signal commun. Approche furtive et Dissimulation existent aussi, même si elles sont moins centrales que la formation de combat.</p>\n<h2>Survie et fortifications</h2>\n<p>La Survie est surtout militaire : maintenir l’unité opérationnelle loin du ravitaillement. Les Uruk-hai sont familiers des fortifications, postes de garde, tours et assauts de places fortes. Ils peuvent participer à l’usage d’échelles, béliers ou autres équipements de siège sans être automatiquement des ingénieurs.</p>\n<h2>Relations</h2>\n<p>Les Rohirrim sont des adversaires particulièrement importants pour Isengard ; Gondor pour les Uruks du Mordor. Elfes et Khazâd restent des ennemis traditionnels. Les Humains peuvent aussi être alliés lorsqu’ils servent le même maître. Saruman ou Sauron représentent le sommet du commandement selon l’origine du groupe.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau favorise <strong>Développement corporel, Armes, Armures, Bouclier, Marche, Observation, Intimidation, Embuscade, Pistage, Signalisation, Survie, Commandement et Discipline</strong>. Approche furtive, Dissimulation, Escalade, Spéléologie, Forge, Travail du cuir, Fabrication de pièges, Fortifications et Langues complètent les profils spécialisés.</p>\n<h2>Variantes Mordor et Isengard</h2>\n<p>La Culture reste unique mais accepte deux accents descriptifs. Les Uruks du Mordor sont plus fortement liés aux forteresses, au Parler Noir et à la guerre contre Gondor. Les Uruk-hai d’Isengard se distinguent par les marches rapides, la Main Blanche et la guerre contre le Rohan. Ces différences peuvent être portées par les spécialisations du personnage sans créer deux Cultures séparées.</p>\n<h2>Race et Culture</h2>\n<p>La Race Orc correspondante porte taille, puissance, capacités sensorielles et tolérance au Soleil. La Culture Uruk-hai porte entraînement militaire, armes, armures, Discipline, marches forcées, Signalisation, Commandement et tactiques de groupe.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture standard est limitée au <strong>Troisième Âge</strong>. Un personnage doit préciser qui l’a formé, sa garnison, sa fonction et son arme principale. Pour devenir aventurier, il doit généralement avoir perdu son unité, déserté, reçu une mission impossible ou survécu à la chute de son maître. L’Uruk-hai a été élevé comme soldat d’une machine militaire ; hors de cette machine, il doit décider lui-même de l’emploi de ce qu’elle lui a appris.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 8 / Écrite 2</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 3</li><li><strong>Westron</strong> — Parlée 5 / Écrite 2</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 6
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Campaign",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 7,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 3
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Uruk-hai — Grands Orcs",
+                "system": {
+                  "description": "<h1>Uruk-hai — Grands Orcs</h1>\n<p>Les <strong>Uruk-hai</strong>, « Peuples-Orcs » dans le Parler Noir, représentent les populations orcs les plus puissantes et les plus systématiquement préparées à la guerre du Troisième Âge. La Culture regroupe les grands Uruks du Mordor et les Uruk-hai d’Isengard autour d’un socle commun : formation militaire intensive, discipline, armement standardisé, marches forcées, hiérarchie et identification à une armée davantage qu’à une tribu.</p>\n<h2>Une Culture militaire</h2>\n<p>La différence avec les Orcs communs n’est pas seulement physique. L’Uruk-hai grandit dans un environnement où la guerre est une fonction sociale centrale. Il apprend à appartenir à une unité, maintenir une formation, obéir rapidement et poursuivre un objectif collectif. La puissance qui le produit peut nourrir, armer et commander des milliers de combattants.</p>\n<h2>Mordor et Isengard</h2>\n<p>Les grands Uruks apparaissent au Troisième Âge avant Saruman et servent notamment le Mordor. Ils peuvent commander des Orcs communs, tenir des forteresses et former le noyau de certaines unités. Sous Saruman, les Uruk-hai d’Isengard reçoivent une organisation particulièrement poussée, symbolisée par la <strong>Main Blanche</strong>. Les Uruks du Mordor peuvent porter les marques de l’Œil Rouge. L’héraldique dépend du maître ; la Culture reste commune.</p>\n<h2>Unités, hiérarchie et commandement</h2>\n<p>Les Uruk-hai combattent au sein d’unités permanentes avec chefs, subordonnés et fonctions spécialisées. Éclaireurs, archers, fantassins et gardes peuvent être distingués. Un chef uruk doit faire fonctionner une unité : distribuer les tâches, maintenir la marche, empêcher les désertions et imposer les ordres. La violence reste un instrument de discipline, mais l’efficacité collective limite l’arbitraire.</p>\n<h2>Discipline et fierté de corps</h2>\n<p>La Discipline est l’un des traits culturels centraux. Un Uruk-hai supporte faim, fatigue, marche et dureté du commandement sans abandonner immédiatement sa mission. Cela ne signifie pas fidélité morale : il peut détester son supérieur tout en exécutant ses ordres. Les Uruk-hai développent une forte fierté de corps et méprisent souvent les Orcs communs, qu’ils jugent moins résistants et moins disciplinés.</p>\n<h2>Équipement standardisé</h2>\n<p>Les grandes organisations capables de produire des Uruk-hai disposent de forges et ateliers centralisés. Armes, casques, boucliers et armures sont fabriqués selon des modèles suffisamment communs pour équiper des unités entières. Cette standardisation distingue nettement leur apparence de celle des bandes orcs équipées de prises disparates.</p>\n<h2>Forge, armures et boucliers</h2>\n<p>Les forges militaires produisent lames, pointes, plaques, casques, clous et pièces de réparation. Les Uruk-hai utilisent volontiers armures moyennes ou lourdes, maille, cuir renforcé et plaques. Le bouclier prend une grande importance parce que leur combat est collectif : tenir une ligne, progresser sous les tirs et protéger un compagnon sont des apprentissages ordinaires.</p>\n<h2>Armes</h2>\n<p>Leur arsenal comprend épées courtes ou larges, cimeterres, lances, piques, arcs, arbalètes, dagues, haches et armes d’hast. Les armes robustes et faciles à entretenir sont privilégiées. Les armes d’hast prennent une place particulière dans les formations, tandis que les arcs et arbalètes soutiennent l’infanterie.</p>\n<h2>Marches forcées et opérations de jour</h2>\n<p>Les Uruk-hai sont célèbres pour leur capacité à maintenir une marche rapide sur de longues distances. La Culture développe endurance, progression en unité et gestion des périodes de repos. Leur meilleure tolérance raciale au Soleil permet également de planifier des opérations de jour et de maintenir la pression sans dépendre constamment de la nuit.</p>\n<h2>Campements, ravitaillement et prisonniers</h2>\n<p>En campagne, les gardes sont assignés, les prisonniers surveillés et les réserves regroupées. Les troupes d’Isengard disposent même d’un breuvage fort utilisé pour soutenir les individus épuisés ; ce détail reste propre à leur logistique et ne doit pas devenir un trait universel. Les Uruk-hai sont aussi capables de capturer et transporter des prisonniers vivants lorsqu’un ordre l’exige.</p>\n<h2>Interrogatoire, pillage et rivalités</h2>\n<p>Menace et Intimidation sont naturelles dans les interrogatoires. Le pillage reste une motivation importante mais doit être contenu par la mission. Les rivalités persistent entre Mordor et Isengard ou entre différents groupes : partager une origine orc ne crée pas une unité politique automatique.</p>\n<h2>Tempérament</h2>\n<p>Les Uruk-hai sont agressifs, orgueilleux, brutaux, pragmatiques et disciplinés. Ils peuvent différer une satisfaction lorsque la mission l’exige. Leur courage est celui de soldats : ils méprisent la fuite facile, mais ne recherchent pas nécessairement une mort inutile. La réputation de l’unité compte fortement.</p>\n<h2>Langues et signalisation</h2>\n<p>Ils utilisent différents dialectes orcs, le Parler Noir dans les organisations liées à Sauron et souvent le westron dans les régions humaines. La Signalisation est beaucoup plus développée que chez les Orcs communs : cors, cris, drapeaux, tambours ou gestes permettent de coordonner plusieurs unités.</p>\n<h2>Observation, Pistage et Embuscade</h2>\n<p>Les éclaireurs doivent repérer traces, positions défensives et terrain. Le Pistage est utile aux poursuites ; l’Embuscade reste pleinement acceptable et peut être organisée entre plusieurs groupes recevant un signal commun. Approche furtive et Dissimulation existent aussi, même si elles sont moins centrales que la formation de combat.</p>\n<h2>Survie et fortifications</h2>\n<p>La Survie est surtout militaire : maintenir l’unité opérationnelle loin du ravitaillement. Les Uruk-hai sont familiers des fortifications, postes de garde, tours et assauts de places fortes. Ils peuvent participer à l’usage d’échelles, béliers ou autres équipements de siège sans être automatiquement des ingénieurs.</p>\n<h2>Relations</h2>\n<p>Les Rohirrim sont des adversaires particulièrement importants pour Isengard ; Gondor pour les Uruks du Mordor. Elfes et Khazâd restent des ennemis traditionnels. Les Humains peuvent aussi être alliés lorsqu’ils servent le même maître. Saruman ou Sauron représentent le sommet du commandement selon l’origine du groupe.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau favorise <strong>Développement corporel, Armes, Armures, Bouclier, Marche, Observation, Intimidation, Embuscade, Pistage, Signalisation, Survie, Commandement et Discipline</strong>. Approche furtive, Dissimulation, Escalade, Spéléologie, Forge, Travail du cuir, Fabrication de pièges, Fortifications et Langues complètent les profils spécialisés.</p>\n<h2>Variantes Mordor et Isengard</h2>\n<p>La Culture reste unique mais accepte deux accents descriptifs. Les Uruks du Mordor sont plus fortement liés aux forteresses, au Parler Noir et à la guerre contre Gondor. Les Uruk-hai d’Isengard se distinguent par les marches rapides, la Main Blanche et la guerre contre le Rohan. Ces différences peuvent être portées par les spécialisations du personnage sans créer deux Cultures séparées.</p>\n<h2>Race et Culture</h2>\n<p>La Race Orc correspondante porte taille, puissance, capacités sensorielles et tolérance au Soleil. La Culture Uruk-hai porte entraînement militaire, armes, armures, Discipline, marches forcées, Signalisation, Commandement et tactiques de groupe.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture standard est limitée au <strong>Troisième Âge</strong>. Un personnage doit préciser qui l’a formé, sa garnison, sa fonction et son arme principale. Pour devenir aventurier, il doit généralement avoir perdu son unité, déserté, reçu une mission impossible ou survécu à la chute de son maître. L’Uruk-hai a été élevé comme soldat d’une machine militaire ; hors de cette machine, il doit décider lui-même de l’emploi de ce qu’elle lui a appris.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 8 / Écrite 2</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 3</li><li><strong>Westron</strong> — Parlée 5 / Écrite 2</li></ul></section>",
+                  "culture": "Uruk-hai — Grands Orcs"
+                }
+              },
+              "en": {
+                "name": "Uruk-hai",
+                "system": {
+                  "description": "<h1>Uruk-hai — Great Orcs</h1>\n<p>The <strong>Uruk-hai</strong>, “Orc-folk” in the Black Speech, represent the most powerful Orc populations and those most systematically prepared for war in the Third Age. The Culture groups the great Uruks of Mordor and the Uruk-hai of Isengard around a common foundation: intensive military training, discipline, standardized armament, forced marches, hierarchy, and identification with an army rather than with a tribe.</p>\n<h2>A military Culture</h2>\n<p>The difference from Common Orcs is not merely physical. An Uruk-hai grows up in an environment where warfare is a central social function. He learns to belong to a unit, maintain formation, obey quickly, and pursue a collective objective. The power that produces him can feed, arm, and command thousands of fighters.</p>\n<h2>Mordor and Isengard</h2>\n<p>The great Uruks appear in the Third Age before Saruman and notably serve Mordor. They may command Common Orcs, hold fortresses, and form the core of certain units. Under Saruman, the Uruk-hai of Isengard receive particularly advanced organization, symbolized by the <strong>White Hand</strong>. Uruks of Mordor may bear the marks of the Red Eye. Heraldry depends on the master; the Culture remains common.</p>\n<h2>Units, hierarchy, and command</h2>\n<p>Uruk-hai fight within permanent units with leaders, subordinates, and specialized functions. Scouts, archers, infantry, and guards can be distinguished. An Uruk leader must make a unit function: distribute tasks, maintain the march, prevent desertion, and enforce orders. Violence remains an instrument of discipline, but collective efficiency limits arbitrariness.</p>\n<h2>Discipline and unit pride</h2>\n<p>Discipline is one of the central cultural traits. An Uruk-hai endures hunger, fatigue, marching, and harsh command without immediately abandoning his mission. This does not imply moral loyalty: he may hate his superior while still carrying out orders. Uruk-hai develop strong unit pride and often despise Common Orcs, whom they judge less enduring and less disciplined.</p>\n<h2>Standardized equipment</h2>\n<p>The great organizations capable of producing Uruk-hai possess centralized forges and workshops. Weapons, helmets, shields, and armor are made according to sufficiently common patterns to equip whole units. This standardization clearly distinguishes their appearance from that of Orc bands equipped with assorted spoils.</p>\n<h2>Forge, armor, and shields</h2>\n<p>Military forges produce blades, points, plates, helmets, nails, and repair pieces. Uruk-hai readily use medium or heavy armor, mail, reinforced leather, and plates. The shield has great importance because their fighting is collective: holding a line, advancing under missile fire, and protecting a companion are ordinary parts of training.</p>\n<h2>Weapons</h2>\n<p>Their arsenal includes short or broad swords, scimitars, spears, pikes, bows, crossbows, daggers, axes, and polearms. Robust weapons that are easy to maintain are preferred. Polearms have a particular place in formations, while bows and crossbows support the infantry.</p>\n<h2>Forced marches and daylight operations</h2>\n<p>Uruk-hai are famous for their ability to maintain a rapid march over long distances. The Culture develops endurance, movement as a unit, and management of rest periods. Their better racial tolerance of the Sun also allows daylight operations to be planned and pressure to be maintained without constant dependence on night.</p>\n<h2>Camps, supplies, and prisoners</h2>\n<p>On campaign, guards are assigned, prisoners watched, and stores gathered together. Isengard troops even possess a strong draught used to sustain exhausted individuals; this detail belongs to their logistics and should not become a universal trait. Uruk-hai are also capable of capturing and transporting prisoners alive when orders require it.</p>\n<h2>Interrogation, plunder, and rivalries</h2>\n<p>Threats and Intimidation are natural tools in interrogation. Plunder remains an important motivation but must be restrained by the mission. Rivalries persist between Mordor and Isengard or between different groups: sharing an Orcish origin does not create automatic political unity.</p>\n<h2>Temperament</h2>\n<p>Uruk-hai are aggressive, proud, brutal, pragmatic, and disciplined. They can postpone gratification when the mission requires it. Their courage is that of soldiers: they despise easy flight, but do not necessarily seek a useless death. The reputation of the unit matters greatly.</p>\n<h2>Languages and signaling</h2>\n<p>They use different Orcish dialects, the Black Speech in organizations linked to Sauron, and often Westron in human regions. Signaling is much more developed than among Common Orcs: horns, shouts, flags, drums, or gestures allow several units to coordinate.</p>\n<h2>Observation, Tracking, and Ambush</h2>\n<p>Scouts must identify tracks, defensive positions, and terrain. Tracking is useful in pursuits; Ambush remains fully acceptable and can be organized between several groups receiving a common signal. Stalking and Hiding also exist, even though they are less central than formation fighting.</p>\n<h2>Survival and fortifications</h2>\n<p>Survival is chiefly military: keeping the unit operational away from supplies. Uruk-hai are familiar with fortifications, guard posts, towers, and assaults on strongholds. They can participate in the use of ladders, rams, or other siege equipment without automatically being engineers.</p>\n<h2>Relations</h2>\n<p>The Rohirrim are particularly important opponents for Isengard; Gondor for the Uruks of Mordor. Elves and Khazâd remain traditional enemies. Humans may also be allies when they serve the same master. Saruman or Sauron represents the summit of command according to the group's origin.</p>\n<h2>Cultural skills</h2>\n<p>The core favors <strong>Body Development, Weapons, Armor, Shield, Marching, Observation, Intimidation, Ambush, Tracking, Signaling, Survival, Leadership, and Discipline</strong>. Stalking, Hiding, Climbing, Caving, Smithing, Leatherworking, Trapmaking, Fortifications, and Languages round out specialized profiles.</p>\n<h2>Mordor and Isengard variants</h2>\n<p>The Culture remains a single one but accepts two descriptive emphases. Uruks of Mordor are more strongly associated with fortresses, the Black Speech, and war against Gondor. The Uruk-hai of Isengard are distinguished by rapid marches, the White Hand, and war against Rohan. These differences can be carried by a character's specializations without creating two separate Cultures.</p>\n<h2>Race and Culture</h2>\n<p>The corresponding Orc Race carries size, power, sensory capabilities, and tolerance of the Sun. The Uruk-hai Culture carries military training, weapons, armor, Discipline, forced marches, Signaling, Leadership, and group tactics.</p>\n<h2>Availability and character creation</h2>\n<p>The standard Culture is limited to the <strong>Third Age</strong>. A character should specify who trained him, his garrison, his function, and his primary weapon. To become an adventurer, he generally must have lost his unit, deserted, received an impossible mission, or survived the fall of his master. The Uruk-hai was raised as a soldier in a military machine; outside that machine, he must decide for himself how to use what it taught him.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 8 / Written 2</li><li><strong>Orkish</strong> — Spoken 8 / Written 3</li><li><strong>Westron</strong> — Spoken 5 / Written 2</li></ul></section>",
+                  "culture": "Uruk-hai"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Uruk-hai — Grands Orcs",
+      "description": "<h1>Uruk-hai — Grands Orcs</h1>\n<p>Les <strong>Uruk-hai</strong>, « Peuples-Orcs » dans le Parler Noir, représentent les populations orcs les plus puissantes et les plus systématiquement préparées à la guerre du Troisième Âge. La Culture regroupe les grands Uruks du Mordor et les Uruk-hai d’Isengard autour d’un socle commun : formation militaire intensive, discipline, armement standardisé, marches forcées, hiérarchie et identification à une armée davantage qu’à une tribu.</p>\n<h2>Une Culture militaire</h2>\n<p>La différence avec les Orcs communs n’est pas seulement physique. L’Uruk-hai grandit dans un environnement où la guerre est une fonction sociale centrale. Il apprend à appartenir à une unité, maintenir une formation, obéir rapidement et poursuivre un objectif collectif. La puissance qui le produit peut nourrir, armer et commander des milliers de combattants.</p>\n<h2>Mordor et Isengard</h2>\n<p>Les grands Uruks apparaissent au Troisième Âge avant Saruman et servent notamment le Mordor. Ils peuvent commander des Orcs communs, tenir des forteresses et former le noyau de certaines unités. Sous Saruman, les Uruk-hai d’Isengard reçoivent une organisation particulièrement poussée, symbolisée par la <strong>Main Blanche</strong>. Les Uruks du Mordor peuvent porter les marques de l’Œil Rouge. L’héraldique dépend du maître ; la Culture reste commune.</p>\n<h2>Unités, hiérarchie et commandement</h2>\n<p>Les Uruk-hai combattent au sein d’unités permanentes avec chefs, subordonnés et fonctions spécialisées. Éclaireurs, archers, fantassins et gardes peuvent être distingués. Un chef uruk doit faire fonctionner une unité : distribuer les tâches, maintenir la marche, empêcher les désertions et imposer les ordres. La violence reste un instrument de discipline, mais l’efficacité collective limite l’arbitraire.</p>\n<h2>Discipline et fierté de corps</h2>\n<p>La Discipline est l’un des traits culturels centraux. Un Uruk-hai supporte faim, fatigue, marche et dureté du commandement sans abandonner immédiatement sa mission. Cela ne signifie pas fidélité morale : il peut détester son supérieur tout en exécutant ses ordres. Les Uruk-hai développent une forte fierté de corps et méprisent souvent les Orcs communs, qu’ils jugent moins résistants et moins disciplinés.</p>\n<h2>Équipement standardisé</h2>\n<p>Les grandes organisations capables de produire des Uruk-hai disposent de forges et ateliers centralisés. Armes, casques, boucliers et armures sont fabriqués selon des modèles suffisamment communs pour équiper des unités entières. Cette standardisation distingue nettement leur apparence de celle des bandes orcs équipées de prises disparates.</p>\n<h2>Forge, armures et boucliers</h2>\n<p>Les forges militaires produisent lames, pointes, plaques, casques, clous et pièces de réparation. Les Uruk-hai utilisent volontiers armures moyennes ou lourdes, maille, cuir renforcé et plaques. Le bouclier prend une grande importance parce que leur combat est collectif : tenir une ligne, progresser sous les tirs et protéger un compagnon sont des apprentissages ordinaires.</p>\n<h2>Armes</h2>\n<p>Leur arsenal comprend épées courtes ou larges, cimeterres, lances, piques, arcs, arbalètes, dagues, haches et armes d’hast. Les armes robustes et faciles à entretenir sont privilégiées. Les armes d’hast prennent une place particulière dans les formations, tandis que les arcs et arbalètes soutiennent l’infanterie.</p>\n<h2>Marches forcées et opérations de jour</h2>\n<p>Les Uruk-hai sont célèbres pour leur capacité à maintenir une marche rapide sur de longues distances. La Culture développe endurance, progression en unité et gestion des périodes de repos. Leur meilleure tolérance raciale au Soleil permet également de planifier des opérations de jour et de maintenir la pression sans dépendre constamment de la nuit.</p>\n<h2>Campements, ravitaillement et prisonniers</h2>\n<p>En campagne, les gardes sont assignés, les prisonniers surveillés et les réserves regroupées. Les troupes d’Isengard disposent même d’un breuvage fort utilisé pour soutenir les individus épuisés ; ce détail reste propre à leur logistique et ne doit pas devenir un trait universel. Les Uruk-hai sont aussi capables de capturer et transporter des prisonniers vivants lorsqu’un ordre l’exige.</p>\n<h2>Interrogatoire, pillage et rivalités</h2>\n<p>Menace et Intimidation sont naturelles dans les interrogatoires. Le pillage reste une motivation importante mais doit être contenu par la mission. Les rivalités persistent entre Mordor et Isengard ou entre différents groupes : partager une origine orc ne crée pas une unité politique automatique.</p>\n<h2>Tempérament</h2>\n<p>Les Uruk-hai sont agressifs, orgueilleux, brutaux, pragmatiques et disciplinés. Ils peuvent différer une satisfaction lorsque la mission l’exige. Leur courage est celui de soldats : ils méprisent la fuite facile, mais ne recherchent pas nécessairement une mort inutile. La réputation de l’unité compte fortement.</p>\n<h2>Langues et signalisation</h2>\n<p>Ils utilisent différents dialectes orcs, le Parler Noir dans les organisations liées à Sauron et souvent le westron dans les régions humaines. La Signalisation est beaucoup plus développée que chez les Orcs communs : cors, cris, drapeaux, tambours ou gestes permettent de coordonner plusieurs unités.</p>\n<h2>Observation, Pistage et Embuscade</h2>\n<p>Les éclaireurs doivent repérer traces, positions défensives et terrain. Le Pistage est utile aux poursuites ; l’Embuscade reste pleinement acceptable et peut être organisée entre plusieurs groupes recevant un signal commun. Approche furtive et Dissimulation existent aussi, même si elles sont moins centrales que la formation de combat.</p>\n<h2>Survie et fortifications</h2>\n<p>La Survie est surtout militaire : maintenir l’unité opérationnelle loin du ravitaillement. Les Uruk-hai sont familiers des fortifications, postes de garde, tours et assauts de places fortes. Ils peuvent participer à l’usage d’échelles, béliers ou autres équipements de siège sans être automatiquement des ingénieurs.</p>\n<h2>Relations</h2>\n<p>Les Rohirrim sont des adversaires particulièrement importants pour Isengard ; Gondor pour les Uruks du Mordor. Elfes et Khazâd restent des ennemis traditionnels. Les Humains peuvent aussi être alliés lorsqu’ils servent le même maître. Saruman ou Sauron représentent le sommet du commandement selon l’origine du groupe.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau favorise <strong>Développement corporel, Armes, Armures, Bouclier, Marche, Observation, Intimidation, Embuscade, Pistage, Signalisation, Survie, Commandement et Discipline</strong>. Approche furtive, Dissimulation, Escalade, Spéléologie, Forge, Travail du cuir, Fabrication de pièges, Fortifications et Langues complètent les profils spécialisés.</p>\n<h2>Variantes Mordor et Isengard</h2>\n<p>La Culture reste unique mais accepte deux accents descriptifs. Les Uruks du Mordor sont plus fortement liés aux forteresses, au Parler Noir et à la guerre contre Gondor. Les Uruk-hai d’Isengard se distinguent par les marches rapides, la Main Blanche et la guerre contre le Rohan. Ces différences peuvent être portées par les spécialisations du personnage sans créer deux Cultures séparées.</p>\n<h2>Race et Culture</h2>\n<p>La Race Orc correspondante porte taille, puissance, capacités sensorielles et tolérance au Soleil. La Culture Uruk-hai porte entraînement militaire, armes, armures, Discipline, marches forcées, Signalisation, Commandement et tactiques de groupe.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture standard est limitée au <strong>Troisième Âge</strong>. Un personnage doit préciser qui l’a formé, sa garnison, sa fonction et son arme principale. Pour devenir aventurier, il doit généralement avoir perdu son unité, déserté, reçu une mission impossible ou survécu à la chute de son maître. L’Uruk-hai a été élevé comme soldat d’une machine militaire ; hors de cette machine, il doit décider lui-même de l’emploi de ce qu’elle lui a appris.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 8 / Écrite 2</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 3</li><li><strong>Westron</strong> — Parlée 5 / Écrite 2</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 6
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Campaign",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 7,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 3
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Uruk-hai — Grands Orcs",
+      "system": {
+        "description": "<h1>Uruk-hai — Grands Orcs</h1>\n<p>Les <strong>Uruk-hai</strong>, « Peuples-Orcs » dans le Parler Noir, représentent les populations orcs les plus puissantes et les plus systématiquement préparées à la guerre du Troisième Âge. La Culture regroupe les grands Uruks du Mordor et les Uruk-hai d’Isengard autour d’un socle commun : formation militaire intensive, discipline, armement standardisé, marches forcées, hiérarchie et identification à une armée davantage qu’à une tribu.</p>\n<h2>Une Culture militaire</h2>\n<p>La différence avec les Orcs communs n’est pas seulement physique. L’Uruk-hai grandit dans un environnement où la guerre est une fonction sociale centrale. Il apprend à appartenir à une unité, maintenir une formation, obéir rapidement et poursuivre un objectif collectif. La puissance qui le produit peut nourrir, armer et commander des milliers de combattants.</p>\n<h2>Mordor et Isengard</h2>\n<p>Les grands Uruks apparaissent au Troisième Âge avant Saruman et servent notamment le Mordor. Ils peuvent commander des Orcs communs, tenir des forteresses et former le noyau de certaines unités. Sous Saruman, les Uruk-hai d’Isengard reçoivent une organisation particulièrement poussée, symbolisée par la <strong>Main Blanche</strong>. Les Uruks du Mordor peuvent porter les marques de l’Œil Rouge. L’héraldique dépend du maître ; la Culture reste commune.</p>\n<h2>Unités, hiérarchie et commandement</h2>\n<p>Les Uruk-hai combattent au sein d’unités permanentes avec chefs, subordonnés et fonctions spécialisées. Éclaireurs, archers, fantassins et gardes peuvent être distingués. Un chef uruk doit faire fonctionner une unité : distribuer les tâches, maintenir la marche, empêcher les désertions et imposer les ordres. La violence reste un instrument de discipline, mais l’efficacité collective limite l’arbitraire.</p>\n<h2>Discipline et fierté de corps</h2>\n<p>La Discipline est l’un des traits culturels centraux. Un Uruk-hai supporte faim, fatigue, marche et dureté du commandement sans abandonner immédiatement sa mission. Cela ne signifie pas fidélité morale : il peut détester son supérieur tout en exécutant ses ordres. Les Uruk-hai développent une forte fierté de corps et méprisent souvent les Orcs communs, qu’ils jugent moins résistants et moins disciplinés.</p>\n<h2>Équipement standardisé</h2>\n<p>Les grandes organisations capables de produire des Uruk-hai disposent de forges et ateliers centralisés. Armes, casques, boucliers et armures sont fabriqués selon des modèles suffisamment communs pour équiper des unités entières. Cette standardisation distingue nettement leur apparence de celle des bandes orcs équipées de prises disparates.</p>\n<h2>Forge, armures et boucliers</h2>\n<p>Les forges militaires produisent lames, pointes, plaques, casques, clous et pièces de réparation. Les Uruk-hai utilisent volontiers armures moyennes ou lourdes, maille, cuir renforcé et plaques. Le bouclier prend une grande importance parce que leur combat est collectif : tenir une ligne, progresser sous les tirs et protéger un compagnon sont des apprentissages ordinaires.</p>\n<h2>Armes</h2>\n<p>Leur arsenal comprend épées courtes ou larges, cimeterres, lances, piques, arcs, arbalètes, dagues, haches et armes d’hast. Les armes robustes et faciles à entretenir sont privilégiées. Les armes d’hast prennent une place particulière dans les formations, tandis que les arcs et arbalètes soutiennent l’infanterie.</p>\n<h2>Marches forcées et opérations de jour</h2>\n<p>Les Uruk-hai sont célèbres pour leur capacité à maintenir une marche rapide sur de longues distances. La Culture développe endurance, progression en unité et gestion des périodes de repos. Leur meilleure tolérance raciale au Soleil permet également de planifier des opérations de jour et de maintenir la pression sans dépendre constamment de la nuit.</p>\n<h2>Campements, ravitaillement et prisonniers</h2>\n<p>En campagne, les gardes sont assignés, les prisonniers surveillés et les réserves regroupées. Les troupes d’Isengard disposent même d’un breuvage fort utilisé pour soutenir les individus épuisés ; ce détail reste propre à leur logistique et ne doit pas devenir un trait universel. Les Uruk-hai sont aussi capables de capturer et transporter des prisonniers vivants lorsqu’un ordre l’exige.</p>\n<h2>Interrogatoire, pillage et rivalités</h2>\n<p>Menace et Intimidation sont naturelles dans les interrogatoires. Le pillage reste une motivation importante mais doit être contenu par la mission. Les rivalités persistent entre Mordor et Isengard ou entre différents groupes : partager une origine orc ne crée pas une unité politique automatique.</p>\n<h2>Tempérament</h2>\n<p>Les Uruk-hai sont agressifs, orgueilleux, brutaux, pragmatiques et disciplinés. Ils peuvent différer une satisfaction lorsque la mission l’exige. Leur courage est celui de soldats : ils méprisent la fuite facile, mais ne recherchent pas nécessairement une mort inutile. La réputation de l’unité compte fortement.</p>\n<h2>Langues et signalisation</h2>\n<p>Ils utilisent différents dialectes orcs, le Parler Noir dans les organisations liées à Sauron et souvent le westron dans les régions humaines. La Signalisation est beaucoup plus développée que chez les Orcs communs : cors, cris, drapeaux, tambours ou gestes permettent de coordonner plusieurs unités.</p>\n<h2>Observation, Pistage et Embuscade</h2>\n<p>Les éclaireurs doivent repérer traces, positions défensives et terrain. Le Pistage est utile aux poursuites ; l’Embuscade reste pleinement acceptable et peut être organisée entre plusieurs groupes recevant un signal commun. Approche furtive et Dissimulation existent aussi, même si elles sont moins centrales que la formation de combat.</p>\n<h2>Survie et fortifications</h2>\n<p>La Survie est surtout militaire : maintenir l’unité opérationnelle loin du ravitaillement. Les Uruk-hai sont familiers des fortifications, postes de garde, tours et assauts de places fortes. Ils peuvent participer à l’usage d’échelles, béliers ou autres équipements de siège sans être automatiquement des ingénieurs.</p>\n<h2>Relations</h2>\n<p>Les Rohirrim sont des adversaires particulièrement importants pour Isengard ; Gondor pour les Uruks du Mordor. Elfes et Khazâd restent des ennemis traditionnels. Les Humains peuvent aussi être alliés lorsqu’ils servent le même maître. Saruman ou Sauron représentent le sommet du commandement selon l’origine du groupe.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau favorise <strong>Développement corporel, Armes, Armures, Bouclier, Marche, Observation, Intimidation, Embuscade, Pistage, Signalisation, Survie, Commandement et Discipline</strong>. Approche furtive, Dissimulation, Escalade, Spéléologie, Forge, Travail du cuir, Fabrication de pièges, Fortifications et Langues complètent les profils spécialisés.</p>\n<h2>Variantes Mordor et Isengard</h2>\n<p>La Culture reste unique mais accepte deux accents descriptifs. Les Uruks du Mordor sont plus fortement liés aux forteresses, au Parler Noir et à la guerre contre Gondor. Les Uruk-hai d’Isengard se distinguent par les marches rapides, la Main Blanche et la guerre contre le Rohan. Ces différences peuvent être portées par les spécialisations du personnage sans créer deux Cultures séparées.</p>\n<h2>Race et Culture</h2>\n<p>La Race Orc correspondante porte taille, puissance, capacités sensorielles et tolérance au Soleil. La Culture Uruk-hai porte entraînement militaire, armes, armures, Discipline, marches forcées, Signalisation, Commandement et tactiques de groupe.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture standard est limitée au <strong>Troisième Âge</strong>. Un personnage doit préciser qui l’a formé, sa garnison, sa fonction et son arme principale. Pour devenir aventurier, il doit généralement avoir perdu son unité, déserté, reçu une mission impossible ou survécu à la chute de son maître. L’Uruk-hai a été élevé comme soldat d’une machine militaire ; hors de cette machine, il doit décider lui-même de l’emploi de ce qu’elle lui a appris.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 8 / Écrite 2</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 3</li><li><strong>Westron</strong> — Parlée 5 / Écrite 2</li></ul></section>",
+        "culture": "Uruk-hai — Grands Orcs"
+      }
+    },
+    "en": {
+      "name": "Uruk-hai",
+      "system": {
+        "description": "<h1>Uruk-hai — Great Orcs</h1>\n<p>The <strong>Uruk-hai</strong>, “Orc-folk” in the Black Speech, represent the most powerful Orc populations and those most systematically prepared for war in the Third Age. The Culture groups the great Uruks of Mordor and the Uruk-hai of Isengard around a common foundation: intensive military training, discipline, standardized armament, forced marches, hierarchy, and identification with an army rather than with a tribe.</p>\n<h2>A military Culture</h2>\n<p>The difference from Common Orcs is not merely physical. An Uruk-hai grows up in an environment where warfare is a central social function. He learns to belong to a unit, maintain formation, obey quickly, and pursue a collective objective. The power that produces him can feed, arm, and command thousands of fighters.</p>\n<h2>Mordor and Isengard</h2>\n<p>The great Uruks appear in the Third Age before Saruman and notably serve Mordor. They may command Common Orcs, hold fortresses, and form the core of certain units. Under Saruman, the Uruk-hai of Isengard receive particularly advanced organization, symbolized by the <strong>White Hand</strong>. Uruks of Mordor may bear the marks of the Red Eye. Heraldry depends on the master; the Culture remains common.</p>\n<h2>Units, hierarchy, and command</h2>\n<p>Uruk-hai fight within permanent units with leaders, subordinates, and specialized functions. Scouts, archers, infantry, and guards can be distinguished. An Uruk leader must make a unit function: distribute tasks, maintain the march, prevent desertion, and enforce orders. Violence remains an instrument of discipline, but collective efficiency limits arbitrariness.</p>\n<h2>Discipline and unit pride</h2>\n<p>Discipline is one of the central cultural traits. An Uruk-hai endures hunger, fatigue, marching, and harsh command without immediately abandoning his mission. This does not imply moral loyalty: he may hate his superior while still carrying out orders. Uruk-hai develop strong unit pride and often despise Common Orcs, whom they judge less enduring and less disciplined.</p>\n<h2>Standardized equipment</h2>\n<p>The great organizations capable of producing Uruk-hai possess centralized forges and workshops. Weapons, helmets, shields, and armor are made according to sufficiently common patterns to equip whole units. This standardization clearly distinguishes their appearance from that of Orc bands equipped with assorted spoils.</p>\n<h2>Forge, armor, and shields</h2>\n<p>Military forges produce blades, points, plates, helmets, nails, and repair pieces. Uruk-hai readily use medium or heavy armor, mail, reinforced leather, and plates. The shield has great importance because their fighting is collective: holding a line, advancing under missile fire, and protecting a companion are ordinary parts of training.</p>\n<h2>Weapons</h2>\n<p>Their arsenal includes short or broad swords, scimitars, spears, pikes, bows, crossbows, daggers, axes, and polearms. Robust weapons that are easy to maintain are preferred. Polearms have a particular place in formations, while bows and crossbows support the infantry.</p>\n<h2>Forced marches and daylight operations</h2>\n<p>Uruk-hai are famous for their ability to maintain a rapid march over long distances. The Culture develops endurance, movement as a unit, and management of rest periods. Their better racial tolerance of the Sun also allows daylight operations to be planned and pressure to be maintained without constant dependence on night.</p>\n<h2>Camps, supplies, and prisoners</h2>\n<p>On campaign, guards are assigned, prisoners watched, and stores gathered together. Isengard troops even possess a strong draught used to sustain exhausted individuals; this detail belongs to their logistics and should not become a universal trait. Uruk-hai are also capable of capturing and transporting prisoners alive when orders require it.</p>\n<h2>Interrogation, plunder, and rivalries</h2>\n<p>Threats and Intimidation are natural tools in interrogation. Plunder remains an important motivation but must be restrained by the mission. Rivalries persist between Mordor and Isengard or between different groups: sharing an Orcish origin does not create automatic political unity.</p>\n<h2>Temperament</h2>\n<p>Uruk-hai are aggressive, proud, brutal, pragmatic, and disciplined. They can postpone gratification when the mission requires it. Their courage is that of soldiers: they despise easy flight, but do not necessarily seek a useless death. The reputation of the unit matters greatly.</p>\n<h2>Languages and signaling</h2>\n<p>They use different Orcish dialects, the Black Speech in organizations linked to Sauron, and often Westron in human regions. Signaling is much more developed than among Common Orcs: horns, shouts, flags, drums, or gestures allow several units to coordinate.</p>\n<h2>Observation, Tracking, and Ambush</h2>\n<p>Scouts must identify tracks, defensive positions, and terrain. Tracking is useful in pursuits; Ambush remains fully acceptable and can be organized between several groups receiving a common signal. Stalking and Hiding also exist, even though they are less central than formation fighting.</p>\n<h2>Survival and fortifications</h2>\n<p>Survival is chiefly military: keeping the unit operational away from supplies. Uruk-hai are familiar with fortifications, guard posts, towers, and assaults on strongholds. They can participate in the use of ladders, rams, or other siege equipment without automatically being engineers.</p>\n<h2>Relations</h2>\n<p>The Rohirrim are particularly important opponents for Isengard; Gondor for the Uruks of Mordor. Elves and Khazâd remain traditional enemies. Humans may also be allies when they serve the same master. Saruman or Sauron represents the summit of command according to the group's origin.</p>\n<h2>Cultural skills</h2>\n<p>The core favors <strong>Body Development, Weapons, Armor, Shield, Marching, Observation, Intimidation, Ambush, Tracking, Signaling, Survival, Leadership, and Discipline</strong>. Stalking, Hiding, Climbing, Caving, Smithing, Leatherworking, Trapmaking, Fortifications, and Languages round out specialized profiles.</p>\n<h2>Mordor and Isengard variants</h2>\n<p>The Culture remains a single one but accepts two descriptive emphases. Uruks of Mordor are more strongly associated with fortresses, the Black Speech, and war against Gondor. The Uruk-hai of Isengard are distinguished by rapid marches, the White Hand, and war against Rohan. These differences can be carried by a character's specializations without creating two separate Cultures.</p>\n<h2>Race and Culture</h2>\n<p>The corresponding Orc Race carries size, power, sensory capabilities, and tolerance of the Sun. The Uruk-hai Culture carries military training, weapons, armor, Discipline, forced marches, Signaling, Leadership, and group tactics.</p>\n<h2>Availability and character creation</h2>\n<p>The standard Culture is limited to the <strong>Third Age</strong>. A character should specify who trained him, his garrison, his function, and his primary weapon. To become an adventurer, he generally must have lost his unit, deserted, received an impossible mission, or survived the fall of his master. The Uruk-hai was raised as a soldier in a military machine; outside that machine, he must decide for himself how to use what it taught him.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 8 / Written 2</li><li><strong>Orkish</strong> — Spoken 8 / Written 3</li><li><strong>Westron</strong> — Spoken 5 / Written 2</li></ul></section>",
+        "culture": "Uruk-hai"
+      }
+    }
+  },
+  "ageVariants": {
+    "3": {
+      "sourceKey": "culture-uruk-hai-age-3",
+      "folderKey": "cultures-age-3-restricted",
+      "document": {
+        "name": "Uruk-hai — Grands Orcs",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-uruk-hai-age-3",
+            "collection": "merp-rmu",
+            "contentVersion": 4,
+            "raceKey": "race-orcs-age-3",
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Black Speech",
+                  "spoken": 8,
+                  "written": 2,
+                  "nameFr": "Parler Noir"
+                },
+                {
+                  "name": "Orkish",
+                  "spoken": 8,
+                  "written": 3,
+                  "nameFr": "Orc"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 5,
+                  "written": 2,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {},
+            "exclusiveTalents": [],
+            "canonicalKey": "culture-uruk-hai",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": true
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-orcs"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Uruk-hai — Grands Orcs",
+          "description": "<h1>Uruk-hai — Grands Orcs</h1>\n<p>Les <strong>Uruk-hai</strong>, « Peuples-Orcs » dans le Parler Noir, représentent les populations orcs les plus puissantes et les plus systématiquement préparées à la guerre du Troisième Âge. La Culture regroupe les grands Uruks du Mordor et les Uruk-hai d’Isengard autour d’un socle commun : formation militaire intensive, discipline, armement standardisé, marches forcées, hiérarchie et identification à une armée davantage qu’à une tribu.</p>\n<h2>Une Culture militaire</h2>\n<p>La différence avec les Orcs communs n’est pas seulement physique. L’Uruk-hai grandit dans un environnement où la guerre est une fonction sociale centrale. Il apprend à appartenir à une unité, maintenir une formation, obéir rapidement et poursuivre un objectif collectif. La puissance qui le produit peut nourrir, armer et commander des milliers de combattants.</p>\n<h2>Mordor et Isengard</h2>\n<p>Les grands Uruks apparaissent au Troisième Âge avant Saruman et servent notamment le Mordor. Ils peuvent commander des Orcs communs, tenir des forteresses et former le noyau de certaines unités. Sous Saruman, les Uruk-hai d’Isengard reçoivent une organisation particulièrement poussée, symbolisée par la <strong>Main Blanche</strong>. Les Uruks du Mordor peuvent porter les marques de l’Œil Rouge. L’héraldique dépend du maître ; la Culture reste commune.</p>\n<h2>Unités, hiérarchie et commandement</h2>\n<p>Les Uruk-hai combattent au sein d’unités permanentes avec chefs, subordonnés et fonctions spécialisées. Éclaireurs, archers, fantassins et gardes peuvent être distingués. Un chef uruk doit faire fonctionner une unité : distribuer les tâches, maintenir la marche, empêcher les désertions et imposer les ordres. La violence reste un instrument de discipline, mais l’efficacité collective limite l’arbitraire.</p>\n<h2>Discipline et fierté de corps</h2>\n<p>La Discipline est l’un des traits culturels centraux. Un Uruk-hai supporte faim, fatigue, marche et dureté du commandement sans abandonner immédiatement sa mission. Cela ne signifie pas fidélité morale : il peut détester son supérieur tout en exécutant ses ordres. Les Uruk-hai développent une forte fierté de corps et méprisent souvent les Orcs communs, qu’ils jugent moins résistants et moins disciplinés.</p>\n<h2>Équipement standardisé</h2>\n<p>Les grandes organisations capables de produire des Uruk-hai disposent de forges et ateliers centralisés. Armes, casques, boucliers et armures sont fabriqués selon des modèles suffisamment communs pour équiper des unités entières. Cette standardisation distingue nettement leur apparence de celle des bandes orcs équipées de prises disparates.</p>\n<h2>Forge, armures et boucliers</h2>\n<p>Les forges militaires produisent lames, pointes, plaques, casques, clous et pièces de réparation. Les Uruk-hai utilisent volontiers armures moyennes ou lourdes, maille, cuir renforcé et plaques. Le bouclier prend une grande importance parce que leur combat est collectif : tenir une ligne, progresser sous les tirs et protéger un compagnon sont des apprentissages ordinaires.</p>\n<h2>Armes</h2>\n<p>Leur arsenal comprend épées courtes ou larges, cimeterres, lances, piques, arcs, arbalètes, dagues, haches et armes d’hast. Les armes robustes et faciles à entretenir sont privilégiées. Les armes d’hast prennent une place particulière dans les formations, tandis que les arcs et arbalètes soutiennent l’infanterie.</p>\n<h2>Marches forcées et opérations de jour</h2>\n<p>Les Uruk-hai sont célèbres pour leur capacité à maintenir une marche rapide sur de longues distances. La Culture développe endurance, progression en unité et gestion des périodes de repos. Leur meilleure tolérance raciale au Soleil permet également de planifier des opérations de jour et de maintenir la pression sans dépendre constamment de la nuit.</p>\n<h2>Campements, ravitaillement et prisonniers</h2>\n<p>En campagne, les gardes sont assignés, les prisonniers surveillés et les réserves regroupées. Les troupes d’Isengard disposent même d’un breuvage fort utilisé pour soutenir les individus épuisés ; ce détail reste propre à leur logistique et ne doit pas devenir un trait universel. Les Uruk-hai sont aussi capables de capturer et transporter des prisonniers vivants lorsqu’un ordre l’exige.</p>\n<h2>Interrogatoire, pillage et rivalités</h2>\n<p>Menace et Intimidation sont naturelles dans les interrogatoires. Le pillage reste une motivation importante mais doit être contenu par la mission. Les rivalités persistent entre Mordor et Isengard ou entre différents groupes : partager une origine orc ne crée pas une unité politique automatique.</p>\n<h2>Tempérament</h2>\n<p>Les Uruk-hai sont agressifs, orgueilleux, brutaux, pragmatiques et disciplinés. Ils peuvent différer une satisfaction lorsque la mission l’exige. Leur courage est celui de soldats : ils méprisent la fuite facile, mais ne recherchent pas nécessairement une mort inutile. La réputation de l’unité compte fortement.</p>\n<h2>Langues et signalisation</h2>\n<p>Ils utilisent différents dialectes orcs, le Parler Noir dans les organisations liées à Sauron et souvent le westron dans les régions humaines. La Signalisation est beaucoup plus développée que chez les Orcs communs : cors, cris, drapeaux, tambours ou gestes permettent de coordonner plusieurs unités.</p>\n<h2>Observation, Pistage et Embuscade</h2>\n<p>Les éclaireurs doivent repérer traces, positions défensives et terrain. Le Pistage est utile aux poursuites ; l’Embuscade reste pleinement acceptable et peut être organisée entre plusieurs groupes recevant un signal commun. Approche furtive et Dissimulation existent aussi, même si elles sont moins centrales que la formation de combat.</p>\n<h2>Survie et fortifications</h2>\n<p>La Survie est surtout militaire : maintenir l’unité opérationnelle loin du ravitaillement. Les Uruk-hai sont familiers des fortifications, postes de garde, tours et assauts de places fortes. Ils peuvent participer à l’usage d’échelles, béliers ou autres équipements de siège sans être automatiquement des ingénieurs.</p>\n<h2>Relations</h2>\n<p>Les Rohirrim sont des adversaires particulièrement importants pour Isengard ; Gondor pour les Uruks du Mordor. Elfes et Khazâd restent des ennemis traditionnels. Les Humains peuvent aussi être alliés lorsqu’ils servent le même maître. Saruman ou Sauron représentent le sommet du commandement selon l’origine du groupe.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau favorise <strong>Développement corporel, Armes, Armures, Bouclier, Marche, Observation, Intimidation, Embuscade, Pistage, Signalisation, Survie, Commandement et Discipline</strong>. Approche furtive, Dissimulation, Escalade, Spéléologie, Forge, Travail du cuir, Fabrication de pièges, Fortifications et Langues complètent les profils spécialisés.</p>\n<h2>Variantes Mordor et Isengard</h2>\n<p>La Culture reste unique mais accepte deux accents descriptifs. Les Uruks du Mordor sont plus fortement liés aux forteresses, au Parler Noir et à la guerre contre Gondor. Les Uruk-hai d’Isengard se distinguent par les marches rapides, la Main Blanche et la guerre contre le Rohan. Ces différences peuvent être portées par les spécialisations du personnage sans créer deux Cultures séparées.</p>\n<h2>Race et Culture</h2>\n<p>La Race Orc correspondante porte taille, puissance, capacités sensorielles et tolérance au Soleil. La Culture Uruk-hai porte entraînement militaire, armes, armures, Discipline, marches forcées, Signalisation, Commandement et tactiques de groupe.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture standard est limitée au <strong>Troisième Âge</strong>. Un personnage doit préciser qui l’a formé, sa garnison, sa fonction et son arme principale. Pour devenir aventurier, il doit généralement avoir perdu son unité, déserté, reçu une mission impossible ou survécu à la chute de son maître. L’Uruk-hai a été élevé comme soldat d’une machine militaire ; hors de cette machine, il doit décider lui-même de l’emploi de ce qu’elle lui a appris.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 8 / Écrite 2</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 3</li><li><strong>Westron</strong> — Parlée 5 / Écrite 2</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 6
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Campaign",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 7,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 3
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Uruk-hai — Grands Orcs",
+          "system": {
+            "description": "<h1>Uruk-hai — Grands Orcs</h1>\n<p>Les <strong>Uruk-hai</strong>, « Peuples-Orcs » dans le Parler Noir, représentent les populations orcs les plus puissantes et les plus systématiquement préparées à la guerre du Troisième Âge. La Culture regroupe les grands Uruks du Mordor et les Uruk-hai d’Isengard autour d’un socle commun : formation militaire intensive, discipline, armement standardisé, marches forcées, hiérarchie et identification à une armée davantage qu’à une tribu.</p>\n<h2>Une Culture militaire</h2>\n<p>La différence avec les Orcs communs n’est pas seulement physique. L’Uruk-hai grandit dans un environnement où la guerre est une fonction sociale centrale. Il apprend à appartenir à une unité, maintenir une formation, obéir rapidement et poursuivre un objectif collectif. La puissance qui le produit peut nourrir, armer et commander des milliers de combattants.</p>\n<h2>Mordor et Isengard</h2>\n<p>Les grands Uruks apparaissent au Troisième Âge avant Saruman et servent notamment le Mordor. Ils peuvent commander des Orcs communs, tenir des forteresses et former le noyau de certaines unités. Sous Saruman, les Uruk-hai d’Isengard reçoivent une organisation particulièrement poussée, symbolisée par la <strong>Main Blanche</strong>. Les Uruks du Mordor peuvent porter les marques de l’Œil Rouge. L’héraldique dépend du maître ; la Culture reste commune.</p>\n<h2>Unités, hiérarchie et commandement</h2>\n<p>Les Uruk-hai combattent au sein d’unités permanentes avec chefs, subordonnés et fonctions spécialisées. Éclaireurs, archers, fantassins et gardes peuvent être distingués. Un chef uruk doit faire fonctionner une unité : distribuer les tâches, maintenir la marche, empêcher les désertions et imposer les ordres. La violence reste un instrument de discipline, mais l’efficacité collective limite l’arbitraire.</p>\n<h2>Discipline et fierté de corps</h2>\n<p>La Discipline est l’un des traits culturels centraux. Un Uruk-hai supporte faim, fatigue, marche et dureté du commandement sans abandonner immédiatement sa mission. Cela ne signifie pas fidélité morale : il peut détester son supérieur tout en exécutant ses ordres. Les Uruk-hai développent une forte fierté de corps et méprisent souvent les Orcs communs, qu’ils jugent moins résistants et moins disciplinés.</p>\n<h2>Équipement standardisé</h2>\n<p>Les grandes organisations capables de produire des Uruk-hai disposent de forges et ateliers centralisés. Armes, casques, boucliers et armures sont fabriqués selon des modèles suffisamment communs pour équiper des unités entières. Cette standardisation distingue nettement leur apparence de celle des bandes orcs équipées de prises disparates.</p>\n<h2>Forge, armures et boucliers</h2>\n<p>Les forges militaires produisent lames, pointes, plaques, casques, clous et pièces de réparation. Les Uruk-hai utilisent volontiers armures moyennes ou lourdes, maille, cuir renforcé et plaques. Le bouclier prend une grande importance parce que leur combat est collectif : tenir une ligne, progresser sous les tirs et protéger un compagnon sont des apprentissages ordinaires.</p>\n<h2>Armes</h2>\n<p>Leur arsenal comprend épées courtes ou larges, cimeterres, lances, piques, arcs, arbalètes, dagues, haches et armes d’hast. Les armes robustes et faciles à entretenir sont privilégiées. Les armes d’hast prennent une place particulière dans les formations, tandis que les arcs et arbalètes soutiennent l’infanterie.</p>\n<h2>Marches forcées et opérations de jour</h2>\n<p>Les Uruk-hai sont célèbres pour leur capacité à maintenir une marche rapide sur de longues distances. La Culture développe endurance, progression en unité et gestion des périodes de repos. Leur meilleure tolérance raciale au Soleil permet également de planifier des opérations de jour et de maintenir la pression sans dépendre constamment de la nuit.</p>\n<h2>Campements, ravitaillement et prisonniers</h2>\n<p>En campagne, les gardes sont assignés, les prisonniers surveillés et les réserves regroupées. Les troupes d’Isengard disposent même d’un breuvage fort utilisé pour soutenir les individus épuisés ; ce détail reste propre à leur logistique et ne doit pas devenir un trait universel. Les Uruk-hai sont aussi capables de capturer et transporter des prisonniers vivants lorsqu’un ordre l’exige.</p>\n<h2>Interrogatoire, pillage et rivalités</h2>\n<p>Menace et Intimidation sont naturelles dans les interrogatoires. Le pillage reste une motivation importante mais doit être contenu par la mission. Les rivalités persistent entre Mordor et Isengard ou entre différents groupes : partager une origine orc ne crée pas une unité politique automatique.</p>\n<h2>Tempérament</h2>\n<p>Les Uruk-hai sont agressifs, orgueilleux, brutaux, pragmatiques et disciplinés. Ils peuvent différer une satisfaction lorsque la mission l’exige. Leur courage est celui de soldats : ils méprisent la fuite facile, mais ne recherchent pas nécessairement une mort inutile. La réputation de l’unité compte fortement.</p>\n<h2>Langues et signalisation</h2>\n<p>Ils utilisent différents dialectes orcs, le Parler Noir dans les organisations liées à Sauron et souvent le westron dans les régions humaines. La Signalisation est beaucoup plus développée que chez les Orcs communs : cors, cris, drapeaux, tambours ou gestes permettent de coordonner plusieurs unités.</p>\n<h2>Observation, Pistage et Embuscade</h2>\n<p>Les éclaireurs doivent repérer traces, positions défensives et terrain. Le Pistage est utile aux poursuites ; l’Embuscade reste pleinement acceptable et peut être organisée entre plusieurs groupes recevant un signal commun. Approche furtive et Dissimulation existent aussi, même si elles sont moins centrales que la formation de combat.</p>\n<h2>Survie et fortifications</h2>\n<p>La Survie est surtout militaire : maintenir l’unité opérationnelle loin du ravitaillement. Les Uruk-hai sont familiers des fortifications, postes de garde, tours et assauts de places fortes. Ils peuvent participer à l’usage d’échelles, béliers ou autres équipements de siège sans être automatiquement des ingénieurs.</p>\n<h2>Relations</h2>\n<p>Les Rohirrim sont des adversaires particulièrement importants pour Isengard ; Gondor pour les Uruks du Mordor. Elfes et Khazâd restent des ennemis traditionnels. Les Humains peuvent aussi être alliés lorsqu’ils servent le même maître. Saruman ou Sauron représentent le sommet du commandement selon l’origine du groupe.</p>\n<h2>Compétences culturelles</h2>\n<p>Le noyau favorise <strong>Développement corporel, Armes, Armures, Bouclier, Marche, Observation, Intimidation, Embuscade, Pistage, Signalisation, Survie, Commandement et Discipline</strong>. Approche furtive, Dissimulation, Escalade, Spéléologie, Forge, Travail du cuir, Fabrication de pièges, Fortifications et Langues complètent les profils spécialisés.</p>\n<h2>Variantes Mordor et Isengard</h2>\n<p>La Culture reste unique mais accepte deux accents descriptifs. Les Uruks du Mordor sont plus fortement liés aux forteresses, au Parler Noir et à la guerre contre Gondor. Les Uruk-hai d’Isengard se distinguent par les marches rapides, la Main Blanche et la guerre contre le Rohan. Ces différences peuvent être portées par les spécialisations du personnage sans créer deux Cultures séparées.</p>\n<h2>Race et Culture</h2>\n<p>La Race Orc correspondante porte taille, puissance, capacités sensorielles et tolérance au Soleil. La Culture Uruk-hai porte entraînement militaire, armes, armures, Discipline, marches forcées, Signalisation, Commandement et tactiques de groupe.</p>\n<h2>Disponibilité et création</h2>\n<p>La Culture standard est limitée au <strong>Troisième Âge</strong>. Un personnage doit préciser qui l’a formé, sa garnison, sa fonction et son arme principale. Pour devenir aventurier, il doit généralement avoir perdu son unité, déserté, reçu une mission impossible ou survécu à la chute de son maître. L’Uruk-hai a été élevé comme soldat d’une machine militaire ; hors de cette machine, il doit décider lui-même de l’emploi de ce qu’elle lui a appris.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Black Speech</strong> — Parlée 8 / Écrite 2</li><li><strong>Orkish</strong> — Parlée 8 / Écrite 3</li><li><strong>Westron</strong> — Parlée 5 / Écrite 2</li></ul></section>",
+            "culture": "Uruk-hai — Grands Orcs"
+          }
+        },
+        "en": {
+          "name": "Uruk-hai",
+          "system": {
+            "description": "<h1>Uruk-hai — Great Orcs</h1>\n<p>The <strong>Uruk-hai</strong>, “Orc-folk” in the Black Speech, represent the most powerful Orc populations and those most systematically prepared for war in the Third Age. The Culture groups the great Uruks of Mordor and the Uruk-hai of Isengard around a common foundation: intensive military training, discipline, standardized armament, forced marches, hierarchy, and identification with an army rather than with a tribe.</p>\n<h2>A military Culture</h2>\n<p>The difference from Common Orcs is not merely physical. An Uruk-hai grows up in an environment where warfare is a central social function. He learns to belong to a unit, maintain formation, obey quickly, and pursue a collective objective. The power that produces him can feed, arm, and command thousands of fighters.</p>\n<h2>Mordor and Isengard</h2>\n<p>The great Uruks appear in the Third Age before Saruman and notably serve Mordor. They may command Common Orcs, hold fortresses, and form the core of certain units. Under Saruman, the Uruk-hai of Isengard receive particularly advanced organization, symbolized by the <strong>White Hand</strong>. Uruks of Mordor may bear the marks of the Red Eye. Heraldry depends on the master; the Culture remains common.</p>\n<h2>Units, hierarchy, and command</h2>\n<p>Uruk-hai fight within permanent units with leaders, subordinates, and specialized functions. Scouts, archers, infantry, and guards can be distinguished. An Uruk leader must make a unit function: distribute tasks, maintain the march, prevent desertion, and enforce orders. Violence remains an instrument of discipline, but collective efficiency limits arbitrariness.</p>\n<h2>Discipline and unit pride</h2>\n<p>Discipline is one of the central cultural traits. An Uruk-hai endures hunger, fatigue, marching, and harsh command without immediately abandoning his mission. This does not imply moral loyalty: he may hate his superior while still carrying out orders. Uruk-hai develop strong unit pride and often despise Common Orcs, whom they judge less enduring and less disciplined.</p>\n<h2>Standardized equipment</h2>\n<p>The great organizations capable of producing Uruk-hai possess centralized forges and workshops. Weapons, helmets, shields, and armor are made according to sufficiently common patterns to equip whole units. This standardization clearly distinguishes their appearance from that of Orc bands equipped with assorted spoils.</p>\n<h2>Forge, armor, and shields</h2>\n<p>Military forges produce blades, points, plates, helmets, nails, and repair pieces. Uruk-hai readily use medium or heavy armor, mail, reinforced leather, and plates. The shield has great importance because their fighting is collective: holding a line, advancing under missile fire, and protecting a companion are ordinary parts of training.</p>\n<h2>Weapons</h2>\n<p>Their arsenal includes short or broad swords, scimitars, spears, pikes, bows, crossbows, daggers, axes, and polearms. Robust weapons that are easy to maintain are preferred. Polearms have a particular place in formations, while bows and crossbows support the infantry.</p>\n<h2>Forced marches and daylight operations</h2>\n<p>Uruk-hai are famous for their ability to maintain a rapid march over long distances. The Culture develops endurance, movement as a unit, and management of rest periods. Their better racial tolerance of the Sun also allows daylight operations to be planned and pressure to be maintained without constant dependence on night.</p>\n<h2>Camps, supplies, and prisoners</h2>\n<p>On campaign, guards are assigned, prisoners watched, and stores gathered together. Isengard troops even possess a strong draught used to sustain exhausted individuals; this detail belongs to their logistics and should not become a universal trait. Uruk-hai are also capable of capturing and transporting prisoners alive when orders require it.</p>\n<h2>Interrogation, plunder, and rivalries</h2>\n<p>Threats and Intimidation are natural tools in interrogation. Plunder remains an important motivation but must be restrained by the mission. Rivalries persist between Mordor and Isengard or between different groups: sharing an Orcish origin does not create automatic political unity.</p>\n<h2>Temperament</h2>\n<p>Uruk-hai are aggressive, proud, brutal, pragmatic, and disciplined. They can postpone gratification when the mission requires it. Their courage is that of soldiers: they despise easy flight, but do not necessarily seek a useless death. The reputation of the unit matters greatly.</p>\n<h2>Languages and signaling</h2>\n<p>They use different Orcish dialects, the Black Speech in organizations linked to Sauron, and often Westron in human regions. Signaling is much more developed than among Common Orcs: horns, shouts, flags, drums, or gestures allow several units to coordinate.</p>\n<h2>Observation, Tracking, and Ambush</h2>\n<p>Scouts must identify tracks, defensive positions, and terrain. Tracking is useful in pursuits; Ambush remains fully acceptable and can be organized between several groups receiving a common signal. Stalking and Hiding also exist, even though they are less central than formation fighting.</p>\n<h2>Survival and fortifications</h2>\n<p>Survival is chiefly military: keeping the unit operational away from supplies. Uruk-hai are familiar with fortifications, guard posts, towers, and assaults on strongholds. They can participate in the use of ladders, rams, or other siege equipment without automatically being engineers.</p>\n<h2>Relations</h2>\n<p>The Rohirrim are particularly important opponents for Isengard; Gondor for the Uruks of Mordor. Elves and Khazâd remain traditional enemies. Humans may also be allies when they serve the same master. Saruman or Sauron represents the summit of command according to the group's origin.</p>\n<h2>Cultural skills</h2>\n<p>The core favors <strong>Body Development, Weapons, Armor, Shield, Marching, Observation, Intimidation, Ambush, Tracking, Signaling, Survival, Leadership, and Discipline</strong>. Stalking, Hiding, Climbing, Caving, Smithing, Leatherworking, Trapmaking, Fortifications, and Languages round out specialized profiles.</p>\n<h2>Mordor and Isengard variants</h2>\n<p>The Culture remains a single one but accepts two descriptive emphases. Uruks of Mordor are more strongly associated with fortresses, the Black Speech, and war against Gondor. The Uruk-hai of Isengard are distinguished by rapid marches, the White Hand, and war against Rohan. These differences can be carried by a character's specializations without creating two separate Cultures.</p>\n<h2>Race and Culture</h2>\n<p>The corresponding Orc Race carries size, power, sensory capabilities, and tolerance of the Sun. The Uruk-hai Culture carries military training, weapons, armor, Discipline, forced marches, Signaling, Leadership, and group tactics.</p>\n<h2>Availability and character creation</h2>\n<p>The standard Culture is limited to the <strong>Third Age</strong>. A character should specify who trained him, his garrison, his function, and his primary weapon. To become an adventurer, he generally must have lost his unit, deserted, received an impossible mission, or survived the fall of his master. The Uruk-hai was raised as a soldier in a military machine; outside that machine, he must decide for himself how to use what it taught him.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Black Speech</strong> — Spoken 8 / Written 2</li><li><strong>Orkish</strong> — Spoken 8 / Written 3</li><li><strong>Westron</strong> — Spoken 5 / Written 2</li></ul></section>",
+            "culture": "Uruk-hai"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Restreint"
+    ],
+    "en": [
+      "Restricted"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-restricted"
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "key": "razak-zinul-wards",
+  "sourceFile": "data/merp-rmu/non-rmu-spell-lists.json",
+  "folderKey": "spell-lists-channeling-razak-zinul",
+  "document": {
+    "name": "Wards",
+    "type": "spell-list",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "razak-zinul-wards",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "sourceSystem": "RMSS/MERP",
+        "sourceBook": "MERP Character Creation Using RMSS/RMFRP v2.5",
+        "sourceList": "Wards",
+        "sourcePage": 236,
+        "merpRealm": "Channeling",
+        "merpCategory": "Profession",
+        "profession": "Razak-zinul",
+        "sorcery": false,
+        "nativeRMU": false,
+        "merpVariant": false,
+        "source": {
+          "type": "merp-rmss-spell-list-conversion",
+          "reference": "MERP/RMSS v2.5 pp. 236; Razak-zinul Base List"
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU / MERP-RMSS v2.5",
+      "name": "Wards",
+      "listType": "Base",
+      "realms": "Channeling",
+      "profession": "Razak-zinul",
+      "notes": "<h2>Wards</h2><p>Les Wards sont des inscriptions magiques placées sur un objet. Les sorts au-dessus du 3e niveau créent des protections inscrites ; déplacer l’objet pendant qu’un ward est actif annule normalement le ward.</p>",
+      "label": "Wards",
+      "notesLabel": "Wards notes",
+      "spells": [
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Detect Ward",
+          "label": "MERP_RMU.RazakZinul.wards.spells.DetectWard.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.DetectWard.description",
+          "level": 1,
+          "description": "Detects an active ward in the examined area; caster may examine a different area each round.",
+          "aoe": "5' R",
+          "duration": "1 min/lvl (C)",
+          "range": "50'",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Détection de Garde",
+              "description": "Détecte une Garde active dans la zone examinée ; le lanceur peut examiner une zone différente à chaque round."
+            },
+            "en": {
+              "name": "Detect Ward",
+              "description": "Detects an active ward in the examined area; caster may examine a different area each round."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Ward Lore",
+          "label": "MERP_RMU.RazakZinul.wards.spells.WardLore.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.WardLore.description",
+          "level": 2,
+          "description": "Reveals the nature of one target ward, including what it protects against or prohibits.",
+          "aoe": "1 ward",
+          "duration": "--",
+          "range": "100'",
+          "spellType": "I",
+          "localizations": {
+            "fr": {
+              "name": "Connaissance des Gardes",
+              "description": "Révèle la nature d’une Garde ciblée, notamment ce contre quoi elle protège ou ce qu’elle interdit."
+            },
+            "en": {
+              "name": "Ward Lore",
+              "description": "Reveals the nature of one target ward, including what it protects against or prohibits."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Bypass Ward",
+          "label": "MERP_RMU.RazakZinul.wards.spells.BypassWard.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.BypassWard.description",
+          "level": 3,
+          "description": "Designates a target who is immune to one of the caster’s wards for the duration.",
+          "aoe": "1 target",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Contournement de Garde",
+              "description": "Désigne une cible immunisée à l’une des Gardes du lanceur pendant la durée du sort."
+            },
+            "en": {
+              "name": "Bypass Ward",
+              "description": "Designates a target who is immune to one of the caster’s wards for the duration."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Sense Ward I",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SenseWardI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SenseWardI.description",
+          "level": 4,
+          "description": "Creates a ward that blocks one specified sense through its area unless resisted.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde des Sens I",
+              "description": "Crée une Garde qui bloque un sens spécifié à travers sa zone, sauf si elle est résistée."
+            },
+            "en": {
+              "name": "Sense Ward I",
+              "description": "Creates a ward that blocks one specified sense through its area unless resisted."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Animal Ward",
+          "label": "MERP_RMU.RazakZinul.wards.spells.AnimalWard.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.AnimalWard.description",
+          "level": 5,
+          "description": "Prevents animals from willingly entering the warded area unless they resist.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Animaux",
+              "description": "Empêche les animaux d’entrer volontairement dans la zone gardée à moins qu’ils ne résistent."
+            },
+            "en": {
+              "name": "Animal Ward",
+              "description": "Prevents animals from willingly entering the warded area unless they resist."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Alarm Ward I",
+          "label": "MERP_RMU.RazakZinul.wards.spells.AlarmWardI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.AlarmWardI.description",
+          "level": 6,
+          "description": "Creates a ward that sounds a silent or audible alarm when specified circumstances occur.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde d’Alarme I",
+              "description": "Crée une Garde qui déclenche une alarme silencieuse ou audible lorsque les circonstances spécifiées surviennent."
+            },
+            "en": {
+              "name": "Alarm Ward I",
+              "description": "Creates a ward that sounds a silent or audible alarm when specified circumstances occur."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Spell Ward I",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SpellWardI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SpellWardI.description",
+          "level": 7,
+          "description": "Creates a ward that prevents one specified spell (and versions of it) from functioning through the area if the ward prevails.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Sorts I",
+              "description": "Crée une Garde empêchant un sort déterminé, ainsi que ses variantes, de fonctionner à travers la zone si la Garde l’emporte."
+            },
+            "en": {
+              "name": "Spell Ward I",
+              "description": "Creates a ward that prevents one specified spell (and versions of it) from functioning through the area if the ward prevails."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Sense Ward II",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SenseWardII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SenseWardII.description",
+          "level": 8,
+          "description": "As Sense Ward I, but blocks two senses.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde des Sens II",
+              "description": "Comme Garde des Sens I, mais bloque deux sens."
+            },
+            "en": {
+              "name": "Sense Ward II",
+              "description": "As Sense Ward I, but blocks two senses."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Spell Ward II",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SpellWardII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SpellWardII.description",
+          "level": 9,
+          "description": "As Spell Ward I, but may prevent two different spells.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Sorts II",
+              "description": "Comme Garde contre les Sorts I, mais peut empêcher deux sorts différents."
+            },
+            "en": {
+              "name": "Spell Ward II",
+              "description": "As Spell Ward I, but may prevent two different spells."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Scrying Ward I",
+          "label": "MERP_RMU.RazakZinul.wards.spells.ScryingWardI.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.ScryingWardI.description",
+          "level": 10,
+          "description": "Creates a ward against magical scrying through the protected area.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre la Divination I",
+              "description": "Crée une Garde contre la divination magique à travers la zone protégée."
+            },
+            "en": {
+              "name": "Scrying Ward I",
+              "description": "Creates a ward against magical scrying through the protected area."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Spell Ward III",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SpellWardIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SpellWardIII.description",
+          "level": 11,
+          "description": "As Spell Ward I, but may prevent three different spells.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Sorts III",
+              "description": "Comme Garde contre les Sorts I, mais peut empêcher trois sorts différents."
+            },
+            "en": {
+              "name": "Spell Ward III",
+              "description": "As Spell Ward I, but may prevent three different spells."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Sense Ward III",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SenseWardIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SenseWardIII.description",
+          "level": 12,
+          "description": "As Sense Ward I, but blocks three senses.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde des Sens III",
+              "description": "Comme Garde des Sens I, mais bloque trois sens."
+            },
+            "en": {
+              "name": "Sense Ward III",
+              "description": "As Sense Ward I, but blocks three senses."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Alarm Ward II",
+          "label": "MERP_RMU.RazakZinul.wards.spells.AlarmWardII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.AlarmWardII.description",
+          "level": 13,
+          "description": "As Alarm Ward I, with a larger area.",
+          "aoe": "10' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde d’Alarme II",
+              "description": "Comme Garde d’Alarme I, mais avec une zone plus vaste."
+            },
+            "en": {
+              "name": "Alarm Ward II",
+              "description": "As Alarm Ward I, with a larger area."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Undead Ward",
+          "label": "MERP_RMU.RazakZinul.wards.spells.UndeadWard.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.UndeadWard.description",
+          "level": 14,
+          "description": "Prevents undead from willingly entering the warded area unless they resist.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Morts-vivants",
+              "description": "Empêche les morts-vivants d’entrer volontairement dans la zone gardée à moins qu’ils ne résistent."
+            },
+            "en": {
+              "name": "Undead Ward",
+              "description": "Prevents undead from willingly entering the warded area unless they resist."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Spell Ward IV",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SpellWardIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SpellWardIV.description",
+          "level": 15,
+          "description": "As Spell Ward I, but may prevent four different spells.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Sorts IV",
+              "description": "Comme Garde contre les Sorts I, mais peut empêcher quatre sorts différents."
+            },
+            "en": {
+              "name": "Spell Ward IV",
+              "description": "As Spell Ward I, but may prevent four different spells."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Sense Ward IV",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SenseWardIV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SenseWardIV.description",
+          "level": 16,
+          "description": "As Sense Ward I, but blocks four senses.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde des Sens IV",
+              "description": "Comme Garde des Sens I, mais bloque quatre sens."
+            },
+            "en": {
+              "name": "Sense Ward IV",
+              "description": "As Sense Ward I, but blocks four senses."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Spell Ward V",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SpellWardV.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SpellWardV.description",
+          "level": 17,
+          "description": "As Spell Ward I, but may prevent five different spells.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Sorts V",
+              "description": "Comme Garde contre les Sorts I, mais peut empêcher cinq sorts différents."
+            },
+            "en": {
+              "name": "Spell Ward V",
+              "description": "As Spell Ward I, but may prevent five different spells."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Scrying Ward II",
+          "label": "MERP_RMU.RazakZinul.wards.spells.ScryingWardII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.ScryingWardII.description",
+          "level": 18,
+          "description": "As Scrying Ward I, with a larger area.",
+          "aoe": "10' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre la Divination II",
+              "description": "Comme Garde contre la Divination I, mais avec une zone plus vaste."
+            },
+            "en": {
+              "name": "Scrying Ward II",
+              "description": "As Scrying Ward I, with a larger area."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Spell Ward VII",
+          "label": "MERP_RMU.RazakZinul.wards.spells.SpellWardVII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.SpellWardVII.description",
+          "level": 20,
+          "description": "As Spell Ward I, but may prevent seven different spells.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde contre les Sorts VII",
+              "description": "Comme Garde contre les Sorts I, mais peut empêcher sept sorts différents."
+            },
+            "en": {
+              "name": "Spell Ward VII",
+              "description": "As Spell Ward I, but may prevent seven different spells."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Alarm Ward III",
+          "label": "MERP_RMU.RazakZinul.wards.spells.AlarmWardIII.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.AlarmWardIII.description",
+          "level": 25,
+          "description": "As Alarm Ward I, with a larger area.",
+          "aoe": "15' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde d’Alarme III",
+              "description": "Comme Garde d’Alarme I, mais avec une zone plus vaste."
+            },
+            "en": {
+              "name": "Alarm Ward III",
+              "description": "As Alarm Ward I, with a larger area."
+            }
+          }
+        },
+        {
+          "spellList": "Wards",
+          "listType": "Base",
+          "profession": "Razak-zinul",
+          "name": "Lord Spell Ward",
+          "label": "MERP_RMU.RazakZinul.wards.spells.LordSpellWard.name",
+          "descriptionLabel": "MERP_RMU.RazakZinul.wards.spells.LordSpellWard.description",
+          "level": 50,
+          "description": "As Spell Ward I, but may prevent up to twenty different spells.",
+          "aoe": "5' R/lvl",
+          "duration": "1 hr/lvl",
+          "range": "touch",
+          "spellType": "U",
+          "localizations": {
+            "fr": {
+              "name": "Garde Seigneur contre les Sorts",
+              "description": "Comme Garde contre les Sorts I, mais peut empêcher jusqu’à vingt sorts différents."
+            },
+            "en": {
+              "name": "Lord Spell Ward",
+              "description": "As Spell Ward I, but may prevent up to twenty different spells."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Gardes",
+      "system": {
+        "name": "Gardes",
+        "label": "Gardes",
+        "notesLabel": "Gardes — notes",
+        "notes": "<h2>Gardes</h2><p>Les Wards sont des inscriptions magiques placées sur un objet. Les sorts au-dessus du 3e niveau créent des protections inscrites ; déplacer l’objet pendant qu’un ward est actif annule normalement le ward.</p>"
+      }
+    },
+    "en": {
+      "name": "Wards",
+      "system": {
+        "name": "Wards",
+        "label": "Wards",
+        "notesLabel": "Wards — notes",
+        "notes": "<h2>Wards</h2><p>Wards are magical inscriptions placed on an object. Spells above 3rd level create inscribed protections; moving the object while a ward is active normally cancels the ward.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Listes de Sorts de Théurgie",
+      "Razak-Zinul (Base)"
+    ],
+    "en": [
+      "Channeling Spell Lists",
+      "Razak-Zinul (Base)"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "spell-lists-channeling",
+    "spell-lists-channeling-razak-zinul"
+  ]
+}

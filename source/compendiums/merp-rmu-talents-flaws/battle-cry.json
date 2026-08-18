@@ -1,0 +1,64 @@
+{
+  "key": "battle-cry",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-general",
+  "document": {
+    "name": "Cri de guerre (Battle Cry)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "battle-cry",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 3
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Combat",
+      "name": "Battle Cry",
+      "cost": "10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Cri de guerre (Battle Cry)</h1><h2>Description</h2><p>Vous savez libérer au moment décisif un cri de guerre capable de galvaniser votre agressivité et votre défense. Une fois par jour, au début d’un affrontement ou lorsque vous entrez réellement dans la mêlée, vous pouvez dépenser <strong>1 PA</strong> pour pousser ce cri.</p><p>Vous gagnez alors <strong>+5 OB</strong> et <strong>+5 DB</strong> pendant <strong>3 rounds</strong>.</p><h2>Adaptation MERP-RMU</h2><p>Le bonus originel, qui durait pendant tout le combat, a été réduit et limité dans le temps afin de respecter l’économie en PA et l’échelle de bonus de RMU.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_battle-cry.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Cri de guerre (Battle Cry)",
+      "system": {
+        "description": "<h1>Cri de guerre (Battle Cry)</h1><h2>Description</h2><p>Vous savez libérer au moment décisif un cri de guerre capable de galvaniser votre agressivité et votre défense. Une fois par jour, au début d’un affrontement ou lorsque vous entrez réellement dans la mêlée, vous pouvez dépenser <strong>1 PA</strong> pour pousser ce cri.</p><p>Vous gagnez alors <strong>+5 OB</strong> et <strong>+5 DB</strong> pendant <strong>3 rounds</strong>.</p><h2>Adaptation MERP-RMU</h2><p>Le bonus originel, qui durait pendant tout le combat, a été réduit et limité dans le temps afin de respecter l’économie en PA et l’échelle de bonus de RMU.</p>"
+      }
+    },
+    "en": {
+      "name": "Battle Cry",
+      "system": {
+        "description": "<h1>Battle Cry</h1><h2>Description</h2><p>At the decisive moment, you can unleash a war cry that galvanizes your aggression and defense. Once per day, at the beginning of a confrontation or when you truly enter the melee, you may spend <strong>1 AP</strong> to give this cry.</p><p>You then gain <strong>+5 OB</strong> and <strong>+5 DB</strong> for <strong>3 rounds</strong>.</p><h2>MERP-RMU Adaptation</h2><p>The original bonus, which lasted for the entire combat, has been reduced and limited in duration to respect RMU’s AP economy and bonus scale.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Généraux"
+    ],
+    "en": [
+      "Talents — General"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-general"
+  ]
+}

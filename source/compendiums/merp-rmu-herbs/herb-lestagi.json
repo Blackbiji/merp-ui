@@ -1,0 +1,78 @@
+{
+  "key": "herb-lestagi",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Lestagí",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-lestagi",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "a-Z-8-M",
+        "sourceCost": "520gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "a",
+        "localeCode": "Z",
+        "regionCode": "M",
+        "sourceVariants": [],
+        "sourceName": "Lestagí"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "Z",
+      "findDifficulty": "Sheer Folly",
+      "form": "Bud",
+      "prep": "ingest",
+      "season": "",
+      "cost": "520gp",
+      "notes": "<p>Ce bourgeon se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Un bourgeon peut restaurer une perte de caractéristique qui n’est pas due à l’âge. Chaque dose ne peut agir que sur une seule caractéristique et les bourgeons restent actifs deux jours.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>",
+      "addictionFactor": 45,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Lestagí",
+      "system": {
+        "notes": "<p>Ce bourgeon se rencontre surtout dans les régions au climat aride, notamment dans les déserts, et elle est surtout connue dans le centre d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Un bourgeon peut restaurer une perte de caractéristique qui n’est pas due à l’âge. Chaque dose ne peut agir que sur une seule caractéristique et les bourgeons restent actifs deux jours.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>"
+      }
+    },
+    "en": {
+      "name": "Lestagí",
+      "system": {
+        "notes": "<p>This bud is found chiefly in arid climates, especially in deserts, and is best known in central Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>One bud can restore stat loss not caused by age. Each dose can affect only one stat, and the buds remain potent for two days.</p><p>Its use carries a very high risk of addiction and should remain exceptional.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

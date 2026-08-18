@@ -1,0 +1,78 @@
+{
+  "key": "herb-hiam-moss",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "renforts-alterations",
+  "document": {
+    "name": "Mousse de Hiam (Hiam Moss)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-hiam-moss",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-C-6-NW",
+        "sourceCost": "9gp",
+        "sourceCategory": "Renforts & Altérations",
+        "utilityGroups": [
+          "Renforts & Altérations"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "C",
+        "regionCode": "NW",
+        "sourceVariants": [],
+        "sourceName": "Hiam Moss"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Very Hard",
+      "form": "Fungus",
+      "prep": "brew",
+      "season": "",
+      "cost": "9gp",
+      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La préparation maintient éveillé et soutenu pendant vingt-quatre heures. Au-delà de quatre jours consécutifs, l’épuisement exige une longue récupération ; la première prise comporte également un faible risque mortel.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 8,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Mousse de Hiam (Hiam Moss)",
+      "system": {
+        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>La préparation maintient éveillé et soutenu pendant vingt-quatre heures. Au-delà de quatre jours consécutifs, l’épuisement exige une longue récupération ; la première prise comporte également un faible risque mortel.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Hiam Moss",
+      "system": {
+        "notes": "<p>This fungus is found chiefly in cold climates, especially in coniferous forests, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>The preparation keeps the user awake and sustained for twenty-four hours. After more than four consecutive days, exhaustion requires a long recovery; the first dose also carries a small risk of death.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Renforts & Altérations"
+    ],
+    "en": [
+      "Enhancements & Alterations"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "renforts-alterations"
+  ]
+}

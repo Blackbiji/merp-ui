@@ -1,0 +1,64 @@
+{
+  "key": "undetectable",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-mystical",
+  "document": {
+    "name": "Indétectable (Undetectable)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "undetectable",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Magical",
+      "name": "Undetectable",
+      "cost": "5/Tier",
+      "tier": 0,
+      "maxTier": 3,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Indétectable (Undetectable)</h1><h2>Description</h2><p>Votre présence résiste aux moyens surnaturels de détection. Divinations, scrutations et effets destinés à localiser une personne ont davantage de difficulté à vous trouver ou à vous identifier.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Jets de Résistance contre les effets de détection, divination et scrutation. Au Tier III, le MJ peut autoriser un Jet de Résistance contre certaines détections normalement passives, lorsqu’il est cohérent qu’elles puissent être trompées par ce Talent.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_undetectable.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Indétectable (Undetectable)",
+      "system": {
+        "description": "<h1>Indétectable (Undetectable)</h1><h2>Description</h2><p>Votre présence résiste aux moyens surnaturels de détection. Divinations, scrutations et effets destinés à localiser une personne ont davantage de difficulté à vous trouver ou à vous identifier.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux Jets de Résistance contre les effets de détection, divination et scrutation. Au Tier III, le MJ peut autoriser un Jet de Résistance contre certaines détections normalement passives, lorsqu’il est cohérent qu’elles puissent être trompées par ce Talent.</p>"
+      }
+    },
+    "en": {
+      "name": "Undetectable",
+      "system": {
+        "description": "<h1>Undetectable</h1><h2>Description</h2><p>Your presence resists supernatural means of detection. Divinations, scrying, and effects intended to locate a person have greater difficulty finding or identifying you.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+5 per Tier</strong> to Resistance Rolls against detection, divination, and scrying effects. At Tier III, the GM may allow a Resistance Roll against certain normally passive forms of detection when it is reasonable that this Talent could deceive them.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Mystiques"
+    ],
+    "en": [
+      "Talents — Mystical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-mystical"
+  ]
+}

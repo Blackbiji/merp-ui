@@ -1,0 +1,199 @@
+{
+  "key": "rules-herbs",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "Règles MERP - RMU",
+  "document": {
+    "name": "Herbes et Substances, guide des simples",
+    "sort": 100000,
+    "pages": [
+      {
+        "name": "Herbes et Substances, guide des simples",
+        "type": "text",
+        "sort": 100000,
+        "title": {
+          "show": false,
+          "level": 1
+        },
+        "text": {
+          "format": 1,
+          "content": "<section class=\"fdrmu-journal\"><h2>Le Livre des simples</h2>\n<p>Pour qui sait regarder, les terres sauvages sont une vaste apothicairerie. Une petite feuille difficile à repérer peut arrêter une hémorragie, une racine amère briser l’effet d’un poison, tandis qu’une baie mal reconnue suffit parfois à tuer un voyageur. Les guérisseurs, rôdeurs et herboristes apprennent donc moins à « chercher une herbe » qu’à lire un paysage : le froid, l’humidité, la nature du sol, l’altitude et même la proximité de la mer disent quelles plantes ont une chance d’y pousser.</p>\n<h3>Lire le pays</h3><p>Chaque plante possède un climat et un milieu de prédilection. Certaines aiment les forêts de conifères ou les bois mêlés, d’autres les rives d’eau douce, les landes, les hautes montagnes, les glaciers, les marais côtiers, les terres volcaniques ou les profondeurs souterraines. Une plante ne peut être trouvée que dans un environnement qui lui convient. Sa fiche indique désormais ce milieu en toutes lettres, ainsi que la difficulté réelle de la reconnaître et de la récolter.</p>\n<h3>Chercher sans épuiser la terre</h3><p>Dans MERP-RMU, une heure passée à chercher une plante demande une Manœuvre de <strong>Survie</strong> adaptée au biome. <strong>Herboristerie</strong> peut être utilisée comme Compétence Complémentaire : elle représente l’œil qui distingue la bonne feuille de sa cousine inutile, connaît les saisons et sait où regarder.</p><p>Une zone récoltée au cours des six derniers mois impose <strong>−50</strong>. Chaque chercheur supplémentaire apporte <strong>+2</strong>, et chaque tranche de dix heures de recherche infructueuse accorde <strong>+5</strong>. Une <strong>Réussite Absolue</strong> permet de trouver 1 à 5 doses ; une <strong>Réussite</strong>, une dose ; une <strong>Réussite Proche</strong> autorise un nouveau jet pour la même heure à +20. Une Réussite Partielle ou un Échec ne donne rien ; un Échec Absolu ou une Bévue signifie qu’aucune dose ne sera trouvée dans cette zone avant le lendemain.</p>\n<h3>Récolter et préparer</h3><p>La vertu d’une plante dépend souvent autant de sa préparation que de son espèce. Une <strong>infusion ou décoction</strong> devient efficace après passage dans l’eau chaude ; une plante à <strong>ingérer</strong> peut être mangée, mâchée ou bue ; une poudre à <strong>inhaler</strong> agit par les voies respiratoires. Une <strong>application</strong> demande généralement 1 à 10 rounds de préparation avant d’être posée sur la blessure. Une <strong>pâte</strong> peut conserver son efficacité jusqu’à une semaine sur un aliment, un outil ou une arme ; un <strong>liquide</strong> comparable ne reste généralement actif qu’une heure. Une <strong>poudre</strong> est destinée à la nourriture ou à la boisson et ne s’emploie normalement pas sur une arme.</p>\n<h3>Doses, poisons et accoutumance</h3><p>Sauf indication contraire, une seule dose peut produire son effet au cours d’un même round. Les poisons doivent encore vaincre la résistance de leur victime : leur fiche indique leur nature, leur niveau et leurs conséquences.</p><p>Certaines substances créent une dépendance. Leur <strong>Facteur d’Accoutumance (FA)</strong> sert de repère au MJ : après une prise, 1d100 + FA au-delà de 100 signifie que l’utilisateur développe une dépendance. Les prises répétées peuvent renforcer cette dépendance et le manque peut entraîner un sevrage difficile.</p>\n<h3>Une connaissance vivante</h3><p>Les descriptions du catalogue traduisent les anciens codes en indications de voyage : « forêt froide », « lande tempérée », « rivage marin chaud », « plante très difficile à trouver », etc. Les codes d’origine restent conservés dans les données MERP-UI pour les automatisations futures, mais un joueur n’a pas besoin de les déchiffrer pour comprendre où et comment chercher.</p></section>"
+        }
+      },
+      {
+        "name": "Trouver des herbes dans la nature",
+        "type": "text",
+        "sort": 200000,
+        "title": {
+          "show": false,
+          "level": 1
+        },
+        "text": {
+          "format": 1,
+          "content": "<section class=\"fdrmu-journal\"><h2>Trouver des herbes dans la nature</h2><p>Le climat et le terrain sont toujours la première condition : chercher une plante alpine dans une plaine humide ne donnera rien, quelle que soit la qualité du chercheur. Une fois le lieu approprié trouvé, la difficulté propre à la plante s’applique à la Manœuvre de Survie.</p><p><strong>Une tentative représente une heure.</strong> Herboristerie peut soutenir la recherche comme Compétence Complémentaire. Une zone déjà récoltée récemment impose une pénalité de <strong>−50</strong> ; chaque chercheur supplémentaire accorde un bonus de <strong>+2</strong> ; après dix heures infructueuses, la patience et l’expérience du terrain accordent un bonus de <strong>+5</strong> aux recherches suivantes.</p><ul><li><strong>Réussite Absolue :</strong> 1 à 5 doses.</li><li><strong>Réussite :</strong> 1 dose.</li><li><strong>Réussite Proche :</strong> nouveau jet pour cette heure à +20.</li><li><strong>Réussite Partielle ou Échec :</strong> aucune plante trouvée.</li><li><strong>Échec Absolu ou Bévue :</strong> la zone ne livrera plus cette plante avant le lendemain.</li></ul></section>"
+        }
+      },
+      {
+        "name": "Boissons & Vivres",
+        "type": "text",
+        "sort": 300000,
+        "title": {
+          "show": false,
+          "level": 1
+        },
+        "text": {
+          "format": 1,
+          "content": "<section class=\"fdrmu-journal\"><h2>Boissons & Vivres</h2><p>Les voyageurs d’Endor emportent bien plus que des rations ordinaires. Certains aliments sont conçus pour supporter des semaines de route ; d’autres portent encore une part du savoir des Eldar ou des Khazâd.</p>\n<h3>Alcool</h3><p>Les alcools varient énormément selon le peuple et la région. L’accoutumance n’est normalement testée que lorsqu’un personnage atteint réellement l’ivresse ; une consommation modérée n’entraîne pas à elle seule de jet de dépendance. Certaines boissons sont toutefois plus fortes ou plus addictives que d’autres.</p>\n<h3>Cram</h3><p>Ce pain de voyage nain, dense et très nourrissant, a un goût marqué de champignon et de poivre. Une tranche d’environ quatre onces constitue une dose et fournit l’équivalent de <strong>cinq jours de nourriture</strong>. Un pain correctement conservé reste consommable pendant environ sept semaines.</p>\n<h3>Lembas (Coimas)</h3><p>Le lembas est le pain de route enchanté des Eldar, dont le secret de fabrication n’est pas vendu. Une ration nourrit une personne pendant une journée et fortifie son corps contre la fatigue, les poisons et les maladies. Les Elfes le donnent aux leurs lorsqu’un long voyage dans les terres sauvages ou un péril grave l’exige ; un mortel ne peut en recevoir que s’il est véritablement ami des Elfes et dans un besoin exceptionnel.</p>\n<h3>Miruvor</h3><p>Ce cordial elfique est préparé dans les terres noldorines et n’est pas une marchandise. Une dose revigore profondément celui qui la boit, soutient sa Constitution et renforce temporairement sa résistance aux maladies et aux poisons.</p>\n<h3>Pandis</h3><p>Cette liqueur est brassée dans les marais du Marais et de Midgewater à partir de l’écorce de [[HERB:herb-delrean-delrian|Delrean]]. Bue en quantité, elle éloigne les insectes et renforce fortement la résistance aux morsures de serpent. L’abus laisse une gueule de bois particulièrement désagréable, souvent accompagnée de teintes verdâtres autour des yeux et de la bouche. Comme pour les autres alcools, les jets d’accoutumance ne commencent qu’à partir de l’ivresse.</p></section>"
+        }
+      },
+      {
+        "name": "Préparations médicinales",
+        "type": "text",
+        "sort": 400000,
+        "title": {
+          "show": false,
+          "level": 1
+        },
+        "text": {
+          "format": 1,
+          "content": "<section class=\"fdrmu-journal\"><h2>Préparations médicinales</h2><p>Les herbes ne sont pas toujours employées telles qu’elles sont cueillies. Guérisseurs et apothicaires les transforment en baumes, poudres, teintures et mélanges dont la préparation peut concentrer ou modifier les vertus.</p>\n<h3>Baume d’Alambas</h3><p>Préparé à partir d’[[HERB:herb-alambas-spike|Alambas]], ce baume traite jusqu’à quatre pieds carrés de brûlures, quelle que soit leur gravité.</p>\n<h3>Baume d’Aloès</h3><p>Préparé à partir d’[[HERB:herb-aloe-heat-heal|Aloès]], il double la vitesse naturelle de guérison des brûlures et coupures mineures et soigne également 5 points de dégâts provoqués par les brûlures. Il est commun dans le nord-ouest d’Endor.</p>\n<h3>Caranan</h3><p>Ce mélange de plusieurs ingrédients communs de l’ouest, du nord-ouest et du centre d’Endor soigne 2 à 8 points de dégâts et soulage douleur et gonflement. Il ne faut pas dépasser dix doses par jour.</p>\n<h3>Baume de Derrly</h3><p>Cette lotion est fabriquée à partir de [[HERB:herb-delrean-delrian|Delrean]]. Étendue sur la peau, elle repousse les insectes ; ceux-ci doivent vaincre une résistance équivalente à un effet de niveau 7 pour s’approcher à moins de dix pieds.</p>\n<h3>Poussière dorée (Gilder Dust, Ilyalma)</h3><p>Mélange magique de substances rares, cette poudre répare en 1 à 3 minutes les lésions des organes, artères et veines lorsqu’elle est répandue sur la blessure. Elle n’est généralement disponible qu’auprès de guérisseurs elfes et de quelques apothicaires ou alchimistes humains. Elle est aussi connue sous les noms d’Astannûn, Númenasto et Panaglu.</p>\n<h3>Onguent de Cresson Doré</h3><p>Le [[HERB:herb-golden-cress-gold-chute|Cresson Doré]] est séché, broyé puis mélangé à du suif. L’onguent referme et soigne les plaies de chair qui saignent, restaurant 1 à 5 points en 1 à 5 rounds.</p>\n<h3>Harlindar</h3><p>Cette poudre, mêlée à de l’eau puis bue, est utilisée pour prévenir les fausses couches. Elle est composée d’herbes du sud de l’Eriador.</p>\n<h3>Joef</h3><p>Cette poudre inhalée permet à l’utilisateur d’adresser mentalement un appel à un ami conscient qu’il connaît. La portée est de cent pieds multipliés par le niveau de l’utilisateur. Son Facteur d’Accoutumance est particulièrement élevé.</p>\n<h3>Maiana</h3><p>Ce liquide décongestionnant, préparé à partir de plantes des pentes septentrionales des Monts Brumeux, réduit de moitié les symptômes dangereux provoqués par les affections pulmonaires et les maladies respiratoires.</p>\n<h3>Baume de Melem Loza</h3><p>Préparé à partir de [[HERB:herb-melem-loza-balm-vine|Melem Loza]], ce baume double l’effet d’une magie de guérison appliquée à la même blessure ou affection.</p>\n<h3>Baume runique (Rune Salve)</h3><p>Aussi appelé Arkasu, All-heal ou Mrim, ce baume soigne 2 à 12 points, accélère d’environ moitié la fermeture et la guérison des grandes plaies ouvertes, agit comme antiseptique et atténue de moitié les pénalités de douleur causées par des blessures mineures. Il est préparé à partir de plusieurs herbes des plaines de Rhûn.</p>\n<h3>Teinture de Sindiluin</h3><p>Un procédé secret transforme le Sindiluin en une teinture styptique capable d’arrêter toute hémorragie. Les guérisseurs qui connaissent sa préparation en révèlent rarement les détails.</p></section>"
+        }
+      },
+      {
+        "name": "Maladies",
+        "type": "text",
+        "sort": 500000,
+        "title": {
+          "show": false,
+          "level": 1
+        },
+        "text": {
+          "format": 1,
+          "content": "<section class=\"fdrmu-journal\"><h2>Maladies</h2><p>Les maladies d’Endor peuvent provenir d’un parasite, d’un animal, d’une plante ou d’un agent invisible. Leur niveau sert de référence pour les Jets de Résistance et leur gravité n’est pas toujours proportionnelle à leur apparente banalité.</p>\n<h3>Angurth — niveau 2</h3><p>Transmise par des puces, cette affection entraîne une mort lente et douloureuse si elle n’est pas combattue.</p>\n<h3>Bukandas — niveau 4</h3><p>Contractée auprès de certains loups, elle provoque un asthme sévère.</p>\n<h3>Main Bleue (Blue Hand, E Luincam) — niveau 4</h3><p>Transmise par la morsure de la Musaraigne de Mort, cette maladie n’est pas contagieuse. Un échec léger du Jet de Résistance bleuit la peau, impose une pénalité de <strong>−20</strong> à l’Apparence et peut provoquer un ralentissement temporaire de l’activité. Un échec plus grave ajoute des poussées de gros furoncles pouvant réduire fortement l’Apparence et le bonus de Présence, diminuer les points de vie disponibles et provoquer des saignements par le nez et les oreilles, avec un taux d’hémorragie doublé.</p>\n<h3>Grelnixar — niveau 8</h3><p>Associée à la plante Vrel, cette « mort en courant » pousse la victime à courir chaque fois qu’elle en est capable, jusqu’à l’épuisement et éventuellement la mort.</p>\n<h3>Gurth-nu-Fuin — niveau 3</h3><p>Cette infection virale entraîne une mort lente et douloureuse.</p>\n<h3>Igturfas — niveau 5</h3><p>Transmise par certains serpents, elle provoque un affaiblissement intellectuel sévère et réduit le Raisonnement de 20 points tant que l’affection persiste.</p>\n<h3>Jadaras — niveau 2</h3><p>Liée à l’herbe Janar, elle réduit l’Agilité de 5 points.</p>\n<h3>Shutinis — niveau 3</h3><p>Transmise par les insectes Hultif, elle provoque la folie.</p>\n<h3>Vemaak — niveau 7</h3><p>Transmise par certains frelons, elle entraîne une perte de l’audition.</p></section>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "rules-herbs",
+        "collection": "merp-rmu-herb-rules",
+        "contentVersion": 2
+      }
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Herbes et Substances, guide des simples",
+      "pages": [
+        {
+          "name": "Herbes et Substances, guide des simples",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Le Livre des simples</h2>\n<p>Pour qui sait regarder, les terres sauvages sont une vaste apothicairerie. Une petite feuille difficile à repérer peut arrêter une hémorragie, une racine amère briser l’effet d’un poison, tandis qu’une baie mal reconnue suffit parfois à tuer un voyageur. Les guérisseurs, rôdeurs et herboristes apprennent donc moins à « chercher une herbe » qu’à lire un paysage : le froid, l’humidité, la nature du sol, l’altitude et même la proximité de la mer disent quelles plantes ont une chance d’y pousser.</p>\n<h3>Lire le pays</h3><p>Chaque plante possède un climat et un milieu de prédilection. Certaines aiment les forêts de conifères ou les bois mêlés, d’autres les rives d’eau douce, les landes, les hautes montagnes, les glaciers, les marais côtiers, les terres volcaniques ou les profondeurs souterraines. Une plante ne peut être trouvée que dans un environnement qui lui convient. Sa fiche indique désormais ce milieu en toutes lettres, ainsi que la difficulté réelle de la reconnaître et de la récolter.</p>\n<h3>Chercher sans épuiser la terre</h3><p>Dans MERP-RMU, une heure passée à chercher une plante demande une Manœuvre de <strong>Survie</strong> adaptée au biome. <strong>Herboristerie</strong> peut être utilisée comme Compétence Complémentaire : elle représente l’œil qui distingue la bonne feuille de sa cousine inutile, connaît les saisons et sait où regarder.</p><p>Une zone récoltée au cours des six derniers mois impose <strong>−50</strong>. Chaque chercheur supplémentaire apporte <strong>+2</strong>, et chaque tranche de dix heures de recherche infructueuse accorde <strong>+5</strong>. Une <strong>Réussite Absolue</strong> permet de trouver 1 à 5 doses ; une <strong>Réussite</strong>, une dose ; une <strong>Réussite Proche</strong> autorise un nouveau jet pour la même heure à +20. Une Réussite Partielle ou un Échec ne donne rien ; un Échec Absolu ou une Bévue signifie qu’aucune dose ne sera trouvée dans cette zone avant le lendemain.</p>\n<h3>Récolter et préparer</h3><p>La vertu d’une plante dépend souvent autant de sa préparation que de son espèce. Une <strong>infusion ou décoction</strong> devient efficace après passage dans l’eau chaude ; une plante à <strong>ingérer</strong> peut être mangée, mâchée ou bue ; une poudre à <strong>inhaler</strong> agit par les voies respiratoires. Une <strong>application</strong> demande généralement 1 à 10 rounds de préparation avant d’être posée sur la blessure. Une <strong>pâte</strong> peut conserver son efficacité jusqu’à une semaine sur un aliment, un outil ou une arme ; un <strong>liquide</strong> comparable ne reste généralement actif qu’une heure. Une <strong>poudre</strong> est destinée à la nourriture ou à la boisson et ne s’emploie normalement pas sur une arme.</p>\n<h3>Doses, poisons et accoutumance</h3><p>Sauf indication contraire, une seule dose peut produire son effet au cours d’un même round. Les poisons doivent encore vaincre la résistance de leur victime : leur fiche indique leur nature, leur niveau et leurs conséquences.</p><p>Certaines substances créent une dépendance. Leur <strong>Facteur d’Accoutumance (FA)</strong> sert de repère au MJ : après une prise, 1d100 + FA au-delà de 100 signifie que l’utilisateur développe une dépendance. Les prises répétées peuvent renforcer cette dépendance et le manque peut entraîner un sevrage difficile.</p>\n<h3>Une connaissance vivante</h3><p>Les descriptions du catalogue traduisent les anciens codes en indications de voyage : « forêt froide », « lande tempérée », « rivage marin chaud », « plante très difficile à trouver », etc. Les codes d’origine restent conservés dans les données MERP-UI pour les automatisations futures, mais un joueur n’a pas besoin de les déchiffrer pour comprendre où et comment chercher.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Trouver des herbes dans la nature",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Trouver des herbes dans la nature</h2><p>Le climat et le terrain sont toujours la première condition : chercher une plante alpine dans une plaine humide ne donnera rien, quelle que soit la qualité du chercheur. Une fois le lieu approprié trouvé, la difficulté propre à la plante s’applique à la Manœuvre de Survie.</p><p><strong>Une tentative représente une heure.</strong> Herboristerie peut soutenir la recherche comme Compétence Complémentaire. Une zone déjà récoltée récemment impose une pénalité de <strong>−50</strong> ; chaque chercheur supplémentaire accorde un bonus de <strong>+2</strong> ; après dix heures infructueuses, la patience et l’expérience du terrain accordent un bonus de <strong>+5</strong> aux recherches suivantes.</p><ul><li><strong>Réussite Absolue :</strong> 1 à 5 doses.</li><li><strong>Réussite :</strong> 1 dose.</li><li><strong>Réussite Proche :</strong> nouveau jet pour cette heure à +20.</li><li><strong>Réussite Partielle ou Échec :</strong> aucune plante trouvée.</li><li><strong>Échec Absolu ou Bévue :</strong> la zone ne livrera plus cette plante avant le lendemain.</li></ul></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Boissons & Vivres",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Boissons & Vivres</h2><p>Les voyageurs d’Endor emportent bien plus que des rations ordinaires. Certains aliments sont conçus pour supporter des semaines de route ; d’autres portent encore une part du savoir des Eldar ou des Khazâd.</p>\n<h3>Alcool</h3><p>Les alcools varient énormément selon le peuple et la région. L’accoutumance n’est normalement testée que lorsqu’un personnage atteint réellement l’ivresse ; une consommation modérée n’entraîne pas à elle seule de jet de dépendance. Certaines boissons sont toutefois plus fortes ou plus addictives que d’autres.</p>\n<h3>Cram</h3><p>Ce pain de voyage nain, dense et très nourrissant, a un goût marqué de champignon et de poivre. Une tranche d’environ quatre onces constitue une dose et fournit l’équivalent de <strong>cinq jours de nourriture</strong>. Un pain correctement conservé reste consommable pendant environ sept semaines.</p>\n<h3>Lembas (Coimas)</h3><p>Le lembas est le pain de route enchanté des Eldar, dont le secret de fabrication n’est pas vendu. Une ration nourrit une personne pendant une journée et fortifie son corps contre la fatigue, les poisons et les maladies. Les Elfes le donnent aux leurs lorsqu’un long voyage dans les terres sauvages ou un péril grave l’exige ; un mortel ne peut en recevoir que s’il est véritablement ami des Elfes et dans un besoin exceptionnel.</p>\n<h3>Miruvor</h3><p>Ce cordial elfique est préparé dans les terres noldorines et n’est pas une marchandise. Une dose revigore profondément celui qui la boit, soutient sa Constitution et renforce temporairement sa résistance aux maladies et aux poisons.</p>\n<h3>Pandis</h3><p>Cette liqueur est brassée dans les marais du Marais et de Midgewater à partir de l’écorce de [[HERB:herb-delrean-delrian|Delrean]]. Bue en quantité, elle éloigne les insectes et renforce fortement la résistance aux morsures de serpent. L’abus laisse une gueule de bois particulièrement désagréable, souvent accompagnée de teintes verdâtres autour des yeux et de la bouche. Comme pour les autres alcools, les jets d’accoutumance ne commencent qu’à partir de l’ivresse.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Préparations médicinales",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Préparations médicinales</h2><p>Les herbes ne sont pas toujours employées telles qu’elles sont cueillies. Guérisseurs et apothicaires les transforment en baumes, poudres, teintures et mélanges dont la préparation peut concentrer ou modifier les vertus.</p>\n<h3>Baume d’Alambas</h3><p>Préparé à partir d’[[HERB:herb-alambas-spike|Alambas]], ce baume traite jusqu’à quatre pieds carrés de brûlures, quelle que soit leur gravité.</p>\n<h3>Baume d’Aloès</h3><p>Préparé à partir d’[[HERB:herb-aloe-heat-heal|Aloès]], il double la vitesse naturelle de guérison des brûlures et coupures mineures et soigne également 5 points de dégâts provoqués par les brûlures. Il est commun dans le nord-ouest d’Endor.</p>\n<h3>Caranan</h3><p>Ce mélange de plusieurs ingrédients communs de l’ouest, du nord-ouest et du centre d’Endor soigne 2 à 8 points de dégâts et soulage douleur et gonflement. Il ne faut pas dépasser dix doses par jour.</p>\n<h3>Baume de Derrly</h3><p>Cette lotion est fabriquée à partir de [[HERB:herb-delrean-delrian|Delrean]]. Étendue sur la peau, elle repousse les insectes ; ceux-ci doivent vaincre une résistance équivalente à un effet de niveau 7 pour s’approcher à moins de dix pieds.</p>\n<h3>Poussière dorée (Gilder Dust, Ilyalma)</h3><p>Mélange magique de substances rares, cette poudre répare en 1 à 3 minutes les lésions des organes, artères et veines lorsqu’elle est répandue sur la blessure. Elle n’est généralement disponible qu’auprès de guérisseurs elfes et de quelques apothicaires ou alchimistes humains. Elle est aussi connue sous les noms d’Astannûn, Númenasto et Panaglu.</p>\n<h3>Onguent de Cresson Doré</h3><p>Le [[HERB:herb-golden-cress-gold-chute|Cresson Doré]] est séché, broyé puis mélangé à du suif. L’onguent referme et soigne les plaies de chair qui saignent, restaurant 1 à 5 points en 1 à 5 rounds.</p>\n<h3>Harlindar</h3><p>Cette poudre, mêlée à de l’eau puis bue, est utilisée pour prévenir les fausses couches. Elle est composée d’herbes du sud de l’Eriador.</p>\n<h3>Joef</h3><p>Cette poudre inhalée permet à l’utilisateur d’adresser mentalement un appel à un ami conscient qu’il connaît. La portée est de cent pieds multipliés par le niveau de l’utilisateur. Son Facteur d’Accoutumance est particulièrement élevé.</p>\n<h3>Maiana</h3><p>Ce liquide décongestionnant, préparé à partir de plantes des pentes septentrionales des Monts Brumeux, réduit de moitié les symptômes dangereux provoqués par les affections pulmonaires et les maladies respiratoires.</p>\n<h3>Baume de Melem Loza</h3><p>Préparé à partir de [[HERB:herb-melem-loza-balm-vine|Melem Loza]], ce baume double l’effet d’une magie de guérison appliquée à la même blessure ou affection.</p>\n<h3>Baume runique (Rune Salve)</h3><p>Aussi appelé Arkasu, All-heal ou Mrim, ce baume soigne 2 à 12 points, accélère d’environ moitié la fermeture et la guérison des grandes plaies ouvertes, agit comme antiseptique et atténue de moitié les pénalités de douleur causées par des blessures mineures. Il est préparé à partir de plusieurs herbes des plaines de Rhûn.</p>\n<h3>Teinture de Sindiluin</h3><p>Un procédé secret transforme le Sindiluin en une teinture styptique capable d’arrêter toute hémorragie. Les guérisseurs qui connaissent sa préparation en révèlent rarement les détails.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Maladies",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Maladies</h2><p>Les maladies d’Endor peuvent provenir d’un parasite, d’un animal, d’une plante ou d’un agent invisible. Leur niveau sert de référence pour les Jets de Résistance et leur gravité n’est pas toujours proportionnelle à leur apparente banalité.</p>\n<h3>Angurth — niveau 2</h3><p>Transmise par des puces, cette affection entraîne une mort lente et douloureuse si elle n’est pas combattue.</p>\n<h3>Bukandas — niveau 4</h3><p>Contractée auprès de certains loups, elle provoque un asthme sévère.</p>\n<h3>Main Bleue (Blue Hand, E Luincam) — niveau 4</h3><p>Transmise par la morsure de la Musaraigne de Mort, cette maladie n’est pas contagieuse. Un échec léger du Jet de Résistance bleuit la peau, impose une pénalité de <strong>−20</strong> à l’Apparence et peut provoquer un ralentissement temporaire de l’activité. Un échec plus grave ajoute des poussées de gros furoncles pouvant réduire fortement l’Apparence et le bonus de Présence, diminuer les points de vie disponibles et provoquer des saignements par le nez et les oreilles, avec un taux d’hémorragie doublé.</p>\n<h3>Grelnixar — niveau 8</h3><p>Associée à la plante Vrel, cette « mort en courant » pousse la victime à courir chaque fois qu’elle en est capable, jusqu’à l’épuisement et éventuellement la mort.</p>\n<h3>Gurth-nu-Fuin — niveau 3</h3><p>Cette infection virale entraîne une mort lente et douloureuse.</p>\n<h3>Igturfas — niveau 5</h3><p>Transmise par certains serpents, elle provoque un affaiblissement intellectuel sévère et réduit le Raisonnement de 20 points tant que l’affection persiste.</p>\n<h3>Jadaras — niveau 2</h3><p>Liée à l’herbe Janar, elle réduit l’Agilité de 5 points.</p>\n<h3>Shutinis — niveau 3</h3><p>Transmise par les insectes Hultif, elle provoque la folie.</p>\n<h3>Vemaak — niveau 7</h3><p>Transmise par certains frelons, elle entraîne une perte de l’audition.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        }
+      ]
+    },
+    "en": {
+      "name": "Herbs & Substances — Traveller’s Guide",
+      "pages": [
+        {
+          "name": "Herbs & Substances — Traveller’s Guide",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>The Book of Simples</h2>\n<p>For those who know how to look, the wild lands are a vast apothecary. A small leaf that is difficult to spot may stop a hemorrhage, a bitter root may break the effect of a poison, while a berry mistaken for another can sometimes kill a traveler. Healers, rangers, and herbalists therefore learn less to “search for an herb” than to read a landscape: cold, moisture, soil, altitude, and even the nearness of the sea all reveal which plants may grow there.</p>\n<h3>Reading the Land</h3><p>Every plant favors particular climates and environments. Some thrive in coniferous or mixed forests, others on freshwater banks, moors, high mountains, glaciers, warm sea coasts, volcanic ground, or underground. A plant can only be found in a suitable environment. Its entry gives that environment in plain language together with the actual difficulty of recognizing and gathering it.</p>\n<h3>Search Without Exhausting the Land</h3><p>In MERP-RMU, one hour spent searching for a plant calls for a <strong>Survival</strong> Maneuver appropriate to the biome. <strong>Herbalism</strong> may be used as a Complementary Skill: it represents the eye that distinguishes the useful leaf from a worthless cousin, knows the seasons, and knows where to look.</p><p>An area harvested within the last six months imposes <strong>−50</strong>. Each additional searcher provides <strong>+2</strong>, and every ten hours of unsuccessful searching grants <strong>+5</strong>. An <strong>Absolute Success</strong> finds 1–5 doses; a <strong>Success</strong>, one dose; a <strong>Near Success</strong> permits a new roll for the same hour at +20. Partial Success or Failure finds nothing; Absolute Failure or Fumble means no dose can be found in that area until the next day.</p>\n<h3>Gathering and Preparation</h3><p>A plant’s virtue often depends as much on preparation as on species. An <strong>infusion or decoction</strong> becomes effective after steeping in hot water; a substance meant for <strong>ingestion</strong> may be eaten, chewed, or drunk; an <strong>inhaled</strong> powder acts through the respiratory tract. An <strong>application</strong> generally requires 1–10 rounds of preparation before being placed on a wound. A <strong>paste</strong> may remain effective for up to a week on food, a tool, or a weapon; a comparable <strong>liquid</strong> usually remains active for only an hour. A <strong>powder</strong> is intended for food or drink and is not normally used on a weapon.</p>\n<h3>Doses, Poisons, and Addiction</h3><p>Unless stated otherwise, only one dose may produce its effect in a given round. Poisons must still overcome the victim’s resistance; each entry gives their nature, level, and consequences.</p><p>Some substances create dependency. Their <strong>Addiction Factor (AF)</strong> is a guide for the GM: after a dose, 1d100 + AF above 100 means the user develops an addiction. Repeated use may strengthen it, and withdrawal can become difficult.</p>\n<h3>Living Knowledge</h3><p>The catalogue descriptions translate old codes into travel information: “cold forest,” “temperate moor,” “warm sea coast,” “very difficult to find,” and so on. The original codes remain in MERP-UI data for future automation, but players do not need to decipher them to understand where and how to search.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Finding Herbs in the Wild",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Finding Herbs in the Wild</h2><p>Climate and terrain are always the first condition: searching for an alpine plant in a damp lowland will find nothing, regardless of the searcher’s skill. Once suitable ground is found, apply the plant’s own difficulty to the Survival Maneuver.</p><p><strong>One attempt represents one hour.</strong> Herbalism may support the search as a Complementary Skill. An area harvested recently imposes <strong>−50</strong>; each additional searcher grants <strong>+2</strong>; after ten unsuccessful hours, experience with the ground grants <strong>+5</strong> to later searches.</p><ul><li><strong>Absolute Success:</strong> 1–5 doses.</li><li><strong>Success:</strong> 1 dose.</li><li><strong>Near Success:</strong> make another roll for that hour at +20.</li><li><strong>Partial Success or Failure:</strong> no herb found.</li><li><strong>Absolute Failure or Fumble:</strong> that area yields no more of the plant until the next day.</li></ul></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Drinks & Provisions",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Drinks &amp; Provisions</h2><p>Travelers in Endor carry far more than ordinary rations. Some foods are designed to endure weeks on the road; others still preserve part of the lore of the Eldar or the Khazâd.</p>\n<h3>Alcohol</h3><p>Alcoholic drinks vary enormously by people and region. Addiction is normally tested only when a character actually becomes drunk; moderate consumption does not by itself require an addiction roll. Some drinks are nevertheless stronger or more habit-forming than others.</p>\n<h3>Cram</h3><p>This dense and highly nourishing Dwarven travel bread has a strong mushroom-and-pepper flavor. A slice of roughly four ounces counts as one dose and provides the equivalent of <strong>five days of food</strong>. A properly stored loaf remains edible for about seven weeks.</p>\n<h3>Lembas (Coimas)</h3><p>Lembas is the enchanted waybread of the Eldar, whose making is never sold as a commercial secret. One ration feeds one person for a day and strengthens the body against fatigue, poison, and disease. Elves give it to their own when long travel through the wild or grave peril requires it; a mortal receives it only if truly a friend of the Elves and in exceptional need.</p>\n<h3>Miruvor</h3><p>This Elven cordial is prepared in Noldorin lands and is not a trade good. A dose deeply revives the drinker, supports Constitution, and temporarily strengthens resistance to disease and poison.</p>\n<h3>Pandis</h3><p>This liquor is brewed in the marshes of the Marais and Midgewater from the bark of [[HERB:herb-delrean-delrian|Delrean]]. Drunk in quantity, it repels insects and greatly strengthens resistance to snake bites. Abuse causes a particularly unpleasant hangover, often with greenish discoloration around the eyes and mouth. As with other alcohol, addiction checks begin only once drunkenness is reached.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Medicinal Preparations",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Medicinal Preparations</h2><p>Herbs are not always used exactly as gathered. Healers and apothecaries turn them into salves, powders, tinctures, and compounds whose preparation may concentrate or alter their virtues.</p>\n<h3>Alambas Salve</h3><p>Prepared from [[HERB:herb-alambas-spike|Alambas]], this salve treats up to four square feet of burns, whatever their severity.</p>\n<h3>Aloe Salve</h3><p>Prepared from [[HERB:herb-aloe-heat-heal|Aloe]], it doubles the natural healing rate of minor burns and cuts and also heals 5 hits caused by burns. It is common in north-western Endor.</p>\n<h3>Caranan</h3><p>This blend of several common ingredients from western, north-western, and central Endor heals 2–8 hits and relieves pain and swelling. No more than ten doses should be taken in a day.</p>\n<h3>Derrly Salve</h3><p>This lotion is made from [[HERB:herb-delrean-delrian|Delrean]]. Spread on the skin, it repels insects; they must overcome resistance equivalent to a 7th-level effect to approach within ten feet.</p>\n<h3>Gilder Dust (Ilyalma)</h3><p>A magical mixture of rare substances, this powder repairs injuries to organs, arteries, and veins in 1–3 minutes when sprinkled over the wound. It is normally available only from Elven healers and a few Mannish apothecaries or alchemists. It is also known as Astannûn, Númenasto, and Panaglu.</p>\n<h3>Golden Cress Salve</h3><p>[[HERB:herb-golden-cress-gold-chute|Golden Cress]] is dried, ground, and mixed with tallow. The salve closes and heals bleeding flesh wounds, restoring 1–5 hits in 1–5 rounds.</p>\n<h3>Harlindar</h3><p>This powder, mixed with water and drunk, is used to prevent miscarriage. It is made from herbs of southern Eriador.</p>\n<h3>Joef</h3><p>This inhaled powder allows the user to send a mental call to a conscious friend known to them. Range is one hundred feet multiplied by the user’s level. Its Addiction Factor is particularly high.</p>\n<h3>Maiana</h3><p>This decongestant liquid, prepared from plants of the northern slopes of the Misty Mountains, halves the dangerous symptoms caused by pulmonary complaints and respiratory disease.</p>\n<h3>Melem Loza Salve</h3><p>Prepared from [[HERB:herb-melem-loza-balm-vine|Melem Loza]], this salve doubles the effect of healing magic applied to the same wound or ailment.</p>\n<h3>Rune Salve</h3><p>Also called Arkasu, All-heal, or Mrim, this salve heals 2–12 hits, speeds the closing and healing of large open wounds by about half, acts as an antiseptic, and halves pain penalties from minor injuries. It is prepared from several herbs of the plains of Rhûn.</p>\n<h3>Sindiluin Tincture</h3><p>A secret process turns Sindiluin into a styptic tincture capable of stopping any bleeding. Healers who know the preparation seldom reveal its details.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        },
+        {
+          "name": "Diseases",
+          "text": {
+            "content": "<section class=\"fdrmu-journal\"><h2>Diseases</h2><p>Diseases in Endor may come from parasites, animals, plants, or invisible agents. Their level is used as a reference for Resistance Rolls, and their severity is not always proportional to how harmless they appear.</p>\n<h3>Angurth — level 2</h3><p>Spread by fleas, this affliction causes a slow and painful death if not resisted.</p>\n<h3>Bukandas — level 4</h3><p>Contracted from certain wolves, it causes severe asthma.</p>\n<h3>Blue Hand (E Luincam) — level 4</h3><p>Spread by the bite of the Death Shrew, this disease is not contagious. A minor failure on the Resistance Roll turns the skin blue, imposes <strong>−20</strong> to Appearance, and may temporarily slow activity. A more severe failure adds outbreaks of large boils that can greatly reduce Appearance and Presence bonus, reduce available hits, and cause bleeding from the nose and ears, with doubled bleeding rate.</p>\n<h3>Grelnixar — level 8</h3><p>Associated with the Vrel plant, this “running death” compels the victim to run whenever able, eventually causing exhaustion and possibly death.</p>\n<h3>Gurth-nu-Fuin — level 3</h3><p>This viral infection causes a slow and painful death.</p>\n<h3>Igturfas — level 5</h3><p>Spread by certain snakes, it causes severe intellectual impairment and reduces Reasoning by 20 points while the disease persists.</p>\n<h3>Jadaras — level 2</h3><p>Associated with the Janar herb, it reduces Agility by 5 points.</p>\n<h3>Shutinis — level 3</h3><p>Spread by Hultif insects, it causes madness.</p>\n<h3>Vemaak — level 7</h3><p>Spread by certain hornets, it causes loss of hearing.</p></section>"
+          },
+          "title": {
+            "show": false
+          }
+        }
+      ]
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "4 - Herbes et Substances, guide des simples"
+    ],
+    "en": [
+      "4 - Herbs & Substances, Traveller’s Guide"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "rules-04-herbs"
+  ]
+}

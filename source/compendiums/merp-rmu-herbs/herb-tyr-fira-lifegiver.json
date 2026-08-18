@@ -1,0 +1,78 @@
+{
+  "key": "herb-tyr-fira-lifegiver",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "preservation-survie",
+  "document": {
+    "name": "Tyr-fira (Donneuse-de-Vie / Lifegiver)",
+    "type": "herb",
+    "img": "icons/commodities/flowers/flower-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-tyr-fira-lifegiver",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "f-A-9-U",
+        "sourceCost": "2000gp",
+        "sourceCategory": "Préservation & Survie",
+        "utilityGroups": [
+          "Préservation & Survie"
+        ],
+        "poisonType": null,
+        "climateCode": "f",
+        "localeCode": "A",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Tyr-fira (Lifegiver)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "A",
+      "findDifficulty": "Absurd",
+      "form": "Blossom",
+      "prep": "ingest",
+      "season": "",
+      "cost": "2000gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Donne-Vie (Lifegiver)</strong>.</p><p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les hautes zones alpines, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Placée dans la bouche d’un mourant, cette fleur ramène ses blessures au minimum compatible avec la survie et empêche la mort. Une fleur cueillie se conserve environ une semaine.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>",
+      "addictionFactor": 33,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Tyr-fira (Donneuse-de-Vie / Lifegiver)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Donne-Vie (Lifegiver)</strong>.</p><p>Cette fleur se rencontre surtout dans les régions au climat glacial, notamment dans les hautes zones alpines, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste d’une rareté légendaire.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Placée dans la bouche d’un mourant, cette fleur ramène ses blessures au minimum compatible avec la survie et empêche la mort. Une fleur cueillie se conserve environ une semaine.</p><p>Son usage présente un risque très élevé d’accoutumance et doit rester exceptionnel.</p>"
+      }
+    },
+    "en": {
+      "name": "Tyr-fira (Lifegiver)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Lifegiver</strong>.</p><p>This blossom is found chiefly in frigid climates, especially in high alpine zones, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains of legendary rarity.</p><p>To obtain its properties, it is consumed directly.</p><p>Placed in the mouth of a dying person, this flower reduces their wounds to the minimum compatible with survival and prevents death. Once picked, the flower keeps for about one week.</p><p>Its use carries a very high risk of addiction and should remain exceptional.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Préservation & Survie"
+    ],
+    "en": [
+      "Preservation & Survival"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "preservation-survie"
+  ]
+}

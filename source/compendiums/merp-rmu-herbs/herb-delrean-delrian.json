@@ -1,0 +1,78 @@
+{
+  "key": "herb-delrean-delrian",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "remedes-antidotes",
+  "document": {
+    "name": "Delrean (Delrian)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-delrean-delrian",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "c-C-2-U",
+        "sourceCost": "3sp",
+        "sourceCategory": "Remèdes & Antidotes",
+        "utilityGroups": [
+          "Remèdes & Antidotes"
+        ],
+        "poisonType": null,
+        "climateCode": "c",
+        "localeCode": "C",
+        "regionCode": "U",
+        "sourceVariants": [],
+        "sourceName": "Delrean (Delrian)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "C",
+      "findDifficulty": "Easy",
+      "form": "Leaf",
+      "prep": "apply",
+      "season": "",
+      "cost": "3sp",
+      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frottées sur la peau, ces feuilles à l’odeur repoussante tiennent la plupart des insectes à une dizaine de pieds de distance.</p>",
+      "addictionFactor": 1,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Delrean (Delrian)",
+      "system": {
+        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les forêts de conifères, et elle est surtout connue dans l’ensemble d’Endor.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle s’emploie par application directe.</p><p>Frottées sur la peau, ces feuilles à l’odeur repoussante tiennent la plupart des insectes à une dizaine de pieds de distance.</p>"
+      }
+    },
+    "en": {
+      "name": "Delrean (Delrian)",
+      "system": {
+        "notes": "<p>This leaf is found chiefly in cold climates, especially in coniferous forests, and is best known throughout Endor.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is used by direct application.</p><p>Rubbed on the skin, these foul-smelling leaves keep most insects about ten feet away.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Remèdes & Antidotes"
+    ],
+    "en": [
+      "Remedies & Antidotes"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "remedes-antidotes"
+  ]
+}

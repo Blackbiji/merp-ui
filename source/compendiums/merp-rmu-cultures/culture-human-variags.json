@@ -1,0 +1,1352 @@
+{
+  "key": "culture-human-variags",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Variags",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-human-variags",
+        "canonicalKey": "culture-human-variags",
+        "collection": "merp-rmu",
+        "contentVersion": 2,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "availability": {
+          "ages": [
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "3": false,
+            "4": false
+          }
+        },
+        "recommendedSpecializations": {
+          "Animal": [
+            "Horse"
+          ],
+          "Combat Training — Melee Weapons": [
+            "Saber",
+            "Lance",
+            "Axe"
+          ],
+          "Combat Training — Ranged Weapons": [
+            "Composite Bow"
+          ],
+          "Crafting & Vocation": [
+            "Warrior",
+            "Horse Breeder",
+            "Mercenary"
+          ]
+        },
+        "descriptionFormat": "html",
+        "raceCanonicalKey": "race-humans",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "3": {
+            "sourceKey": "culture-human-variags-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Variags",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-human-variags-age-3",
+                  "canonicalKey": "culture-human-variags",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Varadja",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Varadja"
+                      },
+                      {
+                        "name": "Haradaic",
+                        "spoken": 6,
+                        "written": 4,
+                        "nameFr": "Haradaïque"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 4,
+                        "written": 2,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Animal": [
+                      "Horse"
+                    ],
+                    "Combat Training — Melee Weapons": [
+                      "Saber",
+                      "Lance",
+                      "Axe"
+                    ],
+                    "Combat Training — Ranged Weapons": [
+                      "Composite Bow"
+                    ],
+                    "Crafting & Vocation": [
+                      "Warrior",
+                      "Horse Breeder",
+                      "Mercenary"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-humans"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Variags",
+                "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Steppe",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 1
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Variags",
+                "system": {
+                  "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                  "culture": "Variags"
+                }
+              },
+              "en": {
+                "name": "Variags",
+                "system": {
+                  "description": "<h1>Variags</h1>\n<p>The Variags live in Khand, a vast semi-arid plateau south-east of Mordor. They are a distinct human people, sometimes confused with the Haradrim of Far Harad, although they maintain just as many ties with the peoples of the East. Their history is marked by constant warfare, migrations, clan rivalries, and the enduring influence of Mordor.</p>\n<h2>Appearance</h2>\n<p>Variags are of medium height, solid without being massive. Their skin is very dark, often described as grey-black or black. Their hair is straight and black, while their eyes frequently show red or reddish-brown shades. Their life expectancy is relatively short, generally between fifty and seventy years.</p>\n<h2>Endurance and mastery of riding</h2>\n<p>Variags are exceptional riders. They can travel for very long periods on horseback with little rest and are skilled with both horses and camels. Riding is an essential part of their identity, economy, and social status.</p>\n<h2>Khand</h2>\n<p>Khand is a harsh land of open plateaus, dry plains, rocky hills, and roads connecting Mordor, Harad, and the more distant lands of the East. Variags live chiefly from herding and raiding. Livestock, horses, and camels constitute most of their wealth.</p>\n<h2>A life of war</h2>\n<p>War holds a central place in their society. It is a means of acquiring wealth, proof of personal worth, an obligation to the clan, a path to social advancement, and a religious activity. Variags make almost no use of coinage and prefer barter in livestock, mounts, weapons, jewelry, and captured objects.</p>\n<h2>Elite warriors and power</h2>\n<p>Variag society is dominated by elite warriors and a female priesthood. The former control military force, herds, and plunder. Priestesses interpret laws, conduct ceremonies, and legitimize the decisions of chiefs.</p>\n<h2>Family and descent</h2>\n<p>Variags do not practice marriage in the usual sense of western peoples. Women may take several companions, and descent follows the maternal line. A maternal uncle often plays an essential role in raising children and transmitting property.</p>\n<h2>Religion</h2>\n<p>Variag religion rests on a pantheon of cruel and demanding deities. Ceremonies are elaborate, often nocturnal, and sacrifice holds an important place. The most powerful of their gods is the Dark Lord, a distorted representation of Morgoth or Sauron depending on the Age.</p>\n<h2>Temperament</h2>\n<p>Variags are confident, fearless, jealous, abrupt, impulsive, and often cold toward those outside their clan. They respect power, visible courage, victory, wealth in livestock and mounts, the ability to inspire fear, and loyalty to the clan.</p>\n<h2>Clothing, scarification, and ornaments</h2>\n<p>Variags favor black and red. Their clothing is richly decorated even when intended for war. They frequently practice ritual scarification indicating clan, deeds, initiations, and status.</p>\n<p>They wear abundant gold jewelry: rings in ears, nose, cheeks, or lips, bracelets, plates, and chains. Their wealth is carried directly on the body.</p>\n<h2>Armor and weapons</h2>\n<p>They mainly use soft or rigid leather armor, small oval shields, layered leather helmets, and riders' greaves. Common weapons include bola, dagger, javelin, scimitar, short bow, sling, knife, horse bow, and usriev.</p>\n<h2>Way of fighting</h2>\n<p>Variags fight primarily as cavalry. Their tactics rely on rapid charges, night attacks, harassment, ambushes, throwing javelins, mounted archery, and pursuit of fugitives.</p>\n<h2>Languages</h2>\n<p>Varadja is their main language. They also speak Haradaic and, to a lesser extent, Westron. Warriors and priestesses may also learn Logathig, Apysaic, the Black Speech, or Orcish.</p>\n<h2>Professions and training</h2>\n<p>This Culture chiefly favors Fighters, Rangers, Rogues, riders, scouts, mercenaries, raiders, herd guards, priestesses, and war chiefs.</p>\n<h2>Place in character creation</h2>\n<p>Variag Culture suits a character from a mounted clan of Khand, a raiding band, a house linked to a priestess, a troop serving Mordor, a group of herd guards, or a semi-nomadic community.</p>\n<p>The Variags are a people of riders, raiders, and warrior-priestesses, wholly shaped by a society oriented toward war.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Varadja</strong> — Spoken 8 / Written 6</li><li><strong>Haradaic</strong> — Spoken 6 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+                  "culture": "Variags"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-human-variags-age-4",
+            "folderKey": "cultures-age-4-humans",
+            "document": {
+              "name": "Variags",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-human-variags-age-4",
+                  "canonicalKey": "culture-human-variags",
+                  "collection": "merp-rmu",
+                  "contentVersion": 2,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-4",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Varadja",
+                        "spoken": 8,
+                        "written": 6,
+                        "nameFr": "Varadja"
+                      },
+                      {
+                        "name": "Haradaic",
+                        "spoken": 6,
+                        "written": 4,
+                        "nameFr": "Haradaïque"
+                      },
+                      {
+                        "name": "Westron",
+                        "spoken": 4,
+                        "written": 2,
+                        "nameFr": "Westron"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+                    "sourceStatus": "verified"
+                  },
+                  "recommendedSpecializations": {
+                    "Animal": [
+                      "Horse"
+                    ],
+                    "Combat Training — Melee Weapons": [
+                      "Saber",
+                      "Lance",
+                      "Axe"
+                    ],
+                    "Combat Training — Ranged Weapons": [
+                      "Composite Bow"
+                    ],
+                    "Crafting & Vocation": [
+                      "Warrior",
+                      "Horse Breeder",
+                      "Mercenary"
+                    ]
+                  },
+                  "descriptionFormat": "html",
+                  "raceCanonicalKey": "race-humans"
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Variags",
+                "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Steppe",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 10,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 1
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Variags",
+                "system": {
+                  "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+                  "culture": "Variags"
+                }
+              },
+              "en": {
+                "name": "Variags",
+                "system": {
+                  "description": "<h1>Variags</h1>\n<p>The Variags live in Khand, a vast semi-arid plateau south-east of Mordor. They are a distinct human people, sometimes confused with the Haradrim of Far Harad, although they maintain just as many ties with the peoples of the East. Their history is marked by constant warfare, migrations, clan rivalries, and the enduring influence of Mordor.</p>\n<h2>Appearance</h2>\n<p>Variags are of medium height, solid without being massive. Their skin is very dark, often described as grey-black or black. Their hair is straight and black, while their eyes frequently show red or reddish-brown shades. Their life expectancy is relatively short, generally between fifty and seventy years.</p>\n<h2>Endurance and mastery of riding</h2>\n<p>Variags are exceptional riders. They can travel for very long periods on horseback with little rest and are skilled with both horses and camels. Riding is an essential part of their identity, economy, and social status.</p>\n<h2>Khand</h2>\n<p>Khand is a harsh land of open plateaus, dry plains, rocky hills, and roads connecting Mordor, Harad, and the more distant lands of the East. Variags live chiefly from herding and raiding. Livestock, horses, and camels constitute most of their wealth.</p>\n<h2>A life of war</h2>\n<p>War holds a central place in their society. It is a means of acquiring wealth, proof of personal worth, an obligation to the clan, a path to social advancement, and a religious activity. Variags make almost no use of coinage and prefer barter in livestock, mounts, weapons, jewelry, and captured objects.</p>\n<h2>Elite warriors and power</h2>\n<p>Variag society is dominated by elite warriors and a female priesthood. The former control military force, herds, and plunder. Priestesses interpret laws, conduct ceremonies, and legitimize the decisions of chiefs.</p>\n<h2>Family and descent</h2>\n<p>Variags do not practice marriage in the usual sense of western peoples. Women may take several companions, and descent follows the maternal line. A maternal uncle often plays an essential role in raising children and transmitting property.</p>\n<h2>Religion</h2>\n<p>Variag religion rests on a pantheon of cruel and demanding deities. Ceremonies are elaborate, often nocturnal, and sacrifice holds an important place. The most powerful of their gods is the Dark Lord, a distorted representation of Morgoth or Sauron depending on the Age.</p>\n<h2>Temperament</h2>\n<p>Variags are confident, fearless, jealous, abrupt, impulsive, and often cold toward those outside their clan. They respect power, visible courage, victory, wealth in livestock and mounts, the ability to inspire fear, and loyalty to the clan.</p>\n<h2>Clothing, scarification, and ornaments</h2>\n<p>Variags favor black and red. Their clothing is richly decorated even when intended for war. They frequently practice ritual scarification indicating clan, deeds, initiations, and status.</p>\n<p>They wear abundant gold jewelry: rings in ears, nose, cheeks, or lips, bracelets, plates, and chains. Their wealth is carried directly on the body.</p>\n<h2>Armor and weapons</h2>\n<p>They mainly use soft or rigid leather armor, small oval shields, layered leather helmets, and riders' greaves. Common weapons include bola, dagger, javelin, scimitar, short bow, sling, knife, horse bow, and usriev.</p>\n<h2>Way of fighting</h2>\n<p>Variags fight primarily as cavalry. Their tactics rely on rapid charges, night attacks, harassment, ambushes, throwing javelins, mounted archery, and pursuit of fugitives.</p>\n<h2>Languages</h2>\n<p>Varadja is their main language. They also speak Haradaic and, to a lesser extent, Westron. Warriors and priestesses may also learn Logathig, Apysaic, the Black Speech, or Orcish.</p>\n<h2>Professions and training</h2>\n<p>This Culture chiefly favors Fighters, Rangers, Rogues, riders, scouts, mercenaries, raiders, herd guards, priestesses, and war chiefs.</p>\n<h2>Place in character creation</h2>\n<p>Variag Culture suits a character from a mounted clan of Khand, a raiding band, a house linked to a priestess, a troop serving Mordor, a group of herd guards, or a semi-nomadic community.</p>\n<p>The Variags are a people of riders, raiders, and warrior-priestesses, wholly shaped by a society oriented toward war.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Varadja</strong> — Spoken 8 / Written 6</li><li><strong>Haradaic</strong> — Spoken 6 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+                  "culture": "Variags"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Variags",
+      "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 6,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Steppe",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 10,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 1
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Variags",
+      "system": {
+        "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+        "culture": "Variags"
+      }
+    },
+    "en": {
+      "name": "Variags",
+      "system": {
+        "description": "<h1>Variags</h1>\n<p>The Variags live in Khand, a vast semi-arid plateau south-east of Mordor. They are a distinct human people, sometimes confused with the Haradrim of Far Harad, although they maintain just as many ties with the peoples of the East. Their history is marked by constant warfare, migrations, clan rivalries, and the enduring influence of Mordor.</p>\n<h2>Appearance</h2>\n<p>Variags are of medium height, solid without being massive. Their skin is very dark, often described as grey-black or black. Their hair is straight and black, while their eyes frequently show red or reddish-brown shades. Their life expectancy is relatively short, generally between fifty and seventy years.</p>\n<h2>Endurance and mastery of riding</h2>\n<p>Variags are exceptional riders. They can travel for very long periods on horseback with little rest and are skilled with both horses and camels. Riding is an essential part of their identity, economy, and social status.</p>\n<h2>Khand</h2>\n<p>Khand is a harsh land of open plateaus, dry plains, rocky hills, and roads connecting Mordor, Harad, and the more distant lands of the East. Variags live chiefly from herding and raiding. Livestock, horses, and camels constitute most of their wealth.</p>\n<h2>A life of war</h2>\n<p>War holds a central place in their society. It is a means of acquiring wealth, proof of personal worth, an obligation to the clan, a path to social advancement, and a religious activity. Variags make almost no use of coinage and prefer barter in livestock, mounts, weapons, jewelry, and captured objects.</p>\n<h2>Elite warriors and power</h2>\n<p>Variag society is dominated by elite warriors and a female priesthood. The former control military force, herds, and plunder. Priestesses interpret laws, conduct ceremonies, and legitimize the decisions of chiefs.</p>\n<h2>Family and descent</h2>\n<p>Variags do not practice marriage in the usual sense of western peoples. Women may take several companions, and descent follows the maternal line. A maternal uncle often plays an essential role in raising children and transmitting property.</p>\n<h2>Religion</h2>\n<p>Variag religion rests on a pantheon of cruel and demanding deities. Ceremonies are elaborate, often nocturnal, and sacrifice holds an important place. The most powerful of their gods is the Dark Lord, a distorted representation of Morgoth or Sauron depending on the Age.</p>\n<h2>Temperament</h2>\n<p>Variags are confident, fearless, jealous, abrupt, impulsive, and often cold toward those outside their clan. They respect power, visible courage, victory, wealth in livestock and mounts, the ability to inspire fear, and loyalty to the clan.</p>\n<h2>Clothing, scarification, and ornaments</h2>\n<p>Variags favor black and red. Their clothing is richly decorated even when intended for war. They frequently practice ritual scarification indicating clan, deeds, initiations, and status.</p>\n<p>They wear abundant gold jewelry: rings in ears, nose, cheeks, or lips, bracelets, plates, and chains. Their wealth is carried directly on the body.</p>\n<h2>Armor and weapons</h2>\n<p>They mainly use soft or rigid leather armor, small oval shields, layered leather helmets, and riders' greaves. Common weapons include bola, dagger, javelin, scimitar, short bow, sling, knife, horse bow, and usriev.</p>\n<h2>Way of fighting</h2>\n<p>Variags fight primarily as cavalry. Their tactics rely on rapid charges, night attacks, harassment, ambushes, throwing javelins, mounted archery, and pursuit of fugitives.</p>\n<h2>Languages</h2>\n<p>Varadja is their main language. They also speak Haradaic and, to a lesser extent, Westron. Warriors and priestesses may also learn Logathig, Apysaic, the Black Speech, or Orcish.</p>\n<h2>Professions and training</h2>\n<p>This Culture chiefly favors Fighters, Rangers, Rogues, riders, scouts, mercenaries, raiders, herd guards, priestesses, and war chiefs.</p>\n<h2>Place in character creation</h2>\n<p>Variag Culture suits a character from a mounted clan of Khand, a raiding band, a house linked to a priestess, a troop serving Mordor, a group of herd guards, or a semi-nomadic community.</p>\n<p>The Variags are a people of riders, raiders, and warrior-priestesses, wholly shaped by a society oriented toward war.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Varadja</strong> — Spoken 8 / Written 6</li><li><strong>Haradaic</strong> — Spoken 6 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+        "culture": "Variags"
+      }
+    }
+  },
+  "ageVariants": {
+    "3": {
+      "sourceKey": "culture-human-variags-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Variags",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-human-variags-age-3",
+            "canonicalKey": "culture-human-variags",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Varadja",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Varadja"
+                },
+                {
+                  "name": "Haradaic",
+                  "spoken": 6,
+                  "written": 4,
+                  "nameFr": "Haradaïque"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 4,
+                  "written": 2,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Animal": [
+                "Horse"
+              ],
+              "Combat Training — Melee Weapons": [
+                "Saber",
+                "Lance",
+                "Axe"
+              ],
+              "Combat Training — Ranged Weapons": [
+                "Composite Bow"
+              ],
+              "Crafting & Vocation": [
+                "Warrior",
+                "Horse Breeder",
+                "Mercenary"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-humans"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Variags",
+          "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Steppe",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 1
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Variags",
+          "system": {
+            "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+            "culture": "Variags"
+          }
+        },
+        "en": {
+          "name": "Variags",
+          "system": {
+            "description": "<h1>Variags</h1>\n<p>The Variags live in Khand, a vast semi-arid plateau south-east of Mordor. They are a distinct human people, sometimes confused with the Haradrim of Far Harad, although they maintain just as many ties with the peoples of the East. Their history is marked by constant warfare, migrations, clan rivalries, and the enduring influence of Mordor.</p>\n<h2>Appearance</h2>\n<p>Variags are of medium height, solid without being massive. Their skin is very dark, often described as grey-black or black. Their hair is straight and black, while their eyes frequently show red or reddish-brown shades. Their life expectancy is relatively short, generally between fifty and seventy years.</p>\n<h2>Endurance and mastery of riding</h2>\n<p>Variags are exceptional riders. They can travel for very long periods on horseback with little rest and are skilled with both horses and camels. Riding is an essential part of their identity, economy, and social status.</p>\n<h2>Khand</h2>\n<p>Khand is a harsh land of open plateaus, dry plains, rocky hills, and roads connecting Mordor, Harad, and the more distant lands of the East. Variags live chiefly from herding and raiding. Livestock, horses, and camels constitute most of their wealth.</p>\n<h2>A life of war</h2>\n<p>War holds a central place in their society. It is a means of acquiring wealth, proof of personal worth, an obligation to the clan, a path to social advancement, and a religious activity. Variags make almost no use of coinage and prefer barter in livestock, mounts, weapons, jewelry, and captured objects.</p>\n<h2>Elite warriors and power</h2>\n<p>Variag society is dominated by elite warriors and a female priesthood. The former control military force, herds, and plunder. Priestesses interpret laws, conduct ceremonies, and legitimize the decisions of chiefs.</p>\n<h2>Family and descent</h2>\n<p>Variags do not practice marriage in the usual sense of western peoples. Women may take several companions, and descent follows the maternal line. A maternal uncle often plays an essential role in raising children and transmitting property.</p>\n<h2>Religion</h2>\n<p>Variag religion rests on a pantheon of cruel and demanding deities. Ceremonies are elaborate, often nocturnal, and sacrifice holds an important place. The most powerful of their gods is the Dark Lord, a distorted representation of Morgoth or Sauron depending on the Age.</p>\n<h2>Temperament</h2>\n<p>Variags are confident, fearless, jealous, abrupt, impulsive, and often cold toward those outside their clan. They respect power, visible courage, victory, wealth in livestock and mounts, the ability to inspire fear, and loyalty to the clan.</p>\n<h2>Clothing, scarification, and ornaments</h2>\n<p>Variags favor black and red. Their clothing is richly decorated even when intended for war. They frequently practice ritual scarification indicating clan, deeds, initiations, and status.</p>\n<p>They wear abundant gold jewelry: rings in ears, nose, cheeks, or lips, bracelets, plates, and chains. Their wealth is carried directly on the body.</p>\n<h2>Armor and weapons</h2>\n<p>They mainly use soft or rigid leather armor, small oval shields, layered leather helmets, and riders' greaves. Common weapons include bola, dagger, javelin, scimitar, short bow, sling, knife, horse bow, and usriev.</p>\n<h2>Way of fighting</h2>\n<p>Variags fight primarily as cavalry. Their tactics rely on rapid charges, night attacks, harassment, ambushes, throwing javelins, mounted archery, and pursuit of fugitives.</p>\n<h2>Languages</h2>\n<p>Varadja is their main language. They also speak Haradaic and, to a lesser extent, Westron. Warriors and priestesses may also learn Logathig, Apysaic, the Black Speech, or Orcish.</p>\n<h2>Professions and training</h2>\n<p>This Culture chiefly favors Fighters, Rangers, Rogues, riders, scouts, mercenaries, raiders, herd guards, priestesses, and war chiefs.</p>\n<h2>Place in character creation</h2>\n<p>Variag Culture suits a character from a mounted clan of Khand, a raiding band, a house linked to a priestess, a troop serving Mordor, a group of herd guards, or a semi-nomadic community.</p>\n<p>The Variags are a people of riders, raiders, and warrior-priestesses, wholly shaped by a society oriented toward war.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Varadja</strong> — Spoken 8 / Written 6</li><li><strong>Haradaic</strong> — Spoken 6 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+            "culture": "Variags"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-human-variags-age-4",
+      "folderKey": "cultures-age-4-humans",
+      "document": {
+        "name": "Variags",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-human-variags-age-4",
+            "canonicalKey": "culture-human-variags",
+            "collection": "merp-rmu",
+            "contentVersion": 2,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-4",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "languages": {
+              "starting": [
+                {
+                  "name": "Varadja",
+                  "spoken": 8,
+                  "written": 6,
+                  "nameFr": "Varadja"
+                },
+                {
+                  "name": "Haradaic",
+                  "spoken": 6,
+                  "written": 4,
+                  "nameFr": "Haradaïque"
+                },
+                {
+                  "name": "Westron",
+                  "spoken": 4,
+                  "written": 2,
+                  "nameFr": "Westron"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
+              "sourceStatus": "verified"
+            },
+            "recommendedSpecializations": {
+              "Animal": [
+                "Horse"
+              ],
+              "Combat Training — Melee Weapons": [
+                "Saber",
+                "Lance",
+                "Axe"
+              ],
+              "Combat Training — Ranged Weapons": [
+                "Composite Bow"
+              ],
+              "Crafting & Vocation": [
+                "Warrior",
+                "Horse Breeder",
+                "Mercenary"
+              ]
+            },
+            "descriptionFormat": "html",
+            "raceCanonicalKey": "race-humans"
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Variags",
+          "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Steppe",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 10,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 1
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Variags",
+          "system": {
+            "description": "<h1>Variags</h1>\n<p>Les Variags vivent dans le Khand, vaste plateau semi-aride situé au sud-est du Mordor. Ils forment un peuple humain distinct, parfois confondu avec les Haradrim du Lointain Harad, bien qu’ils entretiennent autant de liens avec les peuples de l’Est. Leur histoire est marquée par les guerres incessantes, les migrations, les rivalités claniques et l’influence durable du Mordor.</p>\n<h2>Apparence</h2>\n<p>Les Variags sont de taille moyenne, solides sans être massifs. Leur peau est très sombre, souvent décrite comme gris-noir ou noire. Leurs cheveux sont droits et noirs, tandis que leurs yeux présentent fréquemment des nuances rouges ou brun rougeâtre. Leur espérance de vie est relativement courte, généralement comprise entre cinquante et soixante-dix ans.</p>\n<h2>Endurance et maîtrise de la monte</h2>\n<p>Les Variags sont des cavaliers exceptionnels. Ils peuvent voyager pendant de très longues périodes à cheval avec peu de repos et savent manier aussi bien les chevaux que les chameaux. L’équitation constitue une part essentielle de leur identité, de leur économie et de leur statut social.</p>\n<h2>Le Khand</h2>\n<p>Le Khand est une terre rude, faite de plateaux ouverts, de plaines sèches, de collines rocheuses et de routes reliant le Mordor, le Harad et les contrées plus lointaines de l’Est. Les Variags vivent principalement de l’élevage et du pillage. Le bétail, les chevaux et les chameaux représentent l’essentiel de leur richesse.</p>\n<h2>Une vie de guerre</h2>\n<p>La guerre occupe une place centrale dans leur société. Elle est un moyen d’acquérir des richesses, une preuve de valeur personnelle, une obligation envers le clan, une voie d’ascension sociale et une activité religieuse. Les Variags ne reconnaissent pratiquement pas l’usage de la monnaie et préfèrent le troc en bétail, montures, armes, bijoux et objets capturés.</p>\n<h2>Guerriers d’élite et pouvoir</h2>\n<p>La société variag est dominée par les guerriers d’élite et le sacerdoce féminin. Les premiers contrôlent la force militaire, les troupeaux et le butin. Les prêtresses interprètent les lois, conduisent les cérémonies et légitiment les décisions des chefs.</p>\n<h2>Famille et filiation</h2>\n<p>Les Variags ne pratiquent pas le mariage au sens habituel des peuples de l’Ouest. Les femmes peuvent prendre plusieurs compagnons, et la filiation suit la lignée maternelle. L’oncle maternel joue souvent un rôle essentiel dans l’éducation des enfants et la transmission des biens.</p>\n<h2>Religion</h2>\n<p>La religion variag repose sur un panthéon de divinités cruelles et exigeantes. Les cérémonies sont élaborées, souvent nocturnes, et les sacrifices y tiennent une place importante. La plus puissante de leurs divinités est le Seigneur des Ténèbres, représentation déformée de Morgoth ou de Sauron selon les époques.</p>\n<h2>Tempérament</h2>\n<p>Les Variags sont confiants, intrépides, jaloux, abrupts, impulsifs et souvent froids envers ceux qui ne font pas partie de leur clan. Ils respectent la puissance, le courage visible, la victoire, la richesse en bétail et en montures, la capacité à inspirer la peur et la fidélité au clan.</p>\n<h2>Vêtements, scarifications et parures</h2>\n<p>Les Variags privilégient le noir et le rouge. Leurs vêtements sont richement décorés, même lorsqu’ils sont destinés à la guerre. Ils pratiquent fréquemment des scarifications rituelles indiquant le clan, les exploits, les initiations et le statut.</p>\n<p>Ils portent de nombreux bijoux d’or : anneaux aux oreilles, au nez, aux joues ou aux lèvres, bracelets, plaques et chaînes. Leur richesse se transporte directement sur le corps.</p>\n<h2>Armures et armes</h2>\n<p>Ils utilisent principalement des armures de cuir souple ou rigide, des petits boucliers ovales, des casques en couches de cuir et des grèves de cavalier. Leurs armes courantes comprennent la bola, la dague, le javelot, le cimeterre, l’arc court, la fronde, le couteau, l’arc de cavalerie et l’usriev.</p>\n<h2>Manière de combattre</h2>\n<p>Les Variags combattent principalement en cavalerie. Leur tactique repose sur les charges rapides, les attaques nocturnes, le harcèlement, les embuscades, le lancer de javelots, le tir monté et la poursuite des fuyards.</p>\n<h2>Langues</h2>\n<p>Le varadja est leur langue principale. Ils parlent également le haradaïque et, dans une moindre mesure, le westron. Les guerriers et prêtresses peuvent aussi apprendre le logathig, l’apysaïque, le noir parler ou l’orquien.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise surtout les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, mercenaires, pillards, gardes de troupeaux, prêtresses et chefs de guerre.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture variag convient à un personnage issu d’un clan de cavaliers du Khand, d’une bande de pillards, d’une maison liée à une prêtresse, d’une troupe au service du Mordor, d’un groupe de gardiens de troupeaux ou d’une communauté semi-nomade.</p>\n<p>Les Variags sont un peuple de cavaliers, de pillards et de prêtresses guerrières, entièrement façonné par une société tournée vers la guerre.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Varadja</strong> — Parlée 8 / Écrite 6</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 4</li><li><strong>Westron</strong> — Parlée 4 / Écrite 2</li></ul></section>",
+            "culture": "Variags"
+          }
+        },
+        "en": {
+          "name": "Variags",
+          "system": {
+            "description": "<h1>Variags</h1>\n<p>The Variags live in Khand, a vast semi-arid plateau south-east of Mordor. They are a distinct human people, sometimes confused with the Haradrim of Far Harad, although they maintain just as many ties with the peoples of the East. Their history is marked by constant warfare, migrations, clan rivalries, and the enduring influence of Mordor.</p>\n<h2>Appearance</h2>\n<p>Variags are of medium height, solid without being massive. Their skin is very dark, often described as grey-black or black. Their hair is straight and black, while their eyes frequently show red or reddish-brown shades. Their life expectancy is relatively short, generally between fifty and seventy years.</p>\n<h2>Endurance and mastery of riding</h2>\n<p>Variags are exceptional riders. They can travel for very long periods on horseback with little rest and are skilled with both horses and camels. Riding is an essential part of their identity, economy, and social status.</p>\n<h2>Khand</h2>\n<p>Khand is a harsh land of open plateaus, dry plains, rocky hills, and roads connecting Mordor, Harad, and the more distant lands of the East. Variags live chiefly from herding and raiding. Livestock, horses, and camels constitute most of their wealth.</p>\n<h2>A life of war</h2>\n<p>War holds a central place in their society. It is a means of acquiring wealth, proof of personal worth, an obligation to the clan, a path to social advancement, and a religious activity. Variags make almost no use of coinage and prefer barter in livestock, mounts, weapons, jewelry, and captured objects.</p>\n<h2>Elite warriors and power</h2>\n<p>Variag society is dominated by elite warriors and a female priesthood. The former control military force, herds, and plunder. Priestesses interpret laws, conduct ceremonies, and legitimize the decisions of chiefs.</p>\n<h2>Family and descent</h2>\n<p>Variags do not practice marriage in the usual sense of western peoples. Women may take several companions, and descent follows the maternal line. A maternal uncle often plays an essential role in raising children and transmitting property.</p>\n<h2>Religion</h2>\n<p>Variag religion rests on a pantheon of cruel and demanding deities. Ceremonies are elaborate, often nocturnal, and sacrifice holds an important place. The most powerful of their gods is the Dark Lord, a distorted representation of Morgoth or Sauron depending on the Age.</p>\n<h2>Temperament</h2>\n<p>Variags are confident, fearless, jealous, abrupt, impulsive, and often cold toward those outside their clan. They respect power, visible courage, victory, wealth in livestock and mounts, the ability to inspire fear, and loyalty to the clan.</p>\n<h2>Clothing, scarification, and ornaments</h2>\n<p>Variags favor black and red. Their clothing is richly decorated even when intended for war. They frequently practice ritual scarification indicating clan, deeds, initiations, and status.</p>\n<p>They wear abundant gold jewelry: rings in ears, nose, cheeks, or lips, bracelets, plates, and chains. Their wealth is carried directly on the body.</p>\n<h2>Armor and weapons</h2>\n<p>They mainly use soft or rigid leather armor, small oval shields, layered leather helmets, and riders' greaves. Common weapons include bola, dagger, javelin, scimitar, short bow, sling, knife, horse bow, and usriev.</p>\n<h2>Way of fighting</h2>\n<p>Variags fight primarily as cavalry. Their tactics rely on rapid charges, night attacks, harassment, ambushes, throwing javelins, mounted archery, and pursuit of fugitives.</p>\n<h2>Languages</h2>\n<p>Varadja is their main language. They also speak Haradaic and, to a lesser extent, Westron. Warriors and priestesses may also learn Logathig, Apysaic, the Black Speech, or Orcish.</p>\n<h2>Professions and training</h2>\n<p>This Culture chiefly favors Fighters, Rangers, Rogues, riders, scouts, mercenaries, raiders, herd guards, priestesses, and war chiefs.</p>\n<h2>Place in character creation</h2>\n<p>Variag Culture suits a character from a mounted clan of Khand, a raiding band, a house linked to a priestess, a troop serving Mordor, a group of herd guards, or a semi-nomadic community.</p>\n<p>The Variags are a people of riders, raiders, and warrior-priestesses, wholly shaped by a society oriented toward war.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Varadja</strong> — Spoken 8 / Written 6</li><li><strong>Haradaic</strong> — Spoken 6 / Written 4</li><li><strong>Westron</strong> — Spoken 4 / Written 2</li></ul></section>",
+            "culture": "Variags"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

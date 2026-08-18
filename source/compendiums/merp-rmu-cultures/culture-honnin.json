@@ -1,0 +1,2226 @@
+{
+  "key": "culture-honnin",
+  "sourceFile": "data/merp-rmu/khazad.json",
+  "folderKey": null,
+  "document": {
+    "name": "Honnin — Suzamatu",
+    "type": "culture",
+    "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "culture-honnin",
+        "canonicalKey": "culture-honnin",
+        "collection": "merp-rmu",
+        "contentVersion": 1,
+        "source": {
+          "type": "merp-rmss-to-rmu-conversion",
+          "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+        },
+        "raceCanonicalKey": "race-humans",
+        "availability": {
+          "ages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "restrictedByAge": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        },
+        "descriptionFormat": "html",
+        "compendiumCanonical": true,
+        "ageVariants": {
+          "1": {
+            "sourceKey": "culture-honnin-age-1",
+            "folderKey": "cultures-age-1-humans",
+            "document": {
+              "name": "Honnin — Suzamatu",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-honnin-age-1",
+                  "canonicalKey": "culture-honnin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-1",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 1,
+                    "ageLabel": "Premier Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Honnin",
+                        "spoken": 8,
+                        "written": 0,
+                        "nameFr": "Honnin"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+                    "sourceStatus": "verified",
+                    "sourceNoteFr": "Le profil RMSS/RMFRP donne explicitement le Honnin S8/W0.",
+                    "sourceNoteEn": "The RMSS/RMFRP profile explicitly gives Honnin S8/W0."
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Honnin — Suzamatu",
+                "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              },
+              "en": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              }
+            }
+          },
+          "2": {
+            "sourceKey": "culture-honnin-age-2",
+            "folderKey": "cultures-age-2-humans",
+            "document": {
+              "name": "Honnin — Suzamatu",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-honnin-age-2",
+                  "canonicalKey": "culture-honnin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-2",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 2,
+                    "ageLabel": "Deuxième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Honnin",
+                        "spoken": 8,
+                        "written": 0,
+                        "nameFr": "Honnin"
+                      },
+                      {
+                        "name": "Apysaic",
+                        "spoken": 6,
+                        "written": 4,
+                        "nameFr": "Apysaïque",
+                        "inference": true
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+                    "sourceStatus": "contextual-inference",
+                    "sourceNoteFr": "Le Honnin S8/W0 est explicite. L’Apysaïque S6/W4 est une inférence MERP-RMU fondée sur la cohabitation prolongée et harmonieuse des Honnin avec les peuples apysaïques au Deuxième Âge ; aucun rang apysaïque n’est imprimé dans le profil.",
+                    "sourceNoteEn": "Honnin S8/W0 is explicit. Apysaic S6/W4 is a MERP-RMU inference based on the long, peaceful coexistence of Honnin and Apysaic peoples in the Second Age; the profile itself does not print Apysaic ranks."
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Honnin — Suzamatu",
+                "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 6 / Écrite 4 <em>(inférence MERP-RMU)</em></li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 6 / Écrite 4 <em>(inférence MERP-RMU)</em></li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              },
+              "en": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4 <em>(MERP-RMU inference)</em></li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              }
+            }
+          },
+          "3": {
+            "sourceKey": "culture-honnin-age-3",
+            "folderKey": "cultures-age-3-humans",
+            "document": {
+              "name": "Honnin — Suzamatu",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-honnin-age-3",
+                  "canonicalKey": "culture-honnin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-3",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 3,
+                    "ageLabel": "Troisième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Honnin",
+                        "spoken": 8,
+                        "written": 0,
+                        "nameFr": "Honnin"
+                      },
+                      {
+                        "name": "Apysaic",
+                        "spoken": 4,
+                        "written": 2,
+                        "nameFr": "Apysaïque",
+                        "inference": true
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+                    "sourceStatus": "contextual-inference",
+                    "sourceNoteFr": "Le Honnin S8/W0 reste la seule langue explicitement chiffrée. L’Apysaïque S4/W2 est une inférence MERP-RMU représentant la survivance de plusieurs siècles de contacts avec les Apysani avant l’isolement progressif des Honnin au Troisième Âge.",
+                    "sourceNoteEn": "Honnin S8/W0 remains the only explicitly ranked language. Apysaic S4/W2 is a MERP-RMU inference representing the survival of centuries of contact with the Apysani before the Honnin became increasingly isolated in the Third Age."
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Honnin — Suzamatu",
+                "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 4 / Écrite 2 <em>(inférence MERP-RMU)</em></li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 4 / Écrite 2 <em>(inférence MERP-RMU)</em></li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              },
+              "en": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li><li><strong>Apysaic</strong> — Spoken 4 / Written 2 <em>(MERP-RMU inference)</em></li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              }
+            }
+          },
+          "4": {
+            "sourceKey": "culture-honnin-age-4",
+            "folderKey": "cultures-age-4-humans",
+            "document": {
+              "name": "Honnin — Suzamatu",
+              "type": "culture",
+              "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+              "effects": [],
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "merp-ui": {
+                  "key": "culture-honnin-age-4",
+                  "canonicalKey": "culture-honnin",
+                  "collection": "merp-rmu",
+                  "contentVersion": 1,
+                  "source": {
+                    "type": "merp-rmss-to-rmu-conversion",
+                    "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+                  },
+                  "raceKey": "race-humans-age-4",
+                  "raceCanonicalKey": "race-humans",
+                  "availability": {
+                    "age": 4,
+                    "ageLabel": "Quatrième Âge",
+                    "restricted": false
+                  },
+                  "descriptionFormat": "html",
+                  "languages": {
+                    "starting": [
+                      {
+                        "name": "Honnin",
+                        "spoken": 8,
+                        "written": 0,
+                        "nameFr": "Honnin"
+                      }
+                    ],
+                    "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+                    "sourceStatus": "verified",
+                    "sourceNoteFr": "Par prudence, le Quatrième Âge conserve uniquement le Honnin S8/W0 explicitement documenté.",
+                    "sourceNoteEn": "Conservatively, the Fourth Age retains only the explicitly documented Honnin S8/W0."
+                  }
+                }
+              },
+              "system": {
+                "book": "MERP-RMU",
+                "table": "Conversion RMSS/RMFRP → RMU",
+                "culture": "Honnin — Suzamatu",
+                "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+                "cultureRanks": [
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Animal Handling",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Animal",
+                    "skillName": "Riding",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Perception",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Awareness",
+                    "skillName": "Tracking",
+                    "ranks": 5
+                  },
+                  {
+                    "skillCategory": "Battle Expertise",
+                    "skillName": "Maneuvering in Armor",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Body Development",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Brawn",
+                    "skillName": "Weight Training",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Unarmed",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Melee Weapons",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Combat Training",
+                    "skillGroup": "Ranged Weapons",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 3,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Crafting & Vocation",
+                    "ranks": 5,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Navigation",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Piloting",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Environmental",
+                    "skillName": "Survival",
+                    "specialization": "Forest",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Acrobatics",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Gymnastic",
+                    "skillName": "Jumping",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Languages",
+                    "ranks": 6,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Own",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Region Lore",
+                    "specialization": "Neighboring",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Religion/Philosophy",
+                    "ranks": 4,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillGroup": "Other Lores",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Herbalism",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Medical",
+                    "skillName": "Medicine",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Climbing",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Running",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Movement",
+                    "skillName": "Swimming",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Influence",
+                    "ranks": 2,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Social Awareness",
+                    "ranks": 2
+                  },
+                  {
+                    "skillCategory": "Social",
+                    "skillName": "Trading",
+                    "ranks": 0
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Concealment",
+                    "ranks": 4
+                  },
+                  {
+                    "skillCategory": "Subterfuge",
+                    "skillName": "Stalking",
+                    "ranks": 4
+                  }
+                ]
+              }
+            },
+            "localizations": {
+              "fr": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              },
+              "en": {
+                "name": "Honnin — Suzamatu",
+                "system": {
+                  "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li></ul></section>",
+                  "culture": "Honnin — Suzamatu"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "table": "Conversion RMSS/RMFRP → RMU",
+      "culture": "Honnin — Suzamatu",
+      "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+      "cultureRanks": [
+        {
+          "skillCategory": "Animal",
+          "skillName": "Animal Handling",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Animal",
+          "skillName": "Riding",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Perception",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Awareness",
+          "skillName": "Tracking",
+          "ranks": 5
+        },
+        {
+          "skillCategory": "Battle Expertise",
+          "skillName": "Maneuvering in Armor",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Body Development",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Brawn",
+          "skillName": "Weight Training",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Unarmed",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Melee Weapons",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Combat Training",
+          "skillGroup": "Ranged Weapons",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 3,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Crafting & Vocation",
+          "ranks": 5,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Navigation",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Piloting",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Environmental",
+          "skillName": "Survival",
+          "specialization": "Forest",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Acrobatics",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Gymnastic",
+          "skillName": "Jumping",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Languages",
+          "ranks": 6,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Own",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Region Lore",
+          "specialization": "Neighboring",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Religion/Philosophy",
+          "ranks": 4,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Lore",
+          "skillGroup": "Other Lores",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Herbalism",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Medical",
+          "skillName": "Medicine",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Climbing",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Running",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Movement",
+          "skillName": "Swimming",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Influence",
+          "ranks": 2,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Social Awareness",
+          "ranks": 2
+        },
+        {
+          "skillCategory": "Social",
+          "skillName": "Trading",
+          "ranks": 0
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Concealment",
+          "ranks": 4
+        },
+        {
+          "skillCategory": "Subterfuge",
+          "skillName": "Stalking",
+          "ranks": 4
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Honnin — Suzamatu",
+      "system": {
+        "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+        "culture": "Honnin — Suzamatu"
+      }
+    },
+    "en": {
+      "name": "Honnin — Suzamatu",
+      "system": {
+        "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li></ul></section>",
+        "culture": "Honnin — Suzamatu"
+      }
+    }
+  },
+  "ageVariants": {
+    "1": {
+      "sourceKey": "culture-honnin-age-1",
+      "folderKey": "cultures-age-1-humans",
+      "document": {
+        "name": "Honnin — Suzamatu",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-honnin-age-1",
+            "canonicalKey": "culture-honnin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-1",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 1,
+              "ageLabel": "Premier Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Honnin",
+                  "spoken": 8,
+                  "written": 0,
+                  "nameFr": "Honnin"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+              "sourceStatus": "verified",
+              "sourceNoteFr": "Le profil RMSS/RMFRP donne explicitement le Honnin S8/W0.",
+              "sourceNoteEn": "The RMSS/RMFRP profile explicitly gives Honnin S8/W0."
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Honnin — Suzamatu",
+          "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        },
+        "en": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        }
+      }
+    },
+    "2": {
+      "sourceKey": "culture-honnin-age-2",
+      "folderKey": "cultures-age-2-humans",
+      "document": {
+        "name": "Honnin — Suzamatu",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-honnin-age-2",
+            "canonicalKey": "culture-honnin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-2",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 2,
+              "ageLabel": "Deuxième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Honnin",
+                  "spoken": 8,
+                  "written": 0,
+                  "nameFr": "Honnin"
+                },
+                {
+                  "name": "Apysaic",
+                  "spoken": 6,
+                  "written": 4,
+                  "nameFr": "Apysaïque",
+                  "inference": true
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+              "sourceStatus": "contextual-inference",
+              "sourceNoteFr": "Le Honnin S8/W0 est explicite. L’Apysaïque S6/W4 est une inférence MERP-RMU fondée sur la cohabitation prolongée et harmonieuse des Honnin avec les peuples apysaïques au Deuxième Âge ; aucun rang apysaïque n’est imprimé dans le profil.",
+              "sourceNoteEn": "Honnin S8/W0 is explicit. Apysaic S6/W4 is a MERP-RMU inference based on the long, peaceful coexistence of Honnin and Apysaic peoples in the Second Age; the profile itself does not print Apysaic ranks."
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Honnin — Suzamatu",
+          "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 6 / Écrite 4 <em>(inférence MERP-RMU)</em></li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 6 / Écrite 4 <em>(inférence MERP-RMU)</em></li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        },
+        "en": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li><li><strong>Apysaic</strong> — Spoken 6 / Written 4 <em>(MERP-RMU inference)</em></li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        }
+      }
+    },
+    "3": {
+      "sourceKey": "culture-honnin-age-3",
+      "folderKey": "cultures-age-3-humans",
+      "document": {
+        "name": "Honnin — Suzamatu",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-honnin-age-3",
+            "canonicalKey": "culture-honnin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-3",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 3,
+              "ageLabel": "Troisième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Honnin",
+                  "spoken": 8,
+                  "written": 0,
+                  "nameFr": "Honnin"
+                },
+                {
+                  "name": "Apysaic",
+                  "spoken": 4,
+                  "written": 2,
+                  "nameFr": "Apysaïque",
+                  "inference": true
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+              "sourceStatus": "contextual-inference",
+              "sourceNoteFr": "Le Honnin S8/W0 reste la seule langue explicitement chiffrée. L’Apysaïque S4/W2 est une inférence MERP-RMU représentant la survivance de plusieurs siècles de contacts avec les Apysani avant l’isolement progressif des Honnin au Troisième Âge.",
+              "sourceNoteEn": "Honnin S8/W0 remains the only explicitly ranked language. Apysaic S4/W2 is a MERP-RMU inference representing the survival of centuries of contact with the Apysani before the Honnin became increasingly isolated in the Third Age."
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Honnin — Suzamatu",
+          "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 4 / Écrite 2 <em>(inférence MERP-RMU)</em></li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li><li><strong>Apysaïque</strong> — Parlée 4 / Écrite 2 <em>(inférence MERP-RMU)</em></li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        },
+        "en": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li><li><strong>Apysaic</strong> — Spoken 4 / Written 2 <em>(MERP-RMU inference)</em></li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        }
+      }
+    },
+    "4": {
+      "sourceKey": "culture-honnin-age-4",
+      "folderKey": "cultures-age-4-humans",
+      "document": {
+        "name": "Honnin — Suzamatu",
+        "type": "culture",
+        "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "culture-honnin-age-4",
+            "canonicalKey": "culture-honnin",
+            "collection": "merp-rmu",
+            "contentVersion": 1,
+            "source": {
+              "type": "merp-rmss-to-rmu-conversion",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
+            },
+            "raceKey": "race-humans-age-4",
+            "raceCanonicalKey": "race-humans",
+            "availability": {
+              "age": 4,
+              "ageLabel": "Quatrième Âge",
+              "restricted": false
+            },
+            "descriptionFormat": "html",
+            "languages": {
+              "starting": [
+                {
+                  "name": "Honnin",
+                  "spoken": 8,
+                  "written": 0,
+                  "nameFr": "Honnin"
+                }
+              ],
+              "source": "MERP Character Creation Using RMSS/RMFRP v2.5 p. 96",
+              "sourceStatus": "verified",
+              "sourceNoteFr": "Par prudence, le Quatrième Âge conserve uniquement le Honnin S8/W0 explicitement documenté.",
+              "sourceNoteEn": "Conservatively, the Fourth Age retains only the explicitly documented Honnin S8/W0."
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU",
+          "table": "Conversion RMSS/RMFRP → RMU",
+          "culture": "Honnin — Suzamatu",
+          "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+          "cultureRanks": [
+            {
+              "skillCategory": "Animal",
+              "skillName": "Animal Handling",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Animal",
+              "skillName": "Riding",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Perception",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Awareness",
+              "skillName": "Tracking",
+              "ranks": 5
+            },
+            {
+              "skillCategory": "Battle Expertise",
+              "skillName": "Maneuvering in Armor",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Body Development",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Brawn",
+              "skillName": "Weight Training",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Unarmed",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Melee Weapons",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Combat Training",
+              "skillGroup": "Ranged Weapons",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 3,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Crafting & Vocation",
+              "ranks": 5,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Navigation",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Piloting",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Environmental",
+              "skillName": "Survival",
+              "specialization": "Forest",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Acrobatics",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Gymnastic",
+              "skillName": "Jumping",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Languages",
+              "ranks": 6,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Own",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Region Lore",
+              "specialization": "Neighboring",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Religion/Philosophy",
+              "ranks": 4,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Lore",
+              "skillGroup": "Other Lores",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Herbalism",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Medical",
+              "skillName": "Medicine",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Climbing",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Running",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Movement",
+              "skillName": "Swimming",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Influence",
+              "ranks": 2,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Social Awareness",
+              "ranks": 2
+            },
+            {
+              "skillCategory": "Social",
+              "skillName": "Trading",
+              "ranks": 0
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Concealment",
+              "ranks": 4
+            },
+            {
+              "skillCategory": "Subterfuge",
+              "skillName": "Stalking",
+              "ranks": 4
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>Les <strong>Honnin</strong>, appelés « Errants » en westron et <strong>Suzamatu</strong> dans certaines traditions méridionales, sont un ancien peuple humain de la Forêt des Larmes. Apparentés aux Drughu, ils connurent autrefois une civilisation de villes et de temples avant qu’un long déclin ne transforme leurs communautés en clans de chasseurs-cueilleurs vivant parmi les ruines de leur propre passé.</p>\n<h2>Apparence et sens</h2>\n<p>Les Honnin sont petits, larges et trapus, avec des jambes courtes, un visage large et des yeux très sombres profondément enfoncés. Leur odorat est exceptionnel, leur vision nocturne remarquable et leur aptitude au Pistage comparable à celle des meilleurs chasseurs. Ils résistent également très bien aux maladies naturelles.</p>\n<h2>Méditation et immobilité</h2>\n<p>Ils peuvent demeurer parfaitement immobiles pendant de très longues périodes, assis en méditation ou en observation. Cette capacité favorise la mémoire, la concentration et la chasse d’affût, et contribue aux récits qui les présentent parfois comme des statues vivantes.</p>\n<h2>Une civilisation retournée à la forêt</h2>\n<p>Les Honnin bâtirent autrefois villes et temples après leur retrait devant l’expansion des peuples apysaïques. Au début du Troisième Âge, leur civilisation déclina et la jungle recouvrit progressivement ses monuments. Les clans tardifs peuvent protéger des ruines dont ils ne comprennent plus toute la fonction.</p>\n<h2>Clans et matriarches</h2>\n<p>Plus de quatre cents clans composent une même nation. Chaque clan et chaque foyer sont dirigés par la plus âgée des femmes capable d’exercer l’autorité. La filiation suit la lignée maternelle et l’oncle maternel joue souvent un rôle important dans l’apprentissage des garçons.</p>\n<h2>Religion</h2>\n<p>Leur religion animiste honore une multitude d’esprits de la forêt. Suzush, déesse de la Lune, et Nuva-Tu, dieu de la Nature, occupent une place majeure ; Kai, dieu solaire hostile, est associé à la destruction. La cité-temple de Pred conserve des sanctuaires anciens et constitue un lien privilégié avec le passé.</p>\n<h2>Pûshel Nîn et arts</h2>\n<p>Les artisans capables de sculpter les Pûshel Nîn sont très respectés. Ces figures de bois, souvent d’un réalisme saisissant, prolongent un art ancien apparenté aux traditions drughu. Tatouages, pigments, travail du cuir et récits rituels complètent l’expression artistique.</p>\n<h2>Économie et relations</h2>\n<p>Le troc remplace la monnaie. Le marchandage ouvert entre Honnin est considéré comme une insulte : une offre se fait, puis chacun peut revenir plus tard avec une proposition différente. Timides et pacifiques, ils évitent généralement les étrangers et préfèrent observer avant de se révéler.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Un Honnin doit être rattaché à un clan, une matriarche et une tradition religieuse. Quitter la Forêt des Larmes demande une raison forte : mission, dette, menace, recherche d’un sanctuaire ou découverte liée aux vestiges de l’ancienne civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Honnin</strong> — Parlée 8 / Écrite 0</li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        },
+        "en": {
+          "name": "Honnin — Suzamatu",
+          "system": {
+            "description": "<h1>Honnin — Suzamatu</h1>\n<p>The <strong>Honnin</strong>, called “Wanderers” in Westron and <strong>Suzamatu</strong> in some southern traditions, are an ancient human people of the Forest of Tears. Related to the Drughu, they once possessed a civilisation of cities and temples before a long decline transformed their communities into clans of hunter-gatherers living among the ruins of their own past.</p>\n<h2>Appearance and senses</h2>\n<p>The Honnin are short, broad and stocky, with short legs, broad faces and very dark, deeply set eyes. Their sense of smell is exceptional, their night vision remarkable and their Tracking ability comparable to that of the finest hunters. They are also highly resistant to natural diseases.</p>\n<h2>Meditation and stillness</h2>\n<p>They can remain perfectly still for very long periods, seated in meditation or observation. This ability favours memory, concentration and hunting from concealment, and contributes to tales that sometimes present them as living statues.</p>\n<h2>A civilisation returned to the forest</h2>\n<p>The Honnin once built cities and temples after withdrawing before the expansion of Apysaic peoples. At the beginning of the Third Age, their civilisation declined and the jungle gradually reclaimed its monuments. Later clans may protect ruins whose original purpose they no longer fully understand.</p>\n<h2>Clans and matriarchs</h2>\n<p>More than four hundred clans form a single nation. Each clan and household is led by the oldest woman still capable of exercising authority. Descent follows the maternal line, and the maternal uncle often plays an important role in the education of boys.</p>\n<h2>Religion</h2>\n<p>Their animistic religion honours a multitude of forest spirits. Suzush, goddess of the Moon, and Nuva-Tu, god of Nature, occupy major positions; Kai, a hostile solar god, is associated with destruction. The temple-city of Pred preserves ancient sanctuaries and forms a privileged link with the past.</p>\n<h2>Pûshel Nîn and the arts</h2>\n<p>Craftsmen capable of carving the Pûshel Nîn are highly respected. These wooden figures, often strikingly realistic, continue an ancient art related to Drughu traditions. Tattoos, pigments, leatherwork and ritual storytelling complete their artistic expression.</p>\n<h2>Economy and relations</h2>\n<p>Barter replaces coinage. Open haggling between Honnin is considered insulting: an offer is made, and either party may return later with a different proposal. Shy and peaceful, they generally avoid strangers and prefer to observe before revealing themselves.</p>\n<h2>Place in character creation</h2>\n<p>A Honnin should be tied to a clan, a matriarch and a religious tradition. Leaving the Forest of Tears requires a strong reason: a mission, debt, threat, search for a sanctuary or discovery connected with the remains of the ancient civilisation.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Honnin</strong> — Spoken 8 / Written 0</li></ul></section>",
+            "culture": "Honnin — Suzamatu"
+          }
+        }
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Humains"
+    ],
+    "en": [
+      "Humans"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "cultures-humans"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "judge-of-angles",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "talents-cultural",
+  "document": {
+    "name": "Juge des angles (Judge of Angles)",
+    "type": "talent",
+    "img": "icons/skills/movement/ball-spinning-blue.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "judge-of-angles",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "talent",
+        "restrictions": {
+          "races": [
+            "Khazâd",
+            "Naugrim"
+          ]
+        },
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Racial",
+      "name": "Judge of Angles",
+      "cost": "5/Tier",
+      "tier": 0,
+      "maxTier": 2,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Juge des angles (Judge of Angles)</h1><h2>Description</h2><p>Vous savez juger presque immédiatement l’angle d’une pente et remarquer les changements infimes d’inclinaison sur des surfaces solides et relativement régulières. Cette aptitude vous aide particulièrement à repérer les pièges et passages secrets intégrés aux murs, sols et plafonds.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux jets de Perception visant une anomalie géométrique dans la pierre, la maçonnerie, un mur, un sol ou un plafond : pente anormale, raccord imparfait, panneau dissimulé, mécanisme intégré, etc.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_judge-of-angles.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Juge des angles (Judge of Angles)",
+      "system": {
+        "description": "<h1>Juge des angles (Judge of Angles)</h1><h2>Description</h2><p>Vous savez juger presque immédiatement l’angle d’une pente et remarquer les changements infimes d’inclinaison sur des surfaces solides et relativement régulières. Cette aptitude vous aide particulièrement à repérer les pièges et passages secrets intégrés aux murs, sols et plafonds.</p><h2>Adaptation MERP-RMU</h2><p>Vous gagnez <strong>+5 par Tier</strong> aux jets de Perception visant une anomalie géométrique dans la pierre, la maçonnerie, un mur, un sol ou un plafond : pente anormale, raccord imparfait, panneau dissimulé, mécanisme intégré, etc.</p>"
+      }
+    },
+    "en": {
+      "name": "Judge of Angles",
+      "system": {
+        "description": "<h1>Judge of Angles</h1><h2>Description</h2><p>You can almost instantly judge the angle of a slope and notice minute changes in inclination across solid, relatively regular surfaces. This aptitude is especially useful for detecting traps and secret passages built into walls, floors, and ceilings.</p><h2>MERP-RMU Adaptation</h2><p>You gain <strong>+5 per Tier</strong> to Perception rolls aimed at detecting a geometric anomaly in stone, masonry, a wall, floor, or ceiling: an unusual slope, imperfect join, concealed panel, integrated mechanism, and so on.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Talents — Culturels"
+    ],
+    "en": [
+      "Talents — Cultural"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "talents-cultural"
+  ]
+}

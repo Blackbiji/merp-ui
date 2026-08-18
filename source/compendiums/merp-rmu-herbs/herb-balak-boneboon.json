@@ -1,0 +1,79 @@
+{
+  "key": "herb-balak-boneboon",
+  "sourceFile": "data/merp-rmu/herbs-v1.json",
+  "folderKey": "soins",
+  "document": {
+    "name": "Balák (Don-des-Os / Boneboon)",
+    "type": "herb",
+    "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "herb-balak-boneboon",
+        "collection": "merp-rmu-herbs",
+        "contentVersion": 1,
+        "source": "MERP Character Creation Using RMSS/RMFRP v2.5, pp. 206–211",
+        "sourceCode": "h-O-5-SW",
+        "sourceCost": "45gp",
+        "sourceCategory": "Soins",
+        "utilityGroups": [
+          "Soins",
+          "Os & fractures"
+        ],
+        "poisonType": null,
+        "climateCode": "h",
+        "localeCode": "O",
+        "regionCode": "SW",
+        "sourceVariants": [],
+        "sourceName": "Balák (Boneboon)"
+      }
+    },
+    "system": {
+      "stackable": true,
+      "stackType": "",
+      "quantity": 1,
+      "weight": 0.25,
+      "weightUnit": "oz",
+      "equipped": "carried",
+      "biome": "O",
+      "findDifficulty": "Hard",
+      "form": "Reed",
+      "prep": "brew",
+      "season": "",
+      "cost": "45gp",
+      "notes": "<p>On la rencontre aussi sous le nom de <strong>Don-des-Os (Boneboon)</strong>.</p><p>Ce roseau se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Cette préparation peut réparer un os brisé en multiples fragments. Le membre doit rester parfaitement immobile pendant huit heures ; le traitement provoque souvent une constipation durable.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "addictionFactor": 12,
+      "effects": [],
+      "table": "",
+      "level": 0
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Balák (Don-des-Os / Boneboon)",
+      "system": {
+        "notes": "<p>On la rencontre aussi sous le nom de <strong>Don-des-Os (Boneboon)</strong>.</p><p>Ce roseau se rencontre surtout dans les régions au climat chaud et humide, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle doit être préparée en infusion ou décoction.</p><p>Cette préparation peut réparer un os brisé en multiples fragments. Le membre doit rester parfaitement immobile pendant huit heures ; le traitement provoque souvent une constipation durable.</p><p>Un usage répété peut créer une accoutumance.</p>"
+      }
+    },
+    "en": {
+      "name": "Balák (Boneboon)",
+      "system": {
+        "notes": "<p>It is also known as <strong>Boneboon</strong>.</p><p>This reed is found chiefly in hot and humid climates, especially in sea coasts and saltwater shores, and is best known in south-western Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it must be prepared as an infusion or decoction.</p><p>This preparation can repair a bone shattered into multiple fragments. The limb must remain perfectly still for eight hours; the treatment often causes prolonged constipation.</p><p>Repeated use can lead to habituation.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Soins"
+    ],
+    "en": [
+      "Healing"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "soins"
+  ]
+}

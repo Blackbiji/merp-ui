@@ -1,0 +1,64 @@
+{
+  "key": "loss-of-vision",
+  "sourceFile": "data/merp-rmu/talents-flaws-v2.json",
+  "folderKey": "flaws-physical",
+  "document": {
+    "name": "Perte de vision (Loss of Vision)",
+    "type": "talent",
+    "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "merp-ui": {
+        "key": "loss-of-vision",
+        "collection": "merp-rmu-talents-flaws-v2",
+        "source": "RMSS/RMFRP",
+        "kind": "flaw",
+        "restrictions": {},
+        "descriptionVersion": 2
+      }
+    },
+    "system": {
+      "book": "MERP-RMU",
+      "category": "Senses",
+      "name": "Loss of Vision",
+      "cost": "-10",
+      "tier": 0,
+      "maxTier": 1,
+      "discount": "x1",
+      "dpSpent": 0,
+      "description": "<h1>Perte de vision (Loss of Vision)</h1><h2>Description</h2><p>Un traumatisme à la tête peut provoquer chez vous une cécité temporaire. Chaque traumatisme important à la tête peut provoquer une cécité temporaire de plusieurs minutes avant le retour progressif de la vision.</p><h2>Adaptation MERP-RMU</h2><p>Lorsqu’un Critique ou un résultat de blessure affecte significativement la tête, le MJ peut déclencher le test prévu pour ce Défaut. En cas d’échec, le personnage est temporairement aveugle et subit les règles RMU correspondantes jusqu’au retour de la vision.</p>",
+      "skill": null,
+      "attack": null,
+      "filename": "merp_loss-of-vision.yaml",
+      "modifiers": []
+    }
+  },
+  "localizations": {
+    "fr": {
+      "name": "Perte de vision (Loss of Vision)",
+      "system": {
+        "description": "<h1>Perte de vision (Loss of Vision)</h1><h2>Description</h2><p>Un traumatisme à la tête peut provoquer chez vous une cécité temporaire. Chaque traumatisme important à la tête peut provoquer une cécité temporaire de plusieurs minutes avant le retour progressif de la vision.</p><h2>Adaptation MERP-RMU</h2><p>Lorsqu’un Critique ou un résultat de blessure affecte significativement la tête, le MJ peut déclencher le test prévu pour ce Défaut. En cas d’échec, le personnage est temporairement aveugle et subit les règles RMU correspondantes jusqu’au retour de la vision.</p>"
+      }
+    },
+    "en": {
+      "name": "Loss of Vision",
+      "system": {
+        "description": "<h1>Loss of Vision</h1><h2>Description</h2><p>Head trauma can cause you temporary blindness. Any significant injury to the head may produce several minutes of blindness before your sight gradually returns.</p><h2>MERP-RMU Adaptation</h2><p>When a Critical or injury result significantly affects the head, the GM may trigger the test associated with this Flaw. On a failure, the character is temporarily blind and suffers the corresponding RMU effects until vision returns.</p>"
+      }
+    }
+  },
+  "compendiumFolderPath": {
+    "fr": [
+      "Défauts — Physiques"
+    ],
+    "en": [
+      "Flaws — Physical"
+    ]
+  },
+  "compendiumFolderKeyPath": [
+    "flaws-physical"
+  ]
+}

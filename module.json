@@ -1,8 +1,8 @@
 {
   "id": "merp-ui",
   "title": "MERP UI Framework",
-  "description": "MERP UI Framework : thème partagé et référentiel canonique commun des compétences RMU.",
-  "version": "1.6.0-alpha.18",
+  "description": "MERP-UI / MERP-RMU: a bilingual English/French Foundry VTT module for Rolemaster Unified, providing Middle-earth-oriented character options, rules support, campaign settings, localization, and permanent Compendiums.",
+  "version": "1.6.0-rc.1",
   "authors": [
     {
       "name": "Jean-Brice Gayet"
@@ -168,9 +168,11 @@
       "contentDelivery": "compendium-first",
       "compendiumSourceSchema": 2,
       "compendiumBootstrap": "NeDB seed -> Foundry LevelDB migration on first load",
-      "compendiumDefaultBuildLanguage": "fr",
+      "compendiumDefaultBuildLanguage": "en",
       "legacyWorldInstaller": "disabled-on-fresh-worlds",
-      "stableBaseline": "1.5.1 / RMU 1.5.33"
+      "stableBaseline": "1.6.0-rc.1 / RMU 1.5.33",
+      "releaseChannel": "release-candidate",
+      "testedRmuVersion": "1.5.33"
     }
   },
   "packFolders": [
@@ -190,5 +192,25 @@
       ],
       "folders": []
     }
-  ]
+  ],
+  "system": [
+    "rmu"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "rmu",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.5.33",
+          "verified": "1.5.33"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/Blackbiji/merp-ui",
+  "manifest": "https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json",
+  "download": "https://github.com/Blackbiji/merp-ui/releases/download/v1.6.0-rc.1/merp-ui-1.6.0-rc.1.zip",
+  "bugs": "https://github.com/Blackbiji/merp-ui/issues",
+  "changelog": "https://github.com/Blackbiji/merp-ui/releases/tag/v1.6.0-rc.1"
 }

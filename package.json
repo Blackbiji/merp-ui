@@ -1,15 +1,16 @@
 {
   "name": "merp-ui",
-  "version": "1.6.0-alpha.18",
+  "version": "1.6.0-rc.1",
   "private": true,
   "type": "module",
   "scripts": {
     "import:rmu-skills": "node scripts/import-rmu-skills.mjs",
     "build:skills": "node scripts/build-skill-translations.mjs",
     "validate:skills": "node scripts/build-skill-translations.mjs --check",
-    "build:compendium-seeds": "node scripts/build-merp-rmu-compendiums.mjs --language=fr",
+    "build:compendium-seeds": "node scripts/build-merp-rmu-compendiums.mjs --language=en",
     "build:compendium-seeds:en": "node scripts/build-merp-rmu-compendiums.mjs --language=en",
-    "validate:compendium-seeds": "node scripts/build-merp-rmu-compendiums.mjs --language=fr --check"
+    "validate:compendium-seeds": "node scripts/build-merp-rmu-compendiums.mjs --language=en --check",
+    "build:compendium-seeds:fr": "node scripts/build-merp-rmu-compendiums.mjs --language=fr"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

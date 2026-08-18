@@ -1,3 +1,20 @@
+## 1.6.0-rc.1 — Release Candidate 1
+- Baseline gelée : `1.6.0-alpha.18`, validée en conditions réelles dans Foundry.
+- Architecture **Compendium-first** retenue comme architecture de publication.
+- Neuf Compendiums permanents regroupés sous le dossier `MERP-RMU`.
+- Unification des Races et Cultures par Âge : une entrée canonique avec variantes appliquées au drag & drop.
+- 21 Professions exposées, avec résolution des châssis RMU natifs depuis le Core lorsque nécessaire.
+- Localisation éditoriale EN/FR validée pour Compendiums, dossiers, contenu importé, Game Settings, Langues de Campagne et message d’accueil.
+- Anglais défini comme langue éditoriale par défaut des nouveaux mondes.
+- Guide d’installation/réglages intégré comme dernière page du Journal `MERP-RMU Presentation`.
+- Le bouton du message Chat ouvre le guide dans `Rules & References`; le message est reposté dans la nouvelle langue lors d’une bascule EN/FR.
+- Popup de guide supprimé définitivement au profit du Journal.
+- Déclaration explicite de la restriction système `rmu`.
+- Relation de compatibilité déclarée avec RMU `1.5.33`.
+- README et métadonnées de publication réécrits pour la branche 1.6.
+- Licence clarifiée : MIT sur le code/structure originaux uniquement; ajout de `NOTICE.md` pour les contenus et marques tiers.
+- URLs GitHub `url`, `manifest`, `download`, `bugs`, `changelog` laissées volontairement non renseignées jusqu’au choix définitif du dépôt.
+
 ## 1.6.0-alpha.18 — Settings guide moved to Presentation Journal
 - Baseline : `1.6.0-alpha.17`.
 - Suppression complète du popup de guide : plus de fenêtre de premier lancement, zoom, Fit to Window, boutons de scroll ou réouverture automatique.

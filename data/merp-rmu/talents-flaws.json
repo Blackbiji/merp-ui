@@ -1,0 +1,2679 @@
+{
+  "version": 1,
+  "source": "Rolemaster RMSS / RMFRP v2.5 — Background Options: Talents & Flaws",
+  "system": "RMU",
+  "folder": "Talents & Flaws",
+  "notes": [
+    "Les entrées sont conservées séparément selon leur degré RMSS/FRP (Lesser, Minor, Major, Greater).",
+    "À l’installation, MERP-UI cherche d’abord un Talent RMU natif de même nom (ou nom de base sans le degré) et en reprend le châssis, les modificateurs, le coût RMU et la description.",
+    "Si aucun équivalent RMU natif n’existe, une adaptation de type Talent RMU est créée avec le coût historique en métadonnée et sans modificateur automatique inventé.",
+    "La table source omet une ligne 79–84 dans Lesser Talents — Physical et une ligne 01–05 dans Minor Flaws — Special ; aucune entrée n’est inventée pour ces deux lacunes.",
+    "La table source imprime deux entrées nommées Succor (Greater), à 30 et 40 points ; elles sont conservées séparément."
+  ],
+  "items": [
+    {
+      "key": "talent-lesser-geographic-awareness",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Lesser",
+      "name": "Geographic Awareness",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-inner-reserve-lesser",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Lesser",
+      "name": "Inner Reserve (Lesser)",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-internal-clock",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Lesser",
+      "name": "Internal Clock",
+      "legacyCost": 3
+    },
+    {
+      "key": "talent-lesser-judge-of-weaponry",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Lesser",
+      "name": "Judge of Weaponry",
+      "legacyCost": 3
+    },
+    {
+      "key": "talent-lesser-portage-skills",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Lesser",
+      "name": "Portage Skills",
+      "legacyCost": 3
+    },
+    {
+      "key": "talent-lesser-skilled-lesser",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Lesser",
+      "name": "Skilled (Lesser)",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-swift-dresser",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Lesser",
+      "name": "Swift Dresser",
+      "legacyCost": 3
+    },
+    {
+      "key": "talent-lesser-accelerated-mending",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Accelerated Mending",
+      "legacyCost": 3
+    },
+    {
+      "key": "talent-lesser-ambidexterity-lesser",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Ambidexterity (Lesser)",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-blazing-speed",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Blazing Speed",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-cold-resistance-lesser",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Cold Resistance (Lesser)",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-dwarfism-lesser",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Dwarfism (Lesser)",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-ear-for-music",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Ear for Music",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-great-arm",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Great Arm",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-heat-resistance-lesser",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Heat Resistance (Lesser)",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-high-jumper",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "High Jumper",
+      "legacyCost": 4
+    },
+    {
+      "key": "talent-lesser-infravision",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Infravision",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-light-sleeper",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Light Sleeper",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-neutral-odor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Neutral Odor",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-strong-lungs",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Strong Lungs",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-animal-empathy",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Animal Empathy",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-lesser-quick-calculator",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Quick Calculator",
+      "legacyCost": 3
+    },
+    {
+      "key": "talent-lesser-speed-reading",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Speed Reading",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-minor-acrobat",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Acrobat",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-assassin-training",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Assassin Training",
+      "legacyCost": 8
+    },
+    {
+      "key": "talent-minor-directed-weapons-master-minor",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Directed Weapons Master (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-disarm-skill",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Disarm Skill",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-general-weapons-master-minor",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "General Weapons Master (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-gymnastic-training",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Gymnastic Training",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-inner-reserve-minor",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Inner Reserve (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-natural-archer",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Natural Archer",
+      "legacyCost": 8
+    },
+    {
+      "key": "talent-minor-natural-affinity",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Natural Affinity",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-natural-facility-with-armor",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Natural Facility With Armor",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-natural-horseman",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Natural Horseman",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-shield-attack",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Shield Attack",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-skilled-minor",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Skilled (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-trained-regular-footman",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Trained Regular Footman",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-underground-upraising",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Underground Upraising",
+      "legacyCost": 8
+    },
+    {
+      "key": "talent-minor-weapon-control",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Minor",
+      "name": "Weapon Control",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-acute-hearing",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Acute Hearing",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-acute-smell",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Acute Smell",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-ambidexterity-minor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Ambidexterity (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-battle-cry",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Battle Cry",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-cold-resistance-minor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Cold Resistance (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-combat-reflexes",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Combat Reflexes",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-dead-eye",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Dead Eye",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-dwarfism-minor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Dwarfism (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-eye-of-the-tiger",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Eye of the Tiger",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-giantism-minor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Giantism (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-golden-throat",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Golden Throat",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-heat-resistance-minor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Heat Resistance (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-manual-deftness",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Manual Deftness",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-nightvision",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Nightvision",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-peripheral-vision",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Peripheral Vision",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-poison-sack",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Poison Sack",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-regeneration-minor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Regeneration (Minor)",
+      "legacyCost": 8
+    },
+    {
+      "key": "talent-minor-reverberative-strength",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Reverberative Strength",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-shield-mastery",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Shield Mastery",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-steel-grip",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Steel Grip",
+      "legacyCost": 8
+    },
+    {
+      "key": "talent-minor-subconscious-preparation",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Subconscious Preparation",
+      "legacyCost": 5
+    },
+    {
+      "key": "talent-minor-subtle",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Subtle",
+      "legacyCost": 8
+    },
+    {
+      "key": "talent-minor-unnatural-stamina",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Unnatural Stamina",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-aggression",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Aggression",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-destiny-sense",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Destiny Sense",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-ensorcellment-cure",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Ensorcellment Cure",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-ethereal-sight",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Ethereal Sight",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-innate-magician",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Innate Magician",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-item-lore",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Item Lore",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-look-of-eagles",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Look of Eagles",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-mana-reading",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Mana Reading",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-mana-sensing",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Mana Sensing",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-runic-lore",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Runic Lore",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-scope-skills-radius",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Scope Skills (radius)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-scope-skills-targets",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Scope Skills (targets)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-subconscious-discipline",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Subconscious Discipline",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-undetectable",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Undetectable",
+      "legacyCost": 6
+    },
+    {
+      "key": "talent-minor-visions",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Visions",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-unnatural-aging",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Minor",
+      "name": "Unnatural Aging",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-battle-reflexes",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Battle Reflexes",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-calmness",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Calmness",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-dominance",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Dominance",
+      "legacyCost": 8
+    },
+    {
+      "key": "talent-minor-empathy",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Empathy",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-good-battlefield-awareness",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Good Battlefield Awareness",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-internal-sense",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Internal Sense",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-master-tactician",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Master Tactician",
+      "legacyCost": 7
+    },
+    {
+      "key": "talent-minor-mind-over-matter",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Mind over Matter",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-photographic-memory",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Photographic Memory",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-stability-sense",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Stability Sense",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-survival-instinct",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Survival Instinct",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-violent-prejudice",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Violent Prejudice",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-lucky-minor",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Lucky (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-mentor",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Mentor",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-stat-bonus-minor",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Stat Bonus (Minor)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-stat-improvement",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Stat Improvement",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-minor-succor-lesser",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Succor (Lesser)",
+      "legacyCost": 10
+    },
+    {
+      "key": "talent-major-cold-resistance-major",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Cold Resistance (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-commanding-demeanor",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Commanding Demeanor",
+      "legacyCost": 18
+    },
+    {
+      "key": "talent-major-dwarfism-major",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Dwarfism (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-fluid-wrists",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Fluid Wrists",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-giantism-major",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Giantism (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-hammerhand",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Hammerhand",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-heat-resistance-major",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Heat Resistance (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-hypercharged-adrenaline",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Hypercharged Adrenaline",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-natural-physique",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Natural Physique",
+      "legacyCost": 18
+    },
+    {
+      "key": "talent-major-nimble-skeleton",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Nimble Skeleton",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-quiet-stride",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Quiet Stride",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-regeneration-major",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Regeneration (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-resilient",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Resilient",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-tolerance",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Tolerance",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-archetype",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Archetype",
+      "legacyCost": 18
+    },
+    {
+      "key": "talent-major-danger-sense",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Danger Sense",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-eloquence",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Eloquence",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-magical-resistance",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Magical Resistance",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-resistance",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Resistance",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-spatial-skills",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Spatial Skills",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-temporal-skills",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Temporal Skills",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-major-transcendance",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Major",
+      "name": "Transcendance",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-immovable-will",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Immovable Will",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-instinctive-defense",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Instinctive Defense",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-unbeliver",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Unbeliver",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-amazing-leaping",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Amazing Leaping",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-eye-of-the-hawk",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Eye of the Hawk",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-lifetime-goal",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Lifetime Goal",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-lucky-major",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Lucky (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-master-warrior-friend",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Master Warrior Friend",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-stat-bonus-major",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Stat Bonus (Major)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-major-succor-minor",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Succor (minor)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-major-deadly-training",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Deadly Training",
+      "legacyCost": 17
+    },
+    {
+      "key": "talent-major-directed-weapons-master-major",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Directed Weapons Master (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-extra-stat-gain-rolls",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Extra Stat Gain Rolls",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-general-weapons-master-major",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "General Weapons Master (Major)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-major-herbalist",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Herbalist",
+      "legacyCost": 13
+    },
+    {
+      "key": "talent-major-inner-reserve-major",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Inner Reserve (Major)",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-inner-reserve-greater",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Inner Reserve (Greater)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-major-lightning-strike",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Lightning Strike",
+      "legacyCost": 12
+    },
+    {
+      "key": "talent-major-outdoorsman",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Outdoorsman",
+      "legacyCost": 15
+    },
+    {
+      "key": "talent-major-precision",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Precision",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-major-sleight-of-hand",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Sleight-of-Hand",
+      "legacyCost": 13
+    },
+    {
+      "key": "talent-major-worldly-lesser",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Major",
+      "name": "Worldly (Lesser)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-greater-bane",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Bane",
+      "legacyCost": 25
+    },
+    {
+      "key": "talent-greater-lucky-greater",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Lucky (Greater)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-greater-stat-bonus-greater",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Stat Bonus (Greater)",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-succor-greater-30-points",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Succor (Greater) — 30 points",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-succor-greater-40-points",
+      "kind": "talent",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Succor (Greater) — 40 points",
+      "legacyCost": 40
+    },
+    {
+      "key": "talent-greater-telekinesis",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Telekinesis",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-greater-telepathy",
+      "kind": "talent",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Telepathy",
+      "legacyCost": 25
+    },
+    {
+      "key": "talent-greater-exceptional-magical-ability",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Greater",
+      "name": "Exceptional Magical Ability",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-magical-affinity",
+      "kind": "talent",
+      "group": "Mystical",
+      "grade": "Greater",
+      "name": "Magical Affinity",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-cold-resistance-greater",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Cold Resistance (Greater)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-greater-giantism-greater",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Giantism (Greater)",
+      "legacyCost": 25
+    },
+    {
+      "key": "talent-greater-heat-resistance-greater",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Heat Resistance (Greater)",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-greater-sturdy-build",
+      "kind": "talent",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Sturdy Build",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-greater-exceptional-skill-at-arms",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Exceptional Skill at Arms",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-general-weapons-master-greater",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "General Weapons Master (Greater)",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-natural-weapons-master",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Natural Weapons Master",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-power-greater",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Power (Greater)",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-precision",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Precision",
+      "legacyCost": 20
+    },
+    {
+      "key": "talent-greater-skilled-greater",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Skilled (Greater)",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-warrior-extraordinare",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Warrior Extraordinare",
+      "legacyCost": 35
+    },
+    {
+      "key": "talent-greater-worldly-minor",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Worldly (minor)",
+      "legacyCost": 30
+    },
+    {
+      "key": "talent-greater-worldly-major",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Worldly (major)",
+      "legacyCost": 40
+    },
+    {
+      "key": "talent-greater-worldly-greater",
+      "kind": "talent",
+      "group": "Special Training",
+      "grade": "Greater",
+      "name": "Worldly (greater)",
+      "legacyCost": 50
+    },
+    {
+      "key": "flaw-lesser-anosmia",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Anosmia",
+      "legacyCost": -3
+    },
+    {
+      "key": "flaw-lesser-color-blind",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Color Blind",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-fragile-wrists",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Fragile Wrists",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-inner-ear-problem",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Inner Ear Problem",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-rain-trauma",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Rain Trauma",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-short-of-breath-lesser",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Short of Breath (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-uncommon-allergy",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Uncommon Allergy",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-unique-looks-lesser",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Lesser",
+      "name": "Unique Looks (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-addiction-simple-common",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Addiction/Simple (Common)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-code-of-honor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Code of Honor",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-compulsive-behavior",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Compulsive Behavior",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-delusionary-lesser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Delusionary (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-glutton",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Glutton",
+      "legacyCost": -3
+    },
+    {
+      "key": "flaw-lesser-intolerance-lesser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Intolerance (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-minor-fear-lesser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Minor Fear (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-miser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Miser",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-phobia-lesser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Phobia (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-pyromaniac",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Pyromaniac",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-sense-of-duty-lesser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Sense of Duty (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-stubborn",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Stubborn",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-superstitious",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Superstitious",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-trauma-lesser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Trauma (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-truthful",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Truthful",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-vow-lesser",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Lesser",
+      "name": "Vow (Lesser)",
+      "legacyCost": -3
+    },
+    {
+      "key": "flaw-lesser-dependent-lesser",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Lesser",
+      "name": "Dependent (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-duty-lesser",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Lesser",
+      "name": "Duty (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-repulsive-habit-lesser",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Lesser",
+      "name": "Repulsive Habit (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-rival-npc-lesser",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Lesser",
+      "name": "Rival/NPC (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-lesser-secret-lesser",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Lesser",
+      "name": "Secret (Lesser)",
+      "legacyCost": -5
+    },
+    {
+      "key": "flaw-minor-age",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Age",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-albino",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Albino",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-cold-sensitive",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Cold Sensitive",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-common-allergy-minor",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Common Allergy (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-crippled-minor",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Crippled (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-deep-sleeper",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Deep Sleeper",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-hard-of-hearing",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Hard of Hearing",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-heat-sensitive",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Heat Sensitive",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-locking-wrists",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Locking Wrists",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-nose-bleeds",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Nose Bleeds",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-physical-investment",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Physical Investment",
+      "legacyCost": -7
+    },
+    {
+      "key": "flaw-minor-poor-eyesight-minor",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Poor Eyesight (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-power-burn",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Power Burn",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-short-of-breath-minor",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Short of Breath (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-slow",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Slow",
+      "legacyCost": -7
+    },
+    {
+      "key": "flaw-minor-spasm",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Spasm",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-stutter",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Stutter",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-tender-skin",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Tender Skin",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-tired-legs",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Tired Legs",
+      "legacyCost": -7
+    },
+    {
+      "key": "flaw-minor-uncontrollable-strength",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Uncontrollable Strength",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-uncoordinated",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Uncoordinated",
+      "legacyCost": -7
+    },
+    {
+      "key": "flaw-minor-unhealthy",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Unhealthy",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-unique-looks-minor",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Minor",
+      "name": "Unique Looks (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-absent-minded",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Absent-Minded",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-addiction-mild-common",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Addiction/Mild (Common)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-bad-temper",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Bad Temper",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-blood-guilt",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Blood-Guilt",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-bloodlust",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Bloodlust",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-chivalrous",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Chivalrous",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-delusionary-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Delusionary (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-fanatic",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Fanatic",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-fearlessness",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Fearlessness",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-greedy",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Greedy",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-intolerance-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Intolerance (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-lecherous",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Lecherous",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-megalomaniac",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Megalomaniac",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-minor-fear-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Minor Fear (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-overconfident",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Overconfident",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-pacifist-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Pacifist (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-paranoid",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Paranoid",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-passive",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Passive",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-phobia-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Phobia (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-poor-concentration",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Poor Concentration",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-queasy",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Queasy",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-sense-of-duty-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Sense of Duty (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-trauma-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Trauma (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-vow-minor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Minor",
+      "name": "Vow (Minor)",
+      "legacyCost": -7
+    },
+    {
+      "key": "flaw-minor-dark-magic",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Dark Magic",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-dependent-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Dependent (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-duty-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Duty (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-friendslayer",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Friendslayer",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-magic-allergy-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Magic Allergy (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-magically-vulnerable",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Magically Vulnerable",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-poor-control",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Poor Control",
+      "legacyCost": -7
+    },
+    {
+      "key": "flaw-minor-power-blind",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Power Blind",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-repulsive-habit-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Repulsive Habit (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-rival-npc-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Rival/NPC (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-rival-pc-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Rival/PC (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-secret-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Secret (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-secret-identity",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Secret Identity",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-stat-penalty-minor",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Stat Penalty (Minor)",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-terrible-luck",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Terrible Luck",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-minor-unlucky",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Minor",
+      "name": "Unlucky",
+      "legacyCost": -10
+    },
+    {
+      "key": "flaw-major-common-allergy-major",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Common Allergy (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-crippled-major",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Crippled (Major)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-major-loss-of-vision",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Loss of Vision",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-not-subtle",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Not Subtle",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-one-arm-major",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "One Arm (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-one-eye",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "One Eye",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-pain-intolerant",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Pain Intolerant",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-short-of-breath-major",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Short of Breath (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-slow-healer",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Slow Healer",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-unique-looks-major",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Unique Looks (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-unwakeable",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Unwakeable",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-weight-intolerant",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Major",
+      "name": "Weight Intolerant",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-addiction-serious-common",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Addiction/Serious (Common)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-addiction-simple-rare",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Addiction/Simple (Rare)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-battle-confusion",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Battle Confusion",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-delusionary-greater",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Delusionary (Greater)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-easily-charmed",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Easily Charmed",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-impulsive",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Impulsive",
+      "legacyCost": -13
+    },
+    {
+      "key": "flaw-major-kleptomaniac",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Kleptomaniac",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-memory-loss",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Memory Loss",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-oblivious",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Oblivious",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-pacifist-major",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Pacifist (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-phobia-major",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Phobia (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-sadist",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Sadist",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-sense-of-duty-major",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Sense of Duty (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-trauma-major",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Trauma (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-vow-major",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Vow (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-weapon-bane",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Major",
+      "name": "Weapon Bane",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-dependent-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Dependent (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-duty-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Duty (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-magic-allergy-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Magic Allergy (Major)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-major-magically-susceptible",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Magically Susceptible",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-repulsive-habit-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Repulsive Habit (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-rival-npc-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Rival/NPC (Major)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-major-rival-pc-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Rival/PC (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-secret-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Secret (Major)",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-major-stat-penalty-major",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Stat Penalty (Major)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-major-unmagical",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Major",
+      "name": "Unmagical",
+      "legacyCost": -15
+    },
+    {
+      "key": "flaw-greater-blind",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Blind",
+      "legacyCost": -50
+    },
+    {
+      "key": "flaw-greater-breaker",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Breaker",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-complete-klutz",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Complete Klutz",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-crippled-greater",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Crippled (Greater)",
+      "legacyCost": -30
+    },
+    {
+      "key": "flaw-greater-deaf",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Deaf",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-epileptic",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Epileptic",
+      "legacyCost": -30
+    },
+    {
+      "key": "flaw-greater-hemophilia",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Hemophilia",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-lack-of-range",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Lack of Range",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-mute",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Mute",
+      "legacyCost": -25
+    },
+    {
+      "key": "flaw-greater-not-graceful",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Not Graceful",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-off-balance",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Off Balance",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-one-arm-greater",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "One Arm (Greater)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-poor-eyesight-greater",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Poor Eyesight (Greater)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-sloth",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Sloth",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-weak-physique",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Weak Physique",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-wimp",
+      "kind": "flaw",
+      "group": "Physical",
+      "grade": "Greater",
+      "name": "Wimp",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-addiction-fatal-common",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Addiction/Fatal (Common)",
+      "legacyCost": -30
+    },
+    {
+      "key": "flaw-greater-addiction-fatal-rare",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Addiction/Fatal (Rare)",
+      "legacyCost": -40
+    },
+    {
+      "key": "flaw-greater-addiction-harmful-common",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Addiction/Harmful (Common)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-addiction-harmful-rare",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Addiction/Harmful (Rare)",
+      "legacyCost": -30
+    },
+    {
+      "key": "flaw-greater-addiction-mild-rare",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Addiction/Mild (Rare)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-addiction-serious-rare",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Addiction/Serious (Rare)",
+      "legacyCost": -25
+    },
+    {
+      "key": "flaw-greater-disavowed-weapons",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Disavowed Weapons",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-easy-mark",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Easy Mark",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-fear-of-armor",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Fear of Armor",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-fear-of-magic",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Fear of Magic",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-indecision",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Indecision",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-muddled-mind",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Muddled Mind",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-pacifist-greater",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Pacifist (Greater)",
+      "legacyCost": -30
+    },
+    {
+      "key": "flaw-greater-split-personality",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Split Personality",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-vow-greater",
+      "kind": "flaw",
+      "group": "Mental",
+      "grade": "Greater",
+      "name": "Vow (Greater)",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-cursed-shape-shifter",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Cursed Shape Shifter",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-lack-of-scope",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Lack of Scope",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-lack-of-time",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Lack of Time",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-magic-allergy-greater",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Magic Allergy (Greater)",
+      "legacyCost": -40
+    },
+    {
+      "key": "flaw-greater-magic-bane",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Magic Bane",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-power-drain",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Power Drain",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-power-leakage",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Power Leakage",
+      "legacyCost": -20
+    },
+    {
+      "key": "flaw-greater-rival-pc-greater",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Rival/PC (Greater)",
+      "legacyCost": -25
+    },
+    {
+      "key": "flaw-greater-stat-penalty-greater",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "Stat Penalty (Greater)",
+      "legacyCost": -30
+    },
+    {
+      "key": "flaw-greater-the-slain",
+      "kind": "flaw",
+      "group": "Special",
+      "grade": "Greater",
+      "name": "The Slain",
+      "legacyCost": -20
+    }
+  ]
+}

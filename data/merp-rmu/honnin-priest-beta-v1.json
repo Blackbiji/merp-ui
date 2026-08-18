@@ -1,0 +1,1552 @@
+{
+  "version": 7,
+  "status": "beta",
+  "profession": {
+    "key": "honnin-priest",
+    "document": {
+      "name": "Prêtre Honnin (Ônu)",
+      "type": "profession",
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "merp-ui": {
+          "key": "honnin-priest",
+          "collection": "honnin-beta",
+          "contentVersion": 1,
+          "beta": true,
+          "restriction": {
+            "culture": "Honnin"
+          }
+        }
+      },
+      "system": {
+        "book": "MERP-RMU — Bêta",
+        "profession": "Honnin Priest",
+        "spellCastingGroup": "Pure",
+        "numberOfBaseLists": 6,
+        "realms": "Channeling",
+        "description": "<h1>Prêtre Honnin (Ônu)</h1>\n<p>Les <strong>Ônu</strong> sont les prêtres-chamans des Honnin. Ils servent d’intermédiaires entre leur clan et les puissances qui habitent la forêt : esprits des oiseaux, des bêtes, des plantes, des eaux et des lieux anciens. Leur tradition accorde une place particulière à <strong>Suzush</strong>, déesse de la Lune, à <strong>Nuva-Tu</strong>, dieu de la Nature, et aux innombrables esprits considérés comme leurs enfants.</p>\n<p>Un Ônu n’est pas seulement un lanceur de sorts. Il officie lors des fêtes saisonnières, conserve les récits du clan, interprète les signes du monde vivant, soigne, conseille les matriarches et veille sur les lieux sacrés. Les grands rassemblements tels que le <strong>Pujna-Kasl</strong> sont organisés par les prêtres Honnin, qui y conduisent les cérémonies et entretiennent la mémoire commune.</p>\n<h2>Caractéristiques primordiales</h2>\n<p>Pour cette adaptation bêta, les caractéristiques primordiales du Prêtre Honnin sont <strong>Intuition (In)</strong> et <strong>Mémoire (Me)</strong>. L’Intuition représente sa sensibilité aux signes du monde vivant et constitue la caractéristique de royaume de la Théurgie ; la Mémoire traduit la transmission orale des rites, des plantes, des esprits et des traditions claniques.</p>\n<h2>Orientation technique</h2>\n<p>Le Prêtre Honnin est un <strong>utilisateur pur de Théurgie</strong>. Son châssis de développement reprend volontairement celui de l’Animiste MERP-RMU pour cette première version bêta. Il favorise les Animaux, l’Environnement, les connaissances, la médecine naturelle, la Manipulation de la Puissance, les Listes de sorts et les rituels.</p>\n<p>Ses Compétences Professionnelles mettent davantage l’accent sur le <strong>Tatouage (Tattooing)</strong>, la connaissance des créatures, l’Herboristerie, la Religion, les rituels magiques, la Survie et le rôle de chaman au sein du clan.</p>\n<h2>Les tatouages sacrés</h2>\n<p>Les tatouages Honnin peuvent marquer une étape de la vie, une appartenance cultuelle, un rang ou une dévotion particulière. Chez certains ordres, les prêtres les plus accomplis portent une grande partie de leur histoire religieuse sur leur propre peau. Les motifs sont complexes, fluides et colorés ; certains sont purement symboliques, tandis que d’autres deviennent de véritables réceptacles de pouvoir.</p>\n<p>La Liste <strong>Artisanat du Tatouage (Tattoo Crafts)</strong> permet de créer ces tatouages magiques. Un tatouage enchanté ne peut contenir qu’une seule capacité, ne peut croiser un autre tatouage magique et une même personne ne peut en porter plus de treize. Seuls des sorts de Théurgie peuvent y être imprégnés.</p>\n<h2>Oiseaux et esprits de la forêt</h2>\n<p>Les oiseaux occupent une place importante dans les traditions religieuses Honnin. La Liste <strong>Voies Aviaires (Avian Ways)</strong> permet de faire taire les oiseaux, d’échapper à leur perception, de comprendre leur langage, d’en apprivoiser certains, de les appeler et, aux plus hauts niveaux, d’emprunter leur forme.</p>\n<p><strong>Communions (Communions)</strong> approfondit cette relation : l’Ônu perçoit les présences, partage les sensations et les émotions des oiseaux, emprunte leur vue ou leur ouïe et étend progressivement sa conscience à la vie qui l’entoure.</p>\n<h2>Listes de sorts de base — version bêta</h2>\n<ul>\n<li><strong>Maîtrise des Animaux (Animal Mastery).</strong> Approche, apaise et influence les animaux.</li>\n<li><strong>Maîtrise des Herbes (Herb Mastery).</strong> Recherche, prépare et renforce les remèdes végétaux.</li>\n<li><strong>Connaissance de la Nature (Nature’s Lore).</strong> Interprète le terrain, les phénomènes naturels et les signes du monde vivant.</li>\n<li><strong>Artisanat du Tatouage (Tattoo Crafts).</strong> Crée et enchante les tatouages rituels des Honnin.</li>\n<li><strong>Voies Aviaires (Avian Ways).</strong> Communique avec les oiseaux, les appelle et emprunte progressivement leurs capacités et leur forme.</li>\n<li><strong>Communions (Communions).</strong> Établit des liens sensoriels et spirituels avec les oiseaux et les présences environnantes.</li>\n</ul>\n<h2>Place dans la société Honnin</h2>\n<p>La Profession est normalement réservée aux <strong>Honnin — Suzamatu</strong>. L’Ônu appartient à une tradition précise, liée à un clan, à un sanctuaire ou à un esprit particulier. Il peut être guérisseur, gardien d’un lieu ancien, officiant saisonnier, interprète des présages ou tatoueur rituel. Certains demeurent toute leur vie dans la Forêt des Larmes ; d’autres peuvent être envoyés au-dehors pour accomplir une mission dont l’importance justifie de rompre l’isolement traditionnel des Honnin.</p>\n<h2>Adaptation RMU / MERP — Bêta</h2>\n<p>Le document RMSS/RMFRP décrit les Honnin, leurs prêtres et trois Listes de Théurgie propres à leur tradition, mais ne fournit pas une Profession autonome intitulée « Honnin ». Cette fiche constitue donc une <strong>reconstruction MERP-RMU destinée au bêta-test</strong>.</p>\n<p>Le châssis de l’Animiste a été retenu comme référence mécanique afin de limiter les variables d’équilibrage. Les trois Listes Honnin ont été promues au rang de Listes de base de cette Profession, aux côtés de trois Listes naturelles compatibles avec son rôle. Les retours de jeu devront principalement porter sur le coût réel du Tatouage, la puissance des tatouages permanents, l’utilité des Voies Aviaires et l’équilibre général face à l’Animiste.</p>",
+        "skillDevelopmentCosts": [
+          {
+            "skillCategory": "Animal",
+            "cost": "1/2"
+          },
+          {
+            "skillCategory": "Awareness",
+            "cost": "3/4"
+          },
+          {
+            "skillCategory": "Battle Expertise",
+            "cost": "7/10"
+          },
+          {
+            "skillCategory": "Body Discipline",
+            "cost": "6/8"
+          },
+          {
+            "skillCategory": "Brawn",
+            "cost": "5/7"
+          },
+          {
+            "skillCategory": "Combat Expertise",
+            "cost": "7/10"
+          },
+          {
+            "skillCategory": "Composition",
+            "cost": "3/4"
+          },
+          {
+            "skillCategory": "Crafting",
+            "cost": "3/4"
+          },
+          {
+            "skillCategory": "Delving",
+            "cost": "4/6"
+          },
+          {
+            "skillCategory": "Environmental",
+            "cost": "1/3"
+          },
+          {
+            "skillCategory": "Gymnastic",
+            "cost": "4/6"
+          },
+          {
+            "skillCategory": "Lore",
+            "cost": "2/3"
+          },
+          {
+            "skillCategory": "Magical Expertise",
+            "cost": "3/4"
+          },
+          {
+            "skillCategory": "Medical",
+            "cost": "2/4"
+          },
+          {
+            "skillCategory": "Mental Discipline",
+            "cost": "3/4"
+          },
+          {
+            "skillCategory": "Movement",
+            "cost": "3/5"
+          },
+          {
+            "skillCategory": "Performance Art",
+            "cost": "3/4"
+          },
+          {
+            "skillCategory": "Power Manipulation",
+            "cost": "2/4"
+          },
+          {
+            "skillCategory": "Science",
+            "cost": "3/5"
+          },
+          {
+            "skillCategory": "Social",
+            "cost": "3/4"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Base",
+            "cost": "1/2"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Open",
+            "cost": "1/2"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Magical Ritual",
+            "cost": "1/3"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Closed",
+            "cost": "2/4"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Arcane",
+            "cost": "5/7"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Restricted",
+            "cost": "6/8"
+          },
+          {
+            "skillCategory": "Subterfuge",
+            "cost": "4/6"
+          },
+          {
+            "skillCategory": "Technical",
+            "cost": "5/7"
+          },
+          {
+            "skillCategory": "Vocation",
+            "cost": "3/4"
+          }
+        ],
+        "combatTrainingCosts": [
+          {
+            "trainingGroup": "Melee Weapons",
+            "cost": "5/7"
+          },
+          {
+            "trainingGroup": "Ranged Weapons",
+            "cost": "6/8"
+          },
+          {
+            "trainingGroup": "Shield",
+            "cost": "9/12"
+          },
+          {
+            "trainingGroup": "Unarmed",
+            "cost": "15/20"
+          }
+        ],
+        "professionalSkills": [
+          {
+            "skillCategory": "Animal",
+            "skillName": "Animal Handling"
+          },
+          {
+            "skillCategory": "Awareness",
+            "skillName": "Perception"
+          },
+          {
+            "skillCategory": "Awareness",
+            "skillName": "Tracking"
+          },
+          {
+            "skillCategory": "Crafting",
+            "skillName": "Tattooing"
+          },
+          {
+            "skillCategory": "Environmental",
+            "skillName": "Survival"
+          },
+          {
+            "skillCategory": "Lore",
+            "skillName": "Creature Lore"
+          },
+          {
+            "skillCategory": "Lore",
+            "skillName": "Region Lore"
+          },
+          {
+            "skillCategory": "Lore",
+            "skillName": "Religion/Philosophy Lore"
+          },
+          {
+            "skillCategory": "Medical",
+            "skillName": "Herbalism"
+          },
+          {
+            "skillCategory": "Power Manipulation",
+            "skillName": "Power Development"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Base"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Open"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Closed"
+          },
+          {
+            "skillCategory": "Spellcasting",
+            "skillName": "Magical Ritual"
+          },
+          {
+            "skillCategory": "Vocation",
+            "skillName": "Service"
+          }
+        ]
+      }
+    },
+    "folderKey": "professions-pures-canalisation"
+  },
+  "skill": {
+    "key": "honnin-tattooing",
+    "folderPath": [
+      "MERP-RMU",
+      "Skills"
+    ],
+    "document": {
+      "name": "Tatouage (Tattooing)",
+      "type": "skill",
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "merp-ui": {
+          "key": "honnin-tattooing",
+          "collection": "honnin-beta",
+          "contentVersion": 1,
+          "beta": true
+        }
+      },
+      "system": {
+        "name": "Tattooing",
+        "category": "Crafting",
+        "trainingGroup": null,
+        "stat": "Ag",
+        "description": "Le Tatouage couvre la préparation des pigments, des aiguilles et de la peau, le tracé des motifs, leur application permanente ou semi-permanente et les soins nécessaires à leur cicatrisation. Chez les Honnin, cette Compétence comprend également les conventions symboliques des motifs rituels. Elle ne confère aucun pouvoir magique par elle-même ; l’enchantement relève de la Liste Artisanat du Tatouage (Tattoo Crafts).",
+        "specialization": "",
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 0,
+        "autoSkill": false
+      }
+    },
+    "localizations": {
+      "fr": {
+        "name": "Tatouage",
+        "system": {
+          "name": "Tatouage",
+          "description": "Le Tatouage couvre la préparation des pigments, des aiguilles et de la peau, le tracé des motifs, leur application permanente ou semi-permanente et les soins nécessaires à leur cicatrisation. Chez les Honnin, cette Compétence comprend également les conventions symboliques des motifs rituels. Elle ne confère aucun pouvoir magique par elle-même ; l’enchantement relève de la Liste Artisanat du Tatouage (Tattoo Crafts)."
+        }
+      },
+      "en": {
+        "name": "Tattooing",
+        "system": {
+          "name": "Tattooing",
+          "description": "Tattooing covers the preparation of pigments, needles, and skin; the drawing of patterns; their permanent or semi-permanent application; and the care required for proper healing. Among the Honnin, this Skill also includes the symbolic conventions of ritual designs. It grants no magical power by itself; enchantment belongs to the Tattoo Crafts Spell List."
+        }
+      }
+    },
+    "folderLocalizations": {
+      "fr": [
+        "MERP-RMU",
+        "Compétences"
+      ],
+      "en": [
+        "MERP-RMU",
+        "Skills"
+      ]
+    }
+  },
+  "nativeBaseListClones": [
+    {
+      "key": "honnin-animal-mastery",
+      "sourceName": "Animal Mastery",
+      "sourceProfession": "Druid",
+      "localizations": {
+        "fr": {
+          "name": "Maîtrise des Animaux",
+          "system": {
+            "name": "Maîtrise des Animaux",
+            "label": "Maîtrise des Animaux"
+          }
+        },
+        "en": {
+          "name": "Animal Mastery",
+          "system": {
+            "name": "Animal Mastery",
+            "label": "Animal Mastery"
+          }
+        }
+      }
+    },
+    {
+      "key": "honnin-herb-mastery",
+      "sourceName": "Herb Mastery",
+      "sourceProfession": "Druid",
+      "localizations": {
+        "fr": {
+          "name": "Maîtrise des Herbes",
+          "system": {
+            "name": "Maîtrise des Herbes",
+            "label": "Maîtrise des Herbes"
+          }
+        },
+        "en": {
+          "name": "Herb Mastery",
+          "system": {
+            "name": "Herb Mastery",
+            "label": "Herb Mastery"
+          }
+        }
+      }
+    },
+    {
+      "key": "honnin-natures-lore",
+      "sourceName": "Nature's Lore",
+      "sourceProfession": "Druid",
+      "localizations": {
+        "fr": {
+          "name": "Connaissance de la Nature",
+          "system": {
+            "name": "Connaissance de la Nature",
+            "label": "Connaissance de la Nature"
+          }
+        },
+        "en": {
+          "name": "Nature's Lore",
+          "system": {
+            "name": "Nature's Lore",
+            "label": "Nature's Lore"
+          }
+        }
+      }
+    }
+  ],
+  "spellLists": [
+    {
+      "key": "honnin-tattoo-crafts",
+      "document": {
+        "name": "Artisanat du Tatouage (Tattoo Crafts)",
+        "type": "spell-list",
+        "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "honnin-tattoo-crafts",
+            "collection": "honnin-beta",
+            "contentVersion": 1,
+            "beta": true,
+            "source": {
+              "type": "rmss-honnin-spell-list",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 pp.231–233"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU — Bêta",
+          "name": "Artisanat du Tatouage (Tattoo Crafts)",
+          "listType": "Base",
+          "realms": "Channeling",
+          "profession": "Honnin Priest",
+          "notes": "<h2>Artisanat du Tatouage (Tattoo Crafts)</h2><p>Liste Honnin de Théurgie consacrée à la création de tatouages magiques. Dans cette adaptation bêta, elle devient une Liste de base du Prêtre Honnin.</p><p><strong>Règles particulières :</strong> seuls des sorts de Théurgie peuvent être imprégnés. Un tatouage magique mesure au minimum environ 2,5 × 2,5 cm ; deux tatouages magiques ne peuvent se croiser ; un tatouage ne peut porter qu’une seule capacité enchantée ; une personne ne peut porter plus de <strong>13 tatouages magiques</strong>.</p><p>Les Tatouages Généraux peuvent conférer des bonus ou propriétés. Les valeurs historiques sont conservées pour le bêta-test : Classe I/II/III/IV — Compétence +5/+10/+15/+20 ; Catégorie +2/+4/+6/+8 ; PV +5/+15/+30/+45 ; PP +2/+4/+6/+8 ; JR +5/+10/+15/+20 ; Adder +1/+2/+3/+4 ; multiplicateur de PP ×1,25/×1,5/×2/×3. <strong>Ces valeurs ne sont pas encore considérées comme équilibrées pour RMU et requièrent l’accord du MJ.</strong></p><p>Pour enchanter un bonus de Compétence ou de Catégorie, le tatoueur doit connaître personnellement la Compétence concernée et posséder un bonus au moins égal au double du bonus qu’il souhaite inscrire.</p>",
+          "label": "Artisanat du Tatouage (Tattoo Crafts)",
+          "notesLabel": "Artisanat du Tatouage (Tattoo Crafts) notes",
+          "spells": [
+            {
+              "name": "Création du Tatouage (Make Tattoo)",
+              "level": 1,
+              "description": "Permet au lanceur de réaliser sans défaut un tatouage sur une chair non magique, à condition de disposer des outils et pigments nécessaires. Le temps de travail est réduit de moitié.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Création du Tatouage (Make Tattoo)",
+              "descriptionLabel": "Création du Tatouage (Make Tattoo) description",
+              "localizations": {
+                "fr": {
+                  "name": "Création du Tatouage",
+                  "description": "Permet au lanceur de réaliser sans défaut un tatouage sur une chair non magique, à condition de disposer des outils et pigments nécessaires. Le temps de travail est réduit de moitié."
+                },
+                "en": {
+                  "name": "Make Tattoo",
+                  "description": "Allows the caster to flawlessly create a tattoo on non-magical flesh, provided the necessary tools and pigments are available. Working time is halved."
+                }
+              }
+            },
+            {
+              "name": "Tatouage I (Tattoo I)",
+              "level": 2,
+              "description": "Prépare un tatouage afin qu’il puisse recevoir un sort de Théurgie de niveau 1.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage I (Tattoo I)",
+              "descriptionLabel": "Tatouage I (Tattoo I) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage I",
+                  "description": "Prépare un tatouage afin qu’il puisse recevoir un sort de Théurgie de niveau 1."
+                },
+                "en": {
+                  "name": "Tattoo I",
+                  "description": "Prepares a tattoo so that it can receive a 1st-level Channeling spell."
+                }
+              }
+            },
+            {
+              "name": "Imprégnation du Tatouage I (Imbed Tattoo I)",
+              "level": 3,
+              "description": "Imprègne dans un tatouage préparé un sort de Théurgie de niveau 1.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Imprégnation du Tatouage I (Imbed Tattoo I)",
+              "descriptionLabel": "Imprégnation du Tatouage I (Imbed Tattoo I) description",
+              "localizations": {
+                "fr": {
+                  "name": "Imprégnation du Tatouage I",
+                  "description": "Imprègne dans un tatouage préparé un sort de Théurgie de niveau 1."
+                },
+                "en": {
+                  "name": "Imbed Tattoo I",
+                  "description": "Imbeds a 1st-level Channeling spell into a prepared tattoo."
+                }
+              }
+            },
+            {
+              "name": "Tatouage II (Tattoo II)",
+              "level": 4,
+              "description": "Comme Tatouage I, mais le tatouage peut recevoir un sort de Théurgie de niveau 1 ou 2.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage II (Tattoo II)",
+              "descriptionLabel": "Tatouage II (Tattoo II) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage II",
+                  "description": "Comme Tatouage I, mais le tatouage peut recevoir un sort de Théurgie de niveau 1 ou 2."
+                },
+                "en": {
+                  "name": "Tattoo II",
+                  "description": "As Tattoo I, but the tattoo can receive a 1st- or 2nd-level Channeling spell."
+                }
+              }
+            },
+            {
+              "name": "Imprégnation du Tatouage II (Imbed Tattoo II)",
+              "level": 5,
+              "description": "Comme Imprégnation du Tatouage I, mais permet d’inscrire un sort de niveau 1 ou 2.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Imprégnation du Tatouage II (Imbed Tattoo II)",
+              "descriptionLabel": "Imprégnation du Tatouage II (Imbed Tattoo II) description",
+              "localizations": {
+                "fr": {
+                  "name": "Imprégnation du Tatouage II",
+                  "description": "Comme Imprégnation du Tatouage I, mais permet d’inscrire un sort de niveau 1 ou 2."
+                },
+                "en": {
+                  "name": "Imbed Tattoo II",
+                  "description": "As Imbed Tattoo I, but allows a 1st- or 2nd-level spell to be imbedded."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Général I (General Tattoo I)",
+              "level": 6,
+              "description": "Prépare un tatouage afin qu’il puisse recevoir un effet général de Classe I. Les valeurs de la table Honnin sont conservées à titre bêta et doivent être validées par le MJ.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Général I (General Tattoo I)",
+              "descriptionLabel": "Tatouage Général I (General Tattoo I) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Général I",
+                  "description": "Prépare un tatouage afin qu’il puisse recevoir un effet général de Classe I. Les valeurs de la table Honnin sont conservées à titre bêta et doivent être validées par le MJ."
+                },
+                "en": {
+                  "name": "General Tattoo I",
+                  "description": "Prepares a tattoo so that it can receive a Class I general effect. The values from the Honnin table are retained for beta testing and require GM approval."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Quotidien I (Daily Tattoo I)",
+              "level": 7,
+              "description": "Permet d’imprégner un sort de Théurgie de niveau 1 dans un tatouage afin qu’il puisse être utilisé une fois par jour.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Quotidien I (Daily Tattoo I)",
+              "descriptionLabel": "Tatouage Quotidien I (Daily Tattoo I) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Quotidien I",
+                  "description": "Permet d’imprégner un sort de Théurgie de niveau 1 dans un tatouage afin qu’il puisse être utilisé une fois par jour."
+                },
+                "en": {
+                  "name": "Daily Tattoo I",
+                  "description": "Allows a 1st-level Channeling spell to be imbedded in a tattoo for use once per day."
+                }
+              }
+            },
+            {
+              "name": "Tatouage IV (Tattoo IV)",
+              "level": 8,
+              "description": "Comme Tatouage I, jusqu’au niveau 4.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage IV (Tattoo IV)",
+              "descriptionLabel": "Tatouage IV (Tattoo IV) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage IV",
+                  "description": "Comme Tatouage I, jusqu’au niveau 4."
+                },
+                "en": {
+                  "name": "Tattoo IV",
+                  "description": "As Tattoo I, up to 4th level."
+                }
+              }
+            },
+            {
+              "name": "Imprégnation du Tatouage IV (Imbed Tattoo IV)",
+              "level": 9,
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 4.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Imprégnation du Tatouage IV (Imbed Tattoo IV)",
+              "descriptionLabel": "Imprégnation du Tatouage IV (Imbed Tattoo IV) description",
+              "localizations": {
+                "fr": {
+                  "name": "Imprégnation du Tatouage IV",
+                  "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 4."
+                },
+                "en": {
+                  "name": "Imbed Tattoo IV",
+                  "description": "As Imbed Tattoo I, for a spell from 1st through 4th level."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Général II (General Tattoo II)",
+              "level": 10,
+              "description": "Comme Tatouage Général I, mais permet un effet général de Classe II.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Général II (General Tattoo II)",
+              "descriptionLabel": "Tatouage Général II (General Tattoo II) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Général II",
+                  "description": "Comme Tatouage Général I, mais permet un effet général de Classe II."
+                },
+                "en": {
+                  "name": "General Tattoo II",
+                  "description": "As General Tattoo I, but allows a Class II general effect."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Constant II (Constant Tattoo II)",
+              "level": 11,
+              "description": "Permet d’imprégner un sort de Théurgie de niveau 1 ou 2 afin qu’il fonctionne en permanence ou à volonté, selon la nature du sort et l’accord du MJ.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Constant II (Constant Tattoo II)",
+              "descriptionLabel": "Tatouage Constant II (Constant Tattoo II) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Constant II",
+                  "description": "Permet d’imprégner un sort de Théurgie de niveau 1 ou 2 afin qu’il fonctionne en permanence ou à volonté, selon la nature du sort et l’accord du MJ."
+                },
+                "en": {
+                  "name": "Constant Tattoo II",
+                  "description": "Allows a 1st- or 2nd-level Channeling spell to be imbedded so that it functions continuously or at will, depending on the nature of the spell and GM approval."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Quotidien III (Daily Tattoo III)",
+              "level": 12,
+              "description": "Permet d’imprégner un sort de niveau 1 à 3 : niveau 1 jusqu’à trois fois par jour ; niveaux 2 ou 3 une fois par jour.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Quotidien III (Daily Tattoo III)",
+              "descriptionLabel": "Tatouage Quotidien III (Daily Tattoo III) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Quotidien III",
+                  "description": "Permet d’imprégner un sort de niveau 1 à 3 : niveau 1 jusqu’à trois fois par jour ; niveaux 2 ou 3 une fois par jour."
+                },
+                "en": {
+                  "name": "Daily Tattoo III",
+                  "description": "Allows a 1st- to 3rd-level spell to be imbedded: a 1st-level spell up to three times per day; 2nd- or 3rd-level spells once per day."
+                }
+              }
+            },
+            {
+              "name": "Tatouage VI (Tattoo VI)",
+              "level": 13,
+              "description": "Comme Tatouage I, jusqu’au niveau 6.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage VI (Tattoo VI)",
+              "descriptionLabel": "Tatouage VI (Tattoo VI) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage VI",
+                  "description": "Comme Tatouage I, jusqu’au niveau 6."
+                },
+                "en": {
+                  "name": "Tattoo VI",
+                  "description": "As Tattoo I, up to 6th level."
+                }
+              }
+            },
+            {
+              "name": "Imprégnation du Tatouage VI (Imbed Tattoo VI)",
+              "level": 14,
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 6.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Imprégnation du Tatouage VI (Imbed Tattoo VI)",
+              "descriptionLabel": "Imprégnation du Tatouage VI (Imbed Tattoo VI) description",
+              "localizations": {
+                "fr": {
+                  "name": "Imprégnation du Tatouage VI",
+                  "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 6."
+                },
+                "en": {
+                  "name": "Imbed Tattoo VI",
+                  "description": "As Imbed Tattoo I, for a spell from 1st through 6th level."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Général III (General Tattoo III)",
+              "level": 15,
+              "description": "Comme Tatouage Général I, mais permet un effet général de Classe III.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Général III (General Tattoo III)",
+              "descriptionLabel": "Tatouage Général III (General Tattoo III) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Général III",
+                  "description": "Comme Tatouage Général I, mais permet un effet général de Classe III."
+                },
+                "en": {
+                  "name": "General Tattoo III",
+                  "description": "As General Tattoo I, but allows a Class III general effect."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Quotidien V (Daily Tattoo V)",
+              "level": 16,
+              "description": "Permet d’imprégner un sort de niveau 1 à 5 : niveau 1 jusqu’à cinq fois par jour ; niveaux 2–3 deux fois ; niveaux 4–5 une fois.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Quotidien V (Daily Tattoo V)",
+              "descriptionLabel": "Tatouage Quotidien V (Daily Tattoo V) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Quotidien V",
+                  "description": "Permet d’imprégner un sort de niveau 1 à 5 : niveau 1 jusqu’à cinq fois par jour ; niveaux 2–3 deux fois ; niveaux 4–5 une fois."
+                },
+                "en": {
+                  "name": "Daily Tattoo V",
+                  "description": "Allows a 1st- to 5th-level spell to be imbedded: 1st level up to five times per day; 2nd–3rd levels twice per day; 4th–5th levels once per day."
+                }
+              }
+            },
+            {
+              "name": "Tatouage VIII (Tattoo VIII)",
+              "level": 17,
+              "description": "Comme Tatouage I, jusqu’au niveau 8.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage VIII (Tattoo VIII)",
+              "descriptionLabel": "Tatouage VIII (Tattoo VIII) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage VIII",
+                  "description": "Comme Tatouage I, jusqu’au niveau 8."
+                },
+                "en": {
+                  "name": "Tattoo VIII",
+                  "description": "As Tattoo I, up to 8th level."
+                }
+              }
+            },
+            {
+              "name": "Imprégnation du Tatouage VIII (Imbed Tattoo VIII)",
+              "level": 18,
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 8.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Imprégnation du Tatouage VIII (Imbed Tattoo VIII)",
+              "descriptionLabel": "Imprégnation du Tatouage VIII (Imbed Tattoo VIII) description",
+              "localizations": {
+                "fr": {
+                  "name": "Imprégnation du Tatouage VIII",
+                  "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 8."
+                },
+                "en": {
+                  "name": "Imbed Tattoo VIII",
+                  "description": "As Imbed Tattoo I, for a spell from 1st through 8th level."
+                }
+              }
+            },
+            {
+              "name": "Création du Tatouage Véritable (Make Tattoo True)",
+              "level": 19,
+              "description": "Permet de réaliser sans défaut un tatouage sur une chair magique. Les outils et matériaux requis doivent être présents ; le temps de travail est réduit de moitié.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Création du Tatouage Véritable (Make Tattoo True)",
+              "descriptionLabel": "Création du Tatouage Véritable (Make Tattoo True) description",
+              "localizations": {
+                "fr": {
+                  "name": "Création du Tatouage Véritable",
+                  "description": "Permet de réaliser sans défaut un tatouage sur une chair magique. Les outils et matériaux requis doivent être présents ; le temps de travail est réduit de moitié."
+                },
+                "en": {
+                  "name": "Make Tattoo True",
+                  "description": "Allows the caster to flawlessly create a tattoo on magical flesh. The required tools and materials must be available; working time is halved."
+                }
+              }
+            },
+            {
+              "name": "Tatouage X (Tattoo X)",
+              "level": 20,
+              "description": "Comme Tatouage I, jusqu’au niveau 10.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage X (Tattoo X)",
+              "descriptionLabel": "Tatouage X (Tattoo X) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage X",
+                  "description": "Comme Tatouage I, jusqu’au niveau 10."
+                },
+                "en": {
+                  "name": "Tattoo X",
+                  "description": "As Tattoo I, up to 10th level."
+                }
+              }
+            },
+            {
+              "name": "Imprégnation du Tatouage X (Imbed Tattoo X)",
+              "level": 25,
+              "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 10.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Imprégnation du Tatouage X (Imbed Tattoo X)",
+              "descriptionLabel": "Imprégnation du Tatouage X (Imbed Tattoo X) description",
+              "localizations": {
+                "fr": {
+                  "name": "Imprégnation du Tatouage X",
+                  "description": "Comme Imprégnation du Tatouage I, pour un sort de niveau 1 à 10."
+                },
+                "en": {
+                  "name": "Imbed Tattoo X",
+                  "description": "As Imbed Tattoo I, for a spell from 1st through 10th level."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Général IV (General Tattoo IV)",
+              "level": 35,
+              "description": "Comme Tatouage Général I, mais permet un effet général de Classe IV.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Général IV (General Tattoo IV)",
+              "descriptionLabel": "Tatouage Général IV (General Tattoo IV) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Général IV",
+                  "description": "Comme Tatouage Général I, mais permet un effet général de Classe IV."
+                },
+                "en": {
+                  "name": "General Tattoo IV",
+                  "description": "As General Tattoo I, but allows a Class IV general effect."
+                }
+              }
+            },
+            {
+              "name": "Tatouage Constant X (Constant Tattoo X)",
+              "level": 50,
+              "description": "Comme Tatouage Constant II, mais permet d’imprégner un sort de Théurgie de niveau 1 à 10.",
+              "aoe": "1 tatouage",
+              "duration": "24 h",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Artisanat du Tatouage (Tattoo Crafts)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Tatouage Constant X (Constant Tattoo X)",
+              "descriptionLabel": "Tatouage Constant X (Constant Tattoo X) description",
+              "localizations": {
+                "fr": {
+                  "name": "Tatouage Constant X",
+                  "description": "Comme Tatouage Constant II, mais permet d’imprégner un sort de Théurgie de niveau 1 à 10."
+                },
+                "en": {
+                  "name": "Constant Tattoo X",
+                  "description": "As Constant Tattoo II, but allows a 1st- through 10th-level Channeling spell to be imbedded."
+                }
+              }
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Artisanat du Tatouage",
+          "system": {
+            "name": "Artisanat du Tatouage",
+            "label": "Artisanat du Tatouage",
+            "notesLabel": "Artisanat du Tatouage — notes",
+            "notes": "<h2>Artisanat du Tatouage</h2><p>Liste Honnin de Théurgie consacrée à la création de tatouages magiques. Dans cette adaptation bêta, elle devient une Liste de base du Prêtre Honnin.</p><p><strong>Règles particulières :</strong> seuls des sorts de Théurgie peuvent être imprégnés. Un tatouage magique mesure au minimum environ 2,5 × 2,5 cm ; deux tatouages magiques ne peuvent se croiser ; un tatouage ne peut porter qu’une seule capacité enchantée ; une personne ne peut porter plus de <strong>13 tatouages magiques</strong>.</p><p>Les Tatouages Généraux peuvent conférer des bonus ou propriétés. Les valeurs historiques sont conservées pour le bêta-test : Classe I/II/III/IV — Compétence +5/+10/+15/+20 ; Catégorie +2/+4/+6/+8 ; PV +5/+15/+30/+45 ; PP +2/+4/+6/+8 ; JR +5/+10/+15/+20 ; Adder +1/+2/+3/+4 ; multiplicateur de PP ×1,25/×1,5/×2/×3. <strong>Ces valeurs ne sont pas encore considérées comme équilibrées pour RMU et requièrent l’accord du MJ.</strong></p><p>Pour enchanter un bonus de Compétence ou de Catégorie, le tatoueur doit connaître personnellement la Compétence concernée et posséder un bonus au moins égal au double du bonus qu’il souhaite inscrire.</p>"
+          }
+        },
+        "en": {
+          "name": "Tattoo Crafts",
+          "system": {
+            "name": "Tattoo Crafts",
+            "label": "Tattoo Crafts",
+            "notesLabel": "Tattoo Crafts — notes",
+            "notes": "<h2>Tattoo Crafts</h2><p>Honnin Channeling List devoted to the creation of magical tattoos. In this beta adaptation, it becomes a Base List of the Honnin Priest.</p><p><strong>Special rules:</strong> only Channeling spells may be imbedded. A magical tattoo must measure at least about 2.5 × 2.5 cm; two magical tattoos may not overlap; a tattoo can hold only one enchanted ability; a person may bear no more than <strong>13 magical tattoos</strong>.</p><p>General Tattoos may grant bonuses or properties. Historical values are retained for beta testing: Class I/II/III/IV — Skill +5/+10/+15/+20; Category +2/+4/+6/+8; hits +5/+15/+30/+45; PP +2/+4/+6/+8; RR +5/+10/+15/+20; Adder +1/+2/+3/+4; PP multiplier ×1.25/×1.5/×2/×3. <strong>These values are not yet considered balanced for RMU and require GM approval.</strong></p><p>To enchant a Skill or Category bonus, the tattooist must personally know the Skill concerned and possess a bonus at least twice as high as the bonus they wish to inscribe.</p>"
+          }
+        }
+      },
+      "folderKey": "spell-lists-channeling-honnin"
+    },
+    {
+      "key": "honnin-avian-ways",
+      "document": {
+        "name": "Voies Aviaires (Avian Ways)",
+        "type": "spell-list",
+        "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "honnin-avian-ways",
+            "collection": "honnin-beta",
+            "contentVersion": 1,
+            "beta": true,
+            "source": {
+              "type": "rmss-honnin-spell-list",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 pp.231–233"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU — Bêta",
+          "name": "Voies Aviaires (Avian Ways)",
+          "listType": "Base",
+          "realms": "Channeling",
+          "profession": "Honnin Priest",
+          "notes": "<h2>Voies Aviaires (Avian Ways)</h2><p>Liste Honnin de Théurgie centrée sur les oiseaux : silence, dissimulation à leurs sens, langage, apprivoisement, appel et transformation. Les transformations utilisent les règles RMU de changement de forme lorsqu’elles sont applicables.</p>",
+          "label": "Voies Aviaires (Avian Ways)",
+          "notesLabel": "Voies Aviaires (Avian Ways) notes",
+          "spells": [
+            {
+              "name": "Silence des Oiseaux (Silence Birds)",
+              "level": 1,
+              "description": "Tous les oiseaux dans la zone deviennent silencieux.",
+              "aoe": "20’R/niv",
+              "duration": "2 min/niv",
+              "range": "20’R/niv",
+              "spellType": "F",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Silence des Oiseaux (Silence Birds)",
+              "descriptionLabel": "Silence des Oiseaux (Silence Birds) description",
+              "localizations": {
+                "fr": {
+                  "name": "Silence des Oiseaux",
+                  "description": "Tous les oiseaux dans la zone deviennent silencieux."
+                },
+                "en": {
+                  "name": "Silence Birds",
+                  "description": "All birds within the area become silent."
+                }
+              }
+            },
+            {
+              "name": "Voile aux Oiseaux (Cloaking)",
+              "level": 2,
+              "description": "Le lanceur devient indétectable pour les oiseaux.",
+              "aoe": "caster",
+              "duration": "1 min/niv",
+              "range": "self",
+              "spellType": "E",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Voile aux Oiseaux (Cloaking)",
+              "descriptionLabel": "Voile aux Oiseaux (Cloaking) description",
+              "localizations": {
+                "fr": {
+                  "name": "Voile aux Oiseaux",
+                  "description": "Le lanceur devient indétectable pour les oiseaux."
+                },
+                "en": {
+                  "name": "Cloaking",
+                  "description": "The caster becomes undetectable to birds."
+                }
+              }
+            },
+            {
+              "name": "Langage des Oiseaux (Bird Tongues)",
+              "level": 3,
+              "description": "Permet de comprendre et de parler le langage d’une espèce d’oiseau choisie.",
+              "aoe": "caster",
+              "duration": "1 min/niv",
+              "range": "self",
+              "spellType": "I",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Langage des Oiseaux (Bird Tongues)",
+              "descriptionLabel": "Langage des Oiseaux (Bird Tongues) description",
+              "localizations": {
+                "fr": {
+                  "name": "Langage des Oiseaux",
+                  "description": "Permet de comprendre et de parler le langage d’une espèce d’oiseau choisie."
+                },
+                "en": {
+                  "name": "Bird Tongues",
+                  "description": "Allows the caster to understand and speak the language of one chosen species of bird."
+                }
+              }
+            },
+            {
+              "name": "Apprivoisement (Taming)",
+              "level": 6,
+              "description": "Permet d’apprivoiser un oiseau dont le niveau ne dépasse pas la moitié de celui du lanceur. Il sert son maître comme le ferait un animal loyal mais peu intelligent.",
+              "aoe": "1 oiseau",
+              "duration": "P",
+              "range": "10’/niv",
+              "spellType": "U",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Apprivoisement (Taming)",
+              "descriptionLabel": "Apprivoisement (Taming) description",
+              "localizations": {
+                "fr": {
+                  "name": "Apprivoisement",
+                  "description": "Permet d’apprivoiser un oiseau dont le niveau ne dépasse pas la moitié de celui du lanceur. Il sert son maître comme le ferait un animal loyal mais peu intelligent."
+                },
+                "en": {
+                  "name": "Taming",
+                  "description": "Allows the caster to tame a bird whose level does not exceed half the caster’s level. It serves its master as a loyal but unintelligent animal would."
+                }
+              }
+            },
+            {
+              "name": "Appel d’un Oiseau (Call Bird)",
+              "level": 13,
+              "description": "Appelle un oiseau précis et connu du lanceur. S’il peut matériellement rejoindre le lanceur, il vient à lui.",
+              "aoe": "1 oiseau",
+              "duration": "—",
+              "range": "1 mi/niv",
+              "spellType": "U",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Appel d’un Oiseau (Call Bird)",
+              "descriptionLabel": "Appel d’un Oiseau (Call Bird) description",
+              "localizations": {
+                "fr": {
+                  "name": "Appel d’un Oiseau",
+                  "description": "Appelle un oiseau précis et connu du lanceur. S’il peut matériellement rejoindre le lanceur, il vient à lui."
+                },
+                "en": {
+                  "name": "Call Bird",
+                  "description": "Calls one specific bird known to the caster. If it can physically reach the caster, it comes to them."
+                }
+              }
+            },
+            {
+              "name": "Forme d’Oiseau I (Bird Form I)",
+              "level": 14,
+              "description": "Le lanceur prend l’apparence et la texture d’un oiseau choisi, sans acquérir ses capacités physiques. Sa taille peut varier d’environ 75 % à 200 % de la taille normale de l’oiseau selon les limites fixées par le MJ.",
+              "aoe": "caster",
+              "duration": "1 min/niv",
+              "range": "self",
+              "spellType": "U",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Forme d’Oiseau I (Bird Form I)",
+              "descriptionLabel": "Forme d’Oiseau I (Bird Form I) description",
+              "localizations": {
+                "fr": {
+                  "name": "Forme d’Oiseau I",
+                  "description": "Le lanceur prend l’apparence et la texture d’un oiseau choisi, sans acquérir ses capacités physiques. Sa taille peut varier d’environ 75 % à 200 % de la taille normale de l’oiseau selon les limites fixées par le MJ."
+                },
+                "en": {
+                  "name": "Bird Form I",
+                  "description": "The caster takes on the appearance and texture of a chosen bird without gaining its physical capabilities. Size may vary from roughly 75% to 200% of the bird’s normal size, within limits set by the GM."
+                }
+              }
+            },
+            {
+              "name": "Forme d’Oiseau II (Bird Form II)",
+              "level": 16,
+              "description": "Comme Forme d’Oiseau I, mais le lanceur acquiert les capacités de déplacement de l’oiseau, notamment le vol lorsqu’il est approprié.",
+              "aoe": "caster",
+              "duration": "1 min/niv",
+              "range": "self",
+              "spellType": "U",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Forme d’Oiseau II (Bird Form II)",
+              "descriptionLabel": "Forme d’Oiseau II (Bird Form II) description",
+              "localizations": {
+                "fr": {
+                  "name": "Forme d’Oiseau II",
+                  "description": "Comme Forme d’Oiseau I, mais le lanceur acquiert les capacités de déplacement de l’oiseau, notamment le vol lorsqu’il est approprié."
+                },
+                "en": {
+                  "name": "Bird Form II",
+                  "description": "As Bird Form I, but the caster also gains the bird’s movement capabilities, including flight when appropriate."
+                }
+              }
+            },
+            {
+              "name": "Forme d’Oiseau III (Bird Form III)",
+              "level": 19,
+              "description": "Comme Forme d’Oiseau II, mais le lanceur acquiert également les attaques physiques naturelles de l’oiseau.",
+              "aoe": "caster",
+              "duration": "1 min/niv",
+              "range": "self",
+              "spellType": "U",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Forme d’Oiseau III (Bird Form III)",
+              "descriptionLabel": "Forme d’Oiseau III (Bird Form III) description",
+              "localizations": {
+                "fr": {
+                  "name": "Forme d’Oiseau III",
+                  "description": "Comme Forme d’Oiseau II, mais le lanceur acquiert également les attaques physiques naturelles de l’oiseau."
+                },
+                "en": {
+                  "name": "Bird Form III",
+                  "description": "As Bird Form II, but the caster also gains the bird’s natural physical attacks."
+                }
+              }
+            },
+            {
+              "name": "Forme d’Oiseau Véritable (Bird Form True)",
+              "level": 25,
+              "description": "Comme Forme d’Oiseau III, mais le lanceur peut passer d’une forme d’oiseau à une autre pendant la durée du sort.",
+              "aoe": "caster",
+              "duration": "1 min/niv",
+              "range": "self",
+              "spellType": "F",
+              "spellList": "Voies Aviaires (Avian Ways)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Forme d’Oiseau Véritable (Bird Form True)",
+              "descriptionLabel": "Forme d’Oiseau Véritable (Bird Form True) description",
+              "localizations": {
+                "fr": {
+                  "name": "Forme d’Oiseau Véritable",
+                  "description": "Comme Forme d’Oiseau III, mais le lanceur peut passer d’une forme d’oiseau à une autre pendant la durée du sort."
+                },
+                "en": {
+                  "name": "Bird Form True",
+                  "description": "As Bird Form III, but the caster may shift from one bird form to another during the spell’s duration."
+                }
+              }
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Voies Aviaires",
+          "system": {
+            "name": "Voies Aviaires",
+            "label": "Voies Aviaires",
+            "notesLabel": "Voies Aviaires — notes",
+            "notes": "<h2>Voies Aviaires</h2><p>Liste Honnin de Théurgie centrée sur les oiseaux : silence, dissimulation à leurs sens, langage, apprivoisement, appel et transformation. Les transformations utilisent les règles RMU de changement de forme lorsqu’elles sont applicables.</p>"
+          }
+        },
+        "en": {
+          "name": "Avian Ways",
+          "system": {
+            "name": "Avian Ways",
+            "label": "Avian Ways",
+            "notesLabel": "Avian Ways — notes",
+            "notes": "<h2>Avian Ways</h2><p>Honnin Channeling List centered on birds: silence, concealment from their senses, language, taming, calling, and transformation. Transformations use RMU shape-changing rules whenever applicable.</p>"
+          }
+        }
+      },
+      "folderKey": "spell-lists-channeling-honnin"
+    },
+    {
+      "key": "honnin-communions",
+      "document": {
+        "name": "Communions (Communions)",
+        "type": "spell-list",
+        "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "merp-ui": {
+            "key": "honnin-communions",
+            "collection": "honnin-beta",
+            "contentVersion": 1,
+            "beta": true,
+            "source": {
+              "type": "rmss-honnin-spell-list",
+              "reference": "MERP Character Creation Using RMSS/RMFRP v2.5 pp.231–233"
+            }
+          }
+        },
+        "system": {
+          "book": "MERP-RMU — Bêta",
+          "name": "Communions (Communions)",
+          "listType": "Base",
+          "realms": "Channeling",
+          "profession": "Honnin Priest",
+          "notes": "<h2>Communions (Communions)</h2><p>Liste Honnin de Théurgie consacrée à la perception des présences et au partage des sens, émotions et perceptions des oiseaux. Les effets sont adaptés du corpus RMSS/RMFRP et sont proposés en bêta.</p>",
+          "label": "Communions (Communions)",
+          "notesLabel": "Communions (Communions) notes",
+          "spells": [
+            {
+              "name": "Connaissance des Créatures (Creature Lore)",
+              "level": 1,
+              "description": "Le lanceur reçoit un bonus spécial de +10 à une Manœuvre utilisant une Compétence de Connaissance concernant la créature choisie.",
+              "aoe": "self",
+              "duration": "C",
+              "range": "sight",
+              "spellType": "P",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Connaissance des Créatures (Creature Lore)",
+              "descriptionLabel": "Connaissance des Créatures (Creature Lore) description",
+              "localizations": {
+                "fr": {
+                  "name": "Connaissance des Créatures",
+                  "description": "Le lanceur reçoit un bonus spécial de +10 à une Manœuvre utilisant une Compétence de Connaissance concernant la créature choisie."
+                },
+                "en": {
+                  "name": "Creature Lore",
+                  "description": "The caster receives a special +10 bonus to one Maneuver using a Lore Skill concerning the chosen creature."
+                }
+              }
+            },
+            {
+              "name": "Transe des Présences (Presence Trance)",
+              "level": 2,
+              "description": "Le lanceur perçoit la présence de tous les êtres — animaux et personnes — situés dans la zone, sans nécessairement en connaître l’identité précise.",
+              "aoe": "10’R/niv",
+              "duration": "C",
+              "range": "self",
+              "spellType": "U",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Transe des Présences (Presence Trance)",
+              "descriptionLabel": "Transe des Présences (Presence Trance) description",
+              "localizations": {
+                "fr": {
+                  "name": "Transe des Présences",
+                  "description": "Le lanceur perçoit la présence de tous les êtres — animaux et personnes — situés dans la zone, sans nécessairement en connaître l’identité précise."
+                },
+                "en": {
+                  "name": "Presence Trance",
+                  "description": "The caster perceives the presence of all beings—animals and people—within the area without necessarily learning their exact identities."
+                }
+              }
+            },
+            {
+              "name": "Communion I (Commune I)",
+              "level": 3,
+              "description": "Permet de partager les sentiments des oiseaux présents dans la portée et d’obtenir une impression plus précise de ce qu’ils perçoivent ou ressentent.",
+              "aoe": "self",
+              "duration": "C",
+              "range": "10’/niv",
+              "spellType": "P",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Communion I (Commune I)",
+              "descriptionLabel": "Communion I (Commune I) description",
+              "localizations": {
+                "fr": {
+                  "name": "Communion I",
+                  "description": "Permet de partager les sentiments des oiseaux présents dans la portée et d’obtenir une impression plus précise de ce qu’ils perçoivent ou ressentent."
+                },
+                "en": {
+                  "name": "Commune I",
+                  "description": "Allows the caster to share the feelings of birds within range and gain a more precise impression of what they perceive or feel."
+                }
+              }
+            },
+            {
+              "name": "Empathie Aviaire (Bird Empathy)",
+              "level": 4,
+              "description": "Permet de comprendre ou de visualiser les pensées et émotions d’un oiseau.",
+              "aoe": "1 oiseau",
+              "duration": "C",
+              "range": "100’",
+              "spellType": "I",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Empathie Aviaire (Bird Empathy)",
+              "descriptionLabel": "Empathie Aviaire (Bird Empathy) description",
+              "localizations": {
+                "fr": {
+                  "name": "Empathie Aviaire",
+                  "description": "Permet de comprendre ou de visualiser les pensées et émotions d’un oiseau."
+                },
+                "en": {
+                  "name": "Bird Empathy",
+                  "description": "Allows the caster to understand or visualize a bird’s thoughts and emotions."
+                }
+              }
+            },
+            {
+              "name": "Vue d’Oiseau I (Bird Sight I)",
+              "level": 5,
+              "description": "Le lanceur emprunte la vue d’un oiseau non intelligent à portée. L’oiseau doit être visible ou avoir été localisé par un effet de présence.",
+              "aoe": "caster + 1 cible",
+              "duration": "C",
+              "range": "100’",
+              "spellType": "Pm",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Vue d’Oiseau I (Bird Sight I)",
+              "descriptionLabel": "Vue d’Oiseau I (Bird Sight I) description",
+              "localizations": {
+                "fr": {
+                  "name": "Vue d’Oiseau I",
+                  "description": "Le lanceur emprunte la vue d’un oiseau non intelligent à portée. L’oiseau doit être visible ou avoir été localisé par un effet de présence."
+                },
+                "en": {
+                  "name": "Bird Sight I",
+                  "description": "The caster borrows the sight of a non-intelligent bird within range. The bird must be visible or have been located by a presence effect."
+                }
+              }
+            },
+            {
+              "name": "Ouïe d’Oiseau (Bird Hearing)",
+              "level": 6,
+              "description": "Comme Vue d’Oiseau I, mais le lanceur emprunte l’ouïe de l’oiseau.",
+              "aoe": "caster + 1 cible",
+              "duration": "C",
+              "range": "100’",
+              "spellType": "Pm",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Ouïe d’Oiseau (Bird Hearing)",
+              "descriptionLabel": "Ouïe d’Oiseau (Bird Hearing) description",
+              "localizations": {
+                "fr": {
+                  "name": "Ouïe d’Oiseau",
+                  "description": "Comme Vue d’Oiseau I, mais le lanceur emprunte l’ouïe de l’oiseau."
+                },
+                "en": {
+                  "name": "Bird Hearing",
+                  "description": "As Bird Sight I, but the caster borrows the bird’s hearing."
+                }
+              }
+            },
+            {
+              "name": "Contact Aviaire II (Touch Bird II)",
+              "level": 7,
+              "description": "Établit un contact avec un oiseau approprié à grande portée. Le lanceur peut préciser une direction et un type général d’oiseau ; il peut changer d’oiseau jusqu’à trois fois pendant la durée si des cibles appropriées sont disponibles.",
+              "aoe": "self",
+              "duration": "C",
+              "range": "100’/niv",
+              "spellType": "P",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Contact Aviaire II (Touch Bird II)",
+              "descriptionLabel": "Contact Aviaire II (Touch Bird II) description",
+              "localizations": {
+                "fr": {
+                  "name": "Contact Aviaire II",
+                  "description": "Établit un contact avec un oiseau approprié à grande portée. Le lanceur peut préciser une direction et un type général d’oiseau ; il peut changer d’oiseau jusqu’à trois fois pendant la durée si des cibles appropriées sont disponibles."
+                },
+                "en": {
+                  "name": "Touch Bird II",
+                  "description": "Establishes contact with an appropriate bird at long range. The caster may specify a direction and a general type of bird and may switch birds up to three times during the duration if suitable targets are available."
+                }
+              }
+            },
+            {
+              "name": "Vue d’Oiseau II (Bird Sight II)",
+              "level": 8,
+              "description": "Version étendue de Vue d’Oiseau I, permettant d’emprunter la vue d’un oiseau à beaucoup plus grande portée.",
+              "aoe": "self",
+              "duration": "C",
+              "range": "100’/niv",
+              "spellType": "P",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Vue d’Oiseau II (Bird Sight II)",
+              "descriptionLabel": "Vue d’Oiseau II (Bird Sight II) description",
+              "localizations": {
+                "fr": {
+                  "name": "Vue d’Oiseau II",
+                  "description": "Version étendue de Vue d’Oiseau I, permettant d’emprunter la vue d’un oiseau à beaucoup plus grande portée."
+                },
+                "en": {
+                  "name": "Bird Sight II",
+                  "description": "An extended version of Bird Sight I that allows the caster to borrow a bird’s sight at much greater range."
+                }
+              }
+            },
+            {
+              "name": "Transe de Conscience (Awareness Trance)",
+              "level": 9,
+              "description": "Le lanceur étend sa conscience aux êtres présents dans une vaste zone et obtient une perception plus fine de leur position et de leur activité.",
+              "aoe": "10’R/niv",
+              "duration": "C",
+              "range": "self",
+              "spellType": "U",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Transe de Conscience (Awareness Trance)",
+              "descriptionLabel": "Transe de Conscience (Awareness Trance) description",
+              "localizations": {
+                "fr": {
+                  "name": "Transe de Conscience",
+                  "description": "Le lanceur étend sa conscience aux êtres présents dans une vaste zone et obtient une perception plus fine de leur position et de leur activité."
+                },
+                "en": {
+                  "name": "Awareness Trance",
+                  "description": "The caster extends awareness to beings within a broad area and gains a more precise sense of their positions and activities."
+                }
+              }
+            },
+            {
+              "name": "Communion Véritable (Commune True)",
+              "level": 10,
+              "description": "Établit une communion profonde avec les oiseaux sur une très grande distance, permettant une perception et un échange bien plus complets que Communion I.",
+              "aoe": "self",
+              "duration": "C",
+              "range": "20 mi/niv",
+              "spellType": "P",
+              "spellList": "Communions (Communions)",
+              "listType": "Base",
+              "profession": "Honnin Priest",
+              "label": "Communion Véritable (Commune True)",
+              "descriptionLabel": "Communion Véritable (Commune True) description",
+              "localizations": {
+                "fr": {
+                  "name": "Communion Véritable",
+                  "description": "Établit une communion profonde avec les oiseaux sur une très grande distance, permettant une perception et un échange bien plus complets que Communion I."
+                },
+                "en": {
+                  "name": "Commune True",
+                  "description": "Establishes a deep communion with birds over a very great distance, allowing much fuller perception and exchange than Commune I."
+                }
+              }
+            }
+          ]
+        }
+      },
+      "localizations": {
+        "fr": {
+          "name": "Communions",
+          "system": {
+            "name": "Communions",
+            "label": "Communions",
+            "notesLabel": "Communions — notes",
+            "notes": "<h2>Communions</h2><p>Liste Honnin de Théurgie consacrée à la perception des présences et au partage des sens, émotions et perceptions des oiseaux. Les effets sont adaptés du corpus RMSS/RMFRP et sont proposés en bêta.</p>"
+          }
+        },
+        "en": {
+          "name": "Communions",
+          "system": {
+            "name": "Communions",
+            "label": "Communions",
+            "notesLabel": "Communions — notes",
+            "notes": "<h2>Communions</h2><p>Honnin Channeling List devoted to sensing presences and sharing the senses, emotions, and perceptions of birds. The effects are adapted from the RMSS/RMFRP corpus and are presented in beta form.</p>"
+          }
+        }
+      },
+      "folderKey": "spell-lists-channeling-honnin"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "folder": {
+    "name": "Présentation de MERP-RMU",
+    "sort": -100000,
+    "sorting": "m",
+    "localizations": {
+      "fr": {
+        "name": "Présentation de MERP-RMU"
+      },
+      "en": {
+        "name": "MERP-RMU Presentation"
+      }
+    }
+  },
+  "journal": {
+    "key": "merp-rmu-introduction",
+    "collection": "merp-rmu-introduction",
+    "document": {
+      "name": "Présentation de MERP-RMU",
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "flags": {
+        "merp-ui": {
+          "key": "merp-rmu-introduction",
+          "collection": "merp-rmu-introduction",
+          "contentVersion": 1
+        }
+      },
+      "pages": [
+        {
+          "name": "Bienvenue dans MERP-RMU",
+          "type": "text",
+          "text": {
+            "format": 1,
+            "content": "<h1>Bienvenue dans MERP-RMU</h1><p><strong>MERP-RMU</strong> est une adaptation de <strong>Rolemaster Unified</strong> destinée à jouer dans la Terre du Milieu en retrouvant l'esprit, la richesse et la diversité qui ont longtemps caractérisé <strong>MERP</strong> et les différentes générations de <strong>Rolemaster</strong>.</p><p>Notre objectif n'est pas de reconstituer à l'identique un ancien système de règles. RMU apporte une architecture moderne, cohérente et beaucoup plus homogène. MERP-RMU s'appuie sur cette base et y réintroduit les peuples, les cultures, les professions, les traditions magiques, les compétences, les talents, les défauts, les herbes, les objets et les particularités qui donnent à la Terre du Milieu sa personnalité propre.</p><p>Le projet s'est construit progressivement autour de parties réellement jouées. Chaque règle ajoutée cherche donc à répondre à une situation de table : créer un personnage du monde de Tolkien, rendre la magie plus discrète et plus dangereuse, différencier les cultures, retrouver certaines traditions de MERP, ou permettre à Foundry VTT d'accompagner le jeu sans le remplacer.</p>"
+          }
+        },
+        {
+          "name": "Notre démarche",
+          "type": "text",
+          "text": {
+            "format": 1,
+            "content": "<h1>Notre démarche</h1><p>MERP-RMU repose sur un principe simple : <strong>conserver RMU lorsqu'il répond déjà correctement au besoin, adapter lorsqu'une mécanique ancienne mérite d'être transposée, et créer seulement lorsque la Terre du Milieu exige quelque chose que RMU ne propose pas</strong>.</p><p>Cette méthode évite d'empiler deux systèmes de jeu. Lorsqu'un Talent, une Compétence, une Profession ou une règle possède déjà un équivalent fonctionnel dans RMU, nous utilisons le mécanisme du Core. Lorsque les anciennes règles reposent sur des concepts disparus — anciens types d'actions, coûts de développement, catégories Everyman, multiplicateurs ou bonus devenus excessifs — elles sont réécrites dans le langage mécanique de RMU.</p><p>Les adaptations sont également replacées dans le contexte de la Terre du Milieu. La magie y reste rare, enracinée dans les peuples et les traditions, et son usage peut avoir des conséquences. Les Cultures ont une importance réelle dans la création des personnages. Les Listes de sorts ne sont pas de simples catalogues abstraits : leur disponibilité dépend de l'époque, de l'enseignement et parfois de l'influence de l'Ombre.</p><p>Certaines parties du projet sont explicitement proposées en <strong>bêta</strong>. Elles sont destinées à être éprouvées par les joueurs avant d'être considérées comme définitives. L'économie, certaines Professions reconstruites ou des mécanismes propres à la Terre du Milieu pourront donc évoluer en fonction des retours de jeu.</p>"
+          }
+        },
+        {
+          "name": "Ce que contient le projet",
+          "type": "text",
+          "text": {
+            "format": 1,
+            "content": "<h1>Ce que contient le projet</h1><p>MERP-RMU ne se limite plus à une conversion de création de personnage. Le travail couvre aujourd'hui plusieurs niveaux du jeu.</p><h2>Peuples et Cultures</h2><p>Les Races et Cultures de la Terre du Milieu sont adaptées à la structure RMU, avec leurs caractéristiques, langues, compétences culturelles, restrictions et disponibilités selon les Âges.</p><h2>Professions</h2><p>Les Professions issues des traditions MERP et Rolemaster sont reconstruites sur des châssis RMU stables. Leurs descriptions détaillent leur rôle dans la Terre du Milieu, leurs caractéristiques primordiales, leurs Compétences Professionnelles, leurs Listes de sorts et les choix d'adaptation effectués.</p><h2>Magie</h2><p>Le projet adapte l'Essence, la Théurgie et le Mentalisme à la Terre du Milieu, avec des règles sur l'usage discret de la magie, le déclin des traditions, la Sorcellerie, l'Élément de Morgoth, la Corruption et le <strong>Risque d'attirer l'Ombre</strong>. Des Listes et Compétences propres à certaines cultures sont également intégrées lorsque les sources le justifient.</p><h2>Compétences, Talents et Défauts</h2><p>Les éléments déjà couverts par le Core RMU restent dans le Core. Les capacités réellement spécifiques à MERP ou à la Terre du Milieu sont converties en équivalents RMU, avec des coûts et des Tiers adaptés à l'échelle moderne du système.</p><h2>Herbes, substances et objets</h2><p>Les herbes, remèdes, poisons, aliments et substances des anciennes sources sont convertis en Items RMU et classés selon leur utilité. Leur environnement, leur difficulté de recherche, leur préparation et leurs effets sont présentés sous une forme directement utilisable en jeu.</p><h2>Foundry VTT et MERP-UI</h2><p>MERP-UI assure l'intégration technique : contenus de Compendium, création de personnage, traductions, automatisations, règles de magie, Journaux, aides de jeu et outils destinés au meneur. L'objectif est que l'interface accompagne les règles sans exiger du joueur qu'il connaisse les détails techniques internes de RMU.</p>"
+          }
+        },
+        {
+          "name": "Sources et crédits",
+          "type": "text",
+          "text": {
+            "format": 1,
+            "content": "<h1>Sources et crédits</h1><p>MERP-RMU s'inspire très largement de l'excellent <em>MERP™ Character Creation Using RMSS/RMFRP</em>, version 2.5 du 13 septembre 2005, conçu par <strong>Whitford Bates</strong>. Ce travail a constitué une source essentielle pour les Cultures, les Professions, les Background Options et de nombreuses règles spécifiques à la Terre du Milieu.</p><p>Nous souhaitons également créditer <strong>Jonathon Dale</strong> ainsi que les contributeurs de la communauté <strong>merp-fan-modules</strong>, dont les travaux ont participé à préserver et enrichir pendant de nombreuses années le matériel de jeu consacré à la Terre du Milieu.</p><p>MERP-RMU s'appuie parallèlement sur <strong>Rolemaster Unified</strong> et sur son implémentation Foundry VTT. Lorsque RMU fournit déjà une solution fonctionnelle, celle-ci reste la référence mécanique de l'adaptation.</p><p>Enfin, les nombreux suppléments MERP et Rolemaster consacrés à la Terre du Milieu demeurent une source d'inspiration essentielle pour le contexte, les peuples, les lieux, les traditions et les aventures.</p>"
+          }
+        },
+        {
+          "name": "Un projet communautaire gratuit",
+          "type": "text",
+          "text": {
+            "format": 1,
+            "content": "<h1>Un projet communautaire gratuit</h1><p>MERP-RMU est un <strong>projet communautaire non commercial</strong>. Il est conçu pour être partagé gratuitement entre joueurs et meneurs qui souhaitent utiliser Rolemaster Unified dans la Terre du Milieu.</p><p>Les adaptations, traductions, Journaux, données Foundry, scripts, présentations et autres éléments créés spécifiquement pour MERP-RMU sont mis à disposition dans cet esprit. Ils ne doivent pas être revendus, reconditionnés ou intégrés à un module payant par un tiers.</p><p><strong>Projet communautaire gratuit — revente interdite.</strong></p><p>Cette démarche n'emporte évidemment aucun droit sur les œuvres, marques ou textes appartenant à leurs ayants droit respectifs. MERP-RMU vise à rendre hommage à ces jeux et à permettre à une communauté de passionnés de continuer à jouer dans cet univers avec les outils actuels.</p>"
+          }
+        },
+        {
+          "name": "À propos de l'adaptation",
+          "type": "text",
+          "text": {
+            "format": 1,
+            "content": "<h1>À propos de l'adaptation</h1><p>Je m'appelle <strong>Jean-Brice Gayet</strong>. Je joue aux jeux de rôle depuis de nombreuses années, avec un attachement particulier à la <strong>Terre du Milieu, MERP et Rolemaster</strong>, et je consacre également beaucoup de temps à la création et à l'adaptation de contenus pour <strong>Foundry VTT</strong>.</p><p>Ce travail a commencé avec une idée très simple : pouvoir faire jouer des aventures de la Terre du Milieu avec Rolemaster Unified dans Foundry. En avançant, le projet s'est élargi. Une simple conversion de règles est devenue progressivement un ensemble cohérent de contenus : personnages, cultures, professions, magie, compétences, objets, Journaux, traductions, automatisations et outils de jeu.</p><p>MERP-RMU reste un projet vivant. Son objectif n'est pas de prétendre proposer une version définitive de la Terre du Milieu pour RMU, mais de fournir une base solide, jouable et documentée, puis de l'améliorer grâce aux parties, aux retours des joueurs et à l'expérience acquise en campagne.</p>"
+          }
+        }
+      ]
+    },
+    "localizations": {
+      "fr": {
+        "name": "Présentation de MERP-RMU",
+        "pages": [
+          {
+            "name": "Bienvenue dans MERP-RMU",
+            "text": {
+              "content": "<h1>Bienvenue dans MERP-RMU</h1><p><strong>MERP-RMU</strong> est une adaptation de <strong>Rolemaster Unified</strong> destinée à jouer dans la Terre du Milieu en retrouvant l'esprit, la richesse et la diversité qui ont longtemps caractérisé <strong>MERP</strong> et les différentes générations de <strong>Rolemaster</strong>.</p><p>Notre objectif n'est pas de reconstituer à l'identique un ancien système de règles. RMU apporte une architecture moderne, cohérente et beaucoup plus homogène. MERP-RMU s'appuie sur cette base et y réintroduit les peuples, les cultures, les professions, les traditions magiques, les compétences, les talents, les défauts, les herbes, les objets et les particularités qui donnent à la Terre du Milieu sa personnalité propre.</p><p>Le projet s'est construit progressivement autour de parties réellement jouées. Chaque règle ajoutée cherche donc à répondre à une situation de table : créer un personnage du monde de Tolkien, rendre la magie plus discrète et plus dangereuse, différencier les cultures, retrouver certaines traditions de MERP, ou permettre à Foundry VTT d'accompagner le jeu sans le remplacer.</p>"
+            }
+          },
+          {
+            "name": "Notre démarche",
+            "text": {
+              "content": "<h1>Notre démarche</h1><p>MERP-RMU repose sur un principe simple : <strong>conserver RMU lorsqu'il répond déjà correctement au besoin, adapter lorsqu'une mécanique ancienne mérite d'être transposée, et créer seulement lorsque la Terre du Milieu exige quelque chose que RMU ne propose pas</strong>.</p><p>Cette méthode évite d'empiler deux systèmes de jeu. Lorsqu'un Talent, une Compétence, une Profession ou une règle possède déjà un équivalent fonctionnel dans RMU, nous utilisons le mécanisme du Core. Lorsque les anciennes règles reposent sur des concepts disparus — anciens types d'actions, coûts de développement, catégories Everyman, multiplicateurs ou bonus devenus excessifs — elles sont réécrites dans le langage mécanique de RMU.</p><p>Les adaptations sont également replacées dans le contexte de la Terre du Milieu. La magie y reste rare, enracinée dans les peuples et les traditions, et son usage peut avoir des conséquences. Les Cultures ont une importance réelle dans la création des personnages. Les Listes de sorts ne sont pas de simples catalogues abstraits : leur disponibilité dépend de l'époque, de l'enseignement et parfois de l'influence de l'Ombre.</p><p>Certaines parties du projet sont explicitement proposées en <strong>bêta</strong>. Elles sont destinées à être éprouvées par les joueurs avant d'être considérées comme définitives. L'économie, certaines Professions reconstruites ou des mécanismes propres à la Terre du Milieu pourront donc évoluer en fonction des retours de jeu.</p>"
+            }
+          },
+          {
+            "name": "Ce que contient le projet",
+            "text": {
+              "content": "<h1>Ce que contient le projet</h1><p>MERP-RMU ne se limite plus à une conversion de création de personnage. Le travail couvre aujourd'hui plusieurs niveaux du jeu.</p><h2>Peuples et Cultures</h2><p>Les Races et Cultures de la Terre du Milieu sont adaptées à la structure RMU, avec leurs caractéristiques, langues, compétences culturelles, restrictions et disponibilités selon les Âges.</p><h2>Professions</h2><p>Les Professions issues des traditions MERP et Rolemaster sont reconstruites sur des châssis RMU stables. Leurs descriptions détaillent leur rôle dans la Terre du Milieu, leurs caractéristiques primordiales, leurs Compétences Professionnelles, leurs Listes de sorts et les choix d'adaptation effectués.</p><h2>Magie</h2><p>Le projet adapte l'Essence, la Théurgie et le Mentalisme à la Terre du Milieu, avec des règles sur l'usage discret de la magie, le déclin des traditions, la Sorcellerie, l'Élément de Morgoth, la Corruption et le <strong>Risque d'attirer l'Ombre</strong>. Des Listes et Compétences propres à certaines cultures sont également intégrées lorsque les sources le justifient.</p><h2>Compétences, Talents et Défauts</h2><p>Les éléments déjà couverts par le Core RMU restent dans le Core. Les capacités réellement spécifiques à MERP ou à la Terre du Milieu sont converties en équivalents RMU, avec des coûts et des Tiers adaptés à l'échelle moderne du système.</p><h2>Herbes, substances et objets</h2><p>Les herbes, remèdes, poisons, aliments et substances des anciennes sources sont convertis en Items RMU et classés selon leur utilité. Leur environnement, leur difficulté de recherche, leur préparation et leurs effets sont présentés sous une forme directement utilisable en jeu.</p><h2>Foundry VTT et MERP-UI</h2><p>MERP-UI assure l'intégration technique : contenus de Compendium, création de personnage, traductions, automatisations, règles de magie, Journaux, aides de jeu et outils destinés au meneur. L'objectif est que l'interface accompagne les règles sans exiger du joueur qu'il connaisse les détails techniques internes de RMU.</p>"
+            }
+          },
+          {
+            "name": "Sources et crédits",
+            "text": {
+              "content": "<h1>Sources et crédits</h1><p>MERP-RMU s'inspire très largement de l'excellent <em>MERP™ Character Creation Using RMSS/RMFRP</em>, version 2.5 du 13 septembre 2005, conçu par <strong>Whitford Bates</strong>. Ce travail a constitué une source essentielle pour les Cultures, les Professions, les Background Options et de nombreuses règles spécifiques à la Terre du Milieu.</p><p>Nous souhaitons également créditer <strong>Jonathon Dale</strong> ainsi que les contributeurs de la communauté <strong>merp-fan-modules</strong>, dont les travaux ont participé à préserver et enrichir pendant de nombreuses années le matériel de jeu consacré à la Terre du Milieu.</p><p>MERP-RMU s'appuie parallèlement sur <strong>Rolemaster Unified</strong> et sur son implémentation Foundry VTT. Lorsque RMU fournit déjà une solution fonctionnelle, celle-ci reste la référence mécanique de l'adaptation.</p><p>Enfin, les nombreux suppléments MERP et Rolemaster consacrés à la Terre du Milieu demeurent une source d'inspiration essentielle pour le contexte, les peuples, les lieux, les traditions et les aventures.</p>"
+            }
+          },
+          {
+            "name": "Un projet communautaire gratuit",
+            "text": {
+              "content": "<h1>Un projet communautaire gratuit</h1><p>MERP-RMU est un <strong>projet communautaire non commercial</strong>. Il est conçu pour être partagé gratuitement entre joueurs et meneurs qui souhaitent utiliser Rolemaster Unified dans la Terre du Milieu.</p><p>Les adaptations, traductions, Journaux, données Foundry, scripts, présentations et autres éléments créés spécifiquement pour MERP-RMU sont mis à disposition dans cet esprit. Ils ne doivent pas être revendus, reconditionnés ou intégrés à un module payant par un tiers.</p><p><strong>Projet communautaire gratuit — revente interdite.</strong></p><p>Cette démarche n'emporte évidemment aucun droit sur les œuvres, marques ou textes appartenant à leurs ayants droit respectifs. MERP-RMU vise à rendre hommage à ces jeux et à permettre à une communauté de passionnés de continuer à jouer dans cet univers avec les outils actuels.</p>"
+            }
+          },
+          {
+            "name": "À propos de l'adaptation",
+            "text": {
+              "content": "<h1>À propos de l'adaptation</h1><p>Je m'appelle <strong>Jean-Brice Gayet</strong>. Je joue aux jeux de rôle depuis de nombreuses années, avec un attachement particulier à la <strong>Terre du Milieu, MERP et Rolemaster</strong>, et je consacre également beaucoup de temps à la création et à l'adaptation de contenus pour <strong>Foundry VTT</strong>.</p><p>Ce travail a commencé avec une idée très simple : pouvoir faire jouer des aventures de la Terre du Milieu avec Rolemaster Unified dans Foundry. En avançant, le projet s'est élargi. Une simple conversion de règles est devenue progressivement un ensemble cohérent de contenus : personnages, cultures, professions, magie, compétences, objets, Journaux, traductions, automatisations et outils de jeu.</p><p>MERP-RMU reste un projet vivant. Son objectif n'est pas de prétendre proposer une version définitive de la Terre du Milieu pour RMU, mais de fournir une base solide, jouable et documentée, puis de l'améliorer grâce aux parties, aux retours des joueurs et à l'expérience acquise en campagne.</p>"
+            }
+          }
+        ]
+      },
+      "en": {
+        "name": "MERP-RMU Presentation",
+        "pages": [
+          {
+            "name": "Welcome to MERP-RMU",
+            "text": {
+              "content": "<h1>Welcome to MERP-RMU</h1><p><strong>MERP-RMU</strong> is an adaptation of <strong>Rolemaster Unified</strong> designed for play in Middle-earth while recapturing the spirit, richness, and diversity that have long characterised <strong>MERP</strong> and the different generations of <strong>Rolemaster</strong>.</p><p>Our goal is not to recreate an older rules system exactly. RMU provides a modern, coherent, and much more unified architecture. MERP-RMU builds on that foundation and reintroduces the peoples, cultures, professions, magical traditions, skills, talents, flaws, herbs, items, and distinctive features that give Middle-earth its unique character.</p><p>The project has developed gradually around games that were actually played. Every rule we add therefore seeks to answer a situation that arises at the table: creating a character from Tolkien's world, making magic more discreet and more dangerous, differentiating cultures, recovering certain MERP traditions, or allowing Foundry VTT to support the game without replacing it.</p>"
+            }
+          },
+          {
+            "name": "Our Approach",
+            "text": {
+              "content": "<h1>Our Approach</h1><p>MERP-RMU follows a simple principle: <strong>keep RMU when it already meets the need correctly, adapt when an older mechanic deserves to be carried over, and create only when Middle-earth requires something that RMU does not provide</strong>.</p><p>This method avoids stacking two game systems on top of one another. When a Talent, Skill, Profession, or rule already has a functional equivalent in RMU, we use the Core mechanism. When older rules rely on concepts that no longer exist — former action types, development costs, Everyman categories, multipliers, or bonuses that have become excessive — they are rewritten in RMU's mechanical language.</p><p>The adaptations are also placed back into the context of Middle-earth. Magic remains rare, rooted in peoples and traditions, and its use can have consequences. Cultures have real importance during character creation. Spell Lists are not merely abstract catalogues: their availability depends on the Age, teaching, and sometimes the influence of the Shadow.</p><p>Some parts of the project are explicitly presented as <strong>beta</strong>. They are intended to be tested by players before being considered final. The economy, certain reconstructed Professions, or mechanics specific to Middle-earth may therefore evolve in response to actual play.</p>"
+            }
+          },
+          {
+            "name": "What the Project Contains",
+            "text": {
+              "content": "<h1>What the Project Contains</h1><p>MERP-RMU is no longer limited to converting character creation. The work now covers several levels of the game.</p><h2>Peoples and Cultures</h2><p>The Races and Cultures of Middle-earth are adapted to the RMU structure, including their characteristics, languages, cultural skills, restrictions, and availability by Age.</p><h2>Professions</h2><p>Professions drawn from the MERP and Rolemaster traditions are rebuilt on stable RMU chassis. Their descriptions detail their role in Middle-earth, their Prime Stats, Professional Skills, Spell Lists, and the adaptation choices that were made.</p><h2>Magic</h2><p>The project adapts Essence, Channeling, and Mentalism to Middle-earth, with rules for discreet use of magic, the decline of magical traditions, Sorcery, the Morgoth Element, Corruption, and the <strong>Risk of Attracting the Shadow</strong>. Lists and Skills specific to certain cultures are also integrated when the sources justify them.</p><h2>Skills, Talents, and Flaws</h2><p>Elements already covered by the RMU Core remain in the Core. Abilities genuinely specific to MERP or Middle-earth are converted into RMU equivalents, with costs and Tiers adjusted to the modern scale of the system.</p><h2>Herbs, Substances, and Items</h2><p>Herbs, remedies, poisons, foods, and substances from older sources are converted into RMU Items and classified according to their use. Their environment, search difficulty, preparation, and effects are presented in a form ready for play.</p><h2>Foundry VTT and MERP-UI</h2><p>MERP-UI handles the technical integration: Compendium content, character creation, translations, automations, magic rules, Journals, play aids, and tools for the Game Master. The goal is for the interface to support the rules without requiring players to understand RMU's internal technical details.</p>"
+            }
+          },
+          {
+            "name": "Sources and Credits",
+            "text": {
+              "content": "<h1>Sources and Credits</h1><p>MERP-RMU draws very heavily on the excellent <em>MERP™ Character Creation Using RMSS/RMFRP</em>, version 2.5 dated 13 September 2005, designed by <strong>Whitford Bates</strong>. This work has been an essential source for Cultures, Professions, Background Options, and many rules specific to Middle-earth.</p><p>We also wish to credit <strong>Jonathon Dale</strong> and the contributors to the <strong>merp-fan-modules</strong> community, whose work has helped preserve and enrich Middle-earth gaming material for many years.</p><p>MERP-RMU also builds on <strong>Rolemaster Unified</strong> and its Foundry VTT implementation. Whenever RMU already provides a functional solution, that solution remains the mechanical reference for the adaptation.</p><p>Finally, the many MERP and Rolemaster supplements devoted to Middle-earth remain an essential source of inspiration for the setting, peoples, places, traditions, and adventures.</p>"
+            }
+          },
+          {
+            "name": "A Free Community Project",
+            "text": {
+              "content": "<h1>A Free Community Project</h1><p>MERP-RMU is a <strong>non-commercial community project</strong>. It is intended to be shared freely among players and Game Masters who wish to use Rolemaster Unified in Middle-earth.</p><p>The adaptations, translations, Journals, Foundry data, scripts, presentations, and other elements created specifically for MERP-RMU are made available in that spirit. They must not be resold, repackaged, or incorporated into a paid module by a third party.</p><p><strong>Free community project — resale prohibited.</strong></p><p>This approach obviously grants no rights over works, trademarks, or texts belonging to their respective rights holders. MERP-RMU is intended as a tribute to these games and as a way for a community of enthusiasts to continue playing in this setting with current tools.</p>"
+            }
+          },
+          {
+            "name": "About the Adaptation",
+            "text": {
+              "content": "<h1>About the Adaptation</h1><p>My name is <strong>Jean-Brice Gayet</strong>. I have been playing roleplaying games for many years, with a particular attachment to <strong>Middle-earth, MERP, and Rolemaster</strong>, and I also devote a great deal of time to creating and adapting content for <strong>Foundry VTT</strong>.</p><p>This work began with a very simple idea: to be able to run Middle-earth adventures with Rolemaster Unified in Foundry. As the work progressed, the project expanded. A simple rules conversion gradually became a coherent body of content: characters, cultures, professions, magic, skills, items, Journals, translations, automations, and gaming tools.</p><p>MERP-RMU remains a living project. Its purpose is not to claim to provide a definitive version of Middle-earth for RMU, but to offer a solid, playable, and documented foundation, then improve it through actual games, player feedback, and experience gained in campaigns.</p>"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

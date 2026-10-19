@@ -10,7 +10,10 @@
     "build:compendium-seeds": "node scripts/build-merp-rmu-compendiums.mjs --language=en",
     "build:compendium-seeds:en": "node scripts/build-merp-rmu-compendiums.mjs --language=en",
     "validate:compendium-seeds": "node scripts/build-merp-rmu-compendiums.mjs --language=en --check",
-    "build:compendium-seeds:fr": "node scripts/build-merp-rmu-compendiums.mjs --language=fr"
+    "build:compendium-seeds:fr": "node scripts/build-merp-rmu-compendiums.mjs --language=fr",
+    "build:content-sync": "node scripts/build-merp-rmu-sync-manifest.mjs",
+    "validate:content-sync": "node scripts/build-merp-rmu-sync-manifest.mjs --check",
+    "test:content-sync": "node scripts/test-merp-rmu-content-sync.mjs"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

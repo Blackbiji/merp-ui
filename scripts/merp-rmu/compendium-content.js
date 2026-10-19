@@ -677,6 +677,14 @@ async function localizeCompendiumPack(pack, language) {
   });
 }
 
+/** Organize newly added documents without relocalizing unrelated libraries. */
+export async function organizeUpdatedCompendium(packName, language = contentLanguage()) {
+  if (!MERP_COMPENDIUM_PACKS.includes(packName)) throw Error(`Unknown MERP-RMU pack ${packName}`);
+  const pack = modulePack(packName);
+  if (!pack) throw Error(`Missing MERP-RMU pack ${packName}`);
+  return organizeCompendiumPack(pack, language);
+}
+
 export async function synchronizeCompendiumLibraries({
   language = contentLanguage(),
   notify = false
@@ -747,7 +755,7 @@ function htmlRoot(html) {
   return null;
 }
 
-function localizedCompendiumLabel(packName, language = contentLanguage()) {
+export function localizedCompendiumLabel(packName, language = contentLanguage()) {
   const effectiveLanguage = language === "fr" ? "fr" : "en";
   return (
     MERP_COMPENDIUM_LABELS[packName]?.[effectiveLanguage] ??
@@ -761,6 +769,108 @@ function packNameFromCollection(collection) {
   if (!value) return null;
   const prefix = `${MODULE_ID}.`;
   return value.startsWith(prefix) ? value.slice(prefix.length) : value;
+}
+
+/**
+ * Resolve ONLY a MERP-UI Compendium window. A JournalEntry or Item sheet
+ * opened FROM a pack has a document.compendium property too, but must keep
+ * its own document title.
+ */
+function compendiumWindowPackName(app) {
+  const CompendiumApp = foundry?.applications?.sidebar?.apps?.Compendium;
+  if (CompendiumApp && !(app instanceof CompendiumApp)) return null;
+
+  const source = app?.collection;
+  const collection = typeof source === "string"
+    ? source
+    : source?.collection ?? source?.metadata?.id ??
+      (source?.metadata?.packageName && source?.metadata?.name
+        ? `${source.metadata.packageName}.${source.metadata.name}` : null);
+
+  if (typeof collection !== "string" || !collection.startsWith(`${MODULE_ID}.`)) {
+    return null;
+  }
+  const name = packNameFromCollection(collection);
+  return Object.hasOwn(MERP_COMPENDIUM_LABELS, name) ? name : null;
+}
+
+/**
+ * Foundry V14 generates a Compendium window heading from app.title on EVERY
+ * render. Repainting the DOM after render isn't sufficient: a subsequent
+ * render can restore the untranslated label from module.json. Override the
+ * application title GETTER, strictly for our nine packs, leaving every other
+ * compendium and all document windows untouched.
+ *
+ * This changes only the displayed label. No pack configuration or LevelDB
+ * document is written, and Foundry retains the original getter as fallback.
+ */
+const TITLE_GETTER_PATCH = Symbol.for("merp-ui.localized-compendium-title-v1");
+export function installLocalizedCompendiumWindowTitleGetter() {
+  const App = foundry?.applications?.sidebar?.apps?.Compendium;
+  const proto = App?.prototype;
+  if (!proto) return false;
+  if (Object.hasOwn(proto, TITLE_GETTER_PATCH)) return true;
+
+  let parent = proto;
+  let original = null;
+  while (parent && !original) {
+    const descriptor = Object.getOwnPropertyDescriptor(parent, "title");
+    if (typeof descriptor?.get === "function") original = descriptor;
+    parent = Object.getPrototypeOf(parent);
+  }
+  if (!original) return false;
+
+  Object.defineProperty(proto, "title", {
+    configurable: true,
+    enumerable: original.enumerable ?? false,
+    get() {
+      const name = compendiumWindowPackName(this);
+      const translated = name && localizedCompendiumLabel(name);
+      return translated ?? original.get.call(this);
+    }
+  });
+  Object.defineProperty(proto, TITLE_GETTER_PATCH, { value: true });
+  return true;
+}
+
+/** Repaint already-open Compendium windows when the MERP-UI language changes. */
+export function refreshLocalizedCompendiumWindowTitles({ language = contentLanguage() } = {}) {
+  installLocalizedCompendiumWindowTitleGetter();
+  const candidates = new Set();
+  for (const name of MERP_COMPENDIUM_PACKS) {
+    const pack = modulePack(name);
+    const apps = pack?.apps;
+    if (apps instanceof Map || apps instanceof Set) {
+      for (const app of apps.values()) candidates.add(app);
+    } else if (Array.isArray(apps)) {
+      for (const app of apps) candidates.add(app);
+    } else if (apps && typeof apps === "object") {
+      for (const app of Object.values(apps)) candidates.add(app);
+    }
+  }
+
+  // ApplicationV2 also exposes a registry of live instances in V14.
+  const App = foundry?.applications?.sidebar?.apps?.Compendium;
+  const instances = App?.instances;
+  if (instances instanceof Map || instances instanceof Set) {
+    for (const app of instances.values()) candidates.add(app);
+  } else if (Array.isArray(instances)) {
+    for (const app of instances) candidates.add(app);
+  }
+
+  let updated = 0;
+  for (const app of candidates) {
+    const name = compendiumWindowPackName(app);
+    if (!name) continue;
+    const label = localizedCompendiumLabel(name, language);
+    const heading = app?.window?.title ??
+      app?.element?.querySelector?.(":scope > header .window-title");
+    if (!heading || heading.textContent === label) continue;
+    heading.textContent = label;
+    heading.title = label;
+    updated += 1;
+  }
+  return { language, updated };
 }
 
 export function localizeCompendiumDirectoryLabels(
@@ -816,38 +926,62 @@ export function localizeCompendiumDirectoryLabels(
   return { updated };
 }
 
+/**
+ * Localize the title of an OPEN compendium window without modifying pack
+ * metadata or its documents. Foundry V14 passes the inner content to the
+ * render hook; the window heading itself lives outside that content.
+ * ApplicationV2.window.title is the supported reference to that heading.
+ */
 function localizeOpenCompendiumTitle(app, html) {
-  const collection =
-    app?.collection?.collection ??
-    app?.document?.compendium?.collection ??
-    app?.options?.collection ??
-    null;
-  const packName = packNameFromCollection(collection);
-  const label = localizedCompendiumLabel(packName);
-  if (!label) return;
+  installLocalizedCompendiumWindowTitleGetter();
+  const packName = compendiumWindowPackName(app);
+  if (!packName) return;
 
   const pack = modulePack(packName);
   const root = htmlRoot(html);
-  const appElement =
-    app?.element instanceof HTMLElement
-      ? app.element
-      : root?.closest?.(".application") ?? root;
+  const frame = app?.element instanceof HTMLElement
+    ? app.element
+    : root?.closest?.(".application") ?? null;
 
   if (pack?.documentName === "JournalEntry") {
-    appElement?.classList?.add("merp-ui-journal-compendium");
+    frame?.classList?.add("merp-ui-journal-compendium");
   }
 
-  const header =
-    appElement?.querySelector?.(".window-title") ??
-    root?.querySelector(".window-title") ??
-    root?.querySelector("[data-application-part='header'] .window-title") ??
-    null;
-  if (header) header.textContent = label;
+  const paint = () => {
+    const label = localizedCompendiumLabel(packName);
+    if (!label) return;
+    const title = app?.window?.title ??
+      frame?.querySelector?.(":scope > header .window-title");
+    if (title && title.textContent !== label) {
+      title.textContent = label;
+      title.title = label;
+    }
+  };
+  paint();
+  if (typeof requestAnimationFrame === "function") {
+    requestAnimationFrame(() => {
+      if (app?.rendered !== false) paint();
+    });
+  }
 }
 
 export function registerCompendiumContentHooks() {
+  // Modules can load before ApplicationV2 classes are finalized; retry at
+  // init and ready as well as immediately, but never wrap the getter twice.
+  installLocalizedCompendiumWindowTitleGetter();
+  Hooks.once("init", installLocalizedCompendiumWindowTitleGetter);
+  Hooks.once("ready", installLocalizedCompendiumWindowTitleGetter);
+
   Hooks.on("renderCompendiumDirectory", (app, html) => {
     localizeCompendiumDirectoryLabels(html);
+  });
+
+  // Foundry V13/V14 compendium windows use ApplicationV2. Their window titles
+  // are not always updated by the legacy renderCompendium hook.
+  Hooks.on("renderApplicationV2", (app, html) => {
+    if (app?.collection || app?.options?.collection) {
+      localizeOpenCompendiumTitle(app, html);
+    }
   });
 
   Hooks.on("renderCompendium", (app, html) => {

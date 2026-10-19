@@ -1,6 +1,7 @@
 import { resolveSharedSkill, resolveSharedSkillCategory, loadSharedSkillRegistry, loadSharedSkillCategoryRegistry } from "./skill-registry.js";
 import { contentLanguage, localizeContentValue } from "./merp-rmu/localization.js";
 import { registerSettingsUiLocalizationHooks, rerenderSettingsApplications } from "./merp-rmu/settings-ui-localization.js";
+import { dropcapAsset, observeJournalDropcaps } from "./merp-rmu/journal-dropcaps.js";
 
 const MODULE_ID = "merp-ui";
 const CATALOG_PATH = `modules/${MODULE_ID}/assets/catalog.json`;
@@ -1366,7 +1367,7 @@ Hooks.once("ready", async () => {
     },
     icon: (query, name = null) => getIconPath(query, name),
     assetPath: (type, query) => getAssetPath(type, query),
-    dropcap: (letter) => findAsset("dropcaps", String(letter).toUpperCase())?.path ?? null,
+    dropcap: (letter) => dropcapAsset(letter),
     border: (query) => findAsset("borders", query)?.path ?? null,
     divider: (query) => findAsset("dividers", query)?.path ?? null,
     ornament: (query) => findAsset("ornaments", query)?.path ?? null,
@@ -1406,9 +1407,25 @@ Hooks.once("ready", async () => {
 });
 
 
+function prepareJournalDropcaps(app, html) {
+  if (!game.settings.get(MODULE_ID, "themeEnabled")) return;
+  const roots = getApplicationRoots(app, html);
+  if (!detectApplicationDocument(app, roots).isJournal) return;
+  // L'application complète (et non une partie temporaire) persiste durant
+  // les changements de pages V13/V14.
+  const applicationRoot = app?.element?.[0] ?? app?.element ??
+    roots.find((root) => root.matches?.(".application, .window-app")) ?? roots[0];
+  if (applicationRoot instanceof HTMLElement) observeJournalDropcaps(applicationRoot);
+}
+
 Hooks.on("renderJournalSheet", applyThemeClass);
 Hooks.on("renderJournalEntrySheet", applyThemeClass);
 Hooks.on("renderJournalTextPageSheet", applyThemeClass);
+Hooks.on("renderJournalSheet", prepareJournalDropcaps);
+Hooks.on("renderJournalEntrySheet", prepareJournalDropcaps);
+Hooks.on("renderJournalTextPageSheet", prepareJournalDropcaps);
+Hooks.on("renderJournalEntryPageTextSheet", prepareJournalDropcaps);
+
 Hooks.on("renderItemSheet", applyThemeClass);
 
 Hooks.on("renderActorSheet", applyThemeClass);
@@ -1625,6 +1642,7 @@ function localizeMerpHerbSheet(app, html) {
 
 Hooks.on("renderApplicationV2", (app, html) => {
   applyThemeClass(app, html);
+  prepareJournalDropcaps(app, html);
   scheduleCharacterCreationLocalization(app, html);
 });
 

@@ -3,6 +3,27 @@ import { getRmuCompendiumIndex } from "./rmu-adapter.js";
 
 const MODULE_ID = "merp-ui";
 
+// RMU Core uses the native Skill names "Spoken" and "Written" (Lore).
+// Legacy MERP-UI Actors may still carry the older names; recognize them
+// when comparing embedded Skills, but always create from RMU Core sources.
+const RMU_LANGUAGE_SKILL_NAMES = Object.freeze({
+  Spoken: ["Spoken", "Language Spoken"],
+  Written: ["Written", "Language Written"]
+});
+
+function canonicalRmuLanguageSkillName(itemOrName) {
+  const names = typeof itemOrName === "string"
+    ? [itemOrName]
+    : [itemOrName?.name, itemOrName?.system?.name];
+
+  for (const [canonical, aliases] of Object.entries(RMU_LANGUAGE_SKILL_NAMES)) {
+    if (names.some((name) => aliases.includes(String(name ?? "").trim()))) {
+      return canonical;
+    }
+  }
+  return null;
+}
+
 export function normalizeCampaignLanguageKey(value) {
   return String(value ?? "")
     .normalize("NFKD")
@@ -340,8 +361,8 @@ export function cultureStartingLanguages(culture) {
 
 export function actorLanguageSkillIdentity(item) {
   if (item?.type !== "skill") return null;
-  const name = String(item.name ?? item.system?.name ?? "").trim();
-  if (name !== "Language Spoken" && name !== "Language Written") return null;
+  const name = canonicalRmuLanguageSkillName(item);
+  if (!name) return null;
   const specialization = String(item.system?.specialization ?? "").trim();
   if (!specialization) return null;
   return `${name}::${normalizeCampaignLanguageKey(specialization)}`;
@@ -357,14 +378,26 @@ export async function rmuLanguageSkillSources() {
     "system.specializationType"
   ]);
 
+  if (!pack) throw new Error("Compendium RMU natif introuvable : rmu.core");
+
   const result = {};
-  for (const skillName of ["Language Spoken", "Language Written"]) {
+  for (const [skillName, aliases] of Object.entries(RMU_LANGUAGE_SKILL_NAMES)) {
+    // Prefer the current native RMU Skill; the legacy names are only a fallback.
     const hit = index.find((entry) =>
       entry.type === "skill" &&
       (entry.name === skillName || entry.system?.name === skillName)
+    ) ?? index.find((entry) =>
+      entry.type === "skill" &&
+      (aliases.includes(entry.name) || aliases.includes(entry.system?.name))
     );
-    if (!hit) throw new Error(`Compétence RMU native introuvable : ${skillName}`);
-    result[skillName] = await pack.getDocument(hit._id);
+    if (!hit) {
+      throw new Error(`Compétence RMU native introuvable : ${skillName}`);
+    }
+    const document = await pack.getDocument(hit._id);
+    if (!document) {
+      throw new Error(`Compétence RMU inaccessible : ${skillName} (${hit._id})`);
+    }
+    result[skillName] = document;
   }
   return result;
 }
@@ -411,27 +444,32 @@ export async function syncCultureLanguagesForActor(actor, { notify = false } = {
 
     if (spokenRanks > 0 && language.mode !== "signaled") {
       desired.set(
-        `Language Spoken::${normalizeCampaignLanguageKey(specialization)}`,
-        { skillName: "Language Spoken", specialization, cultureRanks: spokenRanks }
+        `Spoken::${normalizeCampaignLanguageKey(specialization)}`,
+        { skillName: "Spoken", specialization, cultureRanks: spokenRanks }
       );
     }
     if (writtenRanks > 0 && language.mode !== "signaled") {
       desired.set(
-        `Language Written::${normalizeCampaignLanguageKey(specialization)}`,
-        { skillName: "Language Written", specialization, cultureRanks: writtenRanks }
+        `Written::${normalizeCampaignLanguageKey(specialization)}`,
+        { skillName: "Written", specialization, cultureRanks: writtenRanks }
       );
     }
   }
 
   const existingLanguageSkills = [...(actor.items ?? [])].filter((item) =>
-    item.type === "skill" &&
-    ["Language Spoken", "Language Written"].includes(String(item.name ?? item.system?.name ?? ""))
+    item.type === "skill" && Boolean(canonicalRmuLanguageSkillName(item))
   );
-  const existingByIdentity = new Map(
-    existingLanguageSkills
-      .map((item) => [actorLanguageSkillIdentity(item), item])
-      .filter(([key]) => Boolean(key))
-  );
+  const existingByIdentity = new Map();
+  for (const item of existingLanguageSkills) {
+    const identity = actorLanguageSkillIdentity(item);
+    if (!identity) continue;
+    const previous = existingByIdentity.get(identity);
+    // When old and current names coexist, retain the RMU-native Skill.
+    if (!previous || (
+      !["Spoken", "Written"].includes(previous.name) &&
+      ["Spoken", "Written"].includes(item.name)
+    )) existingByIdentity.set(identity, item);
+  }
 
   const sources = desired.size ? await rmuLanguageSkillSources() : {};
   const createData = [];

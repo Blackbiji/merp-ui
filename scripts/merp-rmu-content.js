@@ -86,7 +86,15 @@ import {
   syncMerpSpecialPowerSkillsAllActors,
   syncMerpSpecialPowerSkillsForActor
 } from "./merp-rmu/special-power-skills.js";
-import { installMerpRmuIntroduction } from "./merp-rmu/introduction.js";
+import {
+  installMerpRmuIntroduction,
+  synchronizeMerpRmuIntroduction
+} from "./merp-rmu/introduction.js";
+import {
+  registerMerpRmuContentSyncSettings,
+  synchronizeMerpRmuSources
+} from "./merp-rmu/content-sync.js";
+import { localizeImportedJournalFolderTitles } from "./merp-rmu/world-journal-folder-titles.js";
 import {
   registerMerpRmu15MigrationSetting,
   runMerpRmu15Migration
@@ -94,6 +102,7 @@ import {
 import {
   registerCompendiumContentHooks,
   registerCompendiumContentSettings,
+  refreshLocalizedCompendiumWindowTitles,
   relocalizeImportedCompendiumItems,
   synchronizeCompendiumLibraries
 } from "./merp-rmu/compendium-content.js";
@@ -414,6 +423,7 @@ Hooks.once("init", () => {
   registerMerpRmuHerbsSettings();
   registerMerpRmu15MigrationSetting();
   registerCompendiumContentSettings();
+  registerMerpRmuContentSyncSettings();
   registerWelcomeChatSetting();
   game.settings.register(MODULE_ID, INSTALL_SETTING, {
     name: "Version des données MERP-RMU",
@@ -531,6 +541,31 @@ Hooks.once("ready", async () => {
     } catch (error) {
       console.warn(`${MODULE_ID} | Impossible de préparer les Langues de Campagne`, error);
     }
+
+    // Imported Journal folders can remain in the previously selected language
+    // even when the World has no legacy MERP-RMU Items.
+    try {
+      await localizeImportedJournalFolderTitles({ language: contentLanguage() });
+    } catch (error) {
+      console.warn(`${MODULE_ID} | Impossible de traduire les titres des dossiers de Journaux`, error);
+    }
+  }
+
+  // 1.6 RC1+ — source-driven, incremental content updates for all nine
+  // module Compendiums. This never rewrites world actors or imported Items.
+  try {
+    await synchronizeMerpRmuSources({ notify: false });
+  } catch (error) {
+    console.error(`${MODULE_ID} | Échec du rafraîchissement des Compendiums MERP-RMU`, error);
+  }
+
+  // Compendium-first seed files do not replace an already migrated LevelDB
+  // Compendium. Synchronize the six introduction pages in place, preserving
+  // World UUIDs and the separate settings guide page.
+  try {
+    await synchronizeMerpRmuIntroduction();
+  } catch (error) {
+    console.error(`${MODULE_ID} | Échec de synchronisation de l’introduction`, error);
   }
 
   try {
@@ -1229,6 +1264,18 @@ async function applyMerpRmuContentLanguageNow({
         language: effectiveLanguage,
         notify: false
       });
+      // A language change also requires the persistent LevelDB documents to
+      // use the selected locale, not only their folders and World imports.
+      result.sourceCompendiums = await synchronizeMerpRmuSources({
+        language: effectiveLanguage,
+        force: true,
+        notify: false
+      });
+      if (result.sourceCompendiums.errors) {
+        throw new Error(`MERP-RMU Compendium translation: ${result.sourceCompendiums.errors} synchronization errors`);
+      }
+      // The managed Introduction may also have a World Journal copy.
+      result.presentationSync = await synchronizeMerpRmuIntroduction();
       result.importedCompendiumItems =
         await relocalizeImportedCompendiumItems({ notify: false });
 
@@ -1238,7 +1285,19 @@ async function applyMerpRmuContentLanguageNow({
         });
       }
 
+      // Imported World folders are separate from the Compendium's folders.
+      // Rename only known FR/EN aliases; preserve user-customized titles.
+      try {
+        result.worldJournalFolderTitles = await localizeImportedJournalFolderTitles({
+          language: effectiveLanguage
+        });
+      } catch (error) {
+        console.warn(`${MODULE_ID} | Impossible de traduire les dossiers de Journaux importés`, error);
+        result.worldJournalFolderTitles = { error: String(error) };
+      }
+
       await rerenderLocalizedDirectories();
+      refreshLocalizedCompendiumWindowTitles({ language: effectiveLanguage });
 
       if (notify) {
         ui.notifications.info(
@@ -1285,6 +1344,17 @@ async function applyMerpRmuContentLanguageNow({
       notify: false
     });
 
+    // Legacy Worlds use the same module Compendiums as new Worlds. Keep
+    // their locale in sync without rewriting the World's character Items.
+    result.sourceCompendiums = await synchronizeMerpRmuSources({
+      language: effectiveLanguage,
+      force: true,
+      notify: false
+    });
+    if (result.sourceCompendiums.errors) {
+      throw new Error(`MERP-RMU Compendium translation: ${result.sourceCompendiums.errors} synchronization errors`);
+    }
+
     if (game.user?.isGM) {
       result.welcomeChat = await repostWelcomeChatMessage({
         language: effectiveLanguage
@@ -1294,7 +1364,19 @@ async function applyMerpRmuContentLanguageNow({
     // Document updates are done with render:false for speed. Explicitly repaint
     // the open directories once, after the whole transaction, so folder and
     // Item names change on screen immediately.
+    // Imported World folder aliases are separate from Compendium folder labels.
+    try {
+      result.worldJournalFolderTitles = await localizeImportedJournalFolderTitles({
+        language: effectiveLanguage
+      });
+    } catch (error) {
+      console.warn(`${MODULE_ID} | Impossible de traduire les dossiers de Journaux importés`, error);
+      result.worldJournalFolderTitles = { error: String(error) };
+    }
+
+
     await rerenderLocalizedDirectories();
+    refreshLocalizedCompendiumWindowTitles({ language: effectiveLanguage });
 
     if (notify) {
       ui.notifications.info(
@@ -1361,6 +1443,13 @@ function exposeMerpRmuContentApi() {
     });
   // Compatibility alias for console commands used by earlier builds.
   globalThis.MERPUI.refreshLocalization = globalThis.MERPUI.applyContentLanguage;
+  globalThis.MERPUI.checkJournalFolderTitles = (options = {}) =>
+    localizeImportedJournalFolderTitles({ ...options, dryRun: true });
+  globalThis.MERPUI.syncJournalFolderTitles = (options = {}) =>
+    localizeImportedJournalFolderTitles(options).then(async (result) => {
+      if (result.updated) await rerenderLocalizedDirectories();
+      return result;
+    });
   globalThis.MERPUI.forceProfessionDescriptions = (options = {}) =>
     forceProfessionDescriptions({ ...options, notify: options.notify ?? true });
   globalThis.MERPUI.installSpecialPowerSkills = async (options = {}) => {
@@ -1483,6 +1572,16 @@ function exposeMerpRmuContentApi() {
     deduplicateWorldSpellLists({ verbose: options.verbose ?? true });
   globalThis.MERPUI.cleanupStartlight = (options = {}) =>
     cleanupInvalidStartlightArtifacts({ verbose: options.verbose ?? true });
+  globalThis.MERPUI.syncContent = (options = {}) =>
+    synchronizeMerpRmuSources({ ...options, force: options.force ?? true, notify: options.notify ?? true });
+  globalThis.MERPUI.checkContent = (options = {}) =>
+    synchronizeMerpRmuSources({ ...options, force: true, dryRun: true, notify: options.notify ?? false });
+  // Explicit, potentially destructive to edited imported journal prose. Never
+  // called automatically; character and actor Items remain untouched.
+  globalThis.MERPUI.syncImportedJournals = (options = {}) =>
+    synchronizeMerpRmuSources({ ...options, force: true, worldJournals: true, notify: options.notify ?? true });
+  globalThis.MERPUI.syncIntroduction = (options = {}) =>
+    synchronizeMerpRmuIntroduction({ ...options, notify: options.notify ?? true });
   globalThis.MERPUI.installIntroduction = (options = {}) =>
     installMerpRmuIntroduction({ ...options, force: options.force ?? true, notify: options.notify ?? true });
   globalThis.MERPUI.installHerbs = (options = {}) =>

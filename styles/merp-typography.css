@@ -15,7 +15,7 @@
 
 :root {
   --merp-font: "PragRoman", Georgia, "Times New Roman", serif;
-  --merp-body-size: 0.93rem;
+  --merp-body-size: 13px; /* 1.6.0 RC1 — taille par défaut du corps des journaux */
   --merp-body-leading: 1.43;
   --merp-heading-leading: 1.14;
 }
@@ -201,6 +201,52 @@
   line-height: var(--merp-heading-leading);
   font-weight: 400;
   letter-spacing: .01em;
+}
+
+/* RC1 — titres des journaux légèrement réduits (sans modifier les fiches RMU).
+ * Déclarations prioritaires car merp-theme.css est chargé après ce fichier. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h1 {
+  font-size: 1.38rem !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h2 {
+  font-size: 1.14rem !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h3 {
+  font-size: 1rem !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h4 {
+  font-size: 0.94rem !important;
 }
 
 :is(

@@ -1,0 +1,2790 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "040260744911060ed5dff393d2769310baeda5ba9cfa750285f6cb90eebdffa0",
+  "packs": [
+    {
+      "name": "merp-rmu-races",
+      "type": "Item",
+      "sources": [
+        {
+          "key": "race-dunedain",
+          "id": "vzZNfW8qL1xZo2vf",
+          "file": "source/compendiums/merp-rmu-races/race-dunedain.json",
+          "hash": "0359db27214521361bac2489c9def511ff3b84ed397d05c5a275690b58825396"
+        },
+        {
+          "key": "race-elves",
+          "id": "zZMHi3lxYnhJg3ll",
+          "file": "source/compendiums/merp-rmu-races/race-elves.json",
+          "hash": "b43c783ce1fe44a1fc5f14b771aef331e682cd089e1ba2b6ac6c69cd9c731b1c"
+        },
+        {
+          "key": "race-half-elves",
+          "id": "LzwoGqATeDSpI80v",
+          "file": "source/compendiums/merp-rmu-races/race-half-elves.json",
+          "hash": "4694c9cb3e49dd3f7bbd26559907299bfdf15b182101f8428c454074b376a749"
+        },
+        {
+          "key": "race-half-orcs",
+          "id": "0u6pxpphsyqHTuiY",
+          "file": "source/compendiums/merp-rmu-races/race-half-orcs.json",
+          "hash": "8e089ff9c3274c0fbfa1900654d9830f593bee5261fb876de450379d9c0342ac"
+        },
+        {
+          "key": "race-half-trolls",
+          "id": "7kmi0Bqm8es8s3qg",
+          "file": "source/compendiums/merp-rmu-races/race-half-trolls.json",
+          "hash": "706ddba7230ed627335fdbd9cbd8f502862935f0335d5ca7a12eb88e1855e969"
+        },
+        {
+          "key": "race-hobbits",
+          "id": "uUOsdOkYGsokrrct",
+          "file": "source/compendiums/merp-rmu-races/race-hobbits.json",
+          "hash": "ad88cc8a1ecc6d10007ea6ba53eb6eaf0d0bec37708971b0e8bd8ee09198c9a0"
+        },
+        {
+          "key": "race-humans",
+          "id": "WRq9ldgFiYPvVoyV",
+          "file": "source/compendiums/merp-rmu-races/race-humans.json",
+          "hash": "b403e8068f9442a54a4bc1aa7ed77dc34e6ee1f18c016e5b234fa421230aed0a"
+        },
+        {
+          "key": "race-khazad",
+          "id": "x2xpUwYnd5COJSIm",
+          "file": "source/compendiums/merp-rmu-races/race-khazad.json",
+          "hash": "98e60edda30bef240476befadb0b8fff0b9de549394a79b7de2370af9dba31d5"
+        },
+        {
+          "key": "race-orcs",
+          "id": "g485mtWSGtGiGoVW",
+          "file": "source/compendiums/merp-rmu-races/race-orcs.json",
+          "hash": "9c0eb03811020d996d27a471705f7d987011896bbc126ddc9ad1dab5ece2f786"
+        },
+        {
+          "key": "race-petty-dwarves",
+          "id": "c6G0B1T8jDTiC18T",
+          "file": "source/compendiums/merp-rmu-races/race-petty-dwarves.json",
+          "hash": "cf2b7acd035859b1fcd255c7869977f5c4f4680452179bcc609f588be1b6fc14"
+        },
+        {
+          "key": "race-trolls",
+          "id": "VpKSYVGqNTxXjZWS",
+          "file": "source/compendiums/merp-rmu-races/race-trolls.json",
+          "hash": "bef7cb7411cca934434f724f67b776d3c55d9fed8e70b6a975e0c54f2345f4bd"
+        },
+        {
+          "key": "race-umli",
+          "id": "1E9fwMzQBK8Qkp3P",
+          "file": "source/compendiums/merp-rmu-races/race-umli.json",
+          "hash": "f22d350343afe49b3efc79584b02d218734e53e75d6f04c93fc34ff47ff545c7"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-cultures",
+      "type": "Item",
+      "sources": [
+        {
+          "key": "culture-cave-trolls",
+          "id": "7EBXop4mW56cn6gx",
+          "file": "source/compendiums/merp-rmu-cultures/culture-cave-trolls.json",
+          "hash": "6fcc8b1d76547f1311c81ee6ec065e64a6ac920a4a9e504fbfe227c8ee7c734e"
+        },
+        {
+          "key": "culture-common-orcs",
+          "id": "pQIC64RG9CVnN5sH",
+          "file": "source/compendiums/merp-rmu-cultures/culture-common-orcs.json",
+          "hash": "188e74d1ebe28c99b03e3078cabd09ee33890d36abb47b9f5de8404a8c3a8581"
+        },
+        {
+          "key": "culture-covsheknarod",
+          "id": "9XRMiJVRJEQO4YDG",
+          "file": "source/compendiums/merp-rmu-cultures/culture-covsheknarod.json",
+          "hash": "ef3815f409af9ddafb5aac13c58b04585fabfd113429ebae736238500a6883aa"
+        },
+        {
+          "key": "culture-daen-lintis",
+          "id": "4kBEFh8jxaYv36Vr",
+          "file": "source/compendiums/merp-rmu-cultures/culture-daen-lintis.json",
+          "hash": "5f506b32391673ad06fb7be80f84f3bae30dd7f5229e041bb0a2a846d3e17343"
+        },
+        {
+          "key": "culture-drughu",
+          "id": "PZtshvv99J9f2MJM",
+          "file": "source/compendiums/merp-rmu-cultures/culture-drughu.json",
+          "hash": "edfc7581f4eefe9e4eb87786f17c5755cbd3580d8e79ac2c714acbe5a2159399"
+        },
+        {
+          "key": "culture-dunedain-black-numenorean",
+          "id": "aKlO3tplKXOnkTvk",
+          "file": "source/compendiums/merp-rmu-cultures/culture-dunedain-black-numenorean.json",
+          "hash": "2183631b0e53ef866636d326b709125eeccebbed3e55d824f1f27a2a769200c5"
+        },
+        {
+          "key": "culture-elf-avari",
+          "id": "LgCghCVn2OjpcOaq",
+          "file": "source/compendiums/merp-rmu-cultures/culture-elf-avari.json",
+          "hash": "5cb4ccbcc2201ac87b7d51c7bd579f3e00dc717973d6bf316043a43cd59b9d31"
+        },
+        {
+          "key": "culture-elf-nandor",
+          "id": "U684UB0iD2BG4i2L",
+          "file": "source/compendiums/merp-rmu-cultures/culture-elf-nandor.json",
+          "hash": "3e767404e62edc3fa8c7e220815c8786ab48b30d879dc84e86a56502ba9d0ed2"
+        },
+        {
+          "key": "culture-elf-noldor",
+          "id": "WisNTTuhWo75IuxL",
+          "file": "source/compendiums/merp-rmu-cultures/culture-elf-noldor.json",
+          "hash": "1478356da53e7ca5b60522c020a21daa4b2a17222e07501a9d5faca3a75400f0"
+        },
+        {
+          "key": "culture-elf-silvan",
+          "id": "Kt85I3gXBOQdOT1j",
+          "file": "source/compendiums/merp-rmu-cultures/culture-elf-silvan.json",
+          "hash": "df84721fef3925332067aa30a66d46f694bb07521859062aeb2d4ec1895727d8"
+        },
+        {
+          "key": "culture-elf-sindar",
+          "id": "uw0sjGAjdnMlLt07",
+          "file": "source/compendiums/merp-rmu-cultures/culture-elf-sindar.json",
+          "hash": "ce64314ed351c1ce12c778ee3fa0e0245944e27311e3828635fe103fe7e7d419"
+        },
+        {
+          "key": "culture-elf-vanyar",
+          "id": "dtMO13STeWNIGz6u",
+          "file": "source/compendiums/merp-rmu-cultures/culture-elf-vanyar.json",
+          "hash": "2acfb5a2da686012d8dcdcbc81a829a8346872870c46486eb5862a5029b33c88"
+        },
+        {
+          "key": "culture-forest-trolls",
+          "id": "ybVxCk0cqLy1XbE8",
+          "file": "source/compendiums/merp-rmu-cultures/culture-forest-trolls.json",
+          "hash": "cdc5d50e3e7341e85eb2b0923fab42ce518f30cac35992c96348dcee58b0383a"
+        },
+        {
+          "key": "culture-fuinar",
+          "id": "YyG1vwGj8l9mC09N",
+          "file": "source/compendiums/merp-rmu-cultures/culture-fuinar.json",
+          "hash": "4fd6f157943f657d826ced711fdcd4c8e3b32e02413bcda507c26b8014117f1c"
+        },
+        {
+          "key": "culture-gimuteothraim",
+          "id": "RfZKgvwPbxgFrsax",
+          "file": "source/compendiums/merp-rmu-cultures/culture-gimuteothraim.json",
+          "hash": "41b4b9236c96d1cce068518179eaa9e70cf5b746802afd01b259bb98612d1ab0"
+        },
+        {
+          "key": "culture-half-orcs",
+          "id": "yHhTdyh6EmZUjsld",
+          "file": "source/compendiums/merp-rmu-cultures/culture-half-orcs.json",
+          "hash": "58298334609bbd53d790dbd4e326d543f26984e5db95fcbf28db74bc72c2c6ca"
+        },
+        {
+          "key": "culture-half-trolls",
+          "id": "5GeTYDzVFVd7HPQY",
+          "file": "source/compendiums/merp-rmu-cultures/culture-half-trolls.json",
+          "hash": "a8bfc99f0616eb7b45cb9e73376b14ac217f61d1bc78987b455ca1059d2cc962"
+        },
+        {
+          "key": "culture-hill-trolls",
+          "id": "TuLpKNh20AwM2ceU",
+          "file": "source/compendiums/merp-rmu-cultures/culture-hill-trolls.json",
+          "hash": "fdbac452b8543126d35f2f3adab46dca9e4d1d8ba5b550981225e2be07411e35"
+        },
+        {
+          "key": "culture-hillmen",
+          "id": "AwLyAhIAPABR53qo",
+          "file": "source/compendiums/merp-rmu-cultures/culture-hillmen.json",
+          "hash": "a14cb5c8459e6f4dfa7a4ba234e285a0220589bd7a09208be53ece012817a802"
+        },
+        {
+          "key": "culture-hobbit-fallohide",
+          "id": "CSQlOUsoMJHSa9oT",
+          "file": "source/compendiums/merp-rmu-cultures/culture-hobbit-fallohide.json",
+          "hash": "e7e7a453cf03fe19bbbf8538028ab1c40c55c37525c80fb4e53eb6027b4b1cb1"
+        },
+        {
+          "key": "culture-hobbit-harfoot",
+          "id": "I7ICKuHoXXSjpl3y",
+          "file": "source/compendiums/merp-rmu-cultures/culture-hobbit-harfoot.json",
+          "hash": "10c800c2e3bc622862f0df1c66d5f0a4ff2ab8774b6ae3429227c541deb11c94"
+        },
+        {
+          "key": "culture-hobbit-stoor",
+          "id": "KIvTmHdmfAH9JSSF",
+          "file": "source/compendiums/merp-rmu-cultures/culture-hobbit-stoor.json",
+          "hash": "1b71828f576f442793f49456f6e1ce3e1d5af7d9afcc27763ceff96d2811772e"
+        },
+        {
+          "key": "culture-honnin",
+          "id": "c3MJoRFe7M6Iutpk",
+          "file": "source/compendiums/merp-rmu-cultures/culture-honnin.json",
+          "hash": "507d70b4c3c3e38653e20c0c125e9ad01eb2cf1f32fa57d80a21bdb43e27da9a"
+        },
+        {
+          "key": "culture-house-barin",
+          "id": "GjKcXowjzUje2HHK",
+          "file": "source/compendiums/merp-rmu-cultures/culture-house-barin.json",
+          "hash": "cbf53f3fa119afc561afaa442ae5df902fe4020521d0b3b65db428adf7f5a2bf"
+        },
+        {
+          "key": "culture-house-bavor",
+          "id": "hd6MCcBLbDlg5QF7",
+          "file": "source/compendiums/merp-rmu-cultures/culture-house-bavor.json",
+          "hash": "c1cff0bcaced070e8354fc3fc7a9b90b56fe57b806ba35ceab10ce3cdf5387f0"
+        },
+        {
+          "key": "culture-house-druin",
+          "id": "C05Rpqj0ycBQFQ2v",
+          "file": "source/compendiums/merp-rmu-cultures/culture-house-druin.json",
+          "hash": "237105126cd87648071c4e541021d14b786d06c486248c8f4b9898d88c5ab155"
+        },
+        {
+          "key": "culture-house-of-durin",
+          "id": "YA51DKFdAm1io0NV",
+          "file": "source/compendiums/merp-rmu-cultures/culture-house-of-durin.json",
+          "hash": "27034a91b246fa874b07321d5a516bcc912a22989c2c9d3dc61c2be9abcc5c5c"
+        },
+        {
+          "key": "culture-house-thelor",
+          "id": "12Q130weGoIxuSTg",
+          "file": "source/compendiums/merp-rmu-cultures/culture-house-thelor.json",
+          "hash": "76cb1e93eafa20a2d8905b5a7e1f5269782558450cbab1962ef9f6449caa2c51"
+        },
+        {
+          "key": "culture-houses-of-dwalin-thrar",
+          "id": "ADjanIPgXY3A3OrO",
+          "file": "source/compendiums/merp-rmu-cultures/culture-houses-of-dwalin-thrar.json",
+          "hash": "d5ea2c17c30325fe088e9d7cdcc88a705566a017fadb456f7401e4a35efa219b"
+        },
+        {
+          "key": "culture-human-beffraen",
+          "id": "QCe0JdmwKGQdiijd",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-beffraen.json",
+          "hash": "c37d74794dbe939c74a063215284f8779e30842d278df78656e72b3ea508a199"
+        },
+        {
+          "key": "culture-human-berninga",
+          "id": "kVTXvP0jdolL5aYF",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-berninga.json",
+          "hash": "7ca1203ef580c2cf3f3e9ce79a59114f24d5eda554b000a982457283334ff6cc"
+        },
+        {
+          "key": "culture-human-corsairs",
+          "id": "pkZrtHlEqKYQVwJq",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-corsairs.json",
+          "hash": "eed0bdbc3913d3cef2ac7b2d6614b520f8cbd0dfe4a9c86fae0abbd6dcf61098"
+        },
+        {
+          "key": "culture-human-dorwinrim",
+          "id": "JTLVogvuUN1UAtom",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-dorwinrim.json",
+          "hash": "2ba6776681c034a506f951c838883e17564d53b81ab100aef5ab9dcb1792e7b0"
+        },
+        {
+          "key": "culture-human-dunedain-gondor",
+          "id": "uRLV7PuebdpHYQIP",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-dunedain-gondor.json",
+          "hash": "2a38b7745d022a000ee6aad4d34377f7d25678cd97997fd09c7bf26de3ac9284"
+        },
+        {
+          "key": "culture-human-dunedain-lost-realm",
+          "id": "QGzg19pTQRmGBNjy",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-dunedain-lost-realm.json",
+          "hash": "7f39339f448c1587d95c3f89476dd1f99967246ccba572a7ce26064136b8025e"
+        },
+        {
+          "key": "culture-human-easterlings",
+          "id": "Zy0kOZoUGopGoZ78",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-easterlings.json",
+          "hash": "dba9e99e838d7597a5121ce5f82aeae97b15b88508d3b75419f86561fcaea4bb"
+        },
+        {
+          "key": "culture-human-eriadorian",
+          "id": "AT4kBQOLpcx4lgqN",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-eriadorian.json",
+          "hash": "f8ef10dc8833796c6908ac0f17aa503f20d113d4de72401011b35c311886155a"
+        },
+        {
+          "key": "culture-human-gondorian",
+          "id": "jbOuzV6dmXz4wpZD",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-gondorian.json",
+          "hash": "afae4a8cf854bff54cc4d84d554397eeda467952ce2c4367b3a3735fd114bcc7"
+        },
+        {
+          "key": "culture-human-gramuz",
+          "id": "TubVoNyFLatTbbfG",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-gramuz.json",
+          "hash": "1a987183d73bc7ad2825ba59acf85f228b89ed891fd849b6f8468057f3dbb8bf"
+        },
+        {
+          "key": "culture-human-haruze",
+          "id": "5ShJBFUu0gbp2KIc",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-haruze.json",
+          "hash": "f789252c47e0e8b9c9124298c8757a5f622b862df445c02915a648d62cd4f3d7"
+        },
+        {
+          "key": "culture-human-northmen-urban",
+          "id": "OwIZDDkDkHYvap8Y",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-northmen-urban.json",
+          "hash": "5689e8874d1beec18d793b63cea22c16f14b0073176f85283a3216e3bfea86a7"
+        },
+        {
+          "key": "culture-human-rohirrim",
+          "id": "VR5WGK6joWFEhsGE",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-rohirrim.json",
+          "hash": "8670d89e90b6f729aa0daf270b93d4450d3d0dd3c5da3cc8d796803b8fc301ef"
+        },
+        {
+          "key": "culture-human-variags",
+          "id": "XU5DuXd2u5u7ozDi",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-variags.json",
+          "hash": "4e06a18f7770658ed8e37cc254ff7374548f0336c9cf5b0593e2ce342d0d7423"
+        },
+        {
+          "key": "culture-human-woodmen",
+          "id": "7GWMOY0MnGX62wzk",
+          "file": "source/compendiums/merp-rmu-cultures/culture-human-woodmen.json",
+          "hash": "dfa9b956a90a884d86c50ff239528af2e9cc3a824b6623d594511be81faf7c59"
+        },
+        {
+          "key": "culture-kuorind",
+          "id": "ScA1z5czmv401VHf",
+          "file": "source/compendiums/merp-rmu-cultures/culture-kuorind.json",
+          "hash": "530c526cb49c211f286cc8ec3ad507b3a96a9c49e6643c79df903e77e0257445"
+        },
+        {
+          "key": "culture-lossoth",
+          "id": "0teQd5tG7D5c1r3Q",
+          "file": "source/compendiums/merp-rmu-cultures/culture-lossoth.json",
+          "hash": "047c78e722d6c471d7eefab8d791565a909fa419e4184733fbe5e22ebbffa1a6"
+        },
+        {
+          "key": "culture-luindrim",
+          "id": "Rd4o48gIj3veiQk5",
+          "file": "source/compendiums/merp-rmu-cultures/culture-luindrim.json",
+          "hash": "10c3c12c915ef73e1fd1614083dad7a91372b2c1c1c113f56c31f49d1d7bfa06"
+        },
+        {
+          "key": "culture-merimetsastajat",
+          "id": "0B0FbZdZugbtCmQY",
+          "file": "source/compendiums/merp-rmu-cultures/culture-merimetsastajat.json",
+          "hash": "c99daded29c366367b8d10db5367e78ccbab93fa13d90a8445d3011a72713054"
+        },
+        {
+          "key": "culture-narodbrijig",
+          "id": "QDewryFiqou5mnkb",
+          "file": "source/compendiums/merp-rmu-cultures/culture-narodbrijig.json",
+          "hash": "3768f5c69bf3f96e326718ee69bc53a5917a9988e7012cfc5938b208fdfef71a"
+        },
+        {
+          "key": "culture-olog-hai",
+          "id": "RUJWnXU0In9XkAlv",
+          "file": "source/compendiums/merp-rmu-cultures/culture-olog-hai.json",
+          "hash": "13594e94ad8481344ff26c5942ce4c5e45c8dba45d4fb9fae5894639c0900f3d"
+        },
+        {
+          "key": "culture-pedi",
+          "id": "SZTaJvIZtpQZEEuQ",
+          "file": "source/compendiums/merp-rmu-cultures/culture-pedi.json",
+          "hash": "da9774d011e3b59bac4b9658b98d2b999655e7f0c0ed84afe4095b03d63cf5fc"
+        },
+        {
+          "key": "culture-penni",
+          "id": "cKiV9yKKXIT6m2AY",
+          "file": "source/compendiums/merp-rmu-cultures/culture-penni.json",
+          "hash": "8bf8c7999e746a8bcc1561077c238394c614ad9bca69eddff045ed1004185025"
+        },
+        {
+          "key": "culture-petty-dwarves",
+          "id": "jFuy6nJIKFNv0LXi",
+          "file": "source/compendiums/merp-rmu-cultures/culture-petty-dwarves.json",
+          "hash": "fa7c49d48c74f182d74553a90a1dde0295397b4aa62145c6b0f90c8d4ba80f80"
+        },
+        {
+          "key": "culture-rijeshnarod",
+          "id": "d93hNPa9vZ5SYoF1",
+          "file": "source/compendiums/merp-rmu-cultures/culture-rijeshnarod.json",
+          "hash": "1755011e0ced06e776346e0bb60aa3ae92b585ff404e4532b54642ee60817eef"
+        },
+        {
+          "key": "culture-snow-trolls",
+          "id": "cCAyAIOjDkJTa2aD",
+          "file": "source/compendiums/merp-rmu-cultures/culture-snow-trolls.json",
+          "hash": "e7e3a4aef2c3eb8f6adef1d98412b33e3cc569e54b56de8a856ec1da5fbecf2e"
+        },
+        {
+          "key": "culture-stone-trolls",
+          "id": "Tb14kQ6LvKBbNEFp",
+          "file": "source/compendiums/merp-rmu-cultures/culture-stone-trolls.json",
+          "hash": "ffec32804c3f7fb70c9107504d509c93028fa4506e71c93ee8da8c334fb32995"
+        },
+        {
+          "key": "culture-teleri",
+          "id": "aazoaONTqXxqYxcP",
+          "file": "source/compendiums/merp-rmu-cultures/culture-teleri.json",
+          "hash": "d6eebeb25f044eb9c079ac81e1e791a14eea8f05149cc0ebbfcb2e4a0f7adf62"
+        },
+        {
+          "key": "culture-umli",
+          "id": "G2kPQqTepHDWR9uI",
+          "file": "source/compendiums/merp-rmu-cultures/culture-umli.json",
+          "hash": "caf823a847e226657bdb0deff8f3879d6d13a459c7a2f5991bf17dcb2bf2a459"
+        },
+        {
+          "key": "culture-uruk-hai",
+          "id": "TvDpFsDzMHHbFHaP",
+          "file": "source/compendiums/merp-rmu-cultures/culture-uruk-hai.json",
+          "hash": "3cf51ee5eec1631f0c84c50fe9b21499905c7370bedfcd6e05f8c9677570ad17"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-professions",
+      "type": "Item",
+      "sources": [
+        {
+          "key": "alchemist",
+          "id": "ShFrQz1clFbvww21",
+          "file": "source/compendiums/merp-rmu-professions/alchemist.json",
+          "hash": "fa7400929e111866052f372b03df39288e962a5a5008dcc4c94622fdb100ef90"
+        },
+        {
+          "key": "animist",
+          "id": "I8zeXj7LUv6E43Rp",
+          "file": "source/compendiums/merp-rmu-professions/animist.json",
+          "hash": "53a97f2d33191d5f0200c724615086513f97836d66f319a8b7dca2da6f78aba0"
+        },
+        {
+          "key": "astrologer",
+          "id": "gK7MVK2bQNs2rhYZ",
+          "file": "source/compendiums/merp-rmu-professions/astrologer.json",
+          "hash": "cf8a2500cb023526fb2da319426c2dc03dadcc21aa22776fd79985af15357ab2"
+        },
+        {
+          "key": "barbarian",
+          "id": "R0PmJzcbid5aS7B7",
+          "file": "source/compendiums/merp-rmu-professions/barbarian.json",
+          "hash": "9f7bd92595f2de0fd612b01b1f88f4818f244a2f6b20e1b23ce09386d2795dba"
+        },
+        {
+          "key": "bard",
+          "id": "SCfSkXaByc7Dzrxq",
+          "file": "source/compendiums/merp-rmu-professions/bard.json",
+          "hash": "c349c6d0b253173d83e4f32fe662ebb557a942e9531150f21742a95107c9c547"
+        },
+        {
+          "key": "drughan",
+          "id": "8CKiOZWT3zSQdNrK",
+          "file": "source/compendiums/merp-rmu-professions/drughan.json",
+          "hash": "078a3cfd2dfbcfefa530a8749028ebd5a6f72285bdd473163bd520db28d25e60"
+        },
+        {
+          "key": "fighter",
+          "id": "IETUcvRptZkMm3dw",
+          "file": "source/compendiums/merp-rmu-professions/fighter.json",
+          "hash": "56405558f0dfc5dce6e68bd0a479ffaaf36f1dbfdc26d6ef01530be60ceb8c8c"
+        },
+        {
+          "key": "herutano",
+          "id": "IQDFdx0YhJs4W2al",
+          "file": "source/compendiums/merp-rmu-professions/herutano.json",
+          "hash": "94aad6bcf40d8771db83a806180d06f9385302bd6ba8f6adb9fbe84e87d8deed"
+        },
+        {
+          "key": "honnin-priest",
+          "id": "Nky1JVIxSrRZiMOK",
+          "file": "source/compendiums/merp-rmu-professions/honnin-priest.json",
+          "hash": "242e5c49237782b3735a7c3ffbb4b0cde689605a68e086e83b4b34d64e047ae7"
+        },
+        {
+          "key": "kekhavra",
+          "id": "bHnBool4FvAfjKkA",
+          "file": "source/compendiums/merp-rmu-professions/kekhavra.json",
+          "hash": "2297a69223308f6b1568b76a506bdaa174bc8594e7edd3a29ba2bd0a5bb602c7"
+        },
+        {
+          "key": "lay-healer",
+          "id": "XnaBdc8p2ajlt9Ms",
+          "file": "source/compendiums/merp-rmu-professions/lay-healer.json",
+          "hash": "f77fa3dd3d2c68e50f5346cf3269121ff59461cece1eb3cdd0fe789bef241f6a"
+        },
+        {
+          "key": "layman",
+          "id": "MwjXWOQniT04mq7j",
+          "file": "source/compendiums/merp-rmu-professions/layman.json",
+          "hash": "6adaebfa60f81c6d52cb63499f0bfe161a7a826d40e0106a53fdc5257aab1168"
+        },
+        {
+          "key": "magician",
+          "id": "KhsTmYdc2rYJSwaZ",
+          "file": "source/compendiums/merp-rmu-professions/magician.json",
+          "hash": "42fd7ea3c5fcbcd6b12b12c78d23e66381ca8b56560bd055f9c0b193c2406f53"
+        },
+        {
+          "key": "ranger",
+          "id": "udsOP8QW8uXDECcw",
+          "file": "source/compendiums/merp-rmu-professions/ranger.json",
+          "hash": "a9e277e5335b9d08bedae9bd6196b217444d18ad2e3812dbe660ae5c4db45c97"
+        },
+        {
+          "key": "razak-zinul",
+          "id": "dEHzL3WVX5GRAhIs",
+          "file": "source/compendiums/merp-rmu-professions/razak-zinul.json",
+          "hash": "31c1b47bf35fa01552fcfda99466b4b121c765e0770461ee284b91f91d3921c5"
+        },
+        {
+          "key": "rogue",
+          "id": "UQ5gHIhlG4RydY0W",
+          "file": "source/compendiums/merp-rmu-professions/rogue.json",
+          "hash": "a284b24c86c2648bddc31a548ab92b2152f8dbf49ee80d1d09bfa1c410156072"
+        },
+        {
+          "key": "seer",
+          "id": "SAHjNg77NK4PNLPY",
+          "file": "source/compendiums/merp-rmu-professions/seer.json",
+          "hash": "a64fad5855975b88ecffe68f257c79f0edfbcf3af879ea8e8ae54b9d65e9ca5c"
+        },
+        {
+          "key": "sorcerer",
+          "id": "Skc4u2D4o07MhsMT",
+          "file": "source/compendiums/merp-rmu-professions/sorcerer.json",
+          "hash": "c903bb95557c87c805e0955635d1e035b37de52b9320bc83e1aa40b885462bd1"
+        },
+        {
+          "key": "thief",
+          "id": "brN002vUinm0BW72",
+          "file": "source/compendiums/merp-rmu-professions/thief.json",
+          "hash": "4a1b5d4c60dc3b09c791d3866c69a0f1663a46a8df5c86c8f6f91256f5adb9bb"
+        },
+        {
+          "key": "vracara",
+          "id": "B24jAjjNwcpTllLK",
+          "file": "source/compendiums/merp-rmu-professions/vracara.json",
+          "hash": "1a89fe3ac7f229d44a303a5dcd6e6a59a8d213f25d748695262931ac8c1f9136"
+        },
+        {
+          "key": "wegech",
+          "id": "uIs1WEyUPNgVYSRM",
+          "file": "source/compendiums/merp-rmu-professions/wegech.json",
+          "hash": "ddf0b5aa73d2de3f311c4b5749fa56e47d2c8d0f8c44fb0395b3d4f97c7d2139"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-skills",
+      "type": "Item",
+      "sources": [
+        {
+          "key": "healing-song-blood",
+          "id": "mS8T2ewN3PlSOwYO",
+          "file": "source/compendiums/merp-rmu-skills/healing-song-blood.json",
+          "hash": "fe72de863194e72ff4dd85de8116732da7a96f2fba494758e0ee70ad6742bf08"
+        },
+        {
+          "key": "healing-song-bone",
+          "id": "V4xFRd0NzURbj3WY",
+          "file": "source/compendiums/merp-rmu-skills/healing-song-bone.json",
+          "hash": "adefe35d2b7cb93e0c86da3c469a93807f3d8737f70f30de1130e1166bdc6851"
+        },
+        {
+          "key": "healing-song-cleansing",
+          "id": "3p7sr6GMlKQJ1H7T",
+          "file": "source/compendiums/merp-rmu-skills/healing-song-cleansing.json",
+          "hash": "d1dd7f0d2ed88331163a2a689e63a99012ac943de62375511ac7037d531d4c39"
+        },
+        {
+          "key": "healing-song-muscle",
+          "id": "d1VBLUd48vDgLb8K",
+          "file": "source/compendiums/merp-rmu-skills/healing-song-muscle.json",
+          "hash": "f167871cd933480f02109318720a9b14a3015eec8c58ab06d23006b106bc1c02"
+        },
+        {
+          "key": "healing-song-sensory",
+          "id": "BllKgWdrScp07kqN",
+          "file": "source/compendiums/merp-rmu-skills/healing-song-sensory.json",
+          "hash": "bcacfec649f600b45961bde1ee24defb5149c7e9a1a8f257bfe443bd3bf970db"
+        },
+        {
+          "key": "healing-song-strengthening",
+          "id": "PKHbpWPr8titisgO",
+          "file": "source/compendiums/merp-rmu-skills/healing-song-strengthening.json",
+          "hash": "7123b440b00392fd2a3e06a329f08f34d8d1325424a70169bc638866b236108d"
+        },
+        {
+          "key": "healing-songs",
+          "id": "4g4tpSiDNsiHPLm4",
+          "file": "source/compendiums/merp-rmu-skills/healing-songs.json",
+          "hash": "69fa7fbd6d673738360b1201b46b6890946ad91b542e1fb9d0bb08d9390282d5"
+        },
+        {
+          "key": "yavannas-song",
+          "id": "Wsg0ZZudXyFcpLNt",
+          "file": "source/compendiums/merp-rmu-skills/yavannas-song.json",
+          "hash": "ed3d68d5ceccd49f264be522d34cb165fc98c774667bf3083d3e73ce8bd44a40"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-spell-lists",
+      "type": "Item",
+      "sources": [
+        {
+          "key": "alchemist-enchanting-ways",
+          "id": "In5kuZN0LLQawedh",
+          "file": "source/compendiums/merp-rmu-spell-lists/alchemist-enchanting-ways.json",
+          "hash": "6011abf05c21ab05c4c1e7b7407db7591721e2826f77aca84b03c912e390b732"
+        },
+        {
+          "key": "alchemist-essence-imbedding",
+          "id": "DahJxVtvPKxK87iQ",
+          "file": "source/compendiums/merp-rmu-spell-lists/alchemist-essence-imbedding.json",
+          "hash": "4662d59e43d7c489426bd3548d1a9aa1c22a0714ce659f5ee82d759860919e72"
+        },
+        {
+          "key": "alchemist-inorganic-skills",
+          "id": "vFsrCw5NboEkVEiD",
+          "file": "source/compendiums/merp-rmu-spell-lists/alchemist-inorganic-skills.json",
+          "hash": "97976c843bc4fecfcd4df8bbe1df34819e46fb1a08c0d0a2aed5dc351ff1b936"
+        },
+        {
+          "key": "alchemist-liquid-gas-skills",
+          "id": "IkAK2VnVJd48ROTZ",
+          "file": "source/compendiums/merp-rmu-spell-lists/alchemist-liquid-gas-skills.json",
+          "hash": "483802e77947dab548d0281bff27c589c599da4dca4792a4415d6a8ef763e458"
+        },
+        {
+          "key": "alchemist-mentalism-channeling-imbedding",
+          "id": "2KYuN4akP2HwlnYg",
+          "file": "source/compendiums/merp-rmu-spell-lists/alchemist-mentalism-channeling-imbedding.json",
+          "hash": "e6c1aeff63a7c93d8b47f41392010e1e4619673fddd9cefb012be19ed5da9e13"
+        },
+        {
+          "key": "alchemist-organic-skills",
+          "id": "Xp1Zkv5UKu5HzJvk",
+          "file": "source/compendiums/merp-rmu-spell-lists/alchemist-organic-skills.json",
+          "hash": "7e14847a9aa8b5eb96ed5028f1da67e92f794de0426fa577d9f12cc98137c959"
+        },
+        {
+          "key": "animist-natures-movement-senses",
+          "id": "Ki4Fex4mBSMsuuh2",
+          "file": "source/compendiums/merp-rmu-spell-lists/animist-natures-movement-senses.json",
+          "hash": "6a551d51195fa3454e9474515cde6be6fbee87ab7c526be7301d3af825292a0a"
+        },
+        {
+          "key": "astrologer-starlights",
+          "id": "3ektZqykfci9Eh17",
+          "file": "source/compendiums/merp-rmu-spell-lists/astrologer-starlights.json",
+          "hash": "c5b1bfc55245532e704bc3e164d78df3436d117bf4b3a2a5d2995c7d7f2a195f"
+        },
+        {
+          "key": "drughan-natures-movement-senses",
+          "id": "P5xCHOHJvzqBI44C",
+          "file": "source/compendiums/merp-rmu-spell-lists/drughan-natures-movement-senses.json",
+          "hash": "3519ef8bd128ad437b1139ca1753b16bb39f66bc46275914772320efb9fe32db"
+        },
+        {
+          "key": "herutano-attack-mastery",
+          "id": "z4YY9FhCX2F4jznS",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-attack-mastery.json",
+          "hash": "70da440209cf6730b431244f9815e30964a9d713b0c03d4c53ec45457037acd1"
+        },
+        {
+          "key": "herutano-defense-mastery",
+          "id": "mxNWLjjDWKPPAhm8",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-defense-mastery.json",
+          "hash": "89052dc55ccc7894086f46971a7df2a2bb0b3dce208609e7295d5ecdefa06566"
+        },
+        {
+          "key": "herutano-elven-inorganic-skills",
+          "id": "EToBm4TNtZZ5BXSj",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-elven-inorganic-skills.json",
+          "hash": "b83a3681b06a4a771f710ff600b62e7a0e2d183aa9553ebdadad1cc3e2c10d6f"
+        },
+        {
+          "key": "herutano-external-concentrations",
+          "id": "MT9vHUUV596fPrLY",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-external-concentrations.json",
+          "hash": "211ca4b79246a17ce5232fd82c75a14ecb5dae8ded55dcecfa1994f6d7530ef4"
+        },
+        {
+          "key": "herutano-liquid-gas-skills",
+          "id": "dZHaOfunC0aTvJlR",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-liquid-gas-skills.json",
+          "hash": "f6263074de0ceff241b4fcaf8b3b9261ab8652f8e890ed4083d3e8c37a40e8c6"
+        },
+        {
+          "key": "herutano-other-realm-imbedding",
+          "id": "heI5AmNROAzsAvhI",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-other-realm-imbedding.json",
+          "hash": "856fec639b122bd10ffd9e84a6640a01c93e5b8a0b637369537b48230f6f3508"
+        },
+        {
+          "key": "herutano-own-realm-imbedding",
+          "id": "KPupHf5TYOollvON",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-own-realm-imbedding.json",
+          "hash": "9e8966c05b9ca1937c97d0f1fd13b380d3b1f426cd9221ef761dc99f6433321a"
+        },
+        {
+          "key": "herutano-understanding-mastery",
+          "id": "SLo5I9mxyXM7StBs",
+          "file": "source/compendiums/merp-rmu-spell-lists/herutano-understanding-mastery.json",
+          "hash": "56c96a366417cf974bd515e3b2f292b5d4657a6e003b5051624a735ef7c66256"
+        },
+        {
+          "key": "honnin-avian-ways",
+          "id": "YVGvsaoajyJ6DMsm",
+          "file": "source/compendiums/merp-rmu-spell-lists/honnin-avian-ways.json",
+          "hash": "4ec48fe029c548442f6580427884b831a17d7f9767731c2569caddbc93c4d1ad"
+        },
+        {
+          "key": "honnin-communions",
+          "id": "ZgcHEj33MtrxWmLP",
+          "file": "source/compendiums/merp-rmu-spell-lists/honnin-communions.json",
+          "hash": "526006cc7174a2b01e067ad074e1ac76731656fedf7bb63c188c49d2e28fc0e6"
+        },
+        {
+          "key": "honnin-tattoo-crafts",
+          "id": "sriZQdLbIHfXsFA5",
+          "file": "source/compendiums/merp-rmu-spell-lists/honnin-tattoo-crafts.json",
+          "hash": "5778741b95e16aea6e1e49ad6f61138035e9edb745a041d86fc45d00f3efa1d6"
+        },
+        {
+          "key": "ranger-natures-summons",
+          "id": "XeX44xpDRNlNZCtk",
+          "file": "source/compendiums/merp-rmu-spell-lists/ranger-natures-summons.json",
+          "hash": "3e6098407990c239fb41595a9a8596607ba167373753a238434cb76d3fa6d82e"
+        },
+        {
+          "key": "razak-zinul-armourer",
+          "id": "ud3WZGkkoRqBPZdx",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-armourer.json",
+          "hash": "c359c1049d16bb1593ff431ce7669e9bef485e866b781a18b26496be51d0fa6a"
+        },
+        {
+          "key": "razak-zinul-craftsman",
+          "id": "Mttvn3fkc6aa44vy",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-craftsman.json",
+          "hash": "b14c0bbe8db81258983d8d54c34cf4e1cff85bdb4a82a70f71ef44ff9e5725a5"
+        },
+        {
+          "key": "razak-zinul-dwarven-inorganic-skills",
+          "id": "tvRgIKBClbRumKPU",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-dwarven-inorganic-skills.json",
+          "hash": "fb488a9f8d15b05a73b25e910a586da5248263bb282084a44083c50eb006b911"
+        },
+        {
+          "key": "razak-zinul-loremaster",
+          "id": "uKdtWT2EzhncvWrL",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-loremaster.json",
+          "hash": "29d533afbd4c164142e7bedca02abe5ffa72c7c5b1b9177bd584d521f65551e0"
+        },
+        {
+          "key": "razak-zinul-other-realm-imbedding",
+          "id": "NRzMWaXzOk6L9FWq",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-other-realm-imbedding.json",
+          "hash": "e1b24e7b9e358956e62f5b5ac524d9a0fe4f782bfeac39ab629bb766629a5f93"
+        },
+        {
+          "key": "razak-zinul-own-realm-imbedding",
+          "id": "Yu1SttB6xfzhd1Ob",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-own-realm-imbedding.json",
+          "hash": "37757b72a3a9508ead861e317f627b89ec91c424e527b8311afebdb0926eb0bd"
+        },
+        {
+          "key": "razak-zinul-symbols",
+          "id": "3atkIrtU4WlEPBzx",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-symbols.json",
+          "hash": "671c7ff0aae2df735ab13202de6fc2c9b38e3f747d4bcdd6a0ecda4d5f906837"
+        },
+        {
+          "key": "razak-zinul-wards",
+          "id": "ZNwGD1UTTI1fbXeE",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-wards.json",
+          "hash": "65ff2270bf310e21d0a2d4e2f4b0f1d864db76dc2e1b3527680c9d0830b51d7e"
+        },
+        {
+          "key": "razak-zinul-weaponsmith",
+          "id": "Nl6RkfywoltHM1MJ",
+          "file": "source/compendiums/merp-rmu-spell-lists/razak-zinul-weaponsmith.json",
+          "hash": "5099071800dd81b0d3465ca71aee1b879b30e640a6be36023b88db922b0f46a3"
+        },
+        {
+          "key": "seer-far-visions",
+          "id": "BZQZWUJDtGoJpfOf",
+          "file": "source/compendiums/merp-rmu-spell-lists/seer-far-visions.json",
+          "hash": "96e6c55cb5dc999b5d4bfd0a8452571bd5b933416ebce640cd1677ef46140553"
+        },
+        {
+          "key": "seer-future-visions",
+          "id": "qR8KdyjWs1W2jDW3",
+          "file": "source/compendiums/merp-rmu-spell-lists/seer-future-visions.json",
+          "hash": "16f7ffc19fb240508f5b386b14015aae8df4f5a1b19a5f7196e61b11a0ca5369"
+        },
+        {
+          "key": "seer-mind-visions",
+          "id": "AOxhIvVAdsSLHxGK",
+          "file": "source/compendiums/merp-rmu-spell-lists/seer-mind-visions.json",
+          "hash": "1aaf0a0881e38c0e12e2a61ff4070e23c78e4d0f92fa116720b09e204b9fee0f"
+        },
+        {
+          "key": "seer-past-visions",
+          "id": "CWOHWNrNTJBazDmg",
+          "file": "source/compendiums/merp-rmu-spell-lists/seer-past-visions.json",
+          "hash": "467c708d5c8a0bf50c157c24d733603041fd97f60699f71fbd9ff0fb8d270263"
+        },
+        {
+          "key": "seer-vision-borrowing",
+          "id": "NGPDx1k3XwNyNhrk",
+          "file": "source/compendiums/merp-rmu-spell-lists/seer-vision-borrowing.json",
+          "hash": "8e6bf99b3e1c493d369266fb92dcf3a0ca3ec0bdc5643e70894da60cd8d7599f"
+        },
+        {
+          "key": "seer-vision-guard",
+          "id": "9P8QAzlm8eglmuBz",
+          "file": "source/compendiums/merp-rmu-spell-lists/seer-vision-guard.json",
+          "hash": "d983c3427d6b42deea339dda113ec2ad57a7b1e867ab4941fdca445a1b596105"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-talents-flaws",
+      "type": "Item",
+      "sources": [
+        {
+          "key": "addiction",
+          "id": "6yEAbAIIvA09XjzT",
+          "file": "source/compendiums/merp-rmu-talents-flaws/addiction.json",
+          "hash": "351a3a0ec8a90f8e7dd9c83071d404454125dd97ca0578f5c916fd17f69b4df4"
+        },
+        {
+          "key": "allergy",
+          "id": "e43ECywnV4rBpnFe",
+          "file": "source/compendiums/merp-rmu-talents-flaws/allergy.json",
+          "hash": "198b49028cb9d497adf492124acd474b299702ba515a09722c408c1c26b5ab9e"
+        },
+        {
+          "key": "aura-of-aman",
+          "id": "R5JkxsBTftyncKWW",
+          "file": "source/compendiums/merp-rmu-talents-flaws/aura-of-aman.json",
+          "hash": "c163164a737a5c938f79d52b690dc4dcd9bc53a21f5ac82856ec49a993a5a62e"
+        },
+        {
+          "key": "battle-confusion",
+          "id": "U789aDyg4eCgbwsX",
+          "file": "source/compendiums/merp-rmu-talents-flaws/battle-confusion.json",
+          "hash": "f858a0e53cb24a51e33984c4f9ca339ad42533385b6e9b729e44b8475e04f2a6"
+        },
+        {
+          "key": "battle-cry",
+          "id": "WN6FuvCyv3ge6X3u",
+          "file": "source/compendiums/merp-rmu-talents-flaws/battle-cry.json",
+          "hash": "1797761d067e959e4a58826b3688025285fdd64536545ee66808b4bf0577a524"
+        },
+        {
+          "key": "beardless",
+          "id": "6BYTyvTfRon5PS0Y",
+          "file": "source/compendiums/merp-rmu-talents-flaws/beardless.json",
+          "hash": "5f09218e5c058a73fc767b598675bde70b64e20775205efd138c6342c0b70b46"
+        },
+        {
+          "key": "bred-for-carnage",
+          "id": "lSIEQt12NJor5a8C",
+          "file": "source/compendiums/merp-rmu-talents-flaws/bred-for-carnage.json",
+          "hash": "98e6a0c4c0172be339245151560990003d597d5aa21862f3fd12ffd3344cf73e"
+        },
+        {
+          "key": "bred-for-war",
+          "id": "cw9baC1SmR70XvRU",
+          "file": "source/compendiums/merp-rmu-talents-flaws/bred-for-war.json",
+          "hash": "75c85925e346a1680b41116700fde6ec0fb1541cdf9ae8703ff239d81c07d29c"
+        },
+        {
+          "key": "calmness",
+          "id": "b8qGWu3S9rmoJjBg",
+          "file": "source/compendiums/merp-rmu-talents-flaws/calmness.json",
+          "hash": "a8955c62d9f349c037fdf04571e61378b1ae2fef80a413a8ce34b6b4390a3427"
+        },
+        {
+          "key": "code-of-honour",
+          "id": "Z2NpnkdEcesLZ73t",
+          "file": "source/compendiums/merp-rmu-talents-flaws/code-of-honour.json",
+          "hash": "8d9a05d9a763cadf9ae5017f09d084354350967b93f60a4e9c9a2d5121342f13"
+        },
+        {
+          "key": "crippled",
+          "id": "ndhiNTdiWu6BH01g",
+          "file": "source/compendiums/merp-rmu-talents-flaws/crippled.json",
+          "hash": "8d9dc7c85f1fb96568cd0bb09205b1056d84da12183516e9fb5b27785e2bdd66"
+        },
+        {
+          "key": "danger-sense",
+          "id": "BdIb7RTz0fP29Qkc",
+          "file": "source/compendiums/merp-rmu-talents-flaws/danger-sense.json",
+          "hash": "ffa9283aa786c72fe4153946ff085e91255fbf70fbf38dd8278100e035a5ad33"
+        },
+        {
+          "key": "dependent",
+          "id": "vJakOuFunkpDptAM",
+          "file": "source/compendiums/merp-rmu-talents-flaws/dependent.json",
+          "hash": "ee8dd7c3c7bbd48c31a321779f0cabfea211bf888672451f5ae5f8daba1123ab"
+        },
+        {
+          "key": "dunedain-ancestry",
+          "id": "07XNIwmclEhFJ5aB",
+          "file": "source/compendiums/merp-rmu-talents-flaws/dunedain-ancestry.json",
+          "hash": "35bb66c97b50b37bfd72f9325088e8d6168543e0714a1157bd88be305d01e505"
+        },
+        {
+          "key": "dunedain-disease-resistance",
+          "id": "AQ1ouJPGDxTetFfc",
+          "file": "source/compendiums/merp-rmu-talents-flaws/dunedain-disease-resistance.json",
+          "hash": "72d8c900679b53f1bf8dc9b67f644ea4709e67c50f5131f97d2a64ca0f427147"
+        },
+        {
+          "key": "dunedain-longevity",
+          "id": "MHJ3ZNBWbpLhyDMK",
+          "file": "source/compendiums/merp-rmu-talents-flaws/dunedain-longevity.json",
+          "hash": "3a6151f0f2e58bb38c5d0df7fc38de7a48792a5dd4e36dd78070e925ab87e11f"
+        },
+        {
+          "key": "dunedain-western-endurance",
+          "id": "UevcrSCmHVWOtsyK",
+          "file": "source/compendiums/merp-rmu-talents-flaws/dunedain-western-endurance.json",
+          "hash": "e60a172f51ff8d1057b89c7da149834ec8d3fb41cf6fe578057ce2269bc74892"
+        },
+        {
+          "key": "duty",
+          "id": "tYq1XbPT3WTqu9yJ",
+          "file": "source/compendiums/merp-rmu-talents-flaws/duty.json",
+          "hash": "716970120f0a7cd69d5ad037ac453f9d38b9c8bada52e119f6d0355474656a88"
+        },
+        {
+          "key": "dwarf-friend",
+          "id": "KhpfNhsRbsKambja",
+          "file": "source/compendiums/merp-rmu-talents-flaws/dwarf-friend.json",
+          "hash": "2c18ee6bf520c343d28d3a4d4f2b774b771e6bde46ce08f65ca0ade810d90de5"
+        },
+        {
+          "key": "dwarf-sense",
+          "id": "G6OZubiwxGOVMIBX",
+          "file": "source/compendiums/merp-rmu-talents-flaws/dwarf-sense.json",
+          "hash": "baa9c40ba89f9bc60820954270396740232dca0ef98da6339e720254186b5cab"
+        },
+        {
+          "key": "elf-friend",
+          "id": "yFlqaY6nT2psAuXg",
+          "file": "source/compendiums/merp-rmu-talents-flaws/elf-friend.json",
+          "hash": "8a18020e779705bfae1cc38f319a9af018186e8ad800a326e5d4ce040eb01915"
+        },
+        {
+          "key": "elf-hater",
+          "id": "BswR4EKElgRRqD0l",
+          "file": "source/compendiums/merp-rmu-talents-flaws/elf-hater.json",
+          "hash": "049d5e9d06ef46664f27b16ae24977693fbf712859c15e463d937ad6fffea3e7"
+        },
+        {
+          "key": "ensorcellment-cure",
+          "id": "Q4AqWEEXEEmhq40T",
+          "file": "source/compendiums/merp-rmu-talents-flaws/ensorcellment-cure.json",
+          "hash": "bce2394eabf6162b751ae33b95b3b7a9b0fb0b3b5bb301d34947c88b2884e0dd"
+        },
+        {
+          "key": "epileptic",
+          "id": "olB6cSMsLi5wFzLG",
+          "file": "source/compendiums/merp-rmu-talents-flaws/epileptic.json",
+          "hash": "0afd50a3ee177b6c5b6f0fcda75862b89e088bc30b0ba0cb68ca513f0291ab49"
+        },
+        {
+          "key": "ethereal-sight",
+          "id": "Tjgr7hOeVMxoltZr",
+          "file": "source/compendiums/merp-rmu-talents-flaws/ethereal-sight.json",
+          "hash": "bfab01fd5e836580271b0174ec0f0444110df349544b61006c56af2b604cfc4d"
+        },
+        {
+          "key": "friendslayer",
+          "id": "uLrzLUFbfVI30XZb",
+          "file": "source/compendiums/merp-rmu-talents-flaws/friendslayer.json",
+          "hash": "60aa20f750ddaae22e57afecef9df899a1fa772b91df4871685229db3ea7f087"
+        },
+        {
+          "key": "gardener",
+          "id": "5rVodlJIJrEgoDk0",
+          "file": "source/compendiums/merp-rmu-talents-flaws/gardener.json",
+          "hash": "c245f5b00bb9bcc8d3090515a2d23cae656c026156cdaf133d2b8d55f099c2b5"
+        },
+        {
+          "key": "gift-of-mahal",
+          "id": "AKWHJ6FsmD5gcU5L",
+          "file": "source/compendiums/merp-rmu-talents-flaws/gift-of-mahal.json",
+          "hash": "e88f63e8c378f584d7e196dcab4e4139d086949bf321356a7864d6167ce48694"
+        },
+        {
+          "key": "good-battlefield-awareness",
+          "id": "edwNlYo2gVDiXEkr",
+          "file": "source/compendiums/merp-rmu-talents-flaws/good-battlefield-awareness.json",
+          "hash": "f2051d17da651169282e282b283572508b28c97162fd355aa8c28493bfb7ec67"
+        },
+        {
+          "key": "gourmand",
+          "id": "TaICw3pu0zRfKB8z",
+          "file": "source/compendiums/merp-rmu-talents-flaws/gourmand.json",
+          "hash": "2f16e6e1475d8acf7724dcfcfb531c0db9f2becdf4411a08e741e1b33ac49f0d"
+        },
+        {
+          "key": "herbalist",
+          "id": "QGpm0qQMU5PFQPsu",
+          "file": "source/compendiums/merp-rmu-talents-flaws/herbalist.json",
+          "hash": "3706c228fb246f5d8aead0f83d39a1edd3b516b0cccabe1e4d76ed4519892a9b"
+        },
+        {
+          "key": "immovable-will",
+          "id": "bcx6EioSRSh3KDLW",
+          "file": "source/compendiums/merp-rmu-talents-flaws/immovable-will.json",
+          "hash": "ddfa1a52ca39a57d1584666096bdeae7be97630537136c80ea5dd941078e3de6"
+        },
+        {
+          "key": "impulsive",
+          "id": "7002E4lIuztgoogr",
+          "file": "source/compendiums/merp-rmu-talents-flaws/impulsive.json",
+          "hash": "4ecbb294331c92c88f55f7833adbe4746ad5fe17b233c37ef135596a3f181535"
+        },
+        {
+          "key": "judge-of-angles",
+          "id": "5OwXK3rnLswyb9KK",
+          "file": "source/compendiums/merp-rmu-talents-flaws/judge-of-angles.json",
+          "hash": "dfdffe33e57c5a02ca141a245136e95d7549a965c7476796c3be26266a6d2ec9"
+        },
+        {
+          "key": "lack-of-range",
+          "id": "crL6mEkUsEK8HbhO",
+          "file": "source/compendiums/merp-rmu-talents-flaws/lack-of-range.json",
+          "hash": "26320ad057bc911cc7d298b748ab7bdddfb604435027df5e95bd0dab29ea63bd"
+        },
+        {
+          "key": "lack-of-scope",
+          "id": "TWK7fTzNRCG3q4kM",
+          "file": "source/compendiums/merp-rmu-talents-flaws/lack-of-scope.json",
+          "hash": "4978c5cabe8f5609ffb2ec57deb9ffc6ab1dcd1e8e775e31fd98599e9931a702"
+        },
+        {
+          "key": "lack-of-time",
+          "id": "p4ryWmL3v8hdsMJm",
+          "file": "source/compendiums/merp-rmu-talents-flaws/lack-of-time.json",
+          "hash": "469862ec23e6d88200b997376fb336916d5f2081e5dda6de969298d70ef41ced"
+        },
+        {
+          "key": "lesser-dunadan",
+          "id": "EZTfpWxKHkXOuEDc",
+          "file": "source/compendiums/merp-rmu-talents-flaws/lesser-dunadan.json",
+          "hash": "df783488aa5581569ecdff0746c518981614b456ad7008e681068e94899238e9"
+        },
+        {
+          "key": "light-of-aman",
+          "id": "0aD5y94IqLmGNjXg",
+          "file": "source/compendiums/merp-rmu-talents-flaws/light-of-aman.json",
+          "hash": "83fe2de2873a8e8708caf8d7b3d34e77d20cb940fcd58104bfbc2062d9f82ca3"
+        },
+        {
+          "key": "loss-of-vision",
+          "id": "D4sa2h7gY5ULBpbu",
+          "file": "source/compendiums/merp-rmu-talents-flaws/loss-of-vision.json",
+          "hash": "53f669b817b97e69401f435d7d2330a70701a335b2b4695260ae7efecfe8cbe8"
+        },
+        {
+          "key": "magic-allergy",
+          "id": "24ZcF81jwhQdvCZy",
+          "file": "source/compendiums/merp-rmu-talents-flaws/magic-allergy.json",
+          "hash": "ad9b99e9ad790cfcf7225b12dcda9efe10da6fdd45b39de2a72fda5e857242ff"
+        },
+        {
+          "key": "magically-susceptible",
+          "id": "DsvBdkDqFMVQ6Wzy",
+          "file": "source/compendiums/merp-rmu-talents-flaws/magically-susceptible.json",
+          "hash": "3c2763fdda9b4c8d582cabe09d63c3c3773b8b7846f9a8055fd78ac524e98e0b"
+        },
+        {
+          "key": "magically-vulnerable",
+          "id": "9PrbxgpYD3lpqsxp",
+          "file": "source/compendiums/merp-rmu-talents-flaws/magically-vulnerable.json",
+          "hash": "96884cb67fe2650d9e7ec96e6b394194954613404100ea68ee22d3bc6475e8a4"
+        },
+        {
+          "key": "mana-sensing",
+          "id": "YaeIVqNA8Es6jZXI",
+          "file": "source/compendiums/merp-rmu-talents-flaws/mana-sensing.json",
+          "hash": "0f088b2cba3b1126429b5f0e41997790b946e75de5cb9bd4327da6c330c82c2a"
+        },
+        {
+          "key": "master-tactician",
+          "id": "zJh3Bwz1f6FDdBFA",
+          "file": "source/compendiums/merp-rmu-talents-flaws/master-tactician.json",
+          "hash": "ff4f9397c36f03d090292dcb591600b6fe2d2c68de0b2695c785ba2fe538b2bf"
+        },
+        {
+          "key": "mind-over-matter",
+          "id": "EDExQpBkuNldZ6vG",
+          "file": "source/compendiums/merp-rmu-talents-flaws/mind-over-matter.json",
+          "hash": "dc2c3f7ec3b260821a6689bbe962d3970175c4d144364940784e6fa3f120c6b5"
+        },
+        {
+          "key": "natural-horseman",
+          "id": "cT7szF3G44rQO9Eg",
+          "file": "source/compendiums/merp-rmu-talents-flaws/natural-horseman.json",
+          "hash": "463931a2e6147dbe06d6c0230e6e1ae46e06ee96fdef7ef2f0ac332e18d28413"
+        },
+        {
+          "key": "natural-physique",
+          "id": "FaFEE2wYrlb80PBa",
+          "file": "source/compendiums/merp-rmu-talents-flaws/natural-physique.json",
+          "hash": "33410f37e8a4de6060676398f9dd6f8e4120e8d8fad4da86c3fd439eb3fd6498"
+        },
+        {
+          "key": "obsessive-greed",
+          "id": "hrtQ57vstrg0C8qp",
+          "file": "source/compendiums/merp-rmu-talents-flaws/obsessive-greed.json",
+          "hash": "be457875ecb4fd3d4e5932db49879662fafda64f01bafed24c53b0f577383dc1"
+        },
+        {
+          "key": "one-arm",
+          "id": "c7shYkFQrKdPGvcm",
+          "file": "source/compendiums/merp-rmu-talents-flaws/one-arm.json",
+          "hash": "f088d937a0320a68f1d4fb4d9d1d8c305d6644a23fff45f5f402e1dddeb0f2c3"
+        },
+        {
+          "key": "outdoorsman",
+          "id": "oep0af8KVjV8BHyq",
+          "file": "source/compendiums/merp-rmu-talents-flaws/outdoorsman.json",
+          "hash": "29fca3d965202aaa45c1569ebbe4180772ee76a5c3aa0fab4eced2abb3e5b927"
+        },
+        {
+          "key": "photographic-memory",
+          "id": "7HRQlCfN3TLK33He",
+          "file": "source/compendiums/merp-rmu-talents-flaws/photographic-memory.json",
+          "hash": "9abd0af676107e6b9539a9239d8809ca9d2998d1cbbf5b255b2e89cd96905b83"
+        },
+        {
+          "key": "poor-control",
+          "id": "L91ISWhaZXi3Sh9Y",
+          "file": "source/compendiums/merp-rmu-talents-flaws/poor-control.json",
+          "hash": "e39886114d39d981dc3e5cdf5c3a5b90c77e601c822bd01fc3c130d0f4262015"
+        },
+        {
+          "key": "portage-skills",
+          "id": "3xwbeHDPEYDaOBks",
+          "file": "source/compendiums/merp-rmu-talents-flaws/portage-skills.json",
+          "hash": "ba9c88548ff9791d9f9500a7d820dc271de0f7bf722df9258344aac8f68f979e"
+        },
+        {
+          "key": "power-blind",
+          "id": "7r2QTjVBjEaR7Mfi",
+          "file": "source/compendiums/merp-rmu-talents-flaws/power-blind.json",
+          "hash": "2700a3b0d6a36d4dcd7f84ef003330b90afd4d7f55a5633d70138b900aa89c93"
+        },
+        {
+          "key": "power-drain",
+          "id": "Kl5bBKOZbHuGfmIX",
+          "file": "source/compendiums/merp-rmu-talents-flaws/power-drain.json",
+          "hash": "ec517cd817c02620b62c2b095de38a2b88414ab6ef834e498e1472062a464ce7"
+        },
+        {
+          "key": "power-leakage",
+          "id": "blTHG2huxhDkPljS",
+          "file": "source/compendiums/merp-rmu-talents-flaws/power-leakage.json",
+          "hash": "662cd775c87bea5e8eb9f9cfade2a427b97557c2753fea04880ce0abaccb0a61"
+        },
+        {
+          "key": "repulsive-habit",
+          "id": "XmFoVPxOvn4RZySF",
+          "file": "source/compendiums/merp-rmu-talents-flaws/repulsive-habit.json",
+          "hash": "e97ef9f078506912572ab8a32ed6c12157ef13409a8f059f24776588058c0692"
+        },
+        {
+          "key": "resistance",
+          "id": "iWumP3TgiUdkL4qw",
+          "file": "source/compendiums/merp-rmu-talents-flaws/resistance.json",
+          "hash": "bf61fbe340e029c85ecb3299af88360af32ff1966389aff6e27e4a07ecc786d8"
+        },
+        {
+          "key": "rival-npc",
+          "id": "NieIzg5vjYXFTIoh",
+          "file": "source/compendiums/merp-rmu-talents-flaws/rival-npc.json",
+          "hash": "61f43bf05c359fdd21564f289c637cc859f3e70cd71e0c1513d69d591973e71c"
+        },
+        {
+          "key": "rival-pc",
+          "id": "IbAejcVguSQtMRas",
+          "file": "source/compendiums/merp-rmu-talents-flaws/rival-pc.json",
+          "hash": "cbdb1b875e4451764771cc7e58029bfb488f235073a0f6d235fbf4aa3d6054ea"
+        },
+        {
+          "key": "secret-identity",
+          "id": "07G5ieHjeJkVqER1",
+          "file": "source/compendiums/merp-rmu-talents-flaws/secret-identity.json",
+          "hash": "a7ca99a47252cd00f67839cfb20b042c2a3461e028d962be46ddfa0bd242fdcf"
+        },
+        {
+          "key": "secret",
+          "id": "RigK5rWWHJ3bLBDU",
+          "file": "source/compendiums/merp-rmu-talents-flaws/secret.json",
+          "hash": "6530dddb0d58a68bffa504c9e98bd0bd4c4bf9def278bf0e8ee2ec619c617955"
+        },
+        {
+          "key": "sense-of-duty",
+          "id": "Wod7cAjAP3qxSShy",
+          "file": "source/compendiums/merp-rmu-talents-flaws/sense-of-duty.json",
+          "hash": "15623678270eb820af2d4c8e969b0859d83e4d6e335b710600b6a5668125338f"
+        },
+        {
+          "key": "shadow-sight",
+          "id": "bMcd65nej5e9C4mj",
+          "file": "source/compendiums/merp-rmu-talents-flaws/shadow-sight.json",
+          "hash": "44a2116382a57082b10de6814cca00f4aca5bef97b16f6e0b45c658269423cd8"
+        },
+        {
+          "key": "short-of-breath",
+          "id": "OszT5jBy3QNxhrlR",
+          "file": "source/compendiums/merp-rmu-talents-flaws/short-of-breath.json",
+          "hash": "6bf3306331d624d97aaf663f1ffa83178c17917d30396736afbb6e2a09386294"
+        },
+        {
+          "key": "speed-reading",
+          "id": "m2BZeiSEPoJfBsYL",
+          "file": "source/compendiums/merp-rmu-talents-flaws/speed-reading.json",
+          "hash": "82faa667169aad575349f7778e19fc8b84f1440b7f1ea85b3667ce15b8256a8e"
+        },
+        {
+          "key": "stealthy-hobbit",
+          "id": "8ix2UMGK2Nu6ZqHz",
+          "file": "source/compendiums/merp-rmu-talents-flaws/stealthy-hobbit.json",
+          "hash": "107509d71842b6018ddb23c2b5c832f366c063a248e5a88a4009dc5725f6711b"
+        },
+        {
+          "key": "sun-hater",
+          "id": "68KNhP6B2bKZ41Zd",
+          "file": "source/compendiums/merp-rmu-talents-flaws/sun-hater.json",
+          "hash": "310c35192b6c29a603fc07711ac9e188fd83199385bb636205136619a214840b"
+        },
+        {
+          "key": "telekinesis",
+          "id": "8lCqR8udF6bJmAC0",
+          "file": "source/compendiums/merp-rmu-talents-flaws/telekinesis.json",
+          "hash": "88e35cb4e3dacf8c96895c662a1f7ed49702fe38538a0ae972539463de8260d1"
+        },
+        {
+          "key": "telepathy",
+          "id": "FgMHCK8tTXVwJdV7",
+          "file": "source/compendiums/merp-rmu-talents-flaws/telepathy.json",
+          "hash": "bf8e811026f5ea4e65bf4d715cfad9365bbc32153fcf0b201d22e78ceccb6c40"
+        },
+        {
+          "key": "tenderfoot",
+          "id": "LU6hmGB3mhIF3mGN",
+          "file": "source/compendiums/merp-rmu-talents-flaws/tenderfoot.json",
+          "hash": "3bea4065b153e0feaa10e9ec7a473f59438a648feb8e09908e076e1175f158be"
+        },
+        {
+          "key": "terrible-luck",
+          "id": "uX7o9nolbLi5J53s",
+          "file": "source/compendiums/merp-rmu-talents-flaws/terrible-luck.json",
+          "hash": "7ba6c488038e7bb7db60a36d92ee82b4171f8560de85936897f32213eca576ec"
+        },
+        {
+          "key": "the-slain",
+          "id": "LFFvpCXuHwQZrIRU",
+          "file": "source/compendiums/merp-rmu-talents-flaws/the-slain.json",
+          "hash": "6821ae0826a4414fb473d3a866e3d910ba8da35f7d49945d26a580add1635dc2"
+        },
+        {
+          "key": "total-recall",
+          "id": "QMdWOm4jr8IEHcVo",
+          "file": "source/compendiums/merp-rmu-talents-flaws/total-recall.json",
+          "hash": "1ccd85cd7d45ae4268728b420631cde5b5384013746c06a71f373f143fd3f529"
+        },
+        {
+          "key": "trap-sense",
+          "id": "NSyRaSdsf3CXBrTf",
+          "file": "source/compendiums/merp-rmu-talents-flaws/trap-sense.json",
+          "hash": "d6c69f549617668a989bf96bc0d28171af91f0ad84bf803fd2c24d91fceca9c9"
+        },
+        {
+          "key": "trauma",
+          "id": "VnoXLWJ0OXEHNgl8",
+          "file": "source/compendiums/merp-rmu-talents-flaws/trauma.json",
+          "hash": "39034b84e5b74bc1170cf5e552e6006a009b9b2563140139808335e77397286e"
+        },
+        {
+          "key": "tree-merge",
+          "id": "p2A1NYBRvGIottz2",
+          "file": "source/compendiums/merp-rmu-talents-flaws/tree-merge.json",
+          "hash": "bd0c3ff91d404bf76a3aafa3a11f8c23e0407fff91bc3a2440d5a3945a5c2929"
+        },
+        {
+          "key": "undetectable",
+          "id": "UXltg7fermp4vqsT",
+          "file": "source/compendiums/merp-rmu-talents-flaws/undetectable.json",
+          "hash": "59a1ce4c44959b79fd205b35e1676611b310ff853182f33caaa0e8c10b60d103"
+        },
+        {
+          "key": "unique-looks",
+          "id": "aW0lbKX2S9N5vJec",
+          "file": "source/compendiums/merp-rmu-talents-flaws/unique-looks.json",
+          "hash": "dac76a8ec69275feaee4c3a882dc6f3da31d6267e56e181566138f529be45d36"
+        },
+        {
+          "key": "unlucky",
+          "id": "hmmetnrIF4Eg0uBM",
+          "file": "source/compendiums/merp-rmu-talents-flaws/unlucky.json",
+          "hash": "ad6819fdd4be2c492de0c6edb13b2822e77129b88c4d3b352ccf9aefde2606af"
+        },
+        {
+          "key": "unmagical",
+          "id": "Yaxw8IheHHwfpVi4",
+          "file": "source/compendiums/merp-rmu-talents-flaws/unmagical.json",
+          "hash": "782ed29df06b6a7bb8e24cd646a9c638ea2d82e52a9a7512b7066d57b8a785c7"
+        },
+        {
+          "key": "unnatural-aging",
+          "id": "WeUyD8iaOhOfmFph",
+          "file": "source/compendiums/merp-rmu-talents-flaws/unnatural-aging.json",
+          "hash": "6a17f5543e59839da33411cb46f741bcd6c329764237585984358f7aeb8cf6e8"
+        },
+        {
+          "key": "vow",
+          "id": "KtDkZ0aOo3LnJQpf",
+          "file": "source/compendiums/merp-rmu-talents-flaws/vow.json",
+          "hash": "88f14953ee35f2be3f59d1381da2d56647b96032078228dc297db078b1bfea70"
+        },
+        {
+          "key": "way-of-the-woods",
+          "id": "VvUtV9t5Za5kLvnk",
+          "file": "source/compendiums/merp-rmu-talents-flaws/way-of-the-woods.json",
+          "hash": "803ba47456360d9f27c1be9814e908eb8ca3bbccfc95c033c38fc978d2ce56a3"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-herbs",
+      "type": "Item",
+      "sources": [
+        {
+          "key": "herb-acaana",
+          "id": "OYzdquUqyZDDUGSR",
+          "file": "source/compendiums/merp-rmu-herbs/herb-acaana.json",
+          "hash": "a7689fbaff988028d57897ae59cb67531c86141d7f2ca6f57b1d81f6e7281d2d"
+        },
+        {
+          "key": "herb-adder-venom",
+          "id": "Tlx9fuZJ0BIkz1Lu",
+          "file": "source/compendiums/merp-rmu-herbs/herb-adder-venom.json",
+          "hash": "4dfb48541905ce03527d8d49a3f6aa2f3e2ba7333c3e9b65191153b2dd8ef3f0"
+        },
+        {
+          "key": "herb-agaath",
+          "id": "rika2tE96edzZOYw",
+          "file": "source/compendiums/merp-rmu-herbs/herb-agaath.json",
+          "hash": "36485c75df0091c2457dc1f2513c17453e8a6f61fc2205a7f37887200d2a421f"
+        },
+        {
+          "key": "herb-akbutege",
+          "id": "MVmzsMCVzuE4T0bh",
+          "file": "source/compendiums/merp-rmu-herbs/herb-akbutege.json",
+          "hash": "e74e0a167988ab752c7bd1b45a844a9bce36bf2a1634816c1988189a7376a756"
+        },
+        {
+          "key": "herb-alambas-spike",
+          "id": "8rU8dF8z2x9neQoL",
+          "file": "source/compendiums/merp-rmu-herbs/herb-alambas-spike.json",
+          "hash": "29d6a04b3deac22b8e29c19caa3fdd9275622b831a6bbecf7be97de4f26f1de8"
+        },
+        {
+          "key": "herb-aldaka",
+          "id": "rRDzG6CjyDoW9Tqz",
+          "file": "source/compendiums/merp-rmu-herbs/herb-aldaka.json",
+          "hash": "391903c14540e11b6f3475a62b3cbe97e22de56d539b34869258682a0bb525ab"
+        },
+        {
+          "key": "herb-aloe-heat-heal",
+          "id": "AAik63GnZduYzCTG",
+          "file": "source/compendiums/merp-rmu-herbs/herb-aloe-heat-heal.json",
+          "hash": "a14fa507e7366d6188dfbe57c036b2eee6ae998b1e0280363f1f659023a928b2"
+        },
+        {
+          "key": "herb-ancalthur",
+          "id": "UpSUoAmoJDDUGHuA",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ancalthur.json",
+          "hash": "ae8b4ee84225e8c5241523df8673f1e89a9d983e0b1f19fc89b30fb05f39fa7a"
+        },
+        {
+          "key": "herb-ankii",
+          "id": "C3yxhj8FhnEJ79VL",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ankii.json",
+          "hash": "49d0f0e80b788772db25afbe6f28b8ea6c2fb6fc9c932d195a86481f0f674d98"
+        },
+        {
+          "key": "herb-arfandas-keltakukka",
+          "id": "XjCQnEWpORzqoEoO",
+          "file": "source/compendiums/merp-rmu-herbs/herb-arfandas-keltakukka.json",
+          "hash": "7e6c5ed08701b08a273cdea362505ed4646640c63bc162ba695d6bd919a44469"
+        },
+        {
+          "key": "herb-argsbargies-cashdir",
+          "id": "tBqK2eB2GxlqYPsV",
+          "file": "source/compendiums/merp-rmu-herbs/herb-argsbargies-cashdir.json",
+          "hash": "2aa8405d56471e4f4f1fdae4aa613baa1e174500c5c57aa2ba64016355f5ce07"
+        },
+        {
+          "key": "herb-arlan-white-slipper",
+          "id": "cxFFknBDwWXBUhjK",
+          "file": "source/compendiums/merp-rmu-herbs/herb-arlan-white-slipper.json",
+          "hash": "c7b87e117692756da15f87be0dda0e1cbbb0969921f9d151a48119097df76c9b"
+        },
+        {
+          "key": "herb-arnuminas",
+          "id": "YY7W12vKxVZHombX",
+          "file": "source/compendiums/merp-rmu-herbs/herb-arnuminas.json",
+          "hash": "d206d97eb895c4df85d3c539df58c5a66563d267d15d7781e38248170ca001a1"
+        },
+        {
+          "key": "herb-arpsusar",
+          "id": "WXzI4O5cxT3Ft9e3",
+          "file": "source/compendiums/merp-rmu-herbs/herb-arpsusar.json",
+          "hash": "5e86702bd03e3d5c4d837f085ff609452e2ae0d4bdf3f1680655450e6660c89a"
+        },
+        {
+          "key": "herb-arunya-red-sleep-orrain",
+          "id": "SH9QZppar95Wf9c4",
+          "file": "source/compendiums/merp-rmu-herbs/herb-arunya-red-sleep-orrain.json",
+          "hash": "fde40b7b758b4592ffea5fe5a6145e84806c1c4ce726b6a64e69e6c8ac23160b"
+        },
+        {
+          "key": "herb-arunya",
+          "id": "dhNPjyTCGkw2D6v9",
+          "file": "source/compendiums/merp-rmu-herbs/herb-arunya.json",
+          "hash": "e544db26f49a43356c67980d6a1851689bbcd66ee9a7ff2782e8762d6dbd79d9"
+        },
+        {
+          "key": "herb-athelas-kings-foil",
+          "id": "ajijlBgQnIkisiur",
+          "file": "source/compendiums/merp-rmu-herbs/herb-athelas-kings-foil.json",
+          "hash": "888a8c88152a0205ba98fc5b9b7c07ee5173a14834b8eaf62c0ff73e889124f0"
+        },
+        {
+          "key": "herb-atigax-allsee",
+          "id": "0QIgsAUlFYADu1Pe",
+          "file": "source/compendiums/merp-rmu-herbs/herb-atigax-allsee.json",
+          "hash": "790e4a6b32aa731ea2b7a694cc40914f5536bf15a4babe45e37599c9f8d02fd8"
+        },
+        {
+          "key": "herb-attanar",
+          "id": "ef0XDkAxJ7kvS84r",
+          "file": "source/compendiums/merp-rmu-herbs/herb-attanar.json",
+          "hash": "b62d204611771fdb20f823c9dbac481b52b82a5080256cbfdd9a05cc20c30797"
+        },
+        {
+          "key": "herb-balak-boneboon",
+          "id": "UokdIHAwFR2KbhU5",
+          "file": "source/compendiums/merp-rmu-herbs/herb-balak-boneboon.json",
+          "hash": "539feda48379d2f2e16bb84e89e0b816f99267d313f049a86c1a389ab800c064"
+        },
+        {
+          "key": "herb-baldfoot-splort-carahsa",
+          "id": "IyX1Xw31avbRrSVI",
+          "file": "source/compendiums/merp-rmu-herbs/herb-baldfoot-splort-carahsa.json",
+          "hash": "d136bb391a6b4fbe324d6a8e565da9532c8914ea282b7cb1541210087562535d"
+        },
+        {
+          "key": "herb-belan-blood-nut-scass",
+          "id": "6UXA2fgpKNnrRbi2",
+          "file": "source/compendiums/merp-rmu-herbs/herb-belan-blood-nut-scass.json",
+          "hash": "c58e076ae56fcab816ba4690b62109c37de2df0fcc14bbff53273c7859931f21"
+        },
+        {
+          "key": "herb-belramba",
+          "id": "Ec69BCKXT535otgB",
+          "file": "source/compendiums/merp-rmu-herbs/herb-belramba.json",
+          "hash": "d6d0bb7c23345f1452a60a49bdc47816acf9dc208f95cbec97de474898f5b20a"
+        },
+        {
+          "key": "herb-berterin",
+          "id": "DYi4V3QCS1fLUge6",
+          "file": "source/compendiums/merp-rmu-herbs/herb-berterin.json",
+          "hash": "c064b3d5d496c61afb6e4569dbd8b5a134a82a125e62aa0074d8d2c19bea80b2"
+        },
+        {
+          "key": "herb-black-vine-vision-maker",
+          "id": "1IritLQPz8PCw8wg",
+          "file": "source/compendiums/merp-rmu-herbs/herb-black-vine-vision-maker.json",
+          "hash": "1ceff4614702368da81a872f623dcc5436d76a0566abe7add2e1a140fa7a9e17"
+        },
+        {
+          "key": "herb-blade-hemlock",
+          "id": "kKjOMKjfGeisMoRN",
+          "file": "source/compendiums/merp-rmu-herbs/herb-blade-hemlock.json",
+          "hash": "b2b071b37c2b91d84e1718369976e101240890d1994c0d949726b244aa5343d8"
+        },
+        {
+          "key": "herb-blue-pine-nuts",
+          "id": "I4m3H12F1uzKqO8L",
+          "file": "source/compendiums/merp-rmu-herbs/herb-blue-pine-nuts.json",
+          "hash": "e5b09dd16f42be0ba3f77ee8813e8e76e9ceec43d8c229e534f92b7a41e252cf"
+        },
+        {
+          "key": "herb-bluedrake-bluetongue",
+          "id": "KoMQWf0XNwP5x3VC",
+          "file": "source/compendiums/merp-rmu-herbs/herb-bluedrake-bluetongue.json",
+          "hash": "358774ca9b72697ff8bfee43d3fb1d35e8baf020ec760a030dd56f5679a17faf"
+        },
+        {
+          "key": "herb-boneset",
+          "id": "5Pnuz6B5lLGAeqtd",
+          "file": "source/compendiums/merp-rmu-herbs/herb-boneset.json",
+          "hash": "9b95cbd5fd66503382f2ebc28126c91a0756b509e06b003f87de4778935c7a9e"
+        },
+        {
+          "key": "herb-boskone-danella",
+          "id": "16sMQWgTr29EWVnv",
+          "file": "source/compendiums/merp-rmu-herbs/herb-boskone-danella.json",
+          "hash": "6ecffbdedff49790e5a5b9b90a886a8b1cf80b6bb373c47498fcfaa6fe44a87f"
+        },
+        {
+          "key": "herb-bramblerose",
+          "id": "OJP96iqG4WFDfLGX",
+          "file": "source/compendiums/merp-rmu-herbs/herb-bramblerose.json",
+          "hash": "8337108a48f93fc0992380e8a871784567476306dd28740bfaa8c1f4cc741942"
+        },
+        {
+          "key": "herb-breldiar",
+          "id": "IgihXhGtqMJGTkyH",
+          "file": "source/compendiums/merp-rmu-herbs/herb-breldiar.json",
+          "hash": "11d766d9f9208b791ee982674784b13262f95e284de5e8af8ff7c25a1ca03538"
+        },
+        {
+          "key": "herb-bright-blue-eyes",
+          "id": "DzxCGUgdeK1aJtIh",
+          "file": "source/compendiums/merp-rmu-herbs/herb-bright-blue-eyes.json",
+          "hash": "886c1d3fb566dffd99590b5ffb99e17cfe2a8752f665d44242370898765fde03"
+        },
+        {
+          "key": "herb-brorkwilb",
+          "id": "Lwkb6NIJeLy2Ket4",
+          "file": "source/compendiums/merp-rmu-herbs/herb-brorkwilb.json",
+          "hash": "76d575f94dea1271c5c77d58fa34649fb8cd7ef1ba3d0940aab437e1f95f2dae"
+        },
+        {
+          "key": "herb-carcalen",
+          "id": "LompoKWK6qojjDw8",
+          "file": "source/compendiums/merp-rmu-herbs/herb-carcalen.json",
+          "hash": "ef45f48dd0953556201788eaca0e3455ead6e2443428ceb41b84da3e57b7393b"
+        },
+        {
+          "key": "herb-carefree-mustard",
+          "id": "cCz4QqVW2x18lg20",
+          "file": "source/compendiums/merp-rmu-herbs/herb-carefree-mustard.json",
+          "hash": "f6f78f401b497cadb637d22db2776b8e89067f84e570a354c6c9d12b0c151279"
+        },
+        {
+          "key": "herb-carlong-busis-bonis",
+          "id": "hCtfBbg9GLf1nU2l",
+          "file": "source/compendiums/merp-rmu-herbs/herb-carlong-busis-bonis.json",
+          "hash": "fada6bb70151f773d839a380232fc595fc0092b5ff9138498aa6a2aac8b5c1ed"
+        },
+        {
+          "key": "herb-carnerem",
+          "id": "IHRI60ayN7A4uark",
+          "file": "source/compendiums/merp-rmu-herbs/herb-carnerem.json",
+          "hash": "a7d1f357e4da73b18c126cb38cbe28dfe1e30401534c99951fac5d1779193e5e"
+        },
+        {
+          "key": "herb-carpet-moss",
+          "id": "Z3X3oKfx3WIZZVnH",
+          "file": "source/compendiums/merp-rmu-herbs/herb-carpet-moss.json",
+          "hash": "9f41c87611b03437ee2e12db5999517362bf6bfc41f4818f33ef9c4e56615b27"
+        },
+        {
+          "key": "herb-chap-beechnuts",
+          "id": "UlMaQDUUa1enKfwz",
+          "file": "source/compendiums/merp-rmu-herbs/herb-chap-beechnuts.json",
+          "hash": "77e8d1ec97b0787bbfbd3c7a113508ff8be29a41bed39a2b67c18fc5f2255304"
+        },
+        {
+          "key": "herb-charash-iron-leaf",
+          "id": "b4rLIp3oe4b2xuS8",
+          "file": "source/compendiums/merp-rmu-herbs/herb-charash-iron-leaf.json",
+          "hash": "4f96965987c2577351d433cc45c72a35ca633ac8528f74f87c83b016f6e8059a"
+        },
+        {
+          "key": "herb-chekyuv-blue-rub",
+          "id": "UludnCENb3jns2er",
+          "file": "source/compendiums/merp-rmu-herbs/herb-chekyuv-blue-rub.json",
+          "hash": "7ad5e8d614d8a29c1a9ccda67a3f103baa433cfc74c270b5ea719e13d8620d57"
+        },
+        {
+          "key": "herb-chrume",
+          "id": "FvdwRx2AGezAdXwk",
+          "file": "source/compendiums/merp-rmu-herbs/herb-chrume.json",
+          "hash": "aa8a838f3af5b78958fd24853eb22fc6d5984a1003b0d36523d5f6d0a4bb9ae9"
+        },
+        {
+          "key": "herb-coraco-ralasta",
+          "id": "iGZC482NiiWC6wKE",
+          "file": "source/compendiums/merp-rmu-herbs/herb-coraco-ralasta.json",
+          "hash": "737447c030d4f52253432e41780a4922a4123d14f623fa7d810475db706e284f"
+        },
+        {
+          "key": "herb-culkas-lesser-aloe",
+          "id": "wyZhwqlPqfEVTHhD",
+          "file": "source/compendiums/merp-rmu-herbs/herb-culkas-lesser-aloe.json",
+          "hash": "94384541640c1a9c6e1d04f646d044374863faf840f0384339b21f3922228ff7"
+        },
+        {
+          "key": "herb-curfalaka",
+          "id": "ILJ4WMV1sF3JyxWS",
+          "file": "source/compendiums/merp-rmu-herbs/herb-curfalaka.json",
+          "hash": "fbdb2a4f4d0c35edbfec9f6f6c3ae03a9c87ab6bba66e1a292e8c5629f1369c8"
+        },
+        {
+          "key": "herb-cusamar",
+          "id": "Tp8XxPvVFMD6kWMK",
+          "file": "source/compendiums/merp-rmu-herbs/herb-cusamar.json",
+          "hash": "a1951e2dfe82d03684fd54ec02db4457641b37bb990d53fb128b724bd193fdbd"
+        },
+        {
+          "key": "herb-dagmather",
+          "id": "goSmaNdab2DgRtS2",
+          "file": "source/compendiums/merp-rmu-herbs/herb-dagmather.json",
+          "hash": "5962dfa64c145910bc487d64aeb394b970ce00b7b34a0d45283abe8d12ad3a43"
+        },
+        {
+          "key": "herb-darsurion",
+          "id": "TNmDOc0ofnItBdNa",
+          "file": "source/compendiums/merp-rmu-herbs/herb-darsurion.json",
+          "hash": "5dd0d37ea16be6aa1effcf3d38b5329526198fa9a342ddac4ccf53bb9074ab7f"
+        },
+        {
+          "key": "herb-degik-life-vine",
+          "id": "TLLwNdcsvTmvYJGu",
+          "file": "source/compendiums/merp-rmu-herbs/herb-degik-life-vine.json",
+          "hash": "1cda7d2bb63eafa5d5ded49765c523ee75333295743f79df8ea05424f5884681"
+        },
+        {
+          "key": "herb-delrean-delrian",
+          "id": "8H5Yb1200CkfFWKo",
+          "file": "source/compendiums/merp-rmu-herbs/herb-delrean-delrian.json",
+          "hash": "f1e5ec5219dd6a5e753c49f9a5edc9ab3a75cd40cc54aa822ae93e7512217112"
+        },
+        {
+          "key": "herb-draf-seawort",
+          "id": "jIO299bUDHxylxQH",
+          "file": "source/compendiums/merp-rmu-herbs/herb-draf-seawort.json",
+          "hash": "724dfdc91b3a43290a25ce843cd94acd7821ca1e9ba936be49eb32cc390819c1"
+        },
+        {
+          "key": "herb-dragon-grass",
+          "id": "0ljQFSZ3qjIGNe88",
+          "file": "source/compendiums/merp-rmu-herbs/herb-dragon-grass.json",
+          "hash": "4e642f050adf5ceda4dfbdc8affb3462d29eca28caf183dc1a70a629377ce75d"
+        },
+        {
+          "key": "herb-dynallca",
+          "id": "HP4uoCXx546Q95fG",
+          "file": "source/compendiums/merp-rmu-herbs/herb-dynallca.json",
+          "hash": "5fd28624fb58ff211abe2d7e53f9c0964b60973a8c024574de6aa5fc517afd27"
+        },
+        {
+          "key": "herb-ebur",
+          "id": "kGLGBZEAv6H5vsQb",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ebur.json",
+          "hash": "cc1160fe2d50db4ba477356220c75db195d3dd3646dbd397292502d23e83acb7"
+        },
+        {
+          "key": "herb-ecasse",
+          "id": "0vE6ftX4TNMRZlKc",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ecasse.json",
+          "hash": "353f7a2d0d70d2da53b028d384e8a5236e5a17b95933c7dc6834a812a927e03c"
+        },
+        {
+          "key": "herb-eddij-goldenroot",
+          "id": "BwUTWRuBaX0hWLUr",
+          "file": "source/compendiums/merp-rmu-herbs/herb-eddij-goldenroot.json",
+          "hash": "4f496c1eba7a62699780865c0559d221f39fc24acf3f7e6ea9daeee0dcb98cb6"
+        },
+        {
+          "key": "herb-edram-bonehae",
+          "id": "6dGcTQT7VZjFkMFs",
+          "file": "source/compendiums/merp-rmu-herbs/herb-edram-bonehae.json",
+          "hash": "358cbd5b6b157445b6cd5e87eb8ef1238978e1d9929f2c3fcf03971e3393a7bd"
+        },
+        {
+          "key": "herb-elbens-basket",
+          "id": "VJLvFIqDhT87czy6",
+          "file": "source/compendiums/merp-rmu-herbs/herb-elbens-basket.json",
+          "hash": "11adef18265af0febeed82758d1df0d04c4fe57ff7b06394dad37f07a116239e"
+        },
+        {
+          "key": "herb-eldanna",
+          "id": "PGvubbDDna7dcnpj",
+          "file": "source/compendiums/merp-rmu-herbs/herb-eldanna.json",
+          "hash": "2c2218e382adba702047a93dfd2504267b3fb7ec4e256204aee4912c34a6e0c4"
+        },
+        {
+          "key": "herb-elendils-basket",
+          "id": "lOIHFUk1SthY7e52",
+          "file": "source/compendiums/merp-rmu-herbs/herb-elendils-basket.json",
+          "hash": "16664795ec5c52e1553ca122da1a8f2ad58d48f251fa8380e0df2d47bb3da38e"
+        },
+        {
+          "key": "herb-faghiu",
+          "id": "V1voCGjGviagI9lD",
+          "file": "source/compendiums/merp-rmu-herbs/herb-faghiu.json",
+          "hash": "d26c5a59e0d74cd14da0b6478ebd25bb4d85c5e4d7e4a331f6eac5b88c932273"
+        },
+        {
+          "key": "herb-falsereg",
+          "id": "X4tmcxV9sQJPDnon",
+          "file": "source/compendiums/merp-rmu-herbs/herb-falsereg.json",
+          "hash": "7f1f72207e1aad22916420f3abf078cf9c7540d5c9d9f5d9496f20ee484e82e0"
+        },
+        {
+          "key": "herb-febfendu",
+          "id": "3qnagaYeoMScaHh3",
+          "file": "source/compendiums/merp-rmu-herbs/herb-febfendu.json",
+          "hash": "9d144745479e2d5904b6edd08c8ce9cf757314b799b5d48d81573fc3e7917a50"
+        },
+        {
+          "key": "herb-feduilas",
+          "id": "GqbcjsRRPgPT6reJ",
+          "file": "source/compendiums/merp-rmu-herbs/herb-feduilas.json",
+          "hash": "c3eee551473156f2925780abd55a5d1355ac5525daf17893af4ee2c3a0bb4fa5"
+        },
+        {
+          "key": "herb-felmather",
+          "id": "SjCn6NFswFlJOdEo",
+          "file": "source/compendiums/merp-rmu-herbs/herb-felmather.json",
+          "hash": "8f03f384c368532c60d9af0c9a8d1024884c48ba6080cd18b547ea0703c7f9c3"
+        },
+        {
+          "key": "herb-firebreath-tongue-toaster",
+          "id": "uj5HHstal6feBCZr",
+          "file": "source/compendiums/merp-rmu-herbs/herb-firebreath-tongue-toaster.json",
+          "hash": "d493b32cd13c13662a7e2aecf533d837ffe6caeed0deb787e7a42bbed23ff653"
+        },
+        {
+          "key": "herb-fishfeather-seaplume",
+          "id": "btyWD2Pw8evykGwH",
+          "file": "source/compendiums/merp-rmu-herbs/herb-fishfeather-seaplume.json",
+          "hash": "9148c40cce9ce7dd8de8cf80b963b79dc1fbab5756265313c7fdf13d7c7d617e"
+        },
+        {
+          "key": "herb-flameroot",
+          "id": "VIbQAFTZzOlUzRW7",
+          "file": "source/compendiums/merp-rmu-herbs/herb-flameroot.json",
+          "hash": "06c351093d968d3534088bd88871301752f4ff78c49c2499e8c9362a0f157b67"
+        },
+        {
+          "key": "herb-flur-rort",
+          "id": "cxqbzYEzn06mRN8b",
+          "file": "source/compendiums/merp-rmu-herbs/herb-flur-rort.json",
+          "hash": "0b60cdc6e8c649003145e79c8e9cf7b6305439ec116a7583b7b1108c42f75372"
+        },
+        {
+          "key": "herb-foxrose-redthorn",
+          "id": "TCFNGi3QgjOG91rr",
+          "file": "source/compendiums/merp-rmu-herbs/herb-foxrose-redthorn.json",
+          "hash": "f634c8acccf0cfe29843821ab215cb64304972afef4ccdb957d8baad76a457de"
+        },
+        {
+          "key": "herb-furry-oak-acorn",
+          "id": "dana6GgcQaQYFbO6",
+          "file": "source/compendiums/merp-rmu-herbs/herb-furry-oak-acorn.json",
+          "hash": "d0bbaac832d51bdea5146d03d6579425e0b238eb32dca3f5a7a409eccf5255e4"
+        },
+        {
+          "key": "herb-galenaana",
+          "id": "U5x9nTQBAvYcEjrq",
+          "file": "source/compendiums/merp-rmu-herbs/herb-galenaana.json",
+          "hash": "3de47005c1cc9f370499c04149035f60cd355b233574fdc9d1bb816af3bb3ce5"
+        },
+        {
+          "key": "herb-garig-tookash-garack",
+          "id": "07HjiANvZpHnr8Id",
+          "file": "source/compendiums/merp-rmu-herbs/herb-garig-tookash-garack.json",
+          "hash": "65ce7d4f216960a6f1377bd404f9eeffcda41813e326f68fc526a947828a44b6"
+        },
+        {
+          "key": "herb-gefnul-earthash",
+          "id": "psfpw4qWpsaOCKfD",
+          "file": "source/compendiums/merp-rmu-herbs/herb-gefnul-earthash.json",
+          "hash": "0234e287ececdbeea7388d03ffc134c0ed4dc129faa235c65897f4e15c130f77"
+        },
+        {
+          "key": "herb-golden-cress-gold-chute",
+          "id": "V7JxdYYGGB3S8Sdg",
+          "file": "source/compendiums/merp-rmu-herbs/herb-golden-cress-gold-chute.json",
+          "hash": "dc16e78c3446b6882252c3c7eea8afdb98b58be9f91bf4b905a17e034b63bc04"
+        },
+        {
+          "key": "herb-gorfang",
+          "id": "s74W2H0rFZk5h5Rj",
+          "file": "source/compendiums/merp-rmu-herbs/herb-gorfang.json",
+          "hash": "4e49692914cf679d907d5762b72276417de619b2529e8d6d25f63f3b4a8f709f"
+        },
+        {
+          "key": "herb-gort",
+          "id": "bEO1WUbIMJK8QoE3",
+          "file": "source/compendiums/merp-rmu-herbs/herb-gort.json",
+          "hash": "de7eb01c2e7c0b37437f5441f4cceeb66fc3420a614a59adb7f487c39f849198"
+        },
+        {
+          "key": "herb-grapeleaf-magnolia",
+          "id": "EC4o3J35H8vo5BDU",
+          "file": "source/compendiums/merp-rmu-herbs/herb-grapeleaf-magnolia.json",
+          "hash": "87b782f89851816266ed9393f56a68f7b8d4b9b0e0a647188612079f10cd685f"
+        },
+        {
+          "key": "herb-gulfbrake",
+          "id": "IHmaBRtocMC8maIU",
+          "file": "source/compendiums/merp-rmu-herbs/herb-gulfbrake.json",
+          "hash": "ea22a2835af5c35397e12d7a87f36b1dd9cba465109286bd5e86bbc31b18c105"
+        },
+        {
+          "key": "herb-gwinwin-rynd",
+          "id": "ZQbAu0F33PagZhNb",
+          "file": "source/compendiums/merp-rmu-herbs/herb-gwinwin-rynd.json",
+          "hash": "b5aac67e72eb46d380d2c67d522e44f31ab0ccc3e963ee841242f7ec3c8c9943"
+        },
+        {
+          "key": "herb-gylvir",
+          "id": "ZpXibDMPdhqKR4ew",
+          "file": "source/compendiums/merp-rmu-herbs/herb-gylvir.json",
+          "hash": "69216948b8b80628e4fa7e698357e82b191b5d82245ebd9e2e7690781ad3f5f5"
+        },
+        {
+          "key": "herb-harts-glory-harp-bloom",
+          "id": "WiyWMN6nhYzRnwHK",
+          "file": "source/compendiums/merp-rmu-herbs/herb-harts-glory-harp-bloom.json",
+          "hash": "e649a1dfa0286defa8d95209bd6b7d427b851168af7d3e9b9f07fe8db952b8e0"
+        },
+        {
+          "key": "herb-harwite-chelas",
+          "id": "QC7maN9srDMcvpyJ",
+          "file": "source/compendiums/merp-rmu-herbs/herb-harwite-chelas.json",
+          "hash": "8c3d3d62e90a1386e1e01c8f22fade94db2388ed847c37fd3d8b4820916b68d6"
+        },
+        {
+          "key": "herb-hiam-moss",
+          "id": "TohjUOrf3ozNMTpD",
+          "file": "source/compendiums/merp-rmu-herbs/herb-hiam-moss.json",
+          "hash": "f5750a6e1b70e21717310309ae378bc0cae08fb96a45ed67c32826a1389f0e4d"
+        },
+        {
+          "key": "herb-hopperfoot",
+          "id": "1sd1BiMHw0CtF2oq",
+          "file": "source/compendiums/merp-rmu-herbs/herb-hopperfoot.json",
+          "hash": "e6b00e5e55fda94f73b47839f01ae623008adaf7c6e0e3fea304244d2b1988fb"
+        },
+        {
+          "key": "herb-iauthalion-yavis-jargon",
+          "id": "FZNCouAQjas6eFIK",
+          "file": "source/compendiums/merp-rmu-herbs/herb-iauthalion-yavis-jargon.json",
+          "hash": "c01231c0a6fcc60aec27618ce58f7561b9498cb2e36a3e8c33ee090107634de6"
+        },
+        {
+          "key": "herb-ironbine",
+          "id": "yEjP3GUWxRZVL1Dp",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ironbine.json",
+          "hash": "1acd94e201bb2f93279824977aa21c8ab34c5aadda93d5d7a0daccdb0c670549"
+        },
+        {
+          "key": "herb-jegga",
+          "id": "w5OP4YZhW7I0f1bQ",
+          "file": "source/compendiums/merp-rmu-herbs/herb-jegga.json",
+          "hash": "0e08cf5eff311d66845c21faf48d38df85299875e82e1e1e21122df600e57d53"
+        },
+        {
+          "key": "herb-jitsu",
+          "id": "5K7UAcyVw30RH9cb",
+          "file": "source/compendiums/merp-rmu-herbs/herb-jitsu.json",
+          "hash": "d0212804de137f4fea3b2ae0aaddf5fb80d204354ae2c4fe9a098d87b99018ff"
+        },
+        {
+          "key": "herb-jojojopo-frostheal",
+          "id": "9w33M6P1qHeh0XGt",
+          "file": "source/compendiums/merp-rmu-herbs/herb-jojojopo-frostheal.json",
+          "hash": "97866be40aa639c995fdd80266681636f3ef37a499021bf6a8daca79baea95c0"
+        },
+        {
+          "key": "herb-juth-juthjuth",
+          "id": "tSgV4epTvJGe7ORR",
+          "file": "source/compendiums/merp-rmu-herbs/herb-juth-juthjuth.json",
+          "hash": "0f6773ac3af96d05420fad31d077f41849cf890114bf2179689f0cda0ca8aa03"
+        },
+        {
+          "key": "herb-kaktu",
+          "id": "bpFsqlggTNXMLynB",
+          "file": "source/compendiums/merp-rmu-herbs/herb-kaktu.json",
+          "hash": "9aacdc39723cbc90a963053d23e8160a7c8052b8b9b456c12fa2883e8b325280"
+        },
+        {
+          "key": "herb-karfar",
+          "id": "FgJSd9zKx6eoZREH",
+          "file": "source/compendiums/merp-rmu-herbs/herb-karfar.json",
+          "hash": "88a09d9c2e5f3ed69a4a2909b82c34db655422aac02595246b399af628f0405f"
+        },
+        {
+          "key": "herb-kargijak",
+          "id": "DAvTX3hS3kazPF71",
+          "file": "source/compendiums/merp-rmu-herbs/herb-kargijak.json",
+          "hash": "26affaee87939e6a2a28e0f00e3e1f92aeb3e9c7911f88625f12038c1211342c"
+        },
+        {
+          "key": "herb-kastaba",
+          "id": "ZjxGsRJocTD8doB7",
+          "file": "source/compendiums/merp-rmu-herbs/herb-kastaba.json",
+          "hash": "4bdd3dcbac0aa8ff9e086dff3b913959b2aacbe6416d95c737848d40688faf6a"
+        },
+        {
+          "key": "herb-kathkusa",
+          "id": "V5ChA3QfZk0vktnW",
+          "file": "source/compendiums/merp-rmu-herbs/herb-kathkusa.json",
+          "hash": "2c0002a10b4a448a56725835f817ee7c7a1c33e95e1b982e45f9b57438b37d39"
+        },
+        {
+          "key": "herb-kilmakur",
+          "id": "VLmuac50WuffC3xc",
+          "file": "source/compendiums/merp-rmu-herbs/herb-kilmakur.json",
+          "hash": "2cfc5f618f7cf14219c90117997c7807452237ca1f1b158e6c14d7ca5947cd4d"
+        },
+        {
+          "key": "herb-klagul",
+          "id": "0p5M3iVUnnytEDMg",
+          "file": "source/compendiums/merp-rmu-herbs/herb-klagul.json",
+          "hash": "2f9ab262bc2f025cd5a2317680b557ef444cf6d1a80dcf702c73fda698ab65df"
+        },
+        {
+          "key": "herb-kly",
+          "id": "BultfbIXAk2PLsnE",
+          "file": "source/compendiums/merp-rmu-herbs/herb-kly.json",
+          "hash": "f7a423451fa5b4524ad7f1285856f81bcd7acefd9cbe3d978c40af5a4a07bc18"
+        },
+        {
+          "key": "herb-klytun",
+          "id": "GhYsiTFSVztDwwmA",
+          "file": "source/compendiums/merp-rmu-herbs/herb-klytun.json",
+          "hash": "c96890cc8e2942e63ace92ff03f8bc4be8645f1c9fa020c5a0a87ff3ccc0f28c"
+        },
+        {
+          "key": "herb-ladylock-hanging-lily",
+          "id": "AIwLxIdm4Haz1BML",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ladylock-hanging-lily.json",
+          "hash": "da8c068dcbbd4057fb1aebeaca805043c3c5286323a45919522e9e3d196debf2"
+        },
+        {
+          "key": "herb-latha-lartha-letha-licka",
+          "id": "dY94DP143nKz5jnq",
+          "file": "source/compendiums/merp-rmu-herbs/herb-latha-lartha-letha-licka.json",
+          "hash": "920d67464a704357db66a5f39d0c18cc1700ca34b18d18f77f13d6b8bb7f9b84"
+        },
+        {
+          "key": "herb-laurelin",
+          "id": "jN1PPQ3gDuA5xGiP",
+          "file": "source/compendiums/merp-rmu-herbs/herb-laurelin.json",
+          "hash": "bf9551ba967cb840354f40aba46b513d9ec823d17bbcdcca89ce2ca085ec4e95"
+        },
+        {
+          "key": "herb-lemsang",
+          "id": "ym88XPOaMQDDtrCB",
+          "file": "source/compendiums/merp-rmu-herbs/herb-lemsang.json",
+          "hash": "61b770acc00f297bf76341ef88073d51a2e0460261860d365f79069f3f0c49cb"
+        },
+        {
+          "key": "herb-lestagi",
+          "id": "OaxPMLaszQWy0FZE",
+          "file": "source/compendiums/merp-rmu-herbs/herb-lestagi.json",
+          "hash": "eaae0ee6295b6b24bf235b3f8262e74e94389541e35ddc11e8ed84ca49c4a45d"
+        },
+        {
+          "key": "herb-lisgereg-rorash-anserke",
+          "id": "H8snjxC0aNblaMOW",
+          "file": "source/compendiums/merp-rmu-herbs/herb-lisgereg-rorash-anserke.json",
+          "hash": "061f6a60686fa0902cd313a9cc82666058063c1e04e1e64af1c05cdacbdcab68"
+        },
+        {
+          "key": "herb-little-dargon-bears-tongue",
+          "id": "UMJVCWH5aJNwa07Y",
+          "file": "source/compendiums/merp-rmu-herbs/herb-little-dargon-bears-tongue.json",
+          "hash": "604d4ebfe5d621a32fd25b005b069541cc509d08325b3b8999b9480f19f23858"
+        },
+        {
+          "key": "herb-lord-n-glory",
+          "id": "6SHHxeAS6lEmH6BT",
+          "file": "source/compendiums/merp-rmu-herbs/herb-lord-n-glory.json",
+          "hash": "7c7dbd39df34a8357647d61f7548c56a44a7ddfe7153eef67556a4b4edd09e88"
+        },
+        {
+          "key": "herb-lothfelag",
+          "id": "0JY678u1fl9fl4U6",
+          "file": "source/compendiums/merp-rmu-herbs/herb-lothfelag.json",
+          "hash": "95b07c1eea80c949f65e2c56d0b954ac86082186ec6af84931df4241655e849d"
+        },
+        {
+          "key": "herb-luminous-vrak-heylet",
+          "id": "KoUMJhcb5mKPBdp9",
+          "file": "source/compendiums/merp-rmu-herbs/herb-luminous-vrak-heylet.json",
+          "hash": "219f7e5600540cb0c1af418c3f62b399b97ac741cad586c561ef51d20619aff8"
+        },
+        {
+          "key": "herb-lus",
+          "id": "8xHzJUf7P1s3UNxd",
+          "file": "source/compendiums/merp-rmu-herbs/herb-lus.json",
+          "hash": "e8ef27487ce0e40cf6772ea827ccd4d7be4ec0a724773f65c5f1d11d78a85c45"
+        },
+        {
+          "key": "herb-madarch-zurumul",
+          "id": "F4f0BJ5FPwpjPcyC",
+          "file": "source/compendiums/merp-rmu-herbs/herb-madarch-zurumul.json",
+          "hash": "39368c4fd8da1ef0e99fb86b2d9d9d3a40473d2060a3a5f2cdd0ad4542d43689"
+        },
+        {
+          "key": "herb-mahals-gift-reglen",
+          "id": "KvyC3rNCLNGr1IqI",
+          "file": "source/compendiums/merp-rmu-herbs/herb-mahals-gift-reglen.json",
+          "hash": "c0c2259962ff47cd64aed5d07cd83b3da49163f21a48f87e5200561f4e48c839"
+        },
+        {
+          "key": "herb-megillos",
+          "id": "qx7AjiYL1H7n1tNL",
+          "file": "source/compendiums/merp-rmu-herbs/herb-megillos.json",
+          "hash": "50f2da9e24fc846c5cea53a3113b88a8782bbf0fe7a6fe277322fab55dfb00d0"
+        },
+        {
+          "key": "herb-melander",
+          "id": "2vh2mNQhNRmss1mc",
+          "file": "source/compendiums/merp-rmu-herbs/herb-melander.json",
+          "hash": "940153663dbd6733990ae49382b801755559ce62c0ddb8a00c9486214b9ac3db"
+        },
+        {
+          "key": "herb-melem-loza-balm-vine",
+          "id": "VRn1v8VtKsxaHXmY",
+          "file": "source/compendiums/merp-rmu-herbs/herb-melem-loza-balm-vine.json",
+          "hash": "321e2afa7647c33133a626507622106a740458c5d737fec9ab343239a651b55b"
+        },
+        {
+          "key": "herb-menelar",
+          "id": "p1MKXXSEARe7xLOt",
+          "file": "source/compendiums/merp-rmu-herbs/herb-menelar.json",
+          "hash": "ca185e7f98296cd8af29b6ac8772c2449a8bbe44863c00b2ca4c2ddec1999952"
+        },
+        {
+          "key": "herb-merrig-maioc",
+          "id": "YvifF6iEIKubyoL2",
+          "file": "source/compendiums/merp-rmu-herbs/herb-merrig-maioc.json",
+          "hash": "3ab2e68604695f1f1b8e869f22da60f215c8b3cdcd56ee831bca97dd99fd222b"
+        },
+        {
+          "key": "herb-mirenna",
+          "id": "4hxXLUBlYCdgvKqI",
+          "file": "source/compendiums/merp-rmu-herbs/herb-mirenna.json",
+          "hash": "387ffbc6c82994a0a88ae8a8be10c7e74f1c1ae0ae9cbea9780af7f16c7ecd42"
+        },
+        {
+          "key": "herb-miretari-crown",
+          "id": "qyPlnP1LtWsp2cVF",
+          "file": "source/compendiums/merp-rmu-herbs/herb-miretari-crown.json",
+          "hash": "6c1b7ce31fcc97c7a20a6bd7f2fbc4e03c82abf838a84790ed533d232b77c948"
+        },
+        {
+          "key": "herb-monk-hair-seahair",
+          "id": "7uUwgcoX8dQLuOL6",
+          "file": "source/compendiums/merp-rmu-herbs/herb-monk-hair-seahair.json",
+          "hash": "020429fddf656351e3557cc4089e50955f7004c80f93b7ef05d666836e516593"
+        },
+        {
+          "key": "herb-mook",
+          "id": "KEj67xq3xZKZDt91",
+          "file": "source/compendiums/merp-rmu-herbs/herb-mook.json",
+          "hash": "39e9951f8a6b76ab4700d3635ca0e0faa738bafca94cd755110e2d590358f1f8"
+        },
+        {
+          "key": "herb-moonthumb-glow-worm",
+          "id": "0v3ok3KIEz7IGO3R",
+          "file": "source/compendiums/merp-rmu-herbs/herb-moonthumb-glow-worm.json",
+          "hash": "d829eb8b6fed61d0f1d0ab49d7c710fa1b6f614fe006a9c9975c951cbf8e1dbe"
+        },
+        {
+          "key": "herb-mountainrod-bonebinder",
+          "id": "glhceWViG9ucmueh",
+          "file": "source/compendiums/merp-rmu-herbs/herb-mountainrod-bonebinder.json",
+          "hash": "0c1c071113c99e986cd6d6bd6af0df3833feb5161970bf0e67238972576e7003"
+        },
+        {
+          "key": "herb-mur",
+          "id": "ERH0lPNe6MMYZuiw",
+          "file": "source/compendiums/merp-rmu-herbs/herb-mur.json",
+          "hash": "e5b24633853d90663c16cb8cf6770e3c5df274ea875be8bb4b2f74ef682b4141"
+        },
+        {
+          "key": "herb-nehtelasse-keihaanlehti",
+          "id": "Jd9AS4pKffWiaFD1",
+          "file": "source/compendiums/merp-rmu-herbs/herb-nehtelasse-keihaanlehti.json",
+          "hash": "9b22e0d0f45694780fb2a89a45367c10b269bdc5c7b9bd6a2a18904767063909"
+        },
+        {
+          "key": "herb-nen-calgalen",
+          "id": "BYJwkOUT7LfbOHEx",
+          "file": "source/compendiums/merp-rmu-herbs/herb-nen-calgalen.json",
+          "hash": "0cc33e990bf7e2470c589921c68f27c985c4b8b52079744c3d8428642e3219a4"
+        },
+        {
+          "key": "herb-nightrod-ebony-fingers",
+          "id": "zr01zDOlUxPYH5Cc",
+          "file": "source/compendiums/merp-rmu-herbs/herb-nightrod-ebony-fingers.json",
+          "hash": "61740d1af3b056a558a99757937a825deffb3f4a8f4848716c075e6162920077"
+        },
+        {
+          "key": "herb-nur-oiolosse",
+          "id": "oYipL6VktLxQsmKs",
+          "file": "source/compendiums/merp-rmu-herbs/herb-nur-oiolosse.json",
+          "hash": "76a121cb957787e88ab40056d5a166a6a131fefd3d10d9a94fa61f45cbd756e8"
+        },
+        {
+          "key": "herb-oiolasse-say-arana",
+          "id": "3Hnl7a4wjHj6e4O3",
+          "file": "source/compendiums/merp-rmu-herbs/herb-oiolasse-say-arana.json",
+          "hash": "1fefed0ebb0608ebfbd1994c430a828e7fb7abe7b60e5cecc24c2147b6e68f34"
+        },
+        {
+          "key": "herb-olvar",
+          "id": "Ob5dyf7yNnHilPPU",
+          "file": "source/compendiums/merp-rmu-herbs/herb-olvar.json",
+          "hash": "dc53044f660e11a093022297ec41ae9743ad738260789dc79fd9f6da9489952e"
+        },
+        {
+          "key": "herb-olvatari-kelventari",
+          "id": "D2lYvB6oNr48XpWA",
+          "file": "source/compendiums/merp-rmu-herbs/herb-olvatari-kelventari.json",
+          "hash": "8bf5ae9738abfee299c4a6d5604e0430be6483ec379054764f788a296db860c0"
+        },
+        {
+          "key": "herb-pargen-geriche-maranna",
+          "id": "1t8g4gS9vQwpV4BX",
+          "file": "source/compendiums/merp-rmu-herbs/herb-pargen-geriche-maranna.json",
+          "hash": "b740a7627526e7410d5f632da0e618b81eb5e507e9f584a12d5c80a8bffdb09d"
+        },
+        {
+          "key": "herb-pathur",
+          "id": "nCfgc504UouFtuHW",
+          "file": "source/compendiums/merp-rmu-herbs/herb-pathur.json",
+          "hash": "5299e234a7996b67a7a88a492c6e9f2e47ed9df3f2199cfa9f04d7121f0f4a68"
+        },
+        {
+          "key": "herb-pelenaur-madarch",
+          "id": "cmvr7sXfMz0xEKmx",
+          "file": "source/compendiums/merp-rmu-herbs/herb-pelenaur-madarch.json",
+          "hash": "f7c6392c84edd812826139a4e0b7981f819a5072e96ccbde6e36e93a4e7580ec"
+        },
+        {
+          "key": "herb-phacalus-fatemaker",
+          "id": "cFztFMLbdPAx6WOE",
+          "file": "source/compendiums/merp-rmu-herbs/herb-phacalus-fatemaker.json",
+          "hash": "0d2e581e2f7ebdcc72d3e35c55bb32baf02d2e13612208a2b3f2d0a2074eced9"
+        },
+        {
+          "key": "herb-plant-like-stone",
+          "id": "HCSiRWmDvoH2xxJh",
+          "file": "source/compendiums/merp-rmu-herbs/herb-plant-like-stone.json",
+          "hash": "20243a40742fcf4c0c707fcf8d02909e23afc2eb8e45291dc732705f5a106072"
+        },
+        {
+          "key": "herb-pura",
+          "id": "3S6StQ8KAewhTGSt",
+          "file": "source/compendiums/merp-rmu-herbs/herb-pura.json",
+          "hash": "719dbad1debd9c587c74762fe97470f77a265b799b19620239254ad49b388bc1"
+        },
+        {
+          "key": "herb-quilmufur",
+          "id": "g5lIhRjB0YWjChAU",
+          "file": "source/compendiums/merp-rmu-herbs/herb-quilmufur.json",
+          "hash": "15ec755e9339a96258db2b02ec7684307d4b39d51c58a91f4fc5f30638e3dff9"
+        },
+        {
+          "key": "herb-rewk-sorriss",
+          "id": "DXpUVI1XRI1mSX6S",
+          "file": "source/compendiums/merp-rmu-herbs/herb-rewk-sorriss.json",
+          "hash": "5ba2596c57055c88ab2207b698c90cb5b373f7b14873ec307d6a024a09bfdc48"
+        },
+        {
+          "key": "herb-rud-tekma",
+          "id": "nxZaAIXPiESjW4eL",
+          "file": "source/compendiums/merp-rmu-herbs/herb-rud-tekma.json",
+          "hash": "b68305be56d662343a63aed50ada8e69fd185ea6505702215e5351f33b58ff43"
+        },
+        {
+          "key": "herb-rumareth",
+          "id": "20tnMzNbcJa8Ghuk",
+          "file": "source/compendiums/merp-rmu-herbs/herb-rumareth.json",
+          "hash": "2b2b356262c2c9c010c8318d1ef95c7d70e8365b3f0f77edb95b4ce9e043c6c0"
+        },
+        {
+          "key": "herb-ruthin",
+          "id": "Qw9G8wWFa1DlN0Tk",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ruthin.json",
+          "hash": "6a40f2d0b436d46179d949611aadde1edcff33212732161f47a263db5ae94796"
+        },
+        {
+          "key": "herb-sailcha",
+          "id": "7VtYl6fAKOIyykzm",
+          "file": "source/compendiums/merp-rmu-herbs/herb-sailcha.json",
+          "hash": "b60f76a90806e4f6b5778e80c29a2456451f76b6d22b5fb81a62565600ae14da"
+        },
+        {
+          "key": "herb-sarah-pokes-her-head",
+          "id": "HCD5BkhGkJOvudSU",
+          "file": "source/compendiums/merp-rmu-herbs/herb-sarah-pokes-her-head.json",
+          "hash": "8ef3e90a1301789245b2d68fdf52255a0a888ab521f27a8552bfe17bae7c0bd6"
+        },
+        {
+          "key": "herb-seathorn",
+          "id": "rnxL5YbG6unY4c4d",
+          "file": "source/compendiums/merp-rmu-herbs/herb-seathorn.json",
+          "hash": "f16efbb0e298da2def01c3c586b4f89b5bb22b98bfdb5bcd70ab9b5dbf54b369"
+        },
+        {
+          "key": "herb-seregemor",
+          "id": "eTGMisnvl6rlSjlv",
+          "file": "source/compendiums/merp-rmu-herbs/herb-seregemor.json",
+          "hash": "bf8e51cba5e0b87c2d62f93685591a637bf165ac9438cb4cc1f47fdf2332b860"
+        },
+        {
+          "key": "herb-sha",
+          "id": "hB3CpURpzsd4SwmK",
+          "file": "source/compendiums/merp-rmu-herbs/herb-sha.json",
+          "hash": "bf926b466ae31ec64d7bce5d3dd8a93a912ee3100123e2ddab43c706fbdacb51"
+        },
+        {
+          "key": "herb-sheeps-plume",
+          "id": "4vA9QO5To9UYPGEb",
+          "file": "source/compendiums/merp-rmu-herbs/herb-sheeps-plume.json",
+          "hash": "59b73528f7c968c66c87490171898a50bfcc20719b043dea82e19fafe73afef3"
+        },
+        {
+          "key": "herb-shen",
+          "id": "NVGjpXgIj0QjD22L",
+          "file": "source/compendiums/merp-rmu-herbs/herb-shen.json",
+          "hash": "3f5fd88888825499fb638e06f04c2a5822d76cdc999f7d7790a2578e50035dfa"
+        },
+        {
+          "key": "herb-shirolos",
+          "id": "C1h9KhEWkyJCSLhS",
+          "file": "source/compendiums/merp-rmu-herbs/herb-shirolos.json",
+          "hash": "462afac9e84ebdd43d3419581dcda46c27e2e431786152b78f9057efeca147d9"
+        },
+        {
+          "key": "herb-silmaana",
+          "id": "2OaseZRUBNC7WlEZ",
+          "file": "source/compendiums/merp-rmu-herbs/herb-silmaana.json",
+          "hash": "43b154289df44dda0323d6205db831e992a793b9ec275970606e4d92f95c8c4b"
+        },
+        {
+          "key": "herb-siran",
+          "id": "z4vnqDhEunzo4ok3",
+          "file": "source/compendiums/merp-rmu-herbs/herb-siran.json",
+          "hash": "b44113afd4b34d6711890cab9f91568deb1c2417e674468d8d2b18d477ba1d0d"
+        },
+        {
+          "key": "herb-siriena",
+          "id": "5VVSKhuYUmtx00vy",
+          "file": "source/compendiums/merp-rmu-herbs/herb-siriena.json",
+          "hash": "ca82440751bc570bd78c329833116aa01bcd347bfd89663af1ff983678edc38d"
+        },
+        {
+          "key": "herb-slird",
+          "id": "9s26P3qfOiCouQ00",
+          "file": "source/compendiums/merp-rmu-herbs/herb-slird.json",
+          "hash": "f856dcdd812286956ba414b4cc1cee38af1c255371626e8624a4d04a4f755915"
+        },
+        {
+          "key": "herb-slota",
+          "id": "RywXm9nIwBIDH92m",
+          "file": "source/compendiums/merp-rmu-herbs/herb-slota.json",
+          "hash": "64fd651f83f03110e6427042a95a61ed0d4a13e10644d0431b5452678faad1dd"
+        },
+        {
+          "key": "herb-sorul-nut",
+          "id": "Zq45EbqVJFLvaRW8",
+          "file": "source/compendiums/merp-rmu-herbs/herb-sorul-nut.json",
+          "hash": "d32603dbd27d0bbe14a29ce98968ef3339ad7ab1f2454ab683d908dff70548ac"
+        },
+        {
+          "key": "herb-splayfoot-goodwort",
+          "id": "ArsCdfbFeRsMrnFU",
+          "file": "source/compendiums/merp-rmu-herbs/herb-splayfoot-goodwort.json",
+          "hash": "b84f6f07e56a9a9d5903752c313aae21fb6b67d8189d3e18aa28ee870b840f43"
+        },
+        {
+          "key": "herb-sum-kutia",
+          "id": "0xLGClqkWFMFaz6V",
+          "file": "source/compendiums/merp-rmu-herbs/herb-sum-kutia.json",
+          "hash": "35db5713c0ca0890cabc1d12f69e2dc66f7a0ecd007abdbf94e23e97d9e52dfa"
+        },
+        {
+          "key": "herb-suranie",
+          "id": "bazowALuh4jMmiem",
+          "file": "source/compendiums/merp-rmu-herbs/herb-suranie.json",
+          "hash": "3ab37b640f27471dbf7746f00392b4f7ab38323f173284f94ae02ad7bf8428cb"
+        },
+        {
+          "key": "herb-tarnas",
+          "id": "8vEyA1P7QVKg8Vw1",
+          "file": "source/compendiums/merp-rmu-herbs/herb-tarnas.json",
+          "hash": "b5d6ae5d1c651797dcacdfe653315e23e88cc40dc2d57b053fad0acbb7c848fb"
+        },
+        {
+          "key": "herb-taynaga",
+          "id": "CqoCom8HIFkbVySM",
+          "file": "source/compendiums/merp-rmu-herbs/herb-taynaga.json",
+          "hash": "55bc23b04700f944bbaa5b258b1ed869b1971d83e6d90d0a8599eb11b410ba8f"
+        },
+        {
+          "key": "herb-telek-icebane",
+          "id": "Y9DXfCKa1tmRXp1N",
+          "file": "source/compendiums/merp-rmu-herbs/herb-telek-icebane.json",
+          "hash": "2e8b0c8bd54d542b981b05294b461a053fff69086a1d5086af54e0e8eddd5a2a"
+        },
+        {
+          "key": "herb-terbas",
+          "id": "Q5HILURN1ttRqoqE",
+          "file": "source/compendiums/merp-rmu-herbs/herb-terbas.json",
+          "hash": "351f900365f42c4fed8749482d9a60a6affa21a03d4405c1b0f0685bae666ae5"
+        },
+        {
+          "key": "herb-thurl",
+          "id": "ccaPKmRYYp4try8a",
+          "file": "source/compendiums/merp-rmu-herbs/herb-thurl.json",
+          "hash": "01682663d9c471b905ba17332d55d4b6fc66f0cdc1a69a07e005070fc407491e"
+        },
+        {
+          "key": "herb-thuryik",
+          "id": "aPqyTLfYIfiUWQCz",
+          "file": "source/compendiums/merp-rmu-herbs/herb-thuryik.json",
+          "hash": "3ddf0cf4f9d947e5f4a76a759fabb2e6918291a01d49ccfdff237c13adca1b98"
+        },
+        {
+          "key": "herb-tuxlaxar-raybled",
+          "id": "YxPA6oBKkc1CAKgc",
+          "file": "source/compendiums/merp-rmu-herbs/herb-tuxlaxar-raybled.json",
+          "hash": "e754b5ac2a6c0e583b579d8a1302578fbbb54eff21fbc158355773eb86fc93eb"
+        },
+        {
+          "key": "herb-tyr-fira-lifegiver",
+          "id": "RgRLCWCjPYc8bLAL",
+          "file": "source/compendiums/merp-rmu-herbs/herb-tyr-fira-lifegiver.json",
+          "hash": "96ea4318706697677f92b8a75583765793dffbd9528db153cccec3d69fd165e7"
+        },
+        {
+          "key": "herb-ul-naza",
+          "id": "F1JKITMjoEp6gsH5",
+          "file": "source/compendiums/merp-rmu-herbs/herb-ul-naza.json",
+          "hash": "627ce5a33c0c2ca0c6daff2b3926aa204e6fc66538929eef4a9288d75a4674f4"
+        },
+        {
+          "key": "herb-uraana",
+          "id": "aKE2SKhbkTmOEH2X",
+          "file": "source/compendiums/merp-rmu-herbs/herb-uraana.json",
+          "hash": "2765acf82ac1ab58771a33c315f980f18c8882262cd17bab60c72020ca5d7121"
+        },
+        {
+          "key": "herb-uur-ukur",
+          "id": "Mhf0n6MCxSDCjhM5",
+          "file": "source/compendiums/merp-rmu-herbs/herb-uur-ukur.json",
+          "hash": "16f538d3c356815ff40d2e3577fac8240ab7a42e4a32fd4fb7f8f3c6ebcfacd6"
+        },
+        {
+          "key": "herb-vinuk-vasha",
+          "id": "E97g88A1aENVyQZc",
+          "file": "source/compendiums/merp-rmu-herbs/herb-vinuk-vasha.json",
+          "hash": "9587757ef8aebf5660e17aa2632f3fd96e3a8bc68c8041e9451848d4fe85de86"
+        },
+        {
+          "key": "herb-water-hemlock-plant",
+          "id": "DuZjYrjm3JD8Zidk",
+          "file": "source/compendiums/merp-rmu-herbs/herb-water-hemlock-plant.json",
+          "hash": "161fbc428db6335403c01a450fc89b5dcf258d2600757bfbdc4cb5328c777a8d"
+        },
+        {
+          "key": "herb-welwal",
+          "id": "UI4TsABnBt7XbT6M",
+          "file": "source/compendiums/merp-rmu-herbs/herb-welwal.json",
+          "hash": "c52c5aaf65d7fc123aaa39c2f175e2d91d87070d7abf332592284871f6c458a5"
+        },
+        {
+          "key": "herb-wifurwif",
+          "id": "D8ygWiOvSMhUDlcj",
+          "file": "source/compendiums/merp-rmu-herbs/herb-wifurwif.json",
+          "hash": "aea3f89cf39464945bebd0d1ef0545554c33326a653f5f0f9786d3fae65273ae"
+        },
+        {
+          "key": "herb-winclamit-bloodkeep",
+          "id": "okPH3kzfQQDQvSEq",
+          "file": "source/compendiums/merp-rmu-herbs/herb-winclamit-bloodkeep.json",
+          "hash": "6cb7d0e2c8a0d8137102c371eac4aa9996fd99e865184bb6c19b8b6ba283491e"
+        },
+        {
+          "key": "herb-witan-witav-drugo-sreca",
+          "id": "KFA3JF9qg6yPF5Y7",
+          "file": "source/compendiums/merp-rmu-herbs/herb-witan-witav-drugo-sreca.json",
+          "hash": "9bef1fadb7f9bdc115ed7080e4a2d7df0c6ed0097ac8580accfc2af4ef91c0cc"
+        },
+        {
+          "key": "herb-witchbriar",
+          "id": "TwA7Y30B5M2ZZIns",
+          "file": "source/compendiums/merp-rmu-herbs/herb-witchbriar.json",
+          "hash": "641be577bf7e54607d723c7cf33cadcd6f4f03e5a72bcd9aac85633f837fa708"
+        },
+        {
+          "key": "herb-wolfwort-stinkbush",
+          "id": "pUR8T71obtG77afi",
+          "file": "source/compendiums/merp-rmu-herbs/herb-wolfwort-stinkbush.json",
+          "hash": "509956ecd69c299e4b503b53798dc58ff3fb85745317832d700394ca15e38821"
+        },
+        {
+          "key": "herb-worlclivur",
+          "id": "w2dQ8yGLzVcQRylm",
+          "file": "source/compendiums/merp-rmu-herbs/herb-worlclivur.json",
+          "hash": "d4e4a0bac567b612a3708bb01f8925704305e16850d0fbdcbfb27667f7673607"
+        },
+        {
+          "key": "herb-yaran",
+          "id": "nwFHFNp8cACrmxKm",
+          "file": "source/compendiums/merp-rmu-herbs/herb-yaran.json",
+          "hash": "11303cb21f55dfd46b5b9effd206998286d2d25d5487e78b84ee376f81a5f482"
+        },
+        {
+          "key": "herb-yellow-hemlock",
+          "id": "LvfywgTUYTz0BIHd",
+          "file": "source/compendiums/merp-rmu-herbs/herb-yellow-hemlock.json",
+          "hash": "78cb3c8e4dd1003cdca8ac4ceeda81e8163d0201fc188579787c4581cc329e9d"
+        },
+        {
+          "key": "herb-yuth",
+          "id": "qGwtn9BgkUzmNMc7",
+          "file": "source/compendiums/merp-rmu-herbs/herb-yuth.json",
+          "hash": "a62839ce6cd7e3aab17b806375b341ced234e9ffab58296e4bbd4257c2e390fc"
+        },
+        {
+          "key": "herb-zaganzar",
+          "id": "7bVtrEKZthDlYwxc",
+          "file": "source/compendiums/merp-rmu-herbs/herb-zaganzar.json",
+          "hash": "3707a00939edd17a48c488400ded58686e3dc99826661f932f0b2f3c31a0c149"
+        },
+        {
+          "key": "herb-zulsendura-zilsendura",
+          "id": "ZAQiGgHAFDPTwAOq",
+          "file": "source/compendiums/merp-rmu-herbs/herb-zulsendura-zilsendura.json",
+          "hash": "aa76ecb5305bc27d2ac2e6a6afa261ea83ca38f5d41056e6890f931ac2d9338f"
+        },
+        {
+          "key": "herb-zur-strapack",
+          "id": "RRtfn7Vhsy1Y5gUO",
+          "file": "source/compendiums/merp-rmu-herbs/herb-zur-strapack.json",
+          "hash": "070053729e07715003259e6afe8dba72726b761eb653e87c992398cafcad9e1b"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-languages",
+      "type": "JournalEntry",
+      "sources": [
+        {
+          "key": "langage-adunaic",
+          "id": "9kzF8ehs0V4IcLtw",
+          "file": "source/compendiums/merp-rmu-languages/langage-adunaic.json",
+          "hash": "cf48d8ab170daa5737ed1a13fe532e14ece5776356e6d04cc26656b8112e87d3"
+        },
+        {
+          "key": "langage-ansith",
+          "id": "C6x0VdodOtGYwtIL",
+          "file": "source/compendiums/merp-rmu-languages/langage-ansith.json",
+          "hash": "1a5072745fe5ade7d8c538d3c6247a9eebfbb6d007a2c3baa693e6e5f9fb4142"
+        },
+        {
+          "key": "langage-apysaic",
+          "id": "2GLOjAYAnfVueWsP",
+          "file": "source/compendiums/merp-rmu-languages/langage-apysaic.json",
+          "hash": "71a647befa240fa26c1256a095901939a781154a7e0c5fbf6b5809a3b6d2a534"
+        },
+        {
+          "key": "langage-atliduk",
+          "id": "XBacx44DbyZnkK6U",
+          "file": "source/compendiums/merp-rmu-languages/langage-atliduk.json",
+          "hash": "1c12235913488999d4d9c2cd0f63657c4356fb9b1a7c64d72def6212e7f33d5d"
+        },
+        {
+          "key": "langage-bethteur",
+          "id": "dz6pRjx5IgYgThUN",
+          "file": "source/compendiums/merp-rmu-languages/langage-bethteur.json",
+          "hash": "e9cd5ab086894cf4ac17759aea35bc208fc729e07f3be106a194efb79cca6240"
+        },
+        {
+          "key": "langage-black-speech",
+          "id": "8YXKS94uUftjebfr",
+          "file": "source/compendiums/merp-rmu-languages/langage-black-speech.json",
+          "hash": "ea18d0b7741b77bb1a66a5d5b829ef0da6c7fd7264f4569a90bafc7083dd4879"
+        },
+        {
+          "key": "langage-blarm",
+          "id": "O7cVbgKL0Z7P4YVj",
+          "file": "source/compendiums/merp-rmu-languages/langage-blarm.json",
+          "hash": "f3376a3bc831099952550853a39179a53d1fabe751cf2dd992406800b34bb3ba"
+        },
+        {
+          "key": "langage-cuindi",
+          "id": "fopUC7NJnUYN10rp",
+          "file": "source/compendiums/merp-rmu-languages/langage-cuindi.json",
+          "hash": "435e3a8d69c32bea50a27392ddd0732a5387f9dd3d876b03b09a24301f5ea022"
+        },
+        {
+          "key": "langage-debased-labba",
+          "id": "WAJCcTZDPO7DQrhK",
+          "file": "source/compendiums/merp-rmu-languages/langage-debased-labba.json",
+          "hash": "ffa73e38918aaec4fb4862a86769afe25ec2a2264ac46b9d7982457493f2ed95"
+        },
+        {
+          "key": "langage-debased-westron",
+          "id": "op2O3Cg3jdjAYXBt",
+          "file": "source/compendiums/merp-rmu-languages/langage-debased-westron.json",
+          "hash": "c5bddfa2a066e892197eff6fd78672ee834cf099024c48d2681074b4a932872c"
+        },
+        {
+          "key": "langage-drel",
+          "id": "ZtzzOMPqIvzgGTTu",
+          "file": "source/compendiums/merp-rmu-languages/langage-drel.json",
+          "hash": "883e29e7b1dd5cfd7ce9960f285e73fe5cf80a9d6294ea4b78eb56a08af67b8f"
+        },
+        {
+          "key": "langage-dunael",
+          "id": "kAuRQqHb8mykyIun",
+          "file": "source/compendiums/merp-rmu-languages/langage-dunael.json",
+          "hash": "582fdba60d50324b718e0faf247d818256c1c876ec4124c7a26d1f7686e4d516"
+        },
+        {
+          "key": "langage-gramuik",
+          "id": "DZNA7t9QAVttf1Dj",
+          "file": "source/compendiums/merp-rmu-languages/langage-gramuik.json",
+          "hash": "93f53afe64a7014982af7be16ce98631b39af191b135c7b7a6e0ba157e0b37db"
+        },
+        {
+          "key": "langage-haradaic",
+          "id": "qffs7FXt6LDUjpnu",
+          "file": "source/compendiums/merp-rmu-languages/langage-haradaic.json",
+          "hash": "55d549ba3bdb060a5edc68cc8af0426f658b8e2b48c6b25e026261de2652a116"
+        },
+        {
+          "key": "langage-honnin",
+          "id": "3ITznskil0AYqZ1U",
+          "file": "source/compendiums/merp-rmu-languages/langage-honnin.json",
+          "hash": "4214197659921c27855a7cd19fef7cd449f52218f5808ce1175b46e1b0b91656"
+        },
+        {
+          "key": "langage-khuzdul",
+          "id": "5BxG7DFWUWpayz9P",
+          "file": "source/compendiums/merp-rmu-languages/langage-khuzdul.json",
+          "hash": "3b8cd45ac7260917aa346d52f1fdf1f56f56bf3244c4db4ffd323032afb8b872"
+        },
+        {
+          "key": "langage-kuorith",
+          "id": "NY6qYS0RmoP5rX9V",
+          "file": "source/compendiums/merp-rmu-languages/langage-kuorith.json",
+          "hash": "64e629b1308cd2503bce58f8648a20ff9b6f1a4fe1b4bb9ade78e69f19463536"
+        },
+        {
+          "key": "langage-labba",
+          "id": "lHCmse3DrcUUNDc9",
+          "file": "source/compendiums/merp-rmu-languages/langage-labba.json",
+          "hash": "ff274e739eda6c0571e6567529ddf7a9e0e73ce0a208f4dfe8794a7a7336c11f"
+        },
+        {
+          "key": "langage-logathig",
+          "id": "rji1Sc94oPGX5KBt",
+          "file": "source/compendiums/merp-rmu-languages/langage-logathig.json",
+          "hash": "634385cb23c1b90e9e411baa05c69f944bc28280c612b11253e9cbf45e47de99"
+        },
+        {
+          "key": "langage-luinbeth",
+          "id": "A0QffRzibF6XatWn",
+          "file": "source/compendiums/merp-rmu-languages/langage-luinbeth.json",
+          "hash": "399aa22224a19fd8945fe0cf2569278896e75cf2ba4c14b3927d81110376113a"
+        },
+        {
+          "key": "langage-lynerian",
+          "id": "Pi6mgHACS7O1W6da",
+          "file": "source/compendiums/merp-rmu-languages/langage-lynerian.json",
+          "hash": "65a5217ce64c99c9de674624097fb92376d1710cc451cb299a813f7499a2ee27"
+        },
+        {
+          "key": "langage-nahaiduk",
+          "id": "aF1iN6XOlfi5O4wV",
+          "file": "source/compendiums/merp-rmu-languages/langage-nahaiduk.json",
+          "hash": "0280fec09c730f8f3246775d4e723b185a465ffcce7054922f27ff661cae3e44"
+        },
+        {
+          "key": "langage-orkish",
+          "id": "dPMtKvDfpypOfWTy",
+          "file": "source/compendiums/merp-rmu-languages/langage-orkish.json",
+          "hash": "194a82763a2ce258f4f6e37be34ee5849d9f81b67cbaf8cfbd92684203de714f"
+        },
+        {
+          "key": "langage-pedu",
+          "id": "0bX6WbF1nRln0IKr",
+          "file": "source/compendiums/merp-rmu-languages/langage-pedu.json",
+          "hash": "6ec93e26881aa27b90f403f703429ad6421fb44125fcd6d0f5db10eddad02e04"
+        },
+        {
+          "key": "langage-pukael",
+          "id": "YhMTnfSMynqTYXaT",
+          "file": "source/compendiums/merp-rmu-languages/langage-pukael.json",
+          "hash": "bd4762c39d4308004fb88789b6f6e1f6822353590f022a5ab186eb9f907b3080"
+        },
+        {
+          "key": "langage-quenya",
+          "id": "k6Iv6ktHzksbzmez",
+          "file": "source/compendiums/merp-rmu-languages/langage-quenya.json",
+          "hash": "58bf27831912a3144780bc92a150de77ba995ee82fac870e78784a3a7438e406"
+        },
+        {
+          "key": "langage-rhovaik",
+          "id": "MfXEo9H6iF3UkkyP",
+          "file": "source/compendiums/merp-rmu-languages/langage-rhovaik.json",
+          "hash": "cb2df95a21de7efc3d62ad0d39b250fb957400aa375a81707caa09320a83be23"
+        },
+        {
+          "key": "langage-rohirric",
+          "id": "rFtRiWQTvUQrmFoW",
+          "file": "source/compendiums/merp-rmu-languages/langage-rohirric.json",
+          "hash": "991c3924159f032ac5b17d0c99846c44008532a0808d28744cf708b78222f1c5"
+        },
+        {
+          "key": "langage-silvan",
+          "id": "o4tpHd8gowmLkBW5",
+          "file": "source/compendiums/merp-rmu-languages/langage-silvan.json",
+          "hash": "23c17ed56f3a1d9ece8231cc169a5f4c75a7ee9af3219db3f47fe51fa30510b9"
+        },
+        {
+          "key": "langage-sindarin",
+          "id": "KlRDE8NhJRNiuJ3X",
+          "file": "source/compendiums/merp-rmu-languages/langage-sindarin.json",
+          "hash": "114e49cb3f9767c6a07f62998df74c8c5fffe1102a9ab862b02e3f86f2282443"
+        },
+        {
+          "key": "langage-umitic",
+          "id": "RCfRaSZc3jyOJq9g",
+          "file": "source/compendiums/merp-rmu-languages/langage-umitic.json",
+          "hash": "cf103073ded19f598851c71d9e0dd261aa219afd65958ce7a0ef5d3f510ee314"
+        },
+        {
+          "key": "langage-varadja",
+          "id": "S9ZVffw1A5vyLXI1",
+          "file": "source/compendiums/merp-rmu-languages/langage-varadja.json",
+          "hash": "fde638f226ae85723b527239106ed8858b332f9e0177af1b1a2801d3bbbdd2df"
+        },
+        {
+          "key": "langage-waildyth",
+          "id": "pMiGKx2ArTCdeL0q",
+          "file": "source/compendiums/merp-rmu-languages/langage-waildyth.json",
+          "hash": "625ccff7e291301b2fbfe02313c311ca85aecff296db9ef0d81b7777eaffb4c6"
+        },
+        {
+          "key": "langage-westron",
+          "id": "9K6Wv5gsBghlpbvW",
+          "file": "source/compendiums/merp-rmu-languages/langage-westron.json",
+          "hash": "f31d37de71ca5b0f6220860192dbfb20881ceb8d8aeece93476d5f1fe8b974f1"
+        }
+      ]
+    },
+    {
+      "name": "merp-rmu-rules",
+      "type": "JournalEntry",
+      "sources": [
+        {
+          "key": "apprentissage-listes",
+          "id": "GFyTblBHRxaHYvR7",
+          "file": "source/compendiums/merp-rmu-rules/apprentissage-listes.json",
+          "hash": "74ecead7af00da82fee96b9378001a21ecc7c9d8eccd8862aeafe185feea947a"
+        },
+        {
+          "key": "declin-listes",
+          "id": "9J9AY3Wu8PAIcSPf",
+          "file": "source/compendiums/merp-rmu-rules/declin-listes.json",
+          "hash": "a1ade1edb734b0434d86e8c692960a6d12fa2e2df82c5058d884aef6ef465ae5"
+        },
+        {
+          "key": "economie",
+          "id": "TSB3Q5ZVZ5jNt1Ow",
+          "file": "source/compendiums/merp-rmu-rules/economie.json",
+          "hash": "19b6a93cb7b5b08cc58ca872c8fa56091b7b13fe39e649a4f7bbff8ea0b3ce73"
+        },
+        {
+          "key": "incantation-commandement",
+          "id": "WKl5JCM53a7GuVuX",
+          "file": "source/compendiums/merp-rmu-rules/incantation-commandement.json",
+          "hash": "263e036bfcaa62d2d69e2fa8954087fcfd7a8576ee393dfc9f61408262e45191"
+        },
+        {
+          "key": "merp-rmu-introduction",
+          "id": "aRDgzw0QbDWsJSBT",
+          "file": "source/compendiums/merp-rmu-rules/merp-rmu-introduction.json",
+          "hash": "33d7c03fb03a55fcc04c28a6e974d5e47603290f2ec3b34749ef705446d79b28"
+        },
+        {
+          "key": "morgoth-corruption",
+          "id": "J9yN8vqcgr8vSTHQ",
+          "file": "source/compendiums/merp-rmu-rules/morgoth-corruption.json",
+          "hash": "41479cd444c0f4fac3a94cf7986a6ededb495eddbe3e3b2d20dcbcf9a0c1379b"
+        },
+        {
+          "key": "nature-magie",
+          "id": "sk5iHIkmQEf9IcgU",
+          "file": "source/compendiums/merp-rmu-rules/nature-magie.json",
+          "hash": "ddb4051df75644cb3d3c8a463e1079e58ac169d8ca02d84ed02014756296146b"
+        },
+        {
+          "key": "religions",
+          "id": "aQtwDC5xG22nSHsQ",
+          "file": "source/compendiums/merp-rmu-rules/religions.json",
+          "hash": "d7eb2408d8242385f6b4abd9dd478c2278ca38c20e53273908ada31723859cad"
+        },
+        {
+          "key": "risque-ombre",
+          "id": "S4Cp2ziedAlyONqF",
+          "file": "source/compendiums/merp-rmu-rules/risque-ombre.json",
+          "hash": "ef8d4201cd01b9df611d463c2b64b01dc00ce0220b2473334ff097ec7ec95608"
+        },
+        {
+          "key": "royaumes-magie",
+          "id": "5u3MAwUtSme1nN19",
+          "file": "source/compendiums/merp-rmu-rules/royaumes-magie.json",
+          "hash": "6fceab6a084525c099f0c53307657ff147fb192e7517d56b55c34aaf53ce8654"
+        },
+        {
+          "key": "rules-herbs",
+          "id": "dTkaVO6T3GvcmE2G",
+          "file": "source/compendiums/merp-rmu-rules/rules-herbs.json",
+          "hash": "d10283fb1c9233f73adecc0ed5126b8f7acc63b7105f43766def15926775903e"
+        },
+        {
+          "key": "sorcellerie",
+          "id": "8drtcDpRqhjEGyty",
+          "file": "source/compendiums/merp-rmu-rules/sorcellerie.json",
+          "hash": "e0ed46acc4ab25782e1d677909545bd3f6aacf5c0548506147046928fcea83c6"
+        },
+        {
+          "key": "usage-discret-magie",
+          "id": "RkHOwSTonncopt1t",
+          "file": "source/compendiums/merp-rmu-rules/usage-discret-magie.json",
+          "hash": "6d8d620818c0dc72ece10bf31a432353cfe436e2432de84573c929d705306e27"
+        }
+      ]
+    }
+  ]
+}

@@ -4958,3 +4958,60 @@ span.rmu-profession-skill-marker::after {
 
 
 
+
+/* ------------------------------------------------------------------------- */
+/* MERP-UI RC2 — Lettrines ancrées en haut à gauche du paragraphe narratif.    */
+/* Image 223 x 254 px : ratio conservé, sans centrage horizontal parasite.   */
+/* ------------------------------------------------------------------------- */
+.merp-ui-journal {
+  --merp-dropcap-size: 52px; /* hauteur de la lettrine ; modifiable */
+}
+
+.merp-ui-journal p.merp-ui-dropcap-paragraph {
+  display: flow-root;
+  position: relative;
+  text-align: left !important;
+  text-indent: 0 !important;
+  min-height: var(--merp-dropcap-size);
+}
+
+/* Ciblage direct : la lettrine est toujours le premier enfant du paragraphe. */
+.merp-ui-journal p.merp-ui-dropcap-paragraph > .merp-ui-dropcap {
+  display: block !important;
+  float: left !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  width: calc(var(--merp-dropcap-size) * 223 / 254) !important;
+  height: var(--merp-dropcap-size) !important;
+  margin: 0 0.42rem 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  line-height: 0 !important;
+  vertical-align: top !important;
+  text-indent: 0 !important;
+  clear: none !important;
+  shape-outside: inset(0);
+}
+
+.merp-ui-journal p.merp-ui-dropcap-paragraph > .merp-ui-dropcap > img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: left top !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* La majuscule demeure accessible aux lecteurs d'écran. */
+.merp-ui-journal .merp-ui-dropcap-readable {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}

@@ -25,3 +25,9 @@ The module's non-commercial status and existing `NOTICE.md` do not themselves es
 - [ ] Approve the exact release tree and ZIP before updating `main`, tags or release assets.
 
 Do not publish the private RC4 ZIP from this working process until these checks are complete.
+
+## Specific font issue found in the private RC3 archive
+
+The archive includes `fonts/PragRoman.ttf`, `fonts/PragRoman.sfd`, and other PragRoman files. It also includes `fonts/fennas-typeface-fontforge-kit/LICENSE-SOURCES.txt`, which expressly says *"Ce kit ne contient ni PragRoman ni contours extraits de PragRoman"* (the kit contains neither PragRoman nor outlines derived from it). That statement does **not** license the separately bundled PragRoman files. Do not assume they are cleared for redistribution merely because the project's CSS references them. Check their actual origin/licence, obtain permission, or replace them with a cleared font and test the visual layout.
+
+This concern may apply to the existing RC3 public release as well as RC4.

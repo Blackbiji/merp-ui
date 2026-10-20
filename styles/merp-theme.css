@@ -75,7 +75,7 @@
   .merp-ui.application.journal-entry
 ) .window-title {
   color: #222 !important;
-  font-size: 1.22rem;
+  font-size: 0.915rem;
   line-height: 1.1;
 }
 
@@ -5014,4 +5014,195 @@ span.rmu-profession-skill-marker::after {
   overflow: hidden !important;
   clip-path: inset(50%) !important;
   white-space: nowrap !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP-UI 1.6.0 RC3 — Accueil de campagne : typographie unifiée.             */
+/* Ciblage EXCLUSIF du message MERP-UI : chat et fenêtre de message détachée. */
+/* Aucun changement sur les autres messages, contrôles ou fenêtres Foundry.  */
+/* ------------------------------------------------------------------------- */
+
+.merp-ui-welcome-chat-card {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 10.5px !important;
+  line-height: 1.4 !important;
+  color: #28241f !important;
+  -webkit-text-fill-color: #28241f !important;
+  letter-spacing: normal !important;
+  text-align: left !important;
+}
+
+.merp-ui-welcome-chat-card :is(h3, p, ul, li) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-weight: 400 !important;
+  color: #28241f !important;
+  -webkit-text-fill-color: #28241f !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+  letter-spacing: normal !important;
+}
+
+.merp-ui-welcome-chat-card h3 {
+  margin: 0 0 0.55rem !important;
+  font-size: 15px !important;
+  line-height: 1.25 !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+
+.merp-ui-welcome-chat-card h3 > i {
+  font-size: 0.9em !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+.merp-ui-welcome-chat-card p {
+  margin: 0.2rem 0 0.45rem !important;
+  font-size: 10.5px !important;
+  line-height: 1.4 !important;
+}
+
+.merp-ui-welcome-chat-card ul {
+  margin: 0.35rem 0 0.7rem !important;
+  padding: 0 0 0 1.35rem !important;
+  list-style: circle outside !important;
+  font-size: 10.5px !important;
+  line-height: 1.36 !important;
+}
+
+.merp-ui-welcome-chat-card li {
+  margin: 0 0 0.18rem !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Deux actions en pleine largeur : évite les libellés géants ou superposés
+   hérités des styles des fenêtres Foundry et RMU. */
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 0.4rem !important;
+  margin-top: 0.55rem !important;
+}
+
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button {
+  display: flex !important;
+  flex: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.42rem !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  min-height: 32px !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0.42rem 0.5rem !important;
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 10.5px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.25 !important;
+  text-align: center !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  text-overflow: clip !important;
+  color: #26221d !important;
+  -webkit-text-fill-color: #26221d !important;
+  text-shadow: none !important;
+  background: rgba(248, 245, 238, 0.93) !important;
+  border: 1px solid #756a5a !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+}
+
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button:hover,
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button:focus-visible {
+  background: #eee5d5 !important;
+  border-color: #4c4237 !important;
+  color: #201c18 !important;
+  -webkit-text-fill-color: #201c18 !important;
+}
+
+/* Font Awesome conserve sa propre fonte d'icônes : ne pas lui imposer PragRoman. */
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button > i {
+  flex: 0 0 auto !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+/* La ligne d'auteur du message adopte également PragRoman (chat classique). */
+.chat-message:has(.merp-ui-welcome-chat-card)
+:is(.message-sender, .message-timestamp, .message-metadata) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  text-shadow: none !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* RC3 — Test d'échelle typographique MERP-UI : 75 % des tailles d'origine.  */
+/* Les composants RMU et Foundry hors de nos contenus ne sont pas touchés.   */
+/* ------------------------------------------------------------------------- */
+
+/* Entête des fenêtres de Journaux et des compendiums MERP-RMU. */
+.merp-ui-journal .window-header .window-title,
+.merp-ui-compendium .window-header .window-title {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.915rem !important;
+}
+
+/* Champs et libellés des pages de Journaux MERP-UI. */
+.merp-ui-journal :is(
+  .journal-sidebar, .journal-entry-pages, .pages-list
+) :is(
+  button:not(.icon), input[type="search"], input[type="text"],
+  .page-title, .page-name, .entry-name, .document-name,
+  .toc-item > a, .toc-item > span
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.75rem !important;
+}
+
+/* Les liens narratifs suivent désormais le corps des Journaux, sans agrandir
+   indépendamment leur texte. Les pictogrammes internes restent inchangés. */
+.merp-ui-journal :is(
+  .journal-entry-content, .journal-page-content, .editor-content,
+  .prosemirror, .ProseMirror
+) :is(a.content-link, a.inline-roll) {
+  font-size: 1em !important;
+}
+
+/* Liste des pages ou objets dans les fenêtres de compendiums MERP-RMU. */
+.merp-ui-compendium :is(
+  .directory-item .entry-name, .directory-item .document-name,
+  .directory-item h3, .directory-item h4,
+  .directory-item .item-name, .directory-item .document-name
+) {
+  font-size: 0.75rem !important;
+}
+
+.merp-ui-compendium :is(input[type="search"], input[type="text"]) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.75rem !important;
+}
+
+/* Uniquement les neuf compendiums de MERP-RMU dans le répertoire Foundry. */
+#compendium :is(
+  [data-pack^="merp-ui.merp-rmu-"],
+  [data-entry-id^="merp-ui.merp-rmu-"]
+) :is(.compendium-name, .entry-name, .document-name, h3, h4) {
+  font-size: 0.66em !important; /* anciennement 0.88em (-25 %) */
+}
+
+#compendium :is(
+  [data-pack="merp-ui.merp-rmu-herbs"],
+  [data-entry-id="merp-ui.merp-rmu-herbs"]
+) :is(.compendium-name, .entry-name, .document-name, h3, h4) {
+  font-size: 0.615em !important; /* anciennement 0.82em (-25 %) */
 }

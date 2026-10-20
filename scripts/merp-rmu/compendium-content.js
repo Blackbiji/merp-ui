@@ -943,6 +943,10 @@ function localizeOpenCompendiumTitle(app, html) {
     ? app.element
     : root?.closest?.(".application") ?? null;
 
+  // RC3: marquer les neuf fenêtres MERP-RMU pour la typographie compacte.
+  // Ne jamais appliquer ce style aux compendiums RMU ou d’autres modules.
+  frame?.classList?.add("merp-ui-compendium");
+
   if (pack?.documentName === "JournalEntry") {
     frame?.classList?.add("merp-ui-journal-compendium");
   }

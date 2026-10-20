@@ -15,7 +15,7 @@
 
 :root {
   --merp-font: "PragRoman", Georgia, "Times New Roman", serif;
-  --merp-body-size: 13px; /* 1.6.0 RC1 — taille par défaut du corps des journaux */
+  --merp-body-size: 10.75px; /* RC3, ajustement : +1 px sur le corps des Journaux MERP-UI */
   --merp-body-leading: 1.43;
   --merp-heading-leading: 1.14;
 }
@@ -213,7 +213,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h1 {
-  font-size: 1.38rem !important;
+  font-size: 1.035rem !important;
 }
 
 :is(
@@ -224,7 +224,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h2 {
-  font-size: 1.14rem !important;
+  font-size: 0.855rem !important;
 }
 
 :is(
@@ -235,7 +235,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h3 {
-  font-size: 1rem !important;
+  font-size: 0.75rem !important;
 }
 
 :is(
@@ -246,7 +246,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h4 {
-  font-size: 0.94rem !important;
+  font-size: 0.705rem !important;
 }
 
 :is(
@@ -333,7 +333,7 @@
   .search input
 ) {
   font-family: var(--merp-font) !important;
-  font-size: .94rem;
+  font-size: .705rem;
   font-style: normal;
 }
 
@@ -355,7 +355,7 @@
   .directory-item > a,
   .directory-item > span
 ) {
-  font-size: 1rem;
+  font-size: 0.75rem;
   line-height: 1.2;
 }
 
@@ -378,7 +378,7 @@
   ul li > a
 ) {
   font-family: var(--merp-font) !important;
-  font-size: .91rem;
+  font-size: .6825rem;
   line-height: 1.22;
 }
 
@@ -400,7 +400,7 @@
   .number
 ) {
   font-family: var(--merp-font) !important;
-  font-size: .92rem;
+  font-size: .69rem;
   opacity: .72;
   font-variant-numeric: lining-nums tabular-nums;
 }
@@ -1059,4 +1059,83 @@
 ) {
   font-size: .80em !important;
   line-height: 1.06 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* RC3 — Test de réduction typographique globale MERP-UI (-25 %).            */
+/* Uniquement Journaux MERP-UI : titres d'en-tête, index et liens.           */
+/* Les feuilles de personnage RMU et les contrôles généraux sont préservés.  */
+/* ------------------------------------------------------------------------- */
+
+.merp-ui-journal :is(
+  .journal-header .title,
+  .journal-header input[name="name"],
+  .journal-page-header,
+  .page-heading
+) {
+  font-size: 0.75rem !important;
+}
+
+.merp-ui-journal :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror
+) {
+  font-size: var(--merp-body-size) !important;
+}
+
+.merp-ui-journal :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror
+) :is(p, li, dt, dd, th, td, blockquote) {
+  font-size: inherit;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* RC3 — Ajustement fin validé : seul l'en-tête central des pages de Journal. */
+/* Le titre du document, la table des matières et les sous-titres éditoriaux */
+/* conservent l'échelle typographique compacte déjà validée.                 */
+/* ------------------------------------------------------------------------- */
+.merp-ui-journal :is(
+  .journal-entry-page > header,
+  .journal-entry-page > .journal-page-header,
+  .journal-entry-page > .page-header,
+  .journal-page > .journal-page-header
+) {
+  font-size: 22px !important;
+}
+
+.merp-ui-journal :is(
+  .journal-entry-page > header,
+  .journal-entry-page > .journal-page-header,
+  .journal-entry-page > .page-header,
+  .journal-page > .journal-page-header
+) :is(h1, h2, .title, .page-title, .page-heading) {
+  font-family: var(--merp-font) !important;
+  font-size: 22px !important;
+  line-height: 1.15 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* RC3 — Titre central du Journal (bandeau supérieur gris de Foundry V14).   */
+/* Distinct du titre de fenêtre, du titre de page dans le contenu et du TOC. */
+/* ------------------------------------------------------------------------- */
+.merp-ui-journal .journal-header :is(
+  .title,
+  .page-title,
+  h1,
+  h2,
+  input[name="name"]
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 22px !important;
+  line-height: 1.18 !important;
 }

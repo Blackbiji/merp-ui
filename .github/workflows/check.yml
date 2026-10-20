@@ -1,0 +1,25 @@
+name: MERP-UI validation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: JavaScript syntax
+        run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
+      - name: Validate skills
+        run: npm run validate:skills
+      - name: Validate Compendium seeds
+        run: npm run validate:compendium-seeds
+      - name: Validate source fingerprint
+        run: npm run validate:content-sync
+      - name: Regression test content sync
+        run: npm run test:content-sync

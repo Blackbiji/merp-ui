@@ -10,7 +10,7 @@ let catalog = null;
 let typographyState = { family: "PragRoman", source: null, loaded: false };
 
 async function resolvePragRomanUrl() {
-  const path = `modules/${MODULE_ID}/fonts/PragRoman.ttf?v=1.6.0-rc.1`;
+  const path = `modules/${MODULE_ID}/fonts/PragRoman.ttf?v=1.6.0-rc.4`;
   return foundry?.utils?.getRoute ? foundry.utils.getRoute(path) : path;
 }
 
@@ -589,9 +589,26 @@ function isLikelyCharacterCreationApplication(app, root) {
   }
 
   const text = String(root?.textContent ?? "");
+  if (/(?:création de personnage|character creation)/i.test(text) && /talent/i.test(text)) return true;
   const hasCreationTerms = /(Race|Culture|Profession|Development Points|Points de Développement)/i.test(text);
   const hasSkillTerms = /(Skill Category|Professional Skills|Compétences professionnelles|Combat Training)/i.test(text);
   return hasCreationTerms && hasSkillTerms;
+}
+
+/**
+ * Only mark the RMU character-creation Talent table; its rich HTML headings
+ * inherit near-white colors that are unreadable on the table's light background.
+ */
+function markCreationTalentTables(root) {
+  for (const table of root.querySelectorAll("table, [role='table']")) {
+    const header = table.querySelector("thead")
+      ?? table.querySelector("tr:has(th)")
+      ?? table.querySelector("[role='row']");
+    const label = String(header?.textContent ?? "").replace(/\s+/g, " ").toLowerCase();
+    if (/talent/.test(label) && /tier|rang|niveau/.test(label) && /descript/.test(label)) {
+      table.classList.add("merp-ui-creation-talents-table");
+    }
+  }
 }
 
 function translateCreationText(raw, translations) {
@@ -616,8 +633,26 @@ function translateCreationText(raw, translations) {
 
 async function localizeCharacterCreationRoot(app, root) {
   if (!(root instanceof HTMLElement)) return;
-  if (game.i18n?.lang && !String(game.i18n.lang).toLowerCase().startsWith("fr")) return;
   if (!isLikelyCharacterCreationApplication(app, root)) return;
+  markCreationTalentTables(root);
+  // The mutation observer must also run in EN for asynchronously rendered tables.
+  if (!creationObservers.has(root)) {
+    let pending = false;
+    const observer = new MutationObserver(() => {
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(() => {
+        pending = false;
+        localizeCharacterCreationRoot(app, root).catch((error) =>
+          console.error(`${MODULE_ID} | Échec de localisation dynamique de la création`, error)
+        );
+      });
+    });
+    observer.observe(root, { childList: true, subtree: true });
+    creationObservers.set(root, observer);
+  }
+
+  if (game.i18n?.lang && !String(game.i18n.lang).toLowerCase().startsWith("fr")) return;
 
   const translations = await getCreationTranslationMaps();
   root.classList.add("merp-ui-character-creation-localized");
@@ -660,21 +695,6 @@ async function localizeCharacterCreationRoot(app, root) {
     for (const o of [...placeholder, ...sortable]) select.append(o);
   }
 
-  if (!creationObservers.has(root)) {
-    let pending = false;
-    const observer = new MutationObserver(() => {
-      if (pending) return;
-      pending = true;
-      requestAnimationFrame(() => {
-        pending = false;
-        localizeCharacterCreationRoot(app, root).catch((error) =>
-          console.error(`${MODULE_ID} | Échec de localisation dynamique de la création`, error)
-        );
-      });
-    });
-    observer.observe(root, { childList: true, subtree: true });
-    creationObservers.set(root, observer);
-  }
 }
 
 function scheduleCharacterCreationLocalization(app, html) {
@@ -1359,7 +1379,7 @@ Hooks.once("ready", async () => {
 
   globalThis.MERPUI = {
     ...(globalThis.MERPUI ?? {}),
-    version: () => "1.6.0-rc.1",
+    version: () => "1.6.0-rc.4",
     catalog: () => foundry.utils.deepClone(catalog),
     reload: async () => {
       await loadCatalog({ refresh: true });
@@ -1471,18 +1491,96 @@ const HERB_SHEET_TEXT_EN = new Map([
   ["Poids", "Weight"]
 ]);
 
+// Localize only the display of RMU season/date options. Never change option.value.
 const HERB_SEASONS = {
   fr: new Map([
-    ["Spring", "Printemps"], ["Summer", "Été"], ["Autumn", "Automne"], ["Winter", "Hiver"],
-    ["Printemps", "Printemps"], ["Été", "Été"], ["Automne", "Automne"], ["Hiver", "Hiver"],
-    ["All Year", "Toute l’année"], ["Year-round", "Toute l’année"], ["Toute l’année", "Toute l’année"]
+    ["Spring","Printemps"],["Summer","Été"],["Autumn","Automne"],["Winter","Hiver"],
+    ["Printemps","Printemps"],["Été","Été"],["Automne","Automne"],["Hiver","Hiver"],
+    ["All Year","Toute l’année"],["Year-round","Toute l’année"],["All seasons","Toutes les saisons"],
+    ["Dry seasons","Saisons sèches"],["Wet seasons","Saisons humides"],["Rainy seasons","Saisons des pluies"],
+    ["Near full moon (5 days)","Aux environs de la pleine lune (5 jours)"],
+    ["1-3 weeks after rain","1 à 3 semaines après la pluie"],
+    ["Sacred/Special Date","Date sacrée / particulière"],["Sacred Date","Date sacrée"],
+    ["Special Date","Date particulière"],["Special","Particulier"],["Varies","Variable"],
+    ["Near full moon","Aux environs de la pleine lune"],["Full moon","Pleine lune"],
+    ["New moon","Nouvelle lune"],["After rain","Après la pluie"],
+    ["Any season","Toute saison"],["Toute l’année","Toute l’année"]
   ]),
   en: new Map([
-    ["Printemps", "Spring"], ["Été", "Summer"], ["Automne", "Autumn"], ["Hiver", "Winter"],
-    ["Spring", "Spring"], ["Summer", "Summer"], ["Autumn", "Autumn"], ["Winter", "Winter"],
-    ["Toute l’année", "All Year"], ["All Year", "All Year"], ["Year-round", "All Year"]
+    ["Printemps","Spring"],["Été","Summer"],["Automne","Autumn"],["Hiver","Winter"],
+    ["Spring","Spring"],["Summer","Summer"],["Autumn","Autumn"],["Winter","Winter"],
+    ["Toute l’année","All Year"],["Toutes les saisons","All seasons"],
+    ["Saisons sèches","Dry seasons"],["Saisons humides","Wet seasons"],
+    ["Saisons des pluies","Rainy seasons"],
+    ["Milieu à fin du printemps","Mid-to-late spring"],
+    ["Printemps et début de l’été","Spring-early summer"],
+    ["Milieu de l’été à début de l’automne","Mid-summer-early autumn"],
+    ["Aux environs de la pleine lune (5 jours)","Near full moon (5 days)"],
+    ["1 à 3 semaines après la pluie","1-3 weeks after rain"],
+    ["Date sacrée / particulière","Sacred/Special Date"],["Date sacrée","Sacred Date"],
+    ["Date particulière","Special Date"],["Particulier","Special"],["Variable","Varies"],
+    ["Aux environs de la pleine lune","Near full moon"],["Pleine lune","Full moon"],
+    ["Nouvelle lune","New moon"],["Après la pluie","After rain"],["Toute saison","Any season"]
   ])
 };
+const MERP_SEASON_FORMS = {
+  spring:{bare:"Printemps",part:"du printemps",start:"Du printemps",end:"au printemps"},
+  summer:{bare:"Été",part:"de l’été",start:"De l’été",end:"à l’été"},
+  autumn:{bare:"Automne",part:"de l’automne",start:"De l’automne",end:"à l’automne"},
+  winter:{bare:"Hiver",part:"de l’hiver",start:"De l’hiver",end:"à l’hiver"}
+};
+const MERP_SEASON_PHASES = {
+  early:{single:"Début",start:"Du début",end:"au début"},
+  mid:{single:"Milieu",start:"Du milieu",end:"au milieu"},
+  late:{single:"Fin",start:"De la fin",end:"à la fin"}
+};
+
+function localizeMerpHerbSeasonLabel(value, language) {
+  const raw = String(value ?? "").trim();
+  if (!raw) return null;
+  const direct = HERB_SEASONS[language]?.get(raw);
+  if (direct) return direct;
+  const rain = raw.match(/^(\d+)(?:\s*[-–—]\s*(\d+))?\s+(days?|weeks?|months?)\s+after\s+(?:the\s+)?(?:rain|rainfall)$/i);
+  const moon = raw.match(/^(near|around|at|during|before|after)\s+(?:the\s+)?(full|new|half|first quarter|last quarter)\s+moon(?:\s*\(\s*(\d+)\s+days?\s*\))?$/i);
+  if (language === "fr" && rain) {
+    const unit = rain[3].toLowerCase().replace(/s$/, "");
+    const n = Number(rain[1]);
+    const plural = !!rain[2] || n !== 1;
+    const units = {day: plural ? "jours" : "jour",week: plural ? "semaines" : "semaine",month:"mois"};
+    return `${rain[1]}${rain[2] ? " à " + rain[2] : ""} ${units[unit]} après la pluie`;
+  }
+  if (language === "fr" && moon) {
+    const phases = {full:"la pleine lune",new:"la nouvelle lune",half:"la demi-lune",
+      "first quarter":"le premier quartier lunaire","last quarter":"le dernier quartier lunaire"};
+    const phase = phases[moon[2].toLowerCase()];
+    const pos = moon[1].toLowerCase();
+    const prefix = {near:"Aux environs de",around:"Aux environs de",at:"À",
+      during:"Pendant",before:"Avant",after:"Après"}[pos];
+    let label = `${prefix} ${phase}`;
+    if (moon[3]) label += ` (${moon[3]} ${Number(moon[3])===1?"jour":"jours"})`;
+    return label;
+  }
+  // Compound English windows: e.g. Autumn-early winter or late spring-mid-autumn.
+  const matched = raw.match(/^(?:(early|mid|late)(?:-(early|mid|late))?[\s-]+)?(spring|summer|autumn|winter)(?:\s*[-–—]\s*(?:(early|mid|late)[\s-]+)?(spring|summer|autumn|winter))?$/i);
+  if (!matched) return null;
+  if (language === "en") return raw;
+  if (language !== "fr") return null;
+  const first = {phase:matched[1]?.toLowerCase(),phaseEnd:matched[2]?.toLowerCase(),season:matched[3].toLowerCase()};
+  const second = matched[5] ? {phase:matched[4]?.toLowerCase(),season:matched[5].toLowerCase()} : null;
+  const phrase = (part, place) => {
+    const season = MERP_SEASON_FORMS[part.season];
+    if (!part.phase) return season[place];
+    return `${MERP_SEASON_PHASES[part.phase][place === "bare" ? "single" : place]} ${season.part}`;
+  };
+  if (!second) {
+    if (first.phase && first.phaseEnd) {
+      return `${MERP_SEASON_PHASES[first.phase].start} ${MERP_SEASON_PHASES[first.phaseEnd].end} ${MERP_SEASON_FORMS[first.season].part}`;
+    }
+    return phrase(first,"bare");
+  }
+  if (first.phaseEnd) return null;
+  return `${phrase(first,"start")} ${phrase(second,"end")}`;
+}
 
 const HERB_DIFFICULTIES = {
   fr: new Map([
@@ -1552,7 +1650,10 @@ const HERB_FORMS = {
     ["Bud","Bourgeon"],["Mixture","Mélange"],["Paste","Pâte"],["Liquid","Liquide"],["Bulb","Bulbe"],["Cone","Cône"],
     ["Juice","Jus"],["Herb","Herbe"],["Cactus","Cactus"],["Acorn","Gland"],["Spine","Épine"],["Blossom","Fleur"],
     ["Pollen","Pollen"],["Blood","Sang"],["Crystal","Cristal"],["Bark","Écorce"],["Toad","Crapaud"],["Bat","Chauve-souris"],
-    ["Bats","Chauves-souris"],["Scorpion","Scorpion"],["Spider","Araignée"],["Clams","Palourdes"],["Gas","Gaz"]
+    ["Bats","Chauves-souris"],["Scorpion","Scorpion"],["Spider","Araignée"],["Clams","Palourdes"],["Gas","Gaz"],
+    ["Varies","Variable"],["Bees","Abeilles"],["Drake","Dragonnet"],["Dragon","Dragon"],
+    ["Fish","Poisson"],["Frog","Grenouille"],["Spore","Spore"],["Spores","Spores"],
+    ["Shell","Coquille"],["Sap","Sève"],["Wood","Bois"]
   ]),
   en: new Map([
     ["Fleur","Flower"],["Feuille","Leaf"],["Feuilles","Leaves"],["Racine","Root"],["Racine / Feuille","Root/Leaf"],
@@ -1562,7 +1663,10 @@ const HERB_FORMS = {
     ["Pétale","Petal"],["Épine","Thorn"],["Fleurs","Flowers"],["Bourgeon","Bud"],["Mélange","Mixture"],["Pâte","Paste"],
     ["Liquide","Liquid"],["Bulbe","Bulb"],["Cône","Cone"],["Jus","Juice"],["Cactus","Cactus"],["Gland","Acorn"],
     ["Pollen","Pollen"],["Sang","Blood"],["Cristal","Crystal"],["Écorce","Bark"],["Crapaud","Toad"],["Chauve-souris","Bat"],
-    ["Chauves-souris","Bats"],["Scorpion","Scorpion"],["Araignée","Spider"],["Palourdes","Clams"],["Gaz","Gas"]
+    ["Chauves-souris","Bats"],["Scorpion","Scorpion"],["Araignée","Spider"],["Palourdes","Clams"],["Gaz","Gas"],
+    ["Variable","Varies"],["Abeilles","Bees"],["Dragonnet","Drake"],["Dragon","Dragon"],
+    ["Poisson","Fish"],["Grenouille","Frog"],["Spore","Spore"],["Spores","Spores"],
+    ["Coquille","Shell"],["Sève","Sap"],["Bois","Wood"]
   ])
 };
 
@@ -1586,7 +1690,7 @@ function replaceHerbSheetExactText(root, translations) {
   }
 }
 
-function localizeHerbOption(option, map) {
+function localizeHerbOption(option, map, { season = false, language = "fr" } = {}) {
   if (!option || !map) return;
   const raw = (option.textContent ?? "").trim();
   if (!raw) return;
@@ -1602,7 +1706,7 @@ function localizeHerbOption(option, map) {
 
   const byValue = map.get(String(option.value ?? "").trim());
   const byText = map.get(raw);
-  const translated = byValue ?? byText;
+  const translated = byValue ?? byText ?? (season ? localizeMerpHerbSeasonLabel(option.value || raw, language) : null);
   if (translated) option.textContent = translated;
 }
 
@@ -1631,7 +1735,7 @@ function localizeMerpHerbSheet(app, html) {
       else if (/(Leaf|Flower|Root|Mushroom|Feuille|Fleur|Racine|Champignon|Nectar|Bulb|Bulbe)/i.test(text)) map = formMap;
 
       if (!map) continue;
-      for (const option of options) localizeHerbOption(option, map);
+      for (const option of options) localizeHerbOption(option, map, { season: map === seasonMap, language });
 
       // Force the closed select to repaint its newly localized selected option.
       const value = select.value;

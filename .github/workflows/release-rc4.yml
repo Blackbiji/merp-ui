@@ -1,0 +1,59 @@
+name: Publish MERP-UI RC4
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - module.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: github.repository == 'Blackbiji/merp-ui' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify release version
+        run: |
+          node -e "const m=require('./module.json'); if(m.version!=='1.6.0-rc.4') throw Error('Unexpected version '+m.version); if(!m.download.endsWith('/v1.6.0-rc.4/merp-ui-1.6.0-rc.4.zip')) throw Error('Unexpected release URL');"
+      - name: Validate Skills
+        run: npm run validate:skills
+      - name: Validate default Compendium seeds
+        run: npm run validate:compendium-seeds
+      - name: Validate content synchronization
+        run: npm run validate:content-sync
+      - name: Run synchronization regression suite
+        run: npm run test:content-sync
+      - name: Check JS syntax
+        run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
+      - name: Assemble complete installable ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARCHIVE='merp-ui-1.6.0-rc.4.zip'
+          git archive --format=zip --prefix=merp-ui/ -o "$ARCHIVE" HEAD
+          unzip -t "$ARCHIVE" | tail -n 1
+          unzip -Z1 "$ARCHIVE" | grep -qx 'merp-ui/module.json'
+          unzip -Z1 "$ARCHIVE" | grep -qx 'merp-ui/packs/merp-rmu-herbs.db'
+          unzip -Z1 "$ARCHIVE" | grep -qx 'merp-ui/data/merp-rmu/herbs-v1.json'
+          sha256sum "$ARCHIVE"
+      - name: Publish GitHub prerelease and ZIP
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG='v1.6.0-rc.4'
+          ARCHIVE='merp-ui-1.6.0-rc.4.zip'
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ARCHIVE" --clobber
+          else
+            gh release create "$TAG" "$ARCHIVE" --target "$GITHUB_SHA" --title 'MERP-UI 1.6.0 RC4' --prerelease --notes-file docs/RELEASE-RC4.md
+          fi
+          gh release view "$TAG" --json url,assets --jq '{url:.url,assets:[.assets[].name]}'

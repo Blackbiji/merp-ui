@@ -1,98 +1,37 @@
-# MERP-UI / MERP-RMU 1.6.0-rc.1
+# MERP-UI / MERP-RMU 1.6.0 RC4
 
-MERP-UI is a bilingual **English / French** Foundry VTT module built for
-**Rolemaster Unified (RMU)** and intended for Middle-earth campaigns.
-
-This release candidate marks the transition to the **Compendium-first**
-architecture validated with **RMU 1.5.33**.
+**MERP-UI** is a free, unofficial, non-commercial English/French module for Foundry VTT. It extends **Rolemaster Unified (RMU)** with Middle-earth-oriented character creation, cultural options, localized Compendiums and optional campaign rules. It does not replace RMU or published game materials.
 
 ## Requirements
+- Foundry VTT 13 (minimum); declared compatible through Foundry 14.
+- Rolemaster Unified: declared minimum and verified version **1.3.55**.
+- MERP-UI activates only in RMU Worlds.
 
-- Foundry VTT: minimum generation 13; currently declared verified through 14.
-- Rolemaster Unified system: **RMU 1.5.33 or later**.
-- MERP-UI only activates in RMU worlds.
+## Compendium-first architecture
+MERP-UI provides nine permanent Compendiums under **MERP-RMU**: Races, Cultures, Professions, Skills, Spell Lists, Talents & Flaws, Herbs & Substances, Languages, and Rules & References. A fresh World is **not filled with hundreds of Items**. Existing Worlds retain previously imported documents.
 
-## Compendium-first model
+The Campaign Age setting applies the relevant First, Second, Third or Fourth Age variants of Races and Cultures at import.
 
-MERP-UI no longer populates a new World with hundreds of Items.
+## English / French
+The **MERP-RMU Content Language** setting selects English or French separately from Foundry's UI language. The Herbs & Substances collection contains **187 bilingual entries**, including localized herb names and on-sheet season/form labels. RMU mechanical values are preserved.
 
-The module provides nine permanent Compendiums grouped under **MERP-RMU**:
+## Character options and rules
+The module offers race, culture, profession and skill integration, campaign languages, spell-list support and optional Shadow/Corruption rules. The *MERP-RMU Presentation* Journal in **Rules & References** explains installation and settings.
 
-1. Races
-2. Cultures
-3. Professions
-4. Skills
-5. Spell Lists
-6. Talents & Flaws
-7. Herbs & Substances
-8. Languages
-9. Rules & References
+## Installation
+Install via Foundry using the manifest URL:
 
-Drag content from the Compendiums when it is needed.
+`https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json`
 
-Existing MERP-UI 1.5 Worlds are preserved: their previously installed World
-documents are not automatically deleted.
+Or download the complete release archive:
+`https://github.com/Blackbiji/merp-ui/releases/tag/v1.6.0-rc.4`
 
-## Campaign Age
+Back up existing Worlds before upgrading. This is a **release candidate**: report issues via GitHub Issues.
 
-In **Game Settings → MERP UI Framework**, choose the active Campaign Age.
+## Validation
+The codebase includes automated checks for JS syntax, Skills, Compendium seeds (9 packs, 455 documents), source-manifest fingerprints and content-sync regression. The Talent display was also checked in Foundry; the full range of Foundry versions/configurations has not been exhaustively tested.
 
-Age-dependent Races and Cultures are stored once in the Compendiums. MERP-UI
-applies the appropriate First, Second, Third, or Fourth Age variant when the
-entry is dragged into the World.
+## Licence and attributions
+Only the original MERP-UI framework/code is under the accompanying MIT licence. Third-party game settings, rules, trademarks, fonts and images belong to their respective owners and are **not** relicensed by MIT. MERP-UI is an unofficial non-commercial fan project and is not endorsed by the rights holders. See [NOTICE](NOTICE.md) and [rights review](docs/RIGHTS-REVIEW-RC4.md).
 
-## English / French content
-
-English is the default editorial language for new Worlds.
-
-The **MERP-RMU Content Language** setting can switch the module between English
-and French without changing Foundry's own interface language. Compendium
-documents, folders, imported MERP-RMU content, campaign languages, settings
-labels, and the welcome material follow this choice.
-
-## Campaign Languages
-
-MERP-UI synchronizes the Middle-earth languages directly into the RMU
-**Campaign Languages** World setting. The starting spoken/written ranks attached
-to a Culture are applied from its selected Age variant.
-
-## Magic and the Shadow
-
-MERP-UI includes optional campaign automation for the **Risk of Attracting the
-Shadow**, Sorcery consequences, regional activity, and Corruption. These options
-are configured from the MERP UI Framework settings.
-
-For RMU macro/API work, the RMU project's official **APIs and Macros** wiki page
-is the reference implementation source.
-
-## Setup guide
-
-The Compendium **MERP-RMU — Rules & References** contains the Journal
-**MERP-RMU Presentation**. Its final page is the bilingual installation and
-settings guide.
-
-The MERP-UI welcome Chat card links directly to this page.
-
-## Distribution
-
-MERP-UI is intended as a **free, non-commercial fan project**. Do not resell this
-module or redistribute it as a paid Foundry package.
-
-The code and original framework structure are provided under the terms described
-in `LICENSE`. Middle-earth, Rolemaster, MERP, RMU, and third-party names and
-materials remain the property of their respective rights holders. No ownership
-of those properties is claimed.
-
-## Release candidate
-
-This is **1.6.0-rc.1**, intended for final non-regression and GitHub release
-testing before `1.6.0`.
-
-The primary tested baseline is:
-
-```text
-MERP-UI 1.6.0-rc.1
-RMU 1.5.33
-```
-
-See `CHANGELOG.md` for the development history.
+Changes: [CHANGELOG.md](CHANGELOG.md).

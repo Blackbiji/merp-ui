@@ -1,0 +1,33 @@
+name: RC4 one-time manifest refresh
+on:
+  push:
+    branches: [review/1.6.0-rc4-prepublication]
+    paths:
+      - .github/workflows/rc4-regenerate-manifest.yml
+permissions:
+  contents: write
+jobs:
+  regenerate:
+    if: github.repository == 'Blackbiji/merp-ui' && github.actor == 'Blackbiji'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          ref: review/1.6.0-rc4-prepublication
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild deterministic manifest against the remote source tree
+        run: npm run build:content-sync
+      - name: Commit only the rebuilt manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- source/compendiums/content-sync-manifest.json
+          if git diff --cached --quiet; then
+            echo "Already current"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'build: refresh deterministic content sync manifest for RC4 review'
+          git push origin HEAD:review/1.6.0-rc4-prepublication

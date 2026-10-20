@@ -1,0 +1,14 @@
+# Exemples a ajouter a .gitignore a la racine du depot (facultatif)
+# NE PAS remplacer votre .gitignore sans verifier son contenu.
+/*.zip
+/*.7z
+/*.rar
+/packs/*/
+/merp-ui/
+Thumbs.db
+.DS_Store
+*.bak
+*.tmp
+*.old
+# Attention : .gitignore ne retire pas les fichiers DEJA suivis par Git.
+# Les fichiers /packs/*.db de demarrage sont volontairement conserves.

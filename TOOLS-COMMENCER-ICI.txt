@@ -1,0 +1,21 @@
+MERP-UI - publication automatique de vos prochaines versions
+===========================================================
+
+1. Decompresser le ZIP de cet outil.
+2. Copier le dossier "tools" (et son sous-dossier "publication")
+   dans votre DEPOT GitHub local MERP-UI :
+   C:\Users\jeanb\OneDrive\Documents\GitHub\merp-ui\
+3. Avec GitHub Desktop, enregistrer ces nouveaux fichiers dans un commit.
+4. Lorsque vous voudrez preparer une prochaine version :
+   - actualiser le numero et les URL de module.json ;
+   - actualiser la version de package.json ;
+   - synchroniser les sources des compendiums si elles ont change ;
+   - double-cliquer sur tools\publication\LANCER-PUBLICATION.cmd.
+5. Recuperer le ZIP produit dans Documents\MERP-UI-Releases\.
+   Joindre ce ZIP sur la page GitHub Releases (pas dans GitHub Desktop).
+
+Pour plus de details et les verifications, lire :
+    tools\publication\LISEZ-MOI.txt
+
+L'outil ne supprime, ne modifie, ni ne publie de fichiers tout seul.
+Il NE SUPPRIME PAS le dossier .git et NE MODIFIE PAS les branches.

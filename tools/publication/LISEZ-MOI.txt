@@ -1,0 +1,85 @@
+MERP-UI - OUTIL DE PUBLICATION FOUNDRY / GITHUB
+================================================
+
+A QUOI SERT CET OUTIL ?
+-----------------------
+Il fabrique automatiquement une archive merp-ui-<version>.zip depuis
+le depot GitHub LOCAL, pour la joindre ensuite a une GitHub Release.
+Il lit la version dans module.json. Aucune modification des sources.
+
+INSTALLATION (UNE SEULE FOIS)
+----------------------------
+1. Decompresser ce kit.
+2. Copier le dossier "tools" dans le dossier local de votre depot :
+   C:\Users\jeanb\OneDrive\Documents\GitHub\merp-ui\
+   Le script doit se trouver dans :
+   ...\merp-ui\tools\publication\Construire-Release.ps1
+3. GitHub Desktop montrera 3 nouveaux fichiers ; les committer et pousser.
+   Les outils deviennent partie du depot et sont conserves entre versions.
+
+AVANT CHAQUE RELEASE
+--------------------
+1. Integrer les modifications sur la branche voulue (develop-rcX, puis main).
+2. Mettre a jour module.json (version, download, changelog si applicable)
+   et package.json (meme version).
+3. Generer et valider les fichiers de donnees initiaux packs/*.db et le
+   manifeste source/compendiums/content-sync-manifest.json lorsque les
+   documents des compendiums ont change.
+4. Verifier que tous ces changements sont commit et presents sur main
+   avant de publier la release correspondante.
+5. Double-cliquer sur : tools\publication\LANCER-PUBLICATION.cmd
+6. Recuperer le ZIP dans le dossier "MERP-UI-Releases" de "Documents".
+   Le nom correspond a la version detectee : merp-ui-1.6.0-rc.4.zip,
+   merp-ui-1.6.0.zip, etc.
+7. Attacher le ZIP a la GitHub Release correspondant au tag v<version>.
+   Marquer Pre-release pour une RC.
+8. Tester depuis Foundry. Une verification technique ne remplace pas
+   le test d'installation reel.
+
+CONTROLES
+---------
+- id MERP-UI, syntaxe de version, coherence module.json/package.json ;
+- URLs GitHub manifest et download adaptees a la version ;
+- neuf compendiums actuels (liste dynamique depuis module.json) ;
+- tous les fichiers .db de demarrage ;
+- coherence des sources / comptes / empreintes SHA-256 avec le manifeste ;
+- fingerprint globale du manifeste si Node.js est installe ;
+- ressources JS, CSS et langues referencees par le manifeste ;
+- ouverture / lecture complete du ZIP apres ecriture ;
+- module.json place directement a la racine.
+
+EXCLUS AUTOMATIQUEMENT DU ZIP
+----------------------------
+- .git/ et historique Git ;
+- dossiers Foundry LevelDB packs/<nom>/ ;
+- dossier accidente merp-ui/merp-ui/ ;
+- archives ZIP, sauvegardes, caches, outils de publication, fichiers
+  .gitkeep et fichiers locaux temporaires.
+
+A NE PAS CONFONDRE
+------------------
+- Le script NE SUPPRIME RIEN dans le depot, y compris .git et LevelDB.
+- Les fichiers packs/*.db sont CONSERVES : necessaires au premier
+  chargement des compendiums de la RC3 (migration Foundry).
+- Les bases packs/<nom>/ LevelDB restent dans le depot si deja suivies
+  par Git ; leur nettoyage Git est une operation distincte.
+- Si une archive de meme version existe deja, le script refuse d'y toucher.
+  Pour une nouvelle release, changer la version, ou deplacer la precedente.
+- Si le controle de synchronisation echoue, NE PAS publier. Regenerer
+  et committer les sources/manifestes/.db avant une nouvelle tentative.
+- L'outil n'effectue ni git commit, ni git push, ni release GitHub.
+
+SI NODE.JS EST ABSENT
+--------------------
+Le script fonctionne sans Node.js et verifie les SHA-256 individuelles ;
+il avertit cependant que le calcul de l'empreinte globale n'a pas pu
+etre execute. Pour un controle complet du manifeste, installer Node.js
+et relancer la construction.
+
+EN CAS D'ERREUR
+---------------
+La fenetre reste ouverte et affiche la cause. Aucun ZIP final incomplet
+n'est laisse derriere. Conserver le message exact pour investigation.
+
+Option avancee : dans PowerShell, lancer
+  .\Construire-Release.ps1 -RepoPath "C:\...\merp-ui" -OutputDirectory "D:\Releases"

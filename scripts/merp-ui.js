@@ -10,7 +10,7 @@ let catalog = null;
 let typographyState = { family: "PragRoman", source: null, loaded: false };
 
 async function resolvePragRomanUrl() {
-  const path = `modules/${MODULE_ID}/fonts/PragRoman.ttf?v=1.6.0-rc.1`;
+  const path = `modules/${MODULE_ID}/fonts/PragRoman.ttf?v=1.6.0-rc.4`;
   return foundry?.utils?.getRoute ? foundry.utils.getRoute(path) : path;
 }
 
@@ -1379,7 +1379,7 @@ Hooks.once("ready", async () => {
 
   globalThis.MERPUI = {
     ...(globalThis.MERPUI ?? {}),
-    version: () => "1.6.0-rc.1",
+    version: () => "1.6.0-rc.4",
     catalog: () => foundry.utils.deepClone(catalog),
     reload: async () => {
       await loadCatalog({ refresh: true });

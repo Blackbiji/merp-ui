@@ -589,9 +589,26 @@ function isLikelyCharacterCreationApplication(app, root) {
   }
 
   const text = String(root?.textContent ?? "");
+  if (/(?:création de personnage|character creation)/i.test(text) && /talent/i.test(text)) return true;
   const hasCreationTerms = /(Race|Culture|Profession|Development Points|Points de Développement)/i.test(text);
   const hasSkillTerms = /(Skill Category|Professional Skills|Compétences professionnelles|Combat Training)/i.test(text);
   return hasCreationTerms && hasSkillTerms;
+}
+
+/**
+ * Only mark the RMU character-creation Talent table; its rich HTML headings
+ * inherit near-white colors that are unreadable on the table's light background.
+ */
+function markCreationTalentTables(root) {
+  for (const table of root.querySelectorAll("table, [role='table']")) {
+    const header = table.querySelector("thead")
+      ?? table.querySelector("tr:has(th)")
+      ?? table.querySelector("[role='row']");
+    const label = String(header?.textContent ?? "").replace(/\s+/g, " ").toLowerCase();
+    if (/talent/.test(label) && /tier|rang|niveau/.test(label) && /descript/.test(label)) {
+      table.classList.add("merp-ui-creation-talents-table");
+    }
+  }
 }
 
 function translateCreationText(raw, translations) {
@@ -616,8 +633,26 @@ function translateCreationText(raw, translations) {
 
 async function localizeCharacterCreationRoot(app, root) {
   if (!(root instanceof HTMLElement)) return;
-  if (game.i18n?.lang && !String(game.i18n.lang).toLowerCase().startsWith("fr")) return;
   if (!isLikelyCharacterCreationApplication(app, root)) return;
+  markCreationTalentTables(root);
+  // The mutation observer must also run in EN for asynchronously rendered tables.
+  if (!creationObservers.has(root)) {
+    let pending = false;
+    const observer = new MutationObserver(() => {
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(() => {
+        pending = false;
+        localizeCharacterCreationRoot(app, root).catch((error) =>
+          console.error(`${MODULE_ID} | Échec de localisation dynamique de la création`, error)
+        );
+      });
+    });
+    observer.observe(root, { childList: true, subtree: true });
+    creationObservers.set(root, observer);
+  }
+
+  if (game.i18n?.lang && !String(game.i18n.lang).toLowerCase().startsWith("fr")) return;
 
   const translations = await getCreationTranslationMaps();
   root.classList.add("merp-ui-character-creation-localized");
@@ -660,21 +695,6 @@ async function localizeCharacterCreationRoot(app, root) {
     for (const o of [...placeholder, ...sortable]) select.append(o);
   }
 
-  if (!creationObservers.has(root)) {
-    let pending = false;
-    const observer = new MutationObserver(() => {
-      if (pending) return;
-      pending = true;
-      requestAnimationFrame(() => {
-        pending = false;
-        localizeCharacterCreationRoot(app, root).catch((error) =>
-          console.error(`${MODULE_ID} | Échec de localisation dynamique de la création`, error)
-        );
-      });
-    });
-    observer.observe(root, { childList: true, subtree: true });
-    creationObservers.set(root, observer);
-  }
 }
 
 function scheduleCharacterCreationLocalization(app, html) {

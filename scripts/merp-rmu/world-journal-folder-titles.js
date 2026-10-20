@@ -55,7 +55,26 @@ export async function sourceRulesFolderTitles() {
 }
 
 function matchingAliases(folder, pair) {
-  return folder.name === pair.fr || folder.name === pair.en;
+  if (folder.name === pair.fr || folder.name === pair.en) return true;
+  // Published through RC3: retain the old names solely as matching aliases.
+  // The technical folder key is unchanged, so existing IDs and contents survive.
+  if (pair.key === "rules-01-magic") {
+    return folder.name === "1 - Magie dans MERP" ||
+      folder.name === "1 - Magic in MERP";
+  }
+  // Older World imports keep their original names. Match only exact known
+  // titles; never overwrite names customized by the Gamemaster.
+  const oldNames = {
+    "rules-02-economy": ["2 - Economie", "Économie", "Economie", "Economy"],
+    "rules-03-religions": ["3 - Religions", "Religions"],
+    "rules-04-herbs": [
+      "4 - Herbes et Substances, guide des simples",
+      "4 - Herbs & Substances, Traveller’s Guide",
+      "Herbes & Substances",
+      "Herbs & Substances"
+    ]
+  };
+  return (oldNames[pair.key] ?? []).includes(folder.name);
 }
 
 function isSupportedLocation(folder, packRootIds) {

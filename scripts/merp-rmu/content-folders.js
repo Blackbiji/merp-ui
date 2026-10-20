@@ -48,7 +48,9 @@ export function localizedFolderName(definition) {
 }
 
 export function localizedFolderAliases(definition) {
-  const names = new Set([definition?.name]);
+  // Previously published names remain valid aliases so existing World folders
+  // are renamed in place rather than duplicated during a content refresh.
+  const names = new Set([definition?.name, ...(definition?.legacyNames ?? [])]);
   for (const localized of Object.values(definition?.localizations ?? {})) {
     if (localized?.name) names.add(localized.name);
   }

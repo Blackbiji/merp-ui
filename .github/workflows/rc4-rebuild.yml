@@ -1,0 +1,35 @@
+name: RC4 rebuild Compendiums (temporary)
+on:
+  push:
+    branches: [review/1.6.0-rc4-prepublication]
+    paths:
+      - .github/workflows/rc4-rebuild.yml
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    if: github.repository == 'Blackbiji/merp-ui'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/1.6.0-rc4-prepublication
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate seed Compendiums
+        run: npm run build:compendium-seeds
+      - name: Regenerate content fingerprint
+        run: npm run build:content-sync
+      - name: Commit rebuilt artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add packs/*.db source/compendiums/content-sync-manifest.json
+          if git diff --cached --quiet; then
+            echo "Artifacts already up to date"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'build: regenerate RC4 Compendiums and localization sync metadata'
+          git push origin HEAD:review/1.6.0-rc4-prepublication

@@ -14,7 +14,8 @@
     "build:content-sync": "node scripts/build-merp-rmu-sync-manifest.mjs",
     "validate:content-sync": "node scripts/build-merp-rmu-sync-manifest.mjs --check",
     "test:content-sync": "node scripts/test-merp-rmu-content-sync.mjs",
-    "test:herb-biomes": "node scripts/test-herb-biomes.mjs"
+    "test:herb-biomes": "node scripts/test-herb-biomes.mjs",
+    "test:item-sheet-metadata": "node scripts/test-item-sheet-metadata.mjs"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

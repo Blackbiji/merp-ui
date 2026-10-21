@@ -25,3 +25,5 @@ jobs:
         run: npm run test:content-sync
       - name: Validate herb biome help
         run: npm run test:herb-biomes
+      - name: Validate bilingual item sheet labels
+        run: npm run test:item-sheet-metadata

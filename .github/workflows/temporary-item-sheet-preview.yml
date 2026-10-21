@@ -1,0 +1,31 @@
+name: Item sheet bilingual UI preview
+on:
+  push:
+    branches: [feature/item-sheet-metadata-bilingual-rc5]
+    paths:
+      - .github/workflows/temporary-item-sheet-preview.yml
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate translations and syntax
+        run: |
+          npm run test:item-sheet-metadata
+          node --check scripts/merp-ui.js
+          node --check scripts/merp-rmu/item-sheet-metadata.js
+      - name: Make two-file additive patch
+        run: |
+          git archive --format=zip --prefix=merp-ui/ -o MERP-UI-RC5-PATCH-ITEMS-METADATA-FR-EN.zip HEAD scripts/merp-ui.js scripts/merp-rmu/item-sheet-metadata.js
+          unzip -t MERP-UI-RC5-PATCH-ITEMS-METADATA-FR-EN.zip
+          unzip -Z1 MERP-UI-RC5-PATCH-ITEMS-METADATA-FR-EN.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MERP-UI-RC5-PATCH-ITEMS-METADATA-FR-EN
+          path: MERP-UI-RC5-PATCH-ITEMS-METADATA-FR-EN.zip
+          if-no-files-found: error

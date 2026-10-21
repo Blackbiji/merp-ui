@@ -5091,6 +5091,8 @@ span.rmu-profession-skill-marker::after {
   font-size: 0.92rem;
   text-shadow: none !important;
   overflow-wrap: anywhere;
+  width: min(100%, 48rem);
+  grid-column: 1 / -1;
 }
 .merp-ui-herb-biome-panel :is(h3, h4) {
   margin: 0 0 0.45rem !important;

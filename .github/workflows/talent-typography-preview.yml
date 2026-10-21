@@ -1,0 +1,30 @@
+name: Talent typography visual preview
+on:
+  push:
+    branches: [feature/herb-biome-tooltips]
+    paths:
+      - .github/workflows/talent-typography-preview.yml
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax and existing content regression
+        run: |
+          node --check scripts/merp-ui.js
+          node --check scripts/merp-rmu/creation-talents-typography.js
+          npm run test:herb-biomes
+      - name: Archive four additive UI files
+        run: |
+          git archive --format=zip --prefix=merp-ui/ -o MERP-UI-RC4-TALENTS-ALIGNES-INSTRUCTIONS-BIOMES.zip HEAD scripts/merp-ui.js scripts/merp-rmu/herb-biomes.js scripts/merp-rmu/creation-talents-typography.js styles/merp-theme.css
+          unzip -t MERP-UI-RC4-TALENTS-ALIGNES-INSTRUCTIONS-BIOMES.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MERP-UI-RC4-TALENTS-ALIGNES-INSTRUCTIONS-BIOMES
+          path: MERP-UI-RC4-TALENTS-ALIGNES-INSTRUCTIONS-BIOMES.zip
+          if-no-files-found: error

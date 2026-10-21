@@ -27,3 +27,5 @@ jobs:
         run: npm run test:herb-biomes
       - name: Validate bilingual item sheet labels
         run: npm run test:item-sheet-metadata
+      - name: Verify Compendium theme targeting
+        run: npm run test:compendium-theme

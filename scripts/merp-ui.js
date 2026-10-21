@@ -5,6 +5,7 @@ import { dropcapAsset, observeJournalDropcaps } from "./merp-rmu/journal-dropcap
 import { enhanceHerbBiomeHelp } from "./merp-rmu/herb-biomes.js";
 import { scheduleItemSheetMetadataLocalization } from "./merp-rmu/item-sheet-metadata.js";
 import { applyCreationTalentTypography } from "./merp-rmu/creation-talents-typography.js";
+import { decorateMerpCompendiumBrowser } from "./merp-rmu/compendium-browser-theme.js";
 
 const MODULE_ID = "merp-ui";
 const CATALOG_PATH = `modules/${MODULE_ID}/assets/catalog.json`;
@@ -1855,3 +1856,12 @@ function localizeRmuItemSheetChrome(app, html) {
 Hooks.on("renderApplicationV2", localizeRmuItemSheetChrome);
 Hooks.on("renderApplication", localizeRmuItemSheetChrome);
 Hooks.on("renderItemSheet", localizeRmuItemSheetChrome);
+
+
+// RC5 — Apply the Journal-inspired theme only to our own Compendium packs.
+function themeMerpCompendiumWindow(app, html) {
+  decorateMerpCompendiumBrowser(app, getApplicationRoots(app, html), game?.packs);
+}
+Hooks.on("renderApplicationV2", themeMerpCompendiumWindow);
+Hooks.on("renderApplication", themeMerpCompendiumWindow);
+Hooks.on("renderCompendium", themeMerpCompendiumWindow);

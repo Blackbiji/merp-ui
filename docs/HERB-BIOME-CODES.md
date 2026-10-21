@@ -1,4 +1,4 @@
-# Herb habitat codes / Codes des biomes des herbes
+# MERP herb location codes / Codes de localisation des herbes — MERP
 
 **Source / Source :** *MERP Character Creation Using RMSS/RMFRP v2.5*, section **Enchanted Herbs**, printed p. 206 (PDF p. 208).
 
@@ -36,9 +36,8 @@ Un code historique de récolte se lit **climat – terrain – difficulté de d�
 ### Historical discovery difficulty / Difficulté historique
 `1` Routine (+30); `2` Facile / Easy (+20); `3` Aisée / Light (+10); `4` Moyenne / Medium (+0); `5` Difficile / Hard (−10); `6` Très difficile / Very Hard (−20); `7` Extrêmement difficile / Extremely Hard (−30); `8` Pure folie / Sheer Folly (−50); `9` Absurde / Absurd (−70).
 
-**Important / Important :** These numbers summarize the source table; they are informative only. MERP-UI leaves RMU item statistics, difficulty values and rolls unchanged.
+**Important / Important :** These codes and values come from Whittford’s MERP/RMSS-RMFRP herb table, independently of RMU publications. They are shown as source references; MERP-UI does not change Item statistics or dice rolls. / Ces codes et valeurs proviennent de la table MERP/RMSS-RMFRP du document de Whittford, indépendamment des publications RMU. Leur affichage conserve toutes les données du module.
 
-**Do not confuse code sets:** `B` denotes ravines/wadis in this historical herb table but `B` means Boreal Forests in RMU Creature Law. These are separate source conventions, not an automatic conversion between systems. / **Ne pas confondre les nomenclatures :** `B` désigne les ravins et oueds pour ces herbes historiques, tandis que `B` représente les forêts boréales dans Creature Law. Les deux nomenclatures sont distinctes. Voir la [documentation officielle des biomes Creature Law](https://github.com/wibobm/fvtt-rmu/wiki/Creature-Law-APIs-and-Macros).
 
 In Foundry, open an Herb Item and activate the **ⓘ** icon alongside **Biome(s)**. Hover or focus shows a quick contextual explanation; click to reveal a four-field description, then expand the complete legend if needed. The control is bilingual in the MERP-RMU Content Language setting.
 

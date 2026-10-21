@@ -3,6 +3,7 @@ import { contentLanguage, localizeContentValue } from "./merp-rmu/localization.j
 import { registerSettingsUiLocalizationHooks, rerenderSettingsApplications } from "./merp-rmu/settings-ui-localization.js";
 import { dropcapAsset, observeJournalDropcaps } from "./merp-rmu/journal-dropcaps.js";
 import { enhanceHerbBiomeHelp } from "./merp-rmu/herb-biomes.js";
+import { scheduleItemSheetMetadataLocalization } from "./merp-rmu/item-sheet-metadata.js";
 import { applyCreationTalentTypography } from "./merp-rmu/creation-talents-typography.js";
 
 const MODULE_ID = "merp-ui";
@@ -1763,3 +1764,20 @@ Hooks.on("renderApplication", (app, html) => {
 
 Hooks.on("renderApplicationV2", (app, html) => localizeMerpHerbSheet(app, html));
 Hooks.on("renderApplication", (app, html) => localizeMerpHerbSheet(app, html));
+
+/**
+ * Translate Item sheet chrome in the MERP-RMU content language (FR/EN).
+ * This does not depend on the Foundry UI language and never updates Item data.
+ */
+function localizeRmuItemSheetChrome(app, html) {
+  const roots = getApplicationRoots(app, html);
+  const application = detectApplicationDocument(app, roots);
+  if (!application.isItem || application.documentName === "Actor" ||
+      application.documentName === "JournalEntry" || application.documentName === "JournalEntryPage") return;
+  const root = roots.find(element => element.matches?.(".application, .window-app")) ?? roots[0];
+  if (!root) return;
+  scheduleItemSheetMetadataLocalization(root, contentLanguage);
+}
+Hooks.on("renderApplicationV2", localizeRmuItemSheetChrome);
+Hooks.on("renderApplication", localizeRmuItemSheetChrome);
+Hooks.on("renderItemSheet", localizeRmuItemSheetChrome);

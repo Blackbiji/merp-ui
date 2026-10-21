@@ -1,0 +1,48 @@
+name: RC5 Compendium visual polish preview
+on:
+  push:
+    branches: [feature/compendium-visual-polish-rc5]
+    paths:
+      - .github/workflows/temporary-compendium-art-preview.yml
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify Compendium targeting and synchronization
+        run: |
+          npm run test:compendium-theme
+          node --check scripts/merp-ui.js
+          node --check scripts/merp-rmu/compendium-browser-theme.js
+          npm run validate:content-sync
+      - name: Verify original illustration and CSS coverage
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const css=fs.readFileSync('styles/merp-theme.css','utf8');
+          const svg=fs.readFileSync('assets/compendium-eriador-engraving.svg','utf8');
+          assert.match(css,/compendium-eriador-engraving\.svg/);
+          assert.match(css,/color: #201b16 !important/);
+          assert.match(css,/font: 400 16px\/1\.3/);
+          assert.match(css,/font: 600 17px\/1\.25/);
+          assert.match(svg,/<svg xmlns="http:\/\/www\.w3\.org\/2000\/svg"/);
+          assert.match(svg,/<\/svg>/);
+          assert.equal(css.match(/RC5 — MERP-RMU Compendium list: unified journal typography/g)?.length,1);
+          console.log('Unique Compendium CSS block, dark title, consistent typography, original SVG asset: OK');
+          NODE
+      - name: Package cumulative Compendium patch
+        run: |
+          git archive --format=zip --prefix=merp-ui/ -o MERP-UI-RC5-PATCH-COMPENDIUMS-UNIFIES-ERIADOR.zip HEAD scripts/merp-ui.js scripts/merp-rmu/compendium-browser-theme.js styles/merp-theme.css assets/compendium-eriador-engraving.svg
+          unzip -t MERP-UI-RC5-PATCH-COMPENDIUMS-UNIFIES-ERIADOR.zip | tail -n 1
+          unzip -Z1 MERP-UI-RC5-PATCH-COMPENDIUMS-UNIFIES-ERIADOR.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MERP-UI-RC5-PATCH-COMPENDIUMS-UNIFIES-ERIADOR
+          path: MERP-UI-RC5-PATCH-COMPENDIUMS-UNIFIES-ERIADOR.zip
+          if-no-files-found: error

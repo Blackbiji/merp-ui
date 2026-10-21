@@ -21,3 +21,12 @@ and non-commercial.
 
 This notice is descriptive and is not a substitute for a rights/legal review
 before public distribution.
+
+## MERP-UI original illustrative background (RC5 preview)
+
+The monochrome engraving-style landscape used behind MERP-RMU Compendium lists
+(`assets/compendium-eriador-engraving.svg`) is an original
+Eriador-inspired decorative illustration developed for MERP-UI with assistance
+from ChatGPT/OpenAI image generation. It is not a reproduction of any
+published Middle-earth map or commercial illustration. It is provided with
+this unofficial project for its non-commercial presentation.

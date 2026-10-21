@@ -5016,28 +5016,26 @@ span.rmu-profession-skill-marker::after {
   white-space: nowrap !important;
 }
 
-/* RC4: readable HTML headings in the light Talent table of RMU character creation. */
+/* Readable Talent descriptions. Explicit pixel fallback for pre-hook renders;
+ * after rendering, the typography helper measures the neighbouring INSTRUCTIONS
+ * frame and applies the same font size via inline CSS !important. */
 .merp-ui-creation-talents-table :is(h1, h2, h3, h4, h5, h6) {
   color: #232323 !important;
   text-shadow: none !important;
   background: transparent !important;
-  border-color: #b7b7b7 !important;
   opacity: 1 !important;
-  line-height: 1.3 !important;
   letter-spacing: normal !important;
+  font-weight: 700 !important;
+  line-height: 1.23 !important;
+  padding: 0 !important;
 }
 .merp-ui-creation-talents-table h1 {
-  font-size: 1.17rem !important;
-  font-weight: 700 !important;
-  margin: 0.35rem 0 0.55rem !important;
-  padding: 0 0 0.2rem !important;
+  font-size: 18px !important;
+  margin: 4px 0 3px !important;
 }
-.merp-ui-creation-talents-table :is(h2, h3) {
-  font-size: 16px !important;
-  font-weight: 700 !important;
-  line-height: 1.25 !important;
-  margin: 7px 0 3px !important;
-  padding: 0 !important;
+.merp-ui-creation-talents-table :is(h2, h3, h4, h5, h6) {
+  font-size: 17px !important;
+  margin: 5px 0 2px !important;
 }
 .merp-ui-creation-talents-table :is(td, th) {
   padding: 0.3rem 0.55rem !important;
@@ -5045,7 +5043,119 @@ span.rmu-profession-skill-marker::after {
 }
 .merp-ui-creation-talents-table td :is(p, li) {
   color: #272727 !important;
-  font-size: 0.94rem !important;
-  line-height: 1.46 !important;
+  font-size: 16px !important;
+  line-height: 1.38 !important;
   text-shadow: none !important;
+}
+
+/* MERP-UI: accessible bilingual herb biome-code help, herb sheets only. */
+.merp-ui-herb-biome-help {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-inline-start: 0.4rem !important;
+  padding: 0 !important;
+  width: 1.23rem !important;
+  height: 1.23rem !important;
+  min-width: 1.23rem !important;
+  min-height: 1.23rem !important;
+  border: 1px solid #8b7859 !important;
+  border-radius: 50% !important;
+  background: #eee3cf !important;
+  color: #33302a !important;
+  text-shadow: none !important;
+  font: 700 0.83rem/1 sans-serif !important;
+  cursor: help !important;
+  vertical-align: middle;
+}
+.merp-ui-herb-biome-help:hover,
+.merp-ui-herb-biome-help:focus-visible {
+  background: #dfcfac !important;
+  outline: 2px solid #8b7859;
+  outline-offset: 2px;
+}
+.merp-ui-herb-biome-panel[hidden] { display: none !important; }
+.merp-ui-herb-biome-panel {
+  box-sizing: border-box;
+  margin: 0.45rem 0.3rem 0.85rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #9d917b;
+  border-left: 3px solid #8b7859;
+  border-radius: 0.45rem;
+  background: #f6f3eb;
+  color: #222 !important;
+  font-family: inherit;
+  font-size: 0.92rem;
+  text-shadow: none !important;
+  overflow-wrap: anywhere;
+  width: min(100%, 48rem);
+  grid-column: 1 / -1;
+}
+.merp-ui-herb-biome-panel :is(h3, h4) {
+  margin: 0 0 0.45rem !important;
+  padding: 0 !important;
+  color: #26221d !important;
+  text-shadow: none !important;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.merp-ui-herb-biome-panel h3 { font-size: 1.05rem !important; }
+.merp-ui-herb-biome-panel h4 { font-size: 0.96rem !important; }
+.merp-ui-herb-biome-source-code {
+  margin: 0.3rem 0 0.55rem;
+}
+.merp-ui-herb-biome-source-code code {
+  padding: 0.12rem 0.35rem;
+  border-radius: 0.2rem;
+  background: #e6ddd0;
+  font-family: monospace;
+  color: #26221d;
+  white-space: nowrap;
+}
+.merp-ui-herb-biome-detail,
+.merp-ui-herb-biome-code-list {
+  display: grid;
+  grid-template-columns: minmax(5rem, 36%) minmax(0, 1fr);
+  gap: 0.22rem 0.65rem;
+  margin: 0.25rem 0 0.6rem;
+  line-height: 1.4;
+}
+.merp-ui-herb-biome-panel dt {
+  margin: 0;
+  font-weight: 700;
+  color: #34302b;
+}
+.merp-ui-herb-biome-panel dd {
+  margin: 0;
+  color: #252525;
+}
+.merp-ui-herb-biome-legend { margin-top: 0.5rem; }
+.merp-ui-herb-biome-legend summary {
+  color: #57452b !important;
+  cursor: pointer;
+  font-weight: 700;
+}
+.merp-ui-herb-biome-legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  gap: 0.75rem;
+  margin-top: 0.65rem;
+}
+.merp-ui-herb-biome-legend-section {
+  min-width: 0;
+  background: #faf8f2;
+  padding: 0.6rem;
+  border: 1px solid #e4d8c6;
+  border-radius: 0.35rem;
+}
+.merp-ui-herb-biome-legend-section .merp-ui-herb-biome-code-list {
+  grid-template-columns: 2.5rem minmax(0, 1fr);
+  font-size: 0.86rem;
+}
+.merp-ui-herb-biome-footnote,
+.merp-ui-herb-biome-source {
+  margin: 0.45rem 0 0;
+  color: #5b5449 !important;
+  font-size: 0.81rem;
+  line-height: 1.35;
 }

@@ -5175,7 +5175,7 @@ span.rmu-profession-skill-marker::after {
   --merp-compendium-highlight: #e2e2e2;
   font-family: var(--merp-font, "PragRoman", Georgia, serif);
 }
-.merp-ui-compendium-browser .window-header {
+:is(.application, .window-app).merp-ui-compendium-browser .window-header {
   background: linear-gradient(#dedede, #c9c9c9) !important;
   color: var(--merp-compendium-ink) !important;
   border-bottom: 1px solid var(--merp-rule, #8a8a8a) !important;
@@ -5186,7 +5186,7 @@ span.rmu-profession-skill-marker::after {
   font-size: 19px !important;
   text-shadow: none !important;
 }
-.merp-ui-compendium-browser .window-content {
+:is(.application, .window-app).merp-ui-compendium-browser .window-content {
   color: var(--merp-compendium-ink) !important;
   background: var(--merp-compendium-paper) !important;
 }

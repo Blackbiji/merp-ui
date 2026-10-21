@@ -38,6 +38,8 @@ Un code historique de récolte se lit **climat – terrain – difficulté de d�
 
 **Important / Important :** These numbers summarize the source table; they are informative only. MERP-UI leaves RMU item statistics, difficulty values and rolls unchanged.
 
+**Do not confuse code sets:** `B` denotes ravines/wadis in this historical herb table but `B` means Boreal Forests in RMU Creature Law. These are separate source conventions, not an automatic conversion between systems. / **Ne pas confondre les nomenclatures :** `B` désigne les ravins et oueds pour ces herbes historiques, tandis que `B` représente les forêts boréales dans Creature Law. Les deux nomenclatures sont distinctes. Voir la [documentation officielle des biomes Creature Law](https://github.com/wibobm/fvtt-rmu/wiki/Creature-Law-APIs-and-Macros).
+
 In Foundry, open an Herb Item and activate the **ⓘ** icon alongside **Biome(s)**. Hover or focus shows a quick contextual explanation; click to reveal a four-field description, then expand the complete legend if needed. The control is bilingual in the MERP-RMU Content Language setting.
 
 Dans Foundry, ouvrez la fiche d'une herbe et utilisez l'icône **ⓘ** placée à côté de **Biome(s)**. Le survol affiche une synthèse ; un clic ouvre les quatre informations de la plante, puis la légende complète, sans modifier les données RMU.

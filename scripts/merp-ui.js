@@ -1769,9 +1769,22 @@ Hooks.on("renderApplication", (app, html) => localizeMerpHerbSheet(app, html));
  * Translate Item sheet chrome in the MERP-RMU content language (FR/EN).
  * This does not depend on the Foundry UI language and never updates Item data.
  */
-// RC5: restore a readable hierarchy for the two long MERP-RMU Skill descriptions.
-// The other six dedicated Skills contain only an h1 and need no intertitle polish.
-// Match the actual headings, not generic h2/h3 elements belonging to RMU controls.
+// RC5: match the main description title to the paragraph font on all eight
+// MERP-RMU Skills, while styling intertitles only on the two longer Skills.
+// Match known FR/EN headings to leave RMU's other sheet controls alone.
+const MERP_SKILL_DESCRIPTION_TITLES = {
+  "healing-song-blood": ["Chant du Sang (Blood Songs)", "Blood Songs"],
+  "healing-song-bone": ["Chant des Os (Bone Songs)", "Bone Songs"],
+  "healing-song-cleansing": ["Chant de Purification (Cleansing Songs)", "Cleansing Songs"],
+  "healing-song-muscle": ["Chant des Muscles, Tendons et Ligaments (Muscle/Tendon/Ligament Songs)", "Muscle/Tendon/Ligament Songs"],
+  "healing-song-sensory": ["Chant des Sens (Sensory Songs)", "Sensory Songs"],
+  "healing-song-strengthening": ["Chant de Fortification (Strengthening Songs)", "Strengthening Songs"],
+  "healing-songs": ["Chants de Guérison (Healing Songs)", "Healing Songs"],
+  "yavannas-song": ["Chant de Yavanna (Yavanna’s Song)", "Yavanna's Song"]
+};
+const normalizeMerpSkillHeading = (value) =>
+  String(value ?? "").replace(/\s+/g, " ").trim().replace(/[’‘]/g, "'").toLocaleLowerCase();
+
 const MERP_LONG_SKILL_HEADINGS = {
   "healing-songs": new Set([
     "spécialisations", "specializations", "résolution", "resolution",
@@ -1787,13 +1800,16 @@ function polishMerpSpecialSkillIntertitles(item, root) {
   if (item?.documentName !== "Item" || item?.type !== "skill" || !root?.querySelectorAll) return 0;
   const flags = item.flags?.["merp-ui"] ?? {};
   const key = flags.compendiumSourceKey ?? flags.key;
+  const mainTitles = MERP_SKILL_DESCRIPTION_TITLES[key];
+  if (!mainTitles) return 0;
+  const mainMatches = new Set(mainTitles.map(normalizeMerpSkillHeading));
   const allowed = MERP_LONG_SKILL_HEADINGS[key];
-  if (!allowed) return 0;
 
   let count = 0;
-  for (const heading of root.querySelectorAll("h2, h3")) {
-    const title = String(heading.textContent ?? "").replace(/\s+/g, " ").trim().toLocaleLowerCase();
-    if (!allowed.has(title)) continue;
+  for (const heading of root.querySelectorAll("h1, h2, h3")) {
+    const title = normalizeMerpSkillHeading(heading.textContent);
+    const isMainTitle = heading.matches("h1");
+    if (isMainTitle ? !mainMatches.has(title) : !allowed?.has(title)) continue;
 
     // Prefer the nearest rich-text container. Do not use fonts from sheet controls.
     const content = heading.closest(
@@ -1809,11 +1825,14 @@ function polishMerpSpecialSkillIntertitles(item, root) {
 
     // Inline priorities override RMU's editor heading defaults without changing
     // the body text or any stored Skill content, in either content language.
-    heading.style.setProperty("font-size", (bodyPx + 2).toFixed(1) + "px", "important");
+    heading.style.setProperty("font-size", (bodyPx + (isMainTitle ? 4 : 2)).toFixed(1) + "px", "important");
     heading.style.setProperty("font-family", bodyStyle.fontFamily, "important");
     heading.style.setProperty("font-weight", "700", "important");
+    heading.style.setProperty("font-variant", "normal", "important");
+    heading.style.setProperty("text-transform", "none", "important");
+    heading.style.setProperty("letter-spacing", "normal", "important");
     heading.style.setProperty("line-height", "1.25", "important");
-    heading.style.setProperty("margin", "10px 0 5px", "important");
+    heading.style.setProperty("margin", isMainTitle ? "7px 0 8px" : "10px 0 5px", "important");
     count++;
   }
   return count;

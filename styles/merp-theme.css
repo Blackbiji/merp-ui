@@ -5159,3 +5159,146 @@ span.rmu-profession-skill-marker::after {
   font-size: 0.81rem;
   line-height: 1.35;
 }
+
+
+/* RC5 — MERP-RMU Compendium browsers styled in the spirit of our Journals.
+ * The class is applied only to MERP-UI packs by decorateMerpCompendiumBrowser.
+ * Keep Foundry's folder interactions, control icons, hover menus and geometry.
+ */
+.merp-ui-compendium-browser {
+  --merp-compendium-paper: var(--merp-paper, #fff);
+  --merp-compendium-sidebar: var(--merp-sidebar, #f1f1f1);
+  --merp-compendium-header: var(--merp-header, #d7d7d7);
+  --merp-compendium-ink: var(--merp-ink, #202020);
+  --merp-compendium-border: #b7b7b7;
+  --merp-compendium-highlight: #e2e2e2;
+}
+
+.merp-ui-compendium-browser .window-header {
+  background: linear-gradient(#dedede, #c9c9c9) !important;
+  color: var(--merp-compendium-ink) !important;
+  border-bottom: 1px solid var(--merp-rule, #8a8a8a) !important;
+}
+.merp-ui-compendium-browser .window-header .window-title {
+  color: var(--merp-compendium-ink) !important;
+  font-family: var(--merp-font) !important;
+  font-size: 1.18rem !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser .window-content {
+  color: var(--merp-compendium-ink) !important;
+  background: var(--merp-compendium-paper) !important;
+}
+.merp-ui-compendium-browser :is(
+  .directory-header,
+  .directory-footer,
+  .compendium-header,
+  .header-actions
+) {
+  color: var(--merp-compendium-ink) !important;
+  background: var(--merp-compendium-header) !important;
+  border-color: var(--merp-compendium-border) !important;
+}
+.merp-ui-compendium-browser :is(
+  .directory-list,
+  .directory-content,
+  .compendium-list,
+  .folder-list
+) {
+  background: var(--merp-compendium-sidebar) !important;
+  color: var(--merp-compendium-ink) !important;
+}
+.merp-ui-compendium-browser :is(
+  .directory-item,
+  .compendium-entry,
+  .document,
+  .folder
+) {
+  color: var(--merp-compendium-ink) !important;
+  border-color: #c9c9c9 !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(
+  .directory-item,
+  .compendium-entry,
+  .document
+):hover {
+  background: var(--merp-compendium-highlight) !important;
+}
+.merp-ui-compendium-browser :is(
+  .directory-item.active,
+  .directory-item.selected,
+  .compendium-entry.active,
+  .compendium-entry.selected
+) {
+  background: #d5d5d5 !important;
+  box-shadow: inset 3px 0 0 var(--merp-rule, #8a8a8a) !important;
+}
+.merp-ui-compendium-browser :is(
+  .folder-header,
+  .folder > header,
+  .folder-heading
+) {
+  background: var(--merp-compendium-header) !important;
+  color: var(--merp-compendium-ink) !important;
+  border-color: var(--merp-compendium-border) !important;
+}
+.merp-ui-compendium-browser :is(
+  .entry-name,
+  .document-name,
+  .folder-name,
+  .compendium-name,
+  .directory-item h3,
+  .directory-item h4,
+  .folder-header h3,
+  .folder-header h4
+) {
+  font-family: var(--merp-font) !important;
+  color: var(--merp-compendium-ink) !important;
+  text-shadow: none !important;
+  line-height: 1.2 !important;
+}
+.merp-ui-compendium-browser :is(
+  .entry-name,
+  .document-name,
+  .folder-name,
+  .compendium-name
+) {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+.merp-ui-compendium-browser :is(.directory-header, .directory-footer) :is(
+  input[type="search"], input[type="text"]
+) {
+  background: #fff !important;
+  color: #252525 !important;
+  border: 1px solid #a6a6a6 !important;
+  font-family: var(--merp-font) !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(.directory-header, .directory-footer) :is(
+  input[type="search"], input[type="text"]
+)::placeholder {
+  color: #777 !important;
+}
+.merp-ui-compendium-browser :is(
+  a.document-link, a.entry-name, .directory-item a:not(.control)
+) {
+  color: #242424 !important;
+}
+.merp-ui-compendium-browser :is(
+  a.document-link, a.entry-name, .directory-item a:not(.control)
+):focus-visible {
+  outline: 2px solid var(--merp-gold, #a27b39) !important;
+  outline-offset: 2px;
+}
+/* Compendium *sidebar*: preserve its dark palette. Only MERP-RMU pack names
+ * gain the slightly warmer Journal title color; other systems stay native. */
+#compendium :is(
+  [data-pack^="merp-ui.merp-rmu-"],
+  [data-entry-id^="merp-ui.merp-rmu-"]
+) :is(.compendium-name, .entry-name, .document-name, h3, h4) {
+  font-family: var(--merp-font) !important;
+  color: #ede4d5 !important;
+  text-shadow: none !important;
+}

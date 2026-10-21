@@ -1855,3 +1855,29 @@ function localizeRmuItemSheetChrome(app, html) {
 Hooks.on("renderApplicationV2", localizeRmuItemSheetChrome);
 Hooks.on("renderApplication", localizeRmuItemSheetChrome);
 Hooks.on("renderItemSheet", localizeRmuItemSheetChrome);
+
+
+// RC5 — MERP-RMU Compendium list windows share the Journal visual identity.
+// A Compendium app exposes CompendiumCollection.collection = "merp-ui.merp-rmu-*"
+// (Foundry V13/V14). Only presentation classes are added, never pack data.
+const MERP_UI_PACK_PREFIX = "merp-ui.merp-rmu-";
+
+function decorateMerpCompendiumBrowser(app, html) {
+  const collection = app?.collection ?? app?.pack ?? null;
+  const key = collection?.collection ??
+    collection?.metadata?.id ??
+    (collection?.metadata?.packageName && collection?.metadata?.name
+      ? String(collection.metadata.packageName) + "." + String(collection.metadata.name)
+      : "");
+  if (typeof key !== "string" || !key.startsWith(MERP_UI_PACK_PREFIX)) return;
+
+  const roots = getApplicationRoots(app, html);
+  for (const root of roots) {
+    if (!root?.classList) continue;
+    root.classList.add("merp-ui-compendium-browser");
+  }
+}
+
+Hooks.on("renderApplicationV2", decorateMerpCompendiumBrowser);
+Hooks.on("renderApplication", decorateMerpCompendiumBrowser);
+Hooks.on("renderCompendium", decorateMerpCompendiumBrowser);

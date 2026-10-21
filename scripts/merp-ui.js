@@ -2,6 +2,7 @@ import { resolveSharedSkill, resolveSharedSkillCategory, loadSharedSkillRegistry
 import { contentLanguage, localizeContentValue } from "./merp-rmu/localization.js";
 import { registerSettingsUiLocalizationHooks, rerenderSettingsApplications } from "./merp-rmu/settings-ui-localization.js";
 import { dropcapAsset, observeJournalDropcaps } from "./merp-rmu/journal-dropcaps.js";
+import { enhanceHerbBiomeHelp } from "./merp-rmu/herb-biomes.js";
 
 const MODULE_ID = "merp-ui";
 const CATALOG_PATH = `modules/${MODULE_ID}/assets/catalog.json`;
@@ -1741,6 +1742,8 @@ function localizeMerpHerbSheet(app, html) {
       const value = select.value;
       select.value = value;
     }
+
+    enhanceHerbBiomeHelp(root, item, language);
   }
 }
 

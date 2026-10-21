@@ -5,6 +5,7 @@ import { dropcapAsset, observeJournalDropcaps } from "./merp-rmu/journal-dropcap
 import { enhanceHerbBiomeHelp } from "./merp-rmu/herb-biomes.js";
 import { scheduleItemSheetMetadataLocalization } from "./merp-rmu/item-sheet-metadata.js";
 import { applyCreationTalentTypography } from "./merp-rmu/creation-talents-typography.js";
+import { decorateMerpCompendiumBrowser } from "./merp-rmu/compendium-browser-theme.js";
 
 const MODULE_ID = "merp-ui";
 const CATALOG_PATH = `modules/${MODULE_ID}/assets/catalog.json`;
@@ -1857,27 +1858,10 @@ Hooks.on("renderApplication", localizeRmuItemSheetChrome);
 Hooks.on("renderItemSheet", localizeRmuItemSheetChrome);
 
 
-// RC5 — MERP-RMU Compendium list windows share the Journal visual identity.
-// A Compendium app exposes CompendiumCollection.collection = "merp-ui.merp-rmu-*"
-// (Foundry V13/V14). Only presentation classes are added, never pack data.
-const MERP_UI_PACK_PREFIX = "merp-ui.merp-rmu-";
-
-function decorateMerpCompendiumBrowser(app, html) {
-  const collection = app?.collection ?? app?.pack ?? null;
-  const key = collection?.collection ??
-    collection?.metadata?.id ??
-    (collection?.metadata?.packageName && collection?.metadata?.name
-      ? String(collection.metadata.packageName) + "." + String(collection.metadata.name)
-      : "");
-  if (typeof key !== "string" || !key.startsWith(MERP_UI_PACK_PREFIX)) return;
-
-  const roots = getApplicationRoots(app, html);
-  for (const root of roots) {
-    if (!root?.classList) continue;
-    root.classList.add("merp-ui-compendium-browser");
-  }
+// RC5 — Apply the Journal-inspired theme only to our own Compendium packs.
+function themeMerpCompendiumWindow(app, html) {
+  decorateMerpCompendiumBrowser(app, getApplicationRoots(app, html), game?.packs);
 }
-
-Hooks.on("renderApplicationV2", decorateMerpCompendiumBrowser);
-Hooks.on("renderApplication", decorateMerpCompendiumBrowser);
-Hooks.on("renderCompendium", decorateMerpCompendiumBrowser);
+Hooks.on("renderApplicationV2", themeMerpCompendiumWindow);
+Hooks.on("renderApplication", themeMerpCompendiumWindow);
+Hooks.on("renderCompendium", themeMerpCompendiumWindow);

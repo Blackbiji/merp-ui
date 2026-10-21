@@ -1769,6 +1769,56 @@ Hooks.on("renderApplication", (app, html) => localizeMerpHerbSheet(app, html));
  * Translate Item sheet chrome in the MERP-RMU content language (FR/EN).
  * This does not depend on the Foundry UI language and never updates Item data.
  */
+// RC5: restore a readable hierarchy for the two long MERP-RMU Skill descriptions.
+// The other six dedicated Skills contain only an h1 and need no intertitle polish.
+// Match the actual headings, not generic h2/h3 elements belonging to RMU controls.
+const MERP_LONG_SKILL_HEADINGS = {
+  "healing-songs": new Set([
+    "spécialisations", "specializations", "résolution", "resolution",
+    "modificateurs", "modifiers", "table des chants de guérison", "healing songs table"
+  ]),
+  "yavannas-song": new Set([
+    "un chant de chœurs", "a song of choirs", "résolution", "resolution",
+    "modificateurs", "modifiers", "table du chant de yavanna", "yavanna's song table"
+  ])
+};
+
+function polishMerpSpecialSkillIntertitles(item, root) {
+  if (item?.documentName !== "Item" || item?.type !== "skill" || !root?.querySelectorAll) return 0;
+  const flags = item.flags?.["merp-ui"] ?? {};
+  const key = flags.compendiumSourceKey ?? flags.key;
+  const allowed = MERP_LONG_SKILL_HEADINGS[key];
+  if (!allowed) return 0;
+
+  let count = 0;
+  for (const heading of root.querySelectorAll("h2, h3")) {
+    const title = String(heading.textContent ?? "").replace(/\s+/g, " ").trim().toLocaleLowerCase();
+    if (!allowed.has(title)) continue;
+
+    // Prefer the nearest rich-text container. Do not use fonts from sheet controls.
+    const content = heading.closest(
+      ".editor-content, .ProseMirror, .prosemirror, .rmu-prose-editor, .description"
+    ) ?? heading.parentElement;
+    const paragraph = [...(content?.querySelectorAll("p") ?? [])]
+      .find(p => String(p.textContent ?? "").trim().length >= 30);
+    if (!paragraph) continue;
+
+    const bodyStyle = getComputedStyle(paragraph);
+    const bodyPx = Number.parseFloat(bodyStyle.fontSize);
+    if (!Number.isFinite(bodyPx) || bodyPx < 10 || bodyPx > 25) continue;
+
+    // Inline priorities override RMU's editor heading defaults without changing
+    // the body text or any stored Skill content, in either content language.
+    heading.style.setProperty("font-size", (bodyPx + 2).toFixed(1) + "px", "important");
+    heading.style.setProperty("font-family", bodyStyle.fontFamily, "important");
+    heading.style.setProperty("font-weight", "700", "important");
+    heading.style.setProperty("line-height", "1.25", "important");
+    heading.style.setProperty("margin", "10px 0 5px", "important");
+    count++;
+  }
+  return count;
+}
+
 function localizeRmuItemSheetChrome(app, html) {
   const roots = getApplicationRoots(app, html);
   const application = detectApplicationDocument(app, roots);
@@ -1777,6 +1827,11 @@ function localizeRmuItemSheetChrome(app, html) {
   const root = roots.find(element => element.matches?.(".application, .window-app")) ?? roots[0];
   if (!root) return;
   scheduleItemSheetMetadataLocalization(root, contentLanguage);
+  // Item rich-text editors may appear after the initial render.
+  const restyle = () => polishMerpSpecialSkillIntertitles(application.document, root);
+  requestAnimationFrame(restyle);
+  setTimeout(restyle, 140);
+  setTimeout(restyle, 420);
 }
 Hooks.on("renderApplicationV2", localizeRmuItemSheetChrome);
 Hooks.on("renderApplication", localizeRmuItemSheetChrome);

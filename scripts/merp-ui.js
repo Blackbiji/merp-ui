@@ -3,6 +3,7 @@ import { contentLanguage, localizeContentValue } from "./merp-rmu/localization.j
 import { registerSettingsUiLocalizationHooks, rerenderSettingsApplications } from "./merp-rmu/settings-ui-localization.js";
 import { dropcapAsset, observeJournalDropcaps } from "./merp-rmu/journal-dropcaps.js";
 import { enhanceHerbBiomeHelp } from "./merp-rmu/herb-biomes.js";
+import { applyCreationTalentTypography } from "./merp-rmu/creation-talents-typography.js";
 
 const MODULE_ID = "merp-ui";
 const CATALOG_PATH = `modules/${MODULE_ID}/assets/catalog.json`;
@@ -636,6 +637,7 @@ async function localizeCharacterCreationRoot(app, root) {
   if (!(root instanceof HTMLElement)) return;
   if (!isLikelyCharacterCreationApplication(app, root)) return;
   markCreationTalentTables(root);
+  applyCreationTalentTypography(root);
   // The mutation observer must also run in EN for asynchronously rendered tables.
   if (!creationObservers.has(root)) {
     let pending = false;

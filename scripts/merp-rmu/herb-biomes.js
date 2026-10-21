@@ -52,21 +52,21 @@ const REGIONS = {
 };
 const TRANSLATION = {
   fr: {
-    help: "Comprendre les codes de biomes",
+    help: "Codes de localisation des herbes — MERP",
     code: "Code de l’ouvrage", climate: "Climat", terrain: "Terrain / biome",
     difficulty: "Difficulté de découverte", region: "Région", missing: "Non précisé",
-    legend: "Afficher la légende complète", explanation: "Lecture du code",
+    legend: "Afficher la légende complète", explanation: "Codes de localisation des herbes — MERP",
     source: "Référence : MERP Character Creation Using RMSS/RMFRP v2.5, p. 206.",
-    caution: "Cette légende concerne les codes historiques des herbes, différents des codes de biomes de Creature Law. Les modificateurs sont indicatifs ; RMU reste seul responsable des jets.",
+    caution: "Ces codes proviennent de la table des herbes du document de Whittford. Ils décrivent la source sans modifier les données de la fiche.",
     sections: ["Climats", "Terrains", "Difficultés", "Régions"]
   },
   en: {
-    help: "Explain habitat codes",
+    help: "MERP herb location codes",
     code: "Source code", climate: "Climate", terrain: "Terrain / biome",
     difficulty: "Finding difficulty", region: "Region", missing: "Not specified",
-    legend: "Show full code legend", explanation: "Code breakdown",
+    legend: "Show full code legend", explanation: "MERP herb location codes",
     source: "Source: MERP Character Creation Using RMSS/RMFRP v2.5, p. 206.",
-    caution: "These historical herb habitat codes differ from the biomes used by Creature Law. Listed modifiers are informational; RMU remains authoritative for rolls.",
+    caution: "These codes come from the herb tables in Whittford’s document. They describe the source without changing the item’s data.",
     sections: ["Climates", "Terrain", "Difficulties", "Regions"]
   }
 };

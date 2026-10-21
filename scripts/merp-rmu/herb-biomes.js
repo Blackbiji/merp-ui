@@ -57,7 +57,7 @@ const TRANSLATION = {
     difficulty: "Difficulté de découverte", region: "Région", missing: "Non précisé",
     legend: "Afficher la légende complète", explanation: "Lecture du code",
     source: "Référence : MERP Character Creation Using RMSS/RMFRP v2.5, p. 206.",
-    caution: "Les modificateurs ci-dessus proviennent de la table historique ; le système RMU reste seul responsable des jets et des règles.",
+    caution: "Cette légende concerne les codes historiques des herbes, différents des codes de biomes de Creature Law. Les modificateurs sont indicatifs ; RMU reste seul responsable des jets.",
     sections: ["Climats", "Terrains", "Difficultés", "Régions"]
   },
   en: {
@@ -66,7 +66,7 @@ const TRANSLATION = {
     difficulty: "Finding difficulty", region: "Region", missing: "Not specified",
     legend: "Show full code legend", explanation: "Code breakdown",
     source: "Source: MERP Character Creation Using RMSS/RMFRP v2.5, p. 206.",
-    caution: "Modifiers reflect the historical source table. RMU remains authoritative for actual rolls and game mechanics.",
+    caution: "These historical herb habitat codes differ from the biomes used by Creature Law. Listed modifiers are informational; RMU remains authoritative for rolls.",
     sections: ["Climates", "Terrain", "Difficulties", "Regions"]
   }
 };

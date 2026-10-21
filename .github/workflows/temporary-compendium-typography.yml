@@ -1,0 +1,31 @@
+name: MERP-RMU compendium typography preview
+on:
+  push:
+    branches: [feature/compendium-journal-appearance-rc5]
+    paths:
+      - .github/workflows/temporary-compendium-typography.yml
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check theme targeting and runtime syntax
+        run: |
+          npm run test:compendium-theme
+          node --check scripts/merp-ui.js
+          npm run validate:content-sync
+      - name: Export three-file replacement patch
+        run: |
+          git archive --format=zip --prefix=merp-ui/ -o MERP-UI-RC5-PATCH-COMPENDIUMS-TYPOGRAPHIE-V14.zip HEAD scripts/merp-ui.js scripts/merp-rmu/compendium-browser-theme.js styles/merp-theme.css
+          unzip -t MERP-UI-RC5-PATCH-COMPENDIUMS-TYPOGRAPHIE-V14.zip
+          unzip -Z1 MERP-UI-RC5-PATCH-COMPENDIUMS-TYPOGRAPHIE-V14.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MERP-UI-RC5-PATCH-COMPENDIUMS-TYPOGRAPHIE-V14
+          path: MERP-UI-RC5-PATCH-COMPENDIUMS-TYPOGRAPHIE-V14.zip
+          if-no-files-found: error

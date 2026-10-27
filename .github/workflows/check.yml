@@ -1,4 +1,4 @@
-name: MERP-UI validation
+name: MERP-UI 2.0 validation
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 jobs:
-  offline-checks:
+  release-consistency:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,11 +15,5 @@ jobs:
           node-version: '22'
       - name: JavaScript syntax
         run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
-      - name: Validate skills
-        run: npm run validate:skills
-      - name: Validate Compendium seeds
-        run: npm run validate:compendium-seeds
-      - name: Validate source fingerprint
-        run: npm run validate:content-sync
-      - name: Regression test content sync
-        run: npm run test:content-sync
+      - name: Validate distribution, 9 Compendiums, 455 source hashes, and FR/EN content
+        run: npm run validate:release

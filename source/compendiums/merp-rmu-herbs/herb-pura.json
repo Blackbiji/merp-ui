@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "28gp",
-      "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 2, traditionnellement associé aux Woses du Nord-Ouest.</p>",
+      "notes": "<p>Le <strong>Pûra</strong> appartient aux préparations toxiques traditionnellement associées aux <strong>Drúedain (Woses)</strong> du nord-ouest de la Terre du Milieu. Il s'agit d'un savoir particulier plutôt que d'une plante sauvage identifiée par une fiche botanique. Les ingrédients et le milieu naturel nécessaires à sa production ne sont pas précisés dans les données actuellement conservées.</p>\n<p>La substance est utilisée sous forme de <strong>pâte</strong> et relève des <strong>poisons de conversion de niveau 2</strong>. En l'absence d'effet particulier documenté, le Pûra provoque les conséquences générales d'un poison de conversion selon le résultat du Jet de Résistance. Son origine culturelle et la transmission limitée de ce savoir peuvent rendre la substance difficile à obtenir en dehors des communautés qui la connaissent.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Pûra",
       "system": {
-        "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 2, traditionnellement associé aux Woses du Nord-Ouest.</p>"
+        "notes": "<p>Le <strong>Pûra</strong> appartient aux préparations toxiques traditionnellement associées aux <strong>Drúedain (Woses)</strong> du nord-ouest de la Terre du Milieu. Il s'agit d'un savoir particulier plutôt que d'une plante sauvage identifiée par une fiche botanique. Les ingrédients et le milieu naturel nécessaires à sa production ne sont pas précisés dans les données actuellement conservées.</p>\n<p>La substance est utilisée sous forme de <strong>pâte</strong> et relève des <strong>poisons de conversion de niveau 2</strong>. En l'absence d'effet particulier documenté, le Pûra provoque les conséquences générales d'un poison de conversion selon le résultat du Jet de Résistance. Son origine culturelle et la transmission limitée de ce savoir peuvent rendre la substance difficile à obtenir en dehors des communautés qui la connaissent.</p>"
       }
     },
     "en": {
       "name": "Pûra",
       "system": {
-        "notes": "<p>To obtain its properties, it is prepared as a paste.</p><p>Level 2 conversion poison traditionally associated with the Woses of the North-West.</p>"
+        "notes": "<p><strong>Pûra</strong> is a toxic preparation traditionally associated with the <strong>Drúedain (Woses)</strong> of northwestern Middle-earth. It represents a particular inherited craft rather than an identifiable wild herb. The preserved records give neither its precise ingredients nor a verified habitat in which they may be found.</p>\n<p>Used as a <strong>paste</strong>, it counts as a <strong>level 2 conversion poison</strong>. With no specific additional effect documented, it causes the general effects of its poison family, as determined by the Resistance Roll. Its cultural origin and the limited transmission of this knowledge may make Pûra difficult to obtain outside communities that know how to prepare it.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Conversion"
     ],
     "en": [
+      "Poisons",
       "Conversion"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-conversion"
   ]
 }

@@ -15,7 +15,7 @@
 
 :root {
   --merp-font: "PragRoman", Georgia, "Times New Roman", serif;
-  --merp-body-size: 13px; /* 1.6.0 RC1 — taille par défaut du corps des journaux */
+  --merp-body-size: 10.75px; /* RC3, ajustement : +1 px sur le corps des Journaux MERP-UI */
   --merp-body-leading: 1.43;
   --merp-heading-leading: 1.14;
 }
@@ -213,7 +213,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h1 {
-  font-size: 1.38rem !important;
+  font-size: 1.035rem !important;
 }
 
 :is(
@@ -224,7 +224,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h2 {
-  font-size: 1.14rem !important;
+  font-size: 0.855rem !important;
 }
 
 :is(
@@ -235,7 +235,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h3 {
-  font-size: 1rem !important;
+  font-size: 0.75rem !important;
 }
 
 :is(
@@ -246,7 +246,7 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h4 {
-  font-size: 0.94rem !important;
+  font-size: 0.705rem !important;
 }
 
 :is(
@@ -333,7 +333,7 @@
   .search input
 ) {
   font-family: var(--merp-font) !important;
-  font-size: .94rem;
+  font-size: .705rem;
   font-style: normal;
 }
 
@@ -355,7 +355,7 @@
   .directory-item > a,
   .directory-item > span
 ) {
-  font-size: 1rem;
+  font-size: 0.75rem;
   line-height: 1.2;
 }
 
@@ -378,7 +378,7 @@
   ul li > a
 ) {
   font-family: var(--merp-font) !important;
-  font-size: .91rem;
+  font-size: .6825rem;
   line-height: 1.22;
 }
 
@@ -400,7 +400,7 @@
   .number
 ) {
   font-family: var(--merp-font) !important;
-  font-size: .92rem;
+  font-size: .69rem;
   opacity: .72;
   font-variant-numeric: lining-nums tabular-nums;
 }
@@ -1059,4 +1059,309 @@
 ) {
   font-size: .80em !important;
   line-height: 1.06 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* RC3 — Test de réduction typographique globale MERP-UI (-25 %).            */
+/* Uniquement Journaux MERP-UI : titres d'en-tête, index et liens.           */
+/* Les feuilles de personnage RMU et les contrôles généraux sont préservés.  */
+/* ------------------------------------------------------------------------- */
+
+.merp-ui-journal :is(
+  .journal-header .title,
+  .journal-header input[name="name"],
+  .journal-page-header,
+  .page-heading
+) {
+  font-size: 0.75rem !important;
+}
+
+.merp-ui-journal :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror
+) {
+  font-size: var(--merp-body-size) !important;
+}
+
+.merp-ui-journal :is(
+  .journal-entry-content,
+  .journal-page-content,
+  .editor-content,
+  .prosemirror,
+  .ProseMirror
+) :is(p, li, dt, dd, th, td, blockquote) {
+  font-size: inherit;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* RC3 — Ajustement fin validé : seul l'en-tête central des pages de Journal. */
+/* Le titre du document, la table des matières et les sous-titres éditoriaux */
+/* conservent l'échelle typographique compacte déjà validée.                 */
+/* ------------------------------------------------------------------------- */
+.merp-ui-journal :is(
+  .journal-entry-page > header,
+  .journal-entry-page > .journal-page-header,
+  .journal-entry-page > .page-header,
+  .journal-page > .journal-page-header
+) {
+  font-size: 22px !important;
+}
+
+.merp-ui-journal :is(
+  .journal-entry-page > header,
+  .journal-entry-page > .journal-page-header,
+  .journal-entry-page > .page-header,
+  .journal-page > .journal-page-header
+) :is(h1, h2, .title, .page-title, .page-heading) {
+  font-family: var(--merp-font) !important;
+  font-size: 22px !important;
+  line-height: 1.15 !important;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* RC3 — Titre central du Journal (bandeau supérieur gris de Foundry V14).   */
+/* Distinct du titre de fenêtre, du titre de page dans le contenu et du TOC. */
+/* ------------------------------------------------------------------------- */
+.merp-ui-journal .journal-header :is(
+  .title,
+  .page-title,
+  h1,
+  h2,
+  input[name="name"]
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 22px !important;
+  line-height: 1.18 !important;
+}
+
+
+/* RC5 — PragRoman : contenu du chat Foundry / cartes RMU.
+   Préserver les polices d'icônes et les contrôles éditables. */
+:is(#chat-log, #chat-messages) :is(
+  .chat-message, .message-content, .message-header,
+  .rmu-primary-chat-card__content, .rmu-primary-card-container,
+  .rmu-primary-container__content, .rmu-primary-container__title,
+  .rmu-primary-container__title-details-container
+),
+:is(#chat-log, #chat-messages) :is(
+  .message-content, .rmu-primary-chat-card__content,
+  .rmu-primary-card-container, .rmu-primary-container__content
+) :is(p, li, ul, ol, div, span, strong, em, blockquote, table, th, td),
+:is(.journal-sheet, .journal-entry, .journal-entry-sheet, .journal-page, .journal-entry-page, .journal-entry-content, .journal-page-content) :is(
+  p, li, ul, ol, div, span, strong, em, blockquote, table, th, td,
+  h1, h2, h3, h4, h5, h6
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+}
+/* Contenu HTML des journaux ouverts par des modules complémentaires. */
+:is(.journal-sheet, .journal-entry, .journal-entry-sheet, .journal-page, .journal-entry-page) :is(
+  .journal-entry-pages, .journal-entry-content, .journal-page-content,
+  .prosemirror, .editor-content
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+}
+/* Les icônes Font Awesome ne doivent pas devenir des glyphes PragRoman. */
+:is(#chat-log, #chat-messages, .journal-sheet, .journal-entry, .journal-entry-sheet, .journal-page, .journal-entry-page) :is(
+  i.fa, i.fas, i.far, i.fal, i.fab, i[class*="fa-"],
+  .fa, .fas, .far, .fal, .fab, [class^="fa-"], [class*=" fa-"]
+) {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free", "Font Awesome 5 Free", FontAwesome !important;
+}
+
+
+/* RC5 — Harmonisation RMU : textes hérités dans le chat / journaux.
+   Cible la lecture, pas les éditeurs, champs de formulaire ou pictogrammes. */
+:root { --merp-rc5-prose-font: var(--merp-font, "PragRoman", Georgia, serif); }
+
+#chat-log .chat-message :is(.message-content, .message-content *, .message-header .message-sender),
+#chat-messages .chat-message :is(.message-content, .message-content *, .message-header .message-sender),
+.chat-popout .chat-message :is(.message-content, .message-content *, .message-header .message-sender) {
+  font-family: var(--merp-rc5-prose-font) !important;
+}
+
+/* Un journal d'extension est un journal Foundry classique : ne pas cibler
+   uniquement .merp-ui-journal, qui ne lui appartient pas. */
+:is(.journal-sheet, .journal-entry-sheet, .journal-entry) :is(
+  .journal-entry-pages, .journal-page-content, .journal-entry-content,
+  .journal-entry-page, .prosemirror, .ProseMirror, .editor-content,
+  .journal-toc, .pages-list
+),
+:is(.journal-sheet, .journal-entry-sheet, .journal-entry) :is(
+  .journal-entry-pages, .journal-page-content, .journal-entry-content,
+  .journal-entry-page, .prosemirror, .ProseMirror, .editor-content,
+  .journal-toc, .pages-list
+) :is(h1,h2,h3,h4,h5,h6,p,li,ul,ol,blockquote,table,td,th,div,span,a,strong,em) {
+  font-family: var(--merp-rc5-prose-font) !important;
+}
+
+/* Protéger les polices d'icônes : les sélecteurs universels ci-dessus ne doivent
+   pas transformer les symboles de contrôle en caractères PragRoman. */
+:is(#chat-log, #chat-messages, .chat-popout, .journal-sheet, .journal-entry-sheet, .journal-entry)
+:is(.fa, .fas, .far, .fal, .fab, .fa-solid, .fa-regular, [class^="fa-"], [class*=" fa-"]) {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free", "Font Awesome 5 Free", FontAwesome !important;
+}
+/* Ne pas détourner les typographies de code et de données monospace. */
+:is(#chat-log, #chat-messages, .chat-popout, .journal-sheet, .journal-entry-sheet, .journal-entry)
+:is(code, pre, kbd, samp, pre *, code *) {
+  font-family: ui-monospace, Consolas, "Liberation Mono", monospace !important;
+}
+
+/* Fenêtres des journaux : remplacer uniquement la bordure de focus saturée
+   sur les contenus, tout en conservant un signal de focus accessible. */
+:is(.journal-sheet, .journal-entry-sheet, .journal-entry)
+:is(.journal-page-content, .journal-entry-content, .prosemirror, .ProseMirror):focus-visible {
+  outline: 2px solid #927451 !important;
+  outline-offset: 1px;
+}
+
+
+/* RC5 — Retours visuels : taille compacte et véritable couverture chat / RMU.
+   Les tailles sont en px pour ne pas amplifier celles de PragRoman en rem. */
+:is(.journal-sheet, .journal-entry-sheet, .journal-entry) :is(
+  .journal-entry-pages, .journal-page-content, .journal-entry-content,
+  .journal-entry-page, .prosemirror, .ProseMirror, .editor-content,
+  .journal-toc, .pages-list
+) :is(p, li, td, th, blockquote, dt, dd) {
+  font-size: 13px !important;
+  line-height: 1.36 !important;
+}
+:is(.journal-sheet, .journal-entry-sheet, .journal-entry) :is(
+  .journal-entry-pages, .journal-page-content, .journal-entry-content,
+  .journal-entry-page, .prosemirror, .ProseMirror, .editor-content
+) :is(h1, h2, h3, h4) {
+  line-height: 1.16 !important;
+}
+/* Les journaux MERP eux-mêmes gardent leur taille éditoriale déjà validée. */
+.merp-ui-journal :is(.journal-entry-pages, .journal-page-content, .journal-entry-content)
+:is(p, li, td, th, blockquote, dt, dd) {
+  font-size: var(--merp-body-size, 10.75px) !important;
+}
+/* Chat : Foundry 13/14, cartes RMU et messages dont le corps n'utilise pas
+   les noms de classe habituels. Le style reste limité au contenu d'un message. */
+:is(#chat-log, #chat-messages, .chat-popout, #chat-popout, .chat-sidebar)
+.chat-message :is(.message-content, .message-content *, .dice-roll, .dice-roll *,
+.rmu-primary-chat-card__content, .rmu-primary-chat-card__content *) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 12px !important;
+  line-height: 1.28 !important;
+}
+/* Chat Foundry v13/14 : panneau du journal de chat et anciens ID. */
+:is(#chat, #chat-log, #chat-messages, .chat-popout, #chat-popout)
+:is(.message-content, .message-content *) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 12px !important;
+  line-height: 1.28 !important;
+}
+/* Fenêtres de manœuvre / de compétences de RMU : sans toucher à la géométrie,
+   aux cases, aux listes déroulantes ni à la police de leurs icônes. */
+:is(.application[class*="rmu-"], .app[class*="rmu-"], .rmu-appv2-dialog,
+.rmu-dialog, .rmu-maneuver-dialog, .rmu-manoeuvre-dialog)
+:is(.window-content, .window-content *, .window-title, .dialog-content, .dialog-content *)
+:not(:is(input, textarea, select, button, option, svg, i, .fa, .fas, .far, .fab,
+.fa-solid, .fa-regular, [class^="fa-"], [class*=" fa-"])) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+}
+:is(.application[class*="rmu-"], .app[class*="rmu-"], .rmu-appv2-dialog,
+.rmu-dialog, .rmu-maneuver-dialog, .rmu-manoeuvre-dialog)
+:is(.window-content, .dialog-content)
+:is(p, li, label, td, th, dt, dd, span, strong, small) {
+  font-size: 12px !important;
+  line-height: 1.25 !important;
+}
+/* Préserver icônes et typographies monospace de toutes les zones couvertes. */
+:is(#chat, #chat-log, #chat-messages, .chat-popout, #chat-popout,
+.rmu-appv2-dialog, .rmu-dialog, .rmu-maneuver-dialog,
+.application[class*="rmu-"], .app[class*="rmu-"])
+:is(.fa, .fas, .far, .fal, .fab, .fa-solid, .fa-regular,
+[class^="fa-"], [class*=" fa-"]) {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free", "Font Awesome 5 Free", FontAwesome !important;
+}
+:is(#chat, #chat-log, #chat-messages, .chat-popout, #chat-popout,
+.rmu-appv2-dialog, .rmu-dialog, .application[class*="rmu-"])
+:is(code, pre, kbd, samp, pre *, code *) {
+  font-family: ui-monospace, Consolas, monospace !important;
+}
+
+
+/* RC6 private hotfix — Welcome action buttons in ALL rendering surfaces.
+   The same ChatMessage can appear in the chat log, a chat pop-out or as a
+   floating on-map notification. Restricting this override to #chat-log or
+   #chat-messages left the floating notification styled in PragRoman.
+   The :is() alternative containing body allows every one of those surfaces;
+   the id alternatives give enough specificity to beat earlier chat rules.
+   This targets only MERP-UI's welcome card and preserves icon fonts. */
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 6px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  align-items: stretch !important;
+}
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button {
+  box-sizing: border-box !important;
+  display: grid !important;
+  grid-template-columns: 20px minmax(0, 1fr) !important;
+  align-items: center !important;
+  column-gap: 6px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 42px !important;
+  margin: 0 !important;
+  padding: 7px 12px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+}
+/* New welcome messages use a separate label; legacy chat messages with a
+   direct text node retain the above styling and grid layout too. */
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button
+.merp-ui-welcome-button-label {
+  display: block !important;
+  min-width: 0 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-align: center !important;
+}
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button
+:is(i.fa, i.fas, i.far, i.fal, i.fab, i.fa-solid, i.fa-regular, i.fa-brands) {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free", "Font Awesome 5 Free", FontAwesome !important;
+  font-size: 15px !important;
+  line-height: 1 !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  justify-self: center !important;
 }

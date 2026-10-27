@@ -35,16 +35,16 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "V",
       "findDifficulty": "Sheer Folly",
       "form": "Gas",
-      "prep": "ingest",
+      "prep": "inhale",
       "season": "",
       "cost": "85gp",
-      "notes": "<p>Ce gaz se rencontre surtout dans les régions au climat semi-aride, notamment dans les terrains volcaniques.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10 sous forme gazeuse. Un échec au Jet de Résistance plonge dans un profond sommeil de 1 à 10 heures.</p>",
+      "notes": "<p>Le Thuryik est une substance toxique <strong>à l'état gazeux</strong>, associée aux <strong>terrains volcaniques des régions semi-arides</strong>. Sa collecte et sa conservation posent des difficultés distinctes de celles d'une herbe ou d'un venin liquide. Les données actuelles ne décrivent pas davantage son origine.</p>\n<p>Lorsqu'une victime est exposée à ce gaz et échoue à son Jet de Résistance, elle sombre dans un <strong>sommeil profond de 1 à 10 heures</strong>. Le Thuryik relève de la famille des poisons respiratoires, mais la propriété spécifique conservée ici concerne l'endormissement. L'étendue d'une exposition dépend des circonstances de la scène ; la propriété particulière du Thuryik demeure ce sommeil prolongé après un échec au Jet de Résistance.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Thuryik",
       "system": {
-        "notes": "<p>Ce gaz se rencontre surtout dans les régions au climat semi-aride, notamment dans les terrains volcaniques.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10 sous forme gazeuse. Un échec au Jet de Résistance plonge dans un profond sommeil de 1 à 10 heures.</p>"
+        "notes": "<p>Le Thuryik est une substance toxique <strong>à l'état gazeux</strong>, associée aux <strong>terrains volcaniques des régions semi-arides</strong>. Sa collecte et sa conservation posent des difficultés distinctes de celles d'une herbe ou d'un venin liquide. Les données actuelles ne décrivent pas davantage son origine.</p>\n<p>Lorsqu'une victime est exposée à ce gaz et échoue à son Jet de Résistance, elle sombre dans un <strong>sommeil profond de 1 à 10 heures</strong>. Le Thuryik relève de la famille des poisons respiratoires, mais la propriété spécifique conservée ici concerne l'endormissement. L'étendue d'une exposition dépend des circonstances de la scène ; la propriété particulière du Thuryik demeure ce sommeil prolongé après un échec au Jet de Résistance.</p>"
       }
     },
     "en": {
       "name": "Thuryik",
       "system": {
-        "notes": "<p>This gas is found chiefly in semi-arid climates, especially in volcanic terrain.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 10 respiratory poison in gaseous form. A failed Resistance Roll puts the victim into a deep sleep for 1–10 hours.</p>"
+        "notes": "<p>Thuryik is a toxic <strong>gas</strong> associated with <strong>volcanic terrain in semi-arid regions</strong>. Collecting and containing it present difficulties unlike those involved in gathering an herb or extracting liquid venom. The surviving data do not further establish its origin.</p>\n<p>When a victim is exposed to the gas and fails the Resistance Roll, they fall into a <strong>deep sleep lasting 1–10 hours</strong>. Thuryik belongs to the respiratory-poison family, but its recorded special effect is sleep. The extent of an exposure depends on the circumstances of the scene; its distinctive property remains prolonged unconsciousness after a failed Resistance Roll.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Respiratoires"
     ],
     "en": [
+      "Poisons",
       "Respiratory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-respiratoires"
   ]
 }

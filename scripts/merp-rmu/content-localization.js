@@ -42,24 +42,24 @@ export function managedDefinitionCollection(definition, fallback = null) {
     ?? fallback;
 }
 
-export function findManagedItemForDefinition(definition, fallbackCollection = null) {
+// Items and Journals use the same lookup precedence: prefer an exact
+// MERP-UI collection match, then fall back to the first matching key.
+function findManagedDocumentForDefinition(documents, definition, fallbackCollection = null) {
   const collection = managedDefinitionCollection(definition, fallbackCollection);
-  const byKey = game.items.filter((item) =>
-    item.getFlag?.(MODULE_ID, "key") === definition?.key
+  const byKey = documents.filter((document) =>
+    document.getFlag?.(MODULE_ID, "key") === definition?.key
   );
-  return byKey.find((item) =>
-    !collection || item.getFlag?.(MODULE_ID, "collection") === collection
+  return byKey.find((document) =>
+    !collection || document.getFlag?.(MODULE_ID, "collection") === collection
   ) ?? byKey[0] ?? null;
 }
 
+export function findManagedItemForDefinition(definition, fallbackCollection = null) {
+  return findManagedDocumentForDefinition(game.items, definition, fallbackCollection);
+}
+
 export function findManagedJournalForDefinition(definition, fallbackCollection = null) {
-  const collection = managedDefinitionCollection(definition, fallbackCollection);
-  const byKey = game.journal.filter((journal) =>
-    journal.getFlag?.(MODULE_ID, "key") === definition?.key
-  );
-  return byKey.find((journal) =>
-    !collection || journal.getFlag?.(MODULE_ID, "collection") === collection
-  ) ?? byKey[0] ?? null;
+  return findManagedDocumentForDefinition(game.journal, definition, fallbackCollection);
 }
 
 export async function applyManagedItemLocalization(definition, {
@@ -168,6 +168,34 @@ export async function applyFolderDefinitionLocalization(definition, type, parent
   return { action: "localized", folder: existing };
 }
 
+// The Item and JournalEntry trees share the same parent-resolution logic.
+// Preserve the legacy Item-only fallback lookup for missing folder results.
+async function localizeFolderDefinitions(definitions, type, root, { recoverExisting = false } = {}) {
+  const results = [];
+  const known = new Map();
+
+  for (const definition of definitions) {
+    const parent = definition.parent ? known.get(definition.parent) : root;
+    const resolvedParent = parent ?? root;
+    const result = await applyFolderDefinitionLocalization(definition, type, resolvedParent);
+
+    if (result.folder) known.set(definition.key, result.folder);
+    else if (recoverExisting) {
+      const aliases = localizedFolderAliases(definition);
+      const parentId = resolvedParent?.id ?? null;
+      const existing = game.folders.find((folder) =>
+        folder.type === type &&
+        aliases.includes(folder.name) &&
+        folderParentId(folder) === parentId
+      ) ?? null;
+      if (existing) known.set(definition.key, existing);
+    }
+    results.push(result);
+  }
+
+  return results;
+}
+
 export async function refreshManagedDatasetLocalization(data, {
   itemDefinitions = null,
   itemCollection = null,
@@ -207,50 +235,18 @@ export async function refreshManagedDatasetLocalization(data, {
     const definitions = data.folders.map((folder) =>
       typeof folder === "string" ? { key: folder, name: folder, parent: null } : folder
     );
-    const known = new Map();
-
-    for (const definition of definitions) {
-      const parent = definition.parent
-        ? known.get(definition.parent)
-        : itemFolderRoot;
-      const result = await applyFolderDefinitionLocalization(
-        definition,
-        "Item",
-        parent ?? itemFolderRoot
-      );
-      if (result.folder) known.set(definition.key, result.folder);
-      else {
-        const aliases = localizedFolderAliases(definition);
-        const parentId = (parent ?? itemFolderRoot)?.id ?? null;
-        const existing = game.folders.find((folder) =>
-          folder.type === "Item" &&
-          aliases.includes(folder.name) &&
-          folderParentId(folder) === parentId
-        ) ?? null;
-        if (existing) known.set(definition.key, existing);
-      }
-      folderResults.push(result);
-    }
+    folderResults.push(...await localizeFolderDefinitions(
+      definitions, "Item", itemFolderRoot, { recoverExisting: true }
+    ));
   }
 
   if (Array.isArray(data?.journalFolders) && journalFolderRoot) {
     const definitions = data.journalFolders.map((folder) =>
       typeof folder === "string" ? { key: folder, name: folder, parent: null } : folder
     );
-    const known = new Map();
-
-    for (const definition of definitions) {
-      const parent = definition.parent
-        ? known.get(definition.parent)
-        : journalFolderRoot;
-      const result = await applyFolderDefinitionLocalization(
-        definition,
-        "JournalEntry",
-        parent ?? journalFolderRoot
-      );
-      if (result.folder) known.set(definition.key, result.folder);
-      folderResults.push(result);
-    }
+    folderResults.push(...await localizeFolderDefinitions(
+      definitions, "JournalEntry", journalFolderRoot
+    ));
   }
 
   const result = {

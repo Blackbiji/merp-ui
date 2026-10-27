@@ -1,0 +1,719 @@
+/* ------------------------------------------------------------------------- */
+/* MERP UI 1.6.0-alpha.4 — Compendiums                                      */
+/* Les libellés des packs sont désormais monolingues selon la langue active. */
+/* Légère réduction supplémentaire pour garder les cartes lisibles.          */
+/* ------------------------------------------------------------------------- */
+
+#compendium :is(
+  .directory-item,
+  .compendium-pack,
+  .compendium
+) :is(
+  .entry-name,
+  .document-name,
+  .compendium-name,
+  h3,
+  h4
+) {
+  font-size: 0.88em !important;
+  line-height: 1.08 !important;
+}
+
+
+
+/* MERP UI 1.6.0-alpha.6 — Journal Compendium headers */
+.merp-ui-journal-compendium .window-header .window-title,
+.merp-ui-journal-compendium .window-title {
+  flex: 1 1 auto !important;
+  text-align: center !important;
+}
+
+
+
+/* MERP UI 1.6.0-alpha.8 — Long Herbs & Substances pack label */
+#compendium [data-pack="merp-ui.merp-rmu-herbs"] :is(
+  .compendium-name,
+  .entry-name,
+  .document-name,
+  h3,
+  h4
+),
+#compendium [data-entry-id="merp-ui.merp-rmu-herbs"] :is(
+  .compendium-name,
+  .entry-name,
+  .document-name,
+  h3,
+  h4
+) {
+  width: 100% !important;
+  text-align: center !important;
+  justify-content: center !important;
+  font-size: 0.82em !important;
+  line-height: 1.02 !important;
+}
+
+
+
+/* MERP UI 1.6.0-alpha.12 — Welcome chat card */
+.merp-ui-welcome-chat-card {
+  padding: 0.35rem 0.15rem;
+}
+
+.merp-ui-welcome-chat-card h3 {
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.merp-ui-welcome-chat-card ul {
+  margin: 0.45rem 0 0.65rem 1.1rem;
+}
+
+.merp-ui-welcome-chat-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+}
+
+.merp-ui-welcome-chat-actions button {
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------- */
+/* MERP-UI RC2 — Lettrines ancrées en haut à gauche du paragraphe narratif.    */
+/* Image 223 x 254 px : ratio conservé, sans centrage horizontal parasite.   */
+/* ------------------------------------------------------------------------- */
+.merp-ui-journal {
+  --merp-dropcap-size: 52px; /* hauteur de la lettrine ; modifiable */
+}
+
+.merp-ui-journal p.merp-ui-dropcap-paragraph {
+  display: flow-root;
+  position: relative;
+  text-align: left !important;
+  text-indent: 0 !important;
+  min-height: var(--merp-dropcap-size);
+}
+
+/* Ciblage direct : la lettrine est toujours le premier enfant du paragraphe. */
+.merp-ui-journal p.merp-ui-dropcap-paragraph > .merp-ui-dropcap {
+  display: block !important;
+  float: left !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  width: calc(var(--merp-dropcap-size) * 223 / 254) !important;
+  height: var(--merp-dropcap-size) !important;
+  margin: 0 0.42rem 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  line-height: 0 !important;
+  vertical-align: top !important;
+  text-indent: 0 !important;
+  clear: none !important;
+  shape-outside: inset(0);
+}
+
+.merp-ui-journal p.merp-ui-dropcap-paragraph > .merp-ui-dropcap > img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: left top !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* La majuscule demeure accessible aux lecteurs d'écran. */
+.merp-ui-journal .merp-ui-dropcap-readable {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}
+
+/* Readable Talent descriptions. Explicit pixel fallback for pre-hook renders;
+ * after rendering, the typography helper measures the neighbouring INSTRUCTIONS
+ * frame and applies the same font size via inline CSS !important. */
+.merp-ui-creation-talents-table :is(h1, h2, h3, h4, h5, h6) {
+  color: #232323 !important;
+  text-shadow: none !important;
+  background: transparent !important;
+  opacity: 1 !important;
+  letter-spacing: normal !important;
+  font-weight: 700 !important;
+  line-height: 1.23 !important;
+  padding: 0 !important;
+}
+.merp-ui-creation-talents-table h1 {
+  font-size: 16px !important;
+  margin: 3px 0 2px !important;
+}
+.merp-ui-creation-talents-table :is(h2, h3, h4, h5, h6) {
+  font-size: 16px !important;
+  margin: 3px 0 2px !important;
+}
+.merp-ui-creation-talents-table :is(td, th) {
+  padding: 0.3rem 0.55rem !important;
+  vertical-align: top;
+}
+.merp-ui-creation-talents-table td :is(p, li) {
+  color: #272727 !important;
+  font-size: 16px !important;
+  line-height: 1.38 !important;
+  text-shadow: none !important;
+}
+
+/* CLEAN-07 — Talents: compact mechanical values without resizing descriptions. */
+.merp-ui-creation-talents-table td p > b {
+  font-size: 0.75rem !important;
+  line-height: 1.25 !important;
+  overflow-wrap: anywhere;
+}
+
+/* MERP-UI: accessible bilingual herb biome-code help, herb sheets only. */
+.merp-ui-herb-biome-help {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-inline-start: 0.4rem !important;
+  padding: 0 !important;
+  width: 1.23rem !important;
+  height: 1.23rem !important;
+  min-width: 1.23rem !important;
+  min-height: 1.23rem !important;
+  border: 1px solid #8b7859 !important;
+  border-radius: 50% !important;
+  background: #eee3cf !important;
+  color: #33302a !important;
+  text-shadow: none !important;
+  font: 700 0.83rem/1 sans-serif !important;
+  cursor: help !important;
+  vertical-align: middle;
+}
+.merp-ui-herb-biome-help:hover,
+.merp-ui-herb-biome-help:focus-visible {
+  background: #dfcfac !important;
+  outline: 2px solid #8b7859;
+  outline-offset: 2px;
+}
+.merp-ui-herb-biome-panel[hidden] { display: none !important; }
+.merp-ui-herb-biome-panel {
+  box-sizing: border-box;
+  margin: 0.45rem 0.3rem 0.85rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #9d917b;
+  border-left: 3px solid #8b7859;
+  border-radius: 0.45rem;
+  background: #f6f3eb;
+  color: #222 !important;
+  font-family: inherit;
+  font-size: 0.92rem;
+  text-shadow: none !important;
+  overflow-wrap: anywhere;
+  width: min(100%, 48rem);
+  grid-column: 1 / -1;
+}
+.merp-ui-herb-biome-panel :is(h3, h4) {
+  margin: 0 0 0.45rem !important;
+  padding: 0 !important;
+  color: #26221d !important;
+  text-shadow: none !important;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.merp-ui-herb-biome-panel h3 { font-size: 1.05rem !important; }
+.merp-ui-herb-biome-panel h4 { font-size: 0.96rem !important; }
+.merp-ui-herb-biome-source-code {
+  margin: 0.3rem 0 0.55rem;
+}
+.merp-ui-herb-biome-source-code code {
+  padding: 0.12rem 0.35rem;
+  border-radius: 0.2rem;
+  background: #e6ddd0;
+  font-family: monospace;
+  color: #26221d;
+  white-space: nowrap;
+}
+.merp-ui-herb-biome-detail,
+.merp-ui-herb-biome-code-list {
+  display: grid;
+  grid-template-columns: minmax(5rem, 36%) minmax(0, 1fr);
+  gap: 0.22rem 0.65rem;
+  margin: 0.25rem 0 0.6rem;
+  line-height: 1.4;
+}
+.merp-ui-herb-biome-panel dt {
+  margin: 0;
+  font-weight: 700;
+  color: #34302b;
+}
+.merp-ui-herb-biome-panel dd {
+  margin: 0;
+  color: #252525;
+}
+.merp-ui-herb-biome-legend { margin-top: 0.5rem; }
+.merp-ui-herb-biome-legend summary {
+  color: #57452b !important;
+  cursor: pointer;
+  font-weight: 700;
+}
+.merp-ui-herb-biome-legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  gap: 0.75rem;
+  margin-top: 0.65rem;
+}
+.merp-ui-herb-biome-legend-section {
+  min-width: 0;
+  background: #faf8f2;
+  padding: 0.6rem;
+  border: 1px solid #e4d8c6;
+  border-radius: 0.35rem;
+}
+.merp-ui-herb-biome-legend-section .merp-ui-herb-biome-code-list {
+  grid-template-columns: 2.5rem minmax(0, 1fr);
+  font-size: 0.86rem;
+}
+.merp-ui-herb-biome-footnote,
+.merp-ui-herb-biome-source {
+  margin: 0.45rem 0 0;
+  color: #5b5449 !important;
+  font-size: 0.81rem;
+  line-height: 1.35;
+}
+
+/* RC5 — MERP-RMU Compendium: target Foundry's *actual* .header-banner.
+ * The original pack banner belongs to .header-banner, not .window-content.
+ * Replace the previous RC5 experiment instead of appending another override.
+ * Dark title and contiguous search strip; pale lists and PragRoman unchanged.
+ */
+.merp-ui-compendium-browser {
+  --merp-c-paper: #f6f3ed;
+  --merp-c-ink: #27221d;
+  --merp-c-folder: #dcd8d0;
+  --merp-c-line: #c6bfb5;
+  --merp-c-font: var(--merp-font, "PragRoman", Georgia, serif);
+  --merp-c-art: url("../assets/compendium-minas-tirith-banner.jpg");
+  font-family: var(--merp-c-font) !important;
+  color: var(--merp-c-ink) !important;
+}
+:is(.application,.window-app).merp-ui-compendium-browser .window-header {
+  background: linear-gradient(to bottom, rgba(7,10,14,.80), rgba(7,10,14,.32)) !important;
+  color: #f7efe3 !important;
+  border-bottom: 0 !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser .window-header :is(.window-title,.title,h1,h2,button,.header-control,.window-control) {
+  color: #faf3e9 !important;
+  text-shadow: 0 1px 2px #080a0c !important;
+}
+.merp-ui-compendium-browser .window-header .window-title {
+  font: 700 17px/1.22 var(--merp-c-font) !important;
+}
+:is(.application,.window-app).merp-ui-compendium-browser .window-content {
+  background: var(--merp-c-paper) !important;
+  color: var(--merp-c-ink) !important;
+  row-gap: 0 !important;
+  gap: 0 !important;
+}
+/* Foundry V13/V14's native illustration sits on .header-banner.
+ * Override even an inline background-image on this exact element.
+ * Include older banner class variants as guarded fallbacks. */
+:is(.application,.window-app).merp-ui-compendium-browser :is(
+  .header-banner, .pack-banner, .compendium-banner, .compendium-header
+) {
+  background-color: #19212a !important;
+  background-image:
+    linear-gradient(to right, rgba(9,13,19,.75), rgba(11,15,20,.47) 48%, rgba(9,13,19,.34)),
+    var(--merp-c-art) !important;
+  background-size: 100% 100%, cover !important;
+  background-position: center center, 66% 44% !important;
+  background-repeat: no-repeat !important;
+  border: 0 !important;
+  color: #fff7eb !important;
+  text-shadow: 0 1px 3px #050607 !important;
+}
+/* Some Foundry themes implement the old banner through a pseudo-element. */
+.merp-ui-compendium-browser :is(.header-banner,.pack-banner,.compendium-banner)::before,
+.merp-ui-compendium-browser :is(.header-banner,.pack-banner,.compendium-banner)::after {
+  background-image: none !important;
+}
+.merp-ui-compendium-browser :is(.header-banner,.pack-banner,.compendium-banner,.compendium-header)
+:is(h1,h2,h3,h4,.window-title,.title,.pack-title,.compendium-title,.header-title,strong,a:not(.control),span:not(.icon)) {
+  color: #fff7eb !important;
+  -webkit-text-fill-color: #fff7eb !important;
+  font: 700 17px/1.2 var(--merp-c-font) !important;
+  text-shadow: 0 1px 4px #04070a !important;
+}
+
+/* RC5 follow-up — some Foundry themes inject the pack artwork as a real media
+ * node inside .header-banner (img/picture/video/canvas), not only as a CSS
+ * background. That produces a "double illustration" effect with our Minas
+ * Tirith banner. For MERP compendiums, keep our banner and neutralize those
+ * native media nodes and extra overlays.
+ */
+.merp-ui-compendium-browser :is(.header-banner,.pack-banner,.compendium-banner) {
+  position: relative !important;
+  overflow: hidden !important;
+  isolation: isolate !important;
+}
+.merp-ui-compendium-browser :is(.header-banner,.pack-banner,.compendium-banner)
+  > :is(img,picture,video,canvas,figure,.banner-image,.pack-artwork,.compendium-artwork,.thumbnail,.background,.content-link-image) {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+.merp-ui-compendium-browser :is(.header-banner,.pack-banner,.compendium-banner)
+  :is(.artwork,.banner,.media,.cover,.hero):not(.window-title):not(.title):not(.pack-title):not(.compendium-title) {
+  background-image: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+}
+
+/* Search joins the banner visually: the same image, darkened into the search
+ * controls. No separate white gradient/strip between them. */
+.merp-ui-compendium-browser :is(.directory-header,.compendium-search) {
+  background-color: #1a222b !important;
+  background-image:
+    linear-gradient(180deg,rgba(11,15,21,.76),rgba(11,15,21,.84)),
+    var(--merp-c-art) !important;
+  background-size: 100% 100%, cover !important;
+  background-position: center center, 66% 70% !important;
+  background-repeat: no-repeat !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  color: #f4e7d6 !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(.directory-header,.compendium-search)
+:is(button,a,i,.fa,.fas,.far,.icon) {
+  color: #f4e7d6 !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(.directory-header,.compendium-search) :is(
+  input[type="search"],input[type="text"]
+) {
+  height: 34px !important;
+  min-height: 34px !important;
+  color: #28211c !important;
+  background: #f8f5ef !important;
+  border: 1px solid #b0a79b !important;
+  font: 400 14px/1.2 var(--merp-c-font) !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(.directory-header,.compendium-search)
+:is(input[type="search"],input[type="text"])::placeholder { color:#73685e !important; }
+/* Remove the spacer/margins Foundry inserts between search and list, without
+ * interfering with the scroll area or native folder/document operations. */
+.merp-ui-compendium-browser :is(.directory-content,.directory-list,.compendium-list,.folder-list) {
+  background: var(--merp-c-paper) !important;
+  color: var(--merp-c-ink) !important;
+  border-top: 0 !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  font-family: var(--merp-c-font) !important;
+}
+.merp-ui-compendium-browser :is(.directory-item,.compendium-entry,.folder) {
+  color: var(--merp-c-ink) !important;
+  border-color: var(--merp-c-line) !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(.directory-item,.compendium-entry) {
+  min-height: 34px !important;
+  margin-block: 0 !important;
+  padding-block: 4px !important;
+  box-sizing: border-box !important;
+}
+.merp-ui-compendium-browser :is(
+  .directory-item a:not(.control),.directory-item .entry-name,
+  .directory-item .document-name,.directory-item .name,.directory-item .title,
+  .directory-item h3,.directory-item h4,.compendium-entry .entry-name,
+  .compendium-entry h3,.compendium-entry h4
+) {
+  color: var(--merp-c-ink) !important;
+  font: 400 14px/1.3 var(--merp-c-font) !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(.folder-header,.folder>header,.folder-heading) {
+  min-height: 35px !important;
+  margin: 0 !important;
+  padding: 5px 9px !important;
+  background: var(--merp-c-folder) !important;
+  border-color: var(--merp-c-line) !important;
+  color: #27221d !important;
+}
+.merp-ui-compendium-browser :is(
+  .folder-header,.folder-header .folder-name,.folder-header .name,
+  .folder-header h3,.folder-header h4,.folder-heading,
+  .folder>header h3,.folder>header h4
+) {
+  color: #27221d !important;
+  font: 600 15px/1.25 var(--merp-c-font) !important;
+  text-shadow: none !important;
+}
+.merp-ui-compendium-browser :is(.directory-item,.compendium-entry,.document):hover {
+  background: rgba(218,210,197,.60) !important;
+}
+.merp-ui-compendium-browser :is(.directory-item.active,.directory-item.selected,.compendium-entry.active,.compendium-entry.selected) {
+  background: #d7d0c6 !important;
+  box-shadow: inset 3px 0 0 #927451 !important;
+}
+.merp-ui-compendium-browser :is(a.document-link,a.entry-name,.directory-item a:not(.control)):focus-visible {
+  outline:2px solid #846138 !important; outline-offset:2px;
+}
+/* Do not theme any other module's Compendium sidebars. */
+#compendium :is([data-pack^="merp-ui.merp-rmu-"],[data-entry-id^="merp-ui.merp-rmu-"]) :is(
+  .compendium-name,.entry-name,.document-name,h3,h4
+) {
+  font-family: var(--merp-c-font,"PragRoman",Georgia,serif) !important;
+  color: #ede4d5 !important;
+  text-shadow: none !important;
+}
+
+.merp-ui-welcome-chat-card,
+.merp-ui-welcome-dialog {
+  --merp-welcome-font: var(--merp-font, "PragRoman", Georgia, serif);
+}
+
+/* MERP-UI welcome card: local typography, independent of global RMU chat
+   rules. Foundry chat cards and their native floating notifications both
+   contain this same component. */
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card :is(p, li, ul) {
+  font-family: var(--merp-welcome-font) !important;
+  font-weight: 400 !important;
+  font-synthesis: none !important;
+  letter-spacing: normal !important;
+}
+
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card > h3 {
+  color: #332a22 !important;
+  font-family: var(--merp-welcome-font) !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.25 !important;
+  text-shadow: none !important;
+  letter-spacing: normal !important;
+  margin: 0 0 10px !important;
+  overflow-wrap: anywhere !important;
+}
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button,
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button
+.merp-ui-welcome-button-label {
+  font-family: var(--merp-welcome-font) !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  font-variant: normal !important;
+  letter-spacing: 0 !important;
+  line-height: 1.35 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  color: #282522 !important;
+}
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button {
+  border-radius: 5px !important;
+  background: #ece8e0 !important;
+  border: 1px solid #877e70 !important;
+  cursor: pointer !important;
+}
+:is(body, #chat, #chat-log, #chat-messages, #chat-popout)
+.merp-ui-welcome-chat-card .merp-ui-welcome-chat-actions > button:hover {
+  background: #f8f5ec !important;
+  border-color: #6f5942 !important;
+}
+/* The Foundry envelope/sender metadata also inherits a pale RMU title style.
+   Darken it only when it belongs to MERP-UI's welcome message. */
+.chat-message:has(.merp-ui-welcome-chat-card) :is(
+  .message-sender, .message-timestamp, .message-metadata
+) {
+  color: #483b2e !important;
+  text-shadow: none !important;
+}
+
+/* -------------------------------------------------------------------------
+ * MERP-UI RC6.1 — Welcome DialogV2 (fallback for suppressed chat pop-ups)
+ * Scoped to the application itself. The chat card retains its own styling.
+ * The class is added through DialogV2's documented `classes` option.
+ * :is(body, #chat-log) gives this isolated modal enough specificity to beat
+ * older chat-specific `!important` rules without changing chat messages.
+ * ------------------------------------------------------------------------- */
+:is(body, #chat-log) .merp-ui-welcome-dialog {
+  --merp-welcome-paper: #eee8dc;
+  --merp-welcome-ink: #302b24;
+  --merp-welcome-border: #ac9c86;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .window-header {
+  background: #463e34 !important;
+  color: #f5efe2 !important;
+  border-bottom: 1px solid #877a69 !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .window-header .window-title {
+  color: #f5efe2 !important;
+  font: 400 15px/1.24 var(--merp-welcome-font) !important;
+  text-shadow: none !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog :is(.window-content, .dialog-content, .dialog-form, form) {
+  background: var(--merp-welcome-paper) !important;
+  color: var(--merp-welcome-ink) !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .window-content {
+  padding: 13px 14px !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-card {
+  font-synthesis: none !important;
+  background: transparent !important;
+  color: var(--merp-welcome-ink) !important;
+  font: 400 12.5px/1.4 var(--merp-welcome-font) !important;
+  padding: 0 !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-card > h3 {
+  color: #493827 !important;
+  font: 400 15px/1.24 var(--merp-welcome-font) !important;
+  text-align: center !important;
+  letter-spacing: normal !important;
+  text-shadow: none !important;
+  margin: 0 0 10px !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-card :is(p, ul, li) {
+  color: var(--merp-welcome-ink) !important;
+  font: 400 12.5px/1.4 var(--merp-welcome-font) !important;
+  text-shadow: none !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-card p {
+  margin: 0 0 6px !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-card ul {
+  margin: 6px 0 12px 18px !important;
+  padding: 0 !important;
+  list-style: disc outside !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-card li {
+  margin: 2px 0 !important;
+  padding-left: 2px !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-actions {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 6px !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-actions > button {
+  display: grid !important;
+  grid-template-columns: 14px minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: 6px !important;
+  min-height: 30px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 6px 9px !important;
+  color: #342b21 !important;
+  background: #f7f3eb !important;
+  border: 1px solid var(--merp-welcome-border) !important;
+  border-radius: 3px !important;
+  font: 400 12.5px/1.35 var(--merp-welcome-font) !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-actions > button .merp-ui-welcome-button-label {
+  display: block !important;
+  color: inherit !important;
+  font: inherit !important;
+  text-align: center !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-actions > button:hover,
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-actions > button:focus-visible {
+  background: #fffaf2 !important;
+  border-color: #7e6241 !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-actions > button
+:is(i.fa, i.fas, i.far, i.fal, i.fab, i.fa-solid, i.fa-regular, i.fa-brands),
+:is(body, #chat-log) .merp-ui-welcome-dialog .merp-ui-welcome-chat-card > h3
+:is(i.fa, i.fas, i.far, i.fal, i.fab, i.fa-solid, i.fa-regular, i.fa-brands) {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free", "Font Awesome 5 Free", FontAwesome !important;
+  font-style: normal !important;
+  font-weight: 900 !important;
+  color: inherit !important;
+}
+
+/* Foundry's default DialogV2 submit action can appear bright green in a
+ * dark theme. Preserve the close action, but give it a neutral finish. */
+:is(body, #chat-log) .merp-ui-welcome-dialog :is(.dialog-buttons, .form-footer, footer) button {
+  background: #ded4c4 !important;
+  color: #382f26 !important;
+  border: 1px solid #a8977f !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  font: 400 12px/1.35 var(--merp-welcome-font) !important;
+  text-transform: none !important;
+  min-height: 27px !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog :is(.dialog-buttons, .form-footer, footer) button:hover,
+:is(body, #chat-log) .merp-ui-welcome-dialog :is(.dialog-buttons, .form-footer, footer) button:focus-visible {
+  background: #f7f2e9 !important;
+  border-color: #806b50 !important;
+}
+
+/* Readable compact version: intermediate sizing between the original and 07.
+   Allow scrolling on narrow screens rather than clipping FR/EN text. */
+:is(body, #chat-log) .merp-ui-welcome-dialog {
+  min-width: 0 !important;
+  max-width: calc(100vw - 24px) !important;
+  max-height: calc(100vh - 24px) !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .window-header {
+  min-height: 33px !important;
+  padding: 4px 10px !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog .window-content {
+  overflow-y: auto !important;
+  max-height: calc(100vh - 60px) !important;
+}
+
+:is(body, #chat-log) .merp-ui-welcome-dialog :is(.dialog-buttons, .form-footer, footer) {
+  gap: 6px !important;
+  padding-top: 8px !important;
+}

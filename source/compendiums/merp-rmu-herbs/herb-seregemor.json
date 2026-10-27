@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "H",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "180gp",
-      "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1. Il transforme temporairement le sang en une substance noire imparfaite, provoquant incapacité et effondrement des caractéristiques mentales avant une récupération très lente.</p>",
+      "notes": "<p>Le Seregemor est une fleur rare des <strong>landes et terrains broussailleux des régions froides</strong>, connue surtout dans le nord-ouest d'Endor. Sa présence dépend de milieux peu hospitaliers et sa récolte demande une recherche attentive parmi les plantes de bruyère.</p>\n<p>La pâte issue des fleurs provoque une altération particulièrement inquiétante du sang : celui-ci devient temporairement une <strong>substance noire incapable d'assurer normalement ses fonctions</strong>. La victime peut perdre ses moyens physiques et subir une forte dégradation de ses <strong>caractéristiques mentales</strong>. Même lorsque l'intoxication n'est pas mortelle, la récupération peut être <strong>très lente</strong>. La gravité de l'atteinte suit l'importance de l'échec au Jet de Résistance.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Seregemor",
       "system": {
-        "notes": "<p>Cette fleur se rencontre surtout dans les régions au climat froid, notamment dans les landes, broussailles et bruyères, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1. Il transforme temporairement le sang en une substance noire imparfaite, provoquant incapacité et effondrement des caractéristiques mentales avant une récupération très lente.</p>"
+        "notes": "<p>Le Seregemor est une fleur rare des <strong>landes et terrains broussailleux des régions froides</strong>, connue surtout dans le nord-ouest d'Endor. Sa présence dépend de milieux peu hospitaliers et sa récolte demande une recherche attentive parmi les plantes de bruyère.</p>\n<p>La pâte issue des fleurs provoque une altération particulièrement inquiétante du sang : celui-ci devient temporairement une <strong>substance noire incapable d'assurer normalement ses fonctions</strong>. La victime peut perdre ses moyens physiques et subir une forte dégradation de ses <strong>caractéristiques mentales</strong>. Même lorsque l'intoxication n'est pas mortelle, la récupération peut être <strong>très lente</strong>. La gravité de l'atteinte suit l'importance de l'échec au Jet de Résistance.</p>"
       }
     },
     "en": {
       "name": "Seregemor",
       "system": {
-        "notes": "<p>This flower is found chiefly in cold climates, especially in heaths, scrublands, and moors, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 1 conversion poison. It temporarily transforms the victim’s blood into an imperfect black substance, causing incapacity and a collapse of mental stats followed by a very slow recovery.</p>"
+        "notes": "<p>Seregemor is a rare flower found among <strong>heaths and scrub in cold regions</strong>, especially in northwestern Endor. Its habitat is inhospitable, and gathering it requires a careful search among the low vegetation.</p>\n<p>Paste made from the flowers causes a disturbing transformation of the blood, which temporarily becomes a <strong>black substance unable to perform its normal functions</strong>. The victim may lose physical capabilities and suffer a severe impairment of <strong>mental stats</strong>. Recovery can be <strong>very slow</strong>, even when the poison does not prove fatal. The severity of the change follows the margin of failure on the Resistance Roll.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Conversion"
     ],
     "en": [
+      "Poisons",
       "Conversion"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-conversion"
   ]
 }

@@ -1,0 +1,701 @@
+/* MERP-UI RC5 : habillage limité aux pop-ups RMU de sélection et de compétences. */
+.application.merp-ui-rmu-picker {
+  --merp-dialog-paper: #f4f0e6;
+  --merp-dialog-paper-alt: #e7dfd0;
+  --merp-dialog-ink: #29241e;
+  --merp-dialog-border: #a38b68;
+  --merp-dialog-accent: #80613b;
+  --merp-dialog-selected: #d8c8a9;
+}
+.application.merp-ui-rmu-picker .window-header {
+  background: linear-gradient(180deg,#e4dac7,#cdbd9f) !important;
+  color: var(--merp-dialog-ink) !important;
+  border-bottom: 2px solid var(--merp-dialog-accent) !important;
+}
+.application.merp-ui-rmu-picker .window-title {
+  font-family: var(--merp-font, Georgia, serif) !important;
+  font-size: 1.13rem !important;
+  color: var(--merp-dialog-ink) !important;
+}
+.application.merp-ui-rmu-picker .window-content {
+  background: var(--merp-dialog-paper) !important;
+  color: var(--merp-dialog-ink) !important;
+  border: 1px solid var(--merp-dialog-border);
+}
+.application.merp-ui-rmu-picker :is(.rmu-settings-toolbar, .rmu-spec-rail, .rmu-spec-detail, .rmu-card) {
+  background: var(--merp-dialog-paper) !important;
+  color: var(--merp-dialog-ink) !important;
+  border-color: var(--merp-dialog-border) !important;
+}
+.application.merp-ui-rmu-picker :is(.rmu-spec-skill-item, .rmu-spec-skill-label, .rmu-spec-detail-title, .rmu-settings-toolbar-note, .rmu-prose, .rmu-label, .rmu-spec-detail-group) {
+  color: var(--merp-dialog-ink) !important;
+}
+.application.merp-ui-rmu-picker :is(.rmu-spec-detail-title h3, .rmu-spec-skill-label) {
+  font-family: var(--merp-font, Georgia, serif) !important;
+}
+.application.merp-ui-rmu-picker .rmu-spec-skill-item:hover,
+.application.merp-ui-rmu-picker .rmu-spec-skill-selected {
+  background: var(--merp-dialog-selected) !important;
+  border-color: var(--merp-dialog-accent) !important;
+}
+.application.merp-ui-rmu-picker .rmu-pick-filter__chip {
+  background: var(--merp-dialog-paper-alt) !important;
+  color: var(--merp-dialog-ink) !important;
+  border: 1px solid var(--merp-dialog-border) !important;
+}
+.application.merp-ui-rmu-picker .rmu-pick-filter__chip--active {
+  background: var(--merp-dialog-accent) !important;
+  color: #fff9ee !important;
+  border-color: var(--merp-dialog-accent) !important;
+}
+.application.merp-ui-rmu-picker .rmu-pick-filter__chip--active .rmu-pick-filter__count { color: inherit !important; }
+.application.merp-ui-rmu-picker :is(.rmu-dlg-button-ok, .rmu-dlg-button-cancel) {
+  border: 1px solid var(--merp-dialog-accent) !important;
+  color: var(--merp-dialog-ink) !important;
+  background: var(--merp-dialog-paper-alt) !important;
+}
+.application.merp-ui-rmu-picker .rmu-dlg-button-ok {
+  color: #fff9ee !important;
+  background: var(--merp-dialog-accent) !important;
+}
+.application.merp-ui-rmu-picker :is(select, input:not([type="checkbox"]), .rmu-combobox) {
+  border-color: var(--merp-dialog-border) !important;
+}
+.application.merp-ui-rmu-picker :is(select, input):focus-visible,
+.application.merp-ui-rmu-picker :is(button, .rmu-spec-skill-item):focus-visible {
+  outline: 2px solid var(--merp-dialog-accent) !important;
+  outline-offset: 2px;
+}
+
+
+/* Contraste : la fiche détaillée héritait de titres blancs du thème RMU sombre. */
+.application.merp-ui-rmu-picker :is(
+  .rmu-spec-detail-title h3,
+  .rmu-spec-skill-name,
+  .rmu-spec-skill-label,
+  .rmu-spec-skill-group,
+  .rmu-spec-detail-group
+) {
+  color: var(--merp-dialog-ink) !important;
+}
+
+
+/* En-têtes des sous-groupes MERP : éléments visuels non sélectionnables. */
+.application.merp-ui-rmu-picker.rmu-pick-race-dialog .merp-ui-race-section-heading {
+  display: block;
+  margin: 0.4rem 0 0.18rem;
+  padding: 0.35rem 0.55rem;
+  background: #e3d6be;
+  border-bottom: 1px solid var(--merp-dialog-border, #a38b68);
+  color: var(--merp-dialog-ink, #29241e);
+  font-family: var(--merp-font, Georgia, serif);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  pointer-events: none;
+  user-select: none;
+}
+.application.merp-ui-rmu-picker.rmu-pick-race-dialog .merp-ui-race-section-heading:first-child {
+  margin-top: 0;
+}
+/* La navigation clavier conserve le titre de section visible au-dessus du choix. */
+.application.merp-ui-rmu-picker.rmu-pick-race-dialog .rmu-spec-skill-item {
+  scroll-margin-top: 2.3rem;
+}
+
+
+/* Cultures MERP : titres de groupes strictement visuels, comme pour les races. */
+.application.merp-ui-rmu-picker.rmu-pick-culture-dialog .merp-ui-culture-section-heading {
+  display: block;
+  margin: 0.4rem 0 0.18rem;
+  padding: 0.35rem 0.55rem;
+  background: #e3d6be;
+  border-bottom: 1px solid var(--merp-dialog-border, #a38b68);
+  color: var(--merp-dialog-ink, #29241e);
+  font-family: var(--merp-font, Georgia, serif);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  pointer-events: none;
+  user-select: none;
+}
+.application.merp-ui-rmu-picker.rmu-pick-culture-dialog .merp-ui-culture-section-heading:first-child {
+  margin-top: 0;
+}
+.application.merp-ui-rmu-picker.rmu-pick-culture-dialog .rmu-spec-skill-item {
+  scroll-margin-top: 2.3rem;
+}
+
+/* CLEAN-41f — Descriptions des cultures : même densité que les autres
+   panneaux MERP-UI, sans influer sur les fiches d'acteurs ni les journaux.
+   La prose RMU est parfois enveloppée dans .rmu-prose/.prosemirror. */
+.application.merp-ui-rmu-picker.rmu-pick-culture-dialog .rmu-spec-detail :is(
+  .rmu-prose, .prosemirror, .editor-content, .rmu-spec-detail-group
+) {
+  font-size: 12px !important;
+  line-height: 1.22 !important;
+  color: var(--merp-dialog-ink, #29241e) !important;
+}
+.application.merp-ui-rmu-picker.rmu-pick-culture-dialog .rmu-spec-detail :is(h1, h2, h3) {
+  margin: 0.46rem 0 0.15rem !important;
+  padding: 0 !important;
+  color: var(--merp-dialog-ink, #29241e) !important;
+  -webkit-text-fill-color: var(--merp-dialog-ink, #29241e) !important;
+  font-size: 13px !important;
+  line-height: 1.16 !important;
+  font-weight: 700 !important;
+}
+.application.merp-ui-rmu-picker.rmu-pick-culture-dialog .rmu-spec-detail :is(p, li) {
+  margin: 0 0 0.34rem !important;
+  padding: 0 !important;
+  font-size: 12px !important;
+  line-height: 1.22 !important;
+  font-weight: 400 !important;
+}
+.application.merp-ui-rmu-picker.rmu-pick-culture-dialog .rmu-spec-detail :is(h1, h2, h3):first-child {
+  margin-top: 0 !important;
+}
+
+/* CLEAN-41g — Loisirs : densité et légende alignées sur la section RMU
+ * « Compétences Culturelles » (.rmu-legend-chip). Pure présentation :
+ * aucun rang, Item, quota ou comportement de création modifié. */
+.merp-whitford-hobbies {
+  position: relative;
+  margin: 26px 0 0;
+  padding: 12px 10px 9px;
+  border: 1px solid #aa916b;
+  border-radius: 6px;
+  background: #f2ebdf;
+  color: #292622;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__head {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  min-height: 20px;
+  padding: 0 0 5px;
+  border-bottom: 1px solid #c6b9a6;
+  line-height: 1.2 !important;
+}
+.rmu-appv2-sheet .merp-whitford-hobbies .merp-whitford-hobbies__head > strong,
+.merp-whitford-hobbies .merp-whitford-hobbies__head > strong {
+  position: absolute;
+  left: 0;
+  top: -9.1px;
+  display: block;
+  width: max-content;
+  max-width: calc(100% - 8px);
+  padding: 2.1px 21px 2.1px 5.6px;
+  border-radius: 0 10px 10px 0;
+  background: #333333 !important;
+  color: #f0f0f0 !important;
+  -webkit-text-fill-color: #f0f0f0 !important;
+  text-shadow: none !important;
+  box-shadow: inset 0 1px 2px rgba(244,244,244,.3),
+              0 1px 2px -1px rgba(48,48,48,.3),
+              0 2px 4px -1px rgba(48,48,48,.15);
+  font-family: PragRoman, Georgia, "Times New Roman", serif !important;
+  font-size: 10.85px !important;
+  line-height: 13.02px !important;
+  font-weight: 700 !important;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__head > span {
+  margin-left: auto;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+  white-space: nowrap;
+}
+.merp-whitford-hobbies > p {
+  margin: 5px 0 6px !important;
+  font-size: 11px !important;
+  line-height: 1.22 !important;
+  font-weight: 400 !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__list {
+  margin: 0;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+}
+/* Le message d'absence de rang héritait de l'italique agrandi du thème. */
+.merp-whitford-hobbies .merp-whitford-hobbies__list > em {
+  display: block;
+  margin: 2px 0 0;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 4px 2px;
+  border-top: 1px solid #d4c9ba;
+  min-height: 28px;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__line > span {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: break-word;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__line label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex: 0 0 auto;
+  margin: 0;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+  white-space: nowrap;
+}
+/* La table culturelle RMU emploie un input number natif : adoptons
+   la même commande ici. Les deux boutons HTML auxiliaires sont masqués,
+   l'input conserve son listener "change" existant pour les rangs 0..2.
+   Cela évite entièrement les interstices des faux steppers. */
+/* V8 : le champ natif est rendu directement dans la ligne.
+ * Le conteneur décoratif V7 causait la bande blanche en bas dans Foundry.
+ * Aucun JavaScript ni contrôle de rangs n'est modifié. */
+.merp-whitford-hobbies .merp-whitford-hobbies__spinner {
+  display: contents !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__spinner input[type="number"] {
+  position: static !important;
+  inset: auto !important;
+  display: inline-block !important;
+  flex: 0 0 74px !important;
+  width: 74px !important;
+  min-width: 74px !important;
+  max-width: 74px !important;
+  height: 27px !important;
+  min-height: 27px !important;
+  max-height: 27px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 2px !important;
+  border: 1px solid #b5a895 !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  background: #f7f7f7 !important;
+  color: #292622 !important;
+  text-align: center !important;
+  font-size: 11px !important;
+  line-height: normal !important;
+  font-weight: 400 !important;
+  font-variant-numeric: tabular-nums;
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__spinner input::-webkit-inner-spin-button,
+.merp-whitford-hobbies .merp-whitford-hobbies__spinner input::-webkit-outer-spin-button {
+  -webkit-appearance: auto !important;
+  appearance: auto !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__spinner-arrows {
+  display: none !important;
+}
+.merp-whitford-hobbies .merp-whitford-hobbies__line button[data-hobby-remove] {
+  flex: 0 0 auto;
+  width: 26px !important;
+  height: 26px !important;
+  min-width: 26px !important;
+  min-height: 26px !important;
+  padding: 0 !important;
+  margin: 0 0 0 2px !important;
+  border: 1px solid #b2aba0 !important;
+  border-radius: 2px !important;
+  background: #e7e3de !important;
+  color: #27221f !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+  cursor: pointer;
+}
+.merp-whitford-hobbies button.merp-whitford-hobbies__add {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: auto !important;
+  height: 23px !important;
+  min-height: 23px !important;
+  max-height: 23px !important;
+  padding: 2px 6px !important;
+  margin: 6px 0 0 !important;
+  border: 1px solid #aca69d !important;
+  border-radius: 2px !important;
+  background: #e7e3de !important;
+  color: #292622 !important;
+  font-family: PragRoman, Georgia, "Times New Roman", serif !important;
+  font-size: 11px !important;
+  line-height: 1.15 !important;
+  font-weight: 400 !important;
+  white-space: nowrap !important;
+  cursor: pointer;
+}
+.merp-whitford-hobbies button.merp-whitford-hobbies__add:hover:not(:disabled),
+.merp-whitford-hobbies .merp-whitford-hobbies__line button[data-hobby-remove]:hover:not(:disabled) {
+  background: #dcd5c9 !important;
+}
+.merp-whitford-hobbies button.merp-whitford-hobbies__add:disabled {
+  opacity: .5;
+  cursor: default;
+}
+@media (max-width: 520px) {
+  .merp-whitford-hobbies .merp-whitford-hobbies__head { flex-wrap: wrap; }
+  .merp-whitford-hobbies .merp-whitford-hobbies__head > span { white-space: normal; }
+  .merp-whitford-hobbies .merp-whitford-hobbies__line { flex-wrap: wrap; }
+}
+
+/* RC5: legible RMU V2 racial stat bonuses in both light and dark themes. */
+.rmu-pick-race-sheet .rmu-pick-race__stats,
+.rmu-pick-race-sheet .rmu-pick-race__stats th,
+.rmu-pick-race-sheet .rmu-pick-race__stats td {
+  color: var(--color-text-primary, var(--rmu-color-text, #e8e8e8)) !important;
+}
+.rmu-pick-race-sheet .rmu-pick-race__stats td,
+.rmu-pick-race-sheet .rmu-pick-race__stats th {
+  background: var(--color-bg-option, rgba(105, 105, 105, .24)) !important;
+}
+.merp-ui-starting-knowledge { margin-top: .8rem; padding: .65rem .8rem;
+  border: 1px solid currentColor; border-radius: 5px; font-size: .95em; }
+.merp-ui-starting-knowledge p { margin: .35rem 0 0; }
+
+/* ------------------------------------------------------------------------- */
+/* RC5 follow-up — titres des pop-ups RMU + cartes résultat du chat         */
+/* ------------------------------------------------------------------------- */
+
+/* Titre de fenêtre des pop-ups RMU (dialogues, jets, manoeuvres, etc.). */
+:is(.application,.window-app):is(
+  .rmu,
+  .rmu-dialog,
+  .rmu-appv2-sheet,
+  .rmu-actor-sheet,
+  .rmu-navigation-theme3,
+  [class*=" rmu"],
+  [class^="rmu-"],
+  [class*="rmu-"]
+) .window-header .window-title,
+:is(.application,.window-app)[class*="rmu"] .window-header .window-title,
+:is(.application,.window-app)[class*="maneuver"] .window-header .window-title,
+:is(.application,.window-app)[class*="manoeuvre"] .window-header .window-title,
+:is(.application,.window-app)[class*="skill"] .window-header .window-title {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.93rem !important;
+  line-height: 1.18 !important;
+  letter-spacing: normal !important;
+}
+
+/* Corps des pop-ups RMU : titrage local un peu plus compact. */
+:is(.application,.window-app):is(
+  .rmu,
+  .rmu-dialog,
+  .rmu-appv2-sheet,
+  [class*="rmu"],
+  [class*="maneuver"],
+  [class*="manoeuvre"]
+) :is(
+  .window-content,
+  .dialog-content,
+  .sheet-body,
+  .content,
+  .panel,
+  .section,
+  .legend,
+  legend,
+  h1,
+  h2,
+  h3,
+  h4,
+  label,
+  p,
+  li,
+  span,
+  strong,
+  th,
+  td
+):not(i):not([class^="fa-"]):not([class*=" fa-"]) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+}
+
+:is(.application,.window-app):is(
+  .rmu,
+  .rmu-dialog,
+  .rmu-appv2-sheet,
+  [class*="rmu"],
+  [class*="maneuver"],
+  [class*="manoeuvre"]
+) :is(
+  legend,
+  .legend,
+  h1,
+  h2,
+  h3,
+  h4,
+  .window-content .title,
+  .window-content .subtitle
+) {
+  font-size: 0.9rem !important;
+  line-height: 1.14 !important;
+}
+
+/* Chat Foundry : en-tête du message + cartes RMU après jet. */
+:is(#chat-log,#chat-messages) .chat-message :is(
+  .message-sender,
+  .message-metadata,
+  .message-timestamp,
+  .message-header
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.84rem !important;
+  line-height: 1.12 !important;
+}
+
+/* Carte RMU principale et « second pop-up »/résultat détaillé du chat. */
+:is(#chat-log,#chat-messages) .chat-message :is(
+  .rmu-primary-chat-card__content,
+  .rmu-primary-card-container,
+  .rmu-primary-container,
+  .rmu-primary-container__content,
+  .rmu-primary-container__title,
+  .rmu-primary-container__title-details-container,
+  .rmu-secondary-container,
+  .rmu-secondary-chat-card,
+  .rmu-chat-card,
+  .rmu-chat-card__content,
+  .rmu-result,
+  .rmu-result-row,
+  .rmu-roll-result
+) :is(
+  h1,
+  h2,
+  h3,
+  h4,
+  .title,
+  .subtitle,
+  .label,
+  .value,
+  .name,
+  p,
+  li,
+  span,
+  strong,
+  em,
+  td,
+  th,
+  div,
+  a
+):not(i):not([class^="fa-"]):not([class*=" fa-"]) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+}
+
+:is(#chat-log,#chat-messages) .chat-message :is(
+  .rmu-primary-container__title,
+  .rmu-primary-container__title-details-container,
+  .rmu-secondary-container .title,
+  .rmu-chat-card .title,
+  .rmu-result .title,
+  .rmu-roll-result .title,
+  h1,
+  h2,
+  h3
+) {
+  font-size: 0.92rem !important;
+  line-height: 1.12 !important;
+}
+
+:is(#chat-log,#chat-messages) .chat-message :is(
+  .rmu-primary-chat-card__content,
+  .rmu-primary-card-container,
+  .rmu-primary-container__content,
+  .rmu-secondary-container,
+  .rmu-chat-card__content,
+  .rmu-result,
+  .rmu-roll-result
+) :is(p, li, span, strong, em, td, th, div, a, label) {
+  font-size: 0.84rem !important;
+  line-height: 1.16 !important;
+}
+
+
+/* RC5 — Resultat de jet dans la fenetre flottante, HORS #chat-log.
+   Les messages flottants reprennent les composants RMU, mais ne sont
+   pas descendants du chat : les anciennes regles ne les atteignaient pas. */
+:is(
+  .rmu-primary-chat-card__content,
+  .rmu-primary-card-container,
+  .rmu-primary-container,
+  .rmu-primary-container__content,
+  .rmu-primary-container__title,
+  .rmu-primary-container__title-details-container,
+  .rmu-secondary-container,
+  .rmu-secondary-chat-card,
+  .rmu-chat-card,
+  .rmu-chat-card__content,
+  .rmu-result,
+  .rmu-roll-result
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+}
+
+:is(
+  .rmu-primary-chat-card__content,
+  .rmu-primary-card-container,
+  .rmu-primary-container,
+  .rmu-primary-container__content,
+  .rmu-secondary-container,
+  .rmu-chat-card__content,
+  .rmu-result,
+  .rmu-roll-result
+) :is(p, li, span, strong, em, td, th, div, a, label):not(i):not([class^="fa-"]):not([class*=" fa-"]) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.84rem !important;
+  line-height: 1.16 !important;
+}
+
+:is(
+  .rmu-primary-container__title,
+  .rmu-primary-container__title-details-container,
+  .rmu-secondary-container .title,
+  .rmu-chat-card .title,
+  .rmu-result .title,
+  .rmu-roll-result .title
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.92rem !important;
+  line-height: 1.12 !important;
+}
+
+/* En-tetes des notifications ou mini-chat independants du volet principal. */
+:is(
+  [class*="chat-popout"],
+  [class*="chat-popup"],
+  [class*="chat-toast"],
+  [class*="chat-notification"],
+  [class*="message-popup"],
+  [class*="message-popout"]
+) :is(.message-header, .message-sender, .message-metadata, .message-timestamp, .title, .header) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.84rem !important;
+}
+
+/* RC5 follow-up — petit titre du résultat flottant après jet               */
+/* ------------------------------------------------------------------------- */
+
+/* En-tête des cartes/messages RMU, y compris hors du panneau de chat. */
+.chat-message :is(
+  .message-header,
+  .message-sender,
+  .message-metadata,
+  .message-timestamp,
+  .flavor-text,
+  .whisper-to
+),
+.chat-popout :is(
+  .message-header,
+  .message-sender,
+  .message-metadata,
+  .message-timestamp,
+  .flavor-text,
+  .whisper-to
+),
+:is(.application, .window-app) :is(
+  .message-header,
+  .message-sender,
+  .message-metadata,
+  .message-timestamp
+) {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+}
+
+.chat-message .message-sender,
+.chat-popout .message-sender,
+:is(.application, .window-app) .message-sender {
+  font-size: 0.86rem !important;
+  line-height: 1.12 !important;
+}
+
+.chat-message .message-timestamp,
+.chat-popout .message-timestamp,
+:is(.application, .window-app) .message-timestamp,
+.chat-message .message-metadata,
+.chat-popout .message-metadata,
+:is(.application, .window-app) .message-metadata {
+  font-size: 0.8rem !important;
+  line-height: 1.08 !important;
+}
+
+/* RC5 — titres des fenetres Foundry AppV2 et pop-ups RMU.
+   Regle limitee aux titres : ne touche ni aux boutons ni aux icones. */
+:is(.application, .window-app) > .window-header .window-title,
+:is(.application, .window-app) .window-header > .window-title,
+:is(.application, .window-app) .window-header .window-title {
+  font-family: var(--merp-font, "PragRoman", Georgia, serif) !important;
+  font-size: 0.91rem !important;
+  line-height: 1.14 !important;
+  font-weight: 400 !important;
+}
+
+
+/* RC6.1 — grille de synthese RMU : classes verifiees dans Foundry.
+   Limite aux lignes Bonus / Modificateurs ; aucun effet sur les descriptions. */
+:is(#chat-log, #chat-messages, #chat-popout, .chat-popout, .chat-sidebar)
+.chat-message .rmu-redact-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: baseline;
+  column-gap: 0.32em;
+  row-gap: 0.18em;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* La regle typographique globale du chat fixe 12px avec !important.
+   Ciblage plus specifique pour cette seule ligne, en unite responsive. */
+:is(#chat-log, #chat-messages, #chat-popout, .chat-popout, .chat-sidebar)
+.chat-message .rmu-redact-row > :is(.rmu-redact-label, .rmu-redact-value) {
+  font-size: 0.6875rem !important;
+  line-height: 1.28 !important;
+  white-space: nowrap;
+  min-width: 0;
+  flex: 0 0 auto;
+}
+
+/* Ne pas retrecir ni deformer l'icone d'information des modificateurs. */
+:is(#chat-log, #chat-messages, #chat-popout, .chat-popout, .chat-sidebar)
+.chat-message .rmu-redact-row .rmu-info-mdi {
+  white-space: nowrap;
+}
+
+/* CLEAN-02 (essai) — texte d'ambiance des jets Foundry / RMU.
+   Uniquement .flavor-text : ne modifie pas les titres, les valeurs et les descriptions.
+   Taille relative pour suivre le reglage typographique de l'interface. */
+:is(#chat-log, #chat-messages, #chat-popout, .chat-popout, .chat-sidebar)
+.chat-message .flavor-text,
+.chat-message .message-content .flavor-text {
+  font-size: 0.75rem !important;
+  line-height: 1.25 !important;
+}
+
+/* CLEAN-41 — Indication non intrusive du filtre des professions Whitford. */
+.rmu-pick-profession-dialog .merp-ui-profession-compat-note {
+  margin: 0.25rem 0 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  opacity: 0.85;
+}

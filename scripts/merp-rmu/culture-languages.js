@@ -103,8 +103,7 @@ export function merpRmuCampaignLanguagesFromCultures(
       if (!key) continue;
 
       const signaledOnly =
-        language.mode === "signaled" ||
-        normalizeCampaignLanguageKey(language.name) === "waildyth";
+        language.mode === "signaled" || key === "waildyth";
       const visibleName = localizedCampaignLanguageName(language, data, {
         languageCode
       });
@@ -341,14 +340,17 @@ export function cultureReferenceItem(culture) {
   return worldCultures.find((item) => item.name === culture.name) ?? null;
 }
 
-export function cultureStartingLanguages(culture) {
+// Callers that have already resolved the reference may pass it to avoid
+// searching the same world Culture collection twice. An omitted argument
+// preserves the original standalone lookup behavior.
+export function cultureStartingLanguages(culture, reference = undefined) {
   const embedded = culture?.flags?.[MODULE_ID]?.languages;
   if (Array.isArray(embedded?.starting) && ["verified", "contextual-inference"].includes(embedded.sourceStatus)) {
     return embedded.starting;
   }
 
-  const reference = cultureReferenceItem(culture);
-  const referenceLanguages = reference?.flags?.[MODULE_ID]?.languages;
+  const resolvedReference = reference === undefined ? cultureReferenceItem(culture) : reference;
+  const referenceLanguages = resolvedReference?.flags?.[MODULE_ID]?.languages;
   if (
     Array.isArray(referenceLanguages?.starting) &&
     ["verified", "contextual-inference"].includes(referenceLanguages.sourceStatus)
@@ -426,31 +428,61 @@ export function embeddedCultureLanguageSkillData(source, specialization, culture
   return doc;
 }
 
-export async function syncCultureLanguagesForActor(actor, { notify = false } = {}) {
+// RMU 1.4.80 cannot prepare embedded Skills before the first Profession Item:
+// its getSkillAttributes() expects profession.professionalSkills to exist.
+// Race and Culture are chosen before Profession in the native creation flow.
+// Serialize requests from createItem/updateItem (including age-variant updates)
+// to avoid two concurrent runs creating the same language Skills.
+const cultureLanguageSyncQueue = new WeakMap();
+
+export function syncCultureLanguagesForActor(actor, options = {}) {
   if (!actor || actor.documentName !== "Actor" || actor.type !== "Character") {
-    return { skipped: true, reason: "not-character" };
+    return Promise.resolve({ skipped: true, reason: "not-character" });
+  }
+  if (![...actor.items].some((item) => item.type === "profession")) {
+    return Promise.resolve({ skipped: true, reason: "profession-not-selected" });
+  }
+
+  const previous = cultureLanguageSyncQueue.get(actor) ?? Promise.resolve();
+  const pending = previous.catch(() => undefined)
+    .then(() => syncCultureLanguagesForActorImpl(actor, options));
+  cultureLanguageSyncQueue.set(actor, pending);
+  void pending.finally(() => {
+    if (cultureLanguageSyncQueue.get(actor) === pending) {
+      cultureLanguageSyncQueue.delete(actor);
+    }
+  }).catch(() => undefined);
+  return pending;
+}
+
+async function syncCultureLanguagesForActorImpl(actor, { notify = false } = {}) {
+  // Re-check after awaiting the previous request.  A Profession can have been
+  // removed in the meantime while a race/culture replacement is in flight.
+  if (![...actor.items].some((item) => item.type === "profession")) {
+    return { skipped: true, reason: "profession-not-selected" };
   }
 
   const culture = actorMerpCulture(actor);
   const cultureReference = cultureReferenceItem(culture);
-  const starting = cultureStartingLanguages(culture);
+  const starting = cultureStartingLanguages(culture, cultureReference);
   const desired = new Map();
 
   for (const language of starting) {
     const specialization = String(language?.name ?? "").trim();
-    if (!specialization) continue;
+    if (!specialization || language.mode === "signaled") continue;
     const spokenRanks = Number(language.spoken ?? 0);
     const writtenRanks = Number(language.written ?? 0);
+    const languageKey = normalizeCampaignLanguageKey(specialization);
 
-    if (spokenRanks > 0 && language.mode !== "signaled") {
+    if (spokenRanks > 0) {
       desired.set(
-        `Spoken::${normalizeCampaignLanguageKey(specialization)}`,
+        `Spoken::${languageKey}`,
         { skillName: "Spoken", specialization, cultureRanks: spokenRanks }
       );
     }
-    if (writtenRanks > 0 && language.mode !== "signaled") {
+    if (writtenRanks > 0) {
       desired.set(
-        `Written::${normalizeCampaignLanguageKey(specialization)}`,
+        `Written::${languageKey}`,
         { skillName: "Written", specialization, cultureRanks: writtenRanks }
       );
     }

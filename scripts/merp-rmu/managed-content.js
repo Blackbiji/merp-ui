@@ -100,6 +100,74 @@ export function normalizeLinkLabel(value) {
     .trim();
 }
 
+// Static historical and bilingual aliases. Constructing this mapping for every
+// document becomes expensive when linking many Items and Journal pages.
+// Keep the alias values and insertion order unchanged for stable link selection.
+const MANAGED_ITEM_EXPLICIT_ALIASES = {
+  "Guerrier": ["Guerrier", "Fighter"],
+  "Barbare": ["Barbare", "Barbarian"],
+  "Roublard": ["Roublard", "Rogue"],
+  "Voleur": ["Voleur", "Thief"],
+  "Sans Profession": ["Sans Profession", "Layman"],
+  "Alchimiste": ["Alchimiste", "Alchemist"],
+  "Magicien": ["Magicien", "Magician"],
+  "Soigneur": ["Soigneur", "Lay Healer"],
+  "Animiste": ["Animiste", "Animist"],
+  "Rôdeur": ["Rôdeur", "Ranger"],
+  "Barde": ["Barde", "Bard"],
+  "Devin": ["Devin", "Seer"],
+  "Astrologue": ["Astrologue", "Astrologer"],
+  "Razak-Zinul": ["Razak-Zinul", "Razak-zinul"],
+  "Kekhavra": ["Kekhavra"],
+  "Sorcier": ["Sorcier", "Sorcerer"],
+  "Vracara": ["Vracara"],
+  "Wegech": ["Wegech"],
+  "Drughân": ["Drughân", "Drughan"],
+  "Herutano": ["Herutano", "Herutanor"],
+  "Prêtre Honnin (Ônu)": ["Prêtre Honnin", "Ônu", "Honnin Priest"],
+  "Petits-Nains — Noegyth Nibin": ["Petits-Nains", "Noegyth Nibin"],
+  "Orcs communs — Yrch": ["Orcs communs", "Yrch"],
+  "Uruk-hai — Grands Orcs": ["Uruk-hai", "Grands Orcs"],
+  "Demi-Orcs — Perorch / Piryrch": ["Demi-Orcs", "Perorch", "Piryrch"],
+  "Trolls des Cavernes": ["Trolls des Cavernes"],
+  "Trolls des Forêts": ["Trolls des Forêts"],
+  "Trolls des Collines": ["Trolls des Collines"],
+  "Trolls des Neiges": ["Trolls des Neiges"],
+  "Trolls de Pierre": ["Trolls de Pierre"],
+  "Olog-hai — Trolls Noirs": ["Olog-hai", "Olog", "Trolls Noirs"],
+  "Demi-Trolls — Pertorog / Pirtereg": ["Demi-Trolls", "Pertorog", "Pirtereg"],
+
+  "Khazâd (Naugrim)": ["Khazâd", "Naugrim", "Nains"],
+  "Humains (Hildor)": ["Humains", "Hildor"],
+  "Elfes (Quendi)": ["Elfes", "Quendi"],
+  "Hobbits (Periannath)": ["Hobbits", "Periannath"],
+  "Demi-Elfes (Peredhil)": ["Demi-Elfes", "Peredhil"],
+  "Umli (Demi-Nains)": ["Umli", "Demi-Nains"],
+  "Petits-Nains (Noegyth Nibin)": ["Petits-Nains", "Noegyth Nibin"],
+  "Orcs (Yrch)": ["Orcs", "Yrch"],
+  "Trolls (Tereg)": ["Trolls", "Tereg"],
+  "Drúedain / Woses — Drughu": ["Drúedain", "Woses", "Drughu"],
+  "Daen Lintis — Dunlendings": ["Daen Lintis", "Dunlendings", "Dunlending"],
+  "Gimútéothraim — Éothraim": ["Gimútéothraim", "Éothraim"],
+  "Hommes des Collines — Hillmen": ["Hommes des Collines", "Hillmen"],
+  "Luindrim — Foredhil / Iaurwaith": ["Luindrim", "Foredhil", "Iaurwaith"],
+  "Narodbrijig — Peuple des Collines": ["Narodbrijig"],
+  "Covsheknarod — Êluzan": ["Covsheknarod", "Êluzan"],
+  "Honnin — Suzamatu": ["Honnin", "Suzamatu"],
+  "Kuorind — Ûshasai": ["Kuorind", "Ûshasai"],
+  "Pêdi — Jashcâi": ["Pêdi", "Jashcâi"],
+  "Teleri — Falmari": ["Teleri", "Falmari"],
+  "Maison de Bávor — Barbes-Raides": ["Maison de Bávor", "Barbes-Raides"],
+  "Maison de Thelór — Poings-de-Fer": ["Maison de Thelór", "Poings-de-Fer"],
+  "Maison de Drúin — Pieds-de-Pierre": ["Maison de Drúin", "Pieds-de-Pierre"],
+  "Maison de Barin — Mèches-Noires": ["Maison de Barin", "Mèches-Noires"],
+  "Maison de Durin — Longues-Barbes": ["Maison de Durin", "Longues-Barbes"],
+  "Maisons de Dwálin et de Thrár — Barbes-de-Feu et Torses-Larges": [
+    "Maisons de Dwálin et de Thrár", "Maison de Dwálin", "Maison de Thrár",
+    "Barbes-de-Feu", "Torses-Larges"
+  ]
+};
+
 export function aliasesForManagedItem(item) {
   const aliases = new Set([item.name]);
   const name = item.name;
@@ -116,72 +184,9 @@ export function aliasesForManagedItem(item) {
     for (const part of paren[2].split(/\s*\/\s*/u)) aliases.add(part.trim());
   }
 
-  const explicitAliases = {
-    "Guerrier": ["Guerrier", "Fighter"],
-    "Barbare": ["Barbare", "Barbarian"],
-    "Roublard": ["Roublard", "Rogue"],
-    "Voleur": ["Voleur", "Thief"],
-    "Sans Profession": ["Sans Profession", "Layman"],
-    "Alchimiste": ["Alchimiste", "Alchemist"],
-    "Magicien": ["Magicien", "Magician"],
-    "Soigneur": ["Soigneur", "Lay Healer"],
-    "Animiste": ["Animiste", "Animist"],
-    "Rôdeur": ["Rôdeur", "Ranger"],
-    "Barde": ["Barde", "Bard"],
-    "Devin": ["Devin", "Seer"],
-    "Astrologue": ["Astrologue", "Astrologer"],
-    "Razak-Zinul": ["Razak-Zinul", "Razak-zinul"],
-    "Kekhavra": ["Kekhavra"],
-    "Sorcier": ["Sorcier", "Sorcerer"],
-    "Vracara": ["Vracara"],
-    "Wegech": ["Wegech"],
-    "Drughân": ["Drughân", "Drughan"],
-    "Herutano": ["Herutano", "Herutanor"],
-    "Prêtre Honnin (Ônu)": ["Prêtre Honnin", "Ônu", "Honnin Priest"],
-    "Petits-Nains — Noegyth Nibin": ["Petits-Nains", "Noegyth Nibin"],
-    "Orcs communs — Yrch": ["Orcs communs", "Yrch"],
-    "Uruk-hai — Grands Orcs": ["Uruk-hai", "Grands Orcs"],
-    "Demi-Orcs — Perorch / Piryrch": ["Demi-Orcs", "Perorch", "Piryrch"],
-    "Trolls des Cavernes": ["Trolls des Cavernes"],
-    "Trolls des Forêts": ["Trolls des Forêts"],
-    "Trolls des Collines": ["Trolls des Collines"],
-    "Trolls des Neiges": ["Trolls des Neiges"],
-    "Trolls de Pierre": ["Trolls de Pierre"],
-    "Olog-hai — Trolls Noirs": ["Olog-hai", "Olog", "Trolls Noirs"],
-    "Demi-Trolls — Pertorog / Pirtereg": ["Demi-Trolls", "Pertorog", "Pirtereg"],
 
-    "Khazâd (Naugrim)": ["Khazâd", "Naugrim", "Nains"],
-    "Humains (Hildor)": ["Humains", "Hildor"],
-    "Elfes (Quendi)": ["Elfes", "Quendi"],
-    "Hobbits (Periannath)": ["Hobbits", "Periannath"],
-    "Demi-Elfes (Peredhil)": ["Demi-Elfes", "Peredhil"],
-    "Umli (Demi-Nains)": ["Umli", "Demi-Nains"],
-    "Petits-Nains (Noegyth Nibin)": ["Petits-Nains", "Noegyth Nibin"],
-    "Orcs (Yrch)": ["Orcs", "Yrch"],
-    "Trolls (Tereg)": ["Trolls", "Tereg"],
-    "Drúedain / Woses — Drughu": ["Drúedain", "Woses", "Drughu"],
-    "Daen Lintis — Dunlendings": ["Daen Lintis", "Dunlendings", "Dunlending"],
-    "Gimútéothraim — Éothraim": ["Gimútéothraim", "Éothraim"],
-    "Hommes des Collines — Hillmen": ["Hommes des Collines", "Hillmen"],
-    "Luindrim — Foredhil / Iaurwaith": ["Luindrim", "Foredhil", "Iaurwaith"],
-    "Narodbrijig — Peuple des Collines": ["Narodbrijig"],
-    "Covsheknarod — Êluzan": ["Covsheknarod", "Êluzan"],
-    "Honnin — Suzamatu": ["Honnin", "Suzamatu"],
-    "Kuorind — Ûshasai": ["Kuorind", "Ûshasai"],
-    "Pêdi — Jashcâi": ["Pêdi", "Jashcâi"],
-    "Teleri — Falmari": ["Teleri", "Falmari"],
-    "Maison de Bávor — Barbes-Raides": ["Maison de Bávor", "Barbes-Raides"],
-    "Maison de Thelór — Poings-de-Fer": ["Maison de Thelór", "Poings-de-Fer"],
-    "Maison de Drúin — Pieds-de-Pierre": ["Maison de Drúin", "Pieds-de-Pierre"],
-    "Maison de Barin — Mèches-Noires": ["Maison de Barin", "Mèches-Noires"],
-    "Maison de Durin — Longues-Barbes": ["Maison de Durin", "Longues-Barbes"],
-    "Maisons de Dwálin et de Thrár — Barbes-de-Feu et Torses-Larges": [
-      "Maisons de Dwálin et de Thrár", "Maison de Dwálin", "Maison de Thrár",
-      "Barbes-de-Feu", "Torses-Larges"
-    ]
-  };
 
-  for (const alias of explicitAliases[name] ?? []) aliases.add(alias);
+  for (const alias of MANAGED_ITEM_EXPLICIT_ALIASES[name] ?? []) aliases.add(alias);
   return [...aliases].map(normalizeLinkLabel).filter((alias) => alias.length >= 4);
 }
 

@@ -79,34 +79,34 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Animal",
                     "skillName": "Riding",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 5
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 4
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Body Development",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
@@ -116,35 +116,35 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Unarmed",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 5,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Composition & Performance Art",
-                    "ranks": 4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Environmental",
@@ -154,41 +154,41 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Forest",
-                    "ranks": 3
+                    "specialization": "Own Region",
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 9,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
                     "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 2
-                  },
-                  {
-                    "skillCategory": "Lore",
                     "skillGroup": "Religion/Philosophy",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -200,53 +200,53 @@
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Swimming",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 5
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 5
+                    "ranks": 2
                   }
                 ]
               }
@@ -301,6 +301,17 @@
                     "starting": [],
                     "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
                     "sourceStatus": "starting-languages-not-resolved"
+                  },
+                  "historicalContext": {
+                    "status": "optional-contextual-profile",
+                    "age": 2,
+                    "labelFr": "Penni des terres boisées",
+                    "labelEn": "Penni of the Wooded Lands",
+                    "historicalWindowFr": "IIe Âge : adaptation ludique de traditions forestières ; données historiques limitées.",
+                    "historicalWindowEn": "Second Age: a playable adaptation of woodland traditions; limited historical evidence.",
+                    "noteFr": "Profil facultatif MERP-UI ; le Meneur peut adapter cette répartition de 80 PD à sa propre Terre du Milieu.",
+                    "noteEn": "Optional MERP-UI profile; the GM may adjust this 80-DP allocation for their own Middle-earth.",
+                    "provenance": "Optional game adaptation; Tolkien where attested, otherwise MERP-inspired or MERP-UI extrapolation"
                   }
                 }
               },
@@ -313,34 +324,34 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Animal",
                     "skillName": "Riding",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 5
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 4
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Body Development",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
@@ -350,35 +361,35 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Unarmed",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 5,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Composition & Performance Art",
-                    "ranks": 4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Environmental",
@@ -388,41 +399,41 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Forest",
-                    "ranks": 3
+                    "specialization": "Own Region",
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 9,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
+                    "ranks": 1
+                  },
+                  {
+                    "skillCategory": "Lore",
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
                     "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 2
-                  },
-                  {
-                    "skillCategory": "Lore",
                     "skillGroup": "Religion/Philosophy",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -434,53 +445,53 @@
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Swimming",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 5
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 5
+                    "ranks": 3
                   }
                 ]
               }
@@ -509,39 +520,39 @@
       "book": "MERP-RMU",
       "table": "Conversion RMSS/RMFRP → RMU",
       "culture": "Penni",
-      "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> venus des régions orientales. Fuyant les Hommes Sauvages et l’Ombre de l’Est, plusieurs de leurs communautés gagnèrent progressivement l’Ouest et se rapprochèrent des Nandor. Leur mélange, enrichi plus tard par une influence sindarine, contribua directement à la formation des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>La migration penni semble avoir été progressive, menée par des groupes et des familles plutôt que par un grand royaume centralisé. Les forêts occidentales offrirent des refuges adaptés à des communautés cherchant à survivre sans attirer l’attention des puissances plus nombreuses de l’Est.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Les Penni et les Nandor partageaient une longue vie en Terre du Milieu et une forte proximité avec les régions sauvages. Leur origine restait différente — Avari pour les Penni, Eldar pour les Nandor — mais les mariages et les communautés communes rendirent progressivement cette distinction moins importante dans la vie quotidienne.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, l’identité penni se fond de plus en plus dans les communautés sylvaines. Cette évolution n’est pas une disparition soudaine : langues, familles, arts forestiers et traditions survivent dans la Culture nouvelle.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
+      "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> originaires des contrées orientales. Fuyant les Hommes Sauvages et l’Ombre grandissante de l’Est, certaines de leurs communautés gagnèrent lentement l’Ouest et se rapprochèrent des Nandor. De leur rencontre, puis de l’influence sindarine, naquit une part importante de la culture des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>Cette migration se fit par familles et petits groupes, sans grande autorité centrale. Les forêts occidentales leur offrirent des refuges où ils purent se rétablir à l’abri des puissances qui dominaient leurs terres d’origine.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Penni et Nandor partageaient leur longévité et leur proximité avec les terres sauvages. Les premiers étaient Avari, les seconds Eldar ; pourtant, les mariages et la vie de communautés communes atténuèrent peu à peu cette différence d'origine.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, les Penni se mêlèrent progressivement aux communautés sylvaines. Leurs familles, leurs langues, leurs arts forestiers et leurs traditions continuèrent de vivre au sein de cette Culture commune ; leur identité s'y transforma sans disparaître brusquement.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
       "cultureRanks": [
         {
           "skillCategory": "Animal",
           "skillName": "Animal Handling",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Animal",
           "skillName": "Riding",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Awareness",
           "skillName": "Perception",
-          "ranks": 5
+          "ranks": 2
         },
         {
           "skillCategory": "Awareness",
           "skillName": "Tracking",
-          "ranks": 4
+          "ranks": 1
         },
         {
           "skillCategory": "Battle Expertise",
           "skillName": "Maneuvering in Armor",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Brawn",
           "skillName": "Body Development",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Brawn",
@@ -551,35 +562,35 @@
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Unarmed",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Melee Weapons",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Ranged Weapons",
-          "ranks": 5,
+          "ranks": 2,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Composition & Performance Art",
-          "ranks": 4,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Crafting & Vocation",
-          "ranks": 4,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Environmental",
           "skillName": "Navigation",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Environmental",
@@ -589,41 +600,41 @@
         {
           "skillCategory": "Environmental",
           "skillName": "Survival",
-          "specialization": "Forest",
-          "ranks": 3
+          "specialization": "Own Region",
+          "ranks": 1
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Acrobatics",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Jumping",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Lore",
           "skillGroup": "Languages",
-          "ranks": 9,
+          "ranks": 3,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Lore",
           "skillName": "Region Lore",
           "specialization": "Own",
+          "ranks": 1
+        },
+        {
+          "skillCategory": "Lore",
+          "skillName": "Racial Lore",
+          "specialization": "Own Culture",
           "ranks": 3
         },
         {
           "skillCategory": "Lore",
-          "skillName": "Region Lore",
-          "specialization": "Neighboring",
-          "ranks": 2
-        },
-        {
-          "skillCategory": "Lore",
           "skillGroup": "Religion/Philosophy",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
@@ -635,53 +646,53 @@
         {
           "skillCategory": "Medical",
           "skillName": "Herbalism",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Medical",
           "skillName": "Medicine",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Movement",
           "skillName": "Climbing",
-          "ranks": 3
+          "ranks": 1
         },
         {
           "skillCategory": "Movement",
           "skillName": "Running",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Movement",
           "skillName": "Swimming",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Social",
           "skillName": "Influence",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Social",
           "skillName": "Social Awareness",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Social",
           "skillName": "Trading",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Subterfuge",
           "skillName": "Concealment",
-          "ranks": 5
+          "ranks": 2
         },
         {
           "skillCategory": "Subterfuge",
           "skillName": "Stalking",
-          "ranks": 5
+          "ranks": 2
         }
       ]
     }
@@ -690,14 +701,14 @@
     "fr": {
       "name": "Penni",
       "system": {
-        "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> venus des régions orientales. Fuyant les Hommes Sauvages et l’Ombre de l’Est, plusieurs de leurs communautés gagnèrent progressivement l’Ouest et se rapprochèrent des Nandor. Leur mélange, enrichi plus tard par une influence sindarine, contribua directement à la formation des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>La migration penni semble avoir été progressive, menée par des groupes et des familles plutôt que par un grand royaume centralisé. Les forêts occidentales offrirent des refuges adaptés à des communautés cherchant à survivre sans attirer l’attention des puissances plus nombreuses de l’Est.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Les Penni et les Nandor partageaient une longue vie en Terre du Milieu et une forte proximité avec les régions sauvages. Leur origine restait différente — Avari pour les Penni, Eldar pour les Nandor — mais les mariages et les communautés communes rendirent progressivement cette distinction moins importante dans la vie quotidienne.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, l’identité penni se fond de plus en plus dans les communautés sylvaines. Cette évolution n’est pas une disparition soudaine : langues, familles, arts forestiers et traditions survivent dans la Culture nouvelle.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
+        "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> originaires des contrées orientales. Fuyant les Hommes Sauvages et l’Ombre grandissante de l’Est, certaines de leurs communautés gagnèrent lentement l’Ouest et se rapprochèrent des Nandor. De leur rencontre, puis de l’influence sindarine, naquit une part importante de la culture des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>Cette migration se fit par familles et petits groupes, sans grande autorité centrale. Les forêts occidentales leur offrirent des refuges où ils purent se rétablir à l’abri des puissances qui dominaient leurs terres d’origine.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Penni et Nandor partageaient leur longévité et leur proximité avec les terres sauvages. Les premiers étaient Avari, les seconds Eldar ; pourtant, les mariages et la vie de communautés communes atténuèrent peu à peu cette différence d'origine.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, les Penni se mêlèrent progressivement aux communautés sylvaines. Leurs familles, leurs langues, leurs arts forestiers et leurs traditions continuèrent de vivre au sein de cette Culture commune ; leur identité s'y transforma sans disparaître brusquement.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
         "culture": "Penni"
       }
     },
     "en": {
       "name": "Penni",
       "system": {
-        "description": "<h1>Penni</h1>\n<p>The <strong>Penni</strong> are <strong>Avari</strong> Elves from the eastern regions. Fleeing Wild Men and the Shadow in the East, several of their communities gradually travelled west and drew closer to the Nandor. Their mingling, later enriched by Sindarin influence, directly contributed to the formation of the future <strong>Silvan Elves</strong>.</p>\n<h2>Migration</h2>\n<p>Penni migration appears to have been gradual, carried out by groups and families rather than by a great centralised kingdom. The western forests offered suitable refuges to communities seeking to survive without attracting the attention of the more numerous powers of the East.</p>\n<h2>Meeting the Nandor</h2>\n<p>The Penni and Nandor shared a long life in Middle-earth and a strong closeness to wild regions. Their origins remained different — Avari for the Penni, Eldar for the Nandor — but marriages and mixed communities gradually made that distinction less important in everyday life.</p>\n<h2>Toward the Silvan Elves</h2>\n<p>During the Second Age, Penni identity increasingly merges into Silvan communities. This development is not a sudden disappearance: languages, families, woodland arts and traditions survive within the new Culture.</p>\n<h2>Woodland life</h2>\n<p>The forest is their principal refuge and provides materials, food and defence. Settlements remain discreet, often light and integrated into the terrain. Woodcraft, Fletching, Gathering, Tracking, Observation and Concealment are particularly consistent with their way of life.</p>\n<h2>Relations and caution</h2>\n<p>The memory of Wild Men and the eastern Shadow feeds lasting caution toward strangers. The Penni can form alliances but prefer not to reveal the location of their communities until visitors have been observed for a long time.</p>\n<h2>Combat</h2>\n<p>Bow, spear, javelin and dagger suit woodland warfare based on Ambush, Concealment and mobility. Light armour preserves the ability to move silently.</p>\n<h2>Place in character creation</h2>\n<p>During the First Age, a Penni may belong to a community that is still clearly Avarin. During the Second Age, the character may have lived for several generations among the Nandor and directly represent the transition toward the Silvan Elves.</p>",
+        "description": "<h1>Penni</h1>\n<p>The <strong>Penni</strong> are <strong>Avari</strong> Elves from the eastern lands. Fleeing Wild Men and the growing Shadow in the East, some of their communities slowly travelled west and came into contact with the Nandor. Their meeting, followed by Sindarin influence, contributed greatly to the culture of the later <strong>Silvan Elves</strong>.</p>\n<h2>Migration</h2>\n<p>This migration took place by families and small groups, without a great central authority. The western forests offered refuge where they could recover beyond the reach of the powers that dominated their former lands.</p>\n<h2>Meeting the Nandor</h2>\n<p>Penni and Nandor shared long lives and a close bond with the wild lands. The former were Avari and the latter Eldar, yet intermarriage and life in shared communities gradually made that difference of origin less important.</p>\n<h2>Toward the Silvan Elves</h2>\n<p>During the Second Age, the Penni gradually merged into Silvan communities. Their families, languages, woodland arts, and traditions continued within that shared Culture; their identity changed rather than vanishing suddenly.</p>\n<h2>Woodland life</h2>\n<p>The forest is their principal refuge and provides materials, food and defence. Settlements remain discreet, often light and integrated into the terrain. Woodcraft, Fletching, Gathering, Tracking, Observation and Concealment are particularly consistent with their way of life.</p>\n<h2>Relations and caution</h2>\n<p>The memory of Wild Men and the eastern Shadow feeds lasting caution toward strangers. The Penni can form alliances but prefer not to reveal the location of their communities until visitors have been observed for a long time.</p>\n<h2>Combat</h2>\n<p>Bow, spear, javelin and dagger suit woodland warfare based on Ambush, Concealment and mobility. Light armour preserves the ability to move silently.</p>\n<h2>Place in character creation</h2>\n<p>During the First Age, a Penni may belong to a community that is still clearly Avarin. During the Second Age, the character may have lived for several generations among the Nandor and directly represent the transition toward the Silvan Elves.</p>",
         "culture": "Penni"
       }
     }
@@ -743,39 +754,39 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Penni",
-          "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> venus des régions orientales. Fuyant les Hommes Sauvages et l’Ombre de l’Est, plusieurs de leurs communautés gagnèrent progressivement l’Ouest et se rapprochèrent des Nandor. Leur mélange, enrichi plus tard par une influence sindarine, contribua directement à la formation des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>La migration penni semble avoir été progressive, menée par des groupes et des familles plutôt que par un grand royaume centralisé. Les forêts occidentales offrirent des refuges adaptés à des communautés cherchant à survivre sans attirer l’attention des puissances plus nombreuses de l’Est.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Les Penni et les Nandor partageaient une longue vie en Terre du Milieu et une forte proximité avec les régions sauvages. Leur origine restait différente — Avari pour les Penni, Eldar pour les Nandor — mais les mariages et les communautés communes rendirent progressivement cette distinction moins importante dans la vie quotidienne.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, l’identité penni se fond de plus en plus dans les communautés sylvaines. Cette évolution n’est pas une disparition soudaine : langues, familles, arts forestiers et traditions survivent dans la Culture nouvelle.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
+          "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> originaires des contrées orientales. Fuyant les Hommes Sauvages et l’Ombre grandissante de l’Est, certaines de leurs communautés gagnèrent lentement l’Ouest et se rapprochèrent des Nandor. De leur rencontre, puis de l’influence sindarine, naquit une part importante de la culture des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>Cette migration se fit par familles et petits groupes, sans grande autorité centrale. Les forêts occidentales leur offrirent des refuges où ils purent se rétablir à l’abri des puissances qui dominaient leurs terres d’origine.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Penni et Nandor partageaient leur longévité et leur proximité avec les terres sauvages. Les premiers étaient Avari, les seconds Eldar ; pourtant, les mariages et la vie de communautés communes atténuèrent peu à peu cette différence d'origine.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, les Penni se mêlèrent progressivement aux communautés sylvaines. Leurs familles, leurs langues, leurs arts forestiers et leurs traditions continuèrent de vivre au sein de cette Culture commune ; leur identité s'y transforma sans disparaître brusquement.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Animal",
               "skillName": "Riding",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 5
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 4
+              "ranks": 1
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Body Development",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
@@ -785,35 +796,35 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Unarmed",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 5,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Composition & Performance Art",
-              "ranks": 4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Environmental",
@@ -823,41 +834,41 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Forest",
-              "ranks": 3
+              "specialization": "Own Region",
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 9,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
               "ranks": 3
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 2
-            },
-            {
-              "skillCategory": "Lore",
               "skillGroup": "Religion/Philosophy",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -869,53 +880,53 @@
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Swimming",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 5
+              "ranks": 2
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 5
+              "ranks": 2
             }
           ]
         }
@@ -924,14 +935,14 @@
         "fr": {
           "name": "Penni",
           "system": {
-            "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> venus des régions orientales. Fuyant les Hommes Sauvages et l’Ombre de l’Est, plusieurs de leurs communautés gagnèrent progressivement l’Ouest et se rapprochèrent des Nandor. Leur mélange, enrichi plus tard par une influence sindarine, contribua directement à la formation des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>La migration penni semble avoir été progressive, menée par des groupes et des familles plutôt que par un grand royaume centralisé. Les forêts occidentales offrirent des refuges adaptés à des communautés cherchant à survivre sans attirer l’attention des puissances plus nombreuses de l’Est.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Les Penni et les Nandor partageaient une longue vie en Terre du Milieu et une forte proximité avec les régions sauvages. Leur origine restait différente — Avari pour les Penni, Eldar pour les Nandor — mais les mariages et les communautés communes rendirent progressivement cette distinction moins importante dans la vie quotidienne.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, l’identité penni se fond de plus en plus dans les communautés sylvaines. Cette évolution n’est pas une disparition soudaine : langues, familles, arts forestiers et traditions survivent dans la Culture nouvelle.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
+            "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> originaires des contrées orientales. Fuyant les Hommes Sauvages et l’Ombre grandissante de l’Est, certaines de leurs communautés gagnèrent lentement l’Ouest et se rapprochèrent des Nandor. De leur rencontre, puis de l’influence sindarine, naquit une part importante de la culture des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>Cette migration se fit par familles et petits groupes, sans grande autorité centrale. Les forêts occidentales leur offrirent des refuges où ils purent se rétablir à l’abri des puissances qui dominaient leurs terres d’origine.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Penni et Nandor partageaient leur longévité et leur proximité avec les terres sauvages. Les premiers étaient Avari, les seconds Eldar ; pourtant, les mariages et la vie de communautés communes atténuèrent peu à peu cette différence d'origine.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, les Penni se mêlèrent progressivement aux communautés sylvaines. Leurs familles, leurs langues, leurs arts forestiers et leurs traditions continuèrent de vivre au sein de cette Culture commune ; leur identité s'y transforma sans disparaître brusquement.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
             "culture": "Penni"
           }
         },
         "en": {
           "name": "Penni",
           "system": {
-            "description": "<h1>Penni</h1>\n<p>The <strong>Penni</strong> are <strong>Avari</strong> Elves from the eastern regions. Fleeing Wild Men and the Shadow in the East, several of their communities gradually travelled west and drew closer to the Nandor. Their mingling, later enriched by Sindarin influence, directly contributed to the formation of the future <strong>Silvan Elves</strong>.</p>\n<h2>Migration</h2>\n<p>Penni migration appears to have been gradual, carried out by groups and families rather than by a great centralised kingdom. The western forests offered suitable refuges to communities seeking to survive without attracting the attention of the more numerous powers of the East.</p>\n<h2>Meeting the Nandor</h2>\n<p>The Penni and Nandor shared a long life in Middle-earth and a strong closeness to wild regions. Their origins remained different — Avari for the Penni, Eldar for the Nandor — but marriages and mixed communities gradually made that distinction less important in everyday life.</p>\n<h2>Toward the Silvan Elves</h2>\n<p>During the Second Age, Penni identity increasingly merges into Silvan communities. This development is not a sudden disappearance: languages, families, woodland arts and traditions survive within the new Culture.</p>\n<h2>Woodland life</h2>\n<p>The forest is their principal refuge and provides materials, food and defence. Settlements remain discreet, often light and integrated into the terrain. Woodcraft, Fletching, Gathering, Tracking, Observation and Concealment are particularly consistent with their way of life.</p>\n<h2>Relations and caution</h2>\n<p>The memory of Wild Men and the eastern Shadow feeds lasting caution toward strangers. The Penni can form alliances but prefer not to reveal the location of their communities until visitors have been observed for a long time.</p>\n<h2>Combat</h2>\n<p>Bow, spear, javelin and dagger suit woodland warfare based on Ambush, Concealment and mobility. Light armour preserves the ability to move silently.</p>\n<h2>Place in character creation</h2>\n<p>During the First Age, a Penni may belong to a community that is still clearly Avarin. During the Second Age, the character may have lived for several generations among the Nandor and directly represent the transition toward the Silvan Elves.</p>",
+            "description": "<h1>Penni</h1>\n<p>The <strong>Penni</strong> are <strong>Avari</strong> Elves from the eastern lands. Fleeing Wild Men and the growing Shadow in the East, some of their communities slowly travelled west and came into contact with the Nandor. Their meeting, followed by Sindarin influence, contributed greatly to the culture of the later <strong>Silvan Elves</strong>.</p>\n<h2>Migration</h2>\n<p>This migration took place by families and small groups, without a great central authority. The western forests offered refuge where they could recover beyond the reach of the powers that dominated their former lands.</p>\n<h2>Meeting the Nandor</h2>\n<p>Penni and Nandor shared long lives and a close bond with the wild lands. The former were Avari and the latter Eldar, yet intermarriage and life in shared communities gradually made that difference of origin less important.</p>\n<h2>Toward the Silvan Elves</h2>\n<p>During the Second Age, the Penni gradually merged into Silvan communities. Their families, languages, woodland arts, and traditions continued within that shared Culture; their identity changed rather than vanishing suddenly.</p>\n<h2>Woodland life</h2>\n<p>The forest is their principal refuge and provides materials, food and defence. Settlements remain discreet, often light and integrated into the terrain. Woodcraft, Fletching, Gathering, Tracking, Observation and Concealment are particularly consistent with their way of life.</p>\n<h2>Relations and caution</h2>\n<p>The memory of Wild Men and the eastern Shadow feeds lasting caution toward strangers. The Penni can form alliances but prefer not to reveal the location of their communities until visitors have been observed for a long time.</p>\n<h2>Combat</h2>\n<p>Bow, spear, javelin and dagger suit woodland warfare based on Ambush, Concealment and mobility. Light armour preserves the ability to move silently.</p>\n<h2>Place in character creation</h2>\n<p>During the First Age, a Penni may belong to a community that is still clearly Avarin. During the Second Age, the character may have lived for several generations among the Nandor and directly represent the transition toward the Silvan Elves.</p>",
             "culture": "Penni"
           }
         }
@@ -970,6 +981,17 @@
               "starting": [],
               "source": "MERP Character Creation Using RMSS/RMFRP v2.5",
               "sourceStatus": "starting-languages-not-resolved"
+            },
+            "historicalContext": {
+              "status": "optional-contextual-profile",
+              "age": 2,
+              "labelFr": "Penni des terres boisées",
+              "labelEn": "Penni of the Wooded Lands",
+              "historicalWindowFr": "IIe Âge : adaptation ludique de traditions forestières ; données historiques limitées.",
+              "historicalWindowEn": "Second Age: a playable adaptation of woodland traditions; limited historical evidence.",
+              "noteFr": "Profil facultatif MERP-UI ; le Meneur peut adapter cette répartition de 80 PD à sa propre Terre du Milieu.",
+              "noteEn": "Optional MERP-UI profile; the GM may adjust this 80-DP allocation for their own Middle-earth.",
+              "provenance": "Optional game adaptation; Tolkien where attested, otherwise MERP-inspired or MERP-UI extrapolation"
             }
           }
         },
@@ -977,39 +999,39 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Penni",
-          "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> venus des régions orientales. Fuyant les Hommes Sauvages et l’Ombre de l’Est, plusieurs de leurs communautés gagnèrent progressivement l’Ouest et se rapprochèrent des Nandor. Leur mélange, enrichi plus tard par une influence sindarine, contribua directement à la formation des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>La migration penni semble avoir été progressive, menée par des groupes et des familles plutôt que par un grand royaume centralisé. Les forêts occidentales offrirent des refuges adaptés à des communautés cherchant à survivre sans attirer l’attention des puissances plus nombreuses de l’Est.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Les Penni et les Nandor partageaient une longue vie en Terre du Milieu et une forte proximité avec les régions sauvages. Leur origine restait différente — Avari pour les Penni, Eldar pour les Nandor — mais les mariages et les communautés communes rendirent progressivement cette distinction moins importante dans la vie quotidienne.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, l’identité penni se fond de plus en plus dans les communautés sylvaines. Cette évolution n’est pas une disparition soudaine : langues, familles, arts forestiers et traditions survivent dans la Culture nouvelle.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
+          "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> originaires des contrées orientales. Fuyant les Hommes Sauvages et l’Ombre grandissante de l’Est, certaines de leurs communautés gagnèrent lentement l’Ouest et se rapprochèrent des Nandor. De leur rencontre, puis de l’influence sindarine, naquit une part importante de la culture des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>Cette migration se fit par familles et petits groupes, sans grande autorité centrale. Les forêts occidentales leur offrirent des refuges où ils purent se rétablir à l’abri des puissances qui dominaient leurs terres d’origine.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Penni et Nandor partageaient leur longévité et leur proximité avec les terres sauvages. Les premiers étaient Avari, les seconds Eldar ; pourtant, les mariages et la vie de communautés communes atténuèrent peu à peu cette différence d'origine.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, les Penni se mêlèrent progressivement aux communautés sylvaines. Leurs familles, leurs langues, leurs arts forestiers et leurs traditions continuèrent de vivre au sein de cette Culture commune ; leur identité s'y transforma sans disparaître brusquement.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Animal",
               "skillName": "Riding",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 5
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 4
+              "ranks": 1
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Body Development",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
@@ -1019,35 +1041,35 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Unarmed",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 5,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Composition & Performance Art",
-              "ranks": 4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Environmental",
@@ -1057,41 +1079,41 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Forest",
-              "ranks": 3
+              "specialization": "Own Region",
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 9,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
+              "ranks": 1
+            },
+            {
+              "skillCategory": "Lore",
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
               "ranks": 3
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 2
-            },
-            {
-              "skillCategory": "Lore",
               "skillGroup": "Religion/Philosophy",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -1103,53 +1125,53 @@
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Swimming",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 5
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 5
+              "ranks": 3
             }
           ]
         }
@@ -1158,14 +1180,14 @@
         "fr": {
           "name": "Penni",
           "system": {
-            "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> venus des régions orientales. Fuyant les Hommes Sauvages et l’Ombre de l’Est, plusieurs de leurs communautés gagnèrent progressivement l’Ouest et se rapprochèrent des Nandor. Leur mélange, enrichi plus tard par une influence sindarine, contribua directement à la formation des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>La migration penni semble avoir été progressive, menée par des groupes et des familles plutôt que par un grand royaume centralisé. Les forêts occidentales offrirent des refuges adaptés à des communautés cherchant à survivre sans attirer l’attention des puissances plus nombreuses de l’Est.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Les Penni et les Nandor partageaient une longue vie en Terre du Milieu et une forte proximité avec les régions sauvages. Leur origine restait différente — Avari pour les Penni, Eldar pour les Nandor — mais les mariages et les communautés communes rendirent progressivement cette distinction moins importante dans la vie quotidienne.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, l’identité penni se fond de plus en plus dans les communautés sylvaines. Cette évolution n’est pas une disparition soudaine : langues, familles, arts forestiers et traditions survivent dans la Culture nouvelle.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
+            "description": "<h1>Penni</h1>\n<p>Les <strong>Penni</strong> sont des Elfes <strong>Avari</strong> originaires des contrées orientales. Fuyant les Hommes Sauvages et l’Ombre grandissante de l’Est, certaines de leurs communautés gagnèrent lentement l’Ouest et se rapprochèrent des Nandor. De leur rencontre, puis de l’influence sindarine, naquit une part importante de la culture des futurs <strong>Elfes sylvains</strong>.</p>\n<h2>Migration</h2>\n<p>Cette migration se fit par familles et petits groupes, sans grande autorité centrale. Les forêts occidentales leur offrirent des refuges où ils purent se rétablir à l’abri des puissances qui dominaient leurs terres d’origine.</p>\n<h2>Rencontre avec les Nandor</h2>\n<p>Penni et Nandor partageaient leur longévité et leur proximité avec les terres sauvages. Les premiers étaient Avari, les seconds Eldar ; pourtant, les mariages et la vie de communautés communes atténuèrent peu à peu cette différence d'origine.</p>\n<h2>Vers les Elfes sylvains</h2>\n<p>Au Deuxième Âge, les Penni se mêlèrent progressivement aux communautés sylvaines. Leurs familles, leurs langues, leurs arts forestiers et leurs traditions continuèrent de vivre au sein de cette Culture commune ; leur identité s'y transforma sans disparaître brusquement.</p>\n<h2>Vie forestière</h2>\n<p>La forêt constitue leur principal refuge et fournit matériaux, nourriture et défense. Les établissements restent discrets, souvent légers et intégrés au terrain. Travail du bois, Empennage, Cueillette, Pistage, Observation et Dissimulation sont particulièrement cohérents avec leur mode de vie.</p>\n<h2>Relations et prudence</h2>\n<p>Le souvenir des Hommes Sauvages et de l’Ombre orientale nourrit une prudence durable envers les étrangers. Les Penni peuvent nouer des alliances, mais évitent volontiers de révéler l’emplacement de leurs communautés avant d’avoir observé longuement les visiteurs.</p>\n<h2>Combat</h2>\n<p>Arc, lance, javelot et dague conviennent à une guerre forestière fondée sur l’Embuscade, la Dissimulation et la mobilité. Les armures légères préservent la capacité à se déplacer silencieusement.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Au Premier Âge, un Penni peut appartenir à une communauté encore clairement avarine. Au Deuxième Âge, il peut vivre depuis plusieurs générations avec les Nandor et représenter directement la transition vers les Elfes sylvains.</p>",
             "culture": "Penni"
           }
         },
         "en": {
           "name": "Penni",
           "system": {
-            "description": "<h1>Penni</h1>\n<p>The <strong>Penni</strong> are <strong>Avari</strong> Elves from the eastern regions. Fleeing Wild Men and the Shadow in the East, several of their communities gradually travelled west and drew closer to the Nandor. Their mingling, later enriched by Sindarin influence, directly contributed to the formation of the future <strong>Silvan Elves</strong>.</p>\n<h2>Migration</h2>\n<p>Penni migration appears to have been gradual, carried out by groups and families rather than by a great centralised kingdom. The western forests offered suitable refuges to communities seeking to survive without attracting the attention of the more numerous powers of the East.</p>\n<h2>Meeting the Nandor</h2>\n<p>The Penni and Nandor shared a long life in Middle-earth and a strong closeness to wild regions. Their origins remained different — Avari for the Penni, Eldar for the Nandor — but marriages and mixed communities gradually made that distinction less important in everyday life.</p>\n<h2>Toward the Silvan Elves</h2>\n<p>During the Second Age, Penni identity increasingly merges into Silvan communities. This development is not a sudden disappearance: languages, families, woodland arts and traditions survive within the new Culture.</p>\n<h2>Woodland life</h2>\n<p>The forest is their principal refuge and provides materials, food and defence. Settlements remain discreet, often light and integrated into the terrain. Woodcraft, Fletching, Gathering, Tracking, Observation and Concealment are particularly consistent with their way of life.</p>\n<h2>Relations and caution</h2>\n<p>The memory of Wild Men and the eastern Shadow feeds lasting caution toward strangers. The Penni can form alliances but prefer not to reveal the location of their communities until visitors have been observed for a long time.</p>\n<h2>Combat</h2>\n<p>Bow, spear, javelin and dagger suit woodland warfare based on Ambush, Concealment and mobility. Light armour preserves the ability to move silently.</p>\n<h2>Place in character creation</h2>\n<p>During the First Age, a Penni may belong to a community that is still clearly Avarin. During the Second Age, the character may have lived for several generations among the Nandor and directly represent the transition toward the Silvan Elves.</p>",
+            "description": "<h1>Penni</h1>\n<p>The <strong>Penni</strong> are <strong>Avari</strong> Elves from the eastern lands. Fleeing Wild Men and the growing Shadow in the East, some of their communities slowly travelled west and came into contact with the Nandor. Their meeting, followed by Sindarin influence, contributed greatly to the culture of the later <strong>Silvan Elves</strong>.</p>\n<h2>Migration</h2>\n<p>This migration took place by families and small groups, without a great central authority. The western forests offered refuge where they could recover beyond the reach of the powers that dominated their former lands.</p>\n<h2>Meeting the Nandor</h2>\n<p>Penni and Nandor shared long lives and a close bond with the wild lands. The former were Avari and the latter Eldar, yet intermarriage and life in shared communities gradually made that difference of origin less important.</p>\n<h2>Toward the Silvan Elves</h2>\n<p>During the Second Age, the Penni gradually merged into Silvan communities. Their families, languages, woodland arts, and traditions continued within that shared Culture; their identity changed rather than vanishing suddenly.</p>\n<h2>Woodland life</h2>\n<p>The forest is their principal refuge and provides materials, food and defence. Settlements remain discreet, often light and integrated into the terrain. Woodcraft, Fletching, Gathering, Tracking, Observation and Concealment are particularly consistent with their way of life.</p>\n<h2>Relations and caution</h2>\n<p>The memory of Wild Men and the eastern Shadow feeds lasting caution toward strangers. The Penni can form alliances but prefer not to reveal the location of their communities until visitors have been observed for a long time.</p>\n<h2>Combat</h2>\n<p>Bow, spear, javelin and dagger suit woodland warfare based on Ambush, Concealment and mobility. Light armour preserves the ability to move silently.</p>\n<h2>Place in character creation</h2>\n<p>During the First Age, a Penni may belong to a community that is still clearly Avarin. During the Second Age, the character may have lived for several generations among the Nandor and directly represent the transition toward the Silvan Elves.</p>",
             "culture": "Penni"
           }
         }

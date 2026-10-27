@@ -13,7 +13,7 @@
  */
 import { contentLanguage, localizeManagedDocument } from './localization.js';
 import { localizeJournalDocument } from './content-localization.js';
-import { organizeUpdatedCompendium } from './compendium-content.js';
+import { organizeUpdatedCompendium, queueCompendiumMaintenance } from './compendium-content.js';
 import { equivalentJournalHtml } from './html-equivalence.js';
 
 const MODULE_ID = 'merp-ui';
@@ -34,15 +34,56 @@ export function registerMerpRmuContentSyncSettings() {
   }
 }
 
-async function loadJson(relativePath) {
-  if (!relativePath.startsWith('source/compendiums/')) {
-    throw Error(`Invalid MERP-RMU source path: ${relativePath}`);
-  }
+// CLEAN-42: session-only cache of immutable Compendium source JSON.
+// Never cache Foundry Documents, localized results or mutable World data.
+// Keeping the in-flight Promise also coalesces duplicate requests. Reloading
+// Foundry naturally discards the cache; a changed manifest fingerprint clears
+// it during the same session (for unusual hot-update workflows).
+const sourceJsonCache = new Map();
+const SOURCE_MANIFEST = 'source/compendiums/content-sync-manifest.json';
+let lastSourceManifestFingerprint = null;
+let sourceJsonCacheHits = 0;
+let sourceJsonCacheMisses = 0;
+
+async function fetchSourceJson(relativePath) {
   const url = `modules/${MODULE_ID}/${relativePath}`;
   const route = foundry?.utils?.getRoute ? foundry.utils.getRoute(url) : url;
   const response = await fetch(route, { cache: 'no-store', credentials: 'same-origin' });
   if (!response.ok) throw Error(`${relativePath}: HTTP ${response.status}`);
   return response.json();
+}
+
+async function loadJson(relativePath) {
+  if (!relativePath.startsWith('source/compendiums/')) {
+    throw Error(`Invalid MERP-RMU source path: ${relativePath}`);
+  }
+  // Always read the small manifest afresh: its release fingerprint is our
+  // invalidation key, and unlike the 455 sources it is fetched only once per sync.
+  if (relativePath === SOURCE_MANIFEST) {
+    const manifest = await fetchSourceJson(relativePath);
+    const fingerprint = manifest?.fingerprint ?? null;
+    if (lastSourceManifestFingerprint !== null &&
+        fingerprint !== lastSourceManifestFingerprint) {
+      sourceJsonCache.clear();
+    }
+    lastSourceManifestFingerprint = fingerprint;
+    return manifest;
+  }
+  const cached = sourceJsonCache.get(relativePath);
+  if (cached) {
+    sourceJsonCacheHits++;
+    return cached;
+  }
+  sourceJsonCacheMisses++;
+  const pending = fetchSourceJson(relativePath).catch((error) => {
+    // Failed requests must be retried normally at the next attempt.
+    if (sourceJsonCache.get(relativePath) === pending) {
+      sourceJsonCache.delete(relativePath);
+    }
+    throw error;
+  });
+  sourceJsonCache.set(relativePath, pending);
+  return pending;
 }
 
 function equal(left, right) {
@@ -116,25 +157,44 @@ function plannedJournalUpdate(journal, source, language) {
   return { patch, pages };
 }
 
-function metadataPatch(doc, source, sourceRecord, packName, language) {
-  const flags = doc.flags?.[MODULE_ID] ?? {};
-  const values = {
+// Shared source metadata for both new compendium entries and existing ones.
+// The caller chooses the build language: an existing seed keeps its original
+// language, while a newly created entry records the current build language.
+function sourceMetadataValues(source, packName, buildLanguage) {
+  return {
     compendiumSourceKey: source.key,
     compendiumPack: packName,
     compendiumSourceFile: source.sourceFile ?? null,
     compendiumFolderKey: source.folderKey ?? null,
-    // This field describes the language of the BUILT seed, not the current UI.
-    // Existing localization has its own lifecycle; avoid rewriting it.
-    compendiumBuildLanguage: flags.compendiumBuildLanguage ?? language,
+    compendiumBuildLanguage: buildLanguage,
     compendiumLocalizations: source.localizations ?? {},
     compendiumAgeVariants: source.ageVariants ?? null,
     compendiumFolderPath: source.compendiumFolderPath ?? { fr: [], en: [] },
     compendiumFolderKeyPath: source.compendiumFolderKeyPath ?? [],
     compendiumResolverBacked: Boolean(source.resolverBacked)
   };
+}
+
+function metadataPatch(doc, source, sourceRecord, packName, language) {
+  const flags = doc.flags?.[MODULE_ID] ?? {};
+  // Existing localization has its own lifecycle; preserve the built seed locale.
+  const values = sourceMetadataValues(source, packName, flags.compendiumBuildLanguage ?? language);
   const patch = {};
   for (const [key, value] of Object.entries(values)) {
     if (!equal(flags[key], value)) patch[`flags.${MODULE_ID}.${key}`] = value;
+  }
+
+  // Foundry merges nested flag objects instead of removing absent keys.
+  // Early RC5 culture seeds stored cultureRanks inside localization metadata.
+  // That field is not present in the canonical localizations: remove it
+  // explicitly, otherwise checkContent() reports the two Eriadorians forever.
+  for (const locale of ['fr', 'en']) {
+    const currentSystem = flags.compendiumLocalizations?.[locale]?.system;
+    const sourceSystem = source.localizations?.[locale]?.system;
+    if (Object.prototype.hasOwnProperty.call(currentSystem ?? {}, 'cultureRanks') &&
+        !Object.prototype.hasOwnProperty.call(sourceSystem ?? {}, 'cultureRanks')) {
+      patch[`flags.${MODULE_ID}.compendiumLocalizations.${locale}.system.-=cultureRanks`] = null;
+    }
   }
   return patch;
 }
@@ -164,16 +224,7 @@ function createDataForSource(source, record, packName, language, type) {
   data.flags ??= {};
   data.flags[MODULE_ID] ??= {};
   Object.assign(data.flags[MODULE_ID], {
-    compendiumSourceKey: source.key,
-    compendiumPack: packName,
-    compendiumSourceFile: source.sourceFile ?? null,
-    compendiumFolderKey: source.folderKey ?? null,
-    compendiumBuildLanguage: language,
-    compendiumLocalizations: source.localizations ?? {},
-    compendiumAgeVariants: source.ageVariants ?? null,
-    compendiumFolderPath: source.compendiumFolderPath ?? { fr: [], en: [] },
-    compendiumFolderKeyPath: source.compendiumFolderKeyPath ?? [],
-    compendiumResolverBacked: Boolean(source.resolverBacked),
+    ...sourceMetadataValues(source, packName, language),
     compendiumSourceHash: record.hash
   });
   if (type === 'JournalEntry') {
@@ -312,7 +363,10 @@ async function synchronizePack(packDefinition, { language, dryRun, worldJournals
   }
   // New source records enter the Compendium at its root, then receive the
   // same localized folder placement as existing records.
-  if (result.created && !dryRun) {
+  // Race folder assignments can change without adding any documents (for
+  // example moving the five common races into "Races Communes"). Reorganize
+  // the Race pack after such source metadata updates too, in the same boot.
+  if ((result.created || (packDefinition.name === 'merp-rmu-races' && result.changed)) && !dryRun) {
     try {
       await organizeUpdatedCompendium(packDefinition.name, language);
     } catch (error) {
@@ -322,9 +376,66 @@ async function synchronizePack(packDefinition, { language, dryRun, worldJournals
   return result;
 }
 
+/**
+ * CLEAN-26: retire the single MERP-UI copy of Starlights now provided by
+ * native RMU Spell Law. The published LevelDB pack and worlds migrated before
+ * CLEAN-26 can retain this one document even after its JSON source is removed.
+ * Delete only the document with our stable ID AND original MERP-UI source key;
+ * never delete a World Item, character list, or an unrelated GM-created item.
+ */
+async function retireObsoleteAstrologerStarlights({ dryRun = false } = {}) {
+  const pack = game.packs.get(`${MODULE_ID}.merp-rmu-spell-lists`);
+  if (!pack) throw Error('MERP-RMU spell-list compendium missing');
+  const id = '3ektZqykfci9Eh17';
+  const doc = await pack.getDocument(id);
+  if (!doc) return { retired: 0 };
+  const flags = doc.flags?.[MODULE_ID] ?? {};
+  if ((flags.compendiumSourceKey ?? flags.key) !== 'astrologer-starlights') {
+    throw Error('CLEAN-26: Starlights ID has unexpected provenance; no deletion performed');
+  }
+  if (dryRun) return { retired: 0, pendingRetirement: 1 };
+  const locked = Boolean(pack.locked ?? pack.metadata?.locked);
+  try {
+    if (locked) {
+      if (typeof pack.configure !== 'function') throw Error('Spell-list compendium cannot be unlocked');
+      await pack.configure({ locked: false });
+    }
+    await Item.deleteDocuments([id], {
+      ...OPTIONS, pack: pack.collection,
+      merpUiObsoleteSourceRetirement: true
+    });
+  } finally {
+    if (locked) await pack.configure({ locked: true });
+  }
+  console.info(`${MODULE_ID} | Retired MERP-UI duplicate Starlights; native RMU list preserved.`);
+  return { retired: 1 };
+}
+
+/** RC5: verify ALL cultural source records at every GM startup.
+ * The distributed LevelDB compendium may contain stale records even when the
+ * world fingerprint and per-document source hashes match. Compare actual
+ * source content rather than relying on fingerprints alone. Only the culture
+ * pack is checked; other packs are untouched on an unchanged release.
+ */
+async function repairCultureCompendium(manifest, language, { dryRun = false } = {}) {
+  const definition = manifest.packs.find(p => p.name === 'merp-rmu-cultures');
+  if (!definition) return { pack: 'merp-rmu-cultures', errors: ['Culture source pack missing'] };
+  const result = await synchronizePack(definition, { language, dryRun, worldJournals: false });
+  if (!dryRun && !result.errors.length && (result.changed || result.created)) {
+    // Verify with a fresh read/plan, detecting writes that did not persist.
+    const verify = await synchronizePack(definition, { language, dryRun: true, worldJournals: false });
+    if (verify.changed || verify.created || verify.errors.length) {
+      result.errors.push(`Post-write audit: ${verify.changed} discrepancies, ${verify.created} missing, ${verify.errors.length} errors`);
+    }
+  }
+  return result;
+}
+
 async function performSync({ force = false, dryRun = false, worldJournals = false, notify = false, packs = null, language = null } = {}) {
   if (!game.user?.isGM || game.system?.id !== 'rmu') return { skipped: true, reason: 'not-gm-or-rmu' };
   const manifest = await loadJson('source/compendiums/content-sync-manifest.json');
+  // Run before the fingerprint fast path: older migrated packs can retain this source.
+  const obsoleteSpellList = await retireObsoleteAstrologerStarlights({ dryRun });
   if (manifest.schemaVersion !== 1 || !Array.isArray(manifest.packs)) throw Error('Invalid MERP-RMU sync manifest');
   // Compendiums contain one active editorial language at a time.  A source
   // fingerprint alone would incorrectly skip FR/EN switches, leaving 454+
@@ -335,7 +446,10 @@ async function performSync({ force = false, dryRun = false, worldJournals = fals
   const installedRevision = `${SYNC_STATE_SCHEMA}:${manifest.fingerprint}:${effectiveLanguage}`;
   const previous = game.settings.get(MODULE_ID, FINGERPRINT_SETTING);
   if (!force && !dryRun && !worldJournals && !packs && previous === installedRevision) {
-    return { skipped: true, reason: 'already-current', fingerprint: manifest.fingerprint, language: effectiveLanguage };
+    const guard = await repairCultureCompendium(manifest, effectiveLanguage);
+    if (guard.errors?.length) console.warn(`${MODULE_ID} | Culture startup guard`, guard);
+    return { skipped: true, reason: 'already-current', fingerprint: manifest.fingerprint,
+      language: effectiveLanguage, cultureGuard: guard, obsoleteSpellList };
   }
   const selected = packs ? new Set(packs) : null;
   const results = [];
@@ -347,10 +461,19 @@ async function performSync({ force = false, dryRun = false, worldJournals = fals
       results.push({ pack: pack.name, errors: [error.message] });
     }
   }
+  // Verify the entire culture pack after a full startup synchronization.
+  // Skip this extra pass for explicit pack operations, previews, or imported journals.
+  if (!dryRun && !worldJournals && !selected) {
+    try {
+      results.push(await repairCultureCompendium(manifest, effectiveLanguage));
+    } catch (error) {
+      results.push({ pack: 'merp-rmu-cultures:culture-guard', errors: [error.message] });
+    }
+  }
   const totalErrors = results.reduce((n, r) => n + (r.errors?.length ?? 0), 0);
   const changed = results.reduce((n, r) => n + (r.changed ?? 0), 0);
   const created = results.reduce((n, r) => n + (r.created ?? 0), 0);
-  const outcome = { fingerprint: manifest.fingerprint, language: effectiveLanguage, dryRun, changed, created, errors: totalErrors, packs: results };
+  const outcome = { fingerprint: manifest.fingerprint, language: effectiveLanguage, dryRun, changed, created, errors: totalErrors, obsoleteSpellList, packs: results };
   if (!dryRun && !worldJournals && !selected && !totalErrors) {
     await game.settings.set(MODULE_ID, FINGERPRINT_SETTING, installedRevision);
   }
@@ -380,7 +503,28 @@ export function synchronizeMerpRmuSources(options = {}) {
     : configuredLanguage === 'en' || configuredLanguage === 'fr'
       ? configuredLanguage : contentLanguage();
   const request = { ...options, language: requestedLanguage };
-  const operation = synchronizationQueue.then(() => performSync(request));
+  // Share the same exclusive maintenance queue as the FR/EN library pass.
+  // Keep the local queue to preserve source-request ordering and language.
+  const operation = synchronizationQueue.then(() =>
+    queueCompendiumMaintenance(async () => {
+      const started = performance.now();
+      const hitsBefore = sourceJsonCacheHits;
+      const missesBefore = sourceJsonCacheMisses;
+      try {
+        return await performSync(request);
+      } finally {
+        // Diagnostic only: compare the duration and cache misses over successive
+        // FR/EN switches in F12. No changes to the synchronization outcome.
+        console.info(`${MODULE_ID} | CLEAN-42 source JSON cache`, {
+          language: requestedLanguage,
+          durationMs: Math.round(performance.now() - started),
+          reused: sourceJsonCacheHits - hitsBefore,
+          loaded: sourceJsonCacheMisses - missesBefore,
+          cachedFiles: sourceJsonCache.size
+        });
+      }
+    })
+  );
   // A failed request must not block later retries or locale changes.
   synchronizationQueue = operation.catch(() => undefined);
   return operation;

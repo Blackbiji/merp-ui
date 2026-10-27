@@ -160,7 +160,7 @@ async function resolveNativeProfession(item) {
   if (!resolved) {
     ui.notifications.error(
       `MERP UI : le châssis RMU requis pour ${item.name} est introuvable. ` +
-      "Vérifiez RMU Core 1.5.33."
+      "Vérifiez la présence des Compendiums natifs de RMU (version minimale déclarée : 1.3.55)."
     );
     return { action: "source-missing", key: def.key ?? null };
   }
@@ -350,6 +350,22 @@ function modulePack(packName) {
   return game.packs?.get(`${MODULE_ID}.${packName}`)
     ?? game.packs?.get(packName)
     ?? null;
+}
+
+// CLEAN-38b — The localized-library pass and the source-manifest pass both
+// temporarily unlock module compendiums.  Their independent queues used to
+// permit one pass to lock a pack while the other was updating its documents.
+// Serialize the *whole* maintenance passes, including their folder operations.
+// A rejected task must not prevent a later language change from running.
+let compendiumMaintenanceQueue = Promise.resolve();
+
+export function queueCompendiumMaintenance(operation) {
+  const current = compendiumMaintenanceQueue.then(operation);
+  compendiumMaintenanceQueue = current.then(
+    () => undefined,
+    () => undefined
+  );
+  return current;
 }
 
 async function withUnlockedPack(pack, callback) {
@@ -685,9 +701,12 @@ export async function organizeUpdatedCompendium(packName, language = contentLang
   return organizeCompendiumPack(pack, language);
 }
 
-export async function synchronizeCompendiumLibraries({
+async function synchronizeCompendiumLibrariesNow({
   language = contentLanguage(),
-  notify = false
+  notify = false,
+  // Use after source-driven localization: avoid rewriting all 455 documents
+  // a second time. Folder names and open-compendium windows still refresh.
+  skipDocumentLocalization = false
 } = {}) {
   if (!game.user?.isGM) return { skipped: true, reason: "not-gm" };
 
@@ -706,7 +725,9 @@ export async function synchronizeCompendiumLibraries({
       MERP_COMPENDIUM_LABELS[packName]?.en ??
       pack.title;
 
-    const localized = await localizeCompendiumPack(pack, effectiveLanguage);
+    const localized = skipDocumentLocalization
+      ? { skipped: true, reason: "already-localized-by-source-sync" }
+      : await localizeCompendiumPack(pack, effectiveLanguage);
     const organized = await organizeCompendiumPack(pack, effectiveLanguage);
     results.push({ pack: packName, label, localized, organized });
   }
@@ -747,6 +768,9 @@ export async function synchronizeCompendiumLibraries({
   return { language: effectiveLanguage, packs: results };
 }
 
+export function synchronizeCompendiumLibraries(options = {}) {
+  return queueCompendiumMaintenance(() => synchronizeCompendiumLibrariesNow(options));
+}
 
 function htmlRoot(html) {
   if (html instanceof HTMLElement) return html;
@@ -943,6 +967,10 @@ function localizeOpenCompendiumTitle(app, html) {
     ? app.element
     : root?.closest?.(".application") ?? null;
 
+  // RC3: marquer les neuf fenêtres MERP-RMU pour la typographie compacte.
+  // Ne jamais appliquer ce style aux compendiums RMU ou d’autres modules.
+  frame?.classList?.add("merp-ui-compendium");
+
   if (pack?.documentName === "JournalEntry") {
     frame?.classList?.add("merp-ui-journal-compendium");
   }
@@ -1031,4 +1059,114 @@ export function registerCompendiumContentHooks() {
       );
     });
   });
+}
+
+
+/**
+ * CLEAN-41f — Small immutable bilingual index derived from all distributed
+ * Race/Culture/Profession definitions (93 canonical documents).  The earlier
+ * helper used khazad.json, which does not contain all professions (including
+ * the Honnin Priest), so completed character sheets were not all translated.
+ * Loading this one compact index avoids reading all Compendium documents.
+ */
+let actorIdentityTranslationsPromise = null;
+async function actorIdentityTranslations() {
+  if (!actorIdentityTranslationsPromise) {
+    const file = `modules/${MODULE_ID}/data/merp-rmu/identity-localizations.json`;
+    const url = foundry?.utils?.getRoute ? foundry.utils.getRoute(file) : file;
+    actorIdentityTranslationsPromise = fetch(url, {
+      credentials: "same-origin", cache: "no-store"
+    }).then(response => {
+      if (!response.ok) throw new Error(`Identity translations: HTTP ${response.status}`);
+      return response.json();
+    }).then(data => {
+      if (!Array.isArray(data?.entries)) throw new Error("Invalid identity translation index");
+      return data.entries;
+    }).catch(error => {
+      actorIdentityTranslationsPromise = null;
+      throw error;
+    });
+  }
+  return actorIdentityTranslationsPromise;
+}
+
+/**
+ * Translate only embedded Race / Culture / Profession Item *names*.  Never
+ * change their RMU system data, rolls, skills, ranks, talents or the Actor's
+ * editable name.  An explicit customized Item name is left untouched.
+ * Both character-creation and finished Actors are handled identically.
+ */
+export async function relocalizeActorIdentityItems(_data, {
+  language = contentLanguage()
+} = {}) {
+  const locale = language === "en" ? "en" : "fr";
+  const definitions = await actorIdentityTranslations();
+  const byKey = new Map();
+  const byKnownName = new Map();
+  for (const entry of definitions) {
+    if (!["race", "culture", "profession"].includes(entry?.type)) continue;
+    for (const key of entry.keys ?? []) {
+      const lookup = `${entry.type}:${key}`;
+      if (!byKey.has(lookup)) byKey.set(lookup, entry);
+    }
+    for (const name of new Set(Object.values(entry.names ?? {}))) {
+      if (!name) continue;
+      const lookup = `${entry.type}:${name}`;
+      const previous = byKnownName.get(lookup) ?? [];
+      previous.push(entry);
+      byKnownName.set(lookup, previous);
+    }
+  }
+
+  const result = { scanned: 0, updated: 0, actors: 0, unmatched: 0, errors: [] };
+  for (const actor of game.actors?.contents ?? []) {
+    const updates = [];
+    for (const item of actor.items ?? []) {
+      if (!["race", "culture", "profession"].includes(item.type)) continue;
+      result.scanned++;
+      const flags = item.flags?.[MODULE_ID] ?? {};
+      const keys = [flags.compendiumSourceKey, flags.key, flags.canonicalKey]
+        .filter(Boolean);
+      const candidates = [];
+      for (const key of keys) {
+        const entry = byKey.get(`${item.type}:${key}`);
+        if (entry && !candidates.includes(entry)) candidates.push(entry);
+      }
+      for (const entry of byKnownName.get(`${item.type}:${item.name}`) ?? []) {
+        if (!candidates.includes(entry)) candidates.push(entry);
+      }
+      // Exact source-name match protects GM renames, even when an old Item
+      // retains a canonicalKey or a Compendium origin flag.
+      const exactMatches = candidates.filter(entry =>
+        Object.values(entry.names ?? {}).includes(item.name) &&
+        typeof entry.names?.[locale] === "string"
+      );
+      const translations = [...new Set(exactMatches.map(entry => entry.names[locale]))];
+      // If two different sources share the old name but translate differently,
+      // don't guess a target language label without unambiguous identity flags.
+      if (translations.length !== 1) {
+        result.unmatched++;
+        continue;
+      }
+      const wanted = translations[0];
+      if (item.name !== wanted) updates.push({ _id: item.id, name: wanted });
+    }
+    if (!updates.length) continue;
+    try {
+      await actor.updateEmbeddedDocuments("Item", updates, {
+        merpUiLocalizationRefresh: true
+      });
+      result.updated += updates.length;
+      result.actors++;
+      // Some completed RMU sheets cache prepared header labels.  Explicitly
+      // repaint an open sheet after its embedded Items have been updated.
+      if (actor.sheet?.rendered) {
+        try { actor.sheet.render({ force: true }); } catch (_) { /* sheet handles its own rendering */ }
+      }
+    } catch (error) {
+      result.errors.push({ actor: actor.id, message: String(error) });
+      console.warn(`${MODULE_ID} | Impossible de traduire les noms du personnage ${actor.name}`, error);
+    }
+  }
+  return result;
 }

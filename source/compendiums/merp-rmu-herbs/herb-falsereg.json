@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "G",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "90gp",
-      "notes": "<p>Ce sang se rencontre surtout dans les régions au climat froid, notamment dans les glaciers et champs de neige, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1 préparé à partir de sang de poisson. Il fait peler la peau pendant des semaines et, dans les cas graves, provoque des saignements par les pores lors des efforts.</p>",
+      "notes": "<p>Le Falsereg provient du <strong>sang d'un poisson des régions froides du Nord d'Endor</strong>, associé aux étendues glacées et aux eaux voisines des champs de neige. Il s'agit d'une substance d'origine animale : sa récolte dépend de la présence de l'espèce concernée, et non de la recherche d'une plante dans le sol.</p>\n<p>Une fois préparé en pâte, ce poison provoque une <strong>desquamation prolongée de la peau</strong>, qui peut persister plusieurs semaines. Dans les cas les plus graves, les efforts physiques entraînent des <strong>saignements par les pores</strong>, conséquence de l'altération des tissus. Sa progression et les complications éventuelles relèvent de l'échec au Jet de Résistance et des règles applicables aux poisons de conversion.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Falsereg",
       "system": {
-        "notes": "<p>Ce sang se rencontre surtout dans les régions au climat froid, notamment dans les glaciers et champs de neige, et elle est surtout connue dans le Nord d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison de conversion de niveau 1 préparé à partir de sang de poisson. Il fait peler la peau pendant des semaines et, dans les cas graves, provoque des saignements par les pores lors des efforts.</p>"
+        "notes": "<p>Le Falsereg provient du <strong>sang d'un poisson des régions froides du Nord d'Endor</strong>, associé aux étendues glacées et aux eaux voisines des champs de neige. Il s'agit d'une substance d'origine animale : sa récolte dépend de la présence de l'espèce concernée, et non de la recherche d'une plante dans le sol.</p>\n<p>Une fois préparé en pâte, ce poison provoque une <strong>desquamation prolongée de la peau</strong>, qui peut persister plusieurs semaines. Dans les cas les plus graves, les efforts physiques entraînent des <strong>saignements par les pores</strong>, conséquence de l'altération des tissus. Sa progression et les complications éventuelles relèvent de l'échec au Jet de Résistance et des règles applicables aux poisons de conversion.</p>"
       }
     },
     "en": {
       "name": "Falsereg",
       "system": {
-        "notes": "<p>This blood is found chiefly in cold climates, especially in glaciers and snowfields, and is best known in northern Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 1 conversion poison prepared from fish blood. It causes the skin to peel continuously for weeks and, in severe cases, causes bleeding through the pores during exertion.</p>"
+        "notes": "<p>Falsereg comes from the <strong>blood of a fish native to the cold northern reaches of Endor</strong>, associated with icy waters close to snowfields. It is an animal substance: obtaining it depends on finding the relevant fish species, rather than searching for a plant in the ground.</p>\n<p>Prepared as a paste, it causes <strong>prolonged peeling of the skin</strong>, which may continue for weeks. In the gravest cases, physical exertion brings <strong>bleeding through the pores</strong> as the tissues deteriorate. The progress of the condition and its complications depend on the failed Resistance Roll and the rules for conversion poisons.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Conversion"
     ],
     "en": [
+      "Poisons",
       "Conversion"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-conversion"
   ]
 }

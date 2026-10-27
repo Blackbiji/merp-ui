@@ -129,7 +129,7 @@
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 8
+                    "ranks": 4
                   },
                   {
                     "skillCategory": "Awareness",
@@ -160,29 +160,29 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 4,
-                    "maxTwoRanksPerSpecialization": true
-                  },
-                  {
-                    "skillCategory": "Composition & Performance Art",
                     "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Environmental",
@@ -192,23 +192,23 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Woodlands",
-                    "ranks": 4
+                    "specialization": "Own Region",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 8,
+                    "ranks": 5,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -219,9 +219,9 @@
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 1
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
@@ -232,28 +232,28 @@
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": 3,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
@@ -263,28 +263,28 @@
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 5
+                    "ranks": 4
                   }
                 ]
               }
@@ -360,7 +360,18 @@
                     ]
                   },
                   "descriptionFormat": "html",
-                  "raceCanonicalKey": "race-hobbits"
+                  "raceCanonicalKey": "race-hobbits",
+                  "historicalContext": {
+                    "status": "optional-contextual-profile",
+                    "age": 3,
+                    "labelFr": "Pâles : migrations et Comté",
+                    "historicalWindowFr": "Après TA 1601 ; profil communautaire",
+                    "noteFr": "Répartition indicative MERP-UI fondée sur un contexte historique. L’Âge III couvre aussi d’autres périodes ; le Meneur conserve la liberté de choisir la grille adaptée.",
+                    "provenance": "Tolkien chronology + MERP-UI adaptation; skill redistribution is not a Tolkien rule",
+                    "labelEn": "Fallohides: Migrations and the Shire",
+                    "historicalWindowEn": "After T.A. 1601; community-focused profile",
+                    "noteEn": "Suggested MERP-UI allocation based on a historical context. The Third Age also encompasses other periods; the Gamemaster remains free to choose the appropriate development grid."
+                  }
                 }
               },
               "system": {
@@ -384,12 +395,12 @@
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 8
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 3
+                    "ranks": 4
                   },
                   {
                     "skillCategory": "Battle Expertise",
@@ -415,29 +426,29 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 4,
-                    "maxTwoRanksPerSpecialization": true
-                  },
-                  {
-                    "skillCategory": "Composition & Performance Art",
                     "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Environmental",
@@ -447,23 +458,23 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Woodlands",
-                    "ranks": 4
+                    "specialization": "Own Region",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 8,
+                    "ranks": 5,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -474,9 +485,9 @@
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 1
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
@@ -487,28 +498,28 @@
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": 3,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
@@ -518,28 +529,28 @@
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 5
+                    "ranks": 4
                   }
                 ]
               }
@@ -639,7 +650,7 @@
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 8
+                    "ranks": 4
                   },
                   {
                     "skillCategory": "Awareness",
@@ -670,29 +681,29 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 4,
-                    "maxTwoRanksPerSpecialization": true
-                  },
-                  {
-                    "skillCategory": "Composition & Performance Art",
                     "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 0,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Environmental",
@@ -702,23 +713,23 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Woodlands",
-                    "ranks": 4
+                    "specialization": "Own Region",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 8,
+                    "ranks": 5,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -729,9 +740,9 @@
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 1
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
@@ -742,28 +753,28 @@
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": 3,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
@@ -773,28 +784,28 @@
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 5
+                    "ranks": 4
                   }
                 ]
               }
@@ -823,7 +834,7 @@
       "book": "MERP-RMU",
       "table": "Conversion RMSS/RMFRP → RMU",
       "culture": "Pâles",
-      "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+      "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
       "cultureRanks": [
         {
           "skillCategory": "Animal",
@@ -840,7 +851,7 @@
         {
           "skillCategory": "Awareness",
           "skillName": "Perception",
-          "ranks": 8
+          "ranks": 4
         },
         {
           "skillCategory": "Awareness",
@@ -871,29 +882,29 @@
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Melee Weapons",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Ranged Weapons",
-          "ranks": 4,
-          "maxTwoRanksPerSpecialization": true
-        },
-        {
-          "skillCategory": "Composition & Performance Art",
           "ranks": 2,
           "maxTwoRanksPerSpecialization": true
         },
         {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 0,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
           "skillCategory": "Crafting & Vocation",
-          "ranks": 6,
+          "ranks": 3,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Environmental",
           "skillName": "Navigation",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Environmental",
@@ -903,23 +914,23 @@
         {
           "skillCategory": "Environmental",
           "skillName": "Survival",
-          "specialization": "Woodlands",
-          "ranks": 4
+          "specialization": "Own Region",
+          "ranks": 3
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Acrobatics",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Jumping",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Lore",
           "skillGroup": "Languages",
-          "ranks": 8,
+          "ranks": 5,
           "maxTwoRanksPerSpecialization": true
         },
         {
@@ -930,9 +941,9 @@
         },
         {
           "skillCategory": "Lore",
-          "skillName": "Region Lore",
-          "specialization": "Neighboring",
-          "ranks": 1
+          "skillName": "Racial Lore",
+          "specialization": "Own Culture",
+          "ranks": 3
         },
         {
           "skillCategory": "Lore",
@@ -943,28 +954,28 @@
         {
           "skillCategory": "Lore",
           "skillGroup": "Other Lores",
-          "ranks": 3,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Medical",
           "skillName": "Herbalism",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Medical",
           "skillName": "Medicine",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Movement",
           "skillName": "Climbing",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Movement",
           "skillName": "Running",
-          "ranks": 2
+          "ranks": 0
         },
         {
           "skillCategory": "Movement",
@@ -974,28 +985,28 @@
         {
           "skillCategory": "Social",
           "skillName": "Influence",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Social",
           "skillName": "Social Awareness",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Social",
           "skillName": "Trading",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Subterfuge",
           "skillName": "Concealment",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Subterfuge",
           "skillName": "Stalking",
-          "ranks": 5
+          "ranks": 4
         }
       ]
     }
@@ -1004,14 +1015,14 @@
     "fr": {
       "name": "Pâles",
       "system": {
-        "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+        "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
         "culture": "Pâles"
       }
     },
     "en": {
       "name": "Fallohides",
       "system": {
-        "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest and most adventurous branch of Hobbit-kind. More slender than Harfoots and Stoors, they are distinguished by fair complexions, hair that is often blond or light brown, and a pronounced fondness for woods, travel and tales from distant lands.</p>\n<h2>Appearance</h2>\n<p>Fallohides are generally the tallest Hobbits. Their build is finer, with slightly longer limbs and more delicate features. Their skin is fair, their hair blond, light brown or golden, and their eyes grey, blue, green or hazel.</p>\n<p>Like all Hobbits, they have broad, sturdy feet covered with protective down, although this hair is sometimes less dense than among Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour wooded regions, forest margins, tree-covered hills and valleys close to woodland. They live both in smials and in above-ground houses and appreciate bright homes opening onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+        "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest, and most adventurous branch of Hobbit-kind. Their slender build, fair complexion, and often blond or light-brown hair distinguish them from Harfoots and Stoors. They are drawn to woods, journeys, and tales brought home from distant lands.</p>\n<h2>Appearance</h2>\n<p>Usually taller than other Hobbits, they have a lighter frame, slightly longer limbs, and finer features. Their hair ranges from blond to golden or light brown; their eyes may be grey, blue, green, or hazel.</p>\n<p>Like other Hobbits, Fallohides have broad, sturdy feet covered in protective hair, though it may be less thick than among the Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour woodland, forest edges, tree-covered hills, and valleys near the woods. They dwell in both smials and surface houses, preferring bright homes that open onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
         "culture": "Fallohides"
       }
     }
@@ -1079,7 +1090,7 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Pâles",
-          "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+          "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
@@ -1096,7 +1107,7 @@
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 8
+              "ranks": 4
             },
             {
               "skillCategory": "Awareness",
@@ -1127,29 +1138,29 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 4,
-              "maxTwoRanksPerSpecialization": true
-            },
-            {
-              "skillCategory": "Composition & Performance Art",
               "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Environmental",
@@ -1159,23 +1170,23 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Woodlands",
-              "ranks": 4
+              "specialization": "Own Region",
+              "ranks": 3
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 8,
+              "ranks": 5,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -1186,9 +1197,9 @@
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 1
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
@@ -1199,28 +1210,28 @@
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": 3,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
@@ -1230,28 +1241,28 @@
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 5
+              "ranks": 4
             }
           ]
         }
@@ -1260,14 +1271,14 @@
         "fr": {
           "name": "Pâles",
           "system": {
-            "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+            "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
             "culture": "Pâles"
           }
         },
         "en": {
           "name": "Fallohides",
           "system": {
-            "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest and most adventurous branch of Hobbit-kind. More slender than Harfoots and Stoors, they are distinguished by fair complexions, hair that is often blond or light brown, and a pronounced fondness for woods, travel and tales from distant lands.</p>\n<h2>Appearance</h2>\n<p>Fallohides are generally the tallest Hobbits. Their build is finer, with slightly longer limbs and more delicate features. Their skin is fair, their hair blond, light brown or golden, and their eyes grey, blue, green or hazel.</p>\n<p>Like all Hobbits, they have broad, sturdy feet covered with protective down, although this hair is sometimes less dense than among Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour wooded regions, forest margins, tree-covered hills and valleys close to woodland. They live both in smials and in above-ground houses and appreciate bright homes opening onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+            "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest, and most adventurous branch of Hobbit-kind. Their slender build, fair complexion, and often blond or light-brown hair distinguish them from Harfoots and Stoors. They are drawn to woods, journeys, and tales brought home from distant lands.</p>\n<h2>Appearance</h2>\n<p>Usually taller than other Hobbits, they have a lighter frame, slightly longer limbs, and finer features. Their hair ranges from blond to golden or light brown; their eyes may be grey, blue, green, or hazel.</p>\n<p>Like other Hobbits, Fallohides have broad, sturdy feet covered in protective hair, though it may be less thick than among the Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour woodland, forest edges, tree-covered hills, and valleys near the woods. They dwell in both smials and surface houses, preferring bright homes that open onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
             "culture": "Fallohides"
           }
         }
@@ -1327,14 +1338,25 @@
               ]
             },
             "descriptionFormat": "html",
-            "raceCanonicalKey": "race-hobbits"
+            "raceCanonicalKey": "race-hobbits",
+            "historicalContext": {
+              "status": "optional-contextual-profile",
+              "age": 3,
+              "labelFr": "Pâles : migrations et Comté",
+              "historicalWindowFr": "Après TA 1601 ; profil communautaire",
+              "noteFr": "Répartition indicative MERP-UI fondée sur un contexte historique. L’Âge III couvre aussi d’autres périodes ; le Meneur conserve la liberté de choisir la grille adaptée.",
+              "provenance": "Tolkien chronology + MERP-UI adaptation; skill redistribution is not a Tolkien rule",
+              "labelEn": "Fallohides: Migrations and the Shire",
+              "historicalWindowEn": "After T.A. 1601; community-focused profile",
+              "noteEn": "Suggested MERP-UI allocation based on a historical context. The Third Age also encompasses other periods; the Gamemaster remains free to choose the appropriate development grid."
+            }
           }
         },
         "system": {
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Pâles",
-          "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+          "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
@@ -1351,12 +1373,12 @@
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 8
+              "ranks": 3
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 3
+              "ranks": 4
             },
             {
               "skillCategory": "Battle Expertise",
@@ -1382,29 +1404,29 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 4,
-              "maxTwoRanksPerSpecialization": true
-            },
-            {
-              "skillCategory": "Composition & Performance Art",
               "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Environmental",
@@ -1414,23 +1436,23 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Woodlands",
-              "ranks": 4
+              "specialization": "Own Region",
+              "ranks": 3
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 8,
+              "ranks": 5,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -1441,9 +1463,9 @@
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 1
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
@@ -1454,28 +1476,28 @@
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": 3,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
@@ -1485,28 +1507,28 @@
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 5
+              "ranks": 4
             }
           ]
         }
@@ -1515,14 +1537,14 @@
         "fr": {
           "name": "Pâles",
           "system": {
-            "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+            "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
             "culture": "Pâles"
           }
         },
         "en": {
           "name": "Fallohides",
           "system": {
-            "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest and most adventurous branch of Hobbit-kind. More slender than Harfoots and Stoors, they are distinguished by fair complexions, hair that is often blond or light brown, and a pronounced fondness for woods, travel and tales from distant lands.</p>\n<h2>Appearance</h2>\n<p>Fallohides are generally the tallest Hobbits. Their build is finer, with slightly longer limbs and more delicate features. Their skin is fair, their hair blond, light brown or golden, and their eyes grey, blue, green or hazel.</p>\n<p>Like all Hobbits, they have broad, sturdy feet covered with protective down, although this hair is sometimes less dense than among Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour wooded regions, forest margins, tree-covered hills and valleys close to woodland. They live both in smials and in above-ground houses and appreciate bright homes opening onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+            "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest, and most adventurous branch of Hobbit-kind. Their slender build, fair complexion, and often blond or light-brown hair distinguish them from Harfoots and Stoors. They are drawn to woods, journeys, and tales brought home from distant lands.</p>\n<h2>Appearance</h2>\n<p>Usually taller than other Hobbits, they have a lighter frame, slightly longer limbs, and finer features. Their hair ranges from blond to golden or light brown; their eyes may be grey, blue, green, or hazel.</p>\n<p>Like other Hobbits, Fallohides have broad, sturdy feet covered in protective hair, though it may be less thick than among the Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour woodland, forest edges, tree-covered hills, and valleys near the woods. They dwell in both smials and surface houses, preferring bright homes that open onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
             "culture": "Fallohides"
           }
         }
@@ -1589,7 +1611,7 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Pâles",
-          "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+          "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
@@ -1606,7 +1628,7 @@
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 8
+              "ranks": 4
             },
             {
               "skillCategory": "Awareness",
@@ -1637,29 +1659,29 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 4,
-              "maxTwoRanksPerSpecialization": true
-            },
-            {
-              "skillCategory": "Composition & Performance Art",
               "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 0,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Environmental",
@@ -1669,23 +1691,23 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Woodlands",
-              "ranks": 4
+              "specialization": "Own Region",
+              "ranks": 3
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 8,
+              "ranks": 5,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -1696,9 +1718,9 @@
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 1
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
@@ -1709,28 +1731,28 @@
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": 3,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
@@ -1740,28 +1762,28 @@
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 5
+              "ranks": 4
             }
           ]
         }
@@ -1770,14 +1792,14 @@
         "fr": {
           "name": "Pâles",
           "system": {
-            "description": "<h1>Pâles</h1>\n<p>Les Pâles constituent la branche la plus rare, la plus grande et la plus aventureuse du peuple hobbit. Plus élancés que les Pieds-velus et les Forts, ils se distinguent par leur teint clair, leurs cheveux souvent blonds ou châtain pâle et leur goût prononcé pour les bois, les voyages et les récits venus de contrées lointaines.</p>\n<h2>Apparence</h2>\n<p>Les Pâles sont généralement les plus grands des Hobbits. Leur silhouette est plus fine, avec des membres légèrement plus longs et des traits plus délicats. Leur peau est claire, leurs cheveux blonds, châtain clair ou dorés, et leurs yeux gris, bleus, verts ou noisette.</p>\n<p>Comme tous les Hobbits, ils ont les pieds larges, solides et couverts d’un duvet protecteur, bien que cette pilosité soit parfois moins dense que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles préfèrent les régions boisées, les lisières, les collines couvertes d’arbres et les vallées proches des forêts. Ils vivent aussi bien dans des smials que dans des maisons de surface et apprécient les demeures lumineuses ouvertes sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
+            "description": "<h1>Pâles</h1>\n<p>Les Pâles sont la branche la plus rare, la plus grande et la plus aventureuse des Hobbits. Leur silhouette élancée, leur teint clair et leurs cheveux souvent blonds ou châtain pâle les distinguent des Pieds-velus et des Forts. Ils aiment les forêts, les voyages et les récits rapportés des terres lointaines.</p>\n<h2>Apparence</h2>\n<p>Généralement plus grands que les autres Hobbits, ils présentent une carrure fine, des membres un peu plus longs et des traits délicats. Leurs cheveux vont du blond au doré ou au châtain clair ; leurs yeux peuvent être gris, bleus, verts ou noisette.</p>\n<p>Comme chez les autres Hobbits, leurs pieds sont larges, robustes et recouverts d'un duvet protecteur. Celui-ci est parfois moins fourni que chez les Pieds-velus.</p>\n<h2>Bois et lisières</h2>\n<p>Les Pâles choisissent volontiers les bois, leurs lisières, les collines arborées et les vallées voisines des forêts. Ils habitent aussi bien des smials que des maisons de surface, avec une préférence pour les demeures claires ouvrant sur les arbres et les jardins.</p>\n<h2>Relations avec les Elfes</h2>\n<p>Parmi les trois branches hobbites, les Pâles sont ceux qui entretiennent les liens les plus étroits avec les Elfes. Ils sont davantage enclins à apprendre le sindarin, à écouter les récits elfiques et à voyager jusqu’aux frontières de leurs royaumes. Certaines familles conservent des chansons, des noms ou des objets d’origine elfique transmis sur plusieurs générations.</p>\n<h2>Tempérament</h2>\n<p>Les Pâles sont plus aventureux que les autres Hobbits. Ils restent attachés au foyer, aux repas et à la famille, mais ressentent plus facilement le besoin de découvrir ce qui se trouve au-delà des collines familières. Ils sont curieux, ouverts, observateurs, confiants, imaginatifs et plus attirés par le voyage.</p>\n<h2>Leadership</h2>\n<p>Les Pâles ont souvent fourni des chefs, des responsables locaux et des familles influentes. Leur autorité repose sur leur éloquence, leur courage, leur expérience des autres peuples, leur connaissance du monde extérieur et leur aptitude à représenter leur communauté.</p>\n<h2>Famille et habitations</h2>\n<p>Le mariage est monogame, et la filiation suit généralement la lignée paternelle. Les familles pâles attachent une grande importance aux généalogies, aux voyages et aux objets rapportés de contrées lointaines. Leurs maisons de surface sont basses, lumineuses, entourées d’arbres et souvent décorées de motifs végétaux.</p>\n<h2>Agriculture, chasse et métiers</h2>\n<p>Les Pâles restent des Hobbits ruraux, mais ils pratiquent plus volontiers la chasse, la cueillette et l’exploration. Leurs activités comprennent agriculture, jardinage, chasse, cueillette, élevage, travail du bois, cartographie locale, messagerie, commerce, récit et musique.</p>\n<h2>Langues et récits</h2>\n<p>Le westron reste leur parler principal, mais beaucoup apprennent quelques mots ou phrases de sindarin. Ils apprécient les récits de voyage, les légendes elfiques, les chansons héroïques, les généalogies et les histoires anciennes.</p>\n<h2>Religion et spiritualité</h2>\n<p>Comme les autres Hobbits, ils ne possèdent pas de clergé organisé. Leurs contacts avec les Elfes ont toutefois enrichi leur sensibilité religieuse. Ils peuvent connaître certains noms des Valar et associer Varda aux étoiles ou Oromë aux forêts et aux chemins sauvages.</p>\n<h2>Vêtements et armes</h2>\n<p>Les Pâles privilégient souvent des coupes plus fines, des teintes claires et des motifs inspirés de la nature. Ils sont plus familiers des armes que les autres Hobbits et emploient volontiers l’arc court, la dague, l’épée courte, la lance légère, le bâton et la fronde.</p>\n<h2>Manière de combattre</h2>\n<p>Ils préfèrent éviter l’affrontement frontal. Leur manière de combattre repose sur la discrétion, l’observation, le tir à distance, le déplacement sous les arbres, les embuscades et les replis rapides.</p>\n<h2>Relations avec les autres peuples</h2>\n<p>Les Pâles sont plus ouverts aux Grandes Gens que les autres Hobbits. Ils peuvent commercer, voyager ou servir d’intermédiaires avec les communautés humaines. Ils entretiennent également des rapports plus aisés avec les Elfes, les Nains, les rôdeurs, les marchands et les voyageurs.</p>\n<h2>Compétences culturelles</h2>\n<p>La Culture des Pâles favorise particulièrement :</p>\n<ul>\n<li>Perception</li>\n<li>Pistage</li>\n<li>Survie en forêt</li>\n<li>Tir à l’arc</li>\n<li>Langues</li>\n<li>Récit</li>\n<li>Musique</li>\n<li>Influence</li>\n<li>Commandement</li>\n<li>Déplacement furtif</li>\n<li>Cartographie</li>\n<li>Connaissance des Elfes</li>\n<li>Navigation terrestre</li>\n</ul>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Pâles convient à un Hobbit issu d’une communauté forestière, d’une famille ayant des liens avec les Elfes, d’un village proche d’une ancienne route, d’une lignée de chefs ou de messagers, d’un groupe de chasseurs ou d’une famille de conteurs.</p>\n<p>Elle produit des Hobbits plus grands, plus ouverts et plus aventureux que les Pieds-velus et les Forts.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Westron</strong> — Parlée 8 / Écrite 6</li></ul></section>",
             "culture": "Pâles"
           }
         },
         "en": {
           "name": "Fallohides",
           "system": {
-            "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest and most adventurous branch of Hobbit-kind. More slender than Harfoots and Stoors, they are distinguished by fair complexions, hair that is often blond or light brown, and a pronounced fondness for woods, travel and tales from distant lands.</p>\n<h2>Appearance</h2>\n<p>Fallohides are generally the tallest Hobbits. Their build is finer, with slightly longer limbs and more delicate features. Their skin is fair, their hair blond, light brown or golden, and their eyes grey, blue, green or hazel.</p>\n<p>Like all Hobbits, they have broad, sturdy feet covered with protective down, although this hair is sometimes less dense than among Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour wooded regions, forest margins, tree-covered hills and valleys close to woodland. They live both in smials and in above-ground houses and appreciate bright homes opening onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
+            "description": "<h1>Fallohides</h1>\n<p>Fallohides are the rarest, tallest, and most adventurous branch of Hobbit-kind. Their slender build, fair complexion, and often blond or light-brown hair distinguish them from Harfoots and Stoors. They are drawn to woods, journeys, and tales brought home from distant lands.</p>\n<h2>Appearance</h2>\n<p>Usually taller than other Hobbits, they have a lighter frame, slightly longer limbs, and finer features. Their hair ranges from blond to golden or light brown; their eyes may be grey, blue, green, or hazel.</p>\n<p>Like other Hobbits, Fallohides have broad, sturdy feet covered in protective hair, though it may be less thick than among the Harfoots.</p>\n<h2>Woods and forest edges</h2>\n<p>Fallohides favour woodland, forest edges, tree-covered hills, and valleys near the woods. They dwell in both smials and surface houses, preferring bright homes that open onto trees and gardens.</p>\n<h2>Relations with Elves</h2>\n<p>Of the three Hobbit branches, Fallohides maintain the closest ties with Elves. They are more inclined to learn Sindarin, listen to Elven tales and travel to the borders of Elven realms. Some families preserve songs, names or objects of Elven origin passed down through several generations.</p>\n<h2>Temperament</h2>\n<p>Fallohides are more adventurous than other Hobbits. They remain attached to home, meals and family, but more readily feel the need to discover what lies beyond familiar hills. They are curious, open, observant, confident, imaginative and more attracted to travel.</p>\n<h2>Leadership</h2>\n<p>Fallohides have often provided chiefs, local leaders and influential families. Their authority rests on eloquence, courage, experience of other peoples, knowledge of the wider world and an ability to represent their community.</p>\n<h2>Family and dwellings</h2>\n<p>Marriage is monogamous, and descent generally follows the paternal line. Fallohide families place great importance on genealogies, journeys and objects brought back from distant lands. Their above-ground houses are low and bright, surrounded by trees and often decorated with plant motifs.</p>\n<h2>Agriculture, hunting and trades</h2>\n<p>Fallohides remain rural Hobbits, but they are more willing to hunt, gather and explore. Their activities include farming, gardening, hunting, gathering, animal husbandry, woodworking, local mapmaking, carrying messages, trade, storytelling and music.</p>\n<h2>Languages and tales</h2>\n<p>Westron remains their principal speech, but many learn a few words or phrases of Sindarin. They enjoy travel tales, Elven legends, heroic songs, genealogies and old stories.</p>\n<h2>Religion and spirituality</h2>\n<p>Like other Hobbits, they possess no organised clergy. Their contacts with Elves have nevertheless enriched their religious sensibility. They may know some names of the Valar and associate Varda with the stars or Oromë with forests and wild roads.</p>\n<h2>Clothing and weapons</h2>\n<p>Fallohides often favour finer cuts, lighter colours and patterns inspired by nature. They are more familiar with weapons than other Hobbits and readily use the short bow, dagger, short sword, light spear, staff and sling.</p>\n<h2>Fighting style</h2>\n<p>They prefer to avoid direct confrontation. Their style of fighting relies on stealth, observation, missile fire, movement beneath trees, ambushes and rapid withdrawals.</p>\n<h2>Relations with other peoples</h2>\n<p>Fallohides are more open to the Big Folk than other Hobbits. They may trade, travel or act as intermediaries with human communities. They also have easier relations with Elves, Dwarves, Rangers, merchants and travellers.</p>\n<h2>Cultural skills</h2>\n<p>Fallohide Culture particularly favours:</p>\n<ul>\n<li>Perception</li>\n<li>Tracking</li>\n<li>Forest Survival</li>\n<li>Archery</li>\n<li>Languages</li>\n<li>Storytelling</li>\n<li>Music</li>\n<li>Influence</li>\n<li>Leadership</li>\n<li>Stealthy Movement</li>\n<li>Cartography</li>\n<li>Elven Lore</li>\n<li>Land Navigation</li>\n</ul>\n<h2>Place in character creation</h2>\n<p>Fallohide Culture is suitable for a Hobbit from a woodland community, a family with ties to Elves, a village near an old road, a line of chiefs or messengers, a group of hunters or a family of storytellers.</p>\n<p>It produces Hobbits who are taller, more open and more adventurous than Harfoots and Stoors.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Westron</strong> — Spoken 8 / Written 6</li></ul></section>",
             "culture": "Fallohides"
           }
         }

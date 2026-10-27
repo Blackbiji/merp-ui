@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "0",
-      "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 4. Toute victime qui échoue à résister est paralysée pendant environ deux rounds par point d’échec.</p>",
+      "notes": "<p>Le Sûm-Kutia est une préparation toxique associée aux traditions des <strong>Honnin du sud-ouest d'Endor</strong>. Sa composition et son lieu de production ne sont pas détaillés dans les données conservées ; il ne serait donc pas justifié de lui attribuer un habitat botanique précis.</p>\n<p>Ce poison nerveux provoque une <strong>paralysie</strong> chez toute victime qui échoue à son Jet de Résistance. Sa durée est calculée à raison d'environ <strong>deux rounds par point d'échec</strong> : un échec de 5 points entraîne ainsi une paralysie d'environ 10 rounds. Cette relation entre la marge d'échec et la durée constitue la propriété essentielle du Sûm-Kutia et doit être conservée lors de son utilisation en jeu.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Sûm-Kutia",
       "system": {
-        "notes": "<p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 4. Toute victime qui échoue à résister est paralysée pendant environ deux rounds par point d’échec.</p>"
+        "notes": "<p>Le Sûm-Kutia est une préparation toxique associée aux traditions des <strong>Honnin du sud-ouest d'Endor</strong>. Sa composition et son lieu de production ne sont pas détaillés dans les données conservées ; il ne serait donc pas justifié de lui attribuer un habitat botanique précis.</p>\n<p>Ce poison nerveux provoque une <strong>paralysie</strong> chez toute victime qui échoue à son Jet de Résistance. Sa durée est calculée à raison d'environ <strong>deux rounds par point d'échec</strong> : un échec de 5 points entraîne ainsi une paralysie d'environ 10 rounds. Cette relation entre la marge d'échec et la durée constitue la propriété essentielle du Sûm-Kutia et doit être conservée lors de son utilisation en jeu.</p>"
       }
     },
     "en": {
       "name": "Sûm-Kutia",
       "system": {
-        "notes": "<p>To obtain its properties, it is prepared as a paste.</p><p>Level 4 nerve poison. Any victim who fails to resist is paralyzed for about two rounds per point of failure.</p>"
+        "notes": "<p>Sûm-Kutia is a toxic preparation associated with the traditions of the <strong>Honnin of southwestern Endor</strong>. Its composition and place of manufacture are not described in the surviving data; assigning it a particular botanical habitat would therefore be unjustified.</p>\n<p>This nerve poison causes <strong>paralysis</strong> in any victim who fails the Resistance Roll. The duration is calculated at approximately <strong>two rounds for every point of failure</strong>: a failure by five points results in roughly ten rounds of paralysis. This direct relationship between the failure margin and duration is Sûm-Kutia's defining property in play.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Nerveux"
     ],
     "en": [
+      "Poisons",
       "Nerve"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-nerveux"
   ]
 }

@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "D",
@@ -44,36 +44,39 @@
       "prep": "paste",
       "season": "",
       "cost": "27gp",
-      "notes": "<p>Ce crapaud se rencontre surtout dans les régions au climat chaud et humide, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Toxine musculaire : un échec léger au Jet de Résistance entraîne la cécité, un échec plus grave le coma accompagné de cécité, et un échec sévère la mort.</p>",
+      "notes": "<p>Le Kastaba est une <strong>toxine d'origine animale</strong> associée à un crapaud des <strong>forêts chaudes et humides du sud d'Endor</strong>. La substance ne se récolte pas comme une herbe : il faut d'abord reconnaître l'animal concerné, dont l'habitat se situe dans les bois de feuillus ou les forêts mixtes.</p>\n<p>La toxine est utilisée sous forme de pâte et peut atteindre gravement la victime. Un échec relativement limité au Jet de Résistance entraîne une <strong>cécité</strong> ; un échec plus important provoque une <strong>cécité accompagnée d'un coma</strong> ; au degré le plus grave, l'empoisonnement est <strong>mortel</strong>. Le poison est traité comme une toxine musculaire de <strong>niveau 4</strong>. La gravité de ses effets est déterminée par le Jet de Résistance Physique et par les règles de RMU.</p>",
       "addictionFactor": 1,
       "effects": [],
       "table": "",
-      "level": 0
+      "level": 4
     }
   },
   "localizations": {
     "fr": {
       "name": "Kastaba",
       "system": {
-        "notes": "<p>Ce crapaud se rencontre surtout dans les régions au climat chaud et humide, notamment dans les forêts de feuillus ou mixtes, et elle est surtout connue dans le Sud d’Endor.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Toxine musculaire : un échec léger au Jet de Résistance entraîne la cécité, un échec plus grave le coma accompagné de cécité, et un échec sévère la mort.</p>"
+        "notes": "<p>Le Kastaba est une <strong>toxine d'origine animale</strong> associée à un crapaud des <strong>forêts chaudes et humides du sud d'Endor</strong>. La substance ne se récolte pas comme une herbe : il faut d'abord reconnaître l'animal concerné, dont l'habitat se situe dans les bois de feuillus ou les forêts mixtes.</p>\n<p>La toxine est utilisée sous forme de pâte et peut atteindre gravement la victime. Un échec relativement limité au Jet de Résistance entraîne une <strong>cécité</strong> ; un échec plus important provoque une <strong>cécité accompagnée d'un coma</strong> ; au degré le plus grave, l'empoisonnement est <strong>mortel</strong>. Le poison est traité comme une toxine musculaire de <strong>niveau 4</strong>. La gravité de ses effets est déterminée par le Jet de Résistance Physique et par les règles de RMU.</p>"
       }
     },
     "en": {
       "name": "Kastaba",
       "system": {
-        "notes": "<p>This toad is found chiefly in hot and humid climates, especially in deciduous or mixed forests, and is best known in southern Endor.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Muscle toxin: a light Resistance Roll failure causes blindness, a more serious failure causes coma with blindness, and a severe failure causes death.</p>"
+        "notes": "<p>Kastaba is an <strong>animal toxin</strong> associated with a toad from the <strong>warm, humid forests of southern Endor</strong>. It is not harvested like an herb: the relevant creature must first be recognized, usually in broadleaf or mixed woodland.</p>\n<p>Used as a paste, the toxin can seriously injure its victim. A relatively small failure on the Resistance Roll causes <strong>blindness</strong>; a greater failure brings <strong>blindness and coma</strong>; the worst outcome is <strong>death</strong>. Kastaba is treated as a <strong>level 4 muscle poison</strong>, with severity determined by the Physical Resistance Roll and RMU rules.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Musculaires"
     ],
     "en": [
+      "Poisons",
       "Muscle"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-musculaires"
   ]
 }

@@ -1,8 +1,8 @@
 {
   "id": "merp-ui",
-  "title": "MERP UI Framework",
+  "title": "MERP-UI",
   "description": "MERP-UI / MERP-RMU: a bilingual English/French Foundry VTT module for Rolemaster Unified, providing Middle-earth-oriented character options, rules support, campaign settings, localization, and permanent Compendiums.",
-  "version": "1.6.0-rc.4",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Jean-Brice Gayet"
@@ -16,11 +16,16 @@
     "scripts/merp-ui.js",
     "scripts/skill-registry.js",
     "scripts/merp-rmu-content.js",
-    "scripts/merp-rmu-magic.js"
+    "scripts/merp-rmu-magic.js",
+    "scripts/merp-rmu/rmu-picker-overlay.js"
   ],
   "styles": [
     "styles/merp-typography.css",
-    "styles/merp-theme.css"
+    "styles/merp-theme.css",
+    "styles/merp-rmu-sheets.css",
+    "styles/merp-rmu-components.css",
+    "styles/merp-content-components.css",
+    "styles/merp-rmu-dialogs.css"
   ],
   "languages": [
     {
@@ -167,12 +172,12 @@
       "professionChassisIntegritySchema": 1,
       "contentDelivery": "compendium-first",
       "compendiumSourceSchema": 2,
-      "compendiumBootstrap": "NeDB seed -> Foundry LevelDB migration on first load",
+      "compendiumBootstrap": "Prebuilt LevelDB packs; NeDB seed files are development-only",
       "compendiumDefaultBuildLanguage": "en",
       "legacyWorldInstaller": "disabled-on-fresh-worlds",
-      "stableBaseline": "1.6.0-rc.4 / RMU 1.3.55",
-      "releaseChannel": "release-candidate",
-      "testedRmuVersion": "1.3.55"
+      "stableBaseline": "2.0.0 / RMU 1.3.55",
+      "releaseChannel": "stable",
+      "testedRmuVersion": "1.4.83"
     }
   },
   "packFolders": [
@@ -203,14 +208,14 @@
         "type": "system",
         "compatibility": {
           "minimum": "1.3.55",
-          "verified": "1.3.55"
+          "verified": "1.4.83"
         }
       }
     ]
   },
   "url": "https://github.com/Blackbiji/merp-ui",
   "manifest": "https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json",
-  "download": "https://github.com/Blackbiji/merp-ui/releases/download/v1.6.0-rc.4/merp-ui-1.6.0-rc.4.zip",
+  "download": "https://github.com/Blackbiji/merp-ui/releases/download/v2.0.0/merp-ui-2.0.0.zip",
   "bugs": "https://github.com/Blackbiji/merp-ui/issues",
-  "changelog": "https://github.com/Blackbiji/merp-ui/releases/tag/v1.6.0-rc.4"
+  "changelog": "https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.0"
 }

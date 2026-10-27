@@ -35,16 +35,16 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
-      "biome": "A",
+      "biome": "T/A",
       "findDifficulty": "Very Hard",
       "form": "Leaf",
       "prep": "powder",
       "season": "",
       "cost": "179gp",
-      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les hautes zones alpines.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison respiratoire de niveau 9D sous forme de poudre verte. Les effets peuvent être sévères ; les Elfes restent exposés aux formes les plus extrêmes.</p>",
+      "notes": "<p>Le Galenaana est une plante des <strong>toundras et régions alpines froides</strong>. Elle peut pousser dans des conditions rigoureuses où les périodes favorables à la végétation sont courtes. Les feuilles doivent être identifiées avec soin, car l'espèce reste très difficile à trouver.</p>\n<p>Elles fournissent une <strong>poudre verte</strong> qui provoque les manifestations des <strong>poisons respiratoires</strong>. Les effets généraux sont normalement limités à une <strong>gravité sévère</strong>, mais la table RMU comporte une exception importante : <strong>les Elfes peuvent également subir les effets extrêmes</strong> de cette substance. Le Meneur applique donc le Jet de Résistance de niveau 9 en tenant compte de cette particularité.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Galenaana",
       "system": {
-        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat froid, notamment dans les hautes zones alpines.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison respiratoire de niveau 9D sous forme de poudre verte. Les effets peuvent être sévères ; les Elfes restent exposés aux formes les plus extrêmes.</p>"
+        "notes": "<p>Le Galenaana est une plante des <strong>toundras et régions alpines froides</strong>. Elle peut pousser dans des conditions rigoureuses où les périodes favorables à la végétation sont courtes. Les feuilles doivent être identifiées avec soin, car l'espèce reste très difficile à trouver.</p>\n<p>Elles fournissent une <strong>poudre verte</strong> qui provoque les manifestations des <strong>poisons respiratoires</strong>. Les effets généraux sont normalement limités à une <strong>gravité sévère</strong>, mais la table RMU comporte une exception importante : <strong>les Elfes peuvent également subir les effets extrêmes</strong> de cette substance. Le Meneur applique donc le Jet de Résistance de niveau 9 en tenant compte de cette particularité.</p>"
       }
     },
     "en": {
       "name": "Galenaana",
       "system": {
-        "notes": "<p>This leaf is found chiefly in cold climates, especially in high alpine zones.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is ground into powder.</p><p>Level 9D respiratory poison in the form of a green powder. Its effects can be severe; Elves remain vulnerable to the most extreme effects.</p>"
+        "notes": "<p>Galenaana grows in <strong>cold tundra and alpine regions</strong>, where conditions are harsh and growing seasons short. Its leaves must be identified carefully, as finding the species is very difficult.</p>\n<p>They yield a <strong>green powder</strong> producing the effects of <strong>respiratory poisons</strong>. Its general effects are normally limited to <strong>Severe</strong>, but the RMU table contains an important exception: <strong>Elves may also suffer the Extreme effects</strong> of this substance. Apply the level 9 Resistance Roll with this distinction in mind.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Respiratoires"
     ],
     "en": [
+      "Poisons",
       "Respiratory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-respiratoires"
   ]
 }

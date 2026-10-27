@@ -1,85 +1,61 @@
-# MERP-UI 1.6 — Sources des Compendiums
+# MERP-UI 1.6 — Sources canoniques des compendiums
 
-`source/` est désormais la **source de vérité éditoriale** du modèle
-Compendium-first.
+`source/compendiums/` est la **source de vérité éditoriale** du modèle *Compendium-first*. **Ce répertoire doit également être présent dans le module installé**, car `scripts/merp-rmu/content-sync.js` lit son manifeste et les JSON sources pour synchroniser les mondes existants.
 
-Ne jamais modifier manuellement les packs distribués.
+## Circuit de construction et de mise à jour
 
 ```text
-source/compendiums/
-        ↓
-modification
-        ↓
+source/compendiums/*.json (FR/EN, identifiants stables)
+                ↓
+npm run build:content-sync
+                ↓
+source/compendiums/content-sync-manifest.json
+                ↓
 npm run build:compendium-seeds
-        ↓
-packs/*.db (bootstrap de développement)
-        ↓
-Foundry VTT
-        ↓
-migration automatique vers packs/<nom>/ LevelDB
+                ↓
+packs/*.db (bootstrap / validation des sources)
+                ↓
+Foundry VTT : packs/<nom>/ (LevelDB)
+                ↓
+synchronisation des mondes via les sources embarquées
 ```
 
-## Pourquoi des `.db` existent encore dans cette alpha ?
+Les dossiers LevelDB et les fichiers `.db` ont des rôles différents : **conserver les `.db` dans le dépôt de développement** tant que les commandes de validation en dépendent. Dans le **ZIP de distribution CLEAN-29** destiné à Foundry VTT 13/14, les neuf dossiers LevelDB sont fournis directement et les neuf fichiers `.db` (anciens fichiers NeDB) sont exclus. Les chemins `seedPath` du manifeste décrivent les sorties du processus de construction dans le dépôt de développement, et non des fichiers nécessaires à l’exécution. Cette optimisation devra être confirmée sur un monde neuf et un monde déjà existant avant publication.
 
-Foundry VTT 11+ utilise LevelDB pour ses Compendiums. Le CLI officiel Foundry
-n'est pas disponible dans l'environnement de build utilisé ici.
+## Races, Cultures et Âges
 
-La procédure officielle Foundry permet néanmoins de fournir une ancienne base
-NeDB `.db` tout en déclarant dans `module.json` le chemin **sans extension**.
-Au premier chargement du module, Foundry crée alors le répertoire LevelDB
-correspondant.
+Les Races et Cultures ne sont pas dupliquées pour chaque Âge. Chaque définition peut contenir `flags.merp-ui.availability.ages` et `flags.merp-ui.compendiumAgeVariants`. L'Âge de la campagne détermine la variante utilisée lors de l'application à un personnage.
 
-Exemple :
+## Professions RMU
 
-```text
-module.json:
-  path: packs/merp-rmu-cultures
+Les dix Professions qui utilisent un châssis natif RMU sont conservées dans le compendium sous forme de définitions MERP-RMU. L'application récupère le châssis dans `rmu.core` et lui applique les particularités du module. Les **21 professions** ont désormais des descriptions complètes dans leurs localisations françaises et anglaises.
 
-bootstrap:
-  packs/merp-rmu-cultures.db
+La liste historique de l’Astrologue « Lumières Stellaires » a été retirée de la source MERP-UI au profit de *Starlights* native dans Spell Law RMU. Le catalogue MERP-UI contient désormais 35 listes ; les listes natives RMU sont fournies par le système et non recopiées.
 
-après premier chargement Foundry:
-  packs/merp-rmu-cultures/
+## Inventaire de référence RC6.1
+
+| Compendium | Documents |
+|---|---:|
+| Races | 12 |
+| Cultures | 60 |
+| Professions | 21 |
+| Compétences MERP-RMU | 8 |
+| Listes de sorts | 35 |
+| Talents & Défauts | 85 |
+| Herbes & substances | 187 |
+| Langues | 34 |
+| Règles & références | 13 |
+| **Total** | **455** |
+
+## Vérification
+
+Les commandes ci-dessous nécessitent le dépôt de développement complet et son `package.json`. Elles ne sont pas exécutables depuis le ZIP de distribution du module.
+
+```sh
+npm run validate:compendium-seeds
+npm run validate:content-sync
+npm run test:content-sync
+npm run audit:release
 ```
 
-Pour une release GitHub finale, le dossier LevelDB généré et validé dans Foundry
-sera l'artefact distribué.
-
-## Âges
-
-Les Races et Cultures ne sont plus dupliquées par Âge.
-
-Une seule Culture canonique contient :
-
-```text
-flags.merp-ui.availability.ages
-flags.merp-ui.compendiumAgeVariants
-```
-
-Le réglage du monde **MERP-RMU — Âge de la campagne / Campaign Age** détermine
-la variante appliquée au drag & drop.
-
-Une Race/Culture indisponible à l'Âge sélectionné est refusée.
-
-## Professions RMU natives
-
-Les 10 Professions reposant sur un châssis RMU Core sont conservées sous forme
-de définitions MERP-RMU dans le Compendium. Au drag & drop, MERP-UI récupère le
-châssis correspondant dans `rmu.core` puis applique notre overlay.
-
-Cela évite de redistribuer les données mécaniques propriétaires du Core RMU tout
-en présentant les 21 Professions dans une bibliothèque unique.
-
-## Packs
-
-- Races : 12
-- Cultures : 59
-- Professions : 21
-- Compétences : 8
-- Listes de Sorts propres MERP-RMU : 36
-- Talents & Défauts : 85
-- Herbes & Substances : 187
-- Langues : 34 Journaux
-- Règles & Références : 13 Journaux
-
-Le runtime 1.6 n'installe plus automatiquement ce contenu dans un monde neuf.
+Les tests hors ligne ne remplacent pas la vérification dans Foundry, notamment après changement de version du système RMU ou du moteur Foundry.

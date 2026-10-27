@@ -137,13 +137,20 @@ const PROFESSION_CHASSIS_FIELDS = [
 ];
 
 export async function resolveNativeProfessionDocument(def) {
-  const source = await findRmuCompendiumDocument(def.sourcePack ?? "rmu.core", {
-    id: def.sourceId ?? null,
-    name: def.sourceName ?? null,
-    type: "profession",
-    fields: ["name", "type"]
+  const packId = def.sourcePack ?? "rmu.core";
+  const expected = def.sourceName ?? null;
+  let source = await findRmuCompendiumDocument(packId, {
+    id: def.sourceId ?? null, name: expected,
+    type: "profession", fields: ["name", "type"]
   });
-  if (!source) return null;
+  // Native RMU IDs sometimes change between system releases. If an ID now
+  // points to a different Item, fall back to the *exact* native name and type.
+  if (source && (source.type !== "profession" || (expected && source.name !== expected))) {
+    source = expected ? await findRmuCompendiumDocument(packId, {
+      name: expected, type: "profession", fields: ["name", "type"]
+    }) : null;
+  }
+  if (!source || source.type !== "profession" || (expected && source.name !== expected)) return null;
   const document = cloneRmuDocument(source);
   const overrides = foundry.utils.deepClone(def.document ?? {});
   return foundry.utils.mergeObject(document, overrides, { inplace: false, overwrite: true, recursive: true });

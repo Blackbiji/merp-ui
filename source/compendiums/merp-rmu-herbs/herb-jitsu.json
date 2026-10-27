@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "O",
@@ -44,7 +44,7 @@
       "prep": "liquid",
       "season": "",
       "cost": "34gp",
-      "notes": "<p>Ces palourdes se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison respiratoire de niveau 5B. Ce venin jaune inflige 5 à 50 points de vie et provoque des effets respiratoires généralement légers.</p>",
+      "notes": "<p>Le Jitsu provient de <strong>palourdes vivant sur les côtes marines et les rivages salés</strong>. Dans un secteur où l'espèce est présente, les rechercher représente une difficulté moyenne pour un personnage connaissant ce type de littoral.</p>\n<p>Le venin extrait de ces coquillages est un <strong>liquide jaune</strong>. En cas d'échec au Jet de Résistance, il inflige immédiatement <strong>5 à 50 points de dégâts</strong>. Les conséquences respiratoires qui l'accompagnent restent limitées à des <strong>effets généraux légers</strong> selon RMU. Cette distinction compte lorsqu'on décrit l'intoxication : les blessures immédiates peuvent être importantes sans que toutes les formes graves d'atteinte respiratoire soient possibles.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Jitsu",
       "system": {
-        "notes": "<p>Ces palourdes se rencontre surtout dans les régions au climat tempéré doux, notamment dans les côtes marines et rivages salés.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison respiratoire de niveau 5B. Ce venin jaune inflige 5 à 50 points de vie et provoque des effets respiratoires généralement légers.</p>"
+        "notes": "<p>Le Jitsu provient de <strong>palourdes vivant sur les côtes marines et les rivages salés</strong>. Dans un secteur où l'espèce est présente, les rechercher représente une difficulté moyenne pour un personnage connaissant ce type de littoral.</p>\n<p>Le venin extrait de ces coquillages est un <strong>liquide jaune</strong>. En cas d'échec au Jet de Résistance, il inflige immédiatement <strong>5 à 50 points de dégâts</strong>. Les conséquences respiratoires qui l'accompagnent restent limitées à des <strong>effets généraux légers</strong> selon RMU. Cette distinction compte lorsqu'on décrit l'intoxication : les blessures immédiates peuvent être importantes sans que toutes les formes graves d'atteinte respiratoire soient possibles.</p>"
       }
     },
     "en": {
       "name": "Jitsu",
       "system": {
-        "notes": "<p>This clams is found chiefly in mild temperate climates, especially in sea coasts and saltwater shores.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 5B respiratory poison. This yellow venom inflicts 5–50 concussion hits and generally causes light respiratory effects.</p>"
+        "notes": "<p>Jitsu comes from <strong>clams living along sea coasts and saltwater shores</strong>. Where the species is present, finding it poses a Medium difficulty for someone familiar with the coast.</p>\n<p>Venom extracted from the shellfish is a <strong>yellow liquid</strong>. A failed Resistance Roll causes <strong>5–50 immediate concussion hits</strong>. Associated respiratory consequences remain limited to <strong>Mild general effects</strong> under RMU. The distinction matters: immediate injuries may be serious even when the poison cannot cause the more severe forms of respiratory distress.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Respiratoires"
     ],
     "en": [
+      "Poisons",
       "Respiratory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-respiratoires"
   ]
 }

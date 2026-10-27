@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "T",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "31gp",
-      "notes": "<p>Ces fleurs se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 4, surtout connu en Saralainn. Selon la gravité de l’échec au Jet de Résistance, il provoque cécité temporaire ou durable, coma, voire mort.</p>",
+      "notes": "<p>Le Lus pousse dans les <strong>hautes herbes des régions tempérées fraîches</strong>. Il est notamment connu dans le nord-ouest d'Endor et dans les traditions de <strong>Saralainn</strong>, où sa récolte et ses dangers peuvent être familiers à certains habitants. Sa floraison le rend plus facile à rechercher que de nombreuses espèces rares, sans dispenser de l'identifier correctement.</p>\n<p>Ses fleurs sont transformées en pâte. Le Lus altère gravement la vue et l'état de conscience de la victime. Selon l'importance de l'échec au Jet de Résistance, l'intoxication peut provoquer une <strong>cécité temporaire ou durable</strong>, un <strong>coma</strong>, voire la <strong>mort</strong>. Le Meneur distingue les effets propres au Lus des conséquences générales des poisons circulatoires.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Lus",
       "system": {
-        "notes": "<p>Ces fleurs se rencontre surtout dans les régions au climat tempéré frais, notamment dans les hautes herbes, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 4, surtout connu en Saralainn. Selon la gravité de l’échec au Jet de Résistance, il provoque cécité temporaire ou durable, coma, voire mort.</p>"
+        "notes": "<p>Le Lus pousse dans les <strong>hautes herbes des régions tempérées fraîches</strong>. Il est notamment connu dans le nord-ouest d'Endor et dans les traditions de <strong>Saralainn</strong>, où sa récolte et ses dangers peuvent être familiers à certains habitants. Sa floraison le rend plus facile à rechercher que de nombreuses espèces rares, sans dispenser de l'identifier correctement.</p>\n<p>Ses fleurs sont transformées en pâte. Le Lus altère gravement la vue et l'état de conscience de la victime. Selon l'importance de l'échec au Jet de Résistance, l'intoxication peut provoquer une <strong>cécité temporaire ou durable</strong>, un <strong>coma</strong>, voire la <strong>mort</strong>. Le Meneur distingue les effets propres au Lus des conséquences générales des poisons circulatoires.</p>"
       }
     },
     "en": {
       "name": "Lus",
       "system": {
-        "notes": "<p>This flowers is found chiefly in cool temperate climates, especially in tall grasslands, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 4 circulatory poison, chiefly known in Saralainn. Depending on the severity of the failed Resistance Roll, it causes temporary or lasting blindness, coma, or death.</p>"
+        "notes": "<p>Lus grows amid <strong>tall grass in cool temperate regions</strong>. It is particularly known in northwestern Endor and in the traditions of <strong>Saralainn</strong>, where some inhabitants may be familiar with both its harvesting and its dangers. Its flowers make it easier to locate than many rare plants, although correct identification is still important.</p>\n<p>The flowers are made into a paste. Lus seriously damages the victim's <strong>eyesight and consciousness</strong>. Depending on the margin by which the Resistance Roll is failed, poisoning may cause <strong>temporary or lasting blindness</strong>, a <strong>coma</strong>, or even <strong>death</strong>. Its distinctive effects should be distinguished from those common to circulatory poisons.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Circulatoires"
     ],
     "en": [
+      "Poisons",
       "Circulatory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-circulatoires"
   ]
 }

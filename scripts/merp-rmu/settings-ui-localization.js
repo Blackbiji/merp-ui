@@ -13,7 +13,8 @@ const TEXT = {
     agePeriod: ["MERP-RMU — Period for Magic Risk", ""],
     region: ["MERP-RMU — Current Region Type", "Used to determine the consequence when the Shadow detects a spell."],
     corruptionAuto: ["MERP-RMU — Apply Corruption Points Automatically", ""],
-    shadowWhisper: ["MERP-RMU — Keep Shadow Rolls Secret", "Risk and Corruption cards are whispered to GMs."]
+    shadowWhisper: ["MERP-RMU — Keep Shadow Rolls Secret", "Risk and Corruption cards are whispered to GMs."],
+    professionCompatibility: ["Lore-based profession compatibility", "Limit available professions when they are incompatible with the character's race or culture according to the Middle-earth lore used by MERP-UI. Disable this option to allow unusual combinations, subject to the GM's discretion."]
   },
   fr: {
     contentLanguage: ["Langue du contenu MERP-RMU", "Choisit la langue utilisée par les contenus éditoriaux MERP-RMU. Les changements sont appliqués immédiatement."],
@@ -25,7 +26,8 @@ const TEXT = {
     agePeriod: ["MERP-RMU — Période pour le Risque magique", ""],
     region: ["MERP-RMU — Type de région actuel", "Utilisé pour déterminer la conséquence quand l’Ombre détecte un sort."],
     corruptionAuto: ["MERP-RMU — Appliquer automatiquement les Points de Corruption", ""],
-    shadowWhisper: ["MERP-RMU — Garder les Jets de l’Ombre secrets", "Les cartes de Risque et de Corruption sont chuchotées aux MJ."]
+    shadowWhisper: ["MERP-RMU — Garder les Jets de l’Ombre secrets", "Les cartes de Risque et de Corruption sont chuchotées aux MJ."],
+    professionCompatibility: ["Compatibilité des professions avec le lore", "Limiter les professions proposées lorsqu’elles sont incompatibles avec la race ou la culture du personnage selon le lore retenu pour MERP-UI. Décochez pour autoriser des combinaisons inhabituelles, à l’appréciation du Meneur."]
   }
 };
 
@@ -58,7 +60,8 @@ const SETTINGS = {
   agePeriod: "merpMagicAgePeriod",
   region: "merpMagicRegion",
   corruptionAuto: "merpMagicCorruptionAuto",
-  shadowWhisper: "merpMagicShadowWhisper"
+  shadowWhisper: "merpMagicShadowWhisper",
+  professionCompatibility: "whitfordProfessionCompatibility"
 };
 
 function rootElement(html) {
@@ -106,7 +109,11 @@ export function localizeMerpUiSettings(html, language = contentLanguage()) {
   return { updated, language: lang };
 }
 
+let settingsUiHooksRegistered = false;
+
 export function registerSettingsUiLocalizationHooks() {
+  if (settingsUiHooksRegistered) return;
+  settingsUiHooksRegistered = true;
   const apply = (app, html) => {
     const name = app?.constructor?.name ?? "";
     if (!/Settings|Config/i.test(name)) return;

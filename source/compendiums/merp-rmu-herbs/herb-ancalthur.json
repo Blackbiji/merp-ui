@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "F",
@@ -44,7 +44,7 @@
       "prep": "liquid",
       "season": "",
       "cost": "45gp",
-      "notes": "<p>Cette herbe se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison musculaire de niveau 4. Il déforme la perception du temps et laisse la victime lourdement désordonnée pendant 2 à 4 heures, avec des pénalités pouvant atteindre −100.</p>",
+      "notes": "<p>L'Ancalthur pousse au voisinage des <strong>eaux douces dans les régions froides</strong>. On le recherche sur les berges et les rivages où sa présence peut passer inaperçue parmi la végétation humide. Sa rareté locale rend la cueillette particulièrement exigeante.</p>\n<p>Préparé sous forme liquide, il perturbe profondément la <strong>perception du temps</strong> et la coordination de la victime. Celle-ci éprouve de grandes difficultés à ordonner ses mouvements et à agir au rythme des événements qui l'entourent. Les troubles persistent généralement <strong>2 à 4 heures</strong> et peuvent entraîner des <strong>pénalités atteignant −100</strong>. Ces effets inhabituels expliquent son classement parmi les poisons musculaires dans notre corpus.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Ancalthur",
       "system": {
-        "notes": "<p>Cette herbe se rencontre surtout dans les régions au climat froid, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison musculaire de niveau 4. Il déforme la perception du temps et laisse la victime lourdement désordonnée pendant 2 à 4 heures, avec des pénalités pouvant atteindre −100.</p>"
+        "notes": "<p>L'Ancalthur pousse au voisinage des <strong>eaux douces dans les régions froides</strong>. On le recherche sur les berges et les rivages où sa présence peut passer inaperçue parmi la végétation humide. Sa rareté locale rend la cueillette particulièrement exigeante.</p>\n<p>Préparé sous forme liquide, il perturbe profondément la <strong>perception du temps</strong> et la coordination de la victime. Celle-ci éprouve de grandes difficultés à ordonner ses mouvements et à agir au rythme des événements qui l'entourent. Les troubles persistent généralement <strong>2 à 4 heures</strong> et peuvent entraîner des <strong>pénalités atteignant −100</strong>. Ces effets inhabituels expliquent son classement parmi les poisons musculaires dans notre corpus.</p>"
       }
     },
     "en": {
       "name": "Ancalthur",
       "system": {
-        "notes": "<p>This grass is found chiefly in cold climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 4 muscle poison. It distorts the victim’s sense of time and leaves them severely uncoordinated for 2–4 hours, with penalties reaching −100.</p>"
+        "notes": "<p>Ancalthur grows beside <strong>freshwater in cold regions</strong>. It may be sought along streams and shores, where it can be difficult to distinguish from the surrounding damp vegetation. Its local scarcity makes gathering it especially demanding.</p>\n<p>In liquid form, it severely disrupts the victim's <strong>sense of time</strong> and coordination. The victim struggles to organize movements or keep pace with events. These disturbances normally last <strong>2–4 hours</strong> and may impose <strong>penalties of up to −100</strong>. Such unusual symptoms account for its classification among muscle poisons in this corpus.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Musculaires"
     ],
     "en": [
+      "Poisons",
       "Muscle"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-musculaires"
   ]
 }

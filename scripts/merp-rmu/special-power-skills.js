@@ -130,7 +130,8 @@ export function merpSpecialPowerSkillAllowed(actor, itemOrKey) {
   if (!MERP_SPECIAL_POWER_SKILL_KEYS.has(key)) return true;
   if (key === "yavannas-song") {
     const culture = merpActorCultureName(actor);
-    return /(^|\b)sindar(\b|$)|elfes?\s+sylvains?|silvan|sylvan/i.test(culture);
+    // A Sylvan/Sindar culture alone does not make a non-Elf eligible.
+    return isMerpElfActor(actor) && /(^|\b)sindar(\b|$)|elfes?\s+sylvains?|silvan|sylvan/i.test(culture);
   }
   return isMerpElfActor(actor);
 }
@@ -399,6 +400,13 @@ export function makeEmbeddedMerpSpecialPowerSkill(source) {
 export async function syncMerpSpecialPowerSkillsForActor(actor, { notify = false } = {}) {
   if (!actor || actor.documentName !== "Actor" || actor.type !== "Character") {
     return { skipped: true, reason: "not-character" };
+  }
+  // RMU calls Character.prepare() whenever an embedded skill changes.
+  // Without a Profession, _profession is undefined, and getSkillAttributes()
+  // cannot read professionalSkills. Do not embed auto-skills until RMU has
+  // a Profession Item; the profession create/update hooks resume this sync.
+  if (![...actor.items].some((item) => item.type === "profession")) {
+    return { skipped: true, reason: "profession-not-selected" };
   }
 
   // These Skills are deliberately embedded on eligible Actors because RMU 1.3.5

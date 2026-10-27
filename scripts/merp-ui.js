@@ -1,16 +1,27 @@
+import { buildWebpIconMigrationMap, migrateValueDeep } from "./merp-rmu/icon-path-migration.js";
+import { createMerpAssetCatalog } from "./merp-rmu/asset-catalog.js";
+import { localizeMerpHerbSheet } from "./merp-rmu/herb-sheet-localization.js";
 import { resolveSharedSkill, resolveSharedSkillCategory, loadSharedSkillRegistry, loadSharedSkillCategoryRegistry } from "./skill-registry.js";
 import { contentLanguage, localizeContentValue } from "./merp-rmu/localization.js";
 import { registerSettingsUiLocalizationHooks, rerenderSettingsApplications } from "./merp-rmu/settings-ui-localization.js";
+import { registerMerpUiCoreSettings } from "./merp-rmu/settings-registration.js";
 import { dropcapAsset, observeJournalDropcaps } from "./merp-rmu/journal-dropcaps.js";
+import { scheduleItemSheetMetadataLocalization } from "./merp-rmu/item-sheet-metadata.js";
+import { applyCreationTalentTypography } from "./merp-rmu/creation-talents-typography.js";
+import { localizeDunedainCreationTalentRows } from "./merp-rmu/dunedain-racial-talents.js";
+import { decorateMerpCompendiumBrowser } from "./merp-rmu/compendium-browser-theme.js";
 
 const MODULE_ID = "merp-ui";
 const CATALOG_PATH = `modules/${MODULE_ID}/assets/catalog.json`;
 
-let catalog = null;
+const assetCatalog = createMerpAssetCatalog({
+  path: CATALOG_PATH,
+  resolveRoute: (path) => foundry?.utils?.getRoute ? foundry.utils.getRoute(path) : path
+});
 let typographyState = { family: "PragRoman", source: null, loaded: false };
 
 async function resolvePragRomanUrl() {
-  const path = `modules/${MODULE_ID}/fonts/PragRoman.ttf?v=1.6.0-rc.4`;
+  const path = `modules/${MODULE_ID}/fonts/PragRoman.ttf?v=1.6.0-rc.6.1`;
   return foundry?.utils?.getRoute ? foundry.utils.getRoute(path) : path;
 }
 
@@ -95,66 +106,6 @@ async function diagnosePragRoman() {
     return { family: "PragRoman", source: url, httpOk: false, loaded: false, error: String(error) };
   }
 }
-
-async function loadCatalog({ refresh = false } = {}) {
-  if (catalog && !refresh) return catalog;
-  const route = foundry?.utils?.getRoute ? foundry.utils.getRoute(CATALOG_PATH) : CATALOG_PATH;
-  const response = await fetch(route, { cache: refresh ? "no-store" : "default" });
-  if (!response.ok) throw new Error(`Catalogue MERP UI introuvable : HTTP ${response.status}`);
-  catalog = await response.json();
-  return catalog;
-}
-
-
-function getAssetPath(type, query) {
-  return findAsset(type, query)?.path ?? null;
-}
-
-function getIconPath(categoryOrQuery, optionalName = null) {
-  if (optionalName === null) {
-    return getAssetPath("icons", categoryOrQuery);
-  }
-
-  const category = String(categoryOrQuery ?? "").trim().toLowerCase();
-  const name = String(optionalName ?? "").trim().toLowerCase();
-
-  const asset = (catalog?.assets?.icons ?? []).find((entry) => {
-    return (
-      String(entry.category ?? "").toLowerCase() === category &&
-      (
-        String(entry.name ?? "").toLowerCase() === name ||
-        String(entry.key ?? "").toLowerCase() === name
-      )
-    );
-  });
-
-  return asset?.path ?? null;
-}
-
-function findAsset(type, query) {
-  const assets = catalog?.assets?.[type] ?? [];
-  const term = String(query ?? "").trim().toLowerCase();
-  return assets.find((asset) => {
-    const values = [asset.name, asset.key, asset.category, ...(asset.tags ?? [])]
-      .filter(Boolean).map((value) => String(value).toLowerCase());
-    return values.some((value) => value === term || value.includes(term));
-  }) ?? null;
-}
-
-function searchAssets(query, type = null) {
-  const term = String(query ?? "").trim().toLowerCase();
-  const groups = type ? [type] : Object.keys(catalog?.assets ?? {});
-  return groups.flatMap((group) =>
-    (catalog?.assets?.[group] ?? [])
-      .filter((asset) => {
-        const values = [asset.name, asset.key, asset.category, ...(asset.tags ?? [])]
-          .filter(Boolean).map((value) => String(value).toLowerCase());
-        return values.some((value) => value.includes(term));
-      })
-      .map((asset) => ({ ...asset, type: group }))
-  );
-}
-
 
 function getApplicationRoots(app, html) {
   const roots = new Set();
@@ -458,16 +409,6 @@ function scheduleSkillCategoryTooltipEnhancement(app, html) {
   }
 }
 
-function normalizeProfessionSkillMarkers(root) {
-  if (!(root instanceof HTMLElement)) return;
-
-  for (const marker of root.querySelectorAll("span.rmu-profession-skill-marker")) {
-    marker.textContent = "Comp. profess.";
-    marker.setAttribute("aria-label", "Compétence professionnelle");
-    marker.title = "Compétence professionnelle";
-  }
-}
-
 function applyThemeClass(app, html) {
   if (!game.settings.get(MODULE_ID, "themeEnabled")) return;
 
@@ -478,7 +419,6 @@ function applyThemeClass(app, html) {
 
   for (const root of roots) {
     root.classList.add("merp-ui");
-    normalizeProfessionSkillMarkers(root);
 
     if (detection.isActor) {
       root.classList.add("merp-ui-actor");
@@ -499,7 +439,6 @@ function applyThemeClass(app, html) {
   scheduleSkillCategoryTooltipEnhancement(app, html);
     requestAnimationFrame(() => {
       for (const root of getApplicationRoots(app, html)) {
-        normalizeProfessionSkillMarkers(root);
         enhanceSkillTooltipOriginalNames(root).catch((error) => {
           console.error(`${MODULE_ID} | Échec de l’ajout du nom VO aux infobulles`, error);
         });
@@ -635,6 +574,12 @@ async function localizeCharacterCreationRoot(app, root) {
   if (!(root instanceof HTMLElement)) return;
   if (!isLikelyCharacterCreationApplication(app, root)) return;
   markCreationTalentTables(root);
+  try {
+    await localizeDunedainCreationTalentRows(root, contentLanguage());
+  } catch (error) {
+    console.warn(`${MODULE_ID} | Localisation des Talents dúnedain indisponible`, error);
+  }
+  applyCreationTalentTypography(root);
   // The mutation observer must also run in EN for asynchronously rendered tables.
   if (!creationObservers.has(root)) {
     let pending = false;
@@ -692,7 +637,14 @@ async function localizeCharacterCreationRoot(app, root) {
     const placeholder = opts.filter((o) => !o.value || o.disabled);
     const sortable = opts.filter((o) => o.value && !o.disabled);
     sortable.sort((a, b) => String(a.textContent ?? "").localeCompare(String(b.textContent ?? ""), "fr", { sensitivity: "base", ignorePunctuation: true }));
-    for (const o of [...placeholder, ...sortable]) select.append(o);
+    const ordered = [...placeholder, ...sortable];
+    // Reparenting an <option> emits childList mutations. Reappending options
+    // already in order retriggers our MutationObserver on every animation frame.
+    // Only touch the DOM when the order actually needs to change.
+    const currentOrder = Array.from(select.options ?? []);
+    if (ordered.some((option, index) => currentOrder[index] !== option)) {
+      for (const option of ordered) select.append(option);
+    }
   }
 
 }
@@ -833,84 +785,6 @@ function scheduleRmuActorNeutralization(app, html) {
 
 const WEBP_MIGRATION_VERSION = "0.9.10";
 
-function normalizeAssetPath(path) {
-  return String(path ?? "")
-    .replace(/^\/+/, "")
-    .split(/[?#]/, 1)[0]
-    .toLowerCase();
-}
-
-function buildWebpIconMigrationMap() {
-  const map = new Map();
-
-  for (const asset of catalog?.assets?.icons ?? []) {
-    const webpPath = String(asset.path ?? "");
-    if (!webpPath.toLowerCase().endsWith(".webp")) continue;
-
-    const legacyPath = webpPath.replace(/\.webp$/i, ".png");
-    map.set(normalizeAssetPath(legacyPath), webpPath);
-  }
-
-  return map;
-}
-
-function replaceLegacyIconPaths(value, migrationMap, stats) {
-  if (typeof value !== "string" || !value.toLowerCase().includes(".png")) {
-    return value;
-  }
-
-  return value.replace(
-    /\/?modules\/merp-ui\/assets\/icons\/[^"'()<>\s]+?\.png(?:\?[^"'()<>\s]*)?(?:#[^"'()<>\s]*)?/gi,
-    (matchedPath) => {
-      const leadingSlash = matchedPath.startsWith("/");
-      const suffixMatch = matchedPath.match(/([?#].*)$/);
-      const suffix = suffixMatch?.[1] ?? "";
-      const pathWithoutSuffix = matchedPath.replace(/[?#].*$/, "");
-      const normalized = normalizeAssetPath(pathWithoutSuffix);
-      const replacement = migrationMap.get(normalized);
-
-      if (!replacement) {
-        stats.unmatchedPaths.add(pathWithoutSuffix);
-        return matchedPath;
-      }
-
-      stats.pathsChanged += 1;
-      return `${leadingSlash ? "/" : ""}${replacement}${suffix}`;
-    }
-  );
-}
-
-function migrateValueDeep(value, migrationMap, stats) {
-  if (typeof value === "string") {
-    const replaced = replaceLegacyIconPaths(value, migrationMap, stats);
-    return { value: replaced, changed: replaced !== value };
-  }
-
-  if (Array.isArray(value)) {
-    let changed = false;
-    const result = value.map((entry) => {
-      const migrated = migrateValueDeep(entry, migrationMap, stats);
-      changed ||= migrated.changed;
-      return migrated.value;
-    });
-    return { value: result, changed };
-  }
-
-  if (value && typeof value === "object") {
-    let changed = false;
-    const result = {};
-
-    for (const [key, entry] of Object.entries(value)) {
-      const migrated = migrateValueDeep(entry, migrationMap, stats);
-      changed ||= migrated.changed;
-      result[key] = migrated.value;
-    }
-
-    return { value: result, changed };
-  }
-
-  return { value, changed: false };
-}
 
 function getEmbeddedDocumentFields(document) {
   const metadata = document?.constructor?.metadata?.embedded ?? {};
@@ -996,8 +870,8 @@ async function migrateWorldIconsToWebp({
     throw new Error("La migration WebP doit être lancée par un MJ.");
   }
 
-  if (!catalog) {
-    await loadCatalog();
+  if (!assetCatalog.current()) {
+    await assetCatalog.load();
   }
 
   const completedVersion = game.settings.get(
@@ -1013,7 +887,7 @@ async function migrateWorldIconsToWebp({
     };
   }
 
-  const migrationMap = buildWebpIconMigrationMap();
+  const migrationMap = buildWebpIconMigrationMap(assetCatalog.current());
   const stats = {
     dryRun,
     iconsAvailable: migrationMap.size,
@@ -1327,76 +1201,38 @@ async function requestMerpRmuContentLanguageDirect(value, options = {}) {
 registerSettingsUiLocalizationHooks();
 
 Hooks.once("init", () => {
-  game.settings.register(MODULE_ID, "contentLanguage", {
-    name: "MERPUI.Settings.ContentLanguage.Name",
-    hint: "MERPUI.Settings.ContentLanguage.Hint",
-    scope: "world", config: true, type: String,
-    choices: {
-      fr: "Français",
-      en: "English"
-    },
-    default: "en",
-    requiresReload: false,
-    onChange: (value) => {
-      queueMicrotask(async () => {
-        try {
-          await requestMerpRmuContentLanguageDirect(value, {
-            notify: true,
-            reason: "setting-onchange"
-          });
-        } catch (error) {
-          console.error("merp-ui | Unable to apply content language", error);
-          ui.notifications.error(
-            "MERP UI : impossible d’appliquer immédiatement la langue choisie. Consultez la console F12."
-          );
-        }
-      });
-    }
-  });
-  game.settings.register(MODULE_ID, "themeEnabled", {
-    name: "MERPUI.Settings.ThemeEnabled.Name",
-    hint: "MERPUI.Settings.ThemeEnabled.Hint",
-    scope: "world", config: true, type: Boolean, default: true
-  });
-  game.settings.register(MODULE_ID, "defaultIconSize", {
-    name: "MERPUI.Settings.DefaultIconSize.Name",
-    hint: "MERPUI.Settings.DefaultIconSize.Hint",
-    scope: "world", config: true, type: Number, default: 48
-  });
-  game.settings.register(MODULE_ID, "webpMigrationVersion", {
-    name: "Version de migration WebP",
-    scope: "world",
-    config: false,
-    type: String,
-    default: ""
+  registerMerpUiCoreSettings({
+    onLanguageChange: (value) => requestMerpRmuContentLanguageDirect(value, {
+      notify: true,
+      reason: "setting-onchange"
+    })
   });
 });
 
-
 Hooks.once("ready", async () => {
   typographyState = await loadPragRoman({ force: true });
-  try { await loadCatalog(); } catch (error) { console.error(error); }
+  try { await assetCatalog.load(); } catch (error) { console.error(error); }
 
   globalThis.MERPUI = {
     ...(globalThis.MERPUI ?? {}),
-    version: () => "1.6.0-rc.4",
-    catalog: () => foundry.utils.deepClone(catalog),
+    version: () => "1.6.0-rc.6.1",
+    catalog: () => foundry.utils.deepClone(assetCatalog.current()),
     reload: async () => {
-      await loadCatalog({ refresh: true });
-      return foundry.utils.deepClone(catalog);
+      await assetCatalog.load({ refresh: true });
+      return foundry.utils.deepClone(assetCatalog.current());
     },
-    icon: (query, name = null) => getIconPath(query, name),
-    assetPath: (type, query) => getAssetPath(type, query),
+    icon: (query, name = null) => assetCatalog.getIconPath(query, name),
+    assetPath: (type, query) => assetCatalog.getAssetPath(type, query),
     dropcap: (letter) => dropcapAsset(letter),
-    border: (query) => findAsset("borders", query)?.path ?? null,
-    divider: (query) => findAsset("dividers", query)?.path ?? null,
-    ornament: (query) => findAsset("ornaments", query)?.path ?? null,
-    frame: (query) => findAsset("frames", query)?.path ?? null,
-    parchment: (query) => findAsset("parchment", query)?.path ?? null,
-    find: (type, query) => foundry.utils.deepClone(findAsset(type, query)),
-    search: (query, type = null) => foundry.utils.deepClone(searchAssets(query, type)),
+    border: (query) => assetCatalog.getAssetPath("borders", query),
+    divider: (query) => assetCatalog.getAssetPath("dividers", query),
+    ornament: (query) => assetCatalog.getAssetPath("ornaments", query),
+    frame: (query) => assetCatalog.getAssetPath("frames", query),
+    parchment: (query) => assetCatalog.getAssetPath("parchment", query),
+    find: (type, query) => foundry.utils.deepClone(assetCatalog.findAsset(type, query)),
+    search: (query, type = null) => foundry.utils.deepClone(assetCatalog.searchAssets(query, type)),
     category: (type, category) => foundry.utils.deepClone(
-      (catalog?.assets?.[type] ?? []).filter((asset) => asset.category === category)
+      assetCatalog.category(type, category)
     ),
     defaultIconSize: () => game.settings.get(MODULE_ID, "defaultIconSize"),
     contentLanguage: () => contentLanguage(),
@@ -1456,294 +1292,6 @@ Hooks.on("renderRMUCharacterSheet", applyThemeClass);
 Hooks.on("renderRMUCreatureSheet", applyThemeClass);
 
 
-// ---------------------------------------------------------------------------
-// MERP-UI — Herb sheet display localization
-// RMU stores technical values such as "Autumn", "Leaf", "Hard" and "apply".
-// Do not rewrite those values: localize only their visible labels/options.
-// ---------------------------------------------------------------------------
-const HERB_SHEET_TEXT_FR = new Map([
-  ["DESCRIPTION", "DESCRIPTION"],
-  ["HERB", "HERBE"],
-  ["COST / WEIGHT", "COÛT / POIDS"],
-  ["Quantity", "Quantité"],
-  ["Biome(s)", "Biome(s)"],
-  ["Season(s)", "Saison(s)"],
-  ["Find", "Trouver"],
-  ["Form", "Forme"],
-  ["Use", "Usage"],
-  ["Addiction (%)", "Addiction (%)"],
-  ["Cost", "Coût"],
-  ["Weight", "Poids"]
-]);
-
-const HERB_SHEET_TEXT_EN = new Map([
-  ["DESCRIPTION", "DESCRIPTION"],
-  ["HERBE", "HERB"],
-  ["COÛT / POIDS", "COST / WEIGHT"],
-  ["Quantité", "Quantity"],
-  ["Biome(s)", "Biome(s)"],
-  ["Saison(s)", "Season(s)"],
-  ["Trouver", "Find"],
-  ["Forme", "Form"],
-  ["Usage", "Use"],
-  ["Addiction (%)", "Addiction (%)"],
-  ["Coût", "Cost"],
-  ["Poids", "Weight"]
-]);
-
-// Localize only the display of RMU season/date options. Never change option.value.
-const HERB_SEASONS = {
-  fr: new Map([
-    ["Spring","Printemps"],["Summer","Été"],["Autumn","Automne"],["Winter","Hiver"],
-    ["Printemps","Printemps"],["Été","Été"],["Automne","Automne"],["Hiver","Hiver"],
-    ["All Year","Toute l’année"],["Year-round","Toute l’année"],["All seasons","Toutes les saisons"],
-    ["Dry seasons","Saisons sèches"],["Wet seasons","Saisons humides"],["Rainy seasons","Saisons des pluies"],
-    ["Near full moon (5 days)","Aux environs de la pleine lune (5 jours)"],
-    ["1-3 weeks after rain","1 à 3 semaines après la pluie"],
-    ["Sacred/Special Date","Date sacrée / particulière"],["Sacred Date","Date sacrée"],
-    ["Special Date","Date particulière"],["Special","Particulier"],["Varies","Variable"],
-    ["Near full moon","Aux environs de la pleine lune"],["Full moon","Pleine lune"],
-    ["New moon","Nouvelle lune"],["After rain","Après la pluie"],
-    ["Any season","Toute saison"],["Toute l’année","Toute l’année"]
-  ]),
-  en: new Map([
-    ["Printemps","Spring"],["Été","Summer"],["Automne","Autumn"],["Hiver","Winter"],
-    ["Spring","Spring"],["Summer","Summer"],["Autumn","Autumn"],["Winter","Winter"],
-    ["Toute l’année","All Year"],["Toutes les saisons","All seasons"],
-    ["Saisons sèches","Dry seasons"],["Saisons humides","Wet seasons"],
-    ["Saisons des pluies","Rainy seasons"],
-    ["Milieu à fin du printemps","Mid-to-late spring"],
-    ["Printemps et début de l’été","Spring-early summer"],
-    ["Milieu de l’été à début de l’automne","Mid-summer-early autumn"],
-    ["Aux environs de la pleine lune (5 jours)","Near full moon (5 days)"],
-    ["1 à 3 semaines après la pluie","1-3 weeks after rain"],
-    ["Date sacrée / particulière","Sacred/Special Date"],["Date sacrée","Sacred Date"],
-    ["Date particulière","Special Date"],["Particulier","Special"],["Variable","Varies"],
-    ["Aux environs de la pleine lune","Near full moon"],["Pleine lune","Full moon"],
-    ["Nouvelle lune","New moon"],["Après la pluie","After rain"],["Toute saison","Any season"]
-  ])
-};
-const MERP_SEASON_FORMS = {
-  spring:{bare:"Printemps",part:"du printemps",start:"Du printemps",end:"au printemps"},
-  summer:{bare:"Été",part:"de l’été",start:"De l’été",end:"à l’été"},
-  autumn:{bare:"Automne",part:"de l’automne",start:"De l’automne",end:"à l’automne"},
-  winter:{bare:"Hiver",part:"de l’hiver",start:"De l’hiver",end:"à l’hiver"}
-};
-const MERP_SEASON_PHASES = {
-  early:{single:"Début",start:"Du début",end:"au début"},
-  mid:{single:"Milieu",start:"Du milieu",end:"au milieu"},
-  late:{single:"Fin",start:"De la fin",end:"à la fin"}
-};
-
-function localizeMerpHerbSeasonLabel(value, language) {
-  const raw = String(value ?? "").trim();
-  if (!raw) return null;
-  const direct = HERB_SEASONS[language]?.get(raw);
-  if (direct) return direct;
-  const rain = raw.match(/^(\d+)(?:\s*[-–—]\s*(\d+))?\s+(days?|weeks?|months?)\s+after\s+(?:the\s+)?(?:rain|rainfall)$/i);
-  const moon = raw.match(/^(near|around|at|during|before|after)\s+(?:the\s+)?(full|new|half|first quarter|last quarter)\s+moon(?:\s*\(\s*(\d+)\s+days?\s*\))?$/i);
-  if (language === "fr" && rain) {
-    const unit = rain[3].toLowerCase().replace(/s$/, "");
-    const n = Number(rain[1]);
-    const plural = !!rain[2] || n !== 1;
-    const units = {day: plural ? "jours" : "jour",week: plural ? "semaines" : "semaine",month:"mois"};
-    return `${rain[1]}${rain[2] ? " à " + rain[2] : ""} ${units[unit]} après la pluie`;
-  }
-  if (language === "fr" && moon) {
-    const phases = {full:"la pleine lune",new:"la nouvelle lune",half:"la demi-lune",
-      "first quarter":"le premier quartier lunaire","last quarter":"le dernier quartier lunaire"};
-    const phase = phases[moon[2].toLowerCase()];
-    const pos = moon[1].toLowerCase();
-    const prefix = {near:"Aux environs de",around:"Aux environs de",at:"À",
-      during:"Pendant",before:"Avant",after:"Après"}[pos];
-    let label = `${prefix} ${phase}`;
-    if (moon[3]) label += ` (${moon[3]} ${Number(moon[3])===1?"jour":"jours"})`;
-    return label;
-  }
-  // Compound English windows: e.g. Autumn-early winter or late spring-mid-autumn.
-  const matched = raw.match(/^(?:(early|mid|late)(?:-(early|mid|late))?[\s-]+)?(spring|summer|autumn|winter)(?:\s*[-–—]\s*(?:(early|mid|late)[\s-]+)?(spring|summer|autumn|winter))?$/i);
-  if (!matched) return null;
-  if (language === "en") return raw;
-  if (language !== "fr") return null;
-  const first = {phase:matched[1]?.toLowerCase(),phaseEnd:matched[2]?.toLowerCase(),season:matched[3].toLowerCase()};
-  const second = matched[5] ? {phase:matched[4]?.toLowerCase(),season:matched[5].toLowerCase()} : null;
-  const phrase = (part, place) => {
-    const season = MERP_SEASON_FORMS[part.season];
-    if (!part.phase) return season[place];
-    return `${MERP_SEASON_PHASES[part.phase][place === "bare" ? "single" : place]} ${season.part}`;
-  };
-  if (!second) {
-    if (first.phase && first.phaseEnd) {
-      return `${MERP_SEASON_PHASES[first.phase].start} ${MERP_SEASON_PHASES[first.phaseEnd].end} ${MERP_SEASON_FORMS[first.season].part}`;
-    }
-    return phrase(first,"bare");
-  }
-  if (first.phaseEnd) return null;
-  return `${phrase(first,"start")} ${phrase(second,"end")}`;
-}
-
-const HERB_DIFFICULTIES = {
-  fr: new Map([
-    ["Relax", "Sans difficulté"],
-    ["Simple", "Simple"],
-    ["Routine", "Routine"],
-    ["Light", "Aisée"], ["Aisée", "Aisée"],
-    ["Easy", "Facile"], ["Facile", "Facile"],
-    ["Medium", "Moyenne"], ["Moyenne", "Moyenne"],
-    ["Hard", "Difficile"], ["Difficile", "Difficile"],
-    ["Very Hard", "Très Difficile"], ["Très Difficile", "Très Difficile"],
-    ["Extremely Hard", "Extrêmement Difficile"], ["Extrêmement Difficile", "Extrêmement Difficile"],
-    ["Sheer Folly", "Pure Folie"], ["Pure Folie", "Pure Folie"],
-    ["Absurd", "Absurde"], ["Absurde", "Absurde"],
-    ["Near Impossible", "Quasi Impossible"], ["Quasi Impossible", "Quasi Impossible"]
-  ]),
-  en: new Map([
-    ["Sans difficulté", "Relax"], ["Relax", "Relax"],
-    ["Simple", "Simple"],
-    ["Routine", "Routine"],
-    ["Aisée", "Light"], ["Light", "Light"],
-    ["Facile", "Easy"], ["Easy", "Easy"],
-    ["Moyenne", "Medium"], ["Medium", "Medium"],
-    ["Difficile", "Hard"], ["Hard", "Hard"],
-    ["Très Difficile", "Very Hard"], ["Very Hard", "Very Hard"],
-    ["Extrêmement Difficile", "Extremely Hard"], ["Extremely Hard", "Extremely Hard"],
-    ["Pure Folie", "Sheer Folly"], ["Sheer Folly", "Sheer Folly"],
-    ["Absurde", "Absurd"], ["Absurd", "Absurd"],
-    ["Quasi Impossible", "Near Impossible"], ["Near Impossible", "Near Impossible"]
-  ])
-};
-
-const HERB_PREPARATIONS = {
-  fr: new Map([
-    ["Application", "Application"], ["apply", "Application"],
-    ["Decoction", "Décoction"], ["Decoction", "Décoction"], ["brew", "Décoction"],
-    ["Ingestion", "Ingestion"], ["ingest", "Ingestion"],
-    ["Inhalation", "Inhalation"], ["inhale", "Inhalation"],
-    ["Liquid", "Liquide"], ["Liquide", "Liquide"], ["liquid", "Liquide"],
-    ["Paste", "Pâte"], ["Pâte", "Pâte"], ["paste", "Pâte"],
-    ["Powder", "Poudre"], ["Poudre", "Poudre"], ["powder", "Poudre"],
-    ["Injection", "Injection"], ["inject", "Injection"], ["injection", "Injection"],
-    ["Wear", "Portée"], ["wear", "Portée"],
-    ["Apply / Ingest", "Application / Ingestion"], ["apply/ingest", "Application / Ingestion"]
-  ]),
-  en: new Map([
-    ["Application", "Application"], ["apply", "Application"],
-    ["Décoction", "Decoction"], ["Decoction", "Decoction"], ["brew", "Decoction"],
-    ["Ingestion", "Ingestion"], ["ingest", "Ingestion"],
-    ["Inhalation", "Inhalation"], ["inhale", "Inhalation"],
-    ["Liquide", "Liquid"], ["Liquid", "Liquid"], ["liquid", "Liquid"],
-    ["Pâte", "Paste"], ["Paste", "Paste"], ["paste", "Paste"],
-    ["Poudre", "Powder"], ["Powder", "Powder"], ["powder", "Powder"],
-    ["Injection", "Injection"], ["inject", "Injection"], ["injection", "Injection"],
-    ["Portée", "Wear"], ["Wear", "Wear"], ["wear", "Wear"],
-    ["Application / Ingestion", "Apply / Ingest"], ["Apply / Ingest", "Apply / Ingest"], ["apply/ingest", "Apply / Ingest"]
-  ])
-};
-
-const HERB_FORMS = {
-  fr: new Map([
-    ["Flower","Fleur"],["Leaf","Feuille"],["Leaves","Feuilles"],["Root","Racine"],["Root/Leaf","Racine / Feuille"],
-    ["Berry","Baie"],["Berries","Baies"],["Moss","Mousse"],["Mushroom","Champignon"],["Fruit","Fruit"],
-    ["Lichen","Lichen"],["Fungus","Champignon"],["Clove","Gousse"],["Nut","Noix"],["Nodule","Nodule"],
-    ["Algae","Algue"],["Stem","Tige"],["Reed","Roseau"],["Stalk","Tige"],["Grass","Herbe"],["Nectar","Nectar"],
-    ["Seeds","Graines"],["Seed","Graine"],["Resin","Résine"],["Petal","Pétale"],["Thorn","Épine"],["Flowers","Fleurs"],
-    ["Bud","Bourgeon"],["Mixture","Mélange"],["Paste","Pâte"],["Liquid","Liquide"],["Bulb","Bulbe"],["Cone","Cône"],
-    ["Juice","Jus"],["Herb","Herbe"],["Cactus","Cactus"],["Acorn","Gland"],["Spine","Épine"],["Blossom","Fleur"],
-    ["Pollen","Pollen"],["Blood","Sang"],["Crystal","Cristal"],["Bark","Écorce"],["Toad","Crapaud"],["Bat","Chauve-souris"],
-    ["Bats","Chauves-souris"],["Scorpion","Scorpion"],["Spider","Araignée"],["Clams","Palourdes"],["Gas","Gaz"],
-    ["Varies","Variable"],["Bees","Abeilles"],["Drake","Dragonnet"],["Dragon","Dragon"],
-    ["Fish","Poisson"],["Frog","Grenouille"],["Spore","Spore"],["Spores","Spores"],
-    ["Shell","Coquille"],["Sap","Sève"],["Wood","Bois"]
-  ]),
-  en: new Map([
-    ["Fleur","Flower"],["Feuille","Leaf"],["Feuilles","Leaves"],["Racine","Root"],["Racine / Feuille","Root/Leaf"],
-    ["Baie","Berry"],["Baies","Berries"],["Mousse","Moss"],["Champignon","Mushroom"],["Fruit","Fruit"],
-    ["Lichen","Lichen"],["Gousse","Clove"],["Noix","Nut"],["Nodule","Nodule"],["Algue","Algae"],["Tige","Stem"],
-    ["Roseau","Reed"],["Herbe","Grass"],["Nectar","Nectar"],["Graines","Seeds"],["Graine","Seed"],["Résine","Resin"],
-    ["Pétale","Petal"],["Épine","Thorn"],["Fleurs","Flowers"],["Bourgeon","Bud"],["Mélange","Mixture"],["Pâte","Paste"],
-    ["Liquide","Liquid"],["Bulbe","Bulb"],["Cône","Cone"],["Jus","Juice"],["Cactus","Cactus"],["Gland","Acorn"],
-    ["Pollen","Pollen"],["Sang","Blood"],["Cristal","Crystal"],["Écorce","Bark"],["Crapaud","Toad"],["Chauve-souris","Bat"],
-    ["Chauves-souris","Bats"],["Scorpion","Scorpion"],["Araignée","Spider"],["Palourdes","Clams"],["Gaz","Gas"],
-    ["Variable","Varies"],["Abeilles","Bees"],["Dragonnet","Drake"],["Dragon","Dragon"],
-    ["Poisson","Fish"],["Grenouille","Frog"],["Spore","Spore"],["Spores","Spores"],
-    ["Coquille","Shell"],["Sève","Sap"],["Bois","Wood"]
-  ])
-};
-
-function merpUiHerbSheetDocument(app) {
-  return app?.document ?? app?.item ?? app?.object ?? null;
-}
-
-function replaceHerbSheetExactText(root, translations) {
-  if (!root || !translations?.size) return;
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-  const nodes = [];
-  while (walker.nextNode()) nodes.push(walker.currentNode);
-
-  for (const node of nodes) {
-    const raw = node.nodeValue ?? "";
-    const trimmed = raw.trim();
-    if (!trimmed || !translations.has(trimmed)) continue;
-    const leading = raw.match(/^\s*/)?.[0] ?? "";
-    const trailing = raw.match(/\s*$/)?.[0] ?? "";
-    node.nodeValue = `${leading}${translations.get(trimmed)}${trailing}`;
-  }
-}
-
-function localizeHerbOption(option, map, { season = false, language = "fr" } = {}) {
-  if (!option || !map) return;
-  const raw = (option.textContent ?? "").trim();
-  if (!raw) return;
-
-  // Difficulty options carry their numeric modifier after the label.
-  const difficulty = raw.match(/^(.*?)\s*(\([+-]?\d+\))$/);
-  if (difficulty) {
-    const label = difficulty[1].trim();
-    const translated = map.get(label);
-    if (translated) option.textContent = `${translated} ${difficulty[2]}`;
-    return;
-  }
-
-  const byValue = map.get(String(option.value ?? "").trim());
-  const byText = map.get(raw);
-  const translated = byValue ?? byText ?? (season ? localizeMerpHerbSeasonLabel(option.value || raw, language) : null);
-  if (translated) option.textContent = translated;
-}
-
-function localizeMerpHerbSheet(app, html) {
-  const item = merpUiHerbSheetDocument(app);
-  if (item?.documentName !== "Item" || item?.type !== "herb") return;
-
-  const language = contentLanguage();
-  const textMap = language === "en" ? HERB_SHEET_TEXT_EN : HERB_SHEET_TEXT_FR;
-  const seasonMap = HERB_SEASONS[language];
-  const difficultyMap = HERB_DIFFICULTIES[language];
-  const prepMap = HERB_PREPARATIONS[language];
-  const formMap = HERB_FORMS[language];
-
-  for (const root of getApplicationRoots(app, html)) {
-    replaceHerbSheetExactText(root, textMap);
-
-    for (const select of root.querySelectorAll("select")) {
-      const options = [...select.options];
-      const text = options.map((option) => `${option.value} ${option.textContent}`).join(" | ");
-
-      let map = null;
-      if (/(Spring|Summer|Autumn|Winter|Printemps|Été|Automne|Hiver)/i.test(text)) map = seasonMap;
-      else if (/(Sheer Folly|Pure Folie|Near Impossible|Quasi Impossible|Very Hard|Très Difficile)/i.test(text)) map = difficultyMap;
-      else if (/(apply|brew|ingest|Application|Decoction|Décoction|Ingestion|Pâte|Powder)/i.test(text)) map = prepMap;
-      else if (/(Leaf|Flower|Root|Mushroom|Feuille|Fleur|Racine|Champignon|Nectar|Bulb|Bulbe)/i.test(text)) map = formMap;
-
-      if (!map) continue;
-      for (const option of options) localizeHerbOption(option, map, { season: map === seasonMap, language });
-
-      // Force the closed select to repaint its newly localized selected option.
-      const value = select.value;
-      select.value = value;
-    }
-  }
-}
-
 Hooks.on("renderApplicationV2", (app, html) => {
   applyThemeClass(app, html);
   prepareJournalDropcaps(app, html);
@@ -1756,5 +1304,121 @@ Hooks.on("renderApplication", (app, html) => {
 });
 
 
-Hooks.on("renderApplicationV2", (app, html) => localizeMerpHerbSheet(app, html));
-Hooks.on("renderApplication", (app, html) => localizeMerpHerbSheet(app, html));
+Hooks.on("renderApplicationV2", (app, html) => localizeMerpHerbSheet(app, html, getApplicationRoots));
+Hooks.on("renderApplication", (app, html) => localizeMerpHerbSheet(app, html, getApplicationRoots));
+
+/**
+ * Translate Item sheet chrome in the MERP-RMU content language (FR/EN).
+ * This does not depend on the Foundry UI language and never updates Item data.
+ */
+// RC5: match the main description title to the paragraph font on all eight
+// MERP-RMU Skills, while styling intertitles only on the two longer Skills.
+// Match known FR/EN headings to leave RMU's other sheet controls alone.
+const MERP_SKILL_DESCRIPTION_TITLES = {
+  "healing-song-blood": ["Chant du Sang (Blood Songs)", "Blood Songs"],
+  "healing-song-bone": ["Chant des Os (Bone Songs)", "Bone Songs"],
+  "healing-song-cleansing": ["Chant de Purification (Cleansing Songs)", "Cleansing Songs"],
+  "healing-song-muscle": ["Chant des Muscles, Tendons et Ligaments (Muscle/Tendon/Ligament Songs)", "Muscle/Tendon/Ligament Songs"],
+  "healing-song-sensory": ["Chant des Sens (Sensory Songs)", "Sensory Songs"],
+  "healing-song-strengthening": ["Chant de Fortification (Strengthening Songs)", "Strengthening Songs"],
+  "healing-songs": ["Chants de Guérison (Healing Songs)", "Healing Songs"],
+  "yavannas-song": ["Chant de Yavanna (Yavanna’s Song)", "Yavanna's Song"]
+};
+const normalizeMerpSkillHeading = (value) =>
+  String(value ?? "").replace(/\s+/g, " ").trim().replace(/[’‘]/g, "'").toLocaleLowerCase();
+
+const MERP_LONG_SKILL_HEADINGS = {
+  "healing-songs": new Set([
+    "spécialisations", "specializations", "résolution", "resolution",
+    "modificateurs", "modifiers", "table des chants de guérison", "healing songs table"
+  ]),
+  "yavannas-song": new Set([
+    "un chant de chœurs", "a song of choirs", "résolution", "resolution",
+    "modificateurs", "modifiers", "table du chant de yavanna", "yavanna's song table"
+  ])
+};
+
+function polishMerpSpecialSkillIntertitles(item, root) {
+  if (item?.documentName !== "Item" || item?.type !== "skill" || !root?.querySelectorAll) return 0;
+  const flags = item.flags?.["merp-ui"] ?? {};
+  const key = flags.compendiumSourceKey ?? flags.key;
+  const mainTitles = MERP_SKILL_DESCRIPTION_TITLES[key];
+  if (!mainTitles) return 0;
+  const mainMatches = new Set(mainTitles.map(normalizeMerpSkillHeading));
+  const allowed = MERP_LONG_SKILL_HEADINGS[key];
+
+  let count = 0;
+  for (const heading of root.querySelectorAll("h1, h2, h3")) {
+    const title = normalizeMerpSkillHeading(heading.textContent);
+    const isMainTitle = heading.matches("h1");
+    if (isMainTitle ? !mainMatches.has(title) : !allowed?.has(title)) continue;
+
+    // Prefer the nearest rich-text container. Do not use fonts from sheet controls.
+    const content = heading.closest(
+      ".editor-content, .ProseMirror, .prosemirror, .rmu-prose-editor, .description"
+    ) ?? heading.parentElement;
+    const paragraph = [...(content?.querySelectorAll("p") ?? [])]
+      .find(p => String(p.textContent ?? "").trim().length >= 30);
+    if (!paragraph) continue;
+
+    const bodyStyle = getComputedStyle(paragraph);
+    const bodyPx = Number.parseFloat(bodyStyle.fontSize);
+    if (!Number.isFinite(bodyPx) || bodyPx < 10 || bodyPx > 25) continue;
+
+    // Inline priorities override RMU's editor heading defaults without changing
+    // the body text or any stored Skill content, in either content language.
+    heading.style.setProperty("font-size", (bodyPx + (isMainTitle ? 4 : 2)).toFixed(1) + "px", "important");
+    heading.style.setProperty("font-family", bodyStyle.fontFamily, "important");
+    heading.style.setProperty("font-weight", "700", "important");
+    heading.style.setProperty("font-variant", "normal", "important");
+    heading.style.setProperty("text-transform", "none", "important");
+    heading.style.setProperty("letter-spacing", "normal", "important");
+    heading.style.setProperty("line-height", "1.25", "important");
+    heading.style.setProperty("margin", isMainTitle ? "7px 0 8px" : "10px 0 5px", "important");
+    count++;
+  }
+  return count;
+}
+
+function localizeRmuItemSheetChrome(app, html) {
+  const roots = getApplicationRoots(app, html);
+  const application = detectApplicationDocument(app, roots);
+  if (!application.isItem || application.documentName === "Actor" ||
+      application.documentName === "JournalEntry" || application.documentName === "JournalEntryPage") return;
+  const root = roots.find(element => element.matches?.(".application, .window-app")) ?? roots[0];
+  if (!root) return;
+  scheduleItemSheetMetadataLocalization(root, contentLanguage, application.document);
+  // Item rich-text editors may appear after the initial render.
+  const restyle = () => polishMerpSpecialSkillIntertitles(application.document, root);
+  requestAnimationFrame(restyle);
+  setTimeout(restyle, 140);
+  setTimeout(restyle, 420);
+}
+Hooks.on("renderApplicationV2", localizeRmuItemSheetChrome);
+Hooks.on("renderApplication", localizeRmuItemSheetChrome);
+Hooks.on("renderItemSheet", localizeRmuItemSheetChrome);
+
+// The MERP-RMU content language is independent from Foundry's UI language.
+// Re-translate chrome on already open Item windows after a FR/EN setting switch.
+// Existing windows are not reopened and their form values remain untouched.
+Hooks.on("updateSetting", (setting) => {
+  if (setting?.key !== `${MODULE_ID}.contentLanguage`) return;
+  queueMicrotask(() => {
+    for (const app of Object.values(ui?.windows ?? {})) {
+      const roots = getApplicationRoots(app, app?.element);
+      const application = detectApplicationDocument(app, roots);
+      if (!application.isItem || application.isActor || application.isJournal) continue;
+      const root = roots.find(el => el.matches?.(".application, .window-app")) ?? roots[0];
+      if (root) scheduleItemSheetMetadataLocalization(root, contentLanguage, application.document);
+    }
+  });
+});
+
+
+// RC5 — Apply the Journal-inspired theme only to our own Compendium packs.
+function themeMerpCompendiumWindow(app, html) {
+  decorateMerpCompendiumBrowser(app, getApplicationRoots(app, html), game?.packs);
+}
+Hooks.on("renderApplicationV2", themeMerpCompendiumWindow);
+Hooks.on("renderApplication", themeMerpCompendiumWindow);
+Hooks.on("renderCompendium", themeMerpCompendiumWindow);

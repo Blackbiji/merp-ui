@@ -48,12 +48,83 @@ function normalize(value) {
     .toLowerCase().trim();
 }
 
+/**
+ * During RMU character creation, the Race shown in the prepared header may
+ * already be the newly selected Race while actor.items still exposes the
+ * initial Hildor Race. In particular, RMU creates the three free Dúnedain
+ * racial Talents before the embedded Race replacement has fully settled.
+ *
+ * Prefer the *selected* Race; never infer eligibility from an unrelated or
+ * stale Race Item. Outside that transition, the embedded Race remains the
+ * source of truth. An ambiguous collection is deliberately not accepted.
+ */
 function actorRaceName(actor) {
-  return [...(actor?.items ?? [])].find((item) => item.type === "race")?.name ?? "";
+  const races = [...(actor?.items ?? [])].filter(item => item.type === "race");
+  const candidates = [
+    actor?.system?._header?._raceName,
+    actor?.system?._creation?.race?.name,
+    actor?.system?._creation?.raceName,
+    typeof actor?.system?._creation?.race === "string" ? actor.system._creation.race : null,
+    actor?.system?._race?.name,
+    actor?.system?._raceName,
+    actor?.system?.race?.name,
+    actor?.system?.raceName,
+    typeof actor?.system?.race === "string" ? actor.system.race : null
+  ].filter(value => typeof value === "string" && value.trim());
+
+  const raceMatches = (item, name) => {
+    const key = String(item?.flags?.[MODULE_ID]?.canonicalKey ??
+      item?.flags?.[MODULE_ID]?.key ?? "").replace(/-age-[1-4]$/, "");
+    const expected = normalize(name);
+    return normalize(item?.name) === expected ||
+      (key === "race-dunedain" && expected === "dunedain");
+  };
+  // During character creation RMU creates the new racial Talents before
+  // replacing the embedded previous Race.  That previous Race can be ANY
+  // Race, not just the initial Human default.  The prepared header is RMU's
+  // explicit current choice and is reliable during this short transition.
+  // Outside creation keep the embedded Item authoritative, so adding a
+  // Dúnedain-only Talent manually to a non-Dúnedain remains prohibited.
+  const selectedRace = actor?.system?._header?._raceName;
+  if (Number(actor?.system?.view) === 0 && races.length <= 1 &&
+      normalize(selectedRace) === "dunedain") {
+    return selectedRace;
+  }
+
+  for (const candidate of candidates) {
+    if (races.some(item => raceMatches(item, candidate))) return candidate;
+  }
+
+  if (!races.length) return candidates[0] ?? "";
+  return races.length === 1 ? races[0].name : "";
 }
 
 function actorCultureName(actor) {
   return [...(actor?.items ?? [])].find((item) => item.type === "culture")?.name ?? "";
+}
+
+/**
+ * RMU can grant the free race Talents BEFORE committing the replacement Race
+ * Item or refreshing the prepared header (notably Elf -> Dúnedain directly).
+ * Restriction validation must not veto this native, reversible step.
+ *
+ * Constrain the exception to precisely the THREE auto-granted Dúnedain
+ * talents and only while the actor is in the RMU creation view. Completed
+ * characters and all optional/purchasable Talents keep strict restrictions.
+ */
+const FREE_DUNEDAIN_RACIAL_TALENTS = new Set([
+  "dunedain-longevity", "dunedain-disease-resistance", "dunedain-western-endurance"
+]);
+function isTransitionalDunedainRacialGrant(actor, item) {
+  const flags = item?.flags?.[MODULE_ID] ?? {};
+  if (!FREE_DUNEDAIN_RACIAL_TALENTS.has(flags.key)) return false;
+  if (Number(actor?.system?.view) !== 0) return false;
+  if (actor?.type && !["character", "Character"].includes(actor.type)) return false;
+  const raceOnly = flags.restrictions?.races;
+  if (!Array.isArray(raceOnly) || raceOnly.length !== 1 || normalize(raceOnly[0]) !== "dunedain") return false;
+  if (flags.restrictions?.cultures?.length) return false;
+  // Free racial abilities, unlike Dúnedain Ancestry, cannot be purchased.
+  return Number(item?.system?.cost ?? 0) === 0;
 }
 
 function allowed(actor, item) {
@@ -66,7 +137,8 @@ function allowed(actor, item) {
   const culture = normalize(actorCultureName(actor));
   const matches = (actual, choices) => choices.some((choice) => {
     const wanted = normalize(choice);
-    return actual === wanted || actual.includes(wanted) || wanted.includes(actual);
+    return Boolean(actual && wanted) &&
+      (actual === wanted || actual.includes(wanted) || wanted.includes(actual));
   });
   return (races.length && matches(race, races)) || (cultures.length && matches(culture, cultures));
 }
@@ -94,7 +166,7 @@ export function registerMerpRmuTalentsFlawsHooks() {
       if (options?.merpUiTalentFlawInstall) return;
       const actor = item?.parent;
       if (!actor || actor.documentName !== "Actor" || item.type !== "talent" || !managed(item)) return;
-      if (allowed(actor, item)) return;
+      if (allowed(actor, item) || isTransitionalDunedainRacialGrant(actor, item)) return;
       const restrictions = item.getFlag?.(MODULE_ID, "restrictions") ?? {};
       const labels = [...(restrictions.races ?? []), ...(restrictions.cultures ?? [])].join(", ");
       ui.notifications.warn(`MERP UI : ${item.name} est réservé à : ${labels}.`);

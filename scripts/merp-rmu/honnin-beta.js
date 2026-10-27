@@ -1,3 +1,4 @@
+import { rmuRealmSpellListIcon } from "./spell-list-utils.js";
 import {
   cloneRmuDocument,
   findRmuCompendiumDocument
@@ -18,28 +19,7 @@ const DATA_PATH = `modules/${MODULE_ID}/data/merp-rmu/honnin-priest-beta-v1.json
 const VERSION_SETTING = "merpRmuHonninPriestBetaVersion";
 const NON_RMU_PACK_ID = "world.merp-rmu-spell-lists";
 
-const RMU_REALM_SPELL_LIST_ICONS = Object.freeze({
-  "Essence": "icons/magic/symbols/elements-air-earth-fire-water.webp",
-  "Mentalism": "icons/magic/symbols/circled-gem-pink.webp",
-  "Channeling": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
-  "Channeling,Essence": "icons/magic/symbols/circle-ouroboros.webp",
-  "Essence,Channeling": "icons/magic/symbols/circle-ouroboros.webp",
-  "Essence,Mentalism": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
-  "Mentalism,Essence": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
-  "Channeling,Mentalism": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
-  "Mentalism,Channeling": "icons/magic/symbols/chevron-elipse-circle-blue.webp"
-});
 
-function rmuRealmSpellListIcon(realms) {
-  const key = Array.isArray(realms)
-    ? realms.map((realm) => String(realm).trim()).filter(Boolean).join(",")
-    : String(realms ?? "")
-        .split(",")
-        .map((realm) => realm.trim())
-        .filter(Boolean)
-        .join(",");
-  return RMU_REALM_SPELL_LIST_ICONS[key] ?? null;
-}
 
 async function loadData() {
   const route = foundry?.utils?.getRoute ? foundry.utils.getRoute(DATA_PATH) : DATA_PATH;

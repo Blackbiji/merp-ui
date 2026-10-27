@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "O",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "133gp",
-      "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison musculaire de niveau 2 touchant surtout la vue : cécité d’un œil, spasmes des paupières ou cécité des deux yeux selon la gravité de l’échec. Le jus brut de la fleur agit comme un poison de niveau 1.</p>",
+      "notes": "<p>Le Worlclivur est un lichen rarissime des <strong>côtes froides et rivages battus par l'eau salée</strong>, surtout connu dans le nord-ouest d'Endor. Sa recherche exige de parcourir un milieu précis et de reconnaître une espèce que peu d'herboristes auront l'occasion d'observer.</p>\n<p>La préparation sous forme de pâte agit principalement sur <strong>la vue</strong>. Selon la gravité de l'échec au Jet de Résistance, elle peut provoquer la <strong>cécité d'un œil</strong>, des <strong>spasmes incontrôlables des paupières</strong> ou la <strong>cécité des deux yeux</strong>. Le corpus décrit aussi une substance brute apparentée, de <strong>niveau 1</strong>, moins élaborée que la préparation principale. Les effets de cette variante ne doivent pas être confondus avec ceux de la pâte de niveau 2.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Worlclivur",
       "system": {
-        "notes": "<p>Ce lichen se rencontre surtout dans les régions au climat froid, notamment dans les côtes marines et rivages salés, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison musculaire de niveau 2 touchant surtout la vue : cécité d’un œil, spasmes des paupières ou cécité des deux yeux selon la gravité de l’échec. Le jus brut de la fleur agit comme un poison de niveau 1.</p>"
+        "notes": "<p>Le Worlclivur est un lichen rarissime des <strong>côtes froides et rivages battus par l'eau salée</strong>, surtout connu dans le nord-ouest d'Endor. Sa recherche exige de parcourir un milieu précis et de reconnaître une espèce que peu d'herboristes auront l'occasion d'observer.</p>\n<p>La préparation sous forme de pâte agit principalement sur <strong>la vue</strong>. Selon la gravité de l'échec au Jet de Résistance, elle peut provoquer la <strong>cécité d'un œil</strong>, des <strong>spasmes incontrôlables des paupières</strong> ou la <strong>cécité des deux yeux</strong>. Le corpus décrit aussi une substance brute apparentée, de <strong>niveau 1</strong>, moins élaborée que la préparation principale. Les effets de cette variante ne doivent pas être confondus avec ceux de la pâte de niveau 2.</p>"
       }
     },
     "en": {
       "name": "Worlclivur",
       "system": {
-        "notes": "<p>This lichen is found chiefly in cold climates, especially in sea coasts and saltwater shores, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 2 muscle poison primarily affecting sight: blindness in one eye, eyelid spasms, or blindness in both eyes depending on the severity of the failure. Raw flower juice acts as a level 1 poison.</p>"
+        "notes": "<p>Worlclivur is an exceedingly rare lichen found on <strong>cold coasts and shores exposed to salt water</strong>, chiefly known in northwestern Endor. Searching for it requires visiting a particular habitat and recognizing a species that few herbalists will ever have encountered.</p>\n<p>Its paste chiefly affects <strong>sight</strong>. Depending on the severity of the failed Resistance Roll, it may cause <strong>blindness in one eye</strong>, <strong>uncontrollable eyelid spasms</strong>, or <strong>blindness in both eyes</strong>. The corpus also mentions a related, less refined <strong>level 1 raw substance</strong>; the effects of that variant should not be confused with those of the main level 2 paste.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Musculaires"
     ],
     "en": [
+      "Poisons",
       "Muscle"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-musculaires"
   ]
 }

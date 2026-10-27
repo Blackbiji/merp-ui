@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "J",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "142gp",
-      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 7C. Sa pâte rougeâtre dérègle le cœur et agit généralement en 2 à 12 rounds.</p>",
+      "notes": "<p>Le Karfar se rencontre dans les forêts tropicales humides, où sa croissance est favorisée par une chaleur constante et une végétation abondante. Sa présence reste relativement accessible à un herboriste connaissant ces milieux ; encore faut-il distinguer ses feuilles parmi les autres espèces de la forêt.</p>\n<p>Les feuilles fournissent une pâte rougeâtre qui agit directement sur le système circulatoire. Après exposition, ses effets se manifestent <strong>en 2 à 12 rounds</strong>. Le cœur se met alors à fonctionner de manière anormale, avec des conséquences dont la gravité dépend du Jet de Résistance. Ce délai concerne l'ensemble des effets du Karfar et peut laisser à la victime un court intervalle avant l'apparition des premiers symptômes.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Karfar",
       "system": {
-        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales.</p><p>Dans un milieu favorable, elle reste de difficulté moyenne à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 7C. Sa pâte rougeâtre dérègle le cœur et agit généralement en 2 à 12 rounds.</p>"
+        "notes": "<p>Le Karfar se rencontre dans les forêts tropicales humides, où sa croissance est favorisée par une chaleur constante et une végétation abondante. Sa présence reste relativement accessible à un herboriste connaissant ces milieux ; encore faut-il distinguer ses feuilles parmi les autres espèces de la forêt.</p>\n<p>Les feuilles fournissent une pâte rougeâtre qui agit directement sur le système circulatoire. Après exposition, ses effets se manifestent <strong>en 2 à 12 rounds</strong>. Le cœur se met alors à fonctionner de manière anormale, avec des conséquences dont la gravité dépend du Jet de Résistance. Ce délai concerne l'ensemble des effets du Karfar et peut laisser à la victime un court intervalle avant l'apparition des premiers symptômes.</p>"
       }
     },
     "en": {
       "name": "Karfar",
       "system": {
-        "notes": "<p>This leaf is found chiefly in hot and humid climates, especially in jungles and rainforests.</p><p>Even in suitable terrain, it remains of medium difficulty to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 7C circulatory poison. Its reddish paste causes the heart to malfunction and generally takes effect in 2–12 rounds.</p>"
+        "notes": "<p>Karfar grows in <strong>humid tropical forests</strong>, where constant warmth and dense vegetation favor its growth. Finding it is not exceptionally difficult for someone familiar with these habitats, although the leaves must still be distinguished from those of the surrounding plants.</p>\n<p>The leaves yield a <strong>reddish paste</strong> that attacks the circulatory system. After exposure, its effects begin in <strong>2–12 rounds</strong>. The victim's heart starts functioning abnormally; the severity of the consequences depends on the Resistance Roll. The delay applies to Karfar's effects generally and may leave the victim a brief interval before symptoms appear.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Circulatoires"
     ],
     "en": [
+      "Poisons",
       "Circulatory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-circulatoires"
   ]
 }

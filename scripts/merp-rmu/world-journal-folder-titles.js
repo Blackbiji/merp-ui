@@ -54,8 +54,24 @@ export async function sourceRulesFolderTitles() {
   return knownRulesFolders;
 }
 
+// Published World journal-folder names remain valid aliases after a language
+// switch. Keep this table at module scope rather than allocating it for every
+// folder/pair comparison. Custom titles are intentionally never matched.
+const LEGACY_RULES_FOLDER_ALIASES = {
+  "rules-01-magic": ["1 - Magie dans MERP", "1 - Magic in MERP"],
+  "rules-02-economy": ["2 - Economie", "Économie", "Economie", "Economy"],
+  "rules-03-religions": ["3 - Religions", "Religions"],
+  "rules-04-herbs": [
+    "4 - Herbes et Substances, guide des simples",
+    "4 - Herbs & Substances, Traveller’s Guide",
+    "Herbes & Substances",
+    "Herbs & Substances"
+  ]
+};
+
 function matchingAliases(folder, pair) {
-  return folder.name === pair.fr || folder.name === pair.en;
+  if (folder.name === pair.fr || folder.name === pair.en) return true;
+  return (LEGACY_RULES_FOLDER_ALIASES[pair.key] ?? []).includes(folder.name);
 }
 
 function isSupportedLocation(folder, packRootIds) {

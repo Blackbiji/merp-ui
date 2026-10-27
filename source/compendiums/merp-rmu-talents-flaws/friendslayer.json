@@ -29,7 +29,7 @@
       "maxTier": 1,
       "discount": "x1",
       "dpSpent": 0,
-      "description": "<h1>Fratricide magique (Friendslayer)</h1><h2>Description</h2><p>Vos échecs avec les sorts offensifs mettent parfois vos propres alliés en danger. Lorsque vous échouez à lancer un sort d’attaque et qu’un allié constitue une cible valide dans la portée du sort, le MJ choisit aléatoirement l’un de ces alliés : le sort se retourne contre lui au lieu d’être résolu comme un échec ordinaire.</p><p>La nouvelle cible bénéficie de toutes les défenses et de tous les Jets de Résistance auxquels elle aurait normalement droit. S’il n’existe aucun allié valide à portée, l’échec est résolu normalement.</p><h2>Adaptation MERP-RMU</h2><p>Le déclenchement se fait sur un échec de lancement offensif selon la procédure RMU. Ce Défaut ne transforme pas un sort non offensif en attaque contre un allié.</p>",
+      "description": "<h1>Fratricide magique (Friendslayer)</h1><h2>Description</h2><p>Vos erreurs de magie offensive peuvent se retourner contre vos compagnons. Quand un sort d'attaque échoue, un allié à portée risque d'en devenir la cible à votre place.</p><p>La nouvelle cible bénéficie de toutes les défenses et de tous les Jets de Résistance auxquels elle aurait normalement droit. S’il n’existe aucun allié valide à portée, l’échec est résolu normalement.</p><h2>Adaptation MERP-RMU</h2><p>Le Défaut se déclenche lors de l'échec d'un lancement offensif, selon les procédures RMU. Il ne transforme pas les sorts non offensifs en attaques contre les alliés.</p>",
       "skill": null,
       "attack": null,
       "filename": "merp_friendslayer.yaml",
@@ -40,13 +40,13 @@
     "fr": {
       "name": "Fratricide magique (Friendslayer)",
       "system": {
-        "description": "<h1>Fratricide magique (Friendslayer)</h1><h2>Description</h2><p>Vos échecs avec les sorts offensifs mettent parfois vos propres alliés en danger. Lorsque vous échouez à lancer un sort d’attaque et qu’un allié constitue une cible valide dans la portée du sort, le MJ choisit aléatoirement l’un de ces alliés : le sort se retourne contre lui au lieu d’être résolu comme un échec ordinaire.</p><p>La nouvelle cible bénéficie de toutes les défenses et de tous les Jets de Résistance auxquels elle aurait normalement droit. S’il n’existe aucun allié valide à portée, l’échec est résolu normalement.</p><h2>Adaptation MERP-RMU</h2><p>Le déclenchement se fait sur un échec de lancement offensif selon la procédure RMU. Ce Défaut ne transforme pas un sort non offensif en attaque contre un allié.</p>"
+        "description": "<h1>Fratricide magique (Friendslayer)</h1><h2>Description</h2><p>Vos erreurs de magie offensive peuvent se retourner contre vos compagnons. Quand un sort d'attaque échoue, un allié à portée risque d'en devenir la cible à votre place.</p><p>La nouvelle cible bénéficie de toutes les défenses et de tous les Jets de Résistance auxquels elle aurait normalement droit. S’il n’existe aucun allié valide à portée, l’échec est résolu normalement.</p><h2>Adaptation MERP-RMU</h2><p>Le Défaut se déclenche lors de l'échec d'un lancement offensif, selon les procédures RMU. Il ne transforme pas les sorts non offensifs en attaques contre les alliés.</p>"
       }
     },
     "en": {
       "name": "Friendslayer",
       "system": {
-        "description": "<h1>Friendslayer</h1><h2>Description</h2><p>Your failures with offensive spells sometimes endanger your own allies. When you fail to cast an attack spell and an ally is a valid target within the spell’s range, the GM randomly chooses one such ally: the spell turns against them instead of being resolved as an ordinary failure.</p><p>The new target receives all defenses and Resistance Rolls to which they would normally be entitled. If there is no valid ally within range, the failure is resolved normally.</p><h2>MERP-RMU Adaptation</h2><p>The trigger is an offensive casting failure under RMU procedure. This Flaw does not turn a non-offensive spell into an attack against an ally.</p>"
+        "description": "<h1>Friendslayer</h1><h2>Description</h2><p>Your offensive spellcasting mistakes may put your companions in danger. When an attack spell fails, an ally within range may become its unintended target.</p><p>The new target receives all defenses and Resistance Rolls to which they would normally be entitled. If there is no valid ally within range, the failure is resolved normally.</p><h2>MERP-RMU Adaptation</h2><p>The Flaw triggers when an offensive spell fails under RMU's casting procedure. It never turns a non-offensive spell into an attack on an ally.</p>"
       }
     }
   },

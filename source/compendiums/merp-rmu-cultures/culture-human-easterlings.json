@@ -130,39 +130,39 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 4,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Animal",
                     "skillName": "Riding",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Body Development",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Weight Training",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Combat Training",
@@ -173,29 +173,29 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 4,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 5,
-                    "maxTwoRanksPerSpecialization": true
-                  },
-                  {
-                    "skillCategory": "Composition & Performance Art",
                     "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 5,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Environmental",
@@ -205,58 +205,58 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Steppe",
-                    "ranks": 5
+                    "specialization": "Own Region",
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 10,
+                    "ranks": 5,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
-                    "ranks": 4
-                  },
-                  {
-                    "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
                     "ranks": 2
                   },
                   {
                     "skillCategory": "Lore",
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
                     "skillGroup": "Religion/Philosophy",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
@@ -266,7 +266,7 @@
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
@@ -276,13 +276,13 @@
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
@@ -383,7 +383,18 @@
                     ]
                   },
                   "descriptionFormat": "html",
-                  "raceCanonicalKey": "race-humans"
+                  "raceCanonicalKey": "race-humans",
+                  "historicalContext": {
+                    "status": "optional-contextual-profile",
+                    "age": 3,
+                    "labelFr": "Orientaux des traditions cavalières",
+                    "historicalWindowFr": "IIIe Âge, profil d’une tradition équestre parmi des peuples orientaux très divers",
+                    "noteFr": "Profil optionnel MERP-UI ; le Meneur conserve le choix de la répartition à 80 PD en fonction de la date exacte et de sa Terre du Milieu.",
+                    "provenance": "Tolkien historical frame where attested; MERP extrapolation and original MERP-UI skill redistribution",
+                    "labelEn": "Easterlings of the Horse-Riding Traditions",
+                    "historicalWindowEn": "Third Age: profile of one equestrian tradition among many diverse Eastern peoples",
+                    "noteEn": "Optional MERP-UI profile. The Gamemaster remains free to choose an 80 DP allocation appropriate to the exact date and their own Middle-earth."
+                  }
                 }
               },
               "system": {
@@ -395,39 +406,39 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Animal",
                     "skillName": "Riding",
-                    "ranks": 6,
+                    "ranks": 4,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Body Development",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Weight Training",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Combat Training",
@@ -438,29 +449,29 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 4,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 5,
-                    "maxTwoRanksPerSpecialization": true
-                  },
-                  {
-                    "skillCategory": "Composition & Performance Art",
                     "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 5,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Environmental",
@@ -470,58 +481,58 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Steppe",
-                    "ranks": 5
+                    "specialization": "Own Region",
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 10,
+                    "ranks": 5,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
-                    "ranks": 4
-                  },
-                  {
-                    "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
                     "ranks": 2
                   },
                   {
                     "skillCategory": "Lore",
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
                     "skillGroup": "Religion/Philosophy",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
@@ -531,7 +542,7 @@
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
@@ -541,13 +552,13 @@
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
@@ -660,39 +671,39 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 4,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Animal",
                     "skillName": "Riding",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Body Development",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Weight Training",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Combat Training",
@@ -703,29 +714,29 @@
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 4,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 5,
-                    "maxTwoRanksPerSpecialization": true
-                  },
-                  {
-                    "skillCategory": "Composition & Performance Art",
                     "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
+                    "skillCategory": "Composition & Performance Art",
+                    "ranks": 1,
+                    "maxTwoRanksPerSpecialization": true
+                  },
+                  {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 5,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Environmental",
@@ -735,58 +746,58 @@
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
-                    "specialization": "Steppe",
-                    "ranks": 5
+                    "specialization": "Own Region",
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 10,
+                    "ranks": 5,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
-                    "ranks": 4
-                  },
-                  {
-                    "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
                     "ranks": 2
                   },
                   {
                     "skillCategory": "Lore",
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
+                  },
+                  {
+                    "skillCategory": "Lore",
                     "skillGroup": "Religion/Philosophy",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": 6,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
@@ -796,7 +807,7 @@
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Movement",
@@ -806,13 +817,13 @@
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Social",
@@ -856,44 +867,44 @@
       "book": "MERP-RMU",
       "table": "Conversion RMSS/RMFRP → RMU",
       "culture": "Orientaux",
-      "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+      "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
       "cultureRanks": [
         {
           "skillCategory": "Animal",
           "skillName": "Animal Handling",
-          "ranks": 4,
+          "ranks": 2,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Animal",
           "skillName": "Riding",
-          "ranks": 6,
+          "ranks": 3,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Awareness",
           "skillName": "Perception",
-          "ranks": 4
+          "ranks": 2
         },
         {
           "skillCategory": "Awareness",
           "skillName": "Tracking",
-          "ranks": 3
+          "ranks": 1
         },
         {
           "skillCategory": "Battle Expertise",
           "skillName": "Maneuvering in Armor",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Brawn",
           "skillName": "Body Development",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Brawn",
           "skillName": "Weight Training",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Combat Training",
@@ -904,29 +915,29 @@
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Melee Weapons",
-          "ranks": 4,
+          "ranks": 2,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Ranged Weapons",
-          "ranks": 5,
-          "maxTwoRanksPerSpecialization": true
-        },
-        {
-          "skillCategory": "Composition & Performance Art",
           "ranks": 2,
           "maxTwoRanksPerSpecialization": true
         },
         {
+          "skillCategory": "Composition & Performance Art",
+          "ranks": 1,
+          "maxTwoRanksPerSpecialization": true
+        },
+        {
           "skillCategory": "Crafting & Vocation",
-          "ranks": 5,
+          "ranks": 2,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Environmental",
           "skillName": "Navigation",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Environmental",
@@ -936,58 +947,58 @@
         {
           "skillCategory": "Environmental",
           "skillName": "Survival",
-          "specialization": "Steppe",
-          "ranks": 5
+          "specialization": "Own Region",
+          "ranks": 2
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Acrobatics",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Jumping",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Lore",
           "skillGroup": "Languages",
-          "ranks": 10,
+          "ranks": 5,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Lore",
           "skillName": "Region Lore",
           "specialization": "Own",
-          "ranks": 4
-        },
-        {
-          "skillCategory": "Lore",
-          "skillName": "Region Lore",
-          "specialization": "Neighboring",
           "ranks": 2
         },
         {
           "skillCategory": "Lore",
+          "skillName": "Racial Lore",
+          "specialization": "Own Culture",
+          "ranks": 3
+        },
+        {
+          "skillCategory": "Lore",
           "skillGroup": "Religion/Philosophy",
-          "ranks": 1,
+          "ranks": 0,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Lore",
           "skillGroup": "Other Lores",
-          "ranks": 6,
+          "ranks": 3,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Medical",
           "skillName": "Herbalism",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Medical",
           "skillName": "Medicine",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Movement",
@@ -997,7 +1008,7 @@
         {
           "skillCategory": "Movement",
           "skillName": "Running",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Movement",
@@ -1007,13 +1018,13 @@
         {
           "skillCategory": "Social",
           "skillName": "Influence",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Social",
           "skillName": "Social Awareness",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Social",
@@ -1037,14 +1048,14 @@
     "fr": {
       "name": "Orientaux",
       "system": {
-        "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+        "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
         "culture": "Orientaux"
       }
     },
     "en": {
       "name": "Easterlings",
       "system": {
-        "description": "<h1>Easterlings</h1>\n<p>The Easterlings encompass many peoples established in the vast lands east of Middle-earth, beyond Rhovanion and around the Sea of Rhûn. This general name actually covers a multitude of tribes, clans, and confederations whose customs can differ greatly. The Sagath, Logath, Asdriags, and other peoples of the steppes belong to this broad grouping without forming a single nation.</p>\n<h2>Appearance</h2>\n<p>Easterlings show great physical diversity. Their complexions range from tanned to brown, their hair is most often black or dark brown, and their eyes are frequently brown, grey, or black. Stature varies by people: some are short and stocky, others tall, lean, and wiry.</p>\n<p>Life on the steppes encourages endurance, resistance to changes in temperature, and musculature adapted to long days spent in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Many Easterlings live across vast plains traveled by herds of horses, cattle, sheep, or goats. Their way of life is often nomadic or semi-nomadic. Communities move their camps according to the seasons, pasture, water sources, and threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
+        "description": "<h1>Easterlings</h1>\n<p>Easterlings is a name applied to many peoples living east of Rhovanion, around the Sea of Rhûn, and across the lands beyond. The Sagath, Logath, Asdriags, and other steppe tribes belong to this broad grouping without forming a single nation. Their alliances, customs, and ways of life vary widely from region to region.</p>\n<h2>Appearance</h2>\n<p>That diversity is visible in their appearance. Skin tones range from tanned to brown, hair is usually black or dark brown, and eyes may be brown, grey, or black. Some groups are short and stocky, while others are made up of tall, lean riders.</p>\n<p>Life on the steppes develops stamina, an ability to withstand sudden changes of temperature, and muscles accustomed to long days in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Across the broad eastern plains, many peoples keep horses, cattle, sheep, and goats. Nomadic or semi-nomadic communities move their camps with the seasons, following pasture and water while avoiding threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
         "culture": "Easterlings"
       }
     }
@@ -1121,44 +1132,44 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Orientaux",
-          "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 4,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Animal",
               "skillName": "Riding",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Body Development",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Weight Training",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Combat Training",
@@ -1169,29 +1180,29 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 4,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 5,
-              "maxTwoRanksPerSpecialization": true
-            },
-            {
-              "skillCategory": "Composition & Performance Art",
               "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 5,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Environmental",
@@ -1201,58 +1212,58 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Steppe",
-              "ranks": 5
+              "specialization": "Own Region",
+              "ranks": 2
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 10,
+              "ranks": 5,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
-              "ranks": 4
-            },
-            {
-              "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
               "ranks": 2
             },
             {
               "skillCategory": "Lore",
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
               "skillGroup": "Religion/Philosophy",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
@@ -1262,7 +1273,7 @@
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
@@ -1272,13 +1283,13 @@
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
@@ -1302,14 +1313,14 @@
         "fr": {
           "name": "Orientaux",
           "system": {
-            "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
             "culture": "Orientaux"
           }
         },
         "en": {
           "name": "Easterlings",
           "system": {
-            "description": "<h1>Easterlings</h1>\n<p>The Easterlings encompass many peoples established in the vast lands east of Middle-earth, beyond Rhovanion and around the Sea of Rhûn. This general name actually covers a multitude of tribes, clans, and confederations whose customs can differ greatly. The Sagath, Logath, Asdriags, and other peoples of the steppes belong to this broad grouping without forming a single nation.</p>\n<h2>Appearance</h2>\n<p>Easterlings show great physical diversity. Their complexions range from tanned to brown, their hair is most often black or dark brown, and their eyes are frequently brown, grey, or black. Stature varies by people: some are short and stocky, others tall, lean, and wiry.</p>\n<p>Life on the steppes encourages endurance, resistance to changes in temperature, and musculature adapted to long days spent in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Many Easterlings live across vast plains traveled by herds of horses, cattle, sheep, or goats. Their way of life is often nomadic or semi-nomadic. Communities move their camps according to the seasons, pasture, water sources, and threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "description": "<h1>Easterlings</h1>\n<p>Easterlings is a name applied to many peoples living east of Rhovanion, around the Sea of Rhûn, and across the lands beyond. The Sagath, Logath, Asdriags, and other steppe tribes belong to this broad grouping without forming a single nation. Their alliances, customs, and ways of life vary widely from region to region.</p>\n<h2>Appearance</h2>\n<p>That diversity is visible in their appearance. Skin tones range from tanned to brown, hair is usually black or dark brown, and eyes may be brown, grey, or black. Some groups are short and stocky, while others are made up of tall, lean riders.</p>\n<p>Life on the steppes develops stamina, an ability to withstand sudden changes of temperature, and muscles accustomed to long days in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Across the broad eastern plains, many peoples keep horses, cattle, sheep, and goats. Nomadic or semi-nomadic communities move their camps with the seasons, following pasture and water while avoiding threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
             "culture": "Easterlings"
           }
         }
@@ -1379,51 +1390,62 @@
               ]
             },
             "descriptionFormat": "html",
-            "raceCanonicalKey": "race-humans"
+            "raceCanonicalKey": "race-humans",
+            "historicalContext": {
+              "status": "optional-contextual-profile",
+              "age": 3,
+              "labelFr": "Orientaux des traditions cavalières",
+              "historicalWindowFr": "IIIe Âge, profil d’une tradition équestre parmi des peuples orientaux très divers",
+              "noteFr": "Profil optionnel MERP-UI ; le Meneur conserve le choix de la répartition à 80 PD en fonction de la date exacte et de sa Terre du Milieu.",
+              "provenance": "Tolkien historical frame where attested; MERP extrapolation and original MERP-UI skill redistribution",
+              "labelEn": "Easterlings of the Horse-Riding Traditions",
+              "historicalWindowEn": "Third Age: profile of one equestrian tradition among many diverse Eastern peoples",
+              "noteEn": "Optional MERP-UI profile. The Gamemaster remains free to choose an 80 DP allocation appropriate to the exact date and their own Middle-earth."
+            }
           }
         },
         "system": {
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Orientaux",
-          "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Animal",
               "skillName": "Riding",
-              "ranks": 6,
+              "ranks": 4,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Body Development",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Weight Training",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Combat Training",
@@ -1434,29 +1456,29 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 4,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 5,
-              "maxTwoRanksPerSpecialization": true
-            },
-            {
-              "skillCategory": "Composition & Performance Art",
               "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 5,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Environmental",
@@ -1466,58 +1488,58 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Steppe",
-              "ranks": 5
+              "specialization": "Own Region",
+              "ranks": 2
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 10,
+              "ranks": 5,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
-              "ranks": 4
-            },
-            {
-              "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
               "ranks": 2
             },
             {
               "skillCategory": "Lore",
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
               "skillGroup": "Religion/Philosophy",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
@@ -1527,7 +1549,7 @@
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
@@ -1537,13 +1559,13 @@
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
@@ -1567,14 +1589,14 @@
         "fr": {
           "name": "Orientaux",
           "system": {
-            "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
             "culture": "Orientaux"
           }
         },
         "en": {
           "name": "Easterlings",
           "system": {
-            "description": "<h1>Easterlings</h1>\n<p>The Easterlings encompass many peoples established in the vast lands east of Middle-earth, beyond Rhovanion and around the Sea of Rhûn. This general name actually covers a multitude of tribes, clans, and confederations whose customs can differ greatly. The Sagath, Logath, Asdriags, and other peoples of the steppes belong to this broad grouping without forming a single nation.</p>\n<h2>Appearance</h2>\n<p>Easterlings show great physical diversity. Their complexions range from tanned to brown, their hair is most often black or dark brown, and their eyes are frequently brown, grey, or black. Stature varies by people: some are short and stocky, others tall, lean, and wiry.</p>\n<p>Life on the steppes encourages endurance, resistance to changes in temperature, and musculature adapted to long days spent in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Many Easterlings live across vast plains traveled by herds of horses, cattle, sheep, or goats. Their way of life is often nomadic or semi-nomadic. Communities move their camps according to the seasons, pasture, water sources, and threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "description": "<h1>Easterlings</h1>\n<p>Easterlings is a name applied to many peoples living east of Rhovanion, around the Sea of Rhûn, and across the lands beyond. The Sagath, Logath, Asdriags, and other steppe tribes belong to this broad grouping without forming a single nation. Their alliances, customs, and ways of life vary widely from region to region.</p>\n<h2>Appearance</h2>\n<p>That diversity is visible in their appearance. Skin tones range from tanned to brown, hair is usually black or dark brown, and eyes may be brown, grey, or black. Some groups are short and stocky, while others are made up of tall, lean riders.</p>\n<p>Life on the steppes develops stamina, an ability to withstand sudden changes of temperature, and muscles accustomed to long days in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Across the broad eastern plains, many peoples keep horses, cattle, sheep, and goats. Nomadic or semi-nomadic communities move their camps with the seasons, following pasture and water while avoiding threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
             "culture": "Easterlings"
           }
         }
@@ -1651,44 +1673,44 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Orientaux",
-          "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+          "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 4,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Animal",
               "skillName": "Riding",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Body Development",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Brawn",
               "skillName": "Weight Training",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Combat Training",
@@ -1699,29 +1721,29 @@
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 4,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 5,
-              "maxTwoRanksPerSpecialization": true
-            },
-            {
-              "skillCategory": "Composition & Performance Art",
               "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
+              "skillCategory": "Composition & Performance Art",
+              "ranks": 1,
+              "maxTwoRanksPerSpecialization": true
+            },
+            {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 5,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Environmental",
@@ -1731,58 +1753,58 @@
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
-              "specialization": "Steppe",
-              "ranks": 5
+              "specialization": "Own Region",
+              "ranks": 2
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 10,
+              "ranks": 5,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
-              "ranks": 4
-            },
-            {
-              "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
               "ranks": 2
             },
             {
               "skillCategory": "Lore",
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
+            },
+            {
+              "skillCategory": "Lore",
               "skillGroup": "Religion/Philosophy",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": 6,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
@@ -1792,7 +1814,7 @@
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Movement",
@@ -1802,13 +1824,13 @@
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Social",
@@ -1832,14 +1854,14 @@
         "fr": {
           "name": "Orientaux",
           "system": {
-            "description": "<h1>Orientaux</h1>\n<p>Les Orientaux regroupent de nombreux peuples établis dans les vastes contrées situées à l’est de la Terre du Milieu, au-delà du Rhovanion et autour de la mer de Rhûn. Ce nom général recouvre en réalité une multitude de tribus, de clans et de confédérations aux coutumes parfois très différentes. Les Sagath, les Logath, les Asdriags et d’autres peuples des steppes appartiennent à cet ensemble sans pour autant former une nation unique.</p>\n<h2>Apparence</h2>\n<p>Les Orientaux présentent une grande diversité physique. Leur teint va du hâlé au brun, leurs cheveux sont le plus souvent noirs ou brun sombre et leurs yeux fréquemment bruns, gris ou noirs. Leur stature varie selon les peuples : certains sont petits et trapus, d’autres grands, minces et nerveux.</p>\n<p>La vie dans les steppes favorise l’endurance, la résistance aux variations de température et une musculature adaptée aux longues journées passées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>De nombreux Orientaux vivent dans de vastes plaines parcourues par des troupeaux de chevaux, de bovins, de moutons ou de chèvres. Leur mode de vie est souvent nomade ou semi-nomade. Les communautés déplacent leurs campements en fonction des saisons, des pâturages, des points d’eau et des menaces.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
+            "description": "<h1>Orientaux</h1>\n<p>Le nom d’Orientaux désigne une multitude de peuples établis à l’est du Rhovanion, autour de la mer de Rhûn et dans les vastes terres qui s’étendent au-delà. Les Sagath, les Logath, les Asdriags et d’autres tribus des steppes appartiennent à cet ensemble sans former une nation unique. Leurs alliances, leurs coutumes et leurs modes de vie varient considérablement selon les régions.</p>\n<h2>Apparence</h2>\n<p>Cette diversité se retrouve dans leur apparence. Leur peau va du teint hâlé au brun, leurs cheveux sont généralement noirs ou brun sombre et leurs yeux bruns, gris ou noirs. Selon les peuples, on rencontre des silhouettes courtes et trapues aussi bien que de grands cavaliers minces et nerveux.</p>\n<p>La vie des steppes forge l'endurance, l'aisance face aux brusques changements de température et une musculature habituée aux longues journées en selle.</p>\n<h2>Un monde de steppes et de campements</h2>\n<p>Dans les vastes plaines de l'Est, de nombreux peuples élèvent chevaux, bovins, moutons et chèvres. Les communautés nomades ou semi-nomades déplacent leurs camps au gré des saisons, des pâturages, des points d'eau et des dangers.</p>\n<p>Les habitations prennent généralement la forme de tentes solides en peau, en feutre ou en étoffe épaisse. Elles peuvent être démontées rapidement et transportées sur des chariots ou des animaux de bât.</p>\n<h2>Le cheval</h2>\n<p>Le cheval représente un moyen de transport, une richesse, une arme, un signe de statut et un compagnon de guerre. Les enfants apprennent souvent à monter très jeunes. Les montures orientales sont robustes, endurantes et capables de survivre avec peu de nourriture.</p>\n<h2>Organisation sociale</h2>\n<p>La société orientale repose généralement sur le clan. Plusieurs familles apparentées peuvent former une tribu placée sous l’autorité d’un chef de guerre, d’un khan ou d’un seigneur héréditaire. Le pouvoir dépend de la naissance, de la richesse en troupeaux, du nombre de guerriers fidèles, du courage personnel et de la capacité à distribuer le butin.</p>\n<h2>Honneur et réputation</h2>\n<p>Les Orientaux accordent une grande importance à la réputation personnelle.</p>\n<ul>\n<li>Fidélité au clan</li>\n<li>Protection des proches</li>\n<li>Vengeance des offenses</li>\n<li>Partage du butin</li>\n<li>Respect de l’hospitalité</li>\n<li>Parole donnée devant témoins</li>\n</ul>\n<h2>Guerre montée</h2>\n<p>Les Orientaux sont surtout connus pour leur cavalerie légère. Ils excellent dans le tir à l’arc depuis une monture, le lancer de javelots, les attaques rapides, les feintes de retraite, l’encerclement, les embuscades et la poursuite des ennemis en fuite.</p>\n<p>Leurs cavaliers utilisent fréquemment l’arc composite, la lance, le javelot, le sabre, le cimeterre et la hache légère.</p>\n<h2>Armures et équipement</h2>\n<p>Les armures lourdes sont moins courantes que dans les royaumes de l’Ouest. Les guerriers utilisent surtout cuir souple ou renforcé, armures lamellaires, écailles, casques de métal ou de cuir et protections de bras et de jambes.</p>\n<h2>Artisanat et commerce</h2>\n<p>Leur artisanat est adapté à la vie mobile : cuir, laine, feutre, os, bronze, fer et bois. Les routes de l’Est sont parcourues par des caravanes transportant chevaux, fourrures, métaux, épices, pierres précieuses, armes, étoffes et produits du Sud.</p>\n<h2>Religion</h2>\n<p>Les croyances orientales sont variées. De nombreux clans honorent les ancêtres, les esprits du ciel, de la terre, des chevaux et des tempêtes. Les chamans, devins et gardiens de traditions interprètent les rêves, le vol des oiseaux, les phénomènes célestes et le comportement des chevaux.</p>\n<p>Les cultes imposés par Sauron ou ses serviteurs se superposent souvent aux croyances traditionnelles sans les faire disparaître complètement.</p>\n<h2>Langues</h2>\n<p>Le logathig est répandu autour de la mer de Rhûn, tandis que le varadja est associé à plusieurs peuples plus méridionaux. Les voyageurs et marchands peuvent également connaître le westron, le haradaïque, le gramuik, le nahaiduk et d’autres langues voisines.</p>\n<h2>Relations avec l’Ouest</h2>\n<p>Certaines tribus ont servi Sauron, l’Angmar ou d’autres puissances ennemies. D’autres ont combattu contre ces maîtres, refusé leur autorité ou cherché simplement à survivre entre des empires rivaux. Leur hostilité envers l’Ouest est souvent politique ou historique plutôt que raciale.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, Rôdeurs, Roublards, cavaliers, éclaireurs, chasseurs, mercenaires, gardes de caravanes, chefs de guerre, marchands itinérants et chamans.</p>\n<h2>Place dans la création de personnage</h2>\n<p>La Culture Orientaux constitue un cadre général pour les peuples humains de l’Est. Elle convient à un personnage issu d’une tribu nomade, d’un clan de cavaliers, d’une caravane, d’une communauté des rives de Rhûn, d’une bande de mercenaires ou d’une famille de gardiens de troupeaux.</p>\n<p>Les Orientaux ne forment pas une masse indistincte vouée à l’Ombre, mais un ensemble complexe de peuples cavaliers, marchands et guerriers.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Logathig</strong> — Parlée 8 / Écrite 6</li><li><strong>Westron</strong> — Parlée 4 / Écrite 4</li></ul></section>",
             "culture": "Orientaux"
           }
         },
         "en": {
           "name": "Easterlings",
           "system": {
-            "description": "<h1>Easterlings</h1>\n<p>The Easterlings encompass many peoples established in the vast lands east of Middle-earth, beyond Rhovanion and around the Sea of Rhûn. This general name actually covers a multitude of tribes, clans, and confederations whose customs can differ greatly. The Sagath, Logath, Asdriags, and other peoples of the steppes belong to this broad grouping without forming a single nation.</p>\n<h2>Appearance</h2>\n<p>Easterlings show great physical diversity. Their complexions range from tanned to brown, their hair is most often black or dark brown, and their eyes are frequently brown, grey, or black. Stature varies by people: some are short and stocky, others tall, lean, and wiry.</p>\n<p>Life on the steppes encourages endurance, resistance to changes in temperature, and musculature adapted to long days spent in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Many Easterlings live across vast plains traveled by herds of horses, cattle, sheep, or goats. Their way of life is often nomadic or semi-nomadic. Communities move their camps according to the seasons, pasture, water sources, and threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
+            "description": "<h1>Easterlings</h1>\n<p>Easterlings is a name applied to many peoples living east of Rhovanion, around the Sea of Rhûn, and across the lands beyond. The Sagath, Logath, Asdriags, and other steppe tribes belong to this broad grouping without forming a single nation. Their alliances, customs, and ways of life vary widely from region to region.</p>\n<h2>Appearance</h2>\n<p>That diversity is visible in their appearance. Skin tones range from tanned to brown, hair is usually black or dark brown, and eyes may be brown, grey, or black. Some groups are short and stocky, while others are made up of tall, lean riders.</p>\n<p>Life on the steppes develops stamina, an ability to withstand sudden changes of temperature, and muscles accustomed to long days in the saddle.</p>\n<h2>A world of steppes and camps</h2>\n<p>Across the broad eastern plains, many peoples keep horses, cattle, sheep, and goats. Nomadic or semi-nomadic communities move their camps with the seasons, following pasture and water while avoiding threats.</p>\n<p>Dwellings generally take the form of sturdy tents made from hide, felt, or heavy cloth. They can be dismantled quickly and carried on wagons or pack animals.</p>\n<h2>The horse</h2>\n<p>The horse is a means of transport, a form of wealth, a weapon, a mark of status, and a companion in war. Children often learn to ride at a very young age. Eastern horses are hardy, enduring, and capable of surviving on little food.</p>\n<h2>Social organization</h2>\n<p>Easterling society generally rests on the clan. Several related families may form a tribe under the authority of a war chief, khan, or hereditary lord. Power depends on birth, wealth in herds, the number of loyal warriors, personal courage, and the ability to distribute plunder.</p>\n<h2>Honor and reputation</h2>\n<p>Easterlings attach great importance to personal reputation.</p>\n<ul>\n<li>Loyalty to the clan</li>\n<li>Protection of kin</li>\n<li>Vengeance for offenses</li>\n<li>Sharing of plunder</li>\n<li>Respect for hospitality</li>\n<li>A given word before witnesses</li>\n</ul>\n<h2>Mounted warfare</h2>\n<p>Easterlings are best known for their light cavalry. They excel at shooting bows from horseback, throwing javelins, rapid attacks, feigned retreats, encirclement, ambush, and pursuit of fleeing enemies.</p>\n<p>Their horsemen frequently use composite bows, spears, javelins, sabres, scimitars, and light axes.</p>\n<h2>Armor and equipment</h2>\n<p>Heavy armor is less common than in the western realms. Warriors mainly use soft or reinforced leather, lamellar armor, scales, metal or leather helmets, and protection for arms and legs.</p>\n<h2>Craft and trade</h2>\n<p>Their crafts are adapted to mobile life: leather, wool, felt, bone, bronze, iron, and wood. Eastern routes are traveled by caravans carrying horses, furs, metals, spices, precious stones, weapons, cloth, and southern goods.</p>\n<h2>Religion</h2>\n<p>Easterling beliefs are varied. Many clans honor ancestors and spirits of sky, earth, horses, and storms. Shamans, seers, and keepers of tradition interpret dreams, the flight of birds, celestial phenomena, and the behavior of horses.</p>\n<p>Cults imposed by Sauron or his servants are often laid over traditional beliefs without completely erasing them.</p>\n<h2>Languages</h2>\n<p>Logathig is widespread around the Sea of Rhûn, while Varadja is associated with several more southern peoples. Travelers and merchants may also know Westron, Haradaic, Gramuik, Nahaiduk, and other neighboring languages.</p>\n<h2>Relations with the West</h2>\n<p>Some tribes have served Sauron, Angmar, or other hostile powers. Others fought against such masters, rejected their authority, or merely sought to survive between rival empires. Their hostility toward the West is often political or historical rather than racial.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, Rangers, Rogues, horsemen, scouts, hunters, mercenaries, caravan guards, war chiefs, traveling merchants, and shamans.</p>\n<h2>Place in character creation</h2>\n<p>The Easterling Culture provides a general framework for the human peoples of the East. It suits a character from a nomadic tribe, cavalry clan, caravan, community on the shores of Rhûn, mercenary band, or family of herd-keepers.</p>\n<p>The Easterlings are not an indistinct mass devoted to the Shadow, but a complex collection of mounted, mercantile, and warrior peoples.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Logathig</strong> — Spoken 8 / Written 6</li><li><strong>Westron</strong> — Spoken 4 / Written 4</li></ul></section>",
             "culture": "Easterlings"
           }
         }

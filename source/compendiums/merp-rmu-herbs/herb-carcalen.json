@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "U",
@@ -44,7 +44,7 @@
       "prep": "liquid",
       "season": "",
       "cost": "100gp",
-      "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 4 apparenté au Gorfang. Il peut priver la victime de la sensation et de l’usage des extrémités, détruire les nerfs ou, dans les cas extrêmes, les dissoudre et provoquer la mort.</p>",
+      "notes": "<p>Le Carcalen est une mousse exceptionnellement rare des <strong>cavités souterraines fraîches</strong>, surtout connue dans le nord-ouest d'Endor. Sa recherche exige d'explorer les zones favorables à une végétation souterraine discrète et de distinguer cette mousse d'autres espèces voisines.</p>\n<p>Le liquide qui en est tiré est apparenté au <strong>Gorfang</strong>, mais son niveau de toxicité est plus élevé. Il peut supprimer <strong>la sensibilité et l'usage des extrémités</strong> atteintes, puis détruire progressivement les nerfs. À un degré d'échec particulièrement grave, la détérioration du tissu nerveux peut devenir irréversible et entraîner la <strong>mort</strong>. Les conséquences précises dépendent du Jet de Résistance et de la gravité de l'atteinte.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Carcalen",
       "system": {
-        "notes": "<p>Cette mousse se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 4 apparenté au Gorfang. Il peut priver la victime de la sensation et de l’usage des extrémités, détruire les nerfs ou, dans les cas extrêmes, les dissoudre et provoquer la mort.</p>"
+        "notes": "<p>Le Carcalen est une mousse exceptionnellement rare des <strong>cavités souterraines fraîches</strong>, surtout connue dans le nord-ouest d'Endor. Sa recherche exige d'explorer les zones favorables à une végétation souterraine discrète et de distinguer cette mousse d'autres espèces voisines.</p>\n<p>Le liquide qui en est tiré est apparenté au <strong>Gorfang</strong>, mais son niveau de toxicité est plus élevé. Il peut supprimer <strong>la sensibilité et l'usage des extrémités</strong> atteintes, puis détruire progressivement les nerfs. À un degré d'échec particulièrement grave, la détérioration du tissu nerveux peut devenir irréversible et entraîner la <strong>mort</strong>. Les conséquences précises dépendent du Jet de Résistance et de la gravité de l'atteinte.</p>"
       }
     },
     "en": {
       "name": "Carcalen",
       "system": {
-        "notes": "<p>This moss is found chiefly in cool temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 4 nerve poison related to Gorfang. It can rob the victim of sensation and use of the extremities, destroy nerves, or, in extreme cases, dissolve them and cause death.</p>"
+        "notes": "<p>Carcalen is an exceptionally rare moss found in <strong>cool underground cavities</strong>, primarily known in northwestern Endor. Searching for it means exploring places where inconspicuous subterranean vegetation can thrive and distinguishing it from similar mosses.</p>\n<p>Its liquid extract is related to <strong>Gorfang</strong>, but is more toxic. It can remove <strong>sensation and use of the affected extremities</strong>, then progressively destroy nerve tissue. With a particularly severe failure, this destruction may become irreversible and lead to <strong>death</strong>. The exact effects follow the Resistance Roll and severity of the injury.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Nerveux"
     ],
     "en": [
+      "Poisons",
       "Nerve"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-nerveux"
   ]
 }

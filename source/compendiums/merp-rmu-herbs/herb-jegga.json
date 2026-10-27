@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "U",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "92gp",
-      "notes": "<p>Ces chauves-souris se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 7B, pâte brune infligeant 1 à 100 points de vie en plus de ses effets respiratoires.</p>",
+      "notes": "<p>Le Jegga est obtenu à partir de <strong>chauves-souris vivant dans des cavités souterraines</strong>. L'espèce concernée se rencontre dans certaines régions tempérées ; son identification et sa collecte constituent la principale difficulté avant la préparation du poison.</p>\n<p>La substance utilisée est une <strong>pâte brune</strong> qui inflige immédiatement <strong>1 à 100 points de dégâts</strong> lorsque l'empoisonnement prend effet. Malgré l'importance possible de ces dégâts, ses <strong>effets respiratoires généraux sont limités au degré léger</strong> dans RMU. La fiche distingue donc clairement les dommages immédiats et les autres symptômes respiratoires.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Jegga",
       "system": {
-        "notes": "<p>Ces chauves-souris se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 7B, pâte brune infligeant 1 à 100 points de vie en plus de ses effets respiratoires.</p>"
+        "notes": "<p>Le Jegga est obtenu à partir de <strong>chauves-souris vivant dans des cavités souterraines</strong>. L'espèce concernée se rencontre dans certaines régions tempérées ; son identification et sa collecte constituent la principale difficulté avant la préparation du poison.</p>\n<p>La substance utilisée est une <strong>pâte brune</strong> qui inflige immédiatement <strong>1 à 100 points de dégâts</strong> lorsque l'empoisonnement prend effet. Malgré l'importance possible de ces dégâts, ses <strong>effets respiratoires généraux sont limités au degré léger</strong> dans RMU. La fiche distingue donc clairement les dommages immédiats et les autres symptômes respiratoires.</p>"
       }
     },
     "en": {
       "name": "Jegga",
       "system": {
-        "notes": "<p>This bats is found chiefly in mild temperate climates, especially in underground environments.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 7B respiratory poison, a brown paste that inflicts 1–100 concussion hits in addition to its respiratory effects.</p>"
+        "notes": "<p>Jegga comes from <strong>bats living in underground cavities</strong>. The relevant species occurs in certain temperate regions; identifying and obtaining the animal is the main challenge before the poison can be prepared.</p>\n<p>The usable substance is a <strong>brown paste</strong> that immediately causes <strong>1–100 concussion hits</strong> when poisoning takes effect. Despite the potentially considerable damage, its <strong>general respiratory effects are limited to Mild</strong> in RMU. The entry therefore distinguishes immediate injuries from the other respiratory symptoms.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Respiratoires"
     ],
     "en": [
+      "Poisons",
       "Respiratory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-respiratoires"
   ]
 }

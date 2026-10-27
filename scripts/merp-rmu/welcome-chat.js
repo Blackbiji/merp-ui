@@ -4,6 +4,107 @@ const MODULE_ID = "merp-ui";
 const SETTING_KEY = "welcomeChatPosted";
 const FLAG_KEY = "welcomeChat";
 
+// The welcome card is stored as a ChatMessage. Foundry may display that
+// message as a transient notification. When its own rules suppress floating
+// notifications, display the same content in a dedicated DialogV2 instead.
+// The chat history remains unchanged in either case.
+let welcomeDialog = null;
+let welcomeDialogLanguage = null;
+
+async function showWelcomeDialog(language = contentLanguage()) {
+  language = language === "fr" ? "fr" : "en";
+  const Dialog = globalThis.foundry?.applications?.api?.DialogV2;
+  if (!Dialog) return { shown: false, reason: "dialog-api-unavailable" };
+
+  if (welcomeDialog?.rendered) {
+    if (welcomeDialogLanguage === language) {
+      welcomeDialog.bringToFront();
+      return { shown: true, mode: "dialog", alreadyOpen: true, language };
+    }
+    // A language switch must refresh the entire dialog, including the
+    // Foundry title bar and the closing button.
+    await welcomeDialog.close();
+    welcomeDialog = null;
+  }
+
+  const fr = language === "fr";
+  const dialog = new Dialog({
+    // Scope the fallback styling to this dialog; do not restyle Foundry's
+    // regular chat messages or other applications.
+    classes: ["merp-ui-welcome-dialog"],
+    window: { title: fr ? "Bienvenue dans MERP-UI" : "Welcome to MERP-UI" },
+    content: welcomeContent(language),
+    // Comfortable compact width; the height follows localized content.
+    position: { width: 540, height: "auto" },
+    buttons: [{ action: "close", label: fr ? "Fermer" : "Close", default: true }],
+    modal: false
+  });
+  await dialog.render({ force: true });
+  welcomeDialog = dialog;
+  welcomeDialogLanguage = language;
+  // Reuse the very same action handlers as in the chat card. The two buttons
+  // remain operational inside the fallback dialog.
+  bindWelcomeActions({
+    getFlag: (namespace, key) => namespace === MODULE_ID && key === FLAG_KEY
+  }, dialog.element);
+  return { shown: true, mode: "dialog", language };
+}
+
+function requestWelcomeNotification(message) {
+  const chat = globalThis.ui?.chat;
+  if (!message || typeof chat?.notify !== "function") {
+    return { requested: false, reason: "chat-notifications-unavailable" };
+  }
+  // Avoid returning a misleading 'requested: true' when Foundry's own UI
+  // guard has already ruled out native notifications.
+  if (chat.active || chat.isPopout || chat._shouldShowNotifications?.() === false) {
+    return { requested: false, reason: "native-notification-not-allowed" };
+  }
+  try {
+    chat.notify(message, { newMessage: true });
+    return { requested: true, messageId: message.id, mode: "native" };
+  } catch (error) {
+    console.warn("merp-ui | Notification de bienvenue indisponible", error);
+    return { requested: false, reason: "notification-error" };
+  }
+}
+
+// This is a visual preview. It never creates a new ChatMessage or changes the
+// world's first-run setting. When native notifications are blocked, it opens a
+// real Foundry dialog instead of silently failing.
+export async function previewWelcomeNotification(options = {}) {
+  if (!game.user?.isGM || game.system?.id !== "rmu") {
+    return { requested: false, reason: "not-gm-or-rmu" };
+  }
+
+  // Preview in the active MERP-UI content language, not the language once
+  // stored on an old chat message. Passing { language: "fr" | "en" } opens
+  // the dialog directly so either translation can be reviewed on demand.
+  const explicitLanguage = typeof options === "string"
+    ? options
+    : options?.language ?? null;
+  if (explicitLanguage !== null && !["fr", "en"].includes(explicitLanguage)) {
+    return { requested: false, reason: "invalid-language" };
+  }
+  const language = explicitLanguage ?? contentLanguage();
+
+  const messages = game.messages?.contents ?? [];
+  const message = [...messages].reverse().find(candidate =>
+    candidate.getFlag?.(MODULE_ID, FLAG_KEY) === true
+  );
+  if (!message) return { requested: false, reason: "no-welcome-message" };
+
+  if (explicitLanguage !== null) {
+    const dialog = await showWelcomeDialog(language);
+    return { requested: false, ...dialog, preview: true, messageId: message.id };
+  }
+
+  const notification = requestWelcomeNotification(message);
+  if (notification.requested) return notification;
+  const fallback = await showWelcomeDialog(language);
+  return { ...notification, ...fallback, messageId: message.id };
+}
+
 export function registerWelcomeChatSetting() {
   if (game.settings.settings.has(`${MODULE_ID}.${SETTING_KEY}`)) return;
 
@@ -122,16 +223,16 @@ function welcomeContent(language = contentLanguage()) {
   const settingsLabel = fr ? "Réglages du Monde" : "Game Settings";
 
   return `
-    <div class="merp-ui-welcome-chat-card">
+    <div class="merp-ui-welcome-chat-card" lang="${fr ? "fr" : "en"}">
       <h3><i class="fa-solid fa-compass"></i> ${title}</h3>
       <p>${intro}</p>
       <ul>${bullets.map((entry) => `<li>${entry}</li>`).join("")}</ul>
       <div class="merp-ui-welcome-chat-actions">
         <button type="button" data-merp-ui-action="show-settings-guide">
-          <i class="fa-solid fa-book-open"></i> ${guideLabel}
+          <i class="fa-solid fa-book-open"></i><span class="merp-ui-welcome-button-label">${guideLabel}</span>
         </button>
         <button type="button" data-merp-ui-action="open-game-settings">
-          <i class="fa-solid fa-gears"></i> ${settingsLabel}
+          <i class="fa-solid fa-gears"></i><span class="merp-ui-welcome-button-label">${settingsLabel}</span>
         </button>
       </div>
     </div>
@@ -184,7 +285,14 @@ export async function maybePostWelcomeChat() {
   });
 
   await game.settings.set(MODULE_ID, SETTING_KEY, true);
-  return { posted: true, messageId: message?.id ?? null };
+  // At world startup the chat UI may be ready before the sidebar notification
+  // queue receives the createChatMessage event. Ask Foundry explicitly; its
+  // own UI rules decide whether to show the short-lived floating card.
+  const notification = requestWelcomeNotification(message);
+  if (!notification.requested) {
+    notification.fallback = await showWelcomeDialog(contentLanguage());
+  }
+  return { posted: true, messageId: message?.id ?? null, notification };
 }
 
 function bindWelcomeActions(message, html) {

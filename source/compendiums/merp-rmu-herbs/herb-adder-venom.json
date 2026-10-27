@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "F",
@@ -44,7 +44,7 @@
       "prep": "injection",
       "season": "",
       "cost": "75gp",
-      "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison nerveux de niveau 10 composé de venin de vipère et de Curulot. Il peut provoquer une paralysie flasque pendant 1 à 100 rounds ou tuer en cinq rounds.</p>",
+      "notes": "<p>Le Venin de Vipère décrit dans notre corpus est une <strong>préparation associant un venin animal au Curulot</strong>. Les données la rattachent aux <strong>milieux d'eau douce des régions tempérées</strong> ; son obtention dépend toutefois de la présence de l'animal et de la disponibilité des autres composants.</p>\n<p>Administré par injection, ce poison peut provoquer une <strong>paralysie flasque de 1 à 100 rounds</strong> : la victime perd le contrôle de ses mouvements sans nécessairement perdre conscience. Les échecs les plus graves au Jet de Résistance peuvent entraîner la <strong>mort en cinq rounds</strong>. Cette préparation est distincte de la morsure ordinaire d'une vipère, dont les effets ne doivent pas être automatiquement assimilés à ceux de la fiche.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Venin de Vipère (Adder Venom)",
       "system": {
-        "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison nerveux de niveau 10 composé de venin de vipère et de Curulot. Il peut provoquer une paralysie flasque pendant 1 à 100 rounds ou tuer en cinq rounds.</p>"
+        "notes": "<p>Le Venin de Vipère décrit dans notre corpus est une <strong>préparation associant un venin animal au Curulot</strong>. Les données la rattachent aux <strong>milieux d'eau douce des régions tempérées</strong> ; son obtention dépend toutefois de la présence de l'animal et de la disponibilité des autres composants.</p>\n<p>Administré par injection, ce poison peut provoquer une <strong>paralysie flasque de 1 à 100 rounds</strong> : la victime perd le contrôle de ses mouvements sans nécessairement perdre conscience. Les échecs les plus graves au Jet de Résistance peuvent entraîner la <strong>mort en cinq rounds</strong>. Cette préparation est distincte de la morsure ordinaire d'une vipère, dont les effets ne doivent pas être automatiquement assimilés à ceux de la fiche.</p>"
       }
     },
     "en": {
       "name": "Adder Venom",
       "system": {
-        "notes": "<p>This paste is found chiefly in mild temperate climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is administered by injection.</p><p>Level 10 nerve poison made from adder venom and Curulot. It can cause flaccid paralysis for 1–100 rounds or kill in five rounds.</p>"
+        "notes": "<p>The Adder Venom in this corpus is a <strong>prepared mixture of animal venom and Curulot</strong>. The underlying data associate it with <strong>freshwater habitats in temperate regions</strong>, although obtaining it requires the right animal and the other ingredients.</p>\n<p>Administered by injection, the poison can cause <strong>flaccid paralysis for 1–100 rounds</strong>: the victim loses control of movement without necessarily losing consciousness. The gravest failures on the Resistance Roll can result in <strong>death within five rounds</strong>. This preparation is distinct from an ordinary adder bite, whose effects should not automatically be equated with this entry.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Nerveux"
     ],
     "en": [
+      "Poisons",
       "Nerve"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-nerveux"
   ]
 }

@@ -2,6 +2,27 @@ import { contentLanguage } from "./localization.js";
 
 const MODULE_ID = "merp-ui";
 
+// Single source of truth for top-level Item folder recognition and ordering.
+// Keep the matching precedence: published names and historic technical keys
+// can occasionally disagree on older worlds.
+const TOP_LEVEL_ITEM_FOLDERS = [
+  { identity: "races", sort: 10000, names: ["races"] },
+  { identity: "cultures", sort: 20000, names: ["cultures"] },
+  { identity: "professions", sort: 30000, names: ["professions"] },
+  { identity: "skills", sort: 40000, names: ["skills", "compétences", "competences"] },
+  { identity: "spell-lists", sort: 50000, names: ["listes de sorts", "spell lists"] },
+  {
+    identity: "talents-flaws", sort: 60000,
+    names: ["talents & défauts", "talents & defauts", "talents & flaws"],
+    technicalIncludes: "talent"
+  },
+  {
+    identity: "herbs-substances", sort: 70000,
+    names: ["herbes & substances", "herbs & substances"],
+    technicalIncludes: "herb"
+  }
+];
+
 export function folderParentId(folder) {
   return folder?.folder?.id ?? folder?.folder ?? null;
 }
@@ -48,7 +69,9 @@ export function localizedFolderName(definition) {
 }
 
 export function localizedFolderAliases(definition) {
-  const names = new Set([definition?.name]);
+  // Previously published names remain valid aliases so existing World folders
+  // are renamed in place rather than duplicated during a content refresh.
+  const names = new Set([definition?.name, ...(definition?.legacyNames ?? [])]);
   for (const localized of Object.values(definition?.localizations ?? {})) {
     if (localized?.name) names.add(localized.name);
   }
@@ -114,46 +137,18 @@ export function merpRmuTopLevelItemFolderIdentity(folder) {
   ).toLocaleLowerCase();
   const name = String(folder?.name ?? "").trim().toLocaleLowerCase();
 
-  if (technical === "races" || name === "races") return "races";
-  if (technical === "cultures" || name === "cultures") return "cultures";
-  if (technical === "professions" || name === "professions") return "professions";
-  if (
-    technical === "skills" ||
-    name === "skills" ||
-    name === "compétences" ||
-    name === "competences"
-  ) return "skills";
-  if (
-    technical === "spell-lists" ||
-    name === "listes de sorts" ||
-    name === "spell lists"
-  ) return "spell-lists";
-  if (
-    technical.includes("talent") ||
-    name === "talents & défauts" ||
-    name === "talents & defauts" ||
-    name === "talents & flaws"
-  ) return "talents-flaws";
-  if (
-    technical.includes("herb") ||
-    name === "herbes & substances" ||
-    name === "herbs & substances"
-  ) return "herbs-substances";
+  for (const { identity, names, technicalIncludes } of TOP_LEVEL_ITEM_FOLDERS) {
+    if (
+      technical === identity ||
+      names.includes(name) ||
+      (technicalIncludes && technical.includes(technicalIncludes))
+    ) return identity;
+  }
   return null;
 }
 
 export async function enforceMerpRmuTopLevelItemFolderOrder(itemRoot) {
   if (!itemRoot) return { skipped: true, reason: "no-item-root" };
-
-  const wanted = [
-    ["races", 10000],
-    ["cultures", 20000],
-    ["professions", 30000],
-    ["skills", 40000],
-    ["spell-lists", 50000],
-    ["talents-flaws", 60000],
-    ["herbs-substances", 70000]
-  ];
 
   // Foundry orders children using the parent's sorting mode. The parent must
   // therefore be manual, while each child receives a stable sort value.
@@ -169,7 +164,7 @@ export async function enforceMerpRmuTopLevelItemFolderOrder(itemRoot) {
   );
 
   const details = [];
-  for (const [identity, sort] of wanted) {
+  for (const { identity, sort } of TOP_LEVEL_ITEM_FOLDERS) {
     const folder = children.find(
       (candidate) => merpRmuTopLevelItemFolderIdentity(candidate) === identity
     );
@@ -197,7 +192,7 @@ export async function enforceMerpRmuTopLevelItemFolderOrder(itemRoot) {
   }
 
   return {
-    expected: wanted.length,
+    expected: TOP_LEVEL_ITEM_FOLDERS.length,
     found: details.filter((entry) => entry.found).length,
     details
   };

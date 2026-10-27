@@ -1,3 +1,6 @@
+import { registerCreationLoreGuidance } from "./merp-rmu/creation-lore-guidance.js";
+import { registerCreationTalentsOrder } from "./merp-rmu/creation-talents-order.js";
+import { registerDunedainTalentLocalizationHooks, relocalizeActorDunedainTalents } from "./merp-rmu/dunedain-racial-talents.js";
 import {
   installMerpRmuTalentsFlaws,
   refreshTalentsFlawsLocalization,
@@ -86,6 +89,8 @@ import {
   syncMerpSpecialPowerSkillsAllActors,
   syncMerpSpecialPowerSkillsForActor
 } from "./merp-rmu/special-power-skills.js";
+import { installDefaultHildorRace } from "./merp-rmu/default-hildor-race.js";
+import { installWhitfordHobbies } from "./merp-rmu/whitford-hobbies.js";
 import {
   installMerpRmuIntroduction,
   synchronizeMerpRmuIntroduction
@@ -104,10 +109,12 @@ import {
   registerCompendiumContentSettings,
   refreshLocalizedCompendiumWindowTitles,
   relocalizeImportedCompendiumItems,
+  relocalizeActorIdentityItems,
   synchronizeCompendiumLibraries
 } from "./merp-rmu/compendium-content.js";
 import {
   maybePostWelcomeChat,
+  previewWelcomeNotification,
   registerWelcomeChatHooks,
   registerWelcomeChatSetting,
   repostWelcomeChatMessage,
@@ -128,6 +135,9 @@ import {
   normalizedSpellListIdentity
 } from "./merp-rmu/creation-rules.js";
 import { repairHonninCanonicalPlacement, refreshHonninBetaLocalization, registerHonninBeta } from "./merp-rmu/honnin-beta.js";
+import { registerMerpUiCoreSettings } from "./merp-rmu/settings-registration.js";
+import { installMerpCompendiumAppearanceRecovery } from "./merp-rmu/compendium-appearance-recovery.js";
+import { registerSettingsUiLocalizationHooks, rerenderSettingsApplications } from "./merp-rmu/settings-ui-localization.js";
 import {
   contentLanguage,
   flattenLocalizationUpdate,
@@ -146,9 +156,16 @@ let contentLanguageRefreshQueue = Promise.resolve();
 let lastRequestedContentLanguage = null;
 let lastRequestedContentLanguageAt = 0;
 registerMerpRmuTalentsFlawsHooks();
+registerDunedainTalentLocalizationHooks();
+registerCreationTalentsOrder();
+registerCreationLoreGuidance();
 registerHonninBeta();
 registerCompendiumContentHooks();
+// Foundry Compendium appearance must not depend on the optional visual entry point.
+installMerpCompendiumAppearanceRecovery();
 registerWelcomeChatHooks();
+// Register the settings window localizer even if the visual module entry point fails.
+registerSettingsUiLocalizationHooks();
 const DATA_PATH = `modules/${MODULE_ID}/data/merp-rmu/khazad.json`;
 const MERP_INTRODUCTION_SETTING = "merpRmuIntroductionVersion";
 const MERP_INTRODUCTION_LANGUAGE_SETTING = "merpRmuIntroductionLanguage";
@@ -417,6 +434,18 @@ export async function installMerpRmuContent({ force = false, notify = true } = {
 }
 
 Hooks.once("init", () => {
+  // The content engine is an independent Foundry entry point: restore the
+  // FR/EN selector (and visual settings) even if scripts/merp-ui.js fails.
+  // Registration is idempotent across both entry points.
+  registerMerpUiCoreSettings({
+    onLanguageChange: async (value) => {
+      await requestMerpRmuContentLanguageChange(value, {
+        notify: true,
+        reason: "setting-onchange"
+      });
+      rerenderSettingsApplications();
+    }
+  });
   exposeRmuAdapterApi();
   installMerpSpecialPowerSkillTranslations();
   registerMerpRmuTalentsFlawsSetting();
@@ -481,14 +510,25 @@ function hasLegacyMerpRmuWorldContent() {
 
 Hooks.once("ready", async () => {
   if (game.system?.id !== "rmu") return;
+  installDefaultHildorRace();
   installMerpPrimeStatHelper();
   await installRmuCreationPrototypeFixes();
+  try { await installWhitfordHobbies(); } catch(error) { console.warn("merp-ui | Hobby Whitford non disponibles", error); }
   await installMerpSpecialPowerManeuverResults();
 
 });
 
 Hooks.once("ready", async () => {
   if (!game.user?.isGM || game.system?.id !== "rmu") return;
+
+  // CLEAN-26d: worlds installed before CLEAN-26 can retain the obsolete
+  // MERP-UI Starlights conversion as a World Item. Remove only our managed
+  // source Item; never touch official RMU lists or Actor embedded items.
+  try {
+    await retireObsoleteAstrologerWorldList();
+  } catch (error) {
+    console.warn(`${MODULE_ID} | Impossible de retirer l’ancienne liste de l’Astrologue du World`, error);
+  }
 
   const legacyWorld = hasLegacyMerpRmuWorldContent();
 
@@ -730,6 +770,12 @@ Hooks.on("createItem", async (item, options) => {
 
     if (item.type === "profession") {
       await normalizeEmbeddedProfessionTechnicalKey(item);
+      // If a Race/Culture was chosen before the Profession, deferred
+      // special skills can now be embedded safely with a valid _profession.
+      if (item.parent?.documentName === "Actor") {
+        await syncMerpSpecialPowerSkillsForActor(item.parent);
+        await syncCultureLanguagesForActor(item.parent);
+      }
     } else if (item.type === "culture") {
       if (item.parent?.documentName === "Actor") {
         await syncMerpSpecialPowerSkillsForActor(item.parent);
@@ -751,6 +797,12 @@ options?.merpUiSpecialPowerSkillSync || options?.merpUiCultureLanguageSync) retu
   try {
     if (item.type === "profession") {
       await normalizeEmbeddedProfessionTechnicalKey(item);
+      // If a Race/Culture was chosen before the Profession, deferred
+      // special skills can now be embedded safely with a valid _profession.
+      if (item.parent?.documentName === "Actor") {
+        await syncMerpSpecialPowerSkillsForActor(item.parent);
+        await syncCultureLanguagesForActor(item.parent);
+      }
     } else if (item.type === "culture") {
       await syncMerpSpecialPowerSkillsForActor(item.parent);
       await syncCultureLanguagesForActor(item.parent);
@@ -776,6 +828,94 @@ Hooks.on("deleteItem", async (item, options) => {
     }
   });
 });
+
+// When a Honnin Priest is created, these three official Animist lists are
+// already offered as Honnin Base lists (world-local Spell Law adaptations).
+// Hide only their *native Animist Restricted* alternatives in the picker.
+// The RMU source lists and other professions remain untouched.
+const HONNIN_NATIVE_BASE_NAMES = new Set([
+  "animalmastery", "herbmastery", "natureslore",
+  "maitrisedesanimaux", "maitrisedesherbes", "connaissancedelanature"
+]);
+
+function honninSpellChoiceKey(value) {
+  return String(value ?? "")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
+function filterHonninRestrictedAnimistDuplicates(groups, actor) {
+  const profession = actorCreationProfession(actor);
+  const name = profession?.profession ?? profession?.name ?? "";
+  if (!/^(honnin priest|pr[eê]tre honnin)$/i.test(String(name).trim())) return groups;
+  if (!Array.isArray(groups)) return groups;
+
+  // This is a specialized *selection* filter, never a change to Spell Law.
+  // Filtering uses the group's native profession, not the displayed language.
+  return groups.map((group) => {
+    const professionKey = honninSpellChoiceKey(group?.profession);
+    const labelKey = honninSpellChoiceKey(group?.groupName);
+    const nativeAnimist = professionKey === "animist" ||
+      (labelKey.includes("animist") && !labelKey.includes("honnin"));
+    if (!nativeAnimist || !Array.isArray(group?.spellLists)) return group;
+    return {
+      ...group,
+      spellLists: group.spellLists.filter((entry) =>
+        !HONNIN_NATIVE_BASE_NAMES.has(honninSpellChoiceKey(entry?.name ?? entry?.system?.name))
+      )
+    };
+  }).filter((group) => !Array.isArray(group?.spellLists) || group.spellLists.length > 0);
+}
+
+// CLEAN-26d: safeguard against stale copies in a pre-existing World or a
+// Compendium LevelDB cache. The canonical native Spell Law "Starlights" must
+// remain visible. Never filter entries merely because they are called Starlights.
+const OBSOLETE_ASTROLOGER_SPELL_LIST_KEY = "astrologer-starlights";
+const OBSOLETE_ASTROLOGER_PACK_ITEM_ID = "3ektZqykfci9Eh17";
+
+function isObsoleteAstrologerSpellChoice(entry, group) {
+  const groupName = String(group?.groupName ?? "");
+  const groupProfession = String(group?.profession ?? "");
+  if (!/astrolog/i.test(`${groupName} ${groupProfession}`)) return false;
+
+  const label = String(entry?.name ?? entry?.system?.name ?? "")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[^a-z0-9]/g, "");
+  // French translation belongs solely to the now-retired MERP-UI conversion.
+  if (label === "lumieresstellaires") return true;
+
+  if ((entry?.flags?.[MODULE_ID]?.key ?? entry?.flags?.[MODULE_ID]?.compendiumSourceKey)
+      === OBSOLETE_ASTROLOGER_SPELL_LIST_KEY) return true;
+
+  const uuid = String(entry?._spellListUuid ?? entry?.uuid ?? "");
+  if (uuid.includes("merp-ui.merp-rmu-spell-lists") &&
+      uuid.endsWith(`.${OBSOLETE_ASTROLOGER_PACK_ITEM_ID}`)) return true;
+
+  // RMU can return a minimal {name, _spellListUuid} selector choice, without
+  // the World Item's provenance flags; resolve it only when it is an Item.UUID.
+  if (uuid.startsWith("Item.")) {
+    const item = game.items?.get?.(uuid.slice(5));
+    return item?.type === "spell-list" &&
+      item.getFlag?.(MODULE_ID, "key") === OBSOLETE_ASTROLOGER_SPELL_LIST_KEY &&
+      item.getFlag?.(MODULE_ID, "collection") === "merp-rmu";
+  }
+  return false;
+}
+
+async function retireObsoleteAstrologerWorldList() {
+  if (!game.user?.isGM || game.system?.id !== "rmu") return { deleted: 0 };
+  const retired = game.items.filter((item) =>
+    item.type === "spell-list" && !item.parent &&
+    item.getFlag?.(MODULE_ID, "key") === OBSOLETE_ASTROLOGER_SPELL_LIST_KEY &&
+    item.getFlag?.(MODULE_ID, "collection") === "merp-rmu"
+  );
+  if (!retired.length) return { deleted: 0 };
+  await Item.deleteDocuments(retired.map((item) => item.id), {
+    render: false, merpUiObsoleteAstrologerSpellListCleanup: true
+  });
+  console.info(`${MODULE_ID} | Ancienne copie MERP-UI de Starlights retirée du World (${retired.length}).`);
+  return { deleted: retired.length };
+}
 
 function filterInvalidSpellListsFromGroups(groups) {
   if (!Array.isArray(groups)) return groups;
@@ -806,6 +946,7 @@ function filterInvalidSpellListsFromGroups(groups) {
     group.spellLists = group.spellLists.filter((spellList) => {
       const name = spellList?.name ?? spellList?.system?.name ?? "";
       if (isInvalidStartlightName(name)) return false;
+      if (isObsoleteAstrologerSpellChoice(spellList, group)) return false;
 
       const key = normalizedSpellListIdentity(name);
       if (!key) return true;
@@ -1036,7 +1177,26 @@ async function installRmuCreationPrototypeFixes() {
       proto._spellListsForSkill = async function(...args) {
         let groups = await original.apply(this, args);
         groups = filterInvalidSpellListsFromGroups(groups);
+        groups = filterHonninRestrictedAnimistDuplicates(groups, this?._actor);
         groups = filterLimitedBaseSpellListChoices(groups, this?._actor, { excludeId: this?._editSkillId ?? null });
+        // RMU 1.4.83 assumes that its currently selected spell-list group
+        // exists (add-untrained-skill-dialog-v2.js:218-219).  A category
+        // without installed lists, such as Arcane before Arcane Companion,
+        // can legitimately produce no groups after filtering.  Give RMU a
+        // non-selectable empty group so its normal render/cancel lifecycle
+        // completes instead of failing before the dialog opens.
+        if (!Array.isArray(groups) || groups.length === 0) {
+          this._selectedCategoryIndex = 0;
+          this._selectedSpecialIndex = 0;
+          return [{ groupName: game.i18n.localize("MERPUI.SpellLists.EmptyGroup"), spellLists: [], _merpEmptySpellGroup: true }];
+        }
+        // Filters may remove the previously selected group. Reset the index
+        // before RMU dereferences it, without changing valid selections.
+        if (!Number.isInteger(this._selectedCategoryIndex) ||
+            this._selectedCategoryIndex < 0 || this._selectedCategoryIndex >= groups.length) {
+          this._selectedCategoryIndex = 0;
+          this._selectedSpecialIndex = 0;
+        }
         return groups;
       };
       proto.__merpUiSpellListSourceFix = true;
@@ -1071,6 +1231,13 @@ async function installRmuCreationPrototypeFixes() {
       const originalPrepareContext = proto._prepareContext;
       proto._prepareContext = async function(...args) {
         const data = await originalPrepareContext.apply(this, args);
+
+        // A real but empty spell-list group is safe for RMU: it disables
+        // "Ajouter" and leaves the Cancel button operative. Notify once.
+        if (data?._spellGroup?._merpEmptySpellGroup && !this._merpEmptyListNotified) {
+          this._merpEmptyListNotified = true;
+          ui?.notifications?.warn?.(game.i18n.localize("MERPUI.SpellLists.EmptyWarning"));
+        }
 
         try {
           const skill = data?._selectedSkill;
@@ -1260,12 +1427,10 @@ async function applyMerpRmuContentLanguageNow({
         notify: false,
         language: effectiveLanguage
       });
-      result.compendiums = await synchronizeCompendiumLibraries({
-        language: effectiveLanguage,
-        notify: false
-      });
-      // A language change also requires the persistent LevelDB documents to
-      // use the selected locale, not only their folders and World imports.
+      // Source-driven sync already translates all 455 distributed documents.
+      // Do it first, then translate the FOLDERS only: the old order rewrote
+      // every document once before repeating a source-driven verification.
+      // CLEAN-38b's common maintenance lock remains intact for both passes.
       result.sourceCompendiums = await synchronizeMerpRmuSources({
         language: effectiveLanguage,
         force: true,
@@ -1274,10 +1439,26 @@ async function applyMerpRmuContentLanguageNow({
       if (result.sourceCompendiums.errors) {
         throw new Error(`MERP-RMU Compendium translation: ${result.sourceCompendiums.errors} synchronization errors`);
       }
+      result.compendiums = await synchronizeCompendiumLibraries({
+        language: effectiveLanguage,
+        notify: false,
+        skipDocumentLocalization: true
+      });
       // The managed Introduction may also have a World Journal copy.
       result.presentationSync = await synchronizeMerpRmuIntroduction();
       result.importedCompendiumItems =
         await relocalizeImportedCompendiumItems({ notify: false });
+      result.actorIdentityNames = await relocalizeActorIdentityItems(mainData, {
+        language: effectiveLanguage
+      });
+      try {
+        result.dunedainRacialTalents = await relocalizeActorDunedainTalents({
+          language: effectiveLanguage
+        });
+      } catch (error) {
+        console.warn(`${MODULE_ID} | Impossible de localiser les Talents dúnedain`, error);
+        result.dunedainRacialTalents = { error: String(error) };
+      }
 
       if (game.user?.isGM) {
         result.welcomeChat = await repostWelcomeChatMessage({
@@ -1374,6 +1555,19 @@ async function applyMerpRmuContentLanguageNow({
       result.worldJournalFolderTitles = { error: String(error) };
     }
 
+
+    // Translate pre-existing embedded identities without altering character data.
+    result.actorIdentityNames = await relocalizeActorIdentityItems(mainData, {
+      language: effectiveLanguage
+    });
+    try {
+      result.dunedainRacialTalents = await relocalizeActorDunedainTalents({
+        language: effectiveLanguage
+      });
+    } catch (error) {
+      console.warn(`${MODULE_ID} | Impossible de localiser les Talents dúnedain`, error);
+      result.dunedainRacialTalents = { error: String(error) };
+    }
 
     await rerenderLocalizedDirectories();
     refreshLocalizedCompendiumWindowTitles({ language: effectiveLanguage });
@@ -1588,6 +1782,8 @@ function exposeMerpRmuContentApi() {
     installMerpRmuHerbs({ ...options, force: options.force ?? true, notify: options.notify ?? true });
   globalThis.MERPUI.resetWelcomeChat = () =>
     resetWelcomeChat();
+  globalThis.MERPUI.previewWelcomeNotification = (options = {}) =>
+    previewWelcomeNotification(options);
 }
 
 // Expose diagnostics/install helpers as soon as this module is evaluated.  This

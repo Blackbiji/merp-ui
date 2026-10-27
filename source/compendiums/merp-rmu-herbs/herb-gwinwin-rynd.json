@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "U",
@@ -44,7 +44,7 @@
       "prep": "liquid",
       "season": "",
       "cost": "84gp",
-      "notes": "<p>Cette chauve-souris se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 2 tiré de la sécrétion linguale d’une chauve-souris. Au contact, il paralyse la zone touchée ; ingéré, il peut provoquer une paralysie totale prolongée ou la mort immédiate.</p>",
+      "notes": "<p>Le Gwinwin Rynd est tiré d'une <strong>sécrétion présente sur la langue d'une chauve-souris</strong> vivant dans les cavités souterraines fraîches du nord-ouest d'Endor. Sa récolte dépend de l'identification de cette espèce animale et de l'obtention de la substance, plutôt que de la cueillette d'une plante.</p>\n<p>Les effets varient selon la voie d'exposition. <strong>Au contact</strong>, la substance peut <strong>paralyser la zone touchée</strong>. <strong>Lorsqu'elle est ingérée</strong>, elle peut produire une <strong>paralysie totale et prolongée</strong>, voire entraîner la <strong>mort immédiate</strong> dans les cas les plus graves. Le Jet de Résistance permet de déterminer si le poison agit ; la forme d'exposition doit être connue pour appliquer sa propriété particulière.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Gwinwin Rynd",
       "system": {
-        "notes": "<p>Cette chauve-souris se rencontre surtout dans les régions au climat tempéré frais, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison nerveux de niveau 2 tiré de la sécrétion linguale d’une chauve-souris. Au contact, il paralyse la zone touchée ; ingéré, il peut provoquer une paralysie totale prolongée ou la mort immédiate.</p>"
+        "notes": "<p>Le Gwinwin Rynd est tiré d'une <strong>sécrétion présente sur la langue d'une chauve-souris</strong> vivant dans les cavités souterraines fraîches du nord-ouest d'Endor. Sa récolte dépend de l'identification de cette espèce animale et de l'obtention de la substance, plutôt que de la cueillette d'une plante.</p>\n<p>Les effets varient selon la voie d'exposition. <strong>Au contact</strong>, la substance peut <strong>paralyser la zone touchée</strong>. <strong>Lorsqu'elle est ingérée</strong>, elle peut produire une <strong>paralysie totale et prolongée</strong>, voire entraîner la <strong>mort immédiate</strong> dans les cas les plus graves. Le Jet de Résistance permet de déterminer si le poison agit ; la forme d'exposition doit être connue pour appliquer sa propriété particulière.</p>"
       }
     },
     "en": {
       "name": "Gwinwin Rynd",
       "system": {
-        "notes": "<p>This bat is found chiefly in cool temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 2 nerve poison derived from the tongue secretion of a bat. On contact it paralyzes the affected area; ingested, it can cause prolonged total paralysis or immediate death.</p>"
+        "notes": "<p>Gwinwin Rynd is taken from <strong>a secretion on the tongue of a bat</strong> inhabiting cool underground caves in northwestern Endor. Gathering it depends on identifying the animal and obtaining the secretion rather than finding a plant.</p>\n<p>Its effects change with the route of exposure. <strong>On contact</strong>, it may <strong>paralyze the affected area</strong>. <strong>If ingested</strong>, it can produce <strong>prolonged total paralysis</strong>, or even <strong>immediate death</strong> in the worst cases. A Resistance Roll determines whether the poison takes effect; the exposure route is essential to resolving its special property.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Nerveux"
     ],
     "en": [
+      "Poisons",
       "Nerve"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-nerveux"
   ]
 }

@@ -35,16 +35,16 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
-      "biome": "H",
+      "biome": "P",
       "findDifficulty": "Hard",
       "form": "Berry",
       "prep": "paste",
-      "season": "",
+      "season": "Milieu de l’été à début de l’automne",
       "cost": "154gp",
-      "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 3F. Le jus brun peut infliger 3 à 300 points de vie, même si ses effets respiratoires généraux restent souvent limités.</p>",
+      "notes": "<p>Le Kly se rencontre dans les <strong>prairies et les steppes</strong>, où ses baies sont disponibles surtout <strong>du milieu de l'été au début de l'automne</strong>. La recherche demande une bonne reconnaissance de l'espèce ; les fruits ne peuvent être récoltés en quantité utile qu'au moment approprié.</p>\n<p>Les baies produisent une préparation de couleur <strong>brune</strong>. En cas d'échec au Jet de Résistance, le poison inflige immédiatement <strong>3 à 300 points de dégâts</strong>, une quantité exceptionnellement élevée pour un poison de niveau 3. Ses autres effets respiratoires sont cependant limités au <strong>degré léger</strong> dans RMU. Cette particularité fait du Kly un poison capable de provoquer des blessures considérables, tout en limitant les autres troubles respiratoires au degré léger.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Kly",
       "system": {
-        "notes": "<p>Cette baie se rencontre surtout dans les régions au climat semi-aride, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 3F. Le jus brun peut infliger 3 à 300 points de vie, même si ses effets respiratoires généraux restent souvent limités.</p>"
+        "notes": "<p>Le Kly se rencontre dans les <strong>prairies et les steppes</strong>, où ses baies sont disponibles surtout <strong>du milieu de l'été au début de l'automne</strong>. La recherche demande une bonne reconnaissance de l'espèce ; les fruits ne peuvent être récoltés en quantité utile qu'au moment approprié.</p>\n<p>Les baies produisent une préparation de couleur <strong>brune</strong>. En cas d'échec au Jet de Résistance, le poison inflige immédiatement <strong>3 à 300 points de dégâts</strong>, une quantité exceptionnellement élevée pour un poison de niveau 3. Ses autres effets respiratoires sont cependant limités au <strong>degré léger</strong> dans RMU. Cette particularité fait du Kly un poison capable de provoquer des blessures considérables, tout en limitant les autres troubles respiratoires au degré léger.</p>"
       }
     },
     "en": {
       "name": "Kly",
       "system": {
-        "notes": "<p>This berry is found chiefly in semi-arid climates, especially in heaths, scrublands, and moors.</p><p>Even in suitable terrain, it remains hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 3F respiratory poison. The brown juice can inflict 3–300 concussion hits, although its general respiratory effects are often limited.</p>"
+        "notes": "<p>Kly grows in <strong>grasslands and steppes</strong>, with berries available mainly <strong>from mid-summer to early autumn</strong>. Finding the species requires care, and its fruit can be gathered in useful amounts only during the appropriate season.</p>\n<p>The berries produce a <strong>brown paste</strong>. A failed Resistance Roll immediately causes <strong>3–300 concussion hits</strong>, an unusually large amount for a level 3 poison. Its other respiratory effects are nonetheless limited to <strong>Mild</strong> under RMU. Kly can therefore inflict extraordinary direct damage without allowing the most serious general respiratory manifestations.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Respiratoires"
     ],
     "en": [
+      "Poisons",
       "Respiratory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-respiratoires"
   ]
 }

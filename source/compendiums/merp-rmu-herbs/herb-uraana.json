@@ -35,16 +35,16 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
-      "biome": "S",
+      "biome": "X",
       "findDifficulty": "Light",
       "form": "Leaf",
       "prep": "paste",
       "season": "",
       "cost": "12gp",
-      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 6A. Cette pâte crémeuse inflige 3 à 30 points de vie et provoque des effets respiratoires généralement légers.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "notes": "<p>L'Uraana se rencontre dans les <strong>régions arides couvertes de broussailles et de végétation éparse</strong>. Dans un milieu favorable, ses feuilles sont relativement aisées à rechercher et à identifier par un personnage familiarisé avec ces paysages.</p>\n<p>La préparation donne une <strong>pâte crémeuse</strong> dont l'effet particulier consiste à infliger immédiatement <strong>3 à 30 points de dégâts</strong>. Les conséquences respiratoires générales restent limitées au <strong>degré léger</strong>, conformément à la table RMU. Les dégâts immédiats et les troubles respiratoires doivent donc être distingués lors de la résolution du Jet de Résistance. La victime peut donc subir des dégâts importants sans présenter les manifestations respiratoires les plus graves de cette famille de poisons.</p>",
       "addictionFactor": 6,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Uraana",
       "system": {
-        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat tempéré frais, notamment dans les prairies rases.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison respiratoire de niveau 6A. Cette pâte crémeuse inflige 3 à 30 points de vie et provoque des effets respiratoires généralement légers.</p><p>Un usage répété peut créer une accoutumance.</p>"
+        "notes": "<p>L'Uraana se rencontre dans les <strong>régions arides couvertes de broussailles et de végétation éparse</strong>. Dans un milieu favorable, ses feuilles sont relativement aisées à rechercher et à identifier par un personnage familiarisé avec ces paysages.</p>\n<p>La préparation donne une <strong>pâte crémeuse</strong> dont l'effet particulier consiste à infliger immédiatement <strong>3 à 30 points de dégâts</strong>. Les conséquences respiratoires générales restent limitées au <strong>degré léger</strong>, conformément à la table RMU. Les dégâts immédiats et les troubles respiratoires doivent donc être distingués lors de la résolution du Jet de Résistance. La victime peut donc subir des dégâts importants sans présenter les manifestations respiratoires les plus graves de cette famille de poisons.</p>"
       }
     },
     "en": {
       "name": "Uraana",
       "system": {
-        "notes": "<p>This leaf is found chiefly in cool temperate climates, especially in short-grass plains.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 6A respiratory poison. This creamy paste inflicts 3–30 concussion hits and generally causes light respiratory effects.</p><p>Repeated use can lead to habituation.</p>"
+        "notes": "<p>Uraana occurs in <strong>arid regions with scrub and scattered vegetation</strong>. In a suitable habitat its leaves are relatively easy to find and recognize for someone familiar with the landscape.</p>\n<p>The leaves yield a <strong>creamy paste</strong> whose special effect is <strong>3–30 immediate concussion hits</strong>. General respiratory consequences are limited to <strong>Mild</strong>, according to the RMU reference table. Immediate injury and respiratory distress should therefore be handled separately when resolving the Resistance Roll. The victim may suffer considerable damage without developing the family's gravest respiratory effects.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Respiratoires"
     ],
     "en": [
+      "Poisons",
       "Respiratory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-respiratoires"
   ]
 }

@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "U",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "80gp",
-      "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 2 obtenu à partir de Madarch non dilué. Les blessures non guéries peuvent se rouvrir et saigner deux fois plus vite ; un échec sévère peut faire éclater les vaisseaux sanguins et tuer.</p>",
+      "notes": "<p>Le <strong>Madarch</strong>, dont est tiré le Pelenaur, est un champignon associé aux <strong>cavités souterraines des régions tempérées</strong> du nord-ouest d'Endor. Ses lieux de croissance sont difficiles d'accès et la récolte exige de connaître les milieux obscurs et humides où il se développe.</p>\n<p>Le Pelenaur est obtenu à partir de <strong>Madarch non dilué</strong>, préparé en pâte. Il perturbe la circulation du sang au point de <strong>rouvrir des blessures encore imparfaitement guéries</strong> ; les hémorragies peuvent alors se produire <strong>deux fois plus rapidement</strong>. Dans les cas les plus graves, le poison peut faire éclater des vaisseaux sanguins et entraîner la mort. Son niveau relativement faible ne doit donc pas masquer la dangerosité de son effet particulier.</p>",
       "addictionFactor": 3,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Pelenaur (Madarch)",
       "system": {
-        "notes": "<p>Ce champignon se rencontre surtout dans les régions au climat tempéré doux, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison circulatoire de niveau 2 obtenu à partir de Madarch non dilué. Les blessures non guéries peuvent se rouvrir et saigner deux fois plus vite ; un échec sévère peut faire éclater les vaisseaux sanguins et tuer.</p>"
+        "notes": "<p>Le <strong>Madarch</strong>, dont est tiré le Pelenaur, est un champignon associé aux <strong>cavités souterraines des régions tempérées</strong> du nord-ouest d'Endor. Ses lieux de croissance sont difficiles d'accès et la récolte exige de connaître les milieux obscurs et humides où il se développe.</p>\n<p>Le Pelenaur est obtenu à partir de <strong>Madarch non dilué</strong>, préparé en pâte. Il perturbe la circulation du sang au point de <strong>rouvrir des blessures encore imparfaitement guéries</strong> ; les hémorragies peuvent alors se produire <strong>deux fois plus rapidement</strong>. Dans les cas les plus graves, le poison peut faire éclater des vaisseaux sanguins et entraîner la mort. Son niveau relativement faible ne doit donc pas masquer la dangerosité de son effet particulier.</p>"
       }
     },
     "en": {
       "name": "Pelenaur (Madarch)",
       "system": {
-        "notes": "<p>This mushroom is found chiefly in mild temperate climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 2 circulatory poison made from undiluted Madarch. Unhealed wounds may reopen and bleed at twice the normal rate; a severe failure can rupture the blood vessels and kill.</p>"
+        "notes": "<p><strong>Madarch</strong>, the fungus from which Pelenaur is obtained, grows in <strong>underground cavities in the temperate regions</strong> of northwestern Endor. Reaching its habitat is often difficult, and gathering it requires knowledge of the dark, damp places where it thrives.</p>\n<p>Pelenaur is prepared as a paste from <strong>undiluted Madarch</strong>. It interferes with circulation so severely that <strong>partially healed wounds may reopen</strong>, with bleeding occurring <strong>twice as quickly</strong>. In the worst cases, blood vessels may rupture and the victim may die. Its relatively low attack level should not obscure the danger of this particular effect.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Circulatoires"
     ],
     "en": [
+      "Poisons",
       "Circulatory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-circulatoires"
   ]
 }

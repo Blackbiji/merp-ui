@@ -3,7 +3,7 @@
   "sourceFile": "data/merp-rmu/herbs-v1.json",
   "folderKey": "poison-musculaires",
   "document": {
-    "name": "Dynallca",
+    "name": "Dynalica",
     "type": "herb",
     "img": "icons/consumables/plants/grass-leaves-stems-green.webp",
     "effects": [],
@@ -35,16 +35,16 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
-      "biome": "F",
+      "biome": "SJ",
       "findDifficulty": "Light",
       "form": "Leaf",
       "prep": "paste",
       "season": "",
       "cost": "14gp",
-      "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison musculaire de niveau 3B. Cette pâte fauve attaque l’audition, inflige 1 à 10 points de vie et peut aller jusqu’à détruire l’ouïe.</p>",
+      "notes": "<p>La Dynalica provient d'un <strong>arbuste des zones tropicales côtières</strong>, que l'on peut rencontrer dans les régions chaudes proches de la mer. Ses feuilles fournissent une pâte <strong>fauve</strong> ; dans un habitat approprié, la recherche est relativement accessible à un cueilleur connaissant l'espèce.</p>\n<p>Cette pâte attaque principalement <strong>l'ouïe</strong>. Elle inflige <strong>1 à 10 points de dégâts immédiats</strong> et peut entraîner une diminution de l'audition. Dans les formes les plus graves autorisées pour ce poison, la victime peut <strong>perdre complètement l'ouïe</strong>. La destruction de l'audition représente l'issue la plus sévère prévue par la table RMU pour ce poison.</p>",
       "addictionFactor": 3,
       "effects": [],
       "table": "",
@@ -53,27 +53,30 @@
   },
   "localizations": {
     "fr": {
-      "name": "Dynallca",
+      "name": "Dynalica",
       "system": {
-        "notes": "<p>Cette feuille se rencontre surtout dans les régions au climat chaud et humide, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste assez aisée à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison musculaire de niveau 3B. Cette pâte fauve attaque l’audition, inflige 1 à 10 points de vie et peut aller jusqu’à détruire l’ouïe.</p>"
+        "notes": "<p>La Dynalica provient d'un <strong>arbuste des zones tropicales côtières</strong>, que l'on peut rencontrer dans les régions chaudes proches de la mer. Ses feuilles fournissent une pâte <strong>fauve</strong> ; dans un habitat approprié, la recherche est relativement accessible à un cueilleur connaissant l'espèce.</p>\n<p>Cette pâte attaque principalement <strong>l'ouïe</strong>. Elle inflige <strong>1 à 10 points de dégâts immédiats</strong> et peut entraîner une diminution de l'audition. Dans les formes les plus graves autorisées pour ce poison, la victime peut <strong>perdre complètement l'ouïe</strong>. La destruction de l'audition représente l'issue la plus sévère prévue par la table RMU pour ce poison.</p>"
       }
     },
     "en": {
-      "name": "Dynallca",
+      "name": "Dynalica",
       "system": {
-        "notes": "<p>This leaf is found chiefly in hot and humid climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains fairly easy to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 3B muscle poison. This tan paste attacks hearing, inflicts 1–10 concussion hits, and can ultimately destroy the victim’s hearing.</p>"
+        "notes": "<p>Dynalica comes from a <strong>shrub of tropical coastal regions</strong>, found in hot lands near the sea. Its leaves yield a <strong>tan-colored paste</strong>. Within a suitable habitat, finding it is relatively straightforward for someone familiar with the species.</p>\n<p>The paste primarily damages <strong>hearing</strong>. It inflicts <strong>1–10 immediate concussion hits</strong> and may reduce the victim's ability to hear. The most severe result allowed for this poison can cause <strong>complete loss of hearing</strong>. Destruction of hearing is the worst outcome specified for Dynalica in the RMU reference table.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Musculaires"
     ],
     "en": [
+      "Poisons",
       "Muscle"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-musculaires"
   ]
 }

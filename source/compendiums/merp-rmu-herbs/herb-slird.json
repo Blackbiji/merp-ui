@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "J",
@@ -44,7 +44,7 @@
       "prep": "paste",
       "season": "",
       "cost": "13gp",
-      "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 2C agissant en 1 à 2 rounds. Il peut faire perdre toute sensation dans plusieurs extrémités pendant des semaines.</p>",
+      "notes": "<p>Le Slird est un fruit extrêmement rare des <strong>forêts tropicales humides</strong>, notamment connu dans le <strong>sud-ouest d'Endor</strong>. Sa présence peut passer inaperçue au milieu de la végétation dense ; la récolte exige de reconnaître précisément l'espèce.</p>\n<p>Le fruit permet d'obtenir une pâte agissant très rapidement, <strong>en 1 à 2 rounds</strong>. Elle peut priver la victime de toute sensation dans <strong>une à six extrémités</strong>, pour une durée allant de <strong>1 à 100 jours</strong>. Cette perte de sensibilité correspond à l'effet particulier maximal indiqué pour le Slird dans RMU ; le Jet de Résistance détermine la gravité de l'empoisonnement.</p>",
       "addictionFactor": 1,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Slird",
       "system": {
-        "notes": "<p>Ce fruit se rencontre surtout dans les régions au climat chaud et humide, notamment dans les jungles et forêts pluviales, et elle est surtout connue dans le Sud-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme de pâte.</p><p>Poison nerveux de niveau 2C agissant en 1 à 2 rounds. Il peut faire perdre toute sensation dans plusieurs extrémités pendant des semaines.</p>"
+        "notes": "<p>Le Slird est un fruit extrêmement rare des <strong>forêts tropicales humides</strong>, notamment connu dans le <strong>sud-ouest d'Endor</strong>. Sa présence peut passer inaperçue au milieu de la végétation dense ; la récolte exige de reconnaître précisément l'espèce.</p>\n<p>Le fruit permet d'obtenir une pâte agissant très rapidement, <strong>en 1 à 2 rounds</strong>. Elle peut priver la victime de toute sensation dans <strong>une à six extrémités</strong>, pour une durée allant de <strong>1 à 100 jours</strong>. Cette perte de sensibilité correspond à l'effet particulier maximal indiqué pour le Slird dans RMU ; le Jet de Résistance détermine la gravité de l'empoisonnement.</p>"
       }
     },
     "en": {
       "name": "Slird",
       "system": {
-        "notes": "<p>This fruit is found chiefly in hot and humid climates, especially in jungles and rainforests, and is best known in south-western Endor.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is prepared as a paste.</p><p>Level 2C nerve poison acting within 1–2 rounds. It can remove all sensation from several extremities for weeks.</p>"
+        "notes": "<p>Slird is an extraordinarily rare fruit of <strong>humid tropical forests</strong>, especially known in <strong>southwestern Endor</strong>. It can easily be overlooked amid the thick vegetation, and harvesting it requires accurate identification.</p>\n<p>The fruit yields a paste that acts very quickly, within <strong>1–2 rounds</strong>. It may deprive the victim of all sensation in <strong>one to six extremities</strong> for <strong>1–100 days</strong>. This loss of sensation is the most severe special effect listed for Slird in RMU; the Resistance Roll determines the gravity of the poisoning.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Nerveux"
     ],
     "en": [
+      "Poisons",
       "Nerve"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-nerveux"
   ]
 }

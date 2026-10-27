@@ -1,0 +1,377 @@
+/* ========================================================================= */
+/* MERP UI 1.0.0 — Palette centrale MERP                                    */
+/* ========================================================================= */
+
+/*
+ * Version 1.0 :
+ * toutes les couleurs principales du thème sont centralisées dans des
+ * variables --merp-* puis réinjectées dans les variables RMU.
+ *
+ * Pour personnaliser le thème, il suffit désormais de modifier cette palette.
+ */
+
+:root {
+  /* Palette structurelle */
+  --merp-black: #161616;
+  --merp-charcoal: #242424;
+  --merp-slate-dark: #333333;
+  --merp-slate: #4a4a4a;
+  --merp-steel-dark: #5f5f5f;
+  --merp-steel: #787878;
+  --merp-silver-dark: #9a9a9a;
+  --merp-silver: #b8b8b8;
+  --merp-pearl: #d8d8d8;
+  --merp-paper: #f4f4f4;
+  --merp-white: #fafafa;
+
+  /* Accents sobres */
+  --merp-gold: #a27b39;
+  --merp-ink: #202020;
+  --merp-muted: #666666;
+
+  /* Surfaces */
+  --merp-surface-0: var(--merp-black);
+  --merp-surface-1: var(--merp-charcoal);
+  --merp-surface-2: var(--merp-slate-dark);
+  --merp-surface-3: var(--merp-slate);
+  --merp-border-dark: var(--merp-steel-dark);
+  --merp-border: var(--merp-steel);
+  --merp-border-light: var(--merp-silver);
+  --merp-text: var(--merp-paper);
+  --merp-text-strong: var(--merp-white);
+  --merp-text-muted: var(--merp-silver-dark);
+}
+
+/* Palette monochrome RMU construite à partir des variables MERP */
+body.game.system-rmu.theme-dark,
+body.game.system-rmu.theme-dark.theme-spell-law {
+  --rmu-accent-color1-050: var(--merp-paper) !important;
+  --rmu-accent-color1-100: #e5e5e5 !important;
+  --rmu-accent-color1-200: #d2d2d2 !important;
+  --rmu-accent-color1-300: var(--merp-silver) !important;
+  --rmu-accent-color1-400: #a3a3a3 !important;
+  --rmu-accent-color1-500: #888888 !important;
+  --rmu-accent-color1-600: #707070 !important;
+  --rmu-accent-color1-700: #5a5a5a !important;
+  --rmu-accent-color1-800: #444444 !important;
+  --rmu-accent-color1-900: #303030 !important;
+  --rmu-accent-color1-1000: #1d1d1d !important;
+
+  --rmu-accent-color2-050: var(--merp-white) !important;
+  --rmu-accent-color2-100: #ececec !important;
+  --rmu-accent-color2-200: var(--merp-pearl) !important;
+  --rmu-accent-color2-300: #c2c2c2 !important;
+  --rmu-accent-color2-400: #aaaaaa !important;
+  --rmu-accent-color2-500: #919191 !important;
+  --rmu-accent-color2-600: var(--merp-steel) !important;
+  --rmu-accent-color2-700: #626262 !important;
+  --rmu-accent-color2-800: #4c4c4c !important;
+  --rmu-accent-color2-900: #373737 !important;
+  --rmu-accent-color2-1000: var(--merp-charcoal) !important;
+
+  --rmu-accent-color1-base: #888888 !important;
+  --rmu-accent-color2-base: #919191 !important;
+
+  --rmu-background-canvas: var(--merp-surface-0) !important;
+  --rmu-background-card: var(--merp-surface-2) !important;
+  --rmu-background-card-wrapper: var(--merp-surface-3) !important;
+  --rmu-background-card-wrapper-legend: var(--merp-steel-dark) !important;
+  --rmu-background-button: var(--merp-steel) !important;
+  --rmu-background-button-active: #626262 !important;
+  --rmu-background-option-hover: #444444 !important;
+  --rmu-background-hr: #d2d2d2 !important;
+
+  --rmu-background-level1: #444444 !important;
+  --rmu-background-level2: #1d1d1d !important;
+  --rmu-background-level3: #303030 !important;
+
+  --rmu-border: #a3a3a3 !important;
+  --rmu-image-border: var(--merp-silver) !important;
+  --rmu-input-border: #888888 !important;
+  --rmu-selected-border: var(--merp-silver) !important;
+  --rmu-scrollbar-color: #707070 !important;
+  --rmu-table-row-border: #5a5a5a !important;
+  --rmu-table-row-selected: #5a5a5a !important;
+  --rmu-box-shadow: #a3a3a3 !important;
+
+  --rmu-action-background: #626262 !important;
+  --rmu-action-border: var(--merp-pearl) !important;
+  --rmu-action-icon: var(--merp-pearl) !important;
+  --rmu-note-background: #626262 !important;
+  --rmu-content-link-background: #626262 !important;
+  --rmu-color-shadow: #c2c2c2 !important;
+
+  --rmu-chat-primary-background-level1: #303030 !important;
+  --rmu-chat-secondary-background-level1: #373737 !important;
+  --rmu-chat-primary-background-level2: #1d1d1d !important;
+  --rmu-chat-secondary-background-level2: var(--merp-charcoal) !important;
+  --rmu-chat-primary-background-level3: #303030 !important;
+  --rmu-chat-secondary-background-level3: #373737 !important;
+  --rmu-chat-whisper-background: #373737 !important;
+  --rmu-chat-sidebar-primary-background: #707070 !important;
+  --rmu-chat-sidebar-secondary-background: var(--merp-steel) !important;
+  --rmu-chat-message-sender: #a3a3a3 !important;
+  --rmu-chat-image-background: #a3a3a3 !important;
+  --rmu-chat-image-border: #707070 !important;
+
+  --rmu-combat-window-header-background: #303030 !important;
+  --rmu-combat-header-background: #444444 !important;
+  --rmu-combat-control-button-background: #303030 !important;
+  --rmu-combat-control-button-border: var(--merp-pearl) !important;
+  --rmu-token-background: #444444 !important;
+  --rmu-prose-editor-background: #444444 !important;
+  --rmu-prose-editor-button-background-active: #707070 !important;
+  --rmu-tab-background-ribbon: #373737 !important;
+  --rmu-tab-active-ribbon: var(--merp-white) !important;
+  --rmu-tab-inactive-ribbon: var(--merp-pearl) !important;
+  --rmu-tab-sidebar-text: var(--merp-white) !important;
+  --rmu-text-hyperlink: var(--merp-pearl) !important;
+}
+
+/* Sécurité contre les variables inline injectées par RMU */
+html body.game.system-rmu.theme-dark {
+  --rmu-accent-color1-base: #888888 !important;
+  --rmu-accent-color2-base: #919191 !important;
+}
+
+/* Accent doré MERP réservé aux éléments explicitement thémés */
+.merp-ui-gold-accent {
+  color: var(--merp-gold) !important;
+  border-color: var(--merp-gold) !important;
+}
+
+
+/* CLEAN-37d — Badge « Pro » : géométrie compacte native RMU conservée,
+   couleurs harmonisées avec les badges « RS » et « RM » de CLEAN-37c.
+   Sélecteurs sans dépendance à .rmu-skills-table. */
+.rmu-profession-skill-marker,
+.rmu-appv2-sheet span.rmu-profession-skill-marker,
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor span.rmu-profession-skill-marker,
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor span.rmu-profession-skill-marker.merp-ui-grey-surface-soft {
+  display: inline !important;
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 0.4375rem !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  white-space: nowrap !important;
+  background: #666666 !important;
+  color: #f0f0f0 !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  padding: 2px !important;
+  margin-left: 2px !important;
+  vertical-align: middle !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+
+/* CLEAN-37c — Badges de royaume RMU (« RS » / « RM ») compacts,
+   harmonisés avec la palette grise MERP-UI. On conserve leur petite
+   géométrie native RMU (7 px / Roboto) tout en remplaçant le violet
+   par un gris foncé et un texte gris clair plus cohérent avec la feuille. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor span[class*="realm"][class*="marker"],
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor span[class*="realm"][class*="marker"].merp-ui-grey-surface-soft {
+  display: inline !important;
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 7px !important;
+  font-weight: 400 !important;
+  line-height: 9.8px !important;
+  white-space: nowrap !important;
+  background: #666666 !important;
+  color: #f0f0f0 !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  padding: 2px !important;
+  margin-left: 2px !important;
+  vertical-align: middle !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 1.1.3 — Nom anglais original dans les infobulles de compétences */
+/* ------------------------------------------------------------------------- */
+
+:is(#tooltip, .locked-tooltip, .rmu-tooltip, .rmu-skill-tooltip, [role="tooltip"])
+  .merp-ui-tooltip-original-name {
+  display: block !important;
+  width: 100% !important;
+  margin: .55rem 0 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  text-align: right !important;
+  font-size: .62rem !important;
+  line-height: 1.15 !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  letter-spacing: .01em !important;
+  color: var(--merp-tooltip-fg, #e6e1d7) !important;
+  opacity: .68 !important;
+  white-space: normal !important;
+}
+
+/* MERP UI 1.2.0 — Infobulles des Catégories de Compétences */
+:is(#tooltip, .locked-tooltip, .rmu-tooltip, [role="tooltip"])
+  .merp-ui-category-tooltip-description {
+  white-space: normal !important;
+  line-height: 1.28 !important;
+}
+
+/* ------------------------------------------------------------------------- */
+/* MERP UI 1.2.4 — Hauteurs homogènes des lignes de Compétences             */
+/* ------------------------------------------------------------------------- */
+
+/* Lignes ordinaires : une hauteur constante et un centrage vertical net. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-drag-skill {
+  height: 34px !important;
+  min-height: 34px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-drag-skill > td {
+  height: 34px !important;
+  min-height: 34px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  vertical-align: middle !important;
+  line-height: 1.15 !important;
+  box-sizing: border-box !important;
+}
+
+/* En-têtes de Catégories : bande plus haute, cohérente avec les compétences. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-skill-group {
+  height: 30px !important;
+  min-height: 30px !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-skill-group > td {
+  height: 30px !important;
+  min-height: 30px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  vertical-align: middle !important;
+  line-height: 1.1 !important;
+  box-sizing: border-box !important;
+}
+
+/* Le libellé de catégorie reste lisible sans modifier sa typographie. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.rmu-skills-table tbody > tr.rmu-skill-group > td:nth-child(3) {
+  white-space: normal !important;
+}
+
+
+/* Liens de documents et jets intégrés dans les Journaux :
+   fond gris clair contrasté, texte noir et survol renforcé. */
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .merp-ui-journal
+) :is(a.content-link, a.inline-roll) {
+  color: #171717 !important;
+  background: #d2d2d2 !important;
+  border: 1px solid #8a8a8a !important;
+  border-radius: 4px !important;
+  padding: 1px 5px !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .merp-ui-journal
+) :is(a.content-link, a.inline-roll):hover {
+  color: #000000 !important;
+  background: #bcbcbc !important;
+  border-color: #656565 !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .08) !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page,
+  .merp-ui-journal
+) :is(a.content-link, a.inline-roll) i {
+  color: #4a4a4a !important;
+}
+
+/* MERP-RMU rules journals */
+.merp-rmu-rules .merp-rmu-rule-summary {
+  border: 1px solid rgba(92, 66, 34, 0.55);
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  margin: 0.6rem 0 1.2rem;
+  background: rgba(114, 85, 45, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.18);
+}
+.merp-rmu-rules .merp-rmu-rule-summary h2 { margin-top: 0; }
+.merp-rmu-rules table { width: 100%; margin: 0.65rem 0 1rem; border-collapse: collapse; }
+.merp-rmu-rules th, .merp-rmu-rules td { padding: 0.35rem 0.5rem; vertical-align: top; }
+.merp-rmu-rules .merp-rmu-source { font-size: 0.92em; opacity: 0.82; }
+
+/* MERP-RMU magic automation */
+.merp-rmu-command-word-note {
+  margin-top: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border-left: 3px solid var(--color-border-highlight, #9f8a5a);
+  background: rgba(0, 0, 0, 0.14);
+  font-size: 0.9em;
+  line-height: 1.25;
+}
+.merp-rmu-magic-card {
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(145, 120, 70, 0.7);
+  border-radius: 4px;
+}
+.merp-rmu-magic-card h3 { margin: 0 0 0.45rem; }
+.merp-rmu-magic-card p { margin: 0.3rem 0; }
+.merp-rmu-shadow-alert { font-weight: 700; }
+.merp-rmu-corruption-check {
+  margin-top: 0.45rem;
+  width: 100%;
+}
+
+/* MERP-RMU — Corruption on RMU Actor Conditions tab */
+.merp-rmu-corruption-row {
+  margin-top: 0.15rem;
+}
+.merp-rmu-corruption-row .merp-rmu-corruption-spinner {
+  width: 4.4rem;
+  min-width: 4.4rem;
+}
+.merp-rmu-corruption-row .merp-rmu-corruption-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+}
+.merp-rmu-corruption-row .merp-rmu-corruption-status {
+  margin-left: auto;
+  padding: 0.08rem 0.35rem;
+  border: 1px solid rgba(92, 66, 34, 0.45);
+  border-radius: 999px;
+  font-size: 0.78em;
+  line-height: 1.2;
+  opacity: 0.82;
+  white-space: nowrap;
+}
+
+

@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "U",
@@ -44,7 +44,7 @@
       "prep": "liquid",
       "season": "",
       "cost": "88gp",
-      "notes": "<p>Ce cristal se rencontre surtout dans les régions au climat glacial, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison de conversion de niveau 2. En cas d’échec au Jet de Résistance, le contenu de l’estomac se transforme en éclats de verre acérés et la mort survient en quelques rounds. Il est sans effet sur un estomac vide.</p>",
+      "notes": "<p>Le Rûthin est extrait d'une <strong>substance cristalline</strong> provenant de cavités souterraines particulièrement froides du nord-ouest d'Endor. Son aspect minéral le distingue des poisons végétaux : il faut localiser le dépôt, reconnaître le cristal et disposer ensuite d'une préparation liquide utilisable.</p>\n<p>Ses effets sont redoutables lorsqu'il atteint l'estomac. Après un échec au Jet de Résistance, <strong>le contenu de celui-ci se transforme en éclats de verre tranchants</strong> ; la mort peut alors survenir <strong>en quelques rounds</strong>. Le texte de référence précise cependant que <strong>le Rûthin reste sans effet si l'estomac est vide</strong>. Cette condition doit être examinée au moment de l'exposition, car elle détermine l'application de sa propriété particulière.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Rûthin",
       "system": {
-        "notes": "<p>Ce cristal se rencontre surtout dans les régions au climat glacial, notamment dans les milieux souterrains, et elle est surtout connue dans le Nord-Ouest d’Endor.</p><p>Dans un milieu favorable, elle reste extrêmement difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est préparée sous forme liquide.</p><p>Poison de conversion de niveau 2. En cas d’échec au Jet de Résistance, le contenu de l’estomac se transforme en éclats de verre acérés et la mort survient en quelques rounds. Il est sans effet sur un estomac vide.</p>"
+        "notes": "<p>Le Rûthin est extrait d'une <strong>substance cristalline</strong> provenant de cavités souterraines particulièrement froides du nord-ouest d'Endor. Son aspect minéral le distingue des poisons végétaux : il faut localiser le dépôt, reconnaître le cristal et disposer ensuite d'une préparation liquide utilisable.</p>\n<p>Ses effets sont redoutables lorsqu'il atteint l'estomac. Après un échec au Jet de Résistance, <strong>le contenu de celui-ci se transforme en éclats de verre tranchants</strong> ; la mort peut alors survenir <strong>en quelques rounds</strong>. Le texte de référence précise cependant que <strong>le Rûthin reste sans effet si l'estomac est vide</strong>. Cette condition doit être examinée au moment de l'exposition, car elle détermine l'application de sa propriété particulière.</p>"
       }
     },
     "en": {
       "name": "Rûthin",
       "system": {
-        "notes": "<p>This crystal is found chiefly in frigid climates, especially in underground environments, and is best known in north-western Endor.</p><p>Even in suitable terrain, it remains extremely hard to find.</p><p>To obtain its properties, it is prepared in liquid form.</p><p>Level 2 conversion poison. On a failed Resistance Roll, the contents of the stomach turn into jagged shards of glass and death follows within a few rounds. It has no effect on an empty stomach.</p>"
+        "notes": "<p>Rûthin is extracted from a <strong>crystalline substance</strong> occurring in exceptionally cold underground cavities of northwestern Endor. Its mineral origin distinguishes it from herbal poisons: the deposit must be located, the crystal identified, and a usable liquid preparation obtained.</p>\n<p>Its effects are particularly dreadful when it reaches the stomach. After a failed Resistance Roll, <strong>the stomach's contents turn into sharp shards of glass</strong>, and death may follow <strong>within a few rounds</strong>. The source specifies, however, that <strong>Rûthin has no effect when the stomach is empty</strong>. This condition must be checked at the time of exposure, since it governs the poison's special effect.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Conversion"
     ],
     "en": [
+      "Poisons",
       "Conversion"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-conversion"
   ]
 }

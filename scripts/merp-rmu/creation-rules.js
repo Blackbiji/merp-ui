@@ -58,26 +58,33 @@ const MERP_PRIME_STATS = new Map([
 ]);
 
 
+// MERP-UI managed keys have priority over localized display names. Keep the
+// historical technical identities unchanged: RMU stores these strings in Items.
+const PROFESSION_TECHNICAL_KEYS_BY_MANAGED_KEY = new Map([
+  ["alchemist", "Alchemist"],
+  ["magician", "Magician"],
+  ["lay-healer", "Soigneur"],
+  ["animist", "Animist"],
+  ["ranger", "Rôdeur"],
+  ["bard", "Bard"],
+  ["seer", "Seer"],
+  ["astrologer", "Astrologer"],
+  ["razak-zinul", "Razak-zinul"],
+  ["kekhavra", "Kekhavra"],
+  ["sorcerer", "Sorcier"],
+  ["vracara", "Vracara"],
+  ["wegech", "Wegech"],
+  ["drughan", "Drughân"],
+  ["herutano", "Herutano"],
+  ["honnin-priest", "Honnin Priest"]
+]);
+
 export function expectedProfessionTechnicalKey(item, managedKey = null) {
   if (!item || item.type !== "profession") return null;
   const key = managedKey ?? item.getFlag?.("merp-ui", "key");
-  if (key === "alchemist") return "Alchemist";
-  if (key === "magician") return "Magician";
-  if (key === "lay-healer") return "Soigneur";
-  if (key === "animist") return "Animist";
-  if (key === "ranger") return "Rôdeur";
-  if (key === "bard") return "Bard";
-  if (key === "seer") return "Seer";
-  if (key === "astrologer") return "Astrologer";
-  if (key === "razak-zinul") return "Razak-zinul";
-  if (key === "kekhavra") return "Kekhavra";
-  if (key === "sorcerer") return "Sorcier";
-  if (key === "vracara") return "Vracara";
-  if (key === "wegech") return "Wegech";
-  if (key === "drughan") return "Drughân";
-  if (key === "herutano") return "Herutano";
-  if (key === "honnin-priest") return "Honnin Priest";
-  return PROFESSION_TECHNICAL_KEYS.get(item.name) ?? null;
+  return PROFESSION_TECHNICAL_KEYS_BY_MANAGED_KEY.get(key)
+    ?? PROFESSION_TECHNICAL_KEYS.get(item.name)
+    ?? null;
 }
 
 export function merpPrimeStatsForProfession(profession) {

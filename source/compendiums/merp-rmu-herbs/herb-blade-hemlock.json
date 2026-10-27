@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "F",
@@ -44,7 +44,7 @@
       "prep": "inject",
       "season": "",
       "cost": "58gp",
-      "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison musculaire de niveau 6 préparé avec de la ciguë et du Curulot. Un échec modéré provoque une incapacité de plusieurs heures ; un échec plus sévère entraîne la mort en quelques rounds.</p>",
+      "notes": "<p>La Ciguë-Lame est une préparation élaborée à partir de <strong>ciguë et de Curulot</strong>, associés dans les données d'origine aux <strong>rives d'eau douce des régions tempérées</strong>. Le poison utilisable est une préparation, et non une pâte qui pousserait naturellement au bord de l'eau. Il est destiné à être <strong>introduit dans l'organisme par injection</strong>.</p>\n<p>Lorsqu'il agit, il peut provoquer une <strong>incapacité musculaire durant plusieurs heures</strong>, empêchant la victime d'utiliser normalement son corps. Un échec plus important au Jet de Résistance entraîne une dégradation beaucoup plus rapide de ses fonctions vitales et peut causer la <strong>mort en quelques rounds</strong>. La distinction entre incapacité prolongée et issue fatale dépend de la gravité de l'échec.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Ciguë-Lame (Blade Hemlock)",
       "system": {
-        "notes": "<p>Cette pâte se rencontre surtout dans les régions au climat tempéré doux, notamment dans les berges et rivages d’eau douce.</p><p>Dans un milieu favorable, elle reste très difficile à trouver.</p><p>Pour en tirer ses propriétés, elle est introduite par injection.</p><p>Poison musculaire de niveau 6 préparé avec de la ciguë et du Curulot. Un échec modéré provoque une incapacité de plusieurs heures ; un échec plus sévère entraîne la mort en quelques rounds.</p>"
+        "notes": "<p>La Ciguë-Lame est une préparation élaborée à partir de <strong>ciguë et de Curulot</strong>, associés dans les données d'origine aux <strong>rives d'eau douce des régions tempérées</strong>. Le poison utilisable est une préparation, et non une pâte qui pousserait naturellement au bord de l'eau. Il est destiné à être <strong>introduit dans l'organisme par injection</strong>.</p>\n<p>Lorsqu'il agit, il peut provoquer une <strong>incapacité musculaire durant plusieurs heures</strong>, empêchant la victime d'utiliser normalement son corps. Un échec plus important au Jet de Résistance entraîne une dégradation beaucoup plus rapide de ses fonctions vitales et peut causer la <strong>mort en quelques rounds</strong>. La distinction entre incapacité prolongée et issue fatale dépend de la gravité de l'échec.</p>"
       }
     },
     "en": {
       "name": "Blade Hemlock",
       "system": {
-        "notes": "<p>This paste is found chiefly in mild temperate climates, especially in freshwater banks and shores.</p><p>Even in suitable terrain, it remains very hard to find.</p><p>To obtain its properties, it is injected.</p><p>Level 6 muscle poison prepared from hemlock and Curulot. A moderate failure causes incapacity for several hours; a more severe failure causes death within a few rounds.</p>"
+        "notes": "<p>Blade Hemlock is a preparation combining <strong>hemlock and Curulot</strong>, which the source associates with <strong>freshwater banks in temperate regions</strong>. The usable poison is a prepared mixture, not a paste growing naturally beside a stream. It is intended to enter the body <strong>by injection</strong>.</p>\n<p>Once effective, it can cause <strong>muscular incapacity lasting several hours</strong>, preventing the victim from using the body normally. A more serious failure on the Resistance Roll brings a far more rapid breakdown of vital functions and may lead to <strong>death within a few rounds</strong>. The distinction between prolonged incapacity and a fatal outcome depends on how badly the roll is failed.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Musculaires"
     ],
     "en": [
+      "Poisons",
       "Muscle"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-musculaires"
   ]
 }

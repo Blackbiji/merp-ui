@@ -79,6 +79,51 @@ export function localizedHerbJournalPayload(data, language = contentLanguage()) 
   return payload;
 }
 
+/** Refresh the existing World guide without deleting its Journal or page IDs.
+ * In earlier versions, localizing the guide deleted/recreated the Journal on
+ * each language switch. Existing @UUID links must remain stable instead.
+ */
+async function updateWorldHerbGuideInPlace(existingJournal, payload, { context = "localization" } = {}) {
+  const options = {
+    render: false,
+    merpUiHerbGuideRefresh: true,
+    ...(context === "install"
+      ? { merpUiHerbInstall: true }
+      : { merpUiHerbLocalizationRefresh: true })
+  };
+  const wantedFolder = payload.folder?.id ?? payload.folder ?? null;
+  const currentFolder = existingJournal.folder?.id ?? existingJournal.folder ?? null;
+  const patch = {};
+  if (existingJournal.name !== payload.name) patch.name = payload.name;
+  if (wantedFolder !== currentFolder) patch.folder = wantedFolder;
+  if (Object.keys(patch).length) await existingJournal.update(patch, options);
+
+  const existingPages = existingJournal.pages?.contents ?? [];
+  const wantedPages = payload.pages ?? [];
+  // Source pages have a fixed sort order. Preserve every old ID and any
+  // extra pages added by a GM; only create pages when an old install lacks one.
+  const patches = [];
+  const missing = [];
+  for (let i = 0; i < wantedPages.length; i += 1) {
+    const wanted = wantedPages[i];
+    const current = existingPages[i];
+    if (!current) { missing.push(wanted); continue; }
+    const update = { _id: current.id };
+    if (wanted.name && current.name !== wanted.name) update.name = wanted.name;
+    if (wanted.text?.content != null && current.text?.content !== wanted.text.content) {
+      update["text.content"] = wanted.text.content;
+    }
+    if (Object.keys(update).length > 1) patches.push(update);
+  }
+  if (patches.length) {
+    await existingJournal.updateEmbeddedDocuments("JournalEntryPage", patches, options);
+  }
+  if (missing.length) {
+    await existingJournal.createEmbeddedDocuments("JournalEntryPage", missing, options);
+  }
+  return { updatedPages: patches.length, createdPages: missing.length };
+}
+
 export async function refreshMerpRmuHerbJournalLocalization(data, { herbItemsByKey = null } = {}) {
   if (!data?.journal?.document) return { skipped: true, reason: "no-journal" };
 
@@ -136,8 +181,7 @@ export async function refreshMerpRmuHerbJournalLocalization(data, { herbItemsByK
     }
   }
 
-  await existingJournal.delete({ merpUiHerbLocalizationRefresh: true });
-  await JournalEntry.create(payload, { merpUiHerbLocalizationRefresh: true });
+  await updateWorldHerbGuideInPlace(existingJournal, payload);
 
   return {
     language,
@@ -304,12 +348,6 @@ export async function installMerpRmuHerbs({ force = false, notify = false } = {}
       journal.getFlag?.(MODULE_ID, "key") === data.journal.key &&
       journal.getFlag?.(MODULE_ID, "collection") === "merp-rmu-herb-rules"
     );
-    if (existingJournal) {
-      await existingJournal.delete({ merpUiHerbInstall: true });
-      journalUpdated = 1;
-    } else {
-      journalCreated = 1;
-    }
     const journalPayload = localizedHerbJournalPayload(data, language);
     journalPayload.folder = rulesFolder.id;
     for (const page of journalPayload.pages ?? []) {
@@ -317,7 +355,13 @@ export async function installMerpRmuHerbs({ force = false, notify = false } = {}
         page.text.content = resolveHerbLinks(page.text.content);
       }
     }
-    await JournalEntry.create(journalPayload, { merpUiHerbInstall: true });
+    if (existingJournal) {
+      await updateWorldHerbGuideInPlace(existingJournal, journalPayload, { context: "install" });
+      journalUpdated = 1;
+    } else {
+      await JournalEntry.create(journalPayload, { merpUiHerbInstall: true });
+      journalCreated = 1;
+    }
 
     // Nettoie l’ancien emplacement créé par les premières versions du guide des Herbes.
     // On ne supprime que des dossiers devenus totalement vides.

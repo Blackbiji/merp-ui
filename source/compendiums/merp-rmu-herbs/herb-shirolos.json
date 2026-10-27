@@ -35,7 +35,7 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
       "biome": "H",
@@ -44,7 +44,7 @@
       "prep": "ingest",
       "season": "",
       "cost": "84gp",
-      "notes": "<p>Ce liquide se rencontre surtout dans les régions au climat tempéré doux, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10, distillation de Sweet Galenas et de vin blanc. Il provoque une somnolence extrême ou un état de transe suggestible pouvant durer des dizaines d’heures.</p><p>Un usage répété peut créer une accoutumance.</p>",
+      "notes": "<p>Le Shirolos est une <strong>préparation distillée</strong>, associant le <strong>Sweet Galenas</strong> et le <strong>vin blanc</strong>. Les données de notre adaptation le rattachent aux régions tempérées de landes et de broussailles, mais sa rareté tient également au savoir nécessaire pour obtenir le produit fini.</p>\n<p>Ce poison respiratoire agit principalement sur <strong>l'état de conscience</strong>. La victime peut sombrer dans une <strong>somnolence extrême</strong> ou entrer dans une <strong>transe durant laquelle elle devient particulièrement suggestible</strong>. Ces manifestations peuvent persister pendant <strong>plusieurs dizaines d'heures</strong>. Le corpus signale aussi un <strong>risque d'accoutumance en cas d'usage répété</strong>. La gravité des effets dépend du Jet de Résistance de niveau 10.</p>",
       "addictionFactor": 10,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Shirolos",
       "system": {
-        "notes": "<p>Ce liquide se rencontre surtout dans les régions au climat tempéré doux, notamment dans les landes, broussailles et bruyères.</p><p>Dans un milieu favorable, elle reste presque introuvable.</p><p>Pour en tirer ses propriétés, elle se consomme directement.</p><p>Poison respiratoire de niveau 10, distillation de Sweet Galenas et de vin blanc. Il provoque une somnolence extrême ou un état de transe suggestible pouvant durer des dizaines d’heures.</p><p>Un usage répété peut créer une accoutumance.</p>"
+        "notes": "<p>Le Shirolos est une <strong>préparation distillée</strong>, associant le <strong>Sweet Galenas</strong> et le <strong>vin blanc</strong>. Les données de notre adaptation le rattachent aux régions tempérées de landes et de broussailles, mais sa rareté tient également au savoir nécessaire pour obtenir le produit fini.</p>\n<p>Ce poison respiratoire agit principalement sur <strong>l'état de conscience</strong>. La victime peut sombrer dans une <strong>somnolence extrême</strong> ou entrer dans une <strong>transe durant laquelle elle devient particulièrement suggestible</strong>. Ces manifestations peuvent persister pendant <strong>plusieurs dizaines d'heures</strong>. Le corpus signale aussi un <strong>risque d'accoutumance en cas d'usage répété</strong>. La gravité des effets dépend du Jet de Résistance de niveau 10.</p>"
       }
     },
     "en": {
       "name": "Shirolos",
       "system": {
-        "notes": "<p>This liquid is found chiefly in mild temperate climates, especially in heaths, scrublands, and moors.</p><p>Even in suitable terrain, it remains almost impossible to find.</p><p>To obtain its properties, it is consumed directly.</p><p>Level 10 respiratory poison distilled from Sweet Galenas and white wine. It causes extreme drowsiness or a suggestible trance that can last for dozens of hours.</p><p>Repeated use can lead to habituation.</p>"
+        "notes": "<p>Shirolos is a <strong>distilled preparation</strong> combining <strong>Sweet Galenas</strong> and <strong>white wine</strong>. The adaptation associates it with temperate heaths and scrublands, although its rarity also reflects the specialized knowledge needed to produce the finished substance.</p>\n<p>This respiratory poison chiefly affects <strong>consciousness</strong>. The victim may fall into <strong>extreme drowsiness</strong>, or enter a <strong>trance in which they become unusually suggestible</strong>. Such effects may last <strong>many tens of hours</strong>. The corpus also records <strong>addiction risk after repeated use</strong>. Their severity depends on the level 10 Resistance Roll.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Respiratoires"
     ],
     "en": [
+      "Poisons",
       "Respiratory"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-respiratoires"
   ]
 }

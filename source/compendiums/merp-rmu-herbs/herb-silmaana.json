@@ -35,16 +35,16 @@
       "stackable": true,
       "stackType": "",
       "quantity": 1,
-      "weight": 0.25,
+      "weight": 0.5,
       "weightUnit": "oz",
       "equipped": "carried",
-      "biome": "T",
+      "biome": "P",
       "findDifficulty": "Easy",
       "form": "Stalk",
       "prep": "powder",
       "season": "",
       "cost": "4gp",
-      "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré doux, notamment dans les hautes herbes.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison de réduction de niveau 9C. Cette poudre argentée marque et cicatrise la peau, inflige 2 à 20 points de vie et peut provoquer des effets modérés.</p>",
+      "notes": "<p>La Silmaana pousse dans les <strong>prairies et les steppes</strong>, où ses tiges peuvent être recueillies par un chercheur connaissant l'espèce. Sa facilité relative de récolte contraste avec la gravité de ses effets lorsqu'elle est préparée comme poison.</p>\n<p>Les tiges fournissent une <strong>poudre argentée</strong> qui endommage la peau et laisse des <strong>cicatrices</strong>. Elle inflige immédiatement <strong>2 à 20 points de dégâts</strong>. Les autres manifestations de l'intoxication relèvent des poisons de réduction, mais la table RMU précise qu'elles restent limitées à une <strong>gravité modérée</strong>. Les blessures cutanées et les dégâts immédiats demeurent applicables en cas d'échec au Jet de Résistance.</p>",
       "addictionFactor": 0,
       "effects": [],
       "table": "",
@@ -55,25 +55,28 @@
     "fr": {
       "name": "Silmaana",
       "system": {
-        "notes": "<p>Cette tige se rencontre surtout dans les régions au climat tempéré doux, notamment dans les hautes herbes.</p><p>Dans un milieu favorable, elle reste facile à trouver.</p><p>Pour en tirer ses propriétés, elle est réduite en poudre.</p><p>Poison de réduction de niveau 9C. Cette poudre argentée marque et cicatrise la peau, inflige 2 à 20 points de vie et peut provoquer des effets modérés.</p>"
+        "notes": "<p>La Silmaana pousse dans les <strong>prairies et les steppes</strong>, où ses tiges peuvent être recueillies par un chercheur connaissant l'espèce. Sa facilité relative de récolte contraste avec la gravité de ses effets lorsqu'elle est préparée comme poison.</p>\n<p>Les tiges fournissent une <strong>poudre argentée</strong> qui endommage la peau et laisse des <strong>cicatrices</strong>. Elle inflige immédiatement <strong>2 à 20 points de dégâts</strong>. Les autres manifestations de l'intoxication relèvent des poisons de réduction, mais la table RMU précise qu'elles restent limitées à une <strong>gravité modérée</strong>. Les blessures cutanées et les dégâts immédiats demeurent applicables en cas d'échec au Jet de Résistance.</p>"
       }
     },
     "en": {
       "name": "Silmaana",
       "system": {
-        "notes": "<p>This stalk is found chiefly in mild temperate climates, especially in tall grasslands.</p><p>Even in suitable terrain, it remains easy to find.</p><p>To obtain its properties, it is ground into powder.</p><p>Level 9C Reduction poison. This silvery powder marks and scars the skin, inflicts 2–20 concussion hits, and can cause moderate general effects.</p>"
+        "notes": "<p>Silmaana grows in <strong>grasslands and steppes</strong>, where someone familiar with the species can gather its stalks. The relative ease of finding the plant contrasts with the severity of its effects when prepared as a poison.</p>\n<p>The stalks yield a <strong>silvery powder</strong> that damages the skin and leaves <strong>scars</strong>. It immediately inflicts <strong>2–20 concussion hits</strong>. Other symptoms are those of reduction poisons, although the RMU table limits them to <strong>moderate severity</strong>. Skin damage and the immediate hits still apply after a failed Resistance Roll.</p>"
       }
     }
   },
   "compendiumFolderPath": {
     "fr": [
+      "Poisons",
       "Réduction"
     ],
     "en": [
+      "Poisons",
       "Reduction"
     ]
   },
   "compendiumFolderKeyPath": [
+    "poisons",
     "poison-reduction"
   ]
 }

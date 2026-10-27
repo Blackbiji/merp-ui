@@ -127,7 +127,18 @@
                     ]
                   },
                   "descriptionFormat": "html",
-                  "raceCanonicalKey": "race-dunedain"
+                  "raceCanonicalKey": "race-dunedain",
+                  "historicalContext": {
+                    "status": "optional-contextual-profile",
+                    "age": 2,
+                    "labelFr": "Implantations númenóréennes méridionales",
+                    "historicalWindowFr": "IIe Âge, contexte des ports et des seigneuries númenóréennes ; profil optionnel de négociation et pouvoir",
+                    "noteFr": "Profil optionnel MERP-UI ; le Meneur conserve le choix de la répartition à 80 PD en fonction de la date exacte et de sa Terre du Milieu.",
+                    "provenance": "Tolkien historical frame where attested; MERP extrapolation and original MERP-UI skill redistribution",
+                    "labelEn": "Southern Númenórean Settlements",
+                    "historicalWindowEn": "Second Age: Númenórean ports and lordships; optional profile focused on negotiation and authority",
+                    "noteEn": "Optional MERP-UI profile. The Gamemaster remains free to choose an 80 DP allocation appropriate to the exact date and their own Middle-earth."
+                  }
                 }
               },
               "system": {
@@ -139,7 +150,7 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -151,17 +162,17 @@
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Brawn",
@@ -171,79 +182,79 @@
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Weight Training",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Unarmed",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 4,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Composition & Performance Art",
-                    "ranks": 2,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 7,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Piloting",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
                     "specialization": "Own Region",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 15,
+                    "ranks": 8,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
-                    "ranks": 4
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 2
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
@@ -254,59 +265,59 @@
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": -4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Swimming",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 5,
+                    "ranks": 4,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 4
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 1
+                    "ranks": 0
                   }
                 ]
               }
@@ -411,7 +422,7 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -423,17 +434,17 @@
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Brawn",
@@ -443,79 +454,79 @@
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Weight Training",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Unarmed",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 4,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Composition & Performance Art",
-                    "ranks": 2,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 7,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Piloting",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
                     "specialization": "Own Region",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 15,
+                    "ranks": 8,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
-                    "ranks": 4
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 2
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
@@ -526,59 +537,59 @@
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": -4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Swimming",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 5,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 1
+                    "ranks": 0
                   }
                 ]
               }
@@ -683,7 +694,7 @@
                   {
                     "skillCategory": "Animal",
                     "skillName": "Animal Handling",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
@@ -695,17 +706,17 @@
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Perception",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Awareness",
                     "skillName": "Tracking",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Battle Expertise",
                     "skillName": "Maneuvering in Armor",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Brawn",
@@ -715,79 +726,79 @@
                   {
                     "skillCategory": "Brawn",
                     "skillName": "Weight Training",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Unarmed",
-                    "ranks": 1,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Melee Weapons",
-                    "ranks": 4,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Combat Training",
                     "skillGroup": "Ranged Weapons",
-                    "ranks": 2,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Composition & Performance Art",
-                    "ranks": 2,
+                    "ranks": 0,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Crafting & Vocation",
-                    "ranks": 7,
+                    "ranks": 2,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Navigation",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Piloting",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Environmental",
                     "skillName": "Survival",
                     "specialization": "Own Region",
-                    "ranks": 2
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Acrobatics",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Gymnastic",
                     "skillName": "Jumping",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Languages",
-                    "ranks": 15,
+                    "ranks": 8,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Lore",
                     "skillName": "Region Lore",
                     "specialization": "Own",
-                    "ranks": 4
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
-                    "skillName": "Region Lore",
-                    "specialization": "Neighboring",
-                    "ranks": 2
+                    "skillName": "Racial Lore",
+                    "specialization": "Own Culture",
+                    "ranks": 3
                   },
                   {
                     "skillCategory": "Lore",
@@ -798,59 +809,59 @@
                   {
                     "skillCategory": "Lore",
                     "skillGroup": "Other Lores",
-                    "ranks": -4,
+                    "ranks": 1,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Herbalism",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Medical",
                     "skillName": "Medicine",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Climbing",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Running",
-                    "ranks": 2
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Movement",
                     "skillName": "Swimming",
-                    "ranks": 1
+                    "ranks": 0
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Influence",
-                    "ranks": 5,
+                    "ranks": 3,
                     "maxTwoRanksPerSpecialization": true
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Social Awareness",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Social",
                     "skillName": "Trading",
-                    "ranks": 4
+                    "ranks": 2
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Concealment",
-                    "ranks": 3
+                    "ranks": 1
                   },
                   {
                     "skillCategory": "Subterfuge",
                     "skillName": "Stalking",
-                    "ranks": 1
+                    "ranks": 0
                   }
                 ]
               }
@@ -879,12 +890,12 @@
       "book": "MERP-RMU",
       "table": "Conversion RMSS/RMFRP → RMU",
       "culture": "Númenóréens Noirs",
-      "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+      "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
       "cultureRanks": [
         {
           "skillCategory": "Animal",
           "skillName": "Animal Handling",
-          "ranks": 1,
+          "ranks": 0,
           "maxTwoRanksPerSpecialization": true
         },
         {
@@ -896,17 +907,17 @@
         {
           "skillCategory": "Awareness",
           "skillName": "Perception",
-          "ranks": 4
+          "ranks": 2
         },
         {
           "skillCategory": "Awareness",
           "skillName": "Tracking",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Battle Expertise",
           "skillName": "Maneuvering in Armor",
-          "ranks": 4
+          "ranks": 2
         },
         {
           "skillCategory": "Brawn",
@@ -916,79 +927,79 @@
         {
           "skillCategory": "Brawn",
           "skillName": "Weight Training",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Unarmed",
-          "ranks": 1,
+          "ranks": 0,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Melee Weapons",
-          "ranks": 4,
+          "ranks": 3,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Combat Training",
           "skillGroup": "Ranged Weapons",
-          "ranks": 2,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Composition & Performance Art",
-          "ranks": 2,
+          "ranks": 0,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Crafting & Vocation",
-          "ranks": 7,
+          "ranks": 2,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Environmental",
           "skillName": "Navigation",
-          "ranks": 4
+          "ranks": 2
         },
         {
           "skillCategory": "Environmental",
           "skillName": "Piloting",
-          "ranks": 3
+          "ranks": 1
         },
         {
           "skillCategory": "Environmental",
           "skillName": "Survival",
           "specialization": "Own Region",
-          "ranks": 2
+          "ranks": 1
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Acrobatics",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Gymnastic",
           "skillName": "Jumping",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Lore",
           "skillGroup": "Languages",
-          "ranks": 15,
+          "ranks": 8,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Lore",
           "skillName": "Region Lore",
           "specialization": "Own",
-          "ranks": 4
+          "ranks": 3
         },
         {
           "skillCategory": "Lore",
-          "skillName": "Region Lore",
-          "specialization": "Neighboring",
-          "ranks": 2
+          "skillName": "Racial Lore",
+          "specialization": "Own Culture",
+          "ranks": 3
         },
         {
           "skillCategory": "Lore",
@@ -999,59 +1010,59 @@
         {
           "skillCategory": "Lore",
           "skillGroup": "Other Lores",
-          "ranks": -4,
+          "ranks": 1,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Medical",
           "skillName": "Herbalism",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Medical",
           "skillName": "Medicine",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Movement",
           "skillName": "Climbing",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Movement",
           "skillName": "Running",
-          "ranks": 2
+          "ranks": 0
         },
         {
           "skillCategory": "Movement",
           "skillName": "Swimming",
-          "ranks": 1
+          "ranks": 0
         },
         {
           "skillCategory": "Social",
           "skillName": "Influence",
-          "ranks": 5,
+          "ranks": 3,
           "maxTwoRanksPerSpecialization": true
         },
         {
           "skillCategory": "Social",
           "skillName": "Social Awareness",
-          "ranks": 4
+          "ranks": 2
         },
         {
           "skillCategory": "Social",
           "skillName": "Trading",
-          "ranks": 4
+          "ranks": 2
         },
         {
           "skillCategory": "Subterfuge",
           "skillName": "Concealment",
-          "ranks": 3
+          "ranks": 1
         },
         {
           "skillCategory": "Subterfuge",
           "skillName": "Stalking",
-          "ranks": 1
+          "ranks": 0
         }
       ]
     }
@@ -1060,14 +1071,14 @@
     "fr": {
       "name": "Númenóréens Noirs",
       "system": {
-        "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+        "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
         "culture": "Númenóréens Noirs"
       }
     },
     "en": {
       "name": "Black Númenórean",
       "system": {
-        "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, are the descendants of Númenórean colonists, conquerors, and lords who broke with the Valar and the friendship of the Eldar during the Second Age. These King's Men rejected the traditions of the Faithful and turned toward their own idols, the worship of power, or the adoration of Sauron.</p>\n<h2>Appearance</h2>\n<p>Black Númenóreans remain physically very close to other Dúnedain. They are tall, imposing, and powerfully built, with angular features. Their skin is often grey-brown or deeply tanned, their hair black, and their eyes grey. Their life expectancy remains markedly greater than that of Common Men, generally between ninety and one hundred seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>They have never ceased to regard themselves as the true heirs of Númenor. In their eyes, the Faithful are traitors who abandoned human greatness in order to submit to the Valar and the Elves. This conviction fuels an intense rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are rigorously organized. Authority rests on strength of character, birth, wealth, and the ability to impose severe law. Rulers maintain networks of officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
+        "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, descend from Númenórean settlers and lords who turned away from the Valar and renounced friendship with the Eldar during the Second Age. These Unfaithful forsook the traditions of the Faithful in favour of their own ambitions, new idols, or, in some cases, Sauron himself.</p>\n<h2>Appearance</h2>\n<p>In appearance they remain close to other Dúnedain: tall, imposing, and sharp-featured. Their skin is often deeply tanned or grey-brown, their hair black, and their eyes grey. Their lifespan greatly exceeds that of Common Men, generally ranging from ninety to one hundred and seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>The Black Númenóreans still regard themselves as Númenor's rightful heirs. To them, the Faithful betrayed the greatness of Men by submitting to the Valar and the Elves. That belief sustains their bitter rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are governed through strict institutions. Birth, wealth, force of character, and the ability to enforce harsh laws determine authority. Rulers rely on officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
         "culture": "Black Númenórean"
       }
     }
@@ -1145,19 +1156,30 @@
               ]
             },
             "descriptionFormat": "html",
-            "raceCanonicalKey": "race-dunedain"
+            "raceCanonicalKey": "race-dunedain",
+            "historicalContext": {
+              "status": "optional-contextual-profile",
+              "age": 2,
+              "labelFr": "Implantations númenóréennes méridionales",
+              "historicalWindowFr": "IIe Âge, contexte des ports et des seigneuries númenóréennes ; profil optionnel de négociation et pouvoir",
+              "noteFr": "Profil optionnel MERP-UI ; le Meneur conserve le choix de la répartition à 80 PD en fonction de la date exacte et de sa Terre du Milieu.",
+              "provenance": "Tolkien historical frame where attested; MERP extrapolation and original MERP-UI skill redistribution",
+              "labelEn": "Southern Númenórean Settlements",
+              "historicalWindowEn": "Second Age: Númenórean ports and lordships; optional profile focused on negotiation and authority",
+              "noteEn": "Optional MERP-UI profile. The Gamemaster remains free to choose an 80 DP allocation appropriate to the exact date and their own Middle-earth."
+            }
           }
         },
         "system": {
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Númenóréens Noirs",
-          "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+          "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -1169,17 +1191,17 @@
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Brawn",
@@ -1189,79 +1211,79 @@
             {
               "skillCategory": "Brawn",
               "skillName": "Weight Training",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Unarmed",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 4,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Composition & Performance Art",
-              "ranks": 2,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 7,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Piloting",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
               "specialization": "Own Region",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 15,
+              "ranks": 8,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
-              "ranks": 4
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 2
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
@@ -1272,59 +1294,59 @@
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": -4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Swimming",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 5,
+              "ranks": 4,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 4
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 1
+              "ranks": 0
             }
           ]
         }
@@ -1333,14 +1355,14 @@
         "fr": {
           "name": "Númenóréens Noirs",
           "system": {
-            "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+            "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
             "culture": "Númenóréens Noirs"
           }
         },
         "en": {
           "name": "Black Númenórean",
           "system": {
-            "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, are the descendants of Númenórean colonists, conquerors, and lords who broke with the Valar and the friendship of the Eldar during the Second Age. These King's Men rejected the traditions of the Faithful and turned toward their own idols, the worship of power, or the adoration of Sauron.</p>\n<h2>Appearance</h2>\n<p>Black Númenóreans remain physically very close to other Dúnedain. They are tall, imposing, and powerfully built, with angular features. Their skin is often grey-brown or deeply tanned, their hair black, and their eyes grey. Their life expectancy remains markedly greater than that of Common Men, generally between ninety and one hundred seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>They have never ceased to regard themselves as the true heirs of Númenor. In their eyes, the Faithful are traitors who abandoned human greatness in order to submit to the Valar and the Elves. This conviction fuels an intense rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are rigorously organized. Authority rests on strength of character, birth, wealth, and the ability to impose severe law. Rulers maintain networks of officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
+            "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, descend from Númenórean settlers and lords who turned away from the Valar and renounced friendship with the Eldar during the Second Age. These Unfaithful forsook the traditions of the Faithful in favour of their own ambitions, new idols, or, in some cases, Sauron himself.</p>\n<h2>Appearance</h2>\n<p>In appearance they remain close to other Dúnedain: tall, imposing, and sharp-featured. Their skin is often deeply tanned or grey-brown, their hair black, and their eyes grey. Their lifespan greatly exceeds that of Common Men, generally ranging from ninety to one hundred and seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>The Black Númenóreans still regard themselves as Númenor's rightful heirs. To them, the Faithful betrayed the greatness of Men by submitting to the Valar and the Elves. That belief sustains their bitter rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are governed through strict institutions. Birth, wealth, force of character, and the ability to enforce harsh laws determine authority. Rulers rely on officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
             "culture": "Black Númenórean"
           }
         }
@@ -1424,12 +1446,12 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Númenóréens Noirs",
-          "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+          "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -1441,17 +1463,17 @@
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Brawn",
@@ -1461,79 +1483,79 @@
             {
               "skillCategory": "Brawn",
               "skillName": "Weight Training",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Unarmed",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 4,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Composition & Performance Art",
-              "ranks": 2,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 7,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Piloting",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
               "specialization": "Own Region",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 15,
+              "ranks": 8,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
-              "ranks": 4
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 2
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
@@ -1544,59 +1566,59 @@
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": -4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Swimming",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 5,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 1
+              "ranks": 0
             }
           ]
         }
@@ -1605,14 +1627,14 @@
         "fr": {
           "name": "Númenóréens Noirs",
           "system": {
-            "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+            "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
             "culture": "Númenóréens Noirs"
           }
         },
         "en": {
           "name": "Black Númenórean",
           "system": {
-            "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, are the descendants of Númenórean colonists, conquerors, and lords who broke with the Valar and the friendship of the Eldar during the Second Age. These King's Men rejected the traditions of the Faithful and turned toward their own idols, the worship of power, or the adoration of Sauron.</p>\n<h2>Appearance</h2>\n<p>Black Númenóreans remain physically very close to other Dúnedain. They are tall, imposing, and powerfully built, with angular features. Their skin is often grey-brown or deeply tanned, their hair black, and their eyes grey. Their life expectancy remains markedly greater than that of Common Men, generally between ninety and one hundred seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>They have never ceased to regard themselves as the true heirs of Númenor. In their eyes, the Faithful are traitors who abandoned human greatness in order to submit to the Valar and the Elves. This conviction fuels an intense rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are rigorously organized. Authority rests on strength of character, birth, wealth, and the ability to impose severe law. Rulers maintain networks of officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
+            "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, descend from Númenórean settlers and lords who turned away from the Valar and renounced friendship with the Eldar during the Second Age. These Unfaithful forsook the traditions of the Faithful in favour of their own ambitions, new idols, or, in some cases, Sauron himself.</p>\n<h2>Appearance</h2>\n<p>In appearance they remain close to other Dúnedain: tall, imposing, and sharp-featured. Their skin is often deeply tanned or grey-brown, their hair black, and their eyes grey. Their lifespan greatly exceeds that of Common Men, generally ranging from ninety to one hundred and seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>The Black Númenóreans still regard themselves as Númenor's rightful heirs. To them, the Faithful betrayed the greatness of Men by submitting to the Valar and the Elves. That belief sustains their bitter rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are governed through strict institutions. Birth, wealth, force of character, and the ability to enforce harsh laws determine authority. Rulers rely on officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
             "culture": "Black Númenórean"
           }
         }
@@ -1696,12 +1718,12 @@
           "book": "MERP-RMU",
           "table": "Conversion RMSS/RMFRP → RMU",
           "culture": "Númenóréens Noirs",
-          "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+          "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
           "cultureRanks": [
             {
               "skillCategory": "Animal",
               "skillName": "Animal Handling",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
@@ -1713,17 +1735,17 @@
             {
               "skillCategory": "Awareness",
               "skillName": "Perception",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Awareness",
               "skillName": "Tracking",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Battle Expertise",
               "skillName": "Maneuvering in Armor",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Brawn",
@@ -1733,79 +1755,79 @@
             {
               "skillCategory": "Brawn",
               "skillName": "Weight Training",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Unarmed",
-              "ranks": 1,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Melee Weapons",
-              "ranks": 4,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Combat Training",
               "skillGroup": "Ranged Weapons",
-              "ranks": 2,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Composition & Performance Art",
-              "ranks": 2,
+              "ranks": 0,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Crafting & Vocation",
-              "ranks": 7,
+              "ranks": 2,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Navigation",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Piloting",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Environmental",
               "skillName": "Survival",
               "specialization": "Own Region",
-              "ranks": 2
+              "ranks": 1
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Acrobatics",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Gymnastic",
               "skillName": "Jumping",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Lore",
               "skillGroup": "Languages",
-              "ranks": 15,
+              "ranks": 8,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Lore",
               "skillName": "Region Lore",
               "specialization": "Own",
-              "ranks": 4
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
-              "skillName": "Region Lore",
-              "specialization": "Neighboring",
-              "ranks": 2
+              "skillName": "Racial Lore",
+              "specialization": "Own Culture",
+              "ranks": 3
             },
             {
               "skillCategory": "Lore",
@@ -1816,59 +1838,59 @@
             {
               "skillCategory": "Lore",
               "skillGroup": "Other Lores",
-              "ranks": -4,
+              "ranks": 1,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Medical",
               "skillName": "Herbalism",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Medical",
               "skillName": "Medicine",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Climbing",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Running",
-              "ranks": 2
+              "ranks": 0
             },
             {
               "skillCategory": "Movement",
               "skillName": "Swimming",
-              "ranks": 1
+              "ranks": 0
             },
             {
               "skillCategory": "Social",
               "skillName": "Influence",
-              "ranks": 5,
+              "ranks": 3,
               "maxTwoRanksPerSpecialization": true
             },
             {
               "skillCategory": "Social",
               "skillName": "Social Awareness",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Social",
               "skillName": "Trading",
-              "ranks": 4
+              "ranks": 2
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Concealment",
-              "ranks": 3
+              "ranks": 1
             },
             {
               "skillCategory": "Subterfuge",
               "skillName": "Stalking",
-              "ranks": 1
+              "ranks": 0
             }
           ]
         }
@@ -1877,14 +1899,14 @@
         "fr": {
           "name": "Númenóréens Noirs",
           "system": {
-            "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, appelés Mornúmenedain en sindarin, sont les descendants des colons, conquérants et seigneurs númenóréens qui rompirent avec les Valar et l’amitié des Eldar au cours du Deuxième Âge. Ces Infidèles rejetèrent les traditions des Fidèles et se tournèrent vers leurs propres idoles, vers le culte de la puissance ou vers l’adoration de Sauron.</p>\n<h2>Apparence</h2>\n<p>Les Númenóréens Noirs restent physiquement très proches des autres Dúnedain. Ils sont grands, imposants et puissamment bâtis, avec des traits anguleux. Leur peau est souvent brun-gris ou profondément hâlée, leurs cheveux noirs et leurs yeux gris. Leur espérance de vie reste nettement supérieure à celle des Hommes communs, généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Ils n’ont jamais cessé de se considérer comme les véritables héritiers de Númenor. À leurs yeux, les Fidèles sont des traîtres qui ont abandonné la grandeur humaine pour se soumettre aux Valar et aux Elfes. Cette conviction nourrit une rivalité intense avec les Dúnedain de l’Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et cités sont rigoureusement organisés. L’autorité repose sur la force de caractère, la naissance, la richesse et la capacité à imposer une loi sévère. Les dirigeants entretiennent des réseaux de fonctionnaires, officiers, prêtres, espions et collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
+            "description": "<h1>Númenóréens Noirs</h1>\n<p>Les Númenóréens Noirs, ou Mornúmenedain en sindarin, descendent des colons et seigneurs númenóréens qui, au Deuxième Âge, renoncèrent à l’amitié des Eldar et se détournèrent des Valar. Ces Infidèles abandonnèrent les traditions des Fidèles, préférant servir leurs propres ambitions, de nouvelles idoles ou, pour certains, Sauron lui-même.</p>\n<h2>Apparence</h2>\n<p>Leur apparence demeure proche de celle des autres Dúnedain : grande taille, carrure imposante et traits anguleux. Leur peau est souvent hâlée ou brun-gris, leurs cheveux noirs et leurs yeux gris. Ils jouissent d’une longévité supérieure à celle des Hommes communs, vivant généralement entre quatre-vingt-dix et cent soixante-quinze ans.</p>\n<h2>Héritage dúnadan</h2>\n<p>Les Númenóréens Noirs se considèrent toujours comme les véritables héritiers de Númenor. Ils accusent les Fidèles d'avoir renié la grandeur des Hommes en se soumettant aux Valar et aux Elfes. Cette conviction entretient leur profonde rivalité avec les Dúnedain de l'Ouest.</p>\n<h2>Sociétés autoritaires</h2>\n<p>Leurs royaumes et leurs cités sont soumis à une organisation stricte. La naissance, la richesse, le caractère et l'aptitude à imposer des lois sévères déterminent l'autorité. Les dirigeants s'appuient sur des fonctionnaires, des officiers, des prêtres, des espions et des collecteurs.</p>\n<h2>Une aristocratie guerrière</h2>\n<p>Les guerriers forment l’élite de leur société. La plupart des hommes accomplissent un service militaire. Leur formation associe discipline, tactique, commandement, équitation, navigation, combat naval et maniement de nombreuses armes.</p>\n<h2>Maîtrise de la mer</h2>\n<p>Leur héritage maritime demeure essentiel. Ils sont d’excellents navigateurs, rameurs, pilotes et constructeurs de navires. Leurs capitaines maîtrisent la navigation côtière et hauturière, l’observation des étoiles, le commandement d’équipages, le débarquement, le blocus, l’abordage et la guerre navale.</p>\n<h2>Artisanat et architecture</h2>\n<p>Ils excellent dans la construction navale, la métallurgie, l’architecture, l’ingénierie militaire, la taille de pierre, la fabrication d’armes et d’armures et l’ornementation funéraire. Leurs cités recherchent la grandeur, la symétrie et l’effet d’écrasement.</p>\n<h2>Vêtements et apparat</h2>\n<p>Le noir et l’or sont leurs couleurs favorites. Ils portent des vêtements riches en soie et en coton teint, rehaussés de gemmes, de plumes, de broderies et d’éléments métalliques. Le Karma, ancien casque à écailles de Númenor, demeure utilisé comme symbole de prestige.</p>\n<h2>Mort et peur du déclin</h2>\n<p>Ils craignent profondément la mort, mais davantage encore le vieillissement, la maladie, l’oubli de la lignée et la perte du pouvoir. Cette peur nourrit l’obsession des généalogies, les cérémonies funéraires élaborées, la conservation des corps et la recherche de secrets occultes.</p>\n<h2>Religion organisée</h2>\n<p>Leur religion est organisée, hiérarchisée et visible. Les cultes consacrés à la mort et à l’au-delà occupent une place centrale. Námo reçoit parfois un respect détourné, davantage tourné vers la maîtrise du destin des morts que vers l’acceptation du jugement. D’autres révèrent des héros locaux, des ancêtres divinisés ou des puissances liées à la guerre, au pouvoir et aux ténèbres.</p>\n<h2>Sauron et l’Ombre</h2>\n<p>Tous ne servent pas Sauron avec une foi absolue. Beaucoup le considèrent comme un allié, un maître nécessaire, une source de pouvoir ou le garant de leur domination. D’autres le révèrent ouvertement comme une puissance divine.</p>\n<h2>Tempérament et préjugés</h2>\n<p>Ils sont généralement hautains, égocentriques, impétueux, sûrs d’eux et profondément orgueilleux. Ils valorisent la volonté, la maîtrise de soi, la force, la discipline, la naissance et la capacité à commander. Leur haine est particulièrement forte à l’égard des Elfes et des Dúnedain fidèles.</p>\n<h2>Langues</h2>\n<p>Ils ont conservé l’adûnaïque sous une forme relativement pure. La plupart parlent également le westron et le haradaïque. Les érudits, officiers et espions apprennent aussi l’apysaïque, le noir parler et les langues des peuples soumis.</p>\n<h2>Famille et lignées</h2>\n<p>Le mariage est monogame et la filiation suit la lignée masculine. Les grandes familles accordent une importance extrême à la pureté du sang, à la légitimité des héritiers et à la continuité de la maison.</p>\n<h2>Professions et formation</h2>\n<p>Cette Culture favorise les Combattants, officiers, capitaines de navire, administrateurs, diplomates, espions, roublards, alchimistes, érudits, sorciers, prêtres, artisans et ingénieurs militaires.</p>\n<h2>Place dans la création de personnage</h2>\n<p>Cette Culture est normalement associée à la Race Dúnedain et constitue un choix Restreint. Un personnage joueur peut rejeter Sauron, contester la cruauté de sa famille ou chercher une autre interprétation de l’héritage de Númenor, mais une telle rupture l’expose à l’exil et à la vengeance de sa maison.</p>\n<p>Les Númenóréens Noirs sont les héritiers sombres de Númenor : des marins, guerriers et bâtisseurs d’une puissance exceptionnelle, qui ont conservé la grandeur de leurs ancêtres tout en rejetant la sagesse qui aurait pu la préserver.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Langues de départ</h2><ul><li><strong>Adúnaic</strong> — Parlée 8 / Écrite 8</li><li><strong>Westron</strong> — Parlée 8 / Écrite 8</li><li><strong>Haradaic</strong> — Parlée 6 / Écrite 6</li></ul></section>",
             "culture": "Númenóréens Noirs"
           }
         },
         "en": {
           "name": "Black Númenórean",
           "system": {
-            "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, are the descendants of Númenórean colonists, conquerors, and lords who broke with the Valar and the friendship of the Eldar during the Second Age. These King's Men rejected the traditions of the Faithful and turned toward their own idols, the worship of power, or the adoration of Sauron.</p>\n<h2>Appearance</h2>\n<p>Black Númenóreans remain physically very close to other Dúnedain. They are tall, imposing, and powerfully built, with angular features. Their skin is often grey-brown or deeply tanned, their hair black, and their eyes grey. Their life expectancy remains markedly greater than that of Common Men, generally between ninety and one hundred seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>They have never ceased to regard themselves as the true heirs of Númenor. In their eyes, the Faithful are traitors who abandoned human greatness in order to submit to the Valar and the Elves. This conviction fuels an intense rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are rigorously organized. Authority rests on strength of character, birth, wealth, and the ability to impose severe law. Rulers maintain networks of officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
+            "description": "<h1>Black Númenóreans</h1>\n<p>The Black Númenóreans, called Mornúmenedain in Sindarin, descend from Númenórean settlers and lords who turned away from the Valar and renounced friendship with the Eldar during the Second Age. These Unfaithful forsook the traditions of the Faithful in favour of their own ambitions, new idols, or, in some cases, Sauron himself.</p>\n<h2>Appearance</h2>\n<p>In appearance they remain close to other Dúnedain: tall, imposing, and sharp-featured. Their skin is often deeply tanned or grey-brown, their hair black, and their eyes grey. Their lifespan greatly exceeds that of Common Men, generally ranging from ninety to one hundred and seventy-five years.</p>\n<h2>Dúnadan heritage</h2>\n<p>The Black Númenóreans still regard themselves as Númenor's rightful heirs. To them, the Faithful betrayed the greatness of Men by submitting to the Valar and the Elves. That belief sustains their bitter rivalry with the Dúnedain of the West.</p>\n<h2>Authoritarian societies</h2>\n<p>Their kingdoms and cities are governed through strict institutions. Birth, wealth, force of character, and the ability to enforce harsh laws determine authority. Rulers rely on officials, officers, priests, spies, and tax collectors.</p>\n<h2>A warrior aristocracy</h2>\n<p>Warriors form the elite of their society. Most men perform military service. Their training combines discipline, tactics, leadership, riding, navigation, naval combat, and the use of many weapons.</p>\n<h2>Mastery of the sea</h2>\n<p>Their maritime heritage remains essential. They are excellent navigators, rowers, pilots, and shipbuilders. Their captains master coastal and open-sea navigation, observation of the stars, command of crews, landings, blockade, boarding actions, and naval warfare.</p>\n<h2>Craft and architecture</h2>\n<p>They excel in shipbuilding, metallurgy, architecture, military engineering, stonecutting, the manufacture of weapons and armor, and funerary ornament. Their cities seek grandeur, symmetry, and an overwhelming visual effect.</p>\n<h2>Clothing and display</h2>\n<p>Black and gold are their favorite colors. They wear rich garments of dyed silk and cotton, enhanced with gems, feathers, embroidery, and metal elements. The Karma, the ancient scaled helm of Númenor, remains in use as a symbol of prestige.</p>\n<h2>Death and fear of decline</h2>\n<p>They fear death deeply, but even more aging, disease, the forgetting of lineage, and the loss of power. This fear feeds an obsession with genealogies, elaborate funerary ceremonies, preservation of bodies, and the search for occult secrets.</p>\n<h2>Organized religion</h2>\n<p>Their religion is organized, hierarchical, and visible. Cults devoted to death and the afterlife hold a central place. Námo sometimes receives a distorted reverence, aimed more at mastering the fate of the dead than at accepting judgment. Others revere local heroes, deified ancestors, or powers associated with war, authority, and darkness.</p>\n<h2>Sauron and the Shadow</h2>\n<p>Not all serve Sauron with absolute faith. Many regard him as an ally, a necessary master, a source of power, or the guarantor of their domination. Others openly revere him as a divine power.</p>\n<h2>Temperament and prejudices</h2>\n<p>They are generally haughty, self-centered, impetuous, self-confident, and profoundly proud. They value willpower, self-mastery, strength, discipline, birth, and the ability to command. Their hatred is particularly strong toward Elves and the faithful Dúnedain.</p>\n<h2>Languages</h2>\n<p>They have preserved Adûnaic in a relatively pure form. Most also speak Westron and Haradaic. Scholars, officers, and spies also learn Apysaic, the Black Speech, and the languages of subjected peoples.</p>\n<h2>Family and lineages</h2>\n<p>Marriage is monogamous and descent follows the male line. Great families attach extreme importance to purity of blood, legitimacy of heirs, and continuity of the house.</p>\n<h2>Professions and training</h2>\n<p>This Culture favors Fighters, officers, ship captains, administrators, diplomats, spies, rogues, alchemists, scholars, sorcerers, priests, craftsmen, and military engineers.</p>\n<h2>Place in character creation</h2>\n<p>This Culture is normally associated with the Dúnedain Race and is a Restricted choice. A player character may reject Sauron, challenge the cruelty of his family, or seek another interpretation of Númenor's heritage, but such a break exposes him to exile and the vengeance of his house.</p>\n<p>The Black Númenóreans are the dark heirs of Númenor: sailors, warriors, and builders of exceptional power who preserved the greatness of their ancestors while rejecting the wisdom that might have preserved it.</p><section class=\"merp-ui-starting-languages\" data-merp-ui-starting-languages=\"1\"><h2>Starting Languages</h2><ul><li><strong>Adúnaic</strong> — Spoken 8 / Written 8</li><li><strong>Westron</strong> — Spoken 8 / Written 8</li><li><strong>Haradaic</strong> — Spoken 6 / Written 6</li></ul></section>",
             "culture": "Black Númenórean"
           }
         }

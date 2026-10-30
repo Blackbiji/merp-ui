@@ -1,5 +1,5 @@
 /**
- * MERP-UI — Lettrines illustrées des Journaux (Foundry V13/V14).
+ * MERP-UI — Lettrines typographiques des Journaux (Foundry V13/V14).
  *
  * Règle éditoriale : une lettrine sur le premier paragraphe rédigé après un
  * chapitre H1. Si la page n'a pas de H1 (ex. guide des herbes), son premier
@@ -8,7 +8,6 @@
  *
  * Le HTML source des Journaux / compendiums n'est jamais sauvegardé ni modifié.
  */
-const MODULE_ID = "merp-ui";
 const CONTENT_SELECTOR = ".journal-page-content, .journal-entry-content, .editor-content";
 const EDITOR_SELECTOR = '[contenteditable="true"], .ProseMirror, .prosemirror, .tox-edit-area, [role="textbox"]';
 const SKIPPED_SELECTOR = [
@@ -21,12 +20,9 @@ const HIDDEN_SELECTOR = '[hidden], [aria-hidden="true"], .secret';
 const METADATA_TEXT = /^(?:statut|status|source|sources|version|état|state)\s*:/iu;
 const watchers = new WeakMap();
 
-export function dropcapAsset(letter) {
-  const normalized = String(letter ?? "").normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "").toUpperCase();
-  return /^[A-Z]$/.test(normalized)
-    ? `modules/${MODULE_ID}/assets/dropcaps/${normalized}.png`
-    : null;
+/** Legacy API shim: ornamental initials are font glyphs, never image URLs. */
+export function dropcapAsset(_letter) {
+  return null;
 }
 
 function isEditor(element) {
@@ -63,8 +59,9 @@ function firstLetter(paragraph) {
         continue;
       }
       if (!/^\p{L}$/u.test(character)) return null;
-      const asset = dropcapAsset(character);
-      return asset ? { node, offset, character, asset } : null;
+      const normalized = character.normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "").toUpperCase();
+      return /^[A-Z]$/.test(normalized) ? { node, offset, character } : null;
     }
   }
   return null;
@@ -94,16 +91,19 @@ function decorateParagraph(paragraph) {
   wrapper.className = "merp-ui-dropcap";
   wrapper.dataset.letter = first.character;
 
-  const image = document.createElement("img");
-  image.src = globalThis.foundry?.utils?.getRoute?.(first.asset) ?? first.asset;
-  image.alt = "";
-  image.setAttribute("aria-hidden", "true");
-  image.draggable = false;
+  // Initials TFB uses Latin capitals A-Z, each drawn inside an ornate square.
+  // Keep the original accented character for screen readers and normalize
+  // only the decorative glyph (e.g. É -> E).
+  const glyph = document.createElement("span");
+  glyph.className = "merp-ui-dropcap-glyph";
+  glyph.textContent = first.character.normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "").toUpperCase();
+  glyph.setAttribute("aria-hidden", "true");
 
   const readable = document.createElement("span");
   readable.className = "merp-ui-dropcap-readable";
   readable.textContent = first.character;
-  wrapper.append(image, readable);
+  wrapper.append(glyph, readable);
 
   // Retirer uniquement la lettre d'origine du texte affiché.
   // Important : la lettrine DOIT être le premier enfant direct du paragraphe.

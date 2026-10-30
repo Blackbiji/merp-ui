@@ -85,11 +85,22 @@
 
 
 /* ------------------------------------------------------------------------- */
-/* MERP-UI RC2 — Lettrines ancrées en haut à gauche du paragraphe narratif.    */
-/* Image 223 x 254 px : ratio conservé, sans centrage horizontal parasite.   */
+/* MERP-UI — Initials TFB drop caps + opt-in read-aloud frames (local test).  */
+/* The author supplies fonts/Initials-TFB.ttf independently.                */
+/* Source font: https://www.dafont.com/fr/initials-tfb.font                  */
 /* ------------------------------------------------------------------------- */
+@font-face {
+  font-family: "Initials TFB";
+  src: url("../fonts/Initials-TFB.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 .merp-ui-journal {
-  --merp-dropcap-size: 52px; /* hauteur de la lettrine ; modifiable */
+  --merp-dropcap-size: 56px;
+  --merp-readaloud-ink: #37312a;
+  --merp-readaloud-paper: rgba(245, 241, 231, 0.22);
 }
 
 .merp-ui-journal p.merp-ui-dropcap-paragraph {
@@ -100,38 +111,46 @@
   min-height: var(--merp-dropcap-size);
 }
 
-/* Ciblage direct : la lettrine est toujours le premier enfant du paragraphe. */
 .merp-ui-journal p.merp-ui-dropcap-paragraph > .merp-ui-dropcap {
   display: block !important;
   float: left !important;
   position: relative !important;
   box-sizing: border-box !important;
-  width: calc(var(--merp-dropcap-size) * 223 / 254) !important;
+  width: var(--merp-dropcap-size) !important;
   height: var(--merp-dropcap-size) !important;
-  margin: 0 0.42rem 0 0 !important;
+  margin: 0 .42rem .12rem 0 !important;
   padding: 0 !important;
   border: 0 !important;
   background: transparent !important;
-  line-height: 0 !important;
-  vertical-align: top !important;
+  line-height: 1 !important;
   text-indent: 0 !important;
+  text-align: left !important;
   clear: none !important;
   shape-outside: inset(0);
 }
 
-.merp-ui-journal p.merp-ui-dropcap-paragraph > .merp-ui-dropcap > img {
+/* A glyph is itself a black-and-white decorated square (see specimen). */
+.merp-ui-journal p.merp-ui-dropcap-paragraph > .merp-ui-dropcap > .merp-ui-dropcap-glyph {
   display: block !important;
+  box-sizing: border-box !important;
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;
-  object-position: left top !important;
   margin: 0 !important;
   padding: 0 !important;
-  border: 0 !important;
-  background: transparent !important;
+  color: #202020 !important;
+  font-family: "Initials TFB", Georgia, "Times New Roman", serif !important;
+  font-size: var(--merp-dropcap-size) !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+  white-space: nowrap !important;
+  overflow: visible;
 }
 
-/* La majuscule demeure accessible aux lecteurs d'écran. */
+/* Screen reader gets the original first character; decorative glyph is hidden. */
 .merp-ui-journal .merp-ui-dropcap-readable {
   position: absolute !important;
   width: 1px !important;
@@ -139,6 +158,109 @@
   overflow: hidden !important;
   clip-path: inset(50%) !important;
   white-space: nowrap !important;
+}
+
+/* ------------------------------------------------------------------------- */
+/* MERP-UI — Ornament 0034: read-aloud BLOCKQUOTES only, in displayed Journals.
+ * Source: original "Ornaments Labels and Frames" TTF, glyph U+0022 (34 decimal).
+ * No AI-generated artwork, SVG, or changes to the source font.
+ * The ornaments stay INSIDE the blockquote box: no overlapping neighbours.
+ * ------------------------------------------------------------------------- */
+@font-face {
+  font-family: "MERP Ornamental Rules";
+  src: url("../fonts/Ornaments-Labels-and-Frames.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+.merp-ui-journal {
+  --merp-readaloud-ink: #202020;
+}
+
+/* Ignore GM secrets, embedded content, editors, and explicitly excluded blocks. */
+.merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed):not(:is(
+  .secret *, [data-secret] *, .content-embed *,
+  [contenteditable="true"] *, .ProseMirror *, .prosemirror *
+)) {
+  position: relative !important;
+  display: flow-root !important;
+  container-type: inline-size;
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+  margin: 1.05rem .4rem !important;
+  padding: 2.3rem 1rem !important;
+  border: 0 !important;
+  border-inline: 1px solid var(--merp-readaloud-ink) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  color: inherit !important;
+  font-style: italic !important;
+  text-indent: 0 !important;
+  clear: both;
+}
+
+/* Smaller glyph = thinner apparent stroke, without modifying the font. */
+.merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed):not(:is(
+  .secret *, [data-secret] *, .content-embed *,
+  [contenteditable="true"] *, .ProseMirror *, .prosemirror *
+))::before,
+.merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed):not(:is(
+  .secret *, [data-secret] *, .content-embed *,
+  [contenteditable="true"] *, .ProseMirror *, .prosemirror *
+))::after {
+  content: "\0022" !important;
+  position: absolute !important;
+  left: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 35px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: var(--merp-readaloud-ink) !important;
+  font-family: "MERP Ornamental Rules" !important;
+  font-size: clamp(42px, 13cqw, 84px) !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 35px !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-shadow: none !important;
+  pointer-events: none !important;
+}
+
+/* Upper motif reversed, point facing out; lower motif in normal orientation. */
+.merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed):not(:is(
+  .secret *, [data-secret] *, .content-embed *,
+  [contenteditable="true"] *, .ProseMirror *, .prosemirror *
+))::before {
+  top: 9px !important;
+  transform: rotate(180deg) !important;
+}
+.merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed):not(:is(
+  .secret *, [data-secret] *, .content-embed *,
+  [contenteditable="true"] *, .ProseMirror *, .prosemirror *
+))::after {
+  bottom: 9px !important;
+  transform: none !important;
+}
+
+.merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed) > :first-child {
+  margin-top: 0 !important;
+}
+.merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed) > :last-child {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 540px) {
+  .merp-ui-journal blockquote:not(.merp-ui-no-frame, .secret, [data-secret], .content-embed) {
+    margin-inline: .2rem !important;
+    padding-inline: .7rem !important;
+  }
 }
 
 /* Readable Talent descriptions. Explicit pixel fallback for pre-hook renders;

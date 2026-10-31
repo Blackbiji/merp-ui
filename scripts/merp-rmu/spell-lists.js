@@ -65,9 +65,9 @@ export async function loadNativeSpellTranslations() {
   return nativeSpellTranslationsCache;
 }
 
-export function applyNativeSpellTranslationOverlay(document, sourceListName, translations) {
+export function applyNativeSpellTranslationOverlay(document, sourceListName, translations, language = contentLanguage()) {
   const result = foundry.utils.deepClone(document ?? {});
-  if (contentLanguage() !== "fr") return result;
+  if (language !== "fr") return result;
 
   const listTranslation = translations?.lists?.[sourceListName]?.fr;
   if (!listTranslation) return result;

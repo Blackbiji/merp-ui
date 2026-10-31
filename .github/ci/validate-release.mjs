@@ -11,9 +11,9 @@ const requireFile = (path) => check(existsSync(join(root, path)), 'Missing file:
 
 const module = readJSON('module.json');
 check(module.id === 'merp-ui', 'Module ID changed');
-check(module.version === '2.0.0', 'Expected version 2.0.0');
+check(module.version === '2.0.2', 'Expected version 2.0.2');
 check(module.manifest === 'https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json', 'Unexpected manifest URL');
-check(module.download === 'https://github.com/Blackbiji/merp-ui/releases/download/v2.0.0/merp-ui-2.0.0.zip', 'Unexpected release ZIP URL');
+check(module.download === 'https://github.com/Blackbiji/merp-ui/releases/download/v2.0.2/merp-ui-2.0.2.zip', 'Unexpected release ZIP URL');
 check(module.packs?.length === 9, 'Expected nine Compendiums');
 for (const path of [...module.esmodules, ...module.styles, ...module.languages.map(e => e.path)]) requireFile(path);
 for (const pack of module.packs) {
@@ -59,4 +59,4 @@ for (const pack of manifest.packs) {
 check(races === 12, 'Expected twelve race sources, found ' + races);
 console.log('Checked ' + checked + ' source hashes, ' + module.packs.length + ' packs and ' + races + ' races.');
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('MERP-UI 2.0.0 release consistency: OK.');
+console.log('MERP-UI 2.0.2 release consistency: OK.');

@@ -76,6 +76,7 @@ import {
   syncNonRmuWorldSpellLists,
   upsertConfiguredNativeSpellLists
 } from "./merp-rmu/spell-lists.js";
+import { synchronizeNativeHybridSpellLists } from "./merp-rmu/native-hybrid-compendium.js";
 import {
   MERP_SPECIAL_POWER_SKILL_KEYS,
   healingSongsDialogOptions,
@@ -597,6 +598,13 @@ Hooks.once("ready", async () => {
     await synchronizeMerpRmuSources({ notify: false });
   } catch (error) {
     console.error(`${MODULE_ID} | Échec du rafraîchissement des Compendiums MERP-RMU`, error);
+  }
+
+  try {
+    const hybrid = await synchronizeNativeHybridSpellLists({ language: contentLanguage() });
+    if (hybrid.errors?.length) console.warn("MERP-UI | Listes hybrides :", hybrid);
+  } catch (error) {
+    console.error("MERP-UI | Erreur listes hybrides", error);
   }
 
   // Compendium-first seed files do not replace an already migrated LevelDB
@@ -1439,6 +1447,7 @@ async function applyMerpRmuContentLanguageNow({
       if (result.sourceCompendiums.errors) {
         throw new Error(`MERP-RMU Compendium translation: ${result.sourceCompendiums.errors} synchronization errors`);
       }
+      result.hybridSpellLists = await synchronizeNativeHybridSpellLists({ language: effectiveLanguage });
       result.compendiums = await synchronizeCompendiumLibraries({
         language: effectiveLanguage,
         notify: false,
@@ -1535,6 +1544,8 @@ async function applyMerpRmuContentLanguageNow({
     if (result.sourceCompendiums.errors) {
       throw new Error(`MERP-RMU Compendium translation: ${result.sourceCompendiums.errors} synchronization errors`);
     }
+
+    result.hybridSpellLists = await synchronizeNativeHybridSpellLists({ language: effectiveLanguage });
 
     if (game.user?.isGM) {
       result.welcomeChat = await repostWelcomeChatMessage({
@@ -1766,6 +1777,8 @@ function exposeMerpRmuContentApi() {
     deduplicateWorldSpellLists({ verbose: options.verbose ?? true });
   globalThis.MERPUI.cleanupStartlight = (options = {}) =>
     cleanupInvalidStartlightArtifacts({ verbose: options.verbose ?? true });
+  globalThis.MERPUI.syncHybridSpellLists = (options = {}) =>
+    synchronizeNativeHybridSpellLists(options);
   globalThis.MERPUI.syncContent = (options = {}) =>
     synchronizeMerpRmuSources({ ...options, force: options.force ?? true, notify: options.notify ?? true });
   globalThis.MERPUI.checkContent = (options = {}) =>

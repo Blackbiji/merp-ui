@@ -1,8 +1,8 @@
-# MERP-UI / MERP-RMU 2.0.1
+# MERP-UI / MERP-RMU 2.0.3
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.1 (31 October 2026). This maintenance update builds on the author-tested 2.0.0 baseline. It improves journal presentation without modifying the RMU rules engine, canonical game content, or nine Compendiums. It is not an endorsement or official product of the Tolkien rights holders, Iron Crown Enterprises or Foundry Gaming LLC.
+**Release:** 2.0.3 (31 October 2026). Character-creation maintenance for Middle-earth Lore, Religion/Philosophy and Race replacement, plus the optional WebP migration guard. It preserves RMU mechanics and all nine Compendiums.
 
 ## Compatibility
 
@@ -28,6 +28,19 @@ The content includes **12 Races**, **21 Professions**, **85 Talents & Flaws**, a
 
 The **MERP-RMU Content Language** setting chooses English or French editorial content independently of Foundry's own interface language. English is the default for new Worlds; localized text and display names are available where supplied. Existing Compendium documents are synchronized from their canonical sources when the GM starts the World, while character-owned and independently edited World Items are preserved.
 
+## What's new in 2.0.3
+
+- Middle-earth specialization choices for Historic, Creature, Racial, Region, Materials, and Religion/Philosophy Lore; bilingual FR/EN selector labels.
+- Prevent Religion/Philosophy from being offered a second time through the Other Lores cultural allocation when a dedicated cultural allocation exists.
+- Prevent duplicate Race Items during initial creation and after a confirmed race change, preserving race-to-culture filtering.
+- Skip the obsolete PNG-to-WebP icon migration when no WebP icon is catalogued.
+- No changes to RMU development costs, cultural ranks, professional skills, nine LevelDB Compendiums, or intentionally removed assets.
+
+## What's new in 2.0.2
+
+- Restored Base Spell List availability for Sorcier and Vracara, and extended the compendium-based hybrid list integration to Kekhavra and Wegech.
+- Continued relying on installed RMU Spell Law; no forced World Item imports.
+
 ## What's new in 2.0.1
 
 - Journal chapter initials use the **Initials TFB** typeface, preserving the text and remaining accessible to screen readers.
@@ -51,9 +64,9 @@ Use this module manifest in Foundry's **Install Module** dialog:
 
 `https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json`
 
-For manual installation, download the official release archive `merp-ui-2.0.1.zip` from the [v2.0.0 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.1), extract the included **`merp-ui/`** directory into Foundry's `Data/modules/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
+For manual installation, download the official release archive `merp-ui-2.0.3.zip` from the [v2.0.3 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.3), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
 
-**Back up your Worlds and module files before upgrading.** The author has tested RC6.7 in an existing World. Testing every upgrade path, a clean World and the full stated minimum-version compatibility range is ongoing.
+**Back up your Worlds and module files before upgrading.** The 2.0.3 character-creation fixes were tested by the author in a test World. Testing every upgrade path, a clean World and the full stated minimum-version compatibility range is ongoing.
 
 ## Developer notes
 

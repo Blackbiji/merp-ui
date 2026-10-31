@@ -1250,7 +1250,11 @@ Hooks.once("ready", async () => {
 
   console.log(`${MODULE_ID} | Framework 1.2.7 chargé — PragRoman ${typographyState.loaded ? "active" : "en échec"}`);
 
-  if (game.user?.isGM) {
+  // Skip obsolete PNG-to-WebP migration when no WebP icons exist.
+  const hasWebpIcons = (assetCatalog.current()?.assets?.icons ?? [])
+    .some(icon => /\.webp$/i.test(String(icon?.path ?? "")));
+
+  if (game.user?.isGM && hasWebpIcons) {
     try {
       await migrateWorldIconsToWebp();
     } catch (error) {

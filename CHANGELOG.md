@@ -1,5 +1,19 @@
 # MERP-UI — Changelog
 
+## 2.0.3 — Middle-earth Lore and character creation maintenance (31 October 2026)
+
+- Replaced generic RMU Lore specialization suggestions with bilingual Middle-earth choices and nested race/region/creature selectors.
+- Prevented Religion/Philosophy from being offered again in Other Lores when a dedicated cultural allocation exists; cultural ranks and development costs remain unchanged.
+- Corrected duplicate Race Items on new characters and on confirmed race changes, restoring culture compatibility selection.
+- Disabled the obsolete automatic PNG-to-WebP migration when the current asset catalogue has no WebP icons.
+- Preserved the nine LevelDB Compendiums, RMU rules engine, hybrid Base Spell Lists from 2.0.2 and intentionally removed assets.
+
+## 2.0.2 — Hybrid Base Spell List correction (31 October 2026)
+
+- Restored Base Spell Lists for Sorcier and Vracara and applied the same compendium-based approach to Kekhavra and Wegech.
+- Kept Spell Law as the source of native spell lists; no World Item import requirement.
+
+
 ## 2.0.1 — Journal typography and read-aloud framing (31 October 2026)
 
 - Replaced the illustrated journal opening capitals with decorative **Initials TFB** typography, preserving accented letters in accessible text and leaving the source journal content unchanged.

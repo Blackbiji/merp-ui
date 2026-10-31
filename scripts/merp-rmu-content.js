@@ -1,3 +1,4 @@
+import { installMerpLoreSelectors } from "./merp-rmu/lore-selectors.js";
 import { registerCreationLoreGuidance } from "./merp-rmu/creation-lore-guidance.js";
 import { registerCreationTalentsOrder } from "./merp-rmu/creation-talents-order.js";
 import { registerDunedainTalentLocalizationHooks, relocalizeActorDunedainTalents } from "./merp-rmu/dunedain-racial-talents.js";
@@ -514,6 +515,7 @@ Hooks.once("ready", async () => {
   installDefaultHildorRace();
   installMerpPrimeStatHelper();
   await installRmuCreationPrototypeFixes();
+  try { await installMerpLoreSelectors(); } catch(error) { console.warn("merp-ui | Lore selectors", error); }
   try { await installWhitfordHobbies(); } catch(error) { console.warn("merp-ui | Hobby Whitford non disponibles", error); }
   await installMerpSpecialPowerManeuverResults();
 

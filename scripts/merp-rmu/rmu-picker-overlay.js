@@ -818,6 +818,61 @@ async function installCulturePickerCompatibility() {
 
     if (!basePick.__merpUiCultureRaceContext) {
       const withRace = function (type, dialogClass, dialogKey, fields, rowOf, read) {
+        // A race pick must leave one Race Item. When a first Hildor/RMU
+        // default race remained embedded, native drops could leave both.
+        if (type === "race" && dialogKey === "PickRaceDialog") {
+          const actor = this.document;
+          const before = new Set([...actor.items].filter(i => i.type === "race").map(i => i.id));
+          let pickedUuid = null;
+          class MerpRacePickerForActor extends dialogClass {
+            static async asPromise(...args) {
+              const picked = await super.asPromise(...args);
+              pickedUuid = picked?.uuid ?? null;
+              return picked;
+            }
+          }
+          return Promise.resolve(basePick.call(this, type, MerpRacePickerForActor, dialogKey, fields, rowOf, read))
+            .then(async result => {
+              // Never alter an Actor if the user cancelled the race picker.
+              if (!pickedUuid) return result;
+              const races = [...actor.items].filter(i => i.type === "race");
+              if (races.length <= 1) return result;
+
+              const added = races.filter(i => !before.has(i.id));
+              let keep = added.length === 1 ? added[0] : null;
+              if (!keep) {
+                const byOrigin = races.filter(i =>
+                  i.flags?.rmu?.origin?.uuid === pickedUuid ||
+                  i.flags?.core?.sourceId === pickedUuid
+                );
+                keep = byOrigin.at(-1) ?? null;
+              }
+              if (!keep) {
+                let source;
+                try { source = await fromUuid(pickedUuid); }
+                catch (error) { console.warn("merp-ui | Lecture de la race choisie", error); }
+                if (source) {
+                  const key = source.flags?.["merp-ui"]?.canonicalKey ?? source.flags?.["merp-ui"]?.key;
+                  const byName = races.filter(i => i.name === source.name);
+                  const byKey = key ? races.filter(i =>
+                    (i.flags?.["merp-ui"]?.canonicalKey ?? i.flags?.["merp-ui"]?.key) === key) : [];
+                  keep = byName.at(-1) ?? byKey.at(-1) ?? null;
+                }
+              }
+              if (!keep) {
+                console.warn("merp-ui | Races multiples : impossible d'identifier la race choisie ; aucune suppression", {
+                  actor: actor.name, pickedUuid, races: races.map(i => i.name)
+                });
+                return result;
+              }
+              const extras = races.filter(i => i.id !== keep.id).map(i => i.id);
+              if (extras.length) {
+                await actor.deleteEmbeddedDocuments("Item", extras, {merpUiPickedRaceDedup: true});
+                console.info("merp-ui | Remplacement racial unifié", {actor: actor.name, race: keep.name});
+              }
+              return result;
+            });
+        }
         if (type !== "culture" || dialogKey !== "PickCultureDialog") {
           return basePick.call(this, type, dialogClass, dialogKey, fields, rowOf, read);
         }

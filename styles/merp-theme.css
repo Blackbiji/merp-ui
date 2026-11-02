@@ -143,7 +143,7 @@
   border: 1px solid #aaa !important;
   border-bottom: 2px solid #777 !important;
   border-radius: 2px;
-  font-size: 1.48rem;
+  font-size: 1.38rem;
 }
 
 :is(
@@ -160,7 +160,7 @@
   background: var(--merp-header-alt) !important;
   border: 0 !important;
   border-left: 4px solid var(--merp-rule) !important;
-  font-size: 1.22rem;
+  font-size: 1.15rem;
 }
 
 :is(
@@ -177,10 +177,12 @@
   background: transparent !important;
   border: 0 !important;
   border-bottom: 1px solid #b0b0b0 !important;
-  font-size: 1.06rem;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.20;
 }
 
-/* Titres secondaires des Journaux : contraste renforcé. */
+/* Niveaux H3-H6 des journaux : tailles définies à leur emplacement d'origine. */
 :is(
   .merp-ui.journal-sheet,
   .merp-ui.journal-entry-sheet,
@@ -189,8 +191,27 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h4 {
+  margin: .80rem 0 .38rem;
+  padding: 0 0 .13rem;
+  font-size: 0.99rem;
+  font-weight: 600;
+  line-height: 1.22;
   color: #2b2b2b !important;
   text-shadow: none !important;
+}
+
+/* Les titres très longs doivent pouvoir revenir à la ligne, sans tronquer
+ * leur texte dans l'en-tête des pages de Journal (Foundry V13/V14). */
+.merp-ui-journal :is(
+  .journal-entry-page > header,
+  .journal-entry-page > .journal-page-header,
+  .journal-entry-page > .page-header,
+  .journal-page > .journal-page-header
+) :is(h1, h2, .title, .page-title, .page-heading) {
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  text-overflow: clip !important;
+  max-width: 100%;
 }
 
 :is(
@@ -201,7 +222,35 @@
   .merp-ui.application.journal-entry,
   .merp-ui.application.journal-page
 ) h5 {
+  margin: .72rem 0 .32rem;
+  padding: .12rem 0 .12rem .44rem;
   color: #383838 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-left: 2px solid var(--merp-rule) !important;
+  font-size: 0.96rem;
+  font-weight: 600;
+  line-height: 1.23;
+  text-shadow: none !important;
+}
+
+:is(
+  .merp-ui.journal-sheet,
+  .merp-ui.journal-entry-sheet,
+  .merp-ui.journal-entry,
+  .merp-ui.journal-page-sheet,
+  .merp-ui.application.journal-entry,
+  .merp-ui.application.journal-page
+) h6 {
+  margin: .56rem 0 .28rem;
+  padding: .08rem 0;
+  color: #3e3e3e !important;
+  background: transparent !important;
+  border: 0 !important;
+  font-size: 0.93rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.23;
   text-shadow: none !important;
 }
 

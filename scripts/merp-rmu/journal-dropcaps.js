@@ -37,6 +37,8 @@ function isValidParagraph(paragraph) {
   if (!paragraph || isEditor(paragraph) || isExcluded(paragraph)) return false;
   const text = paragraph.textContent?.replace(/\s+/g, " ").trim() ?? "";
   if (!text || METADATA_TEXT.test(text)) return false;
+  // Ignore short labels/headings that Word or the editor exposes as <p>.
+  if (text.length < 40 && !/[.!?…][»”"'’]?$/.test(text)) return false;
   // Un cartouche descriptif de quelques mots n'ouvre pas le chapitre.
   if (paragraph.closest(".merp-rmu-rule-summary") && text.length < 55) return false;
   return Boolean(firstLetter(paragraph));

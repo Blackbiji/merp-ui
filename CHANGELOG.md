@@ -1,5 +1,14 @@
 # MERP-UI — Changelog
 
+## 2.0.4 — Journal typography and headings (2 November 2026)
+
+- Removed obsolete RC1 `!important` heading sizes (H1–H4) which suppressed the newer visual hierarchy.
+- Consolidated the six Journal heading levels H1–H6 with a balanced, slightly smaller visual scale, including adventure-module Journals.
+- Allowed long Foundry page headings to wrap instead of being clipped; no journal content mutation.
+- Prevented brief heading-like paragraphs from receiving a decorative opening initial.
+- Preserved read-aloud frames, RMU mechanics, character creation, FR/EN content and all nine LevelDB Compendiums.
+- No custom icons were reintroduced; Foundry native icons remain the standard.
+
 ## 2.0.3 — Middle-earth Lore and character creation maintenance (31 October 2026)
 
 - Replaced generic RMU Lore specialization suggestions with bilingual Middle-earth choices and nested race/region/creature selectors.

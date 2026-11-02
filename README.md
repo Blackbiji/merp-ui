@@ -1,8 +1,8 @@
-# MERP-UI / MERP-RMU 2.0.3
+# MERP-UI / MERP-RMU 2.0.4
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.3 (31 October 2026). Character-creation maintenance for Middle-earth Lore, Religion/Philosophy and Race replacement, plus the optional WebP migration guard. It preserves RMU mechanics and all nine Compendiums.
+**Release:** 2.0.4 (2 November 2026). Journal headings (H1–H6) use an author-approved, balanced and slightly smaller scale; long page titles may wrap; short heading-like paragraphs no longer receive dropcaps. All RMU mechanics, bilingual content and nine Compendiums are unchanged.
 
 ## Compatibility
 
@@ -27,6 +27,15 @@ MERP-UI uses a **Compendium-first** design. Instead of filling a new World with 
 The content includes **12 Races**, **21 Professions**, **85 Talents & Flaws**, and a **187-entry Herbs & Substances catalogue**. Race and Profession entries have substantial English/French descriptions; Race and Culture content includes historical variants for the First through Fourth Ages. The module retains spell-list support and the established Middle-earth settings, including optional Shadow attraction and Corruption features.
 
 The **MERP-RMU Content Language** setting chooses English or French editorial content independently of Foundry's own interface language. English is the default for new Worlds; localized text and display names are available where supplied. Existing Compendium documents are synchronized from their canonical sources when the GM starts the World, while character-owned and independently edited World Items are preserved.
+
+## What's new in 2.0.4
+
+- Rebalanced and slightly reduced Journal headings H1–H6, including Journals supplied by adventure modules.
+- Removed superseded RC1 heading-size overrides, rather than accumulating competing CSS rules.
+- Allowed long Journal page headings to wrap without clipping.
+- Avoided applying decorative dropcaps to short heading-like paragraphs; preserved the original Journal HTML.
+- Continued using Foundry native icons; no custom icon catalogue was restored.
+- No modifications to RMU mechanics, character creation, spell handling, bilingual editorial content or the nine LevelDB Compendiums.
 
 ## What's new in 2.0.3
 
@@ -64,9 +73,9 @@ Use this module manifest in Foundry's **Install Module** dialog:
 
 `https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json`
 
-For manual installation, download the official release archive `merp-ui-2.0.3.zip` from the [v2.0.3 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.3), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
+For manual installation, download the official release archive `merp-ui-2.0.4.zip` from the [v2.0.4 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.4), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
 
-**Back up your Worlds and module files before upgrading.** The 2.0.3 character-creation fixes were tested by the author in a test World. Testing every upgrade path, a clean World and the full stated minimum-version compatibility range is ongoing.
+**Back up your Worlds and module files before upgrading.** The 2.0.4 heading hierarchy has been visually reviewed in a Foundry Journal test. Automated Foundry runtime tests, clean installs and every upgrade path have not been independently verified.
 
 ## Developer notes
 

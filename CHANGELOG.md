@@ -1,5 +1,13 @@
 # MERP-UI — Changelog
 
+## 2.0.5 — Racial identities, Hobbit talents and creation UI (5 November 2026)
+
+- Synchronisation des mots-clés techniques des Races : Dwarf, Umli, Orc/Goblinoids, Troll/Trolls, Dunadan, Human et Elf. Les ascendances mixtes sont conservées dans `flags.merp-ui.raceMatchTags` ; le moteur Slaying RMU reste autoritaire.
+- Migration conservatrice des Items Race MERP-UI existants : seuls type, variété et affinités sont actualisés, sans modifier les caractéristiques ni les compétences.
+- Hobbits : compléter les talents raciaux Small, Resistant, Stealthy et Sure-footed sans doublons et raccourcir leurs descriptions sur la fiche.
+- Réintégration du correctif validé Culture Skills / Hobby Skills : deux zones de défilement distinctes.
+- Aucune modification des scripts de création de PNJ.
+
 ## 2.0.4 — Journal typography and headings (2 November 2026)
 
 - Removed obsolete RC1 `!important` heading sizes (H1–H4) which suppressed the newer visual hierarchy.

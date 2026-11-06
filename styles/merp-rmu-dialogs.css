@@ -699,3 +699,54 @@
   line-height: 1.3;
   opacity: 0.85;
 }
+
+/* MERP-UI 2.0.4 — FIX: la liste Whitford de 12 Hobbies comprimait le
+ * tableau natif des compétences culturelles jusqu'à une hauteur quasi nulle.
+ * Le tableau et les Hobbies ont désormais chacun leur zone de défilement.
+ * Aucun rang, flag ou Item RMU n'est touché.
+ * L'adjacence est garantie par renderHobbies() (insertAdjacentElement afterend).
+ */
+.rmu-appv2-sheet .rmu-culture-skill-elections-table:has(+ .merp-whitford-hobbies) {
+  flex: 0 0 clamp(225px, 34vh, 315px) !important;
+  height: clamp(225px, 34vh, 315px) !important;
+  min-height: clamp(225px, 34vh, 315px) !important;
+  max-height: clamp(225px, 34vh, 315px) !important;
+  overflow-y: auto !important;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+}
+
+.rmu-appv2-sheet .rmu-culture-skill-elections-table + .merp-whitford-hobbies {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 0 1 auto !important;
+  min-height: 0 !important;
+  max-height: min(285px, 35vh) !important;
+  overflow: visible !important; /* Conserve la légende en débord haut */
+}
+
+.rmu-appv2-sheet .rmu-culture-skill-elections-table + .merp-whitford-hobbies .merp-whitford-hobbies__list {
+  flex: 0 1 auto !important;
+  min-height: 0 !important;
+  max-height: min(186px, 24vh) !important;
+  overflow-y: auto !important;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+}
+
+/* Sur un écran peu haut, garder les deux sections indépendantes sans
+ * cacher les commandes de choix et les rangs déjà répartis. */
+@media (max-height: 720px) {
+  .rmu-appv2-sheet .rmu-culture-skill-elections-table:has(+ .merp-whitford-hobbies) {
+    flex-basis: 210px !important;
+    height: 210px !important;
+    min-height: 210px !important;
+    max-height: 210px !important;
+  }
+  .rmu-appv2-sheet .rmu-culture-skill-elections-table + .merp-whitford-hobbies {
+    max-height: 230px !important;
+  }
+  .rmu-appv2-sheet .rmu-culture-skill-elections-table + .merp-whitford-hobbies .merp-whitford-hobbies__list {
+    max-height: 118px !important;
+  }
+}

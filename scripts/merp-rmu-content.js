@@ -2,6 +2,7 @@ import { installMerpLoreSelectors } from "./merp-rmu/lore-selectors.js";
 import { registerCreationLoreGuidance } from "./merp-rmu/creation-lore-guidance.js";
 import { registerCreationTalentsOrder } from "./merp-rmu/creation-talents-order.js";
 import { registerDunedainTalentLocalizationHooks, relocalizeActorDunedainTalents } from "./merp-rmu/dunedain-racial-talents.js";
+import { registerRacialIdentityAndHobbitHooks } from "./merp-rmu/racial-identity-hobbits-v205.js";
 import {
   installMerpRmuTalentsFlaws,
   refreshTalentsFlawsLocalization,
@@ -159,6 +160,7 @@ let lastRequestedContentLanguage = null;
 let lastRequestedContentLanguageAt = 0;
 registerMerpRmuTalentsFlawsHooks();
 registerDunedainTalentLocalizationHooks();
+registerRacialIdentityAndHobbitHooks();
 registerCreationTalentsOrder();
 registerCreationLoreGuidance();
 registerHonninBeta();

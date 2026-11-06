@@ -1,8 +1,8 @@
-# MERP-UI / MERP-RMU 2.0.4
+# MERP-UI / MERP-RMU 2.0.5
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.4 (2 November 2026). Journal headings (H1–H6) use an author-approved, balanced and slightly smaller scale; long page titles may wrap; short heading-like paragraphs no longer receive dropcaps. All RMU mechanics, bilingual content and nine Compendiums are unchanged.
+**Release:** 2.0.5 (6 November 2026). This update consolidates author-tested Hobbit racial talents and Middle-earth racial identity metadata, along with the validated independent Culture Skills and Hobby Skills scrolling areas. The nine LevelDB Compendiums and native RMU mechanics remain preserved.
 
 ## Compatibility
 
@@ -27,6 +27,13 @@ MERP-UI uses a **Compendium-first** design. Instead of filling a new World with 
 The content includes **12 Races**, **21 Professions**, **85 Talents & Flaws**, and a **187-entry Herbs & Substances catalogue**. Race and Profession entries have substantial English/French descriptions; Race and Culture content includes historical variants for the First through Fourth Ages. The module retains spell-list support and the established Middle-earth settings, including optional Shadow attraction and Corruption features.
 
 The **MERP-RMU Content Language** setting chooses English or French editorial content independently of Foundry's own interface language. English is the default for new Worlds; localized text and display names are available where supplied. Existing Compendium documents are synchronized from their canonical sources when the GM starts the World, while character-owned and independently edited World Items are preserved.
+
+## What's new in 2.0.5
+
+- **Hobbits:** reliably displays four racial talents (Small, Resistant, Stealthy and Sure-footed), without automatic duplicate grants; compact descriptions on character sheets.
+- **Culture Skills / Hobby Skills:** preserves the author-validated independent scrolling areas so the 12 Hobby ranks no longer compress or hide the cultural skill table.
+- **Racial identities:** aligns technical race-match metadata while preserving native RMU mechanics; mixed ancestry tags are MERP-UI metadata, not claims of native Slaying support.
+- **Preservation:** no changes to RMU character statistics, skills, development points, the nine LevelDB packs, or intentionally removed assets.
 
 ## What's new in 2.0.4
 
@@ -73,9 +80,9 @@ Use this module manifest in Foundry's **Install Module** dialog:
 
 `https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json`
 
-For manual installation, download the official release archive `merp-ui-2.0.4.zip` from the [v2.0.4 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.4), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
+For manual installation, download the official release archive `merp-ui-2.0.5.zip` from the [v2.0.4 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.5), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
 
-**Back up your Worlds and module files before upgrading.** The 2.0.4 heading hierarchy has been visually reviewed in a Foundry Journal test. Automated Foundry runtime tests, clean installs and every upgrade path have not been independently verified.
+**Back up your Worlds and module files before upgrading.** The 2.0.5 Hobbit talents and Culture/Hobby layout fixes have been validated in Foundry by the author. Automated Foundry runtime tests, clean installs and every upgrade path have not been independently verified.
 
 ## Developer notes
 

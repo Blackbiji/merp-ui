@@ -116,6 +116,16 @@ function plannedItemUpdate(document, source, language) {
   if (current.name !== localized.name) patch.name = localized.name;
   if (localized.img != null && current.img !== localized.img) patch.img = localized.img;
   if (localized.system) addChangedLeaves(patch, 'system', current.system ?? {}, localized.system);
+  // v2.0.5: synchronize only the approved race-match metadata. Previously
+  // plannedItemUpdate copied system and names but never flags; existing
+  // Compendium Race Items would miss dual-ancestry tags after an update.
+  // Never replace the entire flags namespace or touch unrelated documents.
+  if (localized.type === 'race' && Array.isArray(localized.flags?.[MODULE_ID]?.raceMatchTags)) {
+    const desired = localized.flags[MODULE_ID].raceMatchTags;
+    if (!equal(current.flags?.[MODULE_ID]?.raceMatchTags ?? [], desired)) {
+      patch[`flags.${MODULE_ID}.raceMatchTags`] = desired;
+    }
+  }
   // The source may modify effects, but never remove user-added effects automatically.
   const original = localized.effects ?? [];
   if (original.length && !equal(original, current.effects?.slice?.(0, original.length))) {

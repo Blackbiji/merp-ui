@@ -1,5 +1,14 @@
 # MERP-UI — Changelog
 
+## 2.0.6 — Lightweight Actor identities and character reference reading (13 November 2026)
+
+- Race, Culture and Profession: three read-only buttons on the RMU Character sheet retrieve the currently selected Age and FR/EN descriptive text directly from MERP-RMU Compendiums, without inserting historical narratives into an Actor. The pop-up reader uses the validated PragRoman font, parchment/ink palette and compact font sizes.
+- Culture Skills: preserve list scroll position during rank changes and improve contrast of RMU's native All / Choices / Assigned selector.
+- Race/Culture/Profession creation: remove embedded `compendiumAgeVariants` and `compendiumLocalizations` after resolving the intended Age and RMU chassis; large duplicate `system.description` texts are fetched on demand instead. Preserve mechanical data, IDs, selected Age, user choices and Compendium source references.
+- Include automatic Hildor race injection in the lightweight Actor-creation path.
+- Keep all nine persistent LevelDB Compendiums and bilingual historical reference texts unchanged; do not automatically rewrite existing Actors, Journals or Scenes.
+- Author validation: Foundry V14.370 / RMU 1.4.99 in the LIGHT test World (sample Elves/Noldor/Bard character confirmed without embedded Age variants or translations); separate clean-install and GitHub release ZIP validation remains required.
+
 ## 2.0.5 — Racial identities, Hobbit talents and creation UI (5 November 2026)
 
 - Synchronisation des mots-clés techniques des Races : Dwarf, Umli, Orc/Goblinoids, Troll/Trolls, Dunadan, Human et Elf. Les ascendances mixtes sont conservées dans `flags.merp-ui.raceMatchTags` ; le moteur Slaying RMU reste autoritaire.

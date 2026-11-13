@@ -1,10 +1,12 @@
 {
   "name": "merp-ui",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "private": true,
   "type": "module",
   "scripts": {
-    "validate:release": "node .github/ci/validate-release.mjs"
+    "validate:release": "node .github/ci/validate-release.mjs",
+    "test:identity": "node --test tests/identity-compaction.test.mjs",
+    "build:release": "node tools/publication/build-release.mjs"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

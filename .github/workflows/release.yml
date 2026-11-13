@@ -1,0 +1,107 @@
+name: Publish MERP-UI release
+
+# This release can be published directly from the validated merge into main.
+# The GitHub connector cannot create Git tags; this workflow creates the
+# annotated tag itself using the repository's permitted GITHUB_TOKEN.
+# Tags pushed with GITHUB_TOKEN do not trigger a second workflow run; the
+# same job therefore builds and publishes the ZIP.
+on:
+  push:
+    branches: [main]
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Determine intended release
+        id: version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION=$(node -p "JSON.parse(require('fs').readFileSync('module.json', 'utf8')).version")
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
+            test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
+          fi
+          # This one-time publication workflow is scoped to MERP-UI 2.0.6.
+          test "$VERSION" = "2.0.6" || { echo "Unexpected version $VERSION"; exit 1; }
+          if gh release view "v$VERSION" >/dev/null 2>&1; then
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            echo "Version v$VERSION already published; no release changes made."
+          else
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate JavaScript syntax
+        if: steps.version.outputs.publish == 'true'
+        run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
+      - name: Test lightweight identity creation
+        if: steps.version.outputs.publish == 'true'
+        run: npm run test:identity
+      - name: Validate distribution and 9 LevelDB Compendiums
+        if: steps.version.outputs.publish == 'true'
+        run: npm run validate:release
+      - name: Build complete Foundry release ZIP
+        if: steps.version.outputs.publish == 'true'
+        run: npm run build:release
+      - name: SHA-256
+        if: steps.version.outputs.publish == 'true'
+        run: sha256sum dist/merp-ui-*.zip
+      - name: Archive installable ZIP
+        if: steps.version.outputs.publish == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: merp-ui-installable-zip
+          path: dist/merp-ui-*.zip
+          retention-days: 30
+          compression-level: 0
+
+      - name: Create official v2.0.6 annotated tag on merged main
+        if: steps.version.outputs.publish == 'true' && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          TAG="v$VERSION"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists."
+            git fetch origin "refs/tags/$TAG:refs/tags/$TAG"
+            test "$(git rev-parse "$TAG^{commit}")" = "$(git rev-parse HEAD)" || {
+              echo "Existing tag does not match the merged HEAD"; exit 1;
+            }
+          else
+            git tag -a "$TAG" -m "MERP-UI $VERSION — Lightweight Characters & On-Demand Lore"
+            git push origin "refs/tags/$TAG"
+          fi
+
+      - name: Publish complete ZIP to GitHub Releases
+        if: steps.version.outputs.publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          TAG="v$VERSION"
+          ZIP="dist/merp-ui-$VERSION.zip"
+          test -s "$ZIP"
+          gh release create "$TAG" "$ZIP" \
+            --title "MERP-UI $VERSION — Lightweight Characters & On-Demand Lore" \
+            --notes-file ".github/release-notes/v2.0.6.md" \
+            --verify-tag
+          gh release view "$TAG" --json url,assets

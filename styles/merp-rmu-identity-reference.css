@@ -1,0 +1,158 @@
+/* MERP-UI — on-demand Race/Culture/Profession reader. No effect on RMU rules. */
+.rmu-appv2-sheet .merp-ui-identity-reference-links,
+.merp-ui-actor .merp-ui-identity-reference-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 4px 10px;
+  margin: 0 0 4px;
+  background: #e5e5e5;
+  border-block: 1px solid #b8b8b8;
+}
+.rmu-appv2-sheet .merp-ui-identity-reference-button,
+.merp-ui-actor .merp-ui-identity-reference-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 26px;
+  padding: 3px 9px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background: #f6f6f6;
+  color: #202020;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.rmu-appv2-sheet .merp-ui-identity-reference-button:hover,
+.merp-ui-actor .merp-ui-identity-reference-button:hover { background: #d7dfe4; }
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-body {
+  max-height: min(70vh, 680px);
+  overflow: auto;
+  padding: 8px 14px 16px;
+  color: #232323;
+  background: #f0ece3;
+  line-height: 1.5;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-meta {
+  margin: 0 0 14px;
+  color: #636363;
+  font-size: 0.78rem;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 5px;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text {
+  overflow-wrap: anywhere;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text img { max-width: 100%; height: auto; }
+
+/* Keep identity reference buttons inside the Actor sheet, not its title bar. */
+.rmu-appv2-sheet .window-content .merp-ui-identity-reference-links,
+.merp-ui-actor .window-content .merp-ui-identity-reference-links {
+  flex: 0 0 auto !important;
+  align-self: stretch !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  position: relative !important;
+  z-index: 1;
+}
+
+/* Descriptions: PragRoman and dark ink over parchment. The original
+ * bilingual Compendium descriptions are not modified or embedded in Actors.
+ * PragRoman is already supplied by MERP-UI.
+ */
+.merp-ui-identity-reference-dialog .window-title,
+.merp-ui-identity-reference-dialog .window-title *,
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-body,
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-body *,
+.merp-ui-identity-reference-dialog .dialog-buttons button,
+.merp-ui-identity-reference-dialog .form-footer button {
+  font-family: "PragRoman", Georgia, serif !important;
+}
+
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text,
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text * {
+  color: #29251f !important;
+  -webkit-text-fill-color: #29251f !important;
+  text-shadow: none !important;
+}
+
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-body {
+  background: #f0ece3 !important;
+  color: #29251f !important;
+  -webkit-text-fill-color: #29251f !important;
+  font-size: .78rem !important;
+  line-height: 1.38 !important;
+}
+
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text :is(
+  h1, h2, h3, h4, h5, h6
+) {
+  color: #3c2f27 !important;
+  -webkit-text-fill-color: #3c2f27 !important;
+  text-shadow: none !important;
+  font-family: "PragRoman", Georgia, serif !important;
+  font-weight: 700 !important;
+  line-height: 1.18 !important;
+  letter-spacing: 0 !important;
+  opacity: 1 !important;
+}
+
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text h1 {
+  font-size: 1.22rem !important;
+  margin: .35em 0 .42em !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text h2 {
+  font-size: 1.02rem !important;
+  margin: .82em 0 .32em !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text h3 {
+  font-size: .90rem !important;
+  margin: .72em 0 .28em !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text :is(h4,h5,h6) {
+  font-size: .82rem !important;
+  margin: .62em 0 .25em !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text :is(p,li,blockquote) {
+  line-height: 1.38 !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text :is(strong,b) {
+  font-weight: 700 !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text a {
+  color: #714a37 !important;
+  -webkit-text-fill-color: #714a37 !important;
+  text-decoration: underline;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text a:hover {
+  color: #4b3024 !important;
+  -webkit-text-fill-color: #4b3024 !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-meta {
+  color: #625c54 !important;
+  -webkit-text-fill-color: #625c54 !important;
+  font-family: "PragRoman", Georgia, serif !important;
+  font-size: .74rem !important;
+}
+
+/* Compact typographic scale validated on the RMU Actor sheet. */
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text {
+  font-size: .78rem !important;
+  line-height: 1.38 !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text :is(p, li, blockquote) {
+  font-size: .78rem !important;
+  line-height: 1.38 !important;
+  margin-block: .32em .54em !important;
+}
+.merp-ui-identity-reference-dialog .merp-ui-identity-reference-text
+:is(p, li, blockquote) :is(span, strong, b, em, i) {
+  font-size: inherit !important;
+}
+.merp-ui-identity-reference-dialog .window-title {
+  font-size: .92rem !important;
+}

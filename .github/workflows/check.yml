@@ -1,4 +1,4 @@
-name: MERP-UI 2.0 validation
+name: MERP-UI release validation
 
 on:
   pull_request:
@@ -15,5 +15,16 @@ jobs:
           node-version: '22'
       - name: JavaScript syntax
         run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
-      - name: Validate distribution, 9 Compendiums, 455 source hashes, and FR/EN content
+      - name: Character identity compaction regression tests
+        run: npm run test:identity
+      - name: Validate 9 LevelDB Compendiums and bilingual sources
         run: npm run validate:release
+      - name: Build Foundry-installable release ZIP
+        run: npm run build:release
+      - name: Archive release candidate for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: merp-ui-release-candidate
+          path: dist/merp-ui-*.zip
+          retention-days: 14
+          compression-level: 0

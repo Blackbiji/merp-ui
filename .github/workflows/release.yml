@@ -1,0 +1,58 @@
+name: Publish MERP-UI release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify tag and version
+        if: github.ref_type == 'tag'
+        shell: bash
+        run: |
+          VERSION=$(node -p "JSON.parse(require('fs').readFileSync('module.json', 'utf8')).version")
+          test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
+      - name: Validate JavaScript syntax
+        run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
+      - name: Test lightweight identity creation
+        run: npm run test:identity
+      - name: Validate distribution and 9 LevelDB Compendiums
+        run: npm run validate:release
+      - name: Build complete Foundry release ZIP
+        run: npm run build:release
+      - name: SHA-256
+        run: sha256sum dist/merp-ui-*.zip
+      - name: Archive installable ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: merp-ui-installable-zip
+          path: dist/merp-ui-*.zip
+          retention-days: 30
+          compression-level: 0
+      - name: Publish ZIP to GitHub Releases
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          ZIP=$(find dist -maxdepth 1 -name 'merp-ui-*.zip' -type f -print -quit)
+          test -n "$ZIP"
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" "$ZIP" --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" "$ZIP" \
+              --title "MERP-UI 2.0.6 — Lightweight Characters & On-Demand Lore" \
+              --notes-file ".github/release-notes/v2.0.6.md" \
+              --verify-tag
+          fi

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "validate:release": "node .github/ci/validate-release.mjs",
-    "test:identity": "node --test tests/identity-compaction.test.mjs"
+    "test:identity": "node --test tests/identity-compaction.test.mjs",
+    "build:release": "node tools/publication/build-release.mjs"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

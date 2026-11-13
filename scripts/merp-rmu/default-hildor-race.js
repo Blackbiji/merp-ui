@@ -1,3 +1,4 @@
+import { compactEmbeddedIdentityData } from "./embedded-identity-compaction.js";
 // MERP-UI — default Human race for a newly created RMU Character.
 // Only the initial embedded Race of a *new* Actor is changed.  The native RMU
 // character creation flow, actor flags, stats and subsequent race picker remain
@@ -84,7 +85,10 @@ export function installDefaultHildorRace() {
         console.warn("merp-ui | Race Humains (Hildor) introuvable : race RMU par défaut conservée.");
         return result;
       }
-      const race = hildor.toObject();
+      // The source Compendium retains all four Ages and FR/EN descriptions.
+      // Do not serialize those large editorial flags into every new Actor.
+      const sourceRace = hildor.toObject();
+      const race = compactEmbeddedIdentityData(sourceRace) ?? sourceRace;
       // Match RMU's own generation of the initial size and weight, using the
       // *Hildor* frame instead of retaining a build rolled for Common Human.
       const { generateRandomHeightWeight } = await import(

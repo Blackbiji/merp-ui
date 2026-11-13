@@ -1,0 +1,31 @@
+/* MERP-UI / RMU 1.4.99 — TEST: Culture Skills native select contrast.
+ * Select is RMU-owned; retain system._cultureViewSelection and its values.
+ * Target only this select. Do not restyle unrelated RMU controls.
+ */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+select[name="system._cultureViewSelection"] {
+  color-scheme: light !important;
+  background-color: #f7f7f7 !important;
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+  border: 1px solid #969696 !important;
+  opacity: 1 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+select[name="system._cultureViewSelection"] option {
+  color-scheme: light !important;
+  background-color: #fafafa !important;
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+  opacity: 1 !important;
+}
+
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+select[name="system._cultureViewSelection"] option:checked {
+  background-color: #cdd6dd !important;
+  color: #202020 !important;
+  -webkit-text-fill-color: #202020 !important;
+}
+
+/* On Windows, native option highlight can retain the OS accent color. */

@@ -1,4 +1,5 @@
 import "./merp-rmu/culture-scroll-preservation.js";
+import "./merp-rmu/actor-identity-descriptions.js";
 import { buildWebpIconMigrationMap, migrateValueDeep } from "./merp-rmu/icon-path-migration.js";
 import { createMerpAssetCatalog } from "./merp-rmu/asset-catalog.js";
 import { localizeMerpHerbSheet } from "./merp-rmu/herb-sheet-localization.js";

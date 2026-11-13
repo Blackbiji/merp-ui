@@ -803,7 +803,8 @@ Hooks.on("createItem", async (item, options) => {
 
 Hooks.on("updateItem", async (item, changes, options) => {
   if (options?.merpUiProfessionNormalization || options?.merpUiProfessionChassisRestore ||
-options?.merpUiSpecialPowerSkillSync || options?.merpUiCultureLanguageSync) return;
+options?.merpUiSpecialPowerSkillSync || options?.merpUiCultureLanguageSync ||
+options?.merpUiIdentityCompaction) return;
   if (!item.parent || item.parent.documentName !== "Actor") return;
 
   try {

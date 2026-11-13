@@ -4,6 +4,7 @@ import {
 } from "./localization.js";
 import { localizeJournalDocument } from "./content-localization.js";
 import { resolveNativeProfessionDocument } from "./professions.js";
+import { compactPendingActorIdentities, compactCreatedActorIdentity } from "./embedded-identity-compaction.js";
 
 const MODULE_ID = "merp-ui";
 const CAMPAIGN_AGE_SETTING = "campaignAge";
@@ -236,15 +237,26 @@ export async function materializeCompendiumItem(item, options = {}) {
   const flags = merpFlags(item);
   if (!flags?.compendiumPack) return { skipped: true, reason: "not-compendium" };
 
+  // Apply Age-dependent RMU mechanics and source localization first, while
+  // the original Compendium metadata is still available on the pending Item.
+  // Afterwards compact ONLY Actor-embedded identity Items. World Items and
+  // Compendiums keep their complete multilingual / historical reference data.
+  let result;
   if (nativeProfessionDefinition(item)) {
-    return resolveNativeProfession(item);
+    result = await resolveNativeProfession(item);
+  } else if (compendiumAgeVariants(item)) {
+    result = await applyAgeVariant(item);
+  } else {
+    result = await localizeImportedCompendiumItem(item);
   }
 
-  if (compendiumAgeVariants(item)) {
-    return applyAgeVariant(item);
+  // If a native chassis / Age variant failed to resolve, preserve metadata
+  // so the GM can retry; never sacrifice character mechanics to save space.
+  if (result?.action !== "source-missing" && result?.action !== "unavailable-age") {
+    const compact = await compactCreatedActorIdentity(item);
+    if (compact.compacted) result = { ...result, compact };
   }
-
-  return localizeImportedCompendiumItem(item);
+  return result;
 }
 
 export async function materializeCompendiumJournal(journal, options = {}) {
@@ -1020,6 +1032,18 @@ export function registerCompendiumContentHooks() {
       app?.document?.compendium?.collection ??
       app?.options?.collection ??
       null;
+  });
+
+  // A new Actor may arrive with pre-embedded MERP identities (including
+  // the automatically injected Hildor race). Compact before the Actor is
+  // persisted, without touching RMU system stats, skills or Item IDs.
+  Hooks.on("preCreateActor", (actor, data, options, userId) => {
+    if (userId !== game.user?.id || game.system?.id !== "rmu") return;
+    try {
+      compactPendingActorIdentities(actor);
+    } catch (error) {
+      console.warn(`${MODULE_ID} | Compaction des identités avant création d'Actor impossible`, error);
+    }
   });
 
   Hooks.on("preCreateItem", (item, data, options, userId) => {

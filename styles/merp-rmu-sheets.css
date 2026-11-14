@@ -2659,4 +2659,101 @@ html body.game.system-rmu.theme-dark {
   --rmu-accent-color2-1000: #242424 !important;
 }
 
+/* MERP-UI — Always-visible Talents & Flaws step.
+ * One readable PragRoman scale on the Talents step: 11px body & controls,
+ * 13px lead title. No RMU mechanics or native input changes.
+ * Paired JS sets the same values inline to beat RMU V14's later styles. */
+.merp-ui-creation-empty-talents {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  margin: 8px 0 !important;
+  padding: 10px 13px !important;
+  border: 1px solid #b0b0b0 !important;
+  border-radius: 5px !important;
+  background: #eeeeec !important;
+  color: #262626 !important;
+  font-family: "PragRoman", Georgia, serif !important;
+  font-size: 11px !important;
+  line-height: 1.32 !important;
+}
+.merp-ui-creation-empty-talents :is(h2, p, button) {
+  font-family: "PragRoman", Georgia, serif !important;
+  color: #262626 !important;
+  -webkit-text-fill-color: #262626 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  letter-spacing: 0 !important;
+}
+.merp-ui-creation-empty-talents .merp-ui-creation-empty-talents-title {
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+  font-weight: 600 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+}
+.merp-ui-creation-empty-talents p {
+  font-size: 11px !important;
+  line-height: 1.32 !important;
+  font-weight: 400 !important;
+  margin: 0 0 7px !important;
+  padding: 0 !important;
+}
+.merp-ui-creation-empty-talents .merp-ui-creation-empty-talents-footnote {
+  margin-bottom: 0 !important;
+}
+.merp-ui-creation-empty-talents .merp-ui-creation-empty-talents-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  margin: 8px 0 !important;
+}
+.merp-ui-creation-empty-talents .merp-ui-creation-empty-talents-open {
+  flex: 0 1 auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  padding: 4px 8px !important;
+  border: 1px solid #777 !important;
+  border-radius: 4px !important;
+  background: #d9d9d9 !important;
+  color: #262626 !important;
+  font-size: 11px !important;
+  line-height: 1.32 !important;
+  cursor: pointer !important;
+}
+.merp-ui-creation-empty-talents .merp-ui-creation-empty-talents-open:hover {
+  background: #c8c8c8 !important;
+}
 
+
+/* MERP-UI — Harmonise the native RMU information cards with the new Talents
+ * card. Scope: only the Talents creation step (state 5). Check-list and
+ * RMU mechanical controls and native Talents tables are excluded. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-talents-step-typography:has(.merp-ui-creation-empty-talents) .rmu-card.with-legend:not(.merp-ui-creation-empty-talents):not(:has(.rmu-row-checkbox)) {
+  font-family: "PragRoman", Georgia, serif !important;
+  font-size: 11px !important;
+  line-height: 1.32 !important;
+}
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-talents-step-typography:has(.merp-ui-creation-empty-talents) .rmu-card.with-legend:not(.merp-ui-creation-empty-talents):not(:has(.rmu-row-checkbox))
+:is(p, li, div, span, small, label) {
+  font-family: "PragRoman", Georgia, serif !important;
+  font-size: 11px !important;
+  line-height: 1.32 !important;
+}
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-talents-step-typography:has(.merp-ui-creation-empty-talents) .rmu-card.with-legend:not(.merp-ui-creation-empty-talents):not(:has(.rmu-row-checkbox))
+:is(h1, h2, h3, h4, h5, h6, legend) {
+  font-family: "PragRoman", Georgia, serif !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+}
+/* Preserve the dark native RMU section headers and their distinctive size. */
+.rmu-appv2-sheet.rmu-actor-sheet.merp-ui-actor
+.merp-ui-talents-step-typography:has(.merp-ui-creation-empty-talents) .rmu-card.with-legend:not(.merp-ui-creation-empty-talents):not(:has(.rmu-row-checkbox))
+:is(.rmu-card-wrapper-legend, .rmu-card-wrapper-legend *, .rmu-card-legend, .rmu-card-legend *) {
+  font-family: "PragRoman", Georgia, serif !important;
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+}

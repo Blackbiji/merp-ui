@@ -1,8 +1,8 @@
-# MERP-UI / MERP-RMU 2.0.6
+# MERP-UI / MERP-RMU 2.0.7
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.6 (13 November 2026). Foundry V14 / RMU 1.4.99 author-tested Culture Skills scrolling, on-demand Race/Culture/Profession reference reading, and smaller newly created Actors without embedded multi-Age reference payloads. The nine persistent Compendiums and native RMU rules are unchanged.
+**Release:** 2.0.7 (14 November 2026). This update makes the Talents & Flaws step available to all characters during RMU creation, including Races that grant no racial Talent, with compact PragRoman presentation and bilingual guidance. It also harmonizes Compendium folder/document typography and natural row spacing. All nine LevelDB Compendiums and native RMU mechanics are preserved.
 
 ## Compatibility
 
@@ -27,6 +27,13 @@ MERP-UI uses a **Compendium-first** design. Instead of filling a new World with 
 The content includes **12 Races**, **21 Professions**, **85 Talents & Flaws**, and a **187-entry Herbs & Substances catalogue**. Race and Profession entries have substantial English/French descriptions; Race and Culture content includes historical variants for the First through Fourth Ages. The module retains spell-list support and the established Middle-earth settings, including optional Shadow attraction and Corruption features.
 
 The **MERP-RMU Content Language** setting chooses English or French editorial content independently of Foundry's own interface language. English is the default for new Worlds; localized text and display names are available where supplied. Existing Compendium documents are synchronized from their canonical sources when the GM starts the World, while character-owned and independently edited World Items are preserved.
+
+## What's new in 2.0.7
+
+- **Talents & Flaws for every character:** the creation step is always navigable, even when the Race supplies no racial Talent. An explanatory card offers a button to browse the existing MERP-RMU Talents & Flaws Compendium; no free Talents or Development Points are granted.
+- **Bilingual editorial presentation:** step guidance follows the MERP-UI Content Language setting, with PragRoman font sizes matching surrounding RMU content.
+- **Compendium typography:** the nine MERP-RMU Compendiums use a common PragRoman scale for Item and folder titles, proportional vertical padding, and appropriately sized thumbnails, without fixed row heights.
+- **Scope:** no changes to Journals, Actors' existing mechanical data, Compendium entries, or the RMU rules engine.
 
 ## What's new in 2.0.6
 
@@ -88,7 +95,7 @@ Use this module manifest in Foundry's **Install Module** dialog:
 
 `https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json`
 
-For manual installation, download the official release archive `merp-ui-2.0.6.zip` from the [v2.0.6 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.6), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
+For manual installation, download the official release archive `merp-ui-2.0.7.zip` from the [v2.0.7 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.7), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
 
 **Back up your Worlds and module files before upgrading.** The 2.0.6 reader and Culture Skills fixes, plus the 2.0.5 Hobbit talents and Culture/Hobby layout fixes, have been validated in Foundry by the author. Automated Foundry runtime tests, clean installs and every upgrade path have not been independently verified.
 

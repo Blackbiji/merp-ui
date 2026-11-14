@@ -1,5 +1,13 @@
 # MERP-UI — Changelog
 
+## 2.0.7 — Always-visible Talents & Flaws, unified Compendium typography (14 November 2026)
+
+- Always present the Talents & Flaws stage in RMU character creation, including Races with no granted racial Talents. Preserve navigation Knacks → Talents & Flaws → Combat Training.
+- Add a bilingual, PragRoman-scaled explanatory card and direct link to the existing MERP-RMU Talents & Flaws Compendium; rely on RMU to manage purchasing and Development Point costs, without adding any free Talents.
+- Harmonize headings and explanatory text in the three creation panels, scoped to the empty Talents step only.
+- Use the same proportional PragRoman text size, line spacing and thumbnail scale across all MERP-RMU Compendium folders and Item entries, following Languages as the reference. Row heights remain content-driven and allow natural wrapping.
+- Preserve existing Actors, Journals, original Compendium content and all native RMU mechanics. Compatible with the 2.0.6 lightweight Actor import fix; no migration of Worlds.
+
 ## 2.0.6 — Lightweight Actor identities and character reference reading (13 November 2026)
 
 - Race, Culture and Profession: three read-only buttons on the RMU Character sheet retrieve the currently selected Age and FR/EN descriptive text directly from MERP-RMU Compendiums, without inserting historical narratives into an Actor. The pop-up reader uses the validated PragRoman font, parchment/ink palette and compact font sizes.

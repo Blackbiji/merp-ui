@@ -553,11 +553,38 @@
   border-color: var(--merp-c-line) !important;
   text-shadow: none !important;
 }
+/* MERP-UI 2.0.7 candidate — unified, content-driven compendium row rhythm.
+ * Languages is the typographic reference: same PragRoman scale and the same
+ * proportional padding for a folder heading and a one-line document entry.
+ * No fixed row heights: longer names may wrap and grow naturally.
+ * Limit all selectors to MERP-UI Compendium browsers, not World directories.
+ */
+.merp-ui-compendium-browser {
+  --merp-c-row-font-size: 15px;
+  --merp-c-row-line-height: 1.28;
+  --merp-c-row-space: .62em;
+  --merp-c-thumb-size: 1.35em;
+}
+/* Documents use the same rhythm as folder headings, without reserving
+ * extra height for a native document thumbnail. Folder LI wrappers have
+ * their own header: padding belongs on the header, not twice on the LI. */
 .merp-ui-compendium-browser :is(.directory-item,.compendium-entry) {
-  min-height: 34px !important;
+  height: auto !important;
+  min-height: 0 !important;
   margin-block: 0 !important;
-  padding-block: 4px !important;
+  padding-block: var(--merp-c-row-space) !important;
   box-sizing: border-box !important;
+  font-size: var(--merp-c-row-font-size) !important;
+  line-height: var(--merp-c-row-line-height) !important;
+}
+.merp-ui-compendium-browser :is(
+  .directory-item.folder, li.folder, .folder.directory-item,
+  .directory-item:has(> .folder-header),
+  .directory-item:has(> header.folder-header)
+) {
+  height: auto !important;
+  min-height: 0 !important;
+  padding-block: 0 !important;
 }
 .merp-ui-compendium-browser :is(
   .directory-item a:not(.control),.directory-item .entry-name,
@@ -566,25 +593,56 @@
   .compendium-entry h3,.compendium-entry h4
 ) {
   color: var(--merp-c-ink) !important;
-  font: 400 14px/1.3 var(--merp-c-font) !important;
+  font: 400 var(--merp-c-row-font-size)/var(--merp-c-row-line-height) var(--merp-c-font) !important;
   text-shadow: none !important;
 }
+.merp-ui-compendium-browser :is(
+  .directory-item h3,.directory-item h4,
+  .compendium-entry h3,.compendium-entry h4
+) {
+  margin-block: 0 !important;
+  padding-block: 0 !important;
+  min-height: 0 !important;
+}
 .merp-ui-compendium-browser :is(.folder-header,.folder>header,.folder-heading) {
-  min-height: 35px !important;
+  height: auto !important;
+  min-height: 0 !important;
   margin: 0 !important;
-  padding: 5px 9px !important;
+  padding-block: var(--merp-c-row-space) !important;
+  padding-inline: 9px !important;
   background: var(--merp-c-folder) !important;
   border-color: var(--merp-c-line) !important;
-  color: #27221d !important;
+  color: var(--merp-c-ink) !important;
+  box-sizing: border-box !important;
+  font-size: var(--merp-c-row-font-size) !important;
+  line-height: var(--merp-c-row-line-height) !important;
 }
 .merp-ui-compendium-browser :is(
   .folder-header,.folder-header .folder-name,.folder-header .name,
   .folder-header h3,.folder-header h4,.folder-heading,
   .folder>header h3,.folder>header h4
 ) {
-  color: #27221d !important;
-  font: 600 15px/1.25 var(--merp-c-font) !important;
+  color: var(--merp-c-ink) !important;
+  font: 600 var(--merp-c-row-font-size)/var(--merp-c-row-line-height) var(--merp-c-font) !important;
   text-shadow: none !important;
+}
+/* Skill pack icons may be large native RMU artwork. Keep the icons, but
+ * size them in em so they follow the text scale rather than stretching rows.
+ * The row height itself remains automatic; folders and items stay aligned. */
+.merp-ui-compendium-browser :is(
+  .directory-item.document, .compendium-entry
+) :is(
+  img.thumbnail, img.document-image, img.directory-thumbnail,
+  img.directory-image, .thumbnail > img, .entry-icon > img
+) {
+  width: var(--merp-c-thumb-size) !important;
+  height: var(--merp-c-thumb-size) !important;
+  max-width: var(--merp-c-thumb-size) !important;
+  max-height: var(--merp-c-thumb-size) !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  object-fit: contain !important;
+  flex: 0 0 var(--merp-c-thumb-size) !important;
 }
 .merp-ui-compendium-browser :is(.directory-item,.compendium-entry,.document):hover {
   background: rgba(218,210,197,.60) !important;

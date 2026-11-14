@@ -17,6 +17,8 @@ jobs:
         run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
       - name: Character identity compaction regression tests
         run: npm run test:identity
+      - name: Talents step and Compendium typography tests
+        run: npm run test:ui
       - name: Validate 9 LevelDB Compendiums and bilingual sources
         run: npm run validate:release
       - name: Build Foundry-installable release ZIP

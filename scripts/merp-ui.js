@@ -1,3 +1,4 @@
+import "./merp-rmu/talents-sheet-compact.js"; // MERP-UI 2.0.8: actor Talents/Flaws previews
 import "./merp-rmu/culture-scroll-preservation.js";
 import "./merp-rmu/actor-identity-descriptions.js";
 import { buildWebpIconMigrationMap, migrateValueDeep } from "./merp-rmu/icon-path-migration.js";

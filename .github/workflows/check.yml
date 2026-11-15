@@ -19,6 +19,8 @@ jobs:
         run: npm run test:identity
       - name: Talents step and Compendium typography tests
         run: npm run test:ui
+      - name: Actor Talents and Flaws compact preview regression tests
+        run: npm run test:talent-sheet
       - name: Validate 9 LevelDB Compendiums and bilingual sources
         run: npm run validate:release
       - name: Build Foundry-installable release ZIP

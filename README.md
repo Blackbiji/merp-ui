@@ -1,8 +1,8 @@
-# MERP-UI / MERP-RMU 2.0.7
+# MERP-UI / MERP-RMU 2.0.8
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.7 (14 November 2026). This update makes the Talents & Flaws step available to all characters during RMU creation, including Races that grant no racial Talent, with compact PragRoman presentation and bilingual guidance. It also harmonizes Compendium folder/document typography and natural row spacing. All nine LevelDB Compendiums and native RMU mechanics are preserved.
+**Release:** 2.0.8 (15 November 2026). A display-only improvement makes the Talents & Flaws tab of RMU character sheets more readable: rich descriptions use compact PragRoman typography and start as 150-character previews with an optional "Read description" / "Lire la description" expander. Native edit controls, mechanical values, Development Point costs, existing Actors, and all nine LevelDB Compendiums are unchanged.
 
 ## Compatibility
 
@@ -27,6 +27,13 @@ MERP-UI uses a **Compendium-first** design. Instead of filling a new World with 
 The content includes **12 Races**, **21 Professions**, **85 Talents & Flaws**, and a **187-entry Herbs & Substances catalogue**. Race and Profession entries have substantial English/French descriptions; Race and Culture content includes historical variants for the First through Fourth Ages. The module retains spell-list support and the established Middle-earth settings, including optional Shadow attraction and Corruption features.
 
 The **MERP-RMU Content Language** setting chooses English or French editorial content independently of Foundry's own interface language. English is the default for new Worlds; localized text and display names are available where supplied. Existing Compendium documents are synchronized from their canonical sources when the GM starts the World, while character-owned and independently edited World Items are preserved.
+
+## What's new in 2.0.8
+
+- **More readable Talents & Flaws tab:** compact 13 px PragRoman descriptions on RMU Actor character sheets, even when the tab loads asynchronously.
+- **Concise previews:** descriptions start with an excerpt of up to approximately 150 characters; a bilingual "Read description" / "Lire la description" toggle reveals the complete original rich text without changing its content.
+- **No mechanical changes:** costs, tiers, Talent data, native RMU editing controls and the existing creation workflow remain untouched.
+- **Safe update from 2.0.7:** the previous character-creation and Compendium typography improvements remain included. No migration is required.
 
 ## What's new in 2.0.7
 
@@ -95,7 +102,7 @@ Use this module manifest in Foundry's **Install Module** dialog:
 
 `https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json`
 
-For manual installation, download the official release archive `merp-ui-2.0.7.zip` from the [v2.0.7 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.7), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
+For manual installation, download the official release archive `merp-ui-2.0.8.zip` from the [v2.0.8 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.8), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
 
 **Back up your Worlds and module files before upgrading.** The 2.0.6 reader and Culture Skills fixes, plus the 2.0.5 Hobbit talents and Culture/Hobby layout fixes, have been validated in Foundry by the author. Automated Foundry runtime tests, clean installs and every upgrade path have not been independently verified.
 

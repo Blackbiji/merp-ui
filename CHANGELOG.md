@@ -1,5 +1,13 @@
 # MERP-UI — Changelog
 
+## 2.0.8 — Compact Talents & Flaws presentation in RMU character sheets (15 November 2026)
+
+- Present rich Talent and Flaw descriptions in compact 13 px PragRoman typography on RMU Actor sheets.
+- Show a concise preview by default, with a bilingual button to expand and collapse the full original description.
+- Load the display enhancement via the existing MERP-UI script entrypoint so it also works when RMU renders the Talents tab after the character sheet opens.
+- Preserve native RMU editing controls, tier and Development Point cost columns, document data and all Actor/Compendium content.
+- Author validation in GATES - RACES LIGHT TEST: two descriptions found and enhanced, two preview buttons displayed; visual presentation approved. No changes to RMU rules.
+
 ## 2.0.7 — Always-visible Talents & Flaws, unified Compendium typography (14 November 2026)
 
 - Always present the Talents & Flaws stage in RMU character creation, including Races with no granted racial Talents. Preserve navigation Knacks → Talents & Flaws → Combat Training.

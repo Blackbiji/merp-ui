@@ -897,3 +897,41 @@
   gap: 6px !important;
   padding-top: 8px !important;
 }
+
+/* MERP-UI 2.0.8 — Compact Actor Talents / Flaws descriptions.
+ * Display-only: preserve native RMU edit controls and mechanical columns. */
+.rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced {
+  font: 400 13px/1.3 "PragRoman", Georgia, serif !important;
+  color: #242424 !important;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced > .merp-ui-talent-original { display: none !important; }
+.rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced.merp-ui-talent-expanded > .merp-ui-talent-original { display: revert !important; }
+.rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced.merp-ui-talent-expanded > .merp-ui-talent-preview { display: none !important; }
+.rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced > .merp-ui-talent-preview {
+  display: block;
+  font: 400 13px/1.3 "PragRoman", Georgia, serif !important;
+  color: #242424 !important;
+  overflow-wrap: anywhere;
+}
+.rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced > .merp-ui-talent-toggle {
+  display: inline-flex !important;
+  align-items: center !important;
+  width: auto !important;
+  min-height: 0 !important;
+  height: auto !important;
+  margin: .35em 0 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font: 600 12px/1.25 "PragRoman", Georgia, serif !important;
+  color: #24394e !important;
+  cursor: pointer !important;
+  text-decoration: underline !important;
+  text-underline-offset: .15em !important;
+}
+.rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced > .merp-ui-talent-toggle:hover {
+  color: #0c1823 !important;
+}

@@ -36,8 +36,8 @@ jobs:
           if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
             test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
           fi
-          # This one-time publication workflow is scoped to MERP-UI 2.0.7.
-          test "$VERSION" = "2.0.7" || { echo "Unexpected version $VERSION"; exit 1; }
+          # This one-time publication workflow is scoped to MERP-UI 2.0.8.
+          test "$VERSION" = "2.0.8" || { echo "Unexpected version $VERSION"; exit 1; }
           if gh release view "v$VERSION" >/dev/null 2>&1; then
             echo "publish=false" >> "$GITHUB_OUTPUT"
             echo "Version v$VERSION already published; no release changes made."
@@ -54,6 +54,9 @@ jobs:
       - name: Talents step and Compendium typography regression tests
         if: steps.version.outputs.publish == 'true'
         run: npm run test:ui
+      - name: Actor Talents and Flaws compact preview regression tests
+        if: steps.version.outputs.publish == 'true'
+        run: npm run test:talent-sheet
       - name: Validate distribution and 9 LevelDB Compendiums
         if: steps.version.outputs.publish == 'true'
         run: npm run validate:release
@@ -72,7 +75,7 @@ jobs:
           retention-days: 30
           compression-level: 0
 
-      - name: Create official v2.0.7 annotated tag on merged main
+      - name: Create official v2.0.8 annotated tag on merged main
         if: steps.version.outputs.publish == 'true' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
@@ -88,7 +91,7 @@ jobs:
               echo "Existing tag does not match the merged HEAD"; exit 1;
             }
           else
-            git tag -a "$TAG" -m "MERP-UI $VERSION — Talents & Flaws and Compendium Typography"
+            git tag -a "$TAG" -m "MERP-UI $VERSION — Compact Talents & Flaws on Actor Sheets"
             git push origin "refs/tags/$TAG"
           fi
 
@@ -104,7 +107,7 @@ jobs:
           ZIP="dist/merp-ui-$VERSION.zip"
           test -s "$ZIP"
           gh release create "$TAG" "$ZIP" \
-            --title "MERP-UI $VERSION — Talents & Flaws and Compendium Typography" \
-            --notes-file ".github/release-notes/v2.0.7.md" \
+            --title "MERP-UI $VERSION — Compact Talents & Flaws on Actor Sheets" \
+            --notes-file ".github/release-notes/v2.0.8.md" \
             --verify-tag
           gh release view "$TAG" --json url,assets

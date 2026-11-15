@@ -1,13 +1,14 @@
 {
   "name": "merp-ui",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "private": true,
   "type": "module",
   "scripts": {
     "validate:release": "node .github/ci/validate-release.mjs",
     "test:identity": "node --test tests/identity-compaction.test.mjs",
     "build:release": "node tools/publication/build-release.mjs",
-    "test:ui": "node --test tests/creation-talents.test.mjs"
+    "test:ui": "node --test tests/creation-talents.test.mjs",
+    "test:talent-sheet": "node --test tests/talents-sheet-compact.test.mjs"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

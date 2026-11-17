@@ -34,17 +34,6 @@ jobs:
           path: dist/merp-ui-*.zip
           retention-days: 14
           compression-level: 0
-      - name: Build small patch for existing Actors
-        if: github.event_name == 'pull_request'
-        run: zip -q -9 dist/merp-ui-legacy-actor-sizes-patch.zip scripts/merp-rmu/native-racial-size-talents.js scripts/merp-rmu/racial-identity-hobbits-v205.js
-      - name: Upload legacy size patch
-        if: github.event_name == 'pull_request'
-        uses: actions/upload-artifact@v4
-        with:
-          name: merp-ui-legacy-actor-sizes-patch
-          path: dist/merp-ui-legacy-actor-sizes-patch.zip
-          retention-days: 14
-          compression-level: 0
 
   publish-v209:
     name: Publish MERP-UI 2.0.9

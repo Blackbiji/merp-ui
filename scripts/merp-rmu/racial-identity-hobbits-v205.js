@@ -186,16 +186,25 @@ export async function ensureHobbitRacialTalents(actor, {dryRun = false} = {}) {
       const fromOurCatalog=flag.key==='stealthy-hobbit';
       const owned=flag.autoRacialGrant===FIX;
       const racial=item.flags?.rmu?.race === true;
-      if (!fromOurCatalog && !owned && !racial) continue;
+      const legacySmall = key === 'small' && norm(item.name) === 'small' &&
+        norm(item.system?.category) === 'racial' &&
+        Number(item.system?.dpSpent ?? 0) === 0;
+      if (!fromOurCatalog && !owned && !racial && !legacySmall) continue;
       const target=TALENTS[key][locale];
       const patch={_id:item.id};
       if (item.system?.description !== target) patch['system.description']=target;
       // Upgrade the legacy descriptive Hobbit Small Item in place, preserving
       // its ID, racial status, Tier I and DP history. This is the native RMU
       // Talent name required for Small actor size preparation.
-      if (key==='small' && item.name!==TALENTS.small.name) {
-        patch.name=TALENTS.small.name;
-        report.namesUpdated++;
+      if (key==='small') {
+        if (item.name!==TALENTS.small.name) {
+          patch.name=TALENTS.small.name;
+          report.namesUpdated++;
+        }
+        if (item.system?.name && item.system.name !== TALENTS.small.name) {
+          patch['system.name'] = TALENTS.small.name;
+        }
+        if (Number(item.system?.tier) !== 1) patch['system.tier'] = 1;
       }
       if (Object.keys(patch).length>1) updates.push(patch);
     }
@@ -208,12 +217,13 @@ export async function ensureHobbitRacialTalents(actor, {dryRun = false} = {}) {
       await actor.updateEmbeddedDocuments('Item',
         [{_id: race.id, ...racePatch}], {merpUiHobbitRacialFix:true});
     }
-    if (actor.system?.frame && actor.system.frame.size !== 'Small') {
+    const actorFrameUpdated = Boolean(actor.system?.frame &&
+      actor.system.frame.size !== 'Small');
+    if (actorFrameUpdated) {
       await actor.update({'system.frame.size':'Small'}, {merpUiHobbitRacialFix:true});
     }
     report.raceFrameUpdated=Boolean(racePatch['system.frame.size']);
-    report.actorFrameUpdated=Boolean(actor.system?.frame &&
-      actor.system.frame.size === 'Small');
+    report.actorFrameUpdated=actorFrameUpdated;
     return report;
   };
   if (dryRun) return execute();

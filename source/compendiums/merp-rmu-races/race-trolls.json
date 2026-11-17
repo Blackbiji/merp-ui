@@ -15,7 +15,7 @@
         "key": "race-trolls",
         "canonicalKey": "race-trolls",
         "collection": "merp-rmu",
-        "contentVersion": 4,
+        "contentVersion": 5,
         "source": {
           "type": "merp-rmss-to-rmu-conversion",
           "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -55,7 +55,7 @@
                   "key": "race-trolls-age-1",
                   "canonicalKey": "race-trolls",
                   "collection": "merp-rmu",
-                  "contentVersion": 4,
+                  "contentVersion": 5,
                   "source": {
                     "type": "merp-rmss-to-rmu-conversion",
                     "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -74,9 +74,9 @@
               "system": {
                 "talents": [
                   {
-                    "name": "Large",
-                    "tier": 3,
-                    "description": "Les Trolls appartiennent à la catégorie de grande taille et utilisent un équipement surdimensionné."
+                    "name": "Increased Size",
+                    "tier": 2,
+                    "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
                   },
                   {
                     "name": "Natural Armor",
@@ -187,7 +187,7 @@
                   "key": "race-trolls-age-2",
                   "canonicalKey": "race-trolls",
                   "collection": "merp-rmu",
-                  "contentVersion": 4,
+                  "contentVersion": 5,
                   "source": {
                     "type": "merp-rmss-to-rmu-conversion",
                     "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -206,9 +206,9 @@
               "system": {
                 "talents": [
                   {
-                    "name": "Large",
-                    "tier": 3,
-                    "description": "Les Trolls appartiennent à la catégorie de grande taille et utilisent un équipement surdimensionné."
+                    "name": "Increased Size",
+                    "tier": 2,
+                    "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
                   },
                   {
                     "name": "Natural Armor",
@@ -319,7 +319,7 @@
                   "key": "race-trolls-age-3",
                   "canonicalKey": "race-trolls",
                   "collection": "merp-rmu",
-                  "contentVersion": 4,
+                  "contentVersion": 5,
                   "source": {
                     "type": "merp-rmss-to-rmu-conversion",
                     "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -338,9 +338,9 @@
               "system": {
                 "talents": [
                   {
-                    "name": "Large",
-                    "tier": 3,
-                    "description": "Les Trolls appartiennent à la catégorie de grande taille et utilisent un équipement surdimensionné."
+                    "name": "Increased Size",
+                    "tier": 2,
+                    "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
                   },
                   {
                     "name": "Natural Armor",
@@ -451,7 +451,7 @@
                   "key": "race-trolls-age-4",
                   "canonicalKey": "race-trolls",
                   "collection": "merp-rmu",
-                  "contentVersion": 4,
+                  "contentVersion": 5,
                   "source": {
                     "type": "merp-rmss-to-rmu-conversion",
                     "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -470,9 +470,9 @@
               "system": {
                 "talents": [
                   {
-                    "name": "Large",
-                    "tier": 3,
-                    "description": "Les Trolls appartiennent à la catégorie de grande taille et utilisent un équipement surdimensionné."
+                    "name": "Increased Size",
+                    "tier": 2,
+                    "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
                   },
                   {
                     "name": "Natural Armor",
@@ -583,6 +583,11 @@
     "system": {
       "talents": [
         {
+          "name": "Increased Size",
+          "tier": 2,
+          "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
+        },
+        {
           "name": "Natural Armor",
           "tier": 3,
           "description": "Leur peau épaisse offre une protection naturelle importante."
@@ -691,7 +696,7 @@
             "key": "race-trolls-age-1",
             "canonicalKey": "race-trolls",
             "collection": "merp-rmu",
-            "contentVersion": 4,
+            "contentVersion": 5,
             "source": {
               "type": "merp-rmss-to-rmu-conversion",
               "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -719,6 +724,11 @@
         },
         "system": {
           "talents": [
+            {
+              "name": "Increased Size",
+              "tier": 2,
+              "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
+            },
             {
               "name": "Natural Armor",
               "tier": 3,
@@ -828,7 +838,7 @@
             "key": "race-trolls-age-2",
             "canonicalKey": "race-trolls",
             "collection": "merp-rmu",
-            "contentVersion": 4,
+            "contentVersion": 5,
             "source": {
               "type": "merp-rmss-to-rmu-conversion",
               "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -856,6 +866,11 @@
         },
         "system": {
           "talents": [
+            {
+              "name": "Increased Size",
+              "tier": 2,
+              "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
+            },
             {
               "name": "Natural Armor",
               "tier": 3,
@@ -965,7 +980,7 @@
             "key": "race-trolls-age-3",
             "canonicalKey": "race-trolls",
             "collection": "merp-rmu",
-            "contentVersion": 4,
+            "contentVersion": 5,
             "source": {
               "type": "merp-rmss-to-rmu-conversion",
               "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -993,6 +1008,11 @@
         },
         "system": {
           "talents": [
+            {
+              "name": "Increased Size",
+              "tier": 2,
+              "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
+            },
             {
               "name": "Natural Armor",
               "tier": 3,
@@ -1102,7 +1122,7 @@
             "key": "race-trolls-age-4",
             "canonicalKey": "race-trolls",
             "collection": "merp-rmu",
-            "contentVersion": 4,
+            "contentVersion": 5,
             "source": {
               "type": "merp-rmss-to-rmu-conversion",
               "reference": "MERP Character Creation Using RMSS/RMFRP v2.5"
@@ -1130,6 +1150,11 @@
         },
         "system": {
           "talents": [
+            {
+              "name": "Increased Size",
+              "tier": 2,
+              "description": "Les membres de cette Race sont de taille Large. Increased Size II correspond à deux catégories au-dessus de Medium (Big, puis Large), avec les effets de taille RMU."
+            },
             {
               "name": "Natural Armor",
               "tier": 3,

@@ -21,6 +21,8 @@ jobs:
         run: npm run test:ui
       - name: Actor Talents and Flaws compact preview regression tests
         run: npm run test:talent-sheet
+      - name: Native RMU racial size regression tests
+        run: npm run test:racial-size
       - name: Validate 9 LevelDB Compendiums and bilingual sources
         run: npm run validate:release
       - name: Build Foundry-installable release ZIP
@@ -32,3 +34,31 @@ jobs:
           path: dist/merp-ui-*.zip
           retention-days: 14
           compression-level: 0
+
+  publish-v209:
+    name: Publish MERP-UI 2.0.9
+    needs: release-consistency
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(github.event.head_commit.message, 'Release MERP-UI 2.0.9') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: merp-ui-release-candidate
+          path: dist
+      - name: Publish verified ZIP as official GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test -s dist/merp-ui-2.0.9.zip
+          if gh release view v2.0.9 >/dev/null 2>&1; then
+            echo 'Release v2.0.9 already exists; refusing to overwrite.'
+            exit 1
+          fi
+          gh release create v2.0.9 dist/merp-ui-2.0.9.zip \
+            --title 'MERP-UI 2.0.9' \
+            --notes-file docs/RELEASE-2.0.9.md \
+            --target "$GITHUB_SHA" \
+            --latest

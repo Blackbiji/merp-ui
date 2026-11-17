@@ -56,9 +56,9 @@ function isHobbit(race) {
 
 const TALENTS = Object.freeze({
   small: {
-    name: 'Small',
-    fr: 'Les Hobbits sont de petite taille (catégorie Small). Leur taille et leur stabilité sont déjà prises en compte par la Race.',
-    en: 'Hobbits are Small. Their size and balance are already reflected in the Race.'
+    name: 'Decreased Size',
+    fr: 'Les Hobbits sont de taille Small. Decreased Size I permet à RMU de déterminer leur taille effective et ses effets sur les attaques et les points de vie.',
+    en: 'Hobbits are Small. Decreased Size I allows RMU to calculate their effective size and the associated attack and hit-point effects.'
   },
   resistant: {
     name: 'Resistant',
@@ -78,7 +78,7 @@ const TALENTS = Object.freeze({
 });
 const ORDER = Object.freeze(['small','resistant','stealthy','surefooted']);
 const KNOWN = Object.freeze({
-  small: ['small','petite taille'],
+  small: ['small','petite taille','decreased size'],
   resistant: ['resistant','résistant'],
   stealthy: ['stealthy','furtif','furtif (stealthy)'],
   surefooted: ['sure-footed','sure footed','pied sûr','pieds sûrs']
@@ -118,11 +118,11 @@ export async function ensureHobbitRacialTalents(actor, {dryRun = false} = {}) {
     const duplicates = [...mapped].filter(([_, docs]) => docs.length > 1).map(([key]) => key);
     if (duplicates.length) throw Error(`MERP-UI Hobbit: talents déjà en double : ${duplicates.join(', ')}`);
     const missing = ORDER.filter(key => !mapped.has(key));
-    const report = {eligible:true, actorId:actor.id, existing:4-missing.length, missing, created:0, descriptionsUpdated:0};
+    const report = {eligible:true, actorId:actor.id, existing:4-missing.length, missing, created:0, descriptionsUpdated:0, namesUpdated:0};
     if (dryRun) return report;
     if (missing.length) {
       // These are legitimate RMU Talent Items: free race-granted, Tier I,
-      // descriptive only, no synthetic skill/stat/size effects or DP spending.
+      // recognized by RMU's native Talent logic, without DP spending.
       const docs = missing.map(key => ({
         name:TALENTS[key].name,
         type:'talent',
@@ -158,9 +158,16 @@ export async function ensureHobbitRacialTalents(actor, {dryRun = false} = {}) {
       const racial=item.flags?.rmu?.race === true;
       if (!fromOurCatalog && !owned && !racial) continue;
       const target=TALENTS[key][locale];
-      if (item.system?.description !== target) {
-        updates.push({_id:item.id, 'system.description':target});
+      const patch={_id:item.id};
+      if (item.system?.description !== target) patch['system.description']=target;
+      // Upgrade the legacy descriptive Hobbit Small Item in place, preserving
+      // its ID, racial status, Tier I and DP history. This is the native RMU
+      // Talent name required for Small actor size preparation.
+      if (key==='small' && item.name!==TALENTS.small.name) {
+        patch.name=TALENTS.small.name;
+        report.namesUpdated++;
       }
+      if (Object.keys(patch).length>1) updates.push(patch);
     }
     if (updates.length) await actor.updateEmbeddedDocuments('Item', updates, {merpUiHobbitRacialFix:true});
     report.descriptionsUpdated=updates.length;

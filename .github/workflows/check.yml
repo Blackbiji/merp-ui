@@ -21,6 +21,8 @@ jobs:
         run: npm run test:ui
       - name: Actor Talents and Flaws compact preview regression tests
         run: npm run test:talent-sheet
+      - name: Native RMU racial size regression tests
+        run: npm run test:racial-size
       - name: Validate 9 LevelDB Compendiums and bilingual sources
         run: npm run validate:release
       - name: Build Foundry-installable release ZIP

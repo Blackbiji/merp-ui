@@ -217,10 +217,12 @@ export async function ensureHobbitRacialTalents(actor, {dryRun = false} = {}) {
       await actor.updateEmbeddedDocuments('Item',
         [{_id: race.id, ...racePatch}], {merpUiHobbitRacialFix:true});
     }
-    const actorFrameUpdated = Boolean(actor.system?.frame &&
-      actor.system.frame.size !== 'Small');
+    // Actor appearance.size is RMU's real Character size field, distinct
+    // from the embedded Race's frame.size.
+    const actorFrameUpdated = Boolean(actor.system?.appearance &&
+      actor.system.appearance.size !== 'Small');
     if (actorFrameUpdated) {
-      await actor.update({'system.frame.size':'Small'}, {merpUiHobbitRacialFix:true});
+      await actor.update({'system.appearance.size':'Small'}, {merpUiHobbitRacialFix:true});
     }
     report.raceFrameUpdated=Boolean(racePatch['system.frame.size']);
     report.actorFrameUpdated=actorFrameUpdated;

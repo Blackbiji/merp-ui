@@ -38,7 +38,7 @@ for (const key of ['race-trolls', 'race-half-trolls']) {
 function actorFor({race='race-trolls',size='Large',actorSize=null,talents=[]}={}) {
   return {
     documentName: 'Actor', type: 'Character', name: 'Size test',
-    ...(actorSize ? {system:{frame:{size:actorSize}}} : {}),
+    ...(actorSize ? {system:{appearance:{size:actorSize}}} : {}),
     items: [{ type: 'race', name: race,
       flags: {'merp-ui': {collection:'merp-rmu',canonicalKey:race}},
       system: {frame: {size}}
@@ -92,7 +92,7 @@ test('Troll frame synchronization updates only Actor size and no embedded items'
   const writes=[];
   a.update=async patch=>{
     writes.push(patch);
-    if(patch['system.frame.size']) a.system.frame.size=patch['system.frame.size'];
+    if(patch['system.appearance.size']) a.system.appearance.size=patch['system.appearance.size'];
   };
   a.updateEmbeddedDocuments=async()=>{throw Error('unexpected Talent mutation');};
   a.createEmbeddedDocuments=async()=>{throw Error('unexpected Talent insertion');};
@@ -101,8 +101,8 @@ test('Troll frame synchronization updates only Actor size and no embedded items'
   try {
     const outcome=await ensureNativeTrollSize(a);
     assert.equal(outcome.changed,true);
-    assert.deepEqual(writes,[{'system.frame.size':'Large'}]);
-    assert.equal(a.system.frame.size,'Large');
+    assert.deepEqual(writes,[{'system.appearance.size':'Large'}]);
+    assert.equal(a.system.appearance.size,'Large');
     assert.equal(a.items[1].id,'native');
   } finally {
     globalThis.game=previous;
@@ -176,13 +176,13 @@ test('legacy Troll: fixes Race, racial Talent and Actor size without changing in
     return patches;
   };
   actor.createEmbeddedDocuments=async()=>{throw Error('unexpected grant');};
-  actor.update=async patch=>{actor.system.frame.size=patch['system.frame.size'];};
+  actor.update=async patch=>{actor.system.appearance.size=patch['system.appearance.size'];};
   const prev=globalThis.game;
   globalThis.game={user:{isGM:true},system:{id:'rmu'},settings:{get:()=> 'fr'}};
   try {
     const result=await ensureNativeTrollSize(actor);
     assert.equal(result.changed,true);
-    assert.equal(actor.system.frame.size,'Large');
+    assert.equal(actor.system.appearance.size,'Large');
     assert.equal(actor.items[0].system.frame.size,'Large');
     assert.deepEqual(actor.items[0].system.talents.map(t=>[t.name,t.tier]),[['Increased Size',2]]);
     assert.equal(actor.items[1].name,'Increased Size');
@@ -231,14 +231,14 @@ test('legacy Hobbit: old compendium key is recognized for racial repair', async 
     for(let n=0;n<docs.length;n++)actor.items.push({...docs[n],id:'new-'+n});
     return docs;
   };
-  actor.update=async patch=>{actor.system.frame.size=patch['system.frame.size'];};
+  actor.update=async patch=>{actor.system.appearance.size=patch['system.appearance.size'];};
   const prev=globalThis.game;
   globalThis.game={user:{isGM:true},system:{id:'rmu'},settings:{get:()=> 'fr'}};
   try {
     const report=await ensureHobbitRacialTalents(actor);
     assert.equal(report.eligible,true);
     assert.equal(report.created,3);
-    assert.equal(actor.system.frame.size,'Small');
+    assert.equal(actor.system.appearance.size,'Small');
     assert.equal(actor.items[0].system.frame.size,'Small');
     assert.equal(actor.items[0].system.talents[0].name,'Decreased Size');
     assert.equal(actor.items[1].id,'old-small');
@@ -246,4 +246,52 @@ test('legacy Hobbit: old compendium key is recognized for racial repair', async 
     assert.deepEqual(changed,['old-small','old-hobbit-race']);
     assert.equal(actor.items[2].system.size,'Medium');
   } finally {globalThis.game=prev;}
+});
+
+
+test('real export schema: correct Actor appearance.size needs no migration despite no Actor frame', () => {
+  // Both actual exported Actors use system.appearance.size; system.frame
+  // is absent. The embedded race keeps its own system.frame.size.
+  const troll=actorFor({actorSize:'Large',size:'Large',talents:[{
+    id:'existing-increased-size',type:'talent',name:'Increased Size',
+    flags:{rmu:{race:true},'merp-ui':{autoRacialGrant:'native-racial-size-v1'}},
+    system:{tier:2,dpSpent:0,category:'Racial'}
+  }, {
+    id:'custom-equipment',type:'equipment',name:'Existing keepsake',
+    system:{itemSize:'Medium',sized:false}
+  }]});
+  assert.equal(troll.system.frame,undefined);
+  const plan=planNativeTrollSize(troll);
+  assert.equal(plan.eligible,true);
+  assert.equal(plan.actorFrameSize,'Large');
+  assert.equal(plan.frameNeedsSync,false);
+  assert.equal(plan.action,'none');
+  assert.equal(troll.items.at(-1).system.itemSize,'Medium');
+});
+
+test('legacy wrong Actor appearance.size can be corrected without creating Actor.frame', async () => {
+  const actor=actorFor({actorSize:'Medium',size:'Large',talents:[{
+    id:'native',type:'talent',name:'Increased Size',flags:{rmu:{race:true}},
+    system:{tier:2,dpSpent:0}
+  }]});
+  actor.isOwner=true;
+  actor.items.get=id=>actor.items.find(item=>item.id===id);
+  const writes=[];
+  actor.update=async patch=>{
+    writes.push(patch);
+    actor.system.appearance.size=patch['system.appearance.size'];
+  };
+  actor.createEmbeddedDocuments=async()=>{throw Error('unexpected grant');};
+  actor.updateEmbeddedDocuments=async()=>{throw Error('unexpected embedded update');};
+  const previous=globalThis.game;
+  globalThis.game={user:{isGM:true},system:{id:'rmu'},settings:{get:()=> 'fr'}};
+  try {
+    assert.equal(planNativeTrollSize(actor).action,'sync-frame');
+    const result=await ensureNativeTrollSize(actor);
+    assert.equal(result.changed,true);
+    assert.deepEqual(writes,[{'system.appearance.size':'Large'}]);
+    assert.equal(actor.system.appearance.size,'Large');
+    assert.equal(actor.system.frame,undefined);
+    assert.equal(planNativeTrollSize(actor).action,'none');
+  } finally {globalThis.game=previous;}
 });

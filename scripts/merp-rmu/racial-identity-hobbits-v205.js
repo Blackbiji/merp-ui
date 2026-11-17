@@ -50,8 +50,37 @@ function patchForRace(item) {
 
 function isHobbit(race) {
   const f = race?.flags?.[MODULE] ?? {};
-  return race?.type === 'race' && f.collection === 'merp-rmu' &&
-    String(f.canonicalKey || f.key || '').replace(/-age-[1-4]$/, '') === 'race-hobbits';
+  // Existing Actors can retain an older MERP-RMU Race Item that has a
+  // canonical/Compendium source key, but lacks the newer collection flag.
+  // Never infer a managed Race from its display name alone.
+  return race?.type === 'race' &&
+    [f.canonicalKey, f.key, f.compendiumSourceKey].some(value =>
+      String(value || '').replace(/-age-[1-4]$/, '') === 'race-hobbits'
+    );
+}
+
+function legacyHobbitRacePatch(race) {
+  const patch = {};
+  if (race.system?.frame?.size !== 'Small') patch['system.frame.size'] = 'Small';
+  if (!Array.isArray(race.system?.talents)) return patch;
+  const talents = race.system.talents;
+  const sizeIndices = talents.flatMap((talent, i) =>
+    ['small', 'decreased size'].includes(String(talent?.name ?? '').trim().toLowerCase())
+      ? [i] : []
+  );
+  if (sizeIndices.length > 1) throw Error('Ambiguous Hobbit Race size Talents: ' + race.name);
+  if (sizeIndices.length === 1) {
+    const i = sizeIndices[0], current = talents[i];
+    if (current.name !== 'Decreased Size' || Number(current.tier) !== 1) {
+      patch['system.talents'] = talents.map((item, n) =>
+        n === i ? {...item, name: 'Decreased Size', tier: 1} : item
+      );
+    }
+  } else {
+    patch['system.talents'] = [...talents,
+      {name: 'Decreased Size', tier: 1, description: TALENTS.small.fr}];
+  }
+  return patch;
 }
 
 const TALENTS = Object.freeze({
@@ -106,6 +135,7 @@ export async function ensureHobbitRacialTalents(actor, {dryRun = false} = {}) {
   const races = [...actor.items].filter(i => i.type === 'race');
   if (races.length !== 1 || !isHobbit(races[0])) return {eligible:false, reason:'not-hobbit'};
   if (!actor.isOwner) return {eligible:false, reason:'not-owner'};
+  const race = races[0];
   if (!dryRun && promises.has(actor)) return promises.get(actor);
   const execute = async () => {
     const locale = contentLanguage() === 'en' ? 'en' : 'fr';
@@ -171,6 +201,19 @@ export async function ensureHobbitRacialTalents(actor, {dryRun = false} = {}) {
     }
     if (updates.length) await actor.updateEmbeddedDocuments('Item', updates, {merpUiHobbitRacialFix:true});
     report.descriptionsUpdated=updates.length;
+    // Previously created Hobbits may have the correct Talent but still carry
+    // a stale Medium frame in their embedded Race and/or Actor.
+    const racePatch = legacyHobbitRacePatch(race);
+    if (Object.keys(racePatch).length) {
+      await actor.updateEmbeddedDocuments('Item',
+        [{_id: race.id, ...racePatch}], {merpUiHobbitRacialFix:true});
+    }
+    if (actor.system?.frame && actor.system.frame.size !== 'Small') {
+      await actor.update({'system.frame.size':'Small'}, {merpUiHobbitRacialFix:true});
+    }
+    report.raceFrameUpdated=Boolean(racePatch['system.frame.size']);
+    report.actorFrameUpdated=Boolean(actor.system?.frame &&
+      actor.system.frame.size === 'Small');
     return report;
   };
   if (dryRun) return execute();
@@ -237,6 +280,7 @@ export function registerRacialIdentityAndHobbitHooks() {
   });
   Hooks.on('updateItem',(item,changes,options,userId)=>{
     if (userId!==game.user?.id || options?.merpUiRaceIdentityV205 ||
+        options?.merpUiHobbitRacialFix ||
         item.type!=='race' || item.parent?.documentName!=='Actor') return;
     schedule(item.parent);
   });

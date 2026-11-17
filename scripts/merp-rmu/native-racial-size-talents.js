@@ -103,8 +103,11 @@ export function planNativeTrollSize(actor) {
   const talent = matched[0] ?? null;
   const alreadyCorrect = Boolean(talent) &&
     talent.name === rule.talent && Number(talent.system?.tier) === rule.tier;
-  const actorFrameSize = actor.system?.frame?.size ?? null;
-  const frameNeedsSync = Boolean(actor.system?.frame) && actorFrameSize !== rule.size;
+  // RMU CharacterData stores character size at appearance.size. The
+  // embedded Race alone has frame.size; Actor.system.frame does not exist.
+  const actorFrameSize = actor.system?.appearance?.size ?? null;
+  const frameNeedsSync = actor.system?.appearance != null &&
+    actorFrameSize !== rule.size;
   const raceNeedsSync = Object.keys(raceRepair.patch).length > 0;
   return { eligible: true, key, race: race.name, raceId: race.id,
     expected: rule.size, tier: rule.tier, talentId: talent?.id ?? null,
@@ -161,16 +164,16 @@ export async function ensureNativeTrollSize(actor, { dryRun = false } = {}) {
         'system.description': description
       }], { merpUiNativeRacialSize: true });
     }
-    // Synchronize the native Actor frame as well as the racial Talent.
-    // Do not touch token dimensions, equipment or any other Actor field.
-    if (plan.frameNeedsSync && actor.system?.frame?.size !== plan.expected) {
-      await actor.update({ 'system.frame.size': plan.expected },
+    // Only the Character's appearance.size is writable for RMU. Never
+    // create a stray Actor.system.frame field or alter existing equipment.
+    if (plan.frameNeedsSync && actor.system?.appearance?.size !== plan.expected) {
+      await actor.update({ 'system.appearance.size': plan.expected },
         { merpUiNativeRacialSize: true });
     }
-    if (actor.system?.frame?.size && actor.system.frame.size !== plan.expected) {
-      console.warn(MODULE + ' | RMU did not prepare the expected Troll size',
+    if (actor.system?.appearance?.size && actor.system.appearance.size !== plan.expected) {
+      console.warn(MODULE + ' | RMU Actor size differs from racial expectation',
         { actor: actor.name, expected: plan.expected,
-          actual: actor.system.frame.size, talent: 'Increased Size' });
+          actual: actor.system.appearance.size, talent: 'Increased Size' });
     }
     return { ...plan, changed: true };
   };
@@ -212,8 +215,8 @@ export function registerNativeRacialSizeTalents() {
   Hooks.on('updateItem', onUpdateRace);
   Hooks.on('updateActor', (actor, changes, options, userId) => {
     if (options?.merpUiNativeRacialSize || userId !== game.user?.id) return;
-    if (changes.system?.frame?.size !== undefined ||
-        changes['system.frame.size'] !== undefined) schedule(actor);
+    if (changes.system?.appearance?.size !== undefined ||
+        changes['system.appearance.size'] !== undefined) schedule(actor);
   });
   Hooks.once('ready', () => {
     if (game.system?.id !== 'rmu' || !game.user?.isGM) return;

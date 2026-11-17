@@ -61,9 +61,15 @@ export function planNativeTrollSize(actor) {
   const talent = matched[0] ?? null;
   const alreadyCorrect = Boolean(talent) &&
     talent.name === rule.talent && talent.system?.tier === rule.tier;
+  // The embedded Race's frame.size does not automatically guarantee the
+  // Actor's own RMU frame has been synchronized. Older Actors can retain
+  // Medium even after a correct Increased Size II grant.
+  const actorFrameSize = actor.system?.frame?.size ?? null;
+  const frameNeedsSync = actorFrameSize !== null && actorFrameSize !== rule.size;
   return { eligible: true, key, race: race.name, expected: rule.size,
-    tier: rule.tier, talentId: talent?.id ?? null,
-    action: !talent ? 'grant' : alreadyCorrect ? 'none' : 'normalize' };
+    tier: rule.tier, talentId: talent?.id ?? null, actorFrameSize, frameNeedsSync,
+    action: !talent ? 'grant' : !alreadyCorrect ? 'normalize'
+      : frameNeedsSync ? 'sync-frame' : 'none' };
 }
 
 const pending = new WeakMap();
@@ -91,7 +97,7 @@ export async function ensureNativeTrollSize(actor, { dryRun = false } = {}) {
         flags: { rmu: { race: true },
           [MODULE]: { autoRacialGrant: MIGRATION, racialTalentKey: 'increased-size' } }
       }], { merpUiNativeRacialSize: true });
-    } else {
+    } else if (plan.action === 'normalize') {
       const item = actor.items.get(plan.talentId);
       if (!item || !isRacialTalent(item)) {
         throw Error('Racial Talent changed during normalization: ' + actor.name);
@@ -102,6 +108,17 @@ export async function ensureNativeTrollSize(actor, { dryRun = false } = {}) {
         ...(Number(item.system?.maxTier ?? 0) < 2 ? { 'system.maxTier': 2 } : {}),
         'system.description': description
       }], { merpUiNativeRacialSize: true });
+    }
+    // Synchronize the native Actor frame as well as the racial Talent.
+    // Do not touch token dimensions, equipment or any other Actor field.
+    if (plan.frameNeedsSync && actor.system?.frame?.size !== plan.expected) {
+      await actor.update({ 'system.frame.size': plan.expected },
+        { merpUiNativeRacialSize: true });
+    }
+    if (actor.system?.frame?.size && actor.system.frame.size !== plan.expected) {
+      console.warn(MODULE + ' | RMU did not prepare the expected Troll size',
+        { actor: actor.name, expected: plan.expected,
+          actual: actor.system.frame.size, talent: 'Increased Size' });
     }
     return { ...plan, changed: true };
   };
@@ -131,12 +148,20 @@ let registered = false;
 export function registerNativeRacialSizeTalents() {
   if (registered) return;
   registered = true;
-  const onRace = (item, options, userId) => {
+  const onCreateRace = (item, options, userId) => {
     if (options?.merpUiNativeRacialSize || userId !== game.user?.id) return;
     if (item.type === 'race' && item.parent?.documentName === 'Actor') schedule(item.parent);
   };
-  Hooks.on('createItem', onRace);
-  Hooks.on('updateItem', onRace);
+  const onUpdateRace = (item, changes, options, userId) => {
+    if (options?.merpUiNativeRacialSize || userId !== game.user?.id) return;
+    if (item.type === 'race' && item.parent?.documentName === 'Actor') schedule(item.parent);
+  };
+  Hooks.on('createItem', onCreateRace);
+  Hooks.on('updateItem', onUpdateRace);
+  Hooks.on('updateActor', (actor, changes, options, userId) => {
+    if (options?.merpUiNativeRacialSize || userId !== game.user?.id) return;
+    if (changes.system?.frame?.size !== undefined) schedule(actor);
+  });
   Hooks.once('ready', () => {
     if (game.system?.id !== 'rmu' || !game.user?.isGM) return;
     for (const actor of game.actors.contents) {

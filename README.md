@@ -1,8 +1,8 @@
-# MERP-UI / MERP-RMU 2.0.8
+# MERP-UI / MERP-RMU 2.0.9
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.8 (15 November 2026). A display-only improvement makes the Talents & Flaws tab of RMU character sheets more readable: rich descriptions use compact PragRoman typography and start as 150-character previews with an optional "Read description" / "Lire la description" expander. Native edit controls, mechanical values, Development Point costs, existing Actors, and all nine LevelDB Compendiums are unchanged.
+**Release:** 2.0.9 (17 November 2026). Important native RMU size correction: Hobbits use Decreased Size I (Small), and Trolls/Half-Trolls use Increased Size II (Large). A targeted GM migration synchronizes stale Troll Actor frame sizes while preserving existing inventory, IDs, statistics and DP. This release also retains the already validated Culture Skills selector-contrast fix and the 2.0.8 Talent description improvements.
 
 ## Compatibility
 
@@ -27,6 +27,14 @@ MERP-UI uses a **Compendium-first** design. Instead of filling a new World with 
 The content includes **12 Races**, **21 Professions**, **85 Talents & Flaws**, and a **187-entry Herbs & Substances catalogue**. Race and Profession entries have substantial English/French descriptions; Race and Culture content includes historical variants for the First through Fourth Ages. The module retains spell-list support and the established Middle-earth settings, including optional Shadow attraction and Corruption features.
 
 The **MERP-RMU Content Language** setting chooses English or French editorial content independently of Foundry's own interface language. English is the default for new Worlds; localized text and display names are available where supplied. Existing Compendium documents are synchronized from their canonical sources when the GM starts the World, while character-owned and independently edited World Items are preserved.
+
+## What's new in 2.0.9
+
+- **Native RMU racial sizes:** Hobbit Small and Troll/Half-Troll Large use their native Decreased Size I / Increased Size II racial Talents, for all appropriate Age variants.
+- **Existing characters:** automatically repair a stale Medium Actor frame for eligible MERP-RMU Trolls when the GM opens the World; keep Talent IDs and equipment as-is.
+- **Newly dropped equipment:** native RMU applies the appropriate item-size handling. There is no bulk rewriting of previously customized items.
+- **Validated in Foundry:** the author confirmed the resulting racial sizes and automatic size correction on item drop.
+- **Continuity:** the 2.0.6 Culture Skills contrast/scroll corrections and later interface enhancements remain included.
 
 ## What's new in 2.0.8
 
@@ -102,7 +110,7 @@ Use this module manifest in Foundry's **Install Module** dialog:
 
 `https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json`
 
-For manual installation, download the official release archive `merp-ui-2.0.8.zip` from the [v2.0.8 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.8), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
+For manual installation, download the official release archive `merp-ui-2.0.9.zip` from the [v2.0.9 release page](https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.9), extract the archive contents into Foundry's `Data/modules/merp-ui/` folder, then enable the module in an RMU World. The nine LevelDB Compendium folders are included in the release ZIP.
 
 **Back up your Worlds and module files before upgrading.** The 2.0.6 reader and Culture Skills fixes, plus the 2.0.5 Hobbit talents and Culture/Hobby layout fixes, have been validated in Foundry by the author. Automated Foundry runtime tests, clean installs and every upgrade path have not been independently verified.
 

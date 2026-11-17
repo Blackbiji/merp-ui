@@ -1,5 +1,14 @@
 # MERP-UI — Changelog
 
+## 2.0.9 — Native RMU racial size hotfix (17 November 2026)
+
+- Hobbits: native Decreased Size I ensures the RMU Small category; Trolls and Half-Trolls: Increased Size II ensures Large.
+- Synchronize the native Actor frame for existing Troll characters that still show Medium after the racial Talent is present; correct the Race update hook.
+- Preserve embedded Talent IDs, DP, XP, stats, tokens and existing equipment. RMU continues to handle gear resizing when items are dropped onto the Actor.
+- Reconcile the bilingual Race sources and Age variants through the Compendium synchronization manifest.
+- In-game validation by the author confirms racial sizes and RMU equipment resizing on item drop. Added targeted regression tests; the earlier Culture Skills contrast fix remains intact.
+
+
 ## 2.0.8 — Compact Talents & Flaws presentation in RMU character sheets (15 November 2026)
 
 - Present rich Talent and Flaw descriptions in compact 13 px PragRoman typography on RMU Actor sheets.

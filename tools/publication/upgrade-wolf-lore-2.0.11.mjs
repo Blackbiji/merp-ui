@@ -79,7 +79,7 @@ try {
       insertions++;
     }
   }
-  assert(updates===10 && (insertions===5 || insertions===0),
+  assert((updates===10 && insertions===5) || (updates===15 && insertions===0),
     'Expected 10 updates and five inserts (or idempotent re-run)');
   await db.batch(ops);
   console.log('Wolf lore v2.0.11: '+updates+' updated, '+insertions+' added');

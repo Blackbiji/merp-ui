@@ -2,7 +2,7 @@
   "id": "merp-ui",
   "title": "MERP-UI",
   "description": "MERP-UI / MERP-RMU: a bilingual English/French Foundry VTT module for Rolemaster Unified, providing Middle-earth-oriented character options, rules support, campaign settings, localization, and permanent Compendiums.",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "authors": [
     {
       "name": "Jean-Brice Gayet"
@@ -17,7 +17,8 @@
     "scripts/skill-registry.js",
     "scripts/merp-rmu-content.js",
     "scripts/merp-rmu-magic.js",
-    "scripts/merp-rmu/rmu-picker-overlay.js"
+    "scripts/merp-rmu/rmu-picker-overlay.js",
+    "scripts/merp-rmu/creature-lore.js"
   ],
   "styles": [
     "styles/merp-typography.css",
@@ -25,7 +26,8 @@
     "styles/merp-rmu-sheets.css",
     "styles/merp-rmu-components.css",
     "styles/merp-content-components.css",
-    "styles/merp-rmu-dialogs.css"
+    "styles/merp-rmu-dialogs.css",
+    "styles/merp-creature-lore.css"
   ],
   "languages": [
     {
@@ -145,6 +147,17 @@
         "TRUSTED": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "merp-ui-lore",
+      "label": "MERP-UI - Creature Lore",
+      "path": "packs/merp-ui-lore",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "license": "LICENSE",
@@ -179,7 +192,8 @@
       "releaseChannel": "stable",
       "testedRmuVersion": "1.4.99",
       "identityReferenceReader": "on-demand",
-      "embeddedIdentityCompaction": 1
+      "embeddedIdentityCompaction": 1,
+      "creatureLoreSchema": 1
     }
   },
   "packFolders": [
@@ -195,7 +209,8 @@
         "merp-rmu-talents-flaws",
         "merp-rmu-herbs",
         "merp-rmu-languages",
-        "merp-rmu-rules"
+        "merp-rmu-rules",
+        "merp-ui-lore"
       ],
       "folders": []
     }
@@ -217,7 +232,7 @@
   },
   "url": "https://github.com/Blackbiji/merp-ui",
   "manifest": "https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json",
-  "download": "https://github.com/Blackbiji/merp-ui/releases/download/v2.0.9/merp-ui-2.0.9.zip",
+  "download": "https://github.com/Blackbiji/merp-ui/releases/download/v2.0.10/merp-ui-2.0.10.zip",
   "bugs": "https://github.com/Blackbiji/merp-ui/issues",
   "changelog": "https://github.com/Blackbiji/merp-ui/releases/tag/v2.0.9"
 }

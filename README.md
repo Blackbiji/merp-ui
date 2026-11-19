@@ -1,8 +1,8 @@
-# MERP-UI / MERP-RMU 2.0.9
+# MERP-UI / MERP-RMU 2.0.10
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.9 (17 November 2026). Important native RMU size correction: Hobbits use Decreased Size I (Small), and Trolls/Half-Trolls use Increased Size II (Large). A targeted GM migration synchronizes stale Troll Actor frame sizes while preserving existing inventory, IDs, statistics and DP. This release also retains the already validated Culture Skills selector-contrast fix and the 2.0.8 Talent description improvements.
+**Release:** 2.0.10 (19 November 2026). Creature Lore — The Wolf.
 
 ## Compatibility
 

@@ -1,5 +1,14 @@
 # MERP-UI — Changelog
 
+## 2.0.10 — Creature Lore : Le Loup (19 novembre 2026)
+
+- Première intégration du système Creature Lore sur la fiche du Loup.
+- Appels MJ/joueur : Region Lore, Historic Lore, Racial Lore, choix de spécialisation et manœuvre RMU aveugle.
+- Compendium privé `merp-ui-lore` avec 230 résultats (220 Racial, 5 Region, 5 Historic), dont 42 nouvelles variantes culturelles.
+- Cinq résultats des Demi-Elfes reportés faute d'Item Culture natif correspondant.
+- Aucune modification des mécaniques RMU natives.
+
+
 ## 2.0.9 — Native RMU racial size hotfix (17 November 2026)
 
 - Hobbits: native Decreased Size I ensures the RMU Small category; Trolls and Half-Trolls: Increased Size II ensures Large.

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * MERP-UI release packaging for GitHub Actions (Ubuntu).
- * Produces an installable ZIP rooted at module.json, including all NINE
+ * Produces an installable ZIP rooted at module.json, including all TEN
  * prebuilt LevelDB Compendiums. Never copy a running Foundry World's DB.
  * Does not change sources, Worlds or Compendium contents.
  */
@@ -27,7 +27,7 @@ check(module.id === "merp-ui", "Unexpected module ID");
 check(module.version === pkg.version, "module/package version mismatch");
 check(module.download === `https://github.com/Blackbiji/merp-ui/releases/download/v${module.version}/${expectedName}`,
   "module.download differs from the release ZIP URL");
-check(module.packs?.length === 9, "Nine Compendiums are required");
+check(module.packs?.length === 10, "Ten Compendiums are required");
 for (const pack of module.packs) {
   const path = resolve(root, pack.path);
   check(path.startsWith(root + "/"), `Unsafe pack path: ${pack.path}`);

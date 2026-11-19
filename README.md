@@ -1,8 +1,16 @@
-# MERP-UI / MERP-RMU 2.0.10
+# MERP-UI / MERP-RMU 2.0.11
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.10 (19 November 2026). Creature Lore — The Wolf.
+**Release:** 2.0.11 (19 November 2026). Creature Lore — Wolf Historic, Region and Half-Elven expansion.
+
+## What's new in 2.0.11
+
+- Five **Historic Lore** results rewritten with longer historical material.
+- Five **Region Lore** results rewritten with richer geographical knowledge.
+- Five new **Half-Elven Racial Lore** outcomes, with Race-based matching even when no dedicated RMU Culture Item exists.
+- The original three Wolf RollTables remain in place: **235 total lore results**, including 225 Racial, five Historic and five Region.
+- Native RMU skill checks, secrecy, characters, and other cultures are unchanged.
 
 ## Compatibility
 

@@ -1,5 +1,13 @@
 # MERP-UI — Changelog
 
+## 2.0.11 — Wolf Lore: Historic, Region and Half-Elven traditions (19 November 2026)
+
+- Replace the five Historic Lore and five Region Lore texts with expanded approved literary descriptions.
+- Add five Half-Elven results to the existing Wolf Racial Lore table; detect Half-Elven ancestry without requiring a dedicated native RMU Culture Item.
+- The original three RollTables now hold **235 results**: 225 Racial, five Region and five Historic.
+- Preserve native RMU mechanics, secret rolls, GM-only notes and all pre-existing cultural lore.
+- Prebuilt Lore LevelDB is updated offline during packaging, never from a running Foundry World.
+
 ## 2.0.10 — Creature Lore : Le Loup (19 novembre 2026)
 
 - Première intégration du système Creature Lore sur la fiche du Loup.

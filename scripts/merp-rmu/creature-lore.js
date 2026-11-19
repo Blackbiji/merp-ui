@@ -318,6 +318,14 @@ async function pickCulture(actor,creatureKey,{automatic=false}={}) {
   const {table}=await getTableEntries(creatureKey,'racial','*');
   const available=[...new Set([...table.results].map(r=>rawLore(r).cultureKey).filter(s=>s&&s!=='*'))];
   const candidates=cultureCandidates(actor);
+  // Half-Elves have a Race Item but no dedicated native RMU Culture Item.
+  // Prefer their validated racial lore when the actor's ancestry is Half-Elven.
+  const raceSources=[actor.flags?.['merp-ui']?.raceKey,actor.flags?.['merp-ui']?.race?.key,
+    actor.system?.race?.name,actor.system?.race?.key,actor.system?.race,
+    ...(actor.items??[]).filter(i=>i.type==='race').map(i=>i.name)];
+  const isHalfElven=raceSources.some(x=>/half[-\s]?elf|demi[-\s]?elf|perelda/i.test(
+    typeof x==='string'?x:(x?.name??'')));
+  if(isHalfElven && available.includes('culture-half-elves'))return 'culture-half-elves';
   const matches=available.filter(key=>candidates.includes(key));
   if(matches.length===1)return matches[0];
   // The module has a *genuine, validated* generic racial table.

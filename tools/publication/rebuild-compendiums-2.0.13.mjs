@@ -125,12 +125,13 @@ try {
   const total=rows.reduce((sum,row)=>sum+row.savedBytes,0);
   assert(rows.length===11,'Incomplete compendium rebuild');
   const creatures=rows.find(x=>x.pack==='merp-ui-creatures');
-  assert(creatures.logical.types['!folders']===26 && creatures.logical.types['!actors']===2,
-    'Creature pack must hold 26 native folders and the two Wolf/Warg Actors');
+  assert(creatures.logical.types['!folders']===26 &&
+    creatures.logical.types['!actors']===2 && creatures.logical.types['!actors.items']===55,
+    'Creature pack must hold 26 folders, two Actors and 55 embedded Items');
   const lore=rows.find(x=>x.pack==='merp-ui-lore');
   // The Lore data loaded earlier in this workflow must survive intact.
-  assert(lore.logical.types['!tables']===2 && !lore.logical.types['!tables.results'],
-    'Expected exactly two RollTable parent documents with inline results');
+  assert(lore.logical.types['!tables']===2 && lore.logical.types['!tables.results']===755,
+    'Expected two RollTables and 755 separately stored, parent-referenced TableResults');
   for(const [name,count] of [['merp-rmu-races',12],['merp-rmu-cultures',60],
                              ['merp-rmu-professions',21]]){
     const row=rows.find(x=>x.pack===name);

@@ -146,3 +146,44 @@
 .merp-lore-player-client .merp-ui-lore-entry .merp-lore-propose {
   display:none!important;
 }
+
+
+/* Wolf validated biography restored into the native RMU Notes editor.
+ * Resist the legacy .rmu-prose-editor * line-height (1.32) rule: otherwise
+ * styled UUID links collide vertically. Styling changes only, no rewrites. */
+:is(.rmu-appv2-sheet,.rmu-actor-sheet,.application,.window-app)
+ .merp-ui-creature.merp-ui-wolf-notes {
+  background:#f7f4ee!important;
+  color:#29251f!important;
+  font-family:var(--merp-font,"PragRoman",Georgia,serif)!important;
+}
+:is(.rmu-appv2-sheet,.rmu-actor-sheet,.application,.window-app)
+ :is(.merp-ui-wolf-notes,.merp-ui-warg-notes,.merp-ui-creature-v2)
+ :is(p,li,blockquote,.editor-content) {
+  line-height:1.72!important;
+}
+:is(.rmu-appv2-sheet,.rmu-actor-sheet,.application,.window-app)
+ :is(.merp-ui-wolf-notes,.merp-ui-warg-notes,.merp-ui-creature-v2)
+ a.content-link,
+:is(.rmu-appv2-sheet,.rmu-actor-sheet,.application,.window-app)
+ :is(.merp-ui-wolf-notes,.merp-ui-warg-notes,.merp-ui-creature-v2)
+ a[data-uuid] {
+  display:inline!important;
+  vertical-align:baseline!important;
+  white-space:normal!important;
+  padding:0 .12em!important;
+  border-width:1px!important;
+  border-radius:2px!important;
+  line-height:inherit!important;
+  box-decoration-break:clone!important;
+  -webkit-box-decoration-break:clone!important;
+}
+:is(.rmu-appv2-sheet,.rmu-actor-sheet,.application,.window-app)
+ .merp-ui-wolf-notes .merp-ui-wolf-notes-card {
+  padding:.2em .1em .7em;
+  color:#29251f!important;
+}
+:is(.rmu-appv2-sheet,.rmu-actor-sheet,.application,.window-app)
+ .merp-ui-wolf-notes :is(h2,h3) {
+  clear:both;
+}

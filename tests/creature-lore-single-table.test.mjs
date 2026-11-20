@@ -14,30 +14,36 @@ const expectedEnglish=new Map(source.results.map(row=>[
 ]));
 const opened=new ClassicLevel('packs/merp-ui-lore',{keyEncoding:'utf8',valueEncoding:'utf8',createIfMissing:false});
 await opened.open();
-const tables=[];
+const tables=[],separateResults=new Map();
 try{
  for await(const [key,value] of opened.iterator()){
   const doc=JSON.parse(value);
-  if(key.startsWith('!tables.results!'))
-    assert.fail('Detached results are not visible in native Foundry RollTables: '+key);
+  if(key.startsWith('!tables.results!'))separateResults.set(key,doc);
   else if(key.startsWith('!tables!'))tables.push({key,doc});
   else assert.fail('Unrecognised LevelDB record: '+key);
  }
 }finally{await opened.close()}
-const entries=tables.flatMap(({key,doc})=>
-  (doc.results??[]).map(result=>({key:'!tables.results!'+doc._id+'.'+result._id,doc:result})));
-
+const entries=tables.flatMap(({doc})=>(doc.results??[]).map(id=>{
+  assert.equal(typeof id,'string','Parent RollTable must list result IDs, not inline objects');
+  const key='!tables.results!'+doc._id+'.'+id;
+  const child=separateResults.get(key);
+  assert.ok(child,'Native Foundry TableResult missing: '+key);
+  assert.equal(child._id,id,'TableResult ID mismatch: '+key);
+  return {key,doc:child};
+}));
 
 test('Two private RollTables and exactly one table per creature',()=>{
  assert.equal(tables.length,2);
  assert.equal(entries.length,755);
+ assert.equal(separateResults.size,755,'Orphan or missing TableResult rows');
  const names=tables.map(x=>x.doc.flags?.['merp-ui']?.creatureLoreTable?.creatureKey).sort();
  assert.deepEqual(names,['warg','wolf']);
  for(const {key,doc} of tables){
   assert.equal(doc.flags['merp-ui'].creatureLoreTable.loreKey,'all');
   assert.equal(doc.formula,'1d'+doc.results.length);
-  assert.ok(Array.isArray(doc.results) && doc.results.length>0,
-    'The native Foundry RollTable must contain embedded results');
+  assert.ok(Array.isArray(doc.results) && doc.results.length>0 &&
+    doc.results.every(id=>typeof id==='string'&&id.length===16),
+    'Native RollTable must reference separate TableResult rows');
   assert.equal(doc.type===undefined||doc.type==='RollTable',true);
  }
 });
@@ -46,7 +52,10 @@ test('Every result is linked to its species and one of four Lore families',()=>{
  const expected={wolf:235,warg:520};
  for(const [creature,count] of Object.entries(expected)){
   const parent=tables.find(x=>x.doc.flags['merp-ui'].creatureLoreTable.creatureKey===creature);
-  const subset=parent.doc.results.map(doc=>({key:'!tables.results!'+parent.doc._id+'.'+doc._id,doc}));
+  const subset=parent.doc.results.map(id=>{
+    const key='!tables.results!'+parent.doc._id+'.'+id;
+    return {key,doc:separateResults.get(key)};
+  });
   assert.equal(subset.length,count);
   assert.equal(new Set(subset.map(x=>x.doc._id)).size,count);
   assert.deepEqual(subset.map(x=>x.doc.range[0]).sort((a,b)=>a-b),

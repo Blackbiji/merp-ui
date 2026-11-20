@@ -95,10 +95,11 @@ test('Native Actor compendium contains Wolf and Warg in their exact folders',asy
   const id=path=>createHash('sha256').update('merp-ui:creature-folder:'+path).digest('hex').slice(0,16);
   const db=new ClassicLevel('packs/merp-ui-creatures',{keyEncoding:'utf8',valueEncoding:'utf8',createIfMissing:false});
   await db.open();
-  const actors=[],folders=[];
+  const actors=[],folders=[],embedded=new Map();
   try{
     for await(const [key,value] of db.iterator()){
-      if(key.startsWith('!actors!'))actors.push(JSON.parse(value));
+      if(key.startsWith('!actors.items!'))embedded.set(key,JSON.parse(value));
+      else if(key.startsWith('!actors!'))actors.push(JSON.parse(value));
       else if(key.startsWith('!folders!'))folders.push(JSON.parse(value));
     }
   }finally{await db.close();}
@@ -110,6 +111,21 @@ test('Native Actor compendium contains Wolf and Warg in their exact folders',asy
   assert.equal(warg?.folder,id('monster-glossary/undead-beings'));
   assert.equal(wolf.items.length,27);
   assert.equal(warg.items.length,28);
+  assert.equal(embedded.size,55);
+  for(const actor of [wolf,warg]){
+    assert.ok(actor.items.every(id=>typeof id==='string'&&id.length===16),
+      'Actor must list Item IDs, not inline objects');
+    for(const id of actor.items){
+      const key='!actors.items!'+actor._id+'.'+id;
+      assert.equal(embedded.get(key)?._id,id,'Foundry Actor Item record missing: '+key);
+    }
+  }
+  assert.ok(wolf.system.notes.length>5000,
+    'Wolf GM biography must be restored to the native Notes field');
+  assert.ok(wolf.system.notes.includes('À l’intention du Meneur'));
+  assert.ok(!wolf.system.description.includes('À l’intention du Meneur'),
+    'GM biography should not be duplicated in the Description');
+  assert.ok(wolf.system.description.includes('À lire ou paraphraser aux joueurs'));
   assert.equal((wolf.system.description.match(/data-merp-ui-lore-action=/g)||[]).length,4);
   assert.equal((warg.system.description.match(/data-merp-ui-lore-action=/g)||[]).length,3);
   assert.ok(warg.system.notes.includes('merp-ui-warg-notes-card'));

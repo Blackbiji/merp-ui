@@ -186,7 +186,11 @@ try {
     doc.drawn=false;
     doc.flags??={};doc.flags['merp-ui']??={};
     doc.flags['merp-ui'].creatureLoreEntry=flag;
-    table.results.push(doc);
+    // Foundry/LevelDB stores embedded TableResults as TWO linked records:
+    // the parent RollTable lists only result IDs, and each child lives at
+    // !tables.results!<tableId>.<resultId>. Inline full objects are ignored.
+    table.results.push(resultId);
+    operations.push({type:'put',key,value:JSON.stringify(doc)});
   }
   summary[creature]={tableId,entries:entries.length,byFamily};
   assert(table.results.length===entries.length,'Parent table has lost results for '+creature);
@@ -198,25 +202,54 @@ try {
    const ident=doc.flags?.['merp-ui']?.creatureLoreTable;
    if(ident?.loreKey!=='racial')operations.push({type:'del',key});
  }
- for(const {key} of originals)operations.push({type:'del',key});
- await db.batch(operations);
+ // Delete old results *before* writing the new ones so batch order remains
+ // correct even if a deterministic ID is reused in a future migration.
+ const priorResults=new Set(originals.map(x=>x.key));
+ const newResults=operations.filter(x=>x.type==='put'&&x.key.startsWith('!tables.results!'));
+ assert(newResults.length===755,'Expected 755 separately stored table results');
+ const parents=operations.filter(x=>x.type==='put'&&x.key.startsWith('!tables!'));
+ const edits=operations.filter(x=>x.type==='del');
+ const finalOps=[
+   ...[...priorResults].map(key=>({type:'del',key})),
+   ...edits,
+   ...parents,
+   ...newResults
+ ];
+ await db.batch(finalOps);
  const logical={tables:0,results:0,groups:{wolf:{},warg:{}}};
+ const parentTables=[],storedChildren=new Map();
  for await(const [key,value] of db.iterator()){
   const o=JSON.parse(value);
-  if(key.startsWith('!tables.results!'))
-    throw Error('Detached RollTable result survived inline migration: '+key);
-  if(key.startsWith('!tables!')){
+  if(key.startsWith('!tables.results!'))storedChildren.set(key,o);
+  else if(key.startsWith('!tables!'))parentTables.push({key,table:o});
+  else throw Error('Unexpected record '+key);
+ }
+ assert(parentTables.length===2 && storedChildren.size===755,
+   'Foundry needs two parent tables AND 755 separate TableResult records');
+ const used=new Set();
+ for(const {key,table} of parentTables){
    logical.tables++;
-   assert(o.flags?.['merp-ui']?.creatureLoreTable?.loreKey==='all','Non consolidated table');
-   assert(Array.isArray(o.results)&&o.results.length>0,'Foundry RollTable is empty: '+o.name);
-   for(const result of o.results){
+   assert(table.flags?.['merp-ui']?.creatureLoreTable?.loreKey==='all',
+     'Non consolidated table');
+   assert(Array.isArray(table.results)&&table.results.length>0&&
+     table.results.every(id=>typeof id==='string'&&id.length===16),
+     'Parent must contain embedded result IDs, not full result objects: '+key);
+   assert(table.formula==='1d'+table.results.length,'Formula does not cover the results');
+   for(const id of table.results){
+     const childKey='!tables.results!'+table._id+'.'+id;
+     assert(storedChildren.has(childKey),'RollTable references a missing result '+childKey);
+     assert(!used.has(childKey),'Duplicated embedded result '+childKey);
+     used.add(childKey);
+     const result=storedChildren.get(childKey);
+     assert(result._id===id && Array.isArray(result.range) && result.range.length===2,
+       'Invalid embedded result identity/range '+childKey);
      logical.results++;
      const f=result.flags?.['merp-ui']?.creatureLoreEntry;
-     assert(f?.loreKind&&f?.creatureKey,'Unclassified embedded result in '+key);
+     assert(f?.loreKind&&f?.creatureKey,'Unclassified result '+childKey);
      logical.groups[f.creatureKey][f.loreKind]=(logical.groups[f.creatureKey][f.loreKind]??0)+1;
    }
-  }else throw Error('Unexpected record '+key);
  }
+ assert(used.size===storedChildren.size,'Orphan embedded result records');
  assert(logical.tables===2&&logical.results===755,
    'Consolidation did not produce exactly 2 tables and 755 entries: '+JSON.stringify(logical));
  assert(logical.groups.wolf.historic===5&&logical.groups.wolf.region===5

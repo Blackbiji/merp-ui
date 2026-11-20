@@ -1,10 +1,23 @@
-# MERP-UI / MERP-RMU 2.0.15
+# MERP-UI / MERP-RMU 2.0.16
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.15 (test prerelease, 21 November 2026). Native Wolf/Warg Actor compendium, visible embedded Lore results and MERP-UI typography fixes.
+**Release:** 2.0.16 (test prerelease, 21 November 2026). Foundry-compatible embedded RollTable results and Actor Items; Wolf Notes restored and Lore-link overlap fixed.
+
+## Test preview 2.0.16 — essential Foundry document fix
+
+The 2.0.15 tests verified the number of logical LevelDB entries, but **did not verify that Foundry could hydrate the embedded documents**. The user observed empty RollTables and missing Actor items. The Foundry 11+ LevelDB format requires BOTH parent references and separately stored embedded documents:
+
+- RollTable parent `!tables!ID`: `results: [resultId, ...]`; `!tables.results!ID.resultId`: result data.
+- Actor parent `!actors!ID`: `items: [itemId, ...]`; `!actors.items!ID.itemId`: item data.
+
+**2.0.16 uses both** and verifies that the official `@foundryvtt/foundryvtt-cli` extractor reconstructs the two complete tables (235 Wolf and 520 Warg results) and two complete Actors (27 + 28 Items). The Warg's 32 regional variants are checked on the reconstructed document.
+
+The Wolf's approved GM biography has been **moved without rewriting** from the public Description into the native **Notes** field, alongside a CSS correction for overlapping UUID link decorations. Its Description keeps the player-readable introduction and Racial/Cultural/Region/Historic Lore controls. The Warg retains his Bio-style Notes and three Lore controls.
+
+**Prerelease only:** official Foundry extraction and CI validation reduce packaging errors, but a live Foundry V14 GM/player test remains necessary. Rights checklist and pending British-English Warg Racial Lore remain open.
 
 ## Test preview 2.0.15 — corrections to the clean-World bestiary
 

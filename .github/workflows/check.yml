@@ -18,7 +18,7 @@ jobs:
           CI: 'true'
           MERPUI_OFFLINE_PACK_COMPACTION: '1'
         run: |
-          npm install --no-save --no-package-lock classic-level@2.0.0
+          npm install --no-save --no-package-lock classic-level@2.0.0 @foundryvtt/foundryvtt-cli@3.0.4
           node tools/publication/upgrade-wolf-lore-2.0.11.mjs
           node tools/publication/upgrade-warg-lore-2.0.12.mjs
           node tools/publication/build-creature-folders.mjs
@@ -29,8 +29,10 @@ jobs:
         run: npm run test:creatures
       - name: Verify a single RollTable per species and all Lore families
         run: npm run test:creature-lore
+      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 755 results)
+        run: npm run verify:foundry-pack
       - name: JavaScript syntax
-        run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
+        run: find scripts tools/publication -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
       - name: Character identity compaction regression tests
         run: npm run test:identity
       - name: Talents step and Compendium typography tests

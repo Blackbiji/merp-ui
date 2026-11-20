@@ -36,8 +36,8 @@ jobs:
           if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
             test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
           fi
-          # This one-time prerelease workflow is scoped to MERP-UI 2.0.15.
-          test "$VERSION" = "2.0.15" || { echo "Unexpected version $VERSION"; exit 1; }
+          # This one-time prerelease workflow is scoped to MERP-UI 2.0.16.
+          test "$VERSION" = "2.0.16" || { echo "Unexpected version $VERSION"; exit 1; }
           if gh release view "v$VERSION" >/dev/null 2>&1; then
             echo "publish=false" >> "$GITHUB_OUTPUT"
             echo "Version v$VERSION already published; no release changes made."
@@ -51,7 +51,7 @@ jobs:
           CI: 'true'
           MERPUI_OFFLINE_PACK_COMPACTION: '1'
         run: |
-          npm install --no-save --no-package-lock classic-level@2.0.0
+          npm install --no-save --no-package-lock classic-level@2.0.0 @foundryvtt/foundryvtt-cli@3.0.4
           node tools/publication/upgrade-wolf-lore-2.0.11.mjs
           node tools/publication/upgrade-warg-lore-2.0.12.mjs
           node tools/publication/build-creature-folders.mjs
@@ -65,9 +65,12 @@ jobs:
       - name: Verify a single RollTable per species and all Lore families
         if: steps.version.outputs.publish == 'true'
         run: npm run test:creature-lore
+      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 755 results)
+        if: steps.version.outputs.publish == 'true'
+        run: npm run verify:foundry-pack
       - name: Validate JavaScript syntax
         if: steps.version.outputs.publish == 'true'
-        run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
+        run: find scripts tools/publication -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
       - name: Test lightweight identity creation
         if: steps.version.outputs.publish == 'true'
         run: npm run test:identity
@@ -106,7 +109,7 @@ jobs:
           retention-days: 30
           compression-level: 0
 
-      - name: Create official v2.0.15 annotated tag on merged main
+      - name: Create official v2.0.16 annotated tag on merged main
         if: steps.version.outputs.publish == 'true' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
@@ -122,7 +125,7 @@ jobs:
               echo "Existing tag does not match the merged HEAD"; exit 1;
             }
           else
-            git tag -a "$TAG" -m "MERP-UI $VERSION — Creature Actors, embedded Lore and UI fix"
+            git tag -a "$TAG" -m "MERP-UI $VERSION — Native Foundry embedded documents fix"
             git push origin "refs/tags/$TAG"
           fi
 
@@ -138,8 +141,8 @@ jobs:
           ZIP="dist/merp-ui-$VERSION.zip"
           test -s "$ZIP"
           gh release create "$TAG" "$ZIP" \
-            --title "MERP-UI $VERSION — Creature Lore and Bestiary Test Fix" \
-            --notes-file ".github/release-notes/v2.0.15.md" \
+            --title "MERP-UI $VERSION — Native Creature Lore Compatibility Fix" \
+            --notes-file ".github/release-notes/v2.0.16.md" \
             --prerelease \
             --verify-tag
           gh release view "$TAG" --json url,assets

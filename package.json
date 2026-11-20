@@ -1,6 +1,6 @@
 {
   "name": "merp-ui",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,7 +12,8 @@
     "test:racial-size": "node --test tests/native-racial-size.test.mjs",
     "compact:packs:offline": "node tools/publication/rebuild-compendiums-2.0.13.mjs",
     "test:creatures": "node --test tests/creatures-of-middle-earth-folders.test.mjs",
-    "test:creature-lore": "node --test tests/creature-lore-single-table.test.mjs"
+    "test:creature-lore": "node --test tests/creature-lore-single-table.test.mjs",
+    "verify:foundry-pack": "node tools/publication/verify-foundry-embedded.mjs"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

@@ -1,5 +1,15 @@
 # MERP-UI — Changelog
 
+## 2.0.16 — Native Foundry compendium hydration and Wolf Notes fix (21 November 2026)
+
+- **Fix:** RollTables now have the correct dual parent/embedded LevelDB format: 2 parent tables referencing 755 separate TableResult documents, so Foundry can load and show their results.
+- **Fix:** The Wolf and Warg Actor parents reference 55 separately stored embedded Items, preserving their full RMU mechanics and original source material.
+- **Restore Wolf Notes:** move the already-approved GM biography out of the public Description into Notes without changing the prose; the Description still has the player read-aloud and the four Lore actions.
+- **Correct link overlap:** reduce the UUID link padding and force sufficient paragraph line spacing within the MERP-UI creature Bio/Notes styles.
+- **Add independent verification:** the official Foundry CLI extractor must reconstruct 235 Wolf + 520 Warg Lore results, 32 Warg regions, 2 Creature Actors and 55 Items. A raw LevelDB entry count alone no longer counts as proof of compatibility.
+- **Pre-release testing required** in a clean Foundry V14 World, GM and player. Warg Racial English translations and third-party rights review remain open.
+
+
 ## 2.0.15 — Bestiary and Creature Lore UI test fix (21 November 2026)
 
 - Populate the dedicated Actor Compendium with the user-provided Loup (27 embedded Items) and Warg (28 embedded Items), sorted into 5.7 Carnivores and 6.9 Undead.

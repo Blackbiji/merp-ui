@@ -129,8 +129,8 @@ try {
     'Creature pack must hold exactly 26 native folders and no Actor documents at this stage');
   const lore=rows.find(x=>x.pack==='merp-ui-lore');
   // The Lore data loaded earlier in this workflow must survive intact.
-  assert(lore.logical.types['!tables.results']===690,
-    'Expected 690 Wolf/Warg RollTable outcomes in the rebuilt Lore pack');
+  assert(lore.logical.types['!tables.results']===755 && lore.logical.types['!tables']===2,
+    'Expected 755 Wolf/Warg results in exactly two RollTables');
   for(const [name,count] of [['merp-rmu-races',12],['merp-rmu-cultures',60],
                              ['merp-rmu-professions',21]]){
     const row=rows.find(x=>x.pack===name);

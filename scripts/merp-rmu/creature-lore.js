@@ -308,20 +308,48 @@ function cultureCandidates(actor){
   }
   return candidates;
 }
-async function getTableEntries(creatureKey,loreKey,cultureKey='*') {
+// A single private RollTable per creature; keep all Lore kinds inside it.
+async function getCreatureTable(creatureKey){
   const pack=game.packs.get(LORE_PACK);
-  if(!pack||pack.documentName!=='RollTable')throw new Error(`Compendium manquant : ${LORE_PACK}. Vérifie le compendium MERP-UI.`);
-  const docs=await pack.getDocuments();
-  const table=docs.find(t=>rawLore(t).creatureKey===creatureKey&&rawLore(t).loreKey===loreKey);
-  if(!table)throw new Error('Table Lore manquante : '+creatureKey+'/'+loreKey);
-  const selected=await pack.getDocument(table.id);
-  if(!selected)throw new Error('Table du compendium inaccessible.');
-  const results=[...selected.results].filter(r=>(loreKey==='region' ? (rawLore(r).regionKey ?? '*') : (rawLore(r).cultureKey ?? '*'))===cultureKey);
-  return {table:selected,results};
+  if(!pack||pack.documentName!=='RollTable')throw new Error('Compendium Creature Lore introuvable.');
+  const tables=(await pack.getDocuments()).filter(t=>rawLore(t).creatureKey===creatureKey);
+  if(tables.length!==1||rawLore(tables[0]).loreKey!=='all')
+    throw new Error('Une RollTable unique est requise pour '+creatureKey);
+  const table=await pack.getDocument(tables[0].id);
+  if(!table)throw new Error('Table de Lore inaccessible.');
+  return table;
+}
+const loreFamily = result=>{
+  const meta=rawLore(result);
+  return meta.loreKind??(meta.loreKey==='racial'&&meta.cultureKey?.startsWith('culture-')?'cultural':meta.loreKey);
+};
+const loreLanguage=()=>{
+  try{return globalThis.MERPUI?.contentLanguage?.()==='fr'?'fr':'en';}
+  catch{return game.i18n?.lang?.startsWith('fr')?'fr':'en';}
+};
+function translatedLore(entry){
+  const meta=rawLore(entry),lang=loreLanguage();
+  if(lang==='en'&&meta.englishTranslationStatus==='not-available')
+    throw new Error('La traduction anglaise du Warg Racial Lore reste à valider.');
+  const translated=meta.localizations?.[lang];
+  return {text:translated?.text??entry.description,gmNote:translated?.gmNote??meta.gmNote};
+}
+async function getTableEntries(creatureKey,loreKey,variantKey='*',family=null){
+  const table=await getCreatureTable(creatureKey);
+  const kind=family??(loreKey==='racial'?(variantKey.startsWith('race-')?'racial':'cultural'):loreKey);
+  const results=[...table.results].filter(result=>{
+    const meta=rawLore(result);
+    if(meta.loreKey!==loreKey||loreFamily(result)!==kind)return false;
+    if(kind==='racial')return (meta.raceKey??'*')===variantKey;
+    if(kind==='cultural')return (meta.cultureKey??'*')===variantKey;
+    if(kind==='region')return (meta.regionKey??'*')===variantKey;
+    return variantKey==='*';
+  });
+  return {table,results};
 }
 async function pickCulture(actor,creatureKey,{automatic=false}={}) {
   const {table}=await getTableEntries(creatureKey,'racial','*');
-  const available=[...new Set([...table.results].map(r=>rawLore(r).cultureKey).filter(s=>s&&s!=='*'))];
+  const available=[...new Set([...table.results].filter(r=>loreFamily(r)==='cultural').map(r=>rawLore(r).cultureKey).filter(s=>s&&s!=='*'))];
   const candidates=cultureCandidates(actor);
   // Half-Elves have a Race Item but no dedicated native RMU Culture Item.
   // Prefer their validated racial lore when the actor's ancestry is Half-Elven.
@@ -336,7 +364,7 @@ async function pickCulture(actor,creatureKey,{automatic=false}={}) {
   // The module has a *genuine, validated* generic racial table.
   // Until all culture-specific tables exist, use that explicitly as a
   // general result rather than blocking a narrative MP indefinitely.
-  const generic=[...table.results].filter(r=>rawLore(r).cultureKey==='*');
+  const generic=[...table.results].filter(r=>loreFamily(r)==='racial'&&(rawLore(r).raceKey??'*')==='*');
   if(matches.length===0&&generic.length===5){
     if(game.user.isGM)console.info(`[${MODULE_ID}] Culture de ${actor.name} non disponible dans le compendium : table Racial Lore générale utilisée (le MJ peut remplacer cette variante plus tard).`);
     return '*';
@@ -350,21 +378,73 @@ async function pickCulture(actor,creatureKey,{automatic=false}={}) {
   return choice?.key??null;
 }
 
+const raceAliases={
+ 'race-humans':['men','humans','hommes','humains','hildor'],
+ 'race-dunedain':['dunedain','dúnedain','dunedain of arnor','dunedain of gondor'],
+ 'race-elves':['elves','elfes','quendi'],
+ 'race-khazad':['dwarves','nains','khazad'],
+ 'race-hobbits':['hobbits','periannath'],
+ 'race-half-elves':['half-elves','demi-elfes','peredhil'],
+ 'race-petty-dwarves':['petty-dwarves','petits-nains','noegyth nibin'],
+ 'race-umli':['umli','demi-nains'],
+ 'race-orcs':['orcs','orques','yrch'],
+ 'race-half-orcs':['half-orcs','demi-orcs'],
+ 'race-trolls':['trolls','tereg'],
+ 'race-half-trolls':['half-trolls','demi-trolls']
+};
+const normalizedTopic =value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2018\u2019]/g,"'").replace(/\s+/g,' ').trim();
+async function pickRacialVariant(actor,creatureKey,specialization,{automatic=false}={}){
+  const table=await getCreatureTable(creatureKey);
+  const races=new Map(),cultures=new Set();
+  for(const result of table.results){
+    const meta=rawLore(result);
+    if(meta.loreKey!=='racial')continue;
+    if(loreFamily(result)==='racial')races.set(meta.raceKey??'*',meta.raceLabel??meta.raceKey??'Général');
+    if(loreFamily(result)==='cultural'&&meta.cultureKey?.startsWith('culture-'))cultures.add(meta.cultureKey);
+  }
+  const name=normalizedTopic(specialization);
+  const matchingRace=[...races.keys()].filter(key=>
+    key!=='*'&&raceAliases[key]?.some(alias=>normalizedTopic(alias)===name));
+  if(matchingRace.length===1)return {kind:'racial',key:matchingRace[0]};
+  const ownedCulture=cultureCandidates(actor).filter(key=>cultures.has(key));
+  if(/^(own culture|culture d'origine|culture d’origine)$/.test(name)&&ownedCulture.length===1)
+    return {kind:'cultural',key:ownedCulture[0]};
+  if(name==='own culture'&&cultures.has('culture-half-elves') &&
+    (actor.items??[]).some(i=>i.type==='race'&&/half[-\s]?elf|demi[-\s]?elf/i.test(i.name)))
+    return {kind:'cultural',key:'culture-half-elves'};
+  if(races.size===1&&races.has('*')&&cultures.size===0)return {kind:'racial',key:'*'};
+  if(automatic)return null;
+  const choices=[
+    ...[...races].map(([key,label])=>({key:'racial:'+key,label:'Race — '+label})),
+    ...[...cultures].map(key=>({key:'cultural:'+key,label:'Culture — '+key+
+      (ownedCulture.includes(key)?' (du personnage)':'')}))
+  ].sort((a,b)=>a.label.localeCompare(b.label,'fr'));
+  if(!choices.length)throw new Error('Aucune variante raciale ou culturelle.');
+  const selected=await chooseOption({
+    title:'Racial Lore — Race ou culture',
+    lead:'Confirme le domaine effectivement étudié par la compétence du personnage.',
+    items:choices,ok:'Continuer'});
+  if(!selected)return null;
+  const i=selected.key.indexOf(':');
+  return {kind:selected.key.slice(0,i),key:selected.key.slice(i+1)};
+}
+
 /**
  * Warg regional knowledge has 31 specific variants, unlike the Wolf's
  * existing general Region Lore. Choose by native RMU specialization when
  * unambiguous; otherwise ask the GM. Never send a random regional result.
  */
 async function pickWargRegion(specialization,{automatic=false}={}) {
-  const {table}=await getTableEntries('warg','region','*');
+  const table=await getCreatureTable('warg');
   const regions=new Map();
   for(const entry of table.results){
+    if(loreFamily(entry)!=='region')continue;
     const meta=rawLore(entry);
     if(meta.regionKey && !regions.has(meta.regionKey))
-      regions.set(meta.regionKey,{key:meta.regionKey,label:meta.regionLabel||meta.regionKey});
+      regions.set(meta.regionKey,{key:meta.regionKey,label:(loreLanguage()==='fr'?meta.regionLabelFr:null)||meta.regionLabel||meta.regionKey});
   }
   const options=[...regions.values()].sort((a,b)=>a.label.localeCompare(b.label,'en'));
-  if(options.length!==31)throw new Error('Warg Region Lore: 31 regional variants expected.');
+  if(options.length!==32)throw new Error('Warg Region Lore: 32 regional variants expected.');
   const normalise=value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'')
     .replace(/^region lore\s*[:\/\-]?\s*/,'').trim();
   const desired=normalise(specialization);
@@ -483,39 +563,39 @@ async function gmReview(complete,{automatic=false}={}) {
       if(automatic)console.warn(`[${MODULE_ID}] MP non envoyé : degré RMU introuvable (ne PAS déduire du d100 seul). Cliquer « MJ · Vérifier / envoyer la connaissance » sur la carte privée.`,{requestId,completeId:complete.id,rmuresult:flag(complete,'suggestedOutcome')});
       return false;
     }
-    let cultureKey='*';
+
+    const creatureKey=source.creature.flags['merp-ui'].creatureLore.key;
+    let variantKey='*',family=loreKey;
     if(loreKey==='racial'){
-      cultureKey=await pickCulture(actor,source.creature.flags['merp-ui'].creatureLore.key,{automatic});
-      if(!cultureKey){
-        if(automatic)console.warn(`[${MODULE_ID}] MP non envoyé : culture non identifiée et table générique absente.`,{requestId,actor:actor.name});
+      const chosen=await pickRacialVariant(actor,creatureKey,specialization,{automatic});
+      if(!chosen){
+        if(automatic)console.info('[merp-ui] Racial Lore: spécialisation ambiguë; sélection MJ nécessaire.',{requestId,specialization});
         return false;
       }
+      variantKey=chosen.key;family=chosen.kind;
     }
-    if(loreKey==='region'&&source.creature.flags['merp-ui'].creatureLore.key==='warg'){
-      cultureKey=await pickWargRegion(specialization,{automatic});
-      if(!cultureKey){
-        if(automatic)console.info('[merp-ui] Warg: région non reconnue automatiquement; sélection MJ requise.',{requestId,actor:actor.name,specialization});
-        return false;
-      }
+    if(loreKey==='region'&&creatureKey==='warg'){
+      variantKey=await pickWargRegion(specialization,{automatic});
+      if(!variantKey)return false;
     }
-    const {table,results}=await getTableEntries(source.creature.flags['merp-ui'].creatureLore.key,loreKey,cultureKey);
+    const {table,results}=await getTableEntries(creatureKey,loreKey,variantKey,family);
     const found=results.filter(r=>rawLore(r).outcome===outcome);
     if(found.length!==1){
-      if(automatic){console.warn(`[${MODULE_ID}] MP non envoyé : table sans résultat unique.`,{requestId,loreKey,cultureKey,outcome,count:found.length});return false;}
-      throw new Error(`Aucune entrée unique : ${loreKey}/${cultureKey}/${outcome} (${found.length}).`);
+      if(automatic){console.warn(`[${MODULE_ID}] MP non envoyé : table sans résultat unique.`,{requestId,loreKey,family,variantKey,outcome,count:found.length});return false;}
+      throw new Error(`Aucune entrée unique : ${family}/${variantKey}/${outcome} (${found.length}).`);
     }
-    const entry=found[0],meta=rawLore(entry);
+    const entry=found[0],meta=rawLore(entry),narrative=translatedLore(entry);
     const review=await ChatMessage.create({author:game.user.id,speaker:neutralSpeaker(),
       ...ChatMessage.applyMode({
         content:`<section class="merp-lore-chat-card merp-lore-review" data-merp-lore-request="${requestId}">
           <header>MJ · Résultat de Lore (privé)</header>
           <p>${escapeHTML(actor.name)} · ${escapeHTML(LORE[loreKey].label)} / ${escapeHTML(specialization)}</p>
-          <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Variante :</strong> ${escapeHTML(cultureKey)}</p>
-          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(meta.gmNote)}</p>
-          ${narrativeHTML(entry.text)}
+          <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Variante :</strong> ${escapeHTML(family+' / '+variantKey)}</p>
+          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(narrative.gmNote)}</p>
+          ${narrativeHTML(narrative.text)}
           <button class="merp-lore-gm-reveal" type="button">MJ · Vérifier / envoyer le MP narratif</button></section>`,
         flags:loreFlags({kind:'gm-review',requestId,playerRequestId:started.id,recipientId:requester.id,actorId:actor.id,
-          loreKey,outcome,cultureKey,text:entry.text,reliability:meta.reliability,tableUuid:table.uuid})
+          loreKey,outcome,family,variantKey,text:narrative.text,reliability:meta.reliability,tableUuid:table.uuid})
       },'blind')
     });
     if(!review)throw new Error('Impossible de créer la carte privée du Meneur.');

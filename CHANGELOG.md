@@ -1,5 +1,14 @@
 # MERP-UI — Changelog
 
+## 2.0.13 — Lossless LevelDB compendium rebuild (20 November 2026)
+
+- Reconstruct all ten prebuilt LevelDB Compendiums from their active logical key/value records, with byte-for-byte SHA-256 verification before replacing each offline database.
+- Remove superseded LevelDB physical generations from the installable ZIP without deleting any live documents or descriptions.
+- Preserve all 12 Races, 60 Cultures, 21 Professions, multilingual descriptions and historical variants; retain 235 Wolf and 455 Warg Lore outcomes.
+- Store a per-pack CI audit (logical SHA-256, record counts, old/new byte sizes) with the release build.
+- Leave Actor identity compaction and all native RMU mechanics unchanged. This is a distribution-only optimisation.
+
+
 ## 2.0.12 — Warg Lore: complete cultural and regional tables (20 November 2026)
 
 - Add two confidential Warg RollTables to the existing Creature Lore compendium: 300 Cultural/Racial Lore results for 60 cultures and 155 Region Lore results for 31 regions.

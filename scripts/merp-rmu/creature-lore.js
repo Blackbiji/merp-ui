@@ -308,46 +308,103 @@ function cultureCandidates(actor){
   }
   return candidates;
 }
-async function getTableEntries(creatureKey,loreKey,cultureKey='*') {
+// A single private RollTable per creature; keep all Lore kinds inside it.
+async function getCreatureTable(creatureKey){
   const pack=game.packs.get(LORE_PACK);
-  if(!pack||pack.documentName!=='RollTable')throw new Error(`Compendium manquant : ${LORE_PACK}. Vérifie le compendium MERP-UI.`);
-  const docs=await pack.getDocuments();
-  const table=docs.find(t=>rawLore(t).creatureKey===creatureKey&&rawLore(t).loreKey===loreKey);
-  if(!table)throw new Error('Table Lore manquante : '+creatureKey+'/'+loreKey);
-  const selected=await pack.getDocument(table.id);
-  if(!selected)throw new Error('Table du compendium inaccessible.');
-  const results=[...selected.results].filter(r=>(loreKey==='region' ? (rawLore(r).regionKey ?? '*') : (rawLore(r).cultureKey ?? '*'))===cultureKey);
-  return {table:selected,results};
+  if(!pack||pack.documentName!=='RollTable')throw new Error('Compendium Creature Lore introuvable.');
+  const tables=(await pack.getDocuments()).filter(t=>rawLore(t).creatureKey===creatureKey);
+  if(tables.length!==1||rawLore(tables[0]).loreKey!=='all')
+    throw new Error('Une RollTable unique est requise pour '+creatureKey);
+  const table=await pack.getDocument(tables[0].id);
+  if(!table)throw new Error('Table de Lore inaccessible.');
+  return table;
 }
-async function pickCulture(actor,creatureKey,{automatic=false}={}) {
-  const {table}=await getTableEntries(creatureKey,'racial','*');
-  const available=[...new Set([...table.results].map(r=>rawLore(r).cultureKey).filter(s=>s&&s!=='*'))];
-  const candidates=cultureCandidates(actor);
-  // Half-Elves have a Race Item but no dedicated native RMU Culture Item.
-  // Prefer their validated racial lore when the actor's ancestry is Half-Elven.
-  const raceSources=[actor.flags?.['merp-ui']?.raceKey,actor.flags?.['merp-ui']?.race?.key,
-    actor.system?.race?.name,actor.system?.race?.key,actor.system?.race,
-    ...(actor.items??[]).filter(i=>i.type==='race').map(i=>i.name)];
-  const isHalfElven=raceSources.some(x=>/half[-\s]?elf|demi[-\s]?elf|perelda/i.test(
-    typeof x==='string'?x:(x?.name??'')));
-  if(isHalfElven && available.includes('culture-half-elves'))return 'culture-half-elves';
-  const matches=available.filter(key=>candidates.includes(key));
-  if(matches.length===1)return matches[0];
-  // The module has a *genuine, validated* generic racial table.
-  // Until all culture-specific tables exist, use that explicitly as a
-  // general result rather than blocking a narrative MP indefinitely.
-  const generic=[...table.results].filter(r=>rawLore(r).cultureKey==='*');
-  if(matches.length===0&&generic.length===5){
-    if(game.user.isGM)console.info(`[${MODULE_ID}] Culture de ${actor.name} non disponible dans le compendium : table Racial Lore générale utilisée (le MJ peut remplacer cette variante plus tard).`);
-    return '*';
+const loreFamily = result=>{
+  const meta=rawLore(result);
+  return meta.loreKind??(meta.loreKey==='racial'&&meta.cultureKey?.startsWith('culture-')?'cultural':meta.loreKey);
+};
+const loreLanguage=()=>{
+  let selected=null;
+  try{selected=globalThis.MERPUI?.contentLanguage?.();}catch{}
+  return selected==='fr'||selected==='en'?selected:
+    game.i18n?.lang?.startsWith('fr')?'fr':'en';
+};
+function translatedLore(entry){
+  const meta=rawLore(entry),lang=loreLanguage();
+  if(lang==='en'&&meta.englishTranslationStatus==='not-available')
+    throw new Error('La traduction anglaise du Warg Racial Lore reste à valider.');
+  const translated=meta.localizations?.[lang];
+  return {text:translated?.text??entry.description,gmNote:translated?.gmNote??meta.gmNote};
+}
+async function getTableEntries(creatureKey,loreKey,variantKey='*',family=null){
+  const table=await getCreatureTable(creatureKey);
+  const kind=family??(loreKey==='racial'?(variantKey.startsWith('race-')?'racial':'cultural'):loreKey);
+  const results=[...table.results].filter(result=>{
+    const meta=rawLore(result);
+    if(meta.loreKey!==loreKey||loreFamily(result)!==kind)return false;
+    if(kind==='racial')return (meta.raceKey??'*')===variantKey;
+    if(kind==='cultural')return (meta.cultureKey??'*')===variantKey;
+    if(kind==='region')return (meta.regionKey??'*')===variantKey;
+    return variantKey==='*';
+  });
+  return {table,results};
+}
+const raceAliases={
+ 'race-humans':['men','humans','hommes','humains','hildor'],
+ 'race-dunedain':['dunedain','dúnedain','dunedain of arnor','dunedain of gondor'],
+ 'race-elves':['elves','elfes','quendi'],
+ 'race-khazad':['dwarves','nains','khazad'],
+ 'race-hobbits':['hobbits','periannath'],
+ 'race-half-elves':['half-elves','demi-elfes','peredhil'],
+ 'race-petty-dwarves':['petty-dwarves','petits-nains','noegyth nibin'],
+ 'race-umli':['umli','demi-nains'],
+ 'race-orcs':['orcs','orques','yrch'],
+ 'race-half-orcs':['half-orcs','demi-orcs'],
+ 'race-trolls':['trolls','tereg'],
+ 'race-half-trolls':['half-trolls','demi-trolls']
+};
+const normalizedTopic =value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2018\u2019]/g,"'").replace(/\s+/g,' ').trim();
+async function pickRacialVariant(actor,creatureKey,specialization,{automatic=false}={}){
+  const table=await getCreatureTable(creatureKey);
+  const races=new Map(),cultures=new Map();
+  for(const result of table.results){
+    const meta=rawLore(result);
+    if(meta.loreKey!=='racial')continue;
+    if(loreFamily(result)==='racial')races.set(meta.raceKey??'*',meta.raceLabel??meta.raceKey??'Général');
+    if(loreFamily(result)==='cultural'&&meta.cultureKey?.startsWith('culture-'))
+      cultures.set(meta.cultureKey,meta.cultureLabelFr??meta.cultureKey);
   }
+  const name=normalizedTopic(specialization);
+  const matchingRace=[...races.keys()].filter(key=>
+    key!=='*'&&raceAliases[key]?.some(alias=>normalizedTopic(alias)===name));
+  if(matchingRace.length===1)return {kind:'racial',key:matchingRace[0]};
+  const ownedCulture=cultureCandidates(actor).filter(key=>cultures.has(key));
+  if(/^(own culture|culture d'origine|culture d’origine)$/.test(name)&&ownedCulture.length===1)
+    return {kind:'cultural',key:ownedCulture[0]};
+  if(name==='own culture'&&cultures.has('culture-half-elves') &&
+    (actor.items??[]).some(i=>i.type==='race'&&/half[-\s]?elf|demi[-\s]?elf/i.test(i.name)))
+    return {kind:'cultural',key:'culture-half-elves'};
+  if(name){
+    const matched=[...cultures].filter(([key,label])=>
+      normalizedTopic(label)===name||
+      normalizedTopic(key.replace(/^culture-/,'').replace(/-/g,' '))===name);
+    if(matched.length===1)return {kind:'cultural',key:matched[0][0]};
+  }
+  if(creatureKey==='wolf'&&races.has('*'))return {kind:'racial',key:'*'};
   if(automatic)return null;
-  const options=available.map(key=>({key,label:`${key}${candidates.includes(key)?' (détectée)':''}`}));
-  if(generic.length===5)options.unshift({key:'*',label:'Table raciale générale (provisoire)'});
-  if(!options.length)throw new Error('Aucune culture disponible dans le compendium Creature Lore.');
-  options.sort((a,b)=>Number(candidates.includes(b.key))-Number(candidates.includes(a.key))||a.key.localeCompare(b.key));
-  const choice=await chooseOption({title:'Culture du personnage',lead:'Confirme la culture ou la table raciale générale. Aucune compétence ne sera modifiée.',items:options,ok:'Continuer'});
-  return choice?.key??null;
+  const choices=[
+    ...[...races].map(([key,label])=>({key:'racial:'+key,label:'Race — '+label})),
+    ...[...cultures].map(([key,label])=>({key:'cultural:'+key,label:'Culture — '+label+
+      (ownedCulture.includes(key)?' (du personnage)':'')}))
+  ].sort((a,b)=>a.label.localeCompare(b.label,'fr'));
+  if(!choices.length)throw new Error('Aucune variante raciale ou culturelle.');
+  const selected=await chooseOption({
+    title:'Racial Lore — Race ou culture',
+    lead:'Confirme le domaine effectivement étudié par la compétence du personnage.',
+    items:choices,ok:'Continuer'});
+  if(!selected)return null;
+  const i=selected.key.indexOf(':');
+  return {kind:selected.key.slice(0,i),key:selected.key.slice(i+1)};
 }
 
 /**
@@ -356,15 +413,16 @@ async function pickCulture(actor,creatureKey,{automatic=false}={}) {
  * unambiguous; otherwise ask the GM. Never send a random regional result.
  */
 async function pickWargRegion(specialization,{automatic=false}={}) {
-  const {table}=await getTableEntries('warg','region','*');
+  const table=await getCreatureTable('warg');
   const regions=new Map();
   for(const entry of table.results){
+    if(loreFamily(entry)!=='region')continue;
     const meta=rawLore(entry);
     if(meta.regionKey && !regions.has(meta.regionKey))
-      regions.set(meta.regionKey,{key:meta.regionKey,label:meta.regionLabel||meta.regionKey});
+      regions.set(meta.regionKey,{key:meta.regionKey,label:(loreLanguage()==='fr'?meta.regionLabelFr:null)||meta.regionLabel||meta.regionKey});
   }
   const options=[...regions.values()].sort((a,b)=>a.label.localeCompare(b.label,'en'));
-  if(options.length!==31)throw new Error('Warg Region Lore: 31 regional variants expected.');
+  if(options.length!==32)throw new Error('Warg Region Lore: 32 regional variants expected.');
   const normalise=value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'')
     .replace(/^region lore\s*[:\/\-]?\s*/,'').trim();
   const desired=normalise(specialization);
@@ -483,39 +541,39 @@ async function gmReview(complete,{automatic=false}={}) {
       if(automatic)console.warn(`[${MODULE_ID}] MP non envoyé : degré RMU introuvable (ne PAS déduire du d100 seul). Cliquer « MJ · Vérifier / envoyer la connaissance » sur la carte privée.`,{requestId,completeId:complete.id,rmuresult:flag(complete,'suggestedOutcome')});
       return false;
     }
-    let cultureKey='*';
+
+    const creatureKey=source.creature.flags['merp-ui'].creatureLore.key;
+    let variantKey='*',family=loreKey;
     if(loreKey==='racial'){
-      cultureKey=await pickCulture(actor,source.creature.flags['merp-ui'].creatureLore.key,{automatic});
-      if(!cultureKey){
-        if(automatic)console.warn(`[${MODULE_ID}] MP non envoyé : culture non identifiée et table générique absente.`,{requestId,actor:actor.name});
+      const chosen=await pickRacialVariant(actor,creatureKey,specialization,{automatic});
+      if(!chosen){
+        if(automatic)console.info('[merp-ui] Racial Lore: spécialisation ambiguë; sélection MJ nécessaire.',{requestId,specialization});
         return false;
       }
+      variantKey=chosen.key;family=chosen.kind;
     }
-    if(loreKey==='region'&&source.creature.flags['merp-ui'].creatureLore.key==='warg'){
-      cultureKey=await pickWargRegion(specialization,{automatic});
-      if(!cultureKey){
-        if(automatic)console.info('[merp-ui] Warg: région non reconnue automatiquement; sélection MJ requise.',{requestId,actor:actor.name,specialization});
-        return false;
-      }
+    if(loreKey==='region'&&creatureKey==='warg'){
+      variantKey=await pickWargRegion(specialization,{automatic});
+      if(!variantKey)return false;
     }
-    const {table,results}=await getTableEntries(source.creature.flags['merp-ui'].creatureLore.key,loreKey,cultureKey);
+    const {table,results}=await getTableEntries(creatureKey,loreKey,variantKey,family);
     const found=results.filter(r=>rawLore(r).outcome===outcome);
     if(found.length!==1){
-      if(automatic){console.warn(`[${MODULE_ID}] MP non envoyé : table sans résultat unique.`,{requestId,loreKey,cultureKey,outcome,count:found.length});return false;}
-      throw new Error(`Aucune entrée unique : ${loreKey}/${cultureKey}/${outcome} (${found.length}).`);
+      if(automatic){console.warn(`[${MODULE_ID}] MP non envoyé : table sans résultat unique.`,{requestId,loreKey,family,variantKey,outcome,count:found.length});return false;}
+      throw new Error(`Aucune entrée unique : ${family}/${variantKey}/${outcome} (${found.length}).`);
     }
-    const entry=found[0],meta=rawLore(entry);
+    const entry=found[0],meta=rawLore(entry),narrative=translatedLore(entry);
     const review=await ChatMessage.create({author:game.user.id,speaker:neutralSpeaker(),
       ...ChatMessage.applyMode({
         content:`<section class="merp-lore-chat-card merp-lore-review" data-merp-lore-request="${requestId}">
           <header>MJ · Résultat de Lore (privé)</header>
           <p>${escapeHTML(actor.name)} · ${escapeHTML(LORE[loreKey].label)} / ${escapeHTML(specialization)}</p>
-          <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Variante :</strong> ${escapeHTML(cultureKey)}</p>
-          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(meta.gmNote)}</p>
-          ${narrativeHTML(entry.text)}
+          <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Variante :</strong> ${escapeHTML(family+' / '+variantKey)}</p>
+          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(narrative.gmNote)}</p>
+          ${narrativeHTML(narrative.text)}
           <button class="merp-lore-gm-reveal" type="button">MJ · Vérifier / envoyer le MP narratif</button></section>`,
         flags:loreFlags({kind:'gm-review',requestId,playerRequestId:started.id,recipientId:requester.id,actorId:actor.id,
-          loreKey,outcome,cultureKey,text:entry.text,reliability:meta.reliability,tableUuid:table.uuid})
+          loreKey,outcome,family,variantKey,text:narrative.text,reliability:meta.reliability,tableUuid:table.uuid})
       },'blind')
     });
     if(!review)throw new Error('Impossible de créer la carte privée du Meneur.');
@@ -567,6 +625,29 @@ function addButtons(app,html){
       e.dataTransfer.setData(DRAG_TYPE,JSON.stringify({sourceActorUuid:actor.uuid,loreKey:key}));});
     entry.append(' ',b);
   }
+  // Fallback for RMU Actor sheets without MERP-specific Lore rows.
+  // UI-only: no changes to Actor Notes, Description, Items or RMU mechanics.
+  if(!element.querySelector('.merp-ui-lore-entry[data-merp-ui-lore],.merp-ui-lore-offer-panel')){
+    const active=Object.keys(LORE).filter(key=>actor.flags?.['merp-ui']?.creatureLore?.lore?.[key]);
+    if(active.length){
+      const panel=document.createElement('section');
+      panel.className='merp-ui-lore-offer-panel';
+      panel.style.cssText='padding:8px;margin:8px 0;border:1px solid var(--color-border-light-tertiary,#999);border-radius:4px';
+      const heading=document.createElement('strong');
+      heading.textContent='MERP-UI · Creature Lore';
+      panel.append(heading);
+      for(const key of active){
+        const button=document.createElement('button');
+        button.type='button';button.className='merp-lore-propose';
+        button.textContent='🎲 '+LORE[key].label+' · Proposer un jet';
+        button.addEventListener('click',event=>{
+          event.preventDefault();event.stopPropagation();void publishOffer(actor,key);
+        });
+        panel.append(' ',button);
+      }
+      (element.querySelector('.sheet-body,.window-content,.application-content')??element).append(panel);
+    }
+  }
 }
 function isChatDropTarget(target){return target instanceof Element && !!target.closest('#chat,#chat-log,.chat-log,.chat-form,[data-tab="chat"],[data-sidebar-tab="chat"]');}
 function handleDragOver(e){if(game.user.isGM&&isChatDropTarget(e.target)&&[...(e.dataTransfer?.types??[])].includes(DRAG_TYPE)){e.preventDefault();e.dataTransfer.dropEffect='copy';}}
@@ -603,28 +684,41 @@ Hooks.once('init',()=>{
 });
 
 /**
- * Non-mechanical binding for World Warg Creature actors. An exact Warg/Ouargue
- * name is recognised automatically for a first test; other names may be bound
- * explicitly through game.merpUiLore.activateWarg(actor).
+ * Bind imported World Actors to the existing two Lore tables, never bundling
+ * commercial RMU Actors. Names are exact to avoid false identification.
  */
-async function enableWargActor(actor) {
-  if(!game.user.isGM)throw new Error('Seul le Meneur peut activer le Lore Warg.');
+async function enableLoreActor(actor,creatureKey){
+  if(!game.user.isGM)throw new Error('Seul le Meneur peut activer Creature Lore.');
   if(typeof actor==='string')actor=game.actors.get(actor);
-  if(!actor || actor.type!=='Creature')throw new Error('Un Actor Creature est requis.');
-  const previous=actor.flags?.['merp-ui']?.creatureLore??{};
-  if(previous.key && previous.key!=='warg')
+  if(!actor||actor.type!=='Creature')throw new Error('Un Actor RMU Creature est requis.');
+  if(!['wolf','warg'].includes(creatureKey))throw new Error('Créature Lore inconnue.');
+  const prev=actor.flags?.['merp-ui']?.creatureLore??{};
+  if(prev.key&&prev.key!==creatureKey)
     throw new Error('Cette créature possède déjà une autre identité Lore.');
-  if(previous.key==='warg' && previous.lore?.racial && previous.lore?.region)return actor;
+  const lore=creatureKey==='wolf'
+    ?{racial:true,region:true,historic:true}
+    :{racial:true,region:true};
+  if(prev.key===creatureKey&&Object.keys(lore).every(key=>prev.lore?.[key]))return actor;
   await actor.update({'flags.merp-ui.creatureLore':{
-    ...previous,key:'warg',lore:{...previous.lore,racial:true,region:true}
+    ...prev,key:creatureKey,lore:{...prev.lore,...lore}
   }});
   return actor;
 }
-async function enableNamedWargs(){
-  if(!game.user.isGM || game.user.id!==primaryActiveGM())return;
-  const actors=game.actors.contents.filter(actor=>actor.type==='Creature' &&
-    /^(?:wargs?|ouargues?)$/i.test(String(actor.name??'').trim()));
-  for(const actor of actors)await enableWargActor(actor);
+const enableWargActor=actor=>enableLoreActor(actor,'warg');
+const enableWolfActor=actor=>enableLoreActor(actor,'wolf');
+const namedLoreKey=actor=>{
+  if(actor?.type!=='Creature')return null;
+  const name=String(actor.name??'').trim();
+  if(/^(?:wolves|wolf|loups?)$/i.test(name))return 'wolf';
+  if(/^(?:wargs?|ouargues?)$/i.test(name))return 'warg';
+  return null;
+};
+async function enableNamedLoreCreatures(){
+  if(!game.user.isGM||game.user.id!==primaryActiveGM())return;
+  for(const actor of game.actors.contents){
+    const creatureKey=namedLoreKey(actor);
+    if(creatureKey)await enableLoreActor(actor,creatureKey);
+  }
 }
 
 Hooks.once('ready',()=>{
@@ -641,7 +735,12 @@ Hooks.once('ready',()=>{
   }
   document.addEventListener('dragover',handleDragOver,true);
   document.addEventListener('drop',e=>void handleDrop(e),true);
-  game.merpUiLore=Object.freeze({proposeFromActor:publishOffer,choicesForUser,activateWarg:enableWargActor});
-  void enableNamedWargs().catch(e=>fail(e,'liaison du Warg'));
+  game.merpUiLore=Object.freeze({proposeFromActor:publishOffer,choicesForUser,activateWarg:enableWargActor,activateWolf:enableWolfActor});
+  Hooks.on('createActor',actor=>{
+    if(!game.user.isGM||game.user.id!==primaryActiveGM())return;
+    const creatureKey=namedLoreKey(actor);
+    if(creatureKey)void enableLoreActor(actor,creatureKey).catch(error=>fail(error,'liaison Creature Lore'));
+  });
+  void enableNamedLoreCreatures().catch(e=>fail(e,'liaison du bestiaire'));
   console.info(`[${MODULE_ID}] intégré : jet RMU aveugle, table de compendium privée, MP narratif.`);
 });

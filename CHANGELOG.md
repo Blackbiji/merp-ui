@@ -1,5 +1,17 @@
 # MERP-UI — Changelog
 
+## 2.0.14 — Foundry clean-World Creature Lore test preview (20 November 2026)
+
+- Ship a **preview release** to test the consolidated Creature Lore architecture on a new RMU World.
+- Add one RollTable per species: Wolf (235 results) and Warg (520 results), preserving baseline texts and private GM control metadata.
+- Separate Warg Racial (12 races), Cultural (60 cultures) and Region (32 regions) knowledge. Keep Historic Lore only where available; the Warg currently has none.
+- Prepare an eleventh Compendium of type Actor with **26 native folders** based on *Creatures of Middle-earth* chapters 5 and 6. It contains **no Actor documents yet**; import licensed official RMU creatures into your test World.
+- Detect exact-name Wolf and Warg World Actors and offer temporary Creature Lore sheet controls without modifying Actor Notes or Descriptions.
+- Preserve the previous two Racial RollTable UUIDs when consolidating the five tables into two.
+- Warg true Racial Lore is FR-only for this test; the Arthedain EN translation is provisional. Full Foundry testing and rights review remain outstanding.
+- No RMU mechanical skill, rank, Actor Notes or Actor Description changes in the packaged compendiums.
+
+
 ## Pending release — ICE/RMU descriptive title and rights notices (not yet published)
 
 - Acknowledge Iron Crown Enterprises Ltd's Rolemaster Unified copyright and trademark; state that **MERP-RMU** is a descriptive name, not an ICE licence, endorsement or claim to its intellectual property.

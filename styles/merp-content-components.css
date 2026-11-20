@@ -935,3 +935,8 @@
 .rmu-talent-desc-row > .rmu-talent-desc.merp-ui-talent-enhanced > .merp-ui-talent-toggle:hover {
   color: #0c1823 !important;
 }
+
+/* Bestiary and Lore packs share the existing MERP-UI compendium typography. */
+#compendium :is([data-pack^="merp-ui.merp-ui-"],[data-entry-id^="merp-ui.merp-ui-"]) :is(
+  .compendium-name,.entry-name,.document-name,h3,h4
+){font-family:var(--merp-c-font,var(--merp-font,"PragRoman",Georgia,serif)) !important;}

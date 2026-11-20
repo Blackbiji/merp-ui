@@ -3,7 +3,7 @@
  * Supports Foundry V13 and V14's differing Compendium application props.
  * Does not alter document content, pack state or folder interactions.
  */
-const PACK_PREFIX = "merp-ui.merp-rmu-";
+const PACK_PREFIXES = ["merp-ui.merp-rmu-", "merp-ui.merp-ui-"];
 const THEME_CLASS = "merp-ui-compendium-browser";
 
 function text(value) {
@@ -19,9 +19,9 @@ function packId(value) {
 
 function isMerpPackId(value) {
   const raw = text(value);
-  if (raw.startsWith(PACK_PREFIX)) return true;
+  if (PACK_PREFIXES.some(prefix => raw.startsWith(prefix))) return true;
   // Foundry's application IDs can be prefixed with "compendium-".
-  return /(?:^|[._-])merp-ui\.merp-rmu-[a-z0-9-]+(?:$|[._-])/i.test(raw);
+  return /(?:^|[._-])merp-ui\.(?:merp-rmu|merp-ui)-[a-z0-9-]+(?:$|[._-])/i.test(raw);
 }
 
 function packList(packs) {

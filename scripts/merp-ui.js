@@ -1429,3 +1429,25 @@ function themeMerpCompendiumWindow(app, html) {
 Hooks.on("renderApplicationV2", themeMerpCompendiumWindow);
 Hooks.on("renderApplication", themeMerpCompendiumWindow);
 Hooks.on("renderCompendium", themeMerpCompendiumWindow);
+
+// Restore the same parchment, PragRoman and ink treatment to the native
+// RollTable *document window*. Browser theming alone does not style it.
+// Only MERP-UI's Creature Lore tables are affected; no document edits.
+function themeMerpLoreTableWindow(app, html) {
+  const document = app?.document ?? app?.object ?? app?.options?.document;
+  const uuid = String(document?.uuid ?? "");
+  const pack = typeof document?.pack === "string" ? document.pack :
+    (document?.pack?.collection ?? document?.collection?.collection ?? "");
+  const rootId = String(app?.id ?? app?.options?.id ?? "");
+  const target = pack === "merp-ui.merp-ui-lore" ||
+    uuid.startsWith("Compendium.merp-ui.merp-ui-lore.RollTable.") ||
+    rootId.includes("merp-ui-lore");
+  if (!target || document?.documentName !== "RollTable") return;
+  for (const root of getApplicationRoots(app, html)) {
+    const outer = root.closest?.(".application, .window-app") ?? root;
+    outer?.classList?.add("merp-ui-lore-table-window");
+  }
+}
+Hooks.on("renderApplicationV2", themeMerpLoreTableWindow);
+Hooks.on("renderApplication", themeMerpLoreTableWindow);
+Hooks.on("renderRollTableSheet", themeMerpLoreTableWindow);

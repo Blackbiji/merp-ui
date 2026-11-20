@@ -91,7 +91,9 @@ async function chooseOption({title,lead,items,name='choice',ok='Valider',foot=''
   const index=Number(raw);
   return Number.isInteger(index)?(items[index]??null):null;
 }
-async function publishOffer(actor,loreKey='region') {
+async function publishOffer(actor,loreKey='region',familyHint=null) {
+  if(familyHint && !(loreKey==='racial'&&['racial','cultural'].includes(familyHint)))
+    throw new Error('Catégorie de Racial Lore invalide.');
   if(!game.user.isGM) return warn('Seul le Meneur peut proposer une connaissance.');
   if(!currentCreature(actor) || !actor.flags?.['merp-ui']?.creatureLore?.lore?.[loreKey]) {
     return warn('Aucune connaissance MERP-UI de ce type n’est déclarée sur cette créature.');
@@ -101,7 +103,7 @@ async function publishOffer(actor,loreKey='region') {
   try {
     privateRef=await ChatMessage.create({author:game.user.id,speaker:neutralSpeaker(),whisper:gmIds(),
       content:`<p><strong>MERP-UI · Référence privée</strong> — ${escapeHTML(actor.name)}, ${escapeHTML(LORE[loreKey].label)}.</p>`,
-      flags:loreFlags({kind:'private-reference',requestId,sourceActorUuid:actor.uuid,creatureKey:actor.flags['merp-ui'].creatureLore.key,loreKey})});
+      flags:loreFlags({kind:'private-reference',requestId,sourceActorUuid:actor.uuid,creatureKey:actor.flags['merp-ui'].creatureLore.key,loreKey,familyHint})});
     const offer=await ChatMessage.create({author:game.user.id,speaker:neutralSpeaker(),
       content:`<section class="merp-lore-chat-card" data-merp-lore-request="${requestId}">
         <header>MERP-UI · Appel aux connaissances</header>
@@ -253,7 +255,7 @@ async function sourceFor(requestId) {
   const creature=await fromUuid(sourceUuid);
   if(!currentCreature(creature)) throw new Error('Créature de la demande indisponible.');
   if(creature.flags['merp-ui'].creatureLore.key!==flag(privateRef,'creatureKey'))throw new Error('Référence de créature incohérente.');
-  return {creature,loreKey:flag(privateRef,'loreKey')};
+  return {creature,loreKey:flag(privateRef,'loreKey'),familyHint:flag(privateRef,'familyHint')??null};
 }
 function skillMatches(derived,embedded,specialization) {
   if(!derived||!embedded)return false;
@@ -364,7 +366,7 @@ const raceAliases={
  'race-half-trolls':['half-trolls','demi-trolls']
 };
 const normalizedTopic =value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2018\u2019]/g,"'").replace(/\s+/g,' ').trim();
-async function pickRacialVariant(actor,creatureKey,specialization,{automatic=false}={}){
+async function pickRacialVariant(actor,creatureKey,specialization,{automatic=false,familyHint=null}={}){
   const table=await getCreatureTable(creatureKey);
   const races=new Map(),cultures=new Map();
   for(const result of table.results){
@@ -374,6 +376,8 @@ async function pickRacialVariant(actor,creatureKey,specialization,{automatic=fal
     if(loreFamily(result)==='cultural'&&meta.cultureKey?.startsWith('culture-'))
       cultures.set(meta.cultureKey,meta.cultureLabelFr??meta.cultureKey);
   }
+  if(familyHint==='racial')cultures.clear();
+  if(familyHint==='cultural')races.clear();
   const name=normalizedTopic(specialization);
   const matchingRace=[...races.keys()].filter(key=>
     key!=='*'&&raceAliases[key]?.some(alias=>normalizedTopic(alias)===name));
@@ -545,7 +549,7 @@ async function gmReview(complete,{automatic=false}={}) {
     const creatureKey=source.creature.flags['merp-ui'].creatureLore.key;
     let variantKey='*',family=loreKey;
     if(loreKey==='racial'){
-      const chosen=await pickRacialVariant(actor,creatureKey,specialization,{automatic});
+      const chosen=await pickRacialVariant(actor,creatureKey,specialization,{automatic,familyHint:source.familyHint});
       if(!chosen){
         if(automatic)console.info('[merp-ui] Racial Lore: spécialisation ambiguë; sélection MJ nécessaire.',{requestId,specialization});
         return false;
@@ -617,13 +621,27 @@ function addButtons(app,html){
   if(!(element instanceof HTMLElement))return;
   for(const entry of element.querySelectorAll('.merp-ui-lore-entry[data-merp-ui-lore]')){
     const key=entry.dataset.merpUiLore;
-    if(!LORE[key]||!actor.flags['merp-ui'].creatureLore.lore[key]||entry.querySelector('.merp-lore-propose'))continue;
-    const b=document.createElement('button');
-    b.type='button';b.className='merp-lore-propose';b.draggable=true;b.textContent='🎲 Proposer un jet';
-    b.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();void publishOffer(actor,key);});
-    b.addEventListener('dragstart',e=>{e.stopPropagation();e.dataTransfer.effectAllowed='copy';
-      e.dataTransfer.setData(DRAG_TYPE,JSON.stringify({sourceActorUuid:actor.uuid,loreKey:key}));});
-    entry.append(' ',b);
+    if(!LORE[key]||!actor.flags['merp-ui'].creatureLore.lore[key])continue;
+    const kind=entry.dataset.merpUiLoreKind??(key==='racial'?'racial':key);
+    let button=entry.querySelector('.merp-lore-propose');
+    if(!button){
+      button=document.createElement('button');
+      button.type='button';button.className='merp-lore-propose';
+      button.textContent='🎲 Proposer un jet';
+      entry.append(' ',button);
+    }
+    if(button.dataset.merpLoreBound==='1')continue;
+    button.dataset.merpLoreBound='1';button.draggable=true;
+    button.addEventListener('click',event=>{
+      event.preventDefault();event.stopPropagation();
+      void publishOffer(actor,key,kind==='cultural'||kind==='racial'?kind:null);
+    });
+    button.addEventListener('dragstart',event=>{
+      event.stopPropagation();event.dataTransfer.effectAllowed='copy';
+      event.dataTransfer.setData(DRAG_TYPE,JSON.stringify({
+        sourceActorUuid:actor.uuid,loreKey:key,familyHint:kind==='cultural'||kind==='racial'?kind:null
+      }));
+    });
   }
   // Fallback for RMU Actor sheets without MERP-specific Lore rows.
   // UI-only: no changes to Actor Notes, Description, Items or RMU mechanics.
@@ -654,7 +672,7 @@ function handleDragOver(e){if(game.user.isGM&&isChatDropTarget(e.target)&&[...(e
 async function handleDrop(e){if(!game.user.isGM||!isChatDropTarget(e.target))return;
   const raw=e.dataTransfer?.getData(DRAG_TYPE);if(!raw)return;
   e.preventDefault();e.stopImmediatePropagation();
-  try{const obj=JSON.parse(raw);await publishOffer(await fromUuid(obj.sourceActorUuid),obj.loreKey);}catch(err){fail(err,'déposer Lore');}
+  try{const obj=JSON.parse(raw);await publishOffer(await fromUuid(obj.sourceActorUuid),obj.loreKey,obj.familyHint??null);}catch(err){fail(err,'déposer Lore');}
 }
 function clickedMessage(btn,kind){
   const row=btn.closest('[data-message-id]');

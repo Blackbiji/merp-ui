@@ -60,7 +60,7 @@ test('The existing Wolf and Warg are distinct, subject to Actor-level validation
   assert.equal(assigned.get('warg').folderPath,'monster-glossary/undead-beings');
   assert.equal(assigned.size,2);
   assert.ok([...assigned.values()].every(x=>all.some(y=>y.path===x.folderPath)));
-  assert.ok([...assigned.values()].every(x=>x.status==='proposed'));
+  assert.ok([...assigned.values()].every(x=>x.status==='preview-implemented'));
 });
 
 test('Existing RMU Creature Lore specialisations survive the reorganisation',()=>{
@@ -77,13 +77,42 @@ test('Existing RMU Creature Lore specialisations survive the reorganisation',()=
   assert.ok(block.includes('Peoples outside these two glossaries'));
 });
 
-test('Taxonomy changes neither Actor Notes and Description nor native skill ranks',()=>{
+test('Taxonomy deliberately places original Creature Actors and leaves RMU skills unchanged',()=>{
   assert.equal(source.packTarget.declaredInModule,true);
-  assert.equal(source.packTarget.publicationStatus,'test-build-only');
+  assert.equal(source.packTarget.publicationStatus,'preview-with-wolf-and-warg-actors');
   assert.ok(!selector.includes('"Animal Lore": ['),'An unapproved RMU skill was added');
   assert.ok(!packBuilder.includes("'system.description'"));
   assert.ok(!packBuilder.includes("'system.notes'"));
   assert.ok(!packBuilder.includes('updateEmbeddedDocuments'));
   assert.ok(packBuilder.includes("key.startsWith('!folders!')"));
   assert.ok(packBuilder.includes('existingActorCount:afterActors'));
+});
+
+
+test('Native Actor compendium contains Wolf and Warg in their exact folders',async()=>{
+  const {ClassicLevel}=await import('classic-level');
+  const {createHash}=await import('node:crypto');
+  const id=path=>createHash('sha256').update('merp-ui:creature-folder:'+path).digest('hex').slice(0,16);
+  const db=new ClassicLevel('packs/merp-ui-creatures',{keyEncoding:'utf8',valueEncoding:'utf8',createIfMissing:false});
+  await db.open();
+  const actors=[],folders=[];
+  try{
+    for await(const [key,value] of db.iterator()){
+      if(key.startsWith('!actors!'))actors.push(JSON.parse(value));
+      else if(key.startsWith('!folders!'))folders.push(JSON.parse(value));
+    }
+  }finally{await db.close();}
+  assert.equal(folders.length,26);
+  assert.equal(actors.length,2,'Actors must be visible in the compendium, not mere folder placeholders');
+  const wolf=actors.find(a=>a.flags?.['merp-ui']?.creatureLore?.key==='wolf');
+  const warg=actors.find(a=>a.flags?.['merp-ui']?.creatureLore?.key==='warg');
+  assert.equal(wolf?.folder,id('animal-glossary/apsanakuni'));
+  assert.equal(warg?.folder,id('monster-glossary/undead-beings'));
+  assert.equal(wolf.items.length,27);
+  assert.equal(warg.items.length,28);
+  assert.equal((wolf.system.description.match(/data-merp-ui-lore-action=/g)||[]).length,4);
+  assert.equal((warg.system.description.match(/data-merp-ui-lore-action=/g)||[]).length,3);
+  assert.ok(warg.system.notes.includes('merp-ui-warg-notes-card'));
+  assert.equal((warg.system.notes.match(/merp-ui-warg-note-heading/g)||[]).length,6);
+  assert.ok(!warg.system.description.includes('data-merp-ui-lore="historic"'));
 });

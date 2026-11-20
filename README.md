@@ -2,6 +2,8 @@
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
+> **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
+
 **Release:** 2.0.11 (19 November 2026). Creature Lore — Wolf Historic, Region and Half-Elven expansion.
 
 ## What's new in 2.0.11
@@ -17,6 +19,8 @@
 - **Foundry VTT:** minimum generation 13; declared verified through generation 14.
 - **RMU system:** declared minimum 1.3.55; author-tested reference 1.4.83.
 - The module only activates in RMU Worlds. Versions at the minimum compatibility boundaries have not all been retested; a new blank World is also recommended for independent validation.
+
+**Required official products:** MERP-UI depends on the official RMU Foundry implementation. Users need to obtain the official RMU system and separately purchase and install whichever official RMU modules their game requires. This free add-on is not intended to supply or replace ICE's commercial RMU publications, attack tables, critical charts or Bob's paid Foundry modules.
 
 ## What's included
 
@@ -133,5 +137,7 @@ The canonical editorial sources are under `source/compendiums/`. For deeper info
 MERP-UI is an **unofficial, free, non-commercial fan project** by **Jean-Brice Gayet**. The accompanying MIT `LICENSE` applies to the original software code and framework only. **Middle-earth, MERP, Rolemaster and RMU** materials, names and intellectual property remain subject to their respective rights holders' terms.
 
 The bundled **PragRoman**, **Initials TFB**, and **Ornaments Labels and Frames** fonts are used for this non-commercial project and are **not covered by the project's MIT licence**. Other artwork, interface assets and fonts likewise retain any applicable separate rights. See [NOTICE.md](NOTICE.md) for attribution and limitations. Original module code and third-party materials must not be treated as a single MIT-licensed work.
+
+The fan project's free status is **not** a blanket licence to reuse earlier ICE MERP publications or Tolkien-related materials. Any adaptations, translations, maps, illustrations or other third-party content require individual review before publication. Permission from an individual adventure author does not cover the wider setting or other parties' rights. See the [release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md) before packaging or publishing another version.
 
 Issue tracker: https://github.com/Blackbiji/merp-ui/issues

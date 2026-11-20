@@ -496,6 +496,12 @@ async function gmReview(complete,{automatic=false}={}) {
         if(automatic)console.warn(`[${MODULE_ID}] MP non envoyé : culture non identifiée et table générique absente.`,{requestId,actor:actor.name});
         return false;
       }
+    } else if(loreKey==='region'&&source.creature.flags['merp-ui'].creatureLore.key==='warg'){
+      cultureKey=await pickWargRegion(specialization,{automatic});
+      if(!cultureKey){
+        if(automatic)console.warn('[merp-ui] Region Lore Warg introuvable ou non fournie : '+specialization);
+        return false;
+      }
     }
     const {table,results}=await getTableEntries(source.creature.flags['merp-ui'].creatureLore.key,loreKey,cultureKey);
     const found=results.filter(r=>rawLore(r).outcome===outcome);

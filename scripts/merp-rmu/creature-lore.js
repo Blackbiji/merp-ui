@@ -22,6 +22,24 @@ const inFlight = new Set();
 const safeRolls = new Set();
 const escapeHTML = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm = s=>String(s??'').trim().toLocaleLowerCase('fr');
+const regionNorm = s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+function regionNames(name){
+  const parts=String(name??'').split(/\s*\/\s*|\s+[—–]\s+/).map(regionNorm).filter(Boolean);
+  const aliases=new Set([regionNorm(name),...parts]);
+  for(const token of [...aliases])
+    aliases.add(token.replace(/^(?:la|le|les|pays de|foret de|montagnes de|mont)\s+/,''));
+  const synonyms={'dunland':'pays de dun','mirkwood north':'foret de grand peur septentrionale',
+    'mirkwood south':'foret de grand peur meridionale',
+    'eregion':'eregion hollin','hollin':'eregion hollin',
+    'khazad dum':'moria khazad dum','forochel':'forodwaith forochel',
+    'gundabad':'mont gundabad','sirayn':'greater harad sirayn',
+    'ardor':'ardor the court of ardor'};
+  for(const [from,to] of Object.entries(synonyms)){
+    if(aliases.has(from)||aliases.has(to)){aliases.add(from);aliases.add(to);}
+  }
+  return aliases;
+}
 const flag = (doc,key)=>doc?.flags?.[MODULE_ID]?.creatureLoreChat?.[key];
 const loreFlags = data=>({[MODULE_ID]:{creatureLoreChat:data}});
 const rawLore = doc => doc?.flags?.[MODULE_ID]?.creatureLoreTable ?? doc?.flags?.[MODULE_ID]?.creatureLoreEntry ?? {};
@@ -143,7 +161,7 @@ async function playerBlindRoll(offer) {
         <p>${escapeHTML(actor.name)} — ${escapeHTML(LORE[loreKey].label)}${choice.specialization?' / '+escapeHTML(choice.specialization):''}</p>
         <p>Le jet est adressé au Meneur. Tu recevras les connaissances de ton personnage par message privé.</p></section>`,
       flags:loreFlags({kind:'player-request',requestId,actorId:actor.id,skillItemId:item.id,
-        specialization:choice.specialization,loreKey})});
+        specialization:choice.specialization,loreKey,locale:game.i18n?.lang==='en'?'en':'fr'})});
     if(!started)throw new Error('Impossible de publier la demande de jet.');
     // Actual RMU roll happens on the player's client. The guard makes every native
     // ChatMessage created synchronously within this API call blind BEFORE creation.
@@ -311,7 +329,11 @@ async function getTableEntries(creatureKey,loreKey,cultureKey='*') {
   if(!table)throw new Error('Table Lore manquante : '+creatureKey+'/'+loreKey);
   const selected=await pack.getDocument(table.id);
   if(!selected)throw new Error('Table du compendium inaccessible.');
-  const results=[...selected.results].filter(r=>rawLore(r).cultureKey===cultureKey);
+  const results=[...selected.results].filter(r=>{
+    const entry=rawLore(r);
+    return creatureKey==='warg'&&loreKey==='region'
+      ? entry.regionKey===cultureKey : entry.cultureKey===cultureKey;
+  });
   return {table:selected,results};
 }
 async function pickCulture(actor,creatureKey,{automatic=false}={}) {
@@ -342,6 +364,24 @@ async function pickCulture(actor,creatureKey,{automatic=false}={}) {
   if(!options.length)throw new Error('Aucune culture disponible dans le compendium Creature Lore.');
   options.sort((a,b)=>Number(candidates.includes(b.key))-Number(candidates.includes(a.key))||a.key.localeCompare(b.key));
   const choice=await chooseOption({title:'Culture du personnage',lead:'Confirme la culture ou la table raciale générale. Aucune compétence ne sera modifiée.',items:options,ok:'Continuer'});
+  return choice?.key??null;
+}
+async function pickWargRegion(specialization,{automatic=false}={}){
+  const {table}=await getTableEntries('warg','region','*');
+  const regions=[...new Map([...table.results]
+    .map(r=>rawLore(r)).filter(x=>x.regionKey)
+    .map(x=>[x.regionKey,{key:x.regionKey,label:x.regionName??x.regionKey}])).values()];
+  const desired=regionNorm(specialization);
+  const matches=regions.filter(r=>regionNames(r.label).has(desired));
+  if(matches.length===1)return matches[0].key;
+  if(automatic)return null;
+  if(!regions.length)throw new Error('Aucune spécialisation Region Lore du Warg.');
+  const choice=await chooseOption({
+    title:'Region Lore — territoire du personnage',
+    lead:'Sélectionne le territoire exact de ce jet. Aucune autre région ne sera retenue automatiquement.',
+    items:regions.sort((a,b)=>a.label.localeCompare(b.label,'fr')),
+    ok:'Continuer'
+  });
   return choice?.key??null;
 }
 async function pickOutcome(resolved){
@@ -450,6 +490,12 @@ async function gmReview(complete,{automatic=false}={}) {
         if(automatic)console.warn(`[${MODULE_ID}] MP non envoyé : culture non identifiée et table générique absente.`,{requestId,actor:actor.name});
         return false;
       }
+    } else if(loreKey==='region'&&source.creature.flags['merp-ui'].creatureLore.key==='warg'){
+      cultureKey=await pickWargRegion(specialization,{automatic});
+      if(!cultureKey){
+        if(automatic)console.warn('[merp-ui] Region Lore Warg introuvable ou non fournie : '+specialization);
+        return false;
+      }
     }
     const {table,results}=await getTableEntries(source.creature.flags['merp-ui'].creatureLore.key,loreKey,cultureKey);
     const found=results.filter(r=>rawLore(r).outcome===outcome);
@@ -458,17 +504,27 @@ async function gmReview(complete,{automatic=false}={}) {
       throw new Error(`Aucune entrée unique : ${loreKey}/${cultureKey}/${outcome} (${found.length}).`);
     }
     const entry=found[0],meta=rawLore(entry);
+    const requestedLocale=flag(started,'locale')==='en'?'en':'fr';
+    const translatedText=meta.translations?.[requestedLocale];
+    // English requires a real translation, not an undisclosed French fallback.
+    if(requestedLocale==='en'&&!translatedText&&automatic){
+      console.warn('[merp-ui] English Lore pending: '+loreKey+'/'+cultureKey+'/'+outcome);
+      return false;
+    }
+    const narrativeText=typeof translatedText==='string'&&translatedText.trim()
+      ? translatedText:entry.text;
+    const noteText=meta.gmNoteTranslations?.[requestedLocale]??meta.gmNote;
     const review=await ChatMessage.create({author:game.user.id,speaker:neutralSpeaker(),
       ...ChatMessage.applyMode({
         content:`<section class="merp-lore-chat-card merp-lore-review" data-merp-lore-request="${requestId}">
           <header>MJ · Résultat de Lore (privé)</header>
           <p>${escapeHTML(actor.name)} · ${escapeHTML(LORE[loreKey].label)} / ${escapeHTML(specialization)}</p>
           <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Culture :</strong> ${escapeHTML(cultureKey)}</p>
-          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(meta.gmNote)}</p>
-          <p><em>${escapeHTML(entry.text)}</em></p>
+          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(noteText)}</p>
+          <p><em>${escapeHTML(narrativeText)}</em></p>
           <button class="merp-lore-gm-reveal" type="button">MJ · Vérifier / envoyer le MP narratif</button></section>`,
         flags:loreFlags({kind:'gm-review',requestId,playerRequestId:started.id,recipientId:requester.id,actorId:actor.id,
-          loreKey,outcome,cultureKey,text:entry.text,reliability:meta.reliability,tableUuid:table.uuid})
+          loreKey,outcome,cultureKey,text:narrativeText,locale:requestedLocale,reliability:meta.reliability,tableUuid:table.uuid})
       },'blind')
     });
     if(!review)throw new Error('Impossible de créer la carte privée du Meneur.');

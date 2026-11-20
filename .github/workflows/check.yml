@@ -17,6 +17,7 @@ jobs:
         run: |
           npm install --no-save --no-package-lock classic-level@2.0.0
           node tools/publication/upgrade-wolf-lore-2.0.11.mjs
+          node tools/publication/upgrade-warg-lore.mjs
       - name: JavaScript syntax
         run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
       - name: Character identity compaction regression tests
@@ -27,6 +28,8 @@ jobs:
         run: npm run test:talent-sheet
       - name: Native RMU racial size regression tests
         run: npm run test:racial-size
+      - name: Validate Warg FR lore dataset and 2x2 token
+        run: node --test tests/warg-lore-source.test.mjs tests/warg-en-batch1.test.mjs
       - name: Validate 10 LevelDB Compendiums and bilingual sources
         run: npm run validate:release
       - name: Build Foundry-installable release ZIP

@@ -1,0 +1,1943 @@
+{
+  "name": "Warg",
+  "type": "Creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "stats": {
+      "Ag": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Co": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Em": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "In": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Me": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Pr": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Qu": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Re": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "SD": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "St": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      }
+    },
+    "appearance": {
+      "sex": "male",
+      "weight": null,
+      "height": null,
+      "size": "L",
+      "age": "",
+      "eyes": "Ambre sombre",
+      "skin": "",
+      "hair": "Pelage noir, gris de cendre ou brun sombre",
+      "voice": "none",
+      "combatZoneFactor": 1,
+      "baseHits": 25,
+      "sizeDescription": "Grand canidé au corps puissant, long de 6 à 8 pieds sans la queue (8 à 11 pieds au total).",
+      "armorDescription": "Fourrure rude et dense, peau épaisse, dos et épaules robustes.",
+      "sh": "",
+      "combatZone": 3
+    },
+    "identity": {
+      "gender": "",
+      "faith": "",
+      "deity": "",
+      "bio": "",
+      "personality": ""
+    },
+    "realm": "Channeling",
+    "health": {
+      "hp": {
+        "value": null,
+        "max": 0,
+        "min": 0
+      },
+      "power": {
+        "value": null,
+        "max": 0
+      },
+      "innatePower": {
+        "value": null,
+        "max": 0
+      }
+    },
+    "experience": {
+      "level": 8,
+      "xp": 0,
+      "racialDPSpent": 0,
+      "carryOverDP": 0,
+      "rankHistoryFrom": null
+    },
+    "statBonuses": {
+      "Ag": 4,
+      "Co": 10,
+      "Em": -9,
+      "In": 1,
+      "Me": -4,
+      "Pr": -2,
+      "Qu": 3,
+      "Re": -4,
+      "SD": 0,
+      "St": 11
+    },
+    "resistance": {
+      "Channeling": 0,
+      "Essence": 0,
+      "Mentalism": 0,
+      "Physical": 0,
+      "Fear": 15
+    },
+    "defense": {
+      "block": "none",
+      "dodge": "passive",
+      "dodgeSkill": "auto",
+      "other": 0,
+      "naturalAT": 1,
+      "parryPercent": 0,
+      "parryUsageRef": null,
+      "parryNext": 0,
+      "fightingStyleRef": null
+    },
+    "encounter": {
+      "frequency": 10,
+      "number": "Solitaire ou en meute ; certains servent de montures aux Orques."
+    },
+    "isNPC": true,
+    "activeMovementName": null,
+    "professionalSkills": [
+      {
+        "skillCategory": "Combat Training",
+        "skillName": "Unarmed",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Awareness",
+        "skillName": "Perception",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Awareness",
+        "skillName": "Tracking",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Combat Expertise",
+        "skillName": "Footwork",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Environmental",
+        "skillName": "Survival",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Movement",
+        "skillName": "Running",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Brawn",
+        "skillName": "Body Development",
+        "knack": 0,
+        "selected": true
+      }
+    ],
+    "powerLevel": "Superior",
+    "archetype": "Offensive",
+    "creatureType": "Corporeal",
+    "creatureCategory": "Undead",
+    "creatureVariety": "Undead Wolf",
+    "creatureOutlook": "Hostile",
+    "biome": "ABDFTX",
+    "treasure": "-",
+    "description": "<section class=\"merp-ui-creature merp-ui-creature-v2\" data-merp-ui-creature=\"warg\" style=\"background-color:#f7f4ee;color:#29251f;padding:0.85em 1em;line-height:1.48\">\n<h2 style=\"display:block;clear:both;margin:1.15em 0 0.6em;padding:0.4em 0.65em;border-left:4px solid #a18a6e;border-radius:2px;background-color:#353b42 !important;color:#fffdf6 !important;font-weight:700 !important;font-size:1.13em !important;line-height:1.3\">Reconnaître la créature — Connaissances</h2>\n<p style=\"margin:0.45em 0 0.85em;line-height:1.48\">La connaissance des Wargs peut relever de plusieurs compétences, selon les traditions, les régions et les événements historiques que connaît le personnage. Leur ressemblance avec les loups ordinaires peut tromper un observateur inexpérimenté ; en revanche, leur intelligence, leur comportement et les récits qui leur sont consacrés permettent parfois de reconnaître leur véritable nature. Un personnage ayant déjà rencontré des Wargs ou possédant une connaissance directe de ces créatures peut les identifier sans qu'un jet soit nécessaire.</p>\n<div class=\"merp-ui-lore-catalogue\" data-merp-ui-creature=\"warg\" style=\"padding:0.55em 0.75em;border:1px solid #a18a6e;background-color:#eee5d8;color:#29251f\">\n<p class=\"merp-ui-lore-entry\" data-merp-ui-lore=\"historic\" data-merp-ui-creature=\"warg\" style=\"margin:0.3em 0\"><strong>Historic Lore</strong> — Les chroniques anciennes, les guerres au cours desquelles les Wargs combattirent aux côtés des Orques, leurs rapports avec les puissances de l’Ombre et les traditions relatives à leur origine.</p>\n<p class=\"merp-ui-lore-entry\" data-merp-ui-lore=\"region\" data-merp-ui-creature=\"warg\" style=\"margin:0.3em 0\"><strong>Region Lore</strong> — Les territoires fréquentés par les Wargs, leurs déplacements, leurs habitudes de chasse, les indices de leur présence et les circonstances qui peuvent favoriser leur apparition.</p>\n<p class=\"merp-ui-lore-entry\" data-merp-ui-lore=\"racial\" data-merp-ui-creature=\"warg\" style=\"margin:0.3em 0\"><strong>Racial Lore</strong> — Les connaissances, récits, avertissements et croyances transmis par les différents peuples de la Terre du Milieu, dont les interprétations peuvent varier considérablement selon leur histoire et leurs rapports avec ces créatures.</p>\n</div>\n</section>",
+    "notes": "NATURE ET ORIGINES\n\nParmi les créatures qui hantent les terres sauvages de la Terre du Milieu, les Wargs occupent une place singulière. Leur apparence les rapproche des grands loups, dont ils possèdent la silhouette allongée, les membres vigoureux, les mâchoires puissantes et les sens particulièrement développés. Pourtant, cette parenté physique dissimule une différence plus profonde. Le Warg n'est pas simplement un prédateur d'une taille exceptionnelle : il possède une intelligence propre, une volonté malveillante et une aptitude à la coopération qui le distinguent nettement des animaux ordinaires. Là où le loup poursuit une proie pour assurer sa subsistance, le Warg peut agir par cruauté, par hostilité délibérée ou dans l'accomplissement d'un dessein partagé avec ses semblables.\n\nDans Le Hobbit, Tolkien présente les Wargs comme des êtres capables de communiquer dans leur propre langage, de tenir conseil et d'organiser des entreprises communes. Leur voix, faite de hurlements, de grondements et de cris que les autres peuples ne comprennent généralement pas, exprime cependant des intentions précises. Gandalf, qui connaît leur langue, peut saisir leurs paroles et discerner les projets qu'ils échangent. Les Wargs possèdent leurs chefs, se réunissent pour délibérer et peuvent préparer des attaques sans attendre les ordres d'un maître extérieur. Leur férocité n'exclut donc ni la réflexion, ni la prudence, ni une certaine discipline collective.\n\nLes traditions de MERP développent cette nature malfaisante en lui donnant une origine surnaturelle particulière. Dans Creatures of Middle-earth, les Wargs sont présentés comme les descendants de loups soumis à une ancienne malédiction, devenus plus grands, plus redoutables et plus intelligents que leurs ancêtres. Le supplément les décrit comme des créatures dont l'existence se trouve prolongée par la présence d'un esprit mort-vivant habitant leur enveloppe corporelle. Lorsque cette dernière est détruite, l'esprit s'en échappe et le corps finit par disparaître. Cette interprétation, propre à l'adaptation ludique de la Terre du Milieu, permet de comprendre leur classement parmi les Undead Wolves sans les assimiler aux cadavres animés par la nécromancie. Tolkien n'expose pas lui-même une telle explication de leur origine, laissant davantage de mystère autour de leur nature.\n\nAPPARENCE ET CONSTITUTION\n\nLe Warg présente l'allure générale d'un loup de dimensions considérables, mais son corps se distingue par une ossature robuste, un poitrail profond et une musculature particulièrement développée au niveau des épaules, du cou et des membres postérieurs. Sa tête massive se prolonge par un museau puissant, armé de crocs capables d'infliger de terribles blessures. Une fourrure rude et abondante recouvre son corps, généralement dans des nuances de gris sombre, de brun ou de noir, bien que sa coloration puisse varier d'un individu à l'autre. Les oreilles, droites et mobiles, réagissent aux bruits les plus ténus, tandis que les yeux révèlent une attention persistante que l'on ne retrouve pas toujours chez les animaux sauvages.\n\nLes descriptions proposées par MERP attribuent généralement aux Wargs une longueur de six à huit pieds sans la queue, qui peut atteindre huit à onze pieds lorsqu'elle est comprise. Ces proportions leur confèrent une stature suffisamment imposante pour que certains individus puissent porter un cavalier orque. Leur puissance n'est cependant pas celle d'une bête lourde et maladroite : le Warg conserve la souplesse et l'agilité caractéristiques des canidés, tout en bénéficiant d'une foulée plus ample et d'une remarquable endurance. Il peut couvrir rapidement des distances considérables, poursuivre une proie avec ténacité et franchir des terrains difficiles sans perdre aisément son équilibre.\n\nSes sens constituent l'un de ses principaux atouts. Son odorat lui permet de suivre une piste sur de longues distances et de reconnaître les traces laissées par d'autres créatures ; son ouïe, particulièrement fine, détecte les mouvements discrets et les sons lointains. À ces capacités physiques s'ajoute une intelligence qui lui permet de mettre ses perceptions au service d'une véritable stratégie. Le Warg peut distinguer une proie vulnérable d'un adversaire dangereux, reconnaître une défense organisée et différer son attaque lorsqu'il estime les circonstances défavorables. Il ne doit donc pas être interprété comme une bête dépourvue de discernement, uniquement guidée par la faim ou par une rage aveugle.\n\nCOMPORTEMENT ET ORGANISATION\n\nLes Wargs vivent fréquemment en groupes dont la cohésion dépasse celle d'une association occasionnelle de prédateurs. Leurs rassemblements peuvent prendre la forme de meutes organisées, placées sous l'autorité d'individus plus puissants ou plus expérimentés. Ils communiquent entre eux, reconnaissent les comportements de leurs congénères et peuvent coordonner leurs déplacements afin de surveiller un territoire, poursuivre des intrus ou préparer une attaque. Leur aptitude à la coopération leur permet d'exploiter les faiblesses de leurs adversaires : certains détournent l'attention d'une proie pendant que d'autres cherchent à la contourner, à l'isoler ou à lui interdire toute retraite.\n\nLeur intelligence ne s'accompagne d'aucune bienveillance particulière envers les autres peuples. Les Wargs peuvent tuer par nécessité, mais leur hostilité envers les êtres qu'ils considèrent comme ennemis dépasse souvent les exigences de leur subsistance. Ils se montrent capables de harceler des voyageurs, de poursuivre des fugitifs et de revenir à plusieurs reprises contre un adversaire dont ils ont éprouvé les défenses. Cette disposition malveillante ne les rend pourtant pas téméraires en toutes circonstances. Un Warg blessé, isolé ou confronté à une résistance supérieure à ses attentes peut choisir de se retirer, de rejoindre ses semblables ou d'attendre une occasion plus favorable.\n\nLes alliances qu'ils entretiennent avec les Orques constituent l'un des aspects les plus remarquables de leur comportement. Tolkien décrit des entreprises communes dans lesquelles Gobelins et Wargs unissent leurs forces pour mener des raids, poursuivre leurs ennemis ou attaquer des établissements isolés. Certains Wargs acceptent également de porter des guerriers orques, formant avec eux une cavalerie particulièrement redoutable. Une telle coopération ne signifie toutefois pas que tous les Wargs sont domestiqués ou soumis à l'autorité des Orques. Ils conservent leur propre organisation et peuvent poursuivre des objectifs distincts de ceux de leurs alliés. Leur association résulte autant d'une communauté d'intérêts et d'une hostilité partagée envers les Peuples Libres que d'une véritable relation de commandement.\n\nPRÉSENCE DANS LA TERRE DU MILIEU\n\nLes Wargs sont particulièrement associés aux contrées sauvages et aux territoires dans lesquels les forces de l'Ombre ont établi leurs repaires. Les montagnes, les forêts profondes, les vallées peu fréquentées et les vastes étendues inhabitées leur procurent des refuges et des voies de déplacement. La proximité de communautés orques favorise parfois leur présence, sans constituer une condition nécessaire à leur existence. Une meute peut occuper durablement un territoire favorable, suivre les mouvements des forces auxquelles elle s'est alliée ou parcourir de grandes distances à la recherche de proies et d'occasions de pillage.\n\nDans les récits de Tolkien, les Wargs jouent notamment un rôle important au cours des événements rapportés dans Le Hobbit. Leur rassemblement avec les Gobelins révèle une organisation commune et des intentions hostiles qui dépassent la simple chasse. Ils appartiennent également à cet ensemble de créatures lupines malfaisantes dont la présence accompagne les guerres et les mouvements des serviteurs de l'Ombre. Les traditions de MERP développent ce rôle en faisant des Wargs de redoutables auxiliaires militaires, employés comme montures, éclaireurs ou gardiens de lieux stratégiques. Leur rapidité, leurs sens et leur intelligence les rendent particulièrement aptes à découvrir les approches d'un ennemi, à poursuivre des fugitifs et à participer à des attaques coordonnées.\n\nIl convient néanmoins de distinguer les Wargs d'autres créatures qui leur ressemblent. Les grands loups sauvages, aussi imposants soient-ils, demeurent des animaux naturels ; les Loups de guerre peuvent être des bêtes dressées pour servir au combat ; les Loups-garous appartiennent à une tradition surnaturelle encore différente, liée aux puissances anciennes de Morgoth. Le Warg occupe une position particulière entre ces catégories : il possède l'apparence et certaines capacités physiques d'un grand canidé, mais se distingue par son intelligence, sa malveillance et, dans la conception développée par MERP, par la nature spirituelle qui anime son existence. Cette distinction revêt une importance essentielle pour comprendre sa place parmi les créatures de la Terre du Milieu.\n\nINTERPRÉTATION ET UTILISATION EN JEU\n\nLe Warg se distingue du loup ordinaire par une intelligence calculatrice et une volonté malveillante qui gouvernent chacun de ses actes. Sa puissance physique s'accompagne d'une aptitude à observer, à anticiper et à tirer parti des faiblesses de ses adversaires. Il peut observer longuement avant de se découvrir, interrompre une poursuite qui le conduirait à sa perte ou chercher à isoler un membre vulnérable d'un groupe. Au sein d'une meute, les déplacements concertés, les changements brusques de direction et les cris échangés entre les individus peuvent révéler une compréhension mutuelle qui dépasse les comportements habituels des animaux sauvages.\n\nSa nature surnaturelle, telle que la conçoit MERP, renforce cette impression d'étrangeté. L'animal conserve une présence corporelle tangible, capable de laisser des traces, d'infliger des blessures et de subir les coups de ses ennemis. Pourtant, sa volonté hostile, son intelligence et les récits qui entourent sa disparition après la mort introduisent une inquiétude différente de celle que suscite un prédateur ordinaire. Le Meneur peut faire sentir cette distinction à travers son comportement plutôt qu'en lui attribuant systématiquement des manifestations spectaculaires : un regard qui s'attarde avec une intention manifeste, un recul calculé devant une défense inattendue ou une meute qui modifie soudainement sa stratégie suffisent parfois à suggérer que les personnages affrontent autre chose qu'un animal.\n\nLes talents et les caractéristiques de l'Actor RMU déterminent ses capacités effectives en jeu. Sa classification surnaturelle ne doit pas conduire à lui accorder des pouvoirs de nécromancie, des transformations ou des immunités qui n'appartiennent pas à sa fiche. Le Warg demeure avant tout un adversaire intelligent, rapide et redoutable, dont la dangerosité résulte autant de son discernement et de sa coopération avec ses semblables que de la force de ses mâchoires.\n\nSOURCES ET DISTINCTIONS\n\nJ. R. R. Tolkien — Le Hobbit. Intelligence des Wargs, langage propre, organisation collective, délibérations, alliances avec les Gobelins et utilisation comme montures.\n\nICE — Creatures of Middle-earth, deuxième édition (1995), entrée « Wargs », p. 129. Origine maudite, dimensions, intelligence, aptitude à servir de montures, gardiens et éclaireurs, ainsi que nature spirituelle associée aux morts-vivants.\n\nAdaptation Gladney — The Fate of Fennas Drúnin. Warg de niveau 8, classé comme Undead Wolf, avec des capacités de déplacement supérieures à celles d'un loup ordinaire.",
+    "equipment": null,
+    "coinSource": {},
+    "coinStowed": {},
+    "skills": {},
+    "filename": "warg.yaml",
+    "family": "",
+    "physicals": {
+      "heightRange": {},
+      "bodyLengthRange": {
+        "from": 6,
+        "to": 8
+      },
+      "weightRange": {}
+    },
+    "knackPowerLevel": "Superior",
+    "statPowerLevel": "Superior",
+    "statRerollPowerLevel": "Superior",
+    "statBoostPowerLevel": "Superior",
+    "ppRecoveryPowerLevel": "Superior",
+    "talentPowerLevel": "Superior"
+  },
+  "prototypeToken": {
+    "name": "Warg",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "depth": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health.hp"
+    },
+    "bar2": {
+      "attribute": "health.power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "_id": "xVNo647EFPDfMorG",
+      "name": "Perception",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.vvh3yZzmP3RboK0d"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Awareness",
+        "trainingGroup": null,
+        "stat": "SD",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 15,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "sSguy7gJGhm54qiO",
+      "name": "Tracking",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.4d6GQte1ZnTEoMtz"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Awareness",
+        "trainingGroup": null,
+        "stat": "SD",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 14,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VkbDEkFZ2jd6EEIf",
+      "name": "Footwork",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.VFQfXFNeiAduwmnp"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Expertise",
+        "trainingGroup": null,
+        "stat": "",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 14,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "KS1oxD71wFp1fzFS",
+      "name": "Survival",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.29O9BrL1YnUx2vxg"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Environmental",
+        "trainingGroup": null,
+        "stat": "Re",
+        "description": "",
+        "specialization": "Biome",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 14,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "XHuDD6O6lDJlVvkp",
+      "name": "Jumping",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.o8r6XNdULmCuKnpn"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Gymnastic",
+        "trainingGroup": null,
+        "stat": "St",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 3,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Y7uvGBXNvkyw7xHp",
+      "name": "Disarm",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.BuRMDfQsnMq6EYCm"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Expertise",
+        "trainingGroup": null,
+        "stat": "",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 3,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Ch5Ic0OYupXyFSGP",
+      "name": "Ambush",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.dHPCMe5uLxBKJH0n"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Subterfuge",
+        "trainingGroup": null,
+        "stat": "In",
+        "description": "",
+        "specialization": "Unarmed",
+        "attackUUID": null,
+        "specializationType": 3,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 7,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Yxo2FVx06Yvc8Y3R",
+      "name": "Running",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.S0SDRfFJBrvJWvGH"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Movement",
+        "trainingGroup": null,
+        "stat": "Co",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 15,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "g15UMWJ6xRLY0p8g",
+      "name": "Body Development",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.2Lr8Ga6TzVd8fkLP"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Brawn",
+        "trainingGroup": null,
+        "stat": "Co",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 15,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VtimXuw1ALaLqb9Q",
+      "name": "Unarmed",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.r4Y2Pdz2zrz606gD"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Training",
+        "trainingGroup": "Unarmed",
+        "stat": "St",
+        "description": "",
+        "specialization": "Ram",
+        "attackUUID": "Compendium.rmu.items.Item.ZnZDypZZ9eml9MD4",
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 15,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ZBGEHockQbAvAAgZ",
+      "name": "Unarmed",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.r4Y2Pdz2zrz606gD"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Training",
+        "trainingGroup": "Unarmed",
+        "stat": "St",
+        "description": "",
+        "specialization": "Bite",
+        "attackUUID": "Compendium.rmu.items.Item.tscUVwhmrvXfSHLu",
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 15,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "yhFVMBh5u3jNbjk2",
+      "name": "Unarmed",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.r4Y2Pdz2zrz606gD"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Training",
+        "trainingGroup": "Unarmed",
+        "stat": "St",
+        "description": "",
+        "specialization": "Claw",
+        "attackUUID": "Compendium.rmu.items.Item.wGbDhzLfvnkAwpo9",
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 12,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "bveQ9b6LwE5S6kXG",
+      "name": "Attack Sequence",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.PCyaiWRvbExMwD2m"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Attack",
+        "subCategory": "",
+        "cost": "10 / Tier",
+        "tier": 1,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "attack-sequence",
+            "specialization1": "Ram",
+            "specialization2": "Bite"
+          }
+        ],
+        "notes": "Ram, Bite"
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "dx0QL6p6jlRcUiVG",
+      "name": "Natural Weaponry",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.XCKSPCRbbJwgI8pN"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": {
+          "trainingGroup": "Unarmed",
+          "category": "Combat Training",
+          "name": "Unarmed",
+          "specialization": "Bite"
+        },
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-weaponry",
+            "requires": "natural"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Combat Training",
+            "name": "Unarmed"
+          }
+        ],
+        "notes": "Attack"
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "OQohooMfEJF6c6V1",
+      "name": "Acute Smell",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.BL0FV8uL9czCaS3d"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Senses",
+        "subCategory": "Awareness",
+        "cost": "3/Tier",
+        "tier": 4,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 12,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "specialty",
+            "requires": "note",
+            "linkField": "value",
+            "value": "+20"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Awareness",
+            "name": "Perception"
+          }
+        ],
+        "notes": "+20"
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "3AP5dXcTF4B6nzCJ",
+      "name": "Hearing, Dog",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.1p61TTTXnVuo4IUQ"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "15",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 15,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [],
+        "skills": [
+          {
+            "category": "Awareness",
+            "name": "Perception"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "1XSm8kWj98Cv1npQ",
+      "name": "Restricted Diet",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.jddq9ohtoqGgYcgg"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Other",
+        "subCategory": "",
+        "cost": "-5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": -5,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifier": {
+          "type": "other"
+        },
+        "modifiers": [
+          {
+            "type": "specialty",
+            "requires": "note",
+            "linkField": "value",
+            "value": "Carnivore"
+          }
+        ],
+        "notes": "Carnivore"
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Sbo7EBwWB8Rr21mr",
+      "name": "No Equipment",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.FbEkAwNE5E8cYGvd"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Miscellaneous",
+        "subCategory": "",
+        "cost": "-15",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": -15,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": []
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "a3KMH1ay7dC8o9jW",
+      "name": "Group Instinct",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.yve3KlkpHdVr8wOB"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Miscellaneous",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": []
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "pJRiA0QfkM9PFNek",
+      "name": "Prodigy",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.BoSzasvF1VokKugp"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Other",
+        "subCategory": "",
+        "cost": "6/Tier",
+        "tier": 8,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 48,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "skill",
+            "bonus": 5,
+            "situational": false,
+            "requires": "skill",
+            "linkField": "skill",
+            "skillCategory": "Awareness",
+            "skillName": "Tracking",
+            "hasSpecialization": false,
+            "specialization": ""
+          }
+        ],
+        "notes": "Tracking, 40"
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "FBEo5xVS2padjOc5",
+      "name": "Walking, Quadrupedal",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.k6iycATVZT3AJHSp"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Movement",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "movement",
+            "bmr": 30,
+            "maxPace": "Dash"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Movement",
+            "name": "Running"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "2yM4Fi5l6mW2RtWv",
+      "name": "Natural Armor",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.4VIFDYXgps87Wt3c"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5/Tier",
+        "tier": 2,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-armor",
+            "bonus": 2,
+            "bonusUnit": "AT"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "HgsugcLOp2BPwm28",
+      "name": "Vigorous",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.ozyW1S6IyIFpmMTy"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5/Tier",
+        "tier": 2,
+        "maxTier": 20,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "endurance",
+            "situational": false,
+            "bonus": 10
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "BWxXADLXu2J4d4MW",
+      "name": "Natural Weaponry",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.XCKSPCRbbJwgI8pN"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": {
+          "trainingGroup": "Unarmed",
+          "category": "Combat Training",
+          "name": "Unarmed",
+          "specialization": "Claw"
+        },
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-weaponry",
+            "requires": "natural"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Combat Training",
+            "name": "Unarmed"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "jpRdVecuV9tyKndt",
+      "name": "Natural Weaponry",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.XCKSPCRbbJwgI8pN"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": {
+          "trainingGroup": "Unarmed",
+          "category": "Combat Training",
+          "name": "Unarmed",
+          "specialization": "Ram"
+        },
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-weaponry",
+            "requires": "natural"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Combat Training",
+            "name": "Unarmed"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1795005902097,
+        "modifiedTime": 1795005902097,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "0d44fe995f3a9efe",
+      "name": "Type",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.jRv0qxYOPL70WUWL"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Miscellaneous",
+        "subCategory": "",
+        "cost": "-8 + 1 / Tier",
+        "tier": 1,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": -7,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [],
+        "notes": "Undead Wolf"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "c88ad29f52b88111",
+      "name": "Aura, Fear",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.vh8j7PMF33LBwC88"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Attack",
+        "subCategory": "",
+        "cost": "10 + 5 / Tier",
+        "tier": 1,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 15,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "effect": "Fear",
+        "resist": "Fear",
+        "modifiers": [
+          {
+            "type": "specialty",
+            "requires": "note",
+            "linkField": "value",
+            "value": "1'R/ lvl, -10"
+          }
+        ],
+        "notes": "1'R/ lvl, -10"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "33725d64f5280148",
+      "name": "Critical Reduction",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.QHrYChf9o01Lyuv0"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Defense",
+        "subCategory": "",
+        "cost": "10 / Tier",
+        "tier": 1,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "specialty",
+            "requires": "note",
+            "linkField": "value",
+            "value": "I"
+          }
+        ],
+        "notes": "I"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "merp-ui": {
+      "editorial": {
+        "schemaVersion": 2,
+        "status": "textes-description-notes-valides-v5",
+        "reference": "Loup validé (Wolf, RMU Creature Law I) ; Warg de Gladney/FATE, niveau 8",
+        "mechanics": "Derived from Wolf RMU; applies 3 existing native RMU Creature Law Undead talents. Not equivalent to generic mindless created undead.",
+        "sourceMaterial": [
+          "J. R. R. Tolkien — The Hobbit; The Lord of the Rings",
+          "ICE — Creatures of Middle-earth, 2nd Ed. (1995), p. 129",
+          "Gladney — Fate, Warg level 8 / Undead Wolf (user-supplied classification)"
+        ],
+        "technicalReview": {
+          "sourceActor": "Wolf RMU level 5, 27 embedded Items",
+          "newActorLevel": 8,
+          "talentCount": 16,
+          "removedTalents": [
+            "Mute",
+            "Animalistic"
+          ],
+          "pending": [
+            "Verify Type talent tier and native Undead classification against RMU rules",
+            "Validate Aura, Fear and Critical Reduction in live Foundry RMU",
+            "Confirm physical size and movement from suitable RMU talents",
+            "Check the final armor type, attack bonus, resistances and HP in Foundry"
+          ],
+          "nativeRulesChanged": false,
+          "addedUndeadTalents": [
+            {
+              "name": "Type",
+              "tier": 1,
+              "uuid": "Compendium.rmu-creature-law.talents.Item.jRv0qxYOPL70WUWL"
+            },
+            {
+              "name": "Aura, Fear",
+              "tier": 1,
+              "uuid": "Compendium.rmu-creature-law.talents.Item.vh8j7PMF33LBwC88"
+            },
+            {
+              "name": "Critical Reduction",
+              "tier": 1,
+              "uuid": "Compendium.rmu-creature-law.talents.Item.QHrYChf9o01Lyuv0"
+            }
+          ],
+          "undeadSource": "RMU Creature Law — Created Undead, Standard (III); only selected native Talent Items transferred",
+          "notTransferred": [
+            "Mindless",
+            "Life Drain, Hunger",
+            "Regeneration",
+            "Life Sense",
+            "Lifeless",
+            "Unbreathing",
+            "Unsleeping",
+            "Missing Sense",
+            "Immunity, Bleeding",
+            "Immunity, Stun",
+            "Abomination",
+            "Distinct Odor"
+          ]
+        },
+        "descriptionPolicy": "jets-de-connaissance-uniquement",
+        "notesPolicy": "portrait-documentaire-warg-valide-sans-localisation-de-scenario",
+        "armorReview": "Natural Armor II (+2 AT via native talent; previous tier I +1 AT). Keep defense.naturalAT unchanged to avoid double counting; verify displayed AT in RMU.",
+        "classification": {
+          "type": "Corporeal",
+          "category": "Undead",
+          "variety": "Undead Wolf",
+          "source": "Gladney classification + ICE MERP interpretation; RMU categories reused"
+        },
+        "notesEditorialReference": "Warg — texte de Notes approuvé, dernière reformulation affirmative et sans intensificateur « véritable »"
+      },
+      "creatureLoreDraft": {
+        "schemaVersion": 2,
+        "key": "warg",
+        "language": "fr",
+        "source": "Adaptation MERP / FATE à partir de RMU Creature Law I — Wolf",
+        "category": "corporeal-undead-wolf",
+        "primaryLore": "historic",
+        "loreStatus": "racial-region-sources-approved;historic-source-pending",
+        "lore": {
+          "region": {
+            "skill": "Region Lore",
+            "specializationMode": "actor-region-specialization",
+            "specialization": null,
+            "tableFlag": "warg:region",
+            "tableUuid": null
+          },
+          "historic": {
+            "skill": "Historic Lore",
+            "specializationMode": "actor-history-specialization",
+            "specialization": null,
+            "tableFlag": "warg:historic",
+            "tableUuid": null
+          },
+          "racial": {
+            "skill": "Racial Lore",
+            "specializationMode": "actor-race-or-culture-specialization",
+            "specialization": null,
+            "tableFlag": "warg:racial",
+            "tableUuid": null
+          }
+        },
+        "localizations": {
+          "fr": "ready",
+          "en": "pending-full-translation"
+        }
+      },
+      "creatureLore": {
+        "schemaVersion": 1,
+        "key": "warg",
+        "language": "fr",
+        "source": "MERP-UI Warg Lore V3.2",
+        "lore": {
+          "racial": {
+            "skill": "Racial Lore",
+            "specializationMode": "actor-race-or-culture-specialization",
+            "specialization": null,
+            "tableFlag": "warg:racial",
+            "tableUuid": null
+          },
+          "region": {
+            "skill": "Region Lore",
+            "specializationMode": "actor-region-specialization",
+            "specialization": null,
+            "tableFlag": "warg:region",
+            "tableUuid": null
+          }
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "rmu",
+    "systemVersion": "1.4.102",
+    "createdTime": 1795102089841,
+    "modifiedTime": 1795102089845,
+    "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "gates-diagnostic-races-light",
+      "uuid": "Actor.0RqLGnxA7GY0ltFc",
+      "coreVersion": "14.370",
+      "systemId": "rmu",
+      "systemVersion": "1.4.102"
+    }
+  }
+}

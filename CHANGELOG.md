@@ -1,5 +1,14 @@
 # MERP-UI — Changelog
 
+## Next release — ICE/RMU descriptive title and rights notices (unreleased)
+
+- Acknowledge Iron Crown Enterprises Ltd's Rolemaster Unified (RMU) copyright and trademark; state that **MERP-RMU** is descriptive only and is not a trademark claim, licence or endorsement.
+- Clarify the free, unofficial add-on's dependence on the official RMU Foundry system and separately acquired paid modules; no intention to redistribute commercial RMU content.
+- Distinguish ICE's RMU rights from Tolkien/Middle-earth rights, the legal status of earlier MERP publications, and the limited scope of individual adventure-author permissions.
+- Expand the bilingual `NOTICE.md`, user-facing README and Foundry module description; add a next-release review checklist and checks ensuring notices stay present in the distributable project.
+- Documentation/metadata only: **no RMU game mechanics, Compendiums, Actors, Journals, module version number or release download URLs are changed by this preparation branch**.
+
+
 ## 2.0.11 — Wolf Lore: Historic, Region and Half-Elven traditions (19 November 2026)
 
 - Replace the five Historic Lore and five Region Lore texts with expanded approved literary descriptions.

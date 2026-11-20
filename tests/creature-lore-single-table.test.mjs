@@ -54,7 +54,7 @@ test('Every result is linked to its species and one of four Lore families',()=>{
     assert.equal(doc.description.length>200,true);
     const variant=f.loreKind==='racial'?f.raceKey:
       f.loreKind==='cultural'?f.cultureKey:
-      f.loreKind==='region'?f.regionKey:'*';
+      f.loreKind==='region'?(f.regionKey??'*'):'*';
     assert.ok(variant);
     const key=f.loreKind+'/'+variant+'/'+f.outcome;
     assert.ok(!unique.has(key),'Repeated result '+creature+'/'+key);

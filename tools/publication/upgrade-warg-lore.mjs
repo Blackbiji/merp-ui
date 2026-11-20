@@ -15,7 +15,7 @@ const data=read('source/creature-lore/warg-fr-v1.json');
 const outcomes=['absoluteFailure','failure','partialSuccess','success','absoluteSuccess'];
 function assert(ok,msg){if(!ok)throw Error('Warg Lore: '+msg);}
 assert(data.creatureKey==='warg'&&data.language==='fr','bad FR source');
-assert(data.racial?.length===60&&data.region?.length===31,'expected 60 cultures and 31 regions');
+assert(data.racial?.length===60&&data.region?.length===32,'expected 60 cultures and 32 regions');
 const unique=new Set(), rows=[];
 for(const kind of ['racial','region'])for(const group of data[kind]){
   const identity=kind+':'+group.key;
@@ -24,7 +24,7 @@ for(const kind of ['racial','region'])for(const group of data[kind]){
   assert(outcomes.every(o=>group.outcomes?.[o]?.length>450),'incomplete results for '+identity);
   for(const outcome of outcomes)rows.push({kind,group,outcome,fr:group.outcomes[outcome]});
 }
-assert(rows.length===455,'expected 455 outcomes');
+assert(rows.length===460,'expected 460 outcomes');
 // Optional complete English translations are all-or-nothing.
 const enPath='source/creature-lore/warg-en-v1.json';
 const english=existsSync(resolve(root,enPath))?read(enPath):null;
@@ -62,16 +62,15 @@ try{
     const doc=structuredClone(old?.doc??wolf[0].doc);
     doc._id=id;
     doc.name='Warg — '+(kind==='racial'?'Racial Lore':'Region Lore');
-    doc.description='MERP-UI · Warg · '+(kind==='racial'?'60 cultures':'31 régions');
-    doc.formula='1d'+(kind==='racial'?300:155);
+    doc.description='MERP-UI · Warg · '+(kind==='racial'?'60 cultures':'32 régions');
+    doc.formula='1d'+(kind==='racial'?300:160);
     doc.displayRoll=false;
     doc.replacement=true;
     doc.flags??={};doc.flags['merp-ui']??={};
     doc.flags['merp-ui'].creatureLoreTable={
       schemaVersion:1,creatureKey:'warg',loreKey:kind,source:'warg-fr-v1.json',
       status:english?'bilingual-complete':'approved-fr-english-pending',
-      variantCount:kind==='racial'?60:31,
-      ...(kind==='region'?{missingSpecialization:'Arthedain — source validated but not provided'}:{})
+      variantCount:kind==='racial'?60:32
     };
     tableIds.set(kind,id);
     ops.push({type:'put',key:'!tables!'+id,value:JSON.stringify(doc)});
@@ -119,7 +118,7 @@ try{
     const f=JSON.parse(value).flags?.['merp-ui']?.creatureLoreEntry;
     if(f?.creatureKey==='warg'&&f.loreKey in counts)counts[f.loreKey]++;
   }
-  assert(counts.racial===300&&counts.region===155,'postbuild count mismatch '+JSON.stringify(counts));
-  console.log(JSON.stringify({creature:'warg',cultures:60,regions:31,results:455,
-    english:english?'complete':'pending',missingRegion:'Arthedain',counts},null,2));
+  assert(counts.racial===300&&counts.region===160,'postbuild count mismatch '+JSON.stringify(counts));
+  console.log(JSON.stringify({creature:'warg',cultures:60,regions:32,results:460,
+    english:english?'complete':'pending',counts},null,2));
 }finally{await db.close();}

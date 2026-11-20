@@ -366,6 +366,30 @@ async function pickCulture(actor,creatureKey,{automatic=false}={}) {
   const choice=await chooseOption({title:'Culture du personnage',lead:'Confirme la culture ou la table raciale générale. Aucune compétence ne sera modifiée.',items:options,ok:'Continuer'});
   return choice?.key??null;
 }
+async function pickWargRegion(specialization,{automatic=false}={}){
+  const {table}=await getTableEntries('warg','region','*');
+  const regions=[...new Map([...table.results]
+    .map(r=>rawLore(r)).filter(x=>x.regionKey)
+    .map(x=>[x.regionKey,{key:x.regionKey,label:x.regionName??x.regionKey}])).values()];
+  const desired=regionNorm(specialization);
+  // Arthedain was validated separately, but its five texts were not in the
+  // uploaded source. Do not invent or silently substitute a neighboring region.
+  if(desired==='arthedain'){
+    if(!automatic)warn('Warg — Arthedain : les cinq textes validés manquent dans le fichier fourni.');
+    return null;
+  }
+  const matches=regions.filter(r=>regionNames(r.label).has(desired));
+  if(matches.length===1)return matches[0].key;
+  if(automatic)return null;
+  if(!regions.length)throw new Error('Aucune spécialisation Region Lore du Warg.');
+  const choice=await chooseOption({
+    title:'Region Lore — territoire du personnage',
+    lead:'Sélectionne le territoire exact de ce jet. Aucune autre région ne sera retenue automatiquement.',
+    items:regions.sort((a,b)=>a.label.localeCompare(b.label,'fr')),
+    ok:'Continuer'
+  });
+  return choice?.key??null;
+}
 async function pickOutcome(resolved){
   const preferred=suggestedOutcome(resolved);
   const choices=OUTCOMES.map(([key,label])=>({key,label:(key===preferred?'★ ':'')+label}));

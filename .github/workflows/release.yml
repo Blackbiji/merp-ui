@@ -50,6 +50,7 @@ jobs:
         run: |
           npm install --no-save --no-package-lock classic-level@2.0.0
           node tools/publication/upgrade-wolf-lore-2.0.11.mjs
+          node tools/publication/upgrade-warg-lore.mjs
 
       - name: Validate JavaScript syntax
         if: steps.version.outputs.publish == 'true'

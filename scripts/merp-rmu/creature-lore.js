@@ -161,7 +161,7 @@ async function playerBlindRoll(offer) {
         <p>${escapeHTML(actor.name)} — ${escapeHTML(LORE[loreKey].label)}${choice.specialization?' / '+escapeHTML(choice.specialization):''}</p>
         <p>Le jet est adressé au Meneur. Tu recevras les connaissances de ton personnage par message privé.</p></section>`,
       flags:loreFlags({kind:'player-request',requestId,actorId:actor.id,skillItemId:item.id,
-        specialization:choice.specialization,loreKey})});
+        specialization:choice.specialization,loreKey,locale:game.i18n?.lang==='en'?'en':'fr'})});
     if(!started)throw new Error('Impossible de publier la demande de jet.');
     // Actual RMU roll happens on the player's client. The guard makes every native
     // ChatMessage created synchronously within this API call blind BEFORE creation.
@@ -510,17 +510,27 @@ async function gmReview(complete,{automatic=false}={}) {
       throw new Error(`Aucune entrée unique : ${loreKey}/${cultureKey}/${outcome} (${found.length}).`);
     }
     const entry=found[0],meta=rawLore(entry);
+    const requestedLocale=flag(started,'locale')==='en'?'en':'fr';
+    const translatedText=meta.translations?.[requestedLocale];
+    // English requires a real translation, not an undisclosed French fallback.
+    if(requestedLocale==='en'&&!translatedText&&automatic){
+      console.warn('[merp-ui] English Lore pending: '+loreKey+'/'+cultureKey+'/'+outcome);
+      return false;
+    }
+    const narrativeText=typeof translatedText==='string'&&translatedText.trim()
+      ? translatedText:entry.text;
+    const noteText=meta.gmNoteTranslations?.[requestedLocale]??meta.gmNote;
     const review=await ChatMessage.create({author:game.user.id,speaker:neutralSpeaker(),
       ...ChatMessage.applyMode({
         content:`<section class="merp-lore-chat-card merp-lore-review" data-merp-lore-request="${requestId}">
           <header>MJ · Résultat de Lore (privé)</header>
           <p>${escapeHTML(actor.name)} · ${escapeHTML(LORE[loreKey].label)} / ${escapeHTML(specialization)}</p>
           <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Culture :</strong> ${escapeHTML(cultureKey)}</p>
-          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(meta.gmNote)}</p>
-          <p><em>${escapeHTML(entry.text)}</em></p>
+          <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(noteText)}</p>
+          <p><em>${escapeHTML(narrativeText)}</em></p>
           <button class="merp-lore-gm-reveal" type="button">MJ · Vérifier / envoyer le MP narratif</button></section>`,
         flags:loreFlags({kind:'gm-review',requestId,playerRequestId:started.id,recipientId:requester.id,actorId:actor.id,
-          loreKey,outcome,cultureKey,text:entry.text,reliability:meta.reliability,tableUuid:table.uuid})
+          loreKey,outcome,cultureKey,text:narrativeText,locale:requestedLocale,reliability:meta.reliability,tableUuid:table.uuid})
       },'blind')
     });
     if(!review)throw new Error('Impossible de créer la carte privée du Meneur.');

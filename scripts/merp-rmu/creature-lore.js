@@ -22,6 +22,24 @@ const inFlight = new Set();
 const safeRolls = new Set();
 const escapeHTML = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm = s=>String(s??'').trim().toLocaleLowerCase('fr');
+const regionNorm = s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+function regionNames(name){
+  const parts=String(name??'').split(/\s*\/\s*|\s+[—–]\s+/).map(regionNorm).filter(Boolean);
+  const aliases=new Set([regionNorm(name),...parts]);
+  for(const token of [...aliases])
+    aliases.add(token.replace(/^(?:la|le|les|pays de|foret de|montagnes de|mont)\s+/,''));
+  const synonyms={'dunland':'pays de dun','mirkwood north':'foret de grand peur septentrionale',
+    'mirkwood south':'foret de grand peur meridionale',
+    'eregion':'eregion hollin','hollin':'eregion hollin',
+    'khazad dum':'moria khazad dum','forochel':'forodwaith forochel',
+    'gundabad':'mont gundabad','sirayn':'greater harad sirayn',
+    'ardor':'ardor the court of ardor'};
+  for(const [from,to] of Object.entries(synonyms)){
+    if(aliases.has(from)||aliases.has(to)){aliases.add(from);aliases.add(to);}
+  }
+  return aliases;
+}
 const flag = (doc,key)=>doc?.flags?.[MODULE_ID]?.creatureLoreChat?.[key];
 const loreFlags = data=>({[MODULE_ID]:{creatureLoreChat:data}});
 const rawLore = doc => doc?.flags?.[MODULE_ID]?.creatureLoreTable ?? doc?.flags?.[MODULE_ID]?.creatureLoreEntry ?? {};
@@ -311,7 +329,11 @@ async function getTableEntries(creatureKey,loreKey,cultureKey='*') {
   if(!table)throw new Error('Table Lore manquante : '+creatureKey+'/'+loreKey);
   const selected=await pack.getDocument(table.id);
   if(!selected)throw new Error('Table du compendium inaccessible.');
-  const results=[...selected.results].filter(r=>rawLore(r).cultureKey===cultureKey);
+  const results=[...selected.results].filter(r=>{
+    const entry=rawLore(r);
+    return creatureKey==='warg'&&loreKey==='region'
+      ? entry.regionKey===cultureKey : entry.cultureKey===cultureKey;
+  });
   return {table:selected,results};
 }
 async function pickCulture(actor,creatureKey,{automatic=false}={}) {

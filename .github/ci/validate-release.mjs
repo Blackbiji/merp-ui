@@ -114,14 +114,15 @@ if(existsSync(compactionPath)){
     p.physicalAfter?.ldb>=1 && p.physicalAfter?.manifests===1),
     'Missing compendium contents or physical files after rebuild');
   check(audit.savedBytes>8000000,'Compendium rebuild saved less than 8 MB; refusing to publish without investigation');
-  check(!audit.packs.find(p=>p.pack==='merp-ui-lore')?.logical?.types?.['!tables.results'],
-    'Detached TableResult records would be invisible in Foundry');
+  check(audit.packs.find(p=>p.pack==='merp-ui-lore')?.logical?.types?.['!tables.results']===755,
+    'Expected 755 linked TableResult records for Foundry to hydrate');
   check(audit.packs.find(p=>p.pack==='merp-ui-lore')?.logical?.types?.['!tables']===2,
     'Expected one RollTable each for Wolf and Warg');
   check(audit.packs.find(p=>p.pack==='merp-ui-creatures')?.logical?.types?.['!folders']===26,
     'Creature Actor Compendium: expected 26 native folder documents');
-  check(audit.packs.find(p=>p.pack==='merp-ui-creatures')?.logical?.types?.['!actors']===2,
-    'Expected exactly two original Creature Actors in the bestiary');
+  check(audit.packs.find(p=>p.pack==='merp-ui-creatures')?.logical?.types?.['!actors']===2 &&
+    audit.packs.find(p=>p.pack==='merp-ui-creatures')?.logical?.types?.['!actors.items']===55,
+    'Expected 2 Actors and 55 linked Item documents');
   console.log('Offline LevelDB audit:',audit.packCount,'packs; ',
     audit.savedBytes,'bytes eliminated; all logical records identical.');
 }

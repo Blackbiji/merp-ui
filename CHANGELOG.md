@@ -1,5 +1,15 @@
 # MERP-UI — Changelog
 
+## 2.0.12 — Warg Lore: complete cultural and regional tables (20 November 2026)
+
+- Add two confidential Warg RollTables to the existing Creature Lore compendium: 300 Cultural/Racial Lore results for 60 cultures and 155 Region Lore results for 31 regions.
+- Use the complete British-English literary texts, preserving deliberately unreliable outcomes and GM verification notes.
+- Provide Warg regional variant selection, with native RMU specialization matching where unambiguous and GM confirmation otherwise.
+- Automatically link exact-name Warg/Ouargue World Creature Actors; offer a GM API for renamed actors. No RMU skill or stat change.
+- Retain all 235 existing Wolf results and all ten prebuilt Compendiums, native RMU blind rolls, and GM-only delivery.
+- Materialise Warg lore offline in the Foundry LevelDB during the publication workflow.
+
+
 ## 2.0.11 — Wolf Lore: Historic, Region and Half-Elven traditions (19 November 2026)
 
 - Replace the five Historic Lore and five Region Lore texts with expanded approved literary descriptions.

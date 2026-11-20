@@ -22,6 +22,11 @@ const inFlight = new Set();
 const safeRolls = new Set();
 const escapeHTML = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm = s=>String(s??'').trim().toLocaleLowerCase('fr');
+
+const narrativeHTML = value=>String(value??'').split(/\n\s*\n/)
+  .map(paragraph=>paragraph.trim()).filter(Boolean)
+  .map(paragraph=>'<p><em>'+escapeHTML(paragraph)+'</em></p>').join('');
+
 const flag = (doc,key)=>doc?.flags?.[MODULE_ID]?.creatureLoreChat?.[key];
 const loreFlags = data=>({[MODULE_ID]:{creatureLoreChat:data}});
 const rawLore = doc => doc?.flags?.[MODULE_ID]?.creatureLoreTable ?? doc?.flags?.[MODULE_ID]?.creatureLoreEntry ?? {};
@@ -311,7 +316,7 @@ async function getTableEntries(creatureKey,loreKey,cultureKey='*') {
   if(!table)throw new Error('Table Lore manquante : '+creatureKey+'/'+loreKey);
   const selected=await pack.getDocument(table.id);
   if(!selected)throw new Error('Table du compendium inaccessible.');
-  const results=[...selected.results].filter(r=>rawLore(r).cultureKey===cultureKey);
+  const results=[...selected.results].filter(r=>(loreKey==='region' ? (rawLore(r).regionKey ?? '*') : (rawLore(r).cultureKey ?? '*'))===cultureKey);
   return {table:selected,results};
 }
 async function pickCulture(actor,creatureKey,{automatic=false}={}) {
@@ -344,6 +349,41 @@ async function pickCulture(actor,creatureKey,{automatic=false}={}) {
   const choice=await chooseOption({title:'Culture du personnage',lead:'Confirme la culture ou la table raciale générale. Aucune compétence ne sera modifiée.',items:options,ok:'Continuer'});
   return choice?.key??null;
 }
+
+/**
+ * Warg regional knowledge has 31 specific variants, unlike the Wolf's
+ * existing general Region Lore. Choose by native RMU specialization when
+ * unambiguous; otherwise ask the GM. Never send a random regional result.
+ */
+async function pickWargRegion(specialization,{automatic=false}={}) {
+  const {table}=await getTableEntries('warg','region','*');
+  const regions=new Map();
+  for(const entry of table.results){
+    const meta=rawLore(entry);
+    if(meta.regionKey && !regions.has(meta.regionKey))
+      regions.set(meta.regionKey,{key:meta.regionKey,label:meta.regionLabel||meta.regionKey});
+  }
+  const options=[...regions.values()].sort((a,b)=>a.label.localeCompare(b.label,'en'));
+  if(options.length!==31)throw new Error('Warg Region Lore: 31 regional variants expected.');
+  const normalise=value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/^region lore\s*[:\/\-]?\s*/,'').trim();
+  const desired=normalise(specialization);
+  const matches=desired.length>2?options.filter(x=>{
+    const key=normalise(x.label);
+    return key===desired || key.startsWith(desired+' ') ||
+      (key.includes(' — ') && key.split(' — ').some(part=>part===desired)) ||
+      (desired.startsWith(key+' '));
+  }):[];
+  if(matches.length===1)return matches[0].key;
+  if(automatic)return null;
+  const chosen=await chooseOption({
+    title:'Region Lore — Warg',lead:'Sélectionne le territoire correspondant au savoir du personnage.',
+    items:options,ok:'Consulter la région',
+    foot:'Cette sélection ne modifie pas le résultat du jet RMU.'
+  });
+  return chosen?.key??null;
+}
+
 async function pickOutcome(resolved){
   const preferred=suggestedOutcome(resolved);
   const choices=OUTCOMES.map(([key,label])=>({key,label:(key===preferred?'★ ':'')+label}));
@@ -451,6 +491,13 @@ async function gmReview(complete,{automatic=false}={}) {
         return false;
       }
     }
+    if(loreKey==='region'&&source.creature.flags['merp-ui'].creatureLore.key==='warg'){
+      cultureKey=await pickWargRegion(specialization,{automatic});
+      if(!cultureKey){
+        if(automatic)console.info('[merp-ui] Warg: région non reconnue automatiquement; sélection MJ requise.',{requestId,actor:actor.name,specialization});
+        return false;
+      }
+    }
     const {table,results}=await getTableEntries(source.creature.flags['merp-ui'].creatureLore.key,loreKey,cultureKey);
     const found=results.filter(r=>rawLore(r).outcome===outcome);
     if(found.length!==1){
@@ -463,9 +510,9 @@ async function gmReview(complete,{automatic=false}={}) {
         content:`<section class="merp-lore-chat-card merp-lore-review" data-merp-lore-request="${requestId}">
           <header>MJ · Résultat de Lore (privé)</header>
           <p>${escapeHTML(actor.name)} · ${escapeHTML(LORE[loreKey].label)} / ${escapeHTML(specialization)}</p>
-          <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Culture :</strong> ${escapeHTML(cultureKey)}</p>
+          <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Variante :</strong> ${escapeHTML(cultureKey)}</p>
           <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(meta.gmNote)}</p>
-          <p><em>${escapeHTML(entry.text)}</em></p>
+          ${narrativeHTML(entry.text)}
           <button class="merp-lore-gm-reveal" type="button">MJ · Vérifier / envoyer le MP narratif</button></section>`,
         flags:loreFlags({kind:'gm-review',requestId,playerRequestId:started.id,recipientId:requester.id,actorId:actor.id,
           loreKey,outcome,cultureKey,text:entry.text,reliability:meta.reliability,tableUuid:table.uuid})
@@ -493,7 +540,7 @@ async function gmReveal(review){
   await ChatMessage.create({author:game.user.id,speaker:neutralSpeaker(),
     whisper:[...new Set([...gmIds(),recipient.id])],blind:false,
     // NO header, name, degree, success/failure, table reference or reliability.
-    content:`<p class="merp-lore-private-text"><em>${escapeHTML(text)}</em></p>`,
+    content:`<div class="merp-lore-private-text">${narrativeHTML(text)}</div>`,
     flags:loreFlags({kind:'player-reveal',requestId,recipientUserId:recipient.id})});
 }
 /** On an active GM client, automatically deliver the result after the player's blind roll. */
@@ -554,6 +601,32 @@ Hooks.once('init',()=>{
   Hooks.on('renderActorSheet',addButtons);
   Hooks.on('renderApplicationV2',addButtons);
 });
+
+/**
+ * Non-mechanical binding for World Warg Creature actors. An exact Warg/Ouargue
+ * name is recognised automatically for a first test; other names may be bound
+ * explicitly through game.merpUiLore.activateWarg(actor).
+ */
+async function enableWargActor(actor) {
+  if(!game.user.isGM)throw new Error('Seul le Meneur peut activer le Lore Warg.');
+  if(typeof actor==='string')actor=game.actors.get(actor);
+  if(!actor || actor.type!=='Creature')throw new Error('Un Actor Creature est requis.');
+  const previous=actor.flags?.['merp-ui']?.creatureLore??{};
+  if(previous.key && previous.key!=='warg')
+    throw new Error('Cette créature possède déjà une autre identité Lore.');
+  if(previous.key==='warg' && previous.lore?.racial && previous.lore?.region)return actor;
+  await actor.update({'flags.merp-ui.creatureLore':{
+    ...previous,key:'warg',lore:{...previous.lore,racial:true,region:true}
+  }});
+  return actor;
+}
+async function enableNamedWargs(){
+  if(!game.user.isGM || game.user.id!==primaryActiveGM())return;
+  const actors=game.actors.contents.filter(actor=>actor.type==='Creature' &&
+    /^(?:wargs?|ouargues?)$/i.test(String(actor.name??'').trim()));
+  for(const actor of actors)await enableWargActor(actor);
+}
+
 Hooks.once('ready',()=>{
   document.documentElement?.classList?.add(game.user.isGM?'merp-lore-gm-client':'merp-lore-player-client');
   if(game.system?.id!=='rmu'){console.warn(`[${MODULE_ID}] RMU requis.`);return;}
@@ -568,6 +641,7 @@ Hooks.once('ready',()=>{
   }
   document.addEventListener('dragover',handleDragOver,true);
   document.addEventListener('drop',e=>void handleDrop(e),true);
-  game.merpUiLore=Object.freeze({proposeFromActor:publishOffer,choicesForUser});
+  game.merpUiLore=Object.freeze({proposeFromActor:publishOffer,choicesForUser,activateWarg:enableWargActor});
+  void enableNamedWargs().catch(e=>fail(e,'liaison du Warg'));
   console.info(`[${MODULE_ID}] intégré : jet RMU aveugle, table de compendium privée, MP narratif.`);
 });

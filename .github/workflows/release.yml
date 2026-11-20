@@ -36,8 +36,8 @@ jobs:
           if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
             test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
           fi
-          # This one-time publication workflow is scoped to MERP-UI 2.0.11.
-          test "$VERSION" = "2.0.11" || { echo "Unexpected version $VERSION"; exit 1; }
+          # This one-time publication workflow is scoped to MERP-UI 2.0.12.
+          test "$VERSION" = "2.0.12" || { echo "Unexpected version $VERSION"; exit 1; }
           if gh release view "v$VERSION" >/dev/null 2>&1; then
             echo "publish=false" >> "$GITHUB_OUTPUT"
             echo "Version v$VERSION already published; no release changes made."
@@ -45,11 +45,12 @@ jobs:
             echo "publish=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Install LevelDB tool and materialise approved Wolf lore
+      - name: Install LevelDB and rebuild Wolf 2.0.11 then Warg 2.0.12 lore
         if: steps.version.outputs.publish == 'true'
         run: |
           npm install --no-save --no-package-lock classic-level@2.0.0
           node tools/publication/upgrade-wolf-lore-2.0.11.mjs
+          node tools/publication/upgrade-warg-lore-2.0.12.mjs
 
       - name: Validate JavaScript syntax
         if: steps.version.outputs.publish == 'true'
@@ -81,7 +82,7 @@ jobs:
           retention-days: 30
           compression-level: 0
 
-      - name: Create official v2.0.11 annotated tag on merged main
+      - name: Create official v2.0.12 annotated tag on merged main
         if: steps.version.outputs.publish == 'true' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
@@ -97,7 +98,7 @@ jobs:
               echo "Existing tag does not match the merged HEAD"; exit 1;
             }
           else
-            git tag -a "$TAG" -m "MERP-UI $VERSION — Creature Lore: Wolf knowledge expansion"
+            git tag -a "$TAG" -m "MERP-UI $VERSION — Creature Lore: Warg cultural and regional knowledge"
             git push origin "refs/tags/$TAG"
           fi
 
@@ -113,7 +114,7 @@ jobs:
           ZIP="dist/merp-ui-$VERSION.zip"
           test -s "$ZIP"
           gh release create "$TAG" "$ZIP" \
-            --title "MERP-UI $VERSION — Creature Lore - The Wolf" \
-            --notes-file ".github/release-notes/v2.0.11.md" \
+            --title "MERP-UI $VERSION — Creature Lore - The Warg" \
+            --notes-file ".github/release-notes/v2.0.12.md" \
             --verify-tag
           gh release view "$TAG" --json url,assets

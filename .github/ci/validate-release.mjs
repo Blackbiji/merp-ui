@@ -11,9 +11,9 @@ const requireFile = (path) => check(existsSync(join(root, path)), 'Missing file:
 
 const module = readJSON('module.json');
 check(module.id === 'merp-ui', 'Module ID changed');
-check(module.version === '2.0.11', 'Expected version 2.0.11');
+check(module.version === '2.0.12', 'Expected version 2.0.12');
 check(module.manifest === 'https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json', 'Unexpected manifest URL');
-check(module.download === 'https://github.com/Blackbiji/merp-ui/releases/download/v2.0.11/merp-ui-2.0.11.zip', 'Unexpected release ZIP URL');
+check(module.download === 'https://github.com/Blackbiji/merp-ui/releases/download/v2.0.12/merp-ui-2.0.12.zip', 'Unexpected release ZIP URL');
 check(module.packs?.length === 10, 'Expected ten Compendiums');
 for (const path of [...module.esmodules, ...module.styles, ...module.languages.map(e => e.path)]) requireFile(path);
 for (const pack of module.packs) {
@@ -59,4 +59,25 @@ for (const pack of manifest.packs) {
 check(races === 12, 'Expected twelve race sources, found ' + races);
 console.log('Checked ' + checked + ' source hashes, ' + module.packs.length + ' packs and ' + races + ' races.');
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('MERP-UI 2.0.11 release consistency: OK.');
+console.log('MERP-UI 2.0.12 release consistency: OK.');
+
+const wargLore = readJSON('source/creature-lore/warg-v2.0.12.json');
+check(wargLore.schema === 'merp-ui/creature-lore/v1', 'Warg Lore schema mismatch');
+check(wargLore.results?.length === 455, 'Warg Lore: expected 455 results');
+const wargGroups = new Map();
+for (const entry of wargLore.results ?? []) {
+  const group = entry.loreKey + '/' + (entry.regionKey || entry.cultureKey);
+  const degrees = wargGroups.get(group) || [];
+  degrees.push(entry.outcome);
+  wargGroups.set(group, degrees);
+  check(entry.creatureKey === 'warg' && typeof entry.text === 'string' &&
+    entry.text.length > 350, 'Invalid Warg prose in '+group);
+}
+check([...wargGroups.keys()].filter(x=>x.startsWith('racial/')).length===60,
+  'Expected 60 cultural variants');
+check([...wargGroups.keys()].filter(x=>x.startsWith('region/')).length===31,
+  'Expected 31 regional variants');
+check([...wargGroups.values()].every(x=>x.length===5 && new Set(x).size===5),
+  'Warg table variant missing result degrees');
+if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
+console.log('Warg Lore source: 60 cultural and 31 regional variants verified.');

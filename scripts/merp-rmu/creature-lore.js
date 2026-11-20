@@ -324,8 +324,10 @@ const loreFamily = result=>{
   return meta.loreKind??(meta.loreKey==='racial'&&meta.cultureKey?.startsWith('culture-')?'cultural':meta.loreKey);
 };
 const loreLanguage=()=>{
-  try{return globalThis.MERPUI?.contentLanguage?.()==='fr'?'fr':'en';}
-  catch{return game.i18n?.lang?.startsWith('fr')?'fr':'en';}
+  let selected=null;
+  try{selected=globalThis.MERPUI?.contentLanguage?.();}catch{}
+  return selected==='fr'||selected==='en'?selected:
+    game.i18n?.lang?.startsWith('fr')?'fr':'en';
 };
 function translatedLore(entry){
   const meta=rawLore(entry),lang=loreLanguage();
@@ -347,37 +349,6 @@ async function getTableEntries(creatureKey,loreKey,variantKey='*',family=null){
   });
   return {table,results};
 }
-async function pickCulture(actor,creatureKey,{automatic=false}={}) {
-  const {table}=await getTableEntries(creatureKey,'racial','*');
-  const available=[...new Set([...table.results].filter(r=>loreFamily(r)==='cultural').map(r=>rawLore(r).cultureKey).filter(s=>s&&s!=='*'))];
-  const candidates=cultureCandidates(actor);
-  // Half-Elves have a Race Item but no dedicated native RMU Culture Item.
-  // Prefer their validated racial lore when the actor's ancestry is Half-Elven.
-  const raceSources=[actor.flags?.['merp-ui']?.raceKey,actor.flags?.['merp-ui']?.race?.key,
-    actor.system?.race?.name,actor.system?.race?.key,actor.system?.race,
-    ...(actor.items??[]).filter(i=>i.type==='race').map(i=>i.name)];
-  const isHalfElven=raceSources.some(x=>/half[-\s]?elf|demi[-\s]?elf|perelda/i.test(
-    typeof x==='string'?x:(x?.name??'')));
-  if(isHalfElven && available.includes('culture-half-elves'))return 'culture-half-elves';
-  const matches=available.filter(key=>candidates.includes(key));
-  if(matches.length===1)return matches[0];
-  // The module has a *genuine, validated* generic racial table.
-  // Until all culture-specific tables exist, use that explicitly as a
-  // general result rather than blocking a narrative MP indefinitely.
-  const generic=[...table.results].filter(r=>loreFamily(r)==='racial'&&(rawLore(r).raceKey??'*')==='*');
-  if(matches.length===0&&generic.length===5){
-    if(game.user.isGM)console.info(`[${MODULE_ID}] Culture de ${actor.name} non disponible dans le compendium : table Racial Lore générale utilisée (le MJ peut remplacer cette variante plus tard).`);
-    return '*';
-  }
-  if(automatic)return null;
-  const options=available.map(key=>({key,label:`${key}${candidates.includes(key)?' (détectée)':''}`}));
-  if(generic.length===5)options.unshift({key:'*',label:'Table raciale générale (provisoire)'});
-  if(!options.length)throw new Error('Aucune culture disponible dans le compendium Creature Lore.');
-  options.sort((a,b)=>Number(candidates.includes(b.key))-Number(candidates.includes(a.key))||a.key.localeCompare(b.key));
-  const choice=await chooseOption({title:'Culture du personnage',lead:'Confirme la culture ou la table raciale générale. Aucune compétence ne sera modifiée.',items:options,ok:'Continuer'});
-  return choice?.key??null;
-}
-
 const raceAliases={
  'race-humans':['men','humans','hommes','humains','hildor'],
  'race-dunedain':['dunedain','dúnedain','dunedain of arnor','dunedain of gondor'],
@@ -395,12 +366,13 @@ const raceAliases={
 const normalizedTopic =value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2018\u2019]/g,"'").replace(/\s+/g,' ').trim();
 async function pickRacialVariant(actor,creatureKey,specialization,{automatic=false}={}){
   const table=await getCreatureTable(creatureKey);
-  const races=new Map(),cultures=new Set();
+  const races=new Map(),cultures=new Map();
   for(const result of table.results){
     const meta=rawLore(result);
     if(meta.loreKey!=='racial')continue;
     if(loreFamily(result)==='racial')races.set(meta.raceKey??'*',meta.raceLabel??meta.raceKey??'Général');
-    if(loreFamily(result)==='cultural'&&meta.cultureKey?.startsWith('culture-'))cultures.add(meta.cultureKey);
+    if(loreFamily(result)==='cultural'&&meta.cultureKey?.startsWith('culture-'))
+      cultures.set(meta.cultureKey,meta.cultureLabelFr??meta.cultureKey);
   }
   const name=normalizedTopic(specialization);
   const matchingRace=[...races.keys()].filter(key=>
@@ -412,11 +384,17 @@ async function pickRacialVariant(actor,creatureKey,specialization,{automatic=fal
   if(name==='own culture'&&cultures.has('culture-half-elves') &&
     (actor.items??[]).some(i=>i.type==='race'&&/half[-\s]?elf|demi[-\s]?elf/i.test(i.name)))
     return {kind:'cultural',key:'culture-half-elves'};
-  if(races.size===1&&races.has('*')&&cultures.size===0)return {kind:'racial',key:'*'};
+  if(name){
+    const matched=[...cultures].filter(([key,label])=>
+      normalizedTopic(label)===name||
+      normalizedTopic(key.replace(/^culture-/,'').replace(/-/g,' '))===name);
+    if(matched.length===1)return {kind:'cultural',key:matched[0][0]};
+  }
+  if(creatureKey==='wolf'&&races.has('*'))return {kind:'racial',key:'*'};
   if(automatic)return null;
   const choices=[
     ...[...races].map(([key,label])=>({key:'racial:'+key,label:'Race — '+label})),
-    ...[...cultures].map(key=>({key:'cultural:'+key,label:'Culture — '+key+
+    ...[...cultures].map(([key,label])=>({key:'cultural:'+key,label:'Culture — '+label+
       (ownedCulture.includes(key)?' (du personnage)':'')}))
   ].sort((a,b)=>a.label.localeCompare(b.label,'fr'));
   if(!choices.length)throw new Error('Aucune variante raciale ou culturelle.');

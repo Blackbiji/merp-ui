@@ -74,9 +74,13 @@ try {
  const titles={wolf:'Loup / Wolf — Creature Lore',warg:'Warg / Ouargue — Creature Lore'};
  const canonicalKeys=new Set();
  for(const creature of ['wolf','warg']){
-  const parent=oldTables.find(x=>x.doc.flags?.['merp-ui']?.creatureLoreTable?.creatureKey===creature);
+  // Preserve the UUID of each old Racial RollTable as the canonical one;
+  // links to those two tables continue to resolve after consolidation.
+  const parent=oldTables.find(x=>x.doc.flags?.['merp-ui']?.creatureLoreTable?.creatureKey===creature
+    &&x.doc.flags?.['merp-ui']?.creatureLoreTable?.loreKey==='racial');
   assert(parent,'Missing template RollTable for '+creature);
-  const tableId=id('merp-ui|CreatureLore|single|'+creature);
+  const tableId=parent.doc._id;
+  assert(parent.key==='!tables!'+tableId,'Invalid existing Racial RollTable identity');
   const table=structuredClone(parent.doc);
   table._id=tableId;
   table.name=titles[creature];
@@ -111,6 +115,7 @@ try {
       'Missing Warg FR outcome '+row.key);
     flag.localizations={...flag.localizations,
       fr:{text:localized,gmNote:docFr.gmNote}};
+    if(isCulture)flag.cultureLabelFr=docFr.name;
     if(flag.loreKey==='region')flag.regionLabelFr=docFr.name;
    }
    entries.push({oldKey:row.key,doc:row.doc,flag,oldNarrative:row.doc.description,
@@ -184,7 +189,12 @@ try {
   summary[creature]={tableId,entries:entries.length,byFamily};
   operations.push({type:'put',key:'!tables!'+tableId,value:JSON.stringify(table)});
  }
- for(const {key} of oldTables)operations.push({type:'del',key});
+ // Keep the original Racial table UUIDs: replace those two document records,
+ // and delete only the three superseded Region/Historic RollTables.
+ for(const {key,doc} of oldTables){
+   const ident=doc.flags?.['merp-ui']?.creatureLoreTable;
+   if(ident?.loreKey!=='racial')operations.push({type:'del',key});
+ }
  for(const {key} of originals)operations.push({type:'del',key});
  await db.batch(operations);
  const logical={tables:0,results:0,groups:{wolf:{},warg:{}}};
@@ -206,5 +216,5 @@ try {
    &&logical.groups.warg.racial===60,'Missing a Lore family: '+JSON.stringify(logical));
  console.log('MERP-UI one RollTable per Creature: '+JSON.stringify({summary,logical,
   languageCaveat:'Warg 12 Racial tables are FR only. Arthedain EN is pending editorial approval.',
-  actorNotesChanged:0,actorDescriptionsChanged:0}));
+  retainedTableUuids:true,actorNotesChanged:0,actorDescriptionsChanged:0}));
 }finally{await db.close();}

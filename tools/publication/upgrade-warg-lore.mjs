@@ -34,6 +34,9 @@ if(english){
     const translated=english[kind]?.[group.key]?.[outcome];
     assert(typeof translated==='string'&&translated.length>400&&translated!==fr,
       'incomplete English translation '+kind+'/'+group.key+'/'+outcome);
+    const noteEN=english[kind]?.[group.key]?.gmNote;
+    assert(typeof noteEN==='string'&&noteEN.length>30&&noteEN!==group.gmNote,
+      'missing translated MJ control '+kind+'/'+group.key);
   }
 }
 const hash=(...parts)=>createHash('sha256').update(parts.join('|')).digest('hex').slice(0,16);
@@ -98,6 +101,7 @@ try{
       outcome,
       reliability:['absoluteFailure','failure'].includes(outcome)?'errone':'exact',
       gmNote:group.gmNote,
+      gmNoteTranslations:english?{fr:group.gmNote,en:english[kind][group.key].gmNote}:{fr:group.gmNote},
       translations
     };
     wanted.add(key);

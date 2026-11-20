@@ -1,8 +1,15 @@
-# MERP-UI / MERP-RMU 2.0.12
+# MERP-UI / MERP-RMU 2.0.13
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
-**Release:** 2.0.12 (20 November 2026). Creature Lore — Warg Cultural and Region Lore.
+**Release:** 2.0.13 (20 November 2026). Lossless compendium reconstruction and archive-size optimisation.
+
+## What's new in 2.0.13
+
+- All ten LevelDB Compendiums are rebuilt *offline* from their active logical records. Every raw key and value is compared byte-for-byte via SHA-256 before the rebuilt pack replaces the old one.
+- Superseded LevelDB file generations are no longer distributed. Race, Culture and Profession content remains in the Compendiums and is still loaded into character references only on demand.
+- All 235 Wolf and 455 Warg Lore results are retained, along with the native RMU blind-roll and GM-privacy protections.
+- A machine-readable LevelDB size and integrity audit is published as a CI artifact. No changes to RMU rules or existing actor records.
 
 ## What's new in 2.0.12
 

@@ -13,10 +13,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Prepare v2.0.11 offline Wolf Lore LevelDB
+      - name: Materialise Wolf and Warg Lore, then rebuild all ten LevelDB packs offline
+        env:
+          CI: 'true'
+          MERPUI_OFFLINE_PACK_COMPACTION: '1'
         run: |
           npm install --no-save --no-package-lock classic-level@2.0.0
           node tools/publication/upgrade-wolf-lore-2.0.11.mjs
+          node tools/publication/upgrade-warg-lore-2.0.12.mjs
+          npm run compact:packs:offline
       - name: JavaScript syntax
         run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
       - name: Character identity compaction regression tests
@@ -31,6 +36,12 @@ jobs:
         run: npm run validate:release
       - name: Build Foundry-installable release ZIP
         run: npm run build:release
+      - name: Archive lossless compendium audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: merp-ui-compendium-audit
+          path: dist/leveldb-compaction-report.json
+          retention-days: 30
       - name: Archive release candidate for inspection
         uses: actions/upload-artifact@v4
         with:

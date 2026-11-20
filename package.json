@@ -1,6 +1,6 @@
 {
   "name": "merp-ui",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,8 @@
     "build:release": "node tools/publication/build-release.mjs",
     "test:ui": "node --test tests/creation-talents.test.mjs",
     "test:talent-sheet": "node --test tests/talents-sheet-compact.test.mjs",
-    "test:racial-size": "node --test tests/native-racial-size.test.mjs"
+    "test:racial-size": "node --test tests/native-racial-size.test.mjs",
+    "compact:packs:offline": "node tools/publication/rebuild-compendiums-2.0.13.mjs"
   },
   "optionalDependencies": {
     "classic-level": "^2.0.0"

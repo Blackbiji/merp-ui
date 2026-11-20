@@ -1,10 +1,19 @@
-# MERP-UI / MERP-RMU 2.0.13
+# MERP-UI / MERP-RMU 2.0.14
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.13 (20 November 2026). Lossless compendium reconstruction and archive-size optimisation.
+**Release:** 2.0.14 (test prerelease, 20 November 2026). One Creature Lore RollTable per species; a new Actor Compendium folder scaffold for a clean Foundry World.
+
+## Test preview 2.0.14 — new World only
+
+- **Creature Compendium:** new GM-only Actor Compendium containing the 26 native Foundry folders from *Creatures of Middle-earth*, chapters 5 and 6. **It contains NO bundled Wolf or Warg Actors.** Import your own licensed official RMU Actor Creature documents into your test World.
+- **Creature Lore:** a single private RollTable for Wolf (235 outcomes) and a single private RollTable for Warg (520 outcomes). Entries are distinguished by true **Racial**, **Cultural**, **Region** and (where supported) **Historic Lore** metadata.
+- **Warg language coverage:** 60 cultures have FR/EN texts; all 32 regions have French, and the Arthedain English text is a review-pending draft. The new 12 Racial Lore variants are **French only**, pending English translation and further editorial review.
+- **World Actor binding:** a Creature Actor named `Wolf`, `Wolves`, `Loup`, `Loups`, `Warg`, `Wargs`, `Ouargue` or `Ouargues` imported into the test World is linked to its Lore flags by the GM. For renamed Actors, use `game.merpUiLore.activateWolf(actor)` or `game.merpUiLore.activateWarg(actor)`. The UI provides a temporary Lore offer panel if the native sheet has no specific Lore rows.
+- **Test status:** Foundry V14 + RMU 1.4.99 gameplay and permissions require live checks with a GM and player. Automated offline checks are not a substitute for Foundry runtime tests. Do not use this candidate to migrate a production World.
+- **Rights:** copyright notices and the open third-party rights checklist are included; preview publication does **not** mean all third-party content has received redistribution permission.
 
 ## What's new in 2.0.13
 
@@ -40,7 +49,7 @@
 
 ## What's included
 
-MERP-UI uses a **Compendium-first** design. Instead of filling a new World with hundreds of Items, it makes nine persistent Compendiums available under **MERP-RMU**:
+MERP-UI uses a **Compendium-first** design. Instead of filling a new World with hundreds of Items, it makes eleven Compendiums available under **MERP-RMU**:
 
 1. Races
 2. Cultures
@@ -51,6 +60,8 @@ MERP-UI uses a **Compendium-first** design. Instead of filling a new World with 
 7. Herbs & Substances
 8. Languages
 9. Rules & References
+10. Creature Lore (private GM RollTables)
+11. Creatures of Middle-earth (Actor folders only in this preview)
 
 The content includes **12 Races**, **21 Professions**, **85 Talents & Flaws**, and a **187-entry Herbs & Substances catalogue**. Race and Profession entries have substantial English/French descriptions; Race and Culture content includes historical variants for the First through Fourth Ages. The module retains spell-list support and the established Middle-earth settings, including optional Shadow attraction and Corruption features.
 

@@ -625,6 +625,29 @@ function addButtons(app,html){
       e.dataTransfer.setData(DRAG_TYPE,JSON.stringify({sourceActorUuid:actor.uuid,loreKey:key}));});
     entry.append(' ',b);
   }
+  // Fallback for RMU Actor sheets without MERP-specific Lore rows.
+  // UI-only: no changes to Actor Notes, Description, Items or RMU mechanics.
+  if(!element.querySelector('.merp-ui-lore-entry[data-merp-ui-lore],.merp-ui-lore-offer-panel')){
+    const active=Object.keys(LORE).filter(key=>actor.flags?.['merp-ui']?.creatureLore?.lore?.[key]);
+    if(active.length){
+      const panel=document.createElement('section');
+      panel.className='merp-ui-lore-offer-panel';
+      panel.style.cssText='padding:8px;margin:8px 0;border:1px solid var(--color-border-light-tertiary,#999);border-radius:4px';
+      const heading=document.createElement('strong');
+      heading.textContent='MERP-UI · Creature Lore';
+      panel.append(heading);
+      for(const key of active){
+        const button=document.createElement('button');
+        button.type='button';button.className='merp-lore-propose';
+        button.textContent='🎲 '+LORE[key].label+' · Proposer un jet';
+        button.addEventListener('click',event=>{
+          event.preventDefault();event.stopPropagation();void publishOffer(actor,key);
+        });
+        panel.append(' ',button);
+      }
+      (element.querySelector('.sheet-body,.window-content,.application-content')??element).append(panel);
+    }
+  }
 }
 function isChatDropTarget(target){return target instanceof Element && !!target.closest('#chat,#chat-log,.chat-log,.chat-form,[data-tab="chat"],[data-sidebar-tab="chat"]');}
 function handleDragOver(e){if(game.user.isGM&&isChatDropTarget(e.target)&&[...(e.dataTransfer?.types??[])].includes(DRAG_TYPE)){e.preventDefault();e.dataTransfer.dropEffect='copy';}}
@@ -661,28 +684,41 @@ Hooks.once('init',()=>{
 });
 
 /**
- * Non-mechanical binding for World Warg Creature actors. An exact Warg/Ouargue
- * name is recognised automatically for a first test; other names may be bound
- * explicitly through game.merpUiLore.activateWarg(actor).
+ * Bind imported World Actors to the existing two Lore tables, never bundling
+ * commercial RMU Actors. Names are exact to avoid false identification.
  */
-async function enableWargActor(actor) {
-  if(!game.user.isGM)throw new Error('Seul le Meneur peut activer le Lore Warg.');
+async function enableLoreActor(actor,creatureKey){
+  if(!game.user.isGM)throw new Error('Seul le Meneur peut activer Creature Lore.');
   if(typeof actor==='string')actor=game.actors.get(actor);
-  if(!actor || actor.type!=='Creature')throw new Error('Un Actor Creature est requis.');
-  const previous=actor.flags?.['merp-ui']?.creatureLore??{};
-  if(previous.key && previous.key!=='warg')
+  if(!actor||actor.type!=='Creature')throw new Error('Un Actor RMU Creature est requis.');
+  if(!['wolf','warg'].includes(creatureKey))throw new Error('Créature Lore inconnue.');
+  const prev=actor.flags?.['merp-ui']?.creatureLore??{};
+  if(prev.key&&prev.key!==creatureKey)
     throw new Error('Cette créature possède déjà une autre identité Lore.');
-  if(previous.key==='warg' && previous.lore?.racial && previous.lore?.region)return actor;
+  const lore=creatureKey==='wolf'
+    ?{racial:true,region:true,historic:true}
+    :{racial:true,region:true};
+  if(prev.key===creatureKey&&Object.keys(lore).every(key=>prev.lore?.[key]))return actor;
   await actor.update({'flags.merp-ui.creatureLore':{
-    ...previous,key:'warg',lore:{...previous.lore,racial:true,region:true}
+    ...prev,key:creatureKey,lore:{...prev.lore,...lore}
   }});
   return actor;
 }
-async function enableNamedWargs(){
-  if(!game.user.isGM || game.user.id!==primaryActiveGM())return;
-  const actors=game.actors.contents.filter(actor=>actor.type==='Creature' &&
-    /^(?:wargs?|ouargues?)$/i.test(String(actor.name??'').trim()));
-  for(const actor of actors)await enableWargActor(actor);
+const enableWargActor=actor=>enableLoreActor(actor,'warg');
+const enableWolfActor=actor=>enableLoreActor(actor,'wolf');
+const namedLoreKey=actor=>{
+  if(actor?.type!=='Creature')return null;
+  const name=String(actor.name??'').trim();
+  if(/^(?:wolves|wolf|loups?)$/i.test(name))return 'wolf';
+  if(/^(?:wargs?|ouargues?)$/i.test(name))return 'warg';
+  return null;
+};
+async function enableNamedLoreCreatures(){
+  if(!game.user.isGM||game.user.id!==primaryActiveGM())return;
+  for(const actor of game.actors.contents){
+    const creatureKey=namedLoreKey(actor);
+    if(creatureKey)await enableLoreActor(actor,creatureKey);
+  }
 }
 
 Hooks.once('ready',()=>{
@@ -699,7 +735,12 @@ Hooks.once('ready',()=>{
   }
   document.addEventListener('dragover',handleDragOver,true);
   document.addEventListener('drop',e=>void handleDrop(e),true);
-  game.merpUiLore=Object.freeze({proposeFromActor:publishOffer,choicesForUser,activateWarg:enableWargActor});
-  void enableNamedWargs().catch(e=>fail(e,'liaison du Warg'));
+  game.merpUiLore=Object.freeze({proposeFromActor:publishOffer,choicesForUser,activateWarg:enableWargActor,activateWolf:enableWolfActor});
+  Hooks.on('createActor',actor=>{
+    if(!game.user.isGM||game.user.id!==primaryActiveGM())return;
+    const creatureKey=namedLoreKey(actor);
+    if(creatureKey)void enableLoreActor(actor,creatureKey).catch(error=>fail(error,'liaison Creature Lore'));
+  });
+  void enableNamedLoreCreatures().catch(e=>fail(e,'liaison du bestiaire'));
   console.info(`[${MODULE_ID}] intégré : jet RMU aveugle, table de compendium privée, MP narratif.`);
 });

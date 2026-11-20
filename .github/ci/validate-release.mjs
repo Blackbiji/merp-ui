@@ -11,9 +11,9 @@ const requireFile = (path) => check(existsSync(join(root, path)), 'Missing file:
 
 const module = readJSON('module.json');
 check(module.id === 'merp-ui', 'Module ID changed');
-check(module.version === '2.0.13', 'Expected version 2.0.13');
+check(module.version === '2.0.14', 'Expected version 2.0.14');
 check(module.manifest === 'https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json', 'Unexpected manifest URL');
-check(module.download === 'https://github.com/Blackbiji/merp-ui/releases/download/v2.0.13/merp-ui-2.0.13.zip', 'Unexpected release ZIP URL');
+check(module.download === 'https://github.com/Blackbiji/merp-ui/releases/download/v2.0.14/merp-ui-2.0.14.zip', 'Unexpected release ZIP URL');
 check(module.packs?.length === 11, 'Expected eleven Compendiums');
 // Publication notices are mandatory; presence checks are NOT legal clearance.
 for (const file of ['README.md', 'NOTICE.md', 'docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md']) requireFile(file);
@@ -80,7 +80,7 @@ for (const pack of manifest.packs) {
 check(races === 12, 'Expected twelve race sources, found ' + races);
 console.log('Checked ' + checked + ' source hashes, ' + module.packs.length + ' packs and ' + races + ' races.');
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('MERP-UI 2.0.13 release consistency: OK.');
+console.log('MERP-UI 2.0.14 release consistency: OK.');
 
 const wargLore = readJSON('source/creature-lore/warg-v2.0.12.json');
 check(wargLore.schema === 'merp-ui/creature-lore/v1', 'Warg Lore schema mismatch');
@@ -107,7 +107,7 @@ const compactionPath=join(root,'dist/leveldb-compaction-report.json');
 check(existsSync(compactionPath),'Missing offline LevelDB reconstruction audit');
 if(existsSync(compactionPath)){
   const audit=JSON.parse(readFileSync(compactionPath,'utf8'));
-  check(audit.version==='2.0.13' && audit.packCount===11 && audit.identical===true,
+  check(audit.version==='2.0.14' && audit.packCount===11 && audit.identical===true,
     'Invalid LevelDB rebuild report');
   check(audit.packs?.length===11 && audit.packs.every(p=>
     p.logical?.entries>0 && /^[a-f0-9]{64}$/.test(p.logical.sha256??'') &&

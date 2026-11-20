@@ -36,8 +36,8 @@ jobs:
           if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
             test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
           fi
-          # This one-time publication workflow is scoped to MERP-UI 2.0.13.
-          test "$VERSION" = "2.0.13" || { echo "Unexpected version $VERSION"; exit 1; }
+          # This one-time prerelease workflow is scoped to MERP-UI 2.0.14.
+          test "$VERSION" = "2.0.14" || { echo "Unexpected version $VERSION"; exit 1; }
           if gh release view "v$VERSION" >/dev/null 2>&1; then
             echo "publish=false" >> "$GITHUB_OUTPUT"
             echo "Version v$VERSION already published; no release changes made."
@@ -105,7 +105,7 @@ jobs:
           retention-days: 30
           compression-level: 0
 
-      - name: Create official v2.0.13 annotated tag on merged main
+      - name: Create official v2.0.14 annotated tag on merged main
         if: steps.version.outputs.publish == 'true' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
@@ -121,7 +121,7 @@ jobs:
               echo "Existing tag does not match the merged HEAD"; exit 1;
             }
           else
-            git tag -a "$TAG" -m "MERP-UI $VERSION — Lossless compendium rebuild and ZIP optimisation"
+            git tag -a "$TAG" -m "MERP-UI $VERSION — Creature Lore preview for clean Foundry Worlds"
             git push origin "refs/tags/$TAG"
           fi
 
@@ -137,7 +137,8 @@ jobs:
           ZIP="dist/merp-ui-$VERSION.zip"
           test -s "$ZIP"
           gh release create "$TAG" "$ZIP" \
-            --title "MERP-UI $VERSION — Lossless Compendium Optimisation" \
-            --notes-file ".github/release-notes/v2.0.13.md" \
+            --title "MERP-UI $VERSION — Creature Lore Test Preview" \
+            --notes-file ".github/release-notes/v2.0.14.md" \
+            --prerelease \
             --verify-tag
           gh release view "$TAG" --json url,assets

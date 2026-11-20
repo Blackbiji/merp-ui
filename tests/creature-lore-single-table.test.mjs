@@ -130,3 +130,13 @@ test('No creature Actor content is bundled by the taxonomy-only PR',()=>{
  assert.equal(creatureSource.packTarget.publicationStatus,'test-build-only');
  assert.equal(creatureSource.lorePolicy.actorIntegration.includes('do not alter Actor Notes, Description'),true);
 });
+
+test('Clean-World imported official Wolf and Warg Actors have safe Lore binding',()=>{
+  const code=readFileSync('scripts/merp-rmu/creature-lore.js','utf8');
+  assert.ok(code.includes("const enableWolfActor=actor=>enableLoreActor(actor,'wolf')"));
+  assert.ok(code.includes("const enableWargActor=actor=>enableLoreActor(actor,'warg')"));
+  assert.ok(code.includes("Hooks.on('createActor',actor=>{"));
+  assert.ok(code.includes('merp-ui-lore-offer-panel'));
+  assert.ok(!code.includes("actor.update({'system.notes'"));
+  assert.ok(!code.includes("actor.update({'system.description'"));
+});

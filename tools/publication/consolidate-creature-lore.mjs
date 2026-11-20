@@ -88,7 +88,9 @@ try {
   table.formula='1d'+(creature==='wolf'?235:520);
   table.replacement=false;
   table.displayRoll=false;
-  if(Array.isArray(table.results))table.results=[];
+  // Foundry consumes RollTable.results from the *parent RollTable document*.
+  // Storing results solely at !tables.results! keys leaves an empty sheet.
+  table.results=[];
   table.flags??={};table.flags['merp-ui']??={};
   table.flags['merp-ui'].creatureLoreTable={
    schemaVersion:2,creatureKey:creature,loreKey:'all',
@@ -184,9 +186,10 @@ try {
     doc.drawn=false;
     doc.flags??={};doc.flags['merp-ui']??={};
     doc.flags['merp-ui'].creatureLoreEntry=flag;
-    operations.push({type:'put',key,value:JSON.stringify(doc)});
+    table.results.push(doc);
   }
   summary[creature]={tableId,entries:entries.length,byFamily};
+  assert(table.results.length===entries.length,'Parent table has lost results for '+creature);
   operations.push({type:'put',key:'!tables!'+tableId,value:JSON.stringify(table)});
  }
  // Keep the original Racial table UUIDs: replace those two document records,
@@ -200,14 +203,19 @@ try {
  const logical={tables:0,results:0,groups:{wolf:{},warg:{}}};
  for await(const [key,value] of db.iterator()){
   const o=JSON.parse(value);
+  if(key.startsWith('!tables.results!'))
+    throw Error('Detached RollTable result survived inline migration: '+key);
   if(key.startsWith('!tables!')){
-   logical.tables++;assert(o.flags?.['merp-ui']?.creatureLoreTable?.loreKey==='all','Non consolidated table');
-  }else if(key.startsWith('!tables.results!')){
-   logical.results++;
-   const f=o.flags?.['merp-ui']?.creatureLoreEntry;
-   assert(f?.loreKind&&f?.creatureKey,'Unclassified result '+key);
-   logical.groups[f.creatureKey][f.loreKind]=(logical.groups[f.creatureKey][f.loreKind]??0)+1;
-  }
+   logical.tables++;
+   assert(o.flags?.['merp-ui']?.creatureLoreTable?.loreKey==='all','Non consolidated table');
+   assert(Array.isArray(o.results)&&o.results.length>0,'Foundry RollTable is empty: '+o.name);
+   for(const result of o.results){
+     logical.results++;
+     const f=result.flags?.['merp-ui']?.creatureLoreEntry;
+     assert(f?.loreKind&&f?.creatureKey,'Unclassified embedded result in '+key);
+     logical.groups[f.creatureKey][f.loreKind]=(logical.groups[f.creatureKey][f.loreKind]??0)+1;
+   }
+  }else throw Error('Unexpected record '+key);
  }
  assert(logical.tables===2&&logical.results===755,
    'Consolidation did not produce exactly 2 tables and 755 entries: '+JSON.stringify(logical));

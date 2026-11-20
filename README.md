@@ -1,10 +1,20 @@
-# MERP-UI / MERP-RMU 2.0.14
+# MERP-UI / MERP-RMU 2.0.15
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.14 (test prerelease, 20 November 2026). One Creature Lore RollTable per species; a new Actor Compendium folder scaffold for a clean Foundry World.
+**Release:** 2.0.15 (test prerelease, 21 November 2026). Native Wolf/Warg Actor compendium, visible embedded Lore results and MERP-UI typography fixes.
+
+## Test preview 2.0.15 — corrections to the clean-World bestiary
+
+- **Actors:** the new **Bestiaire des Terres du Milieu / Creatures of Middle-earth** compendium now includes the **Loup / Wolf** and **Warg / Ouargue** Creature Actors, in their proper native folders (5.7 carnivores and 6.9 undead). Their user-provided descriptions are retained and their Lore controls are directly available in the Bio section. The Warg's Notes are rendered with six literary sections using the same parchment-and-charcoal aesthetic.
+- **Lore:** the private **Connaissance des Créatures / Creature Lore** RollTables now embed their **235 Wolf and 520 Warg results inside each parent Foundry table**; previously, the 2.0.14 LevelDB had detached result records and blank RollTable windows. Region Lore has 32 Warg variants.
+- **Controls:** the Actor Description presents separate Racial and Cultural Lore actions (both use the native RMU Racial Lore skill), alongside Region Lore and, for the Wolf only, Historic Lore. The confidential RMU roll-and-GM-review workflow remains unchanged.
+- **Visuals:** the compendium browser and two Lore RollTable windows now follow the existing MERP-UI font, parchment, ink and banner treatment.
+- **World Journals:** a new World does **not** receive Journal entries from module installation by default; a Compendium must be opened or explicitly imported. Creature texts are in the Actor Bio/Notes, not automatically duplicated as World Journals.
+- **Language status:** 12 Warg race texts remain French-only until their British-English translation and author review are finished; Arthedain's English text remains provisional.
+- **Testing:** offline CI checks are required before publication. Foundry V14 GM/player runtime and third-party rights review remain open; this is a new-World testing prerelease.
 
 ## Test preview 2.0.14 — new World only
 

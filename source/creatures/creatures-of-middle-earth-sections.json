@@ -9,7 +9,7 @@
     "type": "Actor",
     "name": "merp-ui-creatures",
     "declaredInModule": true,
-    "publicationStatus": "test-build-only",
+    "publicationStatus": "preview-with-wolf-and-warg-actors",
     "folderType": "Actor"
   },
   "folderHierarchy": [
@@ -238,7 +238,7 @@
         "en": "Wolf"
       },
       "folderPath": "animal-glossary/apsanakuni",
-      "status": "proposed",
+      "status": "preview-implemented",
       "rationale": "A natural wolf is a meat-eater; this is an editorial placement, not a statement printed in the supplied contents."
     },
     {
@@ -248,7 +248,7 @@
         "en": "Warg"
       },
       "folderPath": "monster-glossary/undead-beings",
-      "status": "proposed",
+      "status": "preview-implemented",
       "rationale": "MERP-UI's accepted Warg variant uses Corporeal / Undead / Undead Wolf (MERP/ICE-inspired), rather than classifying it as an ordinary zoological wolf. The contents page does not independently list the Warg."
     }
   ],
@@ -256,7 +256,7 @@
   "lorePolicy": {
     "animalLore": "Editorial knowledge family under the existing RMU Creature Lore skill, not a native skill/rank grant.",
     "monsterLore": "Editorial knowledge family under the existing RMU Creature Lore skill.",
-    "actorIntegration": "Only classification and existing Creature Lore selector options: do not alter Actor Notes, Description, statistics, Items or skill ranks.",
+    "actorIntegration": "The two user-provided Creature Actors are included, with explicit Lore controls in their Descriptions and original Warg Notes formatted as a Bio-style card; no free RMU skills or ranks are inserted.",
     "rollTables": "Actual RollTables and confidential GM notes remain in the private Creature Lore compendium; the taxonomy is for organisation, not an extra player-visible result."
   }
 }

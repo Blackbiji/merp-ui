@@ -1,5 +1,16 @@
 # MERP-UI — Changelog
 
+## 2.0.15 — Bestiary and Creature Lore UI test fix (21 November 2026)
+
+- Populate the dedicated Actor Compendium with the user-provided Loup (27 embedded Items) and Warg (28 embedded Items), sorted into 5.7 Carnivores and 6.9 Undead.
+- Expose 4 Lore test controls in Wolf's Actor Description and 3 in Warg's (Racial / Cultural / Region; no fictional Warg Historic Lore). Racial and Cultural continue using native RMU Racial Lore without granting skills or ranks.
+- Format the original Warg GM Notes into six Bio-style sections with MERP-UI parchment, dark headings and fine borders; do not rewrite the prose.
+- Fix the previously empty native RollTables by embedding all 755 results into their two parent RollTable documents. Strengthen CI to reject detached-only results.
+- Rename the Compendiums to « Bestiaire des Terres du Milieu / Creatures of Middle-earth » and « Connaissance des Créatures / Creature Lore », and apply existing MERP-UI typography and color styling to both.
+- This is a test prerelease. Actor combat mechanics in RMU and the private GM controls still need verification in a live Foundry World. Rights review remains open.
+
+
+
 ## 2.0.14 — Foundry clean-World Creature Lore test preview (20 November 2026)
 
 - Ship a **preview release** to test the consolidated Creature Lore architecture on a new RMU World.

@@ -1,0 +1,1856 @@
+{
+  "name": "Loup / Wolf",
+  "type": "Creature",
+  "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "rmu": {
+      "origin": {
+        "uuid": "Compendium.rmu-creature-law.creatures.Actor.jcY4RFuB3EgL7Qc4"
+      }
+    },
+    "merp-ui": {
+      "creatureLore": {
+        "schemaVersion": 2,
+        "key": "wolf",
+        "lore": {
+          "racial": true,
+          "region": true,
+          "historic": true
+        }
+      },
+      "editorial": {
+        "schemaVersion": 2,
+        "roleplayApproved": true,
+        "gmBiographyApproved": true,
+        "formatting": "inline-contrast-headings-and-native-content-links",
+        "sourceActor": "Compendium.rmu-creature-law.creatures.Actor.jcY4RFuB3EgL7Qc4",
+        "note": "Description RP et BIO MJ approuvées ; liens natifs Foundry stylisés ; note technique supprimée. Mécaniques RMU inchangées."
+      },
+      "sourceProvenance": {
+        "category": "merp-ui-creature-test",
+        "source": "User-provided and user-modified RMU Creature Actor",
+        "nativeReference": "Official RMU system required",
+        "derivedContent": true,
+        "pendingRightsReview": true
+      }
+    }
+  },
+  "system": {
+    "stats": {
+      "Ag": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Co": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Em": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "In": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Me": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Pr": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Qu": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "Re": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "SD": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      },
+      "St": {
+        "pot": 0,
+        "tmp": 0,
+        "bonus": 0,
+        "other": 0
+      }
+    },
+    "appearance": {
+      "sex": "male",
+      "weight": null,
+      "height": null,
+      "size": "M",
+      "age": "20",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "voice": "none",
+      "combatZoneFactor": 1,
+      "baseHits": 25,
+      "sizeDescription": "41\"-63\" long, 31\"-33\" at shoulder, 50-180 lbs",
+      "armorDescription": "heavy fur AT2",
+      "sh": "2/54 [12/93]  (none)",
+      "combatZone": 3
+    },
+    "identity": {
+      "gender": "",
+      "faith": "",
+      "deity": "",
+      "bio": "",
+      "personality": ""
+    },
+    "realm": "Channeling",
+    "health": {
+      "hp": {
+        "value": null,
+        "max": 0,
+        "min": 0
+      },
+      "power": {
+        "value": null,
+        "max": 0
+      },
+      "innatePower": {
+        "value": null,
+        "max": 0
+      }
+    },
+    "experience": {
+      "level": 5,
+      "xp": 50000,
+      "racialDPSpent": 0,
+      "carryOverDP": 0,
+      "rankHistoryFrom": null
+    },
+    "statBonuses": {
+      "Ag": 4,
+      "Co": 10,
+      "Em": -9,
+      "In": 1,
+      "Me": -4,
+      "Pr": -2,
+      "Qu": 3,
+      "Re": -4,
+      "SD": 0,
+      "St": 11
+    },
+    "resistance": {
+      "Channeling": 0,
+      "Essence": 0,
+      "Mentalism": 0,
+      "Physical": 0,
+      "Fear": 15
+    },
+    "defense": {
+      "block": "none",
+      "dodge": "passive",
+      "dodgeSkill": "auto",
+      "other": 0,
+      "naturalAT": 1,
+      "parryPercent": 0,
+      "parryUsageRef": null,
+      "parryNext": 0,
+      "fightingStyleRef": null
+    },
+    "encounter": {
+      "frequency": 10,
+      "number": "Harem (3d8)"
+    },
+    "isNPC": true,
+    "activeMovementName": null,
+    "professionalSkills": [
+      {
+        "skillCategory": "Combat Training",
+        "skillName": "Unarmed",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Awareness",
+        "skillName": "Perception",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Awareness",
+        "skillName": "Tracking",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Combat Expertise",
+        "skillName": "Footwork",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Environmental",
+        "skillName": "Survival",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Movement",
+        "skillName": "Running",
+        "knack": 0,
+        "selected": true
+      },
+      {
+        "skillCategory": "Brawn",
+        "skillName": "Body Development",
+        "knack": 0,
+        "selected": true
+      }
+    ],
+    "powerLevel": "Superior",
+    "archetype": "Offensive",
+    "creatureType": "Carnivore",
+    "creatureCategory": "Animal",
+    "creatureVariety": "Dogs (Canine)",
+    "creatureOutlook": "Hungry",
+    "biome": "ABDFTX",
+    "treasure": "-",
+    "description": "<section class=\"merp-ui-creature merp-ui-creature-v2\" data-merp-ui-creature=\"wolf\" style=\"background-color:#f7f4ee; color:#29251f; padding:0.85em 1em; line-height:1.48;\">\n<h2 style=\"display:block; clear:both; margin:1.15em 0 0.6em; padding:0.4em 0.65em; border-left:4px solid #a18a6e; border-radius:2px; background-color:#353b42 !important; color:#fffdf6 !important; font-weight:700 !important; font-size:1.13em !important; line-height:1.3;\">À lire ou paraphraser aux joueurs</h2>\n<blockquote style=\"margin:0.4em 0 1em; padding:0.35em 0.9em; border-left:3px solid #a18a6e; background-color:#f1ebdf; color:#29251f;\">\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\"><em>La bête qui se tient devant vous ressemble à un grand chien sombre, mais avec une silhouette plus maigre. Elle se déplace avec une souplesse remarquable. Son pelage épais, où se mêlent des nuances de gris, de brun et de fauve, recouvre une musculature sèche et vigoureuse. Sa tête, large et prolongée d&#x27;un museau effilé, domine un poitrail fourni, tandis qu&#x27;une longue queue touffue pendante accompagne les mouvements de son corps.</em></p>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\"><em>Deux oreilles triangulaires se dressent au sommet de son crâne. Ses yeux obliques ont des reflets d&#x27;ambre pâle. Par instants, ses narines frémissent et son museau se relève légèrement, comme pour saisir quelque odeur portée par l&#x27;air.</em></p>\n</blockquote>\n<h2 style=\"display:block; clear:both; margin:1.15em 0 0.6em; padding:0.4em 0.65em; border-left:4px solid #a18a6e; border-radius:2px; background-color:#353b42 !important; color:#fffdf6 !important; font-weight:700 !important; font-size:1.13em !important; line-height:1.3;\">À l’intention du Meneur</h2>\n<h3 style=\"display:block; clear:both; margin:1.1em 0 0.45em; padding:0.35em 0.55em; border-bottom:2px solid #a18a6e; background-color:#e7ddcd !important; color:#2d251c !important; font-weight:700 !important; font-size:1.05em !important; line-height:1.3;\">Nature et présence dans la Terre du Milieu</h3>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\">Le loup est un grand canidé sauvage dont la constitution allie puissance musculaire, souplesse et endurance. Son corps élancé, porté par de longues pattes robustes, lui permet de parcourir d&#x27;importantes distances et de poursuivre des proies sur des terrains variés. Son pelage épais, dont les teintes vont du gris clair au brun sombre, avec parfois des nuances fauves, assure une protection efficace contre le froid. Il possède un odorat particulièrement développé, une ouïe fine et une dentition adaptée à la capture et au dépeçage des animaux dont il se nourrit.</p>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\">Les loups fréquentent les forêts, les landes, les vallées montagneuses et les grandes étendues ouvertes où vivent leurs proies. Ils sont présents dans de nombreuses contrées septentrionales de la Terre du Milieu, notamment dans les régions sauvages où subsistent d&#x27;importantes populations de cervidés et d&#x27;autres herbivores. Leur répartition varie selon les ressources disponibles, les saisons et l&#x27;occupation humaine des territoires. Ils vivent généralement en groupes familiaux composés d&#x27;un couple reproducteur et de sa descendance, bien que certains individus parcourent seuls de grandes distances.</p>\n<h3 style=\"display:block; clear:both; margin:1.1em 0 0.45em; padding:0.35em 0.55em; border-bottom:2px solid #a18a6e; background-color:#e7ddcd !important; color:#2d251c !important; font-weight:700 !important; font-size:1.05em !important; line-height:1.3;\">Comportement et mise en scène</h3>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\">Le loup se nourrit principalement de mammifères sauvages, depuis les petits rongeurs et les lièvres jusqu&#x27;aux grands herbivores. La chasse collective permet aux groupes familiaux de poursuivre des proies plus imposantes, en tirant parti de la course, de l&#x27;endurance et des mouvements coordonnés de leurs membres. Les individus isolés recherchent généralement des proies de moindre taille ou profitent de carcasses abandonnées. L&#x27;odorat joue un rôle essentiel dans la recherche de nourriture et le suivi des pistes, tandis que l&#x27;ouïe permet de détecter des sons à grande distance. Les loups communiquent par les postures du corps, les expressions faciales, les vocalisations et les marques odorantes qui contribuent également à délimiter leurs territoires.</p>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\">Les rencontres avec les voyageurs surviennent notamment le long des pistes de gibier, aux abords des pâturages et dans les régions peu fréquentées. Les empreintes, les traces de passage, les restes de proies et les hurlements constituent autant d&#x27;indices de leur présence. Les loups s&#x27;écartent généralement des groupes humains, mais leur comportement varie selon leur familiarité avec l&#x27;homme, la disponibilité des ressources alimentaires et la proximité de leurs petits. Lors d&#x27;un affrontement, ils utilisent leur mobilité pour approcher leur adversaire, le heurter et lui porter des morsures. Les attaques collectives tirent parti des déplacements et de la coordination des membres du groupe.</p>\n<h3 style=\"display:block; clear:both; margin:1.1em 0 0.45em; padding:0.35em 0.55em; border-bottom:2px solid #a18a6e; background-color:#e7ddcd !important; color:#2d251c !important; font-weight:700 !important; font-size:1.05em !important; line-height:1.3;\">Mécaniques RMU conservées</h3>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\">Le loup est une créature de <strong>niveau 5</strong>, de <strong>taille moyenne</strong>, appartenant à la catégorie des animaux carnivores et à la famille des canidés. Ses attaques naturelles comprennent le <a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu.items.Item.ZnZDypZZ9eml9MD4\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Heurt</a> (<em>Ram</em>), la <a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu.items.Item.tscUVwhmrvXfSHLu\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Morsure</a> (<em>Bite</em>) et la <a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu.items.Item.wGbDhzLfvnkAwpo9\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Griffure</a> (<em>Claw</em>). Le talent <a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu-creature-law.talents.Item.PCyaiWRvbExMwD2m\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Séquence d’attaque</a> (<em>Attack Sequence</em>) permet d’enchaîner un Heurt et une Morsure au cours d’une même séquence, conformément aux règles RMU.</p>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\">Ses aptitudes comprennent notamment l’<a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu-creature-law.talents.Item.yve3KlkpHdVr8wOB\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Instinct de groupe</a> (<em>Group Instinct</em>), l’<a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu.core.Item.BL0FV8uL9czCaS3d\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Odorat aiguisé</a> (<em>Acute Smell</em>), qui lui accorde un bonus de +20 aux tests de Perception fondés sur l’odorat, et l’<a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu.core.Item.1p61TTTXnVuo4IUQ\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Ouïe canine</a> (<em>Hearing, Dog</em>). Le <a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu-creature-law.talents.Item.k6iycATVZT3AJHSp\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Déplacement quadrupède</a> (<em>Walking, Quadrupedal</em>) détermine ses capacités de mouvement, tandis que l’<a class=\"content-link merp-ui-rmu-link\" draggable=\"true\" data-link=\"\" data-uuid=\"Compendium.rmu.core.Item.4VIFDYXgps87Wt3c\" style=\"display:inline; padding:0.05em 0.3em; border-radius:3px; border:1px solid #9d8060 !important; background-color:#fff9e9 !important; color:#402a17 !important; font-weight:700 !important; text-decoration:underline !important; text-decoration-color:#9d8060 !important;\">Armure naturelle</a> (<em>Natural Armor</em>) représente la protection physique de son corps. Ses valeurs de combat, ses résistances, ses compétences et les effets de ses talents demeurent ceux de l’Actor RMU d’origine.</p>\n<h2 style=\"display:block; clear:both; margin:1.15em 0 0.6em; padding:0.4em 0.65em; border-left:4px solid #a18a6e; border-radius:2px; background-color:#353b42 !important; color:#fffdf6 !important; font-weight:700 !important; font-size:1.13em !important; line-height:1.3;\">Reconnaître la créature — Connaissances</h2>\n<p style=\"margin:0.45em 0 0.85em; line-height:1.48;\">La reconnaissance du loup ordinaire relève principalement de Region Lore, avec une spécialisation correspondant à la région effectivement connue du personnage. Historic Lore et Racial Lore peuvent apporter des connaissances complémentaires selon le contexte historique et culturel. Un personnage familiarisé avec l’animal peut l’identifier sans jet.</p>\n<div class=\"merp-ui-lore-catalogue\" data-merp-ui-creature=\"wolf\">\n<p class=\"merp-ui-lore-entry\" data-merp-ui-lore=\"region\" data-merp-ui-lore-kind=\"region\"><strong>Region Lore</strong> — L&#39;habitat, les déplacements et les comportements du loup selon les territoires connus. <button type=\"button\" class=\"merp-lore-propose\" data-merp-ui-lore-action=\"region\" data-merp-ui-lore-kind=\"region\">🎲 Proposer un jet</button></p>\n<p class=\"merp-ui-lore-entry\" data-merp-ui-lore=\"racial\" data-merp-ui-lore-kind=\"racial\"><strong>Racial Lore — Généralités</strong> — Les connaissances communes sur les loups, indépendamment des traditions d&#39;un peuple particulier. <button type=\"button\" class=\"merp-lore-propose\" data-merp-ui-lore-action=\"racial\" data-merp-ui-lore-kind=\"racial\">🎲 Proposer un jet</button></p>\n<p class=\"merp-ui-lore-entry\" data-merp-ui-lore=\"racial\" data-merp-ui-lore-kind=\"cultural\"><strong>Cultural Lore — Cultures</strong> — Les récits, observations et croyances transmis par la culture du personnage ; compétence RMU utilisée : Racial Lore. <button type=\"button\" class=\"merp-lore-propose\" data-merp-ui-lore-action=\"racial\" data-merp-ui-lore-kind=\"cultural\">🎲 Proposer un jet</button></p>\n<p class=\"merp-ui-lore-entry\" data-merp-ui-lore=\"historic\" data-merp-ui-lore-kind=\"historic\"><strong>Historic Lore</strong> — Les connaissances historiques et les témoignages anciens relatifs aux loups. <button type=\"button\" class=\"merp-lore-propose\" data-merp-ui-lore-action=\"historic\" data-merp-ui-lore-kind=\"historic\">🎲 Proposer un jet</button></p>\n</div>\n</section>",
+    "notes": "",
+    "equipment": null,
+    "coinSource": {},
+    "coinStowed": {},
+    "skills": {},
+    "filename": "wolf.yaml",
+    "family": "",
+    "physicals": {
+      "heightRange": {
+        "from": 2
+      },
+      "bodyLengthRange": {
+        "from": 3,
+        "to": 5
+      },
+      "weightRange": {
+        "from": 50,
+        "to": 180
+      }
+    },
+    "csv": {
+      "pp": 12,
+      "hits": 113,
+      "fatigue": 108,
+      "AT": 2,
+      "resistance": {
+        "Channeling": 21,
+        "Essence": 1,
+        "Mentalism": 8,
+        "Physical": 20,
+        "Fear": 25
+      },
+      "levelVariance": "C",
+      "variants": "Gray wolf, African wolf",
+      "initiative": 3
+    },
+    "knackPowerLevel": "Superior",
+    "statPowerLevel": "Superior",
+    "statRerollPowerLevel": "Superior",
+    "statBoostPowerLevel": "Superior",
+    "ppRecoveryPowerLevel": "Superior",
+    "talentPowerLevel": "Superior"
+  },
+  "items": [
+    {
+      "_id": "xVNo647EFPDfMorG",
+      "name": "Perception",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.vvh3yZzmP3RboK0d"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Awareness",
+        "trainingGroup": null,
+        "stat": "SD",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 12,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": 81
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "sSguy7gJGhm54qiO",
+      "name": "Tracking",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.4d6GQte1ZnTEoMtz"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Awareness",
+        "trainingGroup": null,
+        "stat": "SD",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 11,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": 101
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VkbDEkFZ2jd6EEIf",
+      "name": "Footwork",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.VFQfXFNeiAduwmnp"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Expertise",
+        "trainingGroup": null,
+        "stat": "",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 11,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": 64
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "KS1oxD71wFp1fzFS",
+      "name": "Survival",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.29O9BrL1YnUx2vxg"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Environmental",
+        "trainingGroup": null,
+        "stat": "Re",
+        "description": "",
+        "specialization": "Biome",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 11,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": 57
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "XHuDD6O6lDJlVvkp",
+      "name": "Jumping",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.o8r6XNdULmCuKnpn"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Gymnastic",
+        "trainingGroup": null,
+        "stat": "St",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 3,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": 33
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Y7uvGBXNvkyw7xHp",
+      "name": "Disarm",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.BuRMDfQsnMq6EYCm"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Expertise",
+        "trainingGroup": null,
+        "stat": "",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 3,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": 15
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Ch5Ic0OYupXyFSGP",
+      "name": "Ambush",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.dHPCMe5uLxBKJH0n"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Subterfuge",
+        "trainingGroup": null,
+        "stat": "In",
+        "description": "",
+        "specialization": "Unarmed",
+        "attackUUID": null,
+        "specializationType": 3,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 5,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "ranks": 5,
+          "bonus": 30
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Yxo2FVx06Yvc8Y3R",
+      "name": "Running",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.S0SDRfFJBrvJWvGH"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Movement",
+        "trainingGroup": null,
+        "stat": "Co",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 12,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "ranks": 12,
+          "bonus": 93
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "g15UMWJ6xRLY0p8g",
+      "name": "Body Development",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.2Lr8Ga6TzVd8fkLP"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Brawn",
+        "trainingGroup": null,
+        "stat": "Co",
+        "description": "",
+        "specialization": "",
+        "attackUUID": null,
+        "specializationType": 0,
+        "hasSpecialization": false,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 12,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": 113
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VtimXuw1ALaLqb9Q",
+      "name": "Unarmed",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.r4Y2Pdz2zrz606gD"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Training",
+        "trainingGroup": "Unarmed",
+        "stat": "St",
+        "description": "",
+        "specialization": "Ram",
+        "attackUUID": "Compendium.rmu.items.Item.ZnZDypZZ9eml9MD4",
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 12,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": "94"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ZBGEHockQbAvAAgZ",
+      "name": "Unarmed",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.r4Y2Pdz2zrz606gD"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Training",
+        "trainingGroup": "Unarmed",
+        "stat": "St",
+        "description": "",
+        "specialization": "Bite",
+        "attackUUID": "Compendium.rmu.items.Item.tscUVwhmrvXfSHLu",
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 12,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": "94"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "yhFVMBh5u3jNbjk2",
+      "name": "Unarmed",
+      "type": "skill",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.r4Y2Pdz2zrz606gD"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Combat Training",
+        "trainingGroup": "Unarmed",
+        "stat": "St",
+        "description": "",
+        "specialization": "Claw",
+        "attackUUID": "Compendium.rmu.items.Item.wGbDhzLfvnkAwpo9",
+        "specializationType": 0,
+        "hasSpecialization": true,
+        "fixedSpecializations": false,
+        "specializations": [],
+        "favorite": false,
+        "cultureRanks": 0,
+        "ranks": 9,
+        "levelUpRanks": null,
+        "levelUpDPCost": null,
+        "rankHistory": {},
+        "otherBonus": 0,
+        "autoSkill": false,
+        "aspectList": null,
+        "archmageList": null,
+        "csv": {
+          "bonus": "80"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "bveQ9b6LwE5S6kXG",
+      "name": "Attack Sequence",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.PCyaiWRvbExMwD2m"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Attack",
+        "subCategory": "",
+        "cost": "10 / Tier",
+        "tier": 1,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "attack-sequence",
+            "specialization1": "Ram",
+            "specialization2": "Bite"
+          }
+        ],
+        "notes": ""
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "dx0QL6p6jlRcUiVG",
+      "name": "Natural Weaponry",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.XCKSPCRbbJwgI8pN"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": {
+          "trainingGroup": "Unarmed",
+          "category": "Combat Training",
+          "name": "Unarmed",
+          "specialization": "Bite"
+        },
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-weaponry",
+            "requires": "natural"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Combat Training",
+            "name": "Unarmed"
+          }
+        ],
+        "notes": ""
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "OQohooMfEJF6c6V1",
+      "name": "Acute Smell",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.BL0FV8uL9czCaS3d"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Senses",
+        "subCategory": "Awareness",
+        "cost": "3/Tier",
+        "tier": 4,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 12,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "specialty",
+            "requires": "note",
+            "linkField": "value",
+            "value": "+20"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Awareness",
+            "name": "Perception"
+          }
+        ],
+        "notes": ""
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "3AP5dXcTF4B6nzCJ",
+      "name": "Hearing, Dog",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.1p61TTTXnVuo4IUQ"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "15",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 15,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [],
+        "skills": [
+          {
+            "category": "Awareness",
+            "name": "Perception"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Ifm64yDRG3IqhqBd",
+      "name": "Animalistic",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.c7RCGoIHv9CaN6WP"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Miscellaneous",
+        "subCategory": "",
+        "cost": "-10",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": -10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": []
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "1XSm8kWj98Cv1npQ",
+      "name": "Restricted Diet",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.jddq9ohtoqGgYcgg"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Other",
+        "subCategory": "",
+        "cost": "-5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": -5,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifier": {
+          "type": "other"
+        },
+        "modifiers": [
+          {
+            "type": "specialty",
+            "requires": "note",
+            "linkField": "value",
+            "value": "Carnivore"
+          }
+        ],
+        "notes": ""
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Sbo7EBwWB8Rr21mr",
+      "name": "No Equipment",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.FbEkAwNE5E8cYGvd"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Miscellaneous",
+        "subCategory": "",
+        "cost": "-15",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": -15,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": []
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "a3KMH1ay7dC8o9jW",
+      "name": "Group Instinct",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.yve3KlkpHdVr8wOB"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Miscellaneous",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": []
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "K82hCVLTOCJn79mN",
+      "name": "Mute",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.ZiRIdX63toK7zF27"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Other",
+        "subCategory": "",
+        "cost": "-10",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": -10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": []
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "pJRiA0QfkM9PFNek",
+      "name": "Prodigy",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.BoSzasvF1VokKugp"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Other",
+        "subCategory": "",
+        "cost": "6/Tier",
+        "tier": 8,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 48,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "skill",
+            "bonus": 5,
+            "situational": false,
+            "requires": "skill",
+            "linkField": "skill",
+            "skillCategory": "Awareness",
+            "skillName": "Tracking",
+            "hasSpecialization": false,
+            "specialization": ""
+          }
+        ],
+        "notes": ""
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "FBEo5xVS2padjOc5",
+      "name": "Walking, Quadrupedal",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu-creature-law.talents.Item.k6iycATVZT3AJHSp"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Movement",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "movement",
+            "bmr": 30,
+            "maxPace": "Dash"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Movement",
+            "name": "Running"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "2yM4Fi5l6mW2RtWv",
+      "name": "Natural Armor",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.4VIFDYXgps87Wt3c"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5/Tier",
+        "tier": 1,
+        "maxTier": 10,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-armor",
+            "bonus": 1,
+            "bonusUnit": "AT"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "HgsugcLOp2BPwm28",
+      "name": "Vigorous",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.ozyW1S6IyIFpmMTy"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5/Tier",
+        "tier": 2,
+        "maxTier": 20,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 1,
+        "discount": "x1",
+        "dpSpent": 10,
+        "description": "",
+        "skill": null,
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "endurance",
+            "situational": false,
+            "bonus": 10
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "BWxXADLXu2J4d4MW",
+      "name": "Natural Weaponry",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.XCKSPCRbbJwgI8pN"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": {
+          "trainingGroup": "Unarmed",
+          "category": "Combat Training",
+          "name": "Unarmed",
+          "specialization": "Claw"
+        },
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-weaponry",
+            "requires": "natural"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Combat Training",
+            "name": "Unarmed"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "jpRdVecuV9tyKndt",
+      "name": "Natural Weaponry",
+      "type": "talent",
+      "flags": {
+        "rmu": {
+          "origin": {
+            "uuid": "Compendium.rmu.core.Item.XCKSPCRbbJwgI8pN"
+          }
+        }
+      },
+      "img": "systems/rmu/icons/svg/iron_crown_w.svg",
+      "system": {
+        "category": "Racial",
+        "subCategory": "",
+        "cost": "5",
+        "tier": 1,
+        "maxTier": 1,
+        "levelUpTier": null,
+        "levelUpDPCost": null,
+        "af": 0,
+        "discount": "x1",
+        "dpSpent": 5,
+        "description": "",
+        "skill": {
+          "trainingGroup": "Unarmed",
+          "category": "Combat Training",
+          "name": "Unarmed",
+          "specialization": "Ram"
+        },
+        "attack": null,
+        "modifiers": [
+          {
+            "type": "natural-weaponry",
+            "requires": "natural"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Combat Training",
+            "name": "Unarmed"
+          }
+        ]
+      },
+      "effects": [],
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "rmu",
+        "systemVersion": "1.4.101",
+        "createdTime": 1794955642519,
+        "modifiedTime": 1794955642519,
+        "lastModifiedBy": "6dzPL6PSsPX9MSeJ",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Loup",
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "detectionModes": {},
+    "disposition": 1,
+    "height": 1,
+    "width": 1,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "randomImg": false,
+    "prependAdjective": false,
+    "depth": 1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health.hp"
+    },
+    "bar2": {
+      "attribute": "health.power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {}
+  },
+  "_id": "c3dc7a6cd951aeb7"
+}

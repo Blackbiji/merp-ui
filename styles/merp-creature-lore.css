@@ -56,3 +56,93 @@
 
 .merp-lore-player-client .chat-message .merp-lore-gm-review,
 .merp-lore-player-client .chat-message .merp-lore-gm-reveal {display:none !important;}
+
+/* Native RollTable sheets for MERP-UI's private creature knowledge. */
+:is(.application,.window-app).merp-ui-lore-table-window {
+ --merp-lore-paper:#f6f3ed;--merp-lore-ink:#27221d;--merp-lore-rule:#c6bfb5;
+ font-family:var(--merp-font,"PragRoman",Georgia,serif) !important;
+ color:var(--merp-lore-ink) !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-header{
+ background:linear-gradient(110deg,#19212a,#35414a) !important;
+ color:#f7efe3 !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-header :is(.window-title,button,i){color:#f7efe3 !important;}
+:is(.application,.window-app).merp-ui-lore-table-window :is(.window-content,.tab,.sheet-body,.results,.table-results){
+ background:var(--merp-lore-paper) !important;color:var(--merp-lore-ink) !important;
+ font-family:var(--merp-font,"PragRoman",Georgia,serif) !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window :is(h1,h2,h3,h4,strong,.table-header,.table-result){
+ color:var(--merp-lore-ink) !important;font-family:var(--merp-font,"PragRoman",Georgia,serif) !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window :is(.table-result,.result,.result-row){
+ border-color:var(--merp-lore-rule) !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window :is(button,.button){
+ font-family:var(--merp-font,"PragRoman",Georgia,serif) !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window :is(button.draw,button[data-action="draw"]){
+ background:#67513b !important;color:#f8f1e6 !important;
+}
+
+
+/* Creature Bio / Notes — the same warm parchment, charcoal section titles,
+ * fine sandstone borders, and literary font used by MERP-UI Actor sheets.
+ * All narrative text stays in the Actor's own Description or Notes fields. */
+.merp-ui-creature .merp-ui-lore-catalogue {
+  border:1px solid #ad9880!important;
+  border-radius:4px;
+  background:#eee5d8!important;
+  padding:.65em .85em!important;
+  margin:.6em 0 .9em;
+  color:#29251f!important;
+}
+.merp-ui-creature .merp-ui-lore-entry {
+  margin:.4em 0!important;
+  line-height:1.5;
+  color:#29251f!important;
+  font-family:var(--merp-font,"PragRoman",Georgia,serif)!important;
+}
+.merp-ui-warg-notes {
+  background:#f7f4ee!important;
+  color:#29251f!important;
+  font-family:var(--merp-font,"PragRoman",Georgia,serif)!important;
+  line-height:1.55;
+}
+.merp-ui-warg-notes .merp-ui-warg-notes-card {
+  padding:.2em .1em 1em;
+  color:#29251f!important;
+}
+.merp-ui-warg-notes .merp-ui-warg-note-heading {
+  display:block;clear:both;
+  margin:1.15em 0 .6em;
+  padding:.42em .65em;
+  border-left:4px solid #a18a6e;
+  border-radius:2px;
+  background:#353b42!important;
+  color:#fffdf6!important;
+  font:700 1.13em/1.3 var(--merp-font,"PragRoman",Georgia,serif)!important;
+  text-transform:none;
+}
+.merp-ui-warg-notes .merp-ui-warg-note-paragraph {
+  margin:.48em 0 .95em;
+  padding:0 .1em;
+  line-height:1.58;
+  text-align:justify;
+  hyphens:auto;
+  color:#29251f!important;
+  font:400 1em/1.58 var(--merp-font,"PragRoman",Georgia,serif)!important;
+}
+.merp-ui-warg-notes .merp-ui-warg-note-paragraph:last-child {
+  margin-bottom:0;
+}
+.merp-ui-lore-entry .merp-lore-propose {
+  font-family:var(--merp-font,"PragRoman",Georgia,serif)!important;
+  background:#eee4d1!important;
+  color:#392a1a!important;
+  border:1px solid #9d8060!important;
+  border-radius:3px!important;
+}
+.merp-lore-player-client .merp-ui-lore-entry .merp-lore-propose {
+  display:none!important;
+}

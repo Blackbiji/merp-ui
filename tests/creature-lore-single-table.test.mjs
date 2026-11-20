@@ -14,15 +14,19 @@ const expectedEnglish=new Map(source.results.map(row=>[
 ]));
 const opened=new ClassicLevel('packs/merp-ui-lore',{keyEncoding:'utf8',valueEncoding:'utf8',createIfMissing:false});
 await opened.open();
-const tables=[],entries=[];
+const tables=[];
 try{
  for await(const [key,value] of opened.iterator()){
   const doc=JSON.parse(value);
-  if(key.startsWith('!tables!'))tables.push({key,doc});
-  else if(key.startsWith('!tables.results!'))entries.push({key,doc});
+  if(key.startsWith('!tables.results!'))
+    assert.fail('Detached results are not visible in native Foundry RollTables: '+key);
+  else if(key.startsWith('!tables!'))tables.push({key,doc});
   else assert.fail('Unrecognised LevelDB record: '+key);
  }
 }finally{await opened.close()}
+const entries=tables.flatMap(({key,doc})=>
+  (doc.results??[]).map(result=>({key:'!tables.results!'+doc._id+'.'+result._id,doc:result})));
+
 
 test('Two private RollTables and exactly one table per creature',()=>{
  assert.equal(tables.length,2);
@@ -31,7 +35,9 @@ test('Two private RollTables and exactly one table per creature',()=>{
  assert.deepEqual(names,['warg','wolf']);
  for(const {key,doc} of tables){
   assert.equal(doc.flags['merp-ui'].creatureLoreTable.loreKey,'all');
-  assert.equal(doc.formula,'1d'+entries.filter(x=>x.key.startsWith('!tables.results!'+doc._id+'.')).length);
+  assert.equal(doc.formula,'1d'+doc.results.length);
+  assert.ok(Array.isArray(doc.results) && doc.results.length>0,
+    'The native Foundry RollTable must contain embedded results');
   assert.equal(doc.type===undefined||doc.type==='RollTable',true);
  }
 });
@@ -40,7 +46,7 @@ test('Every result is linked to its species and one of four Lore families',()=>{
  const expected={wolf:235,warg:520};
  for(const [creature,count] of Object.entries(expected)){
   const parent=tables.find(x=>x.doc.flags['merp-ui'].creatureLoreTable.creatureKey===creature);
-  const subset=entries.filter(x=>x.key.startsWith('!tables.results!'+parent.doc._id+'.'));
+  const subset=parent.doc.results.map(doc=>({key:'!tables.results!'+parent.doc._id+'.'+doc._id,doc}));
   assert.equal(subset.length,count);
   assert.equal(new Set(subset.map(x=>x.doc._id)).size,count);
   assert.deepEqual(subset.map(x=>x.doc.range[0]).sort((a,b)=>a-b),
@@ -124,11 +130,11 @@ test('Twelve authentic Racial Lore sources are French only until EN translation 
  }
 });
 
-test('No creature Actor content is bundled by the taxonomy-only PR',()=>{
+test('The compendium includes the two validated user-provided Creature Actor sources',()=>{
  const creatureSource=JSON.parse(readFileSync('source/creatures/creatures-of-middle-earth-sections.json','utf8'));
  assert.equal(creatureSource.speciesPlacements.length,2);
- assert.equal(creatureSource.packTarget.publicationStatus,'test-build-only');
- assert.equal(creatureSource.lorePolicy.actorIntegration.includes('do not alter Actor Notes, Description'),true);
+ assert.equal(creatureSource.packTarget.publicationStatus,'preview-with-wolf-and-warg-actors');
+ assert.equal(creatureSource.lorePolicy.actorIntegration.includes('explicit Lore controls'),true);
 });
 
 test('Clean-World imported official Wolf and Warg Actors have safe Lore binding',()=>{
@@ -139,4 +145,6 @@ test('Clean-World imported official Wolf and Warg Actors have safe Lore binding'
   assert.ok(code.includes('merp-ui-lore-offer-panel'));
   assert.ok(!code.includes("actor.update({'system.notes'"));
   assert.ok(!code.includes("actor.update({'system.description'"));
+  assert.ok(code.includes("button.dataset.merpLoreBound==='1'"));
+  assert.ok(code.includes("familyHint:source.familyHint"));
 });

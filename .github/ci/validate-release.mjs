@@ -109,7 +109,7 @@ if(existsSync(compactionPath)){
   const audit=JSON.parse(readFileSync(compactionPath,'utf8'));
   check(audit.version==='2.0.13' && audit.packCount===11 && audit.identical===true,
     'Invalid LevelDB rebuild report');
-  check(audit.packs?.length===10 && audit.packs.every(p=>
+  check(audit.packs?.length===11 && audit.packs.every(p=>
     p.logical?.entries>0 && /^[a-f0-9]{64}$/.test(p.logical.sha256??'') &&
     p.physicalAfter?.ldb>=1 && p.physicalAfter?.manifests===1),
     'Missing compendium contents or physical files after rebuild');

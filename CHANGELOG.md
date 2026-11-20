@@ -1,5 +1,14 @@
 # MERP-UI — Changelog
 
+## Pending release — ICE/RMU descriptive title and rights notices (not yet published)
+
+- Acknowledge Iron Crown Enterprises Ltd's Rolemaster Unified copyright and trademark; state that **MERP-RMU** is a descriptive name, not an ICE licence, endorsement or claim to its intellectual property.
+- Distinguish ICE/RMU rights from Tolkien/Middle-earth rights, earlier MERP sourcebooks and individual adventure-author permissions.
+- Add bilingual `NOTICE.md`, release rights checklist and user-visible `README.md`/`module.json` notices; validate their presence automatically.
+- **Rights-clearance checklist remains open.** No release or redistribution authorisation is implied by these notices.
+- Documentation, metadata and CI validation only; no Actors, Lore data, RMU mechanics or Compendiums are changed by this set of edits.
+
+
 ## 2.0.13 — Lossless LevelDB compendium rebuild (20 November 2026)
 
 - Reconstruct all ten prebuilt LevelDB Compendiums from their active logical key/value records, with byte-for-byte SHA-256 verification before replacing each offline database.

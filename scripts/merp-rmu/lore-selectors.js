@@ -19,47 +19,91 @@ const LORE = Object.freeze({
       entry("tbd", "À définir", "To be determined")
     ])
   ],
+  // Organisation after the supplied Creatures of Middle-earth table of contents:
+  // chapters 5.0 Animal Glossary and 6.0 Monster Glossary.
+  // This is a hierarchy of *existing* native RMU Creature Lore specialisations.
+  // It does NOT create an "Animal Lore" RMU skill or award free ranks.
+  // Preserve old technical leaf strings to avoid invalidating saved characters.
+  // Extra species/subtypes are MERP-UI specialisations, not book section titles.
   "Creature Lore": [
-    entry("Servants of the Enemy", "Forces de l’Ombre", "Servants of the Enemy", [
+    entry("Animal Glossary", "5.0 — Bestiaire animal", "5.0 — Animal Glossary", [
+      entry("Bats and Birds", "5.1 — Chauves-souris et Oiseaux", "5.1 — Bats and Birds"),
+      entry("Water Beasts", "5.2 — Animaux aquatiques", "5.2 — Water Beasts"),
+      entry("Potili (Insects & Spiders)", "5.3 — Potili (Insectes et Araignées)", "5.3 — Potili (Insects & Spiders)"),
+      entry("Rávatsar (Amphibians & Reptiles)", "5.4 — Rávatsar (Amphibiens et Reptiles)", "5.4 — Rávatsar (Amphibians & Reptiles)"),
+      entry("Lassanakûni (Leaf-Eaters)", "5.5 — Lassanakûni (Mangeurs de feuilles)", "5.5 — Lassanakûni (Leaf-Eaters)", [
+        entry("Leaf-Eaters", "Herbivores — général", "Leaf-Eaters — general"),
+        entry("Mumakil", "Mûmakil", "Mûmakil")
+      ]),
+      entry("Riding and Draft Animals", "5.6 — Animaux de monte et de trait", "5.6 — Riding and Draft Animals", [
+        entry("Draft Animals", "Animaux de trait — général", "Draft Animals — general"),
+        entry("Mearas", "Mearas")
+      ]),
+      entry("Apsanakûni (Meat-Eaters)", "5.7 — Apsanakûni (Carnivores)", "5.7 — Apsanakûni (Meat-Eaters)", [
+        entry("Meat-Eaters", "Carnivores — général", "Meat-Eaters — general"),
+        entry("Wolves", "Loups", "Wolves")
+      ]),
+      entry("Other Dangerous Animals", "5.8 — Autres animaux dangereux", "5.8 — Other Dangerous Animals")
+    ]),
+    entry("Monster Glossary", "6.0 — Bestiaire monstrueux", "6.0 — Monster Glossary", [
+      entry("Demonic Water Monsters", "6.1 — Monstres aquatiques démoniaques", "6.1 — Demonic Water Monsters", [
+        entry("Demonic Water Monsters", "Monstres aquatiques démoniaques — général", "Demonic Water Monsters — general"),
+        entry("Watcher in the Water", "Guetteur de l’Eau", "Watcher in the Water")
+      ]),
+      entry("Animate Plants", "6.2 — Plantes animées", "6.2 — Animate Plants"),
+      entry("Demons", "6.3 — Démons", "6.3 — Demons", [
+        entry("Demons", "Démons — général", "Demons — general"),
+        entry("Balrogs", "Balrogs"),
+        entry("Shadows of Angband", "Ombres d’Angband (MERP/ICE)", "Shadows of Angband (MERP/ICE)")
+      ]),
+      entry("Dragons", "6.4 — Dragons", "6.4 — Dragons", [
+        entry("Cave-drakes", "6.4.1 — Dragons des cavernes", "6.4.1 — Cave-drakes"),
+        entry("Cold-drakes", "6.4.2 — Dragons froids", "6.4.2 — Cold-drakes"),
+        entry("Fire-drakes", "6.4.3 — Dragons de feu", "6.4.3 — Fire-drakes"),
+        entry("Water Drakes", "6.4.4 — Dragons des eaux", "6.4.4 — Water Drakes"),
+        entry("Were-worms", "6.4.5 — Vers-garous", "6.4.5 — Were-worms"),
+        entry("Winged Dragons", "Dragons ailés (spécialisation MERP-UI)", "Winged Dragons (MERP-UI specialization)"),
+        entry("Long-worms", "Vers et Dragons rampants (spécialisation MERP-UI)", "Long-worms (MERP-UI specialization)")
+      ]),
+      entry("Flying Monsters", "6.5 — Monstres volants", "6.5 — Flying Monsters", [
+        entry("Flying Monsters", "Monstres volants — général", "Flying Monsters — general"),
+        entry("Great Eagles", "Grands Aigles", "Great Eagles")
+      ]),
+      entry("Giant Races", "6.6 — Races géantes", "6.6 — Giant Races", [
+        entry("Giants", "6.6.1 — Géants", "6.6.1 — Giants"),
+        entry("Trolls", "6.6.2 — Trolls", "6.6.2 — Trolls", [
+          entry("Cave Trolls", "Trolls des Cavernes"),
+          entry("Snow Trolls", "Trolls des Neiges"),
+          entry("Hill Trolls", "Trolls des Collines"),
+          entry("Mountain Trolls", "Trolls des Montagnes"),
+          entry("Stone Trolls", "Trolls de Pierre"),
+          entry("Olog-hai", "Olog-hai")
+        ])
+      ]),
+      entry("Pûkel-creatures", "6.7 — Créatures Pûkel", "6.7 — Pûkel-creatures"),
+      entry("Giant Spiders and Insects", "6.8 — Araignées et Insectes géants", "6.8 — Giant Spiders and Insects", [
+        entry("Giant Spiders and Insects", "Araignées et Insectes géants — général", "Giant Spiders and Insects — general"),
+        entry("Great Spiders", "Araignées géantes", "Great Spiders")
+      ]),
+      entry("Undead Beings", "6.9 — Êtres morts-vivants", "6.9 — Undead Beings", [
+        entry("Undead Beings", "Morts-vivants — général", "Undead Beings — general"),
+        entry("Nazgul", "Nazgûl", "Nazgûl"),
+        entry("Barrow-wights", "Êtres des Galgals"),
+        entry("Wraiths and Ghosts", "Spectres et Fantômes"),
+        entry("Vampires", "Vampires"),
+        entry("Wargs", "Ouargues (classification MERP/ICE)", "Wargs (MERP/ICE classification)"),
+        entry("Werewolves", "Loups-garous", "Werewolves")
+      ])
+    ]),
+    // Species not contained in chapters 5 and 6 of the supplied book remain
+    // available, without pretending they are sections from that book.
+    entry("Other Peoples", "Peuples hors de ces deux bestiaires", "Peoples outside these two glossaries", [
       entry("Orcs", "Orques (Yrch)", "Orcs (Yrch)", [
         entry("Snaga", "Snaga"),
         entry("Common Orcs", "Orques communs"),
         entry("Uruk-hai", "Uruk-hai")
       ]),
-      entry("Trolls", "Trolls (Torog)", "Trolls (Torog)", [
-        entry("Cave Trolls", "Trolls des Cavernes"),
-        entry("Snow Trolls", "Trolls des Neiges"),
-        entry("Hill Trolls", "Trolls des Collines"),
-        entry("Mountain Trolls", "Trolls des Montagnes"),
-        entry("Stone Trolls", "Trolls de Pierre"),
-        entry("Olog-hai", "Olog-hai")
-      ]),
       entry("Half-orcs and Orc-men", "Demi-orques et Hommes-orques")
-    ]),
-    entry("Undead and Spirits", "Morts-vivants et Esprits", "Undead and Spirits", [
-      entry("Nazgul", "Nazgûl", "Nazgûl"),
-      entry("Barrow-wights", "Êtres des Galgals"),
-      entry("Wraiths and Ghosts", "Spectres et Fantômes"),
-      entry("Vampires", "Vampires")
-    ]),
-    entry("Dragons", "Dragons", "Dragons", [
-      entry("Fire-drakes", "Dragons de Feu (Urulóki)"),
-      entry("Cold-drakes", "Dragons Froids"),
-      entry("Winged Dragons", "Dragons Ailés"),
-      entry("Long-worms", "Vers et Dragons Rampants")
-    ]),
-    entry("Great Beasts and Monsters", "Animaux géants et Créatures fabuleuses", "Great Beasts and Monsters", [
-      entry("Great Eagles", "Grands Aigles"),
-      entry("Great Spiders", "Araignées Géantes"),
-      entry("Wargs", "Ouargues"),
-      entry("Werewolves", "Loups-garous"),
-      entry("Mumakil", "Mûmakil", "Mûmakil"),
-      entry("Mearas", "Mearas"),
-      entry("Watcher in the Water", "Guetteur de l’Eau")
-    ]),
-    entry("Higher Entities", "Entités supérieures", "Higher Entities", [
-      entry("Balrogs", "Balrogs"),
-      entry("Shadows of Angband", "Ombres d’Angband (MERP/ICE)", "Shadows of Angband (MERP/ICE)")
     ]),
     entry(CUSTOM, "Autre — À définir", "Other — Specify")
   ],

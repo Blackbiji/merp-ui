@@ -1,0 +1,262 @@
+{
+  "schema": "merp-ui/creatures-of-middle-earth-sections/v1",
+  "source": {
+    "title": "Creatures of Middle-earth",
+    "citation": "User-provided table of contents; Chapters 5.0 and 6.0",
+    "scope": "Headings only. This manifest does not reproduce creature descriptions, statistics or published game content."
+  },
+  "packTarget": {
+    "type": "Actor",
+    "name": "merp-ui-creatures",
+    "declaredInModule": true,
+    "publicationStatus": "test-build-only",
+    "folderType": "Actor"
+  },
+  "folderHierarchy": [
+    {
+      "section": "5.0",
+      "key": "animal-glossary",
+      "name": {
+        "en": "Animal Glossary",
+        "fr": "Bestiaire animal"
+      },
+      "children": [
+        {
+          "section": "5.1",
+          "key": "bats-and-birds",
+          "name": {
+            "en": "Bats and Birds",
+            "fr": "Chauves-souris et Oiseaux"
+          }
+        },
+        {
+          "section": "5.2",
+          "key": "water-beasts",
+          "name": {
+            "en": "Water Beasts",
+            "fr": "Animaux aquatiques"
+          }
+        },
+        {
+          "section": "5.3",
+          "key": "potili",
+          "name": {
+            "en": "Potili (Insects & Spiders)",
+            "fr": "Potili (Insectes et Araignées)"
+          }
+        },
+        {
+          "section": "5.4",
+          "key": "ravatsar",
+          "name": {
+            "en": "Rávatsar (Amphibians & Reptiles)",
+            "fr": "Rávatsar (Amphibiens et Reptiles)"
+          }
+        },
+        {
+          "section": "5.5",
+          "key": "lassanakuni",
+          "name": {
+            "en": "Lassanakûni (Leaf-Eaters)",
+            "fr": "Lassanakûni (Mangeurs de feuilles)"
+          }
+        },
+        {
+          "section": "5.6",
+          "key": "riding-and-draft-animals",
+          "name": {
+            "en": "Riding and Draft Animals",
+            "fr": "Animaux de monte et de trait"
+          }
+        },
+        {
+          "section": "5.7",
+          "key": "apsanakuni",
+          "name": {
+            "en": "Apsanakûni (Meat-Eaters)",
+            "fr": "Apsanakûni (Carnivores)"
+          }
+        },
+        {
+          "section": "5.8",
+          "key": "other-dangerous-animals",
+          "name": {
+            "en": "Other Dangerous Animals",
+            "fr": "Autres animaux dangereux"
+          }
+        }
+      ]
+    },
+    {
+      "section": "6.0",
+      "key": "monster-glossary",
+      "name": {
+        "en": "Monster Glossary",
+        "fr": "Bestiaire monstrueux"
+      },
+      "children": [
+        {
+          "section": "6.1",
+          "key": "demonic-water-monsters",
+          "name": {
+            "en": "Demonic Water Monsters",
+            "fr": "Monstres aquatiques démoniaques"
+          }
+        },
+        {
+          "section": "6.2",
+          "key": "animate-plants",
+          "name": {
+            "en": "Animate Plants",
+            "fr": "Plantes animées"
+          }
+        },
+        {
+          "section": "6.3",
+          "key": "demons",
+          "name": {
+            "en": "Demons",
+            "fr": "Démons"
+          }
+        },
+        {
+          "section": "6.4",
+          "key": "dragons",
+          "name": {
+            "en": "Dragons",
+            "fr": "Dragons"
+          },
+          "children": [
+            {
+              "section": "6.4.1",
+              "key": "cave-drakes",
+              "name": {
+                "en": "Cave-drakes",
+                "fr": "Dragons des cavernes"
+              }
+            },
+            {
+              "section": "6.4.2",
+              "key": "cold-drakes",
+              "name": {
+                "en": "Cold-drakes",
+                "fr": "Dragons froids"
+              }
+            },
+            {
+              "section": "6.4.3",
+              "key": "fire-drakes",
+              "name": {
+                "en": "Fire-drakes",
+                "fr": "Dragons de feu"
+              }
+            },
+            {
+              "section": "6.4.4",
+              "key": "water-drakes",
+              "name": {
+                "en": "Water Drakes",
+                "fr": "Dragons des eaux"
+              }
+            },
+            {
+              "section": "6.4.5",
+              "key": "were-worms",
+              "name": {
+                "en": "Were-worms",
+                "fr": "Vers-garous"
+              }
+            }
+          ]
+        },
+        {
+          "section": "6.5",
+          "key": "flying-monsters",
+          "name": {
+            "en": "Flying Monsters",
+            "fr": "Monstres volants"
+          }
+        },
+        {
+          "section": "6.6",
+          "key": "giant-races",
+          "name": {
+            "en": "Giant Races",
+            "fr": "Races géantes"
+          },
+          "children": [
+            {
+              "section": "6.6.1",
+              "key": "giants",
+              "name": {
+                "en": "Giants",
+                "fr": "Géants"
+              }
+            },
+            {
+              "section": "6.6.2",
+              "key": "trolls",
+              "name": {
+                "en": "Trolls",
+                "fr": "Trolls"
+              }
+            }
+          ]
+        },
+        {
+          "section": "6.7",
+          "key": "pukel-creatures",
+          "name": {
+            "en": "Pûkel-creatures",
+            "fr": "Créatures Pûkel"
+          }
+        },
+        {
+          "section": "6.8",
+          "key": "giant-spiders-and-insects",
+          "name": {
+            "en": "Giant Spiders and Insects",
+            "fr": "Araignées et Insectes géants"
+          }
+        },
+        {
+          "section": "6.9",
+          "key": "undead-beings",
+          "name": {
+            "en": "Undead Beings",
+            "fr": "Êtres morts-vivants"
+          }
+        }
+      ]
+    }
+  ],
+  "speciesPlacements": [
+    {
+      "creatureKey": "wolf",
+      "speciesName": {
+        "fr": "Loup",
+        "en": "Wolf"
+      },
+      "folderPath": "animal-glossary/apsanakuni",
+      "status": "proposed",
+      "rationale": "A natural wolf is a meat-eater; this is an editorial placement, not a statement printed in the supplied contents."
+    },
+    {
+      "creatureKey": "warg",
+      "speciesName": {
+        "fr": "Warg / Ouargue",
+        "en": "Warg"
+      },
+      "folderPath": "monster-glossary/undead-beings",
+      "status": "proposed",
+      "rationale": "MERP-UI's accepted Warg variant uses Corporeal / Undead / Undead Wolf (MERP/ICE-inspired), rather than classifying it as an ordinary zoological wolf. The contents page does not independently list the Warg."
+    }
+  ],
+  "outsideCataloguePolicy": "Keep pre-existing humanoid Creature Lore specializations (e.g. Orcs) accessible, but do not present them as categories of the book's Animal/Monster Glossary. The source headings should not be misrepresented.",
+  "lorePolicy": {
+    "animalLore": "Editorial knowledge family under the existing RMU Creature Lore skill, not a native skill/rank grant.",
+    "monsterLore": "Editorial knowledge family under the existing RMU Creature Lore skill.",
+    "actorIntegration": "Only classification and existing Creature Lore selector options: do not alter Actor Notes, Description, statistics, Items or skill ranks.",
+    "rollTables": "Actual RollTables and confidential GM notes remain in the private Creature Lore compendium; the taxonomy is for organisation, not an extra player-visible result."
+  }
+}

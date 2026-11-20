@@ -158,6 +158,18 @@
         "TRUSTED": "NONE",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "merp-ui-creatures",
+      "label": "MERP-UI — Créatures / Creatures",
+      "path": "packs/merp-ui-creatures",
+      "type": "Actor",
+      "system": "rmu",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "license": "LICENSE",
@@ -210,7 +222,8 @@
         "merp-rmu-herbs",
         "merp-rmu-languages",
         "merp-rmu-rules",
-        "merp-ui-lore"
+        "merp-ui-lore",
+        "merp-ui-creatures"
       ],
       "folders": []
     }

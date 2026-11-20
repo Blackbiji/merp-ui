@@ -45,7 +45,7 @@ jobs:
             echo "publish=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Rebuild Wolf and Warg Lore, then compact all ten LevelDB packs offline
+      - name: Rebuild Wolf and Warg Lore, then compact all eleven LevelDB packs offline
         if: steps.version.outputs.publish == 'true'
         env:
           CI: 'true'
@@ -54,8 +54,12 @@ jobs:
           npm install --no-save --no-package-lock classic-level@2.0.0
           node tools/publication/upgrade-wolf-lore-2.0.11.mjs
           node tools/publication/upgrade-warg-lore-2.0.12.mjs
+          node tools/publication/build-creature-folders.mjs
           npm run compact:packs:offline
 
+      - name: Validate bestiary sections and unchanged Actor payloads
+        if: steps.version.outputs.publish == 'true'
+        run: npm run test:creatures
       - name: Validate JavaScript syntax
         if: steps.version.outputs.publish == 'true'
         run: find scripts -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check
@@ -71,7 +75,7 @@ jobs:
       - name: Native RMU racial size regression tests
         if: steps.version.outputs.publish == 'true'
         run: npm run test:racial-size
-      - name: Validate distribution and 10 LevelDB Compendiums
+      - name: Validate distribution and 11 LevelDB Compendiums
         if: steps.version.outputs.publish == 'true'
         run: npm run validate:release
       - name: Build complete Foundry release ZIP

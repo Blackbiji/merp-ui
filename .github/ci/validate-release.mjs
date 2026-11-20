@@ -14,7 +14,7 @@ check(module.id === 'merp-ui', 'Module ID changed');
 check(module.version === '2.0.13', 'Expected version 2.0.13');
 check(module.manifest === 'https://raw.githubusercontent.com/Blackbiji/merp-ui/main/module.json', 'Unexpected manifest URL');
 check(module.download === 'https://github.com/Blackbiji/merp-ui/releases/download/v2.0.13/merp-ui-2.0.13.zip', 'Unexpected release ZIP URL');
-check(module.packs?.length === 10, 'Expected ten Compendiums');
+check(module.packs?.length === 11, 'Expected eleven Compendiums');
 // Publication notices are mandatory; presence checks are NOT legal clearance.
 for (const file of ['README.md', 'NOTICE.md', 'docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md']) requireFile(file);
 const noticeText = readFileSync(join(root, 'NOTICE.md'), 'utf8');
@@ -107,7 +107,7 @@ const compactionPath=join(root,'dist/leveldb-compaction-report.json');
 check(existsSync(compactionPath),'Missing offline LevelDB reconstruction audit');
 if(existsSync(compactionPath)){
   const audit=JSON.parse(readFileSync(compactionPath,'utf8'));
-  check(audit.version==='2.0.13' && audit.packCount===10 && audit.identical===true,
+  check(audit.version==='2.0.13' && audit.packCount===11 && audit.identical===true,
     'Invalid LevelDB rebuild report');
   check(audit.packs?.length===10 && audit.packs.every(p=>
     p.logical?.entries>0 && /^[a-f0-9]{64}$/.test(p.logical.sha256??'') &&
@@ -116,6 +116,10 @@ if(existsSync(compactionPath)){
   check(audit.savedBytes>8000000,'Compendium rebuild saved less than 8 MB; refusing to publish without investigation');
   check(audit.packs.find(p=>p.pack==='merp-ui-lore')?.logical?.types?.['!tables.results']===690,
     'Wolf and Warg Lore did not survive compaction');
+  check(audit.packs.find(p=>p.pack==='merp-ui-creatures')?.logical?.types?.['!folders']===26,
+    'Creature Actor Compendium: expected 26 native folder documents');
+  check(!(audit.packs.find(p=>p.pack==='merp-ui-creatures')?.logical?.types?.['!actors']),
+    'Creature Actor documents must not be bundled until separately approved');
   console.log('Offline LevelDB audit:',audit.packCount,'packs; ',
     audit.savedBytes,'bytes eliminated; all logical records identical.');
 }

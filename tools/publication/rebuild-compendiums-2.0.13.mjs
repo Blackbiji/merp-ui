@@ -2,7 +2,7 @@
 /**
  * MERP-UI 2.0.13 — lossless OFFLINE LevelDB rebuild.
  *
- * This operates solely on the ten distribution packs in a checkout. It never
+ * This operates solely on the eleven distribution packs in a checkout. It never
  * connects to a Foundry World and never edits source/compendiums definitions.
  *
  * The original and replacement LevelDBs are independently iterated using
@@ -23,11 +23,12 @@ const assert=(test,message)=>{if(!test)throw new Error(message);};
 
 assert(process.env.CI==='true' && process.env.MERPUI_OFFLINE_PACK_COMPACTION==='1',
   'Refusing to rebuild packs outside a designated offline CI checkout.');
-assert(manifest.id==='merp-ui' && manifest.packs?.length===10,
-  'Expected MERP-UI with exactly ten Compendiums');
+assert(manifest.id==='merp-ui' && manifest.packs?.length===11,
+  'Expected MERP-UI with exactly eleven Compendiums');
 const expected=['merp-rmu-races','merp-rmu-cultures','merp-rmu-professions',
   'merp-rmu-skills','merp-rmu-spell-lists','merp-rmu-talents-flaws',
-  'merp-rmu-herbs','merp-rmu-languages','merp-rmu-rules','merp-ui-lore'];
+  'merp-rmu-herbs','merp-rmu-languages','merp-rmu-rules','merp-ui-lore',
+  'merp-ui-creatures'];
 assert(expected.every(name=>manifest.packs.some(p=>p.name===name && p.path==='packs/'+name)),
   'Compendium manifest identity or location mismatch');
 assert(existsSync(packsRoot),'Missing packs directory');
@@ -122,7 +123,10 @@ try {
       beforeBytes:rawBefore.bytes,afterBytes:rawAfter.bytes,savedBytes:rawBefore.bytes-rawAfter.bytes}));
   }
   const total=rows.reduce((sum,row)=>sum+row.savedBytes,0);
-  assert(rows.length===10,'Incomplete compendium rebuild');
+  assert(rows.length===11,'Incomplete compendium rebuild');
+  const creatures=rows.find(x=>x.pack==='merp-ui-creatures');
+  assert(creatures.logical.types['!folders']===26 && !creatures.logical.types['!actors'],
+    'Creature pack must hold exactly 26 native folders and no Actor documents at this stage');
   const lore=rows.find(x=>x.pack==='merp-ui-lore');
   // The Lore data loaded earlier in this workflow must survive intact.
   assert(lore.logical.types['!tables.results']===690,

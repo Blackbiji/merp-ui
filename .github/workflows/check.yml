@@ -29,7 +29,7 @@ jobs:
       - name: Native RMU racial size regression tests
         run: npm run test:racial-size
       - name: Validate Warg FR lore dataset and 2x2 token
-        run: node --test tests/warg-lore-source.test.mjs
+        run: node --test tests/warg-lore-source.test.mjs tests/warg-en-batch1.test.mjs
       - name: Validate 10 LevelDB Compendiums and bilingual sources
         run: npm run validate:release
       - name: Build Foundry-installable release ZIP

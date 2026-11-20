@@ -372,12 +372,6 @@ async function pickWargRegion(specialization,{automatic=false}={}){
     .map(r=>rawLore(r)).filter(x=>x.regionKey)
     .map(x=>[x.regionKey,{key:x.regionKey,label:x.regionName??x.regionKey}])).values()];
   const desired=regionNorm(specialization);
-  // Arthedain was validated separately, but its five texts were not in the
-  // uploaded source. Do not invent or silently substitute a neighboring region.
-  if(desired==='arthedain'){
-    if(!automatic)warn('Warg — Arthedain : les cinq textes validés manquent dans le fichier fourni.');
-    return null;
-  }
   const matches=regions.filter(r=>regionNames(r.label).has(desired));
   if(matches.length===1)return matches[0].key;
   if(automatic)return null;

@@ -7,6 +7,10 @@ import {
   shouldShowEmptyTalentsStep,
   creationTalentsCopy
 } from "../scripts/merp-rmu/creation-talents-order.js";
+import {
+  decorateMerpCompendiumBrowser,
+  resolveMerpCompendiumBrowser
+} from "../scripts/merp-rmu/compendium-browser-theme.js";
 
 const newActor = (items = [], view = 0) => ({
   type: "Character",
@@ -69,4 +73,52 @@ test("Compendium typography uses proportional row rhythm rather than fixed heigh
   assert.match(excerpt, /padding-block:\s*var\(--merp-c-row-space\)/);
   assert.match(excerpt, /height:\s*auto/);
   assert.doesNotMatch(excerpt, /min-height:\s*[1-9]\d*px/);
+});
+
+test("MERP-ui browser title embedded in .compendium-name restores the banner theme", () => {
+  // Foundry sometimes passes a directory app without app.title/pack metadata.
+  // The native .compendium-name still provides a title for an exact registered-pack match.
+  const examples = [
+    ["merp-ui.merp-rmu-rules", "MERP-ui — Règles & Références"],
+    ["merp-ui.merp-rmu-herbs", "MERP-ui — Herbs & Substances"],
+    ["merp-ui.merp-ui-lore", "MERP-ui — Creature Lore"],
+    ["merp-ui.merp-ui-creatures", "MERP-ui — Creatures of Middle-earth"]
+  ];
+  const packs = examples.map(([id, title]) => ({
+    collection: id, title, metadata: { id, label: title }
+  }));
+  for (const [id, title] of examples) {
+    const styled = new Set();
+    const root = {
+      nodeType: 1,
+      dataset: {},
+      matches: selector => selector.includes(".application"),
+      closest: () => null,
+      classList: { add: token => styled.add(token) },
+      querySelector: selector =>
+        selector.includes(".compendium-name strong") ? { textContent: title } :
+        selector.includes(".directory-header.compendium-header") ? {} : null
+    };
+    const app = { element: root };
+    assert.equal(resolveMerpCompendiumBrowser(app, [root], packs), id);
+    assert.equal(decorateMerpCompendiumBrowser(app, [root], packs), true);
+    assert.ok(styled.has("merp-ui-compendium-browser"));
+    assert.equal(root.dataset.merpUiCompendiumPack, id);
+  }
+  const untrustedTitle = {
+    nodeType: 1,
+    matches: () => true,
+    querySelector: selector => selector.includes(".compendium-name strong")
+      ? { textContent: "Other module — Creature Lore" } : null
+  };
+  assert.equal(resolveMerpCompendiumBrowser({ element: untrustedTitle },
+    [untrustedTitle], packs), null);
+});
+
+test("A standalone compendium-name draws a banner without duplicating native Journal banners", () => {
+  const css = readFileSync(new URL("../styles/merp-content-components.css", import.meta.url), "utf8");
+  assert.match(css, /\.compendium-name:not\(\.header-banner \.compendium-name\)/);
+  assert.match(css, /--merp-c-art:\s*url\("\.\.\/assets\/compendium-minas-tirith-banner\.jpg"\)/);
+  assert.match(css, /min-height:\s*106px\s*!important/);
+  assert.match(css, /\.merp-ui-compendium-browser :is\(\.directory-header,\.compendium-header\)/);
 });

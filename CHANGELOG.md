@@ -1,5 +1,16 @@
 # MERP-ui — Changelog
 
+## 2.0.19 — Wolf/Warg names, multilingual descriptions and Culture synchronisation (22 November 2026)
+
+- **Loup / Wolf** and **Ouargue / Warg** display single-language names in Creature sheets, Compendium lists and standard World imports. Custom names remain unchanged.
+- Complete British-English and French Creature **Descriptions and Gamesmaster Notes** now follow the MERP-ui language selector, without altering the stored French source, embedded RMU links or Lore controls.
+- **Creature Lore:** restore Historic Lore skill selection for the Wolf, handle missing skill selections with a Foundry V14-supported dialog, and use the Warg's validated French Racial Lore text if its English equivalent remains unavailable.
+- **Culture Compendium:** repair the recurring 60 post-write audit discrepancies caused by RMU's omission of the non-persisted `system.culture` editorial field during FR/EN switches.
+- **Warg Image/Token:** use the Wolf's artwork as the portrait and token graphic, retaining the Warg's hostile disposition, native dimensions and name.
+- Consolidate only the approved files into one release (no separate installers or obsolete scripts). The eleven Foundry Compendiums, two Creature Lore RollTables (**535 Wolf + 520 Warg = 1,055 results**) and **55** embedded Creature Items are rebuilt and verified in CI.
+- The 60 major-race Warg Racial Lore results remain French-only until their English translation is reviewed. All third-party rights notices and dependencies remain in force.
+
+
 ## 2.0.18 — Wolf Lore VF / VO and Compendium banner correction (21 November 2026)
 
 - Complete the Wolf's original French/English literary knowledge for 12 races (60 outcomes), 62 general and cultural specialisations (310), 32 regions (160) and Historic Lore (5): 535 RMU results in one native Foundry RollTable.

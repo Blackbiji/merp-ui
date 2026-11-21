@@ -1,3 +1,5 @@
+import { installCreatureActorLocalisation } from './creature-localization.js';
+installCreatureActorLocalisation();
 /**
  * MERP-UI Creature Lore — Foundry V14 / RMU.
  * Joueur -> jet RMU blind -> consultation MJ du Compendium -> MP narratif.
@@ -49,10 +51,25 @@ function currentCreature(actor) {
   return actor?.type==='Creature' && typeof data?.key==='string' && data.key.length>0 && typeof data?.lore==='object';
 }
 function specialOf(item) {return String(item?.system?.specialization??item?.specialization??'').trim();}
+// Exact RMU skill identity, including names found on French-language Actors.
+// A generic 'Lore' skill is eligible only with a matching specialisation.
+const LORE_SKILL_ALIASES=Object.freeze({
+  historic:['historic lore','historical lore','connaissance historique','connaissances historiques'],
+  region:['region lore','connaissance régionale','connaissances régionales'],
+  racial:['racial lore','connaissance raciale','connaissances raciales']
+});
+function matchesLoreName(value,loreKey){
+  const name=norm(value);
+  return (LORE_SKILL_ALIASES[loreKey]??[]).some(alias=>
+    name===alias||name.startsWith(alias+' (')||name.startsWith(alias+' /')||name.startsWith(alias+':'));
+}
 function isSkill(item,loreKey) {
-  if(!LORE[loreKey] || (item?.type && item.type!=='skill')) return false;
-  const name=norm(item.name),special=norm(specialOf(item)),want=norm(LORE[loreKey].skill);
-  return name===want || (name==='lore' && special.startsWith(want));
+  if(!LORE[loreKey] || (item?.type && norm(item.type)!=='skill')) return false;
+  if(matchesLoreName(item.name,loreKey)||matchesLoreName(item.system?.skillName,loreKey))return true;
+  if(norm(item.name)!=='lore')return false;
+  if(matchesLoreName(specialOf(item),loreKey))return true;
+  return (item.system?.specializations??[]).some(value=>matchesLoreName(
+    typeof value==='string'?value:(value?.name??value?.specialization??''),loreKey));
 }
 function choicesForUser(loreKey='region') {
   const output=[];
@@ -66,6 +83,11 @@ function choicesForUser(loreKey='region') {
       else if(item.system?.hasSpecialization) {
         specs=(item.system?.specializations??[]).map(v=>typeof v==='string'?v:(v?.name??v?.specialization??'')).filter(Boolean);
       } else specs=[''];
+      // Never offer an unrelated speciality of the generic RMU Lore skill.
+      if(norm(item.name)==='lore')specs=specs.filter(v=>matchesLoreName(v,loreKey));
+      // An unspecialised native RMU Historic Lore skill can still be selected;
+      // derivedSkillFor remains responsible for confirming the exact RMU skill.
+      else if(!specs.length&&loreKey==='historic')specs=[''];
       for(const specialization of new Set(specs)) output.push({actorId:actor.id,itemId:item.id,specialization,
         actorName:actor.name,itemName:item.name});
     }
@@ -120,8 +142,17 @@ function findMessage(kind,requestId,predicate=()=>true){
 async function playerBlindRoll(offer) {
   if(!isOffer(offer))return warn('Carte Lore non reconnue comme émise par un MJ.');
   const requestId=flag(offer,'requestId'),loreKey=flag(offer,'loreKey');
+  const eligible=choicesForUser(loreKey);
+  if(!eligible.length){
+    await foundry.applications.api.DialogV2.prompt({
+      window:{title:'Personnage et connaissance — compétence introuvable'},
+      content:`<p>Aucun des personnages que tu contrôles ne dispose d’une compétence RMU <strong>${escapeHTML(LORE[loreKey].skill)}</strong> identifiable.</p><p>Vérifie le nom et la spécialisation de cette compétence sur la fiche du personnage. Aucun jet n’a été lancé.</p>`,
+      ok:{label:'Compris'},rejectClose:false
+    });
+    return;
+  }
   const choice=await chooseOption({title:'Personnage et connaissance',lead:'Sélectionne un personnage que tu contrôles et une spécialisation présente sur sa fiche.',
-    items:choicesForUser(loreKey).map(x=>({...x,label:`${x.actorName} — ${x.itemName}${x.specialization?' / '+x.specialization:''}`})),
+    items:eligible.map(x=>({...x,label:`${x.actorName} — ${x.itemName}${x.specialization?' / '+x.specialization:''}`})),
     ok:'🎲 Lancer le jet RMU secret',foot:'Ton jet RMU est effectué ici, mais le résultat du chat est réservé au Meneur (mode blind).'});
   if(!choice)return;
   const actor=game.actors.get(choice.actorId),item=actor?.items?.get(choice.itemId);
@@ -260,7 +291,9 @@ async function sourceFor(requestId) {
 function skillMatches(derived,embedded,specialization) {
   if(!derived||!embedded)return false;
   const id=derived.id??derived._id??derived.itemId??derived.item?.id;
-  return Boolean((id&&id===embedded.id) || (norm(derived.name)===norm(embedded.name) && specialOf(derived)===specialization));
+  const technicalMatch=norm(derived.name)===norm(embedded.name) ||
+    Object.keys(LORE).some(key=>matchesLoreName(derived.name,key)&&matchesLoreName(embedded.name,key));
+  return Boolean((id&&id===embedded.id) || (technicalMatch&&specialOf(derived)===specialization));
 }
 async function derivedSkillFor(actor,item,specialization){
   if(typeof actor.hudDeriveExtendedData!=='function')throw new Error('RMU hudDeriveExtendedData() absent.');
@@ -333,10 +366,15 @@ const loreLanguage=()=>{
 };
 function translatedLore(entry){
   const meta=rawLore(entry),lang=loreLanguage();
-  if(lang==='en'&&meta.englishTranslationStatus==='not-available')
-    throw new Error('La traduction anglaise du Warg Racial Lore reste à valider.');
-  const translated=meta.localizations?.[lang];
-  return {text:translated?.text??entry.description,gmNote:translated?.gmNote??meta.gmNote};
+  // Warg major-race English was not approved in 2.0.18. Do not invent a
+  // translation or interrupt the GM workflow: deliver the existing French.
+  const frenchFallback=lang==='en'&&meta.englishTranslationStatus==='not-available';
+  const translated=meta.localizations?.[frenchFallback?'fr':lang];
+  if(frenchFallback&&!(typeof translated?.text==='string'&&translated.text.trim()))
+    throw new Error('Le texte français de ce Warg Racial Lore est introuvable.');
+  return {text:translated?.text??entry.description,
+    gmNote:translated?.gmNote??meta.gmNote,
+    fallbackLanguage:frenchFallback?'fr':null};
 }
 async function getTableEntries(creatureKey,loreKey,variantKey='*',family=null){
   const table=await getCreatureTable(creatureKey);
@@ -574,6 +612,7 @@ async function gmReview(complete,{automatic=false}={}) {
           <p>${escapeHTML(actor.name)} · ${escapeHTML(LORE[loreKey].label)} / ${escapeHTML(specialization)}</p>
           <p><strong>Degré RMU :</strong> ${escapeHTML(outcome)} · <strong>Variante :</strong> ${escapeHTML(family+' / '+variantKey)}</p>
           <p><strong>Fiabilité :</strong> ${escapeHTML(meta.reliability)} · ${escapeHTML(narrative.gmNote)}</p>
+          ${narrative.fallbackLanguage==='fr'?'<p><strong>Langue :</strong> texte français original, traduction anglaise du Warg Racial Lore en attente de validation.</p>':''}
           ${narrativeHTML(narrative.text)}
           <button class="merp-lore-gm-reveal" type="button">MJ · Vérifier / envoyer le MP narratif</button></section>`,
         flags:loreFlags({kind:'gm-review',requestId,playerRequestId:started.id,recipientId:requester.id,actorId:actor.id,

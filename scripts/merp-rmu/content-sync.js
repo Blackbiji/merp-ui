@@ -115,7 +115,17 @@ function plannedItemUpdate(document, source, language) {
   const patch = {};
   if (current.name !== localized.name) patch.name = localized.name;
   if (localized.img != null && current.img !== localized.img) patch.img = localized.img;
-  if (localized.system) addChangedLeaves(patch, 'system', current.system ?? {}, localized.system);
+  if (localized.system) {
+    // RMU Culture Items do not persist the editorial system.culture field.
+    // Writing it on every refresh produces sixty false post-write mismatches.
+    // Keep all supported RMU fields, descriptions and localised document names.
+    const supportedSystem = { ...localized.system };
+    if (localized.type === 'culture' &&
+        !Object.prototype.hasOwnProperty.call(current.system ?? {}, 'culture')) {
+      delete supportedSystem.culture;
+    }
+    addChangedLeaves(patch, 'system', current.system ?? {}, supportedSystem);
+  }
   // v2.0.5: synchronize only the approved race-match metadata. Previously
   // plannedItemUpdate copied system and names but never flags; existing
   // Compendium Race Items would miss dual-ancestry tags after an update.

@@ -1,10 +1,20 @@
-# MERP-ui 2.0.18
+# MERP-ui 2.0.19
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.18 (21 November 2026). Complete Wolf Lore is now available in French and British English, together with the author's validated Compendium banner correction. Eleven prebuilt Foundry Compendiums are included.
+**Release:** 2.0.19 (22 November 2026). Consolidated bilingual Wolf and Warg Creature Actors, Lore fixes, Culture synchronization, and Warg portrait/token artwork. Eleven prebuilt Foundry Compendiums are included.
+
+## 2.0.19 — Wolf/Warg names, multilingual descriptions and Culture synchronisation (22 November 2026)
+
+- **Loup / Wolf** and **Ouargue / Warg** display single-language names in Creature sheets, Compendium lists and standard World imports. Custom names remain unchanged.
+- Complete British-English and French Creature **Descriptions and Gamesmaster Notes** now follow the MERP-ui language selector, without altering the stored French source, embedded RMU links or Lore controls.
+- **Creature Lore:** restore Historic Lore skill selection for the Wolf, handle missing skill selections with a Foundry V14-supported dialog, and use the Warg's validated French Racial Lore text if its English equivalent remains unavailable.
+- **Culture Compendium:** repair the recurring 60 post-write audit discrepancies caused by RMU's omission of the non-persisted `system.culture` editorial field during FR/EN switches.
+- **Warg Image/Token:** use the Wolf's artwork as the portrait and token graphic, retaining the Warg's hostile disposition, native dimensions and name.
+- Consolidate only the approved files into one release (no separate installers or obsolete scripts). The eleven Foundry Compendiums, two Creature Lore RollTables (**535 Wolf + 520 Warg = 1,055 results**) and **55** embedded Creature Items are rebuilt and verified in CI.
+- The 60 major-race Warg Racial Lore results remain French-only until their English translation is reviewed. All third-party rights notices and dependencies remain in force.
 
 ## 2.0.18 — Wolf Lore VF / VO and missing Compendium banners
 

@@ -27,7 +27,7 @@ try{
  assert.equal(tables.length,2,'Official Foundry extractor must find 2 tables');
  assert.equal(actors.length,2,'Official Foundry extractor must find 2 Actors');
  assert.equal(folders.length,26,'Official Foundry extractor must find 26 folders');
- const counts=new Map([['wolf',235],['warg',520]]);
+ const counts=new Map([['wolf',535],['warg',520]]);
  for(const table of tables){
   const key=table.flags?.['merp-ui']?.creatureLoreTable?.creatureKey;
   assert.ok(counts.has(key),'Unexpected Lore species '+key);
@@ -37,11 +37,11 @@ try{
    &&row.flags?.['merp-ui']?.creatureLoreEntry?.creatureKey===key
    &&typeof row.description==='string'&&row.description.length>200),
    'Native TableResults are missing or not hydrated for '+key);
-  if(key==='warg'){
+  if(key==='wolf'||key==='warg'){
    const regions=new Set(table.results.filter(x=>
      x.flags?.['merp-ui']?.creatureLoreEntry?.loreKind==='region'
      ).map(x=>x.flags['merp-ui'].creatureLoreEntry.regionKey));
-   assert.equal(regions.size,32,'Foundry extractor does not see 32 Warg regions');
+   assert.equal(regions.size,32,'Foundry extractor does not see 32 '+key+' regions');
   }
  }
  let embeddedCount=0;
@@ -64,7 +64,7 @@ try{
  assert.equal(embeddedCount,55);
  console.log('Official Foundry CLI extraction: '+JSON.stringify({
   tables:tables.length,results:tables.reduce((a,x)=>a+x.results.length,0),
-  wargRegions:32,actors:actors.length,embeddedItems:embeddedCount,folders:folders.length,
+  regionsPerSpecies:32,actors:actors.length,embeddedItems:embeddedCount,folders:folders.length,
   wolfNotesRestored:true
  }));
 }finally{

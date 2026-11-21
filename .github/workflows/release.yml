@@ -57,6 +57,7 @@ jobs:
           node tools/publication/build-creature-folders.mjs
           node tools/publication/build-creature-actors.mjs
           node tools/publication/consolidate-creature-lore.mjs
+          node tools/publication/upgrade-wolf-lore-bilingual-2.0.18.mjs
           npm run compact:packs:offline
 
       - name: Validate the two Creature Actors, their Lore buttons and bestiary folders
@@ -65,7 +66,7 @@ jobs:
       - name: Verify a single RollTable per species and all Lore families
         if: steps.version.outputs.publish == 'true'
         run: npm run test:creature-lore
-      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 755 results)
+      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 1055 results)
         if: steps.version.outputs.publish == 'true'
         run: npm run verify:foundry-pack
       - name: Validate JavaScript syntax

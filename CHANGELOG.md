@@ -1,4 +1,13 @@
-# MERP-UI — Changelog
+# MERP-ui — Changelog
+
+## 2.0.17 — MERP-ui Compendium and Creature Lore UI (21 November 2026)
+
+- Consolidated the validated 2.0.17-test.1 interface and subsequent local display patches; no incremental ZIP dependencies.
+- Localized the eleven MERP-ui Compendium labels, folder heading and Rules presentation in French/English without changing technical IDs.
+- Fixed Creature Lore window controls and parchment contrast; localized Wolf and Warg table titles.
+- Removed 5.x/6.x chapter prefixes and doubled bilingual names from the 26 Bestiary folders without moving documents.
+- Preserved 235 Wolf + 520 Warg RollTable results, and 55 embedded Actor Items. Wolf's 235 texts remain French-only.
+
 
 ## 2.0.16 — Native Foundry compendium hydration and Wolf Notes fix (21 November 2026)
 

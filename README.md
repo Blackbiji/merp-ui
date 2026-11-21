@@ -1,10 +1,18 @@
-# MERP-UI / MERP-RMU 2.0.16
+# MERP-ui 2.0.17
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.16 (test prerelease, 21 November 2026). Foundry-compatible embedded RollTable results and Actor Items; Wolf Notes restored and Lore-link overlap fixed.
+**Release:** 2.0.17 (21 November 2026). The Foundry V14 Creature Lore presentation and bilingual Compendium naming corrections are consolidated in one module.
+
+## 2.0.17 — Compendium and Creature Lore UI
+
+- All eleven Compendium titles display **MERP-ui** in French and English.
+- Native Creature Lore RollTables have readable parchment styling and restored window-header icons.
+- The 26 Bestiary folders use the chosen content language, without chapter prefixes or bilingual duplicate captions.
+- The historic Rules presentation and parent Compendium folder display the MERP-ui name.
+- The 235 Wolf and 520 Warg results, their IDs, and the two Creature Actors are unchanged. Wolf Lore remains in French until English translations are approved.
 
 ## Test preview 2.0.16 — essential Foundry document fix
 

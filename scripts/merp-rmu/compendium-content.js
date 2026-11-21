@@ -335,15 +335,17 @@ export async function relocalizeImportedCompendiumItems({ notify = false } = {})
 
 
 const MERP_COMPENDIUM_LABELS = Object.freeze({
-  "merp-rmu-races": { fr: "MERP-RMU — Races", en: "MERP-RMU — Races" },
-  "merp-rmu-cultures": { fr: "MERP-RMU — Cultures", en: "MERP-RMU — Cultures" },
-  "merp-rmu-professions": { fr: "MERP-RMU — Professions", en: "MERP-RMU — Professions" },
-  "merp-rmu-skills": { fr: "MERP-RMU — Compétences", en: "MERP-RMU — Skills" },
-  "merp-rmu-spell-lists": { fr: "MERP-RMU — Listes de Sorts", en: "MERP-RMU — Spell Lists" },
-  "merp-rmu-talents-flaws": { fr: "MERP-RMU — Talents & Défauts", en: "MERP-RMU — Talents & Flaws" },
-  "merp-rmu-herbs": { fr: "MERP-RMU — Herbes & Substances", en: "MERP-RMU — Herbs & Substances" },
-  "merp-rmu-languages": { fr: "MERP-RMU — Langues", en: "MERP-RMU — Languages" },
-  "merp-rmu-rules": { fr: "MERP-RMU — Règles & Références", en: "MERP-RMU — Rules & References" }
+  "merp-rmu-races": { fr: "MERP-ui — Races", en: "MERP-ui — Races" },
+  "merp-rmu-cultures": { fr: "MERP-ui — Cultures", en: "MERP-ui — Cultures" },
+  "merp-rmu-professions": { fr: "MERP-ui — Professions", en: "MERP-ui — Professions" },
+  "merp-rmu-skills": { fr: "MERP-ui — Compétences", en: "MERP-ui — Skills" },
+  "merp-rmu-spell-lists": { fr: "MERP-ui — Listes de Sorts", en: "MERP-ui — Spell Lists" },
+  "merp-rmu-talents-flaws": { fr: "MERP-ui — Talents & Défauts", en: "MERP-ui — Talents & Flaws" },
+  "merp-rmu-herbs": { fr: "MERP-ui — Herbes & Substances", en: "MERP-ui — Herbs & Substances" },
+  "merp-rmu-languages": { fr: "MERP-ui — Langues", en: "MERP-ui — Languages" },
+  "merp-rmu-rules": { fr: "MERP-ui — Règles & Références", en: "MERP-ui — Rules & References" },
+  "merp-ui-lore": { fr: "MERP-ui — Connaissance des créatures", en: "MERP-ui — Creature Lore" },
+  "merp-ui-creatures": { fr: "MERP-ui — Bestiaire des Terres du Milieu", en: "MERP-ui — Creatures of Middle-earth" }
 });
 
 const MERP_COMPENDIUM_PACKS = [
@@ -357,6 +359,22 @@ const MERP_COMPENDIUM_PACKS = [
   "merp-rmu-languages",
   "merp-rmu-rules"
 ];
+
+// Names from module.json are intentionally canonical and may be bilingual.
+// Only what Foundry displays in a client is localized: never rewrite a pack,
+// UUID, RollTable or embedded TableResult.
+const MERP_ORIGINAL_BILINGUAL_LABELS = Object.freeze({
+  "merp-ui-lore": "Connaissance des Créatures / Creature Lore",
+  "merp-ui-creatures": "Bestiaire des Terres du Milieu / Creatures of Middle-earth"
+});
+const MERP_LORE_INDEX_TITLES = Object.freeze({
+  "Loup / Wolf — Creature Lore": {
+    fr: "Loup — Connaissance des créatures", en: "Wolf — Creature Lore"
+  },
+  "Warg / Ouargue — Creature Lore": {
+    fr: "Ouargue — Connaissance des créatures", en: "Warg — Creature Lore"
+  }
+});
 
 function modulePack(packName) {
   return game.packs?.get(`${MODULE_ID}.${packName}`)
@@ -834,7 +852,7 @@ function compendiumWindowPackName(app) {
  * Foundry V14 generates a Compendium window heading from app.title on EVERY
  * render. Repainting the DOM after render isn't sufficient: a subsequent
  * render can restore the untranslated label from module.json. Override the
- * application title GETTER, strictly for our nine packs, leaving every other
+ * application title GETTER, strictly for MERP-UI's eleven packs, leaving every other
  * compendium and all document windows untouched.
  *
  * This changes only the displayed label. No pack configuration or LevelDB
@@ -872,8 +890,9 @@ export function installLocalizedCompendiumWindowTitleGetter() {
 /** Repaint already-open Compendium windows when the MERP-UI language changes. */
 export function refreshLocalizedCompendiumWindowTitles({ language = contentLanguage() } = {}) {
   installLocalizedCompendiumWindowTitleGetter();
+  applyLocalizedCompendiumPackTitles(language);
   const candidates = new Set();
-  for (const name of MERP_COMPENDIUM_PACKS) {
+  for (const name of Object.keys(MERP_COMPENDIUM_LABELS)) {
     const pack = modulePack(name);
     const apps = pack?.apps;
     if (apps instanceof Map || apps instanceof Set) {
@@ -909,57 +928,280 @@ export function refreshLocalizedCompendiumWindowTitles({ language = contentLangu
   return { language, updated };
 }
 
+// Runtime-only pack titles: Foundry V14 renders the CompendiumDirectory from
+// CompendiumCollection.title, NOT by inspecting the old sidebar DOM labels.
+// Assign a getter to our own pack instances only; never call configure(),
+// update(), or change the metadata persisted by Foundry.
+const MERP_RUNTIME_TITLE = Symbol.for("merp-ui.compendium-display-title-v2");
+export function applyLocalizedCompendiumPackTitles(language = contentLanguage()) {
+  let updated = 0;
+  for (const packName of Object.keys(MERP_COMPENDIUM_LABELS)) {
+    const pack = modulePack(packName);
+    if (!pack) continue;
+    const label = localizedCompendiumLabel(packName, language);
+    if (!label) continue;
+
+    // The title getter is the API read by native V14 sidebar applications.
+    // Leave the original CompendiumCollection prototype untouched.
+    if (!pack[MERP_RUNTIME_TITLE]) {
+      try {
+        Object.defineProperty(pack, "title", {
+          configurable: true,
+          get() { return localizedCompendiumLabel(packName); }
+        });
+        Object.defineProperty(pack, MERP_RUNTIME_TITLE, { value: true });
+      } catch (error) {
+        console.warn(`${MODULE_ID} | Localized pack title getter unavailable for ${packName}`, error);
+      }
+    }
+    // Some native partials read metadata.label rather than pack.title.
+    // This is an in-memory UI field, not a module.json or database write.
+    try {
+      if (pack.metadata && pack.metadata.label !== label) pack.metadata.label = label;
+    } catch (_) { /* guarded by the instance title getter above */ }
+    updated++;
+  }
+  return { language, updated };
+}
+
+function merpCompendiumLabelAliases(language = contentLanguage()) {
+  const aliases = new Map();
+  // module.json still declares the legacy parent Pack Folder. Translate the
+  // *directory caption* only: renaming the physical Folder may duplicate it
+  // in existing Worlds and is not required to correct the sidebar.
+  aliases.set("MERP-RMU", "MERP-ui");
+  aliases.set("MERP-UI", "MERP-ui");
+  for (const [packName, names] of Object.entries(MERP_COMPENDIUM_LABELS)) {
+    const target = localizedCompendiumLabel(packName, language);
+    // Also recognize the nine unmodified module.json labels (MERP-RMU) and
+    // the previously displayed MERP-UI labels; change UI text only.
+    const oldLabels = [names.fr, names.en, MERP_ORIGINAL_BILINGUAL_LABELS[packName]];
+    for (const current of [names.fr, names.en]) {
+      oldLabels.push(current.replace(/^MERP-ui — /u, "MERP-RMU — "));
+      oldLabels.push(current.replace(/^MERP-ui — /u, "MERP-UI — "));
+    }
+    for (const oldName of oldLabels) {
+      if (oldName && oldName !== target) aliases.set(oldName, target);
+    }
+  }
+  return aliases;
+}
+
+function merpLoreIndexAliases(language = contentLanguage()) {
+  const aliases = new Map();
+  for (const [canonical, names] of Object.entries(MERP_LORE_INDEX_TITLES)) {
+    const localized = names[language === "en" ? "en" : "fr"];
+    for (const name of [canonical, names.fr, names.en]) {
+      if (name !== localized) aliases.set(name, localized);
+    }
+  }
+  return aliases;
+}
+
+// Text-node replacement keeps native Foundry icons, action buttons, anchors
+// and event handlers intact (setting element.textContent would destroy them).
+function repaintKnownCompendiumText(root, aliases) {
+  if (!root?.ownerDocument?.createTreeWalker || !aliases.size) return 0;
+  const walker = root.ownerDocument.createTreeWalker(root, 4); // SHOW_TEXT
+  const changes = [];
+  let node;
+  while ((node = walker.nextNode())) {
+    const raw = node.nodeValue ?? "";
+    const trimmed = raw.trim();
+    const target = aliases.get(trimmed);
+    if (!target || !trimmed) continue;
+    changes.push([node, raw.replace(trimmed, target)]);
+  }
+  for (const [textNode, value] of changes) textNode.nodeValue = value;
+  return changes.length;
+}
+
+// Foundry V14 can lazily replace a directory row after the initial render.
+// Install one observer per actual directory/root, with no polling and no
+// observer attached to document.body or unrelated applications.
+const MERP_LOCALE_OBSERVERS = new WeakMap();
+function watchCompendiumDisplay(root, getAliases) {
+  if (!root || typeof MutationObserver !== "function") return;
+  let observer = MERP_LOCALE_OBSERVERS.get(root);
+  if (observer) return;
+  observer = new MutationObserver(() => {
+    repaintKnownCompendiumText(root, getAliases());
+  });
+  observer.observe(root, { childList: true, characterData: true, subtree: true });
+  MERP_LOCALE_OBSERVERS.set(root, observer);
+}
+
 export function localizeCompendiumDirectoryLabels(
   html,
   { language = contentLanguage() } = {}
 ) {
   const root = htmlRoot(html);
   if (!root) return { updated: 0 };
+  applyLocalizedCompendiumPackTitles(language);
+  const updated = repaintKnownCompendiumText(root, merpCompendiumLabelAliases(language));
+  watchCompendiumDisplay(root, merpCompendiumLabelAliases);
+  return { updated };
+}
 
-  let updated = 0;
+function localizeLoreCompendiumIndex(app, html) {
+  if (compendiumWindowPackName(app) !== "merp-ui-lore") return;
+  const root = htmlRoot(app?.element) ?? htmlRoot(html);
+  if (!root) return;
+  repaintKnownCompendiumText(root, merpLoreIndexAliases());
+  watchCompendiumDisplay(root, merpLoreIndexAliases);
+}
 
-  for (const [packName] of Object.entries(MERP_COMPENDIUM_LABELS)) {
-    const collection = `${MODULE_ID}.${packName}`;
-    const label = localizedCompendiumLabel(packName, language);
-    if (!label) continue;
+// The original Rules pack retains legacy journal and folder names. Render
+// their labels using the selected MERP-ui *content* language, not Foundry's
+// interface language. Keep Folder IDs, Journal names, source flags and pages.
+const MERP_RULES_PRESENTATION_FR = "Présentation de MERP-ui";
+const MERP_RULES_PRESENTATION_EN = "MERP-ui Presentation";
+const MERP_RULES_PRESENTATION_ALIASES = [
+  "MERP-RMU Presentation",
+  "Présentation de MERP-RMU",
+  "Présentation de MERP - RMU",
+  MERP_RULES_PRESENTATION_FR,
+  MERP_RULES_PRESENTATION_EN
+];
 
-    const selectors = [
-      `[data-pack="${collection}"]`,
-      `[data-entry-id="${collection}"]`,
-      `[data-collection="${collection}"]`,
-      `[data-pack="${packName}"]`,
-      `[data-entry-id="${packName}"]`
-    ];
+export function localizedMerpRulesIndexName(name, language = contentLanguage()) {
+  const source = String(name ?? "");
+  const normalized = source.trim();
+  // Both source and Foundry output can use a hyphen, en dash or em dash.
+  const match = normalized.match(/^(0\s*[-–—]\s*)?(.+)$/u);
+  const leading = match?.[1] ?? "";
+  const value = match?.[2] ?? normalized;
+  if (!MERP_RULES_PRESENTATION_ALIASES.includes(value)) return source;
+  const target = language === "fr" ? MERP_RULES_PRESENTATION_FR : MERP_RULES_PRESENTATION_EN;
+  return `${leading}${target}`;
+}
 
-    const entries = new Set(
-      selectors.flatMap((selector) => [...root.querySelectorAll(selector)])
-    );
-
-    for (const entry of entries) {
-      const candidates = [
-        entry.querySelector(".compendium-name"),
-        entry.querySelector(".entry-name"),
-        entry.querySelector(".document-name"),
-        entry.querySelector("h3"),
-        entry.querySelector("h4"),
-        entry.querySelector("a")
-      ].filter(Boolean);
-
-      const target = candidates.find((element) => {
-        const text = String(element.textContent ?? "").trim();
-        return text.startsWith("MERP-RMU");
-      }) ?? candidates[0];
-
-      if (!target) continue;
-      if (target.textContent !== label) {
-        target.textContent = label;
-        updated += 1;
-      }
-      target.setAttribute("title", label);
+function merpRulesIndexAliases(language = contentLanguage()) {
+  const aliases = new Map();
+  for (const name of MERP_RULES_PRESENTATION_ALIASES) {
+    for (const variant of [name, `0 - ${name}`, `0 – ${name}`, `0 — ${name}`]) {
+      const translated = localizedMerpRulesIndexName(variant, language);
+      if (variant !== translated) aliases.set(variant, translated);
     }
   }
+  return aliases;
+}
 
-  return { updated };
+function localizeMerpRulesCompendiumIndex(app, html) {
+  if (compendiumWindowPackName(app) !== "merp-rmu-rules") return;
+  const root = htmlRoot(app?.element) ?? htmlRoot(html);
+  if (!root) return;
+  repaintKnownCompendiumText(root, merpRulesIndexAliases());
+  watchCompendiumDisplay(root, merpRulesIndexAliases);
+}
+
+// The native Bestiary keeps its source keys, folder documents and order.
+// Change only the labels rendered in the two sections (and their 24 subfolders),
+// using MERP-UI contentLanguage, not game.i18n.lang. No pack writes.
+const BESTIARY_FOLDER_NUMBER = /^(\s*)[56]\.\d+(?:\.\d+)*\s*[—–-]\s*/u;
+const BESTIARY_FOLDER_LABELS = [
+  { fr: "Bestiaire animal", en: "Animal Glossary" },
+  { fr: "Chauves-souris et Oiseaux", en: "Bats and Birds" },
+  { fr: "Animaux aquatiques", en: "Water Beasts" },
+  { fr: "Potili (Insectes et Araignées)", en: "Potili (Insects & Spiders)" },
+  { fr: "Rávatsar (Amphibiens et Reptiles)", en: "Rávatsar (Amphibians & Reptiles)" },
+  { fr: "Lassanakûni (Mangeurs de feuilles)", en: "Lassanakûni (Leaf-Eaters)" },
+  { fr: "Animaux de monte et de trait", en: "Riding and Draft Animals" },
+  { fr: "Apsanakûni (Carnivores)", en: "Apsanakûni (Meat-Eaters)" },
+  { fr: "Autres animaux dangereux", en: "Other Dangerous Animals" },
+  { fr: "Bestiaire monstrueux", en: "Monster Glossary" },
+  { fr: "Monstres aquatiques démoniaques", en: "Demonic Water Monsters" },
+  { fr: "Plantes animées", en: "Animate Plants" },
+  { fr: "Démons", en: "Demons" },
+  { fr: "Dragons", en: "Dragons" },
+  { fr: "Dragons des cavernes", en: "Cave-drakes" },
+  { fr: "Dragons froids", en: "Cold-drakes" },
+  { fr: "Dragons de feu", en: "Fire-drakes" },
+  { fr: "Dragons des eaux", en: "Water Drakes" },
+  { fr: "Vers-garous", en: "Were-worms" },
+  { fr: "Monstres volants", en: "Flying Monsters" },
+  { fr: "Races géantes", en: "Giant Races" },
+  { fr: "Géants", en: "Giants" },
+  { fr: "Trolls", en: "Trolls" },
+  { fr: "Créatures Pûkel", en: "Pûkel-creatures" },
+  { fr: "Araignées et Insectes géants", en: "Giant Spiders and Insects" },
+  { fr: "Êtres morts-vivants", en: "Undead Beings" },
+];
+// A reverse map also recognizes names already painted in FR or EN, so an
+// open compendium can switch language without needing to reopen its folders.
+const BESTIARY_FOLDER_NAMES = new Map();
+for (const entry of BESTIARY_FOLDER_LABELS) {
+  for (const variant of [entry.fr, entry.en,
+    `${entry.fr} / ${entry.en}`, `${entry.en} / ${entry.fr}`]) {
+    BESTIARY_FOLDER_NAMES.set(variant, entry);
+  }
+}
+
+export function unnumberedBestiaryFolderName(name, language = contentLanguage()) {
+  const raw = String(name ?? "");
+  const unnumbered = raw.replace(BESTIARY_FOLDER_NUMBER, "$1");
+  const candidate = unnumbered.trim();
+  const names = BESTIARY_FOLDER_NAMES.get(candidate);
+  if (!names) return unnumbered; // Still hide chapter numbers for future folders.
+  const result = names[language === "en" ? "en" : "fr"];
+  // Preserve whitespace around the original text node; only the caption
+  // changes, never the Foundry folder element or its icon/interaction DOM.
+  const leading = unnumbered.match(/^\s*/u)?.[0] ?? "";
+  const trailing = unnumbered.match(/\s*$/u)?.[0] ?? "";
+  return leading + result + trailing;
+}
+
+function repaintBestiaryFolderNames(root) {
+  if (!root?.ownerDocument?.createTreeWalker) return 0;
+  const walker = root.ownerDocument.createTreeWalker(root, 4); // SHOW_TEXT
+  const changes = [];
+  let node;
+  while ((node = walker.nextNode())) {
+    // Folder headers only: never change an Actor name, an index control or
+    // an unrelated Compendium. Foundry V13/V14 both use folder elements.
+    const folder = node.parentElement?.closest?.(
+      ".folder-header, .folder-name, .folder-title, .directory-item.folder, li.folder"
+    );
+    if (!folder) continue;
+    const source = node.nodeValue ?? "";
+    const next = unnumberedBestiaryFolderName(source);
+    if (next !== source) changes.push([node, next]);
+  }
+  for (const [node, next] of changes) node.nodeValue = next;
+  return changes.length;
+}
+
+const MERP_BESTIARY_FOLDER_OBSERVERS = new WeakMap();
+function watchBestiaryFolderNames(root) {
+  if (!root || typeof MutationObserver !== "function") return;
+  if (MERP_BESTIARY_FOLDER_OBSERVERS.has(root)) return;
+  const observer = new MutationObserver(() => {
+    repaintBestiaryFolderNames(root);
+  });
+  observer.observe(root, { childList: true, characterData: true, subtree: true });
+  MERP_BESTIARY_FOLDER_OBSERVERS.set(root, observer);
+}
+
+function localizeBestiaryCompendiumIndex(app, html) {
+  if (compendiumWindowPackName(app) !== "merp-ui-creatures") return;
+  const root = htmlRoot(app?.element) ?? htmlRoot(html);
+  if (!root) return;
+  repaintBestiaryFolderNames(root);
+  watchBestiaryFolderNames(root);
+}
+
+function refreshMerpCompendiumLabels() {
+  applyLocalizedCompendiumPackTitles();
+  const directory = ui?.compendium;
+  localizeCompendiumDirectoryLabels(directory?.element);
+  try { directory?.render?.({ force: true }); }
+  catch (_) { try { directory?.render?.(true); } catch (_) {} }
+  refreshLocalizedCompendiumWindowTitles();
+  for (const app of Object.values(ui?.windows ?? {})) {
+    localizeLoreCompendiumIndex(app, app?.element);
+    localizeBestiaryCompendiumIndex(app, app?.element);
+    localizeMerpRulesCompendiumIndex(app, app?.element);
+  }
 }
 
 /**
@@ -972,6 +1214,10 @@ function localizeOpenCompendiumTitle(app, html) {
   installLocalizedCompendiumWindowTitleGetter();
   const packName = compendiumWindowPackName(app);
   if (!packName) return;
+  applyLocalizedCompendiumPackTitles();
+  localizeLoreCompendiumIndex(app, html);
+  localizeBestiaryCompendiumIndex(app, html);
+  localizeMerpRulesCompendiumIndex(app, html);
 
   const pack = modulePack(packName);
   const root = htmlRoot(html);
@@ -979,7 +1225,7 @@ function localizeOpenCompendiumTitle(app, html) {
     ? app.element
     : root?.closest?.(".application") ?? null;
 
-  // RC3: marquer les neuf fenêtres MERP-RMU pour la typographie compacte.
+  // RC3: marquer les fenêtres des Compendiums MERP-UI pour la typographie compacte.
   // Ne jamais appliquer ce style aux compendiums RMU ou d’autres modules.
   frame?.classList?.add("merp-ui-compendium");
 
@@ -1011,14 +1257,25 @@ export function registerCompendiumContentHooks() {
   installLocalizedCompendiumWindowTitleGetter();
   Hooks.once("init", installLocalizedCompendiumWindowTitleGetter);
   Hooks.once("ready", installLocalizedCompendiumWindowTitleGetter);
+  Hooks.once("ready", () => {
+    // Run after game.packs and ui.compendium exist, including clean Worlds.
+    refreshMerpCompendiumLabels();
+  });
+  Hooks.on("updateSetting", (setting) => {
+    if (setting?.key !== `${MODULE_ID}.contentLanguage`) return;
+    queueMicrotask(refreshMerpCompendiumLabels);
+  });
 
   Hooks.on("renderCompendiumDirectory", (app, html) => {
-    localizeCompendiumDirectoryLabels(html);
+    localizeCompendiumDirectoryLabels(app?.element ?? html);
   });
 
   // Foundry V13/V14 compendium windows use ApplicationV2. Their window titles
   // are not always updated by the legacy renderCompendium hook.
   Hooks.on("renderApplicationV2", (app, html) => {
+    if (app === ui?.compendium || app?.constructor?.name === "CompendiumDirectory") {
+      localizeCompendiumDirectoryLabels(app?.element ?? html);
+    }
     if (app?.collection || app?.options?.collection) {
       localizeOpenCompendiumTitle(app, html);
     }

@@ -187,3 +187,65 @@
  .merp-ui-wolf-notes :is(h2,h3) {
   clear:both;
 }
+
+/* Readable native Creature Lore RollTables, without modifying the compendium. */
+:is(.application,.window-app).merp-ui-lore-table-window .window-header :is(button,.header-control,.window-control) {
+  font-family:var(--font-body,Arial,sans-serif) !important;
+  color:#f7efe3 !important;
+  min-width:1.7rem;
+  min-height:1.7rem;
+  padding:.2rem .35rem;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-header :is(.fa,.fas,.far,.fal,.fab,.fa-solid,.fa-regular,.fa-brands,[class^="fa-"],[class*=" fa-"]),
+:is(.application,.window-app).merp-ui-lore-table-window .window-header :is(.fa,.fas,.far,.fal,.fab,.fa-solid,.fa-regular,.fa-brands,[class^="fa-"],[class*=" fa-"])::before {
+  font-family:var(--font-awesome,"Font Awesome 6 Pro","Font Awesome 6 Free","Font Awesome 5 Free",FontAwesome) !important;
+  font-size:.95rem;
+  line-height:1 !important;
+  font-style:normal !important;
+  font-weight:900 !important;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-header .window-title {
+  font-family:var(--merp-font,"PragRoman",Georgia,serif) !important;
+  font-size:1.05rem;
+  line-height:1.25;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content :is(table,.table-results,.results,.table-result,.result,.result-row,[data-result-id]) {
+  color:var(--merp-lore-ink) !important;
+  background:var(--merp-lore-paper) !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content table {
+  width:100%;
+  table-layout:fixed;
+  border-collapse:collapse;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content table :is(th,td,tr) {
+  color:var(--merp-lore-ink) !important;
+  background:#f8f3e9 !important;
+  border-color:var(--merp-lore-rule) !important;
+  vertical-align:top;
+  overflow-wrap:break-word;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content table thead :is(th,td) {
+  background:#e6dbc9 !important;
+  font-weight:700;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content table tbody tr:nth-child(even) > * {
+  background:#eee7da !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content :is(.table-result,.result,.result-row,[data-result-id]) {
+  border-color:var(--merp-lore-rule) !important;
+  overflow-wrap:break-word;
+  white-space:normal !important;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content :is(.table-result,.result,.result-row,[data-result-id]) :is(p,span,div,strong,em) {
+  color:var(--merp-lore-ink) !important;
+  line-height:1.55;
+  white-space:normal;
+}
+:is(.application,.window-app).merp-ui-lore-table-window .window-content .table-results :is(button,.button) {
+  font-family:var(--merp-font,"PragRoman",Georgia,serif) !important;
+}

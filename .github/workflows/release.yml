@@ -57,7 +57,7 @@ jobs:
           node tools/publication/build-creature-folders.mjs
           node tools/publication/build-creature-actors.mjs
           node tools/publication/consolidate-creature-lore.mjs
-          node tools/publication/upgrade-wolf-lore-bilingual-2.0.19.mjs
+          node tools/publication/upgrade-wolf-lore-bilingual-2.0.18.mjs
           npm run compact:packs:offline
 
       - name: Validate the two Creature Actors, their Lore buttons and bestiary folders

@@ -39,7 +39,7 @@ test('the title changes in an already open sheet without changing persistent dat
   assert.equal(state.title, 'Table : Ouargue — Connaissance des créatures');
   assert.equal(heading.textContent, 'Ouargue — Connaissance des créatures');
   assert.equal(decorateMerpLoreTableWindow(a,[root],'en'), true);
-  assert.equal(state.title, 'Rollable Table : Warg — Creature Lore');
+  assert.equal(state.title, 'Rollable Table: Warg — Creature Lore');
   assert.equal(heading.textContent, 'Warg — Creature Lore');
   assert.equal(a.document.name, savedName);
   assert.ok(state.classes.has('merp-ui-lore-table-window'));

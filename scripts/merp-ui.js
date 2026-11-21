@@ -13,6 +13,7 @@ import { scheduleItemSheetMetadataLocalization } from "./merp-rmu/item-sheet-met
 import { applyCreationTalentTypography } from "./merp-rmu/creation-talents-typography.js";
 import { localizeDunedainCreationTalentRows } from "./merp-rmu/dunedain-racial-talents.js";
 import { decorateMerpCompendiumBrowser } from "./merp-rmu/compendium-browser-theme.js";
+import { decorateMerpLoreTableWindow } from "./merp-rmu/lore-table-window.js";
 
 const MODULE_ID = "merp-ui";
 const CATALOG_PATH = `modules/${MODULE_ID}/assets/catalog.json`;
@@ -1434,20 +1435,19 @@ Hooks.on("renderCompendium", themeMerpCompendiumWindow);
 // RollTable *document window*. Browser theming alone does not style it.
 // Only MERP-UI's Creature Lore tables are affected; no document edits.
 function themeMerpLoreTableWindow(app, html) {
-  const document = app?.document ?? app?.object ?? app?.options?.document;
-  const uuid = String(document?.uuid ?? "");
-  const pack = typeof document?.pack === "string" ? document.pack :
-    (document?.pack?.collection ?? document?.collection?.collection ?? "");
-  const rootId = String(app?.id ?? app?.options?.id ?? "");
-  const target = pack === "merp-ui.merp-ui-lore" ||
-    uuid.startsWith("Compendium.merp-ui.merp-ui-lore.RollTable.") ||
-    rootId.includes("merp-ui-lore");
-  if (!target || document?.documentName !== "RollTable") return;
-  for (const root of getApplicationRoots(app, html)) {
-    const outer = root.closest?.(".application, .window-app") ?? root;
-    outer?.classList?.add("merp-ui-lore-table-window");
-  }
+  decorateMerpLoreTableWindow(app, getApplicationRoots(app, html), contentLanguage());
 }
 Hooks.on("renderApplicationV2", themeMerpLoreTableWindow);
 Hooks.on("renderApplication", themeMerpLoreTableWindow);
 Hooks.on("renderRollTableSheet", themeMerpLoreTableWindow);
+
+// The MERP-UI setting can change while a Lore table is open.
+// Repaint the titles in place; never persist a translated RollTable name.
+Hooks.on("updateSetting", (setting) => {
+  if (setting?.key !== `${MODULE_ID}.contentLanguage`) return;
+  queueMicrotask(() => {
+    for (const openApp of Object.values(ui?.windows ?? {})) {
+      themeMerpLoreTableWindow(openApp, openApp?.element);
+    }
+  });
+});

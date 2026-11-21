@@ -32,7 +32,7 @@ export function decorateMerpLoreTableWindow(app, roots = [], language = 'fr') {
   if (!target) return false;
   const {document: doc, species} = target;
   const title = localizedMerpLoreTableTitle(species, language);
-  const prefix = language === 'en' ? 'Rollable Table' : 'Table';
+  const prefix = language === 'en' ? 'Rollable Table: ' : 'Table : ';
   const acceptedTitles = new Set([doc.name, ...Object.values(TITLES[species])]);
   const all = new Set(roots);
   const appElement = app?.element?.[0] ?? app?.element;
@@ -42,7 +42,7 @@ export function decorateMerpLoreTableWindow(app, roots = [], language = 'fr') {
     if (!outer?.classList) continue;
     outer.classList.add('merp-ui-lore-table-window');
     const windowTitle = outer.querySelector?.('.window-header .window-title');
-    if (windowTitle) windowTitle.textContent = `${prefix} : ${title}`;
+    if (windowTitle) windowTitle.textContent = `${prefix}${title}`;
     // Read-only native Foundry sheets show the document name as a heading.
     // Never alter editable inputs, the RollTable document or its stored name.
     for (const heading of outer.querySelectorAll?.('.window-content h1, .sheet-header h1, .window-content .document-name') ?? []) {

@@ -115,8 +115,8 @@ if(existsSync(compactionPath)){
     p.physicalAfter?.ldb>=1 && p.physicalAfter?.manifests===1),
     'Missing compendium contents or physical files after rebuild');
   check(audit.savedBytes>8000000,'Compendium rebuild saved less than 8 MB; refusing to publish without investigation');
-  check(audit.packs.find(p=>p.pack==='merp-ui-lore')?.logical?.types?.['!tables.results']===755,
-    'Expected 755 linked TableResult records for Foundry to hydrate');
+  check(audit.packs.find(p=>p.pack==='merp-ui-lore')?.logical?.types?.['!tables.results']===1055,
+    'Expected 1055 linked TableResult records for Foundry to hydrate');
   check(audit.packs.find(p=>p.pack==='merp-ui-lore')?.logical?.types?.['!tables']===2,
     'Expected one RollTable each for Wolf and Warg');
   check(audit.packs.find(p=>p.pack==='merp-ui-creatures')?.logical?.types?.['!folders']===26,

@@ -37,7 +37,7 @@ jobs:
             test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
           fi
           # Publish a versioned MERP-ui release directly from main.
-          test "$VERSION" = "2.0.17" || { echo "Unexpected version $VERSION"; exit 1; }
+          test "$VERSION" = "2.0.18" || { echo "Unexpected version $VERSION"; exit 1; }
           if gh release view "v$VERSION" >/dev/null 2>&1; then
             echo "publish=false" >> "$GITHUB_OUTPUT"
             echo "Version v$VERSION already published; no release changes made."
@@ -57,6 +57,7 @@ jobs:
           node tools/publication/build-creature-folders.mjs
           node tools/publication/build-creature-actors.mjs
           node tools/publication/consolidate-creature-lore.mjs
+          node tools/publication/upgrade-wolf-lore-bilingual-2.0.18.mjs
           npm run compact:packs:offline
 
       - name: Validate the two Creature Actors, their Lore buttons and bestiary folders
@@ -65,7 +66,7 @@ jobs:
       - name: Verify a single RollTable per species and all Lore families
         if: steps.version.outputs.publish == 'true'
         run: npm run test:creature-lore
-      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 755 results)
+      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 1055 results)
         if: steps.version.outputs.publish == 'true'
         run: npm run verify:foundry-pack
       - name: Validate JavaScript syntax
@@ -109,7 +110,7 @@ jobs:
           retention-days: 30
           compression-level: 0
 
-      - name: Create official v2.0.17 annotated tag on main
+      - name: Create official v2.0.18 annotated tag on main
         if: steps.version.outputs.publish == 'true' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
@@ -125,7 +126,7 @@ jobs:
               echo "Existing tag does not match the merged HEAD"; exit 1;
             }
           else
-            git tag -a "$TAG" -m "MERP-ui $VERSION — Localized compendiums and Creature Lore"
+            git tag -a "$TAG" -m "MERP-ui $VERSION — Wolf Lore VF/VO and Compendium banners"
             git push origin "refs/tags/$TAG"
           fi
 
@@ -141,8 +142,8 @@ jobs:
           ZIP="dist/merp-ui-$VERSION.zip"
           test -s "$ZIP"
           gh release create "$TAG" "$ZIP" \
-            --title "MERP-ui $VERSION — Compendium and Creature Lore UI" \
-            --notes-file ".github/release-notes/v2.0.17.md" \
+            --title "MERP-ui $VERSION — Wolf Lore VF/VO and Compendium banners" \
+            --notes-file ".github/release-notes/v2.0.18.md" \
             --latest \
             --verify-tag
           gh release view "$TAG" --json url,assets

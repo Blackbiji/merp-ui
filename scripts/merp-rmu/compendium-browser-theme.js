@@ -51,18 +51,29 @@ export function resolveMerpCompendiumBrowser(app, roots = [], packs = null) {
   // V14 can wrap the CompendiumCollection in a DirectoryCollection.
   // Fall back to matching the actual title against *known registered packs*,
   // never an untrusted title prefix alone.
-  const appTitle = text(app.title) || text(app.options?.window?.title);
-  if (!appTitle) return null;
+  // On some Foundry V13/V14 pack browser windows, app.title is absent
+  // while the displayed title is present inside the native compendium-name.
+  // Only exact matches against registered MERP-ui packs are accepted.
+  const titles = [
+    app.title, app.options?.window?.title,
+    ...roots.flatMap(root => [
+      root?.matches?.(".compendium-name") ? root.textContent : "",
+      root?.querySelector?.(".header-banner .compendium-name strong")?.textContent,
+      root?.querySelector?.(".directory-header .compendium-name strong")?.textContent,
+      root?.querySelector?.(".compendium-name strong")?.textContent
+    ])
+  ].map(text).filter(Boolean);
+  if (!titles.length) return null;
   const windows = roots.some(root =>
-    root?.matches?.(".application, .window-app") || root?.querySelector?.(".window-header")
+    root?.matches?.(".application, .window-app, .compendium-name") ||
+    root?.querySelector?.(".window-header, .directory-header.compendium-header")
   );
   if (!windows) return null;
   for (const pack of packList(packs)) {
     const id = packId(pack);
     if (!isMerpPackId(id)) continue;
-    if ([pack.title, pack.metadata?.label, pack.name].some(value => text(value) === appTitle)) {
-      return id;
-    }
+    if ([pack.title, pack.metadata?.label, pack.name].some(value =>
+      titles.includes(text(value)))) return id;
   }
   return null;
 }

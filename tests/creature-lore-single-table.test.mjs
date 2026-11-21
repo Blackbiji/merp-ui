@@ -34,8 +34,8 @@ const entries=tables.flatMap(({doc})=>(doc.results??[]).map(id=>{
 
 test('Two private RollTables and exactly one table per creature',()=>{
  assert.equal(tables.length,2);
- assert.equal(entries.length,755);
- assert.equal(separateResults.size,755,'Orphan or missing TableResult rows');
+ assert.equal(entries.length,1055);
+ assert.equal(separateResults.size,1055,'Orphan or missing TableResult rows');
  const names=tables.map(x=>x.doc.flags?.['merp-ui']?.creatureLoreTable?.creatureKey).sort();
  assert.deepEqual(names,['warg','wolf']);
  for(const {key,doc} of tables){
@@ -49,7 +49,7 @@ test('Two private RollTables and exactly one table per creature',()=>{
 });
 
 test('Every result is linked to its species and one of four Lore families',()=>{
- const expected={wolf:235,warg:520};
+ const expected={wolf:535,warg:520};
  for(const [creature,count] of Object.entries(expected)){
   const parent=tables.find(x=>x.doc.flags['merp-ui'].creatureLoreTable.creatureKey===creature);
   const subset=parent.doc.results.map(id=>{
@@ -85,12 +85,34 @@ test('Wolf and Warg semantic families are separate, with no bogus Warg Historic 
   const key=f.creatureKey+'/'+f.loreKind;counts[key]=(counts[key]??0)+1;
  }
  assert.equal(counts['wolf/historic'],5);
- assert.equal(counts['wolf/region'],5);
- assert.equal(counts['wolf/racial']+counts['wolf/cultural'],225);
+ assert.equal(counts['wolf/region'],160);
+ assert.equal(counts['wolf/racial'],65);
+ assert.equal(counts['wolf/cultural'],305);
+ assert.equal(counts['wolf/racial']+counts['wolf/cultural'],370);
  assert.equal(counts['warg/racial'],60);
  assert.equal(counts['warg/cultural'],300);
  assert.equal(counts['warg/region'],160);
  assert.equal(counts['warg/historic']??0,0);
+});
+
+test('Wolf all 535 results are bilingual; 32 regions, 12 races, 61 cultures and general',()=>{
+ const wolf=entries.filter(x=>x.doc.flags?.['merp-ui']?.creatureLoreEntry?.creatureKey==='wolf');
+ const groups={racial:new Set(),cultural:new Set(),region:new Set(),historic:new Set()};
+ for(const {doc} of wolf){
+  const f=doc.flags['merp-ui'].creatureLoreEntry;
+  const v=f.loreKind==='racial'?f.raceKey:
+    f.loreKind==='cultural'?f.cultureKey:
+    f.loreKind==='region'?f.regionKey:'*';
+  groups[f.loreKind].add(v);
+  assert.ok(f.localizations?.fr?.text?.length>150);
+  assert.ok(f.localizations?.en?.text?.length>150);
+  assert.equal(doc.description,f.localizations.en.text);
+  assert.ok(f.localizations.fr.gmNote&&f.localizations.en.gmNote);
+  assert.ok(['errone','exact'].includes(f.reliability));
+  assert.equal(f.reliability,['absoluteFailure','failure'].includes(f.outcome)?'errone':'exact');
+ }
+ assert.deepEqual(Object.fromEntries(Object.entries(groups).map(([k,v])=>[k,v.size])),
+   {racial:13,cultural:61,region:32,historic:1});
 });
 
 test('All 455 prior Warg English narratives are unmodified',()=>{

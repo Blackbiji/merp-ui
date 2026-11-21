@@ -394,7 +394,7 @@ async function pickRacialVariant(actor,creatureKey,specialization,{automatic=fal
       normalizedTopic(key.replace(/^culture-/,'').replace(/-/g,' '))===name);
     if(matched.length===1)return {kind:'cultural',key:matched[0][0]};
   }
-  if(creatureKey==='wolf'&&races.has('*'))return {kind:'racial',key:'*'};
+  if(creatureKey==='wolf'&&races.has('*')&&automatic)return {kind:'racial',key:'*'};
   if(automatic)return null;
   const choices=[
     ...[...races].map(([key,label])=>({key:'racial:'+key,label:'Race — '+label})),
@@ -412,12 +412,12 @@ async function pickRacialVariant(actor,creatureKey,specialization,{automatic=fal
 }
 
 /**
- * Warg regional knowledge has 31 specific variants, unlike the Wolf's
- * existing general Region Lore. Choose by native RMU specialization when
- * unambiguous; otherwise ask the GM. Never send a random regional result.
+ * Both Wolf and Warg now have 32 regional variants. Match the RMU
+ * specialisation when unambiguous; otherwise ask the GM rather than
+ * supplying a result from a random neighbouring region.
  */
-async function pickWargRegion(specialization,{automatic=false}={}) {
-  const table=await getCreatureTable('warg');
+async function pickCreatureRegion(creatureKey,specialization,{automatic=false}={}) {
+  const table=await getCreatureTable(creatureKey);
   const regions=new Map();
   for(const entry of table.results){
     if(loreFamily(entry)!=='region')continue;
@@ -426,7 +426,7 @@ async function pickWargRegion(specialization,{automatic=false}={}) {
       regions.set(meta.regionKey,{key:meta.regionKey,label:(loreLanguage()==='fr'?meta.regionLabelFr:null)||meta.regionLabel||meta.regionKey});
   }
   const options=[...regions.values()].sort((a,b)=>a.label.localeCompare(b.label,'en'));
-  if(options.length!==32)throw new Error('Warg Region Lore: 32 regional variants expected.');
+  if(options.length!==32)throw new Error(creatureKey+' Region Lore: 32 regional variants expected.');
   const normalise=value=>norm(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'')
     .replace(/^region lore\s*[:\/\-]?\s*/,'').trim();
   const desired=normalise(specialization);
@@ -439,7 +439,7 @@ async function pickWargRegion(specialization,{automatic=false}={}) {
   if(matches.length===1)return matches[0].key;
   if(automatic)return null;
   const chosen=await chooseOption({
-    title:'Region Lore — Warg',lead:'Sélectionne le territoire correspondant au savoir du personnage.',
+    title:'Region Lore — '+(creatureKey==='wolf'?'Loup':'Warg'),lead:'Sélectionne le territoire correspondant au savoir du personnage.',
     items:options,ok:'Consulter la région',
     foot:'Cette sélection ne modifie pas le résultat du jet RMU.'
   });
@@ -556,8 +556,8 @@ async function gmReview(complete,{automatic=false}={}) {
       }
       variantKey=chosen.key;family=chosen.kind;
     }
-    if(loreKey==='region'&&creatureKey==='warg'){
-      variantKey=await pickWargRegion(specialization,{automatic});
+    if(loreKey==='region'&&['wolf','warg'].includes(creatureKey)){
+      variantKey=await pickCreatureRegion(creatureKey,specialization,{automatic});
       if(!variantKey)return false;
     }
     const {table,results}=await getTableEntries(creatureKey,loreKey,variantKey,family);

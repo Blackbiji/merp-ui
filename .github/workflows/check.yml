@@ -3,7 +3,7 @@ name: MERP-UI release validation
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, staging/wolf-warg-lore-vf-en-20261121]
 
 jobs:
   release-consistency:
@@ -24,12 +24,13 @@ jobs:
           node tools/publication/build-creature-folders.mjs
           node tools/publication/build-creature-actors.mjs
           node tools/publication/consolidate-creature-lore.mjs
+          node tools/publication/upgrade-wolf-lore-bilingual-2.0.18.mjs
           npm run compact:packs:offline
       - name: Validate the two Creature Actors, their Lore buttons and bestiary folders
         run: npm run test:creatures
       - name: Verify a single RollTable per species and all Lore families
         run: npm run test:creature-lore
-      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 755 results)
+      - name: Official Foundry CLI extract-and-reconstruct test (2 Actors, 55 Items, 2 Tables, 1055 results)
         run: npm run verify:foundry-pack
       - name: JavaScript syntax
         run: find scripts tools/publication -type f \( -name '*.js' -o -name '*.mjs' \) -print0 | xargs -0 -n 1 node --check

@@ -478,6 +478,63 @@
   text-shadow: 0 1px 4px #04070a !important;
 }
 
+/* Fallback for MERP-ui Compendium headers without Foundry's native
+ * .header-banner. Item, Actor and RollTable browsers can put their title
+ * directly in .compendium-name. Reuse the established Minas Tirith artwork,
+ * without creating a second banner in JournalEntry compendiums.
+ * Strictly scoped to MERP-ui pack browser windows.
+ */
+.merp-ui-compendium-browser :is(.directory-header,.compendium-header)
+  .compendium-name:not(.header-banner .compendium-name) {
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  min-height: 106px !important;
+  margin: 0 !important;
+  padding: 15px 12px !important;
+  border: 0 !important;
+  background-color: #19212a !important;
+  background-image:
+    linear-gradient(90deg,rgba(9,13,19,.80),rgba(11,15,20,.48) 48%,rgba(9,13,19,.58)),
+    var(--merp-c-art) !important;
+  background-size: 100% 100%, cover !important;
+  background-position: center center,66% 44% !important;
+  background-repeat: no-repeat !important;
+  text-align: center !important;
+  color: #fff7eb !important;
+  overflow: hidden !important;
+  isolation: isolate !important;
+}
+.merp-ui-compendium-browser :is(.directory-header,.compendium-header)
+  .compendium-name:not(.header-banner .compendium-name)
+  :is(strong,.ellipsis,i,.fa-solid,.fa-regular,.fa) {
+  max-width: 100% !important;
+  min-width: 0 !important;
+  color: #fff7eb !important;
+  -webkit-text-fill-color: #fff7eb !important;
+  font: 700 17px/1.2 var(--merp-c-font) !important;
+  text-shadow: 0 1px 4px #04070a !important;
+}
+.merp-ui-compendium-browser :is(.directory-header,.compendium-header)
+  .compendium-name:not(.header-banner .compendium-name) strong {
+  display: block !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+}
+.merp-ui-compendium-browser :is(.directory-header,.compendium-header)
+  .compendium-name:not(.header-banner .compendium-name) i {
+  font-family: "Font Awesome 6 Pro","Font Awesome 6 Free",FontAwesome !important;
+  font-style: normal !important;
+  font-weight: 900 !important;
+}
+
 /* RC5 follow-up — some Foundry themes inject the pack artwork as a real media
  * node inside .header-banner (img/picture/video/canvas), not only as a CSS
  * background. That produces a "double illustration" effect with our Minas

@@ -1,10 +1,22 @@
-# MERP-ui 2.0.17
+# MERP-ui 2.0.18
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.17 (21 November 2026). The Foundry V14 Creature Lore presentation and bilingual Compendium naming corrections are consolidated in one module.
+**Release:** 2.0.18 (21 November 2026). Complete Wolf Lore is now available in French and British English, together with the author's validated Compendium banner correction. Eleven prebuilt Foundry Compendiums are included.
+
+## 2.0.18 — Wolf Lore VF / VO and missing Compendium banners
+
+- **Wolf / Loup:** one existing RollTable, now holding **535 bilingual results**: 12 major races (60), 62 general/cultural specialisations (310), 32 regions (160) and Historic Lore (5).
+- Preserve the prior 235 Wolf result IDs and add 300 deterministic results; keep separate player-visible narratives and Gamesmaster-only verification notes in both languages. False information remains confined to the two RMU failure outcomes, without warning the player.
+- **Warg / Ouargue:** preserve the existing 520 results, RollTable ID and mechanics. Its 60 major-race results are still awaiting English translations; Arthedain's English text remains marked for editorial review.
+- Offer the appropriate regional specialisation for both wolves and Wargs, rather than selecting a random region. Native RMU skill tests and secrecy remain unchanged.
+- Correct missing illustrated Compendium headers: use the existing banner design directly on `.compendium-name` when Foundry does not supply a native `.header-banner`, without duplicating Journal compendium banners.
+- Automatic Foundry extract/reconstruct, LevelDB integrity, JavaScript regression tests and the full installable ZIP have been validated. The author has confirmed that the new header patch works in Foundry.
+
+**Compatibility:** Foundry V13–V14, using the official Rolemaster Unified system (verified RMU 1.4.99). MERP-ui remains an unofficial, free fan add-on and does not include an RMU licence or any permission from Middle-earth rights holders; see [NOTICE.md](NOTICE.md).
+
 
 ## 2.0.17 — Compendium and Creature Lore UI
 

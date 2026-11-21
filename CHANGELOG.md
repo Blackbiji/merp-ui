@@ -1,5 +1,16 @@
 # MERP-ui — Changelog
 
+## 2.0.18 — Wolf Lore VF / VO and Compendium banner correction (21 November 2026)
+
+- Complete the Wolf's original French/English literary knowledge for 12 races (60 outcomes), 62 general and cultural specialisations (310), 32 regions (160) and Historic Lore (5): 535 RMU results in one native Foundry RollTable.
+- Preserve all 235 existing Wolf TableResult IDs and the parent table UUID; add 300 new entries with deterministic IDs and independent FR/EN Gamesmaster-only verification notes.
+- Retain the Warg RollTable and all 520 existing outcomes byte-for-byte. Warg major-race English translations and Arthedain editorial review are explicitly not part of this update.
+- Extend the regional Lore selector to Wolf as well as Warg while retaining native RMU skill rolls and GM-only visibility.
+- Restore an illustrated banner directly on `.compendium-name` for MERP-ui Compendium windows without Foundry's native `.header-banner`; leave existing Journal banners unchanged. Author tested and validated the patch in Foundry.
+- CI checks the 11 LevelDB Compendiums, 2 RollTables and 1,055 embedded TableResults using Foundry's official extractor, plus both Creature Actors and their 55 embedded Items. Publication is one complete installable ZIP, without separate patches.
+- This remains unofficial, non-commercial fan content; third-party rights remain governed by NOTICE.md and the existing publication checklist.
+
+
 ## 2.0.17 — MERP-ui Compendium and Creature Lore UI (21 November 2026)
 
 - Consolidated the validated 2.0.17-test.1 interface and subsequent local display patches; no incremental ZIP dependencies.

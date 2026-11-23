@@ -1,5 +1,11 @@
 # MERP-ui — Changelog
 
+## 2.0.20 — Race, Culture and Profession Compendium reference buttons (23 November 2026)
+
+- Fix missing Culture and Profession description links during RMU character creation: the buttons now appear immediately when their identity Items are added, without requiring FINISH and reopening the Actor sheet.
+- Reconcile the toolbar after Race/Culture/Profession additions and removals, preserving button order (Race · Culture · Profession), French/English labels and read-only Compendium access.
+- Keep RMU character creation mechanics, existing Actors, and the eleven Compendiums unchanged. This is a maintenance patch on the 2.0.19 release.
+
 ## 2.0.19 — Wolf/Warg names, multilingual descriptions and Culture synchronisation (22 November 2026)
 
 - **Loup / Wolf** and **Ouargue / Warg** display single-language names in Creature sheets, Compendium lists and standard World imports. Custom names remain unchanged.

@@ -1,10 +1,16 @@
-# MERP-ui 2.0.19
+# MERP-ui 2.0.20
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.19 (22 November 2026). Consolidated bilingual Wolf and Warg Creature Actors, Lore fixes, Culture synchronization, and Warg portrait/token artwork. Eleven prebuilt Foundry Compendiums are included.
+**Release:** 2.0.20 (23 November 2026). Fix Race, Culture and Profession Compendium description buttons during RMU character creation. The existing 2.0.19 content and eleven prebuilt Foundry Compendiums are retained.
+
+## 2.0.20 — Race, Culture and Profession descriptions during creation (23 November 2026)
+
+- Show the Race, Culture and Profession Compendium description buttons as their Items are added in the RMU character creation workflow, without waiting for FINISH or reopening the sheet.
+- Update an existing toolbar as the character's identity changes; preserve button order, language, existing read-only descriptions and RMU mechanics.
+- This patch release retains all content and fixes from 2.0.19, including the eleven native Foundry Compendiums.
 
 ## 2.0.19 — Wolf/Warg names, multilingual descriptions and Culture synchronisation (22 November 2026)
 

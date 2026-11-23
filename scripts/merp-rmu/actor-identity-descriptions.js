@@ -1,5 +1,6 @@
 /**
- * MERP-UI — Race, Culture and Profession descriptions on finished RMU Actors.
+ * MERP-UI — Race, Culture and Profession descriptions on RMU Actors,
+ * including during character creation.
  * Read-only, on-demand access to MERP compendiums. Never caches large texts
  * in the Actor or changes game rules / the Actor's embedded Item documents.
  * Foundry V14 / RMU 1.4.99, validated by the author.
@@ -204,48 +205,87 @@ function placeToolbar(root, toolbar) {
   return true;
 }
 
+function makeReferenceButton(actor, type) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "merp-ui-identity-reference-button";
+  button.dataset.merpIdentityType = type;
+  const icon = document.createElement("i");
+  icon.className = "fa-solid fa-book-open";
+  icon.setAttribute("aria-hidden", "true");
+  const text = document.createElement("span");
+  button.append(icon, text);
+  button.addEventListener("click", event => {
+    event.preventDefault();
+    event.stopPropagation();
+    showDescription(actor, type);
+  });
+  return button;
+}
+
 function installLinks(app, html) {
   const actor = getActor(app);
   const root = getRoot(app, html);
   if (!actor || !root || game.system?.id !== "rmu") return;
+
+  // The RMU creation flow embeds Race, Culture and Profession one at a time.
+  // A toolbar created after Race must be reconciled, not treated as complete.
   const present = Object.keys(TYPES).filter(type =>
     actor.items?.some(item => String(item.type).toLowerCase() === type)
   );
-  if (!present.length) return;
-  const existing = root.querySelector(`.${TOOLBAR_CLASS}`);
-  if (existing) {
-    placeToolbar(root, existing);
+  let toolbar = root.querySelector(`.${TOOLBAR_CLASS}`);
+  if (!present.length) {
+    toolbar?.remove();
     return;
   }
-
-  const toolbar = document.createElement("div");
-  toolbar.className = TOOLBAR_CLASS;
-  toolbar.setAttribute("role", "group");
+  if (!toolbar) {
+    toolbar = document.createElement("div");
+    toolbar.className = TOOLBAR_CLASS;
+    toolbar.setAttribute("role", "group");
+  }
   toolbar.setAttribute("aria-label", lang() === "fr" ? "Descriptions du personnage" : "Character descriptions");
 
-  for (const type of present) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "merp-ui-identity-reference-button";
-    button.setAttribute("aria-label", lang() === "fr"
+  // Reuse existing buttons (and their listeners) while adding/removing only
+  // identity types whose embedded Items changed. Keep Race/Culture/Profession
+  // in their fixed order regardless of the order chosen in the RMU wizard.
+  for (const button of toolbar.querySelectorAll("[data-merp-identity-type]")) {
+    if (!present.includes(button.dataset.merpIdentityType)) button.remove();
+  }
+  for (const [index, type] of present.entries()) {
+    let button = [...toolbar.children].find(node => node.dataset?.merpIdentityType === type);
+    if (!button) button = makeReferenceButton(actor, type);
+    const label = lang() === "fr"
       ? `Lire la description : ${TYPES[type].fr}`
-      : `Read description: ${TYPES[type].en}`);
-    button.title = button.getAttribute("aria-label");
-    const icon = document.createElement("i");
-    icon.className = "fa-solid fa-book-open";
-    icon.setAttribute("aria-hidden", "true");
-    const text = document.createElement("span");
-    text.textContent = TYPES[type][lang()];
-    button.append(icon, text);
-    button.addEventListener("click", event => {
-      event.preventDefault();
-      event.stopPropagation();
-      showDescription(actor, type);
-    });
-    toolbar.append(button);
+      : `Read description: ${TYPES[type].en}`;
+    button.setAttribute("aria-label", label);
+    button.title = label;
+    const text = button.querySelector("span");
+    if (text) text.textContent = TYPES[type][lang()];
+    // Avoid moving an already correctly ordered node on every render.
+    if (toolbar.children[index] !== button) {
+      toolbar.insertBefore(button, toolbar.children[index] ?? null);
+    }
   }
   placeToolbar(root, toolbar);
 }
 
+// Character creation may add embedded Items without a full Actor sheet render.
+// Refresh the visible toolbar immediately, without rendering/reopening the
+// sheet or altering RMU's Items and creation workflow.
+function refreshActorLinksForItem(item) {
+  const actor = item?.parent;
+  if (actor?.documentName !== "Actor" || actor.type !== "character" ||
+      !Object.hasOwn(TYPES, String(item.type).toLowerCase())) return;
+  queueMicrotask(() => {
+    const apps = new Set(Object.values(ui.windows ?? {}));
+    if (actor.sheet?.rendered) apps.add(actor.sheet);
+    for (const app of apps) {
+      if (getActor(app)?.id === actor.id) installLinks(app);
+    }
+  });
+}
+
 Hooks.on("renderApplicationV2", installLinks);
 Hooks.on("renderActorSheet", installLinks);
+Hooks.on("createItem", refreshActorLinksForItem);
+Hooks.on("deleteItem", refreshActorLinksForItem);

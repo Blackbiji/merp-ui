@@ -10,8 +10,7 @@ const locale = read('scripts/merp-rmu/creature-localization.js');
 const sync = read('scripts/merp-rmu/content-sync.js');
 const module = JSON.parse(read('module.json'));
 
-test('2.0.19 uses the single working creature localiser', () => {
-  assert.equal(module.version,'2.0.19');
+test('the working creature localiser remains installed across release versions', () => {
   assert.match(script,/import \{ installCreatureActorLocalisation \} from '\.\/creature-localization\.js';/);
   assert.match(script,/installCreatureActorLocalisation\(\)/);
   assert.ok(!script.includes('DialogV2.alert'));

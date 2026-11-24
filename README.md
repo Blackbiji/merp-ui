@@ -1,10 +1,17 @@
-# MERP-ui 2.0.20
+# MERP-ui 2.0.21
 
 **MERP-UI** is a free, unofficial, non-commercial English/French module for **Foundry Virtual Tabletop**, designed to bring Middle-earth-oriented content to the **Rolemaster Unified (RMU)** system. RMU remains the rules engine: MERP-UI provides supplemental content, presentation and localization rather than replacing RMU.
 
 > **Rights and naming.** **Rolemaster Unified (RMU)** is a copyrighted and trademarked property of **Iron Crown Enterprises Ltd (ICE)**. **MERP-RMU** is used purely as a **descriptive title**, without any intention of challenging ICE's rights. This is an **unofficial** fan add-on: it is not authorised, licensed, affiliated with or endorsed by ICE or by Tolkien/Middle-earth rights holders. ICE's rights in RMU do not constitute permission to use Middle-earth material. See [NOTICE.md](NOTICE.md) and the [next-release rights checklist](docs/RIGHTS-CHECKLIST-NEXT-RELEASE.md).
 
-**Release:** 2.0.20 (23 November 2026). Fix Race, Culture and Profession Compendium description buttons during RMU character creation. The existing 2.0.19 content and eleven prebuilt Foundry Compendiums are retained.
+**Release:** 2.0.21 (24 November 2026). Fix redundant Race/Culture/Profession descriptions and historical variants in newly created RMU Actors. The eleven prebuilt Foundry Compendiums and earlier releases are retained.
+
+## 2.0.21 — Lightweight Actor identities (24 November 2026)
+
+- Fix the Race, Culture and Profession compaction during RMU character creation and replacement, including the automatically inserted Humans (Hildor) Race.
+- Remove redundant literary descriptions and both historical/bilingual metadata formats (\`ageVariants\`, \`localizations\`, \`compendiumAgeVariants\`, \`compendiumLocalizations\`) from embedded MERP-ui identity Items after the selected Age and RMU mechanics have been resolved.
+- Retain all character statistics, skills, talents, equipment, Item IDs and Compendium references; the existing reference buttons continue to read full French/English descriptions from the Compendiums on demand.
+- Existing World Actors are not automatically migrated. The eleven permanent native Foundry Compendiums and all prior content remain unchanged.
 
 ## 2.0.20 — Race, Culture and Profession descriptions during creation (23 November 2026)
 

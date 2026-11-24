@@ -6,15 +6,30 @@
  */
 const MODULE_ID = "merp-ui";
 const IDENTITY_TYPES = new Set(["race", "culture", "profession"]);
-const BULKY_FLAGS = ["compendiumAgeVariants", "compendiumLocalizations"];
-const MAX_EMBEDDED_DESCRIPTION_CHARS = 4096;
+
+// Both formats exist in the MERP-ui Compendium source documents:
+//  - compendiumAgeVariants / compendiumLocalizations: generated metadata
+//  - ageVariants / localizations: legacy/editorial source metadata
+// Dropping only the former left complete literary chapters in newly created
+// Actors, notably their automatic initial Humans (Hildor) Race.
+const BULKY_FLAGS = [
+  "compendiumAgeVariants",
+  "compendiumLocalizations",
+  "ageVariants",
+  "localizations"
+];
+
+function isManagedIdentity(data) {
+  if (!data || !IDENTITY_TYPES.has(data.type)) return false;
+  const flags = data.flags?.[MODULE_ID];
+  return Boolean(flags && typeof flags === "object" &&
+    (flags.compendiumPack || flags.compendiumSourceKey));
+}
 
 /** Pure data transformer. A null result means no changes are necessary. */
 export function compactEmbeddedIdentityData(data) {
-  if (!data || !IDENTITY_TYPES.has(data.type)) return null;
-  const flags = data.flags?.[MODULE_ID];
-  if (!flags || typeof flags !== "object") return null;
-  if (!flags.compendiumPack && !flags.compendiumSourceKey) return null;
+  if (!isManagedIdentity(data)) return null;
+  const flags = data.flags[MODULE_ID];
   const compact = { ...flags };
   let changed = false;
   for (const field of BULKY_FLAGS) {
@@ -29,11 +44,12 @@ export function compactEmbeddedIdentityData(data) {
     delete compact.nativeProfessionDefinition;
     changed = true;
   }
-  // The on-demand reader obtains the full literary description from its
-  // Compendium. Retain short notes, not a whole chapter copied into each Actor.
-  const description = data.system?.description;
-  const trimDescription = typeof description === "string" &&
-    description.length > MAX_EMBEDDED_DESCRIPTION_CHARS;
+
+  // Managed identity descriptions are reference text: the Race, Culture and
+  // Profession sheet buttons read them from the Compendium on demand. Never
+  // duplicate any length of this text in the Actor (including short entries).
+  const trimDescription = typeof data.system?.description === "string" &&
+    data.system.description.length > 0;
   if (!changed && !trimDescription) return null;
   return {
     ...data,
@@ -59,18 +75,15 @@ export function compactPendingActorIdentities(actor) {
 /** Compact an Item after the native MERP/RMU materialization has finished. */
 export async function compactCreatedActorIdentity(item) {
   if (!item?.parent || item.parent.documentName !== "Actor" ||
-      !IDENTITY_TYPES.has(item.type)) return { compacted: false };
-  const flags = item.flags?.[MODULE_ID];
-  if (!flags || (!flags.compendiumPack && !flags.compendiumSourceKey)) {
-    return { compacted: false };
-  }
+      !isManagedIdentity(item)) return { compacted: false };
+  const flags = item.flags[MODULE_ID];
   const removals = BULKY_FLAGS.filter(key => Object.hasOwn(flags, key));
   if (item.type === "profession" && flags.resolvedFromCompendium &&
       Object.hasOwn(flags, "nativeProfessionDefinition")) {
     removals.push("nativeProfessionDefinition");
   }
   const trimDescription = typeof item.system?.description === "string" &&
-    item.system.description.length > MAX_EMBEDDED_DESCRIPTION_CHARS;
+    item.system.description.length > 0;
   if (!removals.length && !trimDescription) return { compacted: false };
   const changes = {};
   if (trimDescription) changes["system.description"] = "";
@@ -84,6 +97,9 @@ export async function compactCreatedActorIdentity(item) {
   const remaining = removals.filter(key => Object.hasOwn(item.flags?.[MODULE_ID] ?? {}, key));
   if (remaining.length) {
     throw new Error(`Compactage incomplet pour ${item.name}: ${remaining.join(", ")}`);
+  }
+  if (trimDescription && item.system?.description) {
+    throw new Error(`Compactage incomplet pour ${item.name}: system.description`);
   }
   return { compacted: true, removed: removals, descriptionTrimmed: trimDescription };
 }

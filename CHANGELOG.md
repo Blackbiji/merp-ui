@@ -1,5 +1,13 @@
 # MERP-ui — Changelog
 
+## 2.0.21 — Lightweight Race, Culture and Profession Items (24 November 2026)
+
+- Fix an incomplete 2.0.6 Actor-identity compactor: both generated \`compendiumAgeVariants\` / \`compendiumLocalizations\` and source \`ageVariants\` / \`localizations\` flags are removed from *embedded* MERP-ui Race, Culture and Profession Items.
+- Omit \`system.description\` regardless of length; the existing Race/Culture/Profession reference buttons retrieve French/English and Age-specific descriptions directly from the Compendiums.
+- Cover default Hildor injection, Actor creation and subsequent identity selection; preserve selected campaign Age, RMU mechanics and Compendium source IDs.
+- Preserve Compendium documents, World standalone Items, equipment and existing Actors (no silent migration).
+- Add regression tests for legacy metadata, short descriptions, post-materialisation cleanup and idempotence. Author-tested the focused local patch in Foundry before release.
+
 ## 2.0.20 — Race, Culture and Profession Compendium reference buttons (23 November 2026)
 
 - Fix missing Culture and Profession description links during RMU character creation: the buttons now appear immediately when their identity Items are added, without requiring FINISH and reopening the Actor sheet.

@@ -37,7 +37,7 @@ jobs:
             test "$GITHUB_REF_NAME" = "v$VERSION" || { echo "Tag/version mismatch"; exit 1; }
           fi
           # Publish a versioned MERP-ui release directly from main.
-          test "$VERSION" = "2.0.20" || { echo "Unexpected version $VERSION"; exit 1; }
+          test "$VERSION" = "2.0.21" || { echo "Unexpected version $VERSION"; exit 1; }
           if gh release view "v$VERSION" >/dev/null 2>&1; then
             echo "publish=false" >> "$GITHUB_OUTPUT"
             echo "Version v$VERSION already published; no release changes made."
@@ -110,7 +110,7 @@ jobs:
           retention-days: 30
           compression-level: 0
 
-      - name: Create official v2.0.20 annotated tag on main
+      - name: Create official v2.0.21 annotated tag on main
         if: steps.version.outputs.publish == 'true' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
@@ -126,7 +126,7 @@ jobs:
               echo "Existing tag does not match the merged HEAD"; exit 1;
             }
           else
-            git tag -a "$TAG" -m "MERP-ui $VERSION — Character creation description buttons"
+            git tag -a "$TAG" -m "MERP-ui $VERSION — Lightweight Race, Culture and Profession Actors"
             git push origin "refs/tags/$TAG"
           fi
 
@@ -142,8 +142,8 @@ jobs:
           ZIP="dist/merp-ui-$VERSION.zip"
           test -s "$ZIP"
           gh release create "$TAG" "$ZIP" \
-            --title "MERP-ui $VERSION — Character creation description buttons" \
-            --notes-file ".github/release-notes/v2.0.20.md" \
+            --title "MERP-ui $VERSION — Lightweight Race, Culture and Profession Actors" \
+            --notes-file ".github/release-notes/v2.0.21.md" \
             --latest \
             --verify-tag
           gh release view "$TAG" --json url,assets
